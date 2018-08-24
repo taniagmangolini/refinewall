@@ -4,7 +4,7 @@ public interface IBlastService {
 
 	String runBlast(String sequence, String email) ;
 	
-	void checkBlastStatus(String jobId);
+	String checkBlastStatus(String jobId);
 	
-	void getBlastResult(String jobId);
+	String getBlastResult(String jobId);
 }
