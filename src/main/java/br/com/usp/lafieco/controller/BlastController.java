@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.controller;
 
+import java.util.List;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import br.com.usp.lafieco.exception.CustomException;
-import br.com.usp.lafieco.service.IBlastService;
+import br.com.usp.lafieco.service.interfaces.IBlastService;
+import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @RestController
 @CrossOrigin(maxAge = 3600)
@@ -25,6 +28,9 @@ public class BlastController {
 
 	@Autowired
 	private MessageSource messageSource;
+	
+	@Autowired
+	private IFileService fileService;
 
 	@CrossOrigin
 	@PostMapping
@@ -73,4 +79,14 @@ public class BlastController {
 
 		return result;
 	}
+	
+	@CrossOrigin
+	@PostMapping("/multiple")
+	@ResponseBody
+	public String runBlastMultipleSequences(@RequestParam("file") MultipartFile file,  @RequestParam("email") String email) {
+		List<String> sequences = fileService.processMultipleSequenceFile(file);
+		System.out.println(sequences);
+		return "Feito";
+	}
+
 }

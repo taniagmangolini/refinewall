@@ -1,8 +1,6 @@
 package br.com.usp.lafieco.service;
 
-import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
@@ -20,6 +18,7 @@ import br.com.usp.lafieco.enums.DatabaseEnum;
 import br.com.usp.lafieco.enums.ProgramEnum;
 import br.com.usp.lafieco.enums.SequenceTypeEnum;
 import br.com.usp.lafieco.exception.CustomException;
+import br.com.usp.lafieco.service.interfaces.IBlastService;
 
 @Component
 public class BlastService implements IBlastService {

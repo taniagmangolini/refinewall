@@ -1,4 +1,4 @@
-package br.com.usp.lafieco.service;
+package br.com.usp.lafieco.service.interfaces;
 
 public interface IBlastService {
 
