@@ -71,7 +71,6 @@ public class BlastService implements IBlastService {
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
 		
-		this.checkBlastStatus(data);
 		return data;
 	}
 	
