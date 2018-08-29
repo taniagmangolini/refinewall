@@ -56,17 +56,17 @@ public class FileService implements IFileService {
 		try {
 
 			inputFS = file.getInputStream();
-			
+
 			sequences = processCSVFile(inputFS);
 
 			for (int i = 0; i < sequences.size(); i++) {
-				
+
 				String[] idAndSequence = null;
-				
+
 				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
-					
+
 					idAndSequence = sequences.get(i).split(":");
-					
+
 					sequencesMap.put(idAndSequence[0].trim(), idAndSequence[1].trim());
 				}
 			}
@@ -185,17 +185,23 @@ public class FileService implements IFileService {
 
 			try {
 
-				String resultFolder = this.getFolderForSequenceFile(BLAST_RESULT_FOLDER, false);
+				String resultFolder = this.getFolderForSequenceFile(EXPORT_FOLDER + System.getProperty("file.separator")
+						+ folderName + System.getProperty("file.separator") + BLAST_RESULT_FOLDER, true);
 
 				if (resultFolder != null) {
 
-					Files.write(Paths.get(EXPORT_FOLDER + System.getProperty("file.separator") + folderName
-							+ System.getProperty("file.separator") + resultFolder + System.getProperty("file.separator")
-							+ fileName), export.getBytes());
+					/*
+					 * Files.write(Paths.get(EXPORT_FOLDER + System.getProperty("file.separator") +
+					 * folderName + System.getProperty("file.separator") + resultFolder +
+					 * System.getProperty("file.separator") + fileName), export.getBytes());
+					 */
+
+					Files.write(Paths.get(resultFolder + System.getProperty("file.separator") + fileName),
+							export.getBytes());
 				}
 
 			} catch (IOException e) {
-
+				System.out.println("ERRORS = > " + jobId + " - " + e.getMessage() + " - " + e.getCause());
 				errors.put(jobId + "-" + gene, messageSource.getMessage("messages.errorToExport",
 						new Object[] { e.getMessage() + " - " + e.getCause() }, Locale.US));
 			}
@@ -203,7 +209,7 @@ public class FileService implements IFileService {
 		} else {
 
 			errors.put(jobId + "-" + gene,
-					messageSource.getMessage("messages.errorExportEmpty", new Object[] {}, Locale.US));
+					messageSource.getMessage("messages.errorExportEmpty", new Object[] { jobId }, Locale.US));
 		}
 	}
 
@@ -280,19 +286,29 @@ public class FileService implements IFileService {
 
 		String sequencesFileFolder = null;
 
+		File file = null;
+
 		if (sequencesFile != null) {
 
-			Integer extensionBeginning = sequencesFile.lastIndexOf(".");
+			if (fullName) {
 
-			if (extensionBeginning != -1) {
-
-				sequencesFileFolder = sequencesFile.substring(0, extensionBeginning);
+				sequencesFileFolder = sequencesFile;
+				file = new File(sequencesFileFolder);
 
 			} else {
-				sequencesFileFolder = sequencesFile;
-			}
 
-			File file = new File(EXPORT_FOLDER + System.getProperty("file.separator") + sequencesFileFolder);
+				Integer extensionBeginning = sequencesFile.lastIndexOf(".");
+
+				if (extensionBeginning != -1) {
+
+					sequencesFileFolder = sequencesFile.substring(0, extensionBeginning);
+
+				} else {
+					sequencesFileFolder = sequencesFile;
+				}
+
+				file = new File(EXPORT_FOLDER + System.getProperty("file.separator") + sequencesFileFolder);
+			}
 
 			// create a folder for the sequence file
 			if (!file.exists()) {
@@ -303,9 +319,9 @@ public class FileService implements IFileService {
 				}
 			}
 
-			if (file.exists() && fullName) {
-				sequencesFileFolder = file.getAbsolutePath();
-			}
+			// if (file.exists() && fullName) {
+			// sequencesFileFolder = file.getAbsolutePath();
+			// }
 
 		}
 
