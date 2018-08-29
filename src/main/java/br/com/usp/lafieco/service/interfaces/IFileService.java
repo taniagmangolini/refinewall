@@ -9,14 +9,14 @@ import org.springframework.web.multipart.MultipartFile;
 
 public interface IFileService {
 
-	List<String> processMultipleSequenceFile(MultipartFile file);
+	Map<String, String> processMultipleSequenceFile(MultipartFile file);
 
 	List<String> processCSVFile(InputStream inputFS);
 
-	Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds,
+	Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds, Map<String, Map<String, String>> sequencesJobs,
 			String folderName);
 
-	void exportBlastResultToFile(String jobId, String export, Map<String, String> errors, String folderName);
+	void exportBlastResultToFile(String jobId, String gene, String export, Map<String, String> errors, String folderName);
 
 	void exportErrors(Map<String, String> errors, String folderName);
 

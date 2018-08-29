@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -44,7 +45,6 @@ public class BlastService implements IBlastService {
 	private final String PROGRAM = "program";
 	private final String SEQUENCE_TYPE = "stype";
 	private final String DATABASE = "database";
-	private final String TXT = ".TXT";
 	private final Integer MAX_ATTEMPTS = 100;
 
 	@Autowired
@@ -152,66 +152,67 @@ public class BlastService implements IBlastService {
 
 	public void runBlastMultipleSequences(MultipartFile file, String email) {
 
-		List<String> sequences = fileService.processMultipleSequenceFile(file);
+		Map<String, String> sequences = fileService.processMultipleSequenceFile(file);
 
-		String folderName = null;
+		Map<String, Map<String, String>> sequencesJobs = new HashMap<String, Map<String, String>>();
 
-		List<String> jobIds = new ArrayList<String>();
+		List<String> jobIds = null;
 
 		Map<String, String> jobResult = new HashMap<String, String>();
 
 		Map<String, String> errors = new HashMap<String, String>();
 
+		String folderName = null;
+
 		if (sequences != null && !sequences.isEmpty()) {
+			
+			jobIds = new ArrayList<String>();
+			
+			Iterator it = sequences.entrySet().iterator();
 
-			folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
+			for (Map.Entry<String, String> entry : sequences.entrySet()) {
+				
+				String gene = entry.getKey();
 
-			if (fileService.checkIfExistsBlastJobFile(folderName) != null) {
+				String sequence = entry.getValue();
 
-				for (String sequence : sequences) {
+				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
 
 				String jobId = this.runBlast(sequence, email);
 
-					jobIds.add(jobId);
-				}
+				sequencesJobs.put(jobId, new HashMap<String, String>());
 
-				if (jobIds != null && !jobIds.isEmpty()) {
+				sequencesJobs.get(jobId).put(gene, sequence);
 
-					fileService.exportBlastJobsToFile(jobIds, folderName);
-				}
-
+				jobIds.add(jobId);
 			}
-		}
+			
+			if (!jobIds.isEmpty()) {
 
-		InputStream inputStream;
-		
-		jobIds = null;
-		
-		try {
-
-			File jobsFile = fileService.checkIfExistsBlastJobFile(folderName);
-
-			inputStream = new FileInputStream(jobsFile);
-
-			jobIds = fileService.processCSVFile(inputStream);
-
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				fileService.exportBlastJobsToFile(jobIds, folderName);
+			}
 		}
 
 		if (jobIds != null && !jobIds.isEmpty()) {
 
-			Integer attempts = 100;
+			Integer attempts = 0;
 
 			while ((jobIds.size() != jobResult.size()) && attempts <= MAX_ATTEMPTS) {
+
 				for (String jobId : jobIds) {
+
 					if (jobResult.get(jobId) == null) {
+
 						String status = this.checkBlastStatus(jobId);
+
 						if (status.equals(BlastJobStatusEnum.FINISHED.getStatus())) {
+
 							String result = this.getBlastResult(jobId);
+
 							jobResult.put(jobId, result);
+
 						} else {
+							
 							attempts += 1;
 						}
 					}
@@ -220,9 +221,11 @@ public class BlastService implements IBlastService {
 		}
 
 		if (folderName != null) {
-			errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, folderName);
+
+			errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, sequencesJobs, folderName);
 
 			if (errors != null && !errors.isEmpty()) {
+
 				fileService.exportErrors(errors, folderName);
 			}
 		}
