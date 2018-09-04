@@ -3,19 +3,21 @@ package br.com.usp.lafieco.service;
 import java.net.URI;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.usp.lafieco.bean.GoSearchGeneProductResult;
 import br.com.usp.lafieco.bean.GeneProduct;
+import br.com.usp.lafieco.bean.GoSearchGeneProductResult;
 import br.com.usp.lafieco.service.interfaces.IProteinService;
 
+@Component
 public class ProteinService implements IProteinService {
 
 	private final String BASE_URL = "https://www.ebi.ac.uk/QuickGO/services/geneproduct/search";
 
 	@Override
-	public List<GeneProduct> getGeneProductService(String idProtein) {
+	public List<GeneProduct> getGeneProduct(String idProtein) {
 		System.out.println("GENE PRODUCTS FOR =>>>> " + idProtein);
 		List<GeneProduct> geneProducts = null;
 		RestTemplate restTemplate = new RestTemplate();

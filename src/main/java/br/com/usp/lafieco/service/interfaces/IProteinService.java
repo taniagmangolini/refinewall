@@ -6,6 +6,6 @@ import br.com.usp.lafieco.bean.GeneProduct;
 
 public interface IProteinService {
 
-	List<GeneProduct> getGeneProductService(String idProtein);
+	List<GeneProduct> getGeneProduct(String idProtein);
 	
 }
