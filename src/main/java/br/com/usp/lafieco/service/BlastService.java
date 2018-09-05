@@ -1,9 +1,5 @@
 package br.com.usp.lafieco.service;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -222,8 +218,8 @@ public class BlastService implements IBlastService {
 
 		if (folderName != null) {
 
-			errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, sequencesJobs, folderName);
-
+			errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, sequencesJobs, folderName);	
+		
 			if (errors != null && !errors.isEmpty()) {
 
 				fileService.exportErrors(errors, folderName);

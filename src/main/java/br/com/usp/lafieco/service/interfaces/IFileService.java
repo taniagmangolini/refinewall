@@ -7,6 +7,8 @@ import java.util.Map;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import br.com.usp.lafieco.entity.BlastResult;
+
 public interface IFileService {
 
 	Map<String, String> processMultipleSequenceFile(MultipartFile file);
@@ -29,4 +31,8 @@ public interface IFileService {
 	File checkIfExistsBlastJobFile(String sequencesFile);
 
 	File checkIfExistsTxtFile(String folder);
+	
+	List<String> readFile(String fileName, String folder) ;
+	
+	Map<String, BlastResult>  processBlastResultFile(String gene,String folderName);
 }
