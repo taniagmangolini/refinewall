@@ -1,13 +1,11 @@
 package br.com.usp.lafieco.service;
 
 import java.net.URI;
-import java.util.List;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.usp.lafieco.bean.GeneProduct;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.enums.FormatEnum;
 import br.com.usp.lafieco.service.interfaces.IUniprotService;
