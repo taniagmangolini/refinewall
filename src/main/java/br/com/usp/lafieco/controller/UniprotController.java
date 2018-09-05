@@ -1,6 +1,5 @@
 package br.com.usp.lafieco.controller;
 
-import java.util.List;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,17 +11,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.usp.lafieco.bean.GeneProduct;
+import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.exception.CustomException;
-import br.com.usp.lafieco.service.interfaces.IProteinService;
+import br.com.usp.lafieco.service.interfaces.IUniprotService;
 
 @RestController
 @CrossOrigin(maxAge = 3600)
-@RequestMapping("/gene-product")
-public class GeneProductController {
+@RequestMapping("/uniprot")
+public class UniprotController {
 
 	@Autowired
-	private IProteinService proteinService;
+	private IUniprotService uniprotService;
 
 	@Autowired
 	private MessageSource messageSource;
@@ -30,9 +29,9 @@ public class GeneProductController {
 	@CrossOrigin
 	@GetMapping
 	@ResponseBody
-	public List<GeneProduct> runBlast(@RequestParam("idProtein") String idProtein) {
+	public Uniprot runBlast(@RequestParam("idProtein") String idProtein) {
 
-		List<GeneProduct> geneProduct = proteinService.getGeneProduct(idProtein);
+		Uniprot geneProduct = uniprotService.getUniprot(idProtein);
 
 		System.out.println("Blast job: " + geneProduct);
 
