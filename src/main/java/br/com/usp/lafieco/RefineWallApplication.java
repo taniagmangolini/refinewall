@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ResourceBundleMessageSource;
 
 @SpringBootApplication
-public class RefinewallApplication {
+public class RefineWallApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RefinewallApplication.class, args);
+		SpringApplication.run(RefineWallApplication.class, args);
 	}
 	
 	
