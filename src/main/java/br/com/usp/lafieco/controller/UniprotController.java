@@ -29,16 +29,14 @@ public class UniprotController {
 	@CrossOrigin
 	@GetMapping
 	@ResponseBody
-	public Uniprot runBlast(@RequestParam("idProtein") String idProtein) {
+	public Uniprot getUniprot(@RequestParam("idProtein") String idProtein) {
 
-		Uniprot geneProduct = uniprotService.getUniprot(idProtein);
+		Uniprot uniprot = uniprotService.getUniprot(idProtein);
 
-		System.out.println("Blast job: " + geneProduct);
-
-		if (geneProduct == null ) {
-			throw new CustomException(messageSource.getMessage("messages.errorGeneProductNotFound", new Object[] {idProtein}, Locale.US));
+		if (uniprot == null ) {
+			throw new CustomException(messageSource.getMessage("messages.errorUniprot", new Object[] {idProtein}, Locale.US));
 		}
 
-		return geneProduct;
+		return uniprot;
 	}
 }
