@@ -267,7 +267,7 @@ public class FileService implements IFileService {
 
 								mapResult.get(identifier).setFullText(textLine.toString());
 
-								mapResult.get(identifier).setSucest(gene);
+								mapResult.get(identifier).setSucestBusca(gene);
 							}
 
 							identifier = null;

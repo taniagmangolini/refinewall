@@ -2,12 +2,17 @@ package br.com.usp.lafieco.model;
 
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -20,18 +25,19 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name = "blast_result")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt", "sucest"})
+@JsonIgnoreProperties(value = {"createdAt", "sucestBusca"})
 public class BlastResult {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name = "id_sucest")
-	private Long idSucest;
+	@ManyToOne
+	@JoinColumn
+	private Sucest sucest;
 	
-	@Column(name = "id_search")
-	private Long idSearch;
+	@ManyToOne
+	private SearchHistory searchHistory;
 	
 	@Column(name = "db")
 	private String db;
@@ -90,7 +96,7 @@ public class BlastResult {
     @Temporal(TemporalType.TIMESTAMP)
     private Date disabledAt;
     
-	private String sucest;
+	private String sucestBusca;
 	
 	public Long getId() {
 		return id;
@@ -98,22 +104,6 @@ public class BlastResult {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public Long getIdSucest() {
-		return idSucest;
-	}
-
-	public void setIdSucest(Long idSucest) {
-		this.idSucest = idSucest;
-	}
-
-	public Long getIdSearch() {
-		return idSearch;
-	}
-
-	public void setIdSearch(Long idSearch) {
-		this.idSearch = idSearch;
 	}
 
 	public String getDb() {
@@ -260,12 +250,168 @@ public class BlastResult {
 		this.disabledAt = disabledAt;
 	}
 
-	public String getSucest() {
+	public Sucest getSucest() {
 		return sucest;
 	}
 
-	public void setSucest(String sucest) {
+	public void setSucest(Sucest sucest) {
 		this.sucest = sucest;
 	}
 
+	public String getSucestBusca() {
+		return sucestBusca;
+	}
+
+	public void setSucestBusca(String sucestBusca) {
+		this.sucestBusca = sucestBusca;
+	}
+
+	public SearchHistory getSearchHistory() {
+		return searchHistory;
+	}
+
+	public void setSearchHistory(SearchHistory searchHistory) {
+		this.searchHistory = searchHistory;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((createdAt == null) ? 0 : createdAt.hashCode());
+		result = prime * result + ((db == null) ? 0 : db.hashCode());
+		result = prime * result + ((disabledAt == null) ? 0 : disabledAt.hashCode());
+		result = prime * result + ((entryName == null) ? 0 : entryName.hashCode());
+		result = prime * result + ((evalue == null) ? 0 : evalue.hashCode());
+		result = prime * result + ((fullText == null) ? 0 : fullText.hashCode());
+		result = prime * result + ((gaps == null) ? 0 : gaps.hashCode());
+		result = prime * result + ((geneName == null) ? 0 : geneName.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((identities == null) ? 0 : identities.hashCode());
+		result = prime * result + ((length == null) ? 0 : length.hashCode());
+		result = prime * result + ((organismIdentifier == null) ? 0 : organismIdentifier.hashCode());
+		result = prime * result + ((organismName == null) ? 0 : organismName.hashCode());
+		result = prime * result + ((positives == null) ? 0 : positives.hashCode());
+		result = prime * result + ((proteinExistence == null) ? 0 : proteinExistence.hashCode());
+		result = prime * result + ((proteinName == null) ? 0 : proteinName.hashCode());
+		result = prime * result + ((score == null) ? 0 : score.hashCode());
+		result = prime * result + ((sequenceVersion == null) ? 0 : sequenceVersion.hashCode());
+		result = prime * result + ((sucestBusca == null) ? 0 : sucestBusca.hashCode());
+		result = prime * result + ((uniqueIdentifier == null) ? 0 : uniqueIdentifier.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		BlastResult other = (BlastResult) obj;
+		if (createdAt == null) {
+			if (other.createdAt != null)
+				return false;
+		} else if (!createdAt.equals(other.createdAt))
+			return false;
+		if (db == null) {
+			if (other.db != null)
+				return false;
+		} else if (!db.equals(other.db))
+			return false;
+		if (disabledAt == null) {
+			if (other.disabledAt != null)
+				return false;
+		} else if (!disabledAt.equals(other.disabledAt))
+			return false;
+		if (entryName == null) {
+			if (other.entryName != null)
+				return false;
+		} else if (!entryName.equals(other.entryName))
+			return false;
+		if (evalue == null) {
+			if (other.evalue != null)
+				return false;
+		} else if (!evalue.equals(other.evalue))
+			return false;
+		if (fullText == null) {
+			if (other.fullText != null)
+				return false;
+		} else if (!fullText.equals(other.fullText))
+			return false;
+		if (gaps == null) {
+			if (other.gaps != null)
+				return false;
+		} else if (!gaps.equals(other.gaps))
+			return false;
+		if (geneName == null) {
+			if (other.geneName != null)
+				return false;
+		} else if (!geneName.equals(other.geneName))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		if (identities == null) {
+			if (other.identities != null)
+				return false;
+		} else if (!identities.equals(other.identities))
+			return false;
+		if (length == null) {
+			if (other.length != null)
+				return false;
+		} else if (!length.equals(other.length))
+			return false;
+		if (organismIdentifier == null) {
+			if (other.organismIdentifier != null)
+				return false;
+		} else if (!organismIdentifier.equals(other.organismIdentifier))
+			return false;
+		if (organismName == null) {
+			if (other.organismName != null)
+				return false;
+		} else if (!organismName.equals(other.organismName))
+			return false;
+		if (positives == null) {
+			if (other.positives != null)
+				return false;
+		} else if (!positives.equals(other.positives))
+			return false;
+		if (proteinExistence == null) {
+			if (other.proteinExistence != null)
+				return false;
+		} else if (!proteinExistence.equals(other.proteinExistence))
+			return false;
+		if (proteinName == null) {
+			if (other.proteinName != null)
+				return false;
+		} else if (!proteinName.equals(other.proteinName))
+			return false;
+		if (score == null) {
+			if (other.score != null)
+				return false;
+		} else if (!score.equals(other.score))
+			return false;
+		if (sequenceVersion == null) {
+			if (other.sequenceVersion != null)
+				return false;
+		} else if (!sequenceVersion.equals(other.sequenceVersion))
+			return false;
+		if (sucestBusca == null) {
+			if (other.sucestBusca != null)
+				return false;
+		} else if (!sucestBusca.equals(other.sucestBusca))
+			return false;
+		if (uniqueIdentifier == null) {
+			if (other.uniqueIdentifier != null)
+				return false;
+		} else if (!uniqueIdentifier.equals(other.uniqueIdentifier))
+			return false;
+		return true;
+	}
+	
+	
 }

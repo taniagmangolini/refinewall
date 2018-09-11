@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.controller;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -13,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @RestController
@@ -25,6 +26,9 @@ public class FileController {
 
 	@Autowired
 	private IFileService fileService;
+	
+	@Autowired
+	private IBlastService blastService;
 
 	@Autowired
 	private MessageSource messageSource;
@@ -53,7 +57,13 @@ public class FileController {
 		if (mapResult == null || mapResult.isEmpty() ) {
 			throw new CustomException(messageSource.getMessage("messages.errorProcessFile", new Object[] {gene, folderName}, Locale.US));
 		}
+		if(mapResult != null && !mapResult.isEmpty()) {
+			Iterator it = mapResult.entrySet().iterator();
 
+			for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
+				blastService.saveBlastResult(entry.getValue());
+			}
+		}
 		return mapResult;
 	}
 }
