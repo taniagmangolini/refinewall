@@ -1,27 +1,95 @@
-package br.com.usp.lafieco.entity;
+package br.com.usp.lafieco.model;
 
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@Entity
+@Table(name = "blast_result")
+@EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"createdAt", "sucest"})
 public class BlastResult {
 
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
+	@Column(name = "id_sucest")
 	private Long idSucest;
+	
+	@Column(name = "id_search")
 	private Long idSearch;
+	
+	@Column(name = "db")
 	private String db;
+	
+	@Column(name = "unique_identifier")
 	private String uniqueIdentifier;
+	
+	@Column(name = "entry_name")
 	private String entryName;
-	private String proteiName;
+	
+	@Column(name = "proteinName")
+	private String proteinName;
+	
+	@Column(name = "organism_name")
 	private String organismName;
+	
+	@Column(name = "organism_identifier")
 	private String organismIdentifier;
+	
+	@Column(name = "gene_name")
 	private String geneName;
+	
+	@Column(name = "protein_existence")
 	private Integer proteinExistence;
+	
+	@Column(name = "sequence_version")
 	private Integer sequenceVersion;
+	
+	@Column(name = "score")
 	private Integer score;
+	
+	@Column(name = "evalue")
 	private String evalue;
+	
+	@Column(name = "identities")
 	private Integer identities;
+	
+	@Column(name = "length")
 	private Integer length;
+	
+	@Column(name = "positives")
 	private Integer positives;
+	
+	@Column(name = "gaps")
 	private Integer gaps;
+	
+	@Column(name = "fulltext")
 	private String fullText;
 	
+	@Column(name = "created_at", nullable = false, updatable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    @CreatedDate
+    private Date createdAt;
+
+    @Column(name = "disabled_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date disabledAt;
+    
 	private String sucest;
 	
 	public Long getId() {
@@ -72,12 +140,12 @@ public class BlastResult {
 		this.entryName = entryName;
 	}
 
-	public String getProteiName() {
-		return proteiName;
+	public String getProteinName() {
+		return proteinName;
 	}
 
-	public void setProteiName(String proteiName) {
-		this.proteiName = proteiName;
+	public void setProteinName(String proteiName) {
+		this.proteinName = proteiName;
 	}
 
 	public String getOrganismName() {
@@ -174,6 +242,22 @@ public class BlastResult {
 
 	public void setFullText(String fullText) {
 		this.fullText = fullText;
+	}
+
+	public Date getCreatedAt() {
+		return createdAt;
+	}
+
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public Date getDisabledAt() {
+		return disabledAt;
+	}
+
+	public void setDisabledAt(Date disabledAt) {
+		this.disabledAt = disabledAt;
 	}
 
 	public String getSucest() {

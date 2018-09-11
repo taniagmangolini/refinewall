@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
-import br.com.usp.lafieco.entity.BlastResult;
 import br.com.usp.lafieco.exception.CustomException;
+import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @RestController

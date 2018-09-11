@@ -23,8 +23,8 @@ import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.usp.lafieco.entity.BlastResult;
 import br.com.usp.lafieco.exception.CustomException;
+import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @Component
@@ -336,7 +336,7 @@ public class FileService implements IFileService {
 							// get the protein name: Uncharacterized protein
 							String proteinName = fullText.substring(0, fullText.indexOf("OS="));
 							fullText = fullText.substring(fullText.indexOf("OS=")).trim();
-							blastResult.setProteiName(proteinName.trim());
+							blastResult.setProteinName(proteinName.trim());
 
 							// OX=49390 GN=GSCOC_T00033080001 PE=4 SV=1
 							Integer OSBeginPosition = fullText.trim().indexOf("OS=");

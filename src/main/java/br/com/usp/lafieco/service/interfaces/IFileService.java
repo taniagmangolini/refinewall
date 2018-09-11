@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.usp.lafieco.entity.BlastResult;
+import br.com.usp.lafieco.model.BlastResult;
 
 public interface IFileService {
 
