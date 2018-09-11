@@ -309,7 +309,7 @@ public class FileService implements IFileService {
 						BlastResult blastResult = entry.getValue();
 
 						/*
-						 * Sample:
+						 * Line Sample:
 						 * ">TR:A0A068URA5_COFCA A0A068URA5 Uncharacterized protein OS=Coffea canephora OX=49390   GN=GSCOC_T00033080001 PE=4 SV=1  Length=1946   Score = 43.9 bits (102),  Expect = 2e-05   Identities = 19/23 (83%), Positives = 22/23 (96%), Gaps = 0/23 (0%)  Query  1     SRGLQISRILGGHKKDRAARNKE  23               SRGLQISRILGGH+KDR +RNK+  Sbjct  1924  SRGLQISRILGGHRKDRTSRNKD  1946 "
 						 */
 						String fullText = blastResult.getFullText();
