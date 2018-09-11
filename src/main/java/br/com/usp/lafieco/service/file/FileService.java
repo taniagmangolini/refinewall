@@ -266,7 +266,7 @@ public class FileService implements IFileService {
 							if (mapResult.get(identifier) != null) {
 
 								mapResult.get(identifier).setFullText(textLine.toString());
-								
+
 								mapResult.get(identifier).setSucest(gene);
 							}
 
@@ -315,14 +315,14 @@ public class FileService implements IFileService {
 						String fullText = blastResult.getFullText();
 
 						if (fullText != null && !fullText.trim().equalsIgnoreCase("")) {
-							
-							//remove extra spaces
+
+							// remove extra spaces
 							fullText = fullText.replaceAll("( )+", " ");
-							
+
 							// extract TR:A0A068URA5_COFCA parts
 							String db_unique = fullText.substring(0, id.length());
 							String[] parts = db_unique.split(":");
-							blastResult.setDb(parts[0].replaceAll(">", "")); 
+							blastResult.setDb(parts[0].replaceAll(">", ""));
 							blastResult.setUniqueIdentifier(parts[1].trim());
 
 							// remove TR:A0A068URA5_COFCA part from the string
@@ -332,44 +332,112 @@ public class FileService implements IFileService {
 							String entryName = fullText.substring(0, fullText.indexOf(" "));
 							fullText = fullText.substring(fullText.indexOf(" ")).trim();
 							blastResult.setEntryName(entryName.trim());
-
-							// get the protein name: Uncharacterized protein 
-							String proteinName = fullText.substring(0, fullText.indexOf("OS="));
 							
+							// get the protein name: Uncharacterized protein
+							String proteinName = fullText.substring(0, fullText.indexOf("OS="));
 							fullText = fullText.substring(fullText.indexOf("OS=")).trim();
 							blastResult.setProteiName(proteinName.trim());
 
-							// get the organism name:  OS=Coffea canephora
-							String organismName = fullText.substring(0, fullText.indexOf("OX="));
-							String[] organismNameParts = organismName.split("=");
-							fullText = fullText.substring(fullText.indexOf("OX=")).trim();
-							blastResult.setOrganismName(organismNameParts[1].trim());
+							// OX=49390 GN=GSCOC_T00033080001 PE=4 SV=1
+							Integer OSBeginPosition = fullText.trim().indexOf("OS=");
+							Integer OXBeginPosition = fullText.trim().indexOf("OX=");
+							Integer GNBeginPosition = fullText.trim().indexOf("GN=");
+							Integer PEBeginPosition = fullText.trim().indexOf("PE=");
+							Integer SVBeginPosition = fullText.trim().indexOf("SV=");
+							Integer lengthBeginPosition = fullText.trim().indexOf("Length=");
+							Integer scoreBeginPosition = fullText.trim().indexOf("Score =");
+							Integer expectBeginPosition = fullText.trim().indexOf("Expect =");
+							Integer identitiesBeginPosition = fullText.trim().indexOf("Identities =");
+							Integer positivesBeginPosition = fullText.trim().indexOf("Positives =");
+							Integer gapsBeginPosition = fullText.trim().indexOf("Gaps =");
+							Integer queryBeginPosition = fullText.trim().indexOf("Query");
+	
+							// OS
+							if (OSBeginPosition != -1 && OXBeginPosition != 1) {
+								String[] OSParts = fullText.substring(OSBeginPosition, OXBeginPosition).trim().split("=");
+								blastResult.setOrganismName(OSParts[1].trim());
+							}
 							
-							//OX=49390   GN=GSCOC_T00033080001 PE=4 SV=1 
-							fullText = fullText.substring(0, fullText.indexOf("Length=")).trim();
-							String[] parts2 = fullText.split(" ");
-							for(int i = 0; i < parts2.length; i++) {
+							// OX
+							String[] OXParts = null;
+							if (OXBeginPosition != -1  && GNBeginPosition != -1) {
 								
-								if(parts2[0].contains("OX=")) {
-									
-									String[] OXParts = parts2[i].split("=");
-									blastResult.setOrganismIdentifier(OXParts[1].trim());
-									
-								} else if(parts2[0].contains("GN=")) {
-									
-									String[] GNParts = parts2[i].split("=");
-									blastResult.setGeneName(GNParts[1].trim());
-									
-								} else if(parts2[0].contains("PE=")) {
-									
-									String[] PEParts = parts2[i].split("=");
-									blastResult.setProteinExistence(Integer.parseInt(PEParts[1].trim()));
-									
-								} else if(parts2[0].contains("SV=")) {
-									
-									String[] SVParts = parts2[i].split("=");
-									blastResult.setSequenceVersion(Integer.parseInt(SVParts[1]));
-								}
+								OXParts = fullText.substring(OXBeginPosition, GNBeginPosition).trim().split("=");	
+								
+							} else if (OXBeginPosition != -1  && PEBeginPosition != -1) {
+								
+								OXParts = fullText.substring(OXBeginPosition, PEBeginPosition).trim().split("=");	
+							}	
+							
+							blastResult.setOrganismIdentifier(OXParts[1].trim());
+							
+							// GN
+							if (GNBeginPosition != -1  && PEBeginPosition != -1) {
+								String[] GNParts = fullText.substring(GNBeginPosition, PEBeginPosition).trim().split("=");
+								blastResult.setGeneName(GNParts[1].trim());
+							} 
+							
+							// PE
+							if (PEBeginPosition != -1  && SVBeginPosition != -1) {
+								String[] PEParts = fullText.substring(PEBeginPosition, SVBeginPosition).trim().split("=");
+								blastResult.setProteinExistence(Integer.parseInt(PEParts[1].trim()));
+							}
+							
+							// SV
+							if (SVBeginPosition != -1   && lengthBeginPosition != -1) {
+								String[] SVParts = fullText.substring(SVBeginPosition, lengthBeginPosition).trim().split("=");
+								blastResult.setSequenceVersion(Integer.parseInt(SVParts[1].trim()));
+							}
+
+							// Length
+							if (lengthBeginPosition != -1  && scoreBeginPosition != -1) {
+								String[] lenghtParts = fullText.substring(lengthBeginPosition, scoreBeginPosition)
+										.trim().split("=");
+								blastResult.setLength(Integer.parseInt(lenghtParts[1].trim()));
+							}
+
+							// Score
+							if (scoreBeginPosition != -1  && expectBeginPosition != -1) {
+								String[] scoreParts = fullText.substring(scoreBeginPosition, expectBeginPosition).trim()
+										.split("=");
+								String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") + 1,
+										scoreParts[1].indexOf(")"));
+								blastResult.setScore(Integer.parseInt(scoreValuePart ));
+							}
+
+							// Expect
+							if (expectBeginPosition != -1 && identitiesBeginPosition != -1) {
+								String[] expectParts = fullText.substring(expectBeginPosition, identitiesBeginPosition)
+										.trim().split("=");
+								blastResult.setEvalue(expectParts[1].trim());
+							}
+
+							// Identities
+							if (identitiesBeginPosition != -1 && positivesBeginPosition != -1) {
+								String[] identitiesParts = fullText
+										.substring(identitiesBeginPosition, positivesBeginPosition).trim().split("=");
+								String identitiesValuePart = identitiesParts[1].substring(identitiesParts[1].indexOf("(") + 1,
+										identitiesParts[1].indexOf("%)"));
+								blastResult.setIdentities(Integer.parseInt(identitiesValuePart));
+							}
+
+							// Positives
+							if (positivesBeginPosition != -1  && gapsBeginPosition != -1) {
+								String[] positivesParts = fullText.substring(positivesBeginPosition, gapsBeginPosition)
+										.trim().split("=");
+								String positivesValueParts = positivesParts[1].substring(positivesParts[1].indexOf("(") + 1,
+										positivesParts[1].indexOf("%)"));
+								blastResult.setPositives(Integer.parseInt(positivesValueParts));
+							
+							}
+
+							// Gaps
+							if (gapsBeginPosition != -1  && queryBeginPosition != -1) {
+								String[] gapsParts = fullText.substring(gapsBeginPosition, queryBeginPosition).trim()
+										.split("=");
+								String gapsValuesParts = gapsParts[1].substring(gapsParts[1].indexOf("(") + 1,
+										gapsParts[1].indexOf("%)"));
+								blastResult.setGaps(Integer.parseInt(gapsValuesParts));
 							}
 						}
 					}

@@ -15,7 +15,7 @@ public class BlastResult {
 	private Integer proteinExistence;
 	private Integer sequenceVersion;
 	private Integer score;
-	private Integer evalue;
+	private String evalue;
 	private Integer identities;
 	private Integer length;
 	private Integer positives;
@@ -128,11 +128,11 @@ public class BlastResult {
 		this.score = score;
 	}
 
-	public Integer getEvalue() {
+	public String getEvalue() {
 		return evalue;
 	}
 
-	public void setEvalue(Integer evalue) {
+	public void setEvalue(String evalue) {
 		this.evalue = evalue;
 	}
 
