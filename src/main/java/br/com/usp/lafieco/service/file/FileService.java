@@ -445,7 +445,7 @@ public class FileService implements IFileService {
 			}
 
 		} catch (RuntimeException e) {
-			System.out.println("ERRORS = > " + e.getMessage() + " - " + e.getCause());
+			System.out.println(messageSource.getMessage("messages.errorProcessFile", new Object[] {gene, folderName}, Locale.US)  + e.getMessage() + " - " + e.getCause() );
 		}
 
 		return mapResult;
