@@ -21,14 +21,13 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "sucest")
+@Table(name = "sucest", schema="public")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
 public class Sucest {
 	
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private String id;
 	
 	@Column(name = "sequence")
 	private String sequence;
@@ -44,11 +43,12 @@ public class Sucest {
 	@OneToMany(mappedBy = "sucest", cascade = CascadeType.ALL)
 	private List<BlastResult> blastResults;
 
-	public Long getId() {
+
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

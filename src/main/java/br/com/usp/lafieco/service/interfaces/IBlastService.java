@@ -3,6 +3,7 @@ package br.com.usp.lafieco.service.interfaces;
 import org.springframework.web.multipart.MultipartFile;
 
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.model.Sucest;
 
 public interface IBlastService {
 
@@ -14,5 +15,5 @@ public interface IBlastService {
 
 	void runBlastMultipleSequences(MultipartFile file, String email);
 
-	void saveBlastResult(BlastResult blastResult);
+	void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest);
 }

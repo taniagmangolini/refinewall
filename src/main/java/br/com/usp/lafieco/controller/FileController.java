@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
@@ -50,8 +51,24 @@ public class FileController {
 	@CrossOrigin
 	@GetMapping("/process")
 	@ResponseBody 
-	public Map<String, BlastResult>  processBlastResultFile(@RequestParam("gene") String gene, @RequestParam("folderName") String  folderName) {
-
+	public Map<String, BlastResult>  processBlastResultFile(@RequestParam("gene") String gene, @RequestParam("sequence") String sequence,
+			@RequestParam("description") String description,
+			@RequestParam("folderName") String  folderName) {
+		
+		Sucest sucest = null;
+		
+		if(gene.trim().equalsIgnoreCase("") || sequence.trim().equalsIgnoreCase("") || description.trim().equalsIgnoreCase("")) {
+			
+			throw new CustomException(messageSource.getMessage("messages.errorSucestDataMissing", new Object[] {gene}, Locale.US));
+			
+		} else {
+			
+			sucest = new Sucest();
+			sucest.setDescription(description);
+			sucest.setId(gene);
+			sucest.setSequence(sequence);
+		}
+		
 		Map<String, BlastResult>  mapResult = fileService.processBlastResultFile(gene, folderName);
 
 		if (mapResult == null || mapResult.isEmpty() ) {
@@ -61,7 +78,7 @@ public class FileController {
 			Iterator it = mapResult.entrySet().iterator();
 
 			for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
-				blastService.saveBlastResult(entry.getValue());
+				blastService.saveBlastResultForSucest(entry.getValue(), sucest);
 			}
 		}
 		return mapResult;

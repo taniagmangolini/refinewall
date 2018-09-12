@@ -26,7 +26,9 @@ import br.com.usp.lafieco.enums.ProgramEnum;
 import br.com.usp.lafieco.enums.SequenceTypeEnum;
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.repository.BlastResultRepository;
+import br.com.usp.lafieco.repository.SucestRepository;
 import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
@@ -53,6 +55,9 @@ public class BlastService implements IBlastService {
 	
 	@Autowired
 	private BlastResultRepository blastRepository;
+	
+	@Autowired
+	private SucestRepository sucestRepository;
 
 	public String runBlast(String sequence, String email) {
 
@@ -232,8 +237,12 @@ public class BlastService implements IBlastService {
 		}
 	}
 
-	public void saveBlastResult(BlastResult blastResult) {
-
+	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
+		
+		sucestRepository.save(sucest);
+		
+		blastResult.setSucest(sucest);
+		
 		blastRepository.save(blastResult);
 	}
 }
