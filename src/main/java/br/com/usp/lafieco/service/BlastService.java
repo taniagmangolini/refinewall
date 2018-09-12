@@ -94,6 +94,7 @@ public class BlastService implements IBlastService {
 			System.out.println("got the blast job id: " + data);
 
 		} catch (RuntimeException e) {
+			
 			throw new CustomException(messageSource.getMessage("messages.errorBlast",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -121,6 +122,7 @@ public class BlastService implements IBlastService {
 			System.out.println("blast job " + jobId + " status: " + status);
 
 		} catch (RuntimeException e) {
+			
 			throw new CustomException(messageSource.getMessage("messages.errorBlastJobStatus",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -149,6 +151,7 @@ public class BlastService implements IBlastService {
 			System.out.println("blast result: " + blastResult);
 
 		} catch (RuntimeException e) {
+			
 			throw new CustomException(messageSource.getMessage("messages.errorBlastJobStatus",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -158,7 +161,7 @@ public class BlastService implements IBlastService {
 
 	public void runBlastMultipleSequences(MultipartFile file, String email) {
 
-		Map<String, String> sequences = fileService.processMultipleSequenceFile(file);
+		Map<String, Sucest> sequences = fileService.processMultipleSequenceFile(file);
 
 		Map<String, Map<String, String>> sequencesJobs = new HashMap<String, Map<String, String>>();
 
@@ -176,11 +179,13 @@ public class BlastService implements IBlastService {
 			
 			Iterator it = sequences.entrySet().iterator();
 
-			for (Map.Entry<String, String> entry : sequences.entrySet()) {
+			for (Map.Entry<String, Sucest> entry : sequences.entrySet()) {
 				
 				String gene = entry.getKey();
 
-				String sequence = entry.getValue();
+				Sucest sucest = entry.getValue();
+				
+				String sequence = sucest.getSequence();
 
 				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
 
@@ -233,13 +238,37 @@ public class BlastService implements IBlastService {
 			if (errors != null && !errors.isEmpty()) {
 
 				fileService.exportErrors(errors, folderName);
+				
+			} else {
+				
+				//process result files
+				Map<String, BlastResult>  mapResult  = fileService.processSucestBlastResultFiles(jobResult,jobIds,
+						sequencesJobs, folderName, sequences); 
+				
+				if (mapResult == null || mapResult.isEmpty() ) {
+					
+					throw new CustomException(messageSource.getMessage("messages.errorProcessFile", new Object[] {}, Locale.US));
+				}
+				
+				if(mapResult != null && !mapResult.isEmpty()) {
+					
+					Iterator it = mapResult.entrySet().iterator();
+
+					for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
+						
+						this.saveBlastResultForSucest(entry.getValue(), sequences.get(entry.getKey()));
+					}
+				}
 			}
 		}
 	}
 
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
 		
-		sucestRepository.save(sucest);
+		if(!sucestRepository.existsById(sucest.getId())) {
+			
+			sucestRepository.save(sucest);
+		}
 		
 		blastResult.setSucest(sucest);
 		

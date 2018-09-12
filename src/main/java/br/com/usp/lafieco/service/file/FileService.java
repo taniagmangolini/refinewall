@@ -25,6 +25,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @Component
@@ -69,11 +70,11 @@ public class FileService implements IFileService {
 		return lines;
 	}
 
-	public Map<String, String> processMultipleSequenceFile(MultipartFile file) {
+	public Map<String, Sucest> processMultipleSequenceFile(MultipartFile file) {
 
 		List<String> sequences = new ArrayList<String>();
 
-		Map<String, String> sequencesMap = new HashMap<String, String>();
+		Map<String, Sucest> sequencesMap = new HashMap<String, Sucest>();
 
 		InputStream inputFS;
 
@@ -90,15 +91,25 @@ public class FileService implements IFileService {
 				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
 
 					idAndSequence = sequences.get(i).split(":");
+					
+					Sucest sucest = new Sucest();
 
-					sequencesMap.put(idAndSequence[0].trim(), idAndSequence[1].trim());
+					sucest.setId(idAndSequence[0].trim());
+					
+					sucest.setDescription(idAndSequence[1].trim());
+					
+					sucest.setSequence(idAndSequence[3].trim());
+					
+					sequencesMap.put(sucest.getId(), sucest);
 				}
 			}
 
 		} catch (IOException e) {
+			
 			e.printStackTrace();
 			throw new CustomException(messageSource.getMessage("messages.errorInputFile", new Object[] {}, Locale.US));
 		}
+		
 		return sequencesMap;
 	}
 
@@ -155,6 +166,7 @@ public class FileService implements IFileService {
 
 				if (jobResult.get(jobId) != null && gene != null) {
 
+					//export the file
 					this.exportBlastResultToFile(jobId, gene, jobResult.get(jobId), errors, folderName);
 
 				} else {
@@ -566,4 +578,40 @@ public class FileService implements IFileService {
 		return sequencesFileFolder;
 	}
 
+	public Map<String, BlastResult> processSucestBlastResultFiles( Map<String, String> jobResult, List<String> jobIds,
+			Map<String, Map<String, String>> sequencesJobs, String folderName, Map<String, Sucest> sequences) {
+
+		Map<String, BlastResult>  mapResult = null;
+
+		if (jobResult != null && !jobResult.isEmpty()) {
+			
+			mapResult  = new HashMap<String, BlastResult> ();
+			
+			for (String jobId : jobIds) {
+
+				Map<String, String> geneSequence = sequencesJobs.get(jobId);
+
+				String gene = null;
+
+				Iterator it = geneSequence.entrySet().iterator();
+
+				for (Map.Entry<String, String> entry : geneSequence.entrySet()) {
+					gene = entry.getKey();
+					break;
+				}
+
+				if (jobResult.get(jobId) != null && gene != null && sequences.get(gene) != null) {
+
+					//process the file
+					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(gene, folderName);
+					
+					if(mapResultGene != null && !mapResultGene.isEmpty()) {
+						mapResult.putAll(mapResultGene);
+					}
+
+				} 
+			}
+		}
+		return mapResult;
+	}
 }

@@ -67,17 +67,22 @@ public class FileController {
 			sucest.setDescription(description);
 			sucest.setId(gene);
 			sucest.setSequence(sequence);
+			
 		}
 		
 		Map<String, BlastResult>  mapResult = fileService.processBlastResultFile(gene, folderName);
 
 		if (mapResult == null || mapResult.isEmpty() ) {
+			
 			throw new CustomException(messageSource.getMessage("messages.errorProcessFile", new Object[] {gene, folderName}, Locale.US));
 		}
+		
 		if(mapResult != null && !mapResult.isEmpty()) {
+			
 			Iterator it = mapResult.entrySet().iterator();
 
 			for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
+				
 				blastService.saveBlastResultForSucest(entry.getValue(), sucest);
 			}
 		}

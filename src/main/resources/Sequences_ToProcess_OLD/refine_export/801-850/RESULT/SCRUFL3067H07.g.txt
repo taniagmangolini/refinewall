@@ -1,0 +1,4515 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1Z5RNR4_SORBI  A0A1Z5RNR4 Uncharacterized protein OS=Sorghu...  166     4e-49
+TR:A0A1Z5RN75_SORBI  A0A1Z5RN75 Uncharacterized protein OS=Sorghu...  166     5e-49
+TR:A0A2H4YIW3_9POAL  A0A2H4YIW3 Expansin 86 OS=Saccharum hybrid c...  164     2e-48
+TR:A0A2H4YIU8_9POAL  A0A2H4YIU8 Expansin 39 OS=Saccharum hybrid c...  164     2e-48
+TR:C5XVR2_SORBI  C5XVR2 Uncharacterized protein OS=Sorghum bicolo...  164     3e-48
+TR:A0A2H4YIU6_9POAL  A0A2H4YIU6 Expansin 57 OS=Saccharum hybrid c...  164     3e-48
+TR:A0A2H4YIV0_9POAL  A0A2H4YIV0 Expansin 22 OS=Saccharum hybrid c...  164     3e-48
+TR:K3ZJA1_SETIT  K3ZJA1 Uncharacterized protein OS=Setaria italic...  163     7e-48
+TR:A0A2S3IKZ3_9POAL  A0A2S3IKZ3 Uncharacterized protein OS=Panicu...  163     8e-48
+TR:A0A2T7C4W6_9POAL  A0A2T7C4W6 Uncharacterized protein OS=Panicu...  163     8e-48
+TR:B4FR82_MAIZE  B4FR82 Beta-expansin 1a OS=Zea mays OX=4577 GN=1...  163     9e-48
+TR:A0A1D6P6X2_MAIZE  A0A1D6P6X2 Beta-expansin 5 OS=Zea mays OX=45...  142     4e-41
+TR:A0A1D6K8H4_MAIZE  A0A1D6K8H4 Expansin-B4 OS=Zea mays OX=4577 G...  140     2e-40
+TR:A0A2T7CA02_9POAL  A0A2T7CA02 Uncharacterized protein OS=Panicu...  143     2e-40
+TR:K4ADV1_SETIT  K4ADV1 Uncharacterized protein OS=Setaria italic...  142     3e-40
+TR:K7VGX2_MAIZE  K7VGX2 Beta-expansin 5 OS=Zea mays OX=4577 GN=54...  142     3e-40
+TR:Q94KS7_MAIZE  Q94KS7 Beta-expansin 7 OS=Zea mays OX=4577 GN=ex...  141     7e-40
+TR:A0A2T8I406_9POAL  A0A2T8I406 Uncharacterized protein OS=Panicu...  143     7e-40
+TR:K4ADV0_SETIT  K4ADV0 Uncharacterized protein OS=Setaria italic...  140     1e-39
+TR:A0A1D6K8H5_MAIZE  A0A1D6K8H5 Expansin-B4 OS=Zea mays OX=4577 G...  140     1e-39
+TR:A0A1E5URV9_9POAL  A0A1E5URV9 Expansin-B3 OS=Dichanthelium olig...  140     2e-39
+TR:A0A2I6SQL8_9POAL  A0A2I6SQL8 Beta-expansin 5 OS=Saccharum arun...  140     3e-39
+TR:B6T629_MAIZE  B6T629 Beta-expansin 1a OS=Zea mays OX=4577 GN=1...  140     3e-39
+TR:A0A2S3INQ5_9POAL  A0A2S3INQ5 Uncharacterized protein OS=Panicu...  139     5e-39
+TR:A0A2T7CA09_9POAL  A0A2T7CA09 Uncharacterized protein OS=Panicu...  139     5e-39
+TR:C5WSE8_SORBI  C5WSE8 Uncharacterized protein OS=Sorghum bicolo...  139     7e-39
+TR:A0A2I8B2B1_9POAL  A0A2I8B2B1 Beta-expansin 7 OS=Saccharum arun...  139     7e-39
+TR:K4ADU6_SETIT  K4ADU6 Uncharacterized protein OS=Setaria italic...  138     1e-38
+TR:A0A1B6QLY5_SORBI  A0A1B6QLY5 Uncharacterized protein OS=Sorghu...  138     5e-38
+TR:A0A2H4YIX8_9POAL  A0A2H4YIX8 Expansin 49 OS=Saccharum hybrid c...  136     6e-38
+TR:A0A1E5UNM9_9POAL  A0A1E5UNM9 Expansin-B3 OS=Dichanthelium olig...  136     6e-38
+TR:A0A2I6SQK7_9POAL  A0A2I6SQK7 Beta-expansin 7 OS=Saccharum arun...  136     6e-38
+TR:A0A1E5W0K8_9POAL  A0A1E5W0K8 Expansin-B3 OS=Dichanthelium olig...  139     9e-38
+TR:C5WSF0_SORBI  C5WSF0 Uncharacterized protein OS=Sorghum bicolo...  135     1e-37
+TR:A0A2T7CA12_9POAL  A0A2T7CA12 Uncharacterized protein OS=Panicu...  135     2e-37
+TR:A0A1Z5S8B7_SORBI  A0A1Z5S8B7 Uncharacterized protein OS=Sorghu...  135     3e-37
+TR:A0A1Z5S8J9_SORBI  A0A1Z5S8J9 Uncharacterized protein OS=Sorghu...  135     4e-37
+TR:J3N4T1_ORYBR  J3N4T1 Uncharacterized protein OS=Oryza brachyan...  134     6e-37
+TR:A0A0E0MAL2_ORYPU  A0A0E0MAL2 Uncharacterized protein OS=Oryza ...  132     2e-36
+TR:A0A2S3INR0_9POAL  A0A2S3INR0 Uncharacterized protein OS=Panicu...  132     3e-36
+TR:A0A0E0IWC6_ORYNI  A0A0E0IWC6 Uncharacterized protein OS=Oryza ...  131     5e-36
+TR:A0A0E0R2C3_ORYRU  A0A0E0R2C3 Uncharacterized protein OS=Oryza ...  131     5e-36
+TR:A0A0D3HGH7_9ORYZ  A0A0D3HGH7 Uncharacterized protein OS=Oryza ...  131     5e-36
+TR:I1QVU7_ORYGL  I1QVU7 Uncharacterized protein OS=Oryza glaberri...  131     5e-36
+TR:A0A0E0BDL7_9ORYZ  A0A0E0BDL7 Uncharacterized protein OS=Oryza ...  131     5e-36
+TR:A0A0E0F0Y7_9ORYZ  A0A0E0F0Y7 Uncharacterized protein OS=Oryza ...  131     5e-36
+SP:EXPB3_ORYSJ  Q336T5 Expansin-B3 OS=Oryza sativa subsp. japonic...  130     2e-35
+TR:A2ZA45_ORYSI  A2ZA45 Uncharacterized protein OS=Oryza sativa s...  130     2e-35
+TR:B7ER55_ORYSJ  B7ER55 Beta expansin 3 OS=Oryza sativa subsp. ja...  130     2e-35
+TR:Q949I2_FESPR  Q949I2 Beta expansin B3 OS=Festuca pratensis OX=...  128     1e-34
+TR:A0A0D9XMB0_9ORYZ  A0A0D9XMB0 Uncharacterized protein OS=Leersi...  125     9e-34
+TR:I1I632_BRADI  I1I632 Uncharacterized protein OS=Brachypodium d...  125     1e-33
+TR:Q56TQ1_WHEAT  Q56TQ1 Beta-expansin TaEXPB1 OS=Triticum aestivu...  124     6e-33
+TR:D3U5A3_HORVS  D3U5A3 Uncharacterized protein (Fragment) OS=Hor...  119     1e-32
+TR:D3U593_HORVV  D3U593 Uncharacterized protein (Fragment) OS=Hor...  119     1e-32
+TR:W5FLN5_WHEAT  W5FLN5 Uncharacterized protein OS=Triticum aesti...  124     2e-32
+TR:Q14F61_WHEAT  Q14F61 Expansin protein OS=Triticum aestivum OX=...  122     2e-32
+TR:W5G3Z6_WHEAT  W5G3Z6 Uncharacterized protein OS=Triticum aesti...  124     2e-32
+TR:R7W0X1_AEGTA  R7W0X1 Uncharacterized protein OS=Aegilops tausc...  124     2e-32
+TR:A0A287QJ62_HORVV  A0A287QJ62 Uncharacterized protein OS=Hordeu...  119     3e-32
+TR:A0A287QJ03_HORVV  A0A287QJ03 Uncharacterized protein OS=Hordeu...  119     3e-32
+TR:A0A287QJC6_HORVV  A0A287QJC6 Uncharacterized protein OS=Hordeu...  119     5e-32
+TR:A0A0P0VRV2_ORYSJ  A0A0P0VRV2 Os03g0102700 protein (Fragment) O...  121     7e-32
+TR:A0A1D5SHZ4_WHEAT  A0A1D5SHZ4 Uncharacterized protein OS=Tritic...  120     7e-32
+TR:A0A1D5SUU8_WHEAT  A0A1D5SUU8 Uncharacterized protein OS=Tritic...  120     7e-32
+TR:Q6QFA1_WHEAT  Q6QFA1 Expansin EXPB3 OS=Triticum aestivum OX=45...  120     7e-32
+TR:N1R542_AEGTA  N1R542 Uncharacterized protein OS=Aegilops tausc...  120     7e-32
+TR:Q56TQ0_WHEAT  Q56TQ0 Beta-expansin TaEXPB2 OS=Triticum aestivu...  120     1e-31
+TR:A0A287JWD0_HORVV  A0A287JWD0 Uncharacterized protein OS=Hordeu...  120     1e-31
+TR:W4ZTE4_WHEAT  W4ZTE4 Uncharacterized protein OS=Triticum aesti...  120     1e-31
+TR:J3LJ04_ORYBR  J3LJ04 Uncharacterized protein OS=Oryza brachyan...  121     2e-31
+TR:A0A287Q1C3_HORVV  A0A287Q1C3 Uncharacterized protein OS=Hordeu...  116     2e-31
+TR:A0A0E0GFK3_ORYNI  A0A0E0GFK3 Uncharacterized protein OS=Oryza ...  121     2e-31
+SP:EXPB7_ORYSJ  Q9LD07 Expansin-B7 OS=Oryza sativa subsp. japonic...  121     2e-31
+TR:A0A0D3FCN2_9ORYZ  A0A0D3FCN2 Uncharacterized protein OS=Oryza ...  121     2e-31
+TR:A2XBH1_ORYSI  A2XBH1 Uncharacterized protein OS=Oryza sativa s...  121     2e-31
+TR:A0A0E0NNI2_ORYRU  A0A0E0NNI2 Uncharacterized protein OS=Oryza ...  121     2e-31
+TR:I1P6L8_ORYGL  I1P6L8 Uncharacterized protein OS=Oryza glaberri...  121     2e-31
+TR:A0A0D9Z0U5_9ORYZ  A0A0D9Z0U5 Uncharacterized protein OS=Oryza ...  121     2e-31
+TR:Q6QFA3_WHEAT  Q6QFA3 Expansin EXPB1 OS=Triticum aestivum OX=45...  119     2e-31
+TR:A0A0E0EQE9_9ORYZ  A0A0E0EQE9 Uncharacterized protein OS=Oryza ...  121     2e-31
+TR:F2EER7_HORVV  F2EER7 Predicted protein OS=Hordeum vulgare subs...  119     2e-31
+TR:A0A1D5YV41_WHEAT  A0A1D5YV41 Uncharacterized protein OS=Tritic...  121     3e-31
+TR:A0A287Q1W7_HORVV  A0A287Q1W7 Uncharacterized protein OS=Hordeu...  116     3e-31
+TR:A0A0E0K7J1_ORYPU  A0A0E0K7J1 Uncharacterized protein OS=Oryza ...  121     3e-31
+TR:A0A287FN57_HORVV  A0A287FN57 Uncharacterized protein OS=Hordeu...  119     3e-31
+TR:A0A287Q158_HORVV  A0A287Q158 Uncharacterized protein OS=Hordeu...  116     3e-31
+TR:A0A287Q127_HORVV  A0A287Q127 Uncharacterized protein OS=Hordeu...  116     4e-31
+TR:A0A287QJ67_HORVV  A0A287QJ67 Uncharacterized protein OS=Hordeu...  119     5e-31
+TR:T1NR96_TRIUA  T1NR96 Uncharacterized protein OS=Triticum urart...  121     8e-31
+TR:A0A287U8U7_HORVV  A0A287U8U7 Uncharacterized protein OS=Hordeu...  115     8e-31
+TR:M0YKC6_HORVV  M0YKC6 Uncharacterized protein OS=Hordeum vulgar...  119     9e-31
+TR:A0A1E5WMZ8_9POAL  A0A1E5WMZ8 Expansin-B7 OS=Dichanthelium olig...  119     1e-30
+TR:D3U5A6_HORVS  D3U5A6 Uncharacterized protein (Fragment) OS=Hor...  114     1e-30
+TR:D3U596_HORVV  D3U596 Uncharacterized protein (Fragment) OS=Hor...  114     1e-30
+TR:A0A287Q165_HORVV  A0A287Q165 Uncharacterized protein OS=Hordeu...  116     1e-30
+TR:A0A287QJM6_HORVV  A0A287QJM6 Uncharacterized protein OS=Hordeu...  119     2e-30
+TR:A0A2S3IV47_9POAL  A0A2S3IV47 Uncharacterized protein OS=Panicu...  117     2e-30
+TR:A0A2T7CIY6_9POAL  A0A2T7CIY6 Uncharacterized protein OS=Panicu...  117     2e-30
+TR:A0A0A9GKG6_ARUDO  A0A0A9GKG6 Uncharacterized protein OS=Arundo...  117     3e-30
+TR:A0A287Q1C5_HORVV  A0A287Q1C5 Uncharacterized protein OS=Hordeu...  116     3e-30
+TR:A0A287Q1X8_HORVV  A0A287Q1X8 Uncharacterized protein OS=Hordeu...  116     3e-30
+TR:A0A287Q170_HORVV  A0A287Q170 Uncharacterized protein OS=Hordeu...  116     3e-30
+TR:A0A1D5XW21_WHEAT  A0A1D5XW21 Uncharacterized protein OS=Tritic...  116     4e-30
+TR:A0A0D9VNA8_9ORYZ  A0A0D9VNA8 Uncharacterized protein OS=Leersi...  117     5e-30
+TR:A0A1D5XN32_WHEAT  A0A1D5XN32 Uncharacterized protein OS=Tritic...  116     5e-30
+TR:A0A1D5XW20_WHEAT  A0A1D5XW20 Uncharacterized protein OS=Tritic...  116     5e-30
+TR:A0A1E5WLT0_9POAL  A0A1E5WLT0 Expansin-B7 OS=Dichanthelium olig...  117     6e-30
+TR:A0A287Q168_HORVV  A0A287Q168 Uncharacterized protein OS=Hordeu...  116     6e-30
+TR:A0A287JWF4_HORVV  A0A287JWF4 Uncharacterized protein OS=Hordeu...  116     6e-30
+TR:A0A1D5VXY2_WHEAT  A0A1D5VXY2 Beta-expansin 1a, putative, expre...  116     6e-30
+TR:A0A287U8B3_HORVV  A0A287U8B3 Uncharacterized protein OS=Hordeu...  115     7e-30
+TR:Q949I3_FESPR  Q949I3 Beta expansin B2 OS=Festuca pratensis OX=...  115     7e-30
+TR:J3N4T0_ORYBR  J3N4T0 Uncharacterized protein OS=Oryza brachyan...  115     8e-30
+TR:A0A1D5VXY3_WHEAT  A0A1D5VXY3 Beta-expansin 1a, putative, expre...  116     9e-30
+TR:A0A0D9VN96_9ORYZ  A0A0D9VN96 Uncharacterized protein OS=Leersi...  117     9e-30
+TR:A0A0B4SVQ5_WHEAT  A0A0B4SVQ5 Beta-expansin 1a OS=Triticum aest...  114     1e-29
+TR:A0A1D5WX48_WHEAT  A0A1D5WX48 Uncharacterized protein OS=Tritic...  115     1e-29
+TR:R7W719_AEGTA  R7W719 Uncharacterized protein OS=Aegilops tausc...  115     1e-29
+TR:D8L9P9_WHEAT  D8L9P9 Beta-expansin 1a, putative, expressed OS=...  116     1e-29
+TR:A0A1D6ALA1_WHEAT  A0A1D6ALA1 Uncharacterized protein OS=Tritic...  115     1e-29
+TR:A0A1D6A686_WHEAT  A0A1D6A686 Uncharacterized protein OS=Tritic...  115     1e-29
+TR:M7ZDH3_TRIUA  M7ZDH3 Expansin-B7 OS=Triticum urartu OX=4572 GN...  115     1e-29
+TR:A0A1D6BB07_WHEAT  A0A1D6BB07 Uncharacterized protein OS=Tritic...  115     1e-29
+TR:T1L9I1_TRIUA  T1L9I1 Uncharacterized protein OS=Triticum urart...  114     1e-29
+TR:K4ACP7_SETIT  K4ACP7 Uncharacterized protein OS=Setaria italic...  116     1e-29
+TR:A0A1D5YB75_WHEAT  A0A1D5YB75 Uncharacterized protein OS=Tritic...  116     1e-29
+TR:A0A0B4SVH3_WHEAT  A0A0B4SVH3 Beta-expansin 1a OS=Triticum aest...  115     1e-29
+TR:D8LAL5_WHEAT  D8LAL5 Beta-expansin 1a, putative, expressed OS=...  115     1e-29
+TR:A0A287Q163_HORVV  A0A287Q163 Uncharacterized protein OS=Hordeu...  116     2e-29
+TR:A0A1D5XW19_WHEAT  A0A1D5XW19 Uncharacterized protein OS=Tritic...  116     2e-29
+TR:A0A1D5XN34_WHEAT  A0A1D5XN34 Uncharacterized protein OS=Tritic...  116     2e-29
+TR:B6U4P4_MAIZE  B6U4P4 Beta-expansin OS=Zea mays OX=4577 PE=2 SV=1   115     2e-29
+TR:B6UAB6_MAIZE  B6UAB6 Beta-expansin 1a OS=Zea mays OX=4577 PE=2...  115     2e-29
+TR:B4FMR3_MAIZE  B4FMR3 Expansin-B4 OS=Zea mays OX=4577 GN=541908...  115     2e-29
+TR:A0A1B6QR67_SORBI  A0A1B6QR67 Uncharacterized protein OS=Sorghu...  115     2e-29
+TR:A0A1D5XN33_WHEAT  A0A1D5XN33 Uncharacterized protein OS=Tritic...  116     2e-29
+TR:A0A287Q132_HORVV  A0A287Q132 Uncharacterized protein OS=Hordeu...  115     2e-29
+TR:A0A1D5SHZ3_WHEAT  A0A1D5SHZ3 Uncharacterized protein OS=Tritic...  114     3e-29
+TR:A0A1D5VL36_WHEAT  A0A1D5VL36 Uncharacterized protein OS=Tritic...  114     3e-29
+TR:A0A1D5VL35_WHEAT  A0A1D5VL35 Uncharacterized protein OS=Tritic...  114     3e-29
+TR:M7ZKE9_TRIUA  M7ZKE9 Expansin-B7 OS=Triticum urartu OX=4572 GN...  114     3e-29
+TR:A0A0A9PGF7_ARUDO  A0A0A9PGF7 Uncharacterized protein OS=Arundo...  114     3e-29
+TR:F2DDY1_HORVV  F2DDY1 Predicted protein OS=Hordeum vulgare subs...  114     3e-29
+TR:A0A287Q1X3_HORVV  A0A287Q1X3 Uncharacterized protein OS=Hordeu...  116     4e-29
+TR:A0A0S2UWW0_HORVU  A0A0S2UWW0 Beta-expansin EXPB7 OS=Hordeum vu...  114     4e-29
+TR:M0YZK5_HORVV  M0YZK5 Uncharacterized protein OS=Hordeum vulgar...  114     4e-29
+TR:A0A0S2UWJ3_HORVU  A0A0S2UWJ3 Beta-expansin EXPB7 OS=Hordeum vu...  114     4e-29
+TR:A0A1D5WHV1_WHEAT  A0A1D5WHV1 Uncharacterized protein OS=Tritic...  114     5e-29
+TR:A0A1D5V8Q1_WHEAT  A0A1D5V8Q1 Uncharacterized protein OS=Tritic...  114     5e-29
+TR:A0A287MJH3_HORVV  A0A287MJH3 Uncharacterized protein OS=Hordeu...  113     5e-29
+TR:A0A2S3IVA7_9POAL  A0A2S3IVA7 Uncharacterized protein OS=Panicu...  113     6e-29
+TR:A0A2T7CJ07_9POAL  A0A2T7CJ07 Uncharacterized protein OS=Panicu...  113     6e-29
+TR:Q4W1F8_WHEAT  Q4W1F8 Expansin EXPB11 protein OS=Triticum aesti...  113     6e-29
+TR:C3SAC3_BRADI  C3SAC3 Triticum beta-expansin OS=Brachypodium di...  114     7e-29
+TR:A0A0E0BDL5_9ORYZ  A0A0E0BDL5 Uncharacterized protein OS=Oryza ...  112     7e-29
+TR:A0A287QJN0_HORVV  A0A287QJN0 Uncharacterized protein OS=Hordeu...  109     8e-29
+TR:A3C774_ORYSJ  A3C774 Uncharacterized protein OS=Oryza sativa s...  112     1e-28
+TR:A2ZA43_ORYSI  A2ZA43 Uncharacterized protein OS=Oryza sativa s...  112     1e-28
+TR:A0A0A8XMW2_ARUDO  A0A0A8XMW2 Uncharacterized protein OS=Arundo...  112     1e-28
+SP:EXPB6_ORYSJ  Q7XCA7 Expansin-B6 OS=Oryza sativa subsp. japonic...  112     1e-28
+TR:A0A0E0IWC3_ORYNI  A0A0E0IWC3 Uncharacterized protein OS=Oryza ...  112     1e-28
+TR:A0A287MJ94_HORVV  A0A287MJ94 Uncharacterized protein OS=Hordeu...  112     1e-28
+TR:A0A0E0F0Y8_9ORYZ  A0A0E0F0Y8 Uncharacterized protein OS=Oryza ...  112     1e-28
+TR:A0A077S7R5_WHEAT  A0A077S7R5 Uncharacterized protein OS=Tritic...  113     1e-28
+TR:A0A0S2UWD0_HORVU  A0A0S2UWD0 Beta-expansin EXPB7 OS=Hordeum vu...  113     2e-28
+TR:K4ADR6_SETIT  K4ADR6 Uncharacterized protein OS=Setaria italic...  111     3e-28
+TR:A0A0D3HGH5_9ORYZ  A0A0D3HGH5 Uncharacterized protein OS=Oryza ...  112     3e-28
+TR:A0A0E0R2C1_ORYRU  A0A0E0R2C1 Uncharacterized protein OS=Oryza ...  112     3e-28
+TR:A0A0B4SVF8_WHEAT  A0A0B4SVF8 Beta-expansin 1a OS=Triticum aest...  112     3e-28
+TR:A0A1E5WNN2_9POAL  A0A1E5WNN2 Expansin-B4 OS=Dichanthelium olig...  111     5e-28
+TR:Q56TP9_WHEAT  Q56TP9 Beta-expansin TaEXPB3 OS=Triticum aestivu...  110     6e-28
+TR:A0A1D5SYG2_WHEAT  A0A1D5SYG2 Uncharacterized protein OS=Tritic...  110     6e-28
+TR:N1R1A1_AEGTA  N1R1A1 Uncharacterized protein OS=Aegilops tausc...  110     6e-28
+TR:D8LAL4_WHEAT  D8LAL4 Beta-expansin 1a, putative, expressed OS=...  110     9e-28
+TR:A0A0D9VN95_9ORYZ  A0A0D9VN95 Uncharacterized protein OS=Leersi...  110     9e-28
+TR:A0A0Q3HWC9_BRADI  A0A0Q3HWC9 Uncharacterized protein OS=Brachy...  110     1e-27
+TR:A0A2H4YIQ3_9POAL  A0A2H4YIQ3 Expansin 87 OS=Saccharum hybrid c...  110     1e-27
+TR:A0A1D6JK16_MAIZE  A0A1D6JK16 Expansin-B4 OS=Zea mays OX=4577 G...  109     2e-27
+TR:A0A2S3INS7_9POAL  A0A2S3INS7 Uncharacterized protein OS=Panicu...  109     2e-27
+TR:A0A2T7CA21_9POAL  A0A2T7CA21 Uncharacterized protein OS=Panicu...  109     2e-27
+TR:M7YNU4_TRIUA  M7YNU4 Expansin-B7 OS=Triticum urartu OX=4572 GN...  111     2e-27
+TR:A0A0E0MAL1_ORYPU  A0A0E0MAL1 Uncharacterized protein OS=Oryza ...  113     2e-27
+TR:A0A1D5RR51_WHEAT  A0A1D5RR51 Uncharacterized protein OS=Tritic...  108     3e-27
+TR:A0A1D5SAE6_WHEAT  A0A1D5SAE6 Uncharacterized protein OS=Tritic...  108     3e-27
+TR:C3SAC4_BRADI  C3SAC4 Triticum beta-expansin OS=Brachypodium di...  108     3e-27
+TR:A0A1Z5SCH0_SORBI  A0A1Z5SCH0 Uncharacterized protein OS=Sorghu...  108     3e-27
+TR:A0A1B6QR64_SORBI  A0A1B6QR64 Uncharacterized protein OS=Sorghu...  108     5e-27
+TR:K4ADP2_SETIT  K4ADP2 Uncharacterized protein OS=Setaria italic...  108     7e-27
+TR:A0A1E5V0P6_9POAL  A0A1E5V0P6 Expansin-B3 OS=Dichanthelium olig...  108     7e-27
+TR:Q94KS8_MAIZE  Q94KS8 Beta-expansin 1a OS=Zea mays OX=4577 GN=e...  107     1e-26
+TR:E2CZH6_WHEAT  E2CZH6 Uncharacterized protein OS=Triticum aesti...  110     1e-26
+TR:A0A199UTD1_ANACO  A0A199UTD1 Expansin-B6 OS=Ananas comosus OX=...  107     1e-26
+TR:A0A1D6P7B8_MAIZE  A0A1D6P7B8 Beta expansin1 OS=Zea mays OX=457...  103     2e-26
+TR:A0A1D6P768_MAIZE  A0A1D6P768 Expansin-B9 OS=Zea mays OX=4577 G...  103     2e-26
+TR:A0A1D6P7A7_MAIZE  A0A1D6P7A7 Expansin-B4 OS=Zea mays OX=4577 G...  103     2e-26
+TR:A0A1D6P7C7_MAIZE  A0A1D6P7C7 Expansin-B4 OS=Zea mays OX=4577 G...  103     2e-26
+TR:M8AIE3_TRIUA  M8AIE3 Expansin-B6 OS=Triticum urartu OX=4572 GN...  108     2e-26
+TR:K4AME5_SETIT  K4AME5 Uncharacterized protein OS=Setaria italic...  106     2e-26
+TR:A0A2I8B2F6_9POAL  A0A2I8B2F6 Beta-expansin 6 OS=Saccharum arun...  106     3e-26
+TR:A0A2H4YJ21_9POAL  A0A2H4YJ21 Expansin 4 OS=Saccharum hybrid cu...  106     3e-26
+TR:I1I628_BRADI  I1I628 Uncharacterized protein OS=Brachypodium d...  110     3e-26
+TR:C5WSG0_SORBI  C5WSG0 Uncharacterized protein OS=Sorghum bicolo...  106     3e-26
+TR:C5WSF9_SORBI  C5WSF9 Uncharacterized protein OS=Sorghum bicolo...  106     3e-26
+TR:B4FSL7_MAIZE  B4FSL7 Beta-expansin 1a OS=Zea mays OX=4577 GN=1...  106     3e-26
+TR:A0A1D5YHU3_WHEAT  A0A1D5YHU3 Uncharacterized protein OS=Tritic...  106     4e-26
+TR:K3YN61_SETIT  K3YN61 Uncharacterized protein OS=Setaria italic...  105     5e-26
+TR:A0A1D5XJH4_WHEAT  A0A1D5XJH4 Uncharacterized protein OS=Tritic...  106     5e-26
+TR:F2DU03_HORVV  F2DU03 Predicted protein OS=Hordeum vulgare subs...  106     5e-26
+TR:A0A287Q147_HORVV  A0A287Q147 Uncharacterized protein OS=Hordeu...  106     5e-26
+TR:A0A1D5XW22_WHEAT  A0A1D5XW22 Uncharacterized protein OS=Tritic...  106     6e-26
+TR:Q6QF98_WHEAT  Q6QF98 Expansin EXPB7 OS=Triticum aestivum OX=45...  105     7e-26
+SP:EXPB2_ORYSJ  O24230 Expansin-B2 OS=Oryza sativa subsp. japonic...  105     8e-26
+TR:A0A0D3HGH6_9ORYZ  A0A0D3HGH6 Uncharacterized protein OS=Oryza ...  105     8e-26
+TR:A2ZA44_ORYSI  A2ZA44 Uncharacterized protein OS=Oryza sativa s...  105     8e-26
+TR:A0A0E0F0Y9_9ORYZ  A0A0E0F0Y9 Uncharacterized protein OS=Oryza ...  105     8e-26
+TR:A0A0E0R2C2_ORYRU  A0A0E0R2C2 Uncharacterized protein OS=Oryza ...  105     8e-26
+TR:A0A0E0BDL6_9ORYZ  A0A0E0BDL6 Uncharacterized protein OS=Oryza ...  105     8e-26
+TR:A0A0E0IWC2_ORYNI  A0A0E0IWC2 Uncharacterized protein OS=Oryza ...  105     8e-26
+TR:A0A287Q185_HORVV  A0A287Q185 Uncharacterized protein OS=Hordeu...  106     9e-26
+TR:K4ALJ0_SETIT  K4ALJ0 Uncharacterized protein OS=Setaria italic...  104     1e-25
+TR:C5WSF6_SORBI  C5WSF6 Uncharacterized protein OS=Sorghum bicolo...  104     1e-25
+TR:A0A0D9XMA9_9ORYZ  A0A0D9XMA9 Uncharacterized protein OS=Leersi...  107     2e-25
+TR:G1FTS0_BRADI  G1FTS0 Expansin 1 OS=Brachypodium distachyon OX=...  103     2e-25
+TR:A0A1B6QM20_SORBI  A0A1B6QM20 Uncharacterized protein OS=Sorghu...  103     2e-25
+TR:A0A0D9XM59_9ORYZ  A0A0D9XM59 Uncharacterized protein OS=Leersi...  103     2e-25
+TR:A0A287MJH2_HORVV  A0A287MJH2 Uncharacterized protein OS=Hordeu...  105     2e-25
+TR:A0A2H4YJ13_9POAL  A0A2H4YJ13 Expansin 11 OS=Saccharum hybrid c...  103     3e-25
+TR:A0A287FN66_HORVV  A0A287FN66 Uncharacterized protein OS=Hordeu...  101     4e-25
+TR:A0A1B6QM21_SORBI  A0A1B6QM21 Uncharacterized protein OS=Sorghu...  103     5e-25
+TR:A0A077B4J2_SORHL  A0A077B4J2 Sor h 1.0200 OS=Sorghum halepense...  103     5e-25
+TR:A0A1D6P761_MAIZE  A0A1D6P761 Expansin-B9 OS=Zea mays OX=4577 G...  103     5e-25
+TR:A0A2S3IPC6_9POAL  A0A2S3IPC6 Uncharacterized protein OS=Panicu...  103     5e-25
+TR:A0A2T7CA98_9POAL  A0A2T7CA98 Uncharacterized protein OS=Panicu...  103     5e-25
+TR:J3N4T2_ORYBR  J3N4T2 Uncharacterized protein OS=Oryza brachyan...  103     5e-25
+SP:EXPB9_MAIZE  Q07154 Expansin-B9 OS=Zea mays OX=4577 GN=EXPB9 P...  103     5e-25
+SP:EXPB1_MAIZE  P58738 Expansin-B1 OS=Zea mays OX=4577 GN=EXPB1 P...  103     5e-25
+TR:K7VH33_MAIZE  K7VH33 Beta expansin1 OS=Zea mays OX=4577 GN=103...  103     5e-25
+TR:K7WCD1_MAIZE  K7WCD1 Expansin-B9 OS=Zea mays OX=4577 GN=ZEAMMB...  103     5e-25
+TR:C0PN56_MAIZE  C0PN56 Expansin-B4 OS=Zea mays OX=4577 GN=ZEAMMB...  103     5e-25
+TR:B4FXT7_MAIZE  B4FXT7 Expansin-B4 OS=Zea mays OX=4577 GN=103638...  103     5e-25
+TR:A0A1E5V900_9POAL  A0A1E5V900 Expansin-B6 OS=Dichanthelium olig...  103     6e-25
+TR:C5WTD9_SORBI  C5WTD9 Uncharacterized protein OS=Sorghum bicolo...  102     7e-25
+TR:A0A2H4YIZ7_9POAL  A0A2H4YIZ7 Expansin 70 OS=Saccharum hybrid c...  102     7e-25
+TR:A0A2H4YIK7_9POAL  A0A2H4YIK7 Expansin 24 OS=Saccharum hybrid c...  102     7e-25
+TR:A0A2H4YIU7_9POAL  A0A2H4YIU7 Expansin 38 OS=Saccharum hybrid c...  102     7e-25
+TR:A0A1E5UQ35_9POAL  A0A1E5UQ35 Expansin-B9 OS=Dichanthelium olig...  102     7e-25
+TR:A0A199UMG6_ANACO  A0A199UMG6 Expansin-B7 OS=Ananas comosus OX=...  105     7e-25
+TR:A0A0E0MAL3_ORYPU  A0A0E0MAL3 Uncharacterized protein OS=Oryza ...  102     1e-24
+TR:A0A1D6P6X6_MAIZE  A0A1D6P6X6 Expansin-B4 OS=Zea mays OX=4577 G...  102     1e-24
+TR:M7ZU96_TRIUA  M7ZU96 Expansin-B9 OS=Triticum urartu OX=4572 GN...  101     1e-24
+TR:A0A287T7T1_HORVV  A0A287T7T1 Uncharacterized protein OS=Hordeu...  102     1e-24
+TR:A0A1D6BBU2_WHEAT  A0A1D6BBU2 Uncharacterized protein OS=Tritic...  102     1e-24
+TR:A0A1D5SUU7_WHEAT  A0A1D5SUU7 Uncharacterized protein OS=Tritic...  102     2e-24
+TR:Q56TP8_WHEAT  Q56TP8 Beta-expansin TaEXPB4 OS=Triticum aestivu...  102     2e-24
+TR:W4ZPC7_WHEAT  W4ZPC7 Uncharacterized protein OS=Triticum aesti...  102     2e-24
+TR:A0A287T7T4_HORVV  A0A287T7T4 Uncharacterized protein OS=Hordeu...  102     2e-24
+TR:M8AM44_TRIUA  M8AM44 Expansin-B4 OS=Triticum urartu OX=4572 GN...  101     2e-24
+TR:A0A1D5VWV3_WHEAT  A0A1D5VWV3 Uncharacterized protein OS=Tritic...  105     2e-24
+TR:A0A287T813_HORVV  A0A287T813 Uncharacterized protein OS=Hordeu...  102     2e-24
+TR:I1QVU6_ORYGL  I1QVU6 Uncharacterized protein OS=Oryza glaberri...  105     2e-24
+TR:A0A0A0S347_9POAL  A0A0A0S347 Beta-expansin 2 OS=Carex sp. JS-2...  101     2e-24
+TR:W5GGH2_WHEAT  W5GGH2 Uncharacterized protein OS=Triticum aesti...  101     2e-24
+TR:A0A1D6B1G5_WHEAT  A0A1D6B1G5 Uncharacterized protein OS=Tritic...  101     2e-24
+TR:Q6QF97_WHEAT  Q6QF97 Expansin EXPB8 OS=Triticum aestivum OX=45...  101     2e-24
+TR:A0A1D6AXE8_WHEAT  A0A1D6AXE8 Uncharacterized protein OS=Tritic...  101     2e-24
+TR:A0A1D5SA17_WHEAT  A0A1D5SA17 Uncharacterized protein OS=Tritic...  101     2e-24
+TR:M0UPN7_HORVV  M0UPN7 Uncharacterized protein OS=Hordeum vulgar...  101     2e-24
+TR:Q6QFA2_WHEAT  Q6QFA2 Expansin EXPB2 OS=Triticum aestivum OX=45...  101     2e-24
+TR:A0A1D5SVT8_WHEAT  A0A1D5SVT8 Uncharacterized protein OS=Tritic...  101     2e-24
+TR:A0A287T805_HORVV  A0A287T805 Uncharacterized protein OS=Hordeu...  102     3e-24
+TR:I1I633_BRADI  I1I633 Uncharacterized protein OS=Brachypodium d...  101     3e-24
+TR:I1I5Z0_BRADI  I1I5Z0 Uncharacterized protein OS=Brachypodium d...  101     3e-24
+TR:A0A2H4YIS6_9POAL  A0A2H4YIS6 Expansin 10 OS=Saccharum hybrid c...  101     3e-24
+TR:W5H3W0_WHEAT  W5H3W0 Uncharacterized protein OS=Triticum aesti...  101     3e-24
+TR:A0A1D6K8H7_MAIZE  A0A1D6K8H7 Expansin-B4 OS=Zea mays OX=4577 G...  101     3e-24
+TR:N1R5F2_AEGTA  N1R5F2 Uncharacterized protein OS=Aegilops tausc...  101     3e-24
+TR:J3LJ03_ORYBR  J3LJ03 Uncharacterized protein OS=Oryza brachyan...  101     3e-24
+TR:K4ALY5_SETIT  K4ALY5 Uncharacterized protein OS=Setaria italic...  100     3e-24
+TR:B8PYF3_PASNO  B8PYF3 Pas n 1 allergen OS=Paspalum notatum OX=1...  100     4e-24
+TR:A0A199UTA0_ANACO  A0A199UTA0 Expansin-B15 OS=Ananas comosus OX...  104     4e-24
+SP:EXPB4_ORYSJ  Q94LR4 Expansin-B4 OS=Oryza sativa subsp. japonic...  101     4e-24
+TR:A0A0D3HGH8_9ORYZ  A0A0D3HGH8 Uncharacterized protein OS=Oryza ...  101     4e-24
+TR:A2ZA46_ORYSI  A2ZA46 Uncharacterized protein OS=Oryza sativa s...  101     4e-24
+TR:A0A0E0IWC7_ORYNI  A0A0E0IWC7 Uncharacterized protein OS=Oryza ...  101     4e-24
+TR:A0A0E0R2C4_ORYRU  A0A0E0R2C4 Uncharacterized protein OS=Oryza ...  101     4e-24
+TR:I1QVU8_ORYGL  I1QVU8 Uncharacterized protein OS=Oryza glaberri...  101     4e-24
+TR:A0A0E0BDL9_9ORYZ  A0A0E0BDL9 Uncharacterized protein OS=Oryza ...  101     4e-24
+TR:A0A2S3IP77_9POAL  A0A2S3IP77 Uncharacterized protein OS=Panicu...  100     4e-24
+TR:A0A2T7CAA9_9POAL  A0A2T7CAA9 Uncharacterized protein OS=Panicu...  100     4e-24
+TR:K7VCH0_MAIZE  K7VCH0 Expansin-B4 OS=Zea mays OX=4577 GN=103638...  100     5e-24
+TR:A0A1E5V2A1_9POAL  A0A1E5V2A1 Expansin-B9 OS=Dichanthelium olig...  100     5e-24
+TR:M7ZG77_TRIUA  M7ZG77 Expansin-B2 OS=Triticum urartu OX=4572 GN...  102     5e-24
+TR:W5B8J9_WHEAT  W5B8J9 Uncharacterized protein OS=Triticum aesti...  100     7e-24
+TR:A0A1E5W0K1_9POAL  A0A1E5W0K1 Expansin-B4 OS=Dichanthelium olig...  100     7e-24
+TR:K4ADS3_SETIT  K4ADS3 Uncharacterized protein OS=Setaria italic...  100     7e-24
+TR:I1HLL4_BRADI  I1HLL4 Uncharacterized protein OS=Brachypodium d...  99.8    9e-24
+TR:A0A1D5S969_WHEAT  A0A1D5S969 Uncharacterized protein OS=Tritic...  100     9e-24
+TR:A0A287FN63_HORVV  A0A287FN63 Uncharacterized protein OS=Hordeu...  96.3    9e-24
+TR:W5APP1_WHEAT  W5APP1 Uncharacterized protein OS=Triticum aesti...  99.8    1e-23
+TR:A0A0E0MAE7_ORYPU  A0A0E0MAE7 Uncharacterized protein OS=Oryza ...  99.8    1e-23
+TR:A0A0D9XMB2_9ORYZ  A0A0D9XMB2 Uncharacterized protein OS=Leersi...  99.8    1e-23
+TR:C5WSE5_SORBI  C5WSE5 Uncharacterized protein OS=Sorghum bicolo...  99.8    2e-23
+TR:B2CZ78_HORVU  B2CZ78 Beta-expansin EXPB4 OS=Hordeum vulgare OX...  99.4    2e-23
+TR:F2E8V0_HORVV  F2E8V0 Predicted protein OS=Hordeum vulgare subs...  99.4    2e-23
+TR:A0A2T7CAI0_9POAL  A0A2T7CAI0 Uncharacterized protein OS=Panicu...  99.4    2e-23
+TR:A0A2S3INV9_9POAL  A0A2S3INV9 Uncharacterized protein OS=Panicu...  99.4    2e-23
+TR:B4FBN4_MAIZE  B4FBN4 Beta expansin2 OS=Zea mays OX=4577 GN=103...  99.4    2e-23
+TR:A0A0E0F0Y4_9ORYZ  A0A0E0F0Y4 Uncharacterized protein OS=Oryza ...  101     2e-23
+TR:K4ADE2_SETIT  K4ADE2 Uncharacterized protein OS=Setaria italic...  99.4    2e-23
+TR:A0A0Q3IC03_BRADI  A0A0Q3IC03 Uncharacterized protein OS=Brachy...  99.0    2e-23
+TR:A0A2S3INS8_9POAL  A0A2S3INS8 Uncharacterized protein OS=Panicu...  99.0    3e-23
+TR:A0A2T7CA00_9POAL  A0A2T7CA00 Uncharacterized protein OS=Panicu...  99.0    3e-23
+TR:Q94KS6_MAIZE  Q94KS6 Beta expansin8 OS=Zea mays OX=4577 GN=exp...  98.6    4e-23
+TR:A0A0D3HGB8_9ORYZ  A0A0D3HGB8 Uncharacterized protein OS=Oryza ...  98.2    4e-23
+TR:A0A0E0R253_ORYRU  A0A0E0R253 Uncharacterized protein OS=Oryza ...  98.2    4e-23
+TR:I1QVP8_ORYGL  I1QVP8 Uncharacterized protein OS=Oryza glaberri...  98.2    4e-23
+TR:A0A0E0BDF0_9ORYZ  A0A0E0BDF0 Uncharacterized protein OS=Oryza ...  98.2    4e-23
+TR:F2E1K9_HORVV  F2E1K9 Predicted protein OS=Hordeum vulgare subs...  97.8    5e-23
+TR:C5WSF3_SORBI  C5WSF3 Uncharacterized protein OS=Sorghum bicolo...  97.8    6e-23
+TR:A0A287DWE0_HORVV  A0A287DWE0 Uncharacterized protein OS=Hordeu...  97.8    8e-23
+TR:T1NBD5_TRIUA  T1NBD5 Uncharacterized protein OS=Triticum urart...  92.8    8e-23
+TR:A0A1D5S9M7_WHEAT  A0A1D5S9M7 Uncharacterized protein OS=Tritic...  97.1    1e-22
+TR:A0A1D5UPH5_WHEAT  A0A1D5UPH5 Uncharacterized protein OS=Tritic...  97.1    1e-22
+TR:G9I6H1_9POAL  G9I6H1 Expansin B1 M1 OS=Secale cereale x Tritic...  97.1    1e-22
+TR:G4XH72_9POAL  G4XH72 Expansin B1 OS=Secale cereale x Triticum ...  97.1    1e-22
+TR:A0A2H4YIR5_9POAL  A0A2H4YIR5 Expansin 82 OS=Saccharum hybrid c...  97.4    1e-22
+TR:A0A1D6K801_MAIZE  A0A1D6K801 Beta-expansin 1a OS=Zea mays OX=4...  95.9    1e-22
+SP:MPAH1_HOLLA  P43216 Major pollen allergen Hol l 1 OS=Holcus la...  96.7    1e-22
+TR:A0A2S3INR3_9POAL  A0A2S3INR3 Uncharacterized protein OS=Panicu...  96.3    2e-22
+TR:A0A2T7CA13_9POAL  A0A2T7CA13 Uncharacterized protein OS=Panicu...  96.3    2e-22
+TR:A0A1E5UL55_9POAL  A0A1E5UL55 Expansin-B11 OS=Dichanthelium oli...  95.9    3e-22
+TR:Q6QN86_WHEAT  Q6QN86 Beta-expansin 2 OS=Triticum aestivum OX=4...  95.9    3e-22
+TR:Q6QN87_WHEAT  Q6QN87 Beta-expansin 1 OS=Triticum aestivum OX=4...  95.9    3e-22
+TR:M8CP73_AEGTA  M8CP73 Uncharacterized protein OS=Aegilops tausc...  95.9    3e-22
+TR:B9FAA3_ORYSJ  B9FAA3 Uncharacterized protein OS=Oryza sativa s...  94.0    3e-22
+TR:K7WCA0_MAIZE  K7WCA0 Expansin-B4 OS=Zea mays OX=4577 GN=103640...  95.9    4e-22
+TR:B6U859_MAIZE  B6U859 Beta-expansin 1a OS=Zea mays OX=4577 PE=2...  95.9    4e-22
+TR:A0A1D5RZ93_WHEAT  A0A1D5RZ93 Uncharacterized protein OS=Tritic...  95.1    6e-22
+TR:A0A287QIX2_HORVV  A0A287QIX2 Uncharacterized protein OS=Hordeu...  96.3    6e-22
+SP:EXPB9_ORYSJ  Q7XCG7 Expansin-B9 OS=Oryza sativa subsp. japonic...  95.1    6e-22
+TR:I3QD43_ORYSJ  I3QD43 Beta-expansin-9 OS=Oryza sativa subsp. ja...  95.1    6e-22
+TR:A2Z9Z2_ORYSI  A2Z9Z2 Uncharacterized protein OS=Oryza sativa s...  95.1    6e-22
+TR:A0A0E0IW22_ORYNI  A0A0E0IW22 Uncharacterized protein OS=Oryza ...  95.1    6e-22
+TR:Q94KT1_MAIZE  Q94KT1 Beta-expansin 3 (Fragment) OS=Zea mays OX...  93.6    8e-22
+TR:J3N4N5_ORYBR  J3N4N5 Uncharacterized protein OS=Oryza brachyan...  94.7    8e-22
+TR:A0A0A0S8K5_9POAL  A0A0A0S8K5 Beta-expansin 1 OS=Carex sp. JS-2...  94.7    9e-22
+TR:A0A2S3INR1_9POAL  A0A2S3INR1 Uncharacterized protein OS=Panicu...  94.7    1e-21
+TR:A0A2T7CA28_9POAL  A0A2T7CA28 Uncharacterized protein OS=Panicu...  94.7    1e-21
+SP:MPAP1_PHLPR  P43213 Pollen allergen Phl p 1 OS=Phleum pratense...  94.4    1e-21
+SP:MPAL1_LOLPR  P14946 Pollen allergen Lol p 1 OS=Lolium perenne ...  94.4    1e-21
+TR:Q9ZP13_HOLLA  Q9ZP13 Major group I allergen Hol l 1 OS=Holcus ...  94.4    1e-21
+TR:F2DRS4_HORVV  F2DRS4 Predicted protein (Fragment) OS=Hordeum v...  94.7    1e-21
+TR:A0A2S3IV57_9POAL  A0A2S3IV57 Uncharacterized protein OS=Panicu...  94.4    1e-21
+TR:A0A2T7CJ59_9POAL  A0A2T7CJ59 Uncharacterized protein OS=Panicu...  94.4    1e-21
+TR:A0A2T7CIX9_9POAL  A0A2T7CIX9 Uncharacterized protein OS=Panicu...  94.4    1e-21
+TR:A0A270R617_9POAL  A0A270R617 Uncharacterized protein OS=Panicu...  94.4    1e-21
+TR:A0A1D6HH71_MAIZE  A0A1D6HH71 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    1e-21
+TR:K4ALT6_SETIT  K4ALT6 Uncharacterized protein OS=Setaria italic...  94.0    1e-21
+TR:K4AL34_SETIT  K4AL34 Uncharacterized protein OS=Setaria italic...  94.0    1e-21
+TR:I1HAR8_BRADI  I1HAR8 Uncharacterized protein OS=Brachypodium d...  94.0    2e-21
+TR:C0PMG4_MAIZE  C0PMG4 Uncharacterized protein OS=Zea mays OX=45...  92.4    2e-21
+TR:A0A2S3HEU0_9POAL  A0A2S3HEU0 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A2S3HFB0_9POAL  A0A2S3HFB0 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A2T7EID6_9POAL  A0A2T7EID6 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A2T7EID8_9POAL  A0A2T7EID8 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A2T7EIE1_9POAL  A0A2T7EIE1 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A2S3INS2_9POAL  A0A2S3INS2 Uncharacterized protein OS=Panicu...  94.0    2e-21
+TR:A0A0E0NNH9_ORYRU  A0A0E0NNH9 Uncharacterized protein OS=Oryza ...  94.0    2e-21
+TR:A0A2T7CA14_9POAL  A0A2T7CA14 Uncharacterized protein OS=Panicu...  94.0    2e-21
+SP:EXPB8_ORYSJ  Q10T32 Expansin-B8 OS=Oryza sativa subsp. japonic...  94.0    2e-21
+TR:A0A0D3FCN0_9ORYZ  A0A0D3FCN0 Uncharacterized protein OS=Oryza ...  94.0    2e-21
+TR:A0A0E0GFK0_ORYNI  A0A0E0GFK0 Uncharacterized protein OS=Oryza ...  94.0    2e-21
+TR:I1P6L6_ORYGL  I1P6L6 Uncharacterized protein OS=Oryza glaberri...  94.0    2e-21
+TR:A0A0D9Z0U2_9ORYZ  A0A0D9Z0U2 Uncharacterized protein OS=Oryza ...  94.0    2e-21
+TR:I1IG03_BRADI  I1IG03 Uncharacterized protein OS=Brachypodium d...  93.6    2e-21
+TR:C3TX81_BRASY  C3TX81 Expansin protein (Fragment) OS=Brachypodi...  93.2    3e-21
+TR:Q6QF99_WHEAT  Q6QF99 Expansin EXPB5 OS=Triticum aestivum OX=45...  93.2    3e-21
+TR:A0A0D9VND4_9ORYZ  A0A0D9VND4 Uncharacterized protein OS=Leersi...  93.2    3e-21
+TR:A0A0D9VND1_9ORYZ  A0A0D9VND1 Uncharacterized protein OS=Leersi...  93.2    3e-21
+TR:Q7XAX8_DACGL  Q7XAX8 Group 1 allergen Dac g 1.01 (Fragment) OS...  92.4    4e-21
+TR:A0A1E5UM91_9POAL  A0A1E5UM91 Expansin-B3 OS=Dichanthelium olig...  93.2    4e-21
+TR:A0A1D6DIE8_WHEAT  A0A1D6DIE8 Uncharacterized protein OS=Tritic...  92.8    4e-21
+TR:A0A1D5XIM7_WHEAT  A0A1D5XIM7 Uncharacterized protein OS=Tritic...  92.8    5e-21
+TR:A0A1D5XNV3_WHEAT  A0A1D5XNV3 Uncharacterized protein OS=Tritic...  92.8    5e-21
+TR:A0A1D5Y4X9_WHEAT  A0A1D5Y4X9 Uncharacterized protein OS=Tritic...  92.8    5e-21
+TR:Q6QFA0_WHEAT  Q6QFA0 Expansin EXPB4 OS=Triticum aestivum OX=45...  92.8    5e-21
+TR:G9I6H3_9POAL  G9I6H3 Expansin B4 F5-2 OS=Secale cereale x Trit...  92.8    5e-21
+TR:G9I6H2_9POAL  G9I6H2 Expansin B4 F5-1 OS=Secale cereale x Trit...  92.8    5e-21
+TR:G4XH73_9POAL  G4XH73 Expansin B4 OS=Secale cereale x Triticum ...  92.8    5e-21
+TR:A0A1D6HH74_MAIZE  A0A1D6HH74 Uncharacterized protein OS=Zea ma...  90.1    5e-21
+TR:A0A1D6HH70_MAIZE  A0A1D6HH70 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    5e-21
+TR:A0A1D6HH73_MAIZE  A0A1D6HH73 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    5e-21
+TR:A0A0E0F0Y5_9ORYZ  A0A0E0F0Y5 Uncharacterized protein OS=Oryza ...  92.4    5e-21
+TR:A0A0D3FCQ4_9ORYZ  A0A0D3FCQ4 Uncharacterized protein OS=Oryza ...  91.7    5e-21
+TR:G3C8V0_FESPR  G3C8V0 Pollen allergen Fes p 1 variant 1 OS=Fest...  92.4    6e-21
+TR:G3C8V1_FESPR  G3C8V1 Pollen allergen Fes p 1 variant 2 OS=Fest...  92.4    6e-21
+TR:Q1ZYQ9_MAIZE  Q1ZYQ9 Zea m 1 allergen OS=Zea mays OX=4577 PE=2...  92.4    6e-21
+TR:Q9SC98_LOLPR  Q9SC98 Pollen allergen OS=Lolium perenne OX=4522...  92.4    6e-21
+TR:Q7XAX7_DACGL  Q7XAX7 Group 1 allergen Dac g 1.02 OS=Dactylis g...  92.4    6e-21
+TR:A0A2T7CIU8_9POAL  A0A2T7CIU8 Uncharacterized protein OS=Panicu...  92.4    6e-21
+SP:EXB10_MAIZE  Q1ZYQ8 Expansin-B10 OS=Zea mays OX=4577 GN=EXPB10...  92.4    6e-21
+TR:A0A1Q1AB18_MAIZE  A0A1Q1AB18 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    6e-21
+TR:B4FFK8_MAIZE  B4FFK8 Uncharacterized protein OS=Zea mays OX=45...  92.4    6e-21
+TR:B4FIV7_MAIZE  B4FIV7 Uncharacterized protein OS=Zea mays OX=45...  92.4    6e-21
+TR:A0A1D6HH68_MAIZE  A0A1D6HH68 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    6e-21
+TR:A0A1D6HH72_MAIZE  A0A1D6HH72 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    6e-21
+TR:Q40967_PHLPR  Q40967 Pollen allergen Phl pI OS=Phleum pratense...  92.0    8e-21
+TR:A0A1Z5SCF1_SORBI  A0A1Z5SCF1 Uncharacterized protein OS=Sorghu...  91.7    1e-20
+TR:A0A1D5SAE7_WHEAT  A0A1D5SAE7 Uncharacterized protein OS=Tritic...  92.4    1e-20
+TR:C5WMS5_SORBI  C5WMS5 Uncharacterized protein OS=Sorghum bicolo...  91.7    1e-20
+TR:A0A1Z5SC46_SORBI  A0A1Z5SC46 Uncharacterized protein OS=Sorghu...  91.7    1e-20
+TR:A0A1Z5SC75_SORBI  A0A1Z5SC75 Uncharacterized protein OS=Sorghu...  91.7    1e-20
+TR:A0A077B564_SORHL  A0A077B564 Group 1 allergen Sor h 1.0102 OS=...  91.7    1e-20
+TR:F2EI89_HORVV  F2EI89 Predicted protein OS=Hordeum vulgare subs...  91.7    1e-20
+TR:C5WMS1_SORBI  C5WMS1 Uncharacterized protein OS=Sorghum bicolo...  91.7    1e-20
+SP:EXPB1_ORYSJ  Q40638 Expansin-B1 OS=Oryza sativa subsp. japonic...  91.7    1e-20
+TR:I3QD42_ORYSJ  I3QD42 Beta-expansin-1 OS=Oryza sativa subsp. ja...  91.7    1e-20
+TR:A0A0D3FCQ0_9ORYZ  A0A0D3FCQ0 Uncharacterized protein OS=Oryza ...  91.7    1e-20
+TR:A0A0E0J4Q6_ORYNI  A0A0E0J4Q6 Uncharacterized protein OS=Oryza ...  91.7    1e-20
+TR:A0A0D9Z0V7_9ORYZ  A0A0D9Z0V7 Uncharacterized protein OS=Oryza ...  91.7    1e-20
+TR:I1P6N6_ORYGL  I1P6N6 Uncharacterized protein OS=Oryza glaberri...  91.7    1e-20
+TR:A0A1D5Y0P2_WHEAT  A0A1D5Y0P2 Uncharacterized protein OS=Tritic...  91.7    1e-20
+SP:MPAP1_PHAAQ  Q41260 Major pollen allergen Pha a 1 OS=Phalaris ...  91.7    1e-20
+TR:I1I629_BRADI  I1I629 Uncharacterized protein OS=Brachypodium d...  91.7    1e-20
+TR:A0A287FM53_HORVV  A0A287FM53 Uncharacterized protein OS=Hordeu...  91.7    1e-20
+TR:F2EGE3_HORVV  F2EGE3 Predicted protein OS=Hordeum vulgare subs...  91.3    2e-20
+TR:Q9ZP03_POAPR  Q9ZP03 Group I pollen allergen OS=Poa pratensis ...  91.3    2e-20
+TR:A0A0E0K7J0_ORYPU  A0A0E0K7J0 Uncharacterized protein OS=Oryza ...  91.3    2e-20
+TR:A0A0D3FCQ3_9ORYZ  A0A0D3FCQ3 Uncharacterized protein OS=Oryza ...  90.9    2e-20
+TR:A0A0E0NT40_ORYRU  A0A0E0NT40 Uncharacterized protein OS=Oryza ...  90.9    2e-20
+TR:I1P6N4_ORYGL  I1P6N4 Uncharacterized protein OS=Oryza glaberri...  90.9    2e-20
+TR:B8ALD5_ORYSI  B8ALD5 Uncharacterized protein OS=Oryza sativa s...  90.5    2e-20
+TR:A2XBJ2_ORYSI  A2XBJ2 Uncharacterized protein OS=Oryza sativa s...  91.7    3e-20
+TR:I4IY76_SECCE  I4IY76 Pollen allergen Sec c 1 (Fragment) OS=Sec...  90.1    3e-20
+TR:K4ADI3_SETIT  K4ADI3 Uncharacterized protein OS=Setaria italic...  90.9    3e-20
+TR:A0A287Q028_HORVV  A0A287Q028 Uncharacterized protein OS=Hordeu...  90.5    3e-20
+TR:A0A287PZW9_HORVV  A0A287PZW9 Uncharacterized protein OS=Hordeu...  90.5    3e-20
+TR:A0A0E0J4Q5_ORYNI  A0A0E0J4Q5 Uncharacterized protein OS=Oryza ...  90.5    3e-20
+TR:A0A0E0CTQ4_9ORYZ  A0A0E0CTQ4 Uncharacterized protein OS=Oryza ...  90.5    3e-20
+TR:A0A0D9Z0V8_9ORYZ  A0A0D9Z0V8 Uncharacterized protein OS=Oryza ...  90.5    3e-20
+TR:B9FAB9_ORYSJ  B9FAB9 Uncharacterized protein OS=Oryza sativa s...  90.1    3e-20
+TR:A0A287Q034_HORVV  A0A287Q034 Uncharacterized protein OS=Hordeu...  90.5    4e-20
+TR:A0A287PZY5_HORVV  A0A287PZY5 Uncharacterized protein OS=Hordeu...  90.5    4e-20
+TR:A0A2H4YIW2_9POAL  A0A2H4YIW2 Expansin 14 OS=Saccharum hybrid c...  90.1    4e-20
+TR:A0A2H4YIV9_9POAL  A0A2H4YIV9 Expansin 85 OS=Saccharum hybrid c...  90.1    4e-20
+TR:A0A287Q022_HORVV  A0A287Q022 Uncharacterized protein OS=Hordeu...  90.5    4e-20
+TR:A0A1D6HH69_MAIZE  A0A1D6HH69 Expansin-B4 OS=Zea mays OX=4577 G...  92.4    4e-20
+SP:EXB10_ORYSJ  Q8H7T4 Expansin-B10 OS=Oryza sativa subsp. japoni...  90.1    5e-20
+TR:A0A1L2JIE0_ORYSA  A0A1L2JIE0 Beta-expansin OS=Oryza sativa OX=...  90.1    5e-20
+TR:A0A0E0K7L0_ORYPU  A0A0E0K7L0 Uncharacterized protein OS=Oryza ...  92.4    5e-20
+TR:A0A2H4YIR0_9POAL  A0A2H4YIR0 Expansin 23 OS=Saccharum hybrid c...  89.7    6e-20
+TR:J3LJ24_ORYBR  J3LJ24 Uncharacterized protein OS=Oryza brachyan...  89.7    6e-20
+TR:A0A1D6MRN4_MAIZE  A0A1D6MRN4 Beta expansin10d OS=Zea mays OX=4...  89.7    6e-20
+SP:EXB11_MAIZE  P0C1Y5 Expansin-B11 OS=Zea mays OX=4577 GN=EXPB11...  89.7    7e-20
+TR:C0PAE9_MAIZE  C0PAE9 Uncharacterized protein OS=Zea mays OX=45...  89.7    7e-20
+TR:A0A1Q1D7W9_MAIZE  A0A1Q1D7W9 Beta expansin10a OS=Zea mays OX=4...  89.7    7e-20
+TR:Q19K79_MAIZE  Q19K79 Beta expansin10c OS=Zea mays OX=4577 GN=E...  89.7    7e-20
+TR:C5WSF8_SORBI  C5WSF8 Uncharacterized protein OS=Sorghum bicolo...  89.7    8e-20
+TR:G3C8V2_FESPR  G3C8V2 Pollen allergen Fes p 1 variant 3 OS=Fest...  89.4    8e-20
+TR:A0A0D3FCQ2_9ORYZ  A0A0D3FCQ2 Uncharacterized protein OS=Oryza ...  86.3    1e-19
+TR:J3LJ23_ORYBR  J3LJ23 Uncharacterized protein OS=Oryza brachyan...  89.0    1e-19
+TR:M8A645_TRIUA  M8A645 Expansin-B6 OS=Triticum urartu OX=4572 GN...  88.2    2e-19
+TR:A0A2H4YIV8_9POAL  A0A2H4YIV8 Expansin 5 OS=Saccharum hybrid cu...  88.6    2e-19
+TR:A0A0E0K7L2_ORYPU  A0A0E0K7L2 Uncharacterized protein OS=Oryza ...  88.2    2e-19
+TR:A0A1D5YEM8_WHEAT  A0A1D5YEM8 Uncharacterized protein OS=Tritic...  88.6    2e-19
+TR:Q6QF95_WHEAT  Q6QF95 Expansin EXPB10 OS=Triticum aestivum OX=4...  88.2    3e-19
+TR:Q56TP7_WHEAT  Q56TP7 Beta-expansin TaEXPB5 OS=Triticum aestivu...  88.2    3e-19
+TR:Q9ZR84_WHEAT  Q9ZR84 Pollen allergen homolog OS=Triticum aesti...  88.2    3e-19
+TR:B8ALD7_ORYSI  B8ALD7 Uncharacterized protein OS=Oryza sativa s...  84.3    3e-19
+TR:F2DVX9_HORVV  F2DVX9 Predicted protein OS=Hordeum vulgare subs...  87.8    4e-19
+TR:A0A1D5SXN6_WHEAT  A0A1D5SXN6 Uncharacterized protein OS=Tritic...  88.2    5e-19
+TR:A0A1B6QM17_SORBI  A0A1B6QM17 Uncharacterized protein OS=Sorghu...  87.0    6e-19
+TR:A0A0E0NNJ9_ORYRU  A0A0E0NNJ9 Uncharacterized protein OS=Oryza ...  83.6    7e-19
+TR:A0A1D6P7B7_MAIZE  A0A1D6P7B7 Beta expansin1 OS=Zea mays OX=457...  83.6    7e-19
+TR:A0A1D6P7C6_MAIZE  A0A1D6P7C6 Expansin-B4 OS=Zea mays OX=4577 G...  83.6    7e-19
+TR:A0A1Z5SCB1_SORBI  A0A1Z5SCB1 Uncharacterized protein (Fragment...  84.3    3e-18
+TR:A0A0E0CTQ6_9ORYZ  A0A0E0CTQ6 Uncharacterized protein OS=Oryza ...  87.0    3e-18
+SP:EXB13_ORYSJ  Q946J4 Expansin-B13 OS=Oryza sativa subsp. japoni...  84.0    5e-18
+TR:A0A0E0NT39_ORYRU  A0A0E0NT39 Uncharacterized protein OS=Oryza ...  84.0    5e-18
+TR:M8BAE7_AEGTA  M8BAE7 Uncharacterized protein OS=Aegilops tausc...  84.7    5e-18
+TR:A0A1D6B103_WHEAT  A0A1D6B103 Uncharacterized protein OS=Tritic...  83.6    5e-18
+TR:A0A1D6B2G5_WHEAT  A0A1D6B2G5 Uncharacterized protein OS=Tritic...  83.6    5e-18
+TR:A0A1B6QM28_SORBI  A0A1B6QM28 Uncharacterized protein OS=Sorghu...  83.6    9e-18
+SP:MPAC1_CYNDA  O04701 Major pollen allergen Cyn d 1 OS=Cynodon d...  83.6    9e-18
+TR:M7ZH82_TRIUA  M7ZH82 Expansin-B6 OS=Triticum urartu OX=4572 GN...  79.7    1e-17
+TR:I1I630_BRADI  I1I630 Uncharacterized protein OS=Brachypodium d...  83.6    1e-17
+TR:Q947S4_CYNDA  Q947S4 Acidic Cyn d 1 isoallergen isoform 4 OS=C...  83.2    2e-17
+TR:A0A287T7T9_HORVV  A0A287T7T9 Uncharacterized protein OS=Hordeu...  79.0    2e-17
+TR:A0A1D5SA18_WHEAT  A0A1D5SA18 Uncharacterized protein OS=Tritic...  83.6    2e-17
+TR:Q947S5_CYNDA  Q947S5 Acidic Cyn d 1 isoallergen isoform 3 OS=C...  82.8    2e-17
+TR:R7WGE8_AEGTA  R7WGE8 Uncharacterized protein OS=Aegilops tausc...  83.6    2e-17
+TR:A0A1B6QM36_SORBI  A0A1B6QM36 Uncharacterized protein OS=Sorghu...  81.3    5e-17
+TR:A0A2T7CIV5_9POAL  A0A2T7CIV5 Uncharacterized protein OS=Panicu...  82.0    5e-17
+TR:A0A2H4YIT1_9POAL  A0A2H4YIT1 Expansin 64 OS=Saccharum hybrid c...  80.9    1e-16
+TR:A0A0P0XX12_ORYSJ  A0A0P0XX12 Os10g0556100 protein (Fragment) O...  76.6    1e-16
+TR:Q9FVM0_CYNDA  Q9FVM0 Acidic Cyn d 1 isoallergen isoform 1 (Fra...  80.5    1e-16
+TR:Q947S7_CYNDA  Q947S7 Acidic allergen Cyn d 1 (Fragment) OS=Cyn...  80.5    1e-16
+TR:Q947S6_CYNDA  Q947S6 Acidic Cyn d 1 isoallergen isoform 2 OS=C...  80.5    2e-16
+TR:Q949I4_FESPR  Q949I4 Beta expansin B1 OS=Festuca pratensis OX=...  80.5    2e-16
+
+
+>TR:A0A1Z5RNR4_SORBI A0A1Z5RNR4 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3004G191600 PE=3 SV=1
+Length=296
+
+ Score = 166 bits (420),  Expect = 4e-49
+ Identities = 75/80 (94%), Positives = 75/80 (94%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            ARIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  16   ARIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  75
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRCVNHP
+Sbjct  76   LFKDGKGCGSCYQIRCVNHP  95
+
+
+>TR:A0A1Z5RN75_SORBI A0A1Z5RN75 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3004G191600 PE=3 SV=1
+Length=309
+
+ Score = 166 bits (420),  Expect = 5e-49
+ Identities = 75/80 (94%), Positives = 75/80 (94%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            ARIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  16   ARIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  75
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRCVNHP
+Sbjct  76   LFKDGKGCGSCYQIRCVNHP  95
+
+
+>TR:A0A2H4YIW3_9POAL A0A2H4YIW3 Expansin 86 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP86 PE=2 SV=1
+Length=314
+
+ Score = 164 bits (416),  Expect = 2e-48
+ Identities = 74/79 (94%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  26   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  86   FKDGKGCGSCYQIRCVNHP  104
+
+
+>TR:A0A2H4YIU8_9POAL A0A2H4YIU8 Expansin 39 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP39 PE=2 SV=1
+Length=314
+
+ Score = 164 bits (416),  Expect = 2e-48
+ Identities = 74/79 (94%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  26   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  86   FKDGKGCGSCYQIRCVNHP  104
+
+
+>TR:C5XVR2_SORBI C5XVR2 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3004G191600 
+PE=3 SV=1
+Length=318
+
+ Score = 164 bits (416),  Expect = 3e-48
+ Identities = 74/79 (94%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  26   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  86   FKDGKGCGSCYQIRCVNHP  104
+
+
+>TR:A0A2H4YIU6_9POAL A0A2H4YIU6 Expansin 57 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP57 PE=2 SV=1
+Length=314
+
+ Score = 164 bits (415),  Expect = 3e-48
+ Identities = 73/79 (92%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASH+TADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  26   RIVNFNASHVTADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  86   FKDGKGCGSCYQIRCVNHP  104
+
+
+>TR:A0A2H4YIV0_9POAL A0A2H4YIV0 Expansin 22 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP22 PE=2 SV=1
+Length=317
+
+ Score = 164 bits (415),  Expect = 3e-48
+ Identities = 73/79 (92%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASH+TADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  26   RIVNFNASHVTADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  86   FKDGKGCGSCYQIRCVNHP  104
+
+
+>TR:K3ZJA1_SETIT K3ZJA1 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101754432 
+PE=3 SV=1
+Length=317
+
+ Score = 163 bits (413),  Expect = 7e-48
+ Identities = 73/79 (92%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  29   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  88
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRC+NHP
+Sbjct  89   FKDGKGCGSCYQIRCLNHP  107
+
+
+>TR:A0A2S3IKZ3_9POAL A0A2S3IKZ3 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G196400 PE=4 SV=1
+Length=325
+
+ Score = 163 bits (413),  Expect = 8e-48
+ Identities = 73/79 (92%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  29   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  88
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRC+NHP
+Sbjct  89   FKDGKGCGSCYQIRCLNHP  107
+
+
+>TR:A0A2T7C4W6_9POAL A0A2T7C4W6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G191800 PE=4 SV=1
+Length=325
+
+ Score = 163 bits (413),  Expect = 8e-48
+ Identities = 73/79 (92%), Positives = 74/79 (94%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHITADPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  29   RIVNFNASHITADPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  88
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRC+NHP
+Sbjct  89   FKDGKGCGSCYQIRCLNHP  107
+
+
+>TR:B4FR82_MAIZE B4FR82 Beta-expansin 1a OS=Zea mays OX=4577 GN=100285807 PE=2 
+SV=1
+Length=313
+
+ Score = 163 bits (412),  Expect = 9e-48
+ Identities = 73/79 (92%), Positives = 73/79 (92%), Gaps = 0/79 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            RIVNFNASHIT DPYWVAARA     PTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL
+Sbjct  24   RIVNFNASHITTDPYWVAARATWYGAPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  83
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCYQIRCVNHP
+Sbjct  84   FKDGKGCGSCYQIRCVNHP  102
+
+
+>TR:A0A1D6P6X2_MAIZE A0A1D6P6X2 Beta-expansin 5 OS=Zea mays OX=4577 GN=541910 PE=3 
+SV=1
+Length=190
+
+ Score = 142 bits (358),  Expect = 4e-41
+ Identities = 66/80 (83%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR VNF AS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  27   ARPVNFTASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNQP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  87   LFKDGKGCGSCYQIRCQNHP  106
+
+
+>TR:A0A1D6K8H4_MAIZE A0A1D6K8H4 Expansin-B4 OS=Zea mays OX=4577 GN=103637658 PE=3 
+SV=1
+Length=190
+
+ Score = 140 bits (354),  Expect = 2e-40
+ Identities = 65/80 (81%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF AS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  27   ARPANFTASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNQP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  87   LFKDGKGCGSCYQIRCQNHP  106
+
+
+>TR:A0A2T7CA02_9POAL A0A2T7CA02 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G402800 PE=4 SV=1
+Length=270
+
+ Score = 143 bits (360),  Expect = 2e-40
+ Identities = 65/79 (82%), Positives = 68/79 (86%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGPYD+GGACGFKNVNLPPFS+MTSCGNQP
+Sbjct  30   ARPVSFNASAFTADPNWEAARATWYGAPTGAGPYDDGGACGFKNVNLPPFSSMTSCGNQP  89
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC NH
+Sbjct  90   LFKDGKGCGSCYQIRCTNH  108
+
+
+>TR:K4ADV1_SETIT K4ADV1 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101757427 
+PE=3 SV=1
+Length=265
+
+ Score = 142 bits (358),  Expect = 3e-40
+ Identities = 65/79 (82%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGPYD+GGACGFKNVNLPPFS+MTSCGNQP
+Sbjct  25   ARPVSFNASDFTADPNWEAARATWYGAPTGAGPYDDGGACGFKNVNLPPFSSMTSCGNQP  84
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRCVN+
+Sbjct  85   LFKDGKGCGSCYQIRCVNN  103
+
+
+>TR:K7VGX2_MAIZE K7VGX2 Beta-expansin 5 OS=Zea mays OX=4577 GN=541910 PE=3 SV=1
+Length=267
+
+ Score = 142 bits (358),  Expect = 3e-40
+ Identities = 66/80 (83%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR VNF AS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  27   ARPVNFTASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNQP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  87   LFKDGKGCGSCYQIRCQNHP  106
+
+
+>TR:Q94KS7_MAIZE Q94KS7 Beta-expansin 7 OS=Zea mays OX=4577 GN=expB7 PE=2 SV=1
+Length=268
+
+ Score = 141 bits (356),  Expect = 7e-40
+ Identities = 65/80 (81%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS +TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  28   ARPVSFNASDLTADPGWDAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  87
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  88   LFKDGKGCGSCYQIRCQNHP  107
+
+
+>TR:A0A2T8I406_9POAL A0A2T8I406 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G388300 PE=4 SV=1
+Length=326
+
+ Score = 143 bits (360),  Expect = 7e-40
+ Identities = 65/79 (82%), Positives = 68/79 (86%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGPYD+GGACGFKNVNLPPFS+MTSCGNQP
+Sbjct  86   ARPVSFNASAFTADPNWEAARATWYGAPTGAGPYDDGGACGFKNVNLPPFSSMTSCGNQP  145
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC NH
+Sbjct  146  LFKDGKGCGSCYQIRCTNH  164
+
+
+>TR:K4ADV0_SETIT K4ADV0 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101758914 
+PE=3 SV=1
+Length=265
+
+ Score = 140 bits (354),  Expect = 1e-39
+ Identities = 65/80 (81%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  25   ARPVSFNASAFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  84
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRCVN+P
+Sbjct  85   LFKDGKGCGSCYQIRCVNNP  104
+
+
+>TR:A0A1D6K8H5_MAIZE A0A1D6K8H5 Expansin-B4 OS=Zea mays OX=4577 GN=103637658 PE=3 
+SV=1
+Length=267
+
+ Score = 140 bits (354),  Expect = 1e-39
+ Identities = 65/80 (81%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF AS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  27   ARPANFTASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNQP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  87   LFKDGKGCGSCYQIRCQNHP  106
+
+
+>TR:A0A1E5URV9_9POAL A0A1E5URV9 Expansin-B3 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0023427 PE=3 SV=1
+Length=267
+
+ Score = 140 bits (353),  Expect = 2e-39
+ Identities = 64/80 (80%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR VNFN S  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  27   ARPVNFNTSDFTADPTWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC  HP
+Sbjct  87   LFKDGKGCGSCYQIRCTGHP  106
+
+
+>TR:A0A2I6SQL8_9POAL A0A2I6SQL8 Beta-expansin 5 OS=Saccharum arundinaceum OX=50346 
+GN=EXPB5 PE=3 SV=1
+Length=266
+
+ Score = 140 bits (352),  Expect = 3e-39
+ Identities = 65/80 (81%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR VNF AS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGNQP
+Sbjct  26   ARPVNFTASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNQP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC  HP
+Sbjct  86   LFKDGKGCGSCYQIRCQKHP  105
+
+
+>TR:B6T629_MAIZE B6T629 Beta-expansin 1a OS=Zea mays OX=4577 GN=100282311 PE=2 
+SV=1
+Length=270
+
+ Score = 140 bits (352),  Expect = 3e-39
+ Identities = 64/80 (80%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  +FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  30   ARPASFNASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  89
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC NHP
+Sbjct  90   LFKDGKGCGSCYQIRCQNHP  109
+
+
+>TR:A0A2S3INQ5_9POAL A0A2S3INQ5 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G388400 PE=4 SV=1
+Length=266
+
+ Score = 139 bits (350),  Expect = 5e-39
+ Identities = 64/79 (81%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVSFNASAFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC NH
+Sbjct  86   LFKDGKGCGSCYQIRCTNH  104
+
+
+>TR:A0A2T7CA09_9POAL A0A2T7CA09 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G404000 PE=4 SV=1
+Length=266
+
+ Score = 139 bits (350),  Expect = 5e-39
+ Identities = 64/79 (81%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVSFNASAFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC NH
+Sbjct  86   LFKDGKGCGSCYQIRCTNH  104
+
+
+>TR:C5WSE8_SORBI C5WSE8 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G300700 
+PE=3 SV=1
+Length=266
+
+ Score = 139 bits (349),  Expect = 7e-39
+ Identities = 64/79 (81%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVSFNASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC NH
+Sbjct  86   LFKDGKGCGSCYQIRCQNH  104
+
+
+>TR:A0A2I8B2B1_9POAL A0A2I8B2B1 Beta-expansin 7 OS=Saccharum arundinaceum OX=50346 
+GN=EXPB7 PE=3 SV=1
+Length=267
+
+ Score = 139 bits (349),  Expect = 7e-39
+ Identities = 64/80 (80%), Positives = 68/80 (85%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  27   ARPVSFNASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC N+P
+Sbjct  87   LFKDGKGCGSCYQIRCQNNP  106
+
+
+>TR:K4ADU6_SETIT K4ADU6 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101759719 
+PE=3 SV=1
+Length=265
+
+ Score = 138 bits (347),  Expect = 1e-38
+ Identities = 63/78 (81%), Positives = 65/78 (83%), Gaps = 0/78 (0%)
+
+Query  96   RIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            R VNFN S  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+PL
+Sbjct  26   RPVNFNESDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEPL  85
+
+Query  156  FKDGKGCGSCYQIRCVNH  173
+            FKDGKGCGSCYQIRC NH
+Sbjct  86   FKDGKGCGSCYQIRCTNH  103
+
+
+>TR:A0A1B6QLY5_SORBI A0A1B6QLY5 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G300500 PE=3 SV=1
+Length=319
+
+ Score = 138 bits (347),  Expect = 5e-38
+ Identities = 63/76 (83%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            NF AS  TADP W AARA     PTGAGP DNGGACGFKNVNLPPFSAMTSCGNQPLFKD
+Sbjct  83   NFTASDFTADPNWEAARATWYGAPTGAGPDDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  142
+
+Query  159  GKGCGSCYQIRCVNHP  174
+            GKGCGSCYQIRC  HP
+Sbjct  143  GKGCGSCYQIRCQKHP  158
+
+
+>TR:A0A2H4YIX8_9POAL A0A2H4YIX8 Expansin 49 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP49 PE=2 SV=1
+Length=266
+
+ Score = 136 bits (343),  Expect = 6e-38
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVSFNASDFTADPDWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC N+
+Sbjct  86   LFKDGKGCGSCYQIRCTNN  104
+
+
+>TR:A0A1E5UNM9_9POAL A0A1E5UNM9 Expansin-B3 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0024499 PE=3 SV=1
+Length=266
+
+ Score = 136 bits (343),  Expect = 6e-38
+ Identities = 63/79 (80%), Positives = 66/79 (84%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR VNFN S   ADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVNFNESDFNADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRCVN+
+Sbjct  86   LFKDGKGCGSCYQIRCVNN  104
+
+
+>TR:A0A2I6SQK7_9POAL A0A2I6SQK7 Beta-expansin 7 OS=Saccharum arundinaceum OX=50346 
+GN=EXPB7 PE=3 SV=1
+Length=267
+
+ Score = 136 bits (343),  Expect = 6e-38
+ Identities = 63/80 (79%), Positives = 67/80 (84%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  T DP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  27   ARPVSFNASDFTDDPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC N+P
+Sbjct  87   LFKDGKGCGSCYQIRCQNNP  106
+
+
+>TR:A0A1E5W0K8_9POAL A0A1E5W0K8 Expansin-B3 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0008057 PE=3 SV=1
+Length=379
+
+ Score = 139 bits (349),  Expect = 9e-38
+ Identities = 62/79 (78%), Positives = 69/79 (87%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  +ADP W AARA     PTGAGPYD+GGACGFKNVN+PPFS+MTSCGN+P
+Sbjct  28   ARPVSFNASDFSADPNWEAARATWYGAPTGAGPYDDGGACGFKNVNMPPFSSMTSCGNEP  87
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRCVN+
+Sbjct  88   LFKDGKGCGSCYQIRCVNN  106
+
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  139  VNLPPFSAMTSCGNQPLFKDGKGCGSCYQ  167
+            VNLPPFSAMTSCGNQPLFKDGKGCGSCYQ
+Sbjct  260  VNLPPFSAMTSCGNQPLFKDGKGCGSCYQ  288
+
+
+>TR:C5WSF0_SORBI C5WSF0 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G300800 
+PE=3 SV=1
+Length=266
+
+ Score = 135 bits (341),  Expect = 1e-37
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  26   ARPVSFNASDFTADPDWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC N+
+Sbjct  86   LFKDGKGCGSCYQIRCQNN  104
+
+
+>TR:A0A2T7CA12_9POAL A0A2T7CA12 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G404100 PE=4 SV=1
+Length=269
+
+ Score = 135 bits (340),  Expect = 2e-37
+ Identities = 61/76 (80%), Positives = 64/76 (84%), Gaps = 0/76 (0%)
+
+Query  98   VNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFK  157
+            VN NAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFS+MTSCGN+PLFK
+Sbjct  32   VNLNASAFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSSMTSCGNEPLFK  91
+
+Query  158  DGKGCGSCYQIRCVNH  173
+            DGKGCGSCYQIRC NH
+Sbjct  92   DGKGCGSCYQIRCTNH  107
+
+
+>TR:A0A1Z5S8B7_SORBI A0A1Z5S8B7 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G300900 PE=3 SV=1
+Length=308
+
+ Score = 135 bits (341),  Expect = 3e-37
+ Identities = 61/76 (80%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            +FN S  TADP W AARA     PTGAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKD
+Sbjct  32   SFNVSDFTADPNWEAARATWYGAPTGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKD  91
+
+Query  159  GKGCGSCYQIRCVNHP  174
+            GKGCGSCYQIRC  HP
+Sbjct  92   GKGCGSCYQIRCQQHP  107
+
+
+>TR:A0A1Z5S8J9_SORBI A0A1Z5S8J9 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G300800 PE=3 SV=1
+Length=325
+
+ Score = 135 bits (341),  Expect = 4e-37
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR V+FNAS  TADP W AARA     PTGAGP D+GGACGFKNVNLPPFSAMTSCGN+P
+Sbjct  85   ARPVSFNASDFTADPDWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSAMTSCGNEP  144
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC N+
+Sbjct  145  LFKDGKGCGSCYQIRCQNN  163
+
+
+>TR:J3N4T1_ORYBR J3N4T1 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102706686 
+PE=3 SV=1
+Length=266
+
+ Score = 134 bits (336),  Expect = 6e-37
+ Identities = 62/80 (78%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKNVN  PFS+MTSCGN+P
+Sbjct  24   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNQYPFSSMTSCGNEP  83
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRCVNHP
+Sbjct  84   LFKDGKGCGSCYQIRCVNHP  103
+
+
+>TR:A0A0E0MAL2_ORYPU A0A0E0MAL2 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=267
+
+ Score = 132 bits (333),  Expect = 2e-36
+ Identities = 61/80 (76%), Positives = 66/80 (83%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKNVN  PFS+MTSCGN+P
+Sbjct  25   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNQYPFSSMTSCGNEP  84
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            LFKDGKGCGSCYQIRC+NHP
+Sbjct  85   LFKDGKGCGSCYQIRCLNHP  104
+
+
+>TR:A0A2S3INR0_9POAL A0A2S3INR0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G388500 PE=4 SV=1
+Length=269
+
+ Score = 132 bits (332),  Expect = 3e-36
+ Identities = 60/76 (79%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  98   VNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFK  157
+            VN NAS  TAD  W AARA     PTGAGP D+GGACGFKNVNLPPFS+MTSCGN+PLFK
+Sbjct  32   VNLNASAFTADSNWEAARATWYGAPTGAGPDDDGGACGFKNVNLPPFSSMTSCGNEPLFK  91
+
+Query  158  DGKGCGSCYQIRCVNH  173
+            DGKGCGSCYQIRC NH
+Sbjct  92   DGKGCGSCYQIRCTNH  107
+
+
+>TR:A0A0E0IWC6_ORYNI A0A0E0IWC6 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=268
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  26   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  86   IFKDGKGCGSCYQIRCVNHP  105
+
+
+>TR:A0A0E0R2C3_ORYRU A0A0E0R2C3 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=268
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  26   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  86   IFKDGKGCGSCYQIRCVNHP  105
+
+
+>TR:A0A0D3HGH7_9ORYZ A0A0D3HGH7 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=269
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  27   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  87   IFKDGKGCGSCYQIRCVNHP  106
+
+
+>TR:I1QVU7_ORYGL I1QVU7 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=269
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  27   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  87   IFKDGKGCGSCYQIRCVNHP  106
+
+
+>TR:A0A0E0BDL7_9ORYZ A0A0E0BDL7 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=269
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  27   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  87   IFKDGKGCGSCYQIRCVNHP  106
+
+
+>TR:A0A0E0F0Y7_9ORYZ A0A0E0F0Y7 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=269
+
+ Score = 131 bits (330),  Expect = 5e-36
+ Identities = 60/80 (75%), Positives = 65/80 (81%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  27   ARPGNFSASDFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  86
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  87   IFKDGKGCGSCYQIRCVNHP  106
+
+
+>SP:EXPB3_ORYSJ Q336T5 Expansin-B3 OS=Oryza sativa subsp. japonica OX=39947 GN=EXPB3 
+PE=2 SV=2
+Length=268
+
+ Score = 130 bits (326),  Expect = 2e-35
+ Identities = 59/80 (74%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  26   ARPGNFSASDFTADPNWEVARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  86   IFKDGKGCGSCYQIRCVNHP  105
+
+
+>TR:A2ZA45_ORYSI A2ZA45 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_34607 PE=3 SV=1
+Length=268
+
+ Score = 130 bits (326),  Expect = 2e-35
+ Identities = 59/80 (74%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  26   ARPGNFSASDFTADPNWEVARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  86   IFKDGKGCGSCYQIRCVNHP  105
+
+
+>TR:B7ER55_ORYSJ B7ER55 Beta expansin 3 OS=Oryza sativa subsp. japonica OX=39947 
+PE=2 SV=1
+Length=268
+
+ Score = 130 bits (326),  Expect = 2e-35
+ Identities = 59/80 (74%), Positives = 64/80 (80%), Gaps = 0/80 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR  NF+AS  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P
+Sbjct  26   ARPGNFSASDFTADPNWEVARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNHP  174
+            +FKDGKGCGSCYQIRCVNHP
+Sbjct  86   IFKDGKGCGSCYQIRCVNHP  105
+
+
+>TR:Q949I2_FESPR Q949I2 Beta expansin B3 OS=Festuca pratensis OX=4608 GN=expB3 
+PE=2 SV=1
+Length=267
+
+ Score = 128 bits (321),  Expect = 1e-34
+ Identities = 57/76 (75%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            NFNAS  TADP W AARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P+FKD
+Sbjct  30   NFNASDFTADPNWEAARATWYGAPTGAGPMDDGGACGFKNTNQYPFSSMTSCGNEPIFKD  89
+
+Query  159  GKGCGSCYQIRCVNHP  174
+            GKGCGSCYQIRC N P
+Sbjct  90   GKGCGSCYQIRCTNDP  105
+
+
+>TR:A0A0D9XMB0_9ORYZ A0A0D9XMB0 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=268
+
+ Score = 125 bits (315),  Expect = 9e-34
+ Identities = 57/79 (72%), Positives = 64/79 (81%), Gaps = 0/79 (0%)
+
+Query  95   ARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQP  154
+            AR ++FN +  TADP W AARA     PTGAGP D+GGACGFKNVN  PFS+MTSCGN+P
+Sbjct  26   ARPMSFNQTEFTADPNWEAARATWYGAPTGAGPDDDGGACGFKNVNQYPFSSMTSCGNEP  85
+
+Query  155  LFKDGKGCGSCYQIRCVNH  173
+            LFKDGKGCGSCYQIRC N+
+Sbjct  86   LFKDGKGCGSCYQIRCTNN  104
+
+
+>TR:I1I632_BRADI I1I632 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100843079 PE=3 SV=1
+Length=271
+
+ Score = 125 bits (314),  Expect = 1e-33
+ Identities = 57/75 (76%), Positives = 62/75 (83%), Gaps = 0/75 (0%)
+
+Query  98   VNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFK  157
+            V++NAS  TADP W  ARA     PTGAGP D+GGACGFKNVN  PFSAMTSCGN+PLFK
+Sbjct  31   VSYNASAFTADPNWENARATWYGAPTGAGPDDDGGACGFKNVNQYPFSAMTSCGNEPLFK  90
+
+Query  158  DGKGCGSCYQIRCVN  172
+            DGKGCGSCYQIRC+N
+Sbjct  91   DGKGCGSCYQIRCIN  105
+
+
+>TR:Q56TQ1_WHEAT Q56TQ1 Beta-expansin TaEXPB1 OS=Triticum aestivum OX=4565 PE=2 
+SV=1
+Length=292
+
+ Score = 124 bits (311),  Expect = 6e-33
+ Identities = 55/75 (73%), Positives = 61/75 (81%), Gaps = 0/75 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N  AS+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKD
+Sbjct  63   NIPASNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKD  122
+
+Query  159  GKGCGSCYQIRCVNH  173
+            GKGCGSCYQIRCV H
+Sbjct  123  GKGCGSCYQIRCVAH  137
+
+
+>TR:D3U5A3_HORVS D3U5A3 Uncharacterized protein (Fragment) OS=Hordeum vulgare 
+subsp. spontaneum OX=77009 GN=gBI958784 PE=4 SV=1
+Length=149
+
+ Score = 119 bits (298),  Expect = 1e-32
+ Identities = 55/79 (70%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA    FN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  15   AAGAGTFNDSAFTADPNWEDARATWYGAPTGAGPMDDGGACGFKNTNQYPFSSMTSCGNE  74
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  75   PIFKDGKGCGSCYQIRCTN  93
+
+
+>TR:D3U593_HORVV D3U593 Uncharacterized protein (Fragment) OS=Hordeum vulgare 
+subsp. vulgare OX=112509 GN=gBI958784 PE=4 SV=1
+Length=149
+
+ Score = 119 bits (298),  Expect = 1e-32
+ Identities = 55/79 (70%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA    FN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  15   AAGAGTFNDSAFTADPNWEDARATWYGAPTGAGPMDDGGACGFKNTNQYPFSSMTSCGNE  74
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  75   PIFKDGKGCGSCYQIRCTN  93
+
+
+>TR:W5FLN5_WHEAT W5FLN5 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=341
+
+ Score = 124 bits (311),  Expect = 2e-32
+ Identities = 55/75 (73%), Positives = 61/75 (81%), Gaps = 0/75 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N  AS+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKD
+Sbjct  57   NIPASNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKD  116
+
+Query  159  GKGCGSCYQIRCVNH  173
+            GKGCGSCYQIRCV H
+Sbjct  117  GKGCGSCYQIRCVAH  131
+
+
+>TR:Q14F61_WHEAT Q14F61 Expansin protein OS=Triticum aestivum OX=4565 GN=EXPB23 
+PE=2 SV=1
+Length=264
+
+ Score = 122 bits (306),  Expect = 2e-32
+ Identities = 58/79 (73%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQ
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQ  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            PLFKDGKGCGSCYQIRC N
+Sbjct  82   PLFKDGKGCGSCYQIRCTN  100
+
+
+>TR:W5G3Z6_WHEAT W5G3Z6 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=347
+
+ Score = 124 bits (311),  Expect = 2e-32
+ Identities = 55/75 (73%), Positives = 61/75 (81%), Gaps = 0/75 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N  AS+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKD
+Sbjct  63   NIPASNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKD  122
+
+Query  159  GKGCGSCYQIRCVNH  173
+            GKGCGSCYQIRCV H
+Sbjct  123  GKGCGSCYQIRCVAH  137
+
+
+>TR:R7W0X1_AEGTA R7W0X1 Uncharacterized protein OS=Aegilops tauschii OX=37682 
+GN=F775_27265 PE=3 SV=1
+Length=347
+
+ Score = 124 bits (311),  Expect = 2e-32
+ Identities = 55/75 (73%), Positives = 61/75 (81%), Gaps = 0/75 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N  AS+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKD
+Sbjct  63   NIPASNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKD  122
+
+Query  159  GKGCGSCYQIRCVNH  173
+            GKGCGSCYQIRCV H
+Sbjct  123  GKGCGSCYQIRCVAH  137
+
+
+>TR:A0A287QJ62_HORVV A0A287QJ62 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=173
+
+ Score = 119 bits (298),  Expect = 3e-32
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  45   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  104
+
+Query  171  VNH  173
+            V H
+Sbjct  105  VAH  107
+
+
+>TR:A0A287QJ03_HORVV A0A287QJ03 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=175
+
+ Score = 119 bits (298),  Expect = 3e-32
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  43   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  102
+
+Query  171  VNH  173
+            V H
+Sbjct  103  VAH  105
+
+
+>TR:A0A287QJC6_HORVV A0A287QJC6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=198
+
+ Score = 119 bits (298),  Expect = 5e-32
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  35   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  94
+
+Query  171  VNH  173
+            V H
+Sbjct  95   VAH  97
+
+
+>TR:A0A0P0VRV2_ORYSJ A0A0P0VRV2 Os03g0102700 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os03g0102700 PE=3 SV=1
+Length=279
+
+ Score = 121 bits (303),  Expect = 7e-32
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  44   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  103
+
+Query  171  VNHP  174
+            V HP
+Sbjct  104  VGHP  107
+
+
+>TR:A0A1D5SHZ4_WHEAT A0A1D5SHZ4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=264
+
+ Score = 120 bits (302),  Expect = 7e-32
+ Identities = 56/79 (71%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:A0A1D5SUU8_WHEAT A0A1D5SUU8 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=264
+
+ Score = 120 bits (302),  Expect = 7e-32
+ Identities = 56/79 (71%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:Q6QFA1_WHEAT Q6QFA1 Expansin EXPB3 OS=Triticum aestivum OX=4565 PE=2 SV=1
+Length=264
+
+ Score = 120 bits (302),  Expect = 7e-32
+ Identities = 56/79 (71%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:N1R542_AEGTA N1R542 Uncharacterized protein OS=Aegilops tauschii OX=37682 
+GN=F775_28898 PE=3 SV=1
+Length=264
+
+ Score = 120 bits (302),  Expect = 7e-32
+ Identities = 56/79 (71%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:Q56TQ0_WHEAT Q56TQ0 Beta-expansin TaEXPB2 OS=Triticum aestivum OX=4565 PE=2 
+SV=1
+Length=264
+
+ Score = 120 bits (301),  Expect = 1e-31
+ Identities = 56/79 (71%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDEGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:A0A287JWD0_HORVV A0A287JWD0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=281
+
+ Score = 120 bits (302),  Expect = 1e-31
+ Identities = 55/73 (75%), Positives = 60/73 (82%), Gaps = 2/73 (3%)
+
+Query  104  HITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCG  163
+            H  A+  W+ A+A     PTGAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCG
+Sbjct  36   HPAANSSWLDAKATWYGRPTGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCG  95
+
+Query  164  SCYQIRCVN--HP  174
+            SCYQIRC+N  HP
+Sbjct  96   SCYQIRCLNSDHP  108
+
+
+>TR:W4ZTE4_WHEAT W4ZTE4 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=265
+
+ Score = 120 bits (300),  Expect = 1e-31
+ Identities = 54/74 (73%), Positives = 58/74 (78%), Gaps = 0/74 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+P+FKD
+Sbjct  28   NFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNEPIFKD  87
+
+Query  159  GKGCGSCYQIRCVN  172
+            GKGCGSCYQIRC N
+Sbjct  88   GKGCGSCYQIRCTN  101
+
+
+>TR:J3LJ04_ORYBR J3LJ04 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102704965 
+PE=3 SV=1
+Length=315
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  80   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  139
+
+Query  171  VNHP  174
+            V HP
+Sbjct  140  VGHP  143
+
+
+>TR:A0A287Q1C3_HORVV A0A287Q1C3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=153
+
+ Score = 116 bits (291),  Expect = 2e-31
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  31   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  90
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  91   VSAGHP  96
+
+
+>TR:A0A0E0GFK3_ORYNI A0A0E0GFK3 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=326
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  91   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  150
+
+Query  171  VNHP  174
+            V HP
+Sbjct  151  VGHP  154
+
+
+>SP:EXPB7_ORYSJ Q9LD07 Expansin-B7 OS=Oryza sativa subsp. japonica OX=39947 GN=EXPB7 
+PE=2 SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:A0A0D3FCN2_9ORYZ A0A0D3FCN2 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:A2XBH1_ORYSI A2XBH1 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_09627 PE=3 SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:A0A0E0NNI2_ORYRU A0A0E0NNI2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:I1P6L8_ORYGL I1P6L8 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:A0A0D9Z0U5_9ORYZ A0A0D9Z0U5 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=327
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  92   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  151
+
+Query  171  VNHP  174
+            V HP
+Sbjct  152  VGHP  155
+
+
+>TR:Q6QFA3_WHEAT Q6QFA3 Expansin EXPB1 OS=Triticum aestivum OX=4565 PE=2 SV=1
+Length=264
+
+ Score = 119 bits (299),  Expect = 2e-31
+ Identities = 55/79 (70%), Positives = 60/79 (76%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA   NFN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQ+RC N
+Sbjct  82   PIFKDGKGCGSCYQMRCTN  100
+
+
+>TR:A0A0E0EQE9_9ORYZ A0A0E0EQE9 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=330
+
+ Score = 121 bits (303),  Expect = 2e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  91   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  150
+
+Query  171  VNHP  174
+            V HP
+Sbjct  151  VGHP  154
+
+
+>TR:F2EER7_HORVV F2EER7 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=274
+
+ Score = 119 bits (299),  Expect = 2e-31
+ Identities = 55/77 (71%), Positives = 61/77 (79%), Gaps = 2/77 (3%)
+
+Query  100  FNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDG  159
+            F  +   A+  W+ A+A     PTGAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDG
+Sbjct  25   FAKNQTLANSSWLDAKATWYGRPTGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDG  84
+
+Query  160  KGCGSCYQIRCVN--HP  174
+            KGCGSCYQIRC+N  HP
+Sbjct  85   KGCGSCYQIRCLNSDHP  101
+
+
+>TR:A0A1D5YV41_WHEAT A0A1D5YV41 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=342
+
+ Score = 121 bits (303),  Expect = 3e-31
+ Identities = 53/71 (75%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  103  SHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGC  162
+            S+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKDGKGC
+Sbjct  62   SNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKDGKGC  121
+
+Query  163  GSCYQIRCVNH  173
+            GSCYQIRCV H
+Sbjct  122  GSCYQIRCVAH  132
+
+
+>TR:A0A287Q1W7_HORVV A0A287Q1W7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=167
+
+ Score = 116 bits (291),  Expect = 3e-31
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  35   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  94
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  95   VSAGHP  100
+
+
+>TR:A0A0E0K7J1_ORYPU A0A0E0K7J1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=346
+
+ Score = 121 bits (303),  Expect = 3e-31
+ Identities = 53/64 (83%), Positives = 55/64 (86%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  115  WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  174
+
+Query  171  VNHP  174
+            V HP
+Sbjct  175  VGHP  178
+
+
+>TR:A0A287FN57_HORVV A0A287FN57 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=269
+
+ Score = 119 bits (298),  Expect = 3e-31
+ Identities = 55/79 (70%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA    FN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  22   AAGAGTFNDSAFTADPNWEDARATWYGAPTGAGPMDDGGACGFKNTNQYPFSSMTSCGNE  81
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  82   PIFKDGKGCGSCYQIRCTN  100
+
+
+>TR:A0A287Q158_HORVV A0A287Q158 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=174
+
+ Score = 116 bits (291),  Expect = 3e-31
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  43   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  102
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  103  VSAGHP  108
+
+
+>TR:A0A287Q127_HORVV A0A287Q127 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=186
+
+ Score = 116 bits (291),  Expect = 4e-31
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  54   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  113
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  114  VSAGHP  119
+
+
+>TR:A0A287QJ67_HORVV A0A287QJ67 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=289
+
+ Score = 119 bits (298),  Expect = 5e-31
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  40   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  99
+
+Query  171  VNH  173
+            V H
+Sbjct  100  VAH  102
+
+
+>TR:T1NR96_TRIUA T1NR96 Uncharacterized protein OS=Triticum urartu OX=4572 PE=3 
+SV=1
+Length=411
+
+ Score = 121 bits (303),  Expect = 8e-31
+ Identities = 53/71 (75%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  103  SHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGC  162
+            S+ ++D  W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQP+FKDGKGC
+Sbjct  191  SNSSSDEGWLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPIFKDGKGC  250
+
+Query  163  GSCYQIRCVNH  173
+            GSCYQIRCV H
+Sbjct  251  GSCYQIRCVAH  261
+
+
+>TR:A0A287U8U7_HORVV A0A287U8U7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=184
+
+ Score = 115 bits (289),  Expect = 8e-31
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  66   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  125
+
+Query  171  VNH  173
+            V H
+Sbjct  126  VAH  128
+
+
+>TR:M0YKC6_HORVV M0YKC6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=317
+
+ Score = 119 bits (298),  Expect = 9e-31
+ Identities = 55/79 (70%), Positives = 59/79 (75%), Gaps = 0/79 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA    FN S  TADP W  ARA     PTGAGP D+GGACGFKN N  PFS+MTSCGN+
+Sbjct  75   AAGAGTFNDSAFTADPNWEDARATWYGAPTGAGPMDDGGACGFKNTNQYPFSSMTSCGNE  134
+
+Query  154  PLFKDGKGCGSCYQIRCVN  172
+            P+FKDGKGCGSCYQIRC N
+Sbjct  135  PIFKDGKGCGSCYQIRCTN  153
+
+
+>TR:A0A1E5WMZ8_9POAL A0A1E5WMZ8 Expansin-B7 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0000220 PE=3 SV=1
+Length=327
+
+ Score = 119 bits (298),  Expect = 1e-30
+ Identities = 54/73 (74%), Positives = 58/73 (79%), Gaps = 5/73 (7%)
+
+Query  107  ADPY-----WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKG  161
+            ADPY     W+ ARA     P GAGP DNGGACGFK VN+PPFSAMTSCGN+PLFKDGKG
+Sbjct  87   ADPYGGGGGWLNARATWYGAPNGAGPDDNGGACGFKGVNMPPFSAMTSCGNEPLFKDGKG  146
+
+Query  162  CGSCYQIRCVNHP  174
+            CGSCYQIRC+ HP
+Sbjct  147  CGSCYQIRCLAHP  159
+
+
+>TR:D3U5A6_HORVS D3U5A6 Uncharacterized protein (Fragment) OS=Hordeum vulgare 
+subsp. spontaneum OX=77009 GN=gTA33218_4513 PE=4 SV=1
+Length=138
+
+ Score = 114 bits (284),  Expect = 1e-30
+ Identities = 52/77 (68%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            +A  VN N S ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQ
+Sbjct  12   SAAAVNLNTSAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQ  71
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PLFKDGKGCGSCYQIRC
+Sbjct  72   PLFKDGKGCGSCYQIRC  88
+
+
+>TR:D3U596_HORVV D3U596 Uncharacterized protein (Fragment) OS=Hordeum vulgare 
+subsp. vulgare OX=112509 GN=gTA33218_4513 PE=4 SV=1
+Length=138
+
+ Score = 114 bits (284),  Expect = 1e-30
+ Identities = 52/77 (68%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            +A  VN N S ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQ
+Sbjct  12   SAAAVNLNTSAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQ  71
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PLFKDGKGCGSCYQIRC
+Sbjct  72   PLFKDGKGCGSCYQIRC  88
+
+
+>TR:A0A287Q165_HORVV A0A287Q165 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=233
+
+ Score = 116 bits (291),  Expect = 1e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  43   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  102
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  103  VSAGHP  108
+
+
+>TR:A0A287QJM6_HORVV A0A287QJM6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=353
+
+ Score = 119 bits (298),  Expect = 2e-30
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  76   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  135
+
+Query  171  VNH  173
+            V H
+Sbjct  136  VAH  138
+
+
+>TR:A0A2S3IV47_9POAL A0A2S3IV47 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G640900 PE=4 SV=1
+Length=301
+
+ Score = 117 bits (294),  Expect = 2e-30
+ Identities = 53/74 (72%), Positives = 58/74 (78%), Gaps = 0/74 (0%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            ++S   A   W+ ARA     P GAGP DNGGACGFK VNLPPFSAMTSCGN+PLFKDGK
+Sbjct  60   SSSSSNAGDGWLNARATWYGAPNGAGPDDNGGACGFKGVNLPPFSAMTSCGNEPLFKDGK  119
+
+Query  161  GCGSCYQIRCVNHP  174
+            GCGSCYQIRC+ HP
+Sbjct  120  GCGSCYQIRCLAHP  133
+
+
+>TR:A0A2T7CIY6_9POAL A0A2T7CIY6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G650600 PE=4 SV=1
+Length=301
+
+ Score = 117 bits (294),  Expect = 2e-30
+ Identities = 53/74 (72%), Positives = 58/74 (78%), Gaps = 0/74 (0%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            ++S   A   W+ ARA     P GAGP DNGGACGFK VNLPPFSAMTSCGN+PLFKDGK
+Sbjct  60   SSSSSNAGDGWLNARATWYGAPNGAGPDDNGGACGFKGVNLPPFSAMTSCGNEPLFKDGK  119
+
+Query  161  GCGSCYQIRCVNHP  174
+            GCGSCYQIRC+ HP
+Sbjct  120  GCGSCYQIRCLAHP  133
+
+
+>TR:A0A0A9GKG6_ARUDO A0A0A9GKG6 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=307
+
+ Score = 117 bits (294),  Expect = 3e-30
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  76   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  135
+
+Query  171  VNH  173
+            V H
+Sbjct  136  VAH  138
+
+
+>TR:A0A287Q1C5_HORVV A0A287Q1C5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=261
+
+ Score = 116 bits (291),  Expect = 3e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  41   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  100
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  101  VSAGHP  106
+
+
+>TR:A0A287Q1X8_HORVV A0A287Q1X8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=263
+
+ Score = 116 bits (291),  Expect = 3e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  42   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  101
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  102  VSAGHP  107
+
+
+>TR:A0A287Q170_HORVV A0A287Q170 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=263
+
+ Score = 116 bits (291),  Expect = 3e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  41   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  100
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  101  VSAGHP  106
+
+
+>TR:A0A1D5XW21_WHEAT A0A1D5XW21 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=262
+
+ Score = 116 bits (290),  Expect = 4e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  95   WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  154
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  155  VSAGHP  160
+
+
+>TR:A0A0D9VNA8_9ORYZ A0A0D9VNA8 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=334
+
+ Score = 117 bits (294),  Expect = 5e-30
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  99   WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  158
+
+Query  171  VNH  173
+            V H
+Sbjct  159  VAH  161
+
+
+>TR:A0A1D5XN32_WHEAT A0A1D5XN32 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=270
+
+ Score = 116 bits (290),  Expect = 5e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  102  WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  161
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  162  VSAGHP  167
+
+
+>TR:A0A1D5XW20_WHEAT A0A1D5XW20 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=274
+
+ Score = 116 bits (290),  Expect = 5e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  95   WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  154
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  155  VSAGHP  160
+
+
+>TR:A0A1E5WLT0_9POAL A0A1E5WLT0 Expansin-B7 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0000619 PE=3 SV=1
+Length=311
+
+ Score = 117 bits (292),  Expect = 6e-30
+ Identities = 51/64 (80%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFK VNLPPFSAMTSCGNQPLFKDGKGCGSCYQ+RC
+Sbjct  78   WLNARATWYGAPNGAGPPDNGGACGFKRVNLPPFSAMTSCGNQPLFKDGKGCGSCYQVRC  137
+
+Query  171  VNHP  174
+              HP
+Sbjct  138  FAHP  141
+
+
+>TR:A0A287Q168_HORVV A0A287Q168 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=295
+
+ Score = 116 bits (291),  Expect = 6e-30
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  56   WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  115
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  116  VSAGHP  121
+
+
+>TR:A0A287JWF4_HORVV A0A287JWF4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=279
+
+ Score = 116 bits (290),  Expect = 6e-30
+ Identities = 55/74 (74%), Positives = 60/74 (81%), Gaps = 3/74 (4%)
+
+Query  104  HITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCG  163
+            H  A+  W+ A+A     PTGAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCG
+Sbjct  33   HPAANSSWLDAKATWYGRPTGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCG  92
+
+Query  164  SCY-QIRCVN--HP  174
+            SCY QIRC+N  HP
+Sbjct  93   SCYQQIRCLNSDHP  106
+
+
+>TR:A0A1D5VXY2_WHEAT A0A1D5VXY2 Beta-expansin 1a, putative, expressed OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=281
+
+ Score = 116 bits (290),  Expect = 6e-30
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  81   WLDARATWYGAPDGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  140
+
+Query  171  VNH  173
+            V H
+Sbjct  141  VAH  143
+
+
+>TR:A0A287U8B3_HORVV A0A287U8B3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=268
+
+ Score = 115 bits (289),  Expect = 7e-30
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  37   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  96
+
+Query  171  VNH  173
+            V H
+Sbjct  97   VAH  99
+
+
+>TR:Q949I3_FESPR Q949I3 Beta expansin B2 OS=Festuca pratensis OX=4608 GN=expB2 
+PE=2 SV=1
+Length=269
+
+ Score = 115 bits (289),  Expect = 7e-30
+ Identities = 52/72 (72%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N+NAS ++    W+ ARA     PTGAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  32   NYNASAVSYSSSWLPARATWYGAPTGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  91
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  92   GKGCGSCYQIRC  103
+
+
+>TR:J3N4T0_ORYBR J3N4T0 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102706132 
+PE=3 SV=1
+Length=274
+
+ Score = 115 bits (289),  Expect = 8e-30
+ Identities = 55/78 (71%), Positives = 60/78 (77%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+ AS  TA    W+ ARA     PTGAGP DNGGACGFKNVN  PF +MTSCGN+PLF
+Sbjct  29   VNYTASAATAYGSAWLPARATWYGSPTGAGPDDNGGACGFKNVNQYPFMSMTSCGNEPLF  88
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC N+P
+Sbjct  89   KDGKGCGSCYQIRCQNNP  106
+
+
+>TR:A0A1D5VXY3_WHEAT A0A1D5VXY3 Beta-expansin 1a, putative, expressed OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=298
+
+ Score = 116 bits (290),  Expect = 9e-30
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  81   WLDARATWYGAPDGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  140
+
+Query  171  VNH  173
+            V H
+Sbjct  141  VAH  143
+
+
+>TR:A0A0D9VN96_9ORYZ A0A0D9VN96 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=376
+
+ Score = 117 bits (294),  Expect = 9e-30
+ Identities = 52/63 (83%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  141  WLNARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  200
+
+Query  171  VNH  173
+            V H
+Sbjct  201  VAH  203
+
+
+>TR:A0A0B4SVQ5_WHEAT A0A0B4SVQ5 Beta-expansin 1a OS=Triticum aestivum OX=4565 GN=BEX_3 
+PE=3 SV=1
+Length=229
+
+ Score = 114 bits (285),  Expect = 1e-29
+ Identities = 53/76 (70%), Positives = 60/76 (79%), Gaps = 2/76 (3%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +A+   A+  W+ A A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGK
+Sbjct  29   HAAPSAANSSWLDANATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGK  88
+
+Query  161  GCGSCYQIRCV--NHP  174
+            GCGSCYQIRC+  +HP
+Sbjct  89   GCGSCYQIRCLKSDHP  104
+
+
+>TR:A0A1D5WX48_WHEAT A0A1D5WX48 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=274
+
+ Score = 115 bits (288),  Expect = 1e-29
+ Identities = 53/76 (70%), Positives = 61/76 (80%), Gaps = 2/76 (3%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +A+   A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGK
+Sbjct  29   HAAPSAANSSWLDAKATWYGAPRGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGK  88
+
+Query  161  GCGSCYQIRCV--NHP  174
+            GCGSCYQIRC+  +HP
+Sbjct  89   GCGSCYQIRCLKSDHP  104
+
+
+>TR:R7W719_AEGTA R7W719 Uncharacterized protein OS=Aegilops tauschii OX=37682 
+GN=F775_29480 PE=3 SV=1
+Length=274
+
+ Score = 115 bits (288),  Expect = 1e-29
+ Identities = 53/76 (70%), Positives = 61/76 (80%), Gaps = 2/76 (3%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +A+   A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGK
+Sbjct  29   HAAPSAANSSWLDAKATWYGAPRGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGK  88
+
+Query  161  GCGSCYQIRCV--NHP  174
+            GCGSCYQIRC+  +HP
+Sbjct  89   GCGSCYQIRCLKSDHP  104
+
+
+>TR:D8L9P9_WHEAT D8L9P9 Beta-expansin 1a, putative, expressed OS=Triticum aestivum 
+OX=4565 GN=TAA_ctg0661b.00040.1 PE=3 SV=1
+Length=311
+
+ Score = 116 bits (290),  Expect = 1e-29
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  81   WLDARATWYGAPDGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  140
+
+Query  171  VNH  173
+            V H
+Sbjct  141  VAH  143
+
+
+>TR:A0A1D6ALA1_WHEAT A0A1D6ALA1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=296
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  65   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  124
+
+Query  171  VNH  173
+            V H
+Sbjct  125  VAH  127
+
+
+>TR:A0A1D6A686_WHEAT A0A1D6A686 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=297
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  66   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  125
+
+Query  171  VNH  173
+            V H
+Sbjct  126  VAH  128
+
+
+>TR:M7ZDH3_TRIUA M7ZDH3 Expansin-B7 OS=Triticum urartu OX=4572 GN=TRIUR3_21027 
+PE=3 SV=1
+Length=297
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  66   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  125
+
+Query  171  VNH  173
+            V H
+Sbjct  126  VAH  128
+
+
+>TR:A0A1D6BB07_WHEAT A0A1D6BB07 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=299
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 51/63 (81%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  68   WLDARATWYGAPGGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  127
+
+Query  171  VNH  173
+            V H
+Sbjct  128  VAH  130
+
+
+>TR:T1L9I1_TRIUA T1L9I1 Uncharacterized protein OS=Triticum urartu OX=4572 PE=3 
+SV=1
+Length=239
+
+ Score = 114 bits (285),  Expect = 1e-29
+ Identities = 52/66 (79%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+AA+A       GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  1    WLAAKATWYGARHGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  60
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  61   LRSNHP  66
+
+
+>TR:K4ACP7_SETIT K4ACP7 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781890 
+PE=3 SV=1
+Length=321
+
+ Score = 116 bits (290),  Expect = 1e-29
+ Identities = 50/64 (78%), Positives = 54/64 (84%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFK VN+PPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  90   WLNARATWYGAPNGAGPDDNGGACGFKGVNMPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  149
+
+Query  171  VNHP  174
+            + HP
+Sbjct  150  LAHP  153
+
+
+>TR:A0A1D5YB75_WHEAT A0A1D5YB75 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=341
+
+ Score = 116 bits (291),  Expect = 1e-29
+ Identities = 57/94 (61%), Positives = 65/94 (69%), Gaps = 8/94 (9%)
+
+Query  83   SSQPQKQAGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLP  142
+            ++ P   A   ++   N +A        W+ ARA     P GAGP DNGGACGFKNVNLP
+Sbjct  81   AATPSPPAANSSSNSTNVDAGG------WLDARATWYGAPKGAGPDDNGGACGFKNVNLP  134
+
+Query  143  PFSAMTSCGNQPLFKDGKGCGSCYQIRCVN--HP  174
+            PFSAMTSCGN+PLFKDGKGCGSCYQIRCV+  HP
+Sbjct  135  PFSAMTSCGNEPLFKDGKGCGSCYQIRCVSAGHP  168
+
+
+>TR:A0A0B4SVH3_WHEAT A0A0B4SVH3 Beta-expansin 1a OS=Triticum aestivum OX=4565 GN=BEX_2 
+PE=3 SV=1
+Length=274
+
+ Score = 115 bits (287),  Expect = 1e-29
+ Identities = 53/76 (70%), Positives = 61/76 (80%), Gaps = 2/76 (3%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +A+   A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGK
+Sbjct  29   HAAPSAANSSWLDAKATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGK  88
+
+Query  161  GCGSCYQIRCV--NHP  174
+            GCGSCYQIRC+  +HP
+Sbjct  89   GCGSCYQIRCLKSDHP  104
+
+
+>TR:D8LAL5_WHEAT D8LAL5 Beta-expansin 1a, putative, expressed OS=Triticum aestivum 
+OX=4565 GN=BEX_2 PE=3 SV=1
+Length=274
+
+ Score = 115 bits (287),  Expect = 1e-29
+ Identities = 53/76 (70%), Positives = 61/76 (80%), Gaps = 2/76 (3%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +A+   A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGK
+Sbjct  29   HAAPSAANSSWLDAKATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGK  88
+
+Query  161  GCGSCYQIRCV--NHP  174
+            GCGSCYQIRC+  +HP
+Sbjct  89   GCGSCYQIRCLKPDHP  104
+
+
+>TR:A0A287Q163_HORVV A0A287Q163 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=352
+
+ Score = 116 bits (291),  Expect = 2e-29
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  162  WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  221
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  222  VSAGHP  227
+
+
+>TR:A0A1D5XW19_WHEAT A0A1D5XW19 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=333
+
+ Score = 116 bits (290),  Expect = 2e-29
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  95   WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  154
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  155  VSAGHP  160
+
+
+>TR:A0A1D5XN34_WHEAT A0A1D5XN34 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=335
+
+ Score = 116 bits (290),  Expect = 2e-29
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  102  WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  161
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  162  VSAGHP  167
+
+
+>TR:B6U4P4_MAIZE B6U4P4 Beta-expansin OS=Zea mays OX=4577 PE=2 SV=1
+Length=318
+
+ Score = 115 bits (289),  Expect = 2e-29
+ Identities = 50/69 (72%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  106  TADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSC  165
+            ++D  W+ ARA     P GAGP DNGGACGFK VN+PPFSAMTSCGN+P+FKDGKGCGSC
+Sbjct  82   SSDDGWLNARATWYGAPNGAGPDDNGGACGFKGVNMPPFSAMTSCGNEPIFKDGKGCGSC  141
+
+Query  166  YQIRCVNHP  174
+            YQIRC  HP
+Sbjct  142  YQIRCKAHP  150
+
+
+>TR:B6UAB6_MAIZE B6UAB6 Beta-expansin 1a OS=Zea mays OX=4577 PE=2 SV=1
+Length=318
+
+ Score = 115 bits (289),  Expect = 2e-29
+ Identities = 50/69 (72%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  106  TADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSC  165
+            ++D  W+ ARA     P GAGP DNGGACGFK VN+PPFSAMTSCGN+P+FKDGKGCGSC
+Sbjct  82   SSDDGWLNARATWYGAPNGAGPDDNGGACGFKGVNMPPFSAMTSCGNEPIFKDGKGCGSC  141
+
+Query  166  YQIRCVNHP  174
+            YQIRC  HP
+Sbjct  142  YQIRCKAHP  150
+
+
+>TR:B4FMR3_MAIZE B4FMR3 Expansin-B4 OS=Zea mays OX=4577 GN=541908 PE=2 SV=1
+Length=318
+
+ Score = 115 bits (289),  Expect = 2e-29
+ Identities = 50/69 (72%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  106  TADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSC  165
+            ++D  W+ ARA     P GAGP DNGGACGFK VN+PPFSAMTSCGN+P+FKDGKGCGSC
+Sbjct  82   SSDDGWLNARATWYGAPNGAGPDDNGGACGFKGVNMPPFSAMTSCGNEPIFKDGKGCGSC  141
+
+Query  166  YQIRCVNHP  174
+            YQIRC  HP
+Sbjct  142  YQIRCKAHP  150
+
+
+>TR:A0A1B6QR67_SORBI A0A1B6QR67 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G542100 PE=3 SV=1
+Length=320
+
+ Score = 115 bits (289),  Expect = 2e-29
+ Identities = 51/64 (80%), Positives = 53/64 (83%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFK VNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  89   WLNARATWYGAPNGAGPDDNGGACGFKGVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  148
+
+Query  171  VNHP  174
+              HP
+Sbjct  149  KAHP  152
+
+
+>TR:A0A1D5XN33_WHEAT A0A1D5XN33 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=341
+
+ Score = 116 bits (290),  Expect = 2e-29
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  102  WLDARATWYGAPKGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  161
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  162  VSAGHP  167
+
+
+>TR:A0A287Q132_HORVV A0A287Q132 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=328
+
+ Score = 115 bits (289),  Expect = 2e-29
+ Identities = 51/62 (82%), Positives = 54/62 (87%), Gaps = 0/62 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  135  WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  194
+
+Query  171  VN  172
+            V+
+Sbjct  195  VS  196
+
+
+>TR:A0A1D5SHZ3_WHEAT A0A1D5SHZ3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=270
+
+ Score = 114 bits (285),  Expect = 3e-29
+ Identities = 56/85 (66%), Positives = 60/85 (71%), Gaps = 6/85 (7%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDN------GGACGFKNVNLPPFSAM  147
+            AA   NFN S  TADP W  ARA     PTGAGP D+      GGACGFKN N  PFS+M
+Sbjct  22   AAGAGNFNDSAFTADPNWEDARATWYGAPTGAGPDDDVIDVHSGGACGFKNTNQYPFSSM  81
+
+Query  148  TSCGNQPLFKDGKGCGSCYQIRCVN  172
+            TSCGN+P+FKDGKGCGSCYQIRC N
+Sbjct  82   TSCGNEPIFKDGKGCGSCYQIRCTN  106
+
+
+>TR:A0A1D5VL36_WHEAT A0A1D5VL36 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=273
+
+ Score = 114 bits (285),  Expect = 3e-29
+ Identities = 52/70 (74%), Positives = 58/70 (83%), Gaps = 2/70 (3%)
+
+Query  107  ADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCY  166
+            A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCGSCY
+Sbjct  32   ANSSWLDAKATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCGSCY  91
+
+Query  167  QIRCV--NHP  174
+            QIRC+  +HP
+Sbjct  92   QIRCLKSDHP  101
+
+
+>TR:A0A1D5VL35_WHEAT A0A1D5VL35 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=274
+
+ Score = 114 bits (285),  Expect = 3e-29
+ Identities = 52/70 (74%), Positives = 58/70 (83%), Gaps = 2/70 (3%)
+
+Query  107  ADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCY  166
+            A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCGSCY
+Sbjct  32   ANSSWLDAKATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCGSCY  91
+
+Query  167  QIRCV--NHP  174
+            QIRC+  +HP
+Sbjct  92   QIRCLKSDHP  101
+
+
+>TR:M7ZKE9_TRIUA M7ZKE9 Expansin-B7 OS=Triticum urartu OX=4572 GN=TRIUR3_01123 
+PE=3 SV=1
+Length=274
+
+ Score = 114 bits (285),  Expect = 3e-29
+ Identities = 52/70 (74%), Positives = 58/70 (83%), Gaps = 2/70 (3%)
+
+Query  107  ADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCY  166
+            A+  W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCGSCY
+Sbjct  32   ANSSWLDAKATWYGAPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCGSCY  91
+
+Query  167  QIRCV--NHP  174
+            QIRC+  +HP
+Sbjct  92   QIRCLKSDHP  101
+
+
+>TR:A0A0A9PGF7_ARUDO A0A0A9PGF7 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=264
+
+ Score = 114 bits (284),  Expect = 3e-29
+ Identities = 55/77 (71%), Positives = 57/77 (74%), Gaps = 2/77 (3%)
+
+Query  98   VNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFK  157
+            VN+NAS   A   W  ARA     P GAGP DNGGACGFKNVN  PF AMTSCGNQPLFK
+Sbjct  27   VNYNASD--AYMQWGNARATWYGQPNGAGPDDNGGACGFKNVNQYPFMAMTSCGNQPLFK  84
+
+Query  158  DGKGCGSCYQIRCVNHP  174
+            DGKGCGSCY+IRC  HP
+Sbjct  85   DGKGCGSCYKIRCTRHP  101
+
+
+>TR:F2DDY1_HORVV F2DDY1 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=265
+
+ Score = 114 bits (284),  Expect = 3e-29
+ Identities = 52/77 (68%), Positives = 58/77 (75%), Gaps = 0/77 (0%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            +A  VN N S ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQ
+Sbjct  23   SAAAVNLNTSAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQ  82
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PLFKDGKGCGSCYQIRC
+Sbjct  83   PLFKDGKGCGSCYQIRC  99
+
+
+>TR:A0A287Q1X3_HORVV A0A287Q1X3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=403
+
+ Score = 116 bits (291),  Expect = 4e-29
+ Identities = 53/66 (80%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  164  WLDARATWYGAPNGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDGKGCGSCYQIRC  223
+
+Query  171  VN--HP  174
+            V+  HP
+Sbjct  224  VSAGHP  229
+
+
+>TR:A0A0S2UWW0_HORVU A0A0S2UWW0 Beta-expansin EXPB7 OS=Hordeum vulgare OX=4513 GN=EXPB7 
+PE=3 SV=1
+Length=306
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  76   WLDARATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQIRC  135
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  136  VGKVHP  141
+
+
+>TR:M0YZK5_HORVV M0YZK5 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=306
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  76   WLDARATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQIRC  135
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  136  VGKVHP  141
+
+
+>TR:A0A0S2UWJ3_HORVU A0A0S2UWJ3 Beta-expansin EXPB7 OS=Hordeum vulgare OX=4513 GN=EXPB7 
+PE=2 SV=1
+Length=306
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  76   WLDARATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQIRC  135
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  136  VGKVHP  141
+
+
+>TR:A0A1D5WHV1_WHEAT A0A1D5WHV1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=314
+
+ Score = 114 bits (286),  Expect = 5e-29
+ Identities = 52/66 (79%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  84   WLDARATWYGAPDGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  143
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  144  VGKAHP  149
+
+
+>TR:A0A1D5V8Q1_WHEAT A0A1D5V8Q1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=319
+
+ Score = 114 bits (286),  Expect = 5e-29
+ Identities = 52/66 (79%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  89   WLDARATWYGAPDGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  148
+
+Query  171  V--NHP  174
+            V   HP
+Sbjct  149  VGKTHP  154
+
+
+>TR:A0A287MJH3_HORVV A0A287MJH3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=269
+
+ Score = 113 bits (283),  Expect = 5e-29
+ Identities = 50/66 (76%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  41   WLDAKATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQIRC  100
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  101  VGKAHP  106
+
+
+>TR:A0A2S3IVA7_9POAL A0A2S3IVA7 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G641000 PE=4 SV=1
+Length=273
+
+ Score = 113 bits (283),  Expect = 6e-29
+ Identities = 52/78 (67%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITADPY-WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            V++N S +   P  W +ARA     P GAGPYDNGGACGFKNVN  PF +MTSCGNQPLF
+Sbjct  33   VSYNDSSLMRMPMQWGSARATWYGQPNGAGPYDNGGACGFKNVNQYPFLSMTSCGNQPLF  92
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            +DGKGCGSCY+IRC  HP
+Sbjct  93   RDGKGCGSCYKIRCSKHP  110
+
+
+>TR:A0A2T7CJ07_9POAL A0A2T7CJ07 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G650700 PE=4 SV=1
+Length=273
+
+ Score = 113 bits (283),  Expect = 6e-29
+ Identities = 52/78 (67%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITADPY-WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            V++N S +   P  W +ARA     P GAGPYDNGGACGFKNVN  PF +MTSCGNQPLF
+Sbjct  33   VSYNDSSLMQMPMQWGSARATWYGQPNGAGPYDNGGACGFKNVNQYPFLSMTSCGNQPLF  92
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            +DGKGCGSCY+IRC  HP
+Sbjct  93   RDGKGCGSCYKIRCSKHP  110
+
+
+>TR:Q4W1F8_WHEAT Q4W1F8 Expansin EXPB11 protein OS=Triticum aestivum OX=4565 GN=expb11 
+PE=2 SV=1
+Length=274
+
+ Score = 113 bits (283),  Expect = 6e-29
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKNVNLPPFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  39   WLDAKATWYGPPHGAGPDDNGGACGFKNVNLPPFSSMTSCGNQPLFKDGKGCGSCYQIRC  98
+
+Query  171  V--NHP  174
+            +  +HP
+Sbjct  99   LKSDHP  104
+
+
+>TR:C3SAC3_BRADI C3SAC3 Triticum beta-expansin OS=Brachypodium distachyon OX=15368 
+GN=LOC100841884 PE=3 SV=1
+Length=316
+
+ Score = 114 bits (285),  Expect = 7e-29
+ Identities = 52/69 (75%), Positives = 57/69 (83%), Gaps = 2/69 (3%)
+
+Query  108  DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQ  167
+            D  W+ ARA     P GAGP DNGGACGFK+VNLPPFSAMTSCGN+PLFKDGKGCGSCYQ
+Sbjct  79   DEGWMDARATWYGAPNGAGPDDNGGACGFKDVNLPPFSAMTSCGNEPLFKDGKGCGSCYQ  138
+
+Query  168  IRCVN--HP  174
+            IRC++  HP
+Sbjct  139  IRCLSRMHP  147
+
+
+>TR:A0A0E0BDL5_9ORYZ A0A0E0BDL5 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=254
+
+ Score = 112 bits (281),  Expect = 7e-29
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  72   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  131
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  132  KDGKGCGSCYQIRCNKDP  149
+
+
+>TR:A0A287QJN0_HORVV A0A287QJN0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=146
+
+ Score = 109 bits (273),  Expect = 8e-29
+ Identities = 47/58 (81%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQI  168
+            W+ ARA     P GAGPYDNGGACGFKNVN PPFS+MTSCGNQPLFKDGKGCGSCYQ+
+Sbjct  76   WLDARATWYGAPNGAGPYDNGGACGFKNVNWPPFSSMTSCGNQPLFKDGKGCGSCYQV  133
+
+
+>TR:A3C774_ORYSJ A3C774 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_32418 PE=3 SV=1
+Length=271
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  26   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  85
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  86   KDGKGCGSCYQIRCNKDP  103
+
+
+>TR:A2ZA43_ORYSI A2ZA43 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_34605 PE=3 SV=1
+Length=271
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  26   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  85
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  86   KDGKGCGSCYQIRCNKDP  103
+
+
+>TR:A0A0A8XMW2_ARUDO A0A0A8XMW2 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=271
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 54/79 (68%), Positives = 58/79 (73%), Gaps = 6/79 (8%)
+
+Query  98   VNFNASHITADPY--WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            VN+N    T+D Y  W  ARA     P GAGP DNGGACGFKNVN  PF AMTSCGNQPL
+Sbjct  34   VNYN----TSDAYMQWGTARATWYGQPNGAGPDDNGGACGFKNVNQYPFMAMTSCGNQPL  89
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCY+I+C  HP
+Sbjct  90   FKDGKGCGSCYKIKCTRHP  108
+
+
+>SP:EXPB6_ORYSJ Q7XCA7 Expansin-B6 OS=Oryza sativa subsp. japonica OX=39947 GN=EXPB6 
+PE=2 SV=1
+Length=275
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  30   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  89
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  90   KDGKGCGSCYQIRCNKDP  107
+
+
+>TR:A0A0E0IWC3_ORYNI A0A0E0IWC3 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=275
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  30   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  89
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  90   KDGKGCGSCYQIRCNKDP  107
+
+
+>TR:A0A287MJ94_HORVV A0A287MJ94 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=263
+
+ Score = 112 bits (280),  Expect = 1e-28
+ Identities = 49/60 (82%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W  ARA     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  34   WFDARATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  93
+
+
+>TR:A0A0E0F0Y8_9ORYZ A0A0E0F0Y8 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=281
+
+ Score = 112 bits (281),  Expect = 1e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  36   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  95
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  96   KDGKGCGSCYQIRCNKDP  113
+
+
+>TR:A0A077S7R5_WHEAT A0A077S7R5 Uncharacterized protein OS=Triticum aestivum OX=4565 
+GN=TRAES_3BF113200230CFD_c1 PE=3 SV=1
+Length=300
+
+ Score = 113 bits (282),  Expect = 1e-28
+ Identities = 51/66 (77%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACGFKNVNLPP +AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  70   WLDARATWYGAPDGAGPLDNGGACGFKNVNLPPLNAMTSCGNEPLFKDGKGCGSCYQIRC  129
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  130  VGKAHP  135
+
+
+>TR:A0A0S2UWD0_HORVU A0A0S2UWD0 Beta-expansin EXPB7 OS=Hordeum vulgare OX=4513 GN=EXPB7 
+PE=3 SV=1
+Length=306
+
+ Score = 113 bits (282),  Expect = 2e-28
+ Identities = 50/66 (76%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ AR      P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  76   WLDARTTWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQIRC  135
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  136  VGKVHP  141
+
+
+>TR:K4ADR6_SETIT K4ADR6 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781488 
+PE=3 SV=1
+Length=270
+
+ Score = 111 bits (278),  Expect = 3e-28
+ Identities = 54/89 (61%), Positives = 61/89 (69%), Gaps = 3/89 (3%)
+
+Query  89   QAGRQAARIVNFNASHITAD---PYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFS  145
+            QA   AA  V++N S  ++      W  ARA     P GAGPYDNGGACGFK VN  PF 
+Sbjct  14   QAAAAAASSVSYNDSSSSSSLMQMQWGNARATWYGQPNGAGPYDNGGACGFKKVNEYPFM  73
+
+Query  146  AMTSCGNQPLFKDGKGCGSCYQIRCVNHP  174
+            +MTSCGNQPLF+DGKGCGSCY+IRC  HP
+Sbjct  74   SMTSCGNQPLFRDGKGCGSCYKIRCSKHP  102
+
+
+>TR:A0A0D3HGH5_9ORYZ A0A0D3HGH5 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=323
+
+ Score = 112 bits (281),  Expect = 3e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  78   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  137
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  138  KDGKGCGSCYQIRCNKDP  155
+
+
+>TR:A0A0E0R2C1_ORYRU A0A0E0R2C1 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=323
+
+ Score = 112 bits (281),  Expect = 3e-28
+ Identities = 53/78 (68%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+P+F
+Sbjct  78   VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPIF  137
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  138  KDGKGCGSCYQIRCNKDP  155
+
+
+>TR:A0A0B4SVF8_WHEAT A0A0B4SVF8 Beta-expansin 1a OS=Triticum aestivum OX=4565 GN=BEX_1 
+PE=3 SV=1
+Length=291
+
+ Score = 112 bits (279),  Expect = 3e-28
+ Identities = 52/77 (68%), Positives = 60/77 (78%), Gaps = 2/77 (3%)
+
+Query  100  FNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDG  159
+            + A+   A+  W+ A+A       GAGP DNGGACGFKNVNLPPFSAMTSCGN+PLFKDG
+Sbjct  42   YRATPPAANSSWLDAKATWYGARHGAGPDDNGGACGFKNVNLPPFSAMTSCGNEPLFKDG  101
+
+Query  160  KGCGSCYQIRCV--NHP  174
+            KGCGSCYQIRC+  +HP
+Sbjct  102  KGCGSCYQIRCLKSDHP  118
+
+
+>TR:A0A1E5WNN2_9POAL A0A1E5WNN2 Expansin-B4 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0000221 PE=3 SV=1
+Length=275
+
+ Score = 111 bits (277),  Expect = 5e-28
+ Identities = 50/74 (68%), Positives = 55/74 (74%), Gaps = 0/74 (0%)
+
+Query  101  NASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGK  160
+            +AS +     W  ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLF+DGK
+Sbjct  29   SASLMQMQMQWGNARATWYGQPNGAGPYDNGGACGFKNVNQYPFMAMTSCGNQPLFRDGK  88
+
+Query  161  GCGSCYQIRCVNHP  174
+            GCGSCY+I+C  HP
+Sbjct  89   GCGSCYKIKCSKHP  102
+
+
+>TR:Q56TP9_WHEAT Q56TP9 Beta-expansin TaEXPB3 OS=Triticum aestivum OX=4565 PE=2 
+SV=1
+Length=270
+
+ Score = 110 bits (276),  Expect = 6e-28
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + NAS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLNASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  93   GKGCGSCYQIRC  104
+
+
+>TR:A0A1D5SYG2_WHEAT A0A1D5SYG2 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=270
+
+ Score = 110 bits (276),  Expect = 6e-28
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + NAS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLNASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  93   GKGCGSCYQIRC  104
+
+
+>TR:N1R1A1_AEGTA N1R1A1 Uncharacterized protein OS=Aegilops tauschii OX=37682 
+GN=F775_30105 PE=3 SV=1
+Length=270
+
+ Score = 110 bits (276),  Expect = 6e-28
+ Identities = 50/72 (69%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + NAS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLNASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  93   GKGCGSCYQIRC  104
+
+
+>TR:D8LAL4_WHEAT D8LAL4 Beta-expansin 1a, putative, expressed OS=Triticum aestivum 
+OX=4565 GN=BEX_1 PE=3 SV=1
+Length=290
+
+ Score = 110 bits (276),  Expect = 9e-28
+ Identities = 52/77 (68%), Positives = 59/77 (77%), Gaps = 2/77 (3%)
+
+Query  100  FNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDG  159
+            + A+   A+  W+ A+A       GAGP DNGGACGFKNVNLPPFSAMTSC N+PLFKDG
+Sbjct  42   YMATPPAANSSWLDAKATWYGARHGAGPDDNGGACGFKNVNLPPFSAMTSCSNEPLFKDG  101
+
+Query  160  KGCGSCYQIRCV--NHP  174
+            KGCGSCYQIRC+  NHP
+Sbjct  102  KGCGSCYQIRCLRSNHP  118
+
+
+>TR:A0A0D9VN95_9ORYZ A0A0D9VN95 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=274
+
+ Score = 110 bits (275),  Expect = 9e-28
+ Identities = 51/84 (61%), Positives = 61/84 (73%), Gaps = 2/84 (2%)
+
+Query  90   AGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTS  149
+            A   AA + N +A+ +     W++A+A     P GAGP DNGGACGFKNVNLPPFS MTS
+Sbjct  26   ASSGAAALYNESAAGMGGG--WMSAKATWYGAPNGAGPADNGGACGFKNVNLPPFSGMTS  83
+
+Query  150  CGNQPLFKDGKGCGSCYQIRCVNH  173
+            CGNQPL+K GKGCGSCY++RC  H
+Sbjct  84   CGNQPLYKGGKGCGSCYRVRCDRH  107
+
+
+>TR:A0A0Q3HWC9_BRADI A0A0Q3HWC9 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g33106v3 PE=3 SV=1
+Length=269
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 49/60 (82%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  44   WLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNQPLFKDGKGCGSCYQIRC  103
+
+
+>TR:A0A2H4YIQ3_9POAL A0A2H4YIQ3 Expansin 87 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP87 PE=2 SV=1
+Length=271
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 53/77 (69%), Positives = 57/77 (74%), Gaps = 1/77 (1%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA  VN+N S   A   W  ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQ
+Sbjct  27   AAAGVNYNTSD-AAGMRWGNARATWYGQPNGAGPYDNGGACGFKNVNQYPFMAMTSCGNQ  85
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PL++DGKGCGSCY+IRC
+Sbjct  86   PLYRDGKGCGSCYKIRC  102
+
+
+>TR:A0A1D6JK16_MAIZE A0A1D6JK16 Expansin-B4 OS=Zea mays OX=4577 GN=103630483 PE=3 
+SV=1
+Length=273
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 51/76 (67%), Positives = 55/76 (72%), Gaps = 1/76 (1%)
+
+Query  99   NFNASHITADPY-WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFK  157
+            N+N S   A    W  ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPL++
+Sbjct  33   NYNTSDAAARQLQWGNARATWYGQPNGAGPYDNGGACGFKNVNQYPFMAMTSCGNQPLYR  92
+
+Query  158  DGKGCGSCYQIRCVNH  173
+            DGKGCGSCY+IRC  H
+Sbjct  93   DGKGCGSCYKIRCSKH  108
+
+
+>TR:A0A2S3INS7_9POAL A0A2S3INS7 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G389500 PE=4 SV=1
+Length=276
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 52/96 (54%), Positives = 63/96 (66%), Gaps = 9/96 (9%)
+
+Query  81   RRSSQPQKQAGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVN  140
+            R   QP   +  Q   +++++   I A   W  A       PTGAGP DNGGACGFK+ N
+Sbjct  27   RAQQQPTNASDSQERSLLSYSGGWIPAKATWYGA-------PTGAGPDDNGGACGFKHTN  79
+
+Query  141  LPPFSAMTSCGNQPLFKDGKGCGSCYQIRCV--NHP  174
+              PFS+MTSCGN+P+FKDGKGCGSCYQIRC+  NHP
+Sbjct  80   QYPFSSMTSCGNEPIFKDGKGCGSCYQIRCLKSNHP  115
+
+
+>TR:A0A2T7CA21_9POAL A0A2T7CA21 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G404900 PE=4 SV=1
+Length=276
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 52/96 (54%), Positives = 63/96 (66%), Gaps = 9/96 (9%)
+
+Query  81   RRSSQPQKQAGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVN  140
+            R   QP   +  Q   +++++   I A   W  A       PTGAGP DNGGACGFK+ N
+Sbjct  27   RAQQQPTNASDSQERSLLSYSGGWIPAKATWYGA-------PTGAGPDDNGGACGFKHTN  79
+
+Query  141  LPPFSAMTSCGNQPLFKDGKGCGSCYQIRCV--NHP  174
+              PFS+MTSCGN+P+FKDGKGCGSCYQIRC+  NHP
+Sbjct  80   QYPFSSMTSCGNEPIFKDGKGCGSCYQIRCLKSNHP  115
+
+
+>TR:M7YNU4_TRIUA M7YNU4 Expansin-B7 OS=Triticum urartu OX=4572 GN=TRIUR3_17090 
+PE=3 SV=1
+Length=391
+
+ Score = 111 bits (278),  Expect = 2e-27
+ Identities = 51/66 (77%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA       GAGP DNGGACGFKNVNLPPF+AMTSCGN+PLFKDGKGCGSCYQIRC
+Sbjct  161  WLDARATWYGTADGAGPDDNGGACGFKNVNLPPFNAMTSCGNEPLFKDGKGCGSCYQIRC  220
+
+Query  171  VN--HP  174
+            V   HP
+Sbjct  221  VGKAHP  226
+
+
+>TR:A0A0E0MAL1_ORYPU A0A0E0MAL1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=646
+
+ Score = 113 bits (283),  Expect = 2e-27
+ Identities = 54/78 (69%), Positives = 59/78 (76%), Gaps = 1/78 (1%)
+
+Query  98   VNFNASHITA-DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLF  156
+            VN+N S  +A    W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGN+PLF
+Sbjct  407  VNYNVSDASAYGSGWLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNEPLF  466
+
+Query  157  KDGKGCGSCYQIRCVNHP  174
+            KDGKGCGSCYQIRC   P
+Sbjct  467  KDGKGCGSCYQIRCNKDP  484
+
+
+ Score = 105 bits (261),  Expect = 2e-24
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A1D5RR51_WHEAT A0A1D5RR51 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=270
+
+ Score = 108 bits (271),  Expect = 3e-27
+ Identities = 49/72 (68%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + +AS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLDASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  93   GKGCGSCYQIRC  104
+
+
+>TR:A0A1D5SAE6_WHEAT A0A1D5SAE6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=270
+
+ Score = 108 bits (271),  Expect = 3e-27
+ Identities = 49/72 (68%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + +AS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLDASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  93   GKGCGSCYQIRC  104
+
+
+>TR:C3SAC4_BRADI C3SAC4 Triticum beta-expansin OS=Brachypodium distachyon OX=15368 
+GN=LOC100841576 PE=3 SV=1
+Length=272
+
+ Score = 108 bits (271),  Expect = 3e-27
+ Identities = 53/83 (64%), Positives = 58/83 (70%), Gaps = 1/83 (1%)
+
+Query  91   GRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSC  150
+            G  A    N NAS ++     VA RA     P GAGPYDNGGACGFKNVN  PF AMTSC
+Sbjct  26   GSSAGGGPNLNASAVSFGQSGVA-RATWYGAPNGAGPYDNGGACGFKNVNKYPFMAMTSC  84
+
+Query  151  GNQPLFKDGKGCGSCYQIRCVNH  173
+            GNQPLFKDGKGCG+CY+I+C  H
+Sbjct  85   GNQPLFKDGKGCGACYKIKCTKH  107
+
+
+>TR:A0A1Z5SCH0_SORBI A0A1Z5SCH0 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G542200 PE=3 SV=1
+Length=273
+
+ Score = 108 bits (271),  Expect = 3e-27
+ Identities = 52/77 (68%), Positives = 56/77 (73%), Gaps = 1/77 (1%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA  VN+N S   A   W  ARA     P GAGPYDNGGACGFK VN  PF AMTSCGNQ
+Sbjct  27   AAAAVNYNTSDAAA-LQWGNARATWYGQPNGAGPYDNGGACGFKKVNQYPFMAMTSCGNQ  85
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PL++DGKGCGSCY+IRC
+Sbjct  86   PLYRDGKGCGSCYKIRC  102
+
+
+>TR:A0A1B6QR64_SORBI A0A1B6QR64 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G542200 PE=3 SV=1
+Length=297
+
+ Score = 108 bits (271),  Expect = 5e-27
+ Identities = 52/77 (68%), Positives = 56/77 (73%), Gaps = 1/77 (1%)
+
+Query  94   AARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQ  153
+            AA  VN+N S   A   W  ARA     P GAGPYDNGGACGFK VN  PF AMTSCGNQ
+Sbjct  51   AAAAVNYNTSDAAA-LQWGNARATWYGQPNGAGPYDNGGACGFKKVNQYPFMAMTSCGNQ  109
+
+Query  154  PLFKDGKGCGSCYQIRC  170
+            PL++DGKGCGSCY+IRC
+Sbjct  110  PLYRDGKGCGSCYKIRC  126
+
+
+>TR:K4ADP2_SETIT K4ADP2 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101761745 
+PE=3 SV=1
+Length=274
+
+ Score = 108 bits (269),  Expect = 7e-27
+ Identities = 51/96 (53%), Positives = 62/96 (65%), Gaps = 9/96 (9%)
+
+Query  81   RRSSQPQKQAGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVN  140
+            R   QP      Q   +++++   + A   W  A       PTGAGP DNGGACGFK+ N
+Sbjct  25   RAQQQPSNATESQDRSLLSYSGGWLPAKATWYGA-------PTGAGPDDNGGACGFKHTN  77
+
+Query  141  LPPFSAMTSCGNQPLFKDGKGCGSCYQIRCV--NHP  174
+              PFS+MTSCGN+P+FKDGKGCGSCYQIRC+  NHP
+Sbjct  78   QYPFSSMTSCGNEPIFKDGKGCGSCYQIRCLKSNHP  113
+
+
+>TR:A0A1E5V0P6_9POAL A0A1E5V0P6 Expansin-B3 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0020386 PE=3 SV=1
+Length=277
+
+ Score = 108 bits (269),  Expect = 7e-27
+ Identities = 48/66 (73%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACGFK+ N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  51   WLPARATWYGAPTGAGPDDNGGACGFKHTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  110
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  111  LKSNHP  116
+
+
+>TR:Q94KS8_MAIZE Q94KS8 Beta-expansin 1a OS=Zea mays OX=4577 GN=expB6 PE=2 SV=1
+Length=276
+
+ Score = 107 bits (268),  Expect = 1e-26
+ Identities = 50/89 (56%), Positives = 63/89 (71%), Gaps = 2/89 (2%)
+
+Query  88   KQAGRQAARIVNFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAM  147
+            +Q  ++ A   + + S ++    W+ A+A     PTGAGP DNGGACGFK  N  PFS+M
+Sbjct  27   EQQFKRNATTASQDRSLLSYSSGWLPAKATWYGAPTGAGPLDNGGACGFKGTNQYPFSSM  86
+
+Query  148  TSCGNQPLFKDGKGCGSCYQIRCV--NHP  174
+            TSCGN+P+FKDGKGCGSCYQIRC+  NHP
+Sbjct  87   TSCGNEPIFKDGKGCGSCYQIRCLKSNHP  115
+
+
+>TR:E2CZH6_WHEAT E2CZH6 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=487
+
+ Score = 110 bits (276),  Expect = 1e-26
+ Identities = 52/77 (68%), Positives = 59/77 (77%), Gaps = 2/77 (3%)
+
+Query  100  FNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDG  159
+            + A+   A+  W+ A+A       GAGP DNGGACGFKNVNLPPFSAMTSC N+PLFKDG
+Sbjct  42   YMATPPAANSSWLDAKATWYGARHGAGPDDNGGACGFKNVNLPPFSAMTSCSNEPLFKDG  101
+
+Query  160  KGCGSCYQIRCV--NHP  174
+            KGCGSCYQIRC+  NHP
+Sbjct  102  KGCGSCYQIRCLRSNHP  118
+
+
+>TR:A0A199UTD1_ANACO A0A199UTD1 Expansin-B6 OS=Ananas comosus OX=4615 GN=ACMD2_13476 
+PE=3 SV=1
+Length=262
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 49/76 (64%), Positives = 55/76 (72%), Gaps = 3/76 (4%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            NF+A    A   W  A A     P GAGP DNGGACGFKNVNLPPFS+MTSCGN  LFK 
+Sbjct  20   NFSAD---AASQWGPASATWYGDPHGAGPADNGGACGFKNVNLPPFSSMTSCGNPALFKS  76
+
+Query  159  GKGCGSCYQIRCVNHP  174
+            GKGCG+CYQ++C +HP
+Sbjct  77   GKGCGACYQVKCTSHP  92
+
+
+>TR:A0A1D6P7B8_MAIZE A0A1D6P7B8 Beta expansin1 OS=Zea mays OX=4577 GN=103638968 PE=4 
+SV=1
+Length=138
+
+ Score = 103 bits (256),  Expect = 2e-26
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A1D6P768_MAIZE A0A1D6P768 Expansin-B9 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d047135 
+PE=4 SV=1
+Length=138
+
+ Score = 103 bits (256),  Expect = 2e-26
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A1D6P7A7_MAIZE A0A1D6P7A7 Expansin-B4 OS=Zea mays OX=4577 GN=103638966 PE=4 
+SV=1
+Length=138
+
+ Score = 103 bits (256),  Expect = 2e-26
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A1D6P7C7_MAIZE A0A1D6P7C7 Expansin-B4 OS=Zea mays OX=4577 GN=103638970 PE=4 
+SV=1
+Length=138
+
+ Score = 103 bits (256),  Expect = 2e-26
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:M8AIE3_TRIUA M8AIE3 Expansin-B6 OS=Triticum urartu OX=4572 GN=TRIUR3_30772 
+PE=3 SV=1
+Length=397
+
+ Score = 108 bits (271),  Expect = 2e-26
+ Identities = 49/72 (68%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + +AS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  160  DLDASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  219
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSCYQIRC
+Sbjct  220  GKGCGSCYQIRC  231
+
+
+>TR:K4AME5_SETIT K4AME5 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101786712 
+PE=3 SV=1
+Length=271
+
+ Score = 106 bits (265),  Expect = 2e-26
+ Identities = 45/60 (75%), Positives = 50/60 (83%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+AA+A     P GAGP DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCYQIRC
+Sbjct  46   WLAAKATWYGQPVGAGPDDNGGACGIKNVNLPPYSGMTACGNLPIFKDGKGCGSCYQIRC  105
+
+
+>TR:A0A2I8B2F6_9POAL A0A2I8B2F6 Beta-expansin 6 OS=Saccharum arundinaceum OX=50346 
+GN=EXPB6 PE=3 SV=1
+Length=275
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACGFK  N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  49   WLPAKATWYGAPTGAGPDDNGGACGFKGTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  108
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  109  LKSNHP  114
+
+
+>TR:A0A2H4YJ21_9POAL A0A2H4YJ21 Expansin 4 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP4 PE=2 SV=1
+Length=278
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACGFK  N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  50   WLPAKATWYGAPTGAGPDDNGGACGFKGTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  109
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  110  LKSNHP  115
+
+
+>TR:I1I628_BRADI I1I628 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100841962 PE=3 SV=1
+Length=543
+
+ Score = 110 bits (274),  Expect = 3e-26
+ Identities = 49/60 (82%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACGFKNVN  PFS+MTSCGNQPLFKDGKGCGSCYQIRC
+Sbjct  318  WLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMTSCGNQPLFKDGKGCGSCYQIRC  377
+
+
+ Score = 99.0 bits (245),  Expect = 3e-22
+ Identities = 44/66 (67%), Positives = 52/66 (79%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACG+K  NL PFS+MTSCGN+PLF DG GCG+CYQI+C
+Sbjct  39   WLPAKATWYGAPTGAGPDDNGGACGYKFTNLYPFSSMTSCGNEPLFMDGAGCGTCYQIKC  98
+
+Query  171  --VNHP  174
+              VN+P
+Sbjct  99   TSVNNP  104
+
+
+>TR:C5WSG0_SORBI C5WSG0 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G301600 
+PE=3 SV=1
+Length=282
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACGFK  N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  54   WLPAKATWYGAPTGAGPDDNGGACGFKGTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  113
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  114  LKSNHP  119
+
+
+>TR:C5WSF9_SORBI C5WSF9 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G301500 
+PE=3 SV=1
+Length=282
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACGFK  N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  54   WLPAKATWYGAPTGAGPDDNGGACGFKGTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  113
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  114  LKSNHP  119
+
+
+>TR:B4FSL7_MAIZE B4FSL7 Beta-expansin 1a OS=Zea mays OX=4577 GN=100284795 PE=2 
+SV=1
+Length=282
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     PTGAGP DNGGACGFK  N  PFS+MTSCGN+P+FKDGKGCGSCYQIRC
+Sbjct  54   WLPAKATWYGAPTGAGPDDNGGACGFKGTNQYPFSSMTSCGNEPIFKDGKGCGSCYQIRC  113
+
+Query  171  V--NHP  174
+            +  NHP
+Sbjct  114  LRSNHP  119
+
+
+>TR:A0A1D5YHU3_WHEAT A0A1D5YHU3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=284
+
+ Score = 106 bits (264),  Expect = 4e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  57   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  116
+
+
+>TR:K3YN61_SETIT K3YN61 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101758695 
+PE=3 SV=1
+Length=269
+
+ Score = 105 bits (263),  Expect = 5e-26
+ Identities = 45/60 (75%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACG K+VNLPP++AMTSCGN PLFKDGKGCGSCY+I+C
+Sbjct  45   WLPARATWYGQPTGAGPDDNGGACGIKDVNLPPYAAMTSCGNLPLFKDGKGCGSCYEIKC  104
+
+
+>TR:A0A1D5XJH4_WHEAT A0A1D5XJH4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=292
+
+ Score = 106 bits (264),  Expect = 5e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  66   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  125
+
+
+>TR:F2DU03_HORVV F2DU03 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=294
+
+ Score = 106 bits (264),  Expect = 5e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  67   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  126
+
+
+>TR:A0A287Q147_HORVV A0A287Q147 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=294
+
+ Score = 106 bits (264),  Expect = 5e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  67   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  126
+
+
+>TR:A0A1D5XW22_WHEAT A0A1D5XW22 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=297
+
+ Score = 106 bits (264),  Expect = 6e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  68   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  127
+
+
+>TR:Q6QF98_WHEAT Q6QF98 Expansin EXPB7 OS=Triticum aestivum OX=4565 PE=2 SV=1
+Length=270
+
+ Score = 105 bits (262),  Expect = 7e-26
+ Identities = 48/72 (67%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            + +AS ++    W+ ARA     P GAGP DNGGACGFK+VN  PFS+MTSCGNQPLFKD
+Sbjct  33   DLDASAVSYSSAWLPARATWYGAPNGAGPDDNGGACGFKHVNQYPFSSMTSCGNQPLFKD  92
+
+Query  159  GKGCGSCYQIRC  170
+            GKGCGSC QIRC
+Sbjct  93   GKGCGSCNQIRC  104
+
+
+>SP:EXPB2_ORYSJ O24230 Expansin-B2 OS=Oryza sativa subsp. japonica OX=39947 GN=EXPB2 
+PE=2 SV=2
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A0D3HGH6_9ORYZ A0A0D3HGH6 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A2ZA44_ORYSI A2ZA44 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_34606 PE=3 SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A0E0F0Y9_9ORYZ A0A0E0F0Y9 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A0E0R2C2_ORYRU A0A0E0R2C2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A0E0BDL6_9ORYZ A0A0E0BDL6 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A0E0IWC2_ORYNI A0A0E0IWC2 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=261
+
+ Score = 105 bits (261),  Expect = 8e-26
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGN+PLF+DGKGCG+CYQIRC
+Sbjct  31   WLPAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNEPLFQDGKGCGACYQIRC  90
+
+Query  171  VNHP  174
+             N+P
+Sbjct  91   TNNP  94
+
+
+>TR:A0A287Q185_HORVV A0A287Q185 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=322
+
+ Score = 106 bits (264),  Expect = 9e-26
+ Identities = 46/60 (77%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  114  ARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRCVNH  173
+            ARA     P GAGPYDNGGACGFKNVN  PF AMTSCGNQPLFKDGKGCG+CY+I+C  H
+Sbjct  67   ARATWYGAPNGAGPYDNGGACGFKNVNRYPFMAMTSCGNQPLFKDGKGCGACYKIKCTKH  126
+
+
+>TR:K4ALJ0_SETIT K4ALJ0 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781594 
+PE=3 SV=1
+Length=267
+
+ Score = 104 bits (260),  Expect = 1e-25
+ Identities = 44/60 (73%), Positives = 50/60 (83%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACG K+VNLPP+S MT+CGN P+FKDGKGCGSCY+IRC
+Sbjct  42   WLPARATWYGKPTGAGPDDNGGACGIKDVNLPPYSGMTACGNVPIFKDGKGCGSCYEIRC  101
+
+
+>TR:C5WSF6_SORBI C5WSF6 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G301300 
+PE=3 SV=1
+Length=269
+
+ Score = 104 bits (260),  Expect = 1e-25
+ Identities = 44/62 (71%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+AA+A     P GAGP DNGGACGFKN N  P+ +MTSCGN+PLFKDGKGCG+CYQIRC
+Sbjct  35   WLAAKATWYGAPNGAGPDDNGGACGFKNTNQYPYMSMTSCGNEPLFKDGKGCGACYQIRC  94
+
+Query  171  VN  172
+            +N
+Sbjct  95   LN  96
+
+
+>TR:A0A0D9XMA9_9ORYZ A0A0D9XMA9 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=583
+
+ Score = 107 bits (268),  Expect = 2e-25
+ Identities = 47/63 (75%), Positives = 51/63 (81%), Gaps = 0/63 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     PTGAGP DNGGACGFKNVN  PF +MTSCGNQPLF DGKGCGSCYQI+C
+Sbjct  352  WLPARATWYGAPTGAGPDDNGGACGFKNVNQYPFMSMTSCGNQPLFNDGKGCGSCYQIKC  411
+
+Query  171  VNH  173
+             N+
+Sbjct  412  TNN  414
+
+
+ Score = 100 bits (249),  Expect = 8e-23
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  PF +MTSCGNQPLF DG GCG+CYQI+C
+Sbjct  71   WLDAKATWYGQPNGAGPDDNGGACGFKNTNQYPFMSMTSCGNQPLFLDGAGCGACYQIKC  130
+
+Query  171  VNHP  174
+             N+P
+Sbjct  131  SNNP  134
+
+
+>TR:G1FTS0_BRADI G1FTS0 Expansin 1 OS=Brachypodium distachyon OX=15368 GN=LOC100843684 
+PE=2 SV=1
+Length=264
+
+ Score = 103 bits (258),  Expect = 2e-25
+ Identities = 47/66 (71%), Positives = 53/66 (80%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W AA+A     PTGAGP DNGGACGFKNVN  PFS+M SCGN+PLFKDG GCG+CY+IRC
+Sbjct  33   WQAAKATWYGAPTGAGPDDNGGACGFKNVNQYPFSSMISCGNEPLFKDGSGCGACYEIRC  92
+
+Query  171  --VNHP  174
+              VN+P
+Sbjct  93   TKVNNP  98
+
+
+>TR:A0A1B6QM20_SORBI A0A1B6QM20 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G306200 PE=3 SV=1
+Length=266
+
+ Score = 103 bits (258),  Expect = 2e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG KNVNLPP+S  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLVARATWYGQPNGAGPDDNGGACGIKNVNLPPYSGFTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEMP  106
+
+
+>TR:A0A0D9XM59_9ORYZ A0A0D9XM59 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=266
+
+ Score = 103 bits (258),  Expect = 2e-25
+ Identities = 45/72 (63%), Positives = 54/72 (75%), Gaps = 3/72 (4%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            N  A++ T    W+ ARA     PTGAGP DNGGACG K VNLPP+S MTSCGN P+FKD
+Sbjct  31   NITATYTTK---WLPARATWYGKPTGAGPDDNGGACGIKEVNLPPYSGMTSCGNDPIFKD  87
+
+Query  159  GKGCGSCYQIRC  170
+            G+GCGSC+++RC
+Sbjct  88   GRGCGSCFEVRC  99
+
+
+>TR:A0A287MJH2_HORVV A0A287MJH2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=345
+
+ Score = 105 bits (262),  Expect = 2e-25
+ Identities = 44/58 (76%), Positives = 50/58 (86%), Gaps = 0/58 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQI  168
+            W+ A+A     P GAGP DNGGACGFKNVNLPPF+AMTSCGN+P+FKDGKGCGSCYQ+
+Sbjct  78   WLDAKATWYGAPDGAGPLDNGGACGFKNVNLPPFNAMTSCGNEPIFKDGKGCGSCYQV  135
+
+
+>TR:A0A2H4YJ13_9POAL A0A2H4YJ13 Expansin 11 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP50 PE=2 SV=1
+Length=269
+
+ Score = 103 bits (258),  Expect = 3e-25
+ Identities = 43/67 (64%), Positives = 50/67 (75%), Gaps = 0/67 (0%)
+
+Query  108  DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQ  167
+            D  W+ ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY+
+Sbjct  40   DGQWLTARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNIPIFKDGKGCGSCYE  99
+
+Query  168  IRCVNHP  174
+            +RC   P
+Sbjct  100  VRCKEKP  106
+
+
+>TR:A0A287FN66_HORVV A0A287FN66 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=192
+
+ Score = 101 bits (252),  Expect = 4e-25
+ Identities = 44/60 (73%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W  ARA     P GAGP DNGGACGFK+ N  PF++MTSCGNQPLFKDGKGCGSCY+IRC
+Sbjct  73   WTPARATWYGQPNGAGPDDNGGACGFKHTNQYPFASMTSCGNQPLFKDGKGCGSCYKIRC  132
+
+
+>TR:A0A1B6QM21_SORBI A0A1B6QM21 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G306500 PE=3 SV=1
+Length=266
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 42/64 (66%), Positives = 50/64 (78%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W++ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLSARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEMP  106
+
+
+>TR:A0A077B4J2_SORHL A0A077B4J2 Sor h 1.0200 OS=Sorghum halepense OX=4560 PE=3 SV=1
+Length=266
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 42/64 (66%), Positives = 50/64 (78%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W++ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLSARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEMP  106
+
+
+>TR:A0A1D6P761_MAIZE A0A1D6P761 Expansin-B9 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d047135 
+PE=3 SV=1
+Length=267
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A2S3IPC6_9POAL A0A2S3IPC6 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G395100 PE=4 SV=1
+Length=268
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/60 (72%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG K+VNLPP+S MT+CGN P+FKDGKGCGSCY+IRC
+Sbjct  43   WLPARATWYGQPNGAGPADNGGACGIKDVNLPPYSGMTACGNVPIFKDGKGCGSCYEIRC  102
+
+
+>TR:A0A2T7CA98_9POAL A0A2T7CA98 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G409700 PE=4 SV=1
+Length=268
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/60 (72%), Positives = 49/60 (82%), Gaps = 0/60 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG K+VNLPP+S MT+CGN P+FKDGKGCGSCY+IRC
+Sbjct  43   WLPARATWYGQPNGAGPADNGGACGIKDVNLPPYSGMTACGNVPIFKDGKGCGSCYEIRC  102
+
+
+>TR:J3N4T2_ORYBR J3N4T2 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102706970 
+PE=3 SV=1
+Length=286
+
+ Score = 103 bits (257),  Expect = 5e-25
+ Identities = 50/79 (63%), Positives = 55/79 (70%), Gaps = 3/79 (4%)
+
+Query  98   VNFNASHITA--DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPL  155
+            V+FN+S       P W  ARA     P GAGP DNGGACGFK+ N  PF +MTSCGNQPL
+Sbjct  41   VDFNSSDAAVYWGP-WTKARATWYGQPNGAGPDDNGGACGFKHTNQYPFMSMTSCGNQPL  99
+
+Query  156  FKDGKGCGSCYQIRCVNHP  174
+            FKDGKGCGSCY+IRC   P
+Sbjct  100  FKDGKGCGSCYKIRCTKDP  118
+
+
+>SP:EXPB9_MAIZE Q07154 Expansin-B9 OS=Zea mays OX=4577 GN=EXPB9 PE=1 SV=2
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>SP:EXPB1_MAIZE P58738 Expansin-B1 OS=Zea mays OX=4577 GN=EXPB1 PE=1 SV=2
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:K7VH33_MAIZE K7VH33 Beta expansin1 OS=Zea mays OX=4577 GN=103638968 PE=3 SV=1
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:K7WCD1_MAIZE K7WCD1 Expansin-B9 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d047135 
+PE=3 SV=1
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:C0PN56_MAIZE C0PN56 Expansin-B4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d047147 
+PE=2 SV=1
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:B4FXT7_MAIZE B4FXT7 Expansin-B4 OS=Zea mays OX=4577 GN=103638966 PE=2 SV=1
+Length=269
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 43/64 (67%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAG  DNGGACG KNVNLPP+S MT+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGAPDNGGACGIKNVNLPPYSGMTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A1E5V900_9POAL A0A1E5V900 Expansin-B6 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0017341 PE=3 SV=1
+Length=282
+
+ Score = 103 bits (256),  Expect = 6e-25
+ Identities = 43/62 (69%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ A+A     P GAGP DNGGACGFKN N  P+ +MTSCGN+PLFKDGKGCG+CYQIRC
+Sbjct  49   WLTAKATWYGAPNGAGPDDNGGACGFKNTNQYPYMSMTSCGNEPLFKDGKGCGACYQIRC  108
+
+Query  171  VN  172
+            +N
+Sbjct  109  LN  110
+
+
+>TR:C5WTD9_SORBI C5WTD9 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G306400 
+PE=3 SV=1
+Length=266
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 42/64 (66%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLVARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNVPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEMP  106
+
+
+>TR:A0A2H4YIZ7_9POAL A0A2H4YIZ7 Expansin 70 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP70 PE=2 SV=1
+Length=269
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 42/64 (66%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNIPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A2H4YIK7_9POAL A0A2H4YIK7 Expansin 24 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP24 PE=2 SV=1
+Length=269
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 42/64 (66%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNIPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A2H4YIU7_9POAL A0A2H4YIU7 Expansin 38 OS=Saccharum hybrid cultivar OX=128810 
+GN=EXP6 PE=2 SV=1
+Length=269
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 42/64 (66%), Positives = 49/64 (77%), Gaps = 0/64 (0%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W+ ARA     P GAGP DNGGACG KNVNLPP++  T+CGN P+FKDGKGCGSCY++RC
+Sbjct  43   WLTARATWYGQPNGAGPDDNGGACGIKNVNLPPYNGFTACGNIPIFKDGKGCGSCYEVRC  102
+
+Query  171  VNHP  174
+               P
+Sbjct  103  KEKP  106
+
+
+>TR:A0A1E5UQ35_9POAL A0A1E5UQ35 Expansin-B9 OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0024004 PE=3 SV=1
+Length=270
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 44/63 (70%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  108  DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQ  167
+            D  W+ A+A     P GAGP DNGGACG K+V LPPFS MTSCGN P+FKDGKGCGSCYQ
+Sbjct  42   DGKWLTAKATWYGNPVGAGPDDNGGACGIKDVELPPFSGMTSCGNGPIFKDGKGCGSCYQ  101
+
+Query  168  IRC  170
+            I+C
+Sbjct  102  IKC  104
+
+
+>TR:A0A199UMG6_ANACO A0A199UMG6 Expansin-B7 OS=Ananas comosus OX=4615 GN=ACMD2_13379 
+PE=3 SV=1
+Length=443
+
+ Score = 105 bits (262),  Expect = 7e-25
+ Identities = 47/76 (62%), Positives = 55/76 (72%), Gaps = 0/76 (0%)
+
+Query  99   NFNASHITADPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKD  158
+            +FN S   A   W  A A     PTGAGP DNGG CG+KNVNLPPFS+MTSCGN  LFK 
+Sbjct  30   SFNFSTSEAALNWNTASATWYGSPTGAGPDDNGGGCGYKNVNLPPFSSMTSCGNPALFKS  89
+
+Query  159  GKGCGSCYQIRCVNHP  174
+            G+GCGSCY+++C +HP
+Sbjct  90   GEGCGSCYKVKCNSHP  105
+
+
+>TR:A0A0E0MAL3_ORYPU A0A0E0MAL3 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=285
+
+ Score = 102 bits (255),  Expect = 1e-24
+ Identities = 51/79 (65%), Positives = 56/79 (71%), Gaps = 3/79 (4%)
+
+Query  94   AARIVNFNASHITA--DPYWVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCG  151
+            AA  V+FN+S       P W  ARA     P GAGP DNGGACGFK+ N  PF +MTSCG
+Sbjct  36   AANGVDFNSSDAAVYWGP-WTKARATWYGQPNGAGPDDNGGACGFKHTNQYPFMSMTSCG  94
+
+Query  152  NQPLFKDGKGCGSCYQIRC  170
+            NQPLFKDGKGCGSCY+IRC
+Sbjct  95   NQPLFKDGKGCGSCYKIRC  113
+
+
+>TR:A0A1D6P6X6_MAIZE A0A1D6P6X6 Expansin-B4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d047091 
+PE=3 SV=1
+Length=273
+
+ Score = 102 bits (254),  Expect = 1e-24
+ Identities = 46/66 (70%), Positives = 51/66 (77%), Gaps = 2/66 (3%)
+
+Query  111  WVAARALGMVXPTGAGPYDNGGACGFKNVNLPPFSAMTSCGNQPLFKDGKGCGSCYQIRC  170
+            W AA+A     P GAGP DNGGACGFKN N  PF +MTSCGNQPLF+DGKGCG+CYQIRC
+Sbjct  45   WQAAKATWYGAPNGAGPNDNGGACGFKNTNQYPFMSMTSCGNQPLFQDGKGCGACYQIRC  104
+
+Query  171  V--NHP  174
+               N+P
+Sbjct  105  TAKNNP  110
+
+
+
+Lambda      K        H
+   0.319    0.136    0.437 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 72804027750
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

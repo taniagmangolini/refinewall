@@ -1,0 +1,3737 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A161HL50_9POAL  A0A161HL50 Cinnamoyl-CoA reductase 4 OS=Misc...  125     6e-35
+TR:A0A1W0W3Z5_SORBI  A0A1W0W3Z5 Uncharacterized protein OS=Sorghu...  125     1e-34
+TR:O82726_MAIZE  O82726 Cinnamoyl-CoA reductase OS=Zea mays OX=45...  118     4e-32
+TR:Q84JD0_MAIZE  Q84JD0 Cinnamoyl-CoA reductase OS=Zea mays OX=45...  118     4e-32
+TR:Q84J56_MAIZE  Q84J56 Cinnamoyl-CoA reductase OS=Zea mays OX=45...  117     1e-31
+TR:A0A096S670_MAIZE  A0A096S670 Cinnamoyl CoA reductase2 OS=Zea m...  117     1e-31
+TR:A2YYM4_ORYSI  A2YYM4 Uncharacterized protein OS=Oryza sativa s...  113     3e-30
+TR:A0A0E0HBW2_ORYNI  A0A0E0HBW2 Uncharacterized protein OS=Oryza ...  113     3e-30
+TR:K3ZUX2_SETIT  K3ZUX2 Uncharacterized protein OS=Setaria italic...  112     6e-30
+TR:A0A2S3GYI4_9POAL  A0A2S3GYI4 Uncharacterized protein OS=Panicu...  112     6e-30
+TR:A0A2T7EPV7_9POAL  A0A2T7EPV7 Uncharacterized protein OS=Panicu...  112     6e-30
+TR:A0A0D3H3S8_9ORYZ  A0A0D3H3S8 Uncharacterized protein OS=Oryza ...  111     2e-29
+TR:A0A0E0EPM7_9ORYZ  A0A0E0EPM7 Uncharacterized protein OS=Oryza ...  111     2e-29
+TR:I1QM29_ORYGL  I1QM29 Uncharacterized protein OS=Oryza glaberri...  111     2e-29
+TR:A0A0E0AZQ0_9ORYZ  A0A0E0AZQ0 Uncharacterized protein OS=Oryza ...  111     2e-29
+TR:J3MVN9_ORYBR  J3MVN9 Uncharacterized protein OS=Oryza brachyan...  109     1e-28
+TR:A0A0E0LYG1_ORYPU  A0A0E0LYG1 Uncharacterized protein OS=Oryza ...  109     1e-28
+TR:A0A0E0QN28_ORYRU  A0A0E0QN28 Uncharacterized protein OS=Oryza ...  108     3e-28
+TR:Q6K3G8_ORYSJ  Q6K3G8 Os09g0127300 protein OS=Oryza sativa subs...  108     3e-28
+TR:A0A287R6L6_HORVV  A0A287R6L6 Uncharacterized protein OS=Hordeu...  104     3e-28
+TR:A0A1E5UW93_9POAL  A0A1E5UW93 Cinnamoyl-CoA reductase 1 OS=Dich...  107     5e-28
+TR:A0A287R6N0_HORVV  A0A287R6N0 Uncharacterized protein OS=Hordeu...  104     1e-27
+TR:A0A0D9XB86_9ORYZ  A0A0D9XB86 Uncharacterized protein OS=Leersi...  106     1e-27
+TR:A0A0C5AW51_LOLPR  A0A0C5AW51 CCR6 protein OS=Lolium perenne OX...  106     3e-27
+TR:A0A0C5AYW1_LOLPR  A0A0C5AYW1 CCR5 protein OS=Lolium perenne OX...  105     3e-27
+TR:A0A0Q3L341_BRADI  A0A0Q3L341 Uncharacterized protein OS=Brachy...  105     5e-27
+TR:M0XCA6_HORVV  M0XCA6 Uncharacterized protein OS=Hordeum vulgar...  104     1e-26
+TR:A0A1D5ZY12_WHEAT  A0A1D5ZY12 Uncharacterized protein OS=Tritic...  103     3e-26
+TR:W5FZ55_WHEAT  W5FZ55 Uncharacterized protein OS=Triticum aesti...  103     3e-26
+TR:R7W8E2_AEGTA  R7W8E2 Bifunctional dihydroflavonol 4-reductase/...  103     5e-26
+TR:I1IIV4_BRADI  I1IIV4 Uncharacterized protein OS=Brachypodium d...  101     1e-25
+TR:W5FGJ3_WHEAT  W5FGJ3 Uncharacterized protein OS=Triticum aesti...  100     2e-25
+TR:A0A1D5Z8C9_WHEAT  A0A1D5Z8C9 Uncharacterized protein OS=Tritic...  100     3e-25
+TR:A0A1D5Z8C8_WHEAT  A0A1D5Z8C8 Uncharacterized protein OS=Tritic...  100     4e-25
+TR:Q6DN01_EUCGL  Q6DN01 Cinnamoyl CoA reductase OS=Eucalyptus glo...  99.8    5e-25
+TR:Q8GTZ7_EUCGL  Q8GTZ7 Cinnamoyl CoA reductase OS=Eucalyptus glo...  99.8    5e-25
+TR:B9SMT3_RICCO  B9SMT3 Cinnamoyl-CoA reductase, putative OS=Rici...  99.0    1e-24
+TR:Q4KUK8_WHEAT  Q4KUK8 Cinnamoyl-CoA reductase OS=Triticum aesti...  99.0    1e-24
+TR:O04878_EUCGU  O04878 Cinnamoyl-CoA reductase OS=Eucalyptus gun...  98.2    2e-24
+TR:I0IJX6_EUCGG  I0IJX6 Cinnamoyl-CoA reductase OS=Eucalyptus glo...  98.2    2e-24
+TR:C9YSQ3_EUCUR  C9YSQ3 Cinnamoyl CoA reductase OS=Eucalyptus uro...  98.2    2e-24
+TR:A0A1N7T5U0_EUCUR  A0A1N7T5U0 Cinnamoyl-CoA reductase OS=Eucaly...  98.2    2e-24
+TR:O04877_EUCGU  O04877 Cinnamoyl-CoA reductase OS=Eucalyptus gun...  98.2    2e-24
+TR:Q6DMZ9_EUCGL  Q6DMZ9 Cinnamoyl CoA reductase OS=Eucalyptus glo...  98.2    2e-24
+TR:H6UFA2_EUCUR  H6UFA2 Cinnamoyl-CoA reductase 1 OS=Eucalyptus u...  98.2    2e-24
+TR:Q9FUM0_EUCSA  Q9FUM0 Cinnamoyl-CoA reductase OS=Eucalyptus sal...  97.8    3e-24
+TR:Q6DMZ8_EUCGL  Q6DMZ8 Cinnamoyl CoA reductase OS=Eucalyptus glo...  97.8    3e-24
+TR:I0IJX5_9MYRT  I0IJX5 Cinnamoyl-CoA reductase OS=Eucalyptus pyr...  96.7    7e-24
+TR:D5FQ79_9MYRT  D5FQ79 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ73_9MYRT  D5FQ73 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:I0IJX4_9MYRT  I0IJX4 Cinnamoyl-CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ75_9MYRT  D5FQ75 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ77_9MYRT  D5FQ77 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ82_9MYRT  D5FQ82 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ72_9MYRT  D5FQ72 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ74_9MYRT  D5FQ74 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ80_9MYRT  D5FQ80 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ78_9MYRT  D5FQ78 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ89_9MYRT  D5FQ89 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ76_9MYRT  D5FQ76 Cinnamoyl CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:D5FQ71_9MYRT  D5FQ71 Cinnamoyl-CoA reductase OS=Eucalyptus pil...  96.7    7e-24
+TR:O82109_MAIZE  O82109 Cinnamoyl-CoA reductase OS=Zea mays OX=45...  96.7    1e-23
+TR:M5WV38_PRUPE  M5WV38 Uncharacterized protein (Fragment) OS=Pru...  90.1    2e-23
+TR:A0A2H3Y6Z4_PHODC  A0A2H3Y6Z4 cinnamoyl-CoA reductase 1-like OS...  95.1    3e-23
+TR:D5FQ84_9MYRT  D5FQ84 Cinnamoyl CoA reductase OS=Eucalyptus pil...  95.1    3e-23
+TR:D5FQ86_9MYRT  D5FQ86 Cinnamoyl CoA reductase OS=Eucalyptus pil...  95.1    3e-23
+TR:A0A2P5C8E9_PARAD  A0A2P5C8E9 NAD(P)-binding domain containing ...  95.1    3e-23
+TR:A0A199VFP5_ANACO  A0A199VFP5 Cinnamoyl-CoA reductase 1 (Fragme...  94.4    3e-23
+TR:B5SU05_LEULE  B5SU05 Cinnamoyl CoA reductase (Fragment) OS=Leu...  92.8    3e-23
+TR:A0A2H3YJR5_PHODC  A0A2H3YJR5 cinnamoyl-CoA reductase 1-like OS...  94.7    3e-23
+TR:A0A2I0KBR5_PUNGR  A0A2I0KBR5 Uncharacterized protein OS=Punica...  89.4    4e-23
+TR:C5YLL4_SORBI  C5YLL4 Uncharacterized protein OS=Sorghum bicolo...  95.1    4e-23
+TR:A0A2I0A1J0_9ASPA  A0A2I0A1J0 Cinnamoyl-CoA reductase 1 OS=Apos...  94.4    5e-23
+TR:E9M776_HEVBR  E9M776 Cinnamoyl-CoA reductase OS=Hevea brasilie...  94.4    6e-23
+TR:A0A287RJY0_HORVV  A0A287RJY0 Uncharacterized protein OS=Hordeu...  90.9    6e-23
+TR:I1I7E4_BRADI  I1I7E4 Uncharacterized protein OS=Brachypodium d...  94.4    7e-23
+TR:A0A1D5YN13_WHEAT  A0A1D5YN13 Uncharacterized protein OS=Tritic...  92.0    8e-23
+TR:D2IX44_PANVG  D2IX44 Cinnamoyl CoA reductase 1e OS=Panicum vir...  94.4    8e-23
+TR:D2IX40_PANVG  D2IX40 Cinnamoyl CoA reductase 1a OS=Panicum vir...  94.4    8e-23
+TR:D2IX43_PANVG  D2IX43 Cinnamoyl CoA reductase 1d OS=Panicum vir...  94.4    8e-23
+TR:D2IX42_PANVG  D2IX42 Cinnamoyl CoA reductase 1c OS=Panicum vir...  94.4    8e-23
+TR:A0A1D5YN12_WHEAT  A0A1D5YN12 Uncharacterized protein OS=Tritic...  92.0    8e-23
+TR:O24563_MAIZE  O24563 Cinnamoyl CoA reductase OS=Zea mays OX=45...  94.4    8e-23
+TR:B4FTL3_MAIZE  B4FTL3 Uncharacterized protein OS=Zea mays OX=45...  94.4    8e-23
+TR:A0A2C9UZ27_MANES  A0A2C9UZ27 Uncharacterized protein OS=Maniho...  92.8    9e-23
+TR:Q8VWI9_LOLPR  Q8VWI9 CCR1 protein OS=Lolium perenne OX=4522 GN...  94.0    1e-22
+TR:M0RQF8_MUSAM  M0RQF8 Uncharacterized protein OS=Musa acuminata...  93.6    1e-22
+TR:D5FQ83_9MYRT  D5FQ83 Cinnamoyl CoA reductase OS=Eucalyptus pil...  93.6    1e-22
+TR:A0A2P6RVH6_ROSCH  A0A2P6RVH6 Putative cinnamoyl-CoA reductase ...  93.6    1e-22
+TR:A0A0A0LA04_CUCSA  A0A0A0LA04 Uncharacterized protein OS=Cucumi...  88.2    1e-22
+TR:A0A251PXX2_PRUPE  A0A251PXX2 Uncharacterized protein OS=Prunus...  90.1    1e-22
+TR:D2IX41_PANVG  D2IX41 Cinnamoyl CoA reductase 1b OS=Panicum vir...  93.6    1e-22
+TR:W5RW89_MUSPR  W5RW89 Dihydroflavonol 4-reductase OS=Musa AB Gr...  93.2    2e-22
+TR:M0SVM5_MUSAM  M0SVM5 Uncharacterized protein OS=Musa acuminata...  93.2    2e-22
+TR:A0A2H3XHF3_PHODC  A0A2H3XHF3 cinnamoyl-CoA reductase 1-like OS...  93.2    2e-22
+TR:A0A067LD04_JATCU  A0A067LD04 Uncharacterized protein OS=Jatrop...  93.2    2e-22
+TR:A0A2P2NHR2_RHIMU  A0A2P2NHR2 Uncharacterized protein OS=Rhizop...  93.2    2e-22
+TR:A9JQS5_POPCA  A9JQS5 Cinnamoyl CoA reductase (Fragment) OS=Pop...  92.4    2e-22
+TR:A0A151S5H2_CAJCA  A0A151S5H2 Uncharacterized protein OS=Cajanu...  92.8    2e-22
+TR:A0A1D5YN11_WHEAT  A0A1D5YN11 Uncharacterized protein OS=Tritic...  92.0    2e-22
+TR:Q6DN02_9MYRT  Q6DN02 Cinnamoyl CoA reductase OS=Eucalyptus cor...  92.8    2e-22
+TR:Q08GL0_LEULE  Q08GL0 Cinnamoyl CoA reductase OS=Leucaena leuco...  92.8    2e-22
+TR:A0A2C9UYQ0_MANES  A0A2C9UYQ0 Uncharacterized protein OS=Maniho...  92.8    2e-22
+TR:W9R0J3_9ROSA  W9R0J3 Bifunctional dihydroflavonol 4-reductase/...  92.8    2e-22
+TR:B2Z6Q2_POPTR  B2Z6Q2 Cinnamoyl CoA reductase OS=Populus tricho...  92.8    2e-22
+TR:A0A2P5E601_9ROSA  A0A2P5E601 NAD(P)-binding domain containing ...  92.8    2e-22
+TR:A0A1D5YN09_WHEAT  A0A1D5YN09 Uncharacterized protein OS=Tritic...  92.0    2e-22
+TR:A0A1D5YN08_WHEAT  A0A1D5YN08 Uncharacterized protein OS=Tritic...  92.0    2e-22
+TR:A0A0K9QSS6_SPIOL  A0A0K9QSS6 Uncharacterized protein OS=Spinac...  92.4    3e-22
+TR:A0A1D5Z383_WHEAT  A0A1D5Z383 Uncharacterized protein OS=Tritic...  91.7    3e-22
+TR:A0A287VX03_HORVV  A0A287VX03 Uncharacterized protein OS=Hordeu...  86.3    3e-22
+TR:A0A199UI75_ANACO  A0A199UI75 Cinnamoyl-CoA reductase 1 (Fragme...  92.4    3e-22
+TR:T1WWB5_POPTO  T1WWB5 Cinnamoyl-CoA reductase OS=Populus toment...  92.4    3e-22
+TR:A0A0F6V0E2_POPTO  A0A0F6V0E2 Cinnamoyl CoA reductase OS=Populu...  92.4    3e-22
+TR:Q9FSC6_POPTR  Q9FSC6 Cinnamoyl-CoA reductase OS=Populus tricho...  92.4    3e-22
+TR:A0A251PXZ4_PRUPE  A0A251PXZ4 Uncharacterized protein OS=Prunus...  92.4    3e-22
+TR:B3VKV0_POPTO  B3VKV0 Cinnamoyl-CoA reductase protein 2 OS=Popu...  92.4    3e-22
+TR:Q6S3D7_POPTO  Q6S3D7 Cinnamoyl-CoA reductase OS=Populus toment...  92.4    3e-22
+TR:A0A1S2XE90_CICAR  A0A1S2XE90 cinnamoyl-CoA reductase 1 OS=Cice...  92.4    3e-22
+TR:A0A072VDF2_MEDTR  A0A072VDF2 Cinnamoyl-CoA reductase-like prot...  92.4    3e-22
+TR:B6E2B5_VACCO  B6E2B5 Cinnamoyl-CoA reductase OS=Vaccinium cory...  92.4    3e-22
+TR:M5X598_PRUPE  M5X598 Uncharacterized protein OS=Prunus persica...  92.8    4e-22
+TR:M0RQX0_MUSAM  M0RQX0 Uncharacterized protein OS=Musa acuminata...  92.0    4e-22
+TR:A0A2C9W3T2_MANES  A0A2C9W3T2 Uncharacterized protein OS=Maniho...  92.0    4e-22
+TR:Q7Y0H8_FRAAN  Q7Y0H8 Cinnamoyl CoA reductase OS=Fragaria anana...  92.0    4e-22
+TR:F4Y9E7_PYRPY  F4Y9E7 Cinnamoyl-CoA reductase OS=Pyrus pyrifoli...  92.0    4e-22
+TR:A0A022QBH0_ERYGU  A0A022QBH0 Uncharacterized protein OS=Erythr...  90.9    5e-22
+TR:A0A1D5YN10_WHEAT  A0A1D5YN10 Uncharacterized protein OS=Tritic...  92.0    5e-22
+TR:A0A1P8ASX8_ARATH  A0A1P8ASX8 Cinnamoyl coa reductase 1 OS=Arab...  90.9    5e-22
+TR:V7AT84_PHAVU  V7AT84 Uncharacterized protein OS=Phaseolus vulg...  91.7    5e-22
+TR:A0A2G2WL98_CAPBA  A0A2G2WL98 Cinnamoyl-CoA reductase 2 OS=Caps...  91.7    5e-22
+TR:A0A1U8HDE9_CAPAN  A0A1U8HDE9 Cinnamoyl-CoA reductase 2 OS=Caps...  91.7    5e-22
+TR:A0A2G2ZBT5_CAPAN  A0A2G2ZBT5 cinnamoyl-CoA reductase 2 OS=Caps...  91.7    5e-22
+TR:A0A1P8ASX3_ARATH  A0A1P8ASX3 Cinnamoyl coa reductase 1 OS=Arab...  90.9    5e-22
+TR:A0A2T8IH69_9POAL  A0A2T8IH69 Uncharacterized protein OS=Panicu...  91.3    6e-22
+TR:A0A1D5ZR20_WHEAT  A0A1D5ZR20 Uncharacterized protein OS=Tritic...  90.9    6e-22
+TR:A0A287RJZ9_HORVV  A0A287RJZ9 Uncharacterized protein OS=Hordeu...  90.9    6e-22
+TR:F1DRB9_9POAL  F1DRB9 Cinnamoyl-CoA reductase OS=Cenchrus purpu...  92.0    6e-22
+TR:G3FDX4_POPNI  G3FDX4 CCR7 OS=Populus nigra OX=3691 PE=4 SV=1       91.7    6e-22
+TR:R0II83_9BRAS  R0II83 Uncharacterized protein OS=Capsella rubel...  91.7    6e-22
+TR:M1CRZ1_SOLTU  M1CRZ1 Uncharacterized protein OS=Solanum tubero...  90.5    6e-22
+TR:W5FKQ2_WHEAT  W5FKQ2 Uncharacterized protein OS=Triticum aesti...  91.7    6e-22
+TR:A0A1P8AT30_ARATH  A0A1P8AT30 Cinnamoyl coa reductase 1 OS=Arab...  90.9    6e-22
+TR:C0Z2K0_ARATH  C0Z2K0 AT1G15950 protein OS=Arabidopsis thaliana...  91.3    7e-22
+TR:G7JEE6_MEDTR  G7JEE6 Cinnamoyl-CoA reductase-like protein OS=M...  90.5    7e-22
+TR:A0A1U8FUP3_CAPAN  A0A1U8FUP3 Cinnamoyl-CoA reductase 2 OS=Caps...  91.3    8e-22
+TR:A0A2G3A2I0_CAPAN  A0A2G3A2I0 cinnamoyl-CoA reductase 1-like OS...  91.3    8e-22
+TR:A0A2G3B7F9_CAPCH  A0A2G3B7F9 Cinnamoyl-CoA reductase 2 OS=Caps...  91.3    8e-22
+TR:B6TA63_MAIZE  B6TA63 Dihydroflavonol-4-reductase OS=Zea mays O...  91.7    8e-22
+TR:A0A1S3XRL7_TOBAC  A0A1S3XRL7 cinnamoyl-CoA reductase 2-like OS...  91.3    8e-22
+TR:E3NZI6_GOSHI  E3NZI6 Cinnamoyl-CoA reductase 4 OS=Gossypium hi...  91.3    8e-22
+TR:A0A1U8PEU0_GOSHI  A0A1U8PEU0 cinnamoyl-CoA reductase 1-like OS...  91.3    8e-22
+TR:A0A0B0NUM2_GOSAR  A0A0B0NUM2 Dihydroflavonol-4-reductase OS=Go...  91.3    8e-22
+TR:A0A0C5B8N2_LOLPR  A0A0C5B8N2 CCR2 protein OS=Lolium perenne OX...  91.3    9e-22
+TR:Q9FUW8_LOLPR  Q9FUW8 Cinnamoyl CoA reductase OS=Lolium perenne...  91.3    9e-22
+TR:A0A2H5PSY8_CITUN  A0A2H5PSY8 Uncharacterized protein OS=Citrus...  84.7    9e-22
+TR:A0A2P5WZ64_GOSBA  A0A2P5WZ64 Uncharacterized protein OS=Gossyp...  91.3    1e-21
+TR:A0A0N9MP67_9POAL  A0A0N9MP67 Cinnamoyl-CoA reductase 2a OS=Mis...  91.3    1e-21
+TR:A0A1J6JYG9_NICAT  A0A1J6JYG9 Cinnamoyl-coa reductase 1 OS=Nico...  90.9    1e-21
+TR:A0A077D7R5_TOBAC  A0A077D7R5 Cinnamoyl-CoA reductase OS=Nicoti...  90.9    1e-21
+TR:A0A2S3I2X0_9POAL  A0A2S3I2X0 Uncharacterized protein OS=Panicu...  91.3    1e-21
+TR:A0A2T7D7V3_9POAL  A0A2T7D7V3 Uncharacterized protein OS=Panicu...  91.3    1e-21
+TR:K3YI92_SETIT  K3YI92 Uncharacterized protein OS=Setaria italic...  91.3    1e-21
+TR:A0A061G9C7_THECC  A0A061G9C7 Cinnamoyl coa reductase 1 isoform...  90.9    1e-21
+TR:A8MQW5_ARATH  A8MQW5 Cinnamoyl coa reductase 1 OS=Arabidopsis ...  90.9    1e-21
+TR:O65880_POPTR  O65880 Cinnamoyl CoA reductase OS=Populus tricho...  90.9    1e-21
+TR:A0A0N9MMR0_9POAL  A0A0N9MMR0 Cinnamoyl-CoA reductase 1a OS=Mis...  91.3    1e-21
+TR:A0A0N9M4T5_9POAL  A0A0N9M4T5 Cinnamoyl-CoA reductase OS=Miscan...  91.3    1e-21
+TR:A0A0N9MNA6_9POAL  A0A0N9MNA6 Cinnamoyl-CoA reductase OS=Miscan...  91.3    1e-21
+TR:W8SN71_PYRPY  W8SN71 Cinnamoyl-CoA reductase OS=Pyrus pyrifoli...  90.9    1e-21
+TR:Q5K591_LINAL  Q5K591 Cinnamoyl-CoA reductase OS=Linum album OX...  90.9    1e-21
+SP:CCR1_ARATH  Q9S9N9 Cinnamoyl-CoA reductase 1 OS=Arabidopsis th...  90.9    1e-21
+TR:A0A178W9D8_ARATH  A0A178W9D8 IRX4 OS=Arabidopsis thaliana OX=3...  90.9    1e-21
+TR:Q8H1H7_HORVU  Q8H1H7 Cinnamoyl CoA reductase OS=Hordeum vulgar...  90.9    1e-21
+TR:A0A287RK72_HORVV  A0A287RK72 Uncharacterized protein OS=Hordeu...  90.9    1e-21
+TR:F2EJR7_HORVV  F2EJR7 Predicted protein OS=Hordeum vulgare subs...  90.9    1e-21
+TR:A0A1D5ZR21_WHEAT  A0A1D5ZR21 Uncharacterized protein OS=Tritic...  90.9    1e-21
+TR:A8DNN6_WHEAT  A8DNN6 Cinnamoyl-CoA reductase OS=Triticum aesti...  90.9    1e-21
+TR:A0A287RK63_HORVV  A0A287RK63 Uncharacterized protein OS=Hordeu...  90.9    1e-21
+TR:B8BB38_ORYSI  B8BB38 Uncharacterized protein OS=Oryza sativa s...  90.9    1e-21
+TR:Q6Z9E7_ORYSJ  Q6Z9E7 Os08g0441500 protein OS=Oryza sativa subs...  90.9    1e-21
+TR:A0A1D1YB03_9ARAE  A0A1D1YB03 Dihydroflavonol-4-reductase OS=An...  90.5    1e-21
+TR:U5D8W9_AMBTC  U5D8W9 Uncharacterized protein OS=Amborella tric...  90.5    1e-21
+TR:M1CRZ0_SOLTU  M1CRZ0 Uncharacterized protein OS=Solanum tubero...  90.5    1e-21
+TR:Q4U1I5_SOLLC  Q4U1I5 Cinnamoyl-CoA reductase OS=Solanum lycope...  90.5    1e-21
+TR:S5RGZ3_9POAL  S5RGZ3 Cinnamoyl CoA reductase OS=Paspalum dilat...  90.9    1e-21
+TR:I1QJ13_ORYGL  I1QJ13 Uncharacterized protein OS=Oryza glaberri...  90.9    1e-21
+TR:S5RYC4_9POAL  S5RYC4 Cinnamoyl CoA reductase OS=Paspalum dilat...  90.9    1e-21
+TR:A0A0A1CBW3_BETPL  A0A0A1CBW3 Cinnamoyl-CoA reductase 1 OS=Betu...  90.5    2e-21
+TR:I3T9D9_MEDTR  I3T9D9 Uncharacterized protein OS=Medicago trunc...  90.5    2e-21
+TR:I3SLG0_MEDTR  I3SLG0 Uncharacterized protein OS=Medicago trunc...  90.5    2e-21
+TR:G7JEE5_MEDTR  G7JEE5 Cinnamoyl-CoA reductase-like protein OS=M...  90.5    2e-21
+TR:V9I5Z3_9FABA  V9I5Z3 Cinnamoyl-CoA reductase OS=Caragana korsh...  90.5    2e-21
+TR:A0A0V0I129_SOLCH  A0A0V0I129 Putative cinnamoyl-CoA reductase ...  90.5    2e-21
+TR:O82055_SACOF  O82055 Cinnamoyl-CoA reductase OS=Saccharum offi...  90.9    2e-21
+TR:J7II91_FRAAN  J7II91 Cinnamoyl CoA reductase OS=Fragaria anana...  90.5    2e-21
+TR:D7KDL5_ARALL  D7KDL5 Uncharacterized protein OS=Arabidopsis ly...  90.5    2e-21
+TR:A0A078H3X6_BRANA  A0A078H3X6 BnaC05g12180D protein OS=Brassica...  90.5    2e-21
+TR:A0A2G3C9A8_CAPCH  A0A2G3C9A8 Cinnamoyl-CoA reductase 1 OS=Caps...  91.7    2e-21
+TR:Q6ERR3_ORYSJ  Q6ERR3 Os09g0419200 protein OS=Oryza sativa subs...  89.7    2e-21
+TR:A0A1J6ILB7_NICAT  A0A1J6ILB7 Cinnamoyl-coa reductase 1 OS=Nico...  90.1    2e-21
+TR:A0A078HBB8_BRANA  A0A078HBB8 BnaA06g10620D protein OS=Brassica...  89.4    2e-21
+TR:C6TNK8_SOYBN  C6TNK8 Uncharacterized protein OS=Glycine max OX...  89.4    2e-21
+TR:A0A2K3P1Z9_TRIPR  A0A2K3P1Z9 Cinnamoyl CoA reductase OS=Trifol...  89.4    2e-21
+TR:A0A0D9X676_9ORYZ  A0A0D9X676 Uncharacterized protein OS=Leersi...  90.1    2e-21
+TR:A0A1S3ECM7_CICAR  A0A1S3ECM7 cinnamoyl-CoA reductase 2 OS=Cice...  90.1    2e-21
+TR:D9ZKR8_9ROSI  D9ZKR8 Cinnamoyl-CoA reductase OS=Hibiscus canna...  90.1    2e-21
+TR:M5XCN5_PRUPE  M5XCN5 Uncharacterized protein OS=Prunus persica...  90.1    2e-21
+TR:A0A1R3G457_COCAP  A0A1R3G457 NAD-dependent epimerase/dehydrata...  90.1    2e-21
+TR:B9G155_ORYSJ  B9G155 Uncharacterized protein OS=Oryza sativa s...  90.9    2e-21
+TR:A0A1S3CPR1_CUCME  A0A1S3CPR1 cinnamoyl-CoA reductase 2-like OS...  89.7    3e-21
+TR:A0A0N9MPE4_9POAL  A0A0N9MPE4 Cinnamoyl-CoA reductase 2b OS=Mis...  90.1    3e-21
+TR:J3MXH7_ORYBR  J3MXH7 Uncharacterized protein OS=Oryza brachyan...  90.1    3e-21
+TR:S8ENT8_9LAMI  S8ENT8 Uncharacterized protein (Fragment) OS=Gen...  89.7    3e-21
+TR:A0A0N9MTR4_MISSI  A0A0N9MTR4 Cinnamoyl-CoA reductase OS=Miscan...  90.1    3e-21
+TR:A0A0N9MG64_9POAL  A0A0N9MG64 Cinnamoyl-CoA reductase OS=Miscan...  90.1    3e-21
+TR:A0A0N9M4S1_9POAL  A0A0N9M4S1 Cinnamoyl-CoA reductase 1b OS=Mis...  90.1    3e-21
+TR:A0A0N7FRI2_9POAL  A0A0N7FRI2 Cinnamoyl-CoA reductase 1c OS=Mis...  90.1    3e-21
+TR:A0A023HHB5_9ROSI  A0A023HHB5 Putative cinnamoyl-CoA reductase ...  89.7    3e-21
+TR:A0A0D2TP69_GOSRA  A0A0D2TP69 Uncharacterized protein OS=Gossyp...  89.0    3e-21
+TR:A0A2K2BSC7_POPTR  A0A2K2BSC7 Uncharacterized protein OS=Populu...  88.2    3e-21
+TR:A0A0A0L9Z9_CUCSA  A0A0A0L9Z9 Uncharacterized protein OS=Cucumi...  85.9    3e-21
+TR:A0A164W718_DAUCA  A0A164W718 Uncharacterized protein OS=Daucus...  89.4    4e-21
+TR:B8BF94_ORYSI  B8BF94 Uncharacterized protein OS=Oryza sativa s...  89.7    4e-21
+TR:I1QNY9_ORYGL  I1QNY9 Uncharacterized protein OS=Oryza glaberri...  89.7    4e-21
+TR:Q6ERR4_ORYSJ  Q6ERR4 Os09g0419200 protein OS=Oryza sativa subs...  89.7    4e-21
+TR:S5RCD3_9POAL  S5RCD3 Cinnamoyl CoA reductase OS=Paspalum dilat...  89.7    4e-21
+TR:M1BR81_SOLTU  M1BR81 Uncharacterized protein OS=Solanum tubero...  89.4    4e-21
+TR:Q8H1H6_SOLTU  Q8H1H6 Cinnamoyl CoA reductase OS=Solanum tubero...  89.4    4e-21
+TR:I1KGT7_SOYBN  I1KGT7 Uncharacterized protein OS=Glycine max OX...  89.4    4e-21
+TR:A0A059TC02_PETHY  A0A059TC02 Cinnamoyl-CoA reductase 1 OS=Petu...  89.4    4e-21
+TR:I1KVL4_SOYBN  I1KVL4 Uncharacterized protein OS=Glycine max OX...  89.4    4e-21
+TR:Q08GL2_LEULE  Q08GL2 Cinnamoyl CoA reductase OS=Leucaena leuco...  89.4    4e-21
+TR:A0A2G2WQR4_CAPBA  A0A2G2WQR4 Cinnamoyl-CoA reductase 2 OS=Caps...  89.4    4e-21
+TR:A0A1U8FUR6_CAPAN  A0A1U8FUR6 cinnamoyl-CoA reductase 1-like OS...  89.4    4e-21
+TR:A0A2G3B7D7_CAPCH  A0A2G3B7D7 Cinnamoyl-CoA reductase 2 OS=Caps...  89.4    4e-21
+TR:B5LAU0_CAPAN  B5LAU0 Cinnamoyl-CoA reductase 2 OS=Capsicum ann...  89.4    4e-21
+TR:W9RNI9_9ROSA  W9RNI9 Uncharacterized protein OS=Morus notabili...  85.9    4e-21
+TR:A0A218XAZ0_PUNGR  A0A218XAZ0 Uncharacterized protein OS=Punica...  89.4    4e-21
+TR:A0A0K8WME8_9FABA  A0A0K8WME8 Cinnamoyl-CoA reductase 1 OS=Acac...  89.4    4e-21
+TR:A0A1D8X800_9FABA  A0A1D8X800 Cinnamoyl CoA reductase OS=Acacia...  89.4    4e-21
+TR:A0A1J0M3L2_BRARO  A0A1J0M3L2 Cinnamoyl-CoA reductase 1 OS=Bras...  89.4    4e-21
+TR:M4EBD1_BRARP  M4EBD1 Uncharacterized protein OS=Brassica rapa ...  89.4    4e-21
+TR:A0A0D3DX20_BRAOL  A0A0D3DX20 Uncharacterized protein OS=Brassi...  89.7    5e-21
+TR:A0A2G5DY27_AQUCA  A0A2G5DY27 Uncharacterized protein OS=Aquile...  88.2    5e-21
+TR:A0A0F6Y5A9_POPTO  A0A0F6Y5A9 Cinnamoyl-CoA reductase 4 OS=Popu...  88.2    5e-21
+TR:A0A0D2UKZ0_GOSRA  A0A0D2UKZ0 Uncharacterized protein OS=Gossyp...  89.0    6e-21
+TR:B5SU04_LEULE  B5SU04 Cinnamoyl CoA reductase (Fragment) OS=Leu...  87.0    6e-21
+TR:A0A0D3GYB1_9ORYZ  A0A0D3GYB1 Uncharacterized protein OS=Oryza ...  87.8    6e-21
+TR:A0A2P5RAJ5_GOSBA  A0A2P5RAJ5 Uncharacterized protein OS=Gossyp...  89.0    6e-21
+TR:A0A0D2TIJ5_GOSRA  A0A0D2TIJ5 Uncharacterized protein OS=Gossyp...  89.0    6e-21
+TR:A3BRF7_ORYSJ  A3BRF7 Uncharacterized protein OS=Oryza sativa s...  87.8    6e-21
+TR:A0A2K1R5M0_POPTR  A0A2K1R5M0 Uncharacterized protein OS=Populu...  85.5    6e-21
+TR:A0A078IS98_BRANA  A0A078IS98 BnaA09g56490D protein OS=Brassica...  89.0    6e-21
+TR:M4ED77_BRARP  M4ED77 Uncharacterized protein OS=Brassica rapa ...  89.0    6e-21
+TR:A0A0F6SII6_9POAL  A0A0F6SII6 Cinnamoyl-CoA reductase OS=Indosa...  89.0    6e-21
+TR:A0A248SMH3_LILRE  A0A248SMH3 Cinnamoyl CoA reductase OS=Lilium...  89.4    7e-21
+TR:A0A1S4C4H0_TOBAC  A0A1S4C4H0 cinnamoyl-CoA reductase 1-like OS...  87.8    7e-21
+TR:A0A162AH52_DAUCA  A0A162AH52 Uncharacterized protein OS=Daucus...  88.6    8e-21
+TR:A0A0S3T137_PHAAN  A0A0S3T137 Uncharacterized protein OS=Vigna ...  88.6    8e-21
+TR:A0A0L9TAU3_PHAAN  A0A0L9TAU3 Uncharacterized protein OS=Phaseo...  88.6    8e-21
+TR:V7BY02_PHAVU  V7BY02 Uncharacterized protein OS=Phaseolus vulg...  88.6    8e-21
+TR:I1H0C0_BRADI  I1H0C0 Uncharacterized protein OS=Brachypodium d...  88.6    8e-21
+TR:V4L633_EUTSA  V4L633 Uncharacterized protein OS=Eutrema salsug...  88.6    9e-21
+TR:I1I2J1_BRADI  I1I2J1 Uncharacterized protein OS=Brachypodium d...  88.6    9e-21
+TR:A0A2K2BSC3_POPTR  A0A2K2BSC3 Uncharacterized protein OS=Populu...  84.0    9e-21
+TR:A0A0D9X677_9ORYZ  A0A0D9X677 Uncharacterized protein OS=Leersi...  87.0    9e-21
+TR:A0A2G5DY54_AQUCA  A0A2G5DY54 Uncharacterized protein OS=Aquile...  88.2    1e-20
+TR:A0A2K2BSD4_POPTR  A0A2K2BSD4 Uncharacterized protein OS=Populu...  87.4    1e-20
+TR:A0A2K2BSC4_POPTR  A0A2K2BSC4 Uncharacterized protein OS=Populu...  87.4    1e-20
+TR:B8XPQ0_9ROSI  B8XPQ0 Cinnamoyl CoA reductase OS=Betula luminif...  88.2    1e-20
+TR:A0A0S3SF21_PHAAN  A0A0S3SF21 Uncharacterized protein OS=Vigna ...  88.2    1e-20
+TR:A0A1S3U7U6_VIGRR  A0A1S3U7U6 cinnamoyl-CoA reductase 1-like OS...  88.2    1e-20
+TR:C6TBV0_SOYBN  C6TBV0 Uncharacterized protein OS=Glycine max OX...  88.2    1e-20
+TR:A0A2G5DY42_AQUCA  A0A2G5DY42 Uncharacterized protein OS=Aquile...  88.2    1e-20
+TR:A0A0R0HCJ1_SOYBN  A0A0R0HCJ1 Uncharacterized protein OS=Glycin...  88.2    1e-20
+TR:A0A0F7EVN0_POPTO  A0A0F7EVN0 Cinnamoyl-CoA reductase OS=Populu...  88.2    1e-20
+TR:A0A0A9PJ30_ARUDO  A0A0A9PJ30 Uncharacterized protein OS=Arundo...  88.2    1e-20
+TR:W9RC80_9ROSA  W9RC80 Bifunctional dihydroflavonol 4-reductase/...  89.0    1e-20
+TR:A0A2G2WQR2_CAPBA  A0A2G2WQR2 Cinnamoyl-CoA reductase 2 OS=Caps...  88.6    1e-20
+TR:A0A1U7UQL1_NICSY  A0A1U7UQL1 cinnamoyl-CoA reductase 1-like OS...  87.8    1e-20
+TR:I6PBN8_9MAGN  I6PBN8 Cinnamoyl-CoA reductase OS=Cinnamomum osm...  87.8    1e-20
+TR:T1WVG0_POPTO  T1WVG0 Cinnamoyl-CoA reductase (Fragment) OS=Pop...  87.0    1e-20
+TR:B8Q190_9LAMI  B8Q190 Cinnamoyl-CoA reductase OS=Paulownia sp. ...  87.8    1e-20
+TR:A0A2R6PDB8_ACTCH  A0A2R6PDB8 Cinnamoyl-CoA reductase OS=Actini...  87.8    2e-20
+TR:A0A1U8JF75_GOSHI  A0A1U8JF75 cinnamoyl-CoA reductase 1-like OS...  87.8    2e-20
+TR:D7U877_VITVI  D7U877 Uncharacterized protein OS=Vitis vinifera...  87.8    2e-20
+TR:A0A1R3HV24_9ROSI  A0A1R3HV24 NAD-dependent epimerase/dehydrata...  87.8    2e-20
+TR:D3J7Z3_ISATI  D3J7Z3 Cinnamoyl-CoA reductase OS=Isatis tinctor...  87.8    2e-20
+TR:A2YTC2_ORYSI  A2YTC2 Uncharacterized protein OS=Oryza sativa s...  87.8    2e-20
+TR:A0A0E0QGP3_ORYRU  A0A0E0QGP3 Uncharacterized protein OS=Oryza ...  87.8    2e-20
+TR:I1QH52_ORYGL  I1QH52 Uncharacterized protein OS=Oryza glaberri...  87.8    2e-20
+TR:Q6Z1M5_ORYSJ  Q6Z1M5 Os08g0277200 protein OS=Oryza sativa subs...  87.8    2e-20
+TR:A0A1J3CCC6_NOCCA  A0A1J3CCC6 Cinnamoyl-CoA reductase 1 OS=Nocc...  87.8    2e-20
+TR:A0A1J3JRJ6_NOCCA  A0A1J3JRJ6 Cinnamoyl-CoA reductase 1 OS=Nocc...  87.8    2e-20
+TR:A0A1J3EBN9_NOCCA  A0A1J3EBN9 Cinnamoyl-CoA reductase 1 OS=Nocc...  87.8    2e-20
+TR:A0A287RJX5_HORVV  A0A287RJX5 Uncharacterized protein OS=Hordeu...  87.8    2e-20
+TR:A0A2T7D5W5_9POAL  A0A2T7D5W5 Uncharacterized protein OS=Panicu...  87.4    2e-20
+TR:Q1EL79_PICAB  Q1EL79 Cinnamoyl CoA reductase (Fragment) OS=Pic...  87.4    2e-20
+TR:A0A0S2LHQ6_PICSI  A0A0S2LHQ6 Cinnamoyl-CoA reductase OS=Picea ...  87.4    2e-20
+TR:A0A0E0I9L2_ORYNI  A0A0E0I9L2 Uncharacterized protein OS=Oryza ...  87.8    2e-20
+TR:A0A0E0AT63_9ORYZ  A0A0E0AT63 Uncharacterized protein OS=Oryza ...  87.8    2e-20
+TR:V4SUN0_9ROSI  V4SUN0 Uncharacterized protein OS=Citrus clement...  86.7    2e-20
+TR:A0A2K2BSB2_POPTR  A0A2K2BSB2 Uncharacterized protein OS=Populu...  87.4    2e-20
+TR:U5GTL3_POPTR  U5GTL3 Uncharacterized protein OS=Populus tricho...  87.4    2e-20
+TR:A0A1U7V2B2_NICSY  A0A1U7V2B2 cinnamoyl-CoA reductase 1-like OS...  87.4    2e-20
+TR:A0A1S3XUH3_TOBAC  A0A1S3XUH3 cinnamoyl-CoA reductase 1-like OS...  87.4    2e-20
+TR:U5GPI6_POPTR  U5GPI6 Uncharacterized protein OS=Populus tricho...  87.4    2e-20
+TR:B9GMB5_POPTR  B9GMB5 Uncharacterized protein OS=Populus tricho...  87.4    2e-20
+TR:A0A1S3CNM5_CUCME  A0A1S3CNM5 cinnamoyl-CoA reductase 2-like OS...  87.0    3e-20
+TR:B5SU03_LEULE  B5SU03 Cinnamoyl CoA reductase OS=Leucaena leuco...  87.0    3e-20
+TR:A0A2I4GQZ0_9ROSI  A0A2I4GQZ0 cinnamoyl-CoA reductase 1-like OS...  87.0    3e-20
+TR:A0A1D6CGD3_WHEAT  A0A1D6CGD3 Uncharacterized protein OS=Tritic...  87.4    3e-20
+TR:A0A0C9QW34_9SPER  A0A0C9QW34 TSA: Wollemia nobilis Ref_Wollemi...  86.7    4e-20
+TR:A0A2N9IEH3_FAGSY  A0A2N9IEH3 Uncharacterized protein OS=Fagus ...  86.7    4e-20
+TR:A0A1J3CA79_NOCCA  A0A1J3CA79 Cinnamoyl-CoA reductase 2 OS=Nocc...  86.7    4e-20
+TR:A0A0B2QLP5_GLYSO  A0A0B2QLP5 Bifunctional dihydroflavonol 4-re...  86.7    4e-20
+TR:C6TE08_SOYBN  C6TE08 Uncharacterized protein OS=Glycine max OX...  86.7    4e-20
+TR:A0A287VNM7_HORVV  A0A287VNM7 Uncharacterized protein OS=Hordeu...  85.9    4e-20
+TR:A0A0B4ZYA3_PUNGR  A0A0B4ZYA3 CCR OS=Punica granatum OX=22663 G...  86.7    4e-20
+TR:A0A2H5PSY4_CITUN  A0A2H5PSY4 Uncharacterized protein OS=Citrus...  86.7    4e-20
+TR:V4SPM4_9ROSI  V4SPM4 Uncharacterized protein OS=Citrus clement...  86.7    4e-20
+TR:A0A287VWW4_HORVV  A0A287VWW4 Uncharacterized protein OS=Hordeu...  86.3    5e-20
+TR:A0A287VNP8_HORVV  A0A287VNP8 Uncharacterized protein OS=Hordeu...  85.9    5e-20
+TR:A6N996_9LILI  A6N996 CCR OS=Lilium hybrid cultivar OX=156531 G...  87.0    5e-20
+TR:A0A1J3EWR1_NOCCA  A0A1J3EWR1 Cinnamoyl-CoA reductase 2 (Fragme...  86.7    5e-20
+TR:A0A1J3GYV2_NOCCA  A0A1J3GYV2 Cinnamoyl-CoA reductase 2 (Fragme...  86.7    5e-20
+TR:A0A166ABQ1_DAUCA  A0A166ABQ1 Uncharacterized protein OS=Daucus...  86.3    5e-20
+TR:A0A068TSC2_COFCA  A0A068TSC2 Uncharacterized protein OS=Coffea...  86.3    6e-20
+TR:Q4U1I4_SOLLC  Q4U1I4 Cinnamoyl-CoA reductase OS=Solanum lycope...  86.3    6e-20
+TR:M7Z514_TRIUA  M7Z514 Bifunctional dihydroflavonol 4-reductase/...  85.9    6e-20
+TR:A0A1U8ARJ2_NELNU  A0A1U8ARJ2 cinnamoyl-CoA reductase 1-like OS...  86.3    6e-20
+TR:A0A287VWM3_HORVV  A0A287VWM3 Uncharacterized protein OS=Hordeu...  86.3    6e-20
+TR:A0A287VX99_HORVV  A0A287VX99 Uncharacterized protein OS=Hordeu...  86.3    6e-20
+TR:F2D216_HORVV  F2D216 Predicted protein OS=Hordeum vulgare subs...  86.3    6e-20
+TR:A0A2S3I207_9POAL  A0A2S3I207 Uncharacterized protein OS=Panicu...  86.3    6e-20
+TR:A0A2T7D5T7_9POAL  A0A2T7D5T7 Uncharacterized protein OS=Panicu...  86.3    6e-20
+TR:A0A0E0LT71_ORYPU  A0A0E0LT71 Uncharacterized protein OS=Oryza ...  86.3    6e-20
+TR:K7ZBW3_CUNLA  K7ZBW3 Cinnamoyl-CoA reductase OS=Cunninghamia l...  85.9    7e-20
+TR:A0A2P4HCB4_QUESU  A0A2P4HCB4 Cinnamoyl-coa reductase 1 OS=Quer...  85.9    8e-20
+TR:A0A287VNP7_HORVV  A0A287VNP7 Uncharacterized protein OS=Hordeu...  85.9    8e-20
+TR:A0A078HQM8_BRANA  A0A078HQM8 BnaC06g40190D protein OS=Brassica...  85.9    8e-20
+TR:A0A2G9GL95_9LAMI  A0A2G9GL95 Flavonol reductase/cinnamoyl-CoA ...  85.9    8e-20
+TR:M4F253_BRARP  M4F253 Uncharacterized protein OS=Brassica rapa ...  85.9    8e-20
+TR:G0WXL6_BRAOV  G0WXL6 Cinnamoyl-CoA reductase 2-1B OS=Brassica ...  85.9    8e-20
+TR:G0WXL3_BRAOV  G0WXL3 Cinnamoyl-CoA reductase 2-1A OS=Brassica ...  85.9    8e-20
+TR:G0WXL0_BRARO  G0WXL0 Cinnamoyl-CoA reductase 2-1B OS=Brassica ...  85.9    8e-20
+TR:G0WXK7_BRARO  G0WXK7 Cinnamoyl-CoA reductase 2-1A OS=Brassica ...  85.9    8e-20
+TR:G0WXK0_BRANA  G0WXK0 Cinnamoyl-CoA reductase 2-1 OS=Brassica n...  85.9    8e-20
+TR:A0A2G2XR80_CAPBA  A0A2G2XR80 Cinnamoyl-CoA reductase 1 OS=Caps...  85.9    8e-20
+TR:A0A1U8HJP7_CAPAN  A0A1U8HJP7 cinnamoyl-CoA reductase 2-like OS...  85.9    8e-20
+TR:A0A287VNP3_HORVV  A0A287VNP3 Uncharacterized protein OS=Hordeu...  85.9    8e-20
+TR:A0A251UCQ9_HELAN  A0A251UCQ9 Putative cinnamoyl coa reductase ...  85.9    8e-20
+TR:A0A1Q3BWJ2_CEPFO  A0A1Q3BWJ2 Epimerase domain-containing prote...  85.9    8e-20
+TR:A0A1D5YSM9_WHEAT  A0A1D5YSM9 Uncharacterized protein OS=Tritic...  85.9    8e-20
+TR:A0A1D5ZG50_WHEAT  A0A1D5ZG50 Uncharacterized protein OS=Tritic...  85.9    8e-20
+TR:A0A287VNT0_HORVV  A0A287VNT0 Uncharacterized protein OS=Hordeu...  85.9    8e-20
+TR:A0A2S3HL95_9POAL  A0A2S3HL95 Uncharacterized protein OS=Panicu...  85.9    9e-20
+TR:A0A2T7E249_9POAL  A0A2T7E249 Uncharacterized protein OS=Panicu...  85.9    9e-20
+TR:A0A2T7E220_9POAL  A0A2T7E220 Uncharacterized protein OS=Panicu...  85.9    9e-20
+TR:A0A287QGP9_HORVV  A0A287QGP9 Uncharacterized protein OS=Hordeu...  83.2    9e-20
+TR:A0A287QGM1_HORVV  A0A287QGM1 Uncharacterized protein OS=Hordeu...  83.2    9e-20
+TR:A0A1S3VCA3_VIGRR  A0A1S3VCA3 cinnamoyl-CoA reductase 1-like OS...  85.5    1e-19
+TR:G0WXK3_BRANA  G0WXK3 Cinnamoyl-CoA reductase 2-3 OS=Brassica n...  85.5    1e-19
+TR:Q2WFL1_9ASTR  Q2WFL1 Cinnamoyl-CoA reductase OS=Codonopsis lan...  85.5    1e-19
+TR:A0A1B0YY67_DAUCA  A0A1B0YY67 Cinnamoyl-CoA reductase 2 OS=Dauc...  85.5    1e-19
+TR:A0A161ZMC7_DAUCA  A0A161ZMC7 Uncharacterized protein OS=Daucus...  85.9    1e-19
+TR:K3YLJ3_SETIT  K3YLJ3 Uncharacterized protein OS=Setaria italic...  85.5    1e-19
+TR:A0A0C9S476_9SPER  A0A0C9S476 TSA: Wollemia nobilis Ref_Wollemi...  85.1    1e-19
+TR:A0A161WQP7_DAUCA  A0A161WQP7 Uncharacterized protein OS=Daucus...  85.1    1e-19
+TR:A0A1B0YYQ3_DAUCA  A0A1B0YYQ3 Cinnamoyl-CoA reductase 1 OS=Dauc...  85.1    1e-19
+TR:A0A0D6QRN2_ARACU  A0A0D6QRN2 Uncharacterized protein OS=Arauca...  85.1    1e-19
+TR:A0A2G3AIT1_CAPAN  A0A2G3AIT1 Cinnamoyl-CoA reductase 1 OS=Caps...  85.1    2e-19
+TR:A0A2S3I1X1_9POAL  A0A2S3I1X1 Uncharacterized protein OS=Panicu...  85.1    2e-19
+TR:A0A2T7D5R9_9POAL  A0A2T7D5R9 Uncharacterized protein OS=Panicu...  85.1    2e-19
+TR:K9L6N1_PINRA  K9L6N1 Cinnamoyl-CoA reductase OS=Pinus radiata ...  84.7    2e-19
+TR:Q8VZH7_PINTA  Q8VZH7 Cinnamoyl-CoA reductase OS=Pinus taeda OX...  84.7    2e-19
+TR:A0A076NB75_PINKO  A0A076NB75 Cinnamoyl-CoA reductase OS=Pinus ...  84.7    2e-19
+TR:A0A287QH78_HORVV  A0A287QH78 Uncharacterized protein OS=Hordeu...  83.2    2e-19
+TR:Q9M631_POPTM  Q9M631 Cinnamoyl CoA reductase OS=Populus tremul...  84.7    2e-19
+TR:A0A2P6SD62_ROSCH  A0A2P6SD62 Putative cinnamoyl-CoA reductase ...  84.7    2e-19
+TR:V4SJP3_9ROSI  V4SJP3 Uncharacterized protein OS=Citrus clement...  84.7    2e-19
+TR:A0A1D6A196_WHEAT  A0A1D6A196 Uncharacterized protein OS=Tritic...  84.7    2e-19
+TR:M8C2X7_AEGTA  M8C2X7 Dihydroflavonol-4-reductase OS=Aegilops t...  84.7    2e-19
+TR:N1QVP5_AEGTA  N1QVP5 Bifunctional dihydroflavonol 4-reductase/...  84.7    2e-19
+TR:A0A1D6D0G8_WHEAT  A0A1D6D0G8 Uncharacterized protein OS=Tritic...  84.7    2e-19
+TR:A0A0C5ATS1_LOLPR  A0A0C5ATS1 CCR3 protein OS=Lolium perenne OX...  84.7    2e-19
+TR:N1QZE7_AEGTA  N1QZE7 Bifunctional dihydroflavonol 4-reductase/...  84.7    2e-19
+TR:A0A1P8AWR1_ARATH  A0A1P8AWR1 Cinnamoyl coa reductase OS=Arabid...  83.6    3e-19
+TR:K3XY39_SETIT  K3XY39 Uncharacterized protein OS=Setaria italic...  84.3    3e-19
+TR:A0A0A0K682_CUCSA  A0A0A0K682 Uncharacterized protein OS=Cucumi...  84.3    3e-19
+TR:A0A1S3CE38_CUCME  A0A1S3CE38 cinnamoyl-CoA reductase 1-like OS...  84.3    3e-19
+TR:A0A0K9P2L5_ZOSMR  A0A0K9P2L5 Cinnamoyl-CoA reductase OS=Zoster...  84.3    3e-19
+TR:A0A1D6BYB9_WHEAT  A0A1D6BYB9 Uncharacterized protein OS=Tritic...  84.3    3e-19
+TR:T1LHE0_TRIUA  T1LHE0 Uncharacterized protein OS=Triticum urart...  84.0    4e-19
+TR:A0A1S3CGS2_CUCME  A0A1S3CGS2 cinnamoyl-CoA reductase 2-like OS...  84.0    4e-19
+TR:A0A087HK09_ARAAL  A0A087HK09 Uncharacterized protein OS=Arabis...  84.0    4e-19
+TR:R0GI53_9BRAS  R0GI53 Uncharacterized protein OS=Capsella rubel...  84.0    4e-19
+TR:A0A1U8BGR9_NELNU  A0A1U8BGR9 cinnamoyl-CoA reductase 1-like OS...  84.0    4e-19
+TR:W5FNP6_WHEAT  W5FNP6 Uncharacterized protein OS=Triticum aesti...  84.0    4e-19
+TR:A0A2I4GUG8_9ROSI  A0A2I4GUG8 cinnamoyl-CoA reductase 1-like is...  84.0    4e-19
+TR:A0A287VP57_HORVV  A0A287VP57 Uncharacterized protein OS=Hordeu...  83.2    5e-19
+TR:A0A2U1KQ14_ARTAN  A0A2U1KQ14 Cinnamoyl-CoA reductase 2 OS=Arte...  81.6    5e-19
+TR:M4CW41_BRARP  M4CW41 Uncharacterized protein OS=Brassica rapa ...  83.6    6e-19
+TR:G0WXL7_BRAOV  G0WXL7 Cinnamoyl-CoA reductase 2-2 OS=Brassica o...  83.6    6e-19
+TR:G0WXL1_BRARO  G0WXL1 Cinnamoyl-CoA reductase 2-2 OS=Brassica r...  83.6    6e-19
+TR:G0WXK1_BRANA  G0WXK1 BnaA02g36250D protein OS=Brassica napus O...  83.6    6e-19
+TR:G0WXK6_BRANA  G0WXK6 BnaC02g46610D protein OS=Brassica napus O...  83.6    6e-19
+SP:CCR2_ARATH  Q9SAH9 Cinnamoyl-CoA reductase 2 OS=Arabidopsis th...  83.6    6e-19
+TR:A0A178WG92_ARATH  A0A178WG92 CCR2 OS=Arabidopsis thaliana OX=3...  83.6    6e-19
+TR:A0A2G3DG97_CAPCH  A0A2G3DG97 Cinnamoyl-CoA reductase 1 OS=Caps...  83.6    6e-19
+TR:A0A2U1NPC0_ARTAN  A0A2U1NPC0 Bifunctional polymyxin resistance...  83.2    6e-19
+TR:V4KIQ1_EUTSA  V4KIQ1 Uncharacterized protein OS=Eutrema salsug...  83.2    8e-19
+TR:A0A0A0L9M9_CUCSA  A0A0A0L9M9 Uncharacterized protein OS=Cucumi...  83.2    8e-19
+TR:A0A2U1KUU8_ARTAN  A0A2U1KUU8 Bifunctional polymyxin resistance...  83.2    8e-19
+TR:A0A287QGQ4_HORVV  A0A287QGQ4 Uncharacterized protein OS=Hordeu...  83.2    8e-19
+TR:A0A2U1PJC0_ARTAN  A0A2U1PJC0 Bifunctional polymyxin resistance...  83.2    8e-19
+TR:A0A287QGR5_HORVV  A0A287QGR5 Uncharacterized protein OS=Hordeu...  83.2    8e-19
+TR:F2E1P2_HORVV  F2E1P2 Predicted protein OS=Hordeum vulgare subs...  83.2    8e-19
+TR:A0A287QH62_HORVV  A0A287QH62 Uncharacterized protein OS=Hordeu...  80.5    9e-19
+TR:A0A287QGK6_HORVV  A0A287QGK6 Uncharacterized protein OS=Hordeu...  83.2    1e-18
+TR:A0A287QGM2_HORVV  A0A287QGM2 Uncharacterized protein OS=Hordeu...  83.2    1e-18
+TR:C0P9L3_MAIZE  C0P9L3 Cinnamoyl-CoA reductase 1 OS=Zea mays OX=...  82.8    1e-18
+TR:A0A1D6CE25_WHEAT  A0A1D6CE25 Uncharacterized protein OS=Tritic...  82.8    1e-18
+TR:A0A1D6CE26_WHEAT  A0A1D6CE26 Uncharacterized protein OS=Tritic...  82.8    2e-18
+TR:T1NTP9_TRIUA  T1NTP9 Uncharacterized protein OS=Triticum urart...  82.4    2e-18
+TR:A0A2U1LQS2_ARTAN  A0A2U1LQS2 Bifunctional polymyxin resistance...  83.2    2e-18
+TR:C5Z5I9_SORBI  C5Z5I9 Uncharacterized protein OS=Sorghum bicolo...  82.4    2e-18
+TR:A0A1V0HSA2_SELML  A0A1V0HSA2 Cinnamoyl-CoA reductase1 OS=Selag...  82.0    2e-18
+TR:D8RV15_SELML  D8RV15 Cinnamoyl-CoA reductase OS=Selaginella mo...  82.0    2e-18
+TR:D8T036_SELML  D8T036 Cinnamoyl-CoA reductase OS=Selaginella mo...  82.0    2e-18
+TR:B3VKE9_9SPER  B3VKE9 Cinnamoyl-CoA reductase OS=Pinus massonia...  82.0    2e-18
+TR:A0A0K9PVC4_ZOSMR  A0A0K9PVC4 Cinnamoyl-CoA reductase OS=Zoster...  82.0    2e-18
+TR:A0A1S3CFB2_CUCME  A0A1S3CFB2 cinnamoyl-CoA reductase 1-like OS...  81.3    2e-18
+TR:M7ZJP1_TRIUA  M7ZJP1 Bifunctional dihydroflavonol 4-reductase/...  82.0    3e-18
+TR:W5G4B3_WHEAT  W5G4B3 Uncharacterized protein OS=Triticum aesti...  81.6    3e-18
+TR:M8CLV8_AEGTA  M8CLV8 Bifunctional dihydroflavonol 4-reductase/...  81.6    3e-18
+TR:A0A0C5AWM6_LOLPR  A0A0C5AWM6 CCR4 protein OS=Lolium perenne OX...  81.6    4e-18
+TR:A0A1Q3BWV4_CEPFO  A0A1Q3BWV4 Epimerase domain-containing prote...  81.3    4e-18
+TR:A0A251RZV2_HELAN  A0A251RZV2 Putative bifunctional polymyxin r...  81.3    4e-18
+TR:A0A2J6JT27_LACSA  A0A2J6JT27 Uncharacterized protein OS=Lactuc...  81.3    4e-18
+TR:A0A2K3P4V3_TRIPR  A0A2K3P4V3 Cinnamoyl-CoA reductase 1-like pr...  80.5    5e-18
+TR:A0A1D5YW14_WHEAT  A0A1D5YW14 Uncharacterized protein OS=Tritic...  80.5    8e-18
+TR:A0A0A0LF20_CUCSA  A0A0A0LF20 Uncharacterized protein OS=Cucumi...  80.1    1e-17
+TR:A0A0B2RHU2_GLYSO  A0A0B2RHU2 Bifunctional dihydroflavonol 4-re...  79.7    2e-17
+TR:A0A0B2P4P1_GLYSO  A0A0B2P4P1 Bifunctional dihydroflavonol 4-re...  79.7    2e-17
+TR:A0A251RW16_HELAN  A0A251RW16 Putative bifunctional polymyxin r...  79.7    2e-17
+TR:A0A118K3K4_CYNCS  A0A118K3K4 NAD-dependent epimerase/dehydrata...  79.3    2e-17
+TR:A0A2K3K6P1_TRIPR  A0A2K3K6P1 Cinnamoyl CoA reductase (Fragment...  73.2    2e-17
+TR:A0A0A9T9Y9_ARUDO  A0A0A9T9Y9 Uncharacterized protein OS=Arundo...  77.0    3e-17
+TR:A0A1D6BQ81_WHEAT  A0A1D6BQ81 Uncharacterized protein OS=Tritic...  79.0    3e-17
+TR:M0RXH6_MUSAM  M0RXH6 Uncharacterized protein OS=Musa acuminata...  74.3    4e-17
+TR:Q506M2_EUCUL  Q506M2 Cinnamyl alcohol dehydrogenase OS=Eucommi...  78.6    4e-17
+TR:A0A2S3HVL7_9POAL  A0A2S3HVL7 Uncharacterized protein OS=Panicu...  78.6    4e-17
+TR:A0A2T7DLR8_9POAL  A0A2T7DLR8 Uncharacterized protein OS=Panicu...  78.6    4e-17
+TR:A0A1L3GY85_9ASPA  A0A1L3GY85 Putative cinnamoyl-CoA reductase ...  78.6    4e-17
+TR:A0A1D6CTR5_WHEAT  A0A1D6CTR5 Uncharacterized protein OS=Tritic...  78.6    4e-17
+TR:A0A1D6C4L6_WHEAT  A0A1D6C4L6 Uncharacterized protein OS=Tritic...  78.6    4e-17
+TR:B8LN97_PICSI  B8LN97 Uncharacterized protein OS=Picea sitchens...  72.8    4e-17
+TR:A0A067H6Z1_CITSI  A0A067H6Z1 Uncharacterized protein OS=Citrus...  75.9    4e-17
+TR:K7Z277_CUNLA  K7Z277 Cinnamoyl-CoA reductase OS=Cunninghamia l...  78.2    5e-17
+TR:A0A0D3H0R2_9ORYZ  A0A0D3H0R2 Uncharacterized protein OS=Oryza ...  78.6    5e-17
+TR:A0A0E0ICJ4_ORYNI  A0A0E0ICJ4 Uncharacterized protein OS=Oryza ...  78.6    5e-17
+TR:A0A0E0QJL0_ORYRU  A0A0E0QJL0 Uncharacterized protein OS=Oryza ...  78.6    5e-17
+TR:A0A2N9G3B6_FAGSY  A0A2N9G3B6 Uncharacterized protein OS=Fagus ...  77.4    6e-17
+TR:A0A2S1WCF5_CAMSI  A0A2S1WCF5 1-phenyethanol synthase 4 OS=Came...  77.8    7e-17
+TR:A0A0K9PPB2_ZOSMR  A0A0K9PPB2 Cinnamoyl CoA reductase-like prot...  77.8    7e-17
+TR:A0A0K9PRF7_ZOSMR  A0A0K9PRF7 Cinnamoyl CoA reductase-like prot...  77.8    8e-17
+TR:J3KYW2_ORYBR  J3KYW2 Uncharacterized protein OS=Oryza brachyan...  77.8    8e-17
+TR:A0A1D6I798_MAIZE  A0A1D6I798 Dihydroflavonol-4-reductase OS=Ze...  73.9    9e-17
+TR:A0A2C9V7L7_MANES  A0A2C9V7L7 Uncharacterized protein OS=Maniho...  77.4    1e-16
+TR:A0A1B6Q2N6_SORBI  A0A1B6Q2N6 Uncharacterized protein OS=Sorghu...  77.4    1e-16
+TR:K7V9A3_MAIZE  K7V9A3 Cinnamoyl-CoA reductase 1 OS=Zea mays OX=...  77.4    1e-16
+TR:K7UT40_MAIZE  K7UT40 Cinnamoyl-CoA reductase 1 OS=Zea mays OX=...  77.4    1e-16
+TR:A0A118K2Z7_CYNCS  A0A118K2Z7 NAD-dependent epimerase/dehydrata...  75.5    1e-16
+TR:M0RKY0_MUSAM  M0RKY0 Uncharacterized protein OS=Musa acuminata...  73.6    1e-16
+TR:A0A067GXC7_CITSI  A0A067GXC7 Uncharacterized protein OS=Citrus...  75.9    1e-16
+TR:A0A0G7ZNT0_PICGL  A0A0G7ZNT0 Putative cinnamoyl-CoA reductase ...  76.6    1e-16
+TR:Q9C9K8_ARATH  Q9C9K8 Putative cinnamoyl-CoA reductase; 27707-2...  77.0    1e-16
+TR:A0A2K3JYT4_TRIPR  A0A2K3JYT4 Cinnamoyl CoA reductase (Fragment...  71.2    1e-16
+TR:Q9SFX4_ARATH  Q9SFX4 Putative cinnamoyl-CoA reductase; 14056-1...  77.0    1e-16
+TR:A0A1R3KG50_COCAP  A0A1R3KG50 Uncharacterized protein OS=Corcho...  77.0    1e-16
+TR:D7KTU0_ARALL  D7KTU0 Cinnamoyl-CoA reductase OS=Arabidopsis ly...  77.0    1e-16
+TR:A0A178WB81_ARATH  A0A178WB81 Uncharacterized protein OS=Arabid...  77.0    1e-16
+TR:F4I2E5_ARATH  F4I2E5 NAD(P)-binding Rossmann-fold superfamily ...  77.0    1e-16
+TR:A0A059D9A6_EUCGR  A0A059D9A6 Uncharacterized protein OS=Eucaly...  77.4    1e-16
+TR:J3MFY8_ORYBR  J3MFY8 Uncharacterized protein OS=Oryza brachyan...  77.0    1e-16
+TR:A0A1Q3BCR5_CEPFO  A0A1Q3BCR5 Epimerase domain-containing prote...  76.6    2e-16
+TR:A0A067GUN9_CITSI  A0A067GUN9 Uncharacterized protein OS=Citrus...  75.9    2e-16
+TR:V4VHY0_9ROSI  V4VHY0 Uncharacterized protein OS=Citrus clement...  75.9    2e-16
+TR:A0A1R3JP20_9ROSI  A0A1R3JP20 NAD-dependent epimerase/dehydrata...  76.6    2e-16
+TR:A0A1R3KGH4_COCAP  A0A1R3KGH4 NAD-dependent epimerase/dehydrata...  76.6    2e-16
+TR:A0A1R3JP14_9ROSI  A0A1R3JP14 NAD-dependent epimerase/dehydrata...  77.0    2e-16
+TR:A0A0F7L305_9MAGN  A0A0F7L305 Cinnamyl-alcohol dehydrogenase OS...  76.6    2e-16
+TR:A0A194YKA6_SORBI  A0A194YKA6 Uncharacterized protein OS=Sorghu...  76.6    2e-16
+TR:B9RIE4_RICCO  B9RIE4 Cinnamoyl-CoA reductase, putative OS=Rici...  77.0    2e-16
+TR:A0A2H3XZB6_PHODC  A0A2H3XZB6 cinnamoyl-CoA reductase 1-like is...  75.9    2e-16
+TR:A0A1D1Z5J6_9ARAE  A0A1D1Z5J6 Bifunctional dihydroflavonol 4-re...  76.6    2e-16
+TR:A0A2J6JZ81_LACSA  A0A2J6JZ81 Uncharacterized protein OS=Lactuc...  76.3    3e-16
+TR:A0A059D9J8_EUCGR  A0A059D9J8 Uncharacterized protein OS=Eucaly...  75.9    3e-16
+
+
+>TR:A0A161HL50_9POAL A0A161HL50 Cinnamoyl-CoA reductase 4 OS=Miscanthus x giganteus 
+OX=183674 GN=CCR4 PE=2 SV=1
+Length=344
+
+ Score = 125 bits (315),  Expect = 6e-35
+ Identities = 60/63 (95%), Positives = 61/63 (97%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MPTAE TTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVR+P DPKNDHLR
+Sbjct  1   MPTAEATTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRSPVDPKNDHLR  60
+
+Query  61  ALD  63
+           ALD
+Sbjct  61  ALD  63
+
+
+>TR:A0A1W0W3Z5_SORBI A0A1W0W3Z5 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3002G146000 PE=4 SV=1
+Length=346
+
+ Score = 125 bits (313),  Expect = 1e-34
+ Identities = 62/64 (97%), Positives = 62/64 (97%), Gaps = 1/64 (2%)
+
+Query  1   MPTAETTTPVP-ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHL  59
+           MPTAETTTPVP ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDHL
+Sbjct  1   MPTAETTTPVPPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDHL  60
+
+Query  60  RALD  63
+           RALD
+Sbjct  61  RALD  64
+
+
+>TR:O82726_MAIZE O82726 Cinnamoyl-CoA reductase OS=Zea mays OX=4577 GN=ccr2 PE=2 
+SV=2
+Length=346
+
+ Score = 118 bits (296),  Expect = 4e-32
+ Identities = 59/65 (91%), Positives = 59/65 (91%), Gaps = 2/65 (3%)
+
+Query  1   MPTAETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDH  58
+           MPTAE TTPVP    SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDH
+Sbjct  1   MPTAEATTPVPPELSSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDH  60
+
+Query  59  LRALD  63
+           LRALD
+Sbjct  61  LRALD  65
+
+
+>TR:Q84JD0_MAIZE Q84JD0 Cinnamoyl-CoA reductase OS=Zea mays OX=4577 GN=ccr2 PE=4 
+SV=1
+Length=346
+
+ Score = 118 bits (296),  Expect = 4e-32
+ Identities = 59/65 (91%), Positives = 59/65 (91%), Gaps = 2/65 (3%)
+
+Query  1   MPTAETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDH  58
+           MPTAE TTPVP    SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDH
+Sbjct  1   MPTAEATTPVPPELSSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDH  60
+
+Query  59  LRALD  63
+           LRALD
+Sbjct  61  LRALD  65
+
+
+>TR:Q84J56_MAIZE Q84J56 Cinnamoyl-CoA reductase OS=Zea mays OX=4577 GN=ccr2 PE=4 
+SV=1
+Length=341
+
+ Score = 117 bits (293),  Expect = 1e-31
+ Identities = 58/65 (89%), Positives = 59/65 (91%), Gaps = 2/65 (3%)
+
+Query  1   MPTAETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDH  58
+           MPTAE TTPVP    SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDH
+Sbjct  1   MPTAEATTPVPPELSSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDH  60
+
+Query  59  LRALD  63
+           LR+LD
+Sbjct  61  LRSLD  65
+
+
+>TR:A0A096S670_MAIZE A0A096S670 Cinnamoyl CoA reductase2 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d019669 
+PE=4 SV=1
+Length=341
+
+ Score = 117 bits (293),  Expect = 1e-31
+ Identities = 58/65 (89%), Positives = 59/65 (91%), Gaps = 2/65 (3%)
+
+Query  1   MPTAETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDH  58
+           MPTAE TTPVP    SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDH
+Sbjct  1   MPTAEATTPVPPELSSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDH  60
+
+Query  59  LRALD  63
+           LR+LD
+Sbjct  61  LRSLD  65
+
+
+>TR:A2YYM4_ORYSI A2YYM4 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_30445 PE=4 SV=1
+Length=347
+
+ Score = 113 bits (283),  Expect = 3e-30
+ Identities = 57/66 (86%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ETT   PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETTAAAPATTALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:A0A0E0HBW2_ORYNI A0A0E0HBW2 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=347
+
+ Score = 113 bits (283),  Expect = 3e-30
+ Identities = 57/66 (86%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ETT   PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETTAAAPATTALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:K3ZUX2_SETIT K3ZUX2 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101784783 
+PE=4 SV=1
+Length=341
+
+ Score = 112 bits (281),  Expect = 6e-30
+ Identities = 53/58 (91%), Positives = 55/58 (95%), Gaps = 0/58 (0%)
+
+Query  6   TTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T TP+PALSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDHLRAL+
+Sbjct  3   TETPMPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDHLRALE  60
+
+
+>TR:A0A2S3GYI4_9POAL A0A2S3GYI4 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_2G163600 PE=4 SV=1
+Length=343
+
+ Score = 112 bits (281),  Expect = 6e-30
+ Identities = 53/58 (91%), Positives = 55/58 (95%), Gaps = 0/58 (0%)
+
+Query  6   TTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T TP+PALSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDHLRAL+
+Sbjct  3   TETPMPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDHLRALE  60
+
+
+>TR:A0A2T7EPV7_9POAL A0A2T7EPV7 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_2G156500 PE=4 SV=1
+Length=343
+
+ Score = 112 bits (281),  Expect = 6e-30
+ Identities = 53/58 (91%), Positives = 55/58 (95%), Gaps = 0/58 (0%)
+
+Query  6   TTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T TP+PALSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDHLRAL+
+Sbjct  3   TETPMPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNDHLRALE  60
+
+
+>TR:A0A0D3H3S8_9ORYZ A0A0D3H3S8 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=347
+
+ Score = 111 bits (278),  Expect = 2e-29
+ Identities = 56/66 (85%), Positives = 56/66 (85%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:A0A0E0EPM7_9ORYZ A0A0E0EPM7 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=4 SV=1
+Length=347
+
+ Score = 111 bits (278),  Expect = 2e-29
+ Identities = 56/66 (85%), Positives = 56/66 (85%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATTALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:I1QM29_ORYGL I1QM29 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=347
+
+ Score = 111 bits (278),  Expect = 2e-29
+ Identities = 56/66 (85%), Positives = 56/66 (85%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:A0A0E0AZQ0_9ORYZ A0A0E0AZQ0 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=347
+
+ Score = 111 bits (278),  Expect = 2e-29
+ Identities = 56/66 (85%), Positives = 56/66 (85%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATTALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:J3MVN9_ORYBR J3MVN9 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102722421 
+PE=4 SV=1
+Length=348
+
+ Score = 109 bits (273),  Expect = 1e-28
+ Identities = 57/65 (88%), Positives = 57/65 (88%), Gaps = 2/65 (3%)
+
+Query  1   MPTAETTTPV-PA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDH  58
+           MPT ETT    PA LSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKNDH
+Sbjct  1   MPTDETTAAAAPAELSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKNDH  60
+
+Query  59  LRALD  63
+           LRALD
+Sbjct  61  LRALD  65
+
+
+>TR:A0A0E0LYG1_ORYPU A0A0E0LYG1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=345
+
+ Score = 109 bits (272),  Expect = 1e-28
+ Identities = 55/66 (83%), Positives = 55/66 (83%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG GR VCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATTALSGHGRIVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:A0A0E0QN28_ORYRU A0A0E0QN28 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=347
+
+ Score = 108 bits (270),  Expect = 3e-28
+ Identities = 55/66 (83%), Positives = 55/66 (83%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG G TVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATTALSGHGCTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:Q6K3G8_ORYSJ Q6K3G8 Os09g0127300 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os09g0127300 PE=2 SV=1
+Length=347
+
+ Score = 108 bits (270),  Expect = 3e-28
+ Identities = 55/66 (83%), Positives = 55/66 (83%), Gaps = 3/66 (5%)
+
+Query  1   MPTAETTTPVPA---LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+           MPT ET    PA   LSG G TVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKND
+Sbjct  1   MPTDETAAAAPATTALSGHGCTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPMDPKND  60
+
+Query  58  HLRALD  63
+           HLRALD
+Sbjct  61  HLRALD  66
+
+
+>TR:A0A287R6L6_HORVV A0A287R6L6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=173
+
+ Score = 104 bits (259),  Expect = 3e-28
+ Identities = 52/61 (85%), Positives = 53/61 (87%), Gaps = 2/61 (3%)
+
+Query  5   ETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           ETT  VPA  L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA 
+Sbjct  4   ETTDNVPAADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAF  63
+
+Query  63  D  63
+           D
+Sbjct  64  D  64
+
+
+>TR:A0A1E5UW93_9POAL A0A1E5UW93 Cinnamoyl-CoA reductase 1 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0021851 PE=4 SV=1
+Length=341
+
+ Score = 107 bits (268),  Expect = 5e-28
+ Identities = 51/58 (88%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  6   TTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T TP+PALSG GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNP DPKN HL AL+
+Sbjct  3   TETPMPALSGHGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPVDPKNGHLMALE  60
+
+
+>TR:A0A287R6N0_HORVV A0A287R6N0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=224
+
+ Score = 104 bits (259),  Expect = 1e-27
+ Identities = 52/61 (85%), Positives = 53/61 (87%), Gaps = 2/61 (3%)
+
+Query  5   ETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           ETT  VPA  L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA 
+Sbjct  4   ETTDNVPAADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAF  63
+
+Query  63  D  63
+           D
+Sbjct  64  D  64
+
+
+>TR:A0A0D9XB86_9ORYZ A0A0D9XB86 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=344
+
+ Score = 106 bits (265),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 52/55 (95%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P PALSGQGRTVCVTGAGGFIASWLVKRLLE GYTVRGTVRNP DPKN+HLRAL+
+Sbjct  10  PAPALSGQGRTVCVTGAGGFIASWLVKRLLELGYTVRGTVRNPMDPKNEHLRALE  64
+
+
+>TR:A0A0C5AW51_LOLPR A0A0C5AW51 CCR6 protein OS=Lolium perenne OX=4522 GN=CCR6 PE=4 
+SV=1
+Length=372
+
+ Score = 106 bits (264),  Expect = 3e-27
+ Identities = 50/63 (79%), Positives = 53/63 (84%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP    + P   L+GQGRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLR
+Sbjct  1   MPIEVDSVPAADLTGQGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLR  60
+
+Query  61  ALD  63
+           A D
+Sbjct  61  AFD  63
+
+
+>TR:A0A0C5AYW1_LOLPR A0A0C5AYW1 CCR5 protein OS=Lolium perenne OX=4522 GN=CCR5 PE=4 
+SV=1
+Length=350
+
+ Score = 105 bits (263),  Expect = 3e-27
+ Identities = 50/63 (79%), Positives = 52/63 (83%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP    + P   L+GQGRTVCVTGAGGFIASWLVKRLL KGYTVRGTVRNP DPKNDHLR
+Sbjct  1   MPIEADSVPAADLTGQGRTVCVTGAGGFIASWLVKRLLRKGYTVRGTVRNPVDPKNDHLR  60
+
+Query  61  ALD  63
+           A D
+Sbjct  61  AFD  63
+
+
+>TR:A0A0Q3L341_BRADI A0A0Q3L341 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_4g08647v3 PE=4 SV=1
+Length=357
+
+ Score = 105 bits (262),  Expect = 5e-27
+ Identities = 55/73 (75%), Positives = 58/73 (79%), Gaps = 10/73 (14%)
+
+Query  1   MPTAETTT------PVP----ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRN  50
+           MP  ETTT      PVP    +L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRN
+Sbjct  1   MPMIETTTTGGDVPPVPEAAASLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRN  60
+
+Query  51  PDDPKNDHLRALD  63
+           P DPKNDHLRAL+
+Sbjct  61  PVDPKNDHLRALE  73
+
+
+>TR:M0XCA6_HORVV M0XCA6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=358
+
+ Score = 104 bits (259),  Expect = 1e-26
+ Identities = 52/61 (85%), Positives = 53/61 (87%), Gaps = 2/61 (3%)
+
+Query  5   ETTTPVPA--LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           ETT  VPA  L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA 
+Sbjct  4   ETTDNVPAADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAF  63
+
+Query  63  D  63
+           D
+Sbjct  64  D  64
+
+
+>TR:A0A1D5ZY12_WHEAT A0A1D5ZY12 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=345
+
+ Score = 103 bits (256),  Expect = 3e-26
+ Identities = 51/60 (85%), Positives = 53/60 (88%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E+T  VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   ESTDNVPADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:W5FZ55_WHEAT W5FZ55 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=4 
+SV=1
+Length=357
+
+ Score = 103 bits (256),  Expect = 3e-26
+ Identities = 51/60 (85%), Positives = 53/60 (88%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E+T  VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   ESTDNVPADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:R7W8E2_AEGTA R7W8E2 Bifunctional dihydroflavonol 4-reductase/flavanone 4-reductase 
+OS=Aegilops tauschii OX=37682 GN=F775_32936 PE=4 SV=1
+Length=395
+
+ Score = 103 bits (256),  Expect = 5e-26
+ Identities = 51/60 (85%), Positives = 53/60 (88%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E+T  VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   ESTDNVPADLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:I1IIV4_BRADI I1IIV4 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100831271 PE=4 SV=1
+Length=355
+
+ Score = 101 bits (252),  Expect = 1e-25
+ Identities = 53/69 (77%), Positives = 56/69 (81%), Gaps = 10/69 (14%)
+
+Query  5   ETTT------PVP----ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDP  54
+           ETTT      PVP    +L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DP
+Sbjct  3   ETTTTGGDVPPVPEAAASLPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDP  62
+
+Query  55  KNDHLRALD  63
+           KNDHLRAL+
+Sbjct  63  KNDHLRALE  71
+
+
+>TR:W5FGJ3_WHEAT W5FGJ3 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=4 
+SV=1
+Length=357
+
+ Score = 100 bits (250),  Expect = 2e-25
+ Identities = 50/60 (83%), Positives = 51/60 (85%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E    VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   EAADNVPAELPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:A0A1D5Z8C9_WHEAT A0A1D5Z8C9 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=365
+
+ Score = 100 bits (250),  Expect = 3e-25
+ Identities = 50/60 (83%), Positives = 51/60 (85%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E    VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   EAADNVPAELPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:A0A1D5Z8C8_WHEAT A0A1D5Z8C8 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=393
+
+ Score = 100 bits (250),  Expect = 4e-25
+ Identities = 50/60 (83%), Positives = 51/60 (85%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E    VPA L G GRTVCVTGAGGFIASWLVKRLL+KGYTVRGTVRNP DPKNDHLRA D
+Sbjct  4   EAADNVPAELPGHGRTVCVTGAGGFIASWLVKRLLQKGYTVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:Q6DN01_EUCGL Q6DN01 Cinnamoyl CoA reductase OS=Eucalyptus globulus OX=34317 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 99.8 bits (247),  Expect = 5e-25
+ Identities = 46/55 (84%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR LD
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELD  56
+
+
+>TR:Q8GTZ7_EUCGL Q8GTZ7 Cinnamoyl CoA reductase OS=Eucalyptus globulus OX=34317 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 99.8 bits (247),  Expect = 5e-25
+ Identities = 46/55 (84%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR LD
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELD  56
+
+
+>TR:B9SMT3_RICCO B9SMT3 Cinnamoyl-CoA reductase, putative OS=Ricinus communis 
+OX=3988 GN=RCOM_0470860 PE=4 SV=1
+Length=339
+
+ Score = 99.0 bits (245),  Expect = 1e-24
+ Identities = 48/63 (76%), Positives = 54/63 (86%), Gaps = 4/63 (6%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP A+T++    LSG G+TVCVTGAGGFIASW+VK LLEKGYTVRGTVRNPDDPKN HLR
+Sbjct  1   MPAADTSS----LSGHGQTVCVTGAGGFIASWIVKLLLEKGYTVRGTVRNPDDPKNVHLR  56
+
+Query  61  ALD  63
+            L+
+Sbjct  57  ELE  59
+
+
+>TR:Q4KUK8_WHEAT Q4KUK8 Cinnamoyl-CoA reductase OS=Triticum aestivum OX=4565 PE=2 
+SV=1
+Length=357
+
+ Score = 99.0 bits (245),  Expect = 1e-24
+ Identities = 49/60 (82%), Positives = 50/60 (83%), Gaps = 1/60 (2%)
+
+Query  5   ETTTPVPA-LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           E    VPA L G GRTVCVTGAGGFIASWLVKRLL+KGY VRGTVRNP DPKNDHLRA D
+Sbjct  4   EAADNVPAELPGHGRTVCVTGAGGFIASWLVKRLLQKGYNVRGTVRNPVDPKNDHLRAFD  63
+
+
+>TR:O04878_EUCGU O04878 Cinnamoyl-CoA reductase OS=Eucalyptus gunnii OX=3933 GN=CCR1 
+PE=4 SV=1
+Length=317
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:I0IJX6_EUCGG I0IJX6 Cinnamoyl-CoA reductase OS=Eucalyptus globulus subsp. 
+globulus OX=71271 GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:C9YSQ3_EUCUR C9YSQ3 Cinnamoyl CoA reductase OS=Eucalyptus urophylla OX=99020 
+GN=ccr PE=2 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:A0A1N7T5U0_EUCUR A0A1N7T5U0 Cinnamoyl-CoA reductase OS=Eucalyptus urophylla OX=99020 
+PE=4 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:O04877_EUCGU O04877 Cinnamoyl-CoA reductase OS=Eucalyptus gunnii OX=3933 GN=CCR 
+PE=2 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:Q6DMZ9_EUCGL Q6DMZ9 Cinnamoyl CoA reductase OS=Eucalyptus globulus OX=34317 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:H6UFA2_EUCUR H6UFA2 Cinnamoyl-CoA reductase 1 OS=Eucalyptus urophylla OX=99020 
+PE=2 SV=1
+Length=336
+
+ Score = 98.2 bits (243),  Expect = 2e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:Q9FUM0_EUCSA Q9FUM0 Cinnamoyl-CoA reductase OS=Eucalyptus saligna OX=99019 
+GN=ccr PE=4 SV=1
+Length=336
+
+ Score = 97.8 bits (242),  Expect = 3e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRDLE  56
+
+
+>TR:Q6DMZ8_EUCGL Q6DMZ8 Cinnamoyl CoA reductase OS=Eucalyptus globulus OX=34317 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 97.8 bits (242),  Expect = 3e-24
+ Identities = 45/55 (82%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDPKNGHLRDLE  56
+
+
+>TR:I0IJX5_9MYRT I0IJX5 Cinnamoyl-CoA reductase OS=Eucalyptus pyrocarpa OX=904381 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ79_9MYRT D5FQ79 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ73_9MYRT D5FQ73 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:I0IJX4_9MYRT I0IJX4 Cinnamoyl-CoA reductase OS=Eucalyptus pilularis OX=106643 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ75_9MYRT D5FQ75 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ77_9MYRT D5FQ77 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ82_9MYRT D5FQ82 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ72_9MYRT D5FQ72 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ74_9MYRT D5FQ74 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ80_9MYRT D5FQ80 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ78_9MYRT D5FQ78 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ89_9MYRT D5FQ89 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ76_9MYRT D5FQ76 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ71_9MYRT D5FQ71 Cinnamoyl-CoA reductase OS=Eucalyptus pilularis OX=106643 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 96.7 bits (239),  Expect = 7e-24
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:O82109_MAIZE O82109 Cinnamoyl-CoA reductase OS=Zea mays OX=4577 GN=CCR PE=2 
+SV=1
+Length=371
+
+ Score = 96.7 bits (239),  Expect = 1e-23
+ Identities = 47/60 (78%), Positives = 50/60 (83%), Gaps = 2/60 (3%)
+
+Query  4   AETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           A    PVPA  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HLRALD
+Sbjct  17  AAAAAPVPA--GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLRALD  74
+
+
+>TR:M5WV38_PRUPE M5WV38 Uncharacterized protein (Fragment) OS=Prunus persica OX=3760 
+GN=PRUPE_ppa019920mg PE=4 SV=1
+Length=98
+
+ Score = 90.1 bits (222),  Expect = 2e-23
+ Identities = 40/52 (77%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+TVCVTGAGGFIASW+VK LLE+GY VRGT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTVCVTGAGGFIASWIVKLLLERGYIVRGTLRNPDDPKNAHLRELE  58
+
+
+>TR:A0A2H3Y6Z4_PHODC A0A2H3Y6Z4 cinnamoyl-CoA reductase 1-like OS=Phoenix dactylifera 
+OX=42345 GN=LOC103710428 PE=4 SV=1
+Length=329
+
+ Score = 95.1 bits (235),  Expect = 3e-23
+ Identities = 44/57 (77%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  7   TTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T      SG G+TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN HL+AL+
+Sbjct  2   TVDASTASGHGQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALE  58
+
+
+>TR:D5FQ84_9MYRT D5FQ84 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 95.1 bits (235),  Expect = 3e-23
+ Identities = 43/55 (78%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVC TGAGGFIASW+VK  LE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVDALPGSGQTVCATGAGGFIASWIVKLFLERGYTVRGTVRNPDDPKNGHLRELE  56
+
+
+>TR:D5FQ86_9MYRT D5FQ86 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 95.1 bits (235),  Expect = 3e-23
+ Identities = 43/55 (78%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDDP+N HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDPENGHLRELE  56
+
+
+>TR:A0A2P5C8E9_PARAD A0A2P5C8E9 NAD(P)-binding domain containing protein OS=Parasponia 
+andersonii OX=3476 GN=PanWU01x14_175380 PE=4 SV=1
+Length=339
+
+ Score = 95.1 bits (235),  Expect = 3e-23
+ Identities = 43/52 (83%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ALSG G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  6   ALSGSGQTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNGHLRELE  57
+
+
+>TR:A0A199VFP5_ANACO A0A199VFP5 Cinnamoyl-CoA reductase 1 (Fragment) OS=Ananas comosus 
+OX=4615 GN=ACMD2_24452 PE=4 SV=1
+Length=295
+
+ Score = 94.4 bits (233),  Expect = 3e-23
+ Identities = 43/52 (83%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  11  PALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           PA  G G+TVCVTGAGGFIASWLVK LL++GYTV+GTVRNPDD KNDHLRAL
+Sbjct  6   PAAPGHGQTVCVTGAGGFIASWLVKLLLDRGYTVKGTVRNPDDAKNDHLRAL  57
+
+
+>TR:B5SU05_LEULE B5SU05 Cinnamoyl CoA reductase (Fragment) OS=Leucaena leucocephala 
+OX=3866 GN=CCR1 PE=2 SV=1
+Length=224
+
+ Score = 92.8 bits (229),  Expect = 3e-23
+ Identities = 45/62 (73%), Positives = 50/62 (81%), Gaps = 4/62 (6%)
+
+Query  2   PTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRA  61
+           PTA  TT     SG G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDD KN HL+ 
+Sbjct  8   PTAANTTS----SGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDSKNSHLKE  63
+
+Query  62  LD  63
+           L+
+Sbjct  64  LE  65
+
+
+>TR:A0A2H3YJR5_PHODC A0A2H3YJR5 cinnamoyl-CoA reductase 1-like OS=Phoenix dactylifera 
+OX=42345 GN=LOC103714248 PE=4 SV=1
+Length=325
+
+ Score = 94.7 bits (234),  Expect = 3e-23
+ Identities = 46/61 (75%), Positives = 51/61 (84%), Gaps = 4/61 (7%)
+
+Query  3   TAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           T   +TP    SG G+TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN HL+AL
+Sbjct  2   TVVASTP----SGHGQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAL  57
+
+Query  63  D  63
+           +
+Sbjct  58  E  58
+
+
+>TR:A0A2I0KBR5_PUNGR A0A2I0KBR5 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_013645 PE=4 SV=1
+Length=99
+
+ Score = 89.4 bits (220),  Expect = 4e-23
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV +  G G+TVCVTGAGGFIASW+VK LLE+GY VRGTVRNP DPKN HLR L+
+Sbjct  2   PVDSSLGSGQTVCVTGAGGFIASWIVKLLLERGYNVRGTVRNPGDPKNAHLRELE  56
+
+
+>TR:C5YLL4_SORBI C5YLL4 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3007G141200 
+PE=1 SV=1
+Length=374
+
+ Score = 95.1 bits (235),  Expect = 4e-23
+ Identities = 45/62 (73%), Positives = 49/62 (79%), Gaps = 0/62 (0%)
+
+Query  2   PTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRA  61
+           P A     V A  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+A
+Sbjct  16  PAAAAAPVVVAQPGNGQTVCVTGAAGYIASWLVKMLLEKGYTVKGTVRNPDDPKNAHLKA  75
+
+Query  62  LD  63
+           LD
+Sbjct  76  LD  77
+
+
+>TR:A0A2I0A1J0_9ASPA A0A2I0A1J0 Cinnamoyl-CoA reductase 1 OS=Apostasia shenzhenica 
+OX=1088818 GN=CCR1 PE=4 SV=1
+Length=335
+
+ Score = 94.4 bits (233),  Expect = 5e-23
+ Identities = 42/50 (84%), Positives = 47/50 (94%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG GRTVCVTGAGGFIASW+VK LLE+GYTV+GTVRNP+D KNDHLRA+D
+Sbjct  16  SGNGRTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPEDQKNDHLRAMD  65
+
+
+>TR:E9M776_HEVBR E9M776 Cinnamoyl-CoA reductase OS=Hevea brasiliensis OX=3981 
+GN=CCR PE=2 SV=1
+Length=338
+
+ Score = 94.4 bits (233),  Expect = 6e-23
+ Identities = 42/52 (81%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  7   SLSGHGQTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNSHLRELE  58
+
+
+>TR:A0A287RJY0_HORVV A0A287RJY0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=175
+
+ Score = 90.9 bits (224),  Expect = 6e-23
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  14  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  64
+
+
+>TR:I1I7E4_BRADI I1I7E4 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100832790 PE=4 SV=1
+Length=361
+
+ Score = 94.4 bits (233),  Expect = 7e-23
+ Identities = 43/50 (86%), Positives = 47/50 (94%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+TVCVTGAGG+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  19  SGNGQTVCVTGAGGYIASWLVKLLLEQGYTVKGTVRNPDDPKNAHLRALD  68
+
+
+>TR:A0A1D5YN13_WHEAT A0A1D5YN13 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=229
+
+ Score = 92.0 bits (227),  Expect = 8e-23
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:D2IX44_PANVG D2IX44 Cinnamoyl CoA reductase 1e OS=Panicum virgatum OX=38727 
+PE=2 SV=1
+Length=363
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +    VP  +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  13  DAAAAVPQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:D2IX40_PANVG D2IX40 Cinnamoyl CoA reductase 1a OS=Panicum virgatum OX=38727 
+PE=2 SV=1
+Length=364
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +    VP  +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  13  DAAAAVPQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:D2IX43_PANVG D2IX43 Cinnamoyl CoA reductase 1d OS=Panicum virgatum OX=38727 
+PE=2 SV=1
+Length=364
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +    VP  +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  13  DAAAAVPQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:D2IX42_PANVG D2IX42 Cinnamoyl CoA reductase 1c OS=Panicum virgatum OX=38727 
+PE=2 SV=1
+Length=364
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 43/59 (73%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +    VP  +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  13  DAAAAVPQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:A0A1D5YN12_WHEAT A0A1D5YN12 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=231
+
+ Score = 92.0 bits (227),  Expect = 8e-23
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:O24563_MAIZE O24563 Cinnamoyl CoA reductase OS=Zea mays OX=4577 GN=CCR PE=2 
+SV=1
+Length=371
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 46/60 (77%), Positives = 50/60 (83%), Gaps = 2/60 (3%)
+
+Query  4   AETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           A   T VPA  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  17  AAAATAVPA--GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:B4FTL3_MAIZE B4FTL3 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=371
+
+ Score = 94.4 bits (233),  Expect = 8e-23
+ Identities = 46/60 (77%), Positives = 50/60 (83%), Gaps = 2/60 (3%)
+
+Query  4   AETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           A   T VPA  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  17  AAAATAVPA--GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A2C9UZ27_MANES A0A2C9UZ27 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_11G065500 PE=4 SV=1
+Length=278
+
+ Score = 92.8 bits (229),  Expect = 9e-23
+ Identities = 41/52 (79%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +L+G G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  7   SLTGHGQTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNGHLRELE  58
+
+
+>TR:Q8VWI9_LOLPR Q8VWI9 CCR1 protein OS=Lolium perenne OX=4522 GN=CCR1 PE=2 SV=1
+Length=362
+
+ Score = 94.0 bits (232),  Expect = 1e-22
+ Identities = 44/59 (75%), Positives = 49/59 (83%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +T   V   +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HLRALD
+Sbjct  11  DTAAAVVQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLRALD  69
+
+
+>TR:M0RQF8_MUSAM M0RQF8 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103970696 PE=4 SV=1
+Length=333
+
+ Score = 93.6 bits (231),  Expect = 1e-22
+ Identities = 43/51 (84%), Positives = 47/51 (92%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L+G G+TVCVTGAGGFIASWLVK LL +GYTVRGTVRNPDDPKN HLRAL+
+Sbjct  8   LAGSGQTVCVTGAGGFIASWLVKLLLARGYTVRGTVRNPDDPKNAHLRALE  58
+
+
+>TR:D5FQ83_9MYRT D5FQ83 Cinnamoyl CoA reductase OS=Eucalyptus pilularis OX=106643 
+PE=4 SV=1
+Length=336
+
+ Score = 93.6 bits (231),  Expect = 1e-22
+ Identities = 43/55 (78%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G G+TVCVTGAGGFIASW+VK  LE+GYTVRGTVRNPDD KN HLR L+
+Sbjct  2   PVDALPGSGQTVCVTGAGGFIASWIVKLFLERGYTVRGTVRNPDDQKNGHLRELE  56
+
+
+>TR:A0A2P6RVH6_ROSCH A0A2P6RVH6 Putative cinnamoyl-CoA reductase OS=Rosa chinensis 
+OX=74649 GN=RchiOBHm_Chr2g0133081 PE=4 SV=1
+Length=340
+
+ Score = 93.6 bits (231),  Expect = 1e-22
+ Identities = 43/52 (83%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGFIASWLVK LLE+GY VRGTVRNPDDPKN HLR L+
+Sbjct  8   SLSGHGQTVCVTGAGGFIASWLVKLLLERGYNVRGTVRNPDDPKNAHLRELE  59
+
+
+>TR:A0A0A0LA04_CUCSA A0A0A0LA04 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_3G717880 PE=4 SV=1
+Length=107
+
+ Score = 88.2 bits (217),  Expect = 1e-22
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ A    G+TVCVTGAGGFIASWLV+ LL+KGY VRGTVRNPDD KNDHL+ LD
+Sbjct  2   PLAAPVASGQTVCVTGAGGFIASWLVELLLQKGYIVRGTVRNPDDRKNDHLKELD  56
+
+
+>TR:A0A251PXX2_PRUPE A0A251PXX2 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_3G097400 PE=4 SV=1
+Length=180
+
+ Score = 90.1 bits (222),  Expect = 1e-22
+ Identities = 40/52 (77%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+TVCVTGAGGFIASW+VK LLE+GY VRGT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTVCVTGAGGFIASWIVKLLLERGYIVRGTLRNPDDPKNAHLRELE  58
+
+
+>TR:D2IX41_PANVG D2IX41 Cinnamoyl CoA reductase 1b OS=Panicum virgatum OX=38727 
+PE=2 SV=1
+Length=364
+
+ Score = 93.6 bits (231),  Expect = 1e-22
+ Identities = 43/59 (73%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  5   ETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +    VP  +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL ALD
+Sbjct  13  DAAAAVPQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLEALD  71
+
+
+>TR:W5RW89_MUSPR W5RW89 Dihydroflavonol 4-reductase OS=Musa AB Group OX=485393 
+GN=DFR PE=2 SV=1
+Length=336
+
+ Score = 93.2 bits (230),  Expect = 2e-22
+ Identities = 43/57 (75%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  7   TTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T    A +G G+TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN HL+A++
+Sbjct  2   TIEAVAPTGNGQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAME  58
+
+
+>TR:M0SVM5_MUSAM M0SVM5 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103983923 PE=4 SV=1
+Length=336
+
+ Score = 93.2 bits (230),  Expect = 2e-22
+ Identities = 43/57 (75%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  7   TTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T    A +G G+TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN HL+A++
+Sbjct  2   TIEAVAPTGNGQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAME  58
+
+
+>TR:A0A2H3XHF3_PHODC A0A2H3XHF3 cinnamoyl-CoA reductase 1-like OS=Phoenix dactylifera 
+OX=42345 GN=LOC103702969 PE=4 SV=1
+Length=336
+
+ Score = 93.2 bits (230),  Expect = 2e-22
+ Identities = 42/53 (79%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  11  PALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P L G G+TVCVTGAGGFIASWLVK LLE+GYTVRGTVR+P+DPKN HL+AL+
+Sbjct  6   PTLPGHGQTVCVTGAGGFIASWLVKLLLERGYTVRGTVRDPEDPKNAHLKALE  58
+
+
+>TR:A0A067LD04_JATCU A0A067LD04 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_26997 PE=4 SV=1
+Length=338
+
+ Score = 93.2 bits (230),  Expect = 2e-22
+ Identities = 42/52 (81%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNP+DPKN HLR L+
+Sbjct  7   SLSGHGQTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPEDPKNAHLRELE  58
+
+
+>TR:A0A2P2NHR2_RHIMU A0A2P2NHR2 Uncharacterized protein OS=Rhizophora mucronata OX=61149 
+PE=4 SV=1
+Length=338
+
+ Score = 93.2 bits (230),  Expect = 2e-22
+ Identities = 41/52 (79%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+T+CVTGAGGFIASW+VK LLEKGYTV+GT+RNPDDPKN HLR L+
+Sbjct  7   SLSGHGQTICVTGAGGFIASWMVKLLLEKGYTVKGTMRNPDDPKNAHLRELE  58
+
+
+>TR:A9JQS5_POPCA A9JQS5 Cinnamoyl CoA reductase (Fragment) OS=Populus canadensis 
+OX=3690 GN=ccr PE=2 SV=1
+Length=301
+
+ Score = 92.4 bits (228),  Expect = 2e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:A0A151S5H2_CAJCA A0A151S5H2 Uncharacterized protein OS=Cajanus cajan OX=3821 GN=KK1_028256 
+PE=4 SV=1
+Length=332
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 44/55 (80%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  2   PVDTSSFSGQTVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNVHLKELE  56
+
+
+>TR:A0A1D5YN11_WHEAT A0A1D5YN11 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=284
+
+ Score = 92.0 bits (227),  Expect = 2e-22
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:Q6DN02_9MYRT Q6DN02 Cinnamoyl CoA reductase OS=Eucalyptus cordata OX=155759 
+GN=CCR PE=4 SV=1
+Length=336
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 43/55 (78%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV AL G  +TVCVTGAGGFIASW+VK LL +GYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PVXALXGSXQTVCVTGAGGFIASWIVKLLLXRGYTVRGTVRNPDDPKNGHLRDLE  56
+
+
+>TR:Q08GL0_LEULE Q08GL0 Cinnamoyl CoA reductase OS=Leucaena leucocephala OX=3866 
+GN=ccr PE=2 SV=1
+Length=336
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 45/62 (73%), Positives = 50/62 (81%), Gaps = 4/62 (6%)
+
+Query  2   PTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRA  61
+           PTA  TT     SG G+TVCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDD KN HL+ 
+Sbjct  8   PTAANTTS----SGSGQTVCVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDSKNSHLKE  63
+
+Query  62  LD  63
+           L+
+Sbjct  64  LE  65
+
+
+>TR:A0A2C9UYQ0_MANES A0A2C9UYQ0 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_11G065500 PE=4 SV=1
+Length=338
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 41/52 (79%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +L+G G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  7   SLTGHGQTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNGHLRELE  58
+
+
+>TR:W9R0J3_9ROSA W9R0J3 Bifunctional dihydroflavonol 4-reductase/flavanone 4-reductase 
+OS=Morus notabilis OX=981085 GN=L484_013511 PE=4 SV=1
+Length=338
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 42/52 (81%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           AL G G+TVCVTGAGGFIASWLVK LLE+GYTV+GTVRNPDDPKN HLR  +
+Sbjct  7   ALPGHGQTVCVTGAGGFIASWLVKLLLERGYTVKGTVRNPDDPKNSHLREFE  58
+
+
+>TR:B2Z6Q2_POPTR B2Z6Q2 Cinnamoyl CoA reductase OS=Populus trichocarpa OX=3694 
+GN=POPTR_003G181400v3 PE=2 SV=1
+Length=338
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRGLE  58
+
+
+>TR:A0A2P5E601_9ROSA A0A2P5E601 NAD(P)-binding domain containing protein OS=Trema 
+orientalis OX=63057 GN=TorRG33x02_231990 PE=4 SV=1
+Length=339
+
+ Score = 92.8 bits (229),  Expect = 2e-22
+ Identities = 42/52 (81%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ALSG G+ VCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  6   ALSGSGQIVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNGHLRELE  57
+
+
+>TR:A0A1D5YN09_WHEAT A0A1D5YN09 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=292
+
+ Score = 92.0 bits (227),  Expect = 2e-22
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:A0A1D5YN08_WHEAT A0A1D5YN08 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=292
+
+ Score = 92.0 bits (227),  Expect = 2e-22
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:A0A0K9QSS6_SPIOL A0A0K9QSS6 Uncharacterized protein OS=Spinacia oleracea OX=3562 
+GN=SOVF_145500 PE=4 SV=1
+Length=326
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/51 (80%), Positives = 47/51 (92%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +SG G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  7   ISGNGQTVCVTGAGGFIASWIVKLLLERGYTVKGTVRNPDDPKNAHLRELE  57
+
+
+>TR:A0A1D5Z383_WHEAT A0A1D5Z383 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=284
+
+ Score = 91.7 bits (226),  Expect = 3e-22
+ Identities = 42/63 (67%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           M   +       L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+
+Sbjct  1   MTVVDAAAVAQELPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLK  60
+
+Query  61  ALD  63
+           ALD
+Sbjct  61  ALD  63
+
+
+>TR:A0A287VX03_HORVV A0A287VX03 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=73
+
+ Score = 86.3 bits (212),  Expect = 3e-22
+ Identities = 39/49 (80%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           +G G+TVCVTGAGG+I SW+VK LLEKGY VRGTVRNPDD KN HLRAL
+Sbjct  8   TGHGQTVCVTGAGGYIGSWIVKLLLEKGYAVRGTVRNPDDAKNAHLRAL  56
+
+
+>TR:A0A199UI75_ANACO A0A199UI75 Cinnamoyl-CoA reductase 1 (Fragment) OS=Ananas comosus 
+OX=4615 GN=ACMD2_04370 PE=4 SV=1
+Length=336
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 44/60 (73%), Positives = 48/60 (80%), Gaps = 3/60 (5%)
+
+Query  7   TTPVPALSGQG---RTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           TTP+P     G   RTVC+TGAGGFIASWLVK LL +GYTVRGT+RNPDDPKN HLR LD
+Sbjct  8   TTPLPGAGAGGYGNRTVCITGAGGFIASWLVKLLLRRGYTVRGTLRNPDDPKNAHLRELD  67
+
+
+>TR:T1WWB5_POPTO T1WWB5 Cinnamoyl-CoA reductase OS=Populus tomentosa OX=118781 
+GN=CCR7 PE=2 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:A0A0F6V0E2_POPTO A0A0F6V0E2 Cinnamoyl CoA reductase OS=Populus tomentosa OX=118781 
+GN=Potri.003G181400 PE=2 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:Q9FSC6_POPTR Q9FSC6 Cinnamoyl-CoA reductase OS=Populus trichocarpa OX=3694 
+GN=ccr PE=4 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:A0A251PXZ4_PRUPE A0A251PXZ4 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_3G097700 PE=4 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+TVCVTGAGGFIASW+VK LLE+GYTVRGT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTVCVTGAGGFIASWIVKLLLERGYTVRGTLRNPDDPKNAHLRELE  58
+
+
+>TR:B3VKV0_POPTO B3VKV0 Cinnamoyl-CoA reductase protein 2 OS=Populus tomentosa 
+OX=118781 GN=CCR PE=2 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:Q6S3D7_POPTO Q6S3D7 Cinnamoyl-CoA reductase OS=Populus tomentosa OX=118781 
+PE=2 SV=1
+Length=338
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 41/52 (79%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:A0A1S2XE90_CICAR A0A1S2XE90 cinnamoyl-CoA reductase 1 OS=Cicer arietinum OX=3827 
+GN=LOC101497779 PE=4 SV=1
+Length=342
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 42/63 (67%), Positives = 49/63 (78%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP A   T   + S  G+T+CVTGAGGFIASW+VK LLEKGYTVRGT+RNPDDPKN HL+
+Sbjct  1   MPPAAAATSAESSSVSGQTICVTGAGGFIASWMVKILLEKGYTVRGTLRNPDDPKNGHLK  60
+
+Query  61  ALD  63
+             +
+Sbjct  61  EFE  63
+
+
+>TR:A0A072VDF2_MEDTR A0A072VDF2 Cinnamoyl-CoA reductase-like protein OS=Medicago truncatula 
+OX=3880 GN=25487973 PE=4 SV=1
+Length=342
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 42/63 (67%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP A       + S  G T+CVTGAGGFIASW+VK LLEKGYTVRGT+RNPDDPKN HL+
+Sbjct  1   MPAATAAAAAESSSVSGETICVTGAGGFIASWMVKLLLEKGYTVRGTLRNPDDPKNGHLK  60
+
+Query  61  ALD  63
+            L+
+Sbjct  61  KLE  63
+
+
+>TR:B6E2B5_VACCO B6E2B5 Cinnamoyl-CoA reductase OS=Vaccinium corymbosum OX=69266 
+GN=CCR PE=2 SV=1
+Length=347
+
+ Score = 92.4 bits (228),  Expect = 3e-22
+ Identities = 44/54 (81%), Positives = 49/54 (91%), Gaps = 2/54 (4%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +P++SGQ  TVCVTGAGGFIASW+VK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  1   MPSVSGQ--TVCVTGAGGFIASWMVKLLLEKGYTVRGTVRNPDDPKNSHLRNLE  52
+
+
+>TR:M5X598_PRUPE M5X598 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_ppa006945mg 
+PE=4 SV=1
+Length=389
+
+ Score = 92.8 bits (229),  Expect = 4e-22
+ Identities = 44/66 (67%), Positives = 53/66 (80%), Gaps = 4/66 (6%)
+
+Query  2    PTAETTTPVPA----LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKND  57
+            P  + +  +PA    +SG G+TVCVTGAGGFIASW+VK LLE+GYTVRGT+RNPDDPKN 
+Sbjct  44   PKTKLSIKMPADSSSVSGHGQTVCVTGAGGFIASWIVKLLLERGYTVRGTLRNPDDPKNA  103
+
+Query  58   HLRALD  63
+            HLR L+
+Sbjct  104  HLRELE  109
+
+
+>TR:M0RQX0_MUSAM M0RQX0 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=4 SV=1
+Length=335
+
+ Score = 92.0 bits (227),  Expect = 4e-22
+ Identities = 44/63 (70%), Positives = 50/63 (79%), Gaps = 4/63 (6%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP   T  P    +G G+TVCVTGAGGFIASWLVK LL+KGYTV+GTVRNPDDPKN HL 
+Sbjct  1   MPVDATAPP----TGNGQTVCVTGAGGFIASWLVKLLLQKGYTVKGTVRNPDDPKNAHLT  56
+
+Query  61  ALD  63
+           A++
+Sbjct  57  AME  59
+
+
+>TR:A0A2C9W3T2_MANES A0A2C9W3T2 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_04G103200 PE=4 SV=1
+Length=336
+
+ Score = 92.0 bits (227),  Expect = 4e-22
+ Identities = 40/52 (77%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGFIASW+VK LL++GYTV+GT+RNPDDPKN HLR L+
+Sbjct  7   SLSGHGQTVCVTGAGGFIASWIVKLLLQRGYTVKGTMRNPDDPKNSHLRELE  58
+
+
+>TR:Q7Y0H8_FRAAN Q7Y0H8 Cinnamoyl CoA reductase OS=Fragaria ananassa OX=3747 GN=CCR 
+PE=2 SV=1
+Length=339
+
+ Score = 92.0 bits (227),  Expect = 4e-22
+ Identities = 42/52 (81%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGFIASWLVK LLE+GY VRGTVRNP+DPKN HLR L+
+Sbjct  8   SLSGHGQTVCVTGAGGFIASWLVKLLLERGYNVRGTVRNPEDPKNAHLRELE  59
+
+
+>TR:F4Y9E7_PYRPY F4Y9E7 Cinnamoyl-CoA reductase OS=Pyrus pyrifolia OX=3767 GN=CCR 
+PE=2 SV=1
+Length=339
+
+ Score = 92.0 bits (227),  Expect = 4e-22
+ Identities = 40/52 (77%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+T+CVTGAGGFIASW+VK LLE+GYTVRGT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTICVTGAGGFIASWMVKLLLERGYTVRGTLRNPDDPKNAHLRELE  58
+
+
+>TR:A0A022QBH0_ERYGU A0A022QBH0 Uncharacterized protein OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a011725mg PE=4 SV=1
+Length=272
+
+ Score = 90.9 bits (224),  Expect = 5e-22
+ Identities = 41/47 (87%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  17  GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G+ VCVTGAGGFIASWLVK+LLEKGYTVRGTVRNP+DPKN HLR LD
+Sbjct  6   GKLVCVTGAGGFIASWLVKQLLEKGYTVRGTVRNPEDPKNSHLRELD  52
+
+
+>TR:A0A1D5YN10_WHEAT A0A1D5YN10 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=348
+
+ Score = 92.0 bits (227),  Expect = 5e-22
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HLRALD
+Sbjct  13  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLRALD  63
+
+
+>TR:A0A1P8ASX8_ARATH A0A1P8ASX8 Cinnamoyl coa reductase 1 OS=Arabidopsis thaliana 
+OX=3702 GN=CCR1 PE=1 SV=1
+Length=276
+
+ Score = 90.9 bits (224),  Expect = 5e-22
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:V7AT84_PHAVU V7AT84 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_010G160700g PE=4 SV=1
+Length=332
+
+ Score = 91.7 bits (226),  Expect = 5e-22
+ Identities = 43/55 (78%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P    S  G TVCVTGAGG+IASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  2   PTDTSSVSGETVCVTGAGGYIASWLVKLLLEKGYTVRGTVRNPDDPKNGHLRKLE  56
+
+
+>TR:A0A2G2WL98_CAPBA A0A2G2WL98 Cinnamoyl-CoA reductase 2 OS=Capsicum baccatum OX=33114 
+GN=CQW23_15173 PE=4 SV=1
+Length=332
+
+ Score = 91.7 bits (226),  Expect = 5e-22
+ Identities = 43/50 (86%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVR+PDDPKN+HLR LD
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRSPDDPKNNHLRELD  52
+
+
+>TR:A0A1U8HDE9_CAPAN A0A1U8HDE9 Cinnamoyl-CoA reductase 2 OS=Capsicum annuum OX=4072 
+GN=T459_17510 PE=4 SV=1
+Length=332
+
+ Score = 91.7 bits (226),  Expect = 5e-22
+ Identities = 43/50 (86%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVR+PDDPKN+HLR LD
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRSPDDPKNNHLRELD  52
+
+
+>TR:A0A2G2ZBT5_CAPAN A0A2G2ZBT5 cinnamoyl-CoA reductase 2 OS=Capsicum annuum OX=4072 
+GN=LOC107876017 PE=4 SV=1
+Length=332
+
+ Score = 91.7 bits (226),  Expect = 5e-22
+ Identities = 43/50 (86%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVR+PDDPKN+HLR LD
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRSPDDPKNNHLRELD  52
+
+
+>TR:A0A1P8ASX3_ARATH A0A1P8ASX3 Cinnamoyl coa reductase 1 OS=Arabidopsis thaliana 
+OX=3702 GN=CCR1 PE=1 SV=1
+Length=283
+
+ Score = 90.9 bits (224),  Expect = 5e-22
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:A0A2T8IH69_9POAL A0A2T8IH69 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_6G217000 PE=4 SV=1
+Length=308
+
+ Score = 91.3 bits (225),  Expect = 6e-22
+ Identities = 42/61 (69%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  3   TAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           +A     V   +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+A+
+Sbjct  10  SAAAAAAVQQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAM  69
+
+Query  63  D  63
+           D
+Sbjct  70  D  70
+
+
+>TR:A0A1D5ZR20_WHEAT A0A1D5ZR20 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=286
+
+ Score = 90.9 bits (224),  Expect = 6e-22
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  15  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  65
+
+
+>TR:A0A287RJZ9_HORVV A0A287RJZ9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=286
+
+ Score = 90.9 bits (224),  Expect = 6e-22
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  14  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  64
+
+
+>TR:F1DRB9_9POAL F1DRB9 Cinnamoyl-CoA reductase OS=Cenchrus purpureus OX=154765 
+GN=CCR PE=2 SV=1
+Length=369
+
+ Score = 92.0 bits (227),  Expect = 6e-22
+ Identities = 44/60 (73%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  4   AETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           A     V A  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  13  APAAATVVAPVGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  72
+
+
+>TR:G3FDX4_POPNI G3FDX4 CCR7 OS=Populus nigra OX=3691 PE=4 SV=1
+Length=338
+
+ Score = 91.7 bits (226),  Expect = 6e-22
+ Identities = 40/52 (77%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTGAGGF+ASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGAGGFLASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:R0II83_9BRAS R0II83 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10009629mg 
+PE=4 SV=1
+Length=344
+
+ Score = 91.7 bits (226),  Expect = 6e-22
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDGTSPAGKTVCVTGAGGYIASWIVKSLLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:M1CRZ1_SOLTU M1CRZ1 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102580211 
+PE=4 SV=1
+Length=272
+
+ Score = 90.5 bits (223),  Expect = 6e-22
+ Identities = 43/50 (86%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNCHLRELE  52
+
+
+>TR:W5FKQ2_WHEAT W5FKQ2 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=4 
+SV=1
+Length=347
+
+ Score = 91.7 bits (226),  Expect = 6e-22
+ Identities = 42/63 (67%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           M   +       L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+
+Sbjct  1   MTVVDAAAVAQELPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLK  60
+
+Query  61  ALD  63
+           ALD
+Sbjct  61  ALD  63
+
+
+>TR:A0A1P8AT30_ARATH A0A1P8AT30 Cinnamoyl coa reductase 1 OS=Arabidopsis thaliana 
+OX=3702 GN=CCR1 PE=1 SV=1
+Length=294
+
+ Score = 90.9 bits (224),  Expect = 6e-22
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:C0Z2K0_ARATH C0Z2K0 AT1G15950 protein OS=Arabidopsis thaliana OX=3702 GN=At1g15950 
+PE=2 SV=1
+Length=326
+
+ Score = 91.3 bits (225),  Expect = 7e-22
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRGLE  56
+
+
+>TR:G7JEE6_MEDTR G7JEE6 Cinnamoyl-CoA reductase-like protein OS=Medicago truncatula 
+OX=3880 GN=11424763 PE=4 SV=1
+Length=280
+
+ Score = 90.5 bits (223),  Expect = 7e-22
+ Identities = 44/63 (70%), Positives = 51/63 (81%), Gaps = 3/63 (5%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP  + T+ V   SG  +TVCVTGAGGFIASWLVK LLE+GYTVRGTVRNP+DPKN HL+
+Sbjct  1   MPAYDNTSSV---SGGDQTVCVTGAGGFIASWLVKLLLERGYTVRGTVRNPEDPKNGHLK  57
+
+Query  61  ALD  63
+            L+
+Sbjct  58  ELE  60
+
+
+>TR:A0A1U8FUP3_CAPAN A0A1U8FUP3 Cinnamoyl-CoA reductase 2 OS=Capsicum annuum OX=4072 
+GN=T459_10548 PE=4 SV=1
+Length=334
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 41/50 (82%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+ VCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SGSGKVVCVTGAGGFIASWIVKILLEQGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A2G3A2I0_CAPAN A0A2G3A2I0 cinnamoyl-CoA reductase 1-like OS=Capsicum annuum 
+OX=4072 GN=LOC107861981 PE=4 SV=1
+Length=334
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 41/50 (82%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+ VCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SGSGKVVCVTGAGGFIASWIVKILLEQGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A2G3B7F9_CAPCH A0A2G3B7F9 Cinnamoyl-CoA reductase 2 OS=Capsicum chinense OX=80379 
+GN=BC332_27637 PE=4 SV=1
+Length=334
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 41/50 (82%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+ VCVTGAGGFIASW+VK LLE+GYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SGSGKVVCVTGAGGFIASWIVKILLEQGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:B6TA63_MAIZE B6TA63 Dihydroflavonol-4-reductase OS=Zea mays OX=4577 PE=2 SV=1
+Length=367
+
+ Score = 91.7 bits (226),  Expect = 8e-22
+ Identities = 44/54 (81%), Positives = 48/54 (89%), Gaps = 2/54 (4%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           VPA  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  19  VPA--GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  70
+
+
+>TR:A0A1S3XRL7_TOBAC A0A1S3XRL7 cinnamoyl-CoA reductase 2-like OS=Nicotiana tabacum 
+OX=4097 GN=LOC107767921 PE=4 SV=1
+Length=337
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 42/50 (84%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN+HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNNHLRELE  52
+
+
+>TR:E3NZI6_GOSHI E3NZI6 Cinnamoyl-CoA reductase 4 OS=Gossypium hirsutum OX=3635 
+GN=CCR4 PE=2 SV=1
+Length=338
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 42/55 (76%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S  G TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNGPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:A0A1U8PEU0_GOSHI A0A1U8PEU0 cinnamoyl-CoA reductase 1-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107958455 PE=4 SV=1
+Length=338
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 42/55 (76%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S  G TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNGPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:A0A0B0NUM2_GOSAR A0A0B0NUM2 Dihydroflavonol-4-reductase OS=Gossypium arboreum 
+OX=29729 GN=F383_18125 PE=4 SV=1
+Length=338
+
+ Score = 91.3 bits (225),  Expect = 8e-22
+ Identities = 42/55 (76%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S  G TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNGPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:A0A0C5B8N2_LOLPR A0A0C5B8N2 CCR2 protein OS=Lolium perenne OX=4522 GN=CCR2 PE=4 
+SV=1
+Length=344
+
+ Score = 91.3 bits (225),  Expect = 9e-22
+ Identities = 42/56 (75%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  8   TPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T    L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  6   TVTQQLPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  61
+
+
+>TR:Q9FUW8_LOLPR Q9FUW8 Cinnamoyl CoA reductase OS=Lolium perenne OX=4522 GN=CCR 
+PE=2 SV=1
+Length=344
+
+ Score = 91.3 bits (225),  Expect = 9e-22
+ Identities = 42/56 (75%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  8   TPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T    L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  6   TVAQQLPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  61
+
+
+>TR:A0A2H5PSY8_CITUN A0A2H5PSY8 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_164570 PE=4 SV=1
+Length=62
+
+ Score = 84.7 bits (208),  Expect = 9e-22
+ Identities = 38/47 (81%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  17  GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G+TVCVTGA GFIASW+VK LLEKGY+V+GTVRNPDDPKN HLR L+
+Sbjct  11  GQTVCVTGAAGFIASWIVKFLLEKGYSVKGTVRNPDDPKNAHLRELE  57
+
+
+>TR:A0A2P5WZ64_GOSBA A0A2P5WZ64 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA24297 PE=4 SV=1
+Length=358
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 42/55 (76%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S  G TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNGPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:A0A0N9MP67_9POAL A0A0N9MP67 Cinnamoyl-CoA reductase 2a OS=Miscanthus x giganteus 
+OX=183674 PE=2 SV=1
+Length=362
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  24  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  73
+
+
+>TR:A0A1J6JYG9_NICAT A0A1J6JYG9 Cinnamoyl-coa reductase 1 OS=Nicotiana attenuata OX=49451 
+GN=CCR1_0 PE=4 SV=1
+Length=332
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 44/54 (81%), Positives = 48/54 (89%), Gaps = 2/54 (4%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +P++SGQ   VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  1   MPSVSGQ--IVCVTGAGGFIASWLVKILLEKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A077D7R5_TOBAC A0A077D7R5 Cinnamoyl-CoA reductase OS=Nicotiana tabacum OX=4097 
+GN=LOC107816628 PE=2 SV=1
+Length=332
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 44/54 (81%), Positives = 48/54 (89%), Gaps = 2/54 (4%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +P++SGQ   VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  1   MPSVSGQ--IVCVTGAGGFIASWLVKILLEKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A2S3I2X0_9POAL A0A2S3I2X0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_6G217000 PE=4 SV=1
+Length=366
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 42/61 (69%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  3   TAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           +A     V   +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+A+
+Sbjct  10  SAAAAAAVQQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAM  69
+
+Query  63  D  63
+           D
+Sbjct  70  D  70
+
+
+>TR:A0A2T7D7V3_9POAL A0A2T7D7V3 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_6G206500 PE=4 SV=1
+Length=366
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 42/61 (69%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  3   TAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           +A     V   +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+A+
+Sbjct  10  SAAAAAAVQQPAGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKAM  69
+
+Query  63  D  63
+           D
+Sbjct  70  D  70
+
+
+>TR:K3YI92_SETIT K3YI92 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101785020 
+PE=4 SV=1
+Length=367
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  18  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  67
+
+
+>TR:A0A061G9C7_THECC A0A061G9C7 Cinnamoyl coa reductase 1 isoform 1 OS=Theobroma cacao 
+OX=3641 GN=TCM_027422 PE=4 SV=1
+Length=336
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 42/55 (76%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV + S   +TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDSSSPSSQTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNAHLRELE  56
+
+
+>TR:A8MQW5_ARATH A8MQW5 Cinnamoyl coa reductase 1 OS=Arabidopsis thaliana OX=3702 
+GN=CCR1 PE=1 SV=1
+Length=337
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:O65880_POPTR O65880 Cinnamoyl CoA reductase OS=Populus trichocarpa OX=3694 
+GN=CCR PE=2 SV=1
+Length=338
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 40/52 (77%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSGQG+T+CVTG GGFIASW+VK LL+KGYTVRGT RNP DPKN HLR L+
+Sbjct  7   SLSGQGQTICVTGGGGFIASWMVKLLLDKGYTVRGTARNPADPKNSHLRELE  58
+
+
+>TR:A0A0N9MMR0_9POAL A0A0N9MMR0 Cinnamoyl-CoA reductase 1a OS=Miscanthus x giganteus 
+OX=183674 PE=2 SV=1
+Length=372
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A0N9M4T5_9POAL A0A0N9M4T5 Cinnamoyl-CoA reductase OS=Miscanthus sacchariflorus 
+OX=183675 PE=2 SV=1
+Length=372
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A0N9MNA6_9POAL A0A0N9MNA6 Cinnamoyl-CoA reductase OS=Miscanthus lutarioriparius 
+OX=422564 PE=2 SV=1
+Length=372
+
+ Score = 91.3 bits (225),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:W8SN71_PYRPY W8SN71 Cinnamoyl-CoA reductase OS=Pyrus pyrifolia OX=3767 GN=CCR 
+PE=2 SV=1
+Length=339
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 39/52 (75%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+T+CVTGAGGFIASW+VK LLE+GYTV+GT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTICVTGAGGFIASWMVKLLLERGYTVKGTLRNPDDPKNAHLRELE  58
+
+
+>TR:Q5K591_LINAL Q5K591 Cinnamoyl-CoA reductase OS=Linum album OX=191219 GN=ccr 
+PE=2 SV=1
+Length=341
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 40/52 (77%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +L G G+TVCVTGAGGFIASW+VK LL++GY+V+GTVRNPDDPKN HLRAL+
+Sbjct  7   SLPGHGQTVCVTGAGGFIASWIVKLLLDRGYSVKGTVRNPDDPKNAHLRALE  58
+
+
+>SP:CCR1_ARATH Q9S9N9 Cinnamoyl-CoA reductase 1 OS=Arabidopsis thaliana OX=3702 
+GN=CCR1 PE=1 SV=1
+Length=344
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:A0A178W9D8_ARATH A0A178W9D8 IRX4 OS=Arabidopsis thaliana OX=3702 GN=AXX17_At1g16710 
+PE=4 SV=1
+Length=344
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDVASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:Q8H1H7_HORVU Q8H1H7 Cinnamoyl CoA reductase OS=Hordeum vulgare OX=4513 PE=2 
+SV=1
+Length=348
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  14  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  64
+
+
+>TR:A0A287RK72_HORVV A0A287RK72 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=348
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  20  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  70
+
+
+>TR:F2EJR7_HORVV F2EJR7 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=348
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  14  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  64
+
+
+>TR:A0A1D5ZR21_WHEAT A0A1D5ZR21 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=349
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  15  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  65
+
+
+>TR:A8DNN6_WHEAT A8DNN6 Cinnamoyl-CoA reductase OS=Triticum aestivum OX=4565 PE=2 
+SV=1
+Length=349
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  15  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  65
+
+
+>TR:A0A287RK63_HORVV A0A287RK63 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=352
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  13  LSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           L G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  18  LPGHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  68
+
+
+>TR:B8BB38_ORYSI B8BB38 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_29384 PE=4 SV=1
+Length=361
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  23  GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:Q6Z9E7_ORYSJ Q6Z9E7 Os08g0441500 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=P0528B09.35-1 PE=2 SV=1
+Length=361
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  23  GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:A0A1D1YB03_9ARAE A0A1D1YB03 Dihydroflavonol-4-reductase OS=Anthurium amnicola 
+OX=1678845 GN=A_4 PE=4 SV=1
+Length=330
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 41/47 (87%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  17  GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           GRTVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HL+ LD
+Sbjct  11  GRTVCVTGAGGFIASWIVKILLEKGYTVKGTVRNPDDPKNAHLKELD  57
+
+
+>TR:U5D8W9_AMBTC U5D8W9 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00065p00187410 PE=4 SV=1
+Length=331
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGAGGFIASWLVK LLE+GYTV+GTVRNP DPKN HLR+L+
+Sbjct  9   TGSGKTVCVTGAGGFIASWLVKLLLERGYTVKGTVRNPGDPKNSHLRSLE  58
+
+
+>TR:M1CRZ0_SOLTU M1CRZ0 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102580211 
+PE=4 SV=1
+Length=332
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 43/50 (86%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNCHLRELE  52
+
+
+>TR:Q4U1I5_SOLLC Q4U1I5 Cinnamoyl-CoA reductase OS=Solanum lycopersicum OX=4081 
+GN=CCR1 PE=2 SV=1
+Length=332
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 43/50 (86%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNCHLRELE  52
+
+
+>TR:S5RGZ3_9POAL S5RGZ3 Cinnamoyl CoA reductase OS=Paspalum dilatatum OX=313893 
+GN=CCR1-3 PE=2 SV=1
+Length=365
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HLRAL+
+Sbjct  17  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLRALE  66
+
+
+>TR:I1QJ13_ORYGL I1QJ13 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=365
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  23  GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:S5RYC4_9POAL S5RYC4 Cinnamoyl CoA reductase OS=Paspalum dilatatum OX=313893 
+GN=CCR1-1 PE=2 SV=1
+Length=366
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HLRAL+
+Sbjct  17  AGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLRALE  66
+
+
+>TR:A0A0A1CBW3_BETPL A0A0A1CBW3 Cinnamoyl-CoA reductase 1 OS=Betula platyphylla OX=78630 
+PE=2 SV=1
+Length=336
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G TVCVTGAGGFIASW+VK LLEKGYTV+GT+RNPDDPKN HL+ L+
+Sbjct  2   PVDCASASGLTVCVTGAGGFIASWIVKLLLEKGYTVKGTLRNPDDPKNAHLKELE  56
+
+
+>TR:I3T9D9_MEDTR I3T9D9 Uncharacterized protein OS=Medicago truncatula OX=3880 
+PE=2 SV=1
+Length=336
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 44/63 (70%), Positives = 51/63 (81%), Gaps = 3/63 (5%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP  + T+ V   SG  +TVCVTGAGGFIASWLVK LLE+GYTVRGTVRNP+DPKN HL+
+Sbjct  1   MPVYDNTSSV---SGGDQTVCVTGAGGFIASWLVKLLLERGYTVRGTVRNPEDPKNGHLK  57
+
+Query  61  ALD  63
+            L+
+Sbjct  58  ELE  60
+
+
+>TR:I3SLG0_MEDTR I3SLG0 Uncharacterized protein OS=Medicago truncatula OX=3880 
+PE=2 SV=1
+Length=336
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 44/63 (70%), Positives = 51/63 (81%), Gaps = 3/63 (5%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP  + T+ V   SG  +TVCVTGAGGFIASWLVK LLE+GYTVRGTVRNP+DPKN HL+
+Sbjct  1   MPAYDNTSSV---SGGDQTVCVTGAGGFIASWLVKLLLERGYTVRGTVRNPEDPKNGHLK  57
+
+Query  61  ALD  63
+            L+
+Sbjct  58  ELE  60
+
+
+>TR:G7JEE5_MEDTR G7JEE5 Cinnamoyl-CoA reductase-like protein OS=Medicago truncatula 
+OX=3880 GN=11424763 PE=1 SV=1
+Length=336
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 44/63 (70%), Positives = 51/63 (81%), Gaps = 3/63 (5%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP  + T+ V   SG  +TVCVTGAGGFIASWLVK LLE+GYTVRGTVRNP+DPKN HL+
+Sbjct  1   MPAYDNTSSV---SGGDQTVCVTGAGGFIASWLVKLLLERGYTVRGTVRNPEDPKNGHLK  57
+
+Query  61  ALD  63
+            L+
+Sbjct  58  ELE  60
+
+
+>TR:V9I5Z3_9FABA V9I5Z3 Cinnamoyl-CoA reductase OS=Caragana korshinskii OX=220689 
+GN=CCR PE=2 SV=1
+Length=337
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 40/50 (80%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+T+CVTGAGGFIASW+VK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  9   SASGQTICVTGAGGFIASWMVKLLLEKGYTVRGTVRNPDDPKNGHLKELE  58
+
+
+>TR:A0A0V0I129_SOLCH A0A0V0I129 Putative cinnamoyl-CoA reductase 1-like OS=Solanum 
+chacoense OX=4108 PE=4 SV=1
+Length=338
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 43/50 (86%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNCHLRELE  52
+
+
+>TR:O82055_SACOF O82055 Cinnamoyl-CoA reductase OS=Saccharum officinarum OX=4547 
+GN=ccr PE=2 SV=1
+Length=372
+
+ Score = 90.9 bits (224),  Expect = 2e-21
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:J7II91_FRAAN J7II91 Cinnamoyl CoA reductase OS=Fragaria ananassa OX=3747 PE=2 
+SV=1
+Length=339
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 41/52 (79%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +LSG G+TVCVTGAGGF ASWLVK LLE+GY VRGTVRNP+DPKN HLR L+
+Sbjct  8   SLSGHGQTVCVTGAGGFFASWLVKLLLERGYNVRGTVRNPEDPKNAHLRELE  59
+
+
+>TR:D7KDL5_ARALL D7KDL5 Uncharacterized protein OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_471794 PE=4 SV=1
+Length=342
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDEASPAGKTVCVTGAGGYIASWIVKILLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:A0A078H3X6_BRANA A0A078H3X6 BnaC05g12180D protein OS=Brassica napus OX=3708 GN=BnaC05g12180D 
+PE=2 SV=1
+Length=343
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDESSPAGKTVCVTGAGGYIASWIVKLLLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:A0A2G3C9A8_CAPCH A0A2G3C9A8 Cinnamoyl-CoA reductase 1 OS=Capsicum chinense OX=80379 
+GN=BC332_16511 PE=4 SV=1
+Length=642
+
+ Score = 91.7 bits (226),  Expect = 2e-21
+ Identities = 43/50 (86%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  GR VCVTGAGGFIASWLVK LLEKGYTVRGTVR+PDDPKN+HLR LD
+Sbjct  3   SVSGRVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRSPDDPKNNHLRELD  52
+
+
+>TR:Q6ERR3_ORYSJ Q6ERR3 Os09g0419200 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=P0701F11.23-2 PE=4 SV=1
+Length=295
+
+ Score = 89.7 bits (221),  Expect = 2e-21
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A1J6ILB7_NICAT A0A1J6ILB7 Cinnamoyl-coa reductase 1 OS=Nicotiana attenuata OX=49451 
+GN=CCR1_6 PE=4 SV=1
+Length=324
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 41/50 (82%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN+HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNNHLRELE  52
+
+
+>TR:A0A078HBB8_BRANA A0A078HBB8 BnaA06g10620D protein OS=Brassica napus OX=3708 GN=BnaA06g10620D 
+PE=4 SV=1
+Length=276
+
+ Score = 89.4 bits (220),  Expect = 2e-21
+ Identities = 40/55 (73%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PLAESSPAGKTVCVTGAGGYIASWIVKLLLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:C6TNK8_SOYBN C6TNK8 Uncharacterized protein OS=Glycine max OX=3847 GN=100799994 
+PE=2 SV=1
+Length=277
+
+ Score = 89.4 bits (220),  Expect = 2e-21
+ Identities = 43/56 (77%), Positives = 47/56 (84%), Gaps = 1/56 (2%)
+
+Query  8   TPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T   ++SG G  VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  3   TDTSSVSG-GEIVCVTGAGGFIASWLVKHLLEKGYTVRGTVRNPDDPKNGHLKELE  57
+
+
+>TR:A0A2K3P1Z9_TRIPR A0A2K3P1Z9 Cinnamoyl CoA reductase OS=Trifolium pratense OX=57577 
+GN=L195_g005867 PE=4 SV=1
+Length=280
+
+ Score = 89.4 bits (220),  Expect = 2e-21
+ Identities = 40/54 (74%), Positives = 47/54 (87%), Gaps = 0/54 (0%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +  +SG  +TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNP+DPKN HL+ L+
+Sbjct  7   ISLVSGTDQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPEDPKNSHLKELE  60
+
+
+>TR:A0A0D9X676_9ORYZ A0A0D9X676 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=335
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 45/50 (90%), Positives = 46/50 (92%), Gaps = 1/50 (2%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDD-PKNDHLRAL  62
+           SG+GRTVCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDD  KN HLRAL
+Sbjct  17  SGKGRTVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDYAKNAHLRAL  66
+
+
+>TR:A0A1S3ECM7_CICAR A0A1S3ECM7 cinnamoyl-CoA reductase 2 OS=Cicer arietinum OX=3827 
+GN=LOC101489660 PE=4 SV=1
+Length=337
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 43/63 (68%), Positives = 51/63 (81%), Gaps = 2/63 (3%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP  E ++  P  S +G+ VCVTGAGGFIASWLVK LLEKGYTVRGT+RNP+DPKN HL+
+Sbjct  1   MPAYENSSSEP--SARGQIVCVTGAGGFIASWLVKLLLEKGYTVRGTLRNPEDPKNGHLK  58
+
+Query  61  ALD  63
+            L+
+Sbjct  59  ELE  61
+
+
+>TR:D9ZKR8_9ROSI D9ZKR8 Cinnamoyl-CoA reductase OS=Hibiscus cannabinus OX=229543 
+GN=ccr PE=2 SV=1
+Length=338
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 41/55 (75%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P    S  G TVCVTGAGGFIASW+VK LLEKGY+V+GTVRNPDDPKN HLR L+
+Sbjct  2   PTDTPSSNGMTVCVTGAGGFIASWMVKLLLEKGYSVKGTVRNPDDPKNSHLRELE  56
+
+
+>TR:M5XCN5_PRUPE M5XCN5 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_3G097600 
+PE=4 SV=1
+Length=338
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 40/52 (77%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           ++SG G+TVCVTGAGGFIASW+VK LLE+GY VRGT+RNPDDPKN HLR L+
+Sbjct  7   SVSGHGQTVCVTGAGGFIASWIVKLLLERGYIVRGTLRNPDDPKNAHLRELE  58
+
+
+>TR:A0A1R3G457_COCAP A0A1R3G457 NAD-dependent epimerase/dehydratase OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_29056 PE=4 SV=1
+Length=339
+
+ Score = 90.1 bits (222),  Expect = 2e-21
+ Identities = 42/63 (67%), Positives = 51/63 (81%), Gaps = 5/63 (8%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP   +++P       G+TVCVTGAGGFIASW+VK LLE+GYTV+GTVRNPDDPKN+HLR
+Sbjct  1   MPVDSSSSPAT-----GQTVCVTGAGGFIASWMVKLLLERGYTVKGTVRNPDDPKNNHLR  55
+
+Query  61  ALD  63
+            L+
+Sbjct  56  ELE  58
+
+
+>TR:B9G155_ORYSJ B9G155 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_27480 PE=4 SV=1
+Length=441
+
+ Score = 90.9 bits (224),  Expect = 2e-21
+ Identities = 41/49 (84%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  23  GNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  71
+
+
+>TR:A0A1S3CPR1_CUCME A0A1S3CPR1 cinnamoyl-CoA reductase 2-like OS=Cucumis melo OX=3656 
+GN=LOC103502824 PE=4 SV=1
+Length=324
+
+ Score = 89.7 bits (221),  Expect = 3e-21
+ Identities = 42/55 (76%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ A    G+TVCVTGAGGFIASWLVK LL+KGY VRGTVRNPDD KNDHL+ LD
+Sbjct  2   PLAAPVASGQTVCVTGAGGFIASWLVKLLLQKGYIVRGTVRNPDDRKNDHLKELD  56
+
+
+>TR:A0A0N9MPE4_9POAL A0A0N9MPE4 Cinnamoyl-CoA reductase 2b OS=Miscanthus x giganteus 
+OX=183674 PE=2 SV=1
+Length=362
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+I+SWLVK LLEKGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  24  AGNGQTVCVTGAAGYISSWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALD  73
+
+
+>TR:J3MXH7_ORYBR J3MXH7 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102714947 
+PE=4 SV=1
+Length=364
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/49 (82%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G+G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GRGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:S8ENT8_9LAMI S8ENT8 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_00199 PE=4 SV=1
+Length=332
+
+ Score = 89.7 bits (221),  Expect = 3e-21
+ Identities = 41/47 (87%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  17  GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           GR VCVTGAGGFIASWLVK LLEKGYTVRGT+RNPDDPKN HL+ LD
+Sbjct  5   GRVVCVTGAGGFIASWLVKLLLEKGYTVRGTLRNPDDPKNRHLKELD  51
+
+
+>TR:A0A0N9MTR4_MISSI A0A0N9MTR4 Cinnamoyl-CoA reductase OS=Miscanthus sinensis OX=62337 
+PE=2 SV=1
+Length=372
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LL+KGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLQKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A0N9MG64_9POAL A0A0N9MG64 Cinnamoyl-CoA reductase OS=Miscanthus floridulus OX=154761 
+PE=2 SV=1
+Length=372
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LL+KGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLQKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A0N9M4S1_9POAL A0A0N9M4S1 Cinnamoyl-CoA reductase 1b OS=Miscanthus x giganteus 
+OX=183674 PE=2 SV=1
+Length=372
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LL+KGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLQKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A0N7FRI2_9POAL A0A0N7FRI2 Cinnamoyl-CoA reductase 1c OS=Miscanthus x giganteus 
+OX=183674 PE=2 SV=1
+Length=372
+
+ Score = 90.1 bits (222),  Expect = 3e-21
+ Identities = 40/50 (80%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           +G G+TVCVTGA G+IASWLVK LL+KGYTV+GTVRNPDDPKN HL+ALD
+Sbjct  25  AGNGQTVCVTGAAGYIASWLVKLLLQKGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:A0A023HHB5_9ROSI A0A023HHB5 Putative cinnamoyl-CoA reductase OS=Hibiscus cannabinus 
+OX=229543 GN=CCR PE=2 SV=1
+Length=339
+
+ Score = 89.7 bits (221),  Expect = 3e-21
+ Identities = 41/55 (75%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV +    G TVCVTGAGGFIASW+VK LLEKGY V+GTVRNPDDPKN HLR L+
+Sbjct  2   PVDSSCSNGTTVCVTGAGGFIASWMVKLLLEKGYIVKGTVRNPDDPKNSHLRELE  56
+
+
+>TR:A0A0D2TP69_GOSRA A0A0D2TP69 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_009G124300 PE=4 SV=1
+Length=287
+
+ Score = 89.0 bits (219),  Expect = 3e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S    TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNAPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:A0A2K2BSC7_POPTR A0A2K2BSC7 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G045800v3 PE=4 SV=1
+Length=248
+
+ Score = 88.2 bits (217),  Expect = 3e-21
+ Identities = 40/54 (74%), Positives = 47/54 (87%), Gaps = 0/54 (0%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           + +L  QG+TVCVTGAGGFIASW+VK LLEKGY+V+GTVRNP DPKN HLR L+
+Sbjct  5   ISSLPCQGQTVCVTGAGGFIASWIVKLLLEKGYSVKGTVRNPADPKNSHLRELE  58
+
+
+>TR:A0A0A0L9Z9_CUCSA A0A0A0L9Z9 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_3G715370 PE=4 SV=1
+Length=152
+
+ Score = 85.9 bits (211),  Expect = 3e-21
+ Identities = 41/54 (76%), Positives = 44/54 (81%), Gaps = 0/54 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRAL  62
+           P+   +  G+TVCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDD KN HL  L
+Sbjct  2   PIDTSAISGQTVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDQKNAHLTNL  55
+
+
+>TR:A0A164W718_DAUCA A0A164W718 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_021267 PE=4 SV=1
+Length=325
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 39/47 (83%), Positives = 44/47 (94%), Gaps = 0/47 (0%)
+
+Query  17  GRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G+ VCVTGAGGF+ASWLVK LLE+GYTVRGTVRNPDDPKNDHL+ L+
+Sbjct  6   GQVVCVTGAGGFVASWLVKLLLERGYTVRGTVRNPDDPKNDHLKELE  52
+
+
+>TR:B8BF94_ORYSI B8BF94 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_31388 PE=4 SV=1
+Length=357
+
+ Score = 89.7 bits (221),  Expect = 4e-21
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:I1QNY9_ORYGL I1QNY9 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=357
+
+ Score = 89.7 bits (221),  Expect = 4e-21
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:Q6ERR4_ORYSJ Q6ERR4 Os09g0419200 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=P0701F11.23-1 PE=2 SV=1
+Length=357
+
+ Score = 89.7 bits (221),  Expect = 4e-21
+ Identities = 40/49 (82%), Positives = 45/49 (92%), Gaps = 0/49 (0%)
+
+Query  15  GQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           G G+TVCVTGA G+IASWLVK LLE+GYTV+GTVRNPDDPKN HL+ALD
+Sbjct  26  GHGQTVCVTGAAGYIASWLVKLLLERGYTVKGTVRNPDDPKNAHLKALD  74
+
+
+>TR:S5RCD3_9POAL S5RCD3 Cinnamoyl CoA reductase OS=Paspalum dilatatum OX=313893 
+GN=CCR1-2 PE=2 SV=1
+Length=365
+
+ Score = 89.7 bits (221),  Expect = 4e-21
+ Identities = 41/52 (79%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  12  ALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           A  G G+TVCVTGA G+IASWLVK LLEKGYTV+GTVRNPDDPKN HL+AL+
+Sbjct  15  AQPGNGQTVCVTGAAGYIASWLVKLLLEKGYTVKGTVRNPDDPKNAHLKALE  66
+
+
+>TR:M1BR81_SOLTU M1BR81 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102577453 
+PE=4 SV=1
+Length=332
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNGHLKELE  52
+
+
+>TR:Q8H1H6_SOLTU Q8H1H6 Cinnamoyl CoA reductase OS=Solanum tuberosum OX=4113 PE=2 
+SV=1
+Length=332
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNGHLKELE  52
+
+
+>TR:I1KGT7_SOYBN I1KGT7 Uncharacterized protein OS=Glycine max OX=3847 GN=100811528 
+PE=4 SV=1
+Length=332
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 42/55 (76%), Positives = 44/55 (80%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P    S  G  VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  2   PTDTSSVSGEIVCVTGAGGFIASWLVKLLLEKGYTVRGTVRNPDDPKNGHLKELE  56
+
+
+>TR:A0A059TC02_PETHY A0A059TC02 Cinnamoyl-CoA reductase 1 OS=Petunia hybrida OX=4102 
+GN=CCR1 PE=1 SV=1
+Length=333
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 42/50 (84%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SVSGQVVCVTGAGGFIASWLVKILLEKGYTVRGTVRNPDDPKNGHLRELE  52
+
+
+>TR:I1KVL4_SOYBN I1KVL4 Uncharacterized protein OS=Glycine max OX=3847 GN=100799994 
+PE=4 SV=1
+Length=333
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 43/56 (77%), Positives = 47/56 (84%), Gaps = 1/56 (2%)
+
+Query  8   TPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           T   ++SG G  VCVTGAGGFIASWLVK LLEKGYTVRGTVRNPDDPKN HL+ L+
+Sbjct  3   TDTSSVSG-GEIVCVTGAGGFIASWLVKHLLEKGYTVRGTVRNPDDPKNGHLKELE  57
+
+
+>TR:Q08GL2_LEULE Q08GL2 Cinnamoyl CoA reductase OS=Leucaena leucocephala OX=3866 
+GN=ccr PE=4 SV=2
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 42/63 (67%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP A         SG G+TVCVTGAGGFIASW+VK LLE+ YTVRGTVRNPDD KN HL+
+Sbjct  1   MPAAAPAAANTTSSGSGQTVCVTGAGGFIASWIVKLLLERDYTVRGTVRNPDDSKNSHLK  60
+
+Query  61  ALD  63
+            L+
+Sbjct  61  ELE  63
+
+
+>TR:A0A2G2WQR4_CAPBA A0A2G2WQR4 Cinnamoyl-CoA reductase 2 OS=Capsicum baccatum OX=33114 
+GN=CQW23_11793 PE=4 SV=1
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LL+KGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKILLQKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A1U8FUR6_CAPAN A0A1U8FUR6 cinnamoyl-CoA reductase 1-like OS=Capsicum annuum 
+OX=4072 GN=LOC107861980 PE=4 SV=1
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LL+KGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKILLQKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:A0A2G3B7D7_CAPCH A0A2G3B7D7 Cinnamoyl-CoA reductase 2 OS=Capsicum chinense OX=80379 
+GN=BC332_27636 PE=4 SV=1
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LL+KGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKILLQKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:B5LAU0_CAPAN B5LAU0 Cinnamoyl-CoA reductase 2 OS=Capsicum annuum OX=4072 GN=T459_10547 
+PE=2 SV=1
+Length=334
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/50 (82%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           S  G+ VCVTGAGGFIASWLVK LL+KGYTVRGTVRNPDDPKN HLR L+
+Sbjct  3   SESGKVVCVTGAGGFIASWLVKILLQKGYTVRGTVRNPDDPKNSHLRELE  52
+
+
+>TR:W9RNI9_9ROSA W9RNI9 Uncharacterized protein OS=Morus notabilis OX=981085 GN=L484_012892 
+PE=4 SV=1
+Length=160
+
+ Score = 85.9 bits (211),  Expect = 4e-21
+ Identities = 41/63 (65%), Positives = 47/63 (75%), Gaps = 5/63 (8%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP     +P     G G+TVCVTGAGGF ASW+VK LLE+GYTV+GTVRNPD PKN HLR
+Sbjct  1   MPVESAASP-----GYGQTVCVTGAGGFSASWIVKLLLERGYTVKGTVRNPDYPKNSHLR  55
+
+Query  61  ALD  63
+            L+
+Sbjct  56  ELE  58
+
+
+>TR:A0A218XAZ0_PUNGR A0A218XAZ0 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr007907 PE=4 SV=1
+Length=338
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           PV +  G G+TVCVTGAGGFIASW+VK LLE+GY VRGTVRNP DPKN HLR L+
+Sbjct  2   PVDSSLGSGQTVCVTGAGGFIASWIVKLLLERGYNVRGTVRNPGDPKNAHLRELE  56
+
+
+>TR:A0A0K8WME8_9FABA A0A0K8WME8 Cinnamoyl-CoA reductase 1 OS=Acacia koa OX=468172 
+GN=ccr1 PE=4 SV=1
+Length=338
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 40/50 (80%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+T+CVTGAGGFIASW+VK LLE+GYTVRGTVRNPDD KN HLR L+
+Sbjct  8   SGSGQTICVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDSKNAHLRELE  57
+
+
+>TR:A0A1D8X800_9FABA A0A1D8X800 Cinnamoyl CoA reductase OS=Acacia koa OX=468172 GN=CCR 
+PE=2 SV=1
+Length=338
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 40/50 (80%), Positives = 45/50 (90%), Gaps = 0/50 (0%)
+
+Query  14  SGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           SG G+T+CVTGAGGFIASW+VK LLE+GYTVRGTVRNPDD KN HLR L+
+Sbjct  8   SGSGQTICVTGAGGFIASWIVKLLLERGYTVRGTVRNPDDSKNAHLRELE  57
+
+
+>TR:A0A1J0M3L2_BRARO A0A1J0M3L2 Cinnamoyl-CoA reductase 1 OS=Brassica rapa subsp. 
+oleifera OX=145471 PE=2 SV=1
+Length=341
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 40/55 (73%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PLDESSPAGKTVCVTGAGGYIASWIVKLLLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:M4EBD1_BRARP M4EBD1 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=4 SV=1
+Length=341
+
+ Score = 89.4 bits (220),  Expect = 4e-21
+ Identities = 40/55 (73%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+   S  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PLDESSPAGKTVCVTGAGGYIASWIVKLLLERGYTVKGTVRNPDDPKNTHLRELE  56
+
+
+>TR:A0A0D3DX20_BRAOL A0A0D3DX20 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 PE=4 SV=1
+Length=387
+
+ Score = 89.7 bits (221),  Expect = 5e-21
+ Identities = 40/55 (73%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  9    PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+            PV   +  G+TVCVTGAGG+IASW+VK LLE+GYTV+GTVRNPDDPKN HLR L+
+Sbjct  49   PVDESTAVGKTVCVTGAGGYIASWIVKLLLERGYTVKGTVRNPDDPKNTHLRELE  103
+
+
+>TR:A0A2G5DY27_AQUCA A0A2G5DY27 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01400787v1 PE=4 SV=1
+Length=276
+
+ Score = 88.2 bits (217),  Expect = 5e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+   S   +TVCVTGAGGFIASWLVK LLEKGYTV+GTVRNPDDPKN HL+ L+
+Sbjct  2   PIDGSSVSDQTVCVTGAGGFIASWLVKLLLEKGYTVKGTVRNPDDPKNCHLKDLE  56
+
+
+>TR:A0A0F6Y5A9_POPTO A0A0F6Y5A9 Cinnamoyl-CoA reductase 4 OS=Populus tomentosa OX=118781 
+GN=CCR4 PE=2 SV=1
+Length=278
+
+ Score = 88.2 bits (217),  Expect = 5e-21
+ Identities = 40/54 (74%), Positives = 47/54 (87%), Gaps = 0/54 (0%)
+
+Query  10  VPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           + +L  QG+TVCVTGAGGFIASW+VK LLEKGY+V+GTVRNP DPKN HLR L+
+Sbjct  5   ISSLPCQGQTVCVTGAGGFIASWIVKLLLEKGYSVKGTVRNPADPKNSHLRELE  58
+
+
+>TR:A0A0D2UKZ0_GOSRA A0A0D2UKZ0 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_009G124300 PE=4 SV=1
+Length=333
+
+ Score = 89.0 bits (219),  Expect = 6e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S    TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNAPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+>TR:B5SU04_LEULE B5SU04 Cinnamoyl CoA reductase (Fragment) OS=Leucaena leucocephala 
+OX=3866 GN=CCR1 PE=2 SV=1
+Length=222
+
+ Score = 87.0 bits (214),  Expect = 6e-21
+ Identities = 41/63 (65%), Positives = 46/63 (73%), Gaps = 0/63 (0%)
+
+Query  1   MPTAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLR  60
+           MP A         SG G+TVCVTGAGGFIASW+VK LLE+ YTVRGT RNPDD KN HL+
+Sbjct  1   MPAAAPAAANTTSSGSGQTVCVTGAGGFIASWIVKLLLERDYTVRGTARNPDDSKNAHLK  60
+
+Query  61  ALD  63
+            L+
+Sbjct  61  ELE  63
+
+
+>TR:A0A0D3GYB1_9ORYZ A0A0D3GYB1 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=262
+
+ Score = 87.8 bits (216),  Expect = 6e-21
+ Identities = 46/61 (75%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  3   TAETTTPVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDD-PKNDHLRA  61
+           TA   +   A+SG GRTVCVTGAGGFIASWLVK LLEKGY VRGTVRNPDD  KN HL A
+Sbjct  7   TANGGSGAAAVSGGGRTVCVTGAGGFIASWLVKLLLEKGYAVRGTVRNPDDAAKNAHLMA  66
+
+Query  62  L  62
+           L
+Sbjct  67  L  67
+
+
+>TR:A0A2P5RAJ5_GOSBA A0A2P5RAJ5 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD19231 PE=4 SV=1
+Length=338
+
+ Score = 89.0 bits (219),  Expect = 6e-21
+ Identities = 41/55 (75%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  9   PVPALSGQGRTVCVTGAGGFIASWLVKRLLEKGYTVRGTVRNPDDPKNDHLRALD  63
+           P+ + S    TVCVTGAGGFIASW+VK LLEKGYTV+GTVRNPDDPKN HLR L+
+Sbjct  2   PIESSSTNAPTVCVTGAGGFIASWIVKLLLEKGYTVKGTVRNPDDPKNCHLRELE  56
+
+
+
+Lambda      K        H
+   0.316    0.135    0.416 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56870144940
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

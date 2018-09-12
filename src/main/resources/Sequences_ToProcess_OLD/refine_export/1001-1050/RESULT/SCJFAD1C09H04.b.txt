@@ -1,0 +1,4515 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:B4FK38_MAIZE  B4FK38 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1   120     2e-35
+TR:A0A0A9IXH4_ARUDO  A0A0A9IXH4 Endoglucanase OS=Arundo donax OX=...  120     1e-34
+TR:B4FPA2_MAIZE  B4FPA2 Endoglucanase OS=Zea mays OX=4577 GN=1002...  120     8e-32
+TR:B8A3N2_MAIZE  B8A3N2 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1   120     8e-32
+TR:A0A1E5UK04_9POAL  A0A1E5UK04 Endoglucanase OS=Dichanthelium ol...  120     9e-32
+TR:K3XWH3_SETIT  K3XWH3 Endoglucanase OS=Setaria italica OX=4555 ...  119     2e-31
+TR:A0A2S3HKQ6_9POAL  A0A2S3HKQ6 Uncharacterized protein OS=Panicu...  119     2e-31
+TR:A0A2T7E1D5_9POAL  A0A2T7E1D5 Uncharacterized protein OS=Panicu...  119     2e-31
+TR:A0A287W845_HORVV  A0A287W845 Endoglucanase OS=Hordeum vulgare ...  111     3e-31
+TR:A0A0A9N0J8_ARUDO  A0A0A9N0J8 Endoglucanase OS=Arundo donax OX=...  112     9e-31
+TR:A0A0E0E034_9ORYZ  A0A0E0E034 Endoglucanase OS=Oryza meridional...  112     2e-30
+TR:A0A287W7G4_HORVV  A0A287W7G4 Endoglucanase OS=Hordeum vulgare ...  111     3e-30
+TR:A0A0Q3RPB9_SETIT  A0A0Q3RPB9 Endoglucanase (Fragment) OS=Setar...  113     4e-30
+TR:C5Z808_SORBI  C5Z808 Endoglucanase OS=Sorghum bicolor OX=4558 ...  115     8e-30
+TR:T1MPR8_TRIUA  T1MPR8 Endoglucanase OS=Triticum urartu OX=4572 ...  111     1e-29
+TR:A0A2S3GT13_9POAL  A0A2S3GT13 Uncharacterized protein OS=Panicu...  115     1e-29
+TR:C5XZB0_SORBI  C5XZB0 Endoglucanase OS=Sorghum bicolor OX=4558 ...  115     1e-29
+TR:A0A2T7FBV6_9POAL  A0A2T7FBV6 Uncharacterized protein OS=Panicu...  115     1e-29
+TR:A0A0D9VKN9_9ORYZ  A0A0D9VKN9 Endoglucanase OS=Leersia perrieri...  114     2e-29
+TR:C0HHD1_MAIZE  C0HHD1 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1   112     2e-29
+TR:A0A1E5UTB1_9POAL  A0A1E5UTB1 Endoglucanase OS=Dichanthelium ol...  113     5e-29
+TR:K3YRT2_SETIT  K3YRT2 Endoglucanase OS=Setaria italica OX=4555 ...  113     5e-29
+TR:C0HEQ6_MAIZE  C0HEQ6 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1   112     6e-29
+TR:A0A1D6ASM5_WHEAT  A0A1D6ASM5 Endoglucanase OS=Triticum aestivu...  112     7e-29
+TR:A0A1D6A9X0_WHEAT  A0A1D6A9X0 Endoglucanase OS=Triticum aestivu...  112     7e-29
+TR:A0A1D6B945_WHEAT  A0A1D6B945 Endoglucanase OS=Triticum aestivu...  112     7e-29
+TR:A0A0D3GF09_9ORYZ  A0A0D3GF09 Endoglucanase OS=Oryza barthii OX...  112     8e-29
+TR:A2X9A9_ORYSI  A2X9A9 Endoglucanase OS=Oryza sativa subsp. indi...  112     8e-29
+TR:A0A0D9WP06_9ORYZ  A0A0D9WP06 Endoglucanase OS=Leersia perrieri...  112     8e-29
+TR:A2YBE2_ORYSI  A2YBE2 Endoglucanase OS=Oryza sativa subsp. indi...  112     1e-28
+TR:A0A0E0HNM8_ORYNI  A0A0E0HNM8 Endoglucanase OS=Oryza nivara OX=...  112     1e-28
+TR:I1Q1B4_ORYGL  I1Q1B4 Endoglucanase OS=Oryza glaberrima OX=4538...  112     1e-28
+TR:A0A0E0A7T6_9ORYZ  A0A0E0A7T6 Endoglucanase OS=Oryza glumipatul...  112     1e-28
+TR:A0A287W850_HORVV  A0A287W850 Endoglucanase OS=Hordeum vulgare ...  111     1e-28
+TR:B4FDB5_MAIZE  B4FDB5 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=2   112     1e-28
+SP:GUN6_ORYSJ  Q6Z2J3 Endoglucanase 6 OS=Oryza sativa subsp. japo...  112     1e-28
+TR:A0A0D3FA49_9ORYZ  A0A0D3FA49 Endoglucanase OS=Oryza barthii OX...  112     1e-28
+TR:A0A0E0CR37_9ORYZ  A0A0E0CR37 Endoglucanase OS=Oryza meridional...  112     1e-28
+TR:A0A0E0K4X6_ORYPU  A0A0E0K4X6 Endoglucanase OS=Oryza punctata O...  112     1e-28
+TR:A0A0E0NKL2_ORYRU  A0A0E0NKL2 Endoglucanase OS=Oryza rufipogon ...  112     1e-28
+TR:I1P3Z0_ORYGL  I1P3Z0 Endoglucanase OS=Oryza glaberrima OX=4538...  112     1e-28
+TR:A0A0D9YXV7_9ORYZ  A0A0D9YXV7 Endoglucanase OS=Oryza glumipatul...  112     1e-28
+TR:A0A0E0GCS7_ORYNI  A0A0E0GCS7 Endoglucanase OS=Oryza nivara OX=...  112     1e-28
+TR:A0A0E0CR36_9ORYZ  A0A0E0CR36 Endoglucanase OS=Oryza meridional...  112     2e-28
+TR:I1GZ80_BRADI  I1GZ80 Endoglucanase OS=Brachypodium distachyon ...  111     2e-28
+TR:A0A0A9JD55_ARUDO  A0A0A9JD55 Endoglucanase OS=Arundo donax OX=...  111     3e-28
+TR:A0A1D6CZR1_WHEAT  A0A1D6CZR1 Endoglucanase OS=Triticum aestivu...  111     3e-28
+TR:A0A0E0LA44_ORYPU  A0A0E0LA44 Endoglucanase OS=Oryza punctata O...  111     3e-28
+TR:M1QRZ0_HORVV  M1QRZ0 Endoglucanase OS=Hordeum vulgare subsp. v...  111     3e-28
+TR:F2E305_HORVV  F2E305 Endoglucanase OS=Hordeum vulgare subsp. v...  111     3e-28
+SP:GUN17_ORYSJ  Q652F9 Endoglucanase 17 OS=Oryza sativa subsp. ja...  110     3e-28
+TR:A0A0E0PVZ9_ORYRU  A0A0E0PVZ9 Endoglucanase OS=Oryza rufipogon ...  110     3e-28
+TR:A0A287UNU3_HORVV  A0A287UNU3 Endoglucanase OS=Hordeum vulgare ...  110     5e-28
+TR:A0A287UNT0_HORVV  A0A287UNT0 Endoglucanase OS=Hordeum vulgare ...  110     5e-28
+TR:F2CSR5_HORVV  F2CSR5 Endoglucanase (Fragment) OS=Hordeum vulga...  110     5e-28
+TR:A0A1D6CF58_WHEAT  A0A1D6CF58 Endoglucanase OS=Triticum aestivu...  109     9e-28
+TR:A0A1D6BTC4_WHEAT  A0A1D6BTC4 Endoglucanase OS=Triticum aestivu...  108     3e-27
+TR:R7WDQ2_AEGTA  R7WDQ2 Endoglucanase OS=Aegilops tauschii OX=376...  107     9e-27
+TR:A0A199VQT8_ANACO  A0A199VQT8 Endoglucanase OS=Ananas comosus O...  106     1e-26
+TR:A0A0S3QWN1_PHAAN  A0A0S3QWN1 Endoglucanase OS=Vigna angularis ...  99.4    3e-26
+TR:A0A1D6HJH3_MAIZE  A0A1D6HJH3 Endoglucanase OS=Zea mays OX=4577...  105     4e-26
+TR:B6TRZ3_MAIZE  B6TRZ3 Endoglucanase 1 OS=Zea mays OX=4577 PE=2 ...  104     6e-26
+TR:A0A2I0B4K7_9ASPA  A0A2I0B4K7 Endoglucanase OS=Apostasia shenzh...  104     8e-26
+TR:M0SW25_MUSAM  M0SW25 Endoglucanase OS=Musa acuminata subsp. ma...  103     2e-25
+TR:A0A2P5EPF8_9ROSA  A0A2P5EPF8 Endoglucanase OS=Trema orientalis...  96.3    2e-25
+TR:V7CSZ7_PHAVU  V7CSZ7 Endoglucanase OS=Phaseolus vulgaris OX=38...  103     2e-25
+TR:A0A2K3MTZ2_TRIPR  A0A2K3MTZ2 Endoglucanase OS=Trifolium praten...  97.8    4e-25
+TR:A0A2G5C5P2_AQUCA  A0A2G5C5P2 Endoglucanase OS=Aquilegia coerul...  101     4e-25
+TR:A0A151T3C7_CAJCA  A0A151T3C7 Endoglucanase OS=Cajanus cajan OX...  102     5e-25
+TR:A0A2G5C5N4_AQUCA  A0A2G5C5N4 Endoglucanase OS=Aquilegia coerul...  101     8e-25
+TR:A0A2I0WWD0_9ASPA  A0A2I0WWD0 Endoglucanase OS=Dendrobium caten...  101     8e-25
+TR:I1KQ87_SOYBN  I1KQ87 Endoglucanase OS=Glycine max OX=3847 GN=1...  100     2e-24
+TR:A0A1S3UM24_VIGRR  A0A1S3UM24 Endoglucanase OS=Vigna radiata va...  99.4    5e-24
+TR:I1K5N5_SOYBN  I1K5N5 Endoglucanase OS=Glycine max OX=3847 GN=1...  99.4    5e-24
+TR:A0A1D1ZBC8_9ARAE  A0A1D1ZBC8 Endoglucanase (Fragment) OS=Anthu...  95.1    6e-24
+TR:A0A022QZM7_ERYGU  A0A022QZM7 Endoglucanase OS=Erythranthe gutt...  99.0    7e-24
+TR:A0A0S3QWW3_PHAAN  A0A0S3QWW3 Endoglucanase OS=Vigna angularis ...  98.2    1e-23
+TR:G7LAH3_MEDTR  G7LAH3 Endoglucanase OS=Medicago truncatula OX=3...  98.2    1e-23
+TR:A0A2H3Z701_PHODC  A0A2H3Z701 Endoglucanase OS=Phoenix dactylif...  98.2    1e-23
+TR:A0A0M4MAX6_9ROSA  A0A0M4MAX6 Endoglucanase OS=Pyrus x bretschn...  97.4    1e-23
+TR:A0A0L9THG2_PHAAN  A0A0L9THG2 Endoglucanase OS=Phaseolus angula...  98.2    2e-23
+TR:A0A2H3YUZ1_PHODC  A0A2H3YUZ1 Endoglucanase OS=Phoenix dactylif...  97.8    2e-23
+TR:A0A2N9ETW4_FAGSY  A0A2N9ETW4 Endoglucanase OS=Fagus sylvatica ...  97.4    3e-23
+TR:A0A075IJ36_9ROSA  A0A075IJ36 Endoglucanase OS=Pyrus x bretschn...  97.4    3e-23
+TR:A0A1R3KYU2_9ROSI  A0A1R3KYU2 Endoglucanase OS=Corchorus olitor...  96.7    5e-23
+TR:A0A1R3GRB5_COCAP  A0A1R3GRB5 Endoglucanase OS=Corchorus capsul...  96.7    5e-23
+TR:A0A175YPZ5_DAUCA  A0A175YPZ5 Endoglucanase OS=Daucus carota su...  96.3    7e-23
+TR:A0A2P5RXU1_GOSBA  A0A2P5RXU1 Endoglucanase OS=Gossypium barbad...  96.3    7e-23
+TR:A0A0D2MCB2_GOSRA  A0A0D2MCB2 Endoglucanase OS=Gossypium raimon...  96.3    7e-23
+TR:A0A068EXK3_GOSHI  A0A068EXK3 Endoglucanase OS=Gossypium hirsut...  96.3    7e-23
+TR:A0A2P5AZI8_PARAD  A0A2P5AZI8 Endoglucanase OS=Parasponia ander...  96.3    7e-23
+TR:A0A1U8JS32_GOSHI  A0A1U8JS32 Endoglucanase OS=Gossypium hirsut...  95.9    9e-23
+TR:A0A0D2PTW1_GOSRA  A0A0D2PTW1 Endoglucanase OS=Gossypium raimon...  95.9    9e-23
+TR:A0A1U8KUT6_GOSHI  A0A1U8KUT6 Endoglucanase OS=Gossypium hirsut...  95.5    1e-22
+TR:A0A0B0P0G6_GOSAR  A0A0B0P0G6 Endoglucanase OS=Gossypium arbore...  95.5    1e-22
+TR:A0A2P5X9T6_GOSBA  A0A2P5X9T6 Endoglucanase OS=Gossypium barbad...  95.5    1e-22
+TR:A0A2P5QIR9_GOSBA  A0A2P5QIR9 Endoglucanase OS=Gossypium barbad...  95.1    2e-22
+TR:A0A1U8HNY6_GOSHI  A0A1U8HNY6 Endoglucanase OS=Gossypium hirsut...  95.1    2e-22
+TR:A0A2P5VWA1_GOSBA  A0A2P5VWA1 Endoglucanase OS=Gossypium barbad...  95.1    2e-22
+TR:W9RH68_9ROSA  W9RH68 Endoglucanase OS=Morus notabilis OX=98108...  95.1    2e-22
+TR:A0A1U8B546_NELNU  A0A1U8B546 Endoglucanase OS=Nelumbo nucifera...  95.1    2e-22
+TR:A0A1S3CU22_CUCME  A0A1S3CU22 Endoglucanase OS=Cucumis melo OX=...  94.7    2e-22
+TR:A0A1S2YDW3_CICAR  A0A1S2YDW3 Endoglucanase OS=Cicer arietinum ...  94.7    2e-22
+TR:A0A061E8T0_THECC  A0A061E8T0 Endoglucanase OS=Theobroma cacao ...  94.4    2e-22
+TR:A0A061E9K0_THECC  A0A061E9K0 Endoglucanase OS=Theobroma cacao ...  94.4    3e-22
+TR:Q5K6L2_FRAAN  Q5K6L2 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:O81403_FRAAN  O81403 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:Q5K6K7_FRAAN  Q5K6K7 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:Q5K6K6_FRAAN  Q5K6K6 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:Q5K6K8_FRAAN  Q5K6K8 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:Q9ZTL0_FRAAN  Q9ZTL0 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:Q9SBT6_FRAAN  Q9SBT6 Endoglucanase OS=Fragaria ananassa OX=374...  94.4    3e-22
+TR:A0A078FF05_BRANA  A0A078FF05 Endoglucanase OS=Brassica napus O...  94.4    3e-22
+TR:A0A200QP82_9MAGN  A0A200QP82 Endoglucanase OS=Macleaya cordata...  94.4    3e-22
+TR:W1NEF7_AMBTC  W1NEF7 Endoglucanase OS=Amborella trichopoda OX=...  94.0    4e-22
+TR:Q5K6L3_FRAAN  Q5K6L3 Endoglucanase OS=Fragaria ananassa OX=374...  94.0    5e-22
+TR:Q9ZTS0_FRAAN  Q9ZTS0 Endoglucanase OS=Fragaria ananassa OX=374...  94.0    5e-22
+TR:Q5K6L5_FRAAN  Q5K6L5 Endoglucanase OS=Fragaria ananassa OX=374...  94.0    5e-22
+TR:Q5K6L0_FRAAN  Q5K6L0 Endoglucanase OS=Fragaria ananassa OX=374...  94.0    5e-22
+TR:A0A251R7T4_PRUPE  A0A251R7T4 Endoglucanase OS=Prunus persica O...  93.2    6e-22
+TR:A0A087HH94_ARAAL  A0A087HH94 Endoglucanase OS=Arabis alpina OX...  93.6    6e-22
+TR:A0A103XVK3_CYNCS  A0A103XVK3 Endoglucanase OS=Cynara carduncul...  93.6    6e-22
+TR:A0A251T3T5_HELAN  A0A251T3T5 Endoglucanase OS=Helianthus annuu...  93.6    6e-22
+TR:A0A2R6PH04_ACTCH  A0A2R6PH04 Endoglucanase OS=Actinidia chinen...  93.6    6e-22
+TR:E9LV98_9ROSA  E9LV98 Endoglucanase (Fragment) OS=Fragaria chil...  92.8    7e-22
+TR:A0A0A0KRH9_CUCSA  A0A0A0KRH9 Endoglucanase OS=Cucumis sativus ...  93.2    8e-22
+TR:B9SP60_RICCO  B9SP60 Endoglucanase OS=Ricinus communis OX=3988...  93.2    8e-22
+TR:A0A067KPL5_JATCU  A0A067KPL5 Endoglucanase OS=Jatropha curcas ...  93.2    9e-22
+TR:A0A2P4N1I8_QUESU  A0A2P4N1I8 Endoglucanase OS=Quercus suber OX...  93.2    9e-22
+TR:M5XB41_PRUPE  M5XB41 Endoglucanase OS=Prunus persica OX=3760 G...  93.2    9e-22
+TR:A0A2G9HW57_9LAMI  A0A2G9HW57 Endoglucanase OS=Handroanthus imp...  93.2    9e-22
+TR:A0A1J3DJU6_NOCCA  A0A1J3DJU6 Endoglucanase OS=Noccaea caerules...  93.2    9e-22
+TR:A0A1J3JEL1_NOCCA  A0A1J3JEL1 Endoglucanase OS=Noccaea caerules...  93.2    9e-22
+TR:A0A1J3I0N3_NOCCA  A0A1J3I0N3 Endoglucanase OS=Noccaea caerules...  93.2    9e-22
+TR:A0A0D3CXF3_BRAOL  A0A0D3CXF3 Endoglucanase OS=Brassica olerace...  92.8    1e-21
+TR:M4CIB3_BRARP  M4CIB3 Endoglucanase OS=Brassica rapa subsp. pek...  92.8    1e-21
+TR:A0A0D3CZN3_BRAOL  A0A0D3CZN3 Endoglucanase OS=Brassica olerace...  92.8    1e-21
+TR:M4DI65_BRARP  M4DI65 Endoglucanase OS=Brassica rapa subsp. pek...  92.8    1e-21
+TR:A0A059D7Q0_EUCGR  A0A059D7Q0 Endoglucanase OS=Eucalyptus grand...  92.8    1e-21
+TR:A0A2U1KWD0_ARTAN  A0A2U1KWD0 Glycoside hydrolase, family 9 OS=...  92.4    1e-21
+TR:I1IEH2_BRADI  I1IEH2 Uncharacterized protein OS=Brachypodium d...  90.9    1e-21
+SP:GUN8_ARATH  Q9CAC1 Endoglucanase 8 OS=Arabidopsis thaliana OX=...  92.4    2e-21
+TR:R0IEE2_9BRAS  R0IEE2 Endoglucanase OS=Capsella rubella OX=8198...  92.4    2e-21
+TR:A0A178W561_ARATH  A0A178W561 Endoglucanase OS=Arabidopsis thal...  92.4    2e-21
+TR:A0A2J6JWZ3_LACSA  A0A2J6JWZ3 Endoglucanase OS=Lactuca sativa O...  92.4    2e-21
+TR:A0A2U1Q5F8_ARTAN  A0A2U1Q5F8 Glycoside hydrolase, family 9 OS=...  92.4    2e-21
+TR:A0A068EWJ5_GOSHI  A0A068EWJ5 Endoglucanase OS=Gossypium hirsut...  92.0    2e-21
+TR:A0A218WVY9_PUNGR  A0A218WVY9 Endoglucanase OS=Punica granatum ...  92.0    2e-21
+TR:A0A1S3Y9K3_TOBAC  A0A1S3Y9K3 Endoglucanase OS=Nicotiana tabacu...  91.7    3e-21
+TR:Q93WZ0_TOBAC  Q93WZ0 Endoglucanase OS=Nicotiana tabacum OX=409...  91.7    3e-21
+TR:D7KYD5_ARALL  D7KYD5 Endoglucanase OS=Arabidopsis lyrata subsp...  90.9    6e-21
+TR:A0A2I4G1S0_9ROSI  A0A2I4G1S0 Endoglucanase OS=Juglans regia OX...  90.9    6e-21
+TR:A0A1Q3DG41_CEPFO  A0A1Q3DG41 Endoglucanase OS=Cephalotus folli...  90.5    8e-21
+TR:V4UBB4_9ROSI  V4UBB4 Endoglucanase OS=Citrus clementina OX=856...  90.1    1e-20
+TR:V4JS97_EUTSA  V4JS97 Endoglucanase OS=Eutrema salsugineum OX=7...  90.1    1e-20
+TR:U7DZN5_POPTR  U7DZN5 Endoglucanase (Fragment) OS=Populus trich...  86.3    1e-20
+TR:A0A078GDP6_BRANA  A0A078GDP6 Endoglucanase OS=Brassica napus O...  89.7    1e-20
+TR:A0A0K9S1W0_SPIOL  A0A0K9S1W0 Endoglucanase OS=Spinacia olerace...  89.7    1e-20
+TR:A9P7X9_POPTR  A9P7X9 Endoglucanase OS=Populus trichocarpa OX=3...  89.7    1e-20
+TR:B9HJE2_POPTR  B9HJE2 Endoglucanase OS=Populus trichocarpa OX=3...  89.7    1e-20
+TR:L0ASY8_POPTO  L0ASY8 Endoglucanase OS=Populus tomentosa OX=118...  89.7    1e-20
+TR:A0A2H5Q2R8_CITUN  A0A2H5Q2R8 Endoglucanase OS=Citrus unshiu OX...  89.7    1e-20
+TR:A0A1U7YQB7_NICSY  A0A1U7YQB7 Endoglucanase OS=Nicotiana sylves...  89.7    1e-20
+TR:A0A251RU50_HELAN  A0A251RU50 Endoglucanase OS=Helianthus annuu...  88.6    4e-20
+TR:A0A0R6MN04_HEVBR  A0A0R6MN04 Endoglucanase OS=Hevea brasiliens...  88.6    4e-20
+TR:A0A068TZM6_COFCA  A0A068TZM6 Endoglucanase OS=Coffea canephora...  88.6    4e-20
+TR:A0A0K9PS82_ZOSMR  A0A0K9PS82 Endoglucanase OS=Zostera marina O...  88.6    4e-20
+TR:A0A2G3BIU1_CAPCH  A0A2G3BIU1 Endoglucanase OS=Capsicum chinens...  87.8    7e-20
+TR:Q96547_CAPAN  Q96547 Endoglucanase OS=Capsicum annuum OX=4072 ...  87.8    7e-20
+TR:A0A0V0IAK4_SOLCH  A0A0V0IAK4 Endoglucanase OS=Solanum chacoens...  86.7    8e-20
+TR:S8D1M9_9LAMI  S8D1M9 Endoglucanase OS=Genlisea aurea OX=192259...  87.0    1e-19
+TR:A0A2C9UGL8_MANES  A0A2C9UGL8 Endoglucanase OS=Manihot esculent...  87.0    1e-19
+TR:A3AB30_ORYSJ  A3AB30 Endoglucanase OS=Oryza sativa subsp. japo...  87.0    1e-19
+TR:M1AHR1_SOLTU  M1AHR1 Endoglucanase OS=Solanum tuberosum OX=411...  86.7    2e-19
+TR:A0A2K1YS48_POPTR  A0A2K1YS48 Endoglucanase OS=Populus trichoca...  86.3    2e-19
+TR:A0A2G2VWZ9_CAPBA  A0A2G2VWZ9 Endoglucanase OS=Capsicum baccatu...  86.3    2e-19
+TR:L0AUH0_POPTO  L0AUH0 Endoglucanase OS=Populus tomentosa OX=118...  86.3    3e-19
+TR:A0A2K1YS53_POPTR  A0A2K1YS53 Endoglucanase OS=Populus trichoca...  86.3    3e-19
+TR:K4EKV1_POPTR  K4EKV1 Endoglucanase OS=Populus trichocarpa OX=3...  86.3    3e-19
+TR:Q42872_SOLLC  Q42872 Endoglucanase OS=Solanum lycopersicum OX=...  85.5    5e-19
+TR:A0A0D3CCN1_BRAOL  A0A0D3CCN1 Endoglucanase OS=Brassica olerace...  84.3    1e-18
+TR:A0A078G7N2_BRANA  A0A078G7N2 Endoglucanase OS=Brassica napus O...  84.3    1e-18
+TR:M4E716_BRARP  M4E716 Endoglucanase OS=Brassica rapa subsp. pek...  84.3    1e-18
+TR:A0A2H3YA49_PHODC  A0A2H3YA49 Endoglucanase OS=Phoenix dactylif...  84.0    2e-18
+TR:R0I8R8_9BRAS  R0I8R8 Endoglucanase OS=Capsella rubella OX=8198...  82.4    6e-18
+TR:A0A2G5DLG0_AQUCA  A0A2G5DLG0 Endoglucanase OS=Aquilegia coerul...  82.4    6e-18
+TR:V4KT09_EUTSA  V4KT09 Endoglucanase OS=Eutrema salsugineum OX=7...  82.0    8e-18
+TR:A0A2K3LVW3_TRIPR  A0A2K3LVW3 Endoglucanase OS=Trifolium praten...  75.1    3e-17
+TR:B7FGC4_MEDTR  B7FGC4 Endoglucanase OS=Medicago truncatula OX=3...  75.1    3e-17
+TR:A0A1D1XIW5_9ARAE  A0A1D1XIW5 Endoglucanase OS=Anthurium amnico...  80.1    4e-17
+TR:A0A1E5VFS1_9POAL  A0A1E5VFS1 Endoglucanase OS=Dichanthelium ol...  74.7    4e-17
+TR:A0A2G2W0I0_CAPBA  A0A2G2W0I0 Endoglucanase OS=Capsicum baccatu...  76.3    4e-17
+TR:A0A1U8A9T6_NELNU  A0A1U8A9T6 Endoglucanase OS=Nelumbo nucifera...  79.3    7e-17
+TR:A0A1U8AP85_NELNU  A0A1U8AP85 Endoglucanase OS=Nelumbo nucifera...  79.3    7e-17
+TR:D7KMQ9_ARALL  D7KMQ9 Endoglucanase OS=Arabidopsis lyrata subsp...  79.0    1e-16
+TR:I3SLH3_MEDTR  I3SLH3 Endoglucanase OS=Medicago truncatula OX=3...  75.1    1e-16
+TR:A0A0A9U696_ARUDO  A0A0A9U696 Endoglucanase OS=Arundo donax OX=...  73.2    2e-16
+TR:A0A2C9WN56_MANES  A0A2C9WN56 Endoglucanase OS=Manihot esculent...  78.2    2e-16
+TR:A0A2H5NLC5_CITUN  A0A2H5NLC5 Endoglucanase OS=Citrus unshiu OX...  77.8    2e-16
+SP:GUN4_ARATH  O49296 Endoglucanase 4 OS=Arabidopsis thaliana OX=...  77.8    2e-16
+TR:A0A178WLH6_ARATH  A0A178WLH6 Endoglucanase OS=Arabidopsis thal...  77.8    2e-16
+TR:A0A067H5M4_CITSI  A0A067H5M4 Endoglucanase OS=Citrus sinensis ...  77.8    3e-16
+TR:A0A1U8A011_NELNU  A0A1U8A011 Endoglucanase OS=Nelumbo nucifera...  77.8    3e-16
+TR:V4U0W6_9ROSI  V4U0W6 Endoglucanase OS=Citrus clementina OX=856...  77.8    3e-16
+TR:A0A0A9U5D8_ARUDO  A0A0A9U5D8 Endoglucanase OS=Arundo donax OX=...  72.4    3e-16
+TR:A0A1R3H0X4_COCAP  A0A1R3H0X4 Endoglucanase OS=Corchorus capsul...  77.4    3e-16
+TR:A0A1S4BDC6_TOBAC  A0A1S4BDC6 Endoglucanase OS=Nicotiana tabacu...  77.4    3e-16
+TR:A0A1U7VH97_NICSY  A0A1U7VH97 Endoglucanase OS=Nicotiana sylves...  77.4    3e-16
+TR:A0A1S3ZME7_TOBAC  A0A1S3ZME7 Endoglucanase OS=Nicotiana tabacu...  77.4    3e-16
+TR:A0A2H3ZT29_PHODC  A0A2H3ZT29 Endoglucanase OS=Phoenix dactylif...  77.0    3e-16
+TR:A0A199V398_ANACO  A0A199V398 Endoglucanase OS=Ananas comosus O...  77.0    4e-16
+TR:A0A075IH97_9ROSA  A0A075IH97 Endoglucanase OS=Pyrus x bretschn...  77.0    5e-16
+TR:A0A2R6QU88_ACTCH  A0A2R6QU88 Endoglucanase OS=Actinidia chinen...  77.0    5e-16
+TR:F6HZ65_VITVI  F6HZ65 Endoglucanase OS=Vitis vinifera OX=29760 ...  77.0    5e-16
+TR:A0A200PXR8_9MAGN  A0A200PXR8 Endoglucanase OS=Macleaya cordata...  77.0    5e-16
+TR:A0A287RZX5_HORVV  A0A287RZX5 Endoglucanase OS=Hordeum vulgare ...  74.3    5e-16
+TR:A0A1D1YTV8_9ARAE  A0A1D1YTV8 Endoglucanase (Fragment) OS=Anthu...  76.6    6e-16
+TR:A0A199VKC8_ANACO  A0A199VKC8 Endoglucanase OS=Ananas comosus O...  76.6    6e-16
+TR:A0A2S3H1G8_9POAL  A0A2S3H1G8 Uncharacterized protein OS=Panicu...  76.6    6e-16
+TR:A0A2T7EV04_9POAL  A0A2T7EV04 Uncharacterized protein OS=Panicu...  76.6    6e-16
+TR:A0A0R0F256_SOYBN  A0A0R0F256 Endoglucanase OS=Glycine max OX=3...  76.3    8e-16
+TR:A0A1U8ANK3_NELNU  A0A1U8ANK3 Endoglucanase OS=Nelumbo nucifera...  76.3    8e-16
+TR:A0A1U8GAQ4_CAPAN  A0A1U8GAQ4 Endoglucanase OS=Capsicum annuum ...  76.3    9e-16
+TR:A0A2G2ZVX8_CAPAN  A0A2G2ZVX8 Endoglucanase OS=Capsicum annuum ...  76.3    9e-16
+TR:A0A2G3CTI5_CAPCH  A0A2G3CTI5 Endoglucanase OS=Capsicum chinens...  76.3    9e-16
+TR:A0A1R3IHB4_9ROSI  A0A1R3IHB4 Endoglucanase OS=Corchorus olitor...  76.3    9e-16
+TR:A0A2P5CXZ0_PARAD  A0A2P5CXZ0 Endoglucanase OS=Parasponia ander...  76.3    9e-16
+TR:A0A2P5CZ66_9ROSA  A0A2P5CZ66 Endoglucanase OS=Trema orientalis...  76.3    9e-16
+TR:A0A2K1XUP5_POPTR  A0A2K1XUP5 Endoglucanase OS=Populus trichoca...  76.3    9e-16
+TR:B9SAU5_RICCO  B9SAU5 Endoglucanase OS=Ricinus communis OX=3988...  76.3    9e-16
+TR:B9I9P6_POPTR  B9I9P6 Endoglucanase OS=Populus trichocarpa OX=3...  76.3    9e-16
+TR:A0A0A0K7X4_CUCSA  A0A0A0K7X4 Endoglucanase OS=Cucumis sativus ...  75.9    1e-15
+TR:A0A1S3BZ39_CUCME  A0A1S3BZ39 Endoglucanase OS=Cucumis melo OX=...  75.9    1e-15
+TR:A0A067JW47_JATCU  A0A067JW47 Endoglucanase OS=Jatropha curcas ...  75.9    1e-15
+TR:Q93WY8_TOBAC  Q93WY8 Endo-beta-1,4-glucanase (Fragment) OS=Nic...  75.1    1e-15
+TR:A0A1D1Y1Z2_9ARAE  A0A1D1Y1Z2 Endoglucanase (Fragment) OS=Anthu...  74.3    1e-15
+TR:A0A103YNV5_CYNCS  A0A103YNV5 Endoglucanase OS=Cynara carduncul...  75.5    2e-15
+TR:A0A1S3BR45_CUCME  A0A1S3BR45 Endoglucanase OS=Cucumis melo OX=...  75.5    2e-15
+TR:A0A022RR24_ERYGU  A0A022RR24 Endoglucanase OS=Erythranthe gutt...  75.5    2e-15
+TR:A0A2I0WX14_9ASPA  A0A2I0WX14 Endoglucanase OS=Dendrobium caten...  75.5    2e-15
+TR:M5W248_PRUPE  M5W248 Endoglucanase OS=Prunus persica OX=3760 G...  75.5    2e-15
+TR:A0A2P4MJ58_QUESU  A0A2P4MJ58 Endoglucanase OS=Quercus suber OX...  75.1    2e-15
+TR:G7IEL4_MEDTR  G7IEL4 Endoglucanase OS=Medicago truncatula OX=3...  75.1    2e-15
+TR:A0A251UG93_HELAN  A0A251UG93 Endoglucanase OS=Helianthus annuu...  75.1    2e-15
+TR:A0A1J6JBB4_NICAT  A0A1J6JBB4 Endoglucanase OS=Nicotiana attenu...  75.1    2e-15
+TR:A0A1Q3DG17_CEPFO  A0A1Q3DG17 Endoglucanase OS=Cephalotus folli...  75.1    2e-15
+TR:A0A2I4EZF4_9ROSI  A0A2I4EZF4 Endoglucanase OS=Juglans regia OX...  75.1    2e-15
+TR:A0A1U8L7U4_GOSHI  A0A1U8L7U4 Endoglucanase OS=Gossypium hirsut...  75.1    2e-15
+TR:A0A0B0Q0C3_GOSAR  A0A0B0Q0C3 Endoglucanase OS=Gossypium arbore...  75.1    2e-15
+TR:A0A068EXJ9_GOSHI  A0A068EXJ9 Endoglucanase OS=Gossypium hirsut...  75.1    2e-15
+TR:A0A2P5WDN1_GOSBA  A0A2P5WDN1 Endoglucanase OS=Gossypium barbad...  75.1    2e-15
+TR:A0A2P5RNR1_GOSBA  A0A2P5RNR1 Endoglucanase OS=Gossypium barbad...  75.1    2e-15
+TR:A0A287S053_HORVV  A0A287S053 Endoglucanase OS=Hordeum vulgare ...  74.3    2e-15
+TR:A0A287RZZ0_HORVV  A0A287RZZ0 Endoglucanase OS=Hordeum vulgare ...  74.3    3e-15
+TR:A0A1D6GZ22_MAIZE  A0A1D6GZ22 Endoglucanase OS=Zea mays OX=4577...  70.1    3e-15
+TR:A0A0B2RAU9_GLYSO  A0A0B2RAU9 Endoglucanase OS=Glycine soja OX=...  74.7    3e-15
+TR:A0A072UI31_MEDTR  A0A072UI31 Endoglucanase OS=Medicago truncat...  74.7    3e-15
+TR:M0S4T1_MUSAM  M0S4T1 Endoglucanase OS=Musa acuminata subsp. ma...  74.7    3e-15
+TR:A0A151U4L1_CAJCA  A0A151U4L1 Endoglucanase OS=Cajanus cajan OX...  74.7    3e-15
+TR:W9R127_9ROSA  W9R127 Endoglucanase OS=Morus notabilis OX=98108...  74.7    3e-15
+TR:I1L7T7_SOYBN  I1L7T7 Endoglucanase OS=Glycine max OX=3847 GN=1...  74.7    3e-15
+TR:V7BKT9_PHAVU  V7BKT9 Endoglucanase OS=Phaseolus vulgaris OX=38...  74.7    3e-15
+TR:A0A0B2PH43_GLYSO  A0A0B2PH43 Endoglucanase OS=Glycine soja OX=...  74.7    3e-15
+TR:A0A1S3V8C4_VIGRR  A0A1S3V8C4 Endoglucanase OS=Vigna radiata va...  74.7    3e-15
+TR:I1JBJ9_SOYBN  I1JBJ9 Endoglucanase OS=Glycine max OX=3847 GN=1...  74.7    3e-15
+TR:A0A061DR04_THECC  A0A061DR04 Endoglucanase OS=Theobroma cacao ...  74.7    3e-15
+TR:A0A2N9IB61_FAGSY  A0A2N9IB61 Endoglucanase OS=Fagus sylvatica ...  74.7    3e-15
+TR:M0XQ05_HORVV  M0XQ05 Endoglucanase OS=Hordeum vulgare subsp. v...  74.3    3e-15
+TR:A0A0D3H998_9ORYZ  A0A0D3H998 Endoglucanase OS=Oryza barthii OX...  74.3    3e-15
+TR:A0A2K3M6Z5_TRIPR  A0A2K3M6Z5 Endoglucanase (Fragment) OS=Trifo...  73.2    3e-15
+TR:A0A166HFX4_DAUCA  A0A166HFX4 Endoglucanase OS=Daucus carota su...  74.3    4e-15
+SP:GUN2_PERAE  P23666 Endoglucanase 2 (Fragment) OS=Persea americ...  70.5    4e-15
+TR:A0A0A0KWL5_CUCSA  A0A0A0KWL5 Endoglucanase OS=Cucumis sativus ...  74.3    4e-15
+TR:J3MPU4_ORYBR  J3MPU4 Endoglucanase OS=Oryza brachyantha OX=453...  74.3    4e-15
+TR:M1D4K0_SOLTU  M1D4K0 Endoglucanase OS=Solanum tuberosum OX=411...  74.3    4e-15
+TR:A0A1R3HW03_COCAP  A0A1R3HW03 Endoglucanase OS=Corchorus capsul...  74.3    4e-15
+TR:A0A0S3SSE8_PHAAN  A0A0S3SSE8 Endoglucanase OS=Vigna angularis ...  74.3    4e-15
+TR:A0A0L9VHH5_PHAAN  A0A0L9VHH5 Endoglucanase OS=Phaseolus angula...  74.3    4e-15
+TR:A0A0E0QU71_ORYRU  A0A0E0QU71 Endoglucanase OS=Oryza rufipogon ...  74.3    4e-15
+SP:GUN23_ORYSJ  Q69NF5 Endoglucanase 23 OS=Oryza sativa subsp. ja...  74.3    4e-15
+TR:B8BDT4_ORYSI  B8BDT4 Endoglucanase OS=Oryza sativa subsp. indi...  74.3    4e-15
+TR:A0A287RZQ0_HORVV  A0A287RZQ0 Endoglucanase OS=Hordeum vulgare ...  74.3    4e-15
+TR:A0A287S058_HORVV  A0A287S058 Endoglucanase OS=Hordeum vulgare ...  74.3    4e-15
+TR:B9G4P7_ORYSJ  B9G4P7 Endoglucanase OS=Oryza sativa subsp. japo...  74.3    4e-15
+TR:I1QQM5_ORYGL  I1QQM5 Endoglucanase OS=Oryza glaberrima OX=4538...  74.3    4e-15
+TR:A0A0E0EU43_9ORYZ  A0A0E0EU43 Endoglucanase OS=Oryza meridional...  74.3    4e-15
+TR:A0A0E0IMQ6_ORYNI  A0A0E0IMQ6 Endoglucanase OS=Oryza nivara OX=...  74.3    4e-15
+TR:R7WE02_AEGTA  R7WE02 Endoglucanase OS=Aegilops tauschii OX=376...  73.9    4e-15
+TR:W1PS40_AMBTC  W1PS40 Endoglucanase (Fragment) OS=Amborella tri...  69.7    5e-15
+TR:A0A2U1PV12_ARTAN  A0A2U1PV12 Glycosyl hydrolase 9B13 OS=Artemi...  72.8    5e-15
+TR:A0A1S3CDA0_CUCME  A0A1S3CDA0 Endoglucanase OS=Cucumis melo OX=...  73.9    6e-15
+TR:R0GNS2_9BRAS  R0GNS2 Endoglucanase OS=Capsella rubella OX=8198...  73.9    6e-15
+TR:A0A1L6K5J0_POPTO  A0A1L6K5J0 Endoglucanase OS=Populus tomentos...  73.9    6e-15
+TR:A0A1D5YHF1_WHEAT  A0A1D5YHF1 Endoglucanase OS=Triticum aestivu...  73.9    6e-15
+TR:Q42875_SOLLC  Q42875 Endoglucanase OS=Solanum lycopersicum OX=...  73.9    6e-15
+TR:A0A1D5ZZM4_WHEAT  A0A1D5ZZM4 Endoglucanase OS=Triticum aestivu...  73.9    6e-15
+TR:W5FHD4_WHEAT  W5FHD4 Endoglucanase OS=Triticum aestivum OX=456...  73.9    6e-15
+TR:A0A0V0IHL9_SOLCH  A0A0V0IHL9 Endoglucanase OS=Solanum chacoens...  73.9    6e-15
+TR:A0A2H3ZHG0_PHODC  A0A2H3ZHG0 Endoglucanase OS=Phoenix dactylif...  73.6    7e-15
+TR:A0A1P8B606_ARATH  A0A1P8B606 Endoglucanase OS=Arabidopsis thal...  73.6    7e-15
+TR:A0A178UVL7_ARATH  A0A178UVL7 Endoglucanase OS=Arabidopsis thal...  73.6    7e-15
+TR:A0A151S846_CAJCA  A0A151S846 Endoglucanase OS=Cajanus cajan OX...  73.6    7e-15
+TR:A0A0L9U9U6_PHAAN  A0A0L9U9U6 Endoglucanase OS=Phaseolus angula...  73.6    7e-15
+TR:A0A2K3L4U2_TRIPR  A0A2K3L4U2 Endoglucanase OS=Trifolium praten...  73.2    7e-15
+TR:A0A2N9G891_FAGSY  A0A2N9G891 Endoglucanase OS=Fagus sylvatica ...  73.6    8e-15
+TR:A0A2J6K0F9_LACSA  A0A2J6K0F9 Endoglucanase OS=Lactuca sativa O...  73.6    8e-15
+TR:A0A0S3S0B7_PHAAN  A0A0S3S0B7 Endoglucanase OS=Vigna angularis ...  73.6    8e-15
+TR:I1JQN8_SOYBN  I1JQN8 Endoglucanase OS=Glycine max OX=3847 GN=1...  73.6    8e-15
+TR:A0A0E0AQ47_9ORYZ  A0A0E0AQ47 Endoglucanase OS=Oryza glumipatul...  73.6    8e-15
+TR:A0A2N9HYX0_FAGSY  A0A2N9HYX0 Endoglucanase OS=Fagus sylvatica ...  73.6    8e-15
+TR:A2YQM3_ORYSI  A2YQM3 Endoglucanase OS=Oryza sativa subsp. indi...  73.6    8e-15
+TR:V4L300_EUTSA  V4L300 Endoglucanase OS=Eutrema salsugineum OX=7...  73.6    8e-15
+TR:A0A0D2QRK8_GOSRA  A0A0D2QRK8 Endoglucanase OS=Gossypium raimon...  73.6    8e-15
+SP:GUN17_ARATH  O81416 Endoglucanase 17 OS=Arabidopsis thaliana O...  73.6    8e-15
+TR:A0A0E0LQL6_ORYPU  A0A0E0LQL6 Endoglucanase OS=Oryza punctata O...  73.6    8e-15
+SP:GUN19_ORYSJ  Q6YXT7 Endoglucanase 19 OS=Oryza sativa subsp. ja...  73.6    8e-15
+TR:A0A0E0I6K5_ORYNI  A0A0E0I6K5 Endoglucanase OS=Oryza nivara OX=...  73.6    8e-15
+TR:A0A0E0QDK9_ORYRU  A0A0E0QDK9 Endoglucanase OS=Oryza rufipogon ...  73.6    8e-15
+TR:I1QF44_ORYGL  I1QF44 Endoglucanase OS=Oryza glaberrima OX=4538...  73.6    8e-15
+TR:R7W352_AEGTA  R7W352 Endoglucanase 11 OS=Aegilops tauschii OX=...  72.4    9e-15
+TR:B9T947_RICCO  B9T947 Endoglucanase OS=Ricinus communis OX=3988...  72.4    9e-15
+TR:A0A1S4AC74_TOBAC  A0A1S4AC74 Endoglucanase OS=Nicotiana tabacu...  73.2    1e-14
+TR:A0A1S4ABZ2_TOBAC  A0A1S4ABZ2 Endoglucanase OS=Nicotiana tabacu...  73.2    1e-14
+TR:A0A2K3PBU8_TRIPR  A0A2K3PBU8 Endoglucanase OS=Trifolium praten...  73.2    1e-14
+TR:A0A1S2XXD2_CICAR  A0A1S2XXD2 Endoglucanase OS=Cicer arietinum ...  73.2    1e-14
+TR:A0A1S3TMW8_VIGRR  A0A1S3TMW8 Endoglucanase OS=Vigna radiata va...  73.2    1e-14
+TR:A0A1U8AEB4_NELNU  A0A1U8AEB4 Endoglucanase OS=Nelumbo nucifera...  73.2    1e-14
+TR:A0A0D9X3T7_9ORYZ  A0A0D9X3T7 Endoglucanase OS=Leersia perrieri...  73.2    1e-14
+TR:J3KZ84_ORYBR  J3KZ84 Endoglucanase OS=Oryza brachyantha OX=453...  73.2    1e-14
+TR:A0A1U7XR08_NICSY  A0A1U7XR08 Endoglucanase OS=Nicotiana sylves...  73.2    1e-14
+TR:A0A1S3YR90_TOBAC  A0A1S3YR90 Endoglucanase OS=Nicotiana tabacu...  73.2    1e-14
+TR:A0A1S4AC65_TOBAC  A0A1S4AC65 Endoglucanase OS=Nicotiana tabacu...  73.2    1e-14
+TR:D7M426_ARALL  D7M426 Endoglucanase OS=Arabidopsis lyrata subsp...  73.2    1e-14
+TR:A0A2P6PWV6_ROSCH  A0A2P6PWV6 Endoglucanase OS=Rosa chinensis O...  73.2    1e-14
+TR:R0FEU8_9BRAS  R0FEU8 Endoglucanase OS=Capsella rubella OX=8198...  73.2    1e-14
+TR:A0A072U3Z4_MEDTR  A0A072U3Z4 Endoglucanase OS=Medicago truncat...  71.2    1e-14
+TR:A0A2I0JET5_PUNGR  A0A2I0JET5 Endoglucanase OS=Punica granatum ...  72.8    1e-14
+TR:Q2LAH6_SOYBN  Q2LAH6 Endoglucanase (Fragment) OS=Glycine max O...  72.8    1e-14
+TR:A0A218XGM2_PUNGR  A0A218XGM2 Endoglucanase OS=Punica granatum ...  72.8    1e-14
+TR:A5C1C9_VITVI  A5C1C9 Endoglucanase OS=Vitis vinifera OX=29760 ...  72.8    1e-14
+TR:F6I191_VITVI  F6I191 Endoglucanase OS=Vitis vinifera OX=29760 ...  72.8    1e-14
+TR:F2EC05_HORVV  F2EC05 Endoglucanase (Fragment) OS=Hordeum vulga...  72.8    1e-14
+TR:H0NFP4_ALLSA  H0NFP4 Endoglucanase OS=Allium sativum f. pekine...  72.8    1e-14
+TR:A0A2U1L8W2_ARTAN  A0A2U1L8W2 Glycosyl hydrolase 9B13 OS=Artemi...  72.8    1e-14
+TR:A0A087GLR6_ARAAL  A0A087GLR6 Endoglucanase OS=Arabis alpina OX...  72.8    1e-14
+TR:A0A0D9XFY0_9ORYZ  A0A0D9XFY0 Endoglucanase OS=Leersia perrieri...  72.8    1e-14
+TR:A0A059AYA5_EUCGR  A0A059AYA5 Endoglucanase OS=Eucalyptus grand...  72.8    1e-14
+TR:A0A2G9GTZ5_9LAMI  A0A2G9GTZ5 Endoglucanase OS=Handroanthus imp...  72.8    1e-14
+TR:A0A068V9C3_COFCA  A0A068V9C3 Endoglucanase OS=Coffea canephora...  72.8    1e-14
+TR:A0A1J7G4W2_LUPAN  A0A1J7G4W2 Endoglucanase OS=Lupinus angustif...  72.8    1e-14
+TR:A0A0E0EU42_9ORYZ  A0A0E0EU42 Endoglucanase OS=Oryza meridional...  72.8    1e-14
+TR:A0A0A9GD56_ARUDO  A0A0A9GD56 Endoglucanase OS=Arundo donax OX=...  72.4    2e-14
+TR:I0IJZ9_9MYRT  I0IJZ9 Endoglucanase (Fragment) OS=Eucalyptus py...  72.4    2e-14
+TR:I0IJZ7_9MYRT  I0IJZ7 Endoglucanase (Fragment) OS=Eucalyptus pi...  72.4    2e-14
+TR:A0A1D6BEU5_WHEAT  A0A1D6BEU5 Endoglucanase OS=Triticum aestivu...  72.4    2e-14
+TR:A0A2K2BLT2_POPTR  A0A2K2BLT2 Endoglucanase OS=Populus trichoca...  72.4    2e-14
+TR:K4ELN7_POPTR  K4ELN7 Endoglucanase OS=Populus trichocarpa OX=3...  72.4    2e-14
+TR:A0A0E0M3R0_ORYPU  A0A0E0M3R0 Endoglucanase OS=Oryza punctata O...  72.4    2e-14
+TR:A0A0A0LPE9_CUCSA  A0A0A0LPE9 Endoglucanase OS=Cucumis sativus ...  72.4    2e-14
+TR:A0A200PWN0_9MAGN  A0A200PWN0 Endoglucanase OS=Macleaya cordata...  72.4    2e-14
+TR:M0RXY4_MUSAM  M0RXY4 Endoglucanase OS=Musa acuminata subsp. ma...  72.4    2e-14
+TR:M0RPM4_MUSAM  M0RPM4 Endoglucanase OS=Musa acuminata subsp. ma...  72.4    2e-14
+TR:Q9SSU7_PEA  Q9SSU7 Endoglucanase OS=Pisum sativum OX=3888 GN=E...  72.4    2e-14
+TR:A0A1R3HYZ5_9ROSI  A0A1R3HYZ5 Endoglucanase OS=Corchorus olitor...  72.4    2e-14
+TR:M4DPW8_BRARP  M4DPW8 Endoglucanase OS=Brassica rapa subsp. pek...  72.4    2e-14
+TR:A0A078GBK7_BRANA  A0A078GBK7 Endoglucanase OS=Brassica napus O...  72.4    2e-14
+TR:B9GSC6_POPTR  B9GSC6 Endoglucanase OS=Populus trichocarpa OX=3...  72.4    2e-14
+TR:A0A0A9K8S2_ARUDO  A0A0A9K8S2 Endoglucanase OS=Arundo donax OX=...  69.7    2e-14
+TR:I0IK00_EUCGG  I0IK00 Endoglucanase (Fragment) OS=Eucalyptus gl...  72.0    3e-14
+TR:Q4F8I8_EUCGL  Q4F8I8 Endoglucanase (Fragment) OS=Eucalyptus gl...  72.0    3e-14
+TR:A0A199USF9_ANACO  A0A199USF9 Endoglucanase OS=Ananas comosus O...  72.0    3e-14
+TR:W9QP53_9ROSA  W9QP53 Endoglucanase OS=Morus notabilis OX=98108...  72.0    3e-14
+TR:A0A2P6PKR4_ROSCH  A0A2P6PKR4 Endoglucanase OS=Rosa chinensis O...  72.0    3e-14
+TR:A0A0L9V7K0_PHAAN  A0A0L9V7K0 Endoglucanase OS=Phaseolus angula...  72.0    3e-14
+TR:A0A0S3SDX6_PHAAN  A0A0S3SDX6 Endoglucanase OS=Vigna angularis ...  72.0    3e-14
+TR:A0A1S3W1E0_VIGRR  A0A1S3W1E0 Endoglucanase OS=Vigna radiata va...  72.0    3e-14
+TR:A0A067K759_JATCU  A0A067K759 Endoglucanase OS=Jatropha curcas ...  72.0    3e-14
+TR:A0A2R6RHG6_ACTCH  A0A2R6RHG6 Endoglucanase OS=Actinidia chinen...  72.0    3e-14
+TR:I1H2T8_BRADI  I1H2T8 Endoglucanase OS=Brachypodium distachyon ...  72.0    3e-14
+TR:A0A068TNQ4_COFCA  A0A068TNQ4 Endoglucanase OS=Coffea canephora...  72.0    3e-14
+TR:A0A059ANM5_EUCGR  A0A059ANM5 Endoglucanase OS=Eucalyptus grand...  72.0    3e-14
+TR:A0A087HKI0_ARAAL  A0A087HKI0 Endoglucanase OS=Arabis alpina OX...  72.0    3e-14
+TR:A0A078HJD9_BRANA  A0A078HJD9 Endoglucanase OS=Brassica napus O...  72.0    3e-14
+TR:A0A0D3DZ83_BRAOL  A0A0D3DZ83 Endoglucanase OS=Brassica olerace...  72.0    3e-14
+TR:A0A078H1A6_BRANA  A0A078H1A6 Endoglucanase OS=Brassica napus O...  72.0    3e-14
+TR:V4KJ65_EUTSA  V4KJ65 Endoglucanase OS=Eutrema salsugineum OX=7...  72.0    3e-14
+TR:M4EUV2_BRARP  M4EUV2 Endoglucanase OS=Brassica rapa subsp. pek...  72.0    3e-14
+TR:A0A078INZ8_BRANA  A0A078INZ8 Endoglucanase OS=Brassica napus O...  72.0    3e-14
+TR:A0A1J3G5G0_NOCCA  A0A1J3G5G0 Endoglucanase OS=Noccaea caerules...  72.0    3e-14
+TR:A0A1J3J5E4_NOCCA  A0A1J3J5E4 Endoglucanase OS=Noccaea caerules...  72.0    3e-14
+TR:A0A1J3DNU4_NOCCA  A0A1J3DNU4 Endoglucanase OS=Noccaea caerules...  72.0    3e-14
+TR:A0A2P6PQ17_ROSCH  A0A2P6PQ17 Endoglucanase OS=Rosa chinensis O...  67.4    3e-14
+TR:J3MZG6_ORYBR  J3MZG6 Endoglucanase OS=Oryza brachyantha OX=453...  71.6    4e-14
+TR:A0A2P5WJG6_GOSBA  A0A2P5WJG6 Endoglucanase OS=Gossypium barbad...  71.6    4e-14
+TR:M5VPW3_PRUPE  M5VPW3 Endoglucanase (Fragment) OS=Prunus persic...  71.6    4e-14
+TR:A0A2C9U3E2_MANES  A0A2C9U3E2 Endoglucanase OS=Manihot esculent...  71.6    4e-14
+TR:A0A1S2Z840_CICAR  A0A1S2Z840 Endoglucanase OS=Cicer arietinum ...  71.6    4e-14
+TR:A0A251MXC1_PRUPE  A0A251MXC1 Endoglucanase OS=Prunus persica O...  71.6    4e-14
+TR:M1RLD6_HORVV  M1RLD6 Endoglucanase OS=Hordeum vulgare subsp. v...  71.6    4e-14
+TR:A0A1U8K583_GOSHI  A0A1U8K583 Endoglucanase OS=Gossypium hirsut...  71.6    4e-14
+TR:O64401_PINRA  O64401 Endoglucanase OS=Pinus radiata OX=3347 GN...  71.6    4e-14
+TR:J3MD12_ORYBR  J3MD12 Endoglucanase OS=Oryza brachyantha OX=453...  71.6    4e-14
+TR:A0A0B0P861_GOSAR  A0A0B0P861 Endoglucanase OS=Gossypium arbore...  71.6    4e-14
+TR:A0A0E0EH47_9ORYZ  A0A0E0EH47 Endoglucanase OS=Oryza meridional...  71.6    4e-14
+TR:A0A218WZZ0_PUNGR  A0A218WZZ0 Endoglucanase OS=Punica granatum ...  71.6    4e-14
+TR:A0A151TMH7_CAJCA  A0A151TMH7 Endoglucanase (Fragment) OS=Cajan...  70.5    4e-14
+TR:A0A2G3AH00_CAPAN  A0A2G3AH00 Endoglucanase OS=Capsicum annuum ...  69.7    5e-14
+TR:A0A178WCH5_ARATH  A0A178WCH5 Endoglucanase OS=Arabidopsis thal...  71.2    5e-14
+TR:A0A1J7IIH7_LUPAN  A0A1J7IIH7 Endoglucanase OS=Lupinus angustif...  71.2    5e-14
+TR:L0ASN3_POPTO  L0ASN3 Endoglucanase OS=Populus tomentosa OX=118...  71.2    5e-14
+TR:B9ICT3_POPTR  B9ICT3 Endoglucanase OS=Populus trichocarpa OX=3...  71.2    5e-14
+TR:A0A0R6MQ32_HEVBR  A0A0R6MQ32 Endoglucanase OS=Hevea brasiliens...  71.2    5e-14
+TR:P94114_PRUPE  P94114 Endoglucanase OS=Prunus persica OX=3760 G...  71.2    5e-14
+TR:A0A061DZN5_THECC  A0A061DZN5 Endoglucanase OS=Theobroma cacao ...  71.2    5e-14
+SP:GUN3_ORYSJ  Q8LQ92 Endoglucanase 3 OS=Oryza sativa subsp. japo...  71.2    5e-14
+TR:I1NMJ5_ORYGL  I1NMJ5 Endoglucanase OS=Oryza glaberrima OX=4538...  71.2    5e-14
+SP:GUN1_ARATH  Q9SRX3 Endoglucanase 1 OS=Arabidopsis thaliana OX=...  71.2    5e-14
+TR:D7KBC1_ARALL  D7KBC1 Endoglucanase OS=Arabidopsis lyrata subsp...  71.2    5e-14
+TR:A0A0E0FD77_9ORYZ  A0A0E0FD77 Endoglucanase OS=Oryza meridional...  71.2    5e-14
+TR:A0A2K1XM90_POPTR  A0A2K1XM90 Endoglucanase OS=Populus trichoca...  71.2    5e-14
+TR:A0A067JET2_JATCU  A0A067JET2 Endoglucanase OS=Jatropha curcas ...  71.2    5e-14
+TR:A0A2P5RWP3_GOSBA  A0A2P5RWP3 Endoglucanase OS=Gossypium barbad...  71.2    5e-14
+TR:A0A0D2W2E6_GOSRA  A0A0D2W2E6 Endoglucanase OS=Gossypium raimon...  71.2    5e-14
+TR:A0A1U8KNA0_GOSHI  A0A1U8KNA0 Endoglucanase OS=Gossypium hirsut...  71.2    5e-14
+TR:A0A0D3EN18_9ORYZ  A0A0D3EN18 Endoglucanase OS=Oryza barthii OX...  71.2    5e-14
+TR:A2WP23_ORYSI  A2WP23 Endoglucanase OS=Oryza sativa subsp. indi...  71.2    5e-14
+TR:A0A0E0FKX3_ORYNI  A0A0E0FKX3 Endoglucanase OS=Oryza nivara OX=...  71.2    5e-14
+TR:A0A0E0MVE3_ORYRU  A0A0E0MVE3 Endoglucanase OS=Oryza rufipogon ...  71.2    5e-14
+TR:A0A0D3ASB7_BRAOL  A0A0D3ASB7 Endoglucanase OS=Brassica olerace...  71.2    5e-14
+TR:A0A0D9Y7H1_9ORYZ  A0A0D9Y7H1 Endoglucanase OS=Oryza glumipatul...  71.2    5e-14
+TR:G7J7T2_MEDTR  G7J7T2 Endoglucanase OS=Medicago truncatula OX=3...  70.9    7e-14
+TR:A0A067E7N0_CITSI  A0A067E7N0 Endoglucanase OS=Citrus sinensis ...  70.9    7e-14
+TR:A0A2H5PKI2_CITUN  A0A2H5PKI2 Endoglucanase OS=Citrus unshiu OX...  70.9    7e-14
+TR:V4SD38_9ROSI  V4SD38 Endoglucanase OS=Citrus clementina OX=856...  70.9    7e-14
+TR:I1JSJ6_SOYBN  I1JSJ6 Endoglucanase OS=Glycine max OX=3847 GN=1...  70.9    7e-14
+TR:A0A2G9GPQ0_9LAMI  A0A2G9GPQ0 Endoglucanase OS=Handroanthus imp...  70.9    7e-14
+TR:A0A0D2SU05_GOSRA  A0A0D2SU05 Endoglucanase OS=Gossypium raimon...  70.9    7e-14
+TR:A0A1U8J072_GOSHI  A0A1U8J072 Endoglucanase OS=Gossypium hirsut...  70.9    7e-14
+TR:K7KSD6_SOYBN  K7KSD6 Endoglucanase OS=Glycine max OX=3847 GN=1...  70.9    7e-14
+TR:A0A1U8AU99_NELNU  A0A1U8AU99 Endoglucanase OS=Nelumbo nucifera...  70.9    7e-14
+TR:A3BP15_ORYSJ  A3BP15 Endoglucanase OS=Oryza sativa subsp. japo...  70.9    7e-14
+TR:A0A2P5SUK6_GOSBA  A0A2P5SUK6 Endoglucanase OS=Gossypium barbad...  70.9    7e-14
+TR:A0A1U8J083_GOSHI  A0A1U8J083 Endoglucanase OS=Gossypium hirsut...  70.9    7e-14
+TR:A0A0D3E007_BRAOL  A0A0D3E007 Endoglucanase OS=Brassica olerace...  70.9    7e-14
+TR:A0A287GF63_HORVV  A0A287GF63 Endoglucanase OS=Hordeum vulgare ...  70.1    7e-14
+TR:A0A1D6I9L5_MAIZE  A0A1D6I9L5 Endoglucanase OS=Zea mays OX=4577...  68.2    7e-14
+TR:M7ZMS4_TRIUA  M7ZMS4 Endoglucanase OS=Triticum urartu OX=4572 ...  70.5    8e-14
+TR:B9RHD1_RICCO  B9RHD1 Endoglucanase OS=Ricinus communis OX=3988...  70.5    9e-14
+TR:A0A2P6SMC7_ROSCH  A0A2P6SMC7 Endoglucanase OS=Rosa chinensis O...  70.5    9e-14
+TR:A0A0L9T8D6_PHAAN  A0A0L9T8D6 Endoglucanase OS=Phaseolus angula...  68.2    9e-14
+TR:A0A1R3ITJ2_COCAP  A0A1R3ITJ2 Endoglucanase OS=Corchorus capsul...  70.5    9e-14
+TR:A0A059DKB0_EUCGR  A0A059DKB0 Endoglucanase OS=Eucalyptus grand...  70.5    9e-14
+TR:A0A0D9W5D8_9ORYZ  A0A0D9W5D8 Endoglucanase OS=Leersia perrieri...  70.5    9e-14
+TR:A0A1U8LJD2_GOSHI  A0A1U8LJD2 Endoglucanase OS=Gossypium hirsut...  70.5    9e-14
+TR:A0A068EXK6_GOSHI  A0A068EXK6 Endoglucanase OS=Gossypium hirsut...  70.5    9e-14
+TR:A0A2P4LIT8_QUESU  A0A2P4LIT8 Endoglucanase OS=Quercus suber OX...  70.5    9e-14
+TR:A0A1Q3AWY7_CEPFO  A0A1Q3AWY7 Endoglucanase OS=Cephalotus folli...  70.5    9e-14
+TR:A0A1D6ADY9_WHEAT  A0A1D6ADY9 Endoglucanase OS=Triticum aestivu...  70.5    9e-14
+TR:A0A2R6R6T7_ACTCH  A0A2R6R6T7 Endoglucanase OS=Actinidia chinen...  70.5    9e-14
+TR:A0A2J6K2J2_LACSA  A0A2J6K2J2 Endoglucanase OS=Lactuca sativa O...  70.5    9e-14
+TR:K7LP57_SOYBN  K7LP57 Endoglucanase OS=Glycine max OX=3847 GN=1...  70.5    9e-14
+TR:B9R9R3_RICCO  B9R9R3 Endoglucanase OS=Ricinus communis OX=3988...  70.5    9e-14
+TR:A0A0E0JHQ1_ORYPU  A0A0E0JHQ1 Endoglucanase OS=Oryza punctata O...  70.5    9e-14
+TR:W9T1M9_9ROSA  W9T1M9 Endoglucanase OS=Morus notabilis OX=98108...  70.5    9e-14
+TR:A0A2P5YPI3_GOSBA  A0A2P5YPI3 Endoglucanase OS=Gossypium barbad...  70.5    9e-14
+TR:I1IY66_BRADI  I1IY66 Endoglucanase OS=Brachypodium distachyon ...  70.5    9e-14
+TR:A0A287GF78_HORVV  A0A287GF78 Endoglucanase OS=Hordeum vulgare ...  70.1    1e-13
+TR:A0A287GF68_HORVV  A0A287GF68 Endoglucanase OS=Hordeum vulgare ...  70.1    1e-13
+TR:A0A1R3JTH0_9ROSI  A0A1R3JTH0 Endoglucanase OS=Corchorus olitor...  70.1    1e-13
+TR:A0A2I4HDV4_9ROSI  A0A2I4HDV4 Endoglucanase OS=Juglans regia OX...  68.2    1e-13
+TR:A0A1J7I9X0_LUPAN  A0A1J7I9X0 Endoglucanase OS=Lupinus angustif...  70.1    1e-13
+TR:J3LY73_ORYBR  J3LY73 Endoglucanase OS=Oryza brachyantha OX=453...  70.1    1e-13
+TR:A0A2P5XWN8_GOSBA  A0A2P5XWN8 Uncharacterized protein OS=Gossyp...  70.1    1e-13
+TR:A0A1U7ZZ86_NELNU  A0A1U7ZZ86 Endoglucanase OS=Nelumbo nucifera...  70.1    1e-13
+TR:A0A0S3RA89_PHAAN  A0A0S3RA89 Endoglucanase OS=Vigna angularis ...  70.1    1e-13
+TR:A0A0L9UHA8_PHAAN  A0A0L9UHA8 Endoglucanase OS=Phaseolus angula...  70.1    1e-13
+TR:A0A1S3U541_VIGRR  A0A1S3U541 Endoglucanase OS=Vigna radiata va...  70.1    1e-13
+TR:A0A2G9H271_9LAMI  A0A2G9H271 Endoglucanase OS=Handroanthus imp...  70.1    1e-13
+TR:A0A1J6IS60_NICAT  A0A1J6IS60 Endoglucanase OS=Nicotiana attenu...  70.1    1e-13
+TR:V7ARG4_PHAVU  V7ARG4 Endoglucanase OS=Phaseolus vulgaris OX=38...  70.1    1e-13
+TR:K7LFL5_SOYBN  K7LFL5 Endoglucanase OS=Glycine max OX=3847 GN=1...  70.1    1e-13
+TR:A0A067JMM5_JATCU  A0A067JMM5 Endoglucanase OS=Jatropha curcas ...  70.1    1e-13
+TR:M0XXG1_HORVV  M0XXG1 Endoglucanase OS=Hordeum vulgare subsp. v...  70.1    1e-13
+TR:F2E5S8_HORVV  F2E5S8 Endoglucanase OS=Hordeum vulgare subsp. v...  70.1    1e-13
+TR:A0A1D5S7W3_WHEAT  A0A1D5S7W3 Endoglucanase OS=Triticum aestivu...  70.1    1e-13
+TR:A0A2R6QMX2_ACTCH  A0A2R6QMX2 Endoglucanase OS=Actinidia chinen...  70.1    1e-13
+TR:A0A2P6P492_ROSCH  A0A2P6P492 Endoglucanase OS=Rosa chinensis O...  70.1    1e-13
+TR:A0A1D5RZ40_WHEAT  A0A1D5RZ40 Endoglucanase OS=Triticum aestivu...  70.1    1e-13
+TR:A0A059CGK7_EUCGR  A0A059CGK7 Endoglucanase OS=Eucalyptus grand...  70.1    1e-13
+TR:A0A287GF58_HORVV  A0A287GF58 Endoglucanase OS=Hordeum vulgare ...  70.1    1e-13
+TR:A0A1D5S7W4_WHEAT  A0A1D5S7W4 Endoglucanase OS=Triticum aestivu...  70.1    1e-13
+TR:A0A0K9PNR2_ZOSMR  A0A0K9PNR2 Endoglucanase OS=Zostera marina O...  70.1    1e-13
+TR:A0A287GF75_HORVV  A0A287GF75 Endoglucanase OS=Hordeum vulgare ...  70.1    1e-13
+TR:A0A2I0WI93_9ASPA  A0A2I0WI93 Endoglucanase OS=Dendrobium caten...  68.9    1e-13
+TR:A0A2K2B7A1_POPTR  A0A2K2B7A1 Endoglucanase OS=Populus trichoca...  69.7    1e-13
+TR:A0A2K2B7A3_POPTR  A0A2K2B7A3 Endoglucanase OS=Populus trichoca...  69.7    2e-13
+TR:A0A2G2XNK1_CAPBA  A0A2G2XNK1 Endoglucanase OS=Capsicum baccatu...  69.7    2e-13
+TR:A0A2G3BW02_CAPCH  A0A2G3BW02 Endoglucanase OS=Capsicum chinens...  69.7    2e-13
+TR:A0A2K3P4K3_TRIPR  A0A2K3P4K3 Endoglucanase OS=Trifolium praten...  69.7    2e-13
+TR:A0A1J3JYS9_NOCCA  A0A1J3JYS9 Endoglucanase (Fragment) OS=Nocca...  69.7    2e-13
+
+
+>TR:B4FK38_MAIZE B4FK38 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1
+Length=102
+
+ Score = 120 bits (302),  Expect = 2e-35
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPSVSAHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  20  SSLPSVSAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  79
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  80  TYINAPLLG  88
+
+
+>TR:A0A0A9IXH4_ARUDO A0A0A9IXH4 Endoglucanase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=158
+
+ Score = 120 bits (302),  Expect = 1e-34
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  73   SSLPSVSAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  132
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  133  TYINAPLLG  141
+
+
+>TR:B4FPA2_MAIZE B4FPA2 Endoglucanase OS=Zea mays OX=4577 GN=100216867 PE=2 SV=1
+Length=500
+
+ Score = 120 bits (302),  Expect = 8e-32
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  418  SSLPSVSAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLLG  486
+
+
+>TR:B8A3N2_MAIZE B8A3N2 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1
+Length=504
+
+ Score = 120 bits (302),  Expect = 8e-32
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  422  SSLPSVSAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  481
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  482  TYINAPLLG  490
+
+
+>TR:A0A1E5UK04_9POAL A0A1E5UK04 Endoglucanase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0025805 PE=3 SV=1
+Length=513
+
+ Score = 120 bits (302),  Expect = 9e-32
+ Identities = 60/69 (87%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  424  SSLPSVSAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  483
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  484  TYINAPLLG  492
+
+
+>TR:K3XWH3_SETIT K3XWH3 Endoglucanase OS=Setaria italica OX=4555 GN=LOC101779993 
+PE=3 SV=1
+Length=505
+
+ Score = 119 bits (299),  Expect = 2e-31
+ Identities = 59/69 (86%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLLG  487
+
+
+>TR:A0A2S3HKQ6_9POAL A0A2S3HKQ6 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G278600 PE=4 SV=1
+Length=513
+
+ Score = 119 bits (299),  Expect = 2e-31
+ Identities = 59/69 (86%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  426  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYINAPLLG  494
+
+
+>TR:A0A2T7E1D5_9POAL A0A2T7E1D5 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G291800 PE=4 SV=1
+Length=513
+
+ Score = 119 bits (299),  Expect = 2e-31
+ Identities = 59/69 (86%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  426  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYINAPLLG  494
+
+
+>TR:A0A287W845_HORVV A0A287W845 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=126
+
+ Score = 111 bits (277),  Expect = 3e-31
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  40   SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  99
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  100  TYINAPLLG  108
+
+
+>TR:A0A0A9N0J8_ARUDO A0A0A9N0J8 Endoglucanase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=201
+
+ Score = 112 bits (280),  Expect = 9e-31
+ Identities = 54/69 (78%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGP++++DAFPDARA FQQSEPT
+Sbjct  121  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPTDNSDAFPDARAAFQQSEPT  180
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  181  TYINAPLMG  189
+
+
+>TR:A0A0E0E034_9ORYZ A0A0E0E034 Endoglucanase OS=Oryza meridionalis OX=40149 PE=3 
+SV=1
+Length=242
+
+ Score = 112 bits (280),  Expect = 2e-30
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  155  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  214
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  215  TYINAPLLG  223
+
+
+>TR:A0A287W7G4_HORVV A0A287W7G4 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=207
+
+ Score = 111 bits (277),  Expect = 3e-30
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  121  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  180
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  181  TYINAPLLG  189
+
+
+>TR:A0A0Q3RPB9_SETIT A0A0Q3RPB9 Endoglucanase (Fragment) OS=Setaria italica OX=4555 
+GN=SETIT_0169761mg PE=3 SV=1
+Length=294
+
+ Score = 113 bits (282),  Expect = 4e-30
+ Identities = 54/69 (78%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPA+I CKAGAA YASPAPNPNLLVGAVVGGPS+++DAFPDARAVFQQSEPT
+Sbjct  209  SSIPSVAAHPAKIGCKAGAAYYASPAPNPNLLVGAVVGGPSDASDAFPDARAVFQQSEPT  268
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  269  TYINAPLMG  277
+
+
+>TR:C5Z808_SORBI C5Z808 Endoglucanase OS=Sorghum bicolor OX=4558 GN=SORBI_3010G106100 
+PE=3 SV=1
+Length=562
+
+ Score = 115 bits (289),  Expect = 8e-30
+ Identities = 56/61 (92%), Positives = 57/61 (93%), Gaps = 0/61 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y SP PNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT
+Sbjct  480  SSLPSVSAHPARIGCKAGAAYYGSPRPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  539
+
+Query  62   S  62
+            +
+Sbjct  540  T  540
+
+
+>TR:T1MPR8_TRIUA T1MPR8 Endoglucanase OS=Triticum urartu OX=4572 PE=3 SV=1
+Length=261
+
+ Score = 111 bits (277),  Expect = 1e-29
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  182  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  241
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  242  TYINAPLLG  250
+
+
+>TR:A0A2S3GT13_9POAL A0A2S3GT13 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G390400 PE=4 SV=1
+Length=504
+
+ Score = 115 bits (287),  Expect = 1e-29
+ Identities = 56/69 (81%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPS+++DAFPDARAVFQQSEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSDASDAFPDARAVFQQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLMG  487
+
+
+>TR:C5XZB0_SORBI C5XZB0 Endoglucanase OS=Sorghum bicolor OX=4558 GN=SORBI_3004G248100 
+PE=3 SV=1
+Length=504
+
+ Score = 115 bits (287),  Expect = 1e-29
+ Identities = 56/69 (81%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPS+++DAFPDARAVFQQSEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSDASDAFPDARAVFQQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLMG  487
+
+
+>TR:A0A2T7FBV6_9POAL A0A2T7FBV6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G382500 PE=4 SV=1
+Length=504
+
+ Score = 115 bits (287),  Expect = 1e-29
+ Identities = 56/69 (81%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPS+++DAFPDARAVFQQSEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSDASDAFPDARAVFQQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLMG  487
+
+
+>TR:A0A0D9VKN9_9ORYZ A0A0D9VKN9 Endoglucanase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=502
+
+ Score = 114 bits (285),  Expect = 2e-29
+ Identities = 56/69 (81%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARIACKAGAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  417  SSIPSVAAHPARIACKAGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLMG  485
+
+
+>TR:C0HHD1_MAIZE C0HHD1 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1
+Length=345
+
+ Score = 112 bits (279),  Expect = 2e-29
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA Y SPAPNPNLLVGAVVGGP++ +DAFPDARAVFQQSEPT
+Sbjct  260  SSLPSVAAHPARIGCKAGAAYYTSPAPNPNLLVGAVVGGPTDDSDAFPDARAVFQQSEPT  319
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  320  TYINAPLMG  328
+
+
+>TR:A0A1E5UTB1_9POAL A0A1E5UTB1 Endoglucanase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0022919 PE=3 SV=1
+Length=494
+
+ Score = 113 bits (282),  Expect = 5e-29
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA YASPAPNPNLLVGAVVGGPS+ +DAFPDARA FQQSEPT
+Sbjct  409  SSLPSVAAHPARIGCKAGAAYYASPAPNPNLLVGAVVGGPSDDSDAFPDARAAFQQSEPT  468
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  469  TYINAPLMG  477
+
+
+>TR:K3YRT2_SETIT K3YRT2 Endoglucanase OS=Setaria italica OX=4555 GN=LOC101768307 
+PE=3 SV=1
+Length=502
+
+ Score = 113 bits (282),  Expect = 5e-29
+ Identities = 54/69 (78%), Positives = 62/69 (90%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPA+I CKAGAA YASPAPNPNLLVGAVVGGPS+++DAFPDARAVFQQSEPT
+Sbjct  417  SSIPSVAAHPAKIGCKAGAAYYASPAPNPNLLVGAVVGGPSDASDAFPDARAVFQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLMG  485
+
+
+>TR:C0HEQ6_MAIZE C0HEQ6 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=1
+Length=411
+
+ Score = 112 bits (279),  Expect = 6e-29
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA Y SPAPNPNLLVGAVVGGP++ +DAFPDARAVFQQSEPT
+Sbjct  326  SSLPSVAAHPARIGCKAGAAYYTSPAPNPNLLVGAVVGGPTDDSDAFPDARAVFQQSEPT  385
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  386  TYINAPLMG  394
+
+
+>TR:A0A1D6ASM5_WHEAT A0A1D6ASM5 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=496
+
+ Score = 112 bits (281),  Expect = 7e-29
+ Identities = 55/69 (80%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  411  SSIPSVAAHPARIGCKAGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYINAPLMG  479
+
+
+>TR:A0A1D6A9X0_WHEAT A0A1D6A9X0 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=496
+
+ Score = 112 bits (281),  Expect = 7e-29
+ Identities = 55/69 (80%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  411  SSIPSVAAHPARIGCKAGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYINAPLMG  479
+
+
+>TR:A0A1D6B945_WHEAT A0A1D6B945 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=498
+
+ Score = 112 bits (281),  Expect = 7e-29
+ Identities = 55/69 (80%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  413  SSIPSVAAHPARIGCKAGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLMG  481
+
+
+>TR:A0A0D3GF09_9ORYZ A0A0D3GF09 Endoglucanase OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=470
+
+ Score = 112 bits (280),  Expect = 8e-29
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  383  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  442
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  443  TYINAPLLG  451
+
+
+>TR:A2X9A9_ORYSI A2X9A9 Endoglucanase OS=Oryza sativa subsp. indica OX=39946 GN=OsI_08827 
+PE=3 SV=1
+Length=441
+
+ Score = 112 bits (279),  Expect = 8e-29
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  356  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  415
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  416  TYINAPLMG  424
+
+
+>TR:A0A0D9WP06_9ORYZ A0A0D9WP06 Endoglucanase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=530
+
+ Score = 112 bits (281),  Expect = 8e-29
+ Identities = 55/69 (80%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGA+ YA+ APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  443  SSLPSVSAHPARIGCKAGASYYATTAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  502
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  503  TYINAPLLG  511
+
+
+>TR:A2YBE2_ORYSI A2YBE2 Endoglucanase OS=Oryza sativa subsp. indica OX=39946 GN=OsI_22418 
+PE=3 SV=1
+Length=497
+
+ Score = 112 bits (280),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:A0A0E0HNM8_ORYNI A0A0E0HNM8 Endoglucanase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=497
+
+ Score = 112 bits (280),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:I1Q1B4_ORYGL I1Q1B4 Endoglucanase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=497
+
+ Score = 112 bits (280),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:A0A0E0A7T6_9ORYZ A0A0E0A7T6 Endoglucanase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=497
+
+ Score = 112 bits (280),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPARIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:A0A287W850_HORVV A0A287W850 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=412
+
+ Score = 111 bits (277),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  326  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  385
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  386  TYINAPLLG  394
+
+
+>TR:B4FDB5_MAIZE B4FDB5 Endoglucanase OS=Zea mays OX=4577 PE=2 SV=2
+Length=506
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA Y SPAPNPNLLVGAVVGGP++ +DAFPDARAVFQQSEPT
+Sbjct  421  SSLPSVAAHPARIGCKAGAAYYTSPAPNPNLLVGAVVGGPTDDSDAFPDARAVFQQSEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLMG  489
+
+
+>SP:GUN6_ORYSJ Q6Z2J3 Endoglucanase 6 OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os02g0733300 PE=2 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0D3FA49_9ORYZ A0A0D3FA49 Endoglucanase OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0E0CR37_9ORYZ A0A0E0CR37 Endoglucanase OS=Oryza meridionalis OX=40149 PE=3 
+SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0E0K4X6_ORYPU A0A0E0K4X6 Endoglucanase OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0E0NKL2_ORYRU A0A0E0NKL2 Endoglucanase OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:I1P3Z0_ORYGL I1P3Z0 Endoglucanase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0D9YXV7_9ORYZ A0A0D9YXV7 Endoglucanase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0E0GCS7_ORYNI A0A0E0GCS7 Endoglucanase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=508
+
+ Score = 112 bits (279),  Expect = 1e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:A0A0E0CR36_9ORYZ A0A0E0CR36 Endoglucanase OS=Oryza meridionalis OX=40149 PE=3 
+SV=1
+Length=683
+
+ Score = 112 bits (279),  Expect = 2e-28
+ Identities = 55/69 (80%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFPDARAVFQQSEPT
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFPDARAVFQQSEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLMG  491
+
+
+>TR:I1GZ80_BRADI I1GZ80 Endoglucanase OS=Brachypodium distachyon OX=15368 GN=LOC100844035 
+PE=3 SV=1
+Length=493
+
+ Score = 111 bits (277),  Expect = 2e-28
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  414  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  473
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  474  TYINAPLLG  482
+
+
+>TR:A0A0A9JD55_ARUDO A0A0A9JD55 Endoglucanase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=496
+
+ Score = 111 bits (277),  Expect = 3e-28
+ Identities = 53/69 (77%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGAA Y+SPAPNPNLLVGAVVGGP++++DAFPDARA FQQSEPT
+Sbjct  411  SSLPSVAAHPARIGCKAGAAYYSSPAPNPNLLVGAVVGGPTDNSDAFPDARAAFQQSEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYINAPLMG  479
+
+
+>TR:A0A1D6CZR1_WHEAT A0A1D6CZR1 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=499
+
+ Score = 111 bits (277),  Expect = 3e-28
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  413  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLLG  481
+
+
+>TR:A0A0E0LA44_ORYPU A0A0E0LA44 Endoglucanase OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=501
+
+ Score = 111 bits (277),  Expect = 3e-28
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAGA  YAS +PNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  414  SSLPSVAAHPARIGCKAGATYYASASPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  473
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  474  TYINAPLLG  482
+
+
+>TR:M1QRZ0_HORVV M1QRZ0 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+GN=Cel8 PE=2 SV=1
+Length=502
+
+ Score = 111 bits (277),  Expect = 3e-28
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  416  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  475
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  476  TYINAPLLG  484
+
+
+>TR:F2E305_HORVV F2E305 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=503
+
+ Score = 111 bits (277),  Expect = 3e-28
+ Identities = 55/69 (80%), Positives = 59/69 (86%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  417  SSLPSVSAHPARIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLLG  485
+
+
+>SP:GUN17_ORYSJ Q652F9 Endoglucanase 17 OS=Oryza sativa subsp. japonica OX=39947 
+GN=GLU13 PE=2 SV=1
+Length=497
+
+ Score = 110 bits (276),  Expect = 3e-28
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPAQIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:A0A0E0PVZ9_ORYRU A0A0E0PVZ9 Endoglucanase OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=497
+
+ Score = 110 bits (276),  Expect = 3e-28
+ Identities = 54/69 (78%), Positives = 60/69 (87%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I CKAGA  YAS APNPNLLVGAVVGGPSN++DAFPDARAVFQQSEPT
+Sbjct  410  SSLPSVAAHPAQIGCKAGATYYASAAPNPNLLVGAVVGGPSNTSDAFPDARAVFQQSEPT  469
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  470  TYINAPLLG  478
+
+
+>TR:A0A287UNU3_HORVV A0A287UNU3 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=497
+
+ Score = 110 bits (275),  Expect = 5e-28
+ Identities = 53/69 (77%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YA+ APNPNLLVGAVVGGP+++TDAFPDARAVFQQSEPT
+Sbjct  412  SSIPSVAAHPARIGCKAGAAYYATAAPNPNLLVGAVVGGPTDATDAFPDARAVFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLMG  480
+
+
+>TR:A0A287UNT0_HORVV A0A287UNT0 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=497
+
+ Score = 110 bits (275),  Expect = 5e-28
+ Identities = 53/69 (77%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YA+ APNPNLLVGAVVGGP+++TDAFPDARAVFQQSEPT
+Sbjct  412  SSIPSVAAHPARIGCKAGAAYYATAAPNPNLLVGAVVGGPTDATDAFPDARAVFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLMG  480
+
+
+>TR:F2CSR5_HORVV F2CSR5 Endoglucanase (Fragment) OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=2 SV=1
+Length=516
+
+ Score = 110 bits (275),  Expect = 5e-28
+ Identities = 53/69 (77%), Positives = 61/69 (88%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AHPARI CKAGAA YA+ APNPNLLVGAVVGGP+++TDAFPDARAVFQQSEPT
+Sbjct  431  SSIPSVAAHPARIGCKAGAAYYATAAPNPNLLVGAVVGGPTDATDAFPDARAVFQQSEPT  490
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  491  TYINAPLMG  499
+
+
+>TR:A0A1D6CF58_WHEAT A0A1D6CF58 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=499
+
+ Score = 109 bits (273),  Expect = 9e-28
+ Identities = 54/69 (78%), Positives = 58/69 (84%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAG A Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  413  SSLPSVSAHPARIGCKAGTAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLLG  481
+
+
+>TR:A0A1D6BTC4_WHEAT A0A1D6BTC4 Endoglucanase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=503
+
+ Score = 108 bits (269),  Expect = 3e-27
+ Identities = 54/69 (78%), Positives = 58/69 (84%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPA I CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  417  SSLPSVSAHPAWIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLLG  485
+
+
+>TR:R7WDQ2_AEGTA R7WDQ2 Endoglucanase OS=Aegilops tauschii OX=37682 GN=F775_26113 
+PE=3 SV=1
+Length=507
+
+ Score = 107 bits (266),  Expect = 9e-27
+ Identities = 53/69 (77%), Positives = 58/69 (84%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAH +RI CKAGAA Y S APNPNLLVGAVVGGPSN++D FPDARAVFQQSEPT
+Sbjct  421  SSLPSVSAHASRIGCKAGAAYYGSSAPNPNLLVGAVVGGPSNTSDNFPDARAVFQQSEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLLG  489
+
+
+>TR:A0A199VQT8_ANACO A0A199VQT8 Endoglucanase OS=Ananas comosus OX=4615 GN=ACMD2_00011 
+PE=3 SV=1
+Length=477
+
+ Score = 106 bits (265),  Expect = 1e-26
+ Identities = 51/69 (74%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHPARI CKAG A Y SP PNPNLLVGAVVGGP+N TDAFPD+R VFQQSEPT
+Sbjct  392  SSLPSIRAHPARIGCKAGTAYYLSPQPNPNLLVGAVVGGPTNITDAFPDSRPVFQQSEPT  451
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  452  TYINAPLLG  460
+
+
+>TR:A0A0S3QWN1_PHAAN A0A0S3QWN1 Endoglucanase OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.01G018900 PE=3 SV=1
+Length=151
+
+ Score = 99.4 bits (246),  Expect = 3e-26
+ Identities = 46/69 (67%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPARI CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  75   SSLPSVAVHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  134
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  135  TYINAPLVG  143
+
+
+>TR:A0A1D6HJH3_MAIZE A0A1D6HJH3 Endoglucanase OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d017949 
+PE=3 SV=1
+Length=485
+
+ Score = 105 bits (261),  Expect = 4e-26
+ Identities = 50/67 (75%), Positives = 57/67 (85%), Gaps = 0/67 (0%)
+
+Query  4    LPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPTSD  63
+            + SV+AHPARI CKAGAA Y SPAPNPNLLVGAVVGGP++ +DAFPDARAVFQQSEPT+ 
+Sbjct  402  MSSVAAHPARIGCKAGAAYYTSPAPNPNLLVGAVVGGPTDDSDAFPDARAVFQQSEPTTY  461
+
+Query  64   RNKSVCG  70
+             N  + G
+Sbjct  462  INAPLMG  468
+
+
+>TR:B6TRZ3_MAIZE B6TRZ3 Endoglucanase 1 OS=Zea mays OX=4577 PE=2 SV=1
+Length=507
+
+ Score = 104 bits (260),  Expect = 6e-26
+ Identities = 50/67 (75%), Positives = 56/67 (84%), Gaps = 0/67 (0%)
+
+Query  4    LPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPTSD  63
+            LPSV+AHPARI CKAGAA Y SPAPNPNL VGAVVGGP++ +DAFPDARAVFQQS PT+ 
+Sbjct  424  LPSVAAHPARIGCKAGAAYYTSPAPNPNLXVGAVVGGPTDDSDAFPDARAVFQQSXPTTY  483
+
+Query  64   RNKSVCG  70
+             N  + G
+Sbjct  484  INAPLMG  490
+
+
+>TR:A0A2I0B4K7_9ASPA A0A2I0B4K7 Endoglucanase OS=Apostasia shenzhenica OX=1088818 
+GN=GLU13 PE=3 SV=1
+Length=494
+
+ Score = 104 bits (259),  Expect = 8e-26
+ Identities = 48/69 (70%), Positives = 58/69 (84%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHP+RI CKAG+  Y SP PNPNLLVGAVVGGP+N++D+FPDAR +FQQSEPT
+Sbjct  415  SSLPSVAAHPSRIGCKAGSTYYLSPNPNPNLLVGAVVGGPTNASDSFPDARPIFQQSEPT  474
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  475  TYINAPLVG  483
+
+
+>TR:M0SW25_MUSAM M0SW25 Endoglucanase OS=Musa acuminata subsp. malaccensis OX=214687 
+PE=3 SV=1
+Length=499
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 51/83 (61%), Positives = 60/83 (72%), Gaps = 5/83 (6%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HP RI CKAG A Y SP+PNPN+LVGAVVGGP+N++DAFPDAR  FQQSEPT
+Sbjct  414  SSLPSVKVHPGRIGCKAGTAYYLSPSPNPNVLVGAVVGGPTNTSDAFPDARPAFQQSEPT  473
+
+Query  62   SDRNKSVCGWSLW-----DCNTW  79
+            +  N  + G   +     D N+W
+Sbjct  474  TYINAPLLGLLAFFSAHPDPNSW  496
+
+
+>TR:A0A2P5EPF8_9ROSA A0A2P5EPF8 Endoglucanase OS=Trema orientalis OX=63057 GN=TorRG33x02_168470 
+PE=3 SV=1
+Length=114
+
+ Score = 96.3 bits (238),  Expect = 2e-25
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPNLLVGAVVGGP NSTDAFPD+R  FQ+SEPT
+Sbjct  38   SSLPSVQAHPAHIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSTDAFPDSRPYFQESEPT  96
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  97   TYINAPLVG  105
+
+
+>TR:V7CSZ7_PHAVU V7CSZ7 Endoglucanase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_002G318800g 
+PE=3 SV=1
+Length=523
+
+ Score = 103 bits (256),  Expect = 2e-25
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPARI CKAG+  + SP PNPNLLVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  446  SSLPSVSAHPARIGCKAGSRYFFSPNPNPNLLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  505
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  506  TYINAPLVG  514
+
+
+>TR:A0A2K3MTZ2_TRIPR A0A2K3MTZ2 Endoglucanase OS=Trifolium pratense OX=57577 GN=L195_g017466 
+PE=3 SV=1
+Length=197
+
+ Score = 97.8 bits (242),  Expect = 4e-25
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA I CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  +QQSEPT
+Sbjct  120  SSLPSVAAHPAHIGCKAGSQYFFSPNPNPNVLVGAVVGGPTNTTDSFPDSRPFYQQSEPT  179
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  180  TYINAPLVG  188
+
+
+>TR:A0A2G5C5P2_AQUCA A0A2G5C5P2 Endoglucanase OS=Aquilegia coerulea OX=218851 GN=AQUCO_09100045v1 
+PE=3 SV=1
+Length=407
+
+ Score = 101 bits (252),  Expect = 4e-25
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHPARIACKAG+  + SP PNPNLLVGAVVGGP+N +DAFPD+R  FQQSEPT
+Sbjct  328  SSLPSIKAHPARIACKAGSRYFLSPDPNPNLLVGAVVGGPTNISDAFPDSRPYFQQSEPT  387
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  388  TYINAPLVG  396
+
+
+>TR:A0A151T3C7_CAJCA A0A151T3C7 Endoglucanase OS=Cajanus cajan OX=3821 GN=KK1_016044 
+PE=3 SV=1
+Length=489
+
+ Score = 102 bits (253),  Expect = 5e-25
+ Identities = 48/69 (70%), Positives = 57/69 (83%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  + SP PNPN+LVGAVVGGPSN+TD+FPD+R  FQQSEPT
+Sbjct  412  SSLPSVAAHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGPSNNTDSFPDSRPFFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:A0A2G5C5N4_AQUCA A0A2G5C5N4 Endoglucanase OS=Aquilegia coerulea OX=218851 GN=AQUCO_09100045v1 
+PE=3 SV=1
+Length=506
+
+ Score = 101 bits (252),  Expect = 8e-25
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHPARIACKAG+  + SP PNPNLLVGAVVGGP+N +DAFPD+R  FQQSEPT
+Sbjct  427  SSLPSIKAHPARIACKAGSRYFLSPDPNPNLLVGAVVGGPTNISDAFPDSRPYFQQSEPT  486
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  487  TYINAPLVG  495
+
+
+>TR:A0A2I0WWD0_9ASPA A0A2I0WWD0 Endoglucanase OS=Dendrobium catenatum OX=906689 GN=GLU13 
+PE=3 SV=1
+Length=517
+
+ Score = 101 bits (252),  Expect = 8e-25
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHP RI CKAG A Y SP PNPNLL+GAVVGGP+N +D FPDAR +FQQSEPT
+Sbjct  438  SSLPSLEAHPGRIGCKAGGAYYLSPKPNPNLLIGAVVGGPTNISDIFPDARPIFQQSEPT  497
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  498  TYINAPLVG  506
+
+
+>TR:I1KQ87_SOYBN I1KQ87 Endoglucanase OS=Glycine max OX=3847 GN=100802662 PE=3 
+SV=1
+Length=491
+
+ Score = 100 bits (249),  Expect = 2e-24
+ Identities = 47/69 (68%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA I CKAG+  Y SP PNPN+LVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  414  SSLPSVAAHPAHIGCKAGSRYYFSPNPNPNVLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  473
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  474  TYINAPLVG  482
+
+
+>TR:A0A1S3UM24_VIGRR A0A1S3UM24 Endoglucanase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106766804 PE=3 SV=1
+Length=490
+
+ Score = 99.4 bits (246),  Expect = 5e-24
+ Identities = 46/69 (67%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPARI CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  413  SSLPSVAVHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLVG  481
+
+
+>TR:I1K5N5_SOYBN I1K5N5 Endoglucanase OS=Glycine max OX=3847 GN=100804372 PE=3 
+SV=1
+Length=492
+
+ Score = 99.4 bits (246),  Expect = 5e-24
+ Identities = 46/69 (67%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA I CKAG+  Y SP PNPN+L+GAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  415  SSLPSVAAHPAHIGCKAGSRYYFSPNPNPNVLLGAVVGGPTNNTDSFPDSRPFFQQSEPT  474
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  475  TYINAPLVG  483
+
+
+>TR:A0A1D1ZBC8_9ARAE A0A1D1ZBC8 Endoglucanase (Fragment) OS=Anthurium amnicola OX=1678845 
+GN=CEL1_3 PE=3 SV=1
+Length=209
+
+ Score = 95.1 bits (235),  Expect = 6e-24
+ Identities = 48/69 (70%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HPARI CKAG+  Y S  PNPNLLVGAVVGGP N+TD FPDAR VFQQSEPT
+Sbjct  131  SSLPSLKTHPARIGCKAGSRYYLSQDPNPNLLVGAVVGGP-NTTDLFPDARPVFQQSEPT  189
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  190  TYINAPLVG  198
+
+
+>TR:A0A022QZM7_ERYGU A0A022QZM7 Endoglucanase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a005046mg 
+PE=3 SV=1
+Length=499
+
+ Score = 99.0 bits (245),  Expect = 7e-24
+ Identities = 49/69 (71%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARIACKAG+  Y SP PNPN+LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  423  SSLPSVDAHPARIACKAGSRYYMSPNPNPNILVGAVVGGP-NSSDAFPDSRPYFQESEPT  481
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  482  TYINAPLVG  490
+
+
+>TR:A0A0S3QWW3_PHAAN A0A0S3QWW3 Endoglucanase OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.01G019100 PE=3 SV=1
+Length=490
+
+ Score = 98.2 bits (243),  Expect = 1e-23
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPARI CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  413  SSLPSLAVHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLVG  481
+
+
+>TR:G7LAH3_MEDTR G7LAH3 Endoglucanase OS=Medicago truncatula OX=3880 GN=11410130 
+PE=3 SV=1
+Length=494
+
+ Score = 98.2 bits (243),  Expect = 1e-23
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPA I CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  +QQSEPT
+Sbjct  417  SSIPSVSAHPAHIGCKAGSQYFFSPNPNPNVLVGAVVGGPTNTTDSFPDSRPFYQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLVG  485
+
+
+>TR:A0A2H3Z701_PHODC A0A2H3Z701 Endoglucanase OS=Phoenix dactylifera OX=42345 GN=LOC103721124 
+PE=3 SV=1
+Length=498
+
+ Score = 98.2 bits (243),  Expect = 1e-23
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP +I CKAG   Y S APNPN LVGAVVGGP+N++DAFPD+R VFQQSEPT
+Sbjct  414  SSLPSVRAHPGKIGCKAGTKYYLSSAPNPNELVGAVVGGPTNASDAFPDSRPVFQQSEPT  473
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  474  TYINAPLLG  482
+
+
+>TR:A0A0M4MAX6_9ROSA A0A0M4MAX6 Endoglucanase OS=Pyrus x bretschneideri OX=225117 
+GN=CEL PE=2 SV=1
+Length=401
+
+ Score = 97.4 bits (241),  Expect = 1e-23
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R+ FQ+SEPT
+Sbjct  325  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRSFFQESEPT  383
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  384  TYINAPLVG  392
+
+
+>TR:A0A0L9THG2_PHAAN A0A0L9THG2 Endoglucanase OS=Phaseolus angularis OX=3914 GN=LR48_Vigan847s000100 
+PE=3 SV=1
+Length=617
+
+ Score = 98.2 bits (243),  Expect = 2e-23
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPARI CKAG+  + SP PNPN+LVGAVVGGP+N+TD+FPD+R  FQQSEPT
+Sbjct  540  SSLPSLAVHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGPTNNTDSFPDSRPFFQQSEPT  599
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  600  TYINAPLVG  608
+
+
+>TR:A0A2H3YUZ1_PHODC A0A2H3YUZ1 Endoglucanase OS=Phoenix dactylifera OX=42345 GN=LOC103717345 
+PE=3 SV=1
+Length=499
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AH ++I CK G   Y SPAPNPN+LVGAVVGGP+N +DAFPDAR VFQQSEPT
+Sbjct  416  SSLPSVRAHRSKIGCKEGTKYYLSPAPNPNVLVGAVVGGPTNISDAFPDARPVFQQSEPT  475
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  476  TYINAPLLG  484
+
+
+>TR:A0A2N9ETW4_FAGSY A0A2N9ETW4 Endoglucanase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS6022 
+PE=3 SV=1
+Length=499
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 49/69 (71%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARIACKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  423  SSLPSVLAHPARIACKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRPFFQESEPT  481
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  482  TYINAPLVG  490
+
+
+>TR:A0A075IJ36_9ROSA A0A075IJ36 Endoglucanase OS=Pyrus x bretschneideri OX=225117 
+GN=EG4 PE=2 SV=1
+Length=511
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 48/69 (70%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R+ FQ+SEPT
+Sbjct  435  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRSFFQESEPT  493
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  494  TYINAPLVG  502
+
+
+>TR:A0A1R3KYU2_9ROSI A0A1R3KYU2 Endoglucanase OS=Corchorus olitorius OX=93759 GN=COLO4_03348 
+PE=3 SV=1
+Length=497
+
+ Score = 96.7 bits (239),  Expect = 5e-23
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  Y SP PNPN+LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVGAHPARIGCKAGSRYYLSPNPNPNILVGAVVGGP-NVTDAFPDSRPYFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A1R3GRB5_COCAP A0A1R3GRB5 Endoglucanase OS=Corchorus capsularis OX=210143 GN=CCACVL1_23970 
+PE=3 SV=1
+Length=497
+
+ Score = 96.7 bits (239),  Expect = 5e-23
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  Y SP PNPN+LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVGAHPARIGCKAGSRYYLSPNPNPNILVGAVVGGP-NVTDAFPDSRPYFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A175YPZ5_DAUCA A0A175YPZ5 Endoglucanase OS=Daucus carota subsp. sativus OX=79200 
+GN=DCAR_026792 PE=3 SV=1
+Length=489
+
+ Score = 96.3 bits (238),  Expect = 7e-23
+ Identities = 48/69 (70%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  412  SSLPSVRAHPARIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRPFFQESEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYINAPLVG  479
+
+
+>TR:A0A2P5RXU1_GOSBA A0A2P5RXU1 Endoglucanase OS=Gossypium barbadense OX=3634 GN=GOBAR_DD11459 
+PE=3 SV=1
+Length=495
+
+ Score = 96.3 bits (238),  Expect = 7e-23
+ Identities = 47/69 (68%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP+PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGSRYYLSPSPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A0D2MCB2_GOSRA A0A0D2MCB2 Endoglucanase OS=Gossypium raimondii OX=29730 GN=B456_002G175700 
+PE=3 SV=1
+Length=495
+
+ Score = 96.3 bits (238),  Expect = 7e-23
+ Identities = 47/69 (68%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP+PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGSRYYLSPSPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A068EXK3_GOSHI A0A068EXK3 Endoglucanase OS=Gossypium hirsutum OX=3635 PE=2 SV=1
+Length=495
+
+ Score = 96.3 bits (238),  Expect = 7e-23
+ Identities = 47/69 (68%), Positives = 56/69 (81%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP+PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGSRYYLSPSPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A2P5AZI8_PARAD A0A2P5AZI8 Endoglucanase OS=Parasponia andersonii OX=3476 GN=PanWU01x14_285120 
+PE=3 SV=1
+Length=530
+
+ Score = 96.3 bits (238),  Expect = 7e-23
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPNLLVGAVVGGP NSTDAFPD+R  FQ+SEPT
+Sbjct  454  SSLPSVQAHPAHIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSTDAFPDSRPYFQESEPT  512
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  513  TYINAPLVG  521
+
+
+>TR:A0A1U8JS32_GOSHI A0A1U8JS32 Endoglucanase OS=Gossypium hirsutum OX=3635 GN=LOC107909898 
+PE=3 SV=1
+Length=486
+
+ Score = 95.9 bits (237),  Expect = 9e-23
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG   Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  410  SSLPSVAAHPARIGCKAGTRYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  468
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  469  TYINAPLVG  477
+
+
+>TR:A0A0D2PTW1_GOSRA A0A0D2PTW1 Endoglucanase OS=Gossypium raimondii OX=29730 GN=B456_005G160300 
+PE=3 SV=1
+Length=495
+
+ Score = 95.9 bits (237),  Expect = 9e-23
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG   Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGTRYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A1U8KUT6_GOSHI A0A1U8KUT6 Endoglucanase OS=Gossypium hirsutum OX=3635 GN=LOC107920906 
+PE=3 SV=1
+Length=495
+
+ Score = 95.5 bits (236),  Expect = 1e-22
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGSRYYVSPNPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A0B0P0G6_GOSAR A0A0B0P0G6 Endoglucanase OS=Gossypium arboreum OX=29729 GN=F383_08797 
+PE=3 SV=1
+Length=495
+
+ Score = 95.5 bits (236),  Expect = 1e-22
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGSRYYVSPNPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A2P5X9T6_GOSBA A0A2P5X9T6 Endoglucanase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA20574 
+PE=3 SV=1
+Length=515
+
+ Score = 95.5 bits (236),  Expect = 1e-22
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG+  Y SP PNPNLL+GAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  439  SSLPSVAAHPARIGCKAGSRYYVSPNPNPNLLLGAVVGGP-NVSDAFPDSRPYFQESEPT  497
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  498  TYINAPLVG  506
+
+
+>TR:A0A2P5QIR9_GOSBA A0A2P5QIR9 Endoglucanase OS=Gossypium barbadense OX=3634 GN=GOBAR_DD28647 
+PE=3 SV=1
+Length=495
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG   Y SP PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGTRYYLSPNPNPNILVGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A1U8HNY6_GOSHI A0A1U8HNY6 Endoglucanase OS=Gossypium hirsutum OX=3635 GN=LOC107886297 
+PE=3 SV=1
+Length=495
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG   Y SP PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHPARIGCKAGTRYYLSPNPNPNILVGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A2P5VWA1_GOSBA A0A2P5VWA1 Endoglucanase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA37607 
+PE=3 SV=1
+Length=498
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CKAG   Y SP PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  422  SSLPSVAAHPARIGCKAGTRYYLSPNPNPNILVGAVVGGP-NVSDAFPDSRPYFQESEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLVG  489
+
+
+>TR:W9RH68_9ROSA W9RH68 Endoglucanase OS=Morus notabilis OX=981085 GN=L484_011999 
+PE=3 SV=1
+Length=498
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPARI CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  422  SSLPSVQTHPARIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRPYFQESEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLVG  489
+
+
+>TR:A0A1U8B546_NELNU A0A1U8B546 Endoglucanase OS=Nelumbo nucifera OX=4432 GN=LOC104607353 
+PE=3 SV=1
+Length=500
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN+LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  424  SSLPSVRAHPARIGCKAGSRYFLSPNPNPNVLVGAVVGGP-NSSDAFPDSRPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLVG  491
+
+
+>TR:A0A1S3CU22_CUCME A0A1S3CU22 Endoglucanase OS=Cucumis melo OX=3656 GN=LOC103504547 
+PE=3 SV=1
+Length=489
+
+ Score = 94.7 bits (234),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN+LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  413  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNVLVGAVVGGP-NVTDAFPDSRPFFQESEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:A0A1S2YDW3_CICAR A0A1S2YDW3 Endoglucanase OS=Cicer arietinum OX=3827 GN=LOC101503965 
+PE=3 SV=1
+Length=494
+
+ Score = 94.7 bits (234),  Expect = 2e-22
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 0/69 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVSAHPA I CKAG+  + S  PNPN LVGAVVGGP+N+TD+FPD+R  +QQSEPT
+Sbjct  417  SSLPSVSAHPAHIGCKAGSQYFFSQNPNPNKLVGAVVGGPTNTTDSFPDSRPFYQQSEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLIG  485
+
+
+>TR:A0A061E8T0_THECC A0A061E8T0 Endoglucanase OS=Theobroma cacao OX=3641 GN=TCM_010986 
+PE=3 SV=1
+Length=425
+
+ Score = 94.4 bits (233),  Expect = 2e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP RI CKAG++ Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  349  SSLPSVGAHPDRIGCKAGSSYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  407
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  408  TYINAPLVG  416
+
+
+>TR:A0A061E9K0_THECC A0A061E9K0 Endoglucanase OS=Theobroma cacao OX=3641 GN=TCM_010986 
+PE=3 SV=1
+Length=495
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP RI CKAG++ Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVGAHPDRIGCKAGSSYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:Q5K6L2_FRAAN Q5K6L2 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFMSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:O81403_FRAAN O81403 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFMSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q5K6K7_FRAAN Q5K6K7 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q5K6K6_FRAAN Q5K6K6 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q5K6K8_FRAAN Q5K6K8 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q9ZTL0_FRAAN Q9ZTL0 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q9SBT6_FRAAN Q9SBT6 Endoglucanase OS=Fragaria ananassa OX=3747 GN=eg1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A078FF05_BRANA A0A078FF05 Endoglucanase OS=Brassica napus OX=3708 GN=BnaC06g31870D 
+PE=3 SV=1
+Length=499
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 48/69 (70%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARIACK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIACKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A200QP82_9MAGN A0A200QP82 Endoglucanase OS=Macleaya cordata OX=56857 GN=BVC80_1779g10 
+PE=3 SV=1
+Length=499
+
+ Score = 94.4 bits (233),  Expect = 3e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPNLL+GAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  422  SSLPSVKAHPAHIGCKAGSRYFLSPNPNPNLLIGAVVGGP-NSSDAFPDSRPFFQESEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLVG  489
+
+
+>TR:W1NEF7_AMBTC W1NEF7 Endoglucanase OS=Amborella trichopoda OX=13333 GN=AMTR_s00010p00165730 
+PE=3 SV=1
+Length=485
+
+ Score = 94.0 bits (232),  Expect = 4e-22
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+++HPARI CKAG   Y +P PNPNLLVGAVVGGP N TD+FPD+R +FQ SEPT
+Sbjct  409  SSLPSLTSHPARIGCKAGTRYYLAPGPNPNLLVGAVVGGP-NRTDSFPDSRQIFQLSEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYINAPLVG  476
+
+
+>TR:Q5K6L3_FRAAN Q5K6L3 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSHYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q9ZTS0_FRAAN Q9ZTS0 Endoglucanase OS=Fragaria ananassa OX=3747 PE=2 SV=1
+Length=496
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSHYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q5K6L5_FRAAN Q5K6L5 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSHYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q5K6L0_FRAAN Q5K6L0 Endoglucanase OS=Fragaria ananassa OX=3747 GN=Cel1 PE=2 
+SV=1
+Length=496
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSHYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A251R7T4_PRUPE A0A251R7T4 Endoglucanase OS=Prunus persica OX=3760 GN=PRUPE_1G331000 
+PE=3 SV=1
+Length=406
+
+ Score = 93.2 bits (230),  Expect = 6e-22
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  330  SSLPSVQVHPAHIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRPFFQESEPT  388
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  389  TYINAPLVG  397
+
+
+>TR:A0A087HH94_ARAAL A0A087HH94 Endoglucanase OS=Arabis alpina OX=50452 GN=AALP_AA2G137600 
+PE=3 SV=1
+Length=493
+
+ Score = 93.6 bits (231),  Expect = 6e-22
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV AHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQQSEPT
+Sbjct  414  SSVPSVQAHPARIQCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFQQSEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLVG  481
+
+
+>TR:A0A103XVK3_CYNCS A0A103XVK3 Endoglucanase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_000217 PE=3 SV=1
+Length=497
+
+ Score = 93.6 bits (231),  Expect = 6e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPARI CKAG+  + SP PNPN+LVGAVVGGP N+TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVRVHPARIGCKAGSRYFFSPNPNPNVLVGAVVGGP-NTTDAFPDSRPFFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A251T3T5_HELAN A0A251T3T5 Endoglucanase OS=Helianthus annuus OX=4232 GN=ATGH9B1 
+PE=3 SV=1
+Length=497
+
+ Score = 93.6 bits (231),  Expect = 6e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPN+LVGAVVGGP N+TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVRAHPAHIGCKAGSRYFLSPDPNPNVLVGAVVGGP-NTTDAFPDSRPFFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A2R6PH04_ACTCH A0A2R6PH04 Endoglucanase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc28394 PE=3 SV=1
+Length=500
+
+ Score = 93.6 bits (231),  Expect = 6e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  Y SP PNPN+LVGAVVGGP NS+D+FPD+R  FQ+SEPT
+Sbjct  424  SSLPSVRAHPAHIGCKAGSRYYLSPNPNPNVLVGAVVGGP-NSSDSFPDSRPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLVG  491
+
+
+>TR:E9LV98_9ROSA E9LV98 Endoglucanase (Fragment) OS=Fragaria chiloensis OX=101007 
+GN=EG1 PE=2 SV=1
+Length=388
+
+ Score = 92.8 bits (229),  Expect = 7e-22
+ Identities = 45/61 (74%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  328  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NSSDAFPDSRPYFQESEPT  386
+
+Query  62   S  62
+            +
+Sbjct  387  T  387
+
+
+>TR:A0A0A0KRH9_CUCSA A0A0A0KRH9 Endoglucanase OS=Cucumis sativus OX=3659 GN=Csa_5G567300 
+PE=3 SV=1
+Length=489
+
+ Score = 93.2 bits (230),  Expect = 8e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHPARI CKAG+  + SP PNPN+LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  413  SSLPSLRAHPARIGCKAGSRYFLSPNPNPNVLVGAVVGGP-NVTDAFPDSRPFFQESEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:B9SP60_RICCO B9SP60 Endoglucanase OS=Ricinus communis OX=3988 GN=RCOM_0628760 
+PE=3 SV=1
+Length=492
+
+ Score = 93.2 bits (230),  Expect = 8e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  416  SSLPSVQAHPARIGCKAGSKYFLSPNPNPNVLVGAVVGGP-NVSDAFPDSRPFFQESEPT  474
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  475  TYINAPLVG  483
+
+
+>TR:A0A067KPL5_JATCU A0A067KPL5 Endoglucanase OS=Jatropha curcas OX=180498 GN=JCGZ_04735 
+PE=3 SV=1
+Length=496
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 46/69 (67%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIGCKAGSRYFLSPNPNPNVLVGAVVGGP-NVSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A2P4N1I8_QUESU A0A2P4N1I8 Endoglucanase OS=Quercus suber OX=58331 GN=CFP56_30346 
+PE=3 SV=1
+Length=498
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 47/69 (68%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA IACKAG+  + SP PNPNLLVGAVVGGP NS+D FPD+R  FQ+SEPT
+Sbjct  422  SSLPSVLAHPAHIACKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDYFPDSRPYFQESEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLVG  489
+
+
+>TR:M5XB41_PRUPE M5XB41 Endoglucanase OS=Prunus persica OX=3760 GN=PRUPE_1G331000 
+PE=3 SV=1
+Length=498
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I CKAG+  + SP PNPNLLVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  422  SSLPSVQVHPAHIGCKAGSRYFLSPNPNPNLLVGAVVGGP-NSSDAFPDSRPFFQESEPT  480
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  481  TYINAPLVG  489
+
+
+>TR:A0A2G9HW57_9LAMI A0A2G9HW57 Endoglucanase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_05552 PE=3 SV=1
+Length=500
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ AHP  I CKAG+  + SP PNPNLLVGAVVGGP NSTDAFPD+R  FQ+SEPT
+Sbjct  424  SSLPSLDAHPGHIGCKAGSHYFLSPNPNPNLLVGAVVGGP-NSTDAFPDSRPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYINAPLVG  491
+
+
+>TR:A0A1J3DJU6_NOCCA A0A1J3DJU6 Endoglucanase OS=Noccaea caerulescens OX=107243 GN=GA_TR4926_c0_g1_i1_g.16217 
+PE=3 SV=1
+Length=501
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFTQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A1J3JEL1_NOCCA A0A1J3JEL1 Endoglucanase OS=Noccaea caerulescens OX=107243 GN=MP_TR23594_c0_g2_i1_g.68885 
+PE=3 SV=1
+Length=501
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFTQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A1J3I0N3_NOCCA A0A1J3I0N3 Endoglucanase OS=Noccaea caerulescens OX=107243 GN=LC_TR12987_c0_g1_i1_g.45169 
+PE=3 SV=1
+Length=501
+
+ Score = 93.2 bits (230),  Expect = 9e-22
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFTQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A0D3CXF3_BRAOL A0A0D3CXF3 Endoglucanase OS=Brassica oleracea var. oleracea OX=109376 
+GN=106296254 PE=3 SV=1
+Length=488
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  409  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYINAPLVG  476
+
+
+>TR:M4CIB3_BRARP M4CIB3 Endoglucanase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=488
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  409  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYINAPLVG  476
+
+
+>TR:A0A0D3CZN3_BRAOL A0A0D3CZN3 Endoglucanase OS=Brassica oleracea var. oleracea OX=109376 
+GN=106301113 PE=3 SV=1
+Length=499
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:M4DI65_BRARP M4DI65 Endoglucanase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=499
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  420  SSVPSVSAHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A059D7Q0_EUCGR A0A059D7Q0 Endoglucanase OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_B02944 
+PE=3 SV=1
+Length=501
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CKAG+  + SP PNPN LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  425  SSLPSVRAHPARIGCKAGSRYFLSPDPNPNPLVGAVVGGP-NVTDAFPDSRPFFQESEPT  483
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  484  TYINAPLVG  492
+
+
+>TR:A0A2U1KWD0_ARTAN A0A2U1KWD0 Glycoside hydrolase, family 9 OS=Artemisia annua OX=35608 
+GN=CTI12_AA557630 PE=4 SV=1
+Length=434
+
+ Score = 92.4 bits (228),  Expect = 1e-21
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPARI CKAG+  + SP PNPN+LVGAVVGGP N+TDAFPD+R  FQ++EPT
+Sbjct  358  SSLPSVRVHPARIGCKAGSQYFFSPDPNPNVLVGAVVGGP-NTTDAFPDSRPFFQETEPT  416
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  417  TYINAPLVG  425
+
+
+>TR:I1IEH2_BRADI I1IEH2 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=BRADI_3g56870v3 PE=3 SV=1
+Length=306
+
+ Score = 90.9 bits (224),  Expect = 1e-21
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNS-TDAFPDARAVFQQSEP  60
+            SS+PSV+ HPAR+ CKAG A Y S  PNPNLLVGAVVGGP+++ +DA+  ARAVFQQSEP
+Sbjct  41   SSVPSVADHPARVECKAGTAYYTSNGPNPNLLVGAVVGGPNDACSDAYAHARAVFQQSEP  100
+
+Query  61   TSDRNKSVCG  70
+            T+  N ++ G
+Sbjct  101  TTYINAALIG  110
+
+
+>SP:GUN8_ARATH Q9CAC1 Endoglucanase 8 OS=Arabidopsis thaliana OX=3702 GN=CEL1 
+PE=2 SV=1
+Length=492
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHP+ I CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQQSEPT
+Sbjct  413  SSVPSVSAHPSHIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:R0IEE2_9BRAS R0IEE2 Endoglucanase OS=Capsella rubella OX=81985 GN=CARUB_v10020190mg 
+PE=3 SV=1
+Length=492
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHP+ I CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQQSEPT
+Sbjct  413  SSVPSVSAHPSHIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:A0A178W561_ARATH A0A178W561 Endoglucanase OS=Arabidopsis thaliana OX=3702 GN=AXX17_At1g64890 
+PE=3 SV=1
+Length=492
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 46/69 (67%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHP+ I CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQQSEPT
+Sbjct  413  SSVPSVSAHPSHIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:A0A2J6JWZ3_LACSA A0A2J6JWZ3 Endoglucanase OS=Lactuca sativa OX=4236 GN=LSAT_4X13220 
+PE=3 SV=1
+Length=494
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HPARI CKAG+  + SP PNPN+LVGAVVGGP N+TDAFPD+R  FQ+SEPT
+Sbjct  418  SSVPSVRVHPARIGCKAGSRYFFSPDPNPNVLVGAVVGGP-NTTDAFPDSRPFFQESEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLVG  485
+
+
+>TR:A0A2U1Q5F8_ARTAN A0A2U1Q5F8 Glycoside hydrolase, family 9 OS=Artemisia annua OX=35608 
+GN=CTI12_AA072320 PE=4 SV=1
+Length=908
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 54/69 (78%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPARI CKAG+  + SP PNPN+LVGAVVGGP N+TDAFPD+R  FQ++EPT
+Sbjct  832  SSLPSVRVHPARIGCKAGSQYFFSPDPNPNVLVGAVVGGP-NTTDAFPDSRPFFQETEPT  890
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  891  TYINAPLVG  899
+
+
+>TR:A0A068EWJ5_GOSHI A0A068EWJ5 Endoglucanase OS=Gossypium hirsutum OX=3635 PE=2 SV=1
+Length=495
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 47/69 (68%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AH ARI CKAG   Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  419  SSLPSVAAHLARIGCKAGTRYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A218WVY9_PUNGR A0A218WVY9 Endoglucanase OS=Punica granatum OX=22663 GN=CDL15_Pgr009213 
+PE=3 SV=1
+Length=499
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 46/69 (67%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP  I CKAG+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  423  SSLPSVHAHPTHIGCKAGSKYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPFFQESEPT  481
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  482  TYINAPLIG  490
+
+
+>TR:A0A1S3Y9K3_TOBAC A0A1S3Y9K3 Endoglucanase OS=Nicotiana tabacum OX=4097 GN=LOC107774012 
+PE=3 SV=1
+Length=500
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 45/69 (65%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  424  SSLPSVAAHPARIGCKGGSNYFLSPNPNPNRLIGAVVGGP-NITDSFPDARPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYVNAPLVG  491
+
+
+>TR:Q93WZ0_TOBAC Q93WZ0 Endoglucanase OS=Nicotiana tabacum OX=4097 GN=Cel2 PE=2 
+SV=1
+Length=500
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 45/69 (65%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  424  SSLPSVAAHPARIGCKGGSNYFLSPNPNPNRLIGAVVGGP-NITDSFPDARPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYVNAPLVG  491
+
+
+>TR:D7KYD5_ARALL D7KYD5 Endoglucanase OS=Arabidopsis lyrata subsp. lyrata OX=81972 
+GN=ARALYDRAFT_894888 PE=3 SV=1
+Length=492
+
+ Score = 90.9 bits (224),  Expect = 6e-21
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVS HP+ I CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  FQQSEPT
+Sbjct  413  SSVPSVSVHPSHIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFQQSEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLVG  480
+
+
+>TR:A0A2I4G1S0_9ROSI A0A2I4G1S0 Endoglucanase OS=Juglans regia OX=51240 GN=LOC109003965 
+PE=3 SV=1
+Length=496
+
+ Score = 90.9 bits (224),  Expect = 6e-21
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP  I CKAG+  + SP PNPN LVGAVVGGP NS+DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVGAHPVHIGCKAGSRYFLSPNPNPNQLVGAVVGGP-NSSDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A1Q3DG41_CEPFO A0A1Q3DG41 Endoglucanase OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_34671 
+PE=3 SV=1
+Length=496
+
+ Score = 90.5 bits (223),  Expect = 8e-21
+ Identities = 46/69 (67%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CK G+  Y SP PNPNLLVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVLAHPAHIDCKEGSRYYLSPNPNPNLLVGAVVGGP-NVSDAFPDSRPYFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:V4UBB4_9ROSI V4UBB4 Endoglucanase OS=Citrus clementina OX=85681 GN=CICLE_v10014994mg 
+PE=3 SV=1
+Length=497
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVQAHPAHIGCKAGSQYFLSPNPNPNVHVGAVVGGP-NVTDAFPDSRPYFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:V4JS97_EUTSA V4JS97 Endoglucanase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10018439mg 
+PE=3 SV=1
+Length=499
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVS HPARI CK G+  + SP PNPNLLVGAVVGGP N TDAFPD+R  F +SEPT
+Sbjct  420  SSVPSVSTHPARIGCKEGSRYFLSPNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:U7DZN5_POPTR U7DZN5 Endoglucanase (Fragment) OS=Populus trichocarpa OX=3694 
+GN=POPTR_0347s002202g PE=3 SV=1
+Length=199
+
+ Score = 86.3 bits (212),  Expect = 1e-20
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP  NPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  123  SSLPSVRAHPARIRCKEGSRYFLSPNANPNVHVGAVVGGP-NVTDAFPDSRPFFQESEPT  181
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  182  TYINAPLVG  190
+
+
+>TR:A0A078GDP6_BRANA A0A078GDP6 Endoglucanase OS=Brassica napus OX=3708 GN=BnaC06g24550D 
+PE=3 SV=1
+Length=488
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 46/69 (67%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSVSAHPARI CK G+  + S  PNPNLLVGAVVGGP N TDAFPD+R  F QSEPT
+Sbjct  409  SSVPSVSAHPARIGCKEGSRYFLSSNPNPNLLVGAVVGGP-NVTDAFPDSRPYFVQSEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYINAPLVG  476
+
+
+>TR:A0A0K9S1W0_SPIOL A0A0K9S1W0 Endoglucanase OS=Spinacia oleracea OX=3562 GN=SOVF_009160 
+PE=3 SV=1
+Length=493
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I CKAG+  + SP PNPN LVGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  417  SSLPSVHVHPAHIGCKAGSRYFLSPNPNPNKLVGAVVGGP-NVTDAFPDSRPYFQESEPT  475
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  476  TYINAPLVG  484
+
+
+>TR:A9P7X9_POPTR A9P7X9 Endoglucanase OS=Populus trichocarpa OX=3694 PE=2 SV=1
+Length=496
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP PNPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIRCKEGSRYFLSPNPNPNVHVGAVVGGP-NITDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:B9HJE2_POPTR B9HJE2 Endoglucanase OS=Populus trichocarpa OX=3694 GN=GH9B6 
+PE=2 SV=1
+Length=496
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP PNPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIRCKEGSRYFLSPNPNPNVHVGAVVGGP-NITDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:L0ASY8_POPTO L0ASY8 Endoglucanase OS=Populus tomentosa OX=118781 PE=2 SV=1
+Length=496
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP PNPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVQAHPARIRCKEGSRYFLSPNPNPNVHVGAVVGGP-NITDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A2H5Q2R8_CITUN A0A2H5Q2R8 Endoglucanase OS=Citrus unshiu OX=55188 GN=CUMW_190630 
+PE=3 SV=1
+Length=497
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG   + SP PNPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVQAHPAHIGCKAGGQYFLSPNPNPNVHVGAVVGGP-NVTDAFPDSRPYFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A1U7YQB7_NICSY A0A1U7YQB7 Endoglucanase OS=Nicotiana sylvestris OX=4096 GN=LOC104247162 
+PE=3 SV=1
+Length=500
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 44/69 (64%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  424  SSLPSVAAHPAQIGCKGGSNYFFSPNPNPNRLIGAVVGGP-NITDSFPDARPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYVNAPLVG  491
+
+
+>TR:A0A251RU50_HELAN A0A251RU50 Endoglucanase OS=Helianthus annuus OX=4232 GN=AtGH9B6 
+PE=3 SV=1
+Length=490
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/69 (61%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I C+AG+  + SP PNPN+L+GAVVGGP N+TDAFPD+R  FQ++EPT
+Sbjct  414  SSLPSVRVHPAHIGCQAGSRYFFSPDPNPNVLIGAVVGGP-NTTDAFPDSRPFFQETEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLVG  481
+
+
+>TR:A0A0R6MN04_HEVBR A0A0R6MN04 Endoglucanase OS=Hevea brasiliensis OX=3981 GN=Eg4 
+PE=2 SV=1
+Length=497
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 44/69 (64%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPA I CKAG+  + SP PNPN+ VGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVQAHPAHIGCKAGSRYFLSPNPNPNVHVGAVVGGP-NVSDAFPDSRPFFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A068TZM6_COFCA A0A068TZM6 Endoglucanase OS=Coffea canephora OX=49390 GN=GSCOC_T00032913001 
+PE=3 SV=1
+Length=500
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I CK G+  + SP PNPN LVGAVVGGP N+TDAFPD+R  FQ+SEPT
+Sbjct  424  SSLPSVRVHPAHIGCKEGSRYFLSPDPNPNPLVGAVVGGP-NTTDAFPDSRPFFQESEPT  482
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  483  TYVNAPLVG  491
+
+
+>TR:A0A0K9PS82_ZOSMR A0A0K9PS82 Endoglucanase OS=Zostera marina OX=29655 GN=ZOSMA_189G00510 
+PE=3 SV=1
+Length=508
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 43/69 (62%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP  I CK G+  Y S  PNPNLLVGAVVGGP N TDAFPD+R+ FQ+SEPT
+Sbjct  430  SSLPSIGTHPRHIGCKGGSVYYLSSNPNPNLLVGAVVGGP-NRTDAFPDSRSYFQESEPT  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A2G3BIU1_CAPCH A0A2G3BIU1 Endoglucanase OS=Capsicum chinense OX=80379 GN=BC332_22888 
+PE=3 SV=1
+Length=485
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 43/69 (62%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AH ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR+ FQ+SEPT
+Sbjct  409  SSLPSMAAHSARIGCKEGSRYFFSPNPNPNRLIGAVVGGP-NLTDSFPDARSFFQESEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYVNAPLVG  476
+
+
+>TR:Q96547_CAPAN Q96547 Endoglucanase OS=Capsicum annuum OX=4072 GN=ccel3 PE=2 
+SV=1
+Length=485
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 43/69 (62%), Positives = 53/69 (77%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AH ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR+ FQ+SEPT
+Sbjct  409  SSLPSMAAHSARIGCKEGSRYFFSPNPNPNRLIGAVVGGP-NLTDSFPDARSFFQESEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYVNAPLVG  476
+
+
+>TR:A0A0V0IAK4_SOLCH A0A0V0IAK4 Endoglucanase OS=Solanum chacoense OX=4108 PE=3 SV=1
+Length=336
+
+ Score = 86.7 bits (213),  Expect = 8e-20
+ Identities = 43/69 (62%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AH ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  259  SSVPSVAAHSARIGCKEGSHYFFSPNPNPNRLIGAVVGGP-NLTDSFPDARPFFQESEPT  317
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  318  TYVNAPLVG  326
+
+
+>TR:S8D1M9_9LAMI S8D1M9 Endoglucanase OS=Genlisea aurea OX=192259 GN=M569_01458 
+PE=3 SV=1
+Length=490
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHP RI CK G   Y S  PNPN+LVGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  414  SSLPSVAAHPWRIGCKDGTRYYLSQNPNPNVLVGAVVGGP-NCSDAFPDSRPFFQESEPT  472
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  473  TYINAPLVG  481
+
+
+>TR:A0A2C9UGL8_MANES A0A2C9UGL8 Endoglucanase OS=Manihot esculenta OX=3983 GN=MANES_15G132400 
+PE=3 SV=1
+Length=497
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 43/69 (62%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HPA I CKAG+  + SP PNPN+ VGAVVGGP N +DAFPD+R  FQ+SEPT
+Sbjct  421  SSLPSVKTHPAHIGCKAGSRYFLSPNPNPNVHVGAVVGGP-NVSDAFPDSRPFFQESEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A3AB30_ORYSJ A3AB30 Endoglucanase OS=Oryza sativa subsp. japonica OX=39947 
+GN=OsJ_08281 PE=3 SV=1
+Length=508
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 41/48 (85%), Positives = 44/48 (92%), Gaps = 0/48 (0%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFP  49
+            SSLPSV+AHPARI CK GAA YAS APNPNLLVGAVVGGPS++TDAFP
+Sbjct  423  SSLPSVAAHPARIGCKGGAAYYASAAPNPNLLVGAVVGGPSDATDAFP  470
+
+
+>TR:M1AHR1_SOLTU M1AHR1 Endoglucanase OS=Solanum tuberosum OX=4113 GN=102592181 
+PE=3 SV=1
+Length=489
+
+ Score = 86.7 bits (213),  Expect = 2e-19
+ Identities = 43/69 (62%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+AH ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  412  SSVPSVAAHSARIGCKEGSHYFFSPNPNPNRLIGAVVGGP-NLTDSFPDARPFFQESEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYVNAPLVG  479
+
+
+>TR:A0A2K1YS48_POPTR A0A2K1YS48 Endoglucanase OS=Populus trichocarpa OX=3694 GN=POPTR_010G109200v3 
+PE=3 SV=1
+Length=401
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP  NPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  325  SSLPSVRAHPARIRCKEGSRYFLSPNANPNVHVGAVVGGP-NVTDAFPDSRPFFQESEPT  383
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  384  TYINAPLVG  392
+
+
+>TR:A0A2G2VWZ9_CAPBA A0A2G2VWZ9 Endoglucanase OS=Capsicum baccatum OX=33114 GN=CQW23_21081 
+PE=3 SV=1
+Length=485
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 42/69 (61%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AH ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPD R+ FQ+SEPT
+Sbjct  409  SSLPSMAAHSARIGCKEGSRYFFSPNPNPNRLIGAVVGGP-NLTDSFPDVRSFFQESEPT  467
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  468  TYVNAPLVG  476
+
+
+>TR:L0AUH0_POPTO L0AUH0 Endoglucanase OS=Populus tomentosa OX=118781 PE=3 SV=1
+Length=496
+
+ Score = 86.3 bits (212),  Expect = 3e-19
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP  NPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVRAHPARIRCKEGSRYFLSPNANPNVHVGAVVGGP-NVTDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:A0A2K1YS53_POPTR A0A2K1YS53 Endoglucanase OS=Populus trichocarpa OX=3694 GN=POPTR_010G109200v3 
+PE=3 SV=1
+Length=496
+
+ Score = 86.3 bits (212),  Expect = 3e-19
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP  NPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVRAHPARIRCKEGSRYFLSPNANPNVHVGAVVGGP-NVTDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:K4EKV1_POPTR K4EKV1 Endoglucanase OS=Populus trichocarpa OX=3694 GN=GH9B7 
+PE=2 SV=1
+Length=496
+
+ Score = 86.3 bits (212),  Expect = 3e-19
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI CK G+  + SP  NPN+ VGAVVGGP N TDAFPD+R  FQ+SEPT
+Sbjct  420  SSLPSVRAHPARIRCKEGSRYFLSPNANPNVHVGAVVGGP-NVTDAFPDSRPFFQESEPT  478
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  479  TYINAPLVG  487
+
+
+>TR:Q42872_SOLLC Q42872 Endoglucanase OS=Solanum lycopersicum OX=4081 GN=Cel2 
+PE=2 SV=1
+Length=489
+
+ Score = 85.5 bits (210),  Expect = 5e-19
+ Identities = 42/69 (61%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV+ H ARI CK G+  + SP PNPN L+GAVVGGP N TD+FPDAR  FQ+SEPT
+Sbjct  412  SSVPSVATHSARIGCKEGSRYFFSPNPNPNRLIGAVVGGP-NLTDSFPDARPYFQESEPT  470
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  471  TYVNAPLVG  479
+
+
+>TR:A0A0D3CCN1_BRAOL A0A0D3CCN1 Endoglucanase OS=Brassica oleracea var. oleracea OX=109376 
+GN=106293481 PE=3 SV=1
+Length=492
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 42/69 (61%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HPARI CK G+  + SP PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  416  SSVPSVVDHPARIGCKEGSRYFLSPNPNPNLLIGAVVGGP-NVTDDFPDSRPYFQLTEPT  474
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  475  TYINAPLLG  483
+
+
+>TR:A0A078G7N2_BRANA A0A078G7N2 Endoglucanase OS=Brassica napus OX=3708 GN=BnaA09g30030D 
+PE=3 SV=1
+Length=494
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 42/69 (61%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HPARI CK G+  + SP PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  418  SSVPSVVDHPARIGCKEGSRYFLSPNPNPNLLIGAVVGGP-NVTDDFPDSRPYFQLTEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLLG  485
+
+
+>TR:M4E716_BRARP M4E716 Endoglucanase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=494
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 42/69 (61%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HPARI CK G+  + SP PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  418  SSVPSVVDHPARIGCKEGSRYFLSPNPNPNLLIGAVVGGP-NVTDDFPDSRPYFQLTEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLLG  485
+
+
+>TR:A0A2H3YA49_PHODC A0A2H3YA49 Endoglucanase OS=Phoenix dactylifera OX=42345 GN=LOC103711412 
+PE=3 SV=1
+Length=506
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 42/69 (61%), Positives = 52/69 (75%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI C +G A   SPAPNPN+LVGAVVGGP ++ D FPD R+ ++QSEP 
+Sbjct  427  SSLPSVAAHPARIPCSSGFAALNSPAPNPNVLVGAVVGGP-DAQDRFPDQRSDYEQSEPA  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYINAPLVG  494
+
+
+>TR:R0I8R8_9BRAS R0I8R8 Endoglucanase OS=Capsella rubella OX=81985 GN=CARUB_v10010959mg 
+PE=3 SV=1
+Length=489
+
+ Score = 82.4 bits (202),  Expect = 6e-18
+ Identities = 41/69 (59%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HP RI CK G+  + SP PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  413  SSVPSVVDHPGRIGCKDGSRYFLSPNPNPNLLIGAVVGGP-NVTDDFPDSRPYFQLTEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLLG  480
+
+
+>TR:A0A2G5DLG0_AQUCA A0A2G5DLG0 Endoglucanase OS=Aquilegia coerulea OX=218851 GN=AQUCO_01700132v1 
+PE=3 SV=1
+Length=498
+
+ Score = 82.4 bits (202),  Expect = 6e-18
+ Identities = 38/69 (55%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+S+HPA+I C +G + ++S APNPN+LVGAV+GGP +++D FPD R+ +QQSEP+
+Sbjct  419  SSLPSISSHPAKIQCSSGFSYFSSNAPNPNILVGAVIGGP-DASDRFPDDRSDYQQSEPS  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:V4KT09_EUTSA V4KT09 Endoglucanase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10007462mg 
+PE=3 SV=1
+Length=494
+
+ Score = 82.0 bits (201),  Expect = 8e-18
+ Identities = 40/69 (58%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PS+  HP RI CK G+  + SP PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  418  SSVPSIVDHPGRIGCKDGSRYFLSPNPNPNLLIGAVVGGP-NVTDDFPDSRPYFQLTEPT  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLLG  485
+
+
+>TR:A0A2K3LVW3_TRIPR A0A2K3LVW3 Endoglucanase OS=Trifolium pratense OX=57577 GN=L195_g038713 
+PE=3 SV=1
+Length=99
+
+ Score = 75.1 bits (183),  Expect = 3e-17
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPS++ HP +I C AG +  +S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  20  SSLPSMAVHPGKIQCSAGFSVMSSQSPNPNILVGAVVGGP-DQHDRFPDERSDYEQSEPA  78
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  79  TYVNAPLVG  87
+
+
+>TR:B7FGC4_MEDTR B7FGC4 Endoglucanase OS=Medicago truncatula OX=3880 PE=2 SV=1
+Length=99
+
+ Score = 75.1 bits (183),  Expect = 3e-17
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPS++ HP +I C AG +  +S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  20  SSLPSMAVHPGKIQCSAGFSVMSSQSPNPNILVGAVVGGP-DQHDRFPDKRSDYEQSEPA  78
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  79  TYVNAPLVG  87
+
+
+>TR:A0A1D1XIW5_9ARAE A0A1D1XIW5 Endoglucanase OS=Anthurium amnicola OX=1678845 GN=CEL1_6 
+PE=3 SV=1
+Length=511
+
+ Score = 80.1 bits (196),  Expect = 4e-17
+ Identities = 39/69 (57%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HP  I C+ G   Y SP PNPNLL GAVVGGP N +D +PD+RA F +SEPT
+Sbjct  433  SSLPSLAHHPGLIGCQDGTPYYLSPRPNPNLLTGAVVGGP-NISDGYPDSRATFVESEPT  491
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  492  TYINAPLVG  500
+
+
+>TR:A0A1E5VFS1_9POAL A0A1E5VFS1 Endoglucanase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0014993 PE=3 SV=1
+Length=100
+
+ Score = 74.7 bits (182),  Expect = 4e-17
+ Identities = 38/69 (55%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPS+  HP RIACK G   Y+S   NPN L+GAVVGGP    DA+ D RA F++SEPT
+Sbjct  17  SSLPSIKDHPQRIACKEGTPYYSSSGSNPNPLIGAVVGGPGED-DAYEDDRADFRKSEPT  75
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  76  TYINAPLVG  84
+
+
+>TR:A0A2G2W0I0_CAPBA A0A2G2W0I0 Endoglucanase OS=Capsicum baccatum OX=33114 GN=CQW23_22313 
+PE=3 SV=1
+Length=159
+
+ Score = 76.3 bits (186),  Expect = 4e-17
+ Identities = 38/69 (55%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C+ G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  80   SSLPSVANHPAKIQCRDGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDQRSDYEQSEPA  138
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  139  TYINAPLVG  147
+
+
+>TR:A0A1U8A9T6_NELNU A0A1U8A9T6 Endoglucanase OS=Nelumbo nucifera OX=4432 GN=LOC104602272 
+PE=3 SV=1
+Length=498
+
+ Score = 79.3 bits (194),  Expect = 7e-17
+ Identities = 40/69 (58%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HPA+I+CK G   Y S  PNPNLL GAVVGGP +S D + D+RA+F QSEPT
+Sbjct  421  SSIPSVDKHPAQISCKDGTQYYLSNDPNPNLLTGAVVGGP-DSNDKYSDSRALFVQSEPT  479
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  480  TYINAPLVG  488
+
+
+>TR:A0A1U8AP85_NELNU A0A1U8AP85 Endoglucanase OS=Nelumbo nucifera OX=4432 GN=LOC104606205 
+PE=3 SV=1
+Length=509
+
+ Score = 79.3 bits (194),  Expect = 7e-17
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPA+I C +G +   SPAPNPN+LVGAVVGGP +  D FPD R  ++QSEP 
+Sbjct  430  SSLPSIAVHPAKIQCSSGFSALKSPAPNPNILVGAVVGGP-DQHDQFPDQRTDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:D7KMQ9_ARALL D7KMQ9 Endoglucanase OS=Arabidopsis lyrata subsp. lyrata OX=81972 
+GN=ARALYDRAFT_335563 PE=3 SV=1
+Length=489
+
+ Score = 79.0 bits (193),  Expect = 1e-16
+ Identities = 40/69 (58%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HP RI CK G+  + S  PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  413  SSVPSVVDHPGRIGCKDGSRYFLSNNPNPNLLIGAVVGGP-NITDDFPDSRPYFQLTEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLLG  480
+
+
+>TR:I3SLH3_MEDTR I3SLH3 Endoglucanase OS=Medicago truncatula OX=3880 PE=2 SV=1
+Length=159
+
+ Score = 75.1 bits (183),  Expect = 1e-16
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HP +I C AG +  +S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  80   SSLPSMAVHPGKIQCSAGFSVMSSQSPNPNILVGAVVGGP-DQHDRFPDKRSDYEQSEPA  138
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  139  TYVNAPLVG  147
+
+
+>TR:A0A0A9U696_ARUDO A0A0A9U696 Endoglucanase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=100
+
+ Score = 73.2 bits (178),  Expect = 2e-16
+ Identities = 38/69 (55%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPS+  HP RIACK G   Y S + NPN LVGAVVGGP    DA+ D R+ F++SEPT
+Sbjct  17  SSLPSIKDHPQRIACKDGTPYYKSSSSNPNPLVGAVVGGPGED-DAYEDDRSDFRKSEPT  75
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  76  TYINAPLVG  84
+
+
+>TR:A0A2C9WN56_MANES A0A2C9WN56 Endoglucanase OS=Manihot esculenta OX=3983 GN=MANES_01G221800 
+PE=3 SV=1
+Length=506
+
+ Score = 78.2 bits (191),  Expect = 2e-16
+ Identities = 39/69 (57%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I C AG +   S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP+
+Sbjct  427  SSLPSVAAHPAKIQCSAGFSFMNSGSPNPNILVGAVVGGP-DQHDRFPDQRSDYEQSEPS  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYINAPLVG  494
+
+
+>TR:A0A2H5NLC5_CITUN A0A2H5NLC5 Endoglucanase OS=Citrus unshiu OX=55188 GN=CUMW_056010 
+PE=3 SV=1
+Length=439
+
+ Score = 77.8 bits (190),  Expect = 2e-16
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI C +G +   S +PNPN+LVGA+VGGP +  D FPD R  ++QSEP+
+Sbjct  360  SSLPSVGAHPARIQCSSGFSIMKSQSPNPNVLVGAIVGGP-DQHDRFPDERPDYEQSEPS  418
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  419  TYMNAPLVG  427
+
+
+>SP:GUN4_ARATH O49296 Endoglucanase 4 OS=Arabidopsis thaliana OX=3702 GN=At1g23210 
+PE=2 SV=1
+Length=489
+
+ Score = 77.8 bits (190),  Expect = 2e-16
+ Identities = 40/69 (58%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HP RI CK G+  + S  PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  413  SSVPSVVDHPDRIGCKDGSRYFFSNNPNPNLLIGAVVGGP-NITDDFPDSRPYFQLTEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLLG  480
+
+
+>TR:A0A178WLH6_ARATH A0A178WLH6 Endoglucanase OS=Arabidopsis thaliana OX=3702 GN=AXX17_At1g24420 
+PE=3 SV=1
+Length=489
+
+ Score = 77.8 bits (190),  Expect = 2e-16
+ Identities = 40/69 (58%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  HP RI CK G+  + S  PNPNLL+GAVVGGP N TD FPD+R  FQ +EPT
+Sbjct  413  SSVPSVVDHPDRIGCKDGSRYFFSNNPNPNLLIGAVVGGP-NITDDFPDSRPYFQLTEPT  471
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  472  TYINAPLLG  480
+
+
+>TR:A0A067H5M4_CITSI A0A067H5M4 Endoglucanase OS=Citrus sinensis OX=2711 GN=CISIN_1g010522mg 
+PE=3 SV=1
+Length=508
+
+ Score = 77.8 bits (190),  Expect = 3e-16
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI C +G +   S +PNPN+LVGA+VGGP +  D FPD R  ++QSEP+
+Sbjct  429  SSLPSVGAHPARIQCSSGFSIMKSQSPNPNVLVGAIVGGP-DQHDRFPDERPDYEQSEPS  487
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  488  TYMNAPLVG  496
+
+
+>TR:A0A1U8A011_NELNU A0A1U8A011 Endoglucanase OS=Nelumbo nucifera OX=4432 GN=LOC104598896 
+PE=3 SV=1
+Length=509
+
+ Score = 77.8 bits (190),  Expect = 3e-16
+ Identities = 37/69 (54%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPA+I C +G +   SP+PNPN+LVGAVVGGP +  D FPD R  ++QSEP 
+Sbjct  430  SSLPSIAVHPAKIQCSSGFSAMKSPSPNPNILVGAVVGGP-DQHDRFPDQRPDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:V4U0W6_9ROSI V4U0W6 Endoglucanase OS=Citrus clementina OX=85681 GN=CICLE_v10019602mg 
+PE=3 SV=1
+Length=544
+
+ Score = 77.8 bits (190),  Expect = 3e-16
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHPARI C +G +   S +PNPN+LVGA+VGGP +  D FPD R  ++QSEP+
+Sbjct  465  SSLPSVGAHPARIQCSSGFSIMKSQSPNPNVLVGAIVGGP-DQHDRFPDERPDYEQSEPS  523
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  524  TYMNAPLVG  532
+
+
+>TR:A0A0A9U5D8_ARUDO A0A0A9U5D8 Endoglucanase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=100
+
+ Score = 72.4 bits (176),  Expect = 3e-16
+ Identities = 37/69 (54%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2   SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+           SSLPS+  HP  IACK G   Y S + NPN L+GAVVGGP +  DA+ D RA F++SEPT
+Sbjct  17  SSLPSIKDHPQPIACKEGTPYYKSSSSNPNPLIGAVVGGPGDD-DAYEDERADFRKSEPT  75
+
+Query  62  SDRNKSVCG  70
+           +  N  + G
+Sbjct  76  TYINAPLVG  84
+
+
+>TR:A0A1R3H0X4_COCAP A0A1R3H0X4 Endoglucanase OS=Corchorus capsularis OX=210143 GN=CCACVL1_22206 
+PE=3 SV=1
+Length=506
+
+ Score = 77.4 bits (189),  Expect = 3e-16
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C AG +   S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP+
+Sbjct  427  SSLPSVANHPAKIQCSAGFSFMNSQSPNPNILVGAVIGGP-DKNDRFPDQRSDYEQSEPS  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYMNAPLVG  494
+
+
+>TR:A0A1S4BDC6_TOBAC A0A1S4BDC6 Endoglucanase OS=Nicotiana tabacum OX=4097 GN=LOC107807087 
+PE=3 SV=1
+Length=508
+
+ Score = 77.4 bits (189),  Expect = 3e-16
+ Identities = 38/69 (55%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVS HP++I C++G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  429  SSLPSVSNHPSKIECRSGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDERSDYEQSEPA  487
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  488  TYINAPLVG  496
+
+
+>TR:A0A1U7VH97_NICSY A0A1U7VH97 Endoglucanase OS=Nicotiana sylvestris OX=4096 GN=LOC104213420 
+PE=3 SV=1
+Length=509
+
+ Score = 77.4 bits (189),  Expect = 3e-16
+ Identities = 38/69 (55%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVS HP++I C++G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  430  SSLPSVSNHPSKIECRSGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDERSDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A1S3ZME7_TOBAC A0A1S3ZME7 Endoglucanase OS=Nicotiana tabacum OX=4097 GN=LOC107788548 
+PE=3 SV=1
+Length=509
+
+ Score = 77.4 bits (189),  Expect = 3e-16
+ Identities = 38/69 (55%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVS HP++I C++G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  430  SSLPSVSNHPSKIECRSGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDERSDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A2H3ZT29_PHODC A0A2H3ZT29 Endoglucanase OS=Phoenix dactylifera OX=42345 GN=LOC103712207 
+PE=3 SV=1
+Length=365
+
+ Score = 77.0 bits (188),  Expect = 3e-16
+ Identities = 37/61 (61%), Positives = 44/61 (72%), Gaps = 1/61 (2%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HP  I CK G   + S  PNPNLLVGA+VGGP+N+ DA+ D+R  F QSEPT
+Sbjct  289  SSLPSVGQHPGHIGCKDGTPYFQSEGPNPNLLVGAIVGGPNNN-DAYADSRPDFAQSEPT  347
+
+Query  62   S  62
+            +
+Sbjct  348  T  348
+
+
+>TR:A0A199V398_ANACO A0A199V398 Endoglucanase OS=Ananas comosus OX=4615 GN=ACMD2_25033 
+PE=3 SV=1
+Length=385
+
+ Score = 77.0 bits (188),  Expect = 4e-16
+ Identities = 39/69 (57%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV++HPA I C  G A   S APNPNLLVGAVVGGP ++ D FPD R+ ++ SEP 
+Sbjct  306  SSLPSVASHPAPIGCSTGFAVLGSSAPNPNLLVGAVVGGP-DAIDRFPDQRSDYEHSEPA  364
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  365  TYINAPLVG  373
+
+
+>TR:A0A075IH97_9ROSA A0A075IH97 Endoglucanase OS=Pyrus x bretschneideri OX=225117 
+GN=EG3 PE=2 SV=1
+Length=509
+
+ Score = 77.0 bits (188),  Expect = 5e-16
+ Identities = 35/61 (57%), Positives = 48/61 (79%), Gaps = 1/61 (2%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I C +G +  +S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  428  SSLPSVAAHPAKIQCSSGFSVMSSQSPNPNILVGAVIGGP-DQNDKFPDQRSDYEQSEPA  486
+
+Query  62   S  62
+            +
+Sbjct  487  T  487
+
+
+>TR:A0A2R6QU88_ACTCH A0A2R6QU88 Endoglucanase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc15260 PE=3 SV=1
+Length=510
+
+ Score = 77.0 bits (188),  Expect = 5e-16
+ Identities = 37/69 (54%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AHPA+I C +G +   S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP+
+Sbjct  431  SSLPSIAAHPAKIQCSSGFSIMTSQSPNPNILVGAVVGGP-DLHDQFPDQRSDYEQSEPS  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+>TR:F6HZ65_VITVI F6HZ65 Endoglucanase OS=Vitis vinifera OX=29760 GN=VIT_07s0005g00740 
+PE=3 SV=1
+Length=511
+
+ Score = 77.0 bits (188),  Expect = 5e-16
+ Identities = 38/69 (55%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPA+I C AG     S +PNPN+LVGAVVGGP +  D FPD R+ F+QSEP+
+Sbjct  432  SSLPSIAKHPAKIQCSAGFNIMHSQSPNPNILVGAVVGGP-DQHDRFPDQRSDFEQSEPS  490
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  491  TYTNAPLVG  499
+
+
+>TR:A0A200PXR8_9MAGN A0A200PXR8 Endoglucanase OS=Macleaya cordata OX=56857 GN=BVC80_8797g14 
+PE=3 SV=1
+Length=942
+
+ Score = 77.0 bits (188),  Expect = 5e-16
+ Identities = 38/61 (62%), Positives = 45/61 (74%), Gaps = 1/61 (2%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SS+PSV  H  RI CK G   Y+S APNPNLL+GAVVGGP +  DA+ D+RA F QSEPT
+Sbjct  354  SSIPSVDRHQDRIGCKGGTPYYSSDAPNPNLLIGAVVGGP-DINDAYNDSRAQFVQSEPT  412
+
+Query  62   S  62
+            +
+Sbjct  413  T  413
+
+
+ Score = 76.6 bits (187),  Expect = 7e-16
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLP++  HP RI CK G   + S +PNPNLL+GAVVGGP+ + D++ D+R +F QSEPT
+Sbjct  864  SSLPALDQHPERIECKGGTPYFESQSPNPNLLIGAVVGGPA-TNDSYADSRGLFVQSEPT  922
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  923  TYINAPLVG  931
+
+
+>TR:A0A287RZX5_HORVV A0A287RZX5 Endoglucanase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=197
+
+ Score = 74.3 bits (181),  Expect = 5e-16
+ Identities = 37/69 (54%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP R+ACK G   Y S +PNPN LVGA+VGGP    DA+ D RA +++SEPT
+Sbjct  114  SSLPSIKDHPERMACKDGTPYYDSSSPNPNPLVGAIVGGPGED-DAYGDERADYRKSEPT  172
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  173  TYINAPLVG  181
+
+
+>TR:A0A1D1YTV8_9ARAE A0A1D1YTV8 Endoglucanase (Fragment) OS=Anthurium amnicola OX=1678845 
+GN=At4g02290_1 PE=3 SV=1
+Length=410
+
+ Score = 76.6 bits (187),  Expect = 6e-16
+ Identities = 40/69 (58%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPARI C +G     S APNPNLLVGAVVGGP ++ D F D R+ ++QSEP 
+Sbjct  331  SSLPSVAAHPARIPCSSGFTAMNSGAPNPNLLVGAVVGGP-DAHDRFSDQRSDYEQSEPA  389
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  390  TYVNAPLVG  398
+
+
+>TR:A0A199VKC8_ANACO A0A199VKC8 Endoglucanase OS=Ananas comosus OX=4615 GN=ACMD2_01768 
+PE=3 SV=1
+Length=468
+
+ Score = 76.6 bits (187),  Expect = 6e-16
+ Identities = 38/69 (55%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV++HPA I C  G A   S APNPNLL+GAVVGGP ++ D FPD R+ ++ SEP 
+Sbjct  389  SSLPSVASHPAPIGCSTGFAVLGSSAPNPNLLIGAVVGGP-DAIDRFPDQRSDYEHSEPA  447
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  448  TYINAPLVG  456
+
+
+>TR:A0A2S3H1G8_9POAL A0A2S3H1G8 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_2G341700 PE=4 SV=1
+Length=520
+
+ Score = 76.6 bits (187),  Expect = 6e-16
+ Identities = 39/69 (57%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP RIACK G   Y S  PNPN L+GAVVGGP    DA+ D RA F++SEPT
+Sbjct  437  SSLPSIKDHPQRIACKEGTPYYNSSGPNPNPLIGAVVGGPGED-DAYEDDRADFRKSEPT  495
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  496  TYINAPLVG  504
+
+
+>TR:A0A2T7EV04_9POAL A0A2T7EV04 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_2G331300 PE=4 SV=1
+Length=520
+
+ Score = 76.6 bits (187),  Expect = 6e-16
+ Identities = 39/69 (57%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP RIACK G   Y S  PNPN L+GAVVGGP    DA+ D RA F++SEPT
+Sbjct  437  SSLPSIKDHPQRIACKEGTPYYNSSGPNPNPLIGAVVGGPGED-DAYEDDRADFRKSEPT  495
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  496  TYINAPLVG  504
+
+
+>TR:A0A0R0F256_SOYBN A0A0R0F256 Endoglucanase OS=Glycine max OX=3847 GN=GLYMA_19G212700 
+PE=3 SV=1
+Length=416
+
+ Score = 76.3 bits (186),  Expect = 8e-16
+ Identities = 38/69 (55%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVS HP +I C AG +   S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  337  SSLPSVSVHPGKIQCSAGFSVMKSQSPNPNILVGAVVGGP-DLHDGFPDERSDYEQSEPA  395
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  396  TYINAPLVG  404
+
+
+>TR:A0A1U8ANK3_NELNU A0A1U8ANK3 Endoglucanase OS=Nelumbo nucifera OX=4432 GN=LOC104602407 
+PE=3 SV=1
+Length=451
+
+ Score = 76.3 bits (186),  Expect = 8e-16
+ Identities = 39/69 (57%), Positives = 46/69 (67%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV AHP  I CK G   +AS   NPN+L+GAVVGGP    D++PD RA FQ SEPT
+Sbjct  373  SSLPSVDAHPGHIGCKDGTPYFASKDSNPNVLIGAVVGGP-QPDDSYPDDRAQFQGSEPT  431
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  432  TYINAPLVG  440
+
+
+>TR:A0A1U8GAQ4_CAPAN A0A1U8GAQ4 Endoglucanase OS=Capsicum annuum OX=4072 GN=LOC107864053 
+PE=3 SV=1
+Length=505
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 38/69 (55%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C+ G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  426  SSLPSVANHPAKIQCRDGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDQRSDYEQSEPA  484
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  485  TYINAPLVG  493
+
+
+>TR:A0A2G2ZVX8_CAPAN A0A2G2ZVX8 Endoglucanase OS=Capsicum annuum OX=4072 GN=T459_08240 
+PE=3 SV=1
+Length=505
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 38/69 (55%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C+ G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  426  SSLPSVANHPAKIQCRDGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDQRSDYEQSEPA  484
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  485  TYINAPLVG  493
+
+
+>TR:A0A2G3CTI5_CAPCH A0A2G3CTI5 Endoglucanase OS=Capsicum chinense OX=80379 GN=BC332_07137 
+PE=3 SV=1
+Length=505
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 38/69 (55%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C+ G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  426  SSLPSVANHPAKIQCRDGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDQRSDYEQSEPA  484
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  485  TYINAPLVG  493
+
+
+>TR:A0A1R3IHB4_9ROSI A0A1R3IHB4 Endoglucanase OS=Corchorus olitorius OX=93759 GN=COLO4_23316 
+PE=3 SV=1
+Length=506
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 37/69 (54%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C AG     S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP+
+Sbjct  427  SSLPSVANHPAKIQCSAGFNFMNSESPNPNILVGAVIGGP-DKNDRFPDQRSDYEQSEPS  485
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  486  TYMNAPLVG  494
+
+
+>TR:A0A2P5CXZ0_PARAD A0A2P5CXZ0 Endoglucanase OS=Parasponia andersonii OX=3476 GN=PanWU01x14_113440 
+PE=3 SV=1
+Length=509
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I C AG +   S +PNPN+L+GAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  430  SSLPSVAAHPAKIQCSAGFSFMKSESPNPNILLGAVIGGP-DLHDRFPDERSDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A2P5CZ66_9ROSA A0A2P5CZ66 Endoglucanase OS=Trema orientalis OX=63057 GN=TorRG33x02_268200 
+PE=3 SV=1
+Length=509
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+AHPA+I C AG +   S +PNPN+L+GAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  430  SSLPSVAAHPAKIQCSAGFSFMKSESPNPNILLGAVIGGP-DLHDRFPDERSDYEQSEPA  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A2K1XUP5_POPTR A0A2K1XUP5 Endoglucanase OS=Populus trichocarpa OX=3694 GN=POPTR_014G126900v3 
+PE=3 SV=1
+Length=510
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 36/69 (52%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AHPA+I C +G +   S +PNPN+LVGA+VGGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSMAAHPAKIQCSSGFSVMNSQSPNPNILVGAIVGGP-DEHDRFPDERSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYMNAPLVG  498
+
+
+>TR:B9SAU5_RICCO B9SAU5 Endoglucanase OS=Ricinus communis OX=3988 GN=RCOM_1179080 
+PE=3 SV=1
+Length=510
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 37/69 (54%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+S HPA+I C +G +   S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSISVHPAKIQCSSGFSIMNSQSPNPNILVGAVVGGP-DQHDRFPDKRSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+>TR:B9I9P6_POPTR B9I9P6 Endoglucanase OS=Populus trichocarpa OX=3694 GN=GH9B12 
+PE=2 SV=1
+Length=510
+
+ Score = 76.3 bits (186),  Expect = 9e-16
+ Identities = 36/69 (52%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AHPA+I C +G +   S +PNPN+LVGA+VGGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSMAAHPAKIQCSSGFSVMNSQSPNPNILVGAIVGGP-DEHDRFPDERSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYMNAPLVG  498
+
+
+>TR:A0A0A0K7X4_CUCSA A0A0A0K7X4 Endoglucanase OS=Cucumis sativus OX=3659 GN=Csa_7G405310 
+PE=3 SV=1
+Length=498
+
+ Score = 75.9 bits (185),  Expect = 1e-15
+ Identities = 36/69 (52%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP++I C AG +   S APNPN+L+GAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  419  SSLPSIGVHPSKIQCSAGFSVMNSAAPNPNVLIGAVVGGP-DQNDRFPDQRSDYEQSEPA  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A1S3BZ39_CUCME A0A1S3BZ39 Endoglucanase OS=Cucumis melo OX=3656 GN=LOC103494756 
+PE=3 SV=1
+Length=507
+
+ Score = 75.9 bits (185),  Expect = 1e-15
+ Identities = 36/69 (52%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPA+I C +G +   S +PNPN+L+GAVVGGP +  D FPD R+ F+QSEP+
+Sbjct  428  SSLPSIAEHPAKIDCSSGFSAMHSNSPNPNVLIGAVVGGP-DQNDGFPDERSDFEQSEPS  486
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  487  TYINAPLVG  495
+
+
+>TR:A0A067JW47_JATCU A0A067JW47 Endoglucanase OS=Jatropha curcas OX=180498 GN=JCGZ_13962 
+PE=3 SV=1
+Length=512
+
+ Score = 75.9 bits (185),  Expect = 1e-15
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HPA+I C AG +   S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  433  SSLPSIAVHPAKIQCSAGFSVMNSQSPNPNILVGAVIGGP-DQHDRFPDERSDYEQSEPA  491
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  492  TYINAPLVG  500
+
+
+>TR:Q93WY8_TOBAC Q93WY8 Endo-beta-1,4-glucanase (Fragment) OS=Nicotiana tabacum 
+OX=4097 GN=Cel4 PE=2 SV=1
+Length=317
+
+ Score = 75.1 bits (183),  Expect = 1e-15
+ Identities = 36/59 (61%), Positives = 47/59 (80%), Gaps = 1/59 (2%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEP  60
+            SSLPSVS HP++I C++G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP
+Sbjct  259  SSLPSVSNHPSQIECRSGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDERSDYEQSEP  316
+
+
+>TR:A0A1D1Y1Z2_9ARAE A0A1D1Y1Z2 Endoglucanase (Fragment) OS=Anthurium amnicola OX=1678845 
+GN=GLU12_2 PE=3 SV=1
+Length=255
+
+ Score = 74.3 bits (181),  Expect = 1e-15
+ Identities = 38/69 (55%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS   HP  IACK G+A + S +PNPN+L+GAVVGGP    DA+ D RA F++SEPT
+Sbjct  178  SSLPSKRDHPQFIACKEGSAYFNSDSPNPNVLIGAVVGGPGED-DAYADERADFRKSEPT  236
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  237  TYINAPLVG  245
+
+
+>TR:A0A103YNV5_CYNCS A0A103YNV5 Endoglucanase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_009075 PE=3 SV=1
+Length=434
+
+ Score = 75.5 bits (184),  Expect = 2e-15
+ Identities = 39/69 (57%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+SAHPA+IAC +G +   S  PNPN+LVGAVVGGP +  D FPD R+ + QSEP 
+Sbjct  355  SSLPSMSAHPAKIACGSGFSIMHSEIPNPNILVGAVVGGP-DEHDHFPDVRSDYFQSEPA  413
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  414  TYINAPLVG  422
+
+
+>TR:A0A1S3BR45_CUCME A0A1S3BR45 Endoglucanase OS=Cucumis melo OX=3656 GN=LOC103492793 
+PE=3 SV=1
+Length=498
+
+ Score = 75.5 bits (184),  Expect = 2e-15
+ Identities = 36/69 (52%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HP +I C AG +   S APNPN+L+GAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  419  SSLPSIGVHPTKIQCSAGFSVMNSAAPNPNVLIGAVVGGP-DQNDRFPDQRSDYEQSEPA  477
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  478  TYINAPLVG  486
+
+
+>TR:A0A022RR24_ERYGU A0A022RR24 Endoglucanase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a004926mg 
+PE=3 SV=1
+Length=504
+
+ Score = 75.5 bits (184),  Expect = 2e-15
+ Identities = 35/69 (51%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+S+HP++I C +G     S +PNPN+L+GAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  425  SSLPSISSHPSKIQCSSGFTIMNSQSPNPNILIGAVVGGP-DQNDRFPDQRSDYEQSEPA  483
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  484  TYINAPLVG  492
+
+
+>TR:A0A2I0WX14_9ASPA A0A2I0WX14 Endoglucanase OS=Dendrobium catenatum OX=906689 GN=MA16_Dca011937 
+PE=3 SV=1
+Length=510
+
+ Score = 75.5 bits (184),  Expect = 2e-15
+ Identities = 39/69 (57%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSVS HP R  C AG A  +S APNPN+LVGAVVGGP ++ D FPD R+ +  SEP 
+Sbjct  431  SSLPSVSEHPQRFPCSAGFAALSSSAPNPNVLVGAVVGGP-DAQDHFPDERSDYAHSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+>TR:M5W248_PRUPE M5W248 Endoglucanase OS=Prunus persica OX=3760 GN=PRUPE_8G264200 
+PE=3 SV=1
+Length=513
+
+ Score = 75.5 bits (184),  Expect = 2e-15
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++AHPA+I C +G     S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  434  SSLPSIAAHPAKIQCSSGFNVMRSQSPNPNILVGAVIGGP-DQHDRFPDQRSDYEQSEPA  492
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  493  TYINAPLVG  501
+
+
+>TR:A0A2P4MJ58_QUESU A0A2P4MJ58 Endoglucanase OS=Quercus suber OX=58331 GN=CFP56_68950 
+PE=3 SV=1
+Length=456
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 36/69 (52%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV++HPA+I C  G +   S +PNPN+LVGAV+GGP +  D FPD R  ++QSEP 
+Sbjct  377  SSLPSVASHPAKIQCSPGFSFMKSQSPNPNILVGAVIGGP-DQNDRFPDQRPDYEQSEPA  435
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  436  TYINAPLVG  444
+
+
+>TR:G7IEL4_MEDTR G7IEL4 Endoglucanase OS=Medicago truncatula OX=3880 GN=11410209 
+PE=3 SV=1
+Length=485
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 36/69 (52%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS++ HP +I C AG +  +S +PNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  406  SSLPSMAVHPGKIQCSAGFSVMSSQSPNPNILVGAVVGGP-DQHDRFPDKRSDYEQSEPA  464
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  465  TYVNAPLVG  473
+
+
+>TR:A0A251UG93_HELAN A0A251UG93 Endoglucanase OS=Helianthus annuus OX=4232 GN=AtGH9B13 
+PE=3 SV=1
+Length=497
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 38/69 (55%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+SAHPA+I C AG +   S  PNPN+L+GAVVGGP +  D FPD R+ + QSEP 
+Sbjct  418  SSLPSISAHPAKIQCGAGFSIMHSEIPNPNILIGAVVGGP-DEKDHFPDERSDYFQSEPA  476
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  477  TYINAPLVG  485
+
+
+>TR:A0A1J6JBB4_NICAT A0A1J6JBB4 Endoglucanase OS=Nicotiana attenuata OX=49451 GN=A4A49_13767 
+PE=3 SV=1
+Length=504
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 37/69 (54%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV  HP++I C++G +  +S APNPN+LVGAVVGGP +  D FPD R+ ++QSEP 
+Sbjct  425  SSLPSVLNHPSKIECRSGFSVMSSQAPNPNVLVGAVVGGP-DEHDRFPDERSDYEQSEPA  483
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  484  TYINAPLVG  492
+
+
+>TR:A0A1Q3DG17_CEPFO A0A1Q3DG17 Endoglucanase OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_34835 
+PE=3 SV=1
+Length=505
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 35/69 (51%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+  HPA+I C +G +   S +PNPN+LVGA+VGGP +  D FPD R  ++QSEP 
+Sbjct  426  SSLPSIGVHPAKIQCSSGFSFMHSQSPNPNILVGAIVGGP-DQNDRFPDQRPDYEQSEPA  484
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  485  TYMNAPLVG  493
+
+
+>TR:A0A2I4EZF4_9ROSI A0A2I4EZF4 Endoglucanase OS=Juglans regia OX=51240 GN=LOC108994130 
+PE=3 SV=1
+Length=509
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 36/69 (52%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPS+ +HPA+I C +G     S  PNPN+LVGAVVGGP +  D FPD R+ ++QSEP+
+Sbjct  430  SSLPSIGSHPAKIQCSSGFNFMKSQTPNPNILVGAVVGGP-DKNDRFPDQRSDYEQSEPS  488
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  489  TYINAPLVG  497
+
+
+>TR:A0A1U8L7U4_GOSHI A0A1U8L7U4 Endoglucanase OS=Gossypium hirsutum OX=3635 GN=LOC107924647 
+PE=3 SV=1
+Length=510
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 37/69 (54%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C AG     S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSVANHPAKIQCSAGFNFMKSQSPNPNILVGAVIGGP-DQKDRFPDQRSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+>TR:A0A0B0Q0C3_GOSAR A0A0B0Q0C3 Endoglucanase OS=Gossypium arboreum OX=29729 GN=F383_11848 
+PE=3 SV=1
+Length=510
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 37/69 (54%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C AG     S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSVANHPAKIQCSAGFNFMKSQSPNPNILVGAVIGGP-DQKDRFPDQRSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+>TR:A0A068EXJ9_GOSHI A0A068EXJ9 Endoglucanase OS=Gossypium hirsutum OX=3635 GN=LOC107912359 
+PE=2 SV=1
+Length=510
+
+ Score = 75.1 bits (183),  Expect = 2e-15
+ Identities = 37/69 (54%), Positives = 48/69 (70%), Gaps = 1/69 (1%)
+
+Query  2    SSLPSVSAHPARIACKAGAAXYASPAPNPNLLVGAVVGGPSNSTDAFPDARAVFQQSEPT  61
+            SSLPSV+ HPA+I C AG     S +PNPN+LVGAV+GGP +  D FPD R+ ++QSEP 
+Sbjct  431  SSLPSVANHPAKIQCSAGFNFMKSQSPNPNILVGAVIGGP-DQKDRFPDQRSDYEQSEPA  489
+
+Query  62   SDRNKSVCG  70
+            +  N  + G
+Sbjct  490  TYINAPLVG  498
+
+
+
+Lambda      K        H
+   0.313    0.126    0.413 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56122073970
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

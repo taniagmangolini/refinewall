@@ -1,22 +1,53 @@
-CREATE TABLE sucest
+-- Database: refinedb
+
+-- DROP DATABASE refinedb;
+--DROP SCHEMA IF EXISTS refine CASCADE;
+--CREATE SCHEMA refine;
+GRANT SELECT, UPDATE, INSERT, DELETE ON ALL TABLES IN SCHEMA refine TO PUBLIC;
+
+CREATE DATABASE refinedb
+  WITH OWNER = postgres
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'en_US.UTF-8'
+       LC_CTYPE = 'en_US.UTF-8'
+       CONNECTION LIMIT = -1;
+
+
+-- Table: public.sucest
+
+-- DROP TABLE public.sucest;
+
+CREATE TABLE public.sucest
 (
-  id varchar (255) PRIMARY KEY,
-  sequence text NOT NULL,
-  description varchar (255) NOT NULL,
-  acc varchar (255) NULL,
-  created_at timestamp NOT NULL
+  id character varying(255) NOT NULL,
+  created_at timestamp without time zone NOT NULL,
+  description character varying(255),
+  sequence character varying(255),
+  CONSTRAINT sucest_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
 );
+ALTER TABLE public.sucest
+  OWNER TO postgres;
 
-CREATE TABLE search_history
+-- Table: public.search_history
+
+-- DROP TABLE public.search_history;
+
+CREATE TABLE public.search_history
 (
-  id bigserial PRIMARY KEY,
-  sequence text NOT NULL,
-  created_at timestamp NOT NULL
+  id bigint NOT NULL DEFAULT nextval('search_history_id_seq'::regclass),
+  created_at timestamp without time zone NOT NULL,
+  sequence character varying(255),
+  CONSTRAINT search_history_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
 );
-
--- Table: public.blast_result
-
--- DROP TABLE public.blast_result;
+ALTER TABLE public.search_history
+  OWNER TO postgres;
 
 -- Table: public.blast_result
 
@@ -45,7 +76,7 @@ CREATE TABLE public.blast_result
   sucest_busca character varying(255),
   unique_identifier character varying(1024),
   search_history_id bigint,
-  sucest_id bigint,
+  sucest_id character varying(255),
   CONSTRAINT blast_result_pkey PRIMARY KEY (id),
   CONSTRAINT fk4ecqw6f7a0x7x65u40sx6uhs9 FOREIGN KEY (search_history_id)
       REFERENCES public.search_history (id) MATCH SIMPLE
@@ -59,4 +90,5 @@ WITH (
 );
 ALTER TABLE public.blast_result
   OWNER TO postgres;
+
 

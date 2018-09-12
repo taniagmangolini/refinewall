@@ -1,0 +1,4565 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=225
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:C4IYE8_MAIZE  C4IYE8 Uncharacterized protein OS=Zea mays OX=45...  182     3e-55
+TR:A0A1D6FL95_MAIZE  A0A1D6FL95 Pectin lyase-like superfamily pro...  182     4e-53
+TR:K3Z683_SETIT  K3Z683 Uncharacterized protein OS=Setaria italic...  181     8e-53
+TR:C5YWL7_SORBI  C5YWL7 Uncharacterized protein OS=Sorghum bicolo...  181     1e-52
+TR:B6TDS0_MAIZE  B6TDS0 Polygalacturonase OS=Zea mays OX=4577 PE=...  180     2e-52
+TR:A0A1E5UIN2_9POAL  A0A1E5UIN2 Putative polygalacturonase OS=Dic...  179     5e-52
+TR:A0A2T8KID3_9POAL  A0A2T8KID3 Uncharacterized protein OS=Panicu...  179     6e-52
+TR:A0A2T7E9P4_9POAL  A0A2T7E9P4 Uncharacterized protein OS=Panicu...  178     1e-51
+TR:A0A0D3GBF0_9ORYZ  A0A0D3GBF0 Uncharacterized protein OS=Oryza ...  174     5e-51
+TR:A0A0A9DPC8_ARUDO  A0A0A9DPC8 Uncharacterized protein OS=Arundo...  166     1e-50
+TR:A0A0D9WKB9_9ORYZ  A0A0D9WKB9 Uncharacterized protein OS=Leersi...  175     2e-50
+TR:A0A287L3T7_HORVV  A0A287L3T7 Uncharacterized protein OS=Hordeu...  164     2e-50
+TR:A0A0E0L6C9_ORYPU  A0A0E0L6C9 Uncharacterized protein OS=Oryza ...  176     3e-50
+TR:A2Y813_ORYSI  A2Y813 Uncharacterized protein OS=Oryza sativa s...  174     4e-50
+TR:A0A0E0PRW2_ORYRU  A0A0E0PRW2 Uncharacterized protein OS=Oryza ...  174     4e-50
+TR:A0A0E0A3F7_9ORYZ  A0A0E0A3F7 Uncharacterized protein OS=Oryza ...  174     4e-50
+TR:Q0DFJ3_ORYSJ  Q0DFJ3 Os05g0587000 protein OS=Oryza sativa subs...  174     4e-50
+TR:I1PYE6_ORYGL  I1PYE6 Uncharacterized protein OS=Oryza glaberri...  174     4e-50
+TR:Q6L5C5_ORYSJ  Q6L5C5 Putative polygalacturonase OS=Oryza sativ...  174     7e-50
+TR:A0A0E0IVW6_ORYNI  A0A0E0IVW6 Uncharacterized protein OS=Oryza ...  173     1e-49
+TR:J3MA81_ORYBR  J3MA81 Uncharacterized protein OS=Oryza brachyan...  174     3e-49
+TR:M7ZRX3_TRIUA  M7ZRX3 Putative polygalacturonase OS=Triticum ur...  164     4e-48
+TR:A0A0P0V5A9_ORYSJ  A0A0P0V5A9 Os01g0618900 protein (Fragment) O...  166     5e-48
+TR:A2ZVG8_ORYSJ  A2ZVG8 Uncharacterized protein OS=Oryza sativa s...  167     1e-47
+TR:A0A0D3ERB0_9ORYZ  A0A0D3ERB0 Uncharacterized protein OS=Oryza ...  167     2e-47
+TR:A0A0E0FPM7_ORYNI  A0A0E0FPM7 Uncharacterized protein OS=Oryza ...  167     2e-47
+TR:A0A0E0MZC2_ORYRU  A0A0E0MZC2 Uncharacterized protein OS=Oryza ...  167     2e-47
+TR:I1NPQ5_ORYGL  I1NPQ5 Uncharacterized protein OS=Oryza glaberri...  167     2e-47
+TR:A0A0D9YBS1_9ORYZ  A0A0D9YBS1 Uncharacterized protein OS=Oryza ...  167     2e-47
+TR:A0A0E0C4P9_9ORYZ  A0A0E0C4P9 Uncharacterized protein OS=Oryza ...  166     7e-47
+TR:A0A0E0JL96_ORYPU  A0A0E0JL96 Uncharacterized protein OS=Oryza ...  166     9e-47
+TR:A0A199VZX0_ANACO  A0A199VZX0 Putative polygalacturonase OS=Ana...  163     1e-46
+TR:J3L1Y8_ORYBR  J3L1Y8 Uncharacterized protein OS=Oryza brachyan...  166     1e-46
+TR:A0A287L3T1_HORVV  A0A287L3T1 Uncharacterized protein OS=Hordeu...  164     2e-46
+TR:A0A2S3HUD4_9POAL  A0A2S3HUD4 Uncharacterized protein OS=Panicu...  165     2e-46
+TR:A0A2T7DJL9_9POAL  A0A2T7DJL9 Uncharacterized protein OS=Panicu...  165     2e-46
+TR:M8CEA0_AEGTA  M8CEA0 Putative polygalacturonase OS=Aegilops ta...  164     2e-46
+TR:A0A1D5WEI2_WHEAT  A0A1D5WEI2 Uncharacterized protein OS=Tritic...  164     3e-46
+TR:F2D4C7_HORVV  F2D4C7 Predicted protein OS=Hordeum vulgare subs...  164     3e-46
+TR:A0A077RT87_WHEAT  A0A077RT87 Uncharacterized protein OS=Tritic...  164     3e-46
+TR:F2CWZ8_HORVV  F2CWZ8 Predicted protein OS=Hordeum vulgare subs...  164     3e-46
+TR:A0A1D6FZH6_MAIZE  A0A1D6FZH6 Pectin lyase-like superfamily pro...  161     5e-46
+TR:A2WSP4_ORYSI  A2WSP4 Uncharacterized protein OS=Oryza sativa s...  164     5e-46
+TR:A0A0A9HU73_ARUDO  A0A0A9HU73 Uncharacterized protein OS=Arundo...  163     8e-46
+TR:A0A097PQY7_CINCA  A0A097PQY7 Pectin lyase-like superfamily pro...  162     9e-46
+TR:A0A287L3T8_HORVV  A0A287L3T8 Uncharacterized protein OS=Hordeu...  164     1e-45
+TR:A0A0D9V2Z8_9ORYZ  A0A0D9V2Z8 Uncharacterized protein OS=Leersi...  162     1e-45
+TR:I1HPH0_BRADI  I1HPH0 Uncharacterized protein OS=Brachypodium d...  162     1e-45
+TR:K3XHT9_SETIT  K3XHT9 Uncharacterized protein OS=Setaria italic...  162     3e-45
+TR:A0A1D6FZH5_MAIZE  A0A1D6FZH5 Pectin lyase-like superfamily pro...  161     4e-45
+TR:M0SM64_MUSAM  M0SM64 Uncharacterized protein OS=Musa acuminata...  160     4e-45
+TR:B4FWD4_MAIZE  B4FWD4 Uncharacterized protein OS=Zea mays OX=45...  161     4e-45
+TR:M0SP80_MUSAM  M0SP80 Uncharacterized protein OS=Musa acuminata...  160     7e-45
+TR:A0A2R4QNB1_9POAL  A0A2R4QNB1 Polygalacturonase OS=Saccharum hy...  160     1e-44
+TR:A0A2R4QNB2_9POAL  A0A2R4QNB2 Pectate lyase OS=Saccharum hybrid...  160     1e-44
+TR:A0A2R4QNC2_9POAL  A0A2R4QNC2 Pectate lyase OS=Saccharum hybrid...  160     1e-44
+TR:A0A2H3ZB01_PHODC  A0A2H3ZB01 probable polygalacturonase OS=Pho...  159     4e-44
+TR:A0A097PQW0_9LILI  A0A097PQW0 Pectin lyase-like superfamily pro...  157     5e-44
+TR:A0A097PQY0_YUCFI  A0A097PQY0 Pectin lyase-like superfamily pro...  157     1e-43
+TR:A0A1E5W557_9POAL  A0A1E5W557 Putative polygalacturonase OS=Dic...  162     2e-43
+TR:A0A097PQW7_ASPOF  A0A097PQW7 Pectin lyase-like superfamily pro...  155     4e-43
+TR:C5XR39_SORBI  C5XR39 Uncharacterized protein OS=Sorghum bicolo...  156     4e-43
+TR:A0A097PQX3_9LILI  A0A097PQX3 Pectin lyase-like superfamily pro...  154     2e-42
+TR:A0A2I0BFW9_9ASPA  A0A2I0BFW9 Putative polygalacturonase OS=Apo...  152     9e-42
+TR:A0A067GME4_CITSI  A0A067GME4 Uncharacterized protein (Fragment...  148     5e-41
+TR:A0A218XJ52_PUNGR  A0A218XJ52 Uncharacterized protein OS=Punica...  149     2e-40
+TR:A0A097PQV8_CITSI  A0A097PQV8 Pectin lyase-like superfamily pro...  148     2e-40
+TR:A0A097PQX4_9ROSI  A0A097PQX4 Pectin lyase-like superfamily pro...  148     2e-40
+TR:A0A1S4AC24_TOBAC  A0A1S4AC24 probable polygalacturonase OS=Nic...  149     3e-40
+TR:A0A1U7VSJ7_NICSY  A0A1U7VSJ7 probable polygalacturonase OS=Nic...  149     3e-40
+TR:A0A1S4C951_TOBAC  A0A1S4C951 probable polygalacturonase OS=Nic...  149     3e-40
+TR:A0A097PQU5_9LILI  A0A097PQU5 Pectin lyase-like superfamily pro...  147     3e-40
+TR:A0A2P2LUJ8_RHIMU  A0A2P2LUJ8 Polygalacturonase OS=Rhizophora m...  142     4e-40
+TR:A0A097PQU9_ACOCL  A0A097PQU9 Pectin lyase-like superfamily pro...  145     4e-40
+TR:V4TGX7_9ROSI  V4TGX7 Uncharacterized protein OS=Citrus clement...  148     5e-40
+TR:A0A097PQX0_MEDTR  A0A097PQX0 Pectin lyase-like superfamily pro...  147     5e-40
+TR:A0A1U8A546_NELNU  A0A1U8A546 probable polygalacturonase OS=Nel...  147     7e-40
+TR:A0A0V0IFK6_SOLCH  A0A0V0IFK6 Putative polygalacturonase-like O...  145     8e-40
+TR:A0A097PQW5_CERDE  A0A097PQW5 Pectin lyase-like superfamily pro...  145     9e-40
+TR:A0A199V1N3_ANACO  A0A199V1N3 Putative polygalacturonase (Fragm...  147     1e-39
+TR:G7KCZ1_MEDTR  G7KCZ1 Polygalacturonase/glycoside hydrolase fam...  147     1e-39
+TR:A0A097PQX9_EUCGR  A0A097PQX9 Pectin lyase-like superfamily pro...  146     1e-39
+TR:A0A2G3DB02_CAPCH  A0A2G3DB02 Putative polygalacturonase OS=Cap...  146     1e-39
+TR:A0A2G3ADG0_CAPAN  A0A2G3ADG0 Putative polygalacturonase OS=Cap...  146     2e-39
+TR:A0A1U8FAU7_CAPAN  A0A1U8FAU7 probable polygalacturonase OS=Cap...  146     2e-39
+TR:A0A078IE22_BRANA  A0A078IE22 BnaA01g13460D protein OS=Brassica...  146     2e-39
+TR:A0A0D3A5R1_BRAOL  A0A0D3A5R1 Uncharacterized protein OS=Brassi...  146     2e-39
+TR:M4DB74_BRARP  M4DB74 Uncharacterized protein OS=Brassica rapa ...  146     2e-39
+TR:A0A097PQW2_9ASPA  A0A097PQW2 Pectin lyase-like superfamily pro...  145     2e-39
+TR:A0A0R0FAE8_SOYBN  A0A0R0FAE8 Uncharacterized protein OS=Glycin...  144     2e-39
+TR:A0A1D1XDL3_9ARAE  A0A1D1XDL3 Putative polygalacturonase OS=Ant...  146     3e-39
+TR:A0A097PQY8_SOLLC  A0A097PQY8 Pectin lyase-like superfamily pro...  145     3e-39
+TR:A0A097PQZ3_9MAGN  A0A097PQZ3 Pectin lyase-like superfamily pro...  145     3e-39
+TR:A0A097PQV0_MAGDE  A0A097PQV0 Pectin lyase-like superfamily pro...  145     3e-39
+TR:A0A078F908_BRANA  A0A078F908 BnaA03g46290D protein OS=Brassica...  146     3e-39
+TR:A0A2P4JSV7_QUESU  A0A2P4JSV7 Putative polygalacturonase OS=Que...  146     3e-39
+TR:A0A059C2I4_EUCGR  A0A059C2I4 Uncharacterized protein OS=Eucaly...  146     3e-39
+TR:M4DRX1_BRARP  M4DRX1 Uncharacterized protein OS=Brassica rapa ...  146     3e-39
+TR:A0A097PQU6_AQUCA  A0A097PQU6 Pectin lyase-like superfamily pro...  144     5e-39
+TR:A0A1J3G414_NOCCA  A0A1J3G414 Putative polygalacturonase OS=Noc...  145     5e-39
+TR:A0A097PQU7_ARALY  A0A097PQU7 Pectin lyase-like superfamily pro...  144     7e-39
+TR:A0A097PQY5_VITVI  A0A097PQY5 Pectin lyase-like superfamily pro...  144     7e-39
+TR:A0A097PQX7_9BRAS  A0A097PQX7 Pectin lyase-like superfamily pro...  144     7e-39
+TR:A0A097PQU4_ARATH  A0A097PQU4 Pectin lyase-like superfamily pro...  144     7e-39
+TR:K4CPL3_SOLLC  K4CPL3 Uncharacterized protein OS=Solanum lycope...  145     7e-39
+TR:A0A2G2XKJ7_CAPBA  A0A2G2XKJ7 Putative polygalacturonase OS=Cap...  144     8e-39
+TR:A0A088MRA4_BRAJU  A0A088MRA4 Polygalacturonase-like protein OS...  145     8e-39
+TR:A0A2P2LUK0_RHIMU  A0A2P2LUK0 Putative polygalacturonase OS=Rhi...  142     9e-39
+TR:A0A097PQX8_SOLTU  A0A097PQX8 Pectin lyase-like superfamily pro...  144     1e-38
+TR:A0A087GGD6_ARAAL  A0A087GGD6 Uncharacterized protein OS=Arabis...  144     1e-38
+TR:A0A1J3JN75_NOCCA  A0A1J3JN75 Putative polygalacturonase (Fragm...  145     1e-38
+TR:W1NXD6_AMBTC  W1NXD6 Uncharacterized protein OS=Amborella tric...  144     1e-38
+TR:A0A2G5CTK6_AQUCA  A0A2G5CTK6 Uncharacterized protein OS=Aquile...  144     1e-38
+TR:A0A2P4LZC2_QUESU  A0A2P4LZC2 Putative polygalacturonase OS=Que...  146     1e-38
+TR:I1KXV7_SOYBN  I1KXV7 Uncharacterized protein OS=Glycine max OX...  144     1e-38
+TR:D7M910_ARALL  D7M910 Glycoside hydrolase family 28 protein OS=...  144     1e-38
+TR:A0A178UTM2_ARATH  A0A178UTM2 Uncharacterized protein OS=Arabid...  144     1e-38
+TR:Q9SUP5_ARATH  Q9SUP5 Pectin lyase-like superfamily protein OS=...  144     1e-38
+TR:D7TVE6_VITVI  D7TVE6 Uncharacterized protein OS=Vitis vinifera...  144     1e-38
+TR:A0A1J3D2G0_NOCCA  A0A1J3D2G0 Putative polygalacturonase OS=Noc...  144     1e-38
+TR:V4MPJ2_EUTSA  V4MPJ2 Uncharacterized protein OS=Eutrema salsug...  144     1e-38
+TR:A0A0B2R9U1_GLYSO  A0A0B2R9U1 Putative polygalacturonase OS=Gly...  144     2e-38
+TR:I1N131_SOYBN  I1N131 Uncharacterized protein OS=Glycine max OX...  144     2e-38
+TR:A0A2R6QIX8_ACTCH  A0A2R6QIX8 Polygalacturonase OS=Actinidia ch...  144     2e-38
+TR:A0A068UUC8_COFCA  A0A068UUC8 Uncharacterized protein OS=Coffea...  144     2e-38
+TR:M1AW19_SOLTU  M1AW19 Uncharacterized protein OS=Solanum tubero...  144     2e-38
+TR:A0A2I0X1H2_9ASPA  A0A2I0X1H2 Putative polygalacturonase OS=Den...  144     2e-38
+TR:A0A2G5CTK7_AQUCA  A0A2G5CTK7 Uncharacterized protein OS=Aquile...  144     2e-38
+TR:A0A097PQY4_CHLJA  A0A097PQY4 Pectin lyase-like superfamily pro...  142     3e-38
+TR:A0A097PQW9_PRUPE  A0A097PQW9 Pectin lyase-like superfamily pro...  142     3e-38
+TR:A0A2P5AZK5_9ROSA  A0A2P5AZK5 Glycoside hydrolase OS=Trema orie...  140     3e-38
+TR:A0A2H3XXG6_PHODC  A0A2H3XXG6 probable polygalacturonase OS=Pho...  143     4e-38
+TR:B2WS78_ARAHA  B2WS78 Glycoside hydrolase family 28 protein OS=...  143     4e-38
+TR:A0A097PQY6_CABCA  A0A097PQY6 Pectin lyase-like superfamily pro...  142     4e-38
+TR:A0A097PQZ2_ALIPL  A0A097PQZ2 Pectin lyase-like superfamily pro...  142     4e-38
+TR:A0A2R6QN10_ACTCH  A0A2R6QN10 Polygalacturonase OS=Actinidia ch...  143     4e-38
+TR:A0A2I4E843_9ROSI  A0A2I4E843 probable polygalacturonase OS=Jug...  143     4e-38
+TR:A0A1S2XLV6_CICAR  A0A1S2XLV6 probable polygalacturonase OS=Cic...  143     4e-38
+TR:M5W9C6_PRUPE  M5W9C6 Uncharacterized protein OS=Prunus persica...  142     5e-38
+TR:A0A097PQV7_9MAGN  A0A097PQV7 Pectin lyase-like superfamily pro...  142     5e-38
+TR:A0A166CQL3_DAUCA  A0A166CQL3 Uncharacterized protein OS=Daucus...  142     5e-38
+TR:A0A151T0L8_CAJCA  A0A151T0L8 Putative polygalacturonase OS=Caj...  142     7e-38
+TR:A0A2P2LUL4_RHIMU  A0A2P2LUL4 Glycoside hydrolase family 28 fam...  142     7e-38
+TR:A0A097PQV2_9BRAS  A0A097PQV2 Pectin lyase-like superfamily pro...  141     7e-38
+TR:A0A097PQW1_9MAGN  A0A097PQW1 Pectin lyase-like superfamily pro...  141     7e-38
+TR:A0A0D2R441_GOSRA  A0A0D2R441 Uncharacterized protein OS=Gossyp...  139     8e-38
+TR:A0A2K3NVT1_TRIPR  A0A2K3NVT1 Polygalacturonase/glycoside hydro...  140     9e-38
+TR:S8C351_9LAMI  S8C351 Uncharacterized protein (Fragment) OS=Gen...  141     9e-38
+TR:A0A097PQZ0_ARITA  A0A097PQZ0 Pectin lyase-like superfamily pro...  141     1e-37
+TR:R0F5B8_9BRAS  R0F5B8 Uncharacterized protein OS=Capsella rubel...  141     1e-37
+TR:A0A097PQW4_MANES  A0A097PQW4 Pectin lyase-like superfamily pro...  140     1e-37
+TR:A0A097PQX2_ERYGU  A0A097PQX2 Pectin lyase-like superfamily pro...  140     1e-37
+TR:A0A097PQV4_9MAGN  A0A097PQV4 Pectin lyase-like superfamily pro...  140     1e-37
+TR:A0A1J7FQR3_LUPAN  A0A1J7FQR3 Uncharacterized protein OS=Lupinu...  141     1e-37
+TR:A0A059CGT3_EUCGR  A0A059CGT3 Uncharacterized protein OS=Eucaly...  141     2e-37
+TR:A0A251RQ96_HELAN  A0A251RQ96 Putative glycoside hydrolase, fam...  141     3e-37
+TR:A0A097PQW6_9LILI  A0A097PQW6 Pectin lyase-like superfamily pro...  140     3e-37
+TR:A0A2C9W9Y1_MANES  A0A2C9W9Y1 Uncharacterized protein OS=Maniho...  140     3e-37
+TR:A0A022RI00_ERYGU  A0A022RI00 Uncharacterized protein OS=Erythr...  140     3e-37
+TR:A0A072V631_MEDTR  A0A072V631 Polygalacturonase/glycoside hydro...  140     3e-37
+TR:A0A097PQW8_MUSAC  A0A097PQW8 Pectin lyase-like superfamily pro...  139     3e-37
+TR:A0A097PQV6_9MAGN  A0A097PQV6 Pectin lyase-like superfamily pro...  139     4e-37
+TR:A0A2P5W7L4_GOSBA  A0A2P5W7L4 Uncharacterized protein OS=Gossyp...  140     4e-37
+TR:A0A1U8LLN9_GOSHI  A0A1U8LLN9 probable polygalacturonase OS=Gos...  140     4e-37
+TR:A0A0D2MXU1_GOSRA  A0A0D2MXU1 Uncharacterized protein OS=Gossyp...  139     4e-37
+TR:A0A1S2Y641_CICAR  A0A1S2Y641 probable polygalacturonase OS=Cic...  140     4e-37
+TR:A0A0D3DFR6_BRAOL  A0A0D3DFR6 Uncharacterized protein OS=Brassi...  140     4e-37
+TR:M0RKB1_MUSAM  M0RKB1 Uncharacterized protein OS=Musa acuminata...  139     4e-37
+TR:M0TRZ3_MUSAM  M0TRZ3 Uncharacterized protein OS=Musa acuminata...  139     5e-37
+TR:A0A2H3XT32_PHODC  A0A2H3XT32 probable polygalacturonase OS=Pho...  140     5e-37
+TR:A0A2P5B8V2_PARAD  A0A2P5B8V2 Glycoside hydrolase OS=Parasponia...  140     6e-37
+TR:A0A1S3UH76_VIGRR  A0A1S3UH76 probable polygalacturonase OS=Vig...  139     7e-37
+TR:A0A097PQY1_PLAAC  A0A097PQY1 Pectin lyase-like superfamily pro...  139     8e-37
+TR:A0A097PR12_LACSA  A0A097PR12 Pectin lyase-like superfamily pro...  139     8e-37
+TR:A0A0B0P961_GOSAR  A0A0B0P961 Putative polygalacturonase OS=Gos...  139     8e-37
+TR:V7BMN1_PHAVU  V7BMN1 Uncharacterized protein OS=Phaseolus vulg...  139     9e-37
+TR:A0A2P6P684_ROSCH  A0A2P6P684 Putative galacturan 1,4-alpha-gal...  139     1e-36
+TR:A0A2H3Z3P6_PHODC  A0A2H3Z3P6 probable polygalacturonase OS=Pho...  139     1e-36
+TR:A0A2P5RMP1_GOSBA  A0A2P5RMP1 Uncharacterized protein OS=Gossyp...  139     1e-36
+TR:A0A0D2RYU9_GOSRA  A0A0D2RYU9 Uncharacterized protein OS=Gossyp...  139     1e-36
+TR:A0A1U8JXW7_GOSHI  A0A1U8JXW7 probable polygalacturonase OS=Gos...  139     1e-36
+TR:A0A175YEZ8_DAUCA  A0A175YEZ8 Uncharacterized protein OS=Daucus...  139     1e-36
+TR:A0A1R3K797_9ROSI  A0A1R3K797 Glycoside hydrolase, family 28 OS...  139     1e-36
+TR:A0A0S3RJS9_PHAAN  A0A0S3RJS9 Uncharacterized protein OS=Vigna ...  139     1e-36
+TR:A0A097PR18_HOUCO  A0A097PR18 Pectin lyase-like superfamily pro...  138     2e-36
+TR:A0A097PQU8_THECC  A0A097PQU8 Pectin lyase-like superfamily pro...  138     2e-36
+TR:A0A2J6KZT2_LACSA  A0A2J6KZT2 Uncharacterized protein OS=Lactuc...  139     2e-36
+TR:A0A151U228_CAJCA  A0A151U228 Putative polygalacturonase OS=Caj...  138     2e-36
+TR:A0A199UCH1_MANES  A0A199UCH1 Uncharacterized protein OS=Maniho...  138     2e-36
+TR:A0A097PQV1_PINTE  A0A097PQV1 Pectin lyase-like superfamily pro...  137     2e-36
+TR:A0A067K0I9_JATCU  A0A067K0I9 Uncharacterized protein OS=Jatrop...  138     2e-36
+TR:A0A251UAY2_HELAN  A0A251UAY2 Putative pectin lyase-like superf...  138     2e-36
+TR:A0A2I0LB85_PUNGR  A0A2I0LB85 Uncharacterized protein OS=Punica...  137     2e-36
+TR:A0A0S3S7F2_PHAAN  A0A0S3S7F2 Uncharacterized protein OS=Vigna ...  138     3e-36
+TR:A0A0L9VAQ3_PHAAN  A0A0L9VAQ3 Uncharacterized protein OS=Phaseo...  138     3e-36
+TR:A0A1U8AFW6_NELNU  A0A1U8AFW6 probable polygalacturonase OS=Nel...  138     3e-36
+TR:A0A061G732_THECC  A0A061G732 Pectin lyase-like superfamily pro...  138     3e-36
+TR:M0UQR1_HORVV  M0UQR1 Uncharacterized protein OS=Hordeum vulgar...  132     3e-36
+TR:A0A0D2T7T2_GOSRA  A0A0D2T7T2 Uncharacterized protein OS=Gossyp...  135     3e-36
+TR:A0A0K9RIU9_SPIOL  A0A0K9RIU9 Uncharacterized protein OS=Spinac...  137     4e-36
+TR:A0A097PQX1_POPTR  A0A097PQX1 Pectin lyase-like superfamily pro...  137     4e-36
+TR:A0A097PQX6_RICCO  A0A097PQX6 Pectin lyase-like superfamily pro...  137     4e-36
+TR:A0A218WHK8_PUNGR  A0A218WHK8 Uncharacterized protein OS=Punica...  137     4e-36
+TR:A0A2U1LXC7_ARTAN  A0A2U1LXC7 Pectin lyase-like superfamily pro...  137     6e-36
+TR:A0A2N9GB42_FAGSY  A0A2N9GB42 Uncharacterized protein OS=Fagus ...  137     6e-36
+TR:A0A1R3IAV0_COCAP  A0A1R3IAV0 Glycoside hydrolase, family 28 OS...  136     6e-36
+TR:M0T6X6_MUSAM  M0T6X6 Uncharacterized protein OS=Musa acuminata...  136     7e-36
+TR:B9RCR5_RICCO  B9RCR5 Polygalacturonase, putative OS=Ricinus co...  137     8e-36
+TR:B9GXH4_POPTR  B9GXH4 Uncharacterized protein OS=Populus tricho...  137     8e-36
+TR:A0A097PQV9_SOYBN  A0A097PQV9 Pectin lyase-like superfamily pro...  136     8e-36
+TR:A0A097PR01_PHAVU  A0A097PR01 Pectin lyase-like superfamily pro...  136     8e-36
+TR:A0A2I0A7K2_9ASPA  A0A2I0A7K2 Putative polygalacturonase OS=Apo...  137     9e-36
+TR:A0A097PQV5_GOSRA  A0A097PQV5 Pectin lyase-like superfamily pro...  135     1e-35
+TR:A0A2P5RLM9_GOSBA  A0A2P5RLM9 Uncharacterized protein OS=Gossyp...  135     1e-35
+TR:V7B9C9_PHAVU  V7B9C9 Uncharacterized protein OS=Phaseolus vulg...  136     1e-35
+TR:A0A0R0GFV3_SOYBN  A0A0R0GFV3 Uncharacterized protein OS=Glycin...  136     2e-35
+TR:A0A2I0AJJ0_9ASPA  A0A2I0AJJ0 Putative polygalacturonase OS=Apo...  136     2e-35
+TR:A0A0D2S5P6_GOSRA  A0A0D2S5P6 Uncharacterized protein OS=Gossyp...  135     2e-35
+TR:A0A1S3T971_VIGRR  A0A1S3T971 probable polygalacturonase OS=Vig...  135     2e-35
+TR:A0A0D2P1W0_GOSRA  A0A0D2P1W0 Uncharacterized protein OS=Gossyp...  135     2e-35
+TR:A0A1U8J7M4_GOSHI  A0A1U8J7M4 probable polygalacturonase OS=Gos...  135     2e-35
+TR:A0A103XR71_CYNCS  A0A103XR71 Glycoside hydrolase, family 28 OS...  135     2e-35
+TR:A0A2I4GR65_9ROSI  A0A2I4GR65 probable polygalacturonase OS=Jug...  135     3e-35
+TR:I1HZA8_BRADI  I1HZA8 Uncharacterized protein OS=Brachypodium d...  126     4e-35
+TR:A0A0D6QWF2_ARACU  A0A0D6QWF2 Uncharacterized protein OS=Arauca...  135     4e-35
+TR:A0A2J6JNU1_LACSA  A0A2J6JNU1 Uncharacterized protein OS=Lactuc...  134     6e-35
+TR:A0A2U1QMH9_ARTAN  A0A2U1QMH9 Glycoside hydrolase, family 28 OS...  134     6e-35
+TR:A0A2P5WRE2_GOSBA  A0A2P5WRE2 Uncharacterized protein OS=Gossyp...  134     7e-35
+TR:A0A0R0EZX1_SOYBN  A0A0R0EZX1 Uncharacterized protein OS=Glycin...  134     7e-35
+TR:A0A0R0ERZ1_SOYBN  A0A0R0ERZ1 Uncharacterized protein OS=Glycin...  134     8e-35
+TR:I1NBI6_SOYBN  I1NBI6 Uncharacterized protein OS=Glycine max OX...  134     8e-35
+TR:A0A2U1QAK8_ARTAN  A0A2U1QAK8 Glycoside hydrolase, family 28 OS...  134     8e-35
+TR:A0A1D5ZB77_WHEAT  A0A1D5ZB77 Uncharacterized protein OS=Tritic...  133     9e-35
+TR:A0A1D5WZ44_WHEAT  A0A1D5WZ44 Uncharacterized protein OS=Tritic...  133     1e-34
+TR:A0A1U8L662_GOSHI  A0A1U8L662 probable polygalacturonase OS=Gos...  134     1e-34
+TR:A0A1U8L9R2_GOSHI  A0A1U8L9R2 probable polygalacturonase OS=Gos...  134     1e-34
+TR:A0A0C9S615_9SPER  A0A0C9S615 TSA: Wollemia nobilis Ref_Wollemi...  134     1e-34
+TR:A0A1S3TF70_VIGRR  A0A1S3TF70 probable polygalacturonase isofor...  133     1e-34
+TR:A0A0K9NIK4_ZOSMR  A0A0K9NIK4 Exo-polygalacturonase, family GH2...  133     1e-34
+TR:A0A1D5WZ43_WHEAT  A0A1D5WZ43 Uncharacterized protein OS=Tritic...  133     2e-34
+TR:A0A1D5ZB74_WHEAT  A0A1D5ZB74 Uncharacterized protein OS=Tritic...  133     2e-34
+TR:A0A1J7IKZ8_LUPAN  A0A1J7IKZ8 Uncharacterized protein OS=Lupinu...  132     2e-34
+TR:A0A1S3TF66_VIGRR  A0A1S3TF66 probable polygalacturonase isofor...  133     2e-34
+TR:A0A0D2MYG8_GOSRA  A0A0D2MYG8 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:A0A0D2PU97_GOSRA  A0A0D2PU97 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:A0A1U8NCT2_GOSHI  A0A1U8NCT2 probable polygalacturonase OS=Gos...  133     2e-34
+TR:A0A097PQY9_GINBI  A0A097PQY9 Pectin lyase-like superfamily pro...  132     2e-34
+TR:A0A0D2R503_GOSRA  A0A0D2R503 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:A0A0D2T5I8_GOSRA  A0A0D2T5I8 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:A0A0D2PC55_GOSRA  A0A0D2PC55 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:A0A1D6S633_WHEAT  A0A1D6S633 Uncharacterized protein OS=Tritic...  133     2e-34
+TR:A0A0D2RZP7_GOSRA  A0A0D2RZP7 Uncharacterized protein OS=Gossyp...  133     2e-34
+TR:W5FDD2_WHEAT  W5FDD2 Uncharacterized protein OS=Triticum aesti...  133     2e-34
+TR:I1GL76_BRADI  I1GL76 Uncharacterized protein OS=Brachypodium d...  133     3e-34
+TR:A0A1D6S631_WHEAT  A0A1D6S631 Uncharacterized protein OS=Tritic...  133     3e-34
+TR:A0A2K3N3S5_TRIPR  A0A2K3N3S5 Polygalacturonase/glycoside hydro...  130     3e-34
+TR:M0UBB6_MUSAM  M0UBB6 Uncharacterized protein OS=Musa acuminata...  131     4e-34
+TR:B8AMS2_ORYSI  B8AMS2 Uncharacterized protein OS=Oryza sativa s...  132     4e-34
+TR:Q10B12_ORYSJ  Q10B12 Glycoside hydrolase family 28 protein, pu...  132     4e-34
+TR:V7BGV1_PHAVU  V7BGV1 Uncharacterized protein OS=Phaseolus vulg...  132     4e-34
+TR:A0A1Q3BDC3_CEPFO  A0A1Q3BDC3 Glyco_hydro_28 domain-containing ...  132     4e-34
+TR:A0A061DST7_THECC  A0A061DST7 Pectin lyase-like superfamily pro...  130     4e-34
+TR:I1PH36_ORYGL  I1PH36 Uncharacterized protein OS=Oryza glaberri...  132     4e-34
+TR:C0PMQ5_MAIZE  C0PMQ5 Uncharacterized protein OS=Zea mays OX=45...  130     4e-34
+TR:A0A1U8JUF6_GOSHI  A0A1U8JUF6 probable polygalacturonase isofor...  132     4e-34
+TR:A0A287SVV4_HORVV  A0A287SVV4 Uncharacterized protein OS=Hordeu...  132     4e-34
+TR:A0A1U8JUE5_GOSHI  A0A1U8JUE5 probable polygalacturonase isofor...  132     4e-34
+TR:Q75LI0_ORYSJ  Q75LI0 Glycoside hydrolase family 28 protein, pu...  132     4e-34
+TR:A0A200QLZ1_9MAGN  A0A200QLZ1 Glycoside hydrolase OS=Macleaya c...  132     4e-34
+TR:A0A2P5RAV5_GOSBA  A0A2P5RAV5 Uncharacterized protein OS=Gossyp...  132     5e-34
+TR:M0TN21_MUSAM  M0TN21 Uncharacterized protein OS=Musa acuminata...  131     5e-34
+TR:A0A0S3SQW0_PHAAN  A0A0S3SQW0 Uncharacterized protein OS=Vigna ...  132     5e-34
+TR:A0A1R3H199_COCAP  A0A1R3H199 Glycoside hydrolase, family 28 OS...  132     5e-34
+TR:I1JQX5_SOYBN  I1JQX5 Uncharacterized protein OS=Glycine max OX...  132     5e-34
+TR:A0A0D9VEE5_9ORYZ  A0A0D9VEE5 Uncharacterized protein OS=Leersi...  132     5e-34
+TR:A0A0D9W121_9ORYZ  A0A0D9W121 Uncharacterized protein OS=Leersi...  134     5e-34
+TR:C6TAH6_SOYBN  C6TAH6 Uncharacterized protein OS=Glycine max OX...  132     6e-34
+TR:I1JQX4_SOYBN  I1JQX4 Uncharacterized protein OS=Glycine max OX...  132     6e-34
+TR:I1GL75_BRADI  I1GL75 Uncharacterized protein OS=Brachypodium d...  133     6e-34
+TR:A0A1D6S632_WHEAT  A0A1D6S632 Uncharacterized protein OS=Tritic...  133     6e-34
+TR:A0A2T7F4M9_9POAL  A0A2T7F4M9 Uncharacterized protein OS=Panicu...  132     6e-34
+TR:F2DP84_HORVV  F2DP84 Predicted protein OS=Hordeum vulgare subs...  132     6e-34
+TR:M0UQR0_HORVV  M0UQR0 Uncharacterized protein OS=Hordeum vulgar...  132     6e-34
+TR:F2DHJ5_HORVV  F2DHJ5 Predicted protein OS=Hordeum vulgare subs...  132     6e-34
+TR:A0A0D9VEE4_9ORYZ  A0A0D9VEE4 Uncharacterized protein OS=Leersi...  132     7e-34
+TR:A0A0B2PYF2_GLYSO  A0A0B2PYF2 Putative polygalacturonase OS=Gly...  132     7e-34
+TR:A0A1D1Z061_9ARAE  A0A1D1Z061 Putative polygalacturonase OS=Ant...  132     7e-34
+TR:A0A0E0JY31_ORYPU  A0A0E0JY31 Uncharacterized protein OS=Oryza ...  131     8e-34
+TR:A0A166CB66_DAUCA  A0A166CB66 Uncharacterized protein OS=Daucus...  130     8e-34
+TR:A0A097PQV3_CARPA  A0A097PQV3 Pectin lyase-like superfamily pro...  130     8e-34
+TR:A0A097PQY2_SORBI  A0A097PQY2 Pectin lyase-like superfamily pro...  130     9e-34
+TR:A0A0Q3F7T7_BRADI  A0A0Q3F7T7 Uncharacterized protein (Fragment...  126     9e-34
+TR:A0A200R1N4_9MAGN  A0A200R1N4 Glycoside hydrolase OS=Macleaya c...  131     1e-33
+TR:A0A061DTN9_THECC  A0A061DTN9 Pectin lyase-like superfamily pro...  130     1e-33
+TR:A0A1S3ATJ9_CUCME  A0A1S3ATJ9 probable polygalacturonase OS=Cuc...  131     1e-33
+TR:A0A1R3IIB7_9ROSI  A0A1R3IIB7 Glycoside hydrolase, family 28 OS...  132     1e-33
+TR:A0A097PQZ8_MAIZE  A0A097PQZ8 Pectin lyase-like superfamily pro...  130     1e-33
+TR:A0A2I0VTE4_9ASPA  A0A2I0VTE4 Putative polygalacturonase OS=Den...  131     1e-33
+TR:J3LBG4_ORYBR  J3LBG4 Uncharacterized protein OS=Oryza brachyan...  132     1e-33
+TR:A0A1U8IQ68_GOSHI  A0A1U8IQ68 probable polygalacturonase isofor...  131     1e-33
+TR:V7CYJ8_PHAVU  V7CYJ8 Uncharacterized protein OS=Phaseolus vulg...  131     1e-33
+TR:A0A1U8INM4_GOSHI  A0A1U8INM4 probable polygalacturonase isofor...  131     2e-33
+TR:C5XZF9_SORBI  C5XZF9 Uncharacterized protein OS=Sorghum bicolo...  130     2e-33
+TR:A0A1U8AST8_NELNU  A0A1U8AST8 probable polygalacturonase isofor...  131     2e-33
+TR:A0A1U8IIN2_GOSHI  A0A1U8IIN2 probable polygalacturonase isofor...  131     2e-33
+TR:J3LUI4_ORYBR  J3LUI4 Uncharacterized protein OS=Oryza brachyan...  131     2e-33
+TR:A0A1U8AWN8_NELNU  A0A1U8AWN8 probable polygalacturonase isofor...  131     2e-33
+TR:A0A061DRL8_THECC  A0A061DRL8 Pectin lyase-like superfamily pro...  130     2e-33
+TR:A0A087GSY7_ARAAL  A0A087GSY7 Uncharacterized protein OS=Arabis...  130     2e-33
+TR:A0A199UCV2_ANACO  A0A199UCV2 Putative polygalacturonase (Fragm...  130     2e-33
+TR:A0A2P5X440_GOSBA  A0A2P5X440 Uncharacterized protein OS=Gossyp...  131     2e-33
+TR:C0PDS0_MAIZE  C0PDS0 Pectin lyase-like superfamily protein OS=...  130     2e-33
+TR:A0A0R0I0U4_SOYBN  A0A0R0I0U4 Uncharacterized protein OS=Glycin...  128     3e-33
+TR:A0A151SS27_CAJCA  A0A151SS27 Putative polygalacturonase OS=Caj...  130     3e-33
+TR:A0A067H772_CITSI  A0A067H772 Uncharacterized protein OS=Citrus...  130     3e-33
+TR:A0A2H5NXW1_CITUN  A0A2H5NXW1 Uncharacterized protein OS=Citrus...  130     3e-33
+TR:V4VWY6_9ROSI  V4VWY6 Uncharacterized protein OS=Citrus clement...  130     3e-33
+TR:A0A0D3F380_9ORYZ  A0A0D3F380 Uncharacterized protein OS=Oryza ...  130     3e-33
+TR:A0A0E0G4H3_ORYNI  A0A0E0G4H3 Uncharacterized protein OS=Oryza ...  130     3e-33
+TR:I1NZ42_ORYGL  I1NZ42 Uncharacterized protein OS=Oryza glaberri...  130     3e-33
+TR:A0A0D9YQ18_9ORYZ  A0A0D9YQ18 Uncharacterized protein OS=Oryza ...  130     3e-33
+TR:A0A058ZY95_EUCGR  A0A058ZY95 Uncharacterized protein OS=Eucaly...  130     3e-33
+TR:A0A0E0CIN0_9ORYZ  A0A0E0CIN0 Uncharacterized protein OS=Oryza ...  130     3e-33
+TR:A0A0D3F381_9ORYZ  A0A0D3F381 Uncharacterized protein OS=Oryza ...  130     4e-33
+TR:A0A2R6QDR5_ACTCH  A0A2R6QDR5 Polygalacturonase OS=Actinidia ch...  130     4e-33
+TR:A0A058ZY60_EUCGR  A0A058ZY60 Uncharacterized protein OS=Eucaly...  130     4e-33
+TR:A2X336_ORYSI  A2X336 Uncharacterized protein OS=Oryza sativa s...  129     4e-33
+TR:A0A0E0NCK3_ORYRU  A0A0E0NCK3 Uncharacterized protein OS=Oryza ...  129     4e-33
+TR:Q6EN36_ORYSJ  Q6EN36 Os02g0256100 protein OS=Oryza sativa subs...  129     4e-33
+TR:A0A0A9R7Q1_ARUDO  A0A0A9R7Q1 Uncharacterized protein OS=Arundo...  129     5e-33
+TR:A0A218WRS0_PUNGR  A0A218WRS0 Uncharacterized protein OS=Punica...  129     5e-33
+TR:A0A2P6RF55_ROSCH  A0A2P6RF55 Putative galacturan 1,4-alpha-gal...  129     7e-33
+TR:A0A162A438_DAUCA  A0A162A438 Uncharacterized protein OS=Daucus...  129     7e-33
+TR:A0A2P2Q2W6_RHIMU  A0A2P2Q2W6 Uncharacterized protein OS=Rhizop...  129     7e-33
+TR:A0A1E5VDY3_9POAL  A0A1E5VDY3 Putative polygalacturonase OS=Dic...  130     8e-33
+TR:A0A097PQX5_PANVG  A0A097PQX5 Pectin lyase-like superfamily pro...  128     9e-33
+TR:A0A2S3GND4_9POAL  A0A2S3GND4 Uncharacterized protein OS=Panicu...  129     9e-33
+TR:A0A151TXH5_CAJCA  A0A151TXH5 Putative polygalacturonase OS=Caj...  129     1e-32
+TR:A0A2K2BKY8_POPTR  A0A2K2BKY8 Uncharacterized protein OS=Populu...  129     1e-32
+TR:W1P376_AMBTC  W1P376 Uncharacterized protein OS=Amborella tric...  129     1e-32
+TR:A0A0A0KK36_CUCSA  A0A0A0KK36 Uncharacterized protein OS=Cucumi...  128     1e-32
+TR:A0A1J3EA33_NOCCA  A0A1J3EA33 Putative polygalacturonase OS=Noc...  129     1e-32
+TR:A0A1J3IZY0_NOCCA  A0A1J3IZY0 Putative polygalacturonase OS=Noc...  129     1e-32
+TR:M4EI96_BRARP  M4EI96 Uncharacterized protein OS=Brassica rapa ...  128     1e-32
+TR:A0A072VNG8_MEDTR  A0A072VNG8 Polygalacturonase/glycoside hydro...  127     1e-32
+TR:A0A1D6LAC5_MAIZE  A0A1D6LAC5 Pectin lyase-like superfamily pro...  125     1e-32
+TR:A0A0B2PY66_GLYSO  A0A0B2PY66 Putative polygalacturonase OS=Gly...  128     1e-32
+TR:I1JBA6_SOYBN  I1JBA6 Uncharacterized protein OS=Glycine max OX...  128     1e-32
+TR:K7LJA2_SOYBN  K7LJA2 Uncharacterized protein OS=Glycine max OX...  128     1e-32
+TR:D7U2T9_VITVI  D7U2T9 Uncharacterized protein OS=Vitis vinifera...  128     1e-32
+TR:A0A1Z1CAL6_DIOKA  A0A1Z1CAL6 Polygalacturonase 4 (Fragment) OS...  127     2e-32
+TR:A0A0D3CTD2_BRAOL  A0A0D3CTD2 Uncharacterized protein OS=Brassi...  128     2e-32
+TR:A0A1J7GPA5_LUPAN  A0A1J7GPA5 Uncharacterized protein OS=Lupinu...  127     2e-32
+TR:A0A2P5ETB1_9ROSA  A0A2P5ETB1 Glycoside hydrolase OS=Trema orie...  128     2e-32
+TR:A0A2T7BYS6_9POAL  A0A2T7BYS6 Uncharacterized protein OS=Panicu...  127     2e-32
+TR:A0A0S3S028_PHAAN  A0A0S3S028 Uncharacterized protein OS=Vigna ...  128     2e-32
+TR:A0A0L9U9S6_PHAAN  A0A0L9U9S6 Uncharacterized protein OS=Phaseo...  128     2e-32
+TR:A0A1Q3BSL8_CEPFO  A0A1Q3BSL8 Glyco_hydro_28 domain-containing ...  128     3e-32
+TR:A0A1J3FUU2_NOCCA  A0A1J3FUU2 Putative polygalacturonase (Fragm...  125     3e-32
+TR:A0A151SSY6_CAJCA  A0A151SSY6 Putative polygalacturonase OS=Caj...  127     3e-32
+TR:A0A178U9V8_ARATH  A0A178U9V8 Uncharacterized protein OS=Arabid...  127     3e-32
+TR:A0A097PR07_SETIT  A0A097PR07 Pectin lyase-like superfamily pro...  126     3e-32
+TR:A0A2P5B379_PARAD  A0A2P5B379 Glycoside hydrolase OS=Parasponia...  127     3e-32
+TR:A0A1Z5S426_SORBI  A0A1Z5S426 Uncharacterized protein OS=Sorghu...  127     4e-32
+TR:A0A2I4GGY5_9ROSI  A0A2I4GGY5 probable polygalacturonase isofor...  127     4e-32
+TR:G7KUM8_MEDTR  G7KUM8 Polygalacturonase/glycoside hydrolase fam...  127     4e-32
+TR:A0A072U423_MEDTR  A0A072U423 Polygalacturonase/glycoside hydro...  127     4e-32
+TR:A0A2T7BYS3_9POAL  A0A2T7BYS3 Uncharacterized protein OS=Panicu...  127     4e-32
+TR:A0A078FM34_BRANA  A0A078FM34 BnaC06g13740D protein OS=Brassica...  127     4e-32
+TR:A0A1J3FFR7_NOCCA  A0A1J3FFR7 Putative polygalacturonase OS=Noc...  127     4e-32
+TR:C5WU20_SORBI  C5WU20 Uncharacterized protein OS=Sorghum bicolo...  127     4e-32
+TR:Q9FJ27_ARATH  Q9FJ27 At5g41870 OS=Arabidopsis thaliana OX=3702...  127     4e-32
+TR:G7IBQ6_MEDTR  G7IBQ6 Polygalacturonase/glycoside hydrolase fam...  127     4e-32
+TR:A0A2I4GGZ6_9ROSI  A0A2I4GGZ6 probable polygalacturonase isofor...  127     5e-32
+TR:A0A2R6RDI1_ACTCH  A0A2R6RDI1 Polygalacturonase OS=Actinidia ch...  127     5e-32
+TR:A0A1S3EA65_CICAR  A0A1S3EA65 probable polygalacturonase OS=Cic...  127     5e-32
+TR:V4LVD7_EUTSA  V4LVD7 Uncharacterized protein OS=Eutrema salsug...  127     5e-32
+TR:A0A2G5EY88_AQUCA  A0A2G5EY88 Uncharacterized protein OS=Aquile...  127     5e-32
+TR:D7LSU1_ARALL  D7LSU1 Glycoside hydrolase family 28 protein OS=...  127     6e-32
+TR:D7LSM0_ARALL  D7LSM0 Glycoside hydrolase family 28 protein OS=...  127     6e-32
+TR:V4L0R8_EUTSA  V4L0R8 Uncharacterized protein OS=Eutrema salsug...  127     6e-32
+TR:V4M3D7_EUTSA  V4M3D7 Uncharacterized protein OS=Eutrema salsug...  126     6e-32
+TR:K3YSF7_SETIT  K3YSF7 Uncharacterized protein OS=Setaria italic...  126     6e-32
+TR:A0A2T7BYT7_9POAL  A0A2T7BYT7 Uncharacterized protein OS=Panicu...  127     6e-32
+TR:A0A2T8I045_9POAL  A0A2T8I045 Uncharacterized protein OS=Panicu...  127     6e-32
+TR:J3MPN4_ORYBR  J3MPN4 Uncharacterized protein OS=Oryza brachyan...  124     7e-32
+TR:A0A2P5AL31_PARAD  A0A2P5AL31 Glycoside hydrolase OS=Parasponia...  127     7e-32
+TR:A0A067K7V2_JATCU  A0A067K7V2 Uncharacterized protein OS=Jatrop...  126     7e-32
+TR:M5XME1_PRUPE  M5XME1 Uncharacterized protein OS=Prunus persica...  126     8e-32
+TR:A0A087GZU4_ARAAL  A0A087GZU4 Uncharacterized protein OS=Arabis...  126     8e-32
+TR:R0HJE2_9BRAS  R0HJE2 Uncharacterized protein OS=Capsella rubel...  126     8e-32
+TR:A0A087GZU3_ARAAL  A0A087GZU3 Uncharacterized protein OS=Arabis...  126     9e-32
+TR:A0A067EHC0_CITSI  A0A067EHC0 Uncharacterized protein OS=Citrus...  124     1e-31
+TR:A0A059ALC8_EUCGR  A0A059ALC8 Uncharacterized protein OS=Eucaly...  126     1e-31
+TR:A0A2C9VS96_MANES  A0A2C9VS96 Uncharacterized protein OS=Maniho...  124     1e-31
+TR:M0S646_MUSAM  M0S646 Uncharacterized protein OS=Musa acuminata...  125     1e-31
+TR:K4A9C8_SETIT  K4A9C8 Uncharacterized protein OS=Setaria italic...  126     1e-31
+TR:D7MIQ6_ARALL  D7MIQ6 Glycoside hydrolase family 28 protein OS=...  125     1e-31
+TR:A0A1J3K9E3_NOCCA  A0A1J3K9E3 Putative polygalacturonase OS=Noc...  125     1e-31
+TR:A0A2P4IZB8_QUESU  A0A2P4IZB8 Putative polygalacturonase OS=Que...  125     1e-31
+TR:A0A2H3Z2B6_PHODC  A0A2H3Z2B6 probable polygalacturonase OS=Pho...  125     1e-31
+TR:A0A2K3P2X1_TRIPR  A0A2K3P2X1 Putative polygalacturonase-like p...  127     1e-31
+TR:A0A1S3TM19_VIGRR  A0A1S3TM19 probable polygalacturonase isofor...  125     1e-31
+TR:A0A2K3NYW8_TRIPR  A0A2K3NYW8 Polygalacturonase OS=Trifolium pr...  126     1e-31
+TR:A0A1S3TM38_VIGRR  A0A1S3TM38 probable polygalacturonase isofor...  125     1e-31
+TR:A0A2K1XTW2_POPTR  A0A2K1XTW2 Uncharacterized protein OS=Populu...  125     1e-31
+TR:Q9M1R3_ARATH  Q9M1R3 Uncharacterized protein T17J13.70 OS=Arab...  125     2e-31
+TR:A0A287WZJ4_HORVV  A0A287WZJ4 Uncharacterized protein OS=Hordeu...  119     2e-31
+TR:A0A178VFI8_ARATH  A0A178VFI8 Uncharacterized protein OS=Arabid...  125     2e-31
+TR:Q9FPJ2_ARATH  Q9FPJ2 AT3g62110 OS=Arabidopsis thaliana OX=3702...  125     2e-31
+TR:R0F5B3_9BRAS  R0F5B3 Uncharacterized protein OS=Capsella rubel...  125     2e-31
+TR:C0PIY8_MAIZE  C0PIY8 Uncharacterized protein OS=Zea mays OX=45...  125     2e-31
+TR:A0A1U8I3C5_GOSHI  A0A1U8I3C5 probable polygalacturonase OS=Gos...  125     2e-31
+TR:A0A0R0JHL8_SOYBN  A0A0R0JHL8 Uncharacterized protein OS=Glycin...  124     2e-31
+TR:A0A2G5DW74_AQUCA  A0A2G5DW74 Uncharacterized protein OS=Aquile...  125     2e-31
+TR:A0A2P5E8Y8_9ROSA  A0A2P5E8Y8 Glycoside hydrolase OS=Trema orie...  125     2e-31
+TR:B9H488_POPTR  B9H488 Uncharacterized protein OS=Populus tricho...  125     2e-31
+TR:A0A1S2XTW5_CICAR  A0A1S2XTW5 probable polygalacturonase isofor...  125     2e-31
+TR:A0A2N9G6W0_FAGSY  A0A2N9G6W0 Uncharacterized protein OS=Fagus ...  125     2e-31
+TR:A0A1S2XVV5_CICAR  A0A1S2XVV5 probable polygalacturonase isofor...  125     2e-31
+TR:A0A2P5WZ25_GOSBA  A0A2P5WZ25 Uncharacterized protein OS=Gossyp...  125     2e-31
+TR:A0A061DJM4_THECC  A0A061DJM4 Pectin lyase-like superfamily pro...  125     2e-31
+TR:W9RA25_9ROSA  W9RA25 Putative polygalacturonase OS=Morus notab...  125     3e-31
+TR:B9TA63_RICCO  B9TA63 Polygalacturonase, putative OS=Ricinus co...  125     3e-31
+TR:B6U0W6_MAIZE  B6U0W6 Polygalacturonase OS=Zea mays OX=4577 PE=...  125     3e-31
+TR:C0P541_MAIZE  C0P541 Pectin lyase-like superfamily protein OS=...  125     3e-31
+TR:A0A2C9UYD3_MANES  A0A2C9UYD3 Uncharacterized protein OS=Maniho...  125     3e-31
+TR:A0A2I0WQX2_9ASPA  A0A2I0WQX2 Putative polygalacturonase OS=Den...  125     3e-31
+TR:A0A061DKH7_THECC  A0A061DKH7 Pectin lyase-like superfamily pro...  125     4e-31
+TR:A0A166HI93_DAUCA  A0A166HI93 Uncharacterized protein OS=Daucus...  124     4e-31
+TR:A0A2C9VSA1_MANES  A0A2C9VSA1 Uncharacterized protein OS=Maniho...  124     4e-31
+TR:A0A067L2A4_JATCU  A0A067L2A4 Uncharacterized protein OS=Jatrop...  124     4e-31
+TR:A0A1D6LAC7_MAIZE  A0A1D6LAC7 Pectin lyase-like superfamily pro...  125     4e-31
+TR:A0A1U8ARM3_NELNU  A0A1U8ARM3 probable polygalacturonase OS=Nel...  125     5e-31
+TR:D8QQS2_SELML  D8QQS2 Uncharacterized protein (Fragment) OS=Sel...  123     5e-31
+TR:A0A103XGF1_CYNCS  A0A103XGF1 Glycoside hydrolase, family 28 OS...  123     6e-31
+TR:I1KBJ8_SOYBN  I1KBJ8 Uncharacterized protein OS=Glycine max OX...  124     6e-31
+TR:A0A1R3GDL3_9ROSI  A0A1R3GDL3 Glycoside hydrolase, family 28 OS...  124     6e-31
+TR:A0A1R3GGK1_COCAP  A0A1R3GGK1 Glycoside hydrolase, family 28 OS...  124     6e-31
+TR:A0A0B0NML4_GOSAR  A0A0B0NML4 Putative polygalacturonase OS=Gos...  124     6e-31
+TR:A0A0B0NJA6_GOSAR  A0A0B0NJA6 Putative polygalacturonase OS=Gos...  124     6e-31
+TR:A0A0D2RHX9_GOSRA  A0A0D2RHX9 Uncharacterized protein OS=Gossyp...  124     7e-31
+TR:A0A1U8K5B3_GOSHI  A0A1U8K5B3 probable polygalacturonase OS=Gos...  124     7e-31
+TR:A0A1U8PLW2_GOSHI  A0A1U8PLW2 probable polygalacturonase isofor...  124     7e-31
+TR:A0A0E0LIX2_ORYPU  A0A0E0LIX2 Uncharacterized protein OS=Oryza ...  123     7e-31
+TR:A0A1W0W330_SORBI  A0A1W0W330 Uncharacterized protein OS=Sorghu...  122     8e-31
+TR:A0A0D3DV15_BRAOL  A0A0D3DV15 Uncharacterized protein OS=Brassi...  124     8e-31
+TR:A0A251SST1_HELAN  A0A251SST1 Putative glycoside hydrolase, fam...  124     8e-31
+TR:V4SXA4_9ROSI  V4SXA4 Uncharacterized protein (Fragment) OS=Cit...  124     8e-31
+TR:A0A200PML1_9MAGN  A0A200PML1 Glycoside hydrolase OS=Macleaya c...  122     8e-31
+TR:M5X2D3_PRUPE  M5X2D3 Uncharacterized protein OS=Prunus persica...  124     9e-31
+TR:A0A2P5W449_GOSBA  A0A2P5W449 Uncharacterized protein OS=Gossyp...  124     9e-31
+TR:A0A1U8PLI6_GOSHI  A0A1U8PLI6 probable polygalacturonase isofor...  124     9e-31
+TR:A0A2H5QS72_CITUN  A0A2H5QS72 Uncharacterized protein OS=Citrus...  124     9e-31
+TR:A0A2U1LH40_ARTAN  A0A2U1LH40 Glycoside hydrolase, family 28, P...  124     9e-31
+TR:A0A0D2THT8_GOSRA  A0A0D2THT8 Uncharacterized protein OS=Gossyp...  123     9e-31
+TR:A0A078GF53_BRANA  A0A078GF53 BnaC06g18320D protein OS=Brassica...  123     9e-31
+TR:A0A2P4NB02_QUESU  A0A2P4NB02 Putative polygalacturonase OS=Que...  123     1e-30
+TR:A0A2C9WNE2_MANES  A0A2C9WNE2 Uncharacterized protein OS=Maniho...  123     1e-30
+TR:A0A0D3GVJ9_9ORYZ  A0A0D3GVJ9 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:A0A0D3CVA8_BRAOL  A0A0D3CVA8 Uncharacterized protein OS=Brassi...  123     1e-30
+TR:A0A2J6KC66_LACSA  A0A2J6KC66 Uncharacterized protein OS=Lactuc...  123     1e-30
+TR:A0A0E0LIX3_ORYPU  A0A0E0LIX3 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:A0A0E0LQF0_ORYPU  A0A0E0LQF0 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:A3BNW4_ORYSJ  A3BNW4 Uncharacterized protein OS=Oryza sativa s...  123     1e-30
+TR:A2YQG1_ORYSI  A2YQG1 Uncharacterized protein OS=Oryza sativa s...  123     1e-30
+TR:A0A0E0I6C9_ORYNI  A0A0E0I6C9 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:A0A2P5QBX9_GOSBA  A0A2P5QBX9 Uncharacterized protein OS=Gossyp...  123     1e-30
+TR:A0A0D2RWZ5_GOSRA  A0A0D2RWZ5 Uncharacterized protein OS=Gossyp...  123     1e-30
+TR:A0A0E0QDD7_ORYRU  A0A0E0QDD7 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:A0A0E0APY0_9ORYZ  A0A0E0APY0 Uncharacterized protein OS=Oryza ...  123     1e-30
+TR:Q6ZD71_ORYSJ  Q6ZD71 Os08g0107300 protein OS=Oryza sativa subs...  123     1e-30
+TR:Q5ZBG4_ORYSJ  Q5ZBG4 Os01g0618900 protein OS=Oryza sativa subs...  120     1e-30
+TR:M4CH02_BRARP  M4CH02 Uncharacterized protein OS=Brassica rapa ...  123     1e-30
+TR:I1H2F8_BRADI  I1H2F8 Uncharacterized protein OS=Brachypodium d...  122     2e-30
+TR:V7AWR8_PHAVU  V7AWR8 Uncharacterized protein OS=Phaseolus vulg...  123     2e-30
+TR:D8R857_SELML  D8R857 Uncharacterized protein OS=Selaginella mo...  123     2e-30
+TR:G7JBL3_MEDTR  G7JBL3 Glycoside hydrolase family 28 protein OS=...  124     2e-30
+TR:B9SKX0_RICCO  B9SKX0 Polygalacturonase, putative OS=Ricinus co...  123     2e-30
+TR:W9R8E3_9ROSA  W9R8E3 Putative polygalacturonase OS=Morus notab...  124     2e-30
+TR:A0A1U7Z2I1_NELNU  A0A1U7Z2I1 probable polygalacturonase isofor...  121     2e-30
+TR:A0A0S3RF24_PHAAN  A0A0S3RF24 Uncharacterized protein OS=Vigna ...  122     2e-30
+TR:A0A0L9UEQ8_PHAAN  A0A0L9UEQ8 Uncharacterized protein OS=Phaseo...  122     2e-30
+TR:A0A087GJA7_ARAAL  A0A087GJA7 Uncharacterized protein OS=Arabis...  121     2e-30
+TR:A0A2P5CLQ3_PARAD  A0A2P5CLQ3 Glycoside hydrolase OS=Parasponia...  122     2e-30
+TR:A0A2H3Y9C4_PHODC  A0A2H3Y9C4 probable polygalacturonase OS=Pho...  122     2e-30
+TR:A0A0A0LJW9_CUCSA  A0A0A0LJW9 Uncharacterized protein OS=Cucumi...  122     3e-30
+TR:Q6ZLN7_ORYSJ  Q6ZLN7 Os07g0245200 protein OS=Oryza sativa subs...  122     3e-30
+TR:K3ZZJ8_SETIT  K3ZZJ8 Uncharacterized protein OS=Setaria italic...  122     3e-30
+TR:A0A068UAQ3_COFCA  A0A068UAQ3 Uncharacterized protein OS=Coffea...  122     3e-30
+TR:A0A1B6QA41_SORBI  A0A1B6QA41 Uncharacterized protein OS=Sorghu...  122     3e-30
+TR:B6SZN5_MAIZE  B6SZN5 Pectin lyase-like superfamily protein OS=...  122     4e-30
+TR:C5X216_SORBI  C5X216 Uncharacterized protein OS=Sorghum bicolo...  122     4e-30
+TR:A0A1S3CDX7_CUCME  A0A1S3CDX7 probable polygalacturonase OS=Cuc...  122     4e-30
+TR:A0A0D9X3K2_9ORYZ  A0A0D9X3K2 Uncharacterized protein OS=Leersi...  122     4e-30
+TR:I1H2F6_BRADI  I1H2F6 Uncharacterized protein OS=Brachypodium d...  122     4e-30
+TR:M1AUN6_SOLTU  M1AUN6 Uncharacterized protein OS=Solanum tubero...  117     4e-30
+TR:A0A2P5ERQ4_9ROSA  A0A2P5ERQ4 Glycoside hydrolase OS=Trema orie...  121     5e-30
+TR:W5HB23_WHEAT  W5HB23 Uncharacterized protein OS=Triticum aesti...  119     5e-30
+TR:A0A287WZE7_HORVV  A0A287WZE7 Uncharacterized protein OS=Hordeu...  119     5e-30
+
+
+>TR:C4IYE8_MAIZE C4IYE8 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=256
+
+ Score = 182 bits (462),  Expect = 3e-55
+ Identities = 83/87 (95%), Positives = 84/87 (97%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQG VWWDMWKKRTLP
+Sbjct  118  SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGGVWWDMWKKRTLP  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDVVVSN+VFQD  F
+Sbjct  178  FTRPHLLELMYSTDVVVSNLVFQDSPF  204
+
+
+>TR:A0A1D6FL95_MAIZE A0A1D6FL95 Pectin lyase-like superfamily protein OS=Zea mays 
+OX=4577 GN=100283011 PE=3 SV=1
+Length=446
+
+ Score = 182 bits (462),  Expect = 4e-53
+ Identities = 83/87 (95%), Positives = 84/87 (97%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQG VWWDMWKKRTLP
+Sbjct  118  SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGGVWWDMWKKRTLP  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDVVVSN+VFQD  F
+Sbjct  178  FTRPHLLELMYSTDVVVSNLVFQDSPF  204
+
+
+>TR:K3Z683_SETIT K3Z683 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101778891 
+PE=3 SV=1
+Length=445
+
+ Score = 181 bits (460),  Expect = 8e-53
+ Identities = 82/87 (94%), Positives = 85/87 (98%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL+DPLPSYGRGRELPGGRYMSLIHG+GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  118  SWPLVDPLPSYGRGRELPGGRYMSLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDV+VSNVVFQD  F
+Sbjct  178  FTRPHLLELMYSTDVIVSNVVFQDSPF  204
+
+
+>TR:C5YWL7_SORBI C5YWL7 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3009G250800 
+PE=3 SV=1
+Length=439
+
+ Score = 181 bits (459),  Expect = 1e-52
+ Identities = 83/87 (95%), Positives = 85/87 (98%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG+GLQDVFITGENGTIDGQGS+WWDMWKKRTLP
+Sbjct  112  SWPLIDPLPSYGRGRELPGGRYMSLIHGNGLQDVFITGENGTIDGQGSLWWDMWKKRTLP  171
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDVVVSNVVFQD  F
+Sbjct  172  FTRPHLLELMYSTDVVVSNVVFQDSPF  198
+
+
+>TR:B6TDS0_MAIZE B6TDS0 Polygalacturonase OS=Zea mays OX=4577 PE=2 SV=1
+Length=446
+
+ Score = 180 bits (457),  Expect = 2e-52
+ Identities = 82/87 (94%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLP YGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQG VWWDMWKKRTLP
+Sbjct  118  SWPLIDPLPXYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGGVWWDMWKKRTLP  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDVVVSN+VFQD  F
+Sbjct  178  FTRPHLLELMYSTDVVVSNLVFQDSPF  204
+
+
+>TR:A0A1E5UIN2_9POAL A0A1E5UIN2 Putative polygalacturonase OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0026245 PE=3 SV=1
+Length=446
+
+ Score = 179 bits (455),  Expect = 5e-52
+ Identities = 81/87 (93%), Positives = 85/87 (98%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG+GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  119  SWPLIDPLPSYGRGRELPGGRYMSLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYST+V+VSN+VFQD  F
+Sbjct  179  FTRPHLLELMYSTNVIVSNIVFQDSPF  205
+
+
+>TR:A0A2T8KID3_9POAL A0A2T8KID3 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_3G159500 PE=4 SV=1
+Length=441
+
+ Score = 179 bits (454),  Expect = 6e-52
+ Identities = 81/87 (93%), Positives = 84/87 (97%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL+DPLPSYGRGRELPGGRY SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  114  SWPLVDPLPSYGRGRELPGGRYTSLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDV+VSNVVFQD  F
+Sbjct  174  FTRPHLLELMYSTDVIVSNVVFQDSPF  200
+
+
+>TR:A0A2T7E9P4_9POAL A0A2T7E9P4 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_3G151400 PE=4 SV=1
+Length=441
+
+ Score = 178 bits (452),  Expect = 1e-51
+ Identities = 81/87 (93%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL+DPLPSYGRGRELPGGRY SLIHG GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  114  SWPLVDPLPSYGRGRELPGGRYTSLIHGSGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELMYSTDV+VSNVVFQD  F
+Sbjct  174  FTRPHLLELMYSTDVIVSNVVFQDSPF  200
+
+
+>TR:A0A0D3GBF0_9ORYZ A0A0D3GBF0 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=354
+
+ Score = 174 bits (442),  Expect = 5e-51
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  27   SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  86
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  87   FTRPHLLELISSTDVIISNVVFQDSPF  113
+
+
+>TR:A0A0A9DPC8_ARUDO A0A0A9DPC8 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=114
+
+ Score = 166 bits (419),  Expect = 1e-50
+ Identities = 74/87 (85%), Positives = 82/87 (94%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG+GLQDV ITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  19   SWPLIEPLPSYGRGRELPGGRYISLIHGNGLQDVVITGENGTIDGQGSVWWDMWKKGTLP  78
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVF+D  F
+Sbjct  79   YTRPHLLELMSSSDIIVSNVVFEDSPF  105
+
+
+>TR:A0A0D9WKB9_9ORYZ A0A0D9WKB9 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=455
+
+ Score = 175 bits (444),  Expect = 2e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL+DPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  127  SWPLVDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  186
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  187  FTRPHLLELISSTDVIISNVVFQDSPF  213
+
+
+>TR:A0A287L3T7_HORVV A0A287L3T7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=101
+
+ Score = 164 bits (416),  Expect = 2e-50
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  3   SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  62
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+           FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  63  FTRPHLLELMDSSNAIVSNLVFQDSPF  89
+
+
+>TR:A0A0E0L6C9_ORYPU A0A0E0L6C9 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=477
+
+ Score = 176 bits (445),  Expect = 3e-50
+ Identities = 80/87 (92%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMWKKRTLP
+Sbjct  150  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  209
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  210  FTRPHLLELISSTDVIISNVVFQDSPF  236
+
+
+>TR:A2Y813_ORYSI A2Y813 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_21181 PE=3 SV=1
+Length=448
+
+ Score = 174 bits (442),  Expect = 4e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  181  FTRPHLLELISSTDVIISNVVFQDSPF  207
+
+
+>TR:A0A0E0PRW2_ORYRU A0A0E0PRW2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=448
+
+ Score = 174 bits (442),  Expect = 4e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  181  FTRPHLLELISSTDVIISNVVFQDSPF  207
+
+
+>TR:A0A0E0A3F7_9ORYZ A0A0E0A3F7 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=448
+
+ Score = 174 bits (442),  Expect = 4e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  181  FTRPHLLELISSTDVIISNVVFQDSPF  207
+
+
+>TR:Q0DFJ3_ORYSJ Q0DFJ3 Os05g0587000 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os05g0587000 PE=3 SV=1
+Length=448
+
+ Score = 174 bits (442),  Expect = 4e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  181  FTRPHLLELISSTDVIISNVVFQDSPF  207
+
+
+>TR:I1PYE6_ORYGL I1PYE6 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=451
+
+ Score = 174 bits (442),  Expect = 4e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  124  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  183
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  184  FTRPHLLELISSTDVIISNVVFQDSPF  210
+
+
+>TR:Q6L5C5_ORYSJ Q6L5C5 Putative polygalacturonase OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OJ1007_H05.5 PE=3 SV=1
+Length=474
+
+ Score = 174 bits (442),  Expect = 7e-50
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  147  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  206
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  207  FTRPHLLELISSTDVIISNVVFQDSPF  233
+
+
+>TR:A0A0E0IVW6_ORYNI A0A0E0IVW6 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=449
+
+ Score = 173 bits (439),  Expect = 1e-49
+ Identities = 78/87 (90%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQGSVWWDMW+KRTLP
+Sbjct  122  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGSVWWDMWRKRTLP  181
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLE++ STDV++SNVVFQD  F
+Sbjct  182  FTRPHLLEVISSTDVIISNVVFQDSPF  208
+
+
+>TR:J3MA81_ORYBR J3MA81 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=569
+
+ Score = 174 bits (442),  Expect = 3e-49
+ Identities = 79/87 (91%), Positives = 83/87 (95%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG GLQDVFITGENGTIDGQG+VWWDMWKKRTLP
+Sbjct  242  SWPLIDPLPSYGRGRELPGGRYMSLIHGDGLQDVFITGENGTIDGQGNVWWDMWKKRTLP  301
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLEL+ STDV++SNVVFQD  F
+Sbjct  302  FTRPHLLELISSTDVIISNVVFQDSPF  328
+
+
+>TR:M7ZRX3_TRIUA M7ZRX3 Putative polygalacturonase OS=Triticum urartu OX=4572 
+GN=TRIUR3_34408 PE=3 SV=1
+Length=269
+
+ Score = 164 bits (416),  Expect = 4e-48
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  19   SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  78
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  79   FTRPHLLELMDSSNAIVSNLVFQDSPF  105
+
+
+>TR:A0A0P0V5A9_ORYSJ A0A0P0V5A9 Os01g0618900 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os01g0618900 PE=3 SV=1
+Length=329
+
+ Score = 166 bits (420),  Expect = 5e-48
+ Identities = 76/86 (88%), Positives = 80/86 (93%), Gaps = 0/86 (0%)
+
+Query  3   WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+           WPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLPF
+Sbjct  1   WPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLPF  60
+
+Query  63  TRPHLLELMYSTDVVVSNVVFQDCRF  88
+           TRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  61  TRPHLLELMNSSDVVVSNVVFQDSPF  86
+
+
+>TR:A2ZVG8_ORYSJ A2ZVG8 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_02632 PE=3 SV=1
+Length=419
+
+ Score = 167 bits (424),  Expect = 1e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0D3ERB0_9ORYZ A0A0D3ERB0 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=445
+
+ Score = 167 bits (424),  Expect = 2e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0E0FPM7_ORYNI A0A0E0FPM7 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=445
+
+ Score = 167 bits (424),  Expect = 2e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0E0MZC2_ORYRU A0A0E0MZC2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=445
+
+ Score = 167 bits (424),  Expect = 2e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:I1NPQ5_ORYGL I1NPQ5 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=445
+
+ Score = 167 bits (424),  Expect = 2e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0D9YBS1_9ORYZ A0A0D9YBS1 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=445
+
+ Score = 167 bits (424),  Expect = 2e-47
+ Identities = 77/87 (89%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0E0C4P9_9ORYZ A0A0E0C4P9 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=448
+
+ Score = 166 bits (420),  Expect = 7e-47
+ Identities = 76/87 (87%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  119  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVF+D  F
+Sbjct  179  FTRPHLLELMNSSDVVVSNVVFRDSPF  205
+
+
+>TR:A0A0E0JL96_ORYPU A0A0E0JL96 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=446
+
+ Score = 166 bits (419),  Expect = 9e-47
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITGENGTIDGQGS WWDMWKK TLP
+Sbjct  117  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGENGTIDGQGSAWWDMWKKGTLP  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHL+ELM S+DVV+SNVVF+D  F
+Sbjct  177  FTRPHLVELMNSSDVVISNVVFRDSPF  203
+
+
+>TR:A0A199VZX0_ANACO A0A199VZX0 Putative polygalacturonase OS=Ananas comosus OX=4615 
+GN=ACMD2_01559 PE=3 SV=1
+Length=354
+
+ Score = 163 bits (413),  Expect = 1e-46
+ Identities = 71/87 (82%), Positives = 82/87 (94%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMSLIHG GL+DV ITG NGTIDGQG++WW+MW++RTLP
+Sbjct  136  NWPLIDPLPSYGRGRELPGGRYMSLIHGIGLEDVVITGANGTIDGQGAIWWNMWRQRTLP  195
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLELMYSTD+++SNVVFQD  F
+Sbjct  196  FTRPNLLELMYSTDIIISNVVFQDSPF  222
+
+
+>TR:J3L1Y8_ORYBR J3L1Y8 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=452
+
+ Score = 166 bits (419),  Expect = 1e-46
+ Identities = 77/87 (89%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRYMSLIHG+GLQDV ITGENGTIDGQGS WWDMWKK TL 
+Sbjct  123  SWPLIEPLPSYGRGRELPGGRYMSLIHGNGLQDVVITGENGTIDGQGSAWWDMWKKGTLS  182
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  183  FTRPHLLELMNSSDVVVSNVVFQDSPF  209
+
+
+>TR:A0A287L3T1_HORVV A0A287L3T1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=424
+
+ Score = 164 bits (416),  Expect = 2e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  95   SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  154
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  155  FTRPHLLELMDSSNAIVSNLVFQDSPF  181
+
+
+>TR:A0A2S3HUD4_9POAL A0A2S3HUD4 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_5G241000 PE=4 SV=1
+Length=442
+
+ Score = 165 bits (417),  Expect = 2e-46
+ Identities = 74/87 (85%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGS+WWDMWKK TLP
+Sbjct  113  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSMWWDMWKKGTLP  172
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVFQD  F
+Sbjct  173  YTRPHLLELMSSSDIIVSNVVFQDSPF  199
+
+
+>TR:A0A2T7DJL9_9POAL A0A2T7DJL9 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G239300 PE=4 SV=1
+Length=442
+
+ Score = 165 bits (417),  Expect = 2e-46
+ Identities = 74/87 (85%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGS+WWDMWKK TLP
+Sbjct  113  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSMWWDMWKKGTLP  172
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVFQD  F
+Sbjct  173  YTRPHLLELMSSSDIIVSNVVFQDSPF  199
+
+
+>TR:M8CEA0_AEGTA M8CEA0 Putative polygalacturonase OS=Aegilops tauschii OX=37682 
+GN=F775_28176 PE=3 SV=1
+Length=443
+
+ Score = 164 bits (416),  Expect = 2e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  106  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  165
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  166  FTRPHLLELMDSSNAIVSNLVFQDSPF  192
+
+
+>TR:A0A1D5WEI2_WHEAT A0A1D5WEI2 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=450
+
+ Score = 164 bits (416),  Expect = 3e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  181  FTRPHLLELMDSSNAIVSNLVFQDSPF  207
+
+
+>TR:F2D4C7_HORVV F2D4C7 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=450
+
+ Score = 164 bits (416),  Expect = 3e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  181  FTRPHLLELMDSSNAIVSNLVFQDSPF  207
+
+
+>TR:A0A077RT87_WHEAT A0A077RT87 Uncharacterized protein OS=Triticum aestivum OX=4565 
+GN=TRAES_3BF020200080CFD_c1 PE=3 SV=1
+Length=450
+
+ Score = 164 bits (416),  Expect = 3e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  181  FTRPHLLELMDSSNTIVSNLVFQDSPF  207
+
+
+>TR:F2CWZ8_HORVV F2CWZ8 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=450
+
+ Score = 164 bits (416),  Expect = 3e-46
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  121  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  181  FTRPHLLELMDSSNAIVSNLVFQDSPF  207
+
+
+>TR:A0A1D6FZH6_MAIZE A0A1D6FZH6 Pectin lyase-like superfamily protein OS=Zea mays 
+OX=4577 GN=ZEAMMB73_Zm00001d011369 PE=3 SV=1
+Length=348
+
+ Score = 161 bits (408),  Expect = 5e-46
+ Identities = 73/87 (84%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY SLIHG+GLQDV ITGENGTIDGQGS WWDMWK RTL 
+Sbjct  19   SWPLIEPLPSYGRGRELPGGRYTSLIHGNGLQDVVITGENGTIDGQGSAWWDMWKNRTLL  78
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVFQD  F
+Sbjct  79   YTRPHLLELMSSSDIIVSNVVFQDSPF  105
+
+
+>TR:A2WSP4_ORYSI A2WSP4 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_02888 PE=3 SV=1
+Length=445
+
+ Score = 164 bits (414),  Expect = 5e-46
+ Identities = 76/87 (87%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PL SYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  116  SWPLIEPLLSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DVVVSNVVFQD  F
+Sbjct  176  FTRPHLLELMNSSDVVVSNVVFQDSPF  202
+
+
+>TR:A0A0A9HU73_ARUDO A0A0A9HU73 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=453
+
+ Score = 163 bits (413),  Expect = 8e-46
+ Identities = 73/87 (84%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL +PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  124  SWPLSEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSVWWDMWKKGTLP  183
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSN+VFQD  F
+Sbjct  184  YTRPHLLELMSSSDIIVSNIVFQDSPF  210
+
+
+>TR:A0A097PQY7_CINCA A0A097PQY7 Pectin lyase-like superfamily protein (Fragment) OS=Cinnamomum 
+camphora OX=13429 PE=2 SV=1
+Length=406
+
+ Score = 162 bits (410),  Expect = 9e-46
+ Identities = 71/87 (82%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMS IHG GLQDV ITGENGTIDGQG VWWDMW++RTL 
+Sbjct  88   SWPLIDPLPSYGRGRELPGGRYMSFIHGDGLQDVIITGENGTIDGQGGVWWDMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+ELM+STD+++SNVVF+D  F
+Sbjct  148  FTRPNLIELMHSTDIIISNVVFRDSPF  174
+
+
+>TR:A0A287L3T8_HORVV A0A287L3T8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=541
+
+ Score = 164 bits (416),  Expect = 1e-45
+ Identities = 75/87 (86%), Positives = 81/87 (93%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPG RY+SLIHG+GLQDVFITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  212  SWPLIDPLPSYGRGRELPGKRYISLIHGNGLQDVFITGENGTIDGQGSVWWDMWKKGTLP  271
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S++ +VSN+VFQD  F
+Sbjct  272  FTRPHLLELMDSSNAIVSNLVFQDSPF  298
+
+
+>TR:A0A0D9V2Z8_9ORYZ A0A0D9V2Z8 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=446
+
+ Score = 162 bits (411),  Expect = 1e-45
+ Identities = 74/87 (85%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+ LPSYGRGRELPGGRYMSLIHG+GLQDV ITG+NGTIDGQGS WWDMWKK TLP
+Sbjct  117  SWPLIEALPSYGRGRELPGGRYMSLIHGNGLQDVVITGDNGTIDGQGSAWWDMWKKGTLP  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DV+VSNVVF+D  F
+Sbjct  177  FTRPHLLELMNSSDVIVSNVVFRDSPF  203
+
+
+>TR:I1HPH0_BRADI I1HPH0 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100831849 PE=3 SV=1
+Length=448
+
+ Score = 162 bits (411),  Expect = 1e-45
+ Identities = 74/87 (85%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRE+PG RY SLIHG+GLQDVFITG NGTIDGQGSVWWDMWKK TLP
+Sbjct  119  SWPLIDPLPSYGRGREMPGKRYKSLIHGNGLQDVFITGANGTIDGQGSVWWDMWKKGTLP  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHLLELM S+DV+VSN+VF+D  F
+Sbjct  179  FTRPHLLELMDSSDVIVSNLVFRDSPF  205
+
+
+>TR:K3XHT9_SETIT K3XHT9 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101775705 
+PE=3 SV=1
+Length=444
+
+ Score = 162 bits (409),  Expect = 3e-45
+ Identities = 73/87 (84%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  115  SWPLIGPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSVWWDMWKKGTLP  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+ ++VSN+VFQD  F
+Sbjct  175  YTRPHLLELMSSSGIIVSNIVFQDSPF  201
+
+
+>TR:A0A1D6FZH5_MAIZE A0A1D6FZH5 Pectin lyase-like superfamily protein OS=Zea mays 
+OX=4577 GN=ZEAMMB73_Zm00001d011369 PE=3 SV=1
+Length=445
+
+ Score = 161 bits (408),  Expect = 4e-45
+ Identities = 73/87 (84%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY SLIHG+GLQDV ITGENGTIDGQGS WWDMWK RTL 
+Sbjct  117  SWPLIEPLPSYGRGRELPGGRYTSLIHGNGLQDVVITGENGTIDGQGSAWWDMWKNRTLL  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVFQD  F
+Sbjct  177  YTRPHLLELMSSSDIIVSNVVFQDSPF  203
+
+
+>TR:M0SM64_MUSAM M0SM64 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=411
+
+ Score = 160 bits (406),  Expect = 4e-45
+ Identities = 70/87 (80%), Positives = 82/87 (94%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMSLIHG+GLQDV ITGENGTIDGQG VWW+MW+++TLP
+Sbjct  81   NWPLIHPLPSYGRGRELPGGRYMSLIHGNGLQDVTITGENGTIDGQGDVWWNMWRQKTLP  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLELM+STD+++SNVVF+D  F
+Sbjct  141  FTRPNLLELMHSTDIIISNVVFRDSPF  167
+
+
+>TR:B4FWD4_MAIZE B4FWD4 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=446
+
+ Score = 161 bits (408),  Expect = 4e-45
+ Identities = 73/87 (84%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY SLIHG+GLQDV ITGENGTIDGQGS WWDMWK RTL 
+Sbjct  117  SWPLIEPLPSYGRGRELPGGRYTSLIHGNGLQDVVITGENGTIDGQGSAWWDMWKNRTLL  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNVVFQD  F
+Sbjct  177  YTRPHLLELMSSSDIIVSNVVFQDSPF  203
+
+
+>TR:M0SP80_MUSAM M0SP80 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=406
+
+ Score = 160 bits (404),  Expect = 7e-45
+ Identities = 70/87 (80%), Positives = 82/87 (94%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMSLIHG+GL+DV ITGENGTIDGQG +WW+MW+++TL 
+Sbjct  119  NWPLIDPLPSYGRGRELPGGRYMSLIHGNGLRDVIITGENGTIDGQGDMWWNMWRQKTLR  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLELM+STDV++SNVVFQD  F
+Sbjct  179  FTRPNLLELMHSTDVIISNVVFQDSPF  205
+
+
+>TR:A0A2R4QNB1_9POAL A0A2R4QNB1 Polygalacturonase OS=Saccharum hybrid cultivar SP80-3280 
+OX=193079 GN=Shy3280Sca009_048 PE=3 SV=1
+Length=449
+
+ Score = 160 bits (405),  Expect = 1e-44
+ Identities = 72/87 (83%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGS WWDMWKK TL 
+Sbjct  120  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSAWWDMWKKGTLL  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNV+FQD  F
+Sbjct  180  YTRPHLLELMSSSDIIVSNVIFQDSPF  206
+
+
+>TR:A0A2R4QNB2_9POAL A0A2R4QNB2 Pectate lyase OS=Saccharum hybrid cultivar SP80-3280 
+OX=193079 GN=Shy3280Sca010_077 PE=3 SV=1
+Length=451
+
+ Score = 160 bits (405),  Expect = 1e-44
+ Identities = 72/87 (83%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGS WWDMWKK TL 
+Sbjct  122  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSAWWDMWKKGTLL  181
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNV+FQD  F
+Sbjct  182  YTRPHLLELMSSSDIIVSNVIFQDSPF  208
+
+
+>TR:A0A2R4QNC2_9POAL A0A2R4QNC2 Pectate lyase OS=Saccharum hybrid cultivar SP80-3280 
+OX=193079 GN=Shy3280Sca012_059 PE=3 SV=1
+Length=451
+
+ Score = 160 bits (405),  Expect = 1e-44
+ Identities = 72/87 (83%), Positives = 79/87 (91%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQGS WWDMWKK TL 
+Sbjct  122  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGSAWWDMWKKGTLL  181
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+D++VSNV+FQD  F
+Sbjct  182  YTRPHLLELMSSSDIIVSNVIFQDSPF  208
+
+
+>TR:A0A2H3ZB01_PHODC A0A2H3ZB01 probable polygalacturonase OS=Phoenix dactylifera 
+OX=42345 GN=LOC103722159 PE=3 SV=1
+Length=450
+
+ Score = 159 bits (401),  Expect = 4e-44
+ Identities = 69/87 (79%), Positives = 80/87 (92%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG+G+ DV ITGENGTIDGQG VWW+MW++RTLP
+Sbjct  120  SWPLIDPLPSYGRGRELPGGRYMSLIHGNGIHDVIITGENGTIDGQGEVWWNMWRQRTLP  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP++LELM+  D+V+SNVVFQ+  F
+Sbjct  180  FTRPNILELMHCRDIVISNVVFQNSPF  206
+
+
+>TR:A0A097PQW0_9LILI A0A097PQW0 Pectin lyase-like superfamily protein (Fragment) OS=Pandanus 
+utilis OX=101712 PE=2 SV=1
+Length=406
+
+ Score = 157 bits (398),  Expect = 5e-44
+ Identities = 69/86 (80%), Positives = 77/86 (90%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLIDPLPSYGRGRELPGGRYMS IHG GLQDV ITGENGTIDGQG VWW+MW+ +TLPF
+Sbjct  89   WPLIDPLPSYGRGRELPGGRYMSFIHGDGLQDVIITGENGTIDGQGDVWWNMWRLKTLPF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHLLELM S D+++SN+VFQ+  F
+Sbjct  149  TRPHLLELMNSEDIIISNLVFQNSPF  174
+
+
+>TR:A0A097PQY0_YUCFI A0A097PQY0 Pectin lyase-like superfamily protein (Fragment) OS=Yucca 
+filamentosa OX=55960 PE=2 SV=1
+Length=406
+
+ Score = 157 bits (396),  Expect = 1e-43
+ Identities = 67/86 (78%), Positives = 80/86 (93%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+D LPSYGRGRELPGGRYMSLIHG G+QDV ITG+NGTIDGQG VWW+MW++RTLPF
+Sbjct  89   WPLVDALPSYGRGRELPGGRYMSLIHGDGIQDVIITGDNGTIDGQGDVWWNMWRQRTLPF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+LLELM+STD+++SNVVF++  F
+Sbjct  149  TRPNLLELMHSTDIIISNVVFRNSPF  174
+
+
+>TR:A0A1E5W557_9POAL A0A1E5W557 Putative polygalacturonase OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0006571 PE=3 SV=1
+Length=933
+
+ Score = 162 bits (409),  Expect = 2e-43
+ Identities = 72/84 (86%), Positives = 80/84 (95%), Gaps = 0/84 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPL++PLPSYGRGRELPGGRY+SLIHG+GL+DV ITGENGTIDGQGSVWWDMWKK TLP
+Sbjct  579  SWPLMEPLPSYGRGRELPGGRYISLIHGNGLRDVVITGENGTIDGQGSVWWDMWKKGTLP  638
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQD  85
+            FT PHLLELM S+D++VSNVVFQD
+Sbjct  639  FTSPHLLELMSSSDIIVSNVVFQD  662
+
+
+ Score = 94.7 bits (234),  Expect = 4e-20
+ Identities = 46/72 (64%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  17   ELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPFTRPHLLELMYSTDV  76
+            EL  GR  +L+            ENGTIDGQG+VWWDMWKK TLP+TRPHLLELM S+DV
+Sbjct  148  ELASGRTSALVRERTRAPRRKIRENGTIDGQGTVWWDMWKKGTLPYTRPHLLELMSSSDV  207
+
+Query  77   VVSNVVFQDCRF  88
+            +VSNVVFQD  F
+Sbjct  208  IVSNVVFQDSPF  219
+
+
+>TR:A0A097PQW7_ASPOF A0A097PQW7 Pectin lyase-like superfamily protein (Fragment) OS=Asparagus 
+officinalis OX=4686 PE=2 SV=1
+Length=406
+
+ Score = 155 bits (392),  Expect = 4e-43
+ Identities = 66/86 (77%), Positives = 80/86 (93%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLIDPLPSYGRGREL GGRYMSLIHG G+QDV ITG+NGTIDGQG +WW+MW++RTLPF
+Sbjct  89   WPLIDPLPSYGRGRELDGGRYMSLIHGDGIQDVIITGDNGTIDGQGDMWWNMWRQRTLPF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP++LELM+STD+++SNVVF++  F
+Sbjct  149  TRPNILELMHSTDIIISNVVFRNSPF  174
+
+
+>TR:C5XR39_SORBI C5XR39 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3003G223100 
+PE=3 SV=1
+Length=447
+
+ Score = 156 bits (394),  Expect = 4e-43
+ Identities = 71/87 (82%), Positives = 78/87 (90%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI+PLPSYGRGRELPGGRY+SLIHG GLQDV ITGENGTIDGQG+ WWDMWKK TL 
+Sbjct  118  SWPLIEPLPSYGRGRELPGGRYISLIHGSGLQDVVITGENGTIDGQGTPWWDMWKKGTLL  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S+ ++VSNVVFQD  F
+Sbjct  178  YTRPHLLELMSSSHIIVSNVVFQDSPF  204
+
+
+>TR:A0A097PQX3_9LILI A0A097PQX3 Pectin lyase-like superfamily protein (Fragment) OS=Dioscorea 
+oppositifolia OX=569628 PE=2 SV=1
+Length=406
+
+ Score = 154 bits (388),  Expect = 2e-42
+ Identities = 68/86 (79%), Positives = 78/86 (91%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLIDPLPSYGRGRELPGGRYMSL+HG GLQDV ITGE+GTIDGQG VWW+MW+KRTL F
+Sbjct  89   WPLIDPLPSYGRGRELPGGRYMSLLHGDGLQDVIITGEHGTIDGQGDVWWNMWRKRTLLF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+LLEL+ S D+++SNVVFQ+  F
+Sbjct  149  TRPNLLELVNSEDIIISNVVFQNSAF  174
+
+
+>TR:A0A2I0BFW9_9ASPA A0A2I0BFW9 Putative polygalacturonase OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash003336 PE=3 SV=1
+Length=449
+
+ Score = 152 bits (385),  Expect = 9e-42
+ Identities = 64/87 (74%), Positives = 78/87 (90%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRE PGGRYMSLIHG G++DV ITGENGTIDGQG VWW+MW+++TL 
+Sbjct  120  NWPLIDPLPSYGRGREAPGGRYMSLIHGDGIEDVIITGENGTIDGQGEVWWNMWRQKTLS  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHL+E M+S ++++SNVVFQ+  F
+Sbjct  180  FTRPHLMEFMHSREIIISNVVFQNSPF  206
+
+
+>TR:A0A067GME4_CITSI A0A067GME4 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g0134022mg PE=3 SV=1
+Length=335
+
+ Score = 148 bits (373),  Expect = 5e-41
+ Identities = 63/87 (72%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG++WW+MW++RTLP
+Sbjct  4   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGAIWWNMWRQRTLP  63
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+           FTRP+L+E M S  +++SNV+FQ+  F
+Sbjct  64  FTRPNLIEFMNSRSIIISNVIFQNSPF  90
+
+
+>TR:A0A218XJ52_PUNGR A0A218XJ52 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr028022 PE=3 SV=1
+Length=436
+
+ Score = 149 bits (376),  Expect = 2e-40
+ Identities = 65/87 (75%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRE PGGRY+S IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  115  NWPLIDPLPSYGRGRERPGGRYVSFIHGDGLEDVIITGENGTIDGQGDIWWNMWRQRTLN  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+ELM S DV++SNVVFQ+  F
+Sbjct  175  FTRPNLVELMNSRDVIISNVVFQNSPF  201
+
+
+>TR:A0A097PQV8_CITSI A0A097PQV8 Pectin lyase-like superfamily protein (Fragment) OS=Citrus 
+sinensis OX=2711 PE=2 SV=1
+Length=406
+
+ Score = 148 bits (373),  Expect = 2e-40
+ Identities = 63/87 (72%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG++WW+MW++RTLP
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGAIWWNMWRQRTLP  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+FQ+  F
+Sbjct  148  FTRPNLIEFMNSRSIIISNVIFQNSPF  174
+
+
+>TR:A0A097PQX4_9ROSI A0A097PQX4 Pectin lyase-like superfamily protein (Fragment) OS=Citrus 
+clementina OX=85681 PE=2 SV=1
+Length=406
+
+ Score = 148 bits (373),  Expect = 2e-40
+ Identities = 63/87 (72%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG++WW+MW++RTLP
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGAIWWNMWRQRTLP  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+FQ+  F
+Sbjct  148  FTRPNLIEFMNSRSIIISNVIFQNSPF  174
+
+
+>TR:A0A1S4AC24_TOBAC A0A1S4AC24 probable polygalacturonase OS=Nicotiana tabacum OX=4097 
+GN=LOC107795962 PE=3 SV=1
+Length=448
+
+ Score = 149 bits (375),  Expect = 3e-40
+ Identities = 63/86 (73%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLVDPLPSYGRGRERPGGRYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  177  TRPHLIELMNSRGIIISNVIFKNSPF  202
+
+
+>TR:A0A1U7VSJ7_NICSY A0A1U7VSJ7 probable polygalacturonase OS=Nicotiana sylvestris 
+OX=4096 GN=LOC104219003 PE=3 SV=1
+Length=454
+
+ Score = 149 bits (375),  Expect = 3e-40
+ Identities = 63/86 (73%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLVDPLPSYGRGRERPGGRYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  177  TRPHLIELMNSRGIIISNVIFKNSPF  202
+
+
+>TR:A0A1S4C951_TOBAC A0A1S4C951 probable polygalacturonase OS=Nicotiana tabacum OX=4097 
+GN=LOC107816298 PE=3 SV=1
+Length=454
+
+ Score = 149 bits (375),  Expect = 3e-40
+ Identities = 63/86 (73%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLVDPLPSYGRGRERPGGRYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  177  TRPHLIELMNSRGIIISNVIFKNSPF  202
+
+
+>TR:A0A097PQU5_9LILI A0A097PQU5 Pectin lyase-like superfamily protein (Fragment) OS=Lilium 
+brownii OX=82312 PE=2 SV=1
+Length=406
+
+ Score = 147 bits (372),  Expect = 3e-40
+ Identities = 65/87 (75%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLIDPLPSYGRGRELPGGRYMSLIHG  L DV ITGENGTIDGQG  WW+MW+++TL 
+Sbjct  88   SWPLIDPLPSYGRGRELPGGRYMSLIHGDDLNDVIITGENGTIDGQGEGWWNMWRQKTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLELM+S+D+++S+VVF +  F
+Sbjct  148  FTRPNLLELMHSSDIIISHVVFLNSPF  174
+
+
+>TR:A0A2P2LUJ8_RHIMU A0A2P2LUJ8 Polygalacturonase OS=Rhizophora mucronata OX=61149 
+PE=4 SV=1
+Length=210
+
+ Score = 142 bits (358),  Expect = 4e-40
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYM+ IHG GL DV ITGENGTIDGQG VWWDMW++RTL 
+Sbjct  115  NWPLIAPLPSYGRGRELPGGRYMNFIHGDGLNDVIITGENGTIDGQGDVWWDMWRQRTLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F +  F
+Sbjct  175  FTRPNLIEFVNSRSIIISNVIFCNSAF  201
+
+
+>TR:A0A097PQU9_ACOCL A0A097PQU9 Pectin lyase-like superfamily protein (Fragment) OS=Acorus 
+calamus OX=4465 PE=2 SV=1
+Length=321
+
+ Score = 145 bits (366),  Expect = 4e-40
+ Identities = 62/87 (71%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI+PLPSYGRGRELPGGRYMSLIHG  + DV ITGENGTIDGQG VWW+MW++RTLP
+Sbjct  88   NWPLIEPLPSYGRGRELPGGRYMSLIHGSWIHDVIITGENGTIDGQGDVWWNMWRQRTLP  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E+M+S DV+++NV+  +  F
+Sbjct  148  FTRPNLIEIMHSRDVLITNVMLLNSPF  174
+
+
+>TR:V4TGX7_9ROSI V4TGX7 Uncharacterized protein OS=Citrus clementina OX=85681 
+GN=CICLE_v10020162mg PE=3 SV=1
+Length=443
+
+ Score = 148 bits (373),  Expect = 5e-40
+ Identities = 63/87 (72%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG++WW+MW++RTLP
+Sbjct  112  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGAIWWNMWRQRTLP  171
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+FQ+  F
+Sbjct  172  FTRPNLIEFMNSRSIIISNVIFQNSPF  198
+
+
+>TR:A0A097PQX0_MEDTR A0A097PQX0 Pectin lyase-like superfamily protein (Fragment) OS=Medicago 
+truncatula OX=3880 PE=2 SV=1
+Length=406
+
+ Score = 147 bits (371),  Expect = 5e-40
+ Identities = 64/87 (74%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG VWW+MW+KRTL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGDVWWNMWRKRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F+D  F
+Sbjct  148  FTRPNLVEFVNSKDIIISNVIFKDSPF  174
+
+
+>TR:A0A1U8A546_NELNU A0A1U8A546 probable polygalacturonase OS=Nelumbo nucifera OX=4432 
+GN=LOC104600339 PE=3 SV=1
+Length=447
+
+ Score = 147 bits (372),  Expect = 7e-40
+ Identities = 62/87 (71%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  116  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGIHDVIITGENGTIDGQGDVWWNMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E M S D+++SNV+F++  F
+Sbjct  176  YTRPNLIEFMNSKDIIISNVIFRNSPF  202
+
+
+>TR:A0A0V0IFK6_SOLCH A0A0V0IFK6 Putative polygalacturonase-like OS=Solanum chacoense 
+OX=4108 PE=3 SV=1
+Length=350
+
+ Score = 145 bits (366),  Expect = 8e-40
+ Identities = 62/86 (72%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PG RYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  20   WPLVDPLPSYGRGRERPGARYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  79
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  80   TRPHLVELMNSRGILISNVIFKNSPF  105
+
+
+>TR:A0A097PQW5_CERDE A0A097PQW5 Pectin lyase-like superfamily protein (Fragment) OS=Ceratophyllum 
+demersum OX=4428 PE=2 SV=1
+Length=368
+
+ Score = 145 bits (367),  Expect = 9e-40
+ Identities = 63/89 (71%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGR+MS IHG GL DV ITGENGTIDG G VWW+MW++RTL 
+Sbjct  83   TWPLIDPLPSYGRGRELPGGRFMSFIHGDGLHDVIITGENGTIDGSGDVWWNMWRERTLQ  142
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            FTRP+LLE M S D+++SNV+ ++  F T
+Sbjct  143  FTRPNLLEFMNSKDIIISNVILKNSPFWT  171
+
+
+>TR:A0A199V1N3_ANACO A0A199V1N3 Putative polygalacturonase (Fragment) OS=Ananas comosus 
+OX=4615 GN=ACMD2_04823 PE=3 SV=1
+Length=430
+
+ Score = 147 bits (370),  Expect = 1e-39
+ Identities = 62/87 (71%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPGGRY SLIHG+G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  98   NWPLMDPLPSYGRGRELPGGRYTSLIHGNGISDVIITGENGTIDGQGEVWWNMWRQRTLH  157
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+LLE M S D+++SN+VF++  F
+Sbjct  158  YTRPNLLEFMNSRDIIISNIVFRNSPF  184
+
+
+>TR:G7KCZ1_MEDTR G7KCZ1 Polygalacturonase/glycoside hydrolase family protein OS=Medicago 
+truncatula OX=3880 GN=11437037 PE=3 SV=1
+Length=450
+
+ Score = 147 bits (371),  Expect = 1e-39
+ Identities = 64/87 (74%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GLQDV ITGENGTIDGQG VWW+MW+KRTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLQDVVITGENGTIDGQGDVWWNMWRKRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F+D  F
+Sbjct  178  FTRPNLVEFVNSKDIIISNVIFKDSPF  204
+
+
+>TR:A0A097PQX9_EUCGR A0A097PQX9 Pectin lyase-like superfamily protein (Fragment) OS=Eucalyptus 
+grandis OX=71139 PE=2 SV=1
+Length=406
+
+ Score = 146 bits (368),  Expect = 1e-39
+ Identities = 64/87 (74%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG GLQDV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYVSFIHGDGLQDVIITGENGTIDGQGDVWWNMWRQRTLS  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S D+++SNVVFQ+  F
+Sbjct  148  FTRPNLVELVNSRDIIISNVVFQNSPF  174
+
+
+>TR:A0A2G3DB02_CAPCH A0A2G3DB02 Putative polygalacturonase OS=Capsicum chinense OX=80379 
+GN=BC332_00262 PE=3 SV=1
+Length=429
+
+ Score = 146 bits (369),  Expect = 1e-39
+ Identities = 62/86 (72%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG+GL DV ITGENGTIDGQG VWW+MW++RTL +
+Sbjct  99   WPLVDPLPSYGRGRERPGGRYMSLLHGNGLHDVIITGENGTIDGQGDVWWNMWRQRTLQY  158
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  ++ SNV+F++  F
+Sbjct  159  TRPHLVELMNSRGIIFSNVIFKNSPF  184
+
+
+>TR:A0A2G3ADG0_CAPAN A0A2G3ADG0 Putative polygalacturonase OS=Capsicum annuum OX=4072 
+GN=T459_00153 PE=3 SV=1
+Length=443
+
+ Score = 146 bits (369),  Expect = 2e-39
+ Identities = 62/86 (72%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG+GL DV ITGENGTIDGQG VWW+MW++RTL +
+Sbjct  113  WPLVDPLPSYGRGRERPGGRYMSLLHGNGLHDVIITGENGTIDGQGDVWWNMWRQRTLQY  172
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  ++ SNV+F++  F
+Sbjct  173  TRPHLVELMNSRGIIFSNVIFKNSPF  198
+
+
+>TR:A0A1U8FAU7_CAPAN A0A1U8FAU7 probable polygalacturonase OS=Capsicum annuum OX=4072 
+GN=LOC107855312 PE=3 SV=1
+Length=443
+
+ Score = 146 bits (369),  Expect = 2e-39
+ Identities = 62/86 (72%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG+GL DV ITGENGTIDGQG VWW+MW++RTL +
+Sbjct  113  WPLVDPLPSYGRGRERPGGRYMSLLHGNGLHDVIITGENGTIDGQGDVWWNMWRQRTLQY  172
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  ++ SNV+F++  F
+Sbjct  173  TRPHLVELMNSRGIIFSNVIFKNSPF  198
+
+
+>TR:A0A078IE22_BRANA A0A078IE22 BnaA01g13460D protein OS=Brassica napus OX=3708 GN=BnaA01g13460D 
+PE=3 SV=1
+Length=444
+
+ Score = 146 bits (369),  Expect = 2e-39
+ Identities = 64/87 (74%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DV ITGENGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVVITGENGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNVVFQ+  F
+Sbjct  174  FTRPNLIELKNSKEIIISNVVFQNSPF  200
+
+
+>TR:A0A0D3A5R1_BRAOL A0A0D3A5R1 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106306943 PE=3 SV=1
+Length=444
+
+ Score = 146 bits (369),  Expect = 2e-39
+ Identities = 64/87 (74%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DV ITGENGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVVITGENGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNVVFQ+  F
+Sbjct  174  FTRPNLIELKNSKEIIISNVVFQNSPF  200
+
+
+>TR:M4DB74_BRARP M4DB74 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=444
+
+ Score = 146 bits (369),  Expect = 2e-39
+ Identities = 64/87 (74%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DV ITGENGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVVITGENGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNVVFQ+  F
+Sbjct  174  FTRPNLIELKNSKEIIISNVVFQNSPF  200
+
+
+>TR:A0A097PQW2_9ASPA A0A097PQW2 Pectin lyase-like superfamily protein (Fragment) OS=Iris 
+japonica OX=203638 PE=2 SV=1
+Length=406
+
+ Score = 145 bits (367),  Expect = 2e-39
+ Identities = 62/88 (70%), Positives = 76/88 (86%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL++PLPSYGRGRE PGGRY S I G+GL+DV ITGENGTIDGQG VWWDMW++RTL F
+Sbjct  89   WPLVEPLPSYGRGRERPGGRYASFIQGYGLRDVIITGENGTIDGQGGVWWDMWRRRTLGF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRP+L+E M+STD+ +SNV+F++  F T
+Sbjct  149  TRPNLIEFMHSTDIHISNVIFRNSPFWT  176
+
+
+>TR:A0A0R0FAE8_SOYBN A0A0R0FAE8 Uncharacterized protein OS=Glycine max OX=3847 GN=100785590 
+PE=3 SV=1
+Length=333
+
+ Score = 144 bits (362),  Expect = 2e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           +WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  5   NWPLIVPLPSYGRGRELPGGRYMSFIHGDGLSDVVITGENGTIDGQGDVWWNMWRQRTLQ  64
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+           FTRP+L+E + S D+++SNV+F++  F
+Sbjct  65  FTRPNLVEFVNSQDIIISNVIFKNSPF  91
+
+
+>TR:A0A1D1XDL3_9ARAE A0A1D1XDL3 Putative polygalacturonase OS=Anthurium amnicola OX=1678845 
+GN=GSVIVT00026920001_11 PE=3 SV=1
+Length=444
+
+ Score = 146 bits (368),  Expect = 3e-39
+ Identities = 62/87 (71%), Positives = 78/87 (90%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRELPGGRY+SLIHG G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  114  NWPLVKPLPSYGRGRELPGGRYVSLIHGDGIHDVIITGENGTIDGQGDVWWNMWRQRSLL  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLEL++S D+++SNVVF++  F
+Sbjct  174  FTRPNLLELIHSRDIIISNVVFRNSPF  200
+
+
+>TR:A0A097PQY8_SOLLC A0A097PQY8 Pectin lyase-like superfamily protein (Fragment) OS=Solanum 
+lycopersicum OX=4081 PE=2 SV=1
+Length=406
+
+ Score = 145 bits (366),  Expect = 3e-39
+ Identities = 62/86 (72%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PG RYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  89   WPLVDPLPSYGRGRERPGARYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  149  TRPHLVELMNSRGILISNVIFKNSPF  174
+
+
+>TR:A0A097PQZ3_9MAGN A0A097PQZ3 Pectin lyase-like superfamily protein (Fragment) OS=Ceratophyllum 
+platyacanthum subsp. oryzetorum OX=1560471 PE=2 
+SV=1
+Length=406
+
+ Score = 145 bits (366),  Expect = 3e-39
+ Identities = 62/89 (70%), Positives = 76/89 (85%), Gaps = 0/89 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGR+MS +HG GL DV ITGENGTIDG+G VWW+MW++RTL 
+Sbjct  88   TWPLIDPLPSYGRGRELPGGRFMSFLHGDGLHDVIITGENGTIDGRGDVWWNMWRERTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            FTRP+LLE M S D+++SNV+ ++  F T
+Sbjct  148  FTRPNLLEFMNSKDIIISNVILKNSPFWT  176
+
+
+>TR:A0A097PQV0_MAGDE A0A097PQV0 Pectin lyase-like superfamily protein (Fragment) OS=Magnolia 
+denudata OX=85856 PE=2 SV=1
+Length=392
+
+ Score = 145 bits (365),  Expect = 3e-39
+ Identities = 62/87 (71%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW++R+L 
+Sbjct  74   NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVIITGQNGTIDGQGEVWWNMWRQRSLQ  133
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S  +++SNVVF++  F
+Sbjct  134  FTRPNLVELVNSNGIIISNVVFKNSPF  160
+
+
+>TR:A0A078F908_BRANA A0A078F908 BnaA03g46290D protein OS=Brassica napus OX=3708 GN=BnaA03g46290D 
+PE=3 SV=1
+Length=451
+
+ Score = 146 bits (368),  Expect = 3e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DVFITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  121  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVFITGQNGTIDGQGEVWWNMWRSRTLK  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S ++++SNV+FQ+  F
+Sbjct  181  FTRPNLIEFKNSKEIIISNVIFQNSPF  207
+
+
+>TR:A0A2P4JSV7_QUESU A0A2P4JSV7 Putative polygalacturonase OS=Quercus suber OX=58331 
+GN=CFP56_77490 PE=3 SV=1
+Length=451
+
+ Score = 146 bits (368),  Expect = 3e-39
+ Identities = 62/87 (71%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG+GL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRELPGGRYMSFIHGYGLRDVVITGENGTIDGQGDVWWNMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S ++++SNV+F++  F
+Sbjct  178  FTRPNLIEFMNSREIIISNVIFRNSPF  204
+
+
+>TR:A0A059C2I4_EUCGR A0A059C2I4 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_E00853 PE=3 SV=1
+Length=451
+
+ Score = 146 bits (368),  Expect = 3e-39
+ Identities = 64/87 (74%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG GLQDV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  120  NWPLIAPLPSYGRGRERPGGRYVSFIHGDGLQDVIITGENGTIDGQGDVWWNMWRQRTLS  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S D+++SNVVFQ+  F
+Sbjct  180  FTRPNLVELVNSRDIIISNVVFQNSPF  206
+
+
+>TR:M4DRX1_BRARP M4DRX1 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=451
+
+ Score = 146 bits (368),  Expect = 3e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DVFITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  121  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVFITGQNGTIDGQGEVWWNMWRSRTLK  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S ++++SNV+FQ+  F
+Sbjct  181  FTRPNLIEFKNSKEIIISNVIFQNSPF  207
+
+
+>TR:A0A097PQU6_AQUCA A0A097PQU6 Pectin lyase-like superfamily protein (Fragment) OS=Aquilegia 
+coerulea OX=218851 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (364),  Expect = 5e-39
+ Identities = 63/89 (71%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   TWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            FTRP+L+E M S ++++SNV+FQ+  F T
+Sbjct  148  FTRPNLVEFMNSKNIIISNVIFQNSPFWT  176
+
+
+>TR:A0A1J3G414_NOCCA A0A1J3G414 Putative polygalacturonase OS=Noccaea caerulescens 
+OX=107243 GN=LC_TR13587_c0_g1_i1_g.47216 PE=3 SV=1
+Length=447
+
+ Score = 145 bits (366),  Expect = 5e-39
+ Identities = 61/87 (70%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPGGRY+S IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  117  NWPLVDPLPSYGRGRELPGGRYISFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNV+FQ+  F
+Sbjct  177  FTRPNLIELKNSKEIIISNVIFQNSPF  203
+
+
+>TR:A0A097PQU7_ARALY A0A097PQU7 Pectin lyase-like superfamily protein (Fragment) OS=Arabidopsis 
+lyrata OX=59689 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (363),  Expect = 7e-39
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  88   NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  148  YTRPNLIEFKDSKEIIISNVIFQNSPF  174
+
+
+>TR:A0A097PQY5_VITVI A0A097PQY5 Pectin lyase-like superfamily protein (Fragment) OS=Vitis 
+vinifera OX=29760 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (363),  Expect = 7e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI PLPSYGRGRELPGGRYMS IH  G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   SWPLIAPLPSYGRGRELPGGRYMSFIHADGVHDVIITGENGTIDGQGEVWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S ++++SNV+F+D  F
+Sbjct  148  FTRPNLIELINSRNIIISNVIFRDSPF  174
+
+
+>TR:A0A097PQX7_9BRAS A0A097PQX7 Pectin lyase-like superfamily protein (Fragment) OS=Schrenkiella 
+parvula OX=98039 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (363),  Expect = 7e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLID LPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  88   NWPLIDALPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNV+FQ+  F
+Sbjct  148  FTRPNLIELKNSKEIIISNVIFQNSPF  174
+
+
+>TR:A0A097PQU4_ARATH A0A097PQU4 Pectin lyase-like superfamily protein (Fragment) OS=Arabidopsis 
+thaliana OX=3702 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (363),  Expect = 7e-39
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  88   NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  148  YTRPNLIEFKDSKEIIISNVIFQNSPF  174
+
+
+>TR:K4CPL3_SOLLC K4CPL3 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+PE=3 SV=1
+Length=467
+
+ Score = 145 bits (366),  Expect = 7e-39
+ Identities = 62/86 (72%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PG RYMSL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLVDPLPSYGRGRERPGARYMSLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  177  TRPHLVELMNSRGILISNVIFKNSPF  202
+
+
+>TR:A0A2G2XKJ7_CAPBA A0A2G2XKJ7 Putative polygalacturonase OS=Capsicum baccatum OX=33114 
+GN=CQW23_00244 PE=3 SV=1
+Length=429
+
+ Score = 144 bits (364),  Expect = 8e-39
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PGGRYMSL+HG+GL DV I GENGTIDGQG VWW+MW++RTL +
+Sbjct  99   WPLVDPLPSYGRGRERPGGRYMSLLHGNGLHDVIIAGENGTIDGQGDVWWNMWRQRTLQY  158
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  ++ SNV+F++  F
+Sbjct  159  TRPHLVELMNSRGIIFSNVIFKNSPF  184
+
+
+>TR:A0A088MRA4_BRAJU A0A088MRA4 Polygalacturonase-like protein OS=Brassica juncea 
+var. tumida OX=323352 PE=2 SV=1
+Length=451
+
+ Score = 145 bits (365),  Expect = 8e-39
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  121  NWPLIDPLPSYGRGRELPGARYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNV+FQ+  F
+Sbjct  181  FTRPNLIELKNSKEIIISNVIFQNSPF  207
+
+
+>TR:A0A2P2LUK0_RHIMU A0A2P2LUK0 Putative polygalacturonase OS=Rhizophora mucronata 
+OX=61149 PE=3 SV=1
+Length=337
+
+ Score = 142 bits (358),  Expect = 9e-39
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           +WPLI PLPSYGRGRELPGGRYM+ IHG GL DV ITGENGTIDGQG VWWDMW++RTL 
+Sbjct  7   NWPLIAPLPSYGRGRELPGGRYMNFIHGDGLNDVIITGENGTIDGQGDVWWDMWRQRTLQ  66
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+           FTRP+L+E + S  +++SNV+F +  F
+Sbjct  67  FTRPNLIEFVNSRSIIISNVIFCNSAF  93
+
+
+>TR:A0A097PQX8_SOLTU A0A097PQX8 Pectin lyase-like superfamily protein (Fragment) OS=Solanum 
+tuberosum OX=4113 PE=2 SV=1
+Length=406
+
+ Score = 144 bits (362),  Expect = 1e-38
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PG RY+SL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  89   WPLVDPLPSYGRGRERPGARYISLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  149  TRPHLVELMNSRGILISNVIFKNSPF  174
+
+
+>TR:A0A087GGD6_ARAAL A0A087GGD6 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA7G068200 PE=3 SV=1
+Length=445
+
+ Score = 144 bits (364),  Expect = 1e-38
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW++W+ RTL 
+Sbjct  115  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNLWRSRTLK  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S ++++SNV+FQ+  F
+Sbjct  175  FTRPNLIEFKNSKEIIISNVIFQNSPF  201
+
+
+>TR:A0A1J3JN75_NOCCA A0A1J3JN75 Putative polygalacturonase (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=MP_TR3854_c0_g1_i1_g.10409 PE=3 SV=1
+Length=491
+
+ Score = 145 bits (366),  Expect = 1e-38
+ Identities = 61/87 (70%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPGGRY+S IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  161  NWPLVDPLPSYGRGRELPGGRYISFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  220
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNV+FQ+  F
+Sbjct  221  FTRPNLIELKNSKEIIISNVIFQNSPF  247
+
+
+>TR:W1NXD6_AMBTC W1NXD6 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00107p00122980 PE=3 SV=1
+Length=447
+
+ Score = 144 bits (364),  Expect = 1e-38
+ Identities = 62/87 (71%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI+PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG VWW+MW+ R+L 
+Sbjct  115  NWPLIEPLPSYGRGRERPGGRYMSFIHGDGLRDVIITGENGTIDGQGEVWWNMWRDRSLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S D+++SNVVF++  F
+Sbjct  175  FTRPNLIELINSNDIIISNVVFRNSPF  201
+
+
+>TR:A0A2G5CTK6_AQUCA A0A2G5CTK6 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_03700120v1 PE=3 SV=1
+Length=452
+
+ Score = 144 bits (364),  Expect = 1e-38
+ Identities = 63/89 (71%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  121  TWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            FTRP+L+E M S ++++SNV+FQ+  F T
+Sbjct  181  FTRPNLVEFMNSKNIIISNVIFQNSPFWT  209
+
+
+>TR:A0A2P4LZC2_QUESU A0A2P4LZC2 Putative polygalacturonase OS=Quercus suber OX=58331 
+GN=CFP56_23367 PE=3 SV=1
+Length=558
+
+ Score = 146 bits (368),  Expect = 1e-38
+ Identities = 62/87 (71%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG+GL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  210  NWPLIAPLPSYGRGRELPGGRYMSFIHGYGLRDVVITGENGTIDGQGDVWWNMWRQRTLQ  269
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S ++++SNV+F++  F
+Sbjct  270  FTRPNLIEFMNSREIIISNVIFRNSPF  296
+
+
+>TR:I1KXV7_SOYBN I1KXV7 Uncharacterized protein OS=Glycine max OX=3847 GN=100816170 
+PE=3 SV=1
+Length=443
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  115  NWPLIAPLPSYGRGRELPGGRYMSFIHGDGLSDVVITGENGTIDGQGDVWWNMWRQRTLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  175  FTRPNLVEFVNSQDIIISNVIFKNSPF  201
+
+
+>TR:D7M910_ARALL D7M910 Glycoside hydrolase family 28 protein OS=Arabidopsis lyrata 
+subsp. lyrata OX=81972 GN=ARALYDRAFT_492486 PE=3 SV=1
+Length=444
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  174  YTRPNLIEFKDSKEIIISNVIFQNSPF  200
+
+
+>TR:A0A178UTM2_ARATH A0A178UTM2 Uncharacterized protein OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At4g27580 PE=3 SV=1
+Length=444
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  174  YTRPNLIEFKDSKEIIISNVIFQNSPF  200
+
+
+>TR:Q9SUP5_ARATH Q9SUP5 Pectin lyase-like superfamily protein OS=Arabidopsis thaliana 
+OX=3702 GN=F9D16.290 PE=2 SV=1
+Length=444
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 61/87 (70%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  174  YTRPNLIEFKDSKEIIISNVIFQNSPF  200
+
+
+>TR:D7TVE6_VITVI D7TVE6 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_02s0025g01330 
+PE=3 SV=1
+Length=447
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI PLPSYGRGRELPGGRYMS IH  G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  116  SWPLIAPLPSYGRGRELPGGRYMSFIHADGVHDVIITGENGTIDGQGEVWWNMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S ++++SNV+F+D  F
+Sbjct  176  FTRPNLIELINSRNIIISNVIFRDSPF  202
+
+
+>TR:A0A1J3D2G0_NOCCA A0A1J3D2G0 Putative polygalacturonase OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR18340_c0_g1_i1_g.58844 PE=3 SV=1
+Length=447
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 60/87 (69%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPGGRY+S IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  117  NWPLVDPLPSYGRGRELPGGRYISFIHGDGLRDVVITGQNGTIDGQGQVWWNMWRSRTLK  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SN++FQ+  F
+Sbjct  177  FTRPNLIELKNSKEIIISNLIFQNSPF  203
+
+
+>TR:V4MPJ2_EUTSA V4MPJ2 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10025189mg PE=3 SV=1
+Length=449
+
+ Score = 144 bits (363),  Expect = 1e-38
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLID LPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  119  NWPLIDALPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S ++++SNV+FQ+  F
+Sbjct  179  FTRPNLIELKNSKEIIISNVIFQNSPF  205
+
+
+>TR:A0A0B2R9U1_GLYSO A0A0B2R9U1 Putative polygalacturonase OS=Glycine soja OX=3848 
+GN=glysoja_029354 PE=3 SV=1
+Length=457
+
+ Score = 144 bits (363),  Expect = 2e-38
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  129  NWPLIAPLPSYGRGRELPGGRYMSFIHGDGLSDVVITGENGTIDGQGDVWWNMWRQRTLQ  188
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  189  FTRPNLVEFVNSQDIIISNVIFKNSPF  215
+
+
+>TR:I1N131_SOYBN I1N131 Uncharacterized protein OS=Glycine max OX=3847 GN=100785590 
+PE=3 SV=1
+Length=442
+
+ Score = 144 bits (362),  Expect = 2e-38
+ Identities = 62/87 (71%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  114  NWPLIVPLPSYGRGRELPGGRYMSFIHGDGLSDVVITGENGTIDGQGDVWWNMWRQRTLQ  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  174  FTRPNLVEFVNSQDIIISNVIFKNSPF  200
+
+
+>TR:A0A2R6QIX8_ACTCH A0A2R6QIX8 Polygalacturonase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc16389 PE=3 SV=1
+Length=447
+
+ Score = 144 bits (362),  Expect = 2e-38
+ Identities = 62/87 (71%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  116  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGEIWWNMWRQRTLE  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M+S  +++SNVVFQ+  F
+Sbjct  176  FTRPNLVEFMHSQRIIISNVVFQNSPF  202
+
+
+>TR:A0A068UUC8_COFCA A0A068UUC8 Uncharacterized protein OS=Coffea canephora OX=49390 
+GN=GSCOC_T00035541001 PE=3 SV=1
+Length=447
+
+ Score = 144 bits (362),  Expect = 2e-38
+ Identities = 62/86 (72%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG +WW+MW++RTL F
+Sbjct  117  WPLIAPLPSYGRGRELPGGRYMSFIHGDGLHDVIITGENGTIDGQGEIWWNMWRRRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E M S  ++VSNV+F++  F
+Sbjct  177  TRPNLIEFMNSRGIIVSNVIFKNSPF  202
+
+
+>TR:M1AW19_SOLTU M1AW19 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102591521 
+PE=3 SV=1
+Length=447
+
+ Score = 144 bits (362),  Expect = 2e-38
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRE PG RY+SL+HG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLVDPLPSYGRGRERPGARYISLLHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNV+F++  F
+Sbjct  177  TRPHLVELMNSRGILISNVIFKNSPF  202
+
+
+>TR:A0A2I0X1H2_9ASPA A0A2I0X1H2 Putative polygalacturonase OS=Dendrobium catenatum 
+OX=906689 GN=MA16_Dca025787 PE=3 SV=1
+Length=448
+
+ Score = 144 bits (362),  Expect = 2e-38
+ Identities = 61/86 (71%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL++PLPSYGRGRE PGGRY S I G+GL+DV ITGENGTIDGQG VWWDMW++RTL F
+Sbjct  121  WPLVEPLPSYGRGRERPGGRYASFILGYGLRDVIITGENGTIDGQGGVWWDMWRQRTLSF  180
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+LLE M+STD+ +SN++F++  F
+Sbjct  181  TRPNLLEFMHSTDIHISNIIFKNSPF  206
+
+
+>TR:A0A2G5CTK7_AQUCA A0A2G5CTK7 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_03700120v1 PE=3 SV=1
+Length=497
+
+ Score = 144 bits (364),  Expect = 2e-38
+ Identities = 63/89 (71%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  166  TWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  225
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            FTRP+L+E M S ++++SNV+FQ+  F T
+Sbjct  226  FTRPNLVEFMNSKNIIISNVIFQNSPFWT  254
+
+
+>TR:A0A097PQY4_CHLJA A0A097PQY4 Pectin lyase-like superfamily protein (Fragment) OS=Chloranthus 
+japonicus OX=13007 PE=2 SV=1
+Length=406
+
+ Score = 142 bits (359),  Expect = 3e-38
+ Identities = 60/87 (69%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  88   NWPLIAPLPSYGRGRELPGGRYMSFIHGDGINDVIITGENGTIDGQGDVWWNMWRQRSLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL++S ++++S+VVF++  F
+Sbjct  148  FTRPNLIELVHSKNIIISHVVFRNAPF  174
+
+
+>TR:A0A097PQW9_PRUPE A0A097PQW9 Pectin lyase-like superfamily protein (Fragment) OS=Prunus 
+persica OX=3760 PE=2 SV=1
+Length=406
+
+ Score = 142 bits (359),  Expect = 3e-38
+ Identities = 61/87 (70%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY S IHG G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRELPGGRYSSFIHGDGIHDVVITGENGTIDGQGGVWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S ++++SNV+FQ+  F
+Sbjct  148  FTRPNLIEFMNSKNIIISNVIFQNSPF  174
+
+
+>TR:A0A2P5AZK5_9ROSA A0A2P5AZK5 Glycoside hydrolase OS=Trema orientalis OX=63057 GN=TorRG33x02_337020 
+PE=3 SV=1
+Length=319
+
+ Score = 140 bits (353),  Expect = 3e-38
+ Identities = 59/87 (68%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRELPGGRYISFIHGDGIHDVVITGENGTIDGQGDVWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  177  FTRPNLVEFLNSRNIIISNVIFRNSPF  203
+
+
+>TR:A0A2H3XXG6_PHODC A0A2H3XXG6 probable polygalacturonase OS=Phoenix dactylifera 
+OX=42345 GN=LOC103707418 PE=3 SV=1
+Length=442
+
+ Score = 143 bits (360),  Expect = 4e-38
+ Identities = 60/87 (69%), Positives = 77/87 (89%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPGGRY SLIHG+G++DV ITGE G IDGQG VWW+MW++R+L 
+Sbjct  113  NWPLMDPLPSYGRGRELPGGRYTSLIHGNGIRDVIITGEKGIIDGQGGVWWNMWRQRSLR  172
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLE M+S+D+++SNV+ Q+  F
+Sbjct  173  FTRPNLLEFMHSSDILISNVILQNSPF  199
+
+
+>TR:B2WS78_ARAHA B2WS78 Glycoside hydrolase family 28 protein OS=Arabidopsis halleri 
+OX=81970 GN=8F2.19 PE=3 SV=1
+Length=444
+
+ Score = 143 bits (360),  Expect = 4e-38
+ Identities = 61/87 (70%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPGGRYMS IHG GL+DV ITG+NGTIDGQG VWW+MW  RTL 
+Sbjct  114  NWPLIDPLPSYGRGRELPGGRYMSFIHGDGLRDVVITGQNGTIDGQGEVWWNMWHSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  174  YTRPNLIEFKDSKEIIISNVIFQNSPF  200
+
+
+>TR:A0A097PQY6_CABCA A0A097PQY6 Pectin lyase-like superfamily protein (Fragment) OS=Cabomba 
+caroliniana OX=4426 PE=2 SV=1
+Length=406
+
+ Score = 142 bits (358),  Expect = 4e-38
+ Identities = 62/87 (71%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW+  +L 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGEVWWNMWRDGSLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHLLELM S D+++SNV+F++  F
+Sbjct  148  YTRPHLLELMNSKDIILSNVIFKNSPF  174
+
+
+>TR:A0A097PQZ2_ALIPL A0A097PQZ2 Pectin lyase-like superfamily protein (Fragment) OS=Alisma 
+plantago-aquatica OX=15000 PE=2 SV=1
+Length=406
+
+ Score = 142 bits (358),  Expect = 4e-38
+ Identities = 63/86 (73%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI  LPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  89   WPLISALPSYGRGRELPGGRYMSFIHGDGLSDVIITGENGTIDGQGYVWWNMWRQRTLQF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+EL+ S D+++SNVVF++  F
+Sbjct  149  TRPNLVELVNSRDILISNVVFKNSPF  174
+
+
+>TR:A0A2R6QN10_ACTCH A0A2R6QN10 Polygalacturonase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc15593 PE=3 SV=1
+Length=447
+
+ Score = 143 bits (360),  Expect = 4e-38
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGGVWWEMWRRRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E M+S ++++SNV+F++  F
+Sbjct  177  TRPNLVEFMHSKNILISNVIFKNSPF  202
+
+
+>TR:A0A2I4E843_9ROSI A0A2I4E843 probable polygalacturonase OS=Juglans regia OX=51240 
+GN=LOC108987157 PE=3 SV=1
+Length=451
+
+ Score = 143 bits (360),  Expect = 4e-38
+ Identities = 60/87 (69%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRELPGGRYMS +HG GL+DV ITGENGTIDGQG VWWDMW++RTL 
+Sbjct  116  NWPLVAPLPSYGRGRELPGGRYMSFLHGDGLRDVVITGENGTIDGQGDVWWDMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S ++++SNV+F++  F
+Sbjct  176  FTRPSLIEFVNSKNIIISNVIFRNSPF  202
+
+
+>TR:A0A1S2XLV6_CICAR A0A1S2XLV6 probable polygalacturonase OS=Cicer arietinum OX=3827 
+GN=LOC101499011 PE=3 SV=1
+Length=452
+
+ Score = 143 bits (360),  Expect = 4e-38
+ Identities = 63/87 (72%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS I G GLQDV ITG+NGTIDGQG VWW+MW+KRTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIRGDGLQDVVITGDNGTIDGQGEVWWNMWRKRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S D+++SNVVF+D  F
+Sbjct  178  FTRPSLIEFVNSKDIIISNVVFKDSPF  204
+
+
+>TR:M5W9C6_PRUPE M5W9C6 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_5G117600 
+PE=3 SV=1
+Length=442
+
+ Score = 142 bits (359),  Expect = 5e-38
+ Identities = 61/87 (70%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY S IHG G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  111  NWPLIAPLPSYGRGRELPGGRYSSFIHGDGIHDVVITGENGTIDGQGGVWWNMWRQRTLQ  170
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S ++++SNV+FQ+  F
+Sbjct  171  FTRPNLIEFMNSKNIIISNVIFQNSPF  197
+
+
+>TR:A0A097PQV7_9MAGN A0A097PQV7 Pectin lyase-like superfamily protein (Fragment) OS=Buxus 
+sinica OX=153572 PE=2 SV=1
+Length=406
+
+ Score = 142 bits (357),  Expect = 5e-38
+ Identities = 60/86 (70%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPG RYMS IHG G+ DV ITGENGTIDGQG +WW+MW++RTL F
+Sbjct  89   WPLIAPLPSYGRGRELPGSRYMSFIHGDGVHDVIITGENGTIDGQGDIWWNMWRQRTLQF  148
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E M S ++++SNV+FQ+  F
+Sbjct  149  TRPNLIEFMNSRNIIISNVIFQNSPF  174
+
+
+>TR:A0A166CQL3_DAUCA A0A166CQL3 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_005038 PE=3 SV=1
+Length=446
+
+ Score = 142 bits (359),  Expect = 5e-38
+ Identities = 62/86 (72%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRE PG RYMSLIHG+GL DV ITGE GTIDGQG VWW+MW+ RTL F
+Sbjct  116  WPLIAPLPSYGRGRERPGARYMSLIHGNGLSDVIITGEKGTIDGQGDVWWNMWRHRTLQF  175
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+ELM S D+++SNV+F++  F
+Sbjct  176  TRPNLIELMNSNDIIISNVIFKNSPF  201
+
+
+>TR:A0A151T0L8_CAJCA A0A151T0L8 Putative polygalacturonase OS=Cajanus cajan OX=3821 
+GN=KK1_023003 PE=3 SV=1
+Length=443
+
+ Score = 142 bits (358),  Expect = 7e-38
+ Identities = 62/87 (71%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW+++TL 
+Sbjct  115  NWPLIAPLPSYGRGRELPGGRYMSFIHGDGLDDVIITGENGTIDGQGDVWWNMWRRKTLK  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E M S ++++SNVVF++  F
+Sbjct  175  FTRPSLVEFMNSKNILISNVVFKNSPF  201
+
+
+>TR:A0A2P2LUL4_RHIMU A0A2P2LUL4 Glycoside hydrolase family 28 family protein OS=Rhizophora 
+mucronata OX=61149 PE=3 SV=1
+Length=445
+
+ Score = 142 bits (358),  Expect = 7e-38
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYM+ IHG GL DV ITGENGTIDGQG VWWDMW++RTL 
+Sbjct  115  NWPLIAPLPSYGRGRELPGGRYMNFIHGDGLNDVIITGENGTIDGQGDVWWDMWRQRTLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F +  F
+Sbjct  175  FTRPNLIEFVNSRSIIISNVIFCNSAF  201
+
+
+>TR:A0A097PQV2_9BRAS A0A097PQV2 Pectin lyase-like superfamily protein (Fragment) OS=Capsella 
+rubella OX=81985 PE=2 SV=1
+Length=406
+
+ Score = 141 bits (356),  Expect = 7e-38
+ Identities = 60/87 (69%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLID LPSYGRGRELPGGRYMSLIHG GL+DV ITG+NGTIDGQG VWW++W+ RTL 
+Sbjct  88   NWPLIDHLPSYGRGRELPGGRYMSLIHGDGLRDVVITGQNGTIDGQGEVWWNLWRSRTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  148  YTRPNLIEFKNSKEIIISNVIFQNSPF  174
+
+
+>TR:A0A097PQW1_9MAGN A0A097PQW1 Pectin lyase-like superfamily protein (Fragment) OS=Chimonanthus 
+praecox OX=13419 PE=2 SV=1
+Length=406
+
+ Score = 141 bits (356),  Expect = 7e-38
+ Identities = 63/87 (72%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++ +L 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLSDVIITGENGTIDGQGEVWWNMWRQGSLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL+ S DV++SNVVFQ+  F
+Sbjct  148  FTRPNLIELVNSRDVLISNVVFQNSPF  174
+
+
+>TR:A0A0D2R441_GOSRA A0A0D2R441 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G134000 PE=3 SV=1
+Length=308
+
+ Score = 139 bits (350),  Expect = 8e-38
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVEFVNSRGIVISNVIFRNSPF  203
+
+
+>TR:A0A2K3NVT1_TRIPR A0A2K3NVT1 Polygalacturonase/glycoside hydrolase family protein 
+OS=Trifolium pratense OX=57577 GN=L195_g003612 PE=3 SV=1
+Length=379
+
+ Score = 140 bits (354),  Expect = 9e-38
+ Identities = 59/87 (68%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG G++DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  45   NWPLIAPLPSYGRGRELPGGRYISFIHGDGVRDVIITGENGTIDGQGDVWWNMWRQRTLQ  104
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  105  FTRPNLVEFLNSRNIIISNVIFKNSPF  131
+
+
+>TR:S8C351_9LAMI S8C351 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_13719 PE=3 SV=1
+Length=416
+
+ Score = 141 bits (356),  Expect = 9e-38
+ Identities = 63/86 (73%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW+ R+L F
+Sbjct  91   WPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGYVWWNMWRDRSLEF  150
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELM S  +++SNVV Q+  F
+Sbjct  151  TRPHLIELMNSRSILISNVVIQNSPF  176
+
+
+>TR:A0A097PQZ0_ARITA A0A097PQZ0 Pectin lyase-like superfamily protein (Fragment) OS=Aristolochia 
+tagala OX=158573 PE=2 SV=1
+Length=406
+
+ Score = 141 bits (355),  Expect = 1e-37
+ Identities = 59/87 (68%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWPLI PLPSYGRGRE PGGRYMS IHG G+ DV ITGENGTIDGQG +WW+MW++ TL 
+Sbjct  88   SWPLIAPLPSYGRGRERPGGRYMSFIHGDGIHDVVITGENGTIDGQGGIWWNMWRQGTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+ELM+S ++++SNV+F++  F
+Sbjct  148  YTRPNLIELMHSKNIIISNVIFKNSPF  174
+
+
+>TR:R0F5B8_9BRAS R0F5B8 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10004811mg 
+PE=3 SV=1
+Length=444
+
+ Score = 141 bits (356),  Expect = 1e-37
+ Identities = 60/87 (69%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLID LPSYGRGRELPGGRYMSLIHG GL+DV ITG+NGTIDGQG VWW++W+ RTL 
+Sbjct  114  NWPLIDHLPSYGRGRELPGGRYMSLIHGDGLRDVVITGQNGTIDGQGEVWWNLWRSRTLK  173
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+FQ+  F
+Sbjct  174  YTRPNLIEFKNSKEIIISNVIFQNSPF  200
+
+
+>TR:A0A097PQW4_MANES A0A097PQW4 Pectin lyase-like superfamily protein (Fragment) OS=Manihot 
+esculenta OX=3983 PE=2 SV=1
+Length=406
+
+ Score = 140 bits (354),  Expect = 1e-37
+ Identities = 60/87 (69%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVVITGENGTIDGQGDVWWEMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E++ S  +++SNV+F++  F
+Sbjct  148  FTRPNLVEIVNSRSIIISNVIFKNSPF  174
+
+
+>TR:A0A097PQX2_ERYGU A0A097PQX2 Pectin lyase-like superfamily protein (Fragment) OS=Erythranthe 
+guttata OX=4155 PE=2 SV=1
+Length=406
+
+ Score = 140 bits (354),  Expect = 1e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLYDVIITGENGTIDGQGDVWWNMWRQRTLE  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+++ELM S  +++SNV F++  F
+Sbjct  148  FTRPNIVELMNSKSIIISNVTFKNSPF  174
+
+
+>TR:A0A097PQV4_9MAGN A0A097PQV4 Pectin lyase-like superfamily protein (Fragment) OS=Sarcandra 
+glabra OX=92927 PE=2 SV=1
+Length=406
+
+ Score = 140 bits (354),  Expect = 1e-37
+ Identities = 59/87 (68%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS IHG G+ DV ITGENGTIDGQG  WW+MW++R+L 
+Sbjct  88   NWPLIAPLPSYGRGRELPGGRYMSFIHGDGINDVIITGENGTIDGQGDAWWNMWRQRSLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL++S ++++S+VVF++  F
+Sbjct  148  FTRPNLIELVHSKNIIISHVVFRNSPF  174
+
+
+>TR:A0A1J7FQR3_LUPAN A0A1J7FQR3 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_10568 PE=3 SV=1
+Length=446
+
+ Score = 141 bits (356),  Expect = 1e-37
+ Identities = 60/87 (69%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMSLIHG G+QDV ITGENGTIDGQG VWW+MW++ TL 
+Sbjct  116  NWPLIAPLPSYGRGRELPGGRYMSLIHGDGVQDVIITGENGTIDGQGDVWWNMWRQGTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E + S ++++SNV+F++  F
+Sbjct  176  YTRPNLVEFLNSRNIIISNVIFKNSPF  202
+
+
+>TR:A0A059CGT3_EUCGR A0A059CGT3 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_D01730 PE=3 SV=1
+Length=449
+
+ Score = 141 bits (356),  Expect = 2e-37
+ Identities = 62/87 (71%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PG RYMSLI GHGL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  116  NWPLIAPLPSYGRGRERPGRRYMSLIQGHGLRDVVITGENGTIDGQGEVWWNMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRPHL+E M S  +++SNVVF++  F
+Sbjct  176  YTRPHLVEFMNSRSIMISNVVFKNSPF  202
+
+
+>TR:A0A251RQ96_HELAN A0A251RQ96 Putative glycoside hydrolase, family 28, Pectin lyase 
+fold/virulence factor OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr17g0535211 
+PE=3 SV=1
+Length=490
+
+ Score = 141 bits (356),  Expect = 3e-37
+ Identities = 62/87 (71%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW+KRTL 
+Sbjct  164  NWPLIAPLPSYGRGRERPGGRYMSFIHGEGLHDVIITGENGTIDGQGGVWWNMWRKRTLR  223
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+EL  S  +++SNV+F++  F
+Sbjct  224  FTRPNLIELKDSKRIIISNVIFKNSPF  250
+
+
+>TR:A0A097PQW6_9LILI A0A097PQW6 Pectin lyase-like superfamily protein (Fragment) OS=Canna 
+indica OX=4628 PE=2 SV=1
+Length=406
+
+ Score = 140 bits (352),  Expect = 3e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPG RYMS I G G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  88   NWPLVDPLPSYGRGRELPGRRYMSFIQGDGISDVIITGENGTIDGQGEVWWNMWRQRSLR  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLE   S D+++SNVVFQ+  F
+Sbjct  148  FTRPNLLEFKNSRDILISNVVFQNSPF  174
+
+
+>TR:A0A2C9W9Y1_MANES A0A2C9W9Y1 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_02G010900 PE=3 SV=1
+Length=449
+
+ Score = 140 bits (354),  Expect = 3e-37
+ Identities = 60/87 (69%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVVITGENGTIDGQGDVWWEMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E++ S  +++SNV+F++  F
+Sbjct  178  FTRPNLVEIVNSRSIIISNVIFKNSPF  204
+
+
+>TR:A0A022RI00_ERYGU A0A022RI00 Uncharacterized protein OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a006305mg PE=3 SV=1
+Length=449
+
+ Score = 140 bits (354),  Expect = 3e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLYDVIITGENGTIDGQGDVWWNMWRQRTLE  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+++ELM S  +++SNV F++  F
+Sbjct  178  FTRPNIVELMNSKSIIISNVTFKNSPF  204
+
+
+>TR:A0A072V631_MEDTR A0A072V631 Polygalacturonase/glycoside hydrolase family protein 
+OS=Medicago truncatula OX=3880 GN=25490549 PE=3 SV=1
+Length=451
+
+ Score = 140 bits (354),  Expect = 3e-37
+ Identities = 59/87 (68%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG G++DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  120  NWPLIAPLPSYGRGRELPGGRYISFIHGDGVRDVIITGENGTIDGQGDVWWNMWRQRTLQ  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  180  FTRPNLVEFLNSRNIIISNVIFKNSPF  206
+
+
+>TR:A0A097PQW8_MUSAC A0A097PQW8 Pectin lyase-like superfamily protein (Fragment) OS=Musa 
+acuminata OX=4641 PE=2 SV=1
+Length=396
+
+ Score = 139 bits (351),  Expect = 3e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPG RY+S I G G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  78   NWPLVDPLPSYGRGRELPGRRYVSFIQGDGISDVIITGENGTIDGQGDVWWNMWRQRSLH  137
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLE   S DV++SNVVFQ+  F
+Sbjct  138  FTRPNLLEFKNSRDVIISNVVFQNSPF  164
+
+
+>TR:A0A097PQV6_9MAGN A0A097PQV6 Pectin lyase-like superfamily protein (Fragment) OS=Illicium 
+henryi OX=114516 PE=2 SV=1
+Length=406
+
+ Score = 139 bits (351),  Expect = 4e-37
+ Identities = 60/87 (69%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRE PGGRYMS IHG+GL DV ITGENGTIDGQG  WW MW+  +L 
+Sbjct  88   NWPLIDPLPSYGRGRERPGGRYMSFIHGYGLHDVIITGENGTIDGQGYGWWQMWRDGSLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+ELM+S+D+++SNV+F +  F
+Sbjct  148  YTRPNLVELMHSSDILISNVIFINSPF  174
+
+
+>TR:A0A2P5W7L4_GOSBA A0A2P5W7L4 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA33620 PE=3 SV=1
+Length=448
+
+ Score = 140 bits (353),  Expect = 4e-37
+ Identities = 61/87 (70%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRECPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+EL+ S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVELVNSRGMVISNVIFRNSPF  203
+
+
+>TR:A0A1U8LLN9_GOSHI A0A1U8LLN9 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107928776 PE=3 SV=1
+Length=448
+
+ Score = 140 bits (353),  Expect = 4e-37
+ Identities = 61/87 (70%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRECPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+EL+ S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVELVNSRGMVISNVIFRNSPF  203
+
+
+>TR:A0A0D2MXU1_GOSRA A0A0D2MXU1 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G134000 PE=3 SV=1
+Length=389
+
+ Score = 139 bits (350),  Expect = 4e-37
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVEFVNSRGIVISNVIFRNSPF  203
+
+
+>TR:A0A1S2Y641_CICAR A0A1S2Y641 probable polygalacturonase OS=Cicer arietinum OX=3827 
+GN=LOC101493527 PE=3 SV=1
+Length=449
+
+ Score = 140 bits (353),  Expect = 4e-37
+ Identities = 59/87 (68%), Positives = 76/87 (87%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG G++DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  119  NWPLIAPLPSYGRGRELPGGRYISFIHGDGVRDVIITGENGTIDGQGDVWWNMWRQRTLQ  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  179  FTRPNLVEFINSENIIISNVIFKNSPF  205
+
+
+>TR:A0A0D3DFR6_BRAOL A0A0D3DFR6 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106305987 PE=3 SV=1
+Length=451
+
+ Score = 140 bits (353),  Expect = 4e-37
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRELPG RY+S IHG GL+DV ITG+NGTIDGQG VWW+MW+ RTL 
+Sbjct  121  NWPLIDPLPSYGRGRELPGARYISFIHGDGLRDVVITGQNGTIDGQGEVWWNMWRSRTLK  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S  +++SNV+FQ+  F
+Sbjct  181  FTRPNLIEFKNSKAIIISNVIFQNSPF  207
+
+
+>TR:M0RKB1_MUSAM M0RKB1 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=412
+
+ Score = 139 bits (351),  Expect = 4e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPG RY+S I G G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  81   NWPLVDPLPSYGRGRELPGRRYVSFIQGDGISDVIITGENGTIDGQGDVWWNMWRQRSLH  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLE   S DV++SNVVFQ+  F
+Sbjct  141  FTRPNLLEFKNSRDVIISNVVFQNSPF  167
+
+
+>TR:M0TRZ3_MUSAM M0TRZ3 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=415
+
+ Score = 139 bits (351),  Expect = 5e-37
+ Identities = 60/86 (70%), Positives = 72/86 (84%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+DPLPSYGRGRELPG RYMS I G G+ DV ITGENGTIDGQG VWW+MW++R+L F
+Sbjct  86   WPLVDPLPSYGRGRELPGRRYMSFIQGDGISDVIITGENGTIDGQGEVWWNMWRRRSLHF  145
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E   S D+++SNVVFQ+  F
+Sbjct  146  TRPNLVEFKNSRDIIISNVVFQNSPF  171
+
+
+>TR:A0A2H3XT32_PHODC A0A2H3XT32 probable polygalacturonase OS=Phoenix dactylifera 
+OX=42345 GN=LOC103706019 PE=3 SV=1
+Length=468
+
+ Score = 140 bits (353),  Expect = 5e-37
+ Identities = 64/87 (74%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SWP+IDPLPSYGRGRELPGGR+ SLIHG  L DV ITG+NGTIDGQGSVWWD +   TL 
+Sbjct  116  SWPVIDPLPSYGRGRELPGGRHKSLIHGSNLSDVIITGDNGTIDGQGSVWWDWFHNMTLN  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRPHL+ELMYST VV+SN+ F +  F
+Sbjct  176  FTRPHLVELMYSTKVVISNLTFINSPF  202
+
+
+>TR:A0A2P5B8V2_PARAD A0A2P5B8V2 Glycoside hydrolase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_260620 PE=3 SV=1
+Length=447
+
+ Score = 140 bits (352),  Expect = 6e-37
+ Identities = 58/87 (67%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG G+ DV +TGENGTIDGQG VWW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRELPGGRYISFIHGDGIHDVVVTGENGTIDGQGDVWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  177  FTRPNLVEFLNSRNIIISNVIFRNSPF  203
+
+
+>TR:A0A1S3UH76_VIGRR A0A1S3UH76 probable polygalacturonase OS=Vigna radiata var. radiata 
+OX=3916 GN=LOC106765314 PE=3 SV=1
+Length=442
+
+ Score = 139 bits (351),  Expect = 7e-37
+ Identities = 59/86 (69%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPGGRYMS IHG G+QDV ITGENGTIDGQG +WW+ W++R+L F
+Sbjct  113  WPLIAPLPSYGRGRELPGGRYMSFIHGDGVQDVVITGENGTIDGQGDLWWNKWRQRSLQF  172
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E + S D+++SNV+F++  F
+Sbjct  173  TRPNLVEFINSRDIIISNVIFKNSPF  198
+
+
+>TR:A0A097PQY1_PLAAC A0A097PQY1 Pectin lyase-like superfamily protein (Fragment) OS=Platanus 
+acerifolia OX=140101 PE=2 SV=1
+Length=406
+
+ Score = 139 bits (349),  Expect = 8e-37
+ Identities = 59/87 (68%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG G+ DV ITGENGTIDGQG VWW+MW++ +L 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGVHDVIITGENGTIDGQGDVWWNMWRRGSLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S ++++SNV+FQ+  F
+Sbjct  148  FTRPNLIEFMNSRNIIISNVIFQNSPF  174
+
+
+>TR:A0A097PR12_LACSA A0A097PR12 Pectin lyase-like superfamily protein (Fragment) OS=Lactuca 
+sativa OX=4236 PE=2 SV=1
+Length=406
+
+ Score = 139 bits (349),  Expect = 8e-37
+ Identities = 60/87 (69%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S  +++SNV+F++  F
+Sbjct  148  FTRPNLVEFKDSRSIIISNVIFKNSPF  174
+
+
+>TR:A0A0B0P961_GOSAR A0A0B0P961 Putative polygalacturonase OS=Gossypium arboreum OX=29729 
+GN=F383_27038 PE=3 SV=1
+Length=448
+
+ Score = 139 bits (351),  Expect = 8e-37
+ Identities = 61/87 (70%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWSMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+EL+ S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVELVNSRGMVISNVIFRNSPF  203
+
+
+>TR:V7BMN1_PHAVU V7BMN1 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_006G028800g PE=3 SV=1
+Length=456
+
+ Score = 139 bits (351),  Expect = 9e-37
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRY+S IHG GL DV ITGENGTIDGQG +WW+MW+KRTL 
+Sbjct  128  NWPLIAPLPSYGRGRELPGGRYISFIHGDGLTDVVITGENGTIDGQGDMWWNMWRKRTLK  187
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP L+E + S D+++SN++F++  F
+Sbjct  188  YTRPSLVEFVNSQDIIISNLIFKNSPF  214
+
+
+>TR:A0A2P6P684_ROSCH A0A2P6P684 Putative galacturan 1,4-alpha-galacturonidase OS=Rosa 
+chinensis OX=74649 GN=RchiOBHm_Chr7g0195091 PE=3 SV=1
+Length=444
+
+ Score = 139 bits (350),  Expect = 1e-36
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG G+ DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  113  NWPLIAPLPSYGRGRERPGGRYVSFIHGDGVHDVVITGENGTIDGQGDVWWNMWRQRTLQ  172
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+FQ+  F
+Sbjct  173  FTRPNLIEFINSKNIIISNVIFQNSPF  199
+
+
+>TR:A0A2H3Z3P6_PHODC A0A2H3Z3P6 probable polygalacturonase OS=Phoenix dactylifera 
+OX=42345 GN=LOC103720123 PE=3 SV=1
+Length=469
+
+ Score = 139 bits (351),  Expect = 1e-36
+ Identities = 61/86 (71%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLIHG  L DV ITG+NGTIDGQG VWWD ++  TL +
+Sbjct  117  WPVIDPLPSYGRGRELPGGRHQSLIHGSNLTDVIITGDNGTIDGQGIVWWDWFQNHTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST+VV+SN+ F++  F
+Sbjct  177  TRPHLIELMYSTEVVISNLTFKNSPF  202
+
+
+>TR:A0A2P5RMP1_GOSBA A0A2P5RMP1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD15008 PE=3 SV=1
+Length=448
+
+ Score = 139 bits (350),  Expect = 1e-36
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVEFVNSRGIVISNVIFRNSPF  203
+
+
+>TR:A0A0D2RYU9_GOSRA A0A0D2RYU9 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G134000 PE=3 SV=1
+Length=448
+
+ Score = 139 bits (350),  Expect = 1e-36
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVEFVNSRGIVISNVIFRNSPF  203
+
+
+>TR:A0A1U8JXW7_GOSHI A0A1U8JXW7 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107909932 PE=3 SV=1
+Length=448
+
+ Score = 139 bits (350),  Expect = 1e-36
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLEDVVITGENGTIDGQGDIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +V+SNV+F++  F
+Sbjct  177  FTRPSLVEFVNSRGIVISNVIFRNSPF  203
+
+
+>TR:A0A175YEZ8_DAUCA A0A175YEZ8 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_029882 PE=3 SV=1
+Length=449
+
+ Score = 139 bits (350),  Expect = 1e-36
+ Identities = 60/86 (70%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRE PG RY+S IHG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  119  WPLIAPLPSYGRGRERPGDRYVSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQF  178
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+ELM S ++++SNV+F++  F
+Sbjct  179  TRPNLIELMNSRNIIISNVIFKNSPF  204
+
+
+>TR:A0A1R3K797_9ROSI A0A1R3K797 Glycoside hydrolase, family 28 OS=Corchorus olitorius 
+OX=93759 GN=COLO4_10684 PE=3 SV=1
+Length=479
+
+ Score = 139 bits (351),  Expect = 1e-36
+ Identities = 59/87 (68%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WWDMW++ TL 
+Sbjct  117  NWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWDMWRQGTLK  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  177  FTRPNLVEFMNSRGIIISNVIFRNSPF  203
+
+
+>TR:A0A0S3RJS9_PHAAN A0A0S3RJS9 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.03G045100 PE=3 SV=1
+Length=442
+
+ Score = 139 bits (349),  Expect = 1e-36
+ Identities = 58/87 (67%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS +HG G+QDV ITGENGTIDGQG +WW+ W++R+L 
+Sbjct  112  NWPLIAPLPSYGRGRELPGGRYMSFMHGDGVQDVVITGENGTIDGQGDLWWNKWRQRSLQ  171
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  172  FTRPNLVEFVNSRDIIISNVIFKNSPF  198
+
+
+>TR:A0A097PR18_HOUCO A0A097PR18 Pectin lyase-like superfamily protein (Fragment) OS=Houttuynia 
+cordata OX=16752 PE=2 SV=1
+Length=406
+
+ Score = 138 bits (347),  Expect = 2e-36
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG G++DV ITGENGTIDGQG VWW+MW++ TL 
+Sbjct  88   NWPLISPLPSYGRGRERPGGRYISFIHGDGIRDVIITGENGTIDGQGDVWWNMWRQGTLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+LLEL+ S D+++SNV+ ++  F
+Sbjct  148  FTRPNLLELVNSKDILISNVILKNSPF  174
+
+
+>TR:A0A097PQU8_THECC A0A097PQU8 Pectin lyase-like superfamily protein (Fragment) OS=Theobroma 
+cacao OX=3641 PE=2 SV=1
+Length=406
+
+ Score = 138 bits (347),  Expect = 2e-36
+ Identities = 58/87 (67%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDG+G++WW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGREHPGGRYMSFIHGDGLRDVVITGENGTIDGEGAIWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  148  FTRPNLVEFVNSRGIIISNVIFRNSPF  174
+
+
+>TR:A0A2J6KZT2_LACSA A0A2J6KZT2 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_6X12221 PE=3 SV=1
+Length=454
+
+ Score = 139 bits (349),  Expect = 2e-36
+ Identities = 60/87 (69%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S  +++SNV+F++  F
+Sbjct  178  FTRPNLVEFKDSRSIIISNVIFKNSPF  204
+
+
+>TR:A0A151U228_CAJCA A0A151U228 Putative polygalacturonase OS=Cajanus cajan OX=3821 
+GN=KK1_005934 PE=3 SV=1
+Length=444
+
+ Score = 138 bits (348),  Expect = 2e-36
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGR+MS IHG G+QDV ITGENGTIDGQG VWW+MW++  L 
+Sbjct  112  NWPLIAPLPSYGRGRELPGGRHMSFIHGDGVQDVVITGENGTIDGQGDVWWNMWRQGNLK  171
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  172  FTRPNLVEFVNSRDIIISNVIFKNSPF  198
+
+
+>TR:A0A199UCH1_MANES A0A199UCH1 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_S008500 PE=3 SV=1
+Length=447
+
+ Score = 138 bits (348),  Expect = 2e-36
+ Identities = 59/86 (69%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRE PGGRY+S IHG GL DV ITGENGTIDGQG VWW+MW++RTL F
+Sbjct  117  WPLIAPLPSYGRGRERPGGRYISFIHGDGLHDVVITGENGTIDGQGDVWWNMWRQRTLQF  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E++ S  +++SNV+F++  F
+Sbjct  177  TRPNLVEIVNSRSIIISNVIFRNSPF  202
+
+
+>TR:A0A097PQV1_PINTE A0A097PQV1 Pectin lyase-like superfamily protein (Fragment) OS=Pinellia 
+ternata OX=199225 PE=2 SV=1
+Length=406
+
+ Score = 137 bits (346),  Expect = 2e-36
+ Identities = 60/87 (69%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +W LIDPLPSYGRGRELPGGRY+SLIHG G+ DV ITGE GTIDGQG VWW+MW++R+L 
+Sbjct  88   NWRLIDPLPSYGRGRELPGGRYISLIHGDGVHDVIITGEYGTIDGQGDVWWNMWRQRSLR  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E M S D+++SNV+F++  F
+Sbjct  148  FTRPGLVEFMNSRDILISNVIFRNSPF  174
+
+
+>TR:A0A067K0I9_JATCU A0A067K0I9 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_20465 PE=3 SV=1
+Length=448
+
+ Score = 138 bits (348),  Expect = 2e-36
+ Identities = 59/87 (68%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG GL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  116  NWPLIGPLPSYGRGRERPGGRYVSFIHGDGLRDVIITGENGTIDGQGDVWWNMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP L+E + S  +++SNV+F++  F
+Sbjct  176  FTRPSLVEFVNSRSIIISNVIFRNSPF  202
+
+
+>TR:A0A251UAY2_HELAN A0A251UAY2 Putative pectin lyase-like superfamily protein OS=Helianthus 
+annuus OX=4232 GN=HannXRQ_Chr07g0191251 PE=3 SV=1
+Length=449
+
+ Score = 138 bits (348),  Expect = 2e-36
+ Identities = 60/87 (69%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S  +++SNV+F++  F
+Sbjct  178  FTRPNLVEFKDSRGIIISNVIFKNSPF  204
+
+
+>TR:A0A2I0LB85_PUNGR A0A2I0LB85 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_001713 PE=3 SV=1
+Length=412
+
+ Score = 137 bits (346),  Expect = 2e-36
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG GL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  81   TWPLIAPLPSYGRGRERPGGRYISFIHGDGLRDVVITGENGTIDGQGDVWWNMWRQRTLR  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  141  FTRPNLVEFVNSKGIIISNVIFRNSPF  167
+
+
+>TR:A0A0S3S7F2_PHAAN A0A0S3S7F2 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.05G237300 PE=3 SV=1
+Length=443
+
+ Score = 138 bits (347),  Expect = 3e-36
+ Identities = 58/86 (67%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPG RY+S +HG GL DV ITGENGTIDGQG VWW+MW+K+TL +
+Sbjct  115  WPLIAPLPSYGRGRELPGARYISFLHGDGLTDVVITGENGTIDGQGDVWWNMWRKKTLKY  174
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+E + S D+++S+V+F++  F
+Sbjct  175  TRPHLVEFINSQDILISDVIFKNSPF  200
+
+
+>TR:A0A0L9VAQ3_PHAAN A0A0L9VAQ3 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan09g080500 PE=3 SV=1
+Length=443
+
+ Score = 138 bits (347),  Expect = 3e-36
+ Identities = 58/86 (67%), Positives = 73/86 (85%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPG RY+S +HG GL DV ITGENGTIDGQG VWW+MW+K+TL +
+Sbjct  115  WPLIAPLPSYGRGRELPGARYISFLHGDGLTDVVITGENGTIDGQGDVWWNMWRKKTLKY  174
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+E + S D+++S+V+F++  F
+Sbjct  175  TRPHLVEFINSQDILISDVIFKNSPF  200
+
+
+>TR:A0A1U8AFW6_NELNU A0A1U8AFW6 probable polygalacturonase OS=Nelumbo nucifera OX=4432 
+GN=LOC104603983 PE=3 SV=1
+Length=448
+
+ Score = 138 bits (347),  Expect = 3e-36
+ Identities = 57/87 (66%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WP+I PLPSYGRGRELPGGRYMS IHG G+ DV ITGENGTIDGQG VWW+MW++R+L 
+Sbjct  117  NWPVIAPLPSYGRGRELPGGRYMSFIHGDGVHDVIITGENGTIDGQGDVWWNMWRQRSLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E M + ++++SNV+F++  F
+Sbjct  177  YTRPNLVEFMNAKNIIISNVIFRNSPF  203
+
+
+>TR:A0A061G732_THECC A0A061G732 Pectin lyase-like superfamily protein OS=Theobroma 
+cacao OX=3641 GN=TCM_016449 PE=3 SV=1
+Length=448
+
+ Score = 138 bits (347),  Expect = 3e-36
+ Identities = 58/87 (67%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDG+G++WW+MW++RTL 
+Sbjct  117  NWPLIAPLPSYGRGREHPGGRYMSFIHGDGLRDVVITGENGTIDGEGAIWWNMWRQRTLQ  176
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  177  FTRPNLVEFVNSRGIIISNVIFRNSPF  203
+
+
+>TR:M0UQR1_HORVV M0UQR1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=214
+
+ Score = 132 bits (332),  Expect = 3e-36
+ Identities = 59/86 (69%), Positives = 69/86 (80%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLI G  L DV ITG NGTIDGQG+ WWD +   TL +
+Sbjct  117  WPVIDPLPSYGRGRELPGGRHQSLIFGSNLTDVIITGANGTIDGQGAYWWDWFHNHTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST VV+SN+ F++  F
+Sbjct  177  TRPHLVELMYSTSVVISNLTFKNSPF  202
+
+
+>TR:A0A0D2T7T2_GOSRA A0A0D2T7T2 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_007G026000 PE=3 SV=1
+Length=343
+
+ Score = 135 bits (341),  Expect = 3e-36
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  12  TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  71
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+           FTRP+L+E M S  +++SNV+F++  F
+Sbjct  72  FTRPNLVEFMNSRGIIISNVIFKNSPF  98
+
+
+>TR:A0A0K9RIU9_SPIOL A0A0K9RIU9 Uncharacterized protein OS=Spinacia oleracea OX=3562 
+GN=SOVF_066600 PE=3 SV=1
+Length=442
+
+ Score = 137 bits (346),  Expect = 4e-36
+ Identities = 58/86 (67%), Positives = 72/86 (84%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL DPLPSYGRGRE  GGRYMS I G GL DV ITGENGTIDGQG VWW++W+++TL +
+Sbjct  113  WPLADPLPSYGRGREREGGRYMSFILGDGLHDVIITGENGTIDGQGDVWWNLWRRKTLQY  172
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHLLE M+S ++++SNV+F++  F
+Sbjct  173  TRPHLLEFMHSKNIIISNVIFKNSPF  198
+
+
+>TR:A0A097PQX1_POPTR A0A097PQX1 Pectin lyase-like superfamily protein (Fragment) OS=Populus 
+trichocarpa OX=3694 PE=2 SV=1
+Length=406
+
+ Score = 137 bits (344),  Expect = 4e-36
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE  GGRYMS IHG GLQDV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERLGGRYMSFIHGDGLQDVIITGENGTIDGQGDVWWNMWRQRTLL  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  148  FTRPNLVEFVNSRGIIISNVIFRNSPF  174
+
+
+>TR:A0A097PQX6_RICCO A0A097PQX6 Pectin lyase-like superfamily protein (Fragment) OS=Ricinus 
+communis OX=3988 PE=2 SV=1
+Length=406
+
+ Score = 137 bits (344),  Expect = 4e-36
+ Identities = 59/87 (68%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE  GGRYMS IHG GL DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  88   NWPLIAPLPSYGRGRERLGGRYMSFIHGDGLHDVVITGENGTIDGQGDIWWNMWRQRTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+FQ+  F
+Sbjct  148  FTRPNLVEFLNSRGIIISNVIFQNSPF  174
+
+
+>TR:A0A218WHK8_PUNGR A0A218WHK8 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr018049 PE=3 SV=1
+Length=452
+
+ Score = 137 bits (346),  Expect = 4e-36
+ Identities = 59/87 (68%), Positives = 74/87 (85%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRY+S IHG GL+DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  121  TWPLIAPLPSYGRGRERPGGRYISFIHGDGLRDVVITGENGTIDGQGDVWWNMWRQRTLR  180
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  181  FTRPNLVEFVNSKGIIISNVIFRNSPF  207
+
+
+>TR:A0A2U1LXC7_ARTAN A0A2U1LXC7 Pectin lyase-like superfamily protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA442420 PE=4 SV=1
+Length=449
+
+ Score = 137 bits (345),  Expect = 6e-36
+ Identities = 59/87 (68%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  118  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGLHDVIITGENGTIDGQGDVWWNMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S  +++SNV+F++  F
+Sbjct  178  YTRPNLVEFKDSRGIIISNVIFKNSPF  204
+
+
+>TR:A0A2N9GB42_FAGSY A0A2N9GB42 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS24510 PE=3 SV=1
+Length=453
+
+ Score = 137 bits (345),  Expect = 6e-36
+ Identities = 59/87 (68%), Positives = 75/87 (86%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            SW LI PLPSYGRGRELPGGRY+S IHG G++DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  119  SWRLIAPLPSYGRGRELPGGRYISFIHGDGVRDVVITGENGTIDGQGDVWWNMWRQRTLL  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  179  FTRPNLIEFVNSRNIIISNVIFRNSPF  205
+
+
+>TR:A0A1R3IAV0_COCAP A0A1R3IAV0 Glycoside hydrolase, family 28 OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_13463 PE=3 SV=1
+Length=412
+
+ Score = 136 bits (343),  Expect = 6e-36
+ Identities = 57/87 (66%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++ TL 
+Sbjct  81   NWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGTLK  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E M S  +++SNV+F++  F
+Sbjct  141  YTRPNLVEFMNSRGIIISNVIFRNSPF  167
+
+
+>TR:M0T6X6_MUSAM M0T6X6 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=402
+
+ Score = 136 bits (342),  Expect = 7e-36
+ Identities = 62/87 (71%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+DPLPSYGRGRELPG RY S I G+G++DV ITGENGTIDGQG VWW+ W++RTL 
+Sbjct  81   NWPLVDPLPSYGRGRELPGSRYRSFILGNGIRDVIITGENGTIDGQGDVWWNEWRQRTLL  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+             TRP+LLELM S DV+VSNVVF +  F
+Sbjct  141  HTRPNLLELMNSRDVLVSNVVFLNSPF  167
+
+
+>TR:B9RCR5_RICCO B9RCR5 Polygalacturonase, putative OS=Ricinus communis OX=3988 
+GN=RCOM_1691810 PE=3 SV=1
+Length=446
+
+ Score = 137 bits (344),  Expect = 8e-36
+ Identities = 59/87 (68%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE  GGRYMS IHG GL DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  115  NWPLIAPLPSYGRGRERLGGRYMSFIHGDGLHDVVITGENGTIDGQGDIWWNMWRQRTLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+FQ+  F
+Sbjct  175  FTRPNLVEFLNSRGIIISNVIFQNSPF  201
+
+
+>TR:B9GXH4_POPTR B9GXH4 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_003G139100v3 PE=3 SV=2
+Length=447
+
+ Score = 137 bits (344),  Expect = 8e-36
+ Identities = 60/87 (69%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE  GGRYMS IHG GLQDV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  116  NWPLIAPLPSYGRGRERLGGRYMSFIHGDGLQDVIITGENGTIDGQGDVWWNMWRQRTLL  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S  +++SNV+F++  F
+Sbjct  176  FTRPNLVEFVNSRGIIISNVIFRNSPF  202
+
+
+>TR:A0A097PQV9_SOYBN A0A097PQV9 Pectin lyase-like superfamily protein (Fragment) OS=Glycine 
+max OX=3847 PE=2 SV=1
+Length=406
+
+ Score = 136 bits (342),  Expect = 8e-36
+ Identities = 58/87 (67%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG G+QDV ITGENGTIDGQG  WW+ W++ TL 
+Sbjct  88   NWPLIAPLPSYGRGRERPGGRYMSFIHGDGVQDVVITGENGTIDGQGDAWWNKWRQGTLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  148  FTRPNLVEFVNSRDIIISNVIFKNSPF  174
+
+
+>TR:A0A097PR01_PHAVU A0A097PR01 Pectin lyase-like superfamily protein (Fragment) OS=Phaseolus 
+vulgaris OX=3885 PE=2 SV=1
+Length=406
+
+ Score = 136 bits (342),  Expect = 8e-36
+ Identities = 58/87 (67%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS +HG G+QDV ITGENGTIDGQG  WW+ W++ +L 
+Sbjct  88   NWPLIAPLPSYGRGRELPGGRYMSFMHGDGVQDVVITGENGTIDGQGDAWWNKWRQGSLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNVVF++  F
+Sbjct  148  FTRPNLVEFVNSRDIIISNVVFKNSPF  174
+
+
+>TR:A0A2I0A7K2_9ASPA A0A2I0A7K2 Putative polygalacturonase OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash002889 PE=3 SV=1
+Length=458
+
+ Score = 137 bits (344),  Expect = 9e-36
+ Identities = 60/86 (70%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPG R+ SLIHG+ L DV ITG NGTIDGQGS+WWD++K  TL +
+Sbjct  118  WPIIDPLPSYGRGRELPGNRHQSLIHGYNLTDVVITGGNGTIDGQGSIWWDLFKNNTLNY  177
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYS  VV+SN+ F +  F
+Sbjct  178  TRPHLVELMYSIGVVISNLTFTNSPF  203
+
+
+>TR:A0A097PQV5_GOSRA A0A097PQV5 Pectin lyase-like superfamily protein (Fragment) OS=Gossypium 
+raimondii OX=29730 PE=2 SV=1
+Length=406
+
+ Score = 135 bits (341),  Expect = 1e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  88   TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  148  FTRPNLVEFMNSRGIIISNVIFKNSPF  174
+
+
+>TR:A0A2P5RLM9_GOSBA A0A2P5RLM9 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD15346 PE=3 SV=1
+Length=412
+
+ Score = 135 bits (341),  Expect = 1e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  81   TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  140
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  141  FTRPNLVEFMNSRGIIISNVIFKNSPF  167
+
+
+>TR:V7B9C9_PHAVU V7B9C9 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_008G199400g PE=3 SV=1
+Length=442
+
+ Score = 136 bits (342),  Expect = 1e-35
+ Identities = 58/87 (67%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRELPGGRYMS +HG G+QDV ITGENGTIDGQG  WW+ W++ +L 
+Sbjct  112  NWPLIAPLPSYGRGRELPGGRYMSFMHGDGVQDVVITGENGTIDGQGDAWWNKWRQGSLQ  171
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNVVF++  F
+Sbjct  172  FTRPNLVEFVNSRDIIISNVVFKNSPF  198
+
+
+>TR:A0A0R0GFV3_SOYBN A0A0R0GFV3 Uncharacterized protein OS=Glycine max OX=3847 GN=100818820 
+PE=3 SV=1
+Length=446
+
+ Score = 136 bits (342),  Expect = 2e-35
+ Identities = 58/87 (67%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG G+QDV ITGENGTIDGQG  WW+ W++ TL 
+Sbjct  116  NWPLIAPLPSYGRGRERPGGRYMSFIHGDGVQDVVITGENGTIDGQGDAWWNKWRQGTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S D+++SNV+F++  F
+Sbjct  176  FTRPNLVEFVNSRDIIISNVIFKNSPF  202
+
+
+>TR:A0A2I0AJJ0_9ASPA A0A2I0AJJ0 Putative polygalacturonase OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash011987 PE=3 SV=1
+Length=448
+
+ Score = 136 bits (342),  Expect = 2e-35
+ Identities = 58/87 (67%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL++PLPSYGRGRE PGGRY S I G G+ DV ITGENGTIDGQG VWW+MW+  TLP
+Sbjct  120  NWPLMEPLPSYGRGRERPGGRYASFILGSGIHDVIITGENGTIDGQGGVWWNMWRHGTLP  179
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            F+RP+LLE ++STD+ +SNV+F++  F
+Sbjct  180  FSRPNLLEFIHSTDIHISNVIFKNSPF  206
+
+
+>TR:A0A0D2S5P6_GOSRA A0A0D2S5P6 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_007G026000 PE=3 SV=1
+Length=427
+
+ Score = 135 bits (341),  Expect = 2e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  115  TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  175  FTRPNLVEFMNSRGIIISNVIFKNSPF  201
+
+
+>TR:A0A1S3T971_VIGRR A0A1S3T971 probable polygalacturonase OS=Vigna radiata var. radiata 
+OX=3916 GN=LOC106753046 PE=3 SV=1
+Length=443
+
+ Score = 135 bits (341),  Expect = 2e-35
+ Identities = 57/86 (66%), Positives = 72/86 (84%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPLI PLPSYGRGRELPG RY+S +HG GL DV ITGENGTIDGQG  WW+MW+K+TL +
+Sbjct  115  WPLIAPLPSYGRGRELPGARYISFLHGDGLTDVVITGENGTIDGQGDEWWNMWRKKTLKY  174
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+E + S D+++S+V+F++  F
+Sbjct  175  TRPHLVEFINSQDILISDVIFKNSPF  200
+
+
+>TR:A0A0D2P1W0_GOSRA A0A0D2P1W0 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_007G026000 PE=3 SV=1
+Length=446
+
+ Score = 135 bits (341),  Expect = 2e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  115  TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  175  FTRPNLVEFMNSRGIIISNVIFKNSPF  201
+
+
+>TR:A0A1U8J7M4_GOSHI A0A1U8J7M4 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107904469 PE=3 SV=1
+Length=446
+
+ Score = 135 bits (341),  Expect = 2e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV ITGENGTIDGQG +WW+MW++  L 
+Sbjct  115  TWPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVITGENGTIDGQGGIWWNMWRQGNLQ  174
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E M S  +++SNV+F++  F
+Sbjct  175  FTRPNLVEFMNSRGIIISNVIFKNSPF  201
+
+
+>TR:A0A103XR71_CYNCS A0A103XR71 Glycoside hydrolase, family 28 OS=Cynara cardunculus 
+var. scolymus OX=59895 GN=Ccrd_002592 PE=3 SV=1
+Length=447
+
+ Score = 135 bits (341),  Expect = 2e-35
+ Identities = 55/87 (63%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPL+ PLPSYGRGRE PGGRY+S IHG G+ DV ITGENGTIDGQG +WW+MW++RTL 
+Sbjct  118  NWPLVAPLPSYGRGRERPGGRYLSFIHGEGVHDVIITGENGTIDGQGGIWWNMWRQRTLQ  177
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TRP+L+E   S ++++SNV+F++  F
+Sbjct  178  YTRPNLIEFKDSRNIIISNVIFKNSPF  204
+
+
+>TR:A0A2I4GR65_9ROSI A0A2I4GR65 probable polygalacturonase OS=Juglans regia OX=51240 
+GN=LOC109010129 PE=3 SV=1
+Length=449
+
+ Score = 135 bits (340),  Expect = 3e-35
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IH  G+ DV ITGENGTIDGQG +WW MW++RTL 
+Sbjct  116  NWPLIAPLPSYGRGRERPGGRYMSFIHADGVHDVVITGENGTIDGQGDIWWKMWRQRTLQ  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E + S ++++SNV+F++  F
+Sbjct  176  FTRPNLVEFVNSKNIIISNVIFRNSPF  202
+
+
+>TR:I1HZA8_BRADI I1HZA8 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100836562 PE=3 SV=1
+Length=108
+
+ Score = 126 bits (316),  Expect = 4e-35
+ Identities = 54/87 (62%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  2   SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+           SW L++PLPSYGRGRELPG RY S IHG+GL+DV ITG+ G IDGQG VWW+MW++RTL 
+Sbjct  13  SWLLMEPLPSYGRGRELPGARYASFIHGNGLRDVVITGDKGVIDGQGDVWWNMWRRRTLQ  72
+
+Query  62  FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E ++S+ + +SNVV ++  F
+Sbjct  73  HTRPNLVEFVHSSGIHISNVVLKNSLF  99
+
+
+>TR:A0A0D6QWF2_ARACU A0A0D6QWF2 Uncharacterized protein OS=Araucaria cunninghamii 
+OX=56994 PE=3 SV=1
+Length=449
+
+ Score = 135 bits (339),  Expect = 4e-35
+ Identities = 60/87 (69%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLIDPLPSYGRGRE PGGRY+S IHG GLQDV ITGENGTIDGQG VWW+MW+  +L 
+Sbjct  116  AWPLIDPLPSYGRGRERPGGRYISFIHGDGLQDVTITGENGTIDGQGEVWWNMWRDGSLK  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TR +L+E+M S DV++SNVV  +  F
+Sbjct  176  YTRGNLVEIMNSKDVIISNVVLLNSPF  202
+
+
+>TR:A0A2J6JNU1_LACSA A0A2J6JNU1 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_3X10401 PE=3 SV=1
+Length=446
+
+ Score = 134 bits (338),  Expect = 6e-35
+ Identities = 58/87 (67%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PL SYGRGRE PGGRY+S IHG GL DV ITGENGTIDGQG VWW+MW++RTL 
+Sbjct  119  NWPLIAPLASYGRGRERPGGRYISFIHGEGLHDVIITGENGTIDGQGGVWWNMWRQRTLQ  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S  +++SNV+F++  F
+Sbjct  179  FTRPNLIEFKDSRGIIISNVIFKNSPF  205
+
+
+>TR:A0A2U1QMH9_ARTAN A0A2U1QMH9 Glycoside hydrolase, family 28 OS=Artemisia annua 
+OX=35608 GN=CTI12_AA010570 PE=4 SV=1
+Length=430
+
+ Score = 134 bits (337),  Expect = 6e-35
+ Identities = 57/87 (66%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG  + DV ITGE GTIDGQG VWW+MW++RTL 
+Sbjct  99   NWPLIAPLPSYGRGRERPGGRYMSFIHGENVHDVIITGEKGTIDGQGGVWWNMWRQRTLQ  158
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S ++++SNV+F++  F
+Sbjct  159  FTRPNLIEFKDSRNIIISNVIFKNSPF  185
+
+
+>TR:A0A2P5WRE2_GOSBA A0A2P5WRE2 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA27016 PE=3 SV=1
+Length=412
+
+ Score = 134 bits (336),  Expect = 7e-35
+ Identities = 56/86 (65%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV I+GENGTIDGQG +WW+MW++  L F
+Sbjct  82   WPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVISGENGTIDGQGGIWWNMWRQGNLQF  141
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E M S  +++SNV+F++  F
+Sbjct  142  TRPNLVEFMNSRGIIISNVIFKNSPF  167
+
+
+>TR:A0A0R0EZX1_SOYBN A0A0R0EZX1 Uncharacterized protein OS=Glycine max OX=3847 GN=100782602 
+PE=3 SV=1
+Length=465
+
+ Score = 134 bits (338),  Expect = 7e-35
+ Identities = 59/88 (67%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+GH L DV ITG NGTIDGQGS+WW+ +  RTL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHKSLIYGHNLTDVIITGNNGTIDGQGSIWWNRFMNRTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVLISNLTFLNSPFWT  204
+
+
+>TR:A0A0R0ERZ1_SOYBN A0A0R0ERZ1 Uncharacterized protein OS=Glycine max OX=3847 GN=100782602 
+PE=3 SV=1
+Length=467
+
+ Score = 134 bits (338),  Expect = 8e-35
+ Identities = 59/88 (67%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+GH L DV ITG NGTIDGQGS+WW+ +  RTL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHKSLIYGHNLTDVIITGNNGTIDGQGSIWWNRFMNRTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVLISNLTFLNSPFWT  204
+
+
+>TR:I1NBI6_SOYBN I1NBI6 Uncharacterized protein OS=Glycine max OX=3847 GN=100782602 
+PE=3 SV=2
+Length=468
+
+ Score = 134 bits (338),  Expect = 8e-35
+ Identities = 59/88 (67%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+GH L DV ITG NGTIDGQGS+WW+ +  RTL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHKSLIYGHNLTDVIITGNNGTIDGQGSIWWNRFMNRTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVLISNLTFLNSPFWT  204
+
+
+>TR:A0A2U1QAK8_ARTAN A0A2U1QAK8 Glycoside hydrolase, family 28 OS=Artemisia annua 
+OX=35608 GN=CTI12_AA053690 PE=4 SV=1
+Length=450
+
+ Score = 134 bits (337),  Expect = 8e-35
+ Identities = 57/87 (66%), Positives = 71/87 (82%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WPLI PLPSYGRGRE PGGRYMS IHG  + DV ITGE GTIDGQG VWW+MW++RTL 
+Sbjct  119  NWPLIAPLPSYGRGRERPGGRYMSFIHGENVHDVIITGEKGTIDGQGGVWWNMWRQRTLQ  178
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            FTRP+L+E   S ++++SNV+F++  F
+Sbjct  179  FTRPNLIEFKDSRNIIISNVIFKNSPF  205
+
+
+>TR:A0A1D5ZB77_WHEAT A0A1D5ZB77 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=412
+
+ Score = 133 bits (335),  Expect = 9e-35
+ Identities = 59/86 (69%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLI G  L DV ITG NGTIDGQG++WWD +   TL +
+Sbjct  117  WPVIDPLPSYGRGRELPGGRHQSLIFGSHLTDVIITGANGTIDGQGAIWWDWFHNNTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST+VV+SN+ F++  F
+Sbjct  177  TRPHLVELMYSTNVVISNLTFKNSPF  202
+
+
+>TR:A0A1D5WZ44_WHEAT A0A1D5WZ44 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=421
+
+ Score = 133 bits (335),  Expect = 1e-34
+ Identities = 59/86 (69%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLI G  L DV ITG NGTIDGQG++WWD +   TL +
+Sbjct  90   WPVIDPLPSYGRGRELPGGRHQSLIFGSHLTDVIITGANGTIDGQGAIWWDWFHNNTLNY  149
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST+VV+SN+ F++  F
+Sbjct  150  TRPHLVELMYSTNVVISNLTFKNSPF  175
+
+
+>TR:A0A1U8L662_GOSHI A0A1U8L662 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107922920 PE=3 SV=1
+Length=468
+
+ Score = 134 bits (337),  Expect = 1e-34
+ Identities = 59/88 (67%), Positives = 74/88 (84%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ ++++TL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFRRKTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVVISNLTFLNSPFWT  204
+
+
+>TR:A0A1U8L9R2_GOSHI A0A1U8L9R2 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107924269 PE=3 SV=1
+Length=446
+
+ Score = 134 bits (336),  Expect = 1e-34
+ Identities = 56/86 (65%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL+ PLPSYGRGRE PGGRYMS IHG GL+DV I+GENGTIDGQG +WW+MW++  L F
+Sbjct  116  WPLVAPLPSYGRGRERPGGRYMSFIHGDGLRDVVISGENGTIDGQGGIWWNMWRQGNLQF  175
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRP+L+E M S  +++SNV+F++  F
+Sbjct  176  TRPNLVEFMNSRGIIISNVIFKNSPF  201
+
+
+>TR:A0A0C9S615_9SPER A0A0C9S615 TSA: Wollemia nobilis Ref_Wollemi_Transcript_12193_2100 
+transcribed RNA sequence OS=Wollemia nobilis OX=56998 
+PE=3 SV=1
+Length=449
+
+ Score = 134 bits (336),  Expect = 1e-34
+ Identities = 59/87 (68%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WP+IDPLPSYGRGRE PGGRY+S IHG GLQDV ITGENGTIDGQG VWW+MW+  +L 
+Sbjct  116  AWPVIDPLPSYGRGRERPGGRYISFIHGDGLQDVSITGENGTIDGQGEVWWNMWRDGSLK  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TR +L+E+M S DV++SNVV  +  F
+Sbjct  176  YTRGNLVEIMNSKDVIISNVVLLNSPF  202
+
+
+>TR:A0A1S3TF70_VIGRR A0A1S3TF70 probable polygalacturonase isoform X2 OS=Vigna radiata 
+var. radiata OX=3916 GN=LOC106754863 PE=3 SV=1
+Length=430
+
+ Score = 133 bits (335),  Expect = 1e-34
+ Identities = 58/88 (66%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL++PLPSYGRGRELPGGR+ SLI+G  L DV ITG NGT+DGQGS+WWD ++ +TL +
+Sbjct  85   WPLVEPLPSYGRGRELPGGRHKSLIYGRNLTDVVITGNNGTVDGQGSIWWDKFRNKTLDY  144
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SNV F +  F T
+Sbjct  145  TRPHLVELMNSTGVLISNVTFLNSPFWT  172
+
+
+>TR:A0A0K9NIK4_ZOSMR A0A0K9NIK4 Exo-polygalacturonase, family GH28 OS=Zostera marina 
+OX=29655 GN=ZOSMA_95G00480 PE=3 SV=1
+Length=440
+
+ Score = 133 bits (335),  Expect = 1e-34
+ Identities = 55/87 (63%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +W L+DPLPSYGRGRE PGGRYMS I+   + DV ITGENGTIDGQG VWWD+W+ +TL 
+Sbjct  116  NWALVDPLPSYGRGRERPGGRYMSFINADRIHDVIITGENGTIDGQGGVWWDLWRNQTLV  175
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            + RP+L+ELM+S D+++SNV+F++  F
+Sbjct  176  YNRPNLIELMHSKDIIISNVIFKNSPF  202
+
+
+>TR:A0A1D5WZ43_WHEAT A0A1D5WZ43 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=449
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/86 (69%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLI G  L DV ITG NGTIDGQG++WWD +   TL +
+Sbjct  118  WPVIDPLPSYGRGRELPGGRHQSLIFGSHLTDVIITGANGTIDGQGAIWWDWFHNNTLNY  177
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST+VV+SN+ F++  F
+Sbjct  178  TRPHLVELMYSTNVVISNLTFKNSPF  203
+
+
+>TR:A0A1D5ZB74_WHEAT A0A1D5ZB74 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=449
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/86 (69%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP+IDPLPSYGRGRELPGGR+ SLI G  L DV ITG NGTIDGQG++WWD +   TL +
+Sbjct  90   WPVIDPLPSYGRGRELPGGRHQSLIFGSHLTDVIITGANGTIDGQGAIWWDWFHNNTLNY  149
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRF  88
+            TRPHL+ELMYST+VV+SN+ F++  F
+Sbjct  150  TRPHLVELMYSTNVVISNLTFKNSPF  175
+
+
+>TR:A0A1J7IKZ8_LUPAN A0A1J7IKZ8 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_05333 PE=3 SV=1
+Length=416
+
+ Score = 132 bits (333),  Expect = 2e-34
+ Identities = 58/88 (66%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+MSLI G  L DV ITG NGTIDGQGS+WW+ ++ +TL +
+Sbjct  102  WPVVDPLPSYGRGRELPGGRHMSLIFGRNLTDVIITGNNGTIDGQGSIWWNKFRNKTLDY  161
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SN+ F +  F T
+Sbjct  162  TRPHLVELMNSTGVLISNLTFLNSPFWT  189
+
+
+>TR:A0A1S3TF66_VIGRR A0A1S3TF66 probable polygalacturonase isoform X1 OS=Vigna radiata 
+var. radiata OX=3916 GN=LOC106754863 PE=3 SV=1
+Length=462
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 58/88 (66%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WPL++PLPSYGRGRELPGGR+ SLI+G  L DV ITG NGT+DGQGS+WWD ++ +TL +
+Sbjct  117  WPLVEPLPSYGRGRELPGGRHKSLIYGRNLTDVVITGNNGTVDGQGSIWWDKFRNKTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST V++SNV F +  F T
+Sbjct  177  TRPHLVELMNSTGVLISNVTFLNSPFWT  204
+
+
+>TR:A0A0D2MYG8_GOSRA A0A0D2MYG8 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G147300 PE=3 SV=1
+Length=466
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRG ELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ +K++TL +
+Sbjct  117  WPVVDPLPSYGRGVELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFKRKTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVVISNLTFSNSPFWT  204
+
+
+>TR:A0A0D2PU97_GOSRA A0A0D2PU97 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_008G134500 PE=3 SV=1
+Length=468
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ ++ +TL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFRSKTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVVISNLTFLNSPFWT  204
+
+
+>TR:A0A1U8NCT2_GOSHI A0A1U8NCT2 probable polygalacturonase OS=Gossypium hirsutum OX=3635 
+GN=LOC107945985 PE=3 SV=1
+Length=468
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ ++ +TL +
+Sbjct  117  WPVVDPLPSYGRGRELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFRSKTLNY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVVISNLTFLNSPFWT  204
+
+
+>TR:A0A097PQY9_GINBI A0A097PQY9 Pectin lyase-like superfamily protein (Fragment) OS=Ginkgo 
+biloba OX=3311 PE=2 SV=1
+Length=401
+
+ Score = 132 bits (332),  Expect = 2e-34
+ Identities = 57/87 (66%), Positives = 72/87 (83%), Gaps = 0/87 (0%)
+
+Query  2    SWPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLP  61
+            +WP+IDPLPSYGRGRE PGGRY+S IHG GL+DV ITGENGTIDGQG VWW+MW+  +L 
+Sbjct  88   AWPVIDPLPSYGRGRERPGGRYISFIHGDGLEDVIITGENGTIDGQGQVWWNMWRDGSLK  147
+
+Query  62   FTRPHLLELMYSTDVVVSNVVFQDCRF  88
+            +TR +L+E+M S DV++SN+V  +  F
+Sbjct  148  YTRGNLVEIMNSKDVLISNIVLLNSPF  174
+
+
+>TR:A0A0D2R503_GOSRA A0A0D2R503 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G147300 PE=3 SV=1
+Length=469
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRG ELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ +K++TL +
+Sbjct  120  WPVVDPLPSYGRGVELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFKRKTLDY  179
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  180  TRPHLVELMNSTGVVISNLTFSNSPFWT  207
+
+
+>TR:A0A0D2T5I8_GOSRA A0A0D2T5I8 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_008G134500 PE=3 SV=1
+Length=472
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRGRELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ ++ +TL +
+Sbjct  121  WPVVDPLPSYGRGRELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFRSKTLNY  180
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  181  TRPHLVELMNSTGVVISNLTFLNSPFWT  208
+
+
+>TR:A0A0D2PC55_GOSRA A0A0D2PC55 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G147300 PE=3 SV=1
+Length=472
+
+ Score = 133 bits (335),  Expect = 2e-34
+ Identities = 59/88 (67%), Positives = 73/88 (83%), Gaps = 0/88 (0%)
+
+Query  3    WPLIDPLPSYGRGRELPGGRYMSLIHGHGLQDVFITGENGTIDGQGSVWWDMWKKRTLPF  62
+            WP++DPLPSYGRG ELPGGR+ SLI+G  L DV ITG+NGTIDGQGSVWW+ +K++TL +
+Sbjct  117  WPVVDPLPSYGRGVELPGGRHRSLIYGRNLTDVIITGDNGTIDGQGSVWWNWFKRKTLDY  176
+
+Query  63   TRPHLLELMYSTDVVVSNVVFQDCRFGT  90
+            TRPHL+ELM ST VV+SN+ F +  F T
+Sbjct  177  TRPHLVELMNSTGVVISNLTFSNSPFWT  204
+
+
+
+Lambda      K        H
+   0.322    0.138    0.442 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 137330416800
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

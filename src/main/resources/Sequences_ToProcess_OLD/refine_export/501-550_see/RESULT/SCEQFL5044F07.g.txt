@@ -1,0 +1,258 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0D9YPE0_9ORYZ  A0A0D9YPE0 Uncharacterized protein OS=Oryza ...  72.8    8e-16
+TR:A0A1J3CE81_NOCCA  A0A1J3CE81 Uncharacterized protein (Fragment...  47.0    6e-06
+TR:A0A2J7ZH24_9CHLO  A0A2J7ZH24 Uncharacterized protein (Fragment...  33.9    1.5  
+TR:I0YXP1_COCSC  I0YXP1 Uncharacterized protein OS=Coccomyxa sube...  33.5    2.2  
+TR:E1ZQ19_CHLVA  E1ZQ19 Uncharacterized protein OS=Chlorella vari...  33.5    2.2  
+TR:A0A0A9EWT7_ARUDO  A0A0A9EWT7 Uncharacterized protein OS=Arundo...  33.1    2.3  
+TR:A0A1D5V7Y5_WHEAT  A0A1D5V7Y5 Uncharacterized protein OS=Tritic...  33.1    2.8  
+TR:A0A1D5V7Y4_WHEAT  A0A1D5V7Y4 Uncharacterized protein OS=Tritic...  33.1    2.9  
+TR:A0A067DH66_CITSI  A0A067DH66 Uncharacterized protein (Fragment...  33.1    3.0  
+TR:A0A150G675_GONPE  A0A150G675 Uncharacterized protein OS=Gonium...  32.7    4.1  
+TR:A0A1D5WFM6_WHEAT  A0A1D5WFM6 Uncharacterized protein OS=Tritic...  32.0    7.3  
+TR:N1R080_AEGTA  N1R080 Gibberellin 20 oxidase 2 OS=Aegilops taus...  32.0    7.3  
+TR:I1Q814_ORYGL  I1Q814 Uncharacterized protein OS=Oryza glaberri...  30.0    9.4  
+
+
+>TR:A0A0D9YPE0_9ORYZ A0A0D9YPE0 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=115
+
+ Score = 72.8 bits (177),  Expect = 8e-16
+ Identities = 40/58 (69%), Positives = 42/58 (72%), Gaps = 7/58 (12%)
+
+Query  5    RLVHVLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYV  62
+            + VHV+ VAR TPARSPP YSSSTTSR P GFSHD GTW      SPQLD H SS YV
+Sbjct  63   QFVHVVLVARLTPARSPP-YSSSTTSRLPPGFSHDLGTW------SPQLDRHLSSWYV  113
+
+
+>TR:A0A1J3CE81_NOCCA A0A1J3CE81 Uncharacterized protein (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR391_c2_g1_i1_g.1115 PE=4 SV=1
+Length=97
+
+ Score = 47.0 bits (110),  Expect = 6e-06
+ Identities = 23/38 (61%), Positives = 27/38 (71%), Gaps = 1/38 (3%)
+
+Query  7   VHVLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWY  44
+           V  L + R  P  SPP +SSSTT RFP GF+H+RGTWY
+Sbjct  57  VLALLLTREIPLGSPP-HSSSTTIRFPDGFTHERGTWY  93
+
+
+>TR:A0A2J7ZH24_9CHLO A0A2J7ZH24 Uncharacterized protein (Fragment) OS=Tetrabaena socialis 
+OX=47790 GN=TSOC_014647 PE=4 SV=1
+Length=382
+
+ Score = 33.9 bits (76),  Expect = 1.5
+ Identities = 38/103 (37%), Positives = 46/103 (45%), Gaps = 14/103 (14%)
+
+Query  3    VARLVHV-LRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVR----SPQLDMHW  57
+            VA LV   LR A A  A +PPP S        +G+   R +   L  R    SPQL    
+Sbjct  120  VAALVEATLRSAAAAVAAAPPPSSRPAD----VGWGDSRTSVAQLVFRMGTVSPQLSPDH  175
+
+Query  58   SSRYVX---GVAAPPAAAGEALYDQNRPAWCPFT--HIWPLPM  95
+            S+R V    G+AAPP AA  A       A C  T  H+  LP+
+Sbjct  176  SARMVALVAGLAAPPPAAAVAAPPPLANADCLLTGSHLLRLPL  218
+
+
+>TR:I0YXP1_COCSC I0YXP1 Uncharacterized protein OS=Coccomyxa subellipsoidea (strain 
+C-169) OX=574566 GN=COCSUDRAFT_63523 PE=4 SV=1
+Length=715
+
+ Score = 33.5 bits (75),  Expect = 2.2
+ Identities = 17/45 (38%), Positives = 24/45 (53%), Gaps = 2/45 (4%)
+
+Query  55   MHWSSRYVXGVAAPPAAAGEALYDQNRPAWCPFTHIWPLPMLPMS  99
+            +HWS+  +   A PP+AAG A   Q RP    F  + P   LP++
+Sbjct  350  LHWSTAALAAAAQPPSAAGAA--QQARPPTSSFVFLQPPKSLPVN  392
+
+
+>TR:E1ZQ19_CHLVA E1ZQ19 Uncharacterized protein OS=Chlorella variabilis OX=554065 
+GN=CHLNCDRAFT_54673 PE=4 SV=1
+Length=1040
+
+ Score = 33.5 bits (75),  Expect = 2.2
+ Identities = 29/80 (36%), Positives = 36/80 (45%), Gaps = 5/80 (6%)
+
+Query  9    VLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAA-  67
+            +L  A   PA +    SS+TTSR     S D G W       PQ   H   R +   AA 
+Sbjct  592  LLLAASCPPAHAFACSSSATTSRNSASGSTDAGQWGGPAQPQPQ---HVLQRRIVNAAAL  648
+
+Query  68   -PPAAAGEALYDQNRPAWCP  86
+             PP+AA EA  D+ + A  P
+Sbjct  649  PPPSAAREATGDEGQVALPP  668
+
+
+>TR:A0A0A9EWT7_ARUDO A0A0A9EWT7 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=176
+
+ Score = 33.1 bits (74),  Expect = 2.3
+ Identities = 33/98 (34%), Positives = 40/98 (41%), Gaps = 21/98 (21%)
+
+Query  15   ATPARSPPPYSSSTTSRF-------PLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAA  67
+            +T A SPP  +SS T R        P   +  R T      RSP++ +          A+
+Sbjct  42   STLASSPPSPTSSATPRSLTMYRTGPPNANSRRST------RSPKMSITREPAAPLDTAS  95
+
+Query  68   PPAAAGEALYDQNRPAWCPFTHIW-------PLPMLPM  98
+             PAAA  A  D  RP   P T IW       PLP  PM
+Sbjct  96   SPAAAANAT-DSPRPTTAPATAIWLAILLLCPLPGGPM  132
+
+
+>TR:A0A1D5V7Y5_WHEAT A0A1D5V7Y5 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=380
+
+ Score = 33.1 bits (74),  Expect = 2.8
+ Identities = 22/84 (26%), Positives = 35/84 (42%), Gaps = 4/84 (5%)
+
+Query  9   VLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAAP  68
+           VL+ A+  P+ + PP+ S+ ++R P        T   L   +P +D   +   V      
+Sbjct  21  VLQTAQQEPSLTRPPHCSAASARSPAAMDTSPATPLLLQPPAPSIDPFAAKAAVN----K  76
+
+Query  69  PAAAGEALYDQNRPAWCPFTHIWP  92
+              A  A+YD  R    P   +WP
+Sbjct  77  NGGAATAVYDLRREPKIPAPFVWP  100
+
+
+>TR:A0A1D5V7Y4_WHEAT A0A1D5V7Y4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=442
+
+ Score = 33.1 bits (74),  Expect = 2.9
+ Identities = 22/84 (26%), Positives = 35/84 (42%), Gaps = 4/84 (5%)
+
+Query  9   VLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAAP  68
+           VL+ A+  P+ + PP+ S+ ++R P        T   L   +P +D   +   V      
+Sbjct  21  VLQTAQQEPSLTRPPHCSAASARSPAAMDTSPATPLLLQPPAPSIDPFAAKAAVN----K  76
+
+Query  69  PAAAGEALYDQNRPAWCPFTHIWP  92
+              A  A+YD  R    P   +WP
+Sbjct  77  NGGAATAVYDLRREPKIPAPFVWP  100
+
+
+>TR:A0A067DH66_CITSI A0A067DH66 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g037723mg PE=4 SV=1
+Length=714
+
+ Score = 33.1 bits (74),  Expect = 3.0
+ Identities = 12/28 (43%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  29   TSRFPLGFSHDRGTWYHLWVRSPQLDMH  56
+            T +FPLG   +   + HLWV++P +D H
+Sbjct  259  TYKFPLGRKWNAAKFLHLWVQNPNIDFH  286
+
+
+>TR:A0A150G675_GONPE A0A150G675 Uncharacterized protein OS=Gonium pectorale OX=33097 
+GN=GPECTOR_61g783 PE=3 SV=1
+Length=864
+
+ Score = 32.7 bits (73),  Expect = 4.1
+ Identities = 33/110 (30%), Positives = 40/110 (36%), Gaps = 22/110 (20%)
+
+Query  3    VARLVHVLRVARATPARSPPPYSSSTTSRFPLGFSHDR------GTWYHLWVRSPQLDMH  56
+            VA   HV  V    P   PPP  ++ T   P+G+   R      G  +  W+RSP     
+Sbjct  743  VAPSYHV--VQPLPPLPPPPPVPAAATLGHPVGYGTQRPRYGGYGGGFWGWLRSP--GSS  798
+
+Query  57   WSSRYVXGVAA------------PPAAAGEALYDQNRPAWCPFTHIWPLP  94
+             S  Y   VA             PPA       DQ  P   P T + PLP
+Sbjct  799  GSGMYGVPVAGGGRHRNDRPQHPPPAVLSPPYSDQRFPLQLPGTSLPPLP  848
+
+
+>TR:A0A1D5WFM6_WHEAT A0A1D5WFM6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=436
+
+ Score = 32.0 bits (71),  Expect = 7.3
+ Identities = 22/84 (26%), Positives = 34/84 (40%), Gaps = 4/84 (5%)
+
+Query  9   VLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAAP  68
+           VL+ A+  P+ + PP+ S  ++R P        T   L   +P +D   +   V      
+Sbjct  21  VLQTAQQEPSLTRPPHCSVASARSPAAMDTSPATPLLLQPPAPSIDPFAAKAAVN----K  76
+
+Query  69  PAAAGEALYDQNRPAWCPFTHIWP  92
+              A  A+YD  R    P   +WP
+Sbjct  77  GGGAATAVYDLRREPKIPAPFVWP  100
+
+
+>TR:N1R080_AEGTA N1R080 Gibberellin 20 oxidase 2 OS=Aegilops tauschii OX=37682 
+GN=F775_19283 PE=3 SV=1
+Length=436
+
+ Score = 32.0 bits (71),  Expect = 7.3
+ Identities = 22/84 (26%), Positives = 34/84 (40%), Gaps = 4/84 (5%)
+
+Query  9   VLRVARATPARSPPPYSSSTTSRFPLGFSHDRGTWYHLWVRSPQLDMHWSSRYVXGVAAP  68
+           VL+ A+  P+ + PP+ S  ++R P        T   L   +P +D   +   V      
+Sbjct  21  VLQTAQQEPSLTRPPHCSVASARSPAAMDTSPATPLLLQPPAPSIDPFAAKAAVN----K  76
+
+Query  69  PAAAGEALYDQNRPAWCPFTHIWP  92
+              A  A+YD  R    P   +WP
+Sbjct  77  GGGAATAVYDLRREPKIPAPFVWP  100
+
+
+>TR:I1Q814_ORYGL I1Q814 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=60
+
+ Score = 30.0 bits (66),  Expect = 9.4
+ Identities = 22/64 (34%), Positives = 32/64 (50%), Gaps = 12/64 (19%)
+
+Query  1   MCVARLVHVLRVARATPARSPPPY-SSSTTSRFPLGFSHDRGTWYHLWVRSPQL--DMHW  57
+           M +  L+  LR+  A   R+ PP+ SSST S+  L  + +         RSPQL  D++W
+Sbjct  1   MAMRALLPKLRIPAAASRRTLPPFRSSSTASQDKLAAAKE---------RSPQLYDDLYW  51
+
+Query  58  SSRY  61
+              Y
+Sbjct  52  KKAY  55
+
+
+
+Lambda      K        H
+   0.324    0.134    0.480 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56031477930
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

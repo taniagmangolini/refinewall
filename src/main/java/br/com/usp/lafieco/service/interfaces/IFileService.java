@@ -8,10 +8,11 @@ import java.util.Map;
 import org.springframework.web.multipart.MultipartFile;
 
 import br.com.usp.lafieco.model.BlastResult;
+import br.com.usp.lafieco.model.Sucest;
 
 public interface IFileService {
 
-	Map<String, String> processMultipleSequenceFile(MultipartFile file);
+	Map<String, Sucest> processMultipleSequenceFile(MultipartFile file);
 
 	List<String> processCSVFile(InputStream inputFS);
 
@@ -35,4 +36,7 @@ public interface IFileService {
 	List<String> readFile(String fileName, String folder) ;
 	
 	Map<String, BlastResult>  processBlastResultFile(String gene,String folderName);
+	
+	Map<String, BlastResult> processSucestBlastResultFiles( Map<String, String> jobResult, List<String> jobIds,
+			Map<String, Map<String, String>> sequencesJobs, String folderName, Map<String, Sucest> sequences) ;
 }

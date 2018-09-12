@@ -1,0 +1,92 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0E0H8J1_ORYNI  A0A0E0H8J1 Uncharacterized protein OS=Oryza ...  41.2    7e-04
+TR:A0A0D9ZTC7_9ORYZ  A0A0D9ZTC7 Uncharacterized protein OS=Oryza ...  41.2    7e-04
+TR:A0A0E0PGL0_ORYRU  A0A0E0PGL0 Uncharacterized protein OS=Oryza ...  41.2    0.001
+
+
+>TR:A0A0E0H8J1_ORYNI A0A0E0H8J1 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=74
+
+ Score = 41.2 bits (95),  Expect = 7e-04
+ Identities = 21/25 (84%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  34  QGYSQSISCTSLRSKNQSPTASAAV  58
+           +GYSQSIS TSL SKNQSPTASA V
+Sbjct  15  KGYSQSISFTSLLSKNQSPTASAMV  39
+
+
+>TR:A0A0D9ZTC7_9ORYZ A0A0D9ZTC7 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=74
+
+ Score = 41.2 bits (95),  Expect = 7e-04
+ Identities = 21/25 (84%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  34  QGYSQSISCTSLRSKNQSPTASAAV  58
+           +GYSQSIS TSL SKNQSPTASA V
+Sbjct  15  KGYSQSISFTSLLSKNQSPTASAMV  39
+
+
+>TR:A0A0E0PGL0_ORYRU A0A0E0PGL0 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=110
+
+ Score = 41.2 bits (95),  Expect = 0.001
+ Identities = 21/25 (84%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+
+Query  34  QGYSQSISCTSLRSKNQSPTASAAV  58
+           +GYSQSIS TSL SKNQSPTASA V
+Sbjct  15  KGYSQSISFTSLLSKNQSPTASAMV  39
+
+
+
+Lambda      K        H
+   0.317    0.128    0.369 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56816729760
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,419 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:T1M318_TRIUA  T1M318 Uncharacterized protein OS=Triticum urart...  41.6    0.015
+TR:A0A1D5USF9_WHEAT  A0A1D5USF9 Uncharacterized protein OS=Tritic...  36.6    0.12 
+TR:A0A2P6TYC7_CHLSO  A0A2P6TYC7 Uncharacterized protein OS=Chlore...  38.9    0.16 
+TR:T1LCV8_TRIUA  T1LCV8 Uncharacterized protein OS=Triticum urart...  38.1    0.23 
+TR:A0A1D5U2F2_WHEAT  A0A1D5U2F2 Uncharacterized protein OS=Tritic...  35.4    0.32 
+TR:A0A2R6XPA2_MARPO  A0A2R6XPA2 Uncharacterized protein OS=Marcha...  36.2    0.53 
+TR:A0A176VLI0_MARPO  A0A176VLI0 Uncharacterized protein OS=Marcha...  37.4    0.61 
+TR:A0A176WD12_MARPO  A0A176WD12 Uncharacterized protein OS=Marcha...  36.2    0.75 
+TR:A0A2R6XNK0_MARPO  A0A2R6XNK0 Uncharacterized protein OS=Marcha...  37.0    0.81 
+TR:A0A2R6XNM3_MARPO  A0A2R6XNM3 Uncharacterized protein OS=Marcha...  37.0    0.84 
+TR:Q6L4I5_ORYSJ  Q6L4I5 Uncharacterized protein OS=Oryza sativa s...  32.3    4.0  
+TR:A0A1D6RI31_WHEAT  A0A1D6RI31 Uncharacterized protein OS=Tritic...  32.3    4.1  
+TR:A0A2K3DWI1_CHLRE  A0A2K3DWI1 Uncharacterized protein OS=Chlamy...  35.0    4.3  
+TR:A0A0A9DDQ4_ARUDO  A0A0A9DDQ4 Uncharacterized protein OS=Arundo...  33.5    4.9  
+TR:A0A2J8AGW9_9CHLO  A0A2J8AGW9 TBC1 domain family member 19 (Fra...  34.7    5.3  
+TR:A0A2K3E856_CHLRE  A0A2K3E856 Uncharacterized protein OS=Chlamy...  34.7    5.6  
+TR:B9R8B2_RICCO  B9R8B2 Uncharacterized protein OS=Ricinus commun...  34.3    7.1  
+TR:A0A2K3DV73_CHLRE  A0A2K3DV73 Uncharacterized protein OS=Chlamy...  34.3    7.3  
+TR:A0A2K3CZ00_CHLRE  A0A2K3CZ00 Uncharacterized protein OS=Chlamy...  34.3    7.4  
+TR:A0A2P6TIP4_CHLSO  A0A2P6TIP4 PR domain zinc finger 8 OS=Chlore...  33.9    8.4  
+TR:A0A2P6U485_CHLSO  A0A2P6U485 Deleted in malignant brain tumors...  33.9    9.1  
+TR:A0A0E0N4R5_ORYRU  A0A0E0N4R5 Uncharacterized protein OS=Oryza ...  33.5    9.6  
+
+
+>TR:T1M318_TRIUA T1M318 Uncharacterized protein OS=Triticum urartu OX=4572 PE=4 
+SV=1
+Length=210
+
+ Score = 41.6 bits (96),  Expect = 0.015
+ Identities = 31/88 (35%), Positives = 40/88 (45%), Gaps = 10/88 (11%)
+
+Query  39   AGVGAVAEHVEARPRNPAVGVGARAGVVVLGV-----KSVSSAKSPDQGIQPAGSTSAPT  93
+            AGV    EHV  RP +P   V   AGVVVLGV     + V++ + P + +   G      
+Sbjct  4    AGVDGAVEHVVPRPVHPPARVRPSAGVVVLGVVERGEREVAAPRHPARRVDEPGHVR--L  61
+
+Query  94   YDFMTTVREKFFXRPAEVAERGESGVGG  121
+            +D    V      RP +V   GE  VGG
+Sbjct  62   HDHRARVH---LPRPPQVGGGGEGRVGG  86
+
+
+>TR:A0A1D5USF9_WHEAT A0A1D5USF9 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=62
+
+ Score = 36.6 bits (83),  Expect = 0.12
+ Identities = 18/31 (58%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  35  TVKXAGVGAVAEHVEARPRNPAVGVGARAGV  65
+           T K A   AV EHVE RPR P V  G+ AGV
+Sbjct  31  TTKSAPAPAVQEHVEIRPRGPGVSGGSEAGV  61
+
+
+>TR:A0A2P6TYC7_CHLSO A0A2P6TYC7 Uncharacterized protein OS=Chlorella sorokiniana OX=3076 
+GN=C2E21_2130 PE=4 SV=1
+Length=297
+
+ Score = 38.9 bits (89),  Expect = 0.16
+ Identities = 37/116 (32%), Positives = 46/116 (40%), Gaps = 9/116 (8%)
+
+Query  26   QFSPSTMLVTVKXAGVGAVAEHVEARPRNPAVGVGA-----RAGVVVLGVKSVSSAKSPD  80
+            +F+ S    +V  A VG  + H  AR R P  GVG+     R  VV            P 
+Sbjct  166  RFTRSRAGGSVGNAEVGRSSFHTWAR-RLPLPGVGSGRRGLRTQVVARASGGPQGEGGPS  224
+
+Query  81   QGIQPAGSTSAPTYDFMTTVREKFFXRPAEVAERGESGVGGNFGACTKEEGRIEGP  136
+            QG Q  G+TS    D  T   E+     AE  E G    GG+       E  +EGP
+Sbjct  225  QGDQGKGATSEADRDQATRPSER---SAAEQPESGAGAAGGSSAGAAATESDVEGP  277
+
+
+>TR:T1LCV8_TRIUA T1LCV8 Uncharacterized protein OS=Triticum urartu OX=4572 PE=4 
+SV=1
+Length=219
+
+ Score = 38.1 bits (87),  Expect = 0.23
+ Identities = 41/140 (29%), Positives = 55/140 (39%), Gaps = 10/140 (7%)
+
+Query  39   AGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPTYDFMT  98
+            AGVG   +H  ARPR+P   VGAR  V VLGV      +       PA    A       
+Sbjct  14   AGVGVAGDHPVARPRHPRRRVGARPPVHVLGVVERVEREGAVPLEPPARVHQALHLGLHE  73
+
+Query  99   TVREKFFXRPAEVA-----ERGESGVGGNFGACTKEEGRIEGPVFWLGSVGAFPLTLFTC  153
+                    RPAEV         E G GG+  A   + G + G +  L         +   
+Sbjct  74   HGPGVGLPRPAEVGGEVRQHGDEVGGGGDLAALHGDAGVLVGVLAALRRE-----DVLLA  128
+
+Query  154  PATVTGIKSATLGNQGGVSK  173
+             A    +++A L + GGV++
+Sbjct  129  GARAARVEAAVLEHDGGVAE  148
+
+
+>TR:A0A1D5U2F2_WHEAT A0A1D5U2F2 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=62
+
+ Score = 35.4 bits (80),  Expect = 0.32
+ Identities = 18/29 (62%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  37  KXAGVGAVAEHVEARPRNPAVGVGARAGV  65
+           K A V AV EHVE RPR P V  G+ AGV
+Sbjct  33  KSAPVPAVQEHVEIRPRGPNVSGGSEAGV  61
+
+
+>TR:A0A2R6XPA2_MARPO A0A2R6XPA2 Uncharacterized protein OS=Marchantia polymorpha OX=3197 
+GN=MARPO_0007s0289 PE=4 SV=1
+Length=127
+
+ Score = 36.2 bits (82),  Expect = 0.53
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  48  VEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPT  93
+           ++ RP +  +GVGA    ++L  K VSS++ P   IQ AG T+A T
+Sbjct  24  LDGRPISGDIGVGATRAAIMLAQKVVSSSERPPGFIQLAGGTNAHT  69
+
+
+>TR:A0A176VLI0_MARPO A0A176VLI0 Uncharacterized protein OS=Marchantia polymorpha subsp. 
+ruderalis OX=1480154 GN=AXG93_4012s1010 PE=4 SV=1
+Length=490
+
+ Score = 37.4 bits (85),  Expect = 0.61
+ Identities = 20/46 (43%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  48   VEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPT  93
+            ++ RP +  +GVGA    V+L  K VSS++ P   IQ AG T+A T
+Sbjct  374  LDGRPMSGDIGVGATRAAVMLAQKVVSSSERPPGFIQLAGGTNAHT  419
+
+
+>TR:A0A176WD12_MARPO A0A176WD12 Uncharacterized protein OS=Marchantia polymorpha subsp. 
+ruderalis OX=1480154 GN=AXG93_246s1160 PE=4 SV=1
+Length=160
+
+ Score = 36.2 bits (82),  Expect = 0.75
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  48  VEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPT  93
+           ++ RP +  +GVGA    ++L  K VSS++ P   IQ AG T+A T
+Sbjct  24  LDGRPISGDIGVGATRAAIMLAQKVVSSSERPPGFIQLAGGTNAHT  69
+
+
+>TR:A0A2R6XNK0_MARPO A0A2R6XNK0 Uncharacterized protein OS=Marchantia polymorpha OX=3197 
+GN=MARPO_0007s0102 PE=4 SV=1
+Length=469
+
+ Score = 37.0 bits (84),  Expect = 0.81
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  48   VEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPT  93
+            ++ RP +  +GVGA    ++L  K VSS++ P   IQ AG T+A T
+Sbjct  373  LDGRPMSGDIGVGATRAAIMLAQKVVSSSERPPGFIQLAGGTNAHT  418
+
+
+>TR:A0A2R6XNM3_MARPO A0A2R6XNM3 Uncharacterized protein OS=Marchantia polymorpha OX=3197 
+GN=MARPO_0007s0102 PE=4 SV=1
+Length=531
+
+ Score = 37.0 bits (84),  Expect = 0.84
+ Identities = 19/46 (41%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  48   VEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPT  93
+            ++ RP +  +GVGA    ++L  K VSS++ P   IQ AG T+A T
+Sbjct  373  LDGRPMSGDIGVGATRAAIMLAQKVVSSSERPPGFIQLAGGTNAHT  418
+
+
+>TR:Q6L4I5_ORYSJ Q6L4I5 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OSJNBa0074P11.8 PE=4 SV=1
+Length=61
+
+ Score = 32.3 bits (72),  Expect = 4.0
+ Identities = 20/60 (33%), Positives = 28/60 (47%), Gaps = 4/60 (7%)
+
+Query  50   ARPRNPAVGVGARAGVVVLGVKSVSSAKS----PDQGIQPAGSTSAPTYDFMTTVREKFF  105
+            ARP    VG   R GVV    K+  + +S    PD G +  G   +PTY+    V  ++F
+Sbjct  2    ARPGRAVVGPPPRHGVVARHSKAAPAQRSLPLSPDAGNRKTGYNPSPTYEHRVNVVPRWF  61
+
+
+>TR:A0A1D6RI31_WHEAT A0A1D6RI31 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=62
+
+ Score = 32.3 bits (72),  Expect = 4.1
+ Identities = 16/29 (55%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  37  KXAGVGAVAEHVEARPRNPAVGVGARAGV  65
+           K A    V EHVE RPR P V  G+ AGV
+Sbjct  33  KSAPAPTVQEHVEIRPRGPNVSGGSEAGV  61
+
+
+>TR:A0A2K3DWI1_CHLRE A0A2K3DWI1 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_03g162701v5 PE=4 SV=1
+Length=3832
+
+ Score = 35.0 bits (79),  Expect = 4.3
+ Identities = 37/130 (28%), Positives = 52/130 (40%), Gaps = 13/130 (10%)
+
+Query  13   IKPLVKGTPVCGSQFSPSTMLVTVKXAGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKS  72
+            + P   G     +  + +T   T   AG+ A A    A   + A GVGA AGVV LG  +
+Sbjct  462  VPPGSGGRAEAATALASATAAATAAAAGLAAAAASSNA---DTADGVGAAAGVVGLGEVT  518
+
+Query  73   VSSAKSPDQ------GIQPAGSTSAPTYDFMTTVREKFFXRPAEVAERGESGVG-GNFGA  125
+            V +A++          +  A S  A  YDF    R       A     G +G G G  G+
+Sbjct  519  VEAAENDPSATTGAAAVAGALSRRAAAYDFH---RRALASAGAGTGAGGAAGTGTGAGGS  575
+
+Query  126  CTKEEGRIEG  135
+               + G  +G
+Sbjct  576  ADADAGACDG  585
+
+
+>TR:A0A0A9DDQ4_ARUDO A0A0A9DDQ4 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=131
+
+ Score = 33.5 bits (75),  Expect = 4.9
+ Identities = 27/92 (29%), Positives = 41/92 (45%), Gaps = 7/92 (8%)
+
+Query  41   VGAVAEHVEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAG-STSAPTYDFMTT  99
+            +GA        PR+ A    +R+G V+L ++S S  K P    +P G +T+A +   +++
+Sbjct  9    MGAAWAKTRRNPRSAATRKPSRSGNVLLALRSESREKKPTTETRPPGAATAAKSAGEVSS  68
+
+Query  100  VREKFFXRPAEVAERGESGVGGNFGACTKEEG  131
+              E     PA  A      VGG  G     EG
+Sbjct  69   GNEPLPAVPAAAA------VGGGMGRVRGSEG  94
+
+
+>TR:A0A2J8AGW9_9CHLO A0A2J8AGW9 TBC1 domain family member 19 (Fragment) OS=Tetrabaena 
+socialis OX=47790 GN=TSOC_001344 PE=4 SV=1
+Length=940
+
+ Score = 34.7 bits (78),  Expect = 5.3
+ Identities = 39/141 (28%), Positives = 54/141 (38%), Gaps = 30/141 (21%)
+
+Query  15   PLVKGTP---VCGSQFSPSTMLVTVKXAG----VGAVAEHVEARPRNPAVGVGARAGVVV  67
+            PL   TP    CGS  +P + +   + A      G  AE       +PA     RAG   
+Sbjct  509  PLHPCTPELSTCGSGSTPRSPVPAAESASPPAQAGPPAEGSRESSCSPAPAPPPRAGT--  566
+
+Query  68   LGVKSVSSAKSPDQGIQPAGSTSAPTYDFMTTVREKFFXRPAEVAERGESGVGGNFGACT  127
+                + ++A +P  G +PA +T+AP+                     G  G GG  G  +
+Sbjct  567  ---PTPAAASAP--GPEPAAATAAPSAS----------------GSGGGGGGGGGGGGVS  605
+
+Query  128  KEEGRIEGPVFWLGSVGAFPL  148
+             E G   G + WL SV  F L
+Sbjct  606  GEGGGSGGGLLWLSSVARFHL  626
+
+
+>TR:A0A2K3E856_CHLRE A0A2K3E856 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_01g052650v5 PE=3 SV=1
+Length=2484
+
+ Score = 34.7 bits (78),  Expect = 5.6
+ Identities = 42/149 (28%), Positives = 54/149 (36%), Gaps = 13/149 (9%)
+
+Query  31    TMLVTVKXAGVGAVAEHVEARPRNPAVGVGA---RAGVVVLGVKSVSSAKSPDQGIQPAG  87
+             T +   + A V A      +  R+ A GVG+   R G    G     +A     G   AG
+Sbjct  1745  TGMAAARQAAVAAAPSPPASPARSAAAGVGSSSRRGGATAGGPAVAPAAAGARAGGAGAG  1804
+
+Query  88    ST--SAPTYDFMTTVREKFFXRPAEVAERGESGVGGNFGACTKEEGRIEGPVFW----LG  141
+             S+  S P Y    TV E+      +  +R E G GG   A    EG    P+       G
+Sbjct  1805  SSTVSPPLY----TVMEECAAHEQQADDREEEGAGGEQAAAAAVEGDGSPPLLHPLGVAG  1860
+
+Query  142   SVGAFPLTLFTCPATVTGIKSATLGNQGG  170
+              VGA         A   G   A  G+ GG
+Sbjct  1861  FVGAGEEREQEGEARAAGAAGAAGGSCGG  1889
+
+
+>TR:B9R8B2_RICCO B9R8B2 Uncharacterized protein OS=Ricinus communis OX=3988 GN=RCOM_1598300 
+PE=4 SV=1
+Length=1005
+
+ Score = 34.3 bits (77),  Expect = 7.1
+ Identities = 41/139 (29%), Positives = 58/139 (42%), Gaps = 10/139 (7%)
+
+Query  51   RPRNPAV-GVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPTYDFMTTVREKFFXRPA  109
+            +P +PA+ G  AR G V LG+ +VS   SP  G    G T+APT    + V       P 
+Sbjct  829  KPMDPAMDGNIARMGGV-LGIPTVSYTHSPVFGYN--GLTTAPTMSISSAVYGPGASLPY  885
+
+Query  110  EVAERGESGVGGNFGACTKEEGRIEGPVFWLGSVGAFPLTLFTCPATVTGIK-----SAT  164
+             V  RG   V    G+ +        P F +   GA P++L     +          +  
+Sbjct  886  VVDTRGAPVVSPILGSASAVPPAFSQPPFIMSMSGA-PVSLNGAGPSRHNFDLNSGFAIE  944
+
+Query  165  LGNQGGVSKKFFPGXFNSI  183
+             GN GG+ + F PG   S+
+Sbjct  945  GGNPGGLRQLFLPGQSRSM  963
+
+
+>TR:A0A2K3DV73_CHLRE A0A2K3DV73 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_03g144524v5 PE=4 SV=1
+Length=1346
+
+ Score = 34.3 bits (77),  Expect = 7.3
+ Identities = 36/137 (26%), Positives = 47/137 (34%), Gaps = 9/137 (7%)
+
+Query  55   PAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGS-----TSAPTYDFMTTVREKFFXRP-  108
+            P  G G+  G+      SV +  S   G   AGS      S     FM+         P 
+Sbjct  705  PGAGAGSAGGLPTSMAASVGAGGSTGSGAAAAGSGDAGGPSGGAGGFMSPPGRVVPDSPG  764
+
+Query  109  -AEVAERGESGVGGNFG-ACTKEEGRIEGPVFWLGSVGAFPLTLFTCPATVTGIKSATLG  166
+             A+ A  G  G GG  G +      R  G   W GS   +     T P   T + +A  G
+Sbjct  765  KAKAAAAGAGGAGGGGGGSAAAGASRSLGEWLWRGSGSGWLFNTCTAPRRPTAMAAAGAG  824
+
+Query  167  NQGGVSKKFFPGXFNSI  183
+              GG S +   G    +
+Sbjct  825  G-GGASGRLASGLMGGL  840
+
+
+>TR:A0A2K3CZ00_CHLRE A0A2K3CZ00 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_14g633400v5 PE=4 SV=1
+Length=1463
+
+ Score = 34.3 bits (77),  Expect = 7.4
+ Identities = 29/108 (27%), Positives = 40/108 (37%), Gaps = 6/108 (6%)
+
+Query  28   SPSTMLVTVKXAGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAG  87
+            +P    V  K A     A   +  P        A A  V LG K  +SA +       A 
+Sbjct  752  TPKPAAVVAKAATAKPAAAAAKPTPAPTPAPAPAPAPAVALGGKRPASASAA------AA  805
+
+Query  88   STSAPTYDFMTTVREKFFXRPAEVAERGESGVGGNFGACTKEEGRIEG  135
+            + +APT DFM    ++     A  A  G +G  G   A   + G + G
+Sbjct  806  AAAAPTVDFMDEGDKEELVVAAAAAATGAAGTAGKLRAGPAKAGAVAG  853
+
+
+>TR:A0A2P6TIP4_CHLSO A0A2P6TIP4 PR domain zinc finger 8 OS=Chlorella sorokiniana OX=3076 
+GN=C2E21_7106 PE=4 SV=1
+Length=443
+
+ Score = 33.9 bits (76),  Expect = 8.4
+ Identities = 36/126 (29%), Positives = 50/126 (40%), Gaps = 18/126 (14%)
+
+Query  39   AGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGSTSAPTYDFMT  98
+            AG  A  E  + +    A G G+RA     G  S   A+  D G  PA   SA   +   
+Sbjct  215  AGGAAGLEGSKGKAAQTAAGQGSRADSAGAGSGSDGEAEGADDGSAPAAGGSAAAEE---  271
+
+Query  99   TVREKFFXRPAEVAERGESGVGGNFGACTKEEGRIEGPVFWLGSVGAFPLTLFTCPATVT  158
+                    RPA VA+RG   +      C+++ G++  P F   +  A     FT PA + 
+Sbjct  272  --------RPA-VAQRGPPAI------CSEQYGKVVTPPFLPTNWCAPCRCSFTTPAGLL  316
+
+Query  159  GIKSAT  164
+                AT
+Sbjct  317  SHLKAT  322
+
+
+>TR:A0A2P6U485_CHLSO A0A2P6U485 Deleted in malignant brain tumors 1-like OS=Chlorella 
+sorokiniana OX=3076 GN=C2E21_0511 PE=3 SV=1
+Length=660
+
+ Score = 33.9 bits (76),  Expect = 9.1
+ Identities = 25/86 (29%), Positives = 30/86 (35%), Gaps = 4/86 (5%)
+
+Query  20   TPVCGSQFSPSTMLVTVKXAGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKS----VSS  75
+            TP C S F+     V  K  GVG   + V A    P  G      +  LG +S       
+Sbjct  518  TPACSSGFNDRAAKVVCKQLGVGTSGQAVRAEVFGPGTGAARLNSISCLGTESKWEACRR  577
+
+Query  76   AKSPDQGIQPAGSTSAPTYDFMTTVR  101
+            A   + G    GS         TTVR
+Sbjct  578  AVWGNNGCNSDGSVGVSCSGIATTVR  603
+
+
+>TR:A0A0E0N4R5_ORYRU A0A0E0N4R5 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=274
+
+ Score = 33.5 bits (75),  Expect = 9.6
+ Identities = 21/65 (32%), Positives = 31/65 (48%), Gaps = 0/65 (0%)
+
+Query  29  PSTMLVTVKXAGVGAVAEHVEARPRNPAVGVGARAGVVVLGVKSVSSAKSPDQGIQPAGS  88
+           PS  +     AG G VA  V A+P  PAV  G R   +    + V+S +  +    P  S
+Sbjct  24  PSAAVPLASQAGGGDVAADVAAQPPPPAVAGGGRGVDMAAAARRVASPRLKEFCSLPMKS  83
+
+Query  89  TSAPT  93
+           T++P+
+Sbjct  84  TTSPS  88
+
+
+
+Lambda      K        H
+   0.317    0.135    0.405 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 92780269440
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
