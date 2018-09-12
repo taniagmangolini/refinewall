@@ -233,7 +233,7 @@ public class BlastService implements IBlastService {
 	}
 
 	public void saveBlastResult(BlastResult blastResult) {
-		
-		blastRepository.saveAndFlush(blastResult);
+
+		blastRepository.save(blastResult);
 	}
 }

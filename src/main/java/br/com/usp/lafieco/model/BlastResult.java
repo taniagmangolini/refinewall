@@ -42,22 +42,22 @@ public class BlastResult {
 	@Column(name = "db")
 	private String db;
 	
-	@Column(name = "unique_identifier")
+	@Column(name = "unique_identifier", length = 1024)
 	private String uniqueIdentifier;
 	
-	@Column(name = "entry_name")
+	@Column(name = "entry_name" , length = 1024)
 	private String entryName;
 	
-	@Column(name = "proteinName")
+	@Column(name = "proteinName", length = 1024)
 	private String proteinName;
 	
-	@Column(name = "organism_name")
+	@Column(name = "organism_name", length = 1024)
 	private String organismName;
 	
-	@Column(name = "organism_identifier")
+	@Column(name = "organism_identifier", length = 1024)
 	private String organismIdentifier;
 	
-	@Column(name = "gene_name")
+	@Column(name = "gene_name", length = 1024)
 	private String geneName;
 	
 	@Column(name = "protein_existence")
@@ -69,7 +69,7 @@ public class BlastResult {
 	@Column(name = "score")
 	private Integer score;
 	
-	@Column(name = "evalue")
+	@Column(name = "evalue", length = 255)
 	private String evalue;
 	
 	@Column(name = "identities")
@@ -84,7 +84,7 @@ public class BlastResult {
 	@Column(name = "gaps")
 	private Integer gaps;
 	
-	@Column(name = "fulltext")
+	@Column(name = "fulltext", length = 10000)
 	private String fullText;
 	
 	@Column(name = "created_at", nullable = false, updatable = false)

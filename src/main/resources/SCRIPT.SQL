@@ -1,16 +1,3 @@
--- Database: refinedb
-
--- DROP DATABASE refinedb;
-
-CREATE DATABASE refinedb
-  WITH OWNER = postgres
-       ENCODING = 'UTF8'
-       TABLESPACE = pg_default
-       LC_COLLATE = 'en_US.UTF-8'
-       LC_CTYPE = 'en_US.UTF-8'
-       CONNECTION LIMIT = -1;
-
-
 CREATE TABLE sucest
 (
   id varchar (255) PRIMARY KEY,
@@ -27,33 +14,49 @@ CREATE TABLE search_history
   created_at timestamp NOT NULL
 );
 
-CREATE TABLE blast_result
+-- Table: public.blast_result
+
+-- DROP TABLE public.blast_result;
+
+-- Table: public.blast_result
+
+-- DROP TABLE public.blast_result;
+
+CREATE TABLE public.blast_result
 (
-  id bigserial PRIMARY KEY,
-  id_sucest  varchar (255),
-  id_search bigserial,
-  db VARCHAR (255) NOT NULL,
-  unique_identifier VARCHAR (255) NOT NULL,
-  entry_name VARCHAR (255) NOT NULL,
-  protein_name VARCHAR (255) NOT NULL,
-  organism_name VARCHAR (255) NOT NULL,
-  organism_identifier integer NOT NULL,
-  protein_existence integer NOT NULL,
-  sequence_version integer NOT NULL,
-  score integer NOT NULL,
-  evalue VARCHAR (255) NOT NULL,
-  identities integer NOT NULL,
-  length integer NOT NULL,
-  positives integer NOT NULL,
-  gaps integer NOT NULL,
-  gene_name VARCHAR (255) NULL,
-  full_text VARCHAR (255) NOT NULL,
-  created_at  TIMESTAMP NOT NULL,
-  disabled_at  TIMESTAMP,
-  CONSTRAINT sucest_id_sucest_fkey FOREIGN KEY (id_sucest)
-      REFERENCES sucest (id) MATCH SIMPLE
+  id bigint NOT NULL DEFAULT nextval('blast_result_id_seq'::regclass),
+  created_at timestamp without time zone NOT NULL,
+  db character varying(255),
+  disabled_at timestamp without time zone,
+  entry_name character varying(1024),
+  evalue character varying(255),
+  fulltext character varying(10000),
+  gaps integer,
+  gene_name character varying(1024),
+  identities integer,
+  length integer,
+  organism_identifier character varying(1024),
+  organism_name character varying(1024),
+  positives integer,
+  protein_existence integer,
+  protein_name character varying(1024),
+  score integer,
+  sequence_version integer,
+  sucest_busca character varying(255),
+  unique_identifier character varying(1024),
+  search_history_id bigint,
+  sucest_id bigint,
+  CONSTRAINT blast_result_pkey PRIMARY KEY (id),
+  CONSTRAINT fk4ecqw6f7a0x7x65u40sx6uhs9 FOREIGN KEY (search_history_id)
+      REFERENCES public.search_history (id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION,
-  CONSTRAINT search_history_id_search_fkey FOREIGN KEY (id_search)
-      REFERENCES search_history (id) MATCH SIMPLE
+  CONSTRAINT fks9b7al4c8694j99ggcasmau5l FOREIGN KEY (sucest_id)
+      REFERENCES public.sucest (id) MATCH SIMPLE
       ON UPDATE NO ACTION ON DELETE NO ACTION
+)
+WITH (
+  OIDS=FALSE
 );
+ALTER TABLE public.blast_result
+  OWNER TO postgres;
+
