@@ -1,0 +1,4360 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=76
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:Q8W0U9_SORBI  Q8W0U9 Putative receptor protein kinase OS=Sorgh...  117     4e-30
+TR:A0A194YIY1_SORBI  A0A194YIY1 Uncharacterized protein OS=Sorghu...  117     4e-30
+TR:A0A1W0VRV8_SORBI  A0A1W0VRV8 Uncharacterized protein OS=Sorghu...  117     4e-30
+TR:C5Z6B9_SORBI  C5Z6B9 Uncharacterized protein OS=Sorghum bicolo...  117     4e-30
+TR:A0A0A9I9W7_ARUDO  A0A0A9I9W7 Uncharacterized protein OS=Arundo...  107     4e-30
+TR:K3XV18_SETIT  K3XV18 Uncharacterized protein OS=Setaria italic...  113     6e-29
+TR:A0A1D6LUK0_MAIZE  A0A1D6LUK0 LRR receptor-like serine/threonin...  110     2e-28
+TR:B4FFM0_MAIZE  B4FFM0 Uncharacterized protein OS=Zea mays OX=45...  110     6e-28
+TR:A0A1D6LUK8_MAIZE  A0A1D6LUK8 LRR receptor-like serine/threonin...  110     8e-28
+TR:A0A1D6LUK4_MAIZE  A0A1D6LUK4 LRR receptor-like serine/threonin...  110     1e-27
+TR:A0A1D6LUJ8_MAIZE  A0A1D6LUJ8 LRR receptor-like serine/threonin...  110     1e-27
+TR:A0A1D6LUK3_MAIZE  A0A1D6LUK3 LRR receptor-like serine/threonin...  110     1e-27
+TR:A0A1D6LUK6_MAIZE  A0A1D6LUK6 LRR receptor-like serine/threonin...  110     1e-27
+TR:C0P7W0_MAIZE  C0P7W0 LRR receptor-like serine/threonine-protei...  110     1e-27
+TR:A0A0D9WN17_9ORYZ  A0A0D9WN17 Uncharacterized protein OS=Leersi...  109     1e-27
+TR:A0A0E0DYG2_9ORYZ  A0A0E0DYG2 Uncharacterized protein OS=Oryza ...  109     2e-27
+TR:B9FS18_ORYSJ  B9FS18 Uncharacterized protein OS=Oryza sativa s...  109     2e-27
+TR:A0A0E0DYG3_9ORYZ  A0A0E0DYG3 Uncharacterized protein OS=Oryza ...  109     2e-27
+TR:A0A0D3GDY1_9ORYZ  A0A0D3GDY1 Uncharacterized protein OS=Oryza ...  109     2e-27
+TR:A0A0D3GDY2_9ORYZ  A0A0D3GDY2 Uncharacterized protein OS=Oryza ...  109     2e-27
+TR:B8B3W5_ORYSI  B8B3W5 Uncharacterized protein OS=Oryza sativa s...  109     2e-27
+TR:I1Q0E1_ORYGL  I1Q0E1 Uncharacterized protein OS=Oryza glaberri...  109     2e-27
+TR:Q69SP5_ORYSJ  Q69SP5 Os06g0203800 protein OS=Oryza sativa subs...  109     2e-27
+TR:A0A0A9AGT4_ARUDO  A0A0A9AGT4 Uncharacterized protein OS=Arundo...  103     6e-27
+TR:A0A2T7E1U1_9POAL  A0A2T7E1U1 Uncharacterized protein OS=Panicu...  107     6e-27
+TR:A0A2T7E1U8_9POAL  A0A2T7E1U8 Uncharacterized protein OS=Panicu...  107     6e-27
+TR:A0A2S3HKY5_9POAL  A0A2S3HKY5 Uncharacterized protein OS=Panicu...  107     9e-27
+TR:A0A2T8JEB4_9POAL  A0A2T8JEB4 Uncharacterized protein OS=Panicu...  107     9e-27
+TR:J3MC63_ORYBR  J3MC63 Uncharacterized protein OS=Oryza brachyan...  106     2e-26
+TR:A0A0E0L931_ORYPU  A0A0E0L931 Uncharacterized protein OS=Oryza ...  105     3e-26
+TR:A0A0E0L930_ORYPU  A0A0E0L930 Uncharacterized protein OS=Oryza ...  105     3e-26
+TR:M7ZU72_TRIUA  M7ZU72 LRR receptor-like serine/threonine-protei...  105     3e-26
+TR:A0A067XLK0_WHEAT  A0A067XLK0 Erecta leucine-rich-repeat recept...  105     3e-26
+TR:A0A1D6BYQ4_WHEAT  A0A1D6BYQ4 Uncharacterized protein OS=Tritic...  105     3e-26
+TR:A0A1D6CKB3_WHEAT  A0A1D6CKB3 Receptor-like serine/threonine pr...  105     3e-26
+TR:I2ALK7_WHEAT  I2ALK7 Erecta leucine-rich-repeat receptor-like ...  105     3e-26
+TR:A0A067XLI6_WHEAT  A0A067XLI6 Erecta leucine-rich-repeat recept...  105     3e-26
+TR:I2ALK8_WHEAT  I2ALK8 Receptor-like serine/threonine protein ki...  105     3e-26
+TR:I3PMY5_WHEAT  I3PMY5 ERECTA OS=Triticum aestivum OX=4565 PE=2 ...  105     3e-26
+TR:A0A1D6BYQ3_WHEAT  A0A1D6BYQ3 Uncharacterized protein OS=Tritic...  105     3e-26
+TR:M8BCH9_AEGTA  M8BCH9 LRR receptor-like serine/threonine-protei...  105     3e-26
+TR:A0A0E0HMD8_ORYNI  A0A0E0HMD8 Uncharacterized protein OS=Oryza ...  105     4e-26
+TR:A0A0E0PUT4_ORYRU  A0A0E0PUT4 Uncharacterized protein OS=Oryza ...  105     4e-26
+TR:A0A0E0A6G3_9ORYZ  A0A0E0A6G3 Uncharacterized protein OS=Oryza ...  105     4e-26
+TR:A0A0E0HMD9_ORYNI  A0A0E0HMD9 Uncharacterized protein OS=Oryza ...  105     4e-26
+TR:A0A0E0PUT5_ORYRU  A0A0E0PUT5 Uncharacterized protein OS=Oryza ...  105     4e-26
+TR:Q6ZGC7_ORYSJ  Q6ZGC7 Receptor protein kinase PERK1-like OS=Ory...  103     5e-26
+TR:J3LHM2_ORYBR  J3LHM2 Uncharacterized protein OS=Oryza brachyan...  105     6e-26
+TR:Q0DX34_ORYSJ  Q0DX34 Os02g0777400 protein (Fragment) OS=Oryza ...  103     7e-26
+TR:A0A1E5VJR9_9POAL  A0A1E5VJR9 LRR receptor-like serine/threonin...  104     8e-26
+TR:A0A2K2DPP9_BRADI  A0A2K2DPP9 Uncharacterized protein OS=Brachy...  104     8e-26
+TR:I1H005_BRADI  I1H005 Uncharacterized protein OS=Brachypodium d...  104     8e-26
+TR:M0VM44_HORVV  M0VM44 Uncharacterized protein OS=Hordeum vulgar...  102     1e-25
+TR:A0A0D9YZ58_9ORYZ  A0A0D9YZ58 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D9YZ55_9ORYZ  A0A0D9YZ55 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0NLN6_ORYRU  A0A0E0NLN6 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0NLN5_ORYRU  A0A0E0NLN5 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0NLN4_ORYRU  A0A0E0NLN4 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0NLN3_ORYRU  A0A0E0NLN3 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D3FB59_9ORYZ  A0A0D3FB59 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D3FB57_9ORYZ  A0A0D3FB57 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D3FB58_9ORYZ  A0A0D3FB58 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:B9F3I9_ORYSJ  B9F3I9 Uncharacterized protein OS=Oryza sativa s...  103     1e-25
+TR:B8AJH2_ORYSI  B8AJH2 Uncharacterized protein OS=Oryza sativa s...  103     1e-25
+TR:A0A0E0NLN2_ORYRU  A0A0E0NLN2 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D3FB56_9ORYZ  A0A0D3FB56 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0K5W2_ORYPU  A0A0E0K5W2 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0E0GDK2_ORYNI  A0A0E0GDK2 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:F2EI53_HORVV  F2EI53 Predicted protein OS=Hordeum vulgare subs...  103     1e-25
+TR:F2DLX7_HORVV  F2DLX7 Predicted protein OS=Hordeum vulgare subs...  103     1e-25
+TR:I1P4T5_ORYGL  I1P4T5 Uncharacterized protein OS=Oryza glaberri...  103     1e-25
+TR:I1Z695_ORYSJ  I1Z695 ERECTA-like kinase OS=Oryza sativa subsp....  103     1e-25
+TR:A0A0E0GDK1_ORYNI  A0A0E0GDK1 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D9YZ57_9ORYZ  A0A0D9YZ57 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:A0A0D9YZ56_9ORYZ  A0A0D9YZ56 Uncharacterized protein OS=Oryza ...  103     1e-25
+TR:M0VM48_HORVV  M0VM48 Uncharacterized protein OS=Hordeum vulgar...  102     3e-25
+TR:A0A287W0J4_HORVV  A0A287W0J4 Uncharacterized protein OS=Hordeu...  102     3e-25
+TR:A0A287VZR4_HORVV  A0A287VZR4 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:A0A287VZS2_HORVV  A0A287VZS2 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:M0VM47_HORVV  M0VM47 Uncharacterized protein OS=Hordeum vulgar...  102     4e-25
+TR:A0A287VZZ2_HORVV  A0A287VZZ2 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:A0A287W002_HORVV  A0A287W002 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:A0A287VZR9_HORVV  A0A287VZR9 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:M0VM45_HORVV  M0VM45 ERECTA OS=Hordeum vulgare subsp. vulgare ...  102     4e-25
+TR:A0A287W0H7_HORVV  A0A287W0H7 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:A0A287VZZ5_HORVV  A0A287VZZ5 Uncharacterized protein OS=Hordeu...  102     4e-25
+TR:K3YPN5_SETIT  K3YPN5 Uncharacterized protein OS=Setaria italic...  102     5e-25
+TR:A0A2S3GU02_9POAL  A0A2S3GU02 Uncharacterized protein OS=Panicu...  102     5e-25
+TR:A0A2T7FCW1_9POAL  A0A2T7FCW1 Uncharacterized protein OS=Panicu...  102     5e-25
+TR:A0A0D9VLR7_9ORYZ  A0A0D9VLR7 Uncharacterized protein OS=Leersi...  102     7e-25
+TR:A0A0E0CS72_9ORYZ  A0A0E0CS72 Uncharacterized protein OS=Oryza ...  101     9e-25
+TR:A0A0E0CS71_9ORYZ  A0A0E0CS71 Uncharacterized protein OS=Oryza ...  101     9e-25
+TR:A0A0E0CS70_9ORYZ  A0A0E0CS70 Uncharacterized protein OS=Oryza ...  101     9e-25
+TR:A0A2H3ZMU1_PHODC  A0A2H3ZMU1 LRR receptor-like serine/threonin...  100     2e-24
+TR:A0A2H3XNY2_PHODC  A0A2H3XNY2 LRR receptor-like serine/threonin...  100     2e-24
+TR:A0A2H3XPE9_PHODC  A0A2H3XPE9 LRR receptor-like serine/threonin...  100     2e-24
+TR:B4FDW9_MAIZE  B4FDW9 Uncharacterized protein OS=Zea mays OX=45...  94.7    5e-23
+TR:A0A2I4HFV3_9ROSI  A0A2I4HFV3 LRR receptor-like serine/threonin...  91.7    5e-23
+TR:A0A287UWQ9_HORVV  A0A287UWQ9 Uncharacterized protein OS=Hordeu...  89.7    5e-23
+TR:A0A118K787_CYNCS  A0A118K787 Uncharacterized protein OS=Cynara...  89.4    8e-23
+TR:C0PGY3_MAIZE  C0PGY3 Uncharacterized protein OS=Zea mays OX=45...  94.7    9e-23
+TR:A0A0B0N0S2_GOSAR  A0A0B0N0S2 LRR receptor-like serine/threonin...  91.3    9e-23
+TR:A0A0A9KLW7_ARUDO  A0A0A9KLW7 Uncharacterized protein OS=Arundo...  94.0    2e-22
+TR:A0A287VZY5_HORVV  A0A287VZY5 Uncharacterized protein OS=Hordeu...  93.6    2e-22
+TR:A0A1S6R4X8_MAIZE  A0A1S6R4X8 ERECTA-like protein 1 OS=Zea mays...  94.7    3e-22
+TR:A0A199USV9_ANACO  A0A199USV9 LRR receptor-like serine/threonin...  94.7    3e-22
+TR:A0A1D6HLY3_MAIZE  A0A1D6HLY3 LRR receptor-like serine/threonin...  94.7    3e-22
+TR:A0A1D6HLZ0_MAIZE  A0A1D6HLZ0 LRR receptor-like serine/threonin...  94.7    3e-22
+TR:A0A1D6HLY4_MAIZE  A0A1D6HLY4 LRR receptor-like serine/threonin...  94.7    3e-22
+TR:A0A287W007_HORVV  A0A287W007 Uncharacterized protein OS=Hordeu...  93.6    6e-22
+TR:A0A2G9I2L3_9LAMI  A0A2G9I2L3 Serine/threonine protein kinase O...  92.8    1e-21
+TR:W1PTA3_AMBTC  W1PTA3 Uncharacterized protein OS=Amborella tric...  92.8    1e-21
+TR:A0A194YTN4_SORBI  A0A194YTN4 Uncharacterized protein OS=Sorghu...  92.8    1e-21
+TR:A0A1R3IV71_9ROSI  A0A1R3IV71 Uncharacterized protein OS=Corcho...  90.1    1e-21
+TR:A0A287UX71_HORVV  A0A287UX71 Uncharacterized protein OS=Hordeu...  89.7    2e-21
+TR:M8B3K3_TRIUA  M8B3K3 LRR receptor-like serine/threonine-protei...  92.4    2e-21
+TR:A0A2P5SIM1_GOSBA  A0A2P5SIM1 Uncharacterized protein OS=Gossyp...  92.4    2e-21
+TR:M8ASX6_AEGTA  M8ASX6 LRR receptor-like serine/threonine-protei...  92.4    2e-21
+TR:A0A096UTP8_WHEAT  A0A096UTP8 Uncharacterized protein OS=Tritic...  92.4    2e-21
+TR:A0A1D6AS41_WHEAT  A0A1D6AS41 Uncharacterized protein OS=Tritic...  92.4    2e-21
+TR:A0A1D6AS40_WHEAT  A0A1D6AS40 Uncharacterized protein OS=Tritic...  92.4    2e-21
+TR:A0A1D6B9E7_WHEAT  A0A1D6B9E7 Uncharacterized protein OS=Tritic...  92.4    2e-21
+TR:A0A0D2U9C9_GOSRA  A0A0D2U9C9 Uncharacterized protein OS=Gossyp...  92.0    2e-21
+TR:A0A0D2V859_GOSRA  A0A0D2V859 Uncharacterized protein OS=Gossyp...  92.0    2e-21
+TR:A0A0D2UBU8_GOSRA  A0A0D2UBU8 Uncharacterized protein OS=Gossyp...  92.0    2e-21
+TR:A0A0D2R533_GOSRA  A0A0D2R533 Uncharacterized protein OS=Gossyp...  92.0    2e-21
+TR:A0A0D2SQ90_GOSRA  A0A0D2SQ90 Uncharacterized protein OS=Gossyp...  92.0    2e-21
+TR:A0A0B0MRB0_GOSAR  A0A0B0MRB0 LRR receptor-like serine/threonin...  89.0    3e-21
+TR:A0A1U8PPS5_GOSHI  A0A1U8PPS5 LRR receptor-like serine/threonin...  91.7    3e-21
+TR:A0A1U8PPR4_GOSHI  A0A1U8PPR4 LRR receptor-like serine/threonin...  91.7    3e-21
+TR:A0A1U8PPQ1_GOSHI  A0A1U8PPQ1 LRR receptor-like serine/threonin...  91.7    3e-21
+TR:A0A1U8PS41_GOSHI  A0A1U8PS41 LRR receptor-like serine/threonin...  91.7    3e-21
+TR:A0A2I4GST4_9ROSI  A0A2I4GST4 LRR receptor-like serine/threonin...  91.7    3e-21
+TR:A0A2K3MC09_TRIPR  A0A2K3MC09 LRR receptor-like kinase resistan...  85.5    4e-21
+TR:A0A287UX66_HORVV  A0A287UX66 Uncharacterized protein OS=Hordeu...  89.7    6e-21
+TR:A0A287UWN1_HORVV  A0A287UWN1 Uncharacterized protein OS=Hordeu...  89.7    6e-21
+TR:A0A200Q8N0_9MAGN  A0A200Q8N0 Protein kinase domain OS=Macleaya...  90.9    6e-21
+TR:A0A2G9GW36_9LAMI  A0A2G9GW36 Serine/threonine protein kinase O...  90.9    6e-21
+TR:A0A2U1N7H6_ARTAN  A0A2U1N7H6 Leucine-rich receptor-like protei...  90.9    6e-21
+TR:A0A287UWT8_HORVV  A0A287UWT8 Uncharacterized protein OS=Hordeu...  89.7    9e-21
+TR:A0A287UWN6_HORVV  A0A287UWN6 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:V7CUI5_PHAVU  V7CUI5 Uncharacterized protein OS=Phaseolus vulg...  90.1    1e-20
+TR:A0A1S3UFG5_VIGRR  A0A1S3UFG5 LRR receptor-like serine/threonin...  90.1    1e-20
+TR:A0A2P4IL78_QUESU  A0A2P4IL78 Lrr receptor-like serine/threonin...  90.1    1e-20
+TR:A0A1R3H9T0_COCAP  A0A1R3H9T0 Uncharacterized protein OS=Corcho...  90.1    1e-20
+TR:A0A251ULV8_HELAN  A0A251ULV8 Uncharacterized protein OS=Helian...  90.1    1e-20
+TR:A0A287UWP5_HORVV  A0A287UWP5 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWN4_HORVV  A0A287UWN4 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWQ1_HORVV  A0A287UWQ1 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWL6_HORVV  A0A287UWL6 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:M0XQS9_HORVV  M0XQS9 Uncharacterized protein OS=Hordeum vulgar...  89.7    1e-20
+TR:A0A287UWJ9_HORVV  A0A287UWJ9 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWQ0_HORVV  A0A287UWQ0 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWP3_HORVV  A0A287UWP3 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:M0XQT4_HORVV  M0XQT4 Uncharacterized protein OS=Hordeum vulgar...  89.7    1e-20
+TR:A0A287UWM1_HORVV  A0A287UWM1 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWL5_HORVV  A0A287UWL5 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWL0_HORVV  A0A287UWL0 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWM6_HORVV  A0A287UWM6 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWL9_HORVV  A0A287UWL9 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:M0XQS7_HORVV  M0XQS7 Uncharacterized protein OS=Hordeum vulgar...  89.7    1e-20
+TR:A0A2H9ZUU8_9ASPA  A0A2H9ZUU8 LRR receptor-like serine/threonin...  89.7    1e-20
+TR:A0A287UWK2_HORVV  A0A287UWK2 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UX51_HORVV  A0A287UX51 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:F2CYE2_HORVV  F2CYE2 Predicted protein OS=Hordeum vulgare subs...  89.7    1e-20
+TR:A0A287UX36_HORVV  A0A287UX36 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:M0XQT1_HORVV  M0XQT1 Uncharacterized protein OS=Hordeum vulgar...  89.7    1e-20
+TR:A0A287UWN0_HORVV  A0A287UWN0 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWM4_HORVV  A0A287UWM4 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWJ7_HORVV  A0A287UWJ7 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UWJ4_HORVV  A0A287UWJ4 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A287UX17_HORVV  A0A287UX17 Uncharacterized protein OS=Hordeu...  89.7    1e-20
+TR:A0A1U7YIC1_NICSY  A0A1U7YIC1 LRR receptor-like serine/threonin...  89.7    1e-20
+TR:A0A1S4BFY7_TOBAC  A0A1S4BFY7 LRR receptor-like serine/threonin...  89.7    1e-20
+TR:A0A1S4DKX8_TOBAC  A0A1S4DKX8 LRR receptor-like serine/threonin...  89.7    1e-20
+TR:V4UUF1_9ROSI  V4UUF1 Uncharacterized protein (Fragment) OS=Cit...  88.6    2e-20
+TR:A0A022PV69_ERYGU  A0A022PV69 Uncharacterized protein (Fragment...  89.0    3e-20
+TR:A0A2G5C8S2_AQUCA  A0A2G5C8S2 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A2G5C9Y3_AQUCA  A0A2G5C9Y3 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A2G5C8P7_AQUCA  A0A2G5C8P7 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A2G5C8P2_AQUCA  A0A2G5C8P2 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A2G5C8S7_AQUCA  A0A2G5C8S7 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A2I0VCT2_9ASPA  A0A2I0VCT2 LRR receptor-like serine/threonin...  89.0    3e-20
+TR:A0A2G5C8R7_AQUCA  A0A2G5C8R7 Uncharacterized protein OS=Aquile...  89.0    3e-20
+TR:A0A067GDS3_CITSI  A0A067GDS3 Uncharacterized protein (Fragment...  88.6    4e-20
+TR:A0A2H5NBD9_CITUN  A0A2H5NBD9 Uncharacterized protein (Fragment...  88.6    4e-20
+TR:A0A2H5NBE1_CITUN  A0A2H5NBE1 Uncharacterized protein OS=Citrus...  88.6    4e-20
+TR:A0A2H5NBE2_CITUN  A0A2H5NBE2 Uncharacterized protein OS=Citrus...  88.6    4e-20
+TR:F8WLD5_CITUN  F8WLD5 LRR receptor-like serine/threonine-protei...  88.6    4e-20
+TR:A0A151TZL7_CAJCA  A0A151TZL7 LRR receptor-like serine/threonin...  88.6    4e-20
+TR:C6ZRW1_SOYBN  C6ZRW1 ERECTA OS=Glycine max OX=3847 PE=2 SV=1       88.2    4e-20
+TR:A0A0R0FH18_SOYBN  A0A0R0FH18 Uncharacterized protein OS=Glycin...  88.2    5e-20
+TR:B9RQX5_RICCO  B9RQX5 Erecta, putative OS=Ricinus communis OX=3...  88.2    5e-20
+TR:I1MX81_SOYBN  I1MX81 Uncharacterized protein OS=Glycine max OX...  88.2    5e-20
+TR:A5BSC4_VITVI  A5BSC4 Uncharacterized protein OS=Vitis vinifera...  87.8    7e-20
+TR:A0A1J3DMW6_NOCCA  A0A1J3DMW6 LRR receptor-like serine/threonin...  87.8    7e-20
+TR:A0A0R0GIQ7_SOYBN  A0A0R0GIQ7 Uncharacterized protein OS=Glycin...  87.8    7e-20
+TR:D7STX8_VITVI  D7STX8 Uncharacterized protein OS=Vitis vinifera...  87.8    7e-20
+TR:A0A2C9UB19_MANES  A0A2C9UB19 Uncharacterized protein OS=Maniho...  87.8    7e-20
+TR:Q8VYT9_CAMSA  Q8VYT9 ER1-like receptor kinase (Fragment) OS=Ca...  82.8    8e-20
+TR:A0A2P5XH27_GOSBA  A0A2P5XH27 Uncharacterized protein OS=Gossyp...  87.4    9e-20
+TR:A0A2P5QRQ1_GOSBA  A0A2P5QRQ1 Uncharacterized protein OS=Gossyp...  87.4    9e-20
+TR:A0A2N9ET46_FAGSY  A0A2N9ET46 Uncharacterized protein OS=Fagus ...  87.0    1e-19
+TR:A0A0S3RPH3_PHAAN  A0A0S3RPH3 Uncharacterized protein OS=Vigna ...  87.0    1e-19
+TR:A0A0L9V1U2_PHAAN  A0A0L9V1U2 Uncharacterized protein OS=Phaseo...  87.0    1e-19
+TR:A0A061GJI4_THECC  A0A061GJI4 Leucine-rich receptor-like protei...  87.0    1e-19
+TR:M0TE19_MUSAM  M0TE19 Uncharacterized protein OS=Musa acuminata...  86.7    2e-19
+TR:A0A1U8AIC6_NELNU  A0A1U8AIC6 LRR receptor-like serine/threonin...  86.7    2e-19
+TR:A0A059CN11_EUCGR  A0A059CN11 Uncharacterized protein OS=Eucaly...  86.7    2e-19
+TR:A0A1S3U003_VIGRR  A0A1S3U003 LRR receptor-like serine/threonin...  86.3    2e-19
+TR:A0A1S2Y3Q0_CICAR  A0A1S2Y3Q0 LRR receptor-like serine/threonin...  86.3    2e-19
+TR:A0A0S3RCA4_PHAAN  A0A0S3RCA4 Uncharacterized protein OS=Vigna ...  86.3    2e-19
+TR:A0A0L9UHS6_PHAAN  A0A0L9UHS6 Uncharacterized protein OS=Phaseo...  86.3    2e-19
+TR:A0A1S2Y5I7_CICAR  A0A1S2Y5I7 LRR receptor-like serine/threonin...  86.3    2e-19
+TR:A0A1S2Y3N0_CICAR  A0A1S2Y3N0 LRR receptor-like serine/threonin...  86.3    2e-19
+TR:A0A2I0VIY4_9ASPA  A0A2I0VIY4 LRR receptor-like serine/threonin...  85.9    3e-19
+TR:A0A166J2G8_DAUCA  A0A166J2G8 Uncharacterized protein OS=Daucus...  85.9    3e-19
+TR:A0A087GRL4_ARAAL  A0A087GRL4 Uncharacterized protein OS=Arabis...  85.9    3e-19
+TR:A0A2C9W4Q4_MANES  A0A2C9W4Q4 Uncharacterized protein OS=Maniho...  85.9    3e-19
+TR:A0A1J3IHZ2_NOCCA  A0A1J3IHZ2 LRR receptor-like serine/threonin...  85.5    4e-19
+TR:A0A1J3GXE3_NOCCA  A0A1J3GXE3 LRR receptor-like serine/threonin...  85.5    4e-19
+TR:A0A1J3FDU6_NOCCA  A0A1J3FDU6 LRR receptor-like serine/threonin...  85.5    5e-19
+TR:A0A251TWQ1_HELAN  A0A251TWQ1 Putative leucine-rich receptor-li...  85.5    5e-19
+TR:A0A1Q3CKT2_CEPFO  A0A1Q3CKT2 Pkinase domain-containing protein...  85.1    6e-19
+TR:A0A067KQC3_JATCU  A0A067KQC3 Uncharacterized protein OS=Jatrop...  85.1    6e-19
+TR:S5TT54_POPTN  S5TT54 LRR receptor-like serine/threonine-protei...  84.7    6e-19
+TR:A0A2P2MQT8_RHIMU  A0A2P2MQT8 LRR receptor-like kinase family p...  80.5    7e-19
+TR:A0A2K2A654_POPTR  A0A2K2A654 Uncharacterized protein OS=Populu...  84.7    8e-19
+TR:A0A072VEC2_MEDTR  A0A072VEC2 LRR receptor-like kinase family p...  84.3    1e-18
+TR:A0A089RQM9_MEDSA  A0A089RQM9 Receptor-like kinase ERECTA OS=Me...  84.3    1e-18
+TR:G7I923_MEDTR  G7I923 LRR receptor-like kinase family protein O...  84.3    1e-18
+TR:M4CU65_BRARP  M4CU65 Uncharacterized protein OS=Brassica rapa ...  84.3    1e-18
+TR:A0A067XLK1_BRANA  A0A067XLK1 BnaA09g40540D protein OS=Brassica...  84.3    1e-18
+TR:A0A251RAN0_PRUPE  A0A251RAN0 Uncharacterized protein OS=Prunus...  84.0    2e-18
+TR:A0A2R6PMT3_ACTCH  A0A2R6PMT3 LRR receptor-like serine/threonin...  84.0    2e-18
+TR:M5XKF7_PRUPE  M5XKF7 Uncharacterized protein OS=Prunus persica...  84.0    2e-18
+TR:A0A0D2N4J7_GOSRA  A0A0D2N4J7 Uncharacterized protein OS=Gossyp...  84.0    2e-18
+TR:A0A2P5XZV9_GOSBA  A0A2P5XZV9 Uncharacterized protein OS=Gossyp...  84.0    2e-18
+TR:A0A251RAL6_PRUPE  A0A251RAL6 Uncharacterized protein OS=Prunus...  84.0    2e-18
+TR:A0A251RBF3_PRUPE  A0A251RBF3 Uncharacterized protein OS=Prunus...  84.0    2e-18
+TR:A0A2P5DIM2_PARAD  A0A2P5DIM2 Mitogen-activated protein kinase ...  83.6    2e-18
+TR:A0A166IEZ3_DAUCA  A0A166IEZ3 Uncharacterized protein OS=Daucus...  83.6    2e-18
+TR:R0HY33_9BRAS  R0HY33 Uncharacterized protein OS=Capsella rubel...  83.6    2e-18
+TR:K7KIA4_SOYBN  K7KIA4 Uncharacterized protein OS=Glycine max OX...  83.6    2e-18
+TR:A0A2G2W5I6_CAPBA  A0A2G2W5I6 LRR receptor-like serine/threonin...  83.2    3e-18
+TR:A0A2G2YWS9_CAPAN  A0A2G2YWS9 LRR receptor-like serine/threonin...  83.2    3e-18
+TR:A0A1U8E343_CAPAN  A0A1U8E343 LRR receptor-like serine/threonin...  83.2    3e-18
+TR:S8BXA2_9LAMI  S8BXA2 Uncharacterized protein (Fragment) OS=Gen...  80.9    4e-18
+TR:A0A2J6JR34_LACSA  A0A2J6JR34 Uncharacterized protein OS=Lactuc...  82.8    4e-18
+TR:A0A0A0L5F7_CUCSA  A0A0A0L5F7 Erecta OS=Cucumis sativus OX=3659...  82.8    4e-18
+TR:A0A1S3BVV6_CUCME  A0A1S3BVV6 LRR receptor-like serine/threonin...  82.8    4e-18
+TR:M1BMF2_SOLTU  M1BMF2 Uncharacterized protein OS=Solanum tubero...  82.4    5e-18
+TR:A0A151RSW1_CAJCA  A0A151RSW1 LRR receptor-like serine/threonin...  82.4    5e-18
+TR:A0A0D3DVC5_BRAOL  A0A0D3DVC5 Uncharacterized protein OS=Brassi...  82.4    5e-18
+SP:ERECT_ARATH  Q42371 LRR receptor-like serine/threonine-protein...  82.4    5e-18
+TR:D7LDF6_ARALL  D7LDF6 Uncharacterized protein OS=Arabidopsis ly...  82.4    5e-18
+TR:A0A178W3B8_ARATH  A0A178W3B8 QRP1 OS=Arabidopsis thaliana OX=3...  82.4    5e-18
+TR:A0A0K9PC96_ZOSMR  A0A0K9PC96 ERECTA-LIKE 1 Receptor-like kinas...  82.4    5e-18
+TR:A0A067XLI7_BRANA  A0A067XLI7 Erecta leucine-rich-repeat recept...  82.4    5e-18
+TR:M1BMF3_SOLTU  M1BMF3 Uncharacterized protein OS=Solanum tubero...  82.4    5e-18
+TR:A0A2I0J0T9_PUNGR  A0A2I0J0T9 Uncharacterized protein OS=Punica...  82.0    7e-18
+TR:V7AW90_PHAVU  V7AW90 Uncharacterized protein OS=Phaseolus vulg...  82.0    7e-18
+TR:A0A218XIH4_PUNGR  A0A218XIH4 Uncharacterized protein OS=Punica...  82.0    7e-18
+TR:A0A2G3BRW9_CAPCH  A0A2G3BRW9 LRR receptor-like serine/threonin...  82.0    7e-18
+TR:A0A068UYZ7_COFCA  A0A068UYZ7 Uncharacterized protein OS=Coffea...  82.0    7e-18
+TR:A0A2P5ASX0_9ROSA  A0A2P5ASX0 GPCR kinase OS=Trema orientalis O...  82.0    8e-18
+TR:A0A0R0JMH9_SOYBN  A0A0R0JMH9 Uncharacterized protein OS=Glycin...  81.6    1e-17
+TR:A0A1U8AZT6_NELNU  A0A1U8AZT6 LRR receptor-like serine/threonin...  81.6    1e-17
+TR:I1K8H0_SOYBN  I1K8H0 Uncharacterized protein OS=Glycine max OX...  81.6    1e-17
+TR:A0A2P6Q1L1_ROSCH  A0A2P6Q1L1 Uncharacterized protein OS=Rosa c...  81.6    1e-17
+TR:A0A0B2RK01_GLYSO  A0A0B2RK01 LRR receptor-like serine/threonin...  81.6    1e-17
+TR:K7KTA3_SOYBN  K7KTA3 Uncharacterized protein OS=Glycine max OX...  81.6    1e-17
+TR:A0A1U8B3N5_NELNU  A0A1U8B3N5 LRR receptor-like serine/threonin...  81.6    1e-17
+TR:K4CKU5_SOLLC  K4CKU5 Uncharacterized protein OS=Solanum lycope...  81.6    1e-17
+TR:A0A2G5E288_AQUCA  A0A2G5E288 Uncharacterized protein OS=Aquile...  81.3    1e-17
+TR:A0A022QY86_ERYGU  A0A022QY86 Uncharacterized protein OS=Erythr...  81.3    1e-17
+TR:A0A2G5E2A7_AQUCA  A0A2G5E2A7 Uncharacterized protein OS=Aquile...  81.3    1e-17
+TR:A0A2G5E2B5_AQUCA  A0A2G5E2B5 Uncharacterized protein OS=Aquile...  81.3    1e-17
+TR:W9R772_9ROSA  W9R772 LRR receptor-like serine/threonine-protei...  81.3    1e-17
+TR:A0A2P2MQT7_RHIMU  A0A2P2MQT7 LRR receptor-like serine/threonin...  80.5    2e-17
+TR:A0A0U5BM22_RORAQ  A0A0U5BM22 Receptor protein kinase OS=Roripp...  80.9    2e-17
+TR:B4FYY7_MAIZE  B4FYY7 Uncharacterized protein OS=Zea mays OX=45...  79.0    2e-17
+TR:A0A2P2MQU8_RHIMU  A0A2P2MQU8 Uncharacterized protein OS=Rhizop...  80.5    3e-17
+TR:A0A0V0IYC4_SOLCH  A0A0V0IYC4 Putative LRR receptor-like serine...  80.5    3e-17
+TR:V4M236_EUTSA  V4M236 Uncharacterized protein OS=Eutrema salsug...  79.7    5e-17
+TR:A0A0K9R1G2_SPIOL  A0A0K9R1G2 Uncharacterized protein OS=Spinac...  79.7    5e-17
+TR:A0A0K9QZD5_SPIOL  A0A0K9QZD5 Uncharacterized protein OS=Spinac...  79.7    5e-17
+TR:C4J0C1_MAIZE  C4J0C1 Uncharacterized protein OS=Zea mays OX=45...  78.6    1e-16
+TR:C0HHD3_MAIZE  C0HHD3 Uncharacterized protein OS=Zea mays OX=45...  78.6    1e-16
+TR:A0A1D6NW59_MAIZE  A0A1D6NW59 Erecta-like protein 2 OS=Zea mays...  78.6    1e-16
+TR:A0A1D6NW55_MAIZE  A0A1D6NW55 Putative leucine-rich repeat rece...  78.6    1e-16
+TR:K7W777_MAIZE  K7W777 Putative leucine-rich repeat receptor-lik...  78.6    1e-16
+TR:A0A1U8B8M5_NELNU  A0A1U8B8M5 LRR receptor-like serine/threonin...  78.2    2e-16
+TR:A0A1U8BC99_NELNU  A0A1U8BC99 LRR receptor-like serine/threonin...  78.2    2e-16
+TR:A0A1U8BJY4_NELNU  A0A1U8BJY4 LRR receptor-like serine/threonin...  78.2    2e-16
+TR:A0A218WSS6_PUNGR  A0A218WSS6 Uncharacterized protein OS=Punica...  78.2    2e-16
+TR:A0A2I0I4J6_PUNGR  A0A2I0I4J6 Uncharacterized protein OS=Punica...  78.2    2e-16
+TR:B8A039_MAIZE  B8A039 Uncharacterized protein OS=Zea mays OX=45...  77.8    2e-16
+TR:A0A1W0VR36_SORBI  A0A1W0VR36 Uncharacterized protein OS=Sorghu...  77.4    3e-16
+TR:C5Z3A2_SORBI  C5Z3A2 Uncharacterized protein OS=Sorghum bicolo...  77.4    3e-16
+TR:A0A1Y0ATR3_9ERIC  A0A1Y0ATR3 ERL1 OS=Monotropa hypopitys OX=17...  77.4    3e-16
+TR:A0A0R0I8U7_SOYBN  A0A0R0I8U7 Uncharacterized protein OS=Glycin...  77.0    4e-16
+TR:I1L3J5_SOYBN  I1L3J5 Uncharacterized protein OS=Glycine max OX...  77.0    4e-16
+TR:A0A0L9V7S3_PHAAN  A0A0L9V7S3 Uncharacterized protein OS=Phaseo...  75.1    4e-16
+TR:A5ACX5_VITVI  A5ACX5 Uncharacterized protein OS=Vitis vinifera...  76.3    5e-16
+TR:M0XWM4_HORVV  M0XWM4 Uncharacterized protein OS=Hordeum vulgar...  76.3    5e-16
+TR:A0A2P4J3S2_QUESU  A0A2P4J3S2 Lrr receptor-like serine/threonin...  76.6    6e-16
+TR:A0A0D3EH25_BRAOL  A0A0D3EH25 Uncharacterized protein OS=Brassi...  76.6    6e-16
+TR:A0A2G9H3E2_9LAMI  A0A2G9H3E2 Serine/threonine protein kinase O...  76.6    6e-16
+TR:M0XWM3_HORVV  M0XWM3 Uncharacterized protein OS=Hordeum vulgar...  76.3    7e-16
+TR:A0A287VJJ8_HORVV  A0A287VJJ8 Uncharacterized protein OS=Hordeu...  76.3    7e-16
+TR:A0A287VJI1_HORVV  A0A287VJI1 Uncharacterized protein OS=Hordeu...  76.3    8e-16
+TR:A0A287VJH1_HORVV  A0A287VJH1 Uncharacterized protein OS=Hordeu...  76.3    8e-16
+TR:M0XWM5_HORVV  M0XWM5 Uncharacterized protein OS=Hordeum vulgar...  76.3    8e-16
+TR:A0A151U6R1_CAJCA  A0A151U6R1 LRR receptor-like serine/threonin...  76.3    8e-16
+TR:F2D523_HORVV  F2D523 Predicted protein OS=Hordeum vulgare subs...  76.3    8e-16
+TR:A0A287VJJ0_HORVV  A0A287VJJ0 Uncharacterized protein OS=Hordeu...  76.3    8e-16
+TR:F6HAJ5_VITVI  F6HAJ5 Uncharacterized protein OS=Vitis vinifera...  76.3    8e-16
+TR:A0A287VJI4_HORVV  A0A287VJI4 Uncharacterized protein OS=Hordeu...  76.3    8e-16
+TR:F2D4E9_HORVV  F2D4E9 Predicted protein OS=Hordeum vulgare subs...  76.3    8e-16
+TR:A0A287VJG2_HORVV  A0A287VJG2 Uncharacterized protein OS=Hordeu...  76.3    8e-16
+TR:A0A059Q1D1_9POAL  A0A059Q1D1 ERECTA-like 2 OS=Saccharum hybrid...  76.3    8e-16
+TR:A0A068VH39_COFCA  A0A068VH39 Uncharacterized protein OS=Coffea...  75.9    1e-15
+TR:K7MIQ6_SOYBN  K7MIQ6 Uncharacterized protein OS=Glycine max OX...  75.9    1e-15
+TR:A0A0B2R1I8_GLYSO  A0A0B2R1I8 LRR receptor-like serine/threonin...  75.9    1e-15
+TR:A0A068U9R3_COFCA  A0A068U9R3 Uncharacterized protein OS=Coffea...  75.9    1e-15
+TR:A0A1U8BHF8_NELNU  A0A1U8BHF8 LRR receptor-like serine/threonin...  75.9    1e-15
+TR:A0A1U8B8S8_NELNU  A0A1U8B8S8 LRR receptor-like serine/threonin...  75.9    1e-15
+TR:A0A2I4FGT4_9ROSI  A0A2I4FGT4 LRR receptor-like serine/threonin...  75.9    1e-15
+TR:I1MQ78_SOYBN  I1MQ78 Uncharacterized protein OS=Glycine max OX...  75.9    1e-15
+TR:C6ZRW6_SOYBN  C6ZRW6 ERECTA-like kinase OS=Glycine max OX=3847...  75.9    1e-15
+TR:A0A061G7G8_THECC  A0A061G7G8 ERECTA-like 1 OS=Theobroma cacao ...  75.5    1e-15
+TR:C6ZRS3_SOYBN  C6ZRS3 ERECTA-like kinase OS=Glycine max OX=3847...  75.1    2e-15
+TR:A0A0R0HY88_SOYBN  A0A0R0HY88 Uncharacterized protein OS=Glycin...  75.1    2e-15
+TR:A0A2R6RT06_ACTCH  A0A2R6RT06 LRR receptor-like serine/threonin...  75.1    2e-15
+TR:A0A0S3TB66_PHAAN  A0A0S3TB66 Uncharacterized protein OS=Vigna ...  75.1    2e-15
+TR:A0A0L9VIY7_PHAAN  A0A0L9VIY7 Uncharacterized protein OS=Phaseo...  75.1    2e-15
+TR:A0A1S3VIC9_VIGRR  A0A1S3VIC9 LRR receptor-like serine/threonin...  75.1    2e-15
+TR:I1LDY4_SOYBN  I1LDY4 Uncharacterized protein OS=Glycine max OX...  75.1    2e-15
+TR:A0A1R3ITK8_COCAP  A0A1R3ITK8 Uncharacterized protein OS=Corcho...  75.1    2e-15
+TR:A0A0L9V6P0_PHAAN  A0A0L9V6P0 Uncharacterized protein OS=Phaseo...  74.7    3e-15
+TR:A0A0S3SCU8_PHAAN  A0A0S3SCU8 Uncharacterized protein OS=Vigna ...  74.7    3e-15
+TR:M4CYJ0_BRARP  M4CYJ0 Uncharacterized protein OS=Brassica rapa ...  74.3    4e-15
+TR:A0A151T466_CAJCA  A0A151T466 LRR receptor-like serine/threonin...  74.3    4e-15
+TR:A0A0S3SMZ2_PHAAN  A0A0S3SMZ2 Uncharacterized protein OS=Vigna ...  74.3    4e-15
+TR:A0A1S3V283_VIGRR  A0A1S3V283 LRR receptor-like serine/threonin...  74.3    4e-15
+TR:A0A072VP04_MEDTR  A0A072VP04 LRR receptor-like kinase family p...  74.3    4e-15
+TR:A0A0L9U0V7_PHAAN  A0A0L9U0V7 Uncharacterized protein OS=Phaseo...  74.3    4e-15
+TR:A0A2P5D9N3_PARAD  A0A2P5D9N3 Serine/threonine protein kinase O...  73.9    5e-15
+TR:A0A0R0ENW4_SOYBN  A0A0R0ENW4 Uncharacterized protein OS=Glycin...  73.9    5e-15
+TR:A0A0R0EBI2_SOYBN  A0A0R0EBI2 Uncharacterized protein OS=Glycin...  73.9    5e-15
+TR:A0A0R0ECN5_SOYBN  A0A0R0ECN5 Uncharacterized protein OS=Glycin...  73.9    5e-15
+TR:V7C646_PHAVU  V7C646 Uncharacterized protein OS=Phaseolus vulg...  73.9    5e-15
+TR:K7N3K5_SOYBN  K7N3K5 Uncharacterized protein OS=Glycine max OX...  73.9    5e-15
+TR:A0A2I0VMN6_9ASPA  A0A2I0VMN6 LRR receptor-like serine/threonin...  73.9    5e-15
+TR:K7N3K4_SOYBN  K7N3K4 Uncharacterized protein OS=Glycine max OX...  73.9    5e-15
+TR:A0A0S3TDK8_PHAAN  A0A0S3TDK8 Uncharacterized protein OS=Vigna ...  70.1    6e-15
+TR:A0A2C9VQQ0_MANES  A0A2C9VQQ0 Uncharacterized protein OS=Maniho...  73.6    7e-15
+TR:A0A164YRK9_DAUCA  A0A164YRK9 Uncharacterized protein OS=Daucus...  73.6    7e-15
+TR:A0A2C9VSR1_MANES  A0A2C9VSR1 Uncharacterized protein OS=Maniho...  73.6    7e-15
+TR:A0A118K4A7_CYNCS  A0A118K4A7 Leucine-rich repeat-containing pr...  73.2    1e-14
+TR:D7M0G4_ARALL  D7M0G4 Uncharacterized protein OS=Arabidopsis ly...  73.2    1e-14
+TR:A0A2N9GQ75_FAGSY  A0A2N9GQ75 Uncharacterized protein OS=Fagus ...  73.2    1e-14
+TR:A0A2R6PM30_ACTCH  A0A2R6PM30 LRR receptor-like serine/threonin...  73.2    1e-14
+TR:A0A2P5CG63_9ROSA  A0A2P5CG63 GPCR kinase OS=Trema orientalis O...  72.8    1e-14
+TR:A0A1P8BE60_ARATH  A0A1P8BE60 ERECTA-like 2 OS=Arabidopsis thal...  72.8    1e-14
+TR:A0A200QBD9_9MAGN  A0A200QBD9 Protein kinase domain OS=Macleaya...  72.8    1e-14
+TR:A0A1U7V716_NICSY  A0A1U7V716 LRR receptor-like serine/threonin...  72.8    1e-14
+TR:A0A1S4BHD0_TOBAC  A0A1S4BHD0 LRR receptor-like serine/threonin...  72.8    1e-14
+SP:ERL2_ARATH  Q6XAT2 LRR receptor-like serine/threonine-protein ...  72.8    1e-14
+TR:A0A1U7V5M4_NICSY  A0A1U7V5M4 LRR receptor-like serine/threonin...  72.8    1e-14
+TR:A0A1J6JYK4_NICAT  A0A1J6JYK4 Lrr receptor-like serinethreonine...  72.8    1e-14
+TR:A0A1S4BHA4_TOBAC  A0A1S4BHA4 LRR receptor-like serine/threonin...  72.8    1e-14
+TR:A0A178UL85_ARATH  A0A178UL85 ERL2 OS=Arabidopsis thaliana OX=3...  72.8    1e-14
+TR:A0A0K9NKH4_ZOSMR  A0A0K9NKH4 ERECTA receptor like kinase OS=Zo...  72.8    1e-14
+TR:A0A2P6SML3_ROSCH  A0A2P6SML3 Uncharacterized protein OS=Rosa c...  72.8    1e-14
+TR:V7BEK1_PHAVU  V7BEK1 Uncharacterized protein OS=Phaseolus vulg...  72.8    1e-14
+TR:A0A1S4CH18_TOBAC  A0A1S4CH18 LRR receptor-like serine/threonin...  72.4    2e-14
+TR:A0A2G2X688_CAPBA  A0A2G2X688 LRR receptor-like serine/threonin...  72.4    2e-14
+TR:A0A2G2ZYQ4_CAPAN  A0A2G2ZYQ4 LRR receptor-like serine/threonin...  72.4    2e-14
+TR:A0A1U8G9S3_CAPAN  A0A1U8G9S3 LRR receptor-like serine/threonin...  72.4    2e-14
+TR:A0A2G3CVX3_CAPCH  A0A2G3CVX3 LRR receptor-like serine/threonin...  72.4    2e-14
+TR:W9SBZ2_9ROSA  W9SBZ2 LRR receptor-like serine/threonine-protei...  72.0    2e-14
+TR:A0A0D9WLD0_9ORYZ  A0A0D9WLD0 Uncharacterized protein OS=Leersi...  72.0    2e-14
+TR:A0A251SAD8_HELAN  A0A251SAD8 Putative ERECTA-like 1 OS=Heliant...  72.0    2e-14
+TR:K4BEC8_SOLLC  K4BEC8 Uncharacterized protein OS=Solanum lycope...  72.0    2e-14
+TR:J3MAY7_ORYBR  J3MAY7 Uncharacterized protein OS=Oryza brachyan...  72.0    2e-14
+TR:A0A1R3L7A0_ASPOF  A0A1R3L7A0 Uncharacterized protein OS=Aspara...  72.0    2e-14
+TR:A0A1S2Y0Q3_CICAR  A0A1S2Y0Q3 LRR receptor-like serine/threonin...  71.6    3e-14
+TR:A0A1Q3B1L7_CEPFO  A0A1Q3B1L7 Pkinase domain-containing protein...  71.6    3e-14
+TR:A0A0P0WSI5_ORYSJ  A0A0P0WSI5 Os06g0130100 protein (Fragment) O...  71.2    4e-14
+TR:A0A1D5X2Z6_WHEAT  A0A1D5X2Z6 Uncharacterized protein OS=Tritic...  71.2    5e-14
+TR:A0A0E0L7B6_ORYPU  A0A0E0L7B6 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:A0A1D6BZL8_WHEAT  A0A1D6BZL8 Uncharacterized protein OS=Tritic...  71.2    5e-14
+TR:B9FRB3_ORYSJ  B9FRB3 Uncharacterized protein OS=Oryza sativa s...  71.2    5e-14
+TR:S8E2K1_9LAMI  S8E2K1 Uncharacterized protein (Fragment) OS=Gen...  71.2    5e-14
+TR:A0A1D6BZM1_WHEAT  A0A1D6BZM1 Uncharacterized protein OS=Tritic...  71.2    5e-14
+TR:A0A058ZXS5_EUCGR  A0A058ZXS5 Uncharacterized protein OS=Eucaly...  71.2    5e-14
+TR:A0A0D3GCB9_9ORYZ  A0A0D3GCB9 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:A0A067XLS2_WHEAT  A0A067XLS2 Erecta-like leucine-rich-repeat r...  71.2    5e-14
+TR:A0A0E0DW48_9ORYZ  A0A0E0DW48 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:A0A1D6BZM0_WHEAT  A0A1D6BZM0 Uncharacterized protein OS=Tritic...  71.2    5e-14
+TR:A0A0E0A4H5_9ORYZ  A0A0E0A4H5 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:D0U6M6_ORYSJ  D0U6M6 Stress-induced protein kinase OS=Oryza sa...  71.2    5e-14
+TR:A0A0D3GCB8_9ORYZ  A0A0D3GCB8 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:B8B1Z7_ORYSI  B8B1Z7 Uncharacterized protein OS=Oryza sativa s...  71.2    5e-14
+TR:A0A0E0HKD0_ORYNI  A0A0E0HKD0 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:A0A0E0PSZ9_ORYRU  A0A0E0PSZ9 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:Q658G7_ORYSJ  Q658G7 Os06g0130100 protein OS=Oryza sativa subs...  71.2    5e-14
+TR:A0A067XLI3_WHEAT  A0A067XLI3 Erecta-like leucine-rich-repeat r...  71.2    5e-14
+TR:A0A1D6BZL9_WHEAT  A0A1D6BZL9 Uncharacterized protein OS=Tritic...  71.2    5e-14
+TR:A0A0E0DW46_9ORYZ  A0A0E0DW46 Uncharacterized protein OS=Oryza ...  71.2    5e-14
+TR:A0A0A0KMH6_CUCSA  A0A0A0KMH6 Uncharacterized protein OS=Cucumi...  71.2    5e-14
+TR:I1PZ75_ORYGL  I1PZ75 Uncharacterized protein OS=Oryza glaberri...  71.2    5e-14
+TR:Q7XB99_ORYSJ  Q7XB99 Os06g0130100 protein OS=Oryza sativa subs...  71.2    5e-14
+TR:A0A1X9HIM7_ELECO  A0A1X9HIM7 Leucine rich repeat protein kinas...  70.9    6e-14
+TR:A0A2I0AWT2_9ASPA  A0A2I0AWT2 LRR receptor-like serine/threonin...  70.9    6e-14
+TR:A0A067FPI0_CITSI  A0A067FPI0 Uncharacterized protein OS=Citrus...  70.9    6e-14
+TR:V4RLD2_9ROSI  V4RLD2 Uncharacterized protein OS=Citrus clement...  70.9    6e-14
+TR:A0A0S3SA89_PHAAN  A0A0S3SA89 Uncharacterized protein OS=Vigna ...  70.1    7e-14
+TR:A0A2K3LU67_TRIPR  A0A2K3LU67 LRR receptor-like kinase resistan...  69.3    8e-14
+TR:A0A2J6M1H4_LACSA  A0A2J6M1H4 Uncharacterized protein OS=Lactuc...  70.5    9e-14
+TR:A0A1E5WN68_9POAL  A0A1E5WN68 LRR receptor-like serine/threonin...  70.5    9e-14
+TR:B9R9M2_RICCO  B9R9M2 Erecta, putative OS=Ricinus communis OX=3...  70.1    1e-13
+TR:A0A022QET9_ERYGU  A0A022QET9 Uncharacterized protein OS=Erythr...  70.1    1e-13
+TR:R0FJE2_9BRAS  R0FJE2 Uncharacterized protein OS=Capsella rubel...  70.1    1e-13
+TR:A0A199W4P9_ANACO  A0A199W4P9 LRR receptor-like serine/threonin...  70.1    1e-13
+TR:A0A2I4EED9_9ROSI  A0A2I4EED9 LRR receptor-like serine/threonin...  69.7    2e-13
+TR:A0A1J3FLE0_NOCCA  A0A1J3FLE0 LRR receptor-like serine/threonin...  68.2    2e-13
+TR:A0A1J3GI13_NOCCA  A0A1J3GI13 LRR receptor-like serine/threonin...  64.7    2e-13
+TR:K3XV25_SETIT  K3XV25 Uncharacterized protein OS=Setaria italic...  69.3    2e-13
+TR:A0A2T7E3I4_9POAL  A0A2T7E3I4 Uncharacterized protein OS=Panicu...  69.3    2e-13
+TR:A0A2S3HM43_9POAL  A0A2S3HM43 Uncharacterized protein OS=Panicu...  69.3    2e-13
+TR:A0A2T7E3G9_9POAL  A0A2T7E3G9 Uncharacterized protein OS=Panicu...  69.3    2e-13
+TR:A0A2S3HM38_9POAL  A0A2S3HM38 Uncharacterized protein OS=Panicu...  69.3    2e-13
+TR:I1H187_BRADI  I1H187 Uncharacterized protein OS=Brachypodium d...  69.3    2e-13
+TR:A0A1D6D250_WHEAT  A0A1D6D250 Uncharacterized protein OS=Tritic...  68.9    3e-13
+TR:A0A2H3Z953_PHODC  A0A2H3Z953 LRR receptor-like serine/threonin...  68.9    3e-13
+TR:A0A0D2S4U8_GOSRA  A0A0D2S4U8 Uncharacterized protein OS=Gossyp...  68.6    4e-13
+TR:A0A2U1PCN0_ARTAN  A0A2U1PCN0 ERECTA-like 1 OS=Artemisia annua ...  68.6    4e-13
+TR:A0A1J3HC62_NOCCA  A0A1J3HC62 LRR receptor-like serine/threonin...  68.2    5e-13
+TR:A0A251QMU6_PRUPE  A0A251QMU6 Uncharacterized protein OS=Prunus...  68.2    6e-13
+TR:M5XTC5_PRUPE  M5XTC5 Uncharacterized protein OS=Prunus persica...  68.2    6e-13
+TR:A0A2P5R6N2_GOSBA  A0A2P5R6N2 Uncharacterized protein OS=Gossyp...  67.8    8e-13
+TR:A0A2P5W012_GOSBA  A0A2P5W012 Uncharacterized protein OS=Gossyp...  67.8    8e-13
+TR:A0A0B0N6X0_GOSAR  A0A0B0N6X0 LRR receptor-like serine/threonin...  67.8    8e-13
+TR:A0A1U8L4M3_GOSHI  A0A1U8L4M3 LRR receptor-like serine/threonin...  67.8    8e-13
+TR:A0A1U8J891_GOSHI  A0A1U8J891 LRR receptor-like serine/threonin...  67.8    8e-13
+TR:F2WB30_9ROSI  F2WB30 Leucine-rich repeat receptor-like kinase ...  67.4    1e-12
+TR:A0A2K1XMD8_POPTR  A0A2K1XMD8 Uncharacterized protein OS=Populu...  67.4    1e-12
+TR:A0A2K1YCX7_POPTR  A0A2K1YCX7 Uncharacterized protein OS=Populu...  67.4    1e-12
+TR:A0A2K1YCW4_POPTR  A0A2K1YCW4 Uncharacterized protein OS=Populu...  67.4    1e-12
+TR:A0A067JEQ4_JATCU  A0A067JEQ4 Uncharacterized protein OS=Jatrop...  67.4    1e-12
+TR:M0SQC0_MUSAM  M0SQC0 Uncharacterized protein OS=Musa acuminata...  66.6    1e-12
+TR:F4K6F3_ARATH  F4K6F3 ERECTA-like 1 OS=Arabidopsis thaliana OX=...  66.6    2e-12
+TR:M7Z522_TRIUA  M7Z522 LRR receptor-like serine/threonine-protei...  66.6    2e-12
+SP:ERL1_ARATH  C0LGW6 LRR receptor-like serine/threonine-protein ...  66.6    2e-12
+TR:A0A178UB72_ARATH  A0A178UB72 ERL1 OS=Arabidopsis thaliana OX=3...  66.6    2e-12
+TR:A0A1S3CND6_CUCME  A0A1S3CND6 LRR receptor-like serine/threonin...  66.6    2e-12
+TR:D7MLB8_ARALL  D7MLB8 Uncharacterized protein OS=Arabidopsis ly...  66.2    3e-12
+TR:A0A087GDK2_ARAAL  A0A087GDK2 Uncharacterized protein OS=Arabis...  66.2    3e-12
+TR:M4D0R8_BRARP  M4D0R8 Uncharacterized protein OS=Brassica rapa ...  65.9    4e-12
+TR:V4KKH7_EUTSA  V4KKH7 Uncharacterized protein (Fragment) OS=Eut...  65.9    4e-12
+TR:V4N5B0_EUTSA  V4N5B0 Uncharacterized protein OS=Eutrema salsug...  65.9    4e-12
+TR:M8B7H5_AEGTA  M8B7H5 LRR receptor-like serine/threonine-protei...  65.9    4e-12
+TR:R0EUP6_9BRAS  R0EUP6 Uncharacterized protein OS=Capsella rubel...  65.9    4e-12
+TR:U5D1J4_AMBTC  U5D1J4 Uncharacterized protein OS=Amborella tric...  65.9    4e-12
+TR:A0A0D3BFU6_BRAOL  A0A0D3BFU6 Uncharacterized protein OS=Brassi...  65.1    7e-12
+TR:A0A2K1XMD7_POPTR  A0A2K1XMD7 Uncharacterized protein OS=Populu...  64.7    9e-12
+TR:A0A077RVB2_WHEAT  A0A077RVB2 Uncharacterized protein OS=Tritic...  62.4    2e-11
+TR:A0A0K9NLP3_ZOSMR  A0A0K9NLP3 ERECTA-LIKE 2 Receptor-like kinas...  60.8    2e-10
+TR:D8S230_SELML  D8S230 Uncharacterized protein ERb-2 (Fragment) ...  57.4    4e-09
+TR:D8RVD0_SELML  D8RVD0 Uncharacterized protein ERb-1 (Fragment) ...  57.4    4e-09
+TR:D8SH63_SELML  D8SH63 Uncharacterized protein ERa-2 OS=Selagine...  57.0    5e-09
+TR:D8SD03_SELML  D8SD03 Uncharacterized protein ERa-1 OS=Selagine...  56.6    7e-09
+TR:A0A2K1IYI8_PHYPA  A0A2K1IYI8 Uncharacterized protein OS=Physco...  56.2    9e-09
+TR:A9SVR0_PHYPA  A9SVR0 ERL2b AtERECTA-like receptor S/T protein ...  54.3    4e-08
+TR:A0A2K1L2N0_PHYPA  A0A2K1L2N0 Uncharacterized protein OS=Physco...  54.3    4e-08
+TR:A9SBI8_PHYPA  A9SBI8 ERL2a AtERECTA-like receptor S/T protein ...  52.8    2e-07
+TR:A9RPE7_PHYPA  A9RPE7 ERL1d AtERECTA-like receptor S/T protein ...  52.4    2e-07
+TR:A0A1P8DYY0_9BRYO  A0A1P8DYY0 Leucine-rich repeat receptor-like...  52.4    2e-07
+TR:A0A0A9QV46_ARUDO  A0A0A9QV46 GSVIVT01001600001 OS=Arundo donax...  48.5    6e-07
+TR:A9SUR2_PHYPA  A9SUR2 ERL1c AtERECTA-like receptor S/T protein ...  50.8    7e-07
+TR:A0A2K1IN22_PHYPA  A0A2K1IN22 Uncharacterized protein OS=Physco...  50.8    7e-07
+TR:A0A1P8DYW6_9BRYO  A0A1P8DYW6 Leucine-rich repeat receptor-like...  50.4    1e-06
+TR:A0A199VQB0_ANACO  A0A199VQB0 Putative LRR receptor-like serine...  50.1    1e-06
+TR:D8SBB8_SELML  D8SBB8 Uncharacterized protein SERK2b-1 OS=Selag...  49.7    2e-06
+TR:D8S0N3_SELML  D8S0N3 Uncharacterized protein SERK2b-2 OS=Selag...  49.7    2e-06
+TR:A9RP08_PHYPA  A9RP08 ERL1b AtERECTA-like receptor S/T protein ...  49.3    3e-06
+TR:A9TWY2_PHYPA  A9TWY2 ERL1a AtERECTA-like receptor S/T protein ...  49.3    3e-06
+TR:A0A2K1J0L8_PHYPA  A0A2K1J0L8 Uncharacterized protein OS=Physco...  49.3    3e-06
+TR:A0A2S3IDC5_9POAL  A0A2S3IDC5 Uncharacterized protein OS=Panicu...  49.3    3e-06
+TR:A0A2T7CLQ6_9POAL  A0A2T7CLQ6 Uncharacterized protein OS=Panicu...  49.3    3e-06
+TR:A0A2K1IRB3_PHYPA  A0A2K1IRB3 Uncharacterized protein OS=Physco...  49.3    3e-06
+TR:A0A176WN08_MARPO  A0A176WN08 Uncharacterized protein OS=Marcha...  48.9    3e-06
+TR:M0SA64_MUSAM  M0SA64 Uncharacterized protein OS=Musa acuminata...  48.9    3e-06
+TR:A0A2P5B1T6_PARAD  A0A2P5B1T6 Serine/threonine protein kinase O...  48.9    3e-06
+TR:A0A2R6WNW5_MARPO  A0A2R6WNW5 Uncharacterized protein OS=Marcha...  48.9    3e-06
+TR:A0A059B1Z1_EUCGR  A0A059B1Z1 Uncharacterized protein OS=Eucaly...  48.9    3e-06
+TR:A0A0A9DJL2_ARUDO  A0A0A9DJL2 Uncharacterized protein OS=Arundo...  47.4    4e-06
+
+
+>TR:Q8W0U9_SORBI Q8W0U9 Putative receptor protein kinase OS=Sorghum bicolor OX=4558 
+GN=SB35P03.1 PE=3 SV=1
+Length=921
+
+ Score = 117 bits (292),  Expect = 4e-30
+ Identities = 58/69 (84%), Positives = 61/69 (88%), Gaps = 2/69 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDTVDPDIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDPP    P
+Sbjct  810  MDTVDPDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPPPK--P  867
+
+Query  61   AAGQLAETS  69
+            +A QL + S
+Sbjct  868  SAHQLPQPS  876
+
+
+>TR:A0A194YIY1_SORBI A0A194YIY1 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3010G077000 PE=3 SV=1
+Length=959
+
+ Score = 117 bits (292),  Expect = 4e-30
+ Identities = 58/69 (84%), Positives = 61/69 (88%), Gaps = 2/69 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDTVDPDIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDPP    P
+Sbjct  848  MDTVDPDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPPPK--P  905
+
+Query  61   AAGQLAETS  69
+            +A QL + S
+Sbjct  906  SAHQLPQPS  914
+
+
+>TR:A0A1W0VRV8_SORBI A0A1W0VRV8 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3010G077000 PE=3 SV=1
+Length=981
+
+ Score = 117 bits (292),  Expect = 4e-30
+ Identities = 58/69 (84%), Positives = 61/69 (88%), Gaps = 2/69 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDTVDPDIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDPP    P
+Sbjct  870  MDTVDPDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPPPK--P  927
+
+Query  61   AAGQLAETS  69
+            +A QL + S
+Sbjct  928  SAHQLPQPS  936
+
+
+>TR:C5Z6B9_SORBI C5Z6B9 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3010G077000 
+PE=3 SV=1
+Length=982
+
+ Score = 117 bits (292),  Expect = 4e-30
+ Identities = 58/69 (84%), Positives = 61/69 (88%), Gaps = 2/69 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDTVDPDIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDPP    P
+Sbjct  871  MDTVDPDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPPPK--P  928
+
+Query  61   AAGQLAETS  69
+            +A QL + S
+Sbjct  929  SAHQLPQPS  937
+
+
+>TR:A0A0A9I9W7_ARUDO A0A0A9I9W7 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=112
+
+ Score = 107 bits (268),  Expect = 4e-30
+ Identities = 50/55 (91%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  1   MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+           M+TVDPDIG+TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LVNP PP
+Sbjct  1   METVDPDIGDTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPAPP  55
+
+
+>TR:K3XV18_SETIT K3XV18 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101758097 
+PE=3 SV=1
+Length=990
+
+ Score = 113 bits (283),  Expect = 6e-29
+ Identities = 54/61 (89%), Positives = 58/61 (95%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDIG+TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LVNPDPP  +PP
+Sbjct  874  METVDPDIGDTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPP-PKPP  932
+
+Query  61   A  61
+            A
+Sbjct  933  A  933
+
+
+>TR:A0A1D6LUK0_MAIZE A0A1D6LUK0 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=3 SV=1
+Length=393
+
+ Score = 110 bits (274),  Expect = 2e-28
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  275  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  329
+
+
+>TR:B4FFM0_MAIZE B4FFM0 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=492
+
+ Score = 110 bits (274),  Expect = 6e-28
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  374  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  428
+
+
+>TR:A0A1D6LUK8_MAIZE A0A1D6LUK8 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=4 SV=1
+Length=584
+
+ Score = 110 bits (274),  Expect = 8e-28
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  466  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  520
+
+
+>TR:A0A1D6LUK4_MAIZE A0A1D6LUK4 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=4 SV=1
+Length=684
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  566  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  620
+
+
+>TR:A0A1D6LUJ8_MAIZE A0A1D6LUJ8 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=4 SV=1
+Length=781
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  663  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  717
+
+
+>TR:A0A1D6LUK3_MAIZE A0A1D6LUK3 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=3 SV=1
+Length=946
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  828  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  882
+
+
+>TR:A0A1D6LUK6_MAIZE A0A1D6LUK6 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=100193598 PE=3 SV=1
+Length=963
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  845  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  899
+
+
+>TR:C0P7W0_MAIZE C0P7W0 LRR receptor-like serine/threonine-protein kinase ERECTA 
+OS=Zea mays OX=4577 GN=100193598 PE=2 SV=1
+Length=994
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 50/55 (91%), Positives = 54/55 (98%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPD+G+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNP+PP
+Sbjct  876  METVDPDVGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPEPP  930
+
+
+>TR:A0A0D9WN17_9ORYZ A0A0D9WN17 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=962
+
+ Score = 109 bits (273),  Expect = 1e-27
+ Identities = 54/66 (82%), Positives = 59/66 (89%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV+PDPP   P 
+Sbjct  817  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVHPDPP---PK  873
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  874  SAQQLA  879
+
+
+>TR:A0A0E0DYG2_9ORYZ A0A0E0DYG2 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=873
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  761  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  817
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  818  SAQQLA  823
+
+
+>TR:B9FS18_ORYSJ B9FS18 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_20503 PE=3 SV=1
+Length=882
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  771  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  827
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  828  SAQQLA  833
+
+
+>TR:A0A0E0DYG3_9ORYZ A0A0E0DYG3 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=885
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  773  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  829
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  830  SAQQLA  835
+
+
+>TR:A0A0D3GDY1_9ORYZ A0A0D3GDY1 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=896
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  785  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  841
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  842  SAQQLA  847
+
+
+>TR:A0A0D3GDY2_9ORYZ A0A0D3GDY2 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=903
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  792  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  848
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  849  SAQQLA  854
+
+
+>TR:B8B3W5_ORYSI B8B3W5 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_22078 PE=3 SV=1
+Length=930
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  819  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  875
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  876  SAQQLA  881
+
+
+>TR:I1Q0E1_ORYGL I1Q0E1 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=978
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  867  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  923
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  924  SAQQLA  929
+
+
+>TR:Q69SP5_ORYSJ Q69SP5 Os06g0203800 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os06g0203800 PE=3 SV=1
+Length=978
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 54/66 (82%), Positives = 58/66 (88%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  867  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  923
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  924  SAQQLA  929
+
+
+>TR:A0A0A9AGT4_ARUDO A0A0A9AGT4 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=258
+
+ Score = 103 bits (258),  Expect = 6e-27
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDIG+TC+DLGEVKK+FQLALLCTKRQP DRPTM+EVVRVLD LVN DPP   P 
+Sbjct  147  METVDPDIGDTCEDLGEVKKVFQLALLCTKRQPLDRPTMYEVVRVLDCLVNADPP---PK  203
+
+Query  61   AAGQLA  66
+             A QLA
+Sbjct  204  PAQQLA  209
+
+
+>TR:A0A2T7E1U1_9POAL A0A2T7E1U1 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G303500 PE=4 SV=1
+Length=983
+
+ Score = 107 bits (268),  Expect = 6e-27
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 6/71 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP-PQS--  57
+            M+TVD DIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDP P+S  
+Sbjct  868  METVDSDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPLPKSSY  927
+
+Query  58   -RPPAAGQLAE  67
+             +PP  GQL +
+Sbjct  928  QQPP--GQLPQ  936
+
+
+>TR:A0A2T7E1U8_9POAL A0A2T7E1U8 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G303500 PE=4 SV=1
+Length=989
+
+ Score = 107 bits (268),  Expect = 6e-27
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 6/71 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP-PQS--  57
+            M+TVD DIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPDP P+S  
+Sbjct  874  METVDSDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDPLPKSSY  933
+
+Query  58   -RPPAAGQLAE  67
+             +PP  GQL +
+Sbjct  934  QQPP--GQLPQ  942
+
+
+>TR:A0A2S3HKY5_9POAL A0A2S3HKY5 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G289000 PE=4 SV=1
+Length=982
+
+ Score = 107 bits (267),  Expect = 9e-27
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 6/71 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQS--  57
+            M+TVD DIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPD PP+S  
+Sbjct  867  METVDVDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDLPPKSSY  926
+
+Query  58   -RPPAAGQLAE  67
+             +PP  GQL +
+Sbjct  927  QQPP--GQLPQ  935
+
+
+>TR:A0A2T8JEB4_9POAL A0A2T8JEB4 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G289000 PE=4 SV=1
+Length=988
+
+ Score = 107 bits (267),  Expect = 9e-27
+ Identities = 57/71 (80%), Positives = 62/71 (87%), Gaps = 6/71 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQS--  57
+            M+TVD DIG+TCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLD LVNPD PP+S  
+Sbjct  873  METVDVDIGDTCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDCLVNPDLPPKSSY  932
+
+Query  58   -RPPAAGQLAE  67
+             +PP  GQL +
+Sbjct  933  QQPP--GQLPQ  941
+
+
+>TR:J3MC63_ORYBR J3MC63 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=1040
+
+ Score = 106 bits (265),  Expect = 2e-26
+ Identities = 49/55 (89%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV+PDPP
+Sbjct  929  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVHPDPP  983
+
+
+>TR:A0A0E0L931_ORYPU A0A0E0L931 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=831
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVL  LV PDPP   P 
+Sbjct  712  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLVCLVRPDPP---PK  768
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  769  SAQQLA  774
+
+
+>TR:A0A0E0L930_ORYPU A0A0E0L930 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=839
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVL  LV PDPP   P 
+Sbjct  720  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLVCLVRPDPP---PK  776
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  777  SAQQLA  782
+
+
+>TR:M7ZU72_TRIUA M7ZU72 LRR receptor-like serine/threonine-protein kinase ERECTA 
+OS=Triticum urartu OX=4572 GN=TRIUR3_30841 PE=3 SV=1
+Length=922
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  813  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  872
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  873  PQPPTGPSYA  882
+
+
+>TR:A0A067XLK0_WHEAT A0A067XLK0 Erecta leucine-rich-repeat receptor-like kinase OS=Triticum 
+aestivum OX=4565 GN=ER1_gA PE=3 SV=1
+Length=939
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  830  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  889
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  890  PQPPTGPSYA  899
+
+
+>TR:A0A1D6BYQ4_WHEAT A0A1D6BYQ4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=960
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  851  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  910
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  911  PQPPTGPSYA  920
+
+
+>TR:A0A1D6CKB3_WHEAT A0A1D6CKB3 Receptor-like serine/threonine protein kinase 2 OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=961
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  853  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  912
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  913  PQPPTGPSYA  922
+
+
+>TR:I2ALK7_WHEAT I2ALK7 Erecta leucine-rich-repeat receptor-like kinase OS=Triticum 
+aestivum OX=4565 GN=ER1 PE=3 SV=2
+Length=975
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  867  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  926
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  927  PQPPTGPSYA  936
+
+
+>TR:A0A067XLI6_WHEAT A0A067XLI6 Erecta leucine-rich-repeat receptor-like kinase OS=Triticum 
+aestivum OX=4565 GN=ER1_gB PE=3 SV=1
+Length=976
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  868  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  927
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  928  PQPPTGPSYA  937
+
+
+>TR:I2ALK8_WHEAT I2ALK8 Receptor-like serine/threonine protein kinase 2 OS=Triticum 
+aestivum OX=4565 GN=ER2 PE=3 SV=2
+Length=976
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  868  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  927
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  928  PQPPTGPSYA  937
+
+
+>TR:I3PMY5_WHEAT I3PMY5 ERECTA OS=Triticum aestivum OX=4565 PE=2 SV=1
+Length=977
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  868  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  927
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  928  PQPPTGPSYA  937
+
+
+>TR:A0A1D6BYQ3_WHEAT A0A1D6BYQ3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=977
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  868  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  927
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  928  PQPPTGPSYA  937
+
+
+>TR:M8BCH9_AEGTA M8BCH9 LRR receptor-like serine/threonine-protein kinase ERL1 
+OS=Aegilops tauschii OX=37682 GN=F775_17157 PE=3 SV=1
+Length=1019
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 51/70 (73%), Positives = 58/70 (83%), Gaps = 4/70 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP    Q
+Sbjct  819  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPPPKAAQ  878
+
+Query  57   SRPPAAGQLA  66
+             +PP     A
+Sbjct  879  PQPPTGPSYA  888
+
+
+>TR:A0A0E0HMD8_ORYNI A0A0E0HMD8 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=896
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PD P   P 
+Sbjct  785  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDLP---PK  841
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  842  SAQQLA  847
+
+
+>TR:A0A0E0PUT4_ORYRU A0A0E0PUT4 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=896
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVD DI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  785  METVDLDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  841
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  842  SAQQLA  847
+
+
+>TR:A0A0E0A6G3_9ORYZ A0A0E0A6G3 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=896
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PD P   P 
+Sbjct  785  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDLP---PK  841
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  842  SAQQLA  847
+
+
+>TR:A0A0E0HMD9_ORYNI A0A0E0HMD9 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=903
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PD P   P 
+Sbjct  792  METVDPDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDLP---PK  848
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  849  SAQQLA  854
+
+
+>TR:A0A0E0PUT5_ORYRU A0A0E0PUT5 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=903
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 53/66 (80%), Positives = 57/66 (86%), Gaps = 3/66 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVD DI +TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP   P 
+Sbjct  792  METVDLDIADTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP---PK  848
+
+Query  61   AAGQLA  66
+            +A QLA
+Sbjct  849  SAQQLA  854
+
+
+>TR:Q6ZGC7_ORYSJ Q6ZGC7 Receptor protein kinase PERK1-like OS=Oryza sativa subsp. 
+japonica OX=39947 GN=OJ1534_E09.14 PE=2 SV=1
+Length=392
+
+ Score = 103 bits (258),  Expect = 5e-26
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  281  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  340
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  341  PPALPQ  346
+
+
+>TR:J3LHM2_ORYBR J3LHM2 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102719363 
+PE=3 SV=1
+Length=999
+
+ Score = 105 bits (261),  Expect = 6e-26
+ Identities = 51/66 (77%), Positives = 57/66 (86%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   ++
+Sbjct  887  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAQ  946
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  947  PPALPQ  952
+
+
+>TR:Q0DX34_ORYSJ Q0DX34 Os02g0777400 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os02g0777400 PE=3 SV=1
+Length=447
+
+ Score = 103 bits (258),  Expect = 7e-26
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  336  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  395
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  396  PPALPQ  401
+
+
+>TR:A0A1E5VJR9_9POAL A0A1E5VJR9 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0013598 
+PE=3 SV=1
+Length=830
+
+ Score = 104 bits (260),  Expect = 8e-26
+ Identities = 51/64 (80%), Positives = 57/64 (89%), Gaps = 3/64 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI +TCKDLGEVKK+FQLALLCTKRQP+DRPTMHEVVRVLD LVNPD P   P 
+Sbjct  715  METVDPDIRDTCKDLGEVKKVFQLALLCTKRQPADRPTMHEVVRVLDCLVNPDLP---PK  771
+
+Query  61   AAGQ  64
+            ++GQ
+Sbjct  772  SSGQ  775
+
+
+>TR:A0A2K2DPP9_BRADI A0A2K2DPP9 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_1g46450v3 PE=3 SV=1
+Length=957
+
+ Score = 104 bits (260),  Expect = 8e-26
+ Identities = 48/55 (87%), Positives = 52/55 (95%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP
+Sbjct  848  METVDPDIADTCQDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP  902
+
+
+>TR:I1H005_BRADI I1H005 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100833666 PE=3 SV=1
+Length=978
+
+ Score = 104 bits (260),  Expect = 8e-26
+ Identities = 48/55 (87%), Positives = 52/55 (95%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVLD LV PDPP
+Sbjct  869  METVDPDIADTCQDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLDCLVRPDPP  923
+
+
+>TR:M0VM44_HORVV M0VM44 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=385
+
+ Score = 102 bits (255),  Expect = 1e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  275  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  334
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  335  PHPQPP  340
+
+
+>TR:A0A0D9YZ58_9ORYZ A0A0D9YZ58 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=605
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  494  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  553
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  554  PPALPQ  559
+
+
+>TR:A0A0D9YZ55_9ORYZ A0A0D9YZ55 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=634
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  523  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  582
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  583  PPALPQ  588
+
+
+>TR:A0A0E0NLN6_ORYRU A0A0E0NLN6 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=859
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  748  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  807
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  808  PPALPQ  813
+
+
+>TR:A0A0E0NLN5_ORYRU A0A0E0NLN5 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=870
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  759  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  818
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  819  PPALPQ  824
+
+
+>TR:A0A0E0NLN4_ORYRU A0A0E0NLN4 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=883
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  772  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  831
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  832  PPALPQ  837
+
+
+>TR:A0A0E0NLN3_ORYRU A0A0E0NLN3 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=894
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  783  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  842
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  843  PPALPQ  848
+
+
+>TR:A0A0D3FB59_9ORYZ A0A0D3FB59 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=898
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  787  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  846
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  847  PPALPQ  852
+
+
+>TR:A0A0D3FB57_9ORYZ A0A0D3FB57 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=907
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  796  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  855
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  856  PPALPQ  861
+
+
+>TR:A0A0D3FB58_9ORYZ A0A0D3FB58 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=907
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  796  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  855
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  856  PPALPQ  861
+
+
+>TR:B9F3I9_ORYSJ B9F3I9 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_08587 PE=3 SV=1
+Length=913
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  802  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  861
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  862  PPALPQ  867
+
+
+>TR:B8AJH2_ORYSI B8AJH2 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_09151 PE=3 SV=1
+Length=913
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  802  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  861
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  862  PPALPQ  867
+
+
+>TR:A0A0E0NLN2_ORYRU A0A0E0NLN2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=918
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  807  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  866
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  867  PPALPQ  872
+
+
+>TR:A0A0D3FB56_9ORYZ A0A0D3FB56 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=922
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  811  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  870
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  871  PPALPQ  876
+
+
+>TR:A0A0E0K5W2_ORYPU A0A0E0K5W2 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=936
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  825  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  884
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  885  PPALPQ  890
+
+
+>TR:A0A0E0GDK2_ORYNI A0A0E0GDK2 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=977
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  866  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  925
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  926  PPALPQ  931
+
+
+>TR:F2EI53_HORVV F2EI53 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=977
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 47/55 (85%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP
+Sbjct  867  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPP  921
+
+
+>TR:F2DLX7_HORVV F2DLX7 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=977
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 47/55 (85%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP  55
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDPP
+Sbjct  867  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPP  921
+
+
+>TR:I1P4T5_ORYGL I1P4T5 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=981
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  870  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  929
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  930  PPALPQ  935
+
+
+>TR:I1Z695_ORYSJ I1Z695 ERECTA-like kinase OS=Oryza sativa subsp. japonica OX=39947 
+PE=2 SV=1
+Length=986
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  875  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  934
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  935  PPALPQ  940
+
+
+>TR:A0A0E0GDK1_ORYNI A0A0E0GDK1 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=1001
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  890  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  949
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  950  PPALPQ  955
+
+
+>TR:A0A0D9YZ57_9ORYZ A0A0D9YZ57 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=1011
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  900  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  959
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  960  PPALPQ  965
+
+
+>TR:A0A0D9YZ56_9ORYZ A0A0D9YZ56 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=1035
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  924  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  983
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  984  PPALPQ  989
+
+
+>TR:M0VM48_HORVV M0VM48 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=502
+
+ Score = 102 bits (255),  Expect = 3e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  392  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  451
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  452  PHPQPP  457
+
+
+>TR:A0A287W0J4_HORVV A0A287W0J4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=558
+
+ Score = 102 bits (255),  Expect = 3e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  448  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  507
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  508  PHPQPP  513
+
+
+>TR:A0A287VZR4_HORVV A0A287VZR4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=698
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  588  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  647
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  648  PHPQPP  653
+
+
+>TR:A0A287VZS2_HORVV A0A287VZS2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=755
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  645  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  704
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  705  PHPQPP  710
+
+
+>TR:M0VM47_HORVV M0VM47 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=772
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  662  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  721
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  722  PHPQPP  727
+
+
+>TR:A0A287VZZ2_HORVV A0A287VZZ2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=777
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  667  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  726
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  727  PHPQPP  732
+
+
+>TR:A0A287W002_HORVV A0A287W002 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=866
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  756  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  815
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  816  PHPQPP  821
+
+
+>TR:A0A287VZR9_HORVV A0A287VZR9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=952
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  842  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  901
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  902  PHPQPP  907
+
+
+>TR:M0VM45_HORVV M0VM45 ERECTA OS=Hordeum vulgare subsp. vulgare OX=112509 GN=Ert-m 
+PE=2 SV=1
+Length=977
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  867  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  926
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  927  PHPQPP  932
+
+
+>TR:A0A287W0H7_HORVV A0A287W0H7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=981
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  871  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  930
+
+Query  55   PQSRPP  60
+            P  +PP
+Sbjct  931  PHPQPP  936
+
+
+>TR:A0A287VZZ5_HORVV A0A287VZZ5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=1127
+
+ Score = 102 bits (255),  Expect = 4e-25
+ Identities = 49/66 (74%), Positives = 56/66 (85%), Gaps = 6/66 (9%)
+
+Query  1     MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+             M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+PDP      
+Sbjct  1017  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVHPDPLPKVAQ  1076
+
+Query  55    PQSRPP  60
+             P  +PP
+Sbjct  1077  PHPQPP  1082
+
+
+>TR:K3YPN5_SETIT K3YPN5 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101780996 
+PE=3 SV=1
+Length=966
+
+ Score = 102 bits (254),  Expect = 5e-25
+ Identities = 51/68 (75%), Positives = 58/68 (85%), Gaps = 2/68 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP--QSR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP  Q++
+Sbjct  855  MEMVDPDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDSLVCPDPPPKQAQ  914
+
+Query  59   PPAAGQLA  66
+            P  + Q A
+Sbjct  915  PQGSEQSA  922
+
+
+>TR:A0A2S3GU02_9POAL A0A2S3GU02 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G419400 PE=4 SV=1
+Length=990
+
+ Score = 102 bits (254),  Expect = 5e-25
+ Identities = 51/68 (75%), Positives = 58/68 (85%), Gaps = 2/68 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PD  P Q++
+Sbjct  879  MEMVDPDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDSLVCPDLSPKQAQ  938
+
+Query  59   PPAAGQLA  66
+            P  +GQ A
+Sbjct  939  PQGSGQSA  946
+
+
+>TR:A0A2T7FCW1_9POAL A0A2T7FCW1 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G410500 PE=4 SV=1
+Length=990
+
+ Score = 102 bits (254),  Expect = 5e-25
+ Identities = 51/68 (75%), Positives = 58/68 (85%), Gaps = 2/68 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PD  P Q++
+Sbjct  879  MEMVDPDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDSLVCPDLSPKQAQ  938
+
+Query  59   PPAAGQLA  66
+            P  +GQ A
+Sbjct  939  PQGSGQSA  946
+
+
+>TR:A0A0D9VLR7_9ORYZ A0A0D9VLR7 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=916
+
+ Score = 102 bits (253),  Expect = 7e-25
+ Identities = 50/66 (76%), Positives = 56/66 (85%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDP    ++
+Sbjct  805  MEMVDPDIADTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPSSKPTQ  864
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  865  PPALPQ  870
+
+
+>TR:A0A0E0CS72_9ORYZ A0A0E0CS72 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=895
+
+ Score = 101 bits (252),  Expect = 9e-25
+ Identities = 50/66 (76%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDL EVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  784  MEMVDPDIADTCKDLAEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  843
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  844  PPALPQ  849
+
+
+>TR:A0A0E0CS71_9ORYZ A0A0E0CS71 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=908
+
+ Score = 101 bits (252),  Expect = 9e-25
+ Identities = 50/66 (76%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDL EVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  797  MEMVDPDIADTCKDLAEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  856
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  857  PPALPQ  862
+
+
+>TR:A0A0E0CS70_9ORYZ A0A0E0CS70 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=919
+
+ Score = 101 bits (252),  Expect = 9e-25
+ Identities = 50/66 (76%), Positives = 55/66 (83%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ--SR  58
+            M+ VDPDI +TCKDL EVKK+FQLALLC+KRQPSDRPTMHEVVRVLD LV PDPP   + 
+Sbjct  808  MEMVDPDIADTCKDLAEVKKVFQLALLCSKRQPSDRPTMHEVVRVLDCLVYPDPPSKPAL  867
+
+Query  59   PPAAGQ  64
+            PPA  Q
+Sbjct  868  PPALPQ  873
+
+
+>TR:A0A2H3ZMU1_PHODC A0A2H3ZMU1 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X3 OS=Phoenix dactylifera OX=42345 GN=LOC103704912 
+PE=3 SV=1
+Length=912
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 50/62 (81%), Positives = 52/62 (84%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP--QSR  58
+            M+TVDPDI  TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEV RVL  LV P PP  QS 
+Sbjct  800  METVDPDITSTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVTRVLGCLVQPGPPPKQSP  859
+
+Query  59   PP  60
+            PP
+Sbjct  860  PP  861
+
+
+>TR:A0A2H3XNY2_PHODC A0A2H3XNY2 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X2 OS=Phoenix dactylifera OX=42345 GN=LOC103704912 
+PE=3 SV=1
+Length=985
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 50/62 (81%), Positives = 52/62 (84%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP--QSR  58
+            M+TVDPDI  TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEV RVL  LV P PP  QS 
+Sbjct  873  METVDPDITSTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVTRVLGCLVQPGPPPKQSP  932
+
+Query  59   PP  60
+            PP
+Sbjct  933  PP  934
+
+
+>TR:A0A2H3XPE9_PHODC A0A2H3XPE9 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X1 OS=Phoenix dactylifera OX=42345 GN=LOC103704912 
+PE=3 SV=1
+Length=1007
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 50/62 (81%), Positives = 52/62 (84%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP--QSR  58
+            M+TVDPDI  TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEV RVL  LV P PP  QS 
+Sbjct  895  METVDPDITSTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVTRVLGCLVQPGPPPKQSP  954
+
+Query  59   PP  60
+            PP
+Sbjct  955  PP  956
+
+
+>TR:B4FDW9_MAIZE B4FDW9 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=310
+
+ Score = 94.7 bits (234),  Expect = 5e-23
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  190  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  249
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  250  QAQAQAQASE  259
+
+
+>TR:A0A2I4HFV3_9ROSI A0A2I4HFV3 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Juglans regia OX=51240 GN=LOC109017199 PE=4 SV=1
+Length=174
+
+ Score = 91.7 bits (226),  Expect = 5e-23
+ Identities = 48/76 (63%), Positives = 52/76 (68%), Gaps = 4/76 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV----NPDPPQ  56
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  LV     P  P 
+Sbjct  60   METVDPEITATCKDLGAVKKIFQLALLCTKRQPSDRPTMHEVTRVLGSLVLATTPPKQPT  119
+
+Query  57   SRPPAAGQLAETSQLC  72
+              PPA   L  +   C
+Sbjct  120  PSPPANATLPSSKVPC  135
+
+
+>TR:A0A287UWQ9_HORVV A0A287UWQ9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=108
+
+ Score = 89.7 bits (221),  Expect = 5e-23
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1   MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+           M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  1   MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  60
+
+Query  60  P  60
+           P
+Sbjct  61  P  61
+
+
+>TR:A0A118K787_CYNCS A0A118K787 Uncharacterized protein OS=Cynara cardunculus var. 
+scolymus OX=59895 GN=Ccrd_009696 PE=4 SV=1
+Length=111
+
+ Score = 89.4 bits (220),  Expect = 8e-23
+ Identities = 43/63 (68%), Positives = 51/63 (81%), Gaps = 3/63 (5%)
+
+Query  1   MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+           M+TVDP+I  TCK+LGEVKK+FQLALLCTKRQPS+RPTMHEVVRVL  ++   PP  + P
+Sbjct  1   METVDPEISATCKELGEVKKVFQLALLCTKRQPSERPTMHEVVRVLGSIL---PPPKQNP  57
+
+Query  61  AAG  63
+             G
+Sbjct  58  TGG  60
+
+
+>TR:C0PGY3_MAIZE C0PGY3 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=360
+
+ Score = 94.7 bits (234),  Expect = 9e-23
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  240  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  299
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  300  QAQAQAQASE  309
+
+
+>TR:A0A0B0N0S2_GOSAR A0A0B0N0S2 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Gossypium arboreum OX=29729 GN=F383_30505 PE=4 SV=1
+Length=183
+
+ Score = 91.3 bits (225),  Expect = 9e-23
+ Identities = 44/69 (64%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+  L+  D P ++  
+Sbjct  83   METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVVGSLMPLDTPPTKQL  142
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  143  ASIQLSKVT  151
+
+
+>TR:A0A0A9KLW7_ARUDO A0A0A9KLW7 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=349
+
+ Score = 94.0 bits (232),  Expect = 2e-22
+ Identities = 48/70 (69%), Positives = 53/70 (76%), Gaps = 1/70 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQS-RP  59
+            M+ VDPDI   CKDL EVKK+FQLALLC+KRQPSDRP MHEVVRVLD  V PDPPQ    
+Sbjct  239  MEMVDPDITNACKDLSEVKKVFQLALLCSKRQPSDRPAMHEVVRVLDSRVCPDPPQKPAQ  298
+
+Query  60   PAAGQLAETS  69
+            P A Q + T+
+Sbjct  299  PLAVQQSSTA  308
+
+
+>TR:A0A287VZY5_HORVV A0A287VZY5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=325
+
+ Score = 93.6 bits (231),  Expect = 2e-22
+ Identities = 43/51 (84%), Positives = 49/51 (96%), Gaps = 0/51 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVN  51
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+
+Sbjct  275  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVH  325
+
+
+>TR:A0A1S6R4X8_MAIZE A0A1S6R4X8 ERECTA-like protein 1 OS=Zea mays OX=4577 PE=2 SV=1
+Length=722
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  602  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  661
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  662  QAQAQAQASE  671
+
+
+>TR:A0A199USV9_ANACO A0A199USV9 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Ananas comosus OX=4615 GN=ACMD2_08722 PE=4 SV=1
+Length=806
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 48/71 (68%), Positives = 51/71 (72%), Gaps = 12/71 (17%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNP--------  52
+            M+TVDPD+  TCKDLGEVKK+FQLALLCTKRQPSDRPTMHEV RVL  LV P        
+Sbjct  695  METVDPDVSSTCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVTRVLGCLVRPLPSPKPAQ  754
+
+Query  53   ----DPPQSRP  59
+                 PPQS P
+Sbjct  755  ALTLPPPQSLP  765
+
+
+>TR:A0A1D6HLY3_MAIZE A0A1D6HLY3 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d018261 PE=3 SV=1
+Length=845
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  725  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  784
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  785  QAQAQAQASE  794
+
+
+>TR:A0A1D6HLZ0_MAIZE A0A1D6HLZ0 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d018261 PE=4 SV=1
+Length=867
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  747  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  806
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  807  QAQAQAQASE  816
+
+
+>TR:A0A1D6HLY4_MAIZE A0A1D6HLY4 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d018261 PE=3 SV=1
+Length=1003
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 48/70 (69%), Positives = 55/70 (79%), Gaps = 3/70 (4%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDPPQS  57
+            M+TVD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV    P P Q+
+Sbjct  883  METVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPAGPPPKQA  942
+
+Query  58   RPPAAGQLAE  67
+            +  A  Q +E
+Sbjct  943  QAQAQAQASE  952
+
+
+>TR:A0A287W007_HORVV A0A287W007 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=498
+
+ Score = 93.6 bits (231),  Expect = 6e-22
+ Identities = 43/51 (84%), Positives = 49/51 (96%), Gaps = 0/51 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVN  51
+            M+TVDPDI +TC+DLGEVKK+FQLALLCTK+QPSDRPTMHEVVRVLD LV+
+Sbjct  448  METVDPDIADTCQDLGEVKKVFQLALLCTKKQPSDRPTMHEVVRVLDCLVH  498
+
+
+>TR:A0A2G9I2L3_9LAMI A0A2G9I2L3 Serine/threonine protein kinase OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_03296 PE=3 SV=1
+Length=985
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 44/49 (90%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWL  49
+            MDTVDP+I ETCKDLGEVKK+FQLALLCTKRQPSDRPTMHEVVRVL  L
+Sbjct  874  MDTVDPEISETCKDLGEVKKVFQLALLCTKRQPSDRPTMHEVVRVLGTL  922
+
+
+>TR:W1PTA3_AMBTC W1PTA3 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00024p00237440 PE=3 SV=1
+Length=995
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 48/80 (60%), Positives = 55/80 (69%), Gaps = 5/80 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV-----NPDPP  55
+            MDTVDP+I +TCKDL  VKK+FQLALLCTKRQPSDRPTMHEV RVL  LV     +P P 
+Sbjct  878  MDTVDPEILDTCKDLNAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLVPQSITDPKPQ  937
+
+Query  56   QSRPPAAGQLAETSQLCKLH  75
+              +PP    L   S  C+ +
+Sbjct  938  APQPPPCVPLIGISSTCRTY  957
+
+
+>TR:A0A194YTN4_SORBI A0A194YTN4 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3004G317200 PE=3 SV=1
+Length=1005
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 47/70 (67%), Positives = 55/70 (79%), Gaps = 1/70 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP-PQSRP  59
+            M+ VD DI +TCKDLGEVKK+FQLALLC+KRQPSDRPTMHEV RVLD LV P P P+   
+Sbjct  894  MEMVDQDITDTCKDLGEVKKVFQLALLCSKRQPSDRPTMHEVARVLDSLVCPGPLPKQAQ  953
+
+Query  60   PAAGQLAETS  69
+            P A + + T+
+Sbjct  954  PQALEKSSTA  963
+
+
+>TR:A0A1R3IV71_9ROSI A0A1R3IV71 Uncharacterized protein OS=Corchorus olitorius OX=93759 
+GN=COLO4_21146 PE=4 SV=1
+Length=266
+
+ Score = 90.1 bits (222),  Expect = 1e-21
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKR PSDRPTMHEV RVL  L+  D P  +P
+Sbjct  155  METVDPEISATCKDLGDVKKVFQLALLCTKRHPSDRPTMHEVTRVLGSLMPVDTPPKQP  213
+
+
+>TR:A0A287UX71_HORVV A0A287UX71 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=253
+
+ Score = 89.7 bits (221),  Expect = 2e-21
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  146  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  205
+
+Query  60   P  60
+            P
+Sbjct  206  P  206
+
+
+>TR:M8B3K3_TRIUA M8B3K3 LRR receptor-like serine/threonine-protein kinase ERECTA 
+OS=Triticum urartu OX=4572 GN=TRIUR3_31587 PE=3 SV=1
+Length=847
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  736  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  795
+
+Query  59   PPAAGQ  64
+            PPA+ Q
+Sbjct  796  PPASPQ  801
+
+
+>TR:A0A2P5SIM1_GOSBA A0A2P5SIM1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD04068 PE=4 SV=1
+Length=859
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  759  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMPLDTPPTKQL  818
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  819  ASIQLSKVT  827
+
+
+>TR:M8ASX6_AEGTA M8ASX6 LRR receptor-like serine/threonine-protein kinase ERL1 
+OS=Aegilops tauschii OX=37682 GN=F775_16024 PE=3 SV=1
+Length=939
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  828  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  887
+
+Query  59   PPAAGQ  64
+            PPA+ Q
+Sbjct  888  PPASPQ  893
+
+
+>TR:A0A096UTP8_WHEAT A0A096UTP8 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=996
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  885  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  944
+
+Query  59   PPAAGQ  64
+            PPA+ Q
+Sbjct  945  PPASPQ  950
+
+
+>TR:A0A1D6AS41_WHEAT A0A1D6AS41 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=997
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  886  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  945
+
+Query  59   PPAAGQ  64
+            PPA+ Q
+Sbjct  946  PPASPQ  951
+
+
+>TR:A0A1D6AS40_WHEAT A0A1D6AS40 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=998
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  887  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  946
+
+Query  59   PPAAGQ  64
+            PPA+ Q
+Sbjct  947  PPASPQ  952
+
+
+>TR:A0A1D6B9E7_WHEAT A0A1D6B9E7 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=1064
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 45/66 (68%), Positives = 54/66 (82%), Gaps = 2/66 (3%)
+
+Query  1     MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+             M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+  P  ++
+Sbjct  953   MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKPAQ  1012
+
+Query  59    PPAAGQ  64
+             PPA+ Q
+Sbjct  1013  PPASPQ  1018
+
+
+>TR:A0A0D2U9C9_GOSRA A0A0D2U9C9 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_010G096300 PE=4 SV=1
+Length=927
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  827  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMLLDTPPTKQL  886
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  887  ASIQLSKVT  895
+
+
+>TR:A0A0D2V859_GOSRA A0A0D2V859 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_010G096300 PE=4 SV=1
+Length=928
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  828  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMLLDTPPTKQL  887
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  888  ASIQLSKVT  896
+
+
+>TR:A0A0D2UBU8_GOSRA A0A0D2UBU8 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_010G096300 PE=3 SV=1
+Length=971
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  871  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMLLDTPPTKQL  930
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  931  ASIQLSKVT  939
+
+
+>TR:A0A0D2R533_GOSRA A0A0D2R533 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_010G096300 PE=3 SV=1
+Length=972
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  872  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMLLDTPPTKQL  931
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  932  ASIQLSKVT  940
+
+
+>TR:A0A0D2SQ90_GOSRA A0A0D2SQ90 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_010G096300 PE=3 SV=1
+Length=978
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 45/69 (65%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L+  D P ++  
+Sbjct  878  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLMLLDTPPTKQL  937
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  938  ASIQLSKVT  946
+
+
+>TR:A0A0B0MRB0_GOSAR A0A0B0MRB0 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Gossypium arboreum OX=29729 GN=F383_30176 PE=4 SV=1
+Length=253
+
+ Score = 89.0 bits (219),  Expect = 3e-21
+ Identities = 41/59 (69%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+T+DP+I  TCKDLG VKK+FQLALLCTKR PSDRPTMHEV RVL  L+  +PP  +P
+Sbjct  141  METIDPEITATCKDLGAVKKVFQLALLCTKRHPSDRPTMHEVTRVLGSLMPLEPPAKQP  199
+
+
+>TR:A0A1U8PPS5_GOSHI A0A1U8PPS5 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X4 OS=Gossypium hirsutum OX=3635 GN=LOC107961622 
+PE=3 SV=1
+Length=971
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 44/69 (64%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+  L+  D P ++  
+Sbjct  871  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVVGSLMPLDTPPTKQL  930
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  931  ASVQLSKVT  939
+
+
+>TR:A0A1U8PPR4_GOSHI A0A1U8PPR4 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X3 OS=Gossypium hirsutum OX=3635 GN=LOC107961622 
+PE=3 SV=1
+Length=972
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 44/69 (64%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+  L+  D P ++  
+Sbjct  872  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVVGSLMPLDTPPTKQL  931
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  932  ASVQLSKVT  940
+
+
+>TR:A0A1U8PPQ1_GOSHI A0A1U8PPQ1 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X2 OS=Gossypium hirsutum OX=3635 GN=LOC107961622 
+PE=3 SV=1
+Length=977
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 44/69 (64%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+  L+  D P ++  
+Sbjct  877  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVVGSLMPLDTPPTKQL  936
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  937  ASVQLSKVT  945
+
+
+>TR:A0A1U8PS41_GOSHI A0A1U8PS41 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X1 OS=Gossypium hirsutum OX=3635 GN=LOC107961622 
+PE=3 SV=1
+Length=978
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 44/69 (64%), Positives = 56/69 (81%), Gaps = 0/69 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+  L+  D P ++  
+Sbjct  878  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVVGSLMPLDTPPTKQL  937
+
+Query  61   AAGQLAETS  69
+            A+ QL++ +
+Sbjct  938  ASVQLSKVT  946
+
+
+>TR:A0A2I4GST4_9ROSI A0A2I4GST4 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Juglans regia OX=51240 GN=LOC109010544 PE=3 SV=1
+Length=989
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 48/76 (63%), Positives = 52/76 (68%), Gaps = 4/76 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV----NPDPPQ  56
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  LV     P  P 
+Sbjct  875  METVDPEITATCKDLGAVKKIFQLALLCTKRQPSDRPTMHEVTRVLGSLVLATTPPKQPT  934
+
+Query  57   SRPPAAGQLAETSQLC  72
+              PPA   L  +   C
+Sbjct  935  PSPPANATLPSSKVPC  950
+
+
+>TR:A0A2K3MC09_TRIPR A0A2K3MC09 LRR receptor-like kinase resistance protein (Fragment) 
+OS=Trifolium pratense OX=57577 GN=L195_g044427 PE=4 SV=1
+Length=123
+
+ Score = 85.5 bits (210),  Expect = 4e-21
+ Identities = 43/60 (72%), Positives = 46/60 (77%), Gaps = 4/60 (7%)
+
+Query  1   MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+           M+T DPDI  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV    P   PP
+Sbjct  11  METADPDITATCKDLGAVKKVFQLALLCTKRQPADRPTMHEVARVLGSLV----PSITPP  66
+
+
+>TR:A0A287UX66_HORVV A0A287UX66 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=346
+
+ Score = 89.7 bits (221),  Expect = 6e-21
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  239  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  298
+
+Query  60   P  60
+            P
+Sbjct  299  P  299
+
+
+>TR:A0A287UWN1_HORVV A0A287UWN1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=347
+
+ Score = 89.7 bits (221),  Expect = 6e-21
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  240  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  299
+
+Query  60   P  60
+            P
+Sbjct  300  P  300
+
+
+>TR:A0A200Q8N0_9MAGN A0A200Q8N0 Protein kinase domain OS=Macleaya cordata OX=56857 
+GN=BVC80_1421g14 PE=3 SV=1
+Length=978
+
+ Score = 90.9 bits (224),  Expect = 6e-21
+ Identities = 47/79 (59%), Positives = 54/79 (68%), Gaps = 8/79 (10%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG VKK+FQLALLCTK+QPSDRPTMHEV RVL+ LV         P
+Sbjct  869  METVDPEISATCKDLGAVKKIFQLALLCTKKQPSDRPTMHEVARVLECLVPLSVDKQSPP  928
+
+Query  53   DPPQSRPPAAGQLAETSQL  71
+             PP S P     + E + L
+Sbjct  929  PPPASLPKVPTYMDEYANL  947
+
+
+>TR:A0A2G9GW36_9LAMI A0A2G9GW36 Serine/threonine protein kinase OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_18191 PE=3 SV=1
+Length=981
+
+ Score = 90.9 bits (224),  Expect = 6e-21
+ Identities = 47/73 (64%), Positives = 55/73 (75%), Gaps = 1/73 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDT+DP+I ETC+DLGEVKK+FQLALLCTKRQPS+RPTMHEVVRVL  L  P   ++   
+Sbjct  870  MDTLDPEISETCRDLGEVKKVFQLALLCTKRQPSNRPTMHEVVRVLRTLKPPPEAKTFTT  929
+
+Query  61   AA-GQLAETSQLC  72
+            A+  QL  T   C
+Sbjct  930  ASQTQLPSTKARC  942
+
+
+>TR:A0A2U1N7H6_ARTAN A0A2U1N7H6 Leucine-rich receptor-like protein kinase family protein 
+OS=Artemisia annua OX=35608 GN=CTI12_AA301730 PE=4 SV=1
+Length=990
+
+ Score = 90.9 bits (224),  Expect = 6e-21
+ Identities = 44/60 (73%), Positives = 50/60 (83%), Gaps = 1/60 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLGEVKK+FQLALLCTKRQPSDRPTMHE+VRVL  ++ P P Q   P
+Sbjct  881  METVDPEISATCKDLGEVKKIFQLALLCTKRQPSDRPTMHEIVRVLASVI-PQPKQPIGP  939
+
+
+>TR:A0A287UWT8_HORVV A0A287UWT8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=397
+
+ Score = 89.7 bits (221),  Expect = 9e-21
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  290  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  349
+
+Query  60   P  60
+            P
+Sbjct  350  P  350
+
+
+>TR:A0A287UWN6_HORVV A0A287UWN6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=425
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  318  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  377
+
+Query  60   P  60
+            P
+Sbjct  378  P  378
+
+
+>TR:V7CUI5_PHAVU V7CUI5 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_001G038400g PE=3 SV=1
+Length=958
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  + P  +P 
+Sbjct  846  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVPSNTPPKQPA  905
+
+Query  61   A  61
+            A
+Sbjct  906  A  906
+
+
+>TR:A0A1S3UFG5_VIGRR A0A1S3UFG5 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Vigna radiata var. radiata OX=3916 GN=LOC106764863 
+PE=3 SV=1
+Length=979
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 49/61 (80%), Gaps = 0/61 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  + P  +P 
+Sbjct  867  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVPSNAPPKQPA  926
+
+Query  61   A  61
+            A
+Sbjct  927  A  927
+
+
+>TR:A0A2P4IL78_QUESU A0A2P4IL78 Lrr receptor-like serine/threonine-protein kinase 
+erecta OS=Quercus suber OX=58331 GN=CFP56_41138 PE=3 SV=1
+Length=979
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 47/74 (64%), Positives = 50/74 (68%), Gaps = 2/74 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQSR  58
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQP DRPTMHEV RVL  LV   P P Q  
+Sbjct  867  METVDPEITATCKDLGAVKKVFQLALLCTKRQPLDRPTMHEVTRVLGSLVPSTPPPKQPA  926
+
+Query  59   PPAAGQLAETSQLC  72
+            P     L  T   C
+Sbjct  927  PNLTAPLPSTKVSC  940
+
+
+>TR:A0A1R3H9T0_COCAP A0A1R3H9T0 Uncharacterized protein OS=Corchorus capsularis OX=210143 
+GN=CCACVL1_20840 PE=3 SV=1
+Length=982
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKR PSDRPTMHEV RVL  L+  D P  +P
+Sbjct  871  METVDPEISATCKDLGDVKKVFQLALLCTKRHPSDRPTMHEVTRVLGSLMPVDTPPKQP  929
+
+
+>TR:A0A251ULV8_HELAN A0A251ULV8 Uncharacterized protein OS=Helianthus annuus OX=4232 
+GN=HannXRQ_Chr05g0135931 PE=3 SV=1
+Length=986
+
+ Score = 90.1 bits (222),  Expect = 1e-20
+ Identities = 42/60 (70%), Positives = 51/60 (85%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLGEVKK+FQLALLCTKRQP DRPTM+EVV+VL+ L+ P  P++  P
+Sbjct  879  METVDPEISATCKDLGEVKKVFQLALLCTKRQPFDRPTMYEVVQVLESLLPPPKPEAACP  938
+
+
+>TR:A0A287UWP5_HORVV A0A287UWP5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=449
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  342  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  401
+
+Query  60   P  60
+            P
+Sbjct  402  P  402
+
+
+>TR:A0A287UWN4_HORVV A0A287UWN4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=505
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  398  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  457
+
+Query  60   P  60
+            P
+Sbjct  458  P  458
+
+
+>TR:A0A287UWQ1_HORVV A0A287UWQ1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=521
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  414  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  473
+
+Query  60   P  60
+            P
+Sbjct  474  P  474
+
+
+>TR:A0A287UWL6_HORVV A0A287UWL6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=557
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  450  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  509
+
+Query  60   P  60
+            P
+Sbjct  510  P  510
+
+
+>TR:M0XQS9_HORVV M0XQS9 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=571
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  464  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  523
+
+Query  60   P  60
+            P
+Sbjct  524  P  524
+
+
+>TR:A0A287UWJ9_HORVV A0A287UWJ9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=577
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  470  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  529
+
+Query  60   P  60
+            P
+Sbjct  530  P  530
+
+
+>TR:A0A287UWQ0_HORVV A0A287UWQ0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=578
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  471  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  530
+
+Query  60   P  60
+            P
+Sbjct  531  P  531
+
+
+>TR:A0A287UWP3_HORVV A0A287UWP3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=578
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  471  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  530
+
+Query  60   P  60
+            P
+Sbjct  531  P  531
+
+
+>TR:M0XQT4_HORVV M0XQT4 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=578
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  471  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  530
+
+Query  60   P  60
+            P
+Sbjct  531  P  531
+
+
+>TR:A0A287UWM1_HORVV A0A287UWM1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=625
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  518  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  577
+
+Query  60   P  60
+            P
+Sbjct  578  P  578
+
+
+>TR:A0A287UWL5_HORVV A0A287UWL5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=668
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  593  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  652
+
+Query  60   P  60
+            P
+Sbjct  653  P  653
+
+
+>TR:A0A287UWL0_HORVV A0A287UWL0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=701
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  594  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  653
+
+Query  60   P  60
+            P
+Sbjct  654  P  654
+
+
+>TR:A0A287UWM6_HORVV A0A287UWM6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=701
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  594  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  653
+
+Query  60   P  60
+            P
+Sbjct  654  P  654
+
+
+>TR:A0A287UWL9_HORVV A0A287UWL9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=701
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  594  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  653
+
+Query  60   P  60
+            P
+Sbjct  654  P  654
+
+
+>TR:M0XQS7_HORVV M0XQS7 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=701
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  594  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  653
+
+Query  60   P  60
+            P
+Sbjct  654  P  654
+
+
+>TR:A0A2H9ZUU8_9ASPA A0A2H9ZUU8 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Apostasia shenzhenica OX=1088818 GN=ERECTA PE=4 SV=1
+Length=771
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 44/71 (62%), Positives = 51/71 (72%), Gaps = 0/71 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TC DLG VKK+FQLALLCTK+QP+DRPTMHEV RVL     P  PQS  P
+Sbjct  662  METVDPDIASTCGDLGAVKKVFQLALLCTKKQPADRPTMHEVARVLSCFAEPCFPQSTKP  721
+
+Query  61   AAGQLAETSQL  71
+                 A++S +
+Sbjct  722  PPLPSAKSSYI  732
+
+
+>TR:A0A287UWK2_HORVV A0A287UWK2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=775
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  668  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  727
+
+Query  60   P  60
+            P
+Sbjct  728  P  728
+
+
+>TR:A0A287UX51_HORVV A0A287UX51 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=775
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  668  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  727
+
+Query  60   P  60
+            P
+Sbjct  728  P  728
+
+
+>TR:F2CYE2_HORVV F2CYE2 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=863
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  756  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  815
+
+Query  60   P  60
+            P
+Sbjct  816  P  816
+
+
+>TR:A0A287UX36_HORVV A0A287UX36 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=863
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  756  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  815
+
+Query  60   P  60
+            P
+Sbjct  816  P  816
+
+
+>TR:M0XQT1_HORVV M0XQT1 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=4 SV=1
+Length=863
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  756  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  815
+
+Query  60   P  60
+            P
+Sbjct  816  P  816
+
+
+>TR:A0A287UWN0_HORVV A0A287UWN0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=865
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  758  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  817
+
+Query  60   P  60
+            P
+Sbjct  818  P  818
+
+
+>TR:A0A287UWM4_HORVV A0A287UWM4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=968
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  861  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  920
+
+Query  60   P  60
+            P
+Sbjct  921  P  921
+
+
+>TR:A0A287UWJ7_HORVV A0A287UWJ7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=976
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  869  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  928
+
+Query  60   P  60
+            P
+Sbjct  929  P  929
+
+
+>TR:A0A287UWJ4_HORVV A0A287UWJ4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=983
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  876  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  935
+
+Query  60   P  60
+            P
+Sbjct  936  P  936
+
+
+>TR:A0A287UX17_HORVV A0A287UX17 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=985
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 43/61 (70%), Positives = 51/61 (84%), Gaps = 1/61 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD-PPQSRP  59
+            M+ VDPDI  TCKDLGEVK++FQLALLC+KRQPSDRPTMH+VV VL  LV P+ PP++  
+Sbjct  878  MEMVDPDITATCKDLGEVKRMFQLALLCSKRQPSDRPTMHDVVHVLSCLVCPEAPPKTAS  937
+
+Query  60   P  60
+            P
+Sbjct  938  P  938
+
+
+>TR:A0A1U7YIC1_NICSY A0A1U7YIC1 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Nicotiana sylvestris OX=4096 GN=LOC104248331 PE=3 
+SV=1
+Length=990
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKRQP++RPTMHEV RVL+ LV        NP
+Sbjct  879  METVDPEITATCKDLGDVKKVFQLALLCTKRQPAERPTMHEVARVLESLVPVAETKQPNP  938
+
+Query  53   DPPQSRPPA  61
+             PP   P A
+Sbjct  939  TPPTLLPSA  947
+
+
+>TR:A0A1S4BFY7_TOBAC A0A1S4BFY7 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Nicotiana tabacum OX=4097 GN=LOC107807838 PE=3 SV=1
+Length=990
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKRQP++RPTMHEV RVL+ LV        NP
+Sbjct  879  METVDPEITATCKDLGDVKKVFQLALLCTKRQPAERPTMHEVARVLESLVPVAETKQPNP  938
+
+Query  53   DPPQSRPPA  61
+             PP   P A
+Sbjct  939  TPPTLLPSA  947
+
+
+>TR:A0A1S4DKX8_TOBAC A0A1S4DKX8 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Nicotiana tabacum OX=4097 GN=LOC107830796 PE=3 SV=1
+Length=991
+
+ Score = 89.7 bits (221),  Expect = 1e-20
+ Identities = 45/69 (65%), Positives = 52/69 (75%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKRQP++RPTMHEV RVL+ LV        NP
+Sbjct  880  METVDPEITATCKDLGDVKKVFQLALLCTKRQPAERPTMHEVARVLESLVPVAETKQPNP  939
+
+Query  53   DPPQSRPPA  61
+             PP   P A
+Sbjct  940  TPPALLPSA  948
+
+
+>TR:V4UUF1_9ROSI V4UUF1 Uncharacterized protein (Fragment) OS=Citrus clementina 
+OX=85681 GN=CICLE_v100073972mg PE=3 SV=1
+Length=400
+
+ Score = 88.6 bits (218),  Expect = 2e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  288  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  346
+
+
+>TR:A0A022PV69_ERYGU A0A022PV69 Uncharacterized protein (Fragment) OS=Erythranthe 
+guttata OX=4155 GN=MIMGU_mgv1a026417mg PE=3 SV=1
+Length=953
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 45/72 (63%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            MDTVDP+I ETC DLGEVKK+FQLALLCTKRQ  +RPTMHEVVRVL  LV  +   S   
+Sbjct  843  MDTVDPEISETCNDLGEVKKVFQLALLCTKRQLMERPTMHEVVRVLRTLVPREDKSSTVL  902
+
+Query  61   AAGQLAETSQLC  72
+             + Q+  T   C
+Sbjct  903  PSDQITSTKAQC  914
+
+
+>TR:A0A2G5C8S2_AQUCA A0A2G5C8S2 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=973
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  863  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  922
+
+
+>TR:A0A2G5C9Y3_AQUCA A0A2G5C9Y3 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=976
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  866  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  925
+
+
+>TR:A0A2G5C8P7_AQUCA A0A2G5C8P7 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=976
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  866  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  925
+
+
+>TR:A0A2G5C8P2_AQUCA A0A2G5C8P2 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=977
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  867  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  926
+
+
+>TR:A0A2G5C8S7_AQUCA A0A2G5C8S7 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=979
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  869  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  928
+
+
+>TR:A0A2I0VCT2_9ASPA A0A2I0VCT2 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Dendrobium catenatum OX=906689 GN=ERECTA PE=3 SV=1
+Length=987
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/70 (61%), Positives = 52/70 (74%), Gaps = 2/70 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSR--  58
+            M+TV+PDI  +C DLG +KK+FQLALLCTK+QPSDRPTMHEV RVL  LV P+ P++   
+Sbjct  875  METVEPDITASCSDLGAIKKVFQLALLCTKKQPSDRPTMHEVARVLSCLVTPNLPRAAKP  934
+
+Query  59   PPAAGQLAET  68
+            PP    L  T
+Sbjct  935  PPLQSSLPST  944
+
+
+>TR:A0A2G5C8R7_AQUCA A0A2G5C8R7 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_07600076v1 PE=3 SV=1
+Length=1010
+
+ Score = 89.0 bits (219),  Expect = 3e-20
+ Identities = 43/60 (72%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK+FQLALLC+KRQPSDRPTMHEV RVL+ LV    P+   P
+Sbjct  900  METVDPDISATCKDLGAVKKIFQLALLCSKRQPSDRPTMHEVTRVLESLVPTVTPKQGIP  959
+
+
+>TR:A0A067GDS3_CITSI A0A067GDS3 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g0023491mg PE=4 SV=1
+Length=764
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  652  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  710
+
+
+>TR:A0A2H5NBD9_CITUN A0A2H5NBD9 Uncharacterized protein (Fragment) OS=Citrus unshiu 
+OX=55188 GN=CUMW_029540 PE=4 SV=1
+Length=818
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  713  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  771
+
+
+>TR:A0A2H5NBE1_CITUN A0A2H5NBE1 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_029550 PE=4 SV=1
+Length=852
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  740  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  798
+
+
+>TR:A0A2H5NBE2_CITUN A0A2H5NBE2 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_029550 PE=4 SV=1
+Length=875
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  763  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  821
+
+
+>TR:F8WLD5_CITUN F8WLD5 LRR receptor-like serine/threonine-protein kinase OS=Citrus 
+unshiu OX=55188 GN=ORF68 PE=3 SV=1
+Length=933
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/59 (71%), Positives = 48/59 (81%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLC+KRQP+DRPTMHEV RVL  LV    PQ +P
+Sbjct  821  METVDPEISATCKDLGAVKKVFQLALLCSKRQPTDRPTMHEVSRVLGSLVPAPEPQKQP  879
+
+
+>TR:A0A151TZL7_CAJCA A0A151TZL7 LRR receptor-like serine/threonine-protein kinase 
+ERL1 OS=Cajanus cajan OX=3821 GN=KK1_005050 PE=3 SV=1
+Length=979
+
+ Score = 88.6 bits (218),  Expect = 4e-20
+ Identities = 42/61 (69%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  L+    P  +P 
+Sbjct  868  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLMPSSTPPKQPE  927
+
+Query  61   A  61
+            A
+Sbjct  928  A  928
+
+
+>TR:C6ZRW1_SOYBN C6ZRW1 ERECTA OS=Glycine max OX=3847 PE=2 SV=1
+Length=467
+
+ Score = 88.2 bits (217),  Expect = 4e-20
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 4/71 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQ--  56
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  N  P Q  
+Sbjct  355  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVLSNTPPKQLA  414
+
+Query  57   SRPPAAGQLAE  67
+            + PPA+   A+
+Sbjct  415  ALPPASNPSAK  425
+
+
+>TR:A0A0R0FH18_SOYBN A0A0R0FH18 Uncharacterized protein OS=Glycine max OX=3847 GN=GLYMA_17G226100 
+PE=3 SV=1
+Length=963
+
+ Score = 88.2 bits (217),  Expect = 5e-20
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 4/71 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQ--  56
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  N  P Q  
+Sbjct  851  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVLSNTPPKQLA  910
+
+Query  57   SRPPAAGQLAE  67
+            + PPA+   A+
+Sbjct  911  ALPPASNPSAK  921
+
+
+>TR:B9RQX5_RICCO B9RQX5 Erecta, putative OS=Ricinus communis OX=3988 GN=RCOM_0707480 
+PE=3 SV=1
+Length=980
+
+ Score = 88.2 bits (217),  Expect = 5e-20
+ Identities = 44/62 (71%), Positives = 50/62 (81%), Gaps = 1/62 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV-NPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV +  PP+   
+Sbjct  868  METVDPEISATCKDLGAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLVPSTTPPKQCM  927
+
+Query  60   PA  61
+            PA
+Sbjct  928  PA  929
+
+
+>TR:I1MX81_SOYBN I1MX81 Uncharacterized protein OS=Glycine max OX=3847 GN=GLYMA_17G226100 
+PE=3 SV=1
+Length=980
+
+ Score = 88.2 bits (217),  Expect = 5e-20
+ Identities = 47/71 (66%), Positives = 54/71 (76%), Gaps = 4/71 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQ--  56
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  N  P Q  
+Sbjct  868  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVLSNTPPKQLA  927
+
+Query  57   SRPPAAGQLAE  67
+            + PPA+   A+
+Sbjct  928  ALPPASNPSAK  938
+
+
+>TR:A5BSC4_VITVI A5BSC4 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VITISV_025649 
+PE=3 SV=1
+Length=756
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 45/66 (68%), Positives = 50/66 (76%), Gaps = 5/66 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ----  56
+            M+TVDPDI  TCKDLG VKK+FQLALLCTK+QPSDRPTMHEV RVL  LV    P+    
+Sbjct  638  METVDPDITATCKDLGAVKKVFQLALLCTKKQPSDRPTMHEVTRVLGSLVPATAPKQIAL  697
+
+Query  57   -SRPPA  61
+             + PPA
+Sbjct  698  TTTPPA  703
+
+
+>TR:A0A1J3DMW6_NOCCA A0A1J3DMW6 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Noccaea caerulescens OX=107243 GN=GA_TR4613_c0_g1_i1_g.15554 
+PE=3 SV=1
+Length=978
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 44/69 (64%), Positives = 51/69 (74%), Gaps = 4/69 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+ VDPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL   +  +    +PP
+Sbjct  870  MEMVDPDISSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFILSE----QPP  925
+
+Query  61   AAGQLAETS  69
+            AA   A T+
+Sbjct  926  AAAAAASTT  934
+
+
+>TR:A0A0R0GIQ7_SOYBN A0A0R0GIQ7 Uncharacterized protein OS=Glycine max OX=3847 GN=100782307 
+PE=3 SV=1
+Length=980
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 47/67 (70%), Positives = 52/67 (78%), Gaps = 6/67 (9%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV    P S PP
+Sbjct  868  METVDPDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLV----PSSIPP  923
+
+Query  61   AAGQLAE  67
+               QLA+
+Sbjct  924  K--QLAD  928
+
+
+>TR:D7STX8_VITVI D7STX8 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_04s0008g01970 
+PE=3 SV=1
+Length=986
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 45/66 (68%), Positives = 50/66 (76%), Gaps = 5/66 (8%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ----  56
+            M+TVDPDI  TCKDLG VKK+FQLALLCTK+QPSDRPTMHEV RVL  LV    P+    
+Sbjct  868  METVDPDITATCKDLGAVKKVFQLALLCTKKQPSDRPTMHEVTRVLGSLVPATAPKQIAL  927
+
+Query  57   -SRPPA  61
+             + PPA
+Sbjct  928  TTTPPA  933
+
+
+>TR:A0A2C9UB19_MANES A0A2C9UB19 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_16G086000 PE=3 SV=1
+Length=989
+
+ Score = 87.8 bits (216),  Expect = 7e-20
+ Identities = 45/62 (73%), Positives = 50/62 (81%), Gaps = 1/62 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV-NPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  LV +  PP+   
+Sbjct  870  METVDPEITATCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGSLVPSTLPPKQCS  929
+
+Query  60   PA  61
+            PA
+Sbjct  930  PA  931
+
+
+>TR:Q8VYT9_CAMSA Q8VYT9 ER1-like receptor kinase (Fragment) OS=Camelina sativa 
+OX=90675 GN=ERECTA1 PE=4 SV=1
+Length=144
+
+ Score = 82.8 bits (203),  Expect = 8e-20
+ Identities = 39/56 (70%), Positives = 46/56 (82%), Gaps = 1/56 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL-DWLVNPDPP  55
+            M+  DPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL  ++++  PP
+Sbjct  50   MEMADPDITSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLSEQPP  105
+
+
+>TR:A0A2P5XH27_GOSBA A0A2P5XH27 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA18091 PE=3 SV=1
+Length=982
+
+ Score = 87.4 bits (215),  Expect = 9e-20
+ Identities = 41/59 (69%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+T+DP+I  TCKDLG VKK+FQLALLCTKR PSDRPTMHEV RVL  L   +PP  +P
+Sbjct  870  METIDPEITATCKDLGAVKKVFQLALLCTKRHPSDRPTMHEVTRVLGSLRPLEPPAKQP  928
+
+
+>TR:A0A2P5QRQ1_GOSBA A0A2P5QRQ1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD25858 PE=3 SV=1
+Length=1009
+
+ Score = 87.4 bits (215),  Expect = 9e-20
+ Identities = 41/59 (69%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+T+DP+I  TCKDLG VKK+FQLALLCTKR PSDRPTMHEV RVL  L   +PP  +P
+Sbjct  897  METIDPEITATCKDLGAVKKVFQLALLCTKRHPSDRPTMHEVTRVLGSLRPLEPPAKQP  955
+
+
+>TR:A0A2N9ET46_FAGSY A0A2N9ET46 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS5626 PE=3 SV=1
+Length=978
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 45/71 (63%), Positives = 51/71 (72%), Gaps = 4/71 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLG +KK+FQLALLCTKRQP DRPTMHEV RVL  LV    P   PP
+Sbjct  822  METVDPEITATCKDLGAIKKVFQLALLCTKRQPLDRPTMHEVTRVLGSLV----PSITPP  877
+
+Query  61   AAGQLAETSQL  71
+                L+ T+ L
+Sbjct  878  KQPALSPTAPL  888
+
+
+>TR:A0A0S3RPH3_PHAAN A0A0S3RPH3 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.03G251000 PE=3 SV=1
+Length=979
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 42/61 (69%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVD DI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  + P  +P 
+Sbjct  867  METVDQDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVPSNTPPKQPA  926
+
+Query  61   A  61
+            A
+Sbjct  927  A  927
+
+
+>TR:A0A0L9V1U2_PHAAN A0A0L9V1U2 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan07g254600 PE=3 SV=1
+Length=979
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 42/61 (69%), Positives = 48/61 (79%), Gaps = 0/61 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVD DI  TCKDLG VKK++QLALLCTKRQP+DRPTMHEV RVL  LV  + P  +P 
+Sbjct  867  METVDQDITATCKDLGAVKKVYQLALLCTKRQPADRPTMHEVTRVLGSLVPSNTPPKQPA  926
+
+Query  61   A  61
+            A
+Sbjct  927  A  927
+
+
+>TR:A0A061GJI4_THECC A0A061GJI4 Leucine-rich receptor-like protein kinase family protein 
+OS=Theobroma cacao OX=3641 GN=TCM_037393 PE=3 SV=1
+Length=983
+
+ Score = 87.0 bits (214),  Expect = 1e-19
+ Identities = 42/59 (71%), Positives = 46/59 (78%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+TVDP+I  TCKDLG VKK FQLALLCTKR PSDRPTMHEV RVL  L+  D P  +P
+Sbjct  871  METVDPEITATCKDLGAVKKAFQLALLCTKRHPSDRPTMHEVTRVLGSLMPLDTPPKQP  929
+
+
+>TR:M0TE19_MUSAM M0TE19 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=972
+
+ Score = 86.7 bits (213),  Expect = 2e-19
+ Identities = 42/53 (79%), Positives = 47/53 (89%), Gaps = 1/53 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD  53
+            M+TVDP+I  TCKDLG+VKK+FQLALLCTKRQPSDRPTMHEV RVL  L NP+
+Sbjct  893  METVDPEISSTCKDLGDVKKVFQLALLCTKRQPSDRPTMHEVSRVLGCL-NPN  944
+
+
+>TR:A0A1U8AIC6_NELNU A0A1U8AIC6 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Nelumbo nucifera OX=4432 GN=LOC104600563 PE=3 SV=1
+Length=979
+
+ Score = 86.7 bits (213),  Expect = 2e-19
+ Identities = 44/69 (64%), Positives = 50/69 (72%), Gaps = 7/69 (10%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVN-------PD  53
+            M+TVDP+I  TC DLG VKK+FQLALLCTK+QPSDRPTMHEV RVL  L+          
+Sbjct  868  METVDPEITATCTDLGAVKKVFQLALLCTKKQPSDRPTMHEVTRVLGCLMPSSETKQLAQ  927
+
+Query  54   PPQSRPPAA  62
+            PP + PPAA
+Sbjct  928  PPSAPPPAA  936
+
+
+>TR:A0A059CN11_EUCGR A0A059CN11 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_C00732 PE=3 SV=1
+Length=988
+
+ Score = 86.7 bits (213),  Expect = 2e-19
+ Identities = 42/63 (67%), Positives = 48/63 (76%), Gaps = 0/63 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPD+  TCKDLG VKK+FQLALLCTKRQPS+RPTMHEV RVL  L+    P  +  
+Sbjct  869  METVDPDVTATCKDLGAVKKVFQLALLCTKRQPSERPTMHEVARVLGSLLPSTTPPKQLS  928
+
+Query  61   AAG  63
+            A G
+Sbjct  929  ALG  931
+
+
+>TR:A0A1S3U003_VIGRR A0A1S3U003 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Vigna radiata var. radiata OX=3916 GN=LOC106760433 
+PE=4 SV=1
+Length=681
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 45/72 (63%), Positives = 50/72 (69%), Gaps = 8/72 (11%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI  TCKD+G VKK+FQLALLCTK+QP DRPTMHEV RVL  LV P        
+Sbjct  570  METVDPDISATCKDMGAVKKVFQLALLCTKKQPVDRPTMHEVTRVLGSLVPPKESVPTQV  629
+
+Query  55   --PQSRPPAAGQ  64
+              P S+P A  Q
+Sbjct  630  LLPHSQPSAKMQ  641
+
+
+>TR:A0A1S2Y3Q0_CICAR A0A1S2Y3Q0 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X3 OS=Cicer arietinum OX=3827 GN=LOC101495782 
+PE=3 SV=1
+Length=959
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 42/62 (68%), Positives = 48/62 (77%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQSR  58
+            M+TVDPD+  TCKDLG +KK++QLALLCTKRQP+DRPTMHEV RVL  LV     P Q  
+Sbjct  849  METVDPDVTATCKDLGAIKKVYQLALLCTKRQPADRPTMHEVARVLASLVPLTTPPKQLT  908
+
+Query  59   PP  60
+            PP
+Sbjct  909  PP  910
+
+
+>TR:A0A0S3RCA4_PHAAN A0A0S3RCA4 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.02G066000 PE=3 SV=1
+Length=977
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 45/72 (63%), Positives = 50/72 (69%), Gaps = 8/72 (11%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI  TCKD+G VKK+FQLALLCTK+QP DRPTMHEV RVL  LV P        
+Sbjct  866  METVDPDISTTCKDMGAVKKVFQLALLCTKKQPVDRPTMHEVTRVLGSLVPPKESVPMQV  925
+
+Query  55   --PQSRPPAAGQ  64
+              P S+P A  Q
+Sbjct  926  LLPHSQPSAKMQ  937
+
+
+>TR:A0A0L9UHS6_PHAAN A0A0L9UHS6 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan04g231000 PE=3 SV=1
+Length=977
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 45/72 (63%), Positives = 50/72 (69%), Gaps = 8/72 (11%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDP------  54
+            M+TVDPDI  TCKD+G VKK+FQLALLCTK+QP DRPTMHEV RVL  LV P        
+Sbjct  866  METVDPDISTTCKDMGAVKKVFQLALLCTKKQPVDRPTMHEVTRVLGSLVPPKESVPMQV  925
+
+Query  55   --PQSRPPAAGQ  64
+              P S+P A  Q
+Sbjct  926  LLPHSQPSAKMQ  937
+
+
+>TR:A0A1S2Y5I7_CICAR A0A1S2Y5I7 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X2 OS=Cicer arietinum OX=3827 GN=LOC101495782 
+PE=3 SV=1
+Length=980
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 42/62 (68%), Positives = 48/62 (77%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQSR  58
+            M+TVDPD+  TCKDLG +KK++QLALLCTKRQP+DRPTMHEV RVL  LV     P Q  
+Sbjct  870  METVDPDVTATCKDLGAIKKVYQLALLCTKRQPADRPTMHEVARVLASLVPLTTPPKQLT  929
+
+Query  59   PP  60
+            PP
+Sbjct  930  PP  931
+
+
+>TR:A0A1S2Y3N0_CICAR A0A1S2Y3N0 LRR receptor-like serine/threonine-protein kinase 
+ERECTA isoform X1 OS=Cicer arietinum OX=3827 GN=LOC101495782 
+PE=3 SV=1
+Length=984
+
+ Score = 86.3 bits (212),  Expect = 2e-19
+ Identities = 42/62 (68%), Positives = 48/62 (77%), Gaps = 2/62 (3%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--NPDPPQSR  58
+            M+TVDPD+  TCKDLG +KK++QLALLCTKRQP+DRPTMHEV RVL  LV     P Q  
+Sbjct  874  METVDPDVTATCKDLGAIKKVYQLALLCTKRQPADRPTMHEVARVLASLVPLTTPPKQLT  933
+
+Query  59   PP  60
+            PP
+Sbjct  934  PP  935
+
+
+>TR:A0A2I0VIY4_9ASPA A0A2I0VIY4 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Dendrobium catenatum OX=906689 GN=ERECTA PE=3 SV=1
+Length=442
+
+ Score = 85.9 bits (211),  Expect = 3e-19
+ Identities = 38/53 (72%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD  53
+            M+TV+P+I  TC DLG VKK+FQLALLCTK+QPSDRPTMHEVVR+L++L  P+
+Sbjct  331  METVEPEISATCSDLGPVKKVFQLALLCTKKQPSDRPTMHEVVRLLNFLAKPN  383
+
+
+>TR:A0A166J2G8_DAUCA A0A166J2G8 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_004377 PE=4 SV=1
+Length=797
+
+ Score = 85.9 bits (211),  Expect = 3e-19
+ Identities = 41/62 (66%), Positives = 51/62 (82%), Gaps = 1/62 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV-NPDPPQSRP  59
+            M+TVDP+I  TC DLG+VKK+FQLALLC+K+QPSDRPTMHEVVRVL+ L+ +  P +   
+Sbjct  686  METVDPEISNTCSDLGDVKKVFQLALLCSKKQPSDRPTMHEVVRVLNSLLPSTSPKKGST  745
+
+Query  60   PA  61
+            PA
+Sbjct  746  PA  747
+
+
+>TR:A0A087GRL4_ARAAL A0A087GRL4 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA6G252800 PE=3 SV=1
+Length=981
+
+ Score = 85.9 bits (211),  Expect = 3e-19
+ Identities = 41/62 (66%), Positives = 47/62 (76%), Gaps = 0/62 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+  DPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL   + P+ P +   
+Sbjct  873  MEMADPDITSTCKDLGMVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLPEQPTAAAA  932
+
+Query  61   AA  62
+            AA
+Sbjct  933  AA  934
+
+
+>TR:A0A2C9W4Q4_MANES A0A2C9W4Q4 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_03G053600 PE=3 SV=1
+Length=983
+
+ Score = 85.9 bits (211),  Expect = 3e-19
+ Identities = 44/65 (68%), Positives = 49/65 (75%), Gaps = 4/65 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPP----Q  56
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQPSDRPTM EV +V+  LV P  P     
+Sbjct  869  METVDPEITSTCKDLGAVKKVFQLALLCTKRQPSDRPTMQEVTQVIRSLVPPSLPPKQCS  928
+
+Query  57   SRPPA  61
+            S PPA
+Sbjct  929  SAPPA  933
+
+
+>TR:A0A1J3IHZ2_NOCCA A0A1J3IHZ2 LRR receptor-like serine/threonine-protein kinase 
+ERECTA (Fragment) OS=Noccaea caerulescens OX=107243 GN=MP_TR22325_c4_g1_i1_g.65028 
+PE=4 SV=1
+Length=659
+
+ Score = 85.5 bits (210),  Expect = 4e-19
+ Identities = 43/69 (62%), Positives = 50/69 (72%), Gaps = 4/69 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+ VDPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL   +  +    +PP
+Sbjct  551  MEMVDPDISSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLSE----QPP  606
+
+Query  61   AAGQLAETS  69
+            AA     T+
+Sbjct  607  AAAAATSTT  615
+
+
+>TR:A0A1J3GXE3_NOCCA A0A1J3GXE3 LRR receptor-like serine/threonine-protein kinase 
+ERECTA (Fragment) OS=Noccaea caerulescens OX=107243 GN=LE_TR5391_c22_g1_i1_g.18807 
+PE=4 SV=1
+Length=659
+
+ Score = 85.5 bits (210),  Expect = 4e-19
+ Identities = 43/69 (62%), Positives = 50/69 (72%), Gaps = 4/69 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+ VDPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL   +  +    +PP
+Sbjct  551  MEMVDPDISSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLSE----QPP  606
+
+Query  61   AAGQLAETS  69
+            AA     T+
+Sbjct  607  AAAAATSTT  615
+
+
+>TR:A0A1J3FDU6_NOCCA A0A1J3FDU6 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Noccaea caerulescens OX=107243 GN=LC_TR3359_c0_g1_i1_g.12890 
+PE=3 SV=1
+Length=978
+
+ Score = 85.5 bits (210),  Expect = 5e-19
+ Identities = 43/69 (62%), Positives = 50/69 (72%), Gaps = 4/69 (6%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+ VDPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL   +  +    +PP
+Sbjct  870  MEMVDPDISSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLSE----QPP  925
+
+Query  61   AAGQLAETS  69
+            AA     T+
+Sbjct  926  AAAAATSTT  934
+
+
+>TR:A0A251TWQ1_HELAN A0A251TWQ1 Putative leucine-rich receptor-like protein kinase 
+family protein OS=Helianthus annuus OX=4232 GN=ER PE=3 SV=1
+Length=986
+
+ Score = 85.5 bits (210),  Expect = 5e-19
+ Identities = 43/67 (64%), Positives = 51/67 (76%), Gaps = 5/67 (7%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV-----NPDPP  55
+            M+TVDP+I  TCKDL EVKK+FQLALLCTKRQPS+RPTMHEVVRVL  ++     NP  P
+Sbjct  877  METVDPEISATCKDLAEVKKVFQLALLCTKRQPSERPTMHEVVRVLSSILPAAKHNPTGP  936
+
+Query  56   QSRPPAA  62
+                P++
+Sbjct  937  TVLLPSS  943
+
+
+>TR:A0A1Q3CKT2_CEPFO A0A1Q3CKT2 Pkinase domain-containing protein/LRR_1 domain-containing 
+protein/LRRNT_2 domain-containing protein/LRR_6 domain-containing 
+protein/LRR_8 domain-containing protein OS=Cephalotus 
+follicularis OX=3775 GN=CFOL_v3_24172 PE=3 SV=1
+Length=976
+
+ Score = 85.1 bits (209),  Expect = 6e-19
+ Identities = 43/59 (73%), Positives = 46/59 (78%), Gaps = 4/59 (7%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWL----VNPDPP  55
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RVL  L     NP  P
+Sbjct  868  METVDPEISTTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVLGALRHLQSNPHTP  926
+
+
+>TR:A0A067KQC3_JATCU A0A067KQC3 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_07595 PE=3 SV=1
+Length=986
+
+ Score = 85.1 bits (209),  Expect = 6e-19
+ Identities = 44/70 (63%), Positives = 49/70 (70%), Gaps = 9/70 (13%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---------N  51
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  L+          
+Sbjct  868  METVDPEITATCKDLGAVKKVFQLALLCTKRQPADRPTMHEVTRVLGSLLPSVPIKQCTT  927
+
+Query  52   PDPPQSRPPA  61
+            P PP   P A
+Sbjct  928  PAPPPPLPSA  937
+
+
+>TR:S5TT54_POPTN S5TT54 LRR receptor-like serine/threonine-protein kinase (Fragment) 
+OS=Populus tremula OX=113636 GN=ERECTA PE=3 SV=1
+Length=413
+
+ Score = 84.7 bits (208),  Expect = 6e-19
+ Identities = 43/60 (72%), Positives = 47/60 (78%), Gaps = 4/60 (7%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV    P   PP
+Sbjct  301  METVDPEITATCKDLGAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLV----PLITPP  356
+
+
+>TR:A0A2P2MQT8_RHIMU A0A2P2MQT8 LRR receptor-like kinase family protein OS=Rhizophora 
+mucronata OX=61149 PE=4 SV=1
+Length=147
+
+ Score = 80.5 bits (197),  Expect = 7e-19
+ Identities = 41/58 (71%), Positives = 46/58 (79%), Gaps = 1/58 (2%)
+
+Query  1   MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSR  58
+           M+T D +I  TCKDLG VKKLFQLALLC+KRQPSDRPTMHEV RVL  LV P P  ++
+Sbjct  35  METADFEITATCKDLGSVKKLFQLALLCSKRQPSDRPTMHEVTRVLRSLV-PSPTPAK  91
+
+
+>TR:A0A2K2A654_POPTR A0A2K2A654 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_006G220100v3 PE=3 SV=1
+Length=980
+
+ Score = 84.7 bits (208),  Expect = 8e-19
+ Identities = 43/60 (72%), Positives = 47/60 (78%), Gaps = 4/60 (7%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV    P   PP
+Sbjct  868  METVDPEITATCKDLGAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLV----PLITPP  923
+
+
+>TR:A0A072VEC2_MEDTR A0A072VEC2 LRR receptor-like kinase family protein OS=Medicago 
+truncatula OX=3880 GN=11428771 PE=3 SV=1
+Length=956
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 44/70 (63%), Positives = 49/70 (70%), Gaps = 9/70 (13%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWL---------VN  51
+            M+TVDPD+  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  L         + 
+Sbjct  844  METVDPDVTATCKDLGAVKKVFQLALLCTKRQPADRPTMHEVSRVLGSLMPSVAPAKQLT  903
+
+Query  52   PDPPQSRPPA  61
+            P  P S P A
+Sbjct  904  PLQPASHPSA  913
+
+
+>TR:A0A089RQM9_MEDSA A0A089RQM9 Receptor-like kinase ERECTA OS=Medicago sativa OX=3879 
+PE=2 SV=1
+Length=978
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 44/70 (63%), Positives = 49/70 (70%), Gaps = 9/70 (13%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWL---------VN  51
+            M+TVDPD+  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  L         + 
+Sbjct  866  METVDPDVTATCKDLGAVKKVFQLALLCTKRQPADRPTMHEVSRVLGSLMPSVAPAKQLT  925
+
+Query  52   PDPPQSRPPA  61
+            P  P S P A
+Sbjct  926  PLQPASHPSA  935
+
+
+>TR:G7I923_MEDTR G7I923 LRR receptor-like kinase family protein OS=Medicago truncatula 
+OX=3880 GN=11428771 PE=3 SV=2
+Length=985
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 44/70 (63%), Positives = 49/70 (70%), Gaps = 9/70 (13%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWL---------VN  51
+            M+TVDPD+  TCKDLG VKK+FQLALLCTKRQP+DRPTMHEV RVL  L         + 
+Sbjct  873  METVDPDVTATCKDLGAVKKVFQLALLCTKRQPADRPTMHEVSRVLGSLMPSVAPAKQLT  932
+
+Query  52   PDPPQSRPPA  61
+            P  P S P A
+Sbjct  933  PLQPASHPSA  942
+
+
+>TR:M4CU65_BRARP M4CU65 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=987
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 42/72 (58%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL-DWLVNPDPPQSRP  59
+            M+  DPDI  TCKDL  VKK+FQLALLCTKRQP+DRPTMH+VVRVL  ++ +  PP +  
+Sbjct  873  MEMADPDITSTCKDLAVVKKVFQLALLCTKRQPNDRPTMHQVVRVLGSFMFSEQPPAANA  932
+
+Query  60   PAAGQLAETSQL  71
+             AA   A ++ L
+Sbjct  933  VAAAAAATSATL  944
+
+
+>TR:A0A067XLK1_BRANA A0A067XLK1 BnaA09g40540D protein OS=Brassica napus OX=3708 GN=ER_gA 
+PE=3 SV=1
+Length=987
+
+ Score = 84.3 bits (207),  Expect = 1e-18
+ Identities = 42/72 (58%), Positives = 52/72 (72%), Gaps = 1/72 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL-DWLVNPDPPQSRP  59
+            M+  DPDI  TCKDL  VKK+FQLALLCTKRQP+DRPTMH+VVRVL  ++ +  PP +  
+Sbjct  873  MEMADPDITSTCKDLAVVKKVFQLALLCTKRQPNDRPTMHQVVRVLGSFMFSEQPPAANA  932
+
+Query  60   PAAGQLAETSQL  71
+             AA   A ++ L
+Sbjct  933  VAAAAAATSATL  944
+
+
+>TR:A0A251RAN0_PRUPE A0A251RAN0 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_1G403600 PE=4 SV=1
+Length=909
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 4/75 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+TVDP++  TC DL  VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV     P QS 
+Sbjct  794  METVDPEVTATCMDLAAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLVPSPALPKQST  853
+
+Query  59   P--PAAGQLAETSQL  71
+            P  PA+ QL  ++++
+Sbjct  854  PLNPASTQLLPSAKV  868
+
+
+>TR:A0A2R6PMT3_ACTCH A0A2R6PMT3 LRR receptor-like serine/threonine-protein kinase 
+OS=Actinidia chinensis var. chinensis OX=1590841 GN=CEY00_Acc28240 
+PE=3 SV=1
+Length=983
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 41/56 (73%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQ  56
+            MDTVDP+I  TCKD GEVKK+FQLALLCTKRQ SDRPTMHEV RVL  L+  + P+
+Sbjct  872  MDTVDPEILSTCKDHGEVKKVFQLALLCTKRQLSDRPTMHEVTRVLGSLIPSNAPK  927
+
+
+>TR:M5XKF7_PRUPE M5XKF7 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_ppa000847mg 
+PE=3 SV=1
+Length=983
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 4/75 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+TVDP++  TC DL  VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV     P QS 
+Sbjct  868  METVDPEVTATCMDLAAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLVPSPALPKQST  927
+
+Query  59   P--PAAGQLAETSQL  71
+            P  PA+ QL  ++++
+Sbjct  928  PLNPASTQLLPSAKV  942
+
+
+>TR:A0A0D2N4J7_GOSRA A0A0D2N4J7 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_001G019800 PE=3 SV=1
+Length=983
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 40/59 (68%), Positives = 45/59 (76%), Gaps = 0/59 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRP  59
+            M+T DP+I  TCKDLG VKK+FQLALLCTKR P DRPTMHEV RVL  L   +PP  +P
+Sbjct  871  METTDPEITATCKDLGAVKKVFQLALLCTKRHPLDRPTMHEVTRVLGSLRPLEPPAKQP  929
+
+
+>TR:A0A2P5XZV9_GOSBA A0A2P5XZV9 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA11772 PE=3 SV=1
+Length=986
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 38/46 (83%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL  46
+            M+TVDP+I +TCKDLG VKK+FQLALLCTKRQPSDRPTMHEV RV+
+Sbjct  860  METVDPEITDTCKDLGAVKKVFQLALLCTKRQPSDRPTMHEVTRVV  905
+
+
+>TR:A0A251RAL6_PRUPE A0A251RAL6 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_1G403600 PE=3 SV=1
+Length=991
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 4/75 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+TVDP++  TC DL  VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV     P QS 
+Sbjct  876  METVDPEVTATCMDLAAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLVPSPALPKQST  935
+
+Query  59   P--PAAGQLAETSQL  71
+            P  PA+ QL  ++++
+Sbjct  936  PLNPASTQLLPSAKV  950
+
+
+>TR:A0A251RBF3_PRUPE A0A251RBF3 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_1G403600 PE=3 SV=1
+Length=992
+
+ Score = 84.0 bits (206),  Expect = 2e-18
+ Identities = 45/75 (60%), Positives = 55/75 (73%), Gaps = 4/75 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPD--PPQSR  58
+            M+TVDP++  TC DL  VKK+FQLALLCTKRQP+DRPTMHEV RVL  LV     P QS 
+Sbjct  877  METVDPEVTATCMDLAAVKKVFQLALLCTKRQPTDRPTMHEVTRVLGSLVPSPALPKQST  936
+
+Query  59   P--PAAGQLAETSQL  71
+            P  PA+ QL  ++++
+Sbjct  937  PLNPASTQLLPSAKV  951
+
+
+>TR:A0A2P5DIM2_PARAD A0A2P5DIM2 Mitogen-activated protein kinase kinase kinase OS=Parasponia 
+andersonii OX=3476 GN=PanWU01x14_059510 PE=4 SV=1
+Length=716
+
+ Score = 83.6 bits (205),  Expect = 2e-18
+ Identities = 40/62 (65%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDP+I  TCKDLG V+K+FQLALLC KRQ SDRPTMHEV RVL  L+    P  +P 
+Sbjct  602  METVDPEITATCKDLGAVRKVFQLALLCAKRQSSDRPTMHEVTRVLGSLIPSTAPPKQPA  661
+
+Query  61   AA  62
+             A
+Sbjct  662  GA  663
+
+
+>TR:A0A166IEZ3_DAUCA A0A166IEZ3 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_003718 PE=4 SV=1
+Length=872
+
+ Score = 83.6 bits (205),  Expect = 2e-18
+ Identities = 38/46 (83%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL  46
+            MDTVDPDI  TCKDL +VKK+FQLALLC+KRQP+DRPTMHEVVR+L
+Sbjct  713  MDTVDPDITTTCKDLNDVKKVFQLALLCSKRQPTDRPTMHEVVRML  758
+
+
+>TR:R0HY33_9BRAS R0HY33 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10025215mg 
+PE=3 SV=1
+Length=976
+
+ Score = 83.6 bits (205),  Expect = 2e-18
+ Identities = 40/63 (63%), Positives = 49/63 (78%), Gaps = 1/63 (2%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVL-DWLVNPDPPQSRP  59
+            M+  DPDI  TCKDLG VKK+FQLALLCTKRQPSDRPTMH+V RVL  ++++  PP +  
+Sbjct  869  MEMADPDITSTCKDLGVVKKVFQLALLCTKRQPSDRPTMHQVTRVLGSFMLSEQPPAATD  928
+
+Query  60   PAA  62
+             +A
+Sbjct  929  TSA  931
+
+
+>TR:K7KIA4_SOYBN K7KIA4 Uncharacterized protein OS=Glycine max OX=3847 GN=100804875 
+PE=3 SV=1
+Length=985
+
+ Score = 83.6 bits (205),  Expect = 2e-18
+ Identities = 42/60 (70%), Positives = 46/60 (77%), Gaps = 4/60 (7%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVDPDI  TCKD+G VKK+FQLALLCTK+QP DRPTMHEV RVL  LV    P   PP
+Sbjct  870  METVDPDITATCKDMGAVKKVFQLALLCTKKQPVDRPTMHEVTRVLASLV----PSITPP  925
+
+
+>TR:A0A2G2W5I6_CAPBA A0A2G2W5I6 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Capsicum baccatum OX=33114 GN=CQW23_19337 PE=3 SV=1
+Length=987
+
+ Score = 83.2 bits (204),  Expect = 3e-18
+ Identities = 42/69 (61%), Positives = 51/69 (74%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQL+LLC+KRQP++RPTMHEV RVL+ LV        NP
+Sbjct  876  METVDPEITATCKDLGDVKKVFQLSLLCSKRQPAERPTMHEVARVLESLVPVAETKQPNP  935
+
+Query  53   DPPQSRPPA  61
+              P   P A
+Sbjct  936  IQPALLPSA  944
+
+
+>TR:A0A2G2YWS9_CAPAN A0A2G2YWS9 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Capsicum annuum OX=4072 GN=LOC107838950 PE=3 SV=1
+Length=987
+
+ Score = 83.2 bits (204),  Expect = 3e-18
+ Identities = 42/69 (61%), Positives = 51/69 (74%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQL+LLC+KRQP++RPTMHEV RVL+ LV        NP
+Sbjct  876  METVDPEITATCKDLGDVKKVFQLSLLCSKRQPAERPTMHEVARVLESLVPVAETKQPNP  935
+
+Query  53   DPPQSRPPA  61
+              P   P A
+Sbjct  936  IQPALLPSA  944
+
+
+>TR:A0A1U8E343_CAPAN A0A1U8E343 LRR receptor-like serine/threonine-protein kinase 
+ERECTA OS=Capsicum annuum OX=4072 GN=T459_21471 PE=3 SV=1
+Length=987
+
+ Score = 83.2 bits (204),  Expect = 3e-18
+ Identities = 42/69 (61%), Positives = 51/69 (74%), Gaps = 8/69 (12%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV--------NP  52
+            M+TVDP+I  TCKDLG+VKK+FQL+LLC+KRQP++RPTMHEV RVL+ LV        NP
+Sbjct  876  METVDPEITATCKDLGDVKKVFQLSLLCSKRQPAERPTMHEVARVLESLVPVAETKQPNP  935
+
+Query  53   DPPQSRPPA  61
+              P   P A
+Sbjct  936  IQPALLPSA  944
+
+
+>TR:S8BXA2_9LAMI S8BXA2 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_15834 PE=4 SV=1
+Length=249
+
+ Score = 80.9 bits (198),  Expect = 4e-18
+ Identities = 44/69 (64%), Positives = 50/69 (72%), Gaps = 1/69 (1%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLVNPDPPQSRPP  60
+            M+TVD +I ETC DLGEVKK+FQLALLCTKRQPSDRP M EVVRVL  L+ P P  +   
+Sbjct  134  METVDAEITETCGDLGEVKKVFQLALLCTKRQPSDRPNMAEVVRVLGTLL-PQPITASCD  192
+
+Query  61   AAGQLAETS  69
+               + AE S
+Sbjct  193  GKSRPAEAS  201
+
+
+>TR:A0A2J6JR34_LACSA A0A2J6JR34 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_8X70621 PE=3 SV=1
+Length=976
+
+ Score = 82.8 bits (203),  Expect = 4e-18
+ Identities = 40/57 (70%), Positives = 47/57 (82%), Gaps = 3/57 (5%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV---NPDP  54
+            M++VDP+I  TCKDL E KK+FQLALLCTKRQPS+RPTMHEVVRVL  ++    PDP
+Sbjct  866  MESVDPEITATCKDLSEAKKVFQLALLCTKRQPSERPTMHEVVRVLGSILPTPRPDP  922
+
+
+>TR:A0A0A0L5F7_CUCSA A0A0A0L5F7 Erecta OS=Cucumis sativus OX=3659 GN=Csa_4G648520 
+PE=3 SV=1
+Length=991
+
+ Score = 82.8 bits (203),  Expect = 4e-18
+ Identities = 39/50 (78%), Positives = 43/50 (86%), Gaps = 0/50 (0%)
+
+Query  1    MDTVDPDIGETCKDLGEVKKLFQLALLCTKRQPSDRPTMHEVVRVLDWLV  50
+            M+TVDP+I  TCKDLG VKK FQLALLCTKRQPSDRPTMHEV RV+  L+
+Sbjct  880  METVDPEITATCKDLGAVKKAFQLALLCTKRQPSDRPTMHEVTRVIGSLL  929
+
+
+
+Lambda      K        H
+   0.318    0.135    0.423 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56677903485
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

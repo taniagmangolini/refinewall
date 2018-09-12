@@ -1,0 +1,125 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0P0VUL2_ORYSJ  A0A0P0VUL2 Os03g0212950 protein OS=Oryza sat...  66.2    4e-12
+TR:A0A0A9E3E8_ARUDO  A0A0A9E3E8 BGL01 OS=Arundo donax OX=35708 PE...  37.0    0.091
+TR:A0A2K3D1I3_CHLRE  A0A2K3D1I3 Uncharacterized protein OS=Chlamy...  36.2    1.4  
+TR:A9RDV9_PHYPA  A9RDV9 SNF2 family DNA-dependent ATPase (Fragmen...  35.4    2.6  
+TR:A0A2K1J0Y9_PHYPA  A0A2K1J0Y9 Uncharacterized protein OS=Physco...  35.4    2.6  
+
+
+>TR:A0A0P0VUL2_ORYSJ A0A0P0VUL2 Os03g0212950 protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=Os03g0212950 PE=4 SV=1
+Length=134
+
+ Score = 66.2 bits (160),  Expect = 4e-12
+ Identities = 29/41 (71%), Positives = 33/41 (80%), Gaps = 0/41 (0%)
+
+Query  119  VFGDVNRWAVVPFLDVVHQAPHPAGHDVQPYRIGPVTNGFP  159
+            VF DV+ WAVVPFLD+VHQAPHP+GH+VQPYRI    N  P
+Sbjct  14   VFSDVHWWAVVPFLDIVHQAPHPSGHNVQPYRICLRNNSTP  54
+
+
+>TR:A0A0A9E3E8_ARUDO A0A0A9E3E8 BGL01 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=69
+
+ Score = 37.0 bits (84),  Expect = 0.091
+ Identities = 28/63 (44%), Positives = 35/63 (56%), Gaps = 3/63 (5%)
+
+Query  27  AQQVLEPLHRALGVSLEVILV-VHEVEPESGGVASCPLPVVQQRPREVATHVAPVLLYGG  85
+           +  + EP+  ALGV L+   V VH+ EP  G V   PL VVQQ P EVA  V  V+ +  
+Sbjct  8   SDDIPEPVGGALGVPLQRPEVHVHQAEP--GRVPQLPLEVVQQGPGEVAHAVGAVVDHSF  65
+
+Query  86  SQV  88
+           S V
+Sbjct  66  SLV  68
+
+
+>TR:A0A2K3D1I3_CHLRE A0A2K3D1I3 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_13g606652v5 PE=4 SV=1
+Length=1585
+
+ Score = 36.2 bits (82),  Expect = 1.4
+ Identities = 30/105 (29%), Positives = 44/105 (42%), Gaps = 15/105 (14%)
+
+Query  30   VLEPLHRALGVSLEVILVVHEVEPESGGVASC--PLPVVQQRPREVATHVAPVLLYGGSQ  87
+            V+ PLH       ++  ++   +P   GV +C  PLP       ++   + P    G   
+Sbjct  616  VISPLHVVTKADGDLRPII---DPTRSGVNACMTPLPCPLPSLADILQDLPPNGALGKRD  672
+
+Query  88   VGEVVV-VVLDPLAVLEGVLDGSERAVAVVHPVFGDVNRWAVVPF  131
+            V      ++LDP A          R +A  HPV G V RW V+PF
+Sbjct  673  VASAFHHIILDPSA---------RRYMAFRHPVTGAVQRWVVLPF  708
+
+
+>TR:A9RDV9_PHYPA A9RDV9 SNF2 family DNA-dependent ATPase (Fragment) OS=Physcomitrella 
+patens subsp. patens OX=3218 GN=CHR1510 PE=4 SV=1
+Length=1520
+
+ Score = 35.4 bits (80),  Expect = 2.6
+ Identities = 20/49 (41%), Positives = 28/49 (57%), Gaps = 5/49 (10%)
+
+Query  50   EVEPESGG-VASCPLPVVQQRPREVATHVAP----VLLYGGSQVGEVVV  93
+            E+E E G  +  CP P+++Q   E++ HV P    VL+Y G Q G  VV
+Sbjct  381  EIEEECGATLVVCPTPILRQWQDEISRHVRPGTLRVLVYEGVQKGATVV  429
+
+
+>TR:A0A2K1J0Y9_PHYPA A0A2K1J0Y9 Uncharacterized protein OS=Physcomitrella patens subsp. 
+patens OX=3218 GN=PHYPA_023091 PE=4 SV=1
+Length=1779
+
+ Score = 35.4 bits (80),  Expect = 2.6
+ Identities = 20/49 (41%), Positives = 28/49 (57%), Gaps = 5/49 (10%)
+
+Query  50   EVEPESGG-VASCPLPVVQQRPREVATHVAP----VLLYGGSQVGEVVV  93
+            E+E E G  +  CP P+++Q   E++ HV P    VL+Y G Q G  VV
+Sbjct  578  EIEEECGATLVVCPTPILRQWQDEISRHVRPGTLRVLVYEGVQKGATVV  626
+
+
+
+Lambda      K        H
+   0.319    0.138    0.424 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 77172269415
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,85 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0A9H8Q0_ARUDO  A0A0A9H8Q0 Cncr1 OS=Arundo donax OX=35708 PE...  65.5    3e-12
+TR:C4J0U8_MAIZE  C4J0U8 Uncharacterized protein OS=Zea mays OX=45...  42.7    0.006
+
+
+>TR:A0A0A9H8Q0_ARUDO A0A0A9H8Q0 Cncr1 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=99
+
+ Score = 65.5 bits (158),  Expect = 3e-12
+ Identities = 37/69 (54%), Positives = 44/69 (64%), Gaps = 0/69 (0%)
+
+Query  80   DEVRRIDSSGLRLRRRRWGRDRDDALLLEAYEGVVQGLRRRSELQAQLPQLLVGYLVRLL  139
+            D   ++   GL LR R  G  R  ALLLEA   VVQGL  R EL+ Q+P+LLV +LV LL
+Sbjct  18   DSSLQLGGGGLLLRLRLLGEHRQVALLLEALHRVVQGLAHRPELETQVPELLVRHLVWLL  77
+
+Query  140  PWVHLIRAP  148
+            P VHL+ AP
+Sbjct  78   PRVHLVGAP  86
+
+
+>TR:C4J0U8_MAIZE C4J0U8 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=342
+
+ Score = 42.7 bits (99),  Expect = 0.006
+ Identities = 28/66 (42%), Positives = 38/66 (58%), Gaps = 0/66 (0%)
+
+Query  104  ALLLEAYEGVVQGLRRRSELQAQLPQLLVGYLVRLLPWVHLIRAPFRDGVFREELAEGPD  163
+            A LLEA + +V+ L  R E+  Q+ + LVG LV     V+L+ A    GV REEL E   
+Sbjct  12   AFLLEAGDRLVEALEDRHEVHPQILEALVGELVSYHRRVNLVLALGGYGVLREELGEDAA  71
+
+Query  164  DVLAVE  169
+            +V AV+
+Sbjct  72   EVAAVQ  77
+
+
+
+Lambda      K        H
+   0.326    0.140    0.418 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 71661000600
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

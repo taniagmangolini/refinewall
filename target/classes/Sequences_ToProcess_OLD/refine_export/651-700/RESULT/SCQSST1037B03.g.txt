@@ -1,0 +1,4510 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:K3Z4X4_SETIT  K3Z4X4 Laccase OS=Setaria italica OX=4555 GN=LOC...  187     2e-54
+TR:A0A1E5ULN8_9POAL  A0A1E5ULN8 Laccase OS=Dichanthelium oligosan...  184     2e-53
+TR:A0A291EW49_MISSI  A0A291EW49 Laccase OS=Miscanthus sinensis va...  184     2e-53
+SP:LAC11_ORYSJ  Q0DHL5 Putative laccase-11 OS=Oryza sativa subsp....  184     2e-53
+TR:B9FJH3_ORYSJ  B9FJH3 Laccase OS=Oryza sativa subsp. japonica O...  184     2e-53
+TR:A0A0N7KKW9_ORYSJ  A0A0N7KKW9 Laccase OS=Oryza sativa subsp. ja...  184     4e-53
+TR:A0A0E0A093_9ORYZ  A0A0E0A093 Laccase OS=Oryza glumipatula OX=4...  184     4e-53
+TR:A0A0E0DSG3_9ORYZ  A0A0E0DSG3 Laccase OS=Oryza meridionalis OX=...  184     4e-53
+TR:A0A0E0L3D8_ORYPU  A0A0E0L3D8 Laccase OS=Oryza punctata OX=4537...  183     6e-53
+TR:A0A287G6T1_HORVV  A0A287G6T1 Laccase OS=Hordeum vulgare subsp....  179     6e-53
+TR:A0A287G6T2_HORVV  A0A287G6T2 Uncharacterized protein OS=Hordeu...  174     6e-53
+TR:I1HIS3_BRADI  I1HIS3 Laccase OS=Brachypodium distachyon OX=153...  182     1e-52
+TR:A0A0D9WHA5_9ORYZ  A0A0D9WHA5 Laccase OS=Leersia perrieri OX=77...  183     1e-52
+TR:A0A0Q3MP58_BRADI  A0A0Q3MP58 Laccase OS=Brachypodium distachyo...  182     1e-52
+TR:A0A1B6P9J4_SORBI  A0A1B6P9J4 Laccase OS=Sorghum bicolor OX=455...  182     2e-52
+TR:Q2PAJ2_MAIZE  Q2PAJ2 Laccase OS=Zea mays OX=4577 GN=lac2 PE=2 ...  182     2e-52
+TR:A0A1D6M5T4_MAIZE  A0A1D6M5T4 Laccase OS=Zea mays OX=4577 GN=73...  182     2e-52
+TR:A0A1D5S6Z9_WHEAT  A0A1D5S6Z9 Laccase OS=Triticum aestivum OX=4...  181     4e-52
+TR:A0A1D6RFY6_WHEAT  A0A1D6RFY6 Laccase OS=Triticum aestivum OX=4...  181     4e-52
+TR:A0A287G6V8_HORVV  A0A287G6V8 Laccase OS=Hordeum vulgare subsp....  179     8e-52
+TR:M7ZQA9_TRIUA  M7ZQA9 Laccase OS=Triticum urartu OX=4572 GN=TRI...  180     9e-52
+TR:A0A1D5RS64_WHEAT  A0A1D5RS64 Laccase OS=Triticum aestivum OX=4...  180     1e-51
+TR:A0A2T8KJA6_9POAL  A0A2T8KJA6 Uncharacterized protein OS=Panicu...  180     1e-51
+TR:M0VC31_HORVV  M0VC31 Laccase OS=Hordeum vulgare subsp. vulgare...  179     1e-51
+TR:A0A2T7ECW6_9POAL  A0A2T7ECW6 Uncharacterized protein OS=Panicu...  179     2e-51
+TR:J3M7V0_ORYBR  J3M7V0 Laccase OS=Oryza brachyantha OX=4533 PE=3...  178     7e-51
+TR:M8ALT2_AEGTA  M8ALT2 Laccase OS=Aegilops tauschii OX=37682 GN=...  173     6e-49
+TR:A0A0A9E5G0_ARUDO  A0A0A9E5G0 Lac5 OS=Arundo donax OX=35708 PE=...  163     1e-47
+TR:A0A0A9P575_ARUDO  A0A0A9P575 Lac5 OS=Arundo donax OX=35708 PE=...  163     1e-47
+TR:A0A287M2N5_HORVV  A0A287M2N5 Uncharacterized protein OS=Hordeu...  162     7e-47
+TR:A0A2P6R9Z1_ROSCH  A0A2P6R9Z1 Putative laccase OS=Rosa chinensi...  154     5e-46
+TR:I1HTA9_BRADI  I1HTA9 Laccase OS=Brachypodium distachyon OX=153...  164     6e-46
+TR:A0A0D9V7P8_9ORYZ  A0A0D9V7P8 Laccase OS=Leersia perrieri OX=77...  164     8e-46
+TR:A0A0A9BCW6_ARUDO  A0A0A9BCW6 Uncharacterized protein OS=Arundo...  152     1e-45
+TR:A0A1D5VRJ5_WHEAT  A0A1D5VRJ5 Laccase OS=Triticum aestivum OX=4...  162     2e-45
+TR:A0A287M2N1_HORVV  A0A287M2N1 Laccase OS=Hordeum vulgare subsp....  162     3e-45
+TR:A0A1D5WJ35_WHEAT  A0A1D5WJ35 Laccase OS=Triticum aestivum OX=4...  162     4e-45
+TR:A0A1D5V9G0_WHEAT  A0A1D5V9G0 Laccase OS=Triticum aestivum OX=4...  162     4e-45
+TR:A0A077S4X1_WHEAT  A0A077S4X1 Laccase OS=Triticum aestivum OX=4...  162     4e-45
+TR:A0A287M2M6_HORVV  A0A287M2M6 Laccase OS=Hordeum vulgare subsp....  162     5e-45
+TR:A0A287M2N7_HORVV  A0A287M2N7 Laccase OS=Hordeum vulgare subsp....  162     5e-45
+TR:A0A1D5WJ36_WHEAT  A0A1D5WJ36 Laccase OS=Triticum aestivum OX=4...  162     6e-45
+TR:A0A1S3Y812_TOBAC  A0A1S3Y812 laccase-17-like OS=Nicotiana taba...  149     8e-45
+TR:A0A2K3N8Q2_TRIPR  A0A2K3N8Q2 Laccase-17-like protein OS=Trifol...  152     8e-45
+TR:I1NT92_ORYGL  I1NT92 Laccase OS=Oryza glaberrima OX=4538 PE=3 ...  160     2e-44
+TR:A0A2I0IXM0_PUNGR  A0A2I0IXM0 Uncharacterized protein OS=Punica...  149     2e-44
+TR:M8A139_TRIUA  M8A139 Putative laccase-5 OS=Triticum urartu OX=...  160     2e-44
+TR:A0A0D3EW47_9ORYZ  A0A0D3EW47 Laccase OS=Oryza barthii OX=65489...  160     2e-44
+SP:LAC5_ORYSJ  Q5N9W4 Putative laccase-5 OS=Oryza sativa subsp. j...  159     3e-44
+TR:A0A0E0IG36_ORYNI  A0A0E0IG36 Laccase OS=Oryza nivara OX=4536 P...  159     5e-44
+TR:A0A0E0N4U5_ORYRU  A0A0E0N4U5 Laccase OS=Oryza rufipogon OX=452...  159     5e-44
+TR:A0A0D9YH77_9ORYZ  A0A0D9YH77 Laccase OS=Oryza glumipatula OX=4...  159     5e-44
+TR:A0A0E0JQX5_ORYPU  A0A0E0JQX5 Laccase OS=Oryza punctata OX=4537...  159     5e-44
+TR:A0A199W841_ANACO  A0A199W841 Laccase OS=Ananas comosus OX=4615...  159     5e-44
+TR:A0A2P4MZU2_QUESU  A0A2P4MZU2 Laccase OS=Quercus suber OX=58331...  159     5e-44
+TR:J3L5R3_ORYBR  J3L5R3 Uncharacterized protein OS=Oryza brachyan...  159     6e-44
+TR:A0A2S3HQL3_9POAL  A0A2S3HQL3 Uncharacterized protein OS=Panicu...  159     6e-44
+TR:A0A2T7DEI6_9POAL  A0A2T7DEI6 Uncharacterized protein OS=Panicu...  159     6e-44
+TR:A0A2T7DEI7_9POAL  A0A2T7DEI7 Uncharacterized protein OS=Panicu...  159     8e-44
+TR:C5XPQ5_SORBI  C5XPQ5 Laccase OS=Sorghum bicolor OX=4558 GN=SOR...  158     1e-43
+TR:A0A0A9CQ57_ARUDO  A0A0A9CQ57 Uncharacterized protein OS=Arundo...  146     1e-43
+TR:A0A0P0VA69_ORYSJ  A0A0P0VA69 Os01g0842400 protein (Fragment) O...  147     2e-43
+TR:A0A1E5UJ97_9POAL  A0A1E5UJ97 Laccase OS=Dichanthelium oligosan...  158     2e-43
+TR:A0A0A9I7L2_ARUDO  A0A0A9I7L2 Lac4 OS=Arundo donax OX=35708 PE=...  146     2e-43
+TR:Q8H699_LOLPR  Q8H699 Laccase LAC12 (Fragment) OS=Lolium perenn...  148     2e-43
+TR:K3XFZ4_SETIT  K3XFZ4 Laccase OS=Setaria italica OX=4555 GN=LOC...  157     2e-43
+TR:A0A287W5G8_HORVV  A0A287W5G8 Uncharacterized protein OS=Hordeu...  153     3e-43
+TR:A0A151RFX5_CAJCA  A0A151RFX5 Laccase-17 OS=Cajanus cajan OX=38...  145     4e-43
+TR:M0X209_HORVV  M0X209 Uncharacterized protein OS=Hordeum vulgar...  152     4e-43
+TR:A0A0E0CA68_9ORYZ  A0A0E0CA68 Laccase OS=Oryza meridionalis OX=...  157     5e-43
+TR:A0A2P5VU96_GOSBA  A0A2P5VU96 Uncharacterized protein OS=Gossyp...  151     7e-43
+TR:B6UCC4_MAIZE  B6UCC4 Laccase OS=Zea mays OX=4577 GN=732847 PE=...  156     7e-43
+TR:Q2PAI9_MAIZE  Q2PAI9 Laccase OS=Zea mays OX=4577 GN=lac5 PE=2 ...  156     7e-43
+TR:A0A2R6RDK8_ACTCH  A0A2R6RDK8 Laccase OS=Actinidia chinensis va...  153     8e-43
+TR:A0A287XG15_HORVV  A0A287XG15 Uncharacterized protein OS=Hordeu...  152     9e-43
+TR:A0A2P5VUA1_GOSBA  A0A2P5VUA1 Uncharacterized protein OS=Gossyp...  151     1e-42
+TR:A0A067GBE1_CITSI  A0A067GBE1 Uncharacterized protein (Fragment...  152     1e-42
+TR:A0A2R6PWZ5_ACTCH  A0A2R6PWZ5 Laccase OS=Actinidia chinensis va...  155     1e-42
+TR:A0A0A9SY00_ARUDO  A0A0A9SY00 Lac4 OS=Arundo donax OX=35708 PE=...  146     1e-42
+TR:A0A199UF00_ANACO  A0A199UF00 Laccase-4 (Fragment) OS=Ananas co...  157     2e-42
+TR:M0TCK1_MUSAM  M0TCK1 Uncharacterized protein OS=Musa acuminata...  155     2e-42
+TR:V7B3A0_PHAVU  V7B3A0 Uncharacterized protein (Fragment) OS=Pha...  147     2e-42
+TR:A0A2I0GK02_PUNGR  A0A2I0GK02 Uncharacterized protein OS=Punica...  143     2e-42
+TR:A0A2P2QG61_RHIMU  A0A2P2QG61 Uncharacterized protein OS=Rhizop...  144     2e-42
+TR:A0A2I0IHI0_PUNGR  A0A2I0IHI0 Uncharacterized protein OS=Punica...  147     2e-42
+TR:A0A1R3J8R9_9ROSI  A0A1R3J8R9 Laccase OS=Corchorus olitorius OX...  154     3e-42
+TR:W9S2D5_9ROSA  W9S2D5 Laccase OS=Morus notabilis OX=981085 GN=L...  154     3e-42
+TR:A0A067KUZ4_JATCU  A0A067KUZ4 Laccase OS=Jatropha curcas OX=180...  154     4e-42
+TR:A0A1R3JQZ7_9ROSI  A0A1R3JQZ7 Laccase OS=Corchorus olitorius OX...  151     5e-42
+TR:V4SC56_9ROSI  V4SC56 Laccase OS=Citrus clementina OX=85681 GN=...  154     7e-42
+TR:A0A2G2VXH1_CAPBA  A0A2G2VXH1 Uncharacterized protein OS=Capsic...  150     7e-42
+TR:A0A2K2BZT5_POPTR  A0A2K2BZT5 Laccase OS=Populus trichocarpa OX...  153     9e-42
+TR:A0A0D2U7G2_GOSRA  A0A0D2U7G2 Laccase OS=Gossypium raimondii OX...  153     9e-42
+TR:A0A067KHP8_JATCU  A0A067KHP8 Laccase OS=Jatropha curcas OX=180...  150     9e-42
+TR:F6HL90_VITVI  F6HL90 Uncharacterized protein OS=Vitis vinifera...  146     9e-42
+TR:A0A0B0N4X4_GOSAR  A0A0B0N4X4 Laccase-10 OS=Gossypium arboreum ...  145     9e-42
+TR:A0A2R6RY91_ACTCH  A0A2R6RY91 Laccase OS=Actinidia chinensis va...  153     1e-41
+TR:A0A2N9HV13_FAGSY  A0A2N9HV13 Laccase OS=Fagus sylvatica OX=289...  153     1e-41
+TR:A0A078HLW0_BRANA  A0A078HLW0 BnaA05g13050D protein OS=Brassica...  149     1e-41
+TR:A0A0A9J5Z9_ARUDO  A0A0A9J5Z9 Lac4 OS=Arundo donax OX=35708 PE=...  144     1e-41
+TR:A0A2N9GTG0_FAGSY  A0A2N9GTG0 Laccase OS=Fagus sylvatica OX=289...  153     1e-41
+TR:A0A1J7H419_LUPAN  A0A1J7H419 Uncharacterized protein OS=Lupinu...  149     1e-41
+TR:A0A165A6U3_DAUCA  A0A165A6U3 Laccase OS=Daucus carota subsp. s...  153     1e-41
+TR:A0A061GX25_THECC  A0A061GX25 Laccase OS=Theobroma cacao OX=364...  153     1e-41
+TR:A0A059A9W4_EUCGR  A0A059A9W4 Laccase OS=Eucalyptus grandis OX=...  153     1e-41
+TR:A0A2I4DGL9_9ROSI  A0A2I4DGL9 Laccase OS=Juglans regia OX=51240...  153     1e-41
+TR:A0A287XG62_HORVV  A0A287XG62 Laccase OS=Hordeum vulgare subsp....  152     1e-41
+TR:A0A287W5F9_HORVV  A0A287W5F9 Laccase OS=Hordeum vulgare subsp....  153     2e-41
+TR:A0A287W4K8_HORVV  A0A287W4K8 Laccase OS=Hordeum vulgare subsp....  153     2e-41
+TR:A0A287W4L3_HORVV  A0A287W4L3 Laccase OS=Hordeum vulgare subsp....  153     2e-41
+TR:A0A2K1Z8I1_POPTR  A0A2K1Z8I1 Laccase OS=Populus trichocarpa OX...  152     2e-41
+TR:A0A2K1Z8G8_POPTR  A0A2K1Z8G8 Laccase OS=Populus trichocarpa OX...  152     2e-41
+TR:A0A287XG57_HORVV  A0A287XG57 Laccase OS=Hordeum vulgare subsp....  152     2e-41
+TR:F6HNU6_VITVI  F6HNU6 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  152     2e-41
+TR:K3Z4V9_SETIT  K3Z4V9 Laccase OS=Setaria italica OX=4555 GN=LOC...  152     2e-41
+TR:A0A1D1ZJX5_9ARAE  A0A1D1ZJX5 Laccase-17 (Fragment) OS=Anthuriu...  153     2e-41
+TR:A0A200R540_9MAGN  A0A200R540 Laccase OS=Macleaya cordata OX=56...  152     2e-41
+TR:A0A1E5WBJ3_9POAL  A0A1E5WBJ3 Laccase OS=Dichanthelium oligosan...  152     2e-41
+TR:K4A7R0_SETIT  K4A7R0 Laccase OS=Setaria italica OX=4555 GN=LOC...  152     2e-41
+TR:A0A1S4BQK0_TOBAC  A0A1S4BQK0 laccase-17-like OS=Nicotiana taba...  149     2e-41
+TR:A0A2C9VGD7_MANES  A0A2C9VGD7 Laccase OS=Manihot esculenta OX=3...  152     2e-41
+TR:W1PJB2_AMBTC  W1PJB2 Laccase OS=Amborella trichopoda OX=13333 ...  152     2e-41
+TR:M8B1H2_AEGTA  M8B1H2 Laccase-4 OS=Aegilops tauschii OX=37682 G...  148     2e-41
+TR:M0V336_HORVV  M0V336 Laccase OS=Hordeum vulgare subsp. vulgare...  144     2e-41
+TR:V7B3V4_PHAVU  V7B3V4 Uncharacterized protein (Fragment) OS=Pha...  152     2e-41
+TR:A0A2R6P653_ACTCH  A0A2R6P653 Laccase OS=Actinidia chinensis va...  152     2e-41
+TR:A0A1S4AMY5_TOBAC  A0A1S4AMY5 laccase-17-like OS=Nicotiana taba...  149     2e-41
+TR:A0A2H5NDD2_CITUN  A0A2H5NDD2 Laccase OS=Citrus unshiu OX=55188...  152     2e-41
+TR:A0A2P6QJ16_ROSCH  A0A2P6QJ16 Laccase OS=Rosa chinensis OX=7464...  152     3e-41
+TR:A5AKT5_VITVI  A5AKT5 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  152     3e-41
+TR:A0A2S3IRY9_9POAL  A0A2S3IRY9 Uncharacterized protein OS=Panicu...  152     3e-41
+TR:A0A2T7CEC3_9POAL  A0A2T7CEC3 Uncharacterized protein OS=Panicu...  152     3e-41
+TR:A0A072TZK1_MEDTR  A0A072TZK1 Laccase OS=Medicago truncatula OX...  152     3e-41
+TR:A0A067E0J7_CITSI  A0A067E0J7 Uncharacterized protein (Fragment...  148     3e-41
+TR:U5DA76_AMBTC  U5DA76 Laccase OS=Amborella trichopoda OX=13333 ...  152     3e-41
+TR:A0A0B2Q2G5_GLYSO  A0A0B2Q2G5 Laccase OS=Glycine soja OX=3848 G...  151     3e-41
+TR:D7SKP6_VITVI  D7SKP6 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  152     4e-41
+TR:G7JUW8_MEDTR  G7JUW8 Laccase OS=Medicago truncatula OX=3880 GN...  152     4e-41
+TR:A0A2I4H2U9_9ROSI  A0A2I4H2U9 Laccase OS=Juglans regia OX=51240...  152     4e-41
+TR:A0A287M2R0_HORVV  A0A287M2R0 Laccase OS=Hordeum vulgare subsp....  148     4e-41
+TR:A0A1S2YMV4_CICAR  A0A1S2YMV4 Laccase OS=Cicer arietinum OX=382...  152     4e-41
+TR:A0A0A9N5K4_ARUDO  A0A0A9N5K4 Laccase OS=Arundo donax OX=35708 ...  149     4e-41
+TR:M0YJA5_HORVV  M0YJA5 Laccase OS=Hordeum vulgare subsp. vulgare...  151     4e-41
+TR:A0A2I4EJT6_9ROSI  A0A2I4EJT6 Laccase OS=Juglans regia OX=51240...  152     4e-41
+TR:A5ACW6_VITVI  A5ACW6 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  151     4e-41
+TR:I1N2I9_SOYBN  I1N2I9 Laccase OS=Glycine max OX=3847 GN=1008060...  151     4e-41
+TR:A0A2R6R7Y5_ACTCH  A0A2R6R7Y5 Laccase OS=Actinidia chinensis va...  151     5e-41
+TR:K4C9Z3_SOLLC  K4C9Z3 Laccase OS=Solanum lycopersicum OX=4081 P...  152     5e-41
+TR:F6HNW0_VITVI  F6HNW0 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  151     5e-41
+TR:A0A2G2YRF7_CAPAN  A0A2G2YRF7 Laccase-2 OS=Capsicum annuum OX=4...  142     5e-41
+TR:A0A1P8FAQ6_9ROSA  A0A1P8FAQ6 Laccase OS=Pyrus x bretschneideri...  151     5e-41
+TR:A0A287G6R3_HORVV  A0A287G6R3 Laccase OS=Hordeum vulgare subsp....  151     5e-41
+TR:M5WQV0_PRUPE  M5WQV0 Laccase OS=Prunus persica OX=3760 GN=PRUP...  151     5e-41
+TR:A0A0B2RJX8_GLYSO  A0A0B2RJX8 Laccase OS=Glycine soja OX=3848 G...  151     5e-41
+TR:I1LQN6_SOYBN  I1LQN6 Laccase OS=Glycine max OX=3847 GN=1008118...  151     5e-41
+TR:A0A287G6R7_HORVV  A0A287G6R7 Laccase OS=Hordeum vulgare subsp....  151     5e-41
+TR:A0A2C9V979_MANES  A0A2C9V979 Laccase OS=Manihot esculenta OX=3...  151     6e-41
+TR:A0A0D3EW33_9ORYZ  A0A0D3EW33 Laccase OS=Oryza barthii OX=65489...  151     6e-41
+TR:B8AC19_ORYSI  B8AC19 Laccase OS=Oryza sativa subsp. indica OX=...  151     6e-41
+TR:A0A0E0J162_ORYNI  A0A0E0J162 Laccase OS=Oryza nivara OX=4536 P...  151     6e-41
+TR:A0A0E0N4T3_ORYRU  A0A0E0N4T3 Laccase OS=Oryza rufipogon OX=452...  151     6e-41
+TR:A0A0D9YH58_9ORYZ  A0A0D9YH58 Laccase OS=Oryza glumipatula OX=4...  151     6e-41
+TR:A0A0D9V7P0_9ORYZ  A0A0D9V7P0 Laccase OS=Leersia perrieri OX=77...  151     6e-41
+TR:J3L5Q9_ORYBR  J3L5Q9 Laccase OS=Oryza brachyantha OX=4533 GN=1...  151     6e-41
+TR:I1NT81_ORYGL  I1NT81 Laccase OS=Oryza glaberrima OX=4538 PE=3 ...  151     6e-41
+TR:A0A2S3HBD9_9POAL  A0A2S3HBD9 Uncharacterized protein OS=Panicu...  151     6e-41
+TR:A0A1R3J984_9ROSI  A0A1R3J984 Laccase OS=Corchorus olitorius OX...  151     6e-41
+TR:A0A2T7ECX1_9POAL  A0A2T7ECX1 Uncharacterized protein OS=Panicu...  151     6e-41
+TR:F2D9J2_HORVV  F2D9J2 Laccase OS=Hordeum vulgare subsp. vulgare...  151     7e-41
+TR:A0A1D6DFS0_WHEAT  A0A1D6DFS0 Laccase OS=Triticum aestivum OX=4...  151     7e-41
+TR:D7THL1_VITVI  D7THL1 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  151     7e-41
+TR:A0A1U8HMN5_GOSHI  A0A1U8HMN5 Laccase OS=Gossypium hirsutum OX=...  148     7e-41
+TR:A0A2H3YPN0_PHODC  A0A2H3YPN0 Laccase OS=Phoenix dactylifera OX...  150     7e-41
+TR:A0A287M2Q1_HORVV  A0A287M2Q1 Laccase OS=Hordeum vulgare subsp....  148     8e-41
+TR:K4CRM1_SOLLC  K4CRM1 Laccase OS=Solanum lycopersicum OX=4081 G...  150     8e-41
+TR:W1PLC3_AMBTC  W1PLC3 Laccase OS=Amborella trichopoda OX=13333 ...  150     9e-41
+TR:I1KK07_SOYBN  I1KK07 Laccase OS=Glycine max OX=3847 GN=1008109...  150     9e-41
+TR:A0A2K1ZZ60_POPTR  A0A2K1ZZ60 Laccase OS=Populus trichocarpa OX...  150     9e-41
+TR:Q9ZQW2_POPTR  Q9ZQW2 Laccase OS=Populus trichocarpa OX=3694 GN...  150     9e-41
+TR:A0A200QIQ9_9MAGN  A0A200QIQ9 Laccase OS=Macleaya cordata OX=56...  150     9e-41
+TR:A0A1U8B4P7_NELNU  A0A1U8B4P7 Laccase OS=Nelumbo nucifera OX=44...  150     9e-41
+TR:M7YSX1_TRIUA  M7YSX1 Laccase OS=Triticum urartu OX=4572 GN=TRI...  149     9e-41
+TR:W9SKY4_9ROSA  W9SKY4 Laccase OS=Morus notabilis OX=981085 GN=L...  150     1e-40
+TR:A0A0E0JQW7_ORYPU  A0A0E0JQW7 Uncharacterized protein OS=Oryza ...  150     1e-40
+TR:A0A2P5DS45_9ROSA  A0A2P5DS45 Laccase OS=Trema orientalis OX=63...  150     1e-40
+TR:A0A2P5Y787_GOSBA  A0A2P5Y787 Laccase OS=Gossypium barbadense O...  150     1e-40
+TR:A5BDB6_VITVI  A5BDB6 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  150     1e-40
+TR:B4FDI9_MAIZE  B4FDI9 Laccase OS=Zea mays OX=4577 GN=100193025 ...  150     1e-40
+TR:A0A2P4LU58_QUESU  A0A2P4LU58 Laccase OS=Quercus suber OX=58331...  150     1e-40
+TR:A0A1E5ULM3_9POAL  A0A1E5ULM3 Laccase OS=Dichanthelium oligosan...  150     1e-40
+TR:A0A1S4B100_TOBAC  A0A1S4B100 Laccase OS=Nicotiana tabacum OX=4...  150     1e-40
+TR:A0A1J6IP72_NICAT  A0A1J6IP72 Laccase OS=Nicotiana attenuata OX...  150     1e-40
+TR:A0A1P8FAQ4_9ROSA  A0A1P8FAQ4 Laccase OS=Pyrus x bretschneideri...  150     1e-40
+TR:A0A220NLD3_9ROSA  A0A220NLD3 Laccase OS=Pyrus x bretschneideri...  150     1e-40
+TR:C5YZ93_SORBI  C5YZ93 Laccase OS=Sorghum bicolor OX=4558 GN=SOR...  150     1e-40
+TR:A0A2N9EE97_FAGSY  A0A2N9EE97 Uncharacterized protein OS=Fagus ...  146     1e-40
+TR:A0A151SUP8_CAJCA  A0A151SUP8 Laccase OS=Cajanus cajan OX=3821 ...  150     1e-40
+TR:A0A2P5Y767_GOSBA  A0A2P5Y767 Uncharacterized protein OS=Gossyp...  149     1e-40
+TR:M7ZS72_TRIUA  M7ZS72 Laccase-4 OS=Triticum urartu OX=4572 GN=T...  149     1e-40
+TR:A0A2P5Q5F6_GOSBA  A0A2P5Q5F6 Laccase OS=Gossypium barbadense O...  150     2e-40
+TR:A0A059DEJ3_EUCGR  A0A059DEJ3 Laccase OS=Eucalyptus grandis OX=...  150     2e-40
+TR:M0S8H9_MUSAM  M0S8H9 Uncharacterized protein OS=Musa acuminata...  149     2e-40
+TR:A0A2P5QEK3_GOSBA  A0A2P5QEK3 Laccase OS=Gossypium barbadense O...  150     2e-40
+TR:A0A0D2P0S6_GOSRA  A0A0D2P0S6 Laccase OS=Gossypium raimondii OX...  150     2e-40
+TR:A0A1U8NNS0_GOSHI  A0A1U8NNS0 Laccase OS=Gossypium hirsutum OX=...  150     2e-40
+TR:A0A1U8NRF1_GOSHI  A0A1U8NRF1 Laccase OS=Gossypium hirsutum OX=...  150     2e-40
+TR:A0A1D5SEG6_WHEAT  A0A1D5SEG6 Laccase OS=Triticum aestivum OX=4...  150     2e-40
+TR:A0A1S3B5F2_CUCME  A0A1S3B5F2 Laccase OS=Cucumis melo OX=3656 G...  150     2e-40
+TR:M5WQU5_PRUPE  M5WQU5 Laccase OS=Prunus persica OX=3760 GN=PRUP...  150     2e-40
+TR:A0A0S3SD11_PHAAN  A0A0S3SD11 Laccase OS=Vigna angularis var. a...  150     2e-40
+TR:A0A0L9T6I5_PHAAN  A0A0L9T6I5 Laccase OS=Phaseolus angularis OX...  150     2e-40
+TR:A0A200PM35_9MAGN  A0A200PM35 Laccase OS=Macleaya cordata OX=56...  150     2e-40
+TR:A0A1S3VMA7_VIGRR  A0A1S3VMA7 Laccase OS=Vigna radiata var. rad...  150     2e-40
+TR:A0A2P5Y759_GOSBA  A0A2P5Y759 Laccase OS=Gossypium barbadense O...  149     2e-40
+TR:B9HPE5_POPTR  B9HPE5 Laccase OS=Populus trichocarpa OX=3694 GN...  149     2e-40
+TR:A0A1U8HGP7_GOSHI  A0A1U8HGP7 Laccase OS=Gossypium hirsutum OX=...  149     2e-40
+TR:Q8S2A8_ORYSJ  Q8S2A8 Laccase OS=Oryza sativa subsp. japonica O...  149     2e-40
+TR:A0A1D6DBB5_WHEAT  A0A1D6DBB5 Laccase OS=Triticum aestivum OX=4...  149     2e-40
+TR:M4DPG7_BRARP  M4DPG7 Laccase OS=Brassica rapa subsp. pekinensi...  149     2e-40
+TR:A0A1U8HPN8_GOSHI  A0A1U8HPN8 Laccase OS=Gossypium hirsutum OX=...  149     2e-40
+TR:A0A2G2VUV7_CAPBA  A0A2G2VUV7 Laccase OS=Capsicum baccatum OX=3...  149     2e-40
+TR:A0A1D6DFR5_WHEAT  A0A1D6DFR5 Laccase OS=Triticum aestivum OX=4...  149     2e-40
+TR:A0A1U8HGJ1_GOSHI  A0A1U8HGJ1 Laccase OS=Gossypium hirsutum OX=...  149     2e-40
+TR:A0A2G2YM91_CAPAN  A0A2G2YM91 Laccase OS=Capsicum annuum OX=407...  149     2e-40
+TR:A0A1U8EA11_CAPAN  A0A1U8EA11 Laccase OS=Capsicum annuum OX=407...  149     2e-40
+TR:A0A2G3BFW6_CAPCH  A0A2G3BFW6 Laccase OS=Capsicum chinense OX=8...  149     2e-40
+TR:A0A1U8HMM9_GOSHI  A0A1U8HMM9 Laccase OS=Gossypium hirsutum OX=...  149     2e-40
+TR:I1GTI4_BRADI  I1GTI4 Laccase OS=Brachypodium distachyon OX=153...  149     2e-40
+TR:D7TLR5_VITVI  D7TLR5 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  149     2e-40
+TR:F6HNU7_VITVI  F6HNU7 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  149     2e-40
+TR:A0A0P0WN76_ORYSJ  A0A0P0WN76 Os05g0458600 protein (Fragment) O...  144     3e-40
+TR:C5WQ07_SORBI  C5WQ07 Laccase OS=Sorghum bicolor OX=4558 GN=SOR...  149     3e-40
+TR:A0A2H3XLM7_PHODC  A0A2H3XLM7 Laccase OS=Phoenix dactylifera OX...  149     3e-40
+TR:A0A0E0CA55_9ORYZ  A0A0E0CA55 Laccase OS=Oryza meridionalis OX=...  149     3e-40
+TR:A0A0S3RV32_PHAAN  A0A0S3RV32 Laccase OS=Vigna angularis var. a...  149     3e-40
+TR:A0A0L9U5D1_PHAAN  A0A0L9U5D1 Laccase OS=Phaseolus angularis OX...  149     3e-40
+TR:A0A1S3TSC2_VIGRR  A0A1S3TSC2 Laccase OS=Vigna radiata var. rad...  149     3e-40
+TR:B9SZZ6_RICCO  B9SZZ6 Laccase OS=Ricinus communis OX=3988 GN=RC...  149     3e-40
+TR:A0A078JIR4_BRANA  A0A078JIR4 Laccase OS=Brassica napus OX=3708...  149     3e-40
+TR:A0A1D6CWV1_WHEAT  A0A1D6CWV1 Laccase OS=Triticum aestivum OX=4...  149     3e-40
+TR:A0A2N9GTN7_FAGSY  A0A2N9GTN7 Laccase OS=Fagus sylvatica OX=289...  149     3e-40
+TR:A0A2R6PX14_ACTCH  A0A2R6PX14 Laccase OS=Actinidia chinensis va...  149     4e-40
+TR:A0A251T407_HELAN  A0A251T407 Putative cupredoxin OS=Helianthus...  144     4e-40
+TR:A0A1D6BW56_WHEAT  A0A1D6BW56 Laccase OS=Triticum aestivum OX=4...  149     4e-40
+TR:A0A1D5WMD2_WHEAT  A0A1D5WMD2 Laccase OS=Triticum aestivum OX=4...  148     4e-40
+TR:A0A2R6RY67_ACTCH  A0A2R6RY67 Laccase OS=Actinidia chinensis va...  149     5e-40
+TR:A0A1D6SE83_WHEAT  A0A1D6SE83 Laccase OS=Triticum aestivum OX=4...  149     5e-40
+TR:G7L1A9_MEDTR  G7L1A9 Laccase OS=Medicago truncatula OX=3880 GN...  149     5e-40
+TR:A0A218W2S6_PUNGR  A0A218W2S6 Laccase OS=Punica granatum OX=226...  149     5e-40
+TR:A0A251T4U2_HELAN  A0A251T4U2 Laccase OS=Helianthus annuus OX=4...  145     5e-40
+TR:A0A2G5EXD8_AQUCA  A0A2G5EXD8 Laccase OS=Aquilegia coerulea OX=...  149     5e-40
+TR:A0A200R527_9MAGN  A0A200R527 Laccase OS=Macleaya cordata OX=56...  149     5e-40
+TR:A0A2G5EXA4_AQUCA  A0A2G5EXA4 Laccase OS=Aquilegia coerulea OX=...  149     5e-40
+TR:A0A200R543_9MAGN  A0A200R543 Laccase OS=Macleaya cordata OX=56...  150     5e-40
+TR:A0A287M2Q3_HORVV  A0A287M2Q3 Laccase OS=Hordeum vulgare subsp....  148     6e-40
+TR:A0A1D5WMD1_WHEAT  A0A1D5WMD1 Laccase OS=Triticum aestivum OX=4...  148     6e-40
+TR:M0TS81_MUSAM  M0TS81 Uncharacterized protein OS=Musa acuminata...  147     6e-40
+TR:A0A0D2MN80_GOSRA  A0A0D2MN80 Laccase OS=Gossypium raimondii OX...  148     6e-40
+TR:A0A1U8M7M4_GOSHI  A0A1U8M7M4 Laccase OS=Gossypium hirsutum OX=...  148     6e-40
+TR:A0A2R6PXL9_ACTCH  A0A2R6PXL9 Laccase OS=Actinidia chinensis va...  148     6e-40
+TR:A0A061ER06_THECC  A0A061ER06 Laccase OS=Theobroma cacao OX=364...  148     6e-40
+TR:A5AEC2_VITVI  A5AEC2 Uncharacterized protein OS=Vitis vinifera...  148     6e-40
+TR:A0A067G0F5_CITSI  A0A067G0F5 Laccase OS=Citrus sinensis OX=271...  148     6e-40
+TR:A0A2H5NDJ4_CITUN  A0A2H5NDJ4 Laccase OS=Citrus unshiu OX=55188...  148     6e-40
+TR:V4SLG7_9ROSI  V4SLG7 Laccase OS=Citrus clementina OX=85681 GN=...  148     6e-40
+TR:A0A2G3BKQ3_CAPCH  A0A2G3BKQ3 Laccase-17 OS=Capsicum chinense O...  142     6e-40
+TR:M0TX44_MUSAM  M0TX44 Laccase OS=Musa acuminata subsp. malaccen...  148     6e-40
+TR:V4U9X6_9ROSI  V4U9X6 Laccase OS=Citrus clementina OX=85681 GN=...  148     6e-40
+TR:A0A1U7Y9V4_NICSY  A0A1U7Y9V4 Laccase OS=Nicotiana sylvestris O...  148     7e-40
+TR:A0A1S4D3I8_TOBAC  A0A1S4D3I8 Laccase OS=Nicotiana tabacum OX=4...  148     7e-40
+TR:A0A151TMG8_CAJCA  A0A151TMG8 Laccase OS=Cajanus cajan OX=3821 ...  148     7e-40
+TR:A0A0A0LDP1_CUCSA  A0A0A0LDP1 Laccase OS=Cucumis sativus OX=365...  148     7e-40
+TR:A0A2H5QHI7_CITUN  A0A2H5QHI7 Laccase OS=Citrus unshiu OX=55188...  148     7e-40
+TR:V7B326_PHAVU  V7B326 Laccase OS=Phaseolus vulgaris OX=3885 GN=...  149     7e-40
+TR:T1NWN4_TRIUA  T1NWN4 Laccase OS=Triticum urartu OX=4572 PE=3 SV=1  147     7e-40
+TR:A0A287P9X4_HORVV  A0A287P9X4 Laccase OS=Hordeum vulgare subsp....  144     7e-40
+TR:A0A067DDR4_CITSI  A0A067DDR4 Uncharacterized protein (Fragment...  147     8e-40
+TR:A0A077RX89_WHEAT  A0A077RX89 Laccase OS=Triticum aestivum OX=4...  148     8e-40
+TR:A0A2G9HHS0_9LAMI  A0A2G9HHS0 Laccase OS=Handroanthus impetigin...  148     8e-40
+TR:F2DXF2_HORVV  F2DXF2 Laccase OS=Hordeum vulgare subsp. vulgare...  148     8e-40
+TR:A0A2H3XLF7_PHODC  A0A2H3XLF7 Laccase OS=Phoenix dactylifera OX...  148     9e-40
+TR:A0A068UDM9_COFCA  A0A068UDM9 Laccase OS=Coffea canephora OX=49...  148     9e-40
+TR:D7THL9_VITVI  D7THL9 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  148     9e-40
+TR:A0A0E0JQW6_ORYPU  A0A0E0JQW6 Laccase OS=Oryza punctata OX=4537...  148     9e-40
+TR:B9SZZ3_RICCO  B9SZZ3 Laccase OS=Ricinus communis OX=3988 GN=RC...  148     9e-40
+TR:A0A2R6PWU1_ACTCH  A0A2R6PWU1 Laccase OS=Actinidia chinensis va...  148     1e-39
+TR:A0A0E0CA54_9ORYZ  A0A0E0CA54 Laccase OS=Oryza meridionalis OX=...  148     1e-39
+TR:A0A0D3BTX6_BRAOL  A0A0D3BTX6 Laccase OS=Brassica oleracea var....  147     1e-39
+TR:A0A2C9V0W8_MANES  A0A2C9V0W8 Laccase OS=Manihot esculenta OX=3...  147     1e-39
+TR:A0A2P5R2W3_GOSBA  A0A2P5R2W3 Laccase OS=Gossypium barbadense O...  146     1e-39
+TR:A0A1U7ZRK6_NELNU  A0A1U7ZRK6 Laccase OS=Nelumbo nucifera OX=44...  147     1e-39
+TR:F6HNV9_VITVI  F6HNV9 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  147     1e-39
+TR:A0A068ULA6_COFCA  A0A068ULA6 Laccase OS=Coffea canephora OX=49...  147     1e-39
+TR:A0A218XBR8_PUNGR  A0A218XBR8 Laccase OS=Punica granatum OX=226...  147     1e-39
+TR:A0A2P5DQK9_PARAD  A0A2P5DQK9 Laccase OS=Parasponia andersonii ...  147     1e-39
+TR:M1AHJ4_SOLTU  M1AHJ4 Laccase OS=Solanum tuberosum OX=4113 GN=1...  147     1e-39
+TR:M1AH62_SOLTU  M1AH62 Laccase OS=Solanum tuberosum OX=4113 GN=1...  147     1e-39
+TR:A0A2P5D691_9ROSA  A0A2P5D691 Laccase OS=Trema orientalis OX=63...  147     2e-39
+TR:J3L5Q7_ORYBR  J3L5Q7 Laccase OS=Oryza brachyantha OX=4533 PE=3...  147     2e-39
+TR:M0TX47_MUSAM  M0TX47 Uncharacterized protein OS=Musa acuminata...  147     2e-39
+TR:A0A0A0LD50_CUCSA  A0A0A0LD50 Laccase OS=Cucumis sativus OX=365...  147     2e-39
+TR:A0A2C9VZ56_MANES  A0A2C9VZ56 Laccase OS=Manihot esculenta OX=3...  147     2e-39
+TR:A0A0D3EW32_9ORYZ  A0A0D3EW32 Laccase OS=Oryza barthii OX=65489...  147     2e-39
+TR:B8AC16_ORYSI  B8AC16 Laccase OS=Oryza sativa subsp. indica OX=...  147     2e-39
+TR:A0A0E0N4T2_ORYRU  A0A0E0N4T2 Laccase OS=Oryza rufipogon OX=452...  147     2e-39
+TR:A0A0D9YH57_9ORYZ  A0A0D9YH57 Laccase OS=Oryza glumipatula OX=4...  147     2e-39
+TR:I1HTA3_BRADI  I1HTA3 Laccase OS=Brachypodium distachyon OX=153...  147     2e-39
+SP:LAC4_ORYSJ  Q5N9X2 Laccase-4 OS=Oryza sativa subsp. japonica O...  147     2e-39
+TR:A0A0E0IQD7_ORYNI  A0A0E0IQD7 Laccase OS=Oryza nivara OX=4536 P...  147     2e-39
+TR:B9HBT3_POPTR  B9HBT3 Laccase OS=Populus trichocarpa OX=3694 GN...  147     2e-39
+TR:M1BTE6_SOLTU  M1BTE6 Laccase OS=Solanum tuberosum OX=4113 GN=1...  147     2e-39
+TR:I1NT80_ORYGL  I1NT80 Laccase OS=Oryza glaberrima OX=4538 PE=3 ...  147     2e-39
+TR:A0A1D6DCP4_WHEAT  A0A1D6DCP4 Laccase OS=Triticum aestivum OX=4...  147     2e-39
+TR:A0A1U7Y325_NICSY  A0A1U7Y325 Laccase OS=Nicotiana sylvestris O...  147     2e-39
+TR:A0A1S4CWM6_TOBAC  A0A1S4CWM6 Laccase OS=Nicotiana tabacum OX=4...  147     2e-39
+TR:A0A1S4A2U6_TOBAC  A0A1S4A2U6 Laccase OS=Nicotiana tabacum OX=4...  147     2e-39
+TR:A0A1S3ZBI7_TOBAC  A0A1S3ZBI7 Laccase OS=Nicotiana tabacum OX=4...  147     2e-39
+TR:U5DD45_AMBTC  U5DD45 Laccase OS=Amborella trichopoda OX=13333 ...  147     2e-39
+TR:A0A2H3X6C3_PHODC  A0A2H3X6C3 Laccase OS=Phoenix dactylifera OX...  147     2e-39
+TR:I3S4Y4_MEDTR  I3S4Y4 Uncharacterized protein OS=Medicago trunc...  138     2e-39
+TR:A0A0S3SG83_PHAAN  A0A0S3SG83 Uncharacterized protein OS=Vigna ...  142     2e-39
+TR:A0A022QD48_ERYGU  A0A022QD48 Laccase OS=Erythranthe guttata OX...  147     2e-39
+TR:A0A2N9HXP5_FAGSY  A0A2N9HXP5 Uncharacterized protein OS=Fagus ...  146     2e-39
+TR:A0A1D5V6D7_WHEAT  A0A1D5V6D7 Laccase OS=Triticum aestivum OX=4...  146     2e-39
+TR:A0A2H3X5C6_PHODC  A0A2H3X5C6 Laccase OS=Phoenix dactylifera OX...  147     2e-39
+TR:W5B105_WHEAT  W5B105 Laccase OS=Triticum aestivum OX=4565 PE=3...  147     2e-39
+TR:A0A2P5XWF1_GOSBA  A0A2P5XWF1 Laccase OS=Gossypium barbadense O...  147     2e-39
+TR:A0A0D2UJM9_GOSRA  A0A0D2UJM9 Laccase OS=Gossypium raimondii OX...  147     2e-39
+TR:A0A1U8PH49_GOSHI  A0A1U8PH49 Laccase OS=Gossypium hirsutum OX=...  147     2e-39
+TR:A0A022QG95_ERYGU  A0A022QG95 Laccase OS=Erythranthe guttata OX...  147     2e-39
+TR:V4US36_9ROSI  V4US36 Laccase OS=Citrus clementina OX=85681 GN=...  147     2e-39
+TR:M5WPK0_PRUPE  M5WPK0 Laccase OS=Prunus persica OX=3760 GN=PRUP...  147     2e-39
+TR:A0A2H3XLG2_PHODC  A0A2H3XLG2 Laccase OS=Phoenix dactylifera OX...  147     2e-39
+TR:A0A1D1YCF8_9ARAE  A0A1D1YCF8 Laccase OS=Anthurium amnicola OX=...  147     2e-39
+TR:O24043_LIRTU  O24043 Laccase OS=Liriodendron tulipifera OX=341...  147     2e-39
+TR:A0A2P5SM37_GOSBA  A0A2P5SM37 Laccase OS=Gossypium barbadense O...  146     3e-39
+TR:A0A103T200_CYNCS  A0A103T200 Laccase OS=Cynara cardunculus var...  146     3e-39
+TR:A0A151UDS1_CAJCA  A0A151UDS1 Laccase-17 (Fragment) OS=Cajanus ...  142     3e-39
+TR:A0A2N9E2B6_FAGSY  A0A2N9E2B6 Laccase OS=Fagus sylvatica OX=289...  146     3e-39
+TR:M7YE76_TRIUA  M7YE76 Laccase OS=Triticum urartu OX=4572 GN=TRI...  146     3e-39
+TR:A0A1D5V6D6_WHEAT  A0A1D5V6D6 Laccase OS=Triticum aestivum OX=4...  146     3e-39
+TR:A0A0D2NSZ6_GOSRA  A0A0D2NSZ6 Laccase OS=Gossypium raimondii OX...  146     3e-39
+TR:A0A1U8MWH0_GOSHI  A0A1U8MWH0 Laccase OS=Gossypium hirsutum OX=...  146     3e-39
+TR:A0A2P5CMX7_PARAD  A0A2P5CMX7 Laccase OS=Parasponia andersonii ...  146     3e-39
+TR:A0A072U047_MEDTR  A0A072U047 Laccase OS=Medicago truncatula OX...  146     3e-39
+TR:C0PGP6_MAIZE  C0PGP6 Laccase OS=Zea mays OX=4577 PE=2 SV=1         146     3e-39
+TR:B4G065_MAIZE  B4G065 Uncharacterized protein OS=Zea mays OX=45...  142     3e-39
+TR:A0A2P6QI32_ROSCH  A0A2P6QI32 Laccase OS=Rosa chinensis OX=7464...  146     3e-39
+TR:I1LK01_SOYBN  I1LK01 Laccase OS=Glycine max OX=3847 GN=1007926...  146     3e-39
+TR:A0A2P4LU68_QUESU  A0A2P4LU68 Laccase OS=Quercus suber OX=58331...  146     3e-39
+TR:A0A2P5XF03_GOSBA  A0A2P5XF03 Laccase OS=Gossypium barbadense O...  146     4e-39
+TR:A0A287HTA4_HORVV  A0A287HTA4 Laccase OS=Hordeum vulgare subsp....  145     4e-39
+TR:M0V334_HORVV  M0V334 Laccase OS=Hordeum vulgare subsp. vulgare...  144     4e-39
+TR:B7FM88_MEDTR  B7FM88 Uncharacterized protein OS=Medicago trunc...  138     4e-39
+TR:A0A1J6I093_NICAT  A0A1J6I093 Laccase OS=Nicotiana attenuata OX...  146     4e-39
+TR:A0A022RS36_ERYGU  A0A022RS36 Laccase OS=Erythranthe guttata OX...  146     4e-39
+TR:A0A118JS46_CYNCS  A0A118JS46 Laccase OS=Cynara cardunculus var...  146     4e-39
+TR:D7SKM1_VITVI  D7SKM1 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  146     4e-39
+TR:A0A1J6IQQ6_NICAT  A0A1J6IQQ6 Laccase OS=Nicotiana attenuata OX...  146     4e-39
+TR:A0A1U8N760_GOSHI  A0A1U8N760 Laccase OS=Gossypium hirsutum OX=...  146     4e-39
+TR:F2DNM0_HORVV  F2DNM0 Laccase OS=Hordeum vulgare subsp. vulgare...  146     4e-39
+TR:F2CPW9_HORVV  F2CPW9 Laccase OS=Hordeum vulgare subsp. vulgare...  146     4e-39
+TR:A0A2K3L5M2_TRIPR  A0A2K3L5M2 Laccase OS=Trifolium pratense OX=...  144     4e-39
+TR:A0A151RG75_CAJCA  A0A151RG75 Laccase-17 (Fragment) OS=Cajanus ...  145     4e-39
+TR:A0A2K3PIL5_TRIPR  A0A2K3PIL5 Laccase OS=Trifolium pratense OX=...  145     4e-39
+TR:A0A067L6R3_JATCU  A0A067L6R3 Laccase OS=Jatropha curcas OX=180...  146     4e-39
+TR:B9S2L3_RICCO  B9S2L3 Laccase OS=Ricinus communis OX=3988 GN=RC...  146     4e-39
+TR:I1HTA4_BRADI  I1HTA4 Laccase OS=Brachypodium distachyon OX=153...  146     4e-39
+TR:C5XPQ1_SORBI  C5XPQ1 Laccase OS=Sorghum bicolor OX=4558 GN=SOR...  146     4e-39
+TR:A0A1S3ZWB1_TOBAC  A0A1S3ZWB1 Laccase OS=Nicotiana tabacum OX=4...  146     4e-39
+TR:B6SWG3_MAIZE  B6SWG3 Laccase OS=Zea mays OX=4577 PE=2 SV=1         146     5e-39
+TR:A0A251T2Y5_HELAN  A0A251T2Y5 Laccase OS=Helianthus annuus OX=4...  146     5e-39
+TR:A0A199W8T4_ANACO  A0A199W8T4 Laccase-4 OS=Ananas comosus OX=46...  142     5e-39
+TR:A0A1D5Y0M2_WHEAT  A0A1D5Y0M2 Laccase OS=Triticum aestivum OX=4...  144     5e-39
+TR:A0A1U8PD72_GOSHI  A0A1U8PD72 Laccase OS=Gossypium hirsutum OX=...  145     5e-39
+TR:M1AHK1_SOLTU  M1AHK1 Uncharacterized protein OS=Solanum tubero...  142     6e-39
+TR:V7AGR0_PHAVU  V7AGR0 Laccase OS=Phaseolus vulgaris OX=3885 GN=...  146     6e-39
+TR:A0A1S3B5W8_CUCME  A0A1S3B5W8 Laccase OS=Cucumis melo OX=3656 G...  145     6e-39
+TR:A0A067GBZ0_CITSI  A0A067GBZ0 Laccase OS=Citrus sinensis OX=271...  145     6e-39
+TR:V4SBP9_9ROSI  V4SBP9 Laccase OS=Citrus clementina OX=85681 GN=...  145     6e-39
+TR:A0A2S3HQA8_9POAL  A0A2S3HQA8 Uncharacterized protein OS=Panicu...  145     6e-39
+TR:A0A2T7DEK9_9POAL  A0A2T7DEK9 Uncharacterized protein OS=Panicu...  145     6e-39
+TR:M8BGG3_AEGTA  M8BGG3 Laccase OS=Aegilops tauschii OX=37682 GN=...  145     6e-39
+TR:A0A0B2QTL2_GLYSO  A0A0B2QTL2 Laccase OS=Glycine soja OX=3848 G...  145     6e-39
+TR:A0A2H5NDE6_CITUN  A0A2H5NDE6 Laccase OS=Citrus unshiu OX=55188...  145     6e-39
+TR:M1BTE5_SOLTU  M1BTE5 Laccase OS=Solanum tuberosum OX=4113 GN=1...  147     6e-39
+TR:A0A2P6R9Y4_ROSCH  A0A2P6R9Y4 Laccase OS=Rosa chinensis OX=7464...  145     7e-39
+TR:A0A2K2DTS5_BRADI  A0A2K2DTS5 Laccase OS=Brachypodium distachyo...  143     7e-39
+TR:M0T498_MUSAM  M0T498 Laccase OS=Musa acuminata subsp. malaccen...  145     7e-39
+TR:A0A0D2TTA0_GOSRA  A0A0D2TTA0 Laccase OS=Gossypium raimondii OX...  145     8e-39
+TR:A0A2G2VXF2_CAPBA  A0A2G2VXF2 Laccase OS=Capsicum baccatum OX=3...  145     8e-39
+TR:A0A1U8EEM5_CAPAN  A0A1U8EEM5 Laccase OS=Capsicum annuum OX=407...  145     8e-39
+TR:A0A2G2YR32_CAPAN  A0A2G2YR32 Laccase OS=Capsicum annuum OX=407...  145     8e-39
+TR:A0A2G3AYQ9_CAPCH  A0A2G3AYQ9 Laccase OS=Capsicum chinense OX=8...  145     8e-39
+TR:I1KZE6_SOYBN  I1KZE6 Laccase OS=Glycine max OX=3847 GN=1007984...  145     8e-39
+TR:S8CP42_9LAMI  S8CP42 Uncharacterized protein (Fragment) OS=Gen...  144     8e-39
+TR:A0A0E0KBW8_ORYPU  A0A0E0KBW8 Laccase OS=Oryza punctata OX=4537...  145     8e-39
+TR:J3LMF5_ORYBR  J3LMF5 Laccase OS=Oryza brachyantha OX=4533 PE=3...  145     8e-39
+TR:A0A1Q3C8G1_CEPFO  A0A1Q3C8G1 Laccase OS=Cephalotus folliculari...  145     8e-39
+TR:A0A061FAR0_THECC  A0A061FAR0 Laccase OS=Theobroma cacao OX=364...  145     8e-39
+TR:I1HIS1_BRADI  I1HIS1 Laccase OS=Brachypodium distachyon OX=153...  145     8e-39
+TR:A0A1S2Z3G9_CICAR  A0A1S2Z3G9 Laccase OS=Cicer arietinum OX=382...  145     9e-39
+TR:A0A1R3JZ23_9ROSI  A0A1R3JZ23 Laccase OS=Corchorus olitorius OX...  145     9e-39
+TR:B9S2L2_RICCO  B9S2L2 Laccase OS=Ricinus communis OX=3988 GN=RC...  145     9e-39
+TR:A0A2S3HQ44_9POAL  A0A2S3HQ44 Uncharacterized protein OS=Panicu...  145     9e-39
+TR:A0A2T7DEL2_9POAL  A0A2T7DEL2 Uncharacterized protein OS=Panicu...  145     9e-39
+TR:K3XFY7_SETIT  K3XFY7 Laccase OS=Setaria italica OX=4555 GN=LOC...  145     9e-39
+TR:A0A251NM77_PRUPE  A0A251NM77 Laccase OS=Prunus persica OX=3760...  145     9e-39
+TR:O24042_LIRTU  O24042 Laccase OS=Liriodendron tulipifera OX=341...  145     9e-39
+TR:A0A2J6LP18_LACSA  A0A2J6LP18 Laccase OS=Lactuca sativa OX=4236...  145     9e-39
+TR:A0A2J6LPB3_LACSA  A0A2J6LPB3 Laccase OS=Lactuca sativa OX=4236...  145     9e-39
+TR:W9R097_9ROSA  W9R097 Laccase OS=Morus notabilis OX=981085 GN=L...  145     9e-39
+TR:A0A0B2Q8D1_GLYSO  A0A0B2Q8D1 Laccase OS=Glycine soja OX=3848 G...  145     1e-38
+TR:A0A287HT03_HORVV  A0A287HT03 Laccase OS=Hordeum vulgare subsp....  145     1e-38
+TR:O24041_LIRTU  O24041 Laccase OS=Liriodendron tulipifera OX=341...  145     1e-38
+TR:A0A2P5EF46_9ROSA  A0A2P5EF46 Laccase OS=Trema orientalis OX=63...  145     1e-38
+TR:A0A0D9VSG4_9ORYZ  A0A0D9VSG4 Laccase OS=Leersia perrieri OX=77...  145     1e-38
+TR:A0A2P5YBV1_GOSBA  A0A2P5YBV1 Laccase OS=Gossypium barbadense O...  145     1e-38
+TR:A0A2P5YBY8_GOSBA  A0A2P5YBY8 Laccase OS=Gossypium barbadense O...  145     1e-38
+TR:A0A2P5S1P6_GOSBA  A0A2P5S1P6 Laccase OS=Gossypium barbadense O...  145     1e-38
+TR:A0A0D2V8A5_GOSRA  A0A0D2V8A5 Laccase OS=Gossypium raimondii OX...  145     1e-38
+TR:A0A1U8K4W1_GOSHI  A0A1U8K4W1 Laccase OS=Gossypium hirsutum OX=...  145     1e-38
+TR:A0A067KKY9_JATCU  A0A067KKY9 Laccase OS=Jatropha curcas OX=180...  145     1e-38
+TR:B9T0Q5_RICCO  B9T0Q5 Laccase OS=Ricinus communis OX=3988 GN=RC...  145     1e-38
+TR:A0A287P8S3_HORVV  A0A287P8S3 Laccase OS=Hordeum vulgare subsp....  144     1e-38
+TR:A0A2P5BHC7_PARAD  A0A2P5BHC7 Laccase OS=Parasponia andersonii ...  145     1e-38
+TR:A0A2P5C9A1_9ROSA  A0A2P5C9A1 Laccase OS=Trema orientalis OX=63...  145     1e-38
+TR:A0A1S4BGK7_TOBAC  A0A1S4BGK7 Laccase OS=Nicotiana tabacum OX=4...  145     1e-38
+TR:B9S3H2_RICCO  B9S3H2 Laccase OS=Ricinus communis OX=3988 GN=RC...  145     1e-38
+TR:A0A1S2XQB9_CICAR  A0A1S2XQB9 Laccase OS=Cicer arietinum OX=382...  145     1e-38
+TR:A0A2P5XNZ2_GOSBA  A0A2P5XNZ2 Laccase OS=Gossypium barbadense O...  144     1e-38
+TR:A0A1U7W627_NICSY  A0A1U7W627 Laccase OS=Nicotiana sylvestris O...  145     1e-38
+TR:A0A1S3XXX2_TOBAC  A0A1S3XXX2 Laccase OS=Nicotiana tabacum OX=4...  145     1e-38
+TR:I3SMK6_MEDTR  I3SMK6 Uncharacterized protein OS=Medicago trunc...  140     1e-38
+TR:W5FBR4_WHEAT  W5FBR4 Laccase OS=Triticum aestivum OX=4565 PE=3...  145     1e-38
+TR:A0A2I4DVA5_9ROSI  A0A2I4DVA5 Laccase OS=Juglans regia OX=51240...  145     1e-38
+TR:A0A251VEE3_HELAN  A0A251VEE3 Laccase OS=Helianthus annuus OX=4...  145     1e-38
+TR:A0A1R3JQR6_9ROSI  A0A1R3JQR6 Laccase OS=Corchorus olitorius OX...  142     1e-38
+TR:A0A2N9EGU1_FAGSY  A0A2N9EGU1 Laccase OS=Fagus sylvatica OX=289...  144     1e-38
+TR:B8AKR2_ORYSI  B8AKR2 Uncharacterized protein OS=Oryza sativa s...  144     1e-38
+TR:A0A251T4U9_HELAN  A0A251T4U9 Laccase OS=Helianthus annuus OX=4...  144     1e-38
+TR:A0A251T5V5_HELAN  A0A251T5V5 Laccase OS=Helianthus annuus OX=4...  144     1e-38
+TR:A0A251T4Q5_HELAN  A0A251T4Q5 Laccase OS=Helianthus annuus OX=4...  144     1e-38
+TR:A0A287P8S8_HORVV  A0A287P8S8 Laccase OS=Hordeum vulgare subsp....  144     1e-38
+TR:A0A2U1MNC8_ARTAN  A0A2U1MNC8 Laccase 17 OS=Artemisia annua OX=...  144     1e-38
+TR:A0A2U1MN93_ARTAN  A0A2U1MN93 Laccase 17 OS=Artemisia annua OX=...  144     1e-38
+TR:A0A287HTB0_HORVV  A0A287HTB0 Laccase OS=Hordeum vulgare subsp....  145     2e-38
+TR:B6REK9_9BRAS  B6REK9 Laccase OS=Boechera divaricarpa OX=115915...  144     2e-38
+TR:A0A058ZVJ2_EUCGR  A0A058ZVJ2 Laccase OS=Eucalyptus grandis OX=...  144     2e-38
+TR:A0A1S3TE29_VIGRR  A0A1S3TE29 Laccase OS=Vigna radiata var. rad...  144     2e-38
+TR:A0A2P5RNW6_GOSBA  A0A2P5RNW6 Laccase OS=Gossypium barbadense O...  144     2e-38
+TR:A0A1U8JJU3_GOSHI  A0A1U8JJU3 Laccase OS=Gossypium hirsutum OX=...  144     2e-38
+TR:B9GIL1_POPTR  B9GIL1 Laccase OS=Populus trichocarpa OX=3694 GN...  144     2e-38
+TR:A0A1I9W075_POPTO  A0A1I9W075 Laccase OS=Populus tomentosa OX=1...  144     2e-38
+TR:B9GMJ0_POPTR  B9GMJ0 Laccase OS=Populus trichocarpa OX=3694 GN...  144     2e-38
+TR:A0A068TZK5_COFCA  A0A068TZK5 Laccase OS=Coffea canephora OX=49...  144     2e-38
+TR:A0A2I0WAW2_9ASPA  A0A2I0WAW2 Laccase OS=Dendrobium catenatum O...  144     2e-38
+TR:A0A2P6QI16_ROSCH  A0A2P6QI16 Laccase OS=Rosa chinensis OX=7464...  144     2e-38
+TR:A0A2G5EG29_AQUCA  A0A2G5EG29 Laccase OS=Aquilegia coerulea OX=...  144     2e-38
+TR:A0A2P5SI90_GOSBA  A0A2P5SI90 Laccase OS=Gossypium barbadense O...  143     2e-38
+TR:A0A1U8AC38_NELNU  A0A1U8AC38 Laccase OS=Nelumbo nucifera OX=44...  144     2e-38
+TR:A0A1S4BGL4_TOBAC  A0A1S4BGL4 Laccase OS=Nicotiana tabacum OX=4...  144     2e-38
+TR:A0A199VQ76_ANACO  A0A199VQ76 Laccase OS=Ananas comosus OX=4615...  144     2e-38
+TR:A0A1D5XGW4_WHEAT  A0A1D5XGW4 Laccase OS=Triticum aestivum OX=4...  144     2e-38
+SP:LAC13_ORYSJ  P0DKK6 Laccase-13 OS=Oryza sativa subsp. japonica...  144     2e-38
+SP:LAC12_ORYSJ  B9FJH4 Laccase-12 OS=Oryza sativa subsp. japonica...  144     2e-38
+TR:A0A0E0J222_ORYNI  A0A0E0J222 Laccase OS=Oryza nivara OX=4536 P...  144     2e-38
+TR:I1PWB4_ORYGL  I1PWB4 Laccase OS=Oryza glaberrima OX=4538 PE=3 ...  144     2e-38
+TR:A0A2C9V9A1_MANES  A0A2C9V9A1 Laccase OS=Manihot esculenta OX=3...  144     2e-38
+TR:A0A0E0CYN8_9ORYZ  A0A0E0CYN8 Laccase OS=Oryza meridionalis OX=...  144     2e-38
+SP:LAC10_ORYSJ  Q10ND7 Laccase-10 OS=Oryza sativa subsp. japonica...  144     2e-38
+TR:A0A067EBE7_CITSI  A0A067EBE7 Laccase OS=Citrus sinensis OX=271...  144     2e-38
+TR:V4M8K9_EUTSA  V4M8K9 Laccase OS=Eutrema salsugineum OX=72664 G...  144     2e-38
+TR:I1P9Y3_ORYGL  I1P9Y3 Laccase OS=Oryza glaberrima OX=4538 PE=3 ...  144     2e-38
+TR:A0A1S3CK53_CUCME  A0A1S3CK53 Laccase OS=Cucumis melo OX=3656 G...  144     2e-38
+TR:A0A2H5P6B0_CITUN  A0A2H5P6B0 Laccase OS=Citrus unshiu OX=55188...  144     2e-38
+TR:V4STQ0_9ROSI  V4STQ0 Laccase OS=Citrus clementina OX=85681 GN=...  144     2e-38
+TR:V4STQ3_9ROSI  V4STQ3 Laccase OS=Citrus clementina OX=85681 GN=...  144     2e-38
+TR:A0A0A0LXL0_CUCSA  A0A0A0LXL0 Laccase OS=Cucumis sativus OX=365...  144     2e-38
+TR:A0A0D3FGT0_9ORYZ  A0A0D3FGT0 Laccase OS=Oryza barthii OX=65489...  144     2e-38
+TR:A0A2G2WNE6_CAPBA  A0A2G2WNE6 Laccase OS=Capsicum baccatum OX=3...  144     2e-38
+TR:A0A0E0NT81_ORYRU  A0A0E0NT81 Laccase OS=Oryza rufipogon OX=452...  144     2e-38
+TR:A0A2K3MTN9_TRIPR  A0A2K3MTN9 Laccase OS=Trifolium pratense OX=...  144     2e-38
+TR:A0A2G2ZE00_CAPAN  A0A2G2ZE00 Laccase OS=Capsicum annuum OX=407...  144     2e-38
+TR:A0A1U8H2S2_CAPAN  A0A1U8H2S2 Laccase OS=Capsicum annuum OX=407...  144     2e-38
+TR:A0A287P971_HORVV  A0A287P971 Laccase OS=Hordeum vulgare subsp....  144     2e-38
+TR:A0A287P9Y5_HORVV  A0A287P9Y5 Laccase OS=Hordeum vulgare subsp....  144     2e-38
+TR:F6HL88_VITVI  F6HL88 Laccase OS=Vitis vinifera OX=29760 GN=VIT...  145     2e-38
+TR:A0A1S3TSJ9_VIGRR  A0A1S3TSJ9 Laccase OS=Vigna radiata var. rad...  144     2e-38
+TR:A0A0R0FBX6_SOYBN  A0A0R0FBX6 Uncharacterized protein OS=Glycin...  143     2e-38
+TR:A0A0D9Z5A2_9ORYZ  A0A0D9Z5A2 Laccase OS=Oryza glumipatula OX=4...  144     3e-38
+TR:M0V335_HORVV  M0V335 Laccase OS=Hordeum vulgare subsp. vulgare...  144     3e-38
+TR:A0A287P8P5_HORVV  A0A287P8P5 Laccase OS=Hordeum vulgare subsp....  144     3e-38
+TR:A0A1D5Y0M0_WHEAT  A0A1D5Y0M0 Laccase OS=Triticum aestivum OX=4...  144     3e-38
+TR:K4CRC5_SOLLC  K4CRC5 Laccase OS=Solanum lycopersicum OX=4081 G...  144     3e-38
+TR:A0A0B2Q4N7_GLYSO  A0A0B2Q4N7 Laccase-17 (Fragment) OS=Glycine ...  143     3e-38
+TR:A0A061GXT0_THECC  A0A061GXT0 Laccase OS=Theobroma cacao OX=364...  144     3e-38
+TR:A0A0D9V7N9_9ORYZ  A0A0D9V7N9 Laccase OS=Leersia perrieri OX=77...  144     3e-38
+TR:A0A1R3JZ21_9ROSI  A0A1R3JZ21 Laccase OS=Corchorus olitorius OX...  144     3e-38
+TR:A0A1R3JYZ9_9ROSI  A0A1R3JYZ9 Laccase OS=Corchorus olitorius OX...  144     3e-38
+
+
+>TR:K3Z4X4_SETIT K3Z4X4 Laccase OS=Setaria italica OX=4555 GN=LOC101755650 PE=3 
+SV=1
+Length=577
+
+ Score = 187 bits (474),  Expect = 2e-54
+ Identities = 83/85 (98%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDANNDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  491  GTGFGNYDANNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  551  LAMAWLVNDGPLPNQKLPPPPSDIP  575
+
+
+>TR:A0A1E5ULN8_9POAL A0A1E5ULN8 Laccase OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0025209 
+PE=3 SV=1
+Length=575
+
+ Score = 184 bits (468),  Expect = 2e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDANNDTA+YNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  489  GTGFGNYDANNDTARYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  548
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPP+DIP
+Sbjct  549  LAMAWLVNDGPLPNQKLPPPPADIP  573
+
+
+>TR:A0A291EW49_MISSI A0A291EW49 Laccase OS=Miscanthus sinensis var. sinensis OX=213995 
+GN=LAC2 PE=2 SV=1
+Length=578
+
+ Score = 184 bits (468),  Expect = 2e-53
+ Identities = 82/85 (96%), Positives = 84/85 (99%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDANNDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  493  GQGFGNYDANNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  553  LAMAWLVNDGPLPNQKLPPPPSDIP  577
+
+
+>SP:LAC11_ORYSJ Q0DHL5 Putative laccase-11 OS=Oryza sativa subsp. japonica OX=39947 
+GN=LAC11 PE=5 SV=2
+Length=540
+
+ Score = 184 bits (466),  Expect = 2e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA+NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  453  GTGFGNYDASNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  512
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  513  LSMAWLVNDGPLPNQKLPPPPSDIP  537
+
+
+>TR:B9FJH3_ORYSJ B9FJH3 Laccase OS=Oryza sativa subsp. japonica OX=39947 GN=OsJ_18801 
+PE=3 SV=1
+Length=540
+
+ Score = 184 bits (466),  Expect = 2e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA+NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  453  GTGFGNYDASNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  512
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  513  LSMAWLVNDGPLPNQKLPPPPSDIP  537
+
+
+>TR:A0A0N7KKW9_ORYSJ A0A0N7KKW9 Laccase OS=Oryza sativa subsp. japonica OX=39947 GN=Os05g0458300 
+PE=3 SV=1
+Length=584
+
+ Score = 184 bits (466),  Expect = 4e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA+NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  497  GTGFGNYDASNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  557  LSMAWLVNDGPLPNQKLPPPPSDIP  581
+
+
+>TR:A0A0E0A093_9ORYZ A0A0E0A093 Laccase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=584
+
+ Score = 184 bits (466),  Expect = 4e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA+NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  497  GTGFGNYDASNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  557  LSMAWLVNDGPLPNQKLPPPPSDIP  581
+
+
+>TR:A0A0E0DSG3_9ORYZ A0A0E0DSG3 Laccase OS=Oryza meridionalis OX=40149 PE=3 SV=1
+Length=585
+
+ Score = 184 bits (466),  Expect = 4e-53
+ Identities = 81/85 (95%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA+NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  498  GTGFGNYDASNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  558  LSMAWLVNDGPLPNQKLPPPPSDIP  582
+
+
+>TR:A0A0E0L3D8_ORYPU A0A0E0L3D8 Laccase OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=587
+
+ Score = 183 bits (465),  Expect = 6e-53
+ Identities = 81/85 (95%), Positives = 84/85 (99%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  500  GTGFGNYDAGNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  559
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  560  LSMAWLVNDGPLPNQKLPPPPSDIP  584
+
+
+>TR:A0A287G6T1_HORVV A0A287G6T1 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=411
+
+ Score = 179 bits (455),  Expect = 6e-53
+ Identities = 80/86 (93%), Positives = 84/86 (98%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA YNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  324  GTGFGNYDAANDTAGYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  383
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIPS
+Sbjct  384  LSMAWLVNDGPLPNQKLPPPPSDIPS  409
+
+
+>TR:A0A287G6T2_HORVV A0A287G6T2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=218
+
+ Score = 174 bits (440),  Expect = 6e-53
+ Identities = 78/86 (91%), Positives = 81/86 (94%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA YNLVDPVQR+TISVPTAGWVAIRFVA   GVWIMHCHLDVHLSWG
+Sbjct  131  GTGFGNYDAANDTAGYNLVDPVQRNTISVPTAGWVAIRFVASRTGVWIMHCHLDVHLSWG  190
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIPS
+Sbjct  191  LSMAWLVNDGPLPNQKLPPPPSDIPS  216
+
+
+>TR:I1HIS3_BRADI I1HIS3 Laccase OS=Brachypodium distachyon OX=15368 GN=LOC100837670 
+PE=3 SV=1
+Length=580
+
+ Score = 182 bits (463),  Expect = 1e-52
+ Identities = 79/85 (93%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDANNDTAKYNLVDPV+R+TISVPTAGWVAIRF+ADNPGVWIMHCHLDVHLSWG
+Sbjct  493  GTGFGNYDANNDTAKYNLVDPVKRNTISVPTAGWVAIRFIADNPGVWIMHCHLDVHLSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPP+DIP
+Sbjct  553  LSMAWLVNDGPLPNQKLPPPPADIP  577
+
+
+>TR:A0A0D9WHA5_9ORYZ A0A0D9WHA5 Laccase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=620
+
+ Score = 183 bits (464),  Expect = 1e-52
+ Identities = 81/86 (94%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  533  GTGFGNYDAANDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  592
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIP+
+Sbjct  593  LSMAWLVNDGPLPNQKLPPPPSDIPT  618
+
+
+>TR:A0A0Q3MP58_BRADI A0A0Q3MP58 Laccase OS=Brachypodium distachyon OX=15368 GN=BRADI_2g23370v3 
+PE=3 SV=1
+Length=597
+
+ Score = 182 bits (463),  Expect = 1e-52
+ Identities = 79/85 (93%), Positives = 85/85 (100%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDANNDTAKYNLVDPV+R+TISVPTAGWVAIRF+ADNPGVWIMHCHLDVHLSWG
+Sbjct  510  GTGFGNYDANNDTAKYNLVDPVKRNTISVPTAGWVAIRFIADNPGVWIMHCHLDVHLSWG  569
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPP+DIP
+Sbjct  570  LSMAWLVNDGPLPNQKLPPPPADIP  594
+
+
+>TR:A0A1B6P9J4_SORBI A0A1B6P9J4 Laccase OS=Sorghum bicolor OX=4558 GN=SORBI_3009G162300 
+PE=3 SV=1
+Length=585
+
+ Score = 182 bits (462),  Expect = 2e-52
+ Identities = 81/85 (95%), Positives = 83/85 (98%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  499  GQGFGNYDAGNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  559  LAMAWLVNDGPLPNQKLPPPPSDIP  583
+
+
+>TR:Q2PAJ2_MAIZE Q2PAJ2 Laccase OS=Zea mays OX=4577 GN=lac2 PE=2 SV=1
+Length=582
+
+ Score = 182 bits (461),  Expect = 2e-52
+ Identities = 79/85 (93%), Positives = 84/85 (99%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA+YNLVDPVQR+T+SVPTAGWVAIRFVADNPGVWIMHCHLDVHL+WG
+Sbjct  496  GTGFGNYDATNDTARYNLVDPVQRNTVSVPTAGWVAIRFVADNPGVWIMHCHLDVHLTWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  556  LAMAWLVNDGPLPNQKLPPPPSDIP  580
+
+
+>TR:A0A1D6M5T4_MAIZE A0A1D6M5T4 Laccase OS=Zea mays OX=4577 GN=732786 PE=3 SV=1
+Length=587
+
+ Score = 182 bits (461),  Expect = 2e-52
+ Identities = 79/85 (93%), Positives = 84/85 (99%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA+YNLVDPVQR+T+SVPTAGWVAIRFVADNPGVWIMHCHLDVHL+WG
+Sbjct  501  GTGFGNYDATNDTARYNLVDPVQRNTVSVPTAGWVAIRFVADNPGVWIMHCHLDVHLTWG  560
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  561  LAMAWLVNDGPLPNQKLPPPPSDIP  585
+
+
+>TR:A0A1D5S6Z9_WHEAT A0A1D5S6Z9 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=579
+
+ Score = 181 bits (459),  Expect = 4e-52
+ Identities = 80/86 (93%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  493  GTGFGNYDAANDTAKYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIP+
+Sbjct  553  LSMAWLVNDGPLPNQKLPPPPSDIPT  578
+
+
+>TR:A0A1D6RFY6_WHEAT A0A1D6RFY6 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=582
+
+ Score = 181 bits (459),  Expect = 4e-52
+ Identities = 80/86 (93%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  496  GTGFGNYDAANDTAKYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIP+
+Sbjct  556  LSMAWLVNDGPLPNQKLPPPPSDIPT  581
+
+
+>TR:A0A287G6V8_HORVV A0A287G6V8 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=545
+
+ Score = 179 bits (455),  Expect = 8e-52
+ Identities = 80/86 (93%), Positives = 84/86 (98%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA YNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  459  GTGFGNYDAANDTAGYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  518
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIPS
+Sbjct  519  LSMAWLVNDGPLPNQKLPPPPSDIPS  544
+
+
+>TR:M7ZQA9_TRIUA M7ZQA9 Laccase OS=Triticum urartu OX=4572 GN=TRIUR3_07836 PE=3 
+SV=1
+Length=591
+
+ Score = 180 bits (457),  Expect = 9e-52
+ Identities = 79/87 (91%), Positives = 86/87 (99%), Gaps = 0/87 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA+YNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  434  GTGFGNYDAANDTARYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  493
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPSV  87
+            L+MAWLVNDGP+PNQKLPPPPSDIP++
+Sbjct  494  LSMAWLVNDGPLPNQKLPPPPSDIPTL  520
+
+
+>TR:A0A1D5RS64_WHEAT A0A1D5RS64 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=577
+
+ Score = 180 bits (456),  Expect = 1e-51
+ Identities = 79/86 (92%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA+YNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  491  GTGFGNYDAANDTARYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIP+
+Sbjct  551  LSMAWLVNDGPLPNQKLPPPPSDIPT  576
+
+
+>TR:A0A2T8KJA6_9POAL A0A2T8KJA6 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_3G252800 PE=4 SV=1
+Length=582
+
+ Score = 180 bits (456),  Expect = 1e-51
+ Identities = 79/85 (93%), Positives = 83/85 (98%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA NDTA+YNLVDPVQR+T+SVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG
+Sbjct  496  GQGFGNYDAANDTARYNLVDPVQRNTVSVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  556  LAMAWLVNDGPLPNQKLPPPPSDIP  580
+
+
+>TR:M0VC31_HORVV M0VC31 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 PE=3 
+SV=1
+Length=571
+
+ Score = 179 bits (455),  Expect = 1e-51
+ Identities = 80/86 (93%), Positives = 84/86 (98%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYDA NDTA YNLVDPVQR+TISVPTAGWVAIRFVA+NPGVWIMHCHLDVHLSWG
+Sbjct  484  GTGFGNYDAANDTAGYNLVDPVQRNTISVPTAGWVAIRFVANNPGVWIMHCHLDVHLSWG  543
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L+MAWLVNDGP+PNQKLPPPPSDIPS
+Sbjct  544  LSMAWLVNDGPLPNQKLPPPPSDIPS  569
+
+
+>TR:A0A2T7ECW6_9POAL A0A2T7ECW6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_3G243600 PE=4 SV=1
+Length=582
+
+ Score = 179 bits (455),  Expect = 2e-51
+ Identities = 78/85 (92%), Positives = 83/85 (98%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA NDTA+YNLVDPVQR+T+SVPTAGWVAIRF+ADNPGVWIMHCHLDVHLSWG
+Sbjct  496  GQGFGNYDAANDTARYNLVDPVQRNTVSVPTAGWVAIRFIADNPGVWIMHCHLDVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            LAMAWLVNDGP+PNQKLPPPPSDIP
+Sbjct  556  LAMAWLVNDGPLPNQKLPPPPSDIP  580
+
+
+>TR:J3M7V0_ORYBR J3M7V0 Laccase OS=Oryza brachyantha OX=4533 PE=3 SV=1
+Length=591
+
+ Score = 178 bits (451),  Expect = 7e-51
+ Identities = 78/85 (92%), Positives = 82/85 (96%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTG GNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVADNPGVW+MHCHLDVHLSWG
+Sbjct  504  GTGSGNYDAGNDTAKYNLVDPVQRNTISVPTAGWVAIRFVADNPGVWLMHCHLDVHLSWG  563
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQKLPPPPSD P
+Sbjct  564  LSMAWLVNDGPLPNQKLPPPPSDFP  588
+
+
+>TR:M8ALT2_AEGTA M8ALT2 Laccase OS=Aegilops tauschii OX=37682 GN=F775_15554 PE=3 
+SV=1
+Length=611
+
+ Score = 173 bits (438),  Expect = 6e-49
+ Identities = 80/96 (83%), Positives = 85/96 (89%), Gaps = 10/96 (10%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNP----------GVWIMH  50
+            GTGFGNYDA NDTAKYNLVDPVQR+TISVPTAGWVAIRFVA+NP          GVWIMH
+Sbjct  515  GTGFGNYDAANDTAKYNLVDPVQRNTISVPTAGWVAIRFVANNPVLIELLTFVVGVWIMH  574
+
+Query  51   CHLDVHLSWGLAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            CHLDVHLSWGL+MAWLVNDGP+PNQKLPPPPSDIP+
+Sbjct  575  CHLDVHLSWGLSMAWLVNDGPLPNQKLPPPPSDIPT  610
+
+
+>TR:A0A0A9E5G0_ARUDO A0A0A9E5G0 Lac5 OS=Arundo donax OX=35708 PE=3 SV=1
+Length=300
+
+ Score = 163 bits (412),  Expect = 1e-47
+ Identities = 69/85 (81%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+TISVPTAGWVA+RF ADNPGVW+MHCH DVHLSWG
+Sbjct  214  GQGFGNFDPVNDPAKYNLVDPVERNTISVPTAGWVAVRFFADNPGVWLMHCHFDVHLSWG  273
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  274  LSMAWLVNDGPLPNQKMLPPPSDLP  298
+
+
+>TR:A0A0A9P575_ARUDO A0A0A9P575 Lac5 OS=Arundo donax OX=35708 PE=3 SV=1
+Length=300
+
+ Score = 163 bits (412),  Expect = 1e-47
+ Identities = 69/85 (81%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+TISVPTAGWVA+RF ADNPGVW+MHCH DVHLSWG
+Sbjct  214  GQGFGNFDPVNDPAKYNLVDPVERNTISVPTAGWVAVRFFADNPGVWLMHCHFDVHLSWG  273
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  274  LSMAWLVNDGPLPNQKMLPPPSDLP  298
+
+
+>TR:A0A287M2N5_HORVV A0A287M2N5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=350
+
+ Score = 162 bits (410),  Expect = 7e-47
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  264  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  323
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  324  LSMAWMVDDGPLPNQKMLPPPSDLP  348
+
+
+>TR:A0A2P6R9Z1_ROSCH A0A2P6R9Z1 Putative laccase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr3g0466301 
+PE=3 SV=1
+Length=167
+
+ Score = 154 bits (390),  Expect = 5e-46
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NLVDPV+R+TI VP  GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  81   GQGFGNFDQNKDPAKFNLVDPVERNTIGVPAGGWVAIRFLADNPGVWFMHCHLEIHTSWG  140
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPP+D+P
+Sbjct  141  LRMAWIVQDGPQPNQKLPPPPADLP  165
+
+
+>TR:I1HTA9_BRADI I1HTA9 Laccase OS=Brachypodium distachyon OX=15368 GN=LOC100845373 
+PE=3 SV=1
+Length=576
+
+ Score = 164 bits (416),  Expect = 6e-46
+ Identities = 68/85 (80%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNL+DPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  490  GQGFGNYDPVNDPAKYNLIDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  550  LSMAWLVNDGPLPNQKMLPPPSDLP  574
+
+
+>TR:A0A0D9V7P8_9ORYZ A0A0D9V7P8 Laccase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=594
+
+ Score = 164 bits (416),  Expect = 8e-46
+ Identities = 68/85 (80%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  508  GQGFGNYDPVNDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  567
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWL+NDGP+PNQK+ PPPSD+P
+Sbjct  568  LSMAWLINDGPLPNQKMLPPPSDLP  592
+
+
+>TR:A0A0A9BCW6_ARUDO A0A0A9BCW6 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=111
+
+ Score = 152 bits (383),  Expect = 1e-45
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD + D A++NLVDPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  25   GQGFGNYDPSKDPARFNLVDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P+QKL PPPSD+P
+Sbjct  85   LKMAWVVNDGPLPDQKLMPPPSDLP  109
+
+
+>TR:A0A1D5VRJ5_WHEAT A0A1D5VRJ5 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=535
+
+ Score = 162 bits (410),  Expect = 2e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  449  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  508
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  509  LSMAWMVDDGPLPNQKMLPPPSDLP  533
+
+
+>TR:A0A287M2N1_HORVV A0A287M2N1 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=547
+
+ Score = 162 bits (410),  Expect = 3e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  461  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  520
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  521  LSMAWMVDDGPLPNQKMLPPPSDLP  545
+
+
+>TR:A0A1D5WJ35_WHEAT A0A1D5WJ35 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=577
+
+ Score = 162 bits (410),  Expect = 4e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  491  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  551  LSMAWMVDDGPLPNQKMLPPPSDLP  575
+
+
+>TR:A0A1D5V9G0_WHEAT A0A1D5V9G0 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=578
+
+ Score = 162 bits (410),  Expect = 4e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  492  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  552  LSMAWMVDDGPLPNQKMLPPPSDLP  576
+
+
+>TR:A0A077S4X1_WHEAT A0A077S4X1 Laccase OS=Triticum aestivum OX=4565 GN=TRAES_3BF090100080CFD_c1 
+PE=3 SV=1
+Length=578
+
+ Score = 162 bits (410),  Expect = 4e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  492  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  552  LSMAWMVDDGPLPNQKMLPPPSDLP  576
+
+
+>TR:A0A287M2M6_HORVV A0A287M2M6 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=592
+
+ Score = 162 bits (410),  Expect = 5e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  506  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  565
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  566  LSMAWMVDDGPLPNQKMLPPPSDLP  590
+
+
+>TR:A0A287M2N7_HORVV A0A287M2N7 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=593
+
+ Score = 162 bits (410),  Expect = 5e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  507  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  566
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  567  LSMAWMVDDGPLPNQKMLPPPSDLP  591
+
+
+>TR:A0A1D5WJ36_WHEAT A0A1D5WJ36 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=605
+
+ Score = 162 bits (410),  Expect = 6e-45
+ Identities = 67/85 (79%), Positives = 79/85 (93%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  519  GQGFGNYDPINDPAKYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  578
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  579  LSMAWMVDDGPLPNQKMLPPPSDLP  603
+
+
+>TR:A0A1S3Y812_TOBAC A0A1S3Y812 laccase-17-like OS=Nicotiana tabacum OX=4097 GN=LOC107773223 
+PE=3 SV=1
+Length=111
+
+ Score = 149 bits (377),  Expect = 8e-45
+ Identities = 60/85 (71%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NL+DP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  25   GQGFGNFDGNKDPANFNLIDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  85   LKMAWLVLDGKLPNQKLPPPPKDLP  109
+
+
+>TR:A0A2K3N8Q2_TRIPR A0A2K3N8Q2 Laccase-17-like protein OS=Trifolium pratense OX=57577 
+GN=L195_g022649 PE=3 SV=1
+Length=180
+
+ Score = 152 bits (383),  Expect = 8e-45
+ Identities = 60/85 (71%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++A++D  K+NL+DPV+R+T++VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  94   GQGFGNFNASSDAPKFNLIDPVERNTVAVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  153
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP D+P
+Sbjct  154  LRMAWIVEDGKLPNQKLPPPPKDLP  178
+
+
+>TR:I1NT92_ORYGL I1NT92 Laccase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=547
+
+ Score = 160 bits (405),  Expect = 2e-44
+ Identities = 67/85 (79%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  461  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  520
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSDIP
+Sbjct  521  LSMAWLVNDGPLPSQKMLPPPSDIP  545
+
+
+>TR:A0A2I0IXM0_PUNGR A0A2I0IXM0 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_030902 PE=3 SV=1
+Length=111
+
+ Score = 149 bits (375),  Expect = 2e-44
+ Identities = 60/85 (71%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NLVDPV+R+T++VP+ GWVAIRF+ADNPGVW MHCH +VH+SWG
+Sbjct  25   GQGFGNFDPNKDPPKFNLVDPVERNTVAVPSGGWVAIRFLADNPGVWFMHCHFEVHISWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  85   LRMAWIVLDGSLPSQKLPPPPSDLP  109
+
+
+>TR:M8A139_TRIUA M8A139 Putative laccase-5 OS=Triticum urartu OX=4572 GN=TRIUR3_31831 
+PE=3 SV=1
+Length=550
+
+ Score = 160 bits (405),  Expect = 2e-44
+ Identities = 66/85 (78%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND AKYNLVDPV+R+T+SVP AGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  464  GQGFGNYDPINDPAKYNLVDPVERNTVSVPAAGWVAVRFLADNPGVWLMHCHFDVHLSWG  523
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V+DGP+PNQK+ PPPSD+P
+Sbjct  524  LSMAWMVDDGPLPNQKMLPPPSDLP  548
+
+
+>TR:A0A0D3EW47_9ORYZ A0A0D3EW47 Laccase OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=581
+
+ Score = 160 bits (405),  Expect = 2e-44
+ Identities = 67/85 (79%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  495  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSDIP
+Sbjct  555  LSMAWLVNDGPLPSQKMLPPPSDIP  579
+
+
+>SP:LAC5_ORYSJ Q5N9W4 Putative laccase-5 OS=Oryza sativa subsp. japonica OX=39947 
+GN=LAC5 PE=3 SV=1
+Length=547
+
+ Score = 159 bits (403),  Expect = 3e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  461  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  520
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  521  LSMAWLVNDGPLPSQKMLPPPSDLP  545
+
+
+>TR:A0A0E0IG36_ORYNI A0A0E0IG36 Laccase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=581
+
+ Score = 159 bits (403),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  495  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  555  LSMAWLVNDGPLPSQKMLPPPSDLP  579
+
+
+>TR:A0A0E0N4U5_ORYRU A0A0E0N4U5 Laccase OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=581
+
+ Score = 159 bits (403),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  495  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  555  LSMAWLVNDGPLPSQKMLPPPSDLP  579
+
+
+>TR:A0A0D9YH77_9ORYZ A0A0D9YH77 Laccase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=581
+
+ Score = 159 bits (403),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  495  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  555  LSMAWLVNDGPLPSQKMLPPPSDLP  579
+
+
+>TR:A0A0E0JQX5_ORYPU A0A0E0JQX5 Laccase OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=582
+
+ Score = 159 bits (403),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  496  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRFLADNPGVWLMHCHFDVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  556  LSMAWLVNDGPLPSQKMLPPPSDLP  580
+
+
+>TR:A0A199W841_ANACO A0A199W841 Laccase OS=Ananas comosus OX=4615 GN=ACMD2_14490 PE=3 
+SV=1
+Length=534
+
+ Score = 159 bits (401),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A++NLVDPV+R+T+ VP  GWVAIRF ADNPGVW+MHCHLDVH SWG
+Sbjct  448  GQGFGNYDPVNDPARFNLVDPVERNTVGVPDGGWVAIRFFADNPGVWLMHCHLDVHTSWG  507
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+PNQKLPPPPSD+P
+Sbjct  508  LRMAWVVNDGPLPNQKLPPPPSDLP  532
+
+
+>TR:A0A2P4MZU2_QUESU A0A2P4MZU2 Laccase OS=Quercus suber OX=58331 GN=CFP56_15516 PE=3 
+SV=1
+Length=589
+
+ Score = 159 bits (403),  Expect = 5e-44
+ Identities = 66/85 (78%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD+N D AKYNLVDPV+R+T+ VP  GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  503  GQGFGNYDSNKDPAKYNLVDPVERNTVGVPAGGWVAIRFLADNPGVWLMHCHFDVHLSWG  562
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  563  LRMAWVVQDGKLPNQKLPPPPSDLP  587
+
+
+>TR:J3L5R3_ORYBR J3L5R3 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=548
+
+ Score = 159 bits (401),  Expect = 6e-44
+ Identities = 66/85 (78%), Positives = 78/85 (92%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  +D A YNLVDPV+R+T+SVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  462  GQGFGNYDPVSDPAMYNLVDPVERNTVSVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  521
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  522  LSMAWLVNDGPLPSQKMLPPPSDLP  546
+
+
+>TR:A0A2S3HQL3_9POAL A0A2S3HQL3 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_5G093600 PE=4 SV=1
+Length=575
+
+ Score = 159 bits (402),  Expect = 6e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  +YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  489  GEGFGNFDPVNDPPRYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  548
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  549  LSMAWLVNDGPLPNQKMLPPPSDLP  573
+
+
+>TR:A0A2T7DEI6_9POAL A0A2T7DEI6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G095200 PE=4 SV=1
+Length=575
+
+ Score = 159 bits (402),  Expect = 6e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  +YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  489  GEGFGNFDPVNDPPRYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  548
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  549  LSMAWLVNDGPLPNQKMLPPPSDLP  573
+
+
+>TR:A0A2T7DEI7_9POAL A0A2T7DEI7 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G095200 PE=4 SV=1
+Length=599
+
+ Score = 159 bits (402),  Expect = 8e-44
+ Identities = 66/85 (78%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  +YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  513  GEGFGNFDPVNDPPRYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  572
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  573  LSMAWLVNDGPLPNQKMLPPPSDLP  597
+
+
+>TR:C5XPQ5_SORBI C5XPQ5 Laccase OS=Sorghum bicolor OX=4558 GN=SORBI_3003G353200 
+PE=3 SV=1
+Length=579
+
+ Score = 158 bits (400),  Expect = 1e-43
+ Identities = 66/85 (78%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND   YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  493  GQGFGNFDPVNDPPNYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  553  LSMAWLVNDGPLPNQKMLPPPSDLP  577
+
+
+>TR:A0A0A9CQ57_ARUDO A0A0A9CQ57 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=111
+
+ Score = 146 bits (369),  Expect = 1e-43
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D AKYNLVDPV+R+T+ VP AGWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  25   GQGFGNFDPAKDPAKYNLVDPVERNTVGVPAAGWVAIRFRADNPGVWFMHCHLEVHVSWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PN+KL PPPSD+P
+Sbjct  85   LKMAWLVLDGDQPNEKLLPPPSDLP  109
+
+
+>TR:A0A0P0VA69_ORYSJ A0A0P0VA69 Os01g0842400 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os01g0842400 PE=4 SV=1
+Length=141
+
+ Score = 147 bits (371),  Expect = 2e-43
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+ H +WG
+Sbjct  55   GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEAHTTWG  114
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PNQKL PPPSD+P
+Sbjct  115  LRMAWLVLDGSHPNQKLLPPPSDLP  139
+
+
+>TR:A0A1E5UJ97_9POAL A0A1E5UJ97 Laccase OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0026116 
+PE=3 SV=1
+Length=579
+
+ Score = 158 bits (399),  Expect = 2e-43
+ Identities = 66/85 (78%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  KYNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  493  GQGFGNFDPVNDPPKYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPP D+P
+Sbjct  553  LSMAWLVNDGPLPNQKMLPPPFDLP  577
+
+
+>TR:A0A0A9I7L2_ARUDO A0A0A9I7L2 Lac4 OS=Arundo donax OX=35708 PE=3 SV=1
+Length=111
+
+ Score = 146 bits (368),  Expect = 2e-43
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G+GNYD  ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  25   GQGYGNYDPVNDPAKFNLVDPVERNTVGVPAGGWVAIRFIADNPGVWFMHCHLEVHTTWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +P+QKL PPPSD+P
+Sbjct  85   LRMAWLVLDGKLPHQKLLPPPSDLP  109
+
+
+>TR:Q8H699_LOLPR Q8H699 Laccase LAC12 (Fragment) OS=Lolium perenne OX=4522 PE=2 
+SV=1
+Length=172
+
+ Score = 148 bits (373),  Expect = 2e-43
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G GNYD++ D A +NL+DPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  86   GQGVGNYDSSQDPANFNLLDPVQRNTVGVPAGGWVAIRFYADNPGVWFMHCHLEVHTSWG  145
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P+QKL PPPSD+P
+Sbjct  146  LKMAWVVNDGPLPDQKLMPPPSDLP  170
+
+
+>TR:K3XFZ4_SETIT K3XFZ4 Laccase OS=Setaria italica OX=4555 GN=LOC101764906 PE=3 
+SV=1
+Length=578
+
+ Score = 157 bits (398),  Expect = 2e-43
+ Identities = 67/85 (79%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND   YNL DPV+R+TISVPTAGWVAIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  492  GQGFGNFDPVNDPPTYNLADPVERNTISVPTAGWVAIRFFADNPGVWLMHCHFDVHLSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PNQK+ PPPSD+P
+Sbjct  552  LSMAWLVNDGPLPNQKMLPPPSDLP  576
+
+
+>TR:A0A287W5G8_HORVV A0A287W5G8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=352
+
+ Score = 153 bits (386),  Expect = 3e-43
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  266  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  325
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  326  LRMAWLVLDGSLPNQKLPPPPADLP  350
+
+
+>TR:A0A151RFX5_CAJCA A0A151RFX5 Laccase-17 OS=Cajanus cajan OX=3821 GN=KK1_037187 
+PE=3 SV=1
+Length=103
+
+ Score = 145 bits (365),  Expect = 4e-43
+ Identities = 60/85 (71%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  17   GQGFGNFDPNKDPANFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  76
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKL PPP+D+P
+Sbjct  77   LKMAWVVLDGKLPNQKLFPPPADLP  101
+
+
+>TR:M0X209_HORVV M0X209 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=355
+
+ Score = 152 bits (385),  Expect = 4e-43
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  269  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  328
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  329  LRMAWLVLDGGLPNQKLPPPPADLP  353
+
+
+>TR:A0A0E0CA68_9ORYZ A0A0E0CA68 Laccase OS=Oryza meridionalis OX=40149 PE=3 SV=1
+Length=607
+
+ Score = 157 bits (397),  Expect = 5e-43
+ Identities = 65/85 (76%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A YNLVDPV+R+T+SVPT GWVA+R +ADNPGVW+MHCH DVHLSWG
+Sbjct  521  GQGFGNYDPVNDPANYNLVDPVERNTVSVPTGGWVAVRLLADNPGVWLMHCHFDVHLSWG  580
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+P+QK+ PPPSD+P
+Sbjct  581  LSMAWLVNDGPLPSQKMLPPPSDLP  605
+
+
+>TR:A0A2P5VU96_GOSBA A0A2P5VU96 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA38297 PE=3 SV=1
+Length=315
+
+ Score = 151 bits (381),  Expect = 7e-43
+ Identities = 62/85 (73%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++  ND +K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  229  GQGFGNFNPKNDPSKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHLSWG  288
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  289  LRMAWIVLDGKLPNQKLPPPPSDLP  313
+
+
+>TR:B6UCC4_MAIZE B6UCC4 Laccase OS=Zea mays OX=4577 GN=732847 PE=2 SV=1
+Length=582
+
+ Score = 156 bits (395),  Expect = 7e-43
+ Identities = 65/85 (76%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND   YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  496  GQGFGNFDPVNDPPGYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PN+K+ PPPSD+P
+Sbjct  556  LSMAWLVNDGPLPNEKMLPPPSDLP  580
+
+
+>TR:Q2PAI9_MAIZE Q2PAI9 Laccase OS=Zea mays OX=4577 GN=lac5 PE=2 SV=1
+Length=588
+
+ Score = 156 bits (395),  Expect = 7e-43
+ Identities = 65/85 (76%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND   YNL DPV+R+TISVPTAGWVA+RF+ADNPGVW+MHCH DVHLSWG
+Sbjct  502  GQGFGNFDPVNDPPGYNLADPVERNTISVPTAGWVAVRFLADNPGVWLMHCHFDVHLSWG  561
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAWLVNDGP+PN+K+ PPPSD+P
+Sbjct  562  LSMAWLVNDGPLPNEKMLPPPSDLP  586
+
+
+>TR:A0A2R6RDK8_ACTCH A0A2R6RDK8 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc08069 PE=3 SV=1
+Length=404
+
+ Score = 153 bits (386),  Expect = 8e-43
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND AK+NL DP++R+T+ VP+ GWVA RF+ADNPGVW MHCH DVH SWG
+Sbjct  318  GEGFGNFDPNNDPAKFNLADPIERNTVGVPSGGWVAFRFLADNPGVWFMHCHFDVHTSWG  377
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  378  LRMAWIVLDGPEPNQKLPPPPSDLP  402
+
+
+>TR:A0A287XG15_HORVV A0A287XG15 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=392
+
+ Score = 152 bits (385),  Expect = 9e-43
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  306  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  365
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  366  LRMAWLVLDGGLPNQKLPPPPADLP  390
+
+
+>TR:A0A2P5VUA1_GOSBA A0A2P5VUA1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA38296 PE=3 SV=1
+Length=357
+
+ Score = 151 bits (382),  Expect = 1e-42
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++  ND +K+NLVDPV+R+TI VP+ GWVAIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  271  GQGFGNFNPKNDPSKFNLVDPVERNTIGVPSGGWVAIRFQADNPGVWLMHCHFDVHLSWG  330
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  331  LRMAWIVLDGKLPNQKLPPPPSDLP  355
+
+
+>TR:A0A067GBE1_CITSI A0A067GBE1 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g038598mg PE=3 SV=1
+Length=392
+
+ Score = 152 bits (384),  Expect = 1e-42
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NL+DPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCH DVHLSWG
+Sbjct  306  GQGFGNFDPKNDPKKFNLIDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHFDVHLSWG  365
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  366  LRMAWIVLDGELPNQKLPPPPSDLP  390
+
+
+>TR:A0A2R6PWZ5_ACTCH A0A2R6PWZ5 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc24895 PE=3 SV=1
+Length=560
+
+ Score = 155 bits (392),  Expect = 1e-42
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND AK+NLVDP++R+T+ VP+ GWVA RF+ADNPGVW MHCH DVH SWG
+Sbjct  474  GEGFGNFDPNNDPAKFNLVDPIERNTVGVPSGGWVAFRFLADNPGVWFMHCHFDVHTSWG  533
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  534  LRMAWIVLDGPQPNQKLPPPPSDLP  558
+
+
+>TR:A0A0A9SY00_ARUDO A0A0A9SY00 Lac4 OS=Arundo donax OX=35708 PE=3 SV=1
+Length=179
+
+ Score = 146 bits (368),  Expect = 1e-42
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G+GNYD  ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  93   GQGYGNYDPVNDPAKFNLVDPVERNTVGVPAGGWVAIRFIADNPGVWFMHCHLEVHTTWG  152
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +P+QKL PPPSD+P
+Sbjct  153  LRMAWLVLDGKLPHQKLLPPPSDLP  177
+
+
+>TR:A0A199UF00_ANACO A0A199UF00 Laccase-4 (Fragment) OS=Ananas comosus OX=4615 GN=ACMD2_15572 
+PE=3 SV=1
+Length=1270
+
+ Score = 157 bits (398),  Expect = 2e-42
+ Identities = 66/85 (78%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1     GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+             G GFGNYD  ND  ++NLVDPVQR+T+ VP+AGWVAIRF ADNPGVW+MHCHLDVHLSWG
+Sbjct  1185  GQGFGNYDPENDPIRFNLVDPVQRNTVGVPSAGWVAIRFRADNPGVWLMHCHLDVHLSWG  1244
+
+Query  61    LAMAWLVNDGPMPNQKLPPPPSDIP  85
+             L MAW+VNDG +P+QKLPPPPSD+P
+Sbjct  1245  LTMAWVVNDGRLPSQKLPPPPSDLP  1269
+
+
+ Score = 70.5 bits (171),  Expect = 4e-12
+ Identities = 30/45 (67%), Positives = 36/45 (80%), Gaps = 0/45 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPG  45
+            G GFGNY+   D +K+NLVDPV+R+T+ VP  GWVAIRF ADNPG
+Sbjct  471  GQGFGNYNPATDPSKFNLVDPVERNTVRVPAGGWVAIRFRADNPG  515
+
+
+>TR:M0TCK1_MUSAM M0TCK1 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=547
+
+ Score = 155 bits (391),  Expect = 2e-42
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            GTGFGNYD  ND  K+NLVDPV+++T+ VP  GW+AIRF+ADNPG W+MHCH+DVHLSWG
+Sbjct  461  GTGFGNYDPMNDPPKFNLVDPVEKNTVGVPAGGWLAIRFLADNPGAWLMHCHIDVHLSWG  520
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLVNDG +P QKLPPPPSD+P
+Sbjct  521  LRMAWLVNDGALPTQKLPPPPSDLP  545
+
+
+>TR:V7B3A0_PHAVU V7B3A0 Uncharacterized protein (Fragment) OS=Phaseolus vulgaris 
+OX=3885 GN=PHAVU_008G1006001g PE=4 SV=1
+Length=226
+
+ Score = 147 bits (371),  Expect = 2e-42
+ Identities = 61/85 (72%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+N+VDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  140  GQGFGNYDPNKDPAKFNVVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTTWG  199
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  200  LKMAWLVLDGKLPNQKLFPPPADLP  224
+
+
+>TR:A0A2I0GK02_PUNGR A0A2I0GK02 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_050250 PE=3 SV=1
+Length=111
+
+ Score = 143 bits (361),  Expect = 2e-42
+ Identities = 59/85 (69%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NL+DPV+R+T  VP+ GW+AIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  25   GQGFGNFDPNKDPKKFNLIDPVERNTAGVPSGGWLAIRFLADNPGVWFMHCHLEVHTSWG  84
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  85   LKMAWLVLDGKLPNQKLLPPPTDLP  109
+
+
+>TR:A0A2P2QG61_RHIMU A0A2P2QG61 Uncharacterized protein OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=123
+
+ Score = 144 bits (362),  Expect = 2e-42
+ Identities = 60/85 (71%), Positives = 68/85 (80%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D A +NLVDP +R+T+ VP  GWVAIRF+ADNPGVW MHCH +VH+SWG
+Sbjct  37   GQGFGNYDPNKDPANFNLVDPPERNTMGVPAGGWVAIRFLADNPGVWFMHCHFEVHISWG  96
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L M WLV DGP PNQKL  PPSD+P
+Sbjct  97   LRMTWLVLDGPQPNQKLQQPPSDLP  121
+
+
+>TR:A0A2I0IHI0_PUNGR A0A2I0IHI0 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_036219 PE=3 SV=1
+Length=230
+
+ Score = 147 bits (371),  Expect = 2e-42
+ Identities = 61/85 (72%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD +    K+NLVDPV+R+T  VP  GWVA+RF+ADNPGVW MHCHLDVH SWG
+Sbjct  144  GQGFGNYDPSKGPTKFNLVDPVERNTFGVPAGGWVAVRFLADNPGVWFMHCHLDVHTSWG  203
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V +GP PNQKLPPPPSD+P
+Sbjct  204  LRMAWIVLNGPEPNQKLPPPPSDLP  228
+
+
+>TR:A0A1R3J8R9_9ROSI A0A1R3J8R9 Laccase OS=Corchorus olitorius OX=93759 GN=COLO4_18560 
+PE=3 SV=1
+Length=575
+
+ Score = 154 bits (390),  Expect = 3e-42
+ Identities = 64/85 (75%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NLVDPV+R+T++VP+ GWVAIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  489  GQGFGNFDPNKDPAKFNLVDPVERNTVAVPSGGWVAIRFQADNPGVWLMHCHFDVHLSWG  548
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  549  LRMAWIVLDGKLPNQKLPPPPSDLP  573
+
+
+>TR:W9S2D5_9ROSA W9S2D5 Laccase OS=Morus notabilis OX=981085 GN=L484_025281 PE=3 
+SV=1
+Length=577
+
+ Score = 154 bits (390),  Expect = 3e-42
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NLVDPV+R+TI VP+ GW AIRF+ADNPGVW MHCH DVHLSWG
+Sbjct  491  GQGFGNFDPNKDPAKFNLVDPVERNTIGVPSGGWAAIRFLADNPGVWFMHCHFDVHLSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LRMAWIVQDGKLPNQKLPPPPSDLP  575
+
+
+>TR:A0A067KUZ4_JATCU A0A067KUZ4 Laccase OS=Jatropha curcas OX=180498 GN=JCGZ_09097 
+PE=3 SV=1
+Length=574
+
+ Score = 154 bits (389),  Expect = 4e-42
+ Identities = 63/85 (74%), Positives = 76/85 (89%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G+GFGN+D NND AK+N+VDPV+R+TI VP+ GWVA +F+ADNPGVW+MHCH DVHLSWG
+Sbjct  488  GSGFGNFDPNNDPAKFNVVDPVERNTIGVPSGGWVAFQFLADNPGVWLMHCHFDVHLSWG  547
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  548  LRMAWIVLDGNLPNQKLPPPPSDLP  572
+
+
+>TR:A0A1R3JQZ7_9ROSI A0A1R3JQZ7 Laccase OS=Corchorus olitorius OX=93759 GN=COLO4_14777 
+PE=3 SV=1
+Length=428
+
+ Score = 151 bits (382),  Expect = 5e-42
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NLVDP++R+T SVP+ GW+AIRF+ADNPGVW MHCHLD+H SWG
+Sbjct  342  GQGFGNFDPNKDPAKFNLVDPMERNTASVPSGGWIAIRFLADNPGVWFMHCHLDIHTSWG  401
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKL PPPSD+P
+Sbjct  402  LKMAWIVLDGPQPNQKLQPPPSDLP  426
+
+
+>TR:V4SC56_9ROSI V4SC56 Laccase OS=Citrus clementina OX=85681 GN=CICLE_v10028036mg 
+PE=3 SV=1
+Length=617
+
+ Score = 154 bits (389),  Expect = 7e-42
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AK+NL+DPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCH DVHLSWG
+Sbjct  531  GQGFGNFDPKNDPAKFNLIDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHFDVHLSWG  590
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  591  LRMAWIVLDGELPNQKLPPPPSDLP  615
+
+
+>TR:A0A2G2VXH1_CAPBA A0A2G2VXH1 Uncharacterized protein OS=Capsicum baccatum OX=33114 
+GN=CQW23_21232 PE=3 SV=1
+Length=409
+
+ Score = 150 bits (380),  Expect = 7e-42
+ Identities = 60/85 (71%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D + +NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  323  GQGFGNFDPNKDPSNFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHISWG  382
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  383  LKMAWLVQDGKLPNQKLPPPPKDLP  407
+
+
+>TR:A0A2K2BZT5_POPTR A0A2K2BZT5 Laccase OS=Populus trichocarpa OX=3694 GN=POPTR_001G184300v3 
+PE=3 SV=1
+Length=576
+
+ Score = 153 bits (387),  Expect = 9e-42
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND   +NLVDPV+R+T+ VPTAGWVAIRF ADNPGVW MHCH DVHLSWG
+Sbjct  490  GEGFGNFDPNNDPKNFNLVDPVERNTVGVPTAGWVAIRFYADNPGVWFMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  550  LRMAWIVLDGTLPSQKLPPPPSDLP  574
+
+
+>TR:A0A0D2U7G2_GOSRA A0A0D2U7G2 Laccase OS=Gossypium raimondii OX=29730 GN=B456_013G263200 
+PE=3 SV=1
+Length=577
+
+ Score = 153 bits (387),  Expect = 9e-42
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND +K+NLVDPV+R+TI VP+ GWVAIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  491  GQGFGNFDPKNDPSKFNLVDPVERNTIGVPSGGWVAIRFQADNPGVWLMHCHFDVHLSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LRMAWIVLDGKLPNQKLPPPPSDLP  575
+
+
+>TR:A0A067KHP8_JATCU A0A067KHP8 Laccase OS=Jatropha curcas OX=180498 GN=JCGZ_09090 
+PE=3 SV=1
+Length=421
+
+ Score = 150 bits (380),  Expect = 9e-42
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D A +NLVDPV+R+T+ VP  GW+AIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  335  GQGFGNYDPNKDPASFNLVDPVERNTVGVPAGGWIAIRFLADNPGVWFMHCHLEVHTSWG  394
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKL PPPSD+P
+Sbjct  395  LRMAWIVLDGPQPNQKLQPPPSDLP  419
+
+
+>TR:F6HL90_VITVI F6HL90 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_08s0007g00660 
+PE=3 SV=1
+Length=242
+
+ Score = 146 bits (368),  Expect = 9e-42
+ Identities = 60/85 (71%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D A +NLVDP++R+T+ VP+ GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  156  GQGFGNFDPKKDPANFNLVDPIERNTVGVPSGGWVAIRFRADNPGVWFMHCHLEVHTSWG  215
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPPSD+P
+Sbjct  216  LKMAWVVTDGKRPNQKLPPPPSDLP  240
+
+
+>TR:A0A0B0N4X4_GOSAR A0A0B0N4X4 Laccase-10 OS=Gossypium arboreum OX=29729 GN=F383_09184 
+PE=3 SV=1
+Length=231
+
+ Score = 145 bits (367),  Expect = 9e-42
+ Identities = 61/85 (72%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D AK+NLVDP++R+T  VP  GW+AIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  145  GQGFGNFDPVKDPAKFNLVDPMERNTAGVPAGGWIAIRFLADNPGVWFMHCHLDVHTSWG  204
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKL PPPSD+P
+Sbjct  205  LKMAWIVLDGPEPNQKLQPPPSDLP  229
+
+
+>TR:A0A2R6RY91_ACTCH A0A2R6RY91 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc33582 PE=3 SV=1
+Length=560
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND AK+NL DP++R+T+ VP+ GWVA RF+ADNPGVW MHCH DVH SWG
+Sbjct  474  GEGFGNFDPNNDPAKFNLADPIERNTVGVPSGGWVAFRFLADNPGVWFMHCHFDVHTSWG  533
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  534  LRMAWIVLDGPEPNQKLPPPPSDLP  558
+
+
+>TR:A0A2N9HV13_FAGSY A0A2N9HV13 Laccase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS43426 
+PE=3 SV=1
+Length=590
+
+ Score = 153 bits (387),  Expect = 1e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+N D A +NLVDPV+R+T+ VP  GWVA RF+ADNPGVWIMHCH D+HLSWG
+Sbjct  504  GQGFGNFDSNKDPANFNLVDPVERNTVGVPAGGWVAFRFLADNPGVWIMHCHFDIHLSWG  563
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  564  LRMAWVVQDGKLPNQKLPPPPSDLP  588
+
+
+>TR:A0A078HLW0_BRANA A0A078HLW0 BnaA05g13050D protein OS=Brassica napus OX=3708 GN=BnaA05g13050D 
+PE=3 SV=1
+Length=377
+
+ Score = 149 bits (377),  Expect = 1e-41
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D  +YNLVDPV+R+TI+VP+ GWVAIRF+ADNPGVW MHCH+++HLSWG
+Sbjct  291  GQGFGNFDPTRDPKQYNLVDPVERNTINVPSGGWVAIRFLADNPGVWFMHCHIEIHLSWG  350
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAW+V DG +PNQKLPPPPSD P+
+Sbjct  351  LTMAWVVLDGDLPNQKLPPPPSDFPT  376
+
+
+>TR:A0A0A9J5Z9_ARUDO A0A0A9J5Z9 Lac4 OS=Arundo donax OX=35708 PE=3 SV=1
+Length=179
+
+ Score = 144 bits (362),  Expect = 1e-41
+ Identities = 60/85 (71%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G+GNYD  ND  K+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  93   GQGYGNYDPVNDPTKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  152
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +P+QKL PPPSD+P
+Sbjct  153  LRMAWLVLDGKLPHQKLLPPPSDLP  177
+
+
+>TR:A0A2N9GTG0_FAGSY A0A2N9GTG0 Laccase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS30665 
+PE=3 SV=1
+Length=578
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 65/85 (76%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D A +NLVDPV+R+T  VPT GWVA RF+ADNPGVW MHCHLDVH SWG
+Sbjct  492  GQGFGNYDPNKDPANFNLVDPVERNTAGVPTNGWVAFRFLADNPGVWFMHCHLDVHTSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  552  LRMAWIVLDGPEPNQKLPPPPSDLP  576
+
+
+>TR:A0A1J7H419_LUPAN A0A1J7H419 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_14432 PE=3 SV=1
+Length=353
+
+ Score = 149 bits (375),  Expect = 1e-41
+ Identities = 63/85 (74%), Positives = 69/85 (81%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+N+VDPVQR+T  VP  GW+ IRF ADNPGVW MHCHLD+H SWG
+Sbjct  267  GQGFGNYDKNKDPAKFNVVDPVQRNTAGVPAGGWIVIRFRADNPGVWFMHCHLDIHTSWG  326
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP PNQKL PPPSD+P
+Sbjct  327  LRMAWLVLDGPGPNQKLQPPPSDLP  351
+
+
+>TR:A0A165A6U3_DAUCA A0A165A6U3 Laccase OS=Daucus carota subsp. sativus OX=79200 GN=DCAR_015633 
+PE=3 SV=1
+Length=580
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 63/85 (74%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+DA ND AK+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCH DVHLSWG
+Sbjct  494  GQGFGNFDAKNDPAKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHFDVHLSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPP+D+P
+Sbjct  554  LRMAWVVLDGKLPSQKLPPPPADLP  578
+
+
+>TR:A0A061GX25_THECC A0A061GX25 Laccase OS=Theobroma cacao OX=3641 GN=TCM_041799 PE=3 
+SV=1
+Length=585
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+N+VDP +R+T+ VP+ GWVAIRF ADNPGVW+MHCHLDVHLSWG
+Sbjct  499  GQGFGNFDPNKDPAKFNVVDPAERNTVGVPSGGWVAIRFQADNPGVWLMHCHLDVHLSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  559  LRMAWIVLDGELPNQKLPPPPSDLP  583
+
+
+>TR:A0A059A9W4_EUCGR A0A059A9W4 Laccase OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_J00532 
+PE=3 SV=1
+Length=585
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  499  GQGFGNFDPNNDPGKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  559  LKMAWLVLDGKLPNQKLPPPPADLP  583
+
+
+>TR:A0A2I4DGL9_9ROSI A0A2I4DGL9 Laccase OS=Juglans regia OX=51240 GN=LOC108979942 
+PE=3 SV=1
+Length=590
+
+ Score = 153 bits (386),  Expect = 1e-41
+ Identities = 64/85 (75%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D A +NLVDPV+R+T  VP  GW+AIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  504  GQGFGNYDPNKDPASFNLVDPVERNTAGVPAGGWLAIRFLADNPGVWFMHCHLDVHTSWG  563
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  564  LRMAWIVLDGPQPNQKLPPPPSDLP  588
+
+
+>TR:A0A287XG62_HORVV A0A287XG62 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=561
+
+ Score = 152 bits (385),  Expect = 1e-41
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  475  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  534
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  535  LRMAWLVLDGGLPNQKLPPPPADLP  559
+
+
+>TR:A0A287W5F9_HORVV A0A287W5F9 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=604
+
+ Score = 153 bits (386),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  518  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  577
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  578  LRMAWLVLDGSLPNQKLPPPPADLP  602
+
+
+>TR:A0A287W4K8_HORVV A0A287W4K8 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=605
+
+ Score = 153 bits (386),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  519  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  578
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  579  LRMAWLVLDGSLPNQKLPPPPADLP  603
+
+
+>TR:A0A287W4L3_HORVV A0A287W4L3 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=606
+
+ Score = 153 bits (386),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  520  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  579
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  580  LRMAWLVLDGSLPNQKLPPPPADLP  604
+
+
+>TR:A0A2K1Z8I1_POPTR A0A2K1Z8I1 Laccase OS=Populus trichocarpa OX=3694 GN=POPTR_009G156800v3 
+PE=3 SV=1
+Length=576
+
+ Score = 152 bits (385),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND   +NLVDPV+R+T+ VPTAGWVAIRF ADNPGVW MHCH DVHLSWG
+Sbjct  490  GEGFGNFDPNNDPKNFNLVDPVERNTVGVPTAGWVAIRFHADNPGVWFMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  550  LRMAWIVLDGTLPSQKLPPPPSDLP  574
+
+
+>TR:A0A2K1Z8G8_POPTR A0A2K1Z8G8 Laccase OS=Populus trichocarpa OX=3694 GN=POPTR_009G156600v3 
+PE=3 SV=1
+Length=576
+
+ Score = 152 bits (385),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND   +NLVDPV+R+T+ VPTAGWVAIRF ADNPGVW MHCH DVHLSWG
+Sbjct  490  GEGFGNFDPNNDPKNFNLVDPVERNTVGVPTAGWVAIRFHADNPGVWFMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  550  LRMAWIVLDGTLPSQKLPPPPSDLP  574
+
+
+>TR:A0A287XG57_HORVV A0A287XG57 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=580
+
+ Score = 152 bits (385),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  494  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  554  LRMAWLVLDGGLPNQKLPPPPADLP  578
+
+
+>TR:F6HNU6_VITVI F6HNU6 Laccase OS=Vitis vinifera OX=29760 GN=VIT_13s0019g02160 
+PE=3 SV=1
+Length=584
+
+ Score = 152 bits (385),  Expect = 2e-41
+ Identities = 62/85 (73%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+DA  D +K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCHL+VH SWG
+Sbjct  498  GQGFGNFDAKKDPSKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHLEVHTSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L M W+V DG MPNQKLPPPPSD+P
+Sbjct  558  LKMGWIVKDGKMPNQKLPPPPSDLP  582
+
+
+>TR:K3Z4V9_SETIT K3Z4V9 Laccase OS=Setaria italica OX=4555 GN=LOC101754440 PE=3 
+SV=1
+Length=585
+
+ Score = 152 bits (385),  Expect = 2e-41
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  499  GQGFGNFDPVNDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  559  LKMAWLVQDGSLPNQKLPPPPSDLP  583
+
+
+>TR:A0A1D1ZJX5_9ARAE A0A1D1ZJX5 Laccase-17 (Fragment) OS=Anthurium amnicola OX=1678845 
+GN=LAC17_3 PE=3 SV=1
+Length=620
+
+ Score = 153 bits (386),  Expect = 2e-41
+ Identities = 62/85 (73%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G+GFGNYD + D +++NLVDPV+R+T+ VP  GWVA+RF ADNPGVW MHCHLDVHLSWG
+Sbjct  534  GSGFGNYDPSRDPSRFNLVDPVERNTVGVPAGGWVAVRFRADNPGVWFMHCHLDVHLSWG  593
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDG +P+QKLPPPPSD+P
+Sbjct  594  LRMAWVVNDGSLPDQKLPPPPSDLP  618
+
+
+>TR:A0A200R540_9MAGN A0A200R540 Laccase OS=Macleaya cordata OX=56857 GN=BVC80_1835g215 
+PE=3 SV=1
+Length=541
+
+ Score = 152 bits (383),  Expect = 2e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND   +NL+DPV+R+T+ VP+ GWVAIRF ADNPGVW MHCHL++H SWG
+Sbjct  455  GQGFGNYDPNNDPENFNLIDPVERNTVGVPSGGWVAIRFFADNPGVWFMHCHLEIHTSWG  514
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  515  LKMAWLVLDGKLPNQKLPPPPSDLP  539
+
+
+>TR:A0A1E5WBJ3_9POAL A0A1E5WBJ3 Laccase OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0004195 
+PE=3 SV=1
+Length=570
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D AK+NLVDPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  484  GQGFGNYDSSKDPAKFNLVDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  543
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP+D+P
+Sbjct  544  LKMAWVVNDGPLPEQKLMPPPADLP  568
+
+
+>TR:K4A7R0_SETIT K4A7R0 Laccase OS=Setaria italica OX=4555 GN=LOC101756621 PE=3 
+SV=1
+Length=570
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D AK+NLVDPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  484  GQGFGNYDSSKDPAKFNLVDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  543
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP+D+P
+Sbjct  544  LKMAWVVNDGPLPEQKLMPPPADLP  568
+
+
+>TR:A0A1S4BQK0_TOBAC A0A1S4BQK0 laccase-17-like OS=Nicotiana tabacum OX=4097 GN=LOC107810854 
+PE=3 SV=1
+Length=381
+
+ Score = 149 bits (375),  Expect = 2e-41
+ Identities = 60/85 (71%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  295  GQGFGNFDRNKDPANFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  354
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  355  LKMAWLVLDGKLPNQKLPPPPMDLP  379
+
+
+>TR:A0A2C9VGD7_MANES A0A2C9VGD7 Laccase OS=Manihot esculenta OX=3983 GN=MANES_08G080800 
+PE=3 SV=1
+Length=576
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 63/86 (73%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+NLVDPV+R+T  VP  GW+A RF+ADNPGVW MHCHLDVH SWG
+Sbjct  490  GQGFGNYDPNKDPAKFNLVDPVERNTFGVPAGGWIAFRFLADNPGVWFMHCHLDVHTSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAW+V DGP PN+KL PPPSD+PS
+Sbjct  550  LRMAWIVMDGPQPNEKLQPPPSDLPS  575
+
+
+>TR:W1PJB2_AMBTC W1PJB2 Laccase OS=Amborella trichopoda OX=13333 GN=AMTR_s00012p00061860 
+PE=3 SV=1
+Length=579
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 64/86 (74%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD + D AK+NLVDPV+R+TI VP+ GWVA+RF+ADNPGVW MHCHL+VH SWG
+Sbjct  493  GQGFGNYDPSKDPAKFNLVDPVERNTIGVPSGGWVALRFLADNPGVWFMHCHLEVHTSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAWLV DG +P+QKLPPPPSD+PS
+Sbjct  553  LKMAWLVLDGKLPSQKLPPPPSDLPS  578
+
+
+>TR:M8B1H2_AEGTA M8B1H2 Laccase-4 OS=Aegilops tauschii OX=37682 GN=F775_19123 
+PE=3 SV=1
+Length=368
+
+ Score = 148 bits (374),  Expect = 2e-41
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D AKYNLVDPV+R+T+ VP AGWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  282  GQGFGNFDPAKDPAKYNLVDPVERNTVGVPAAGWVAIRFRADNPGVWFMHCHLEVHVSWG  341
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKL PPPSD+P
+Sbjct  342  LKMAWVVQDGSLPNQKLLPPPSDLP  366
+
+
+>TR:M0V336_HORVV M0V336 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 PE=3 
+SV=1
+Length=215
+
+ Score = 144 bits (363),  Expect = 2e-41
+ Identities = 60/85 (71%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G GNYD ++  A +NL+DPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  129  GQGVGNYDPSSHPAGFNLLDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  188
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P+QKL PPPSD+P
+Sbjct  189  LKMAWVVNDGPLPDQKLMPPPSDLP  213
+
+
+>TR:V7B3V4_PHAVU V7B3V4 Uncharacterized protein (Fragment) OS=Phaseolus vulgaris 
+OX=3885 GN=PHAVU_008G119200g PE=3 SV=1
+Length=580
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 65/85 (76%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND AK+NLVDPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  494  GQGFGNYDPNNDPAKFNLVDPVERNTAGVPAGGWIAIRFKADNPGVWFMHCHLDLHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP PNQKL PPPSD+P
+Sbjct  554  LRMAWLVLDGPGPNQKLQPPPSDLP  578
+
+
+>TR:A0A2R6P653_ACTCH A0A2R6P653 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc31755 PE=3 SV=1
+Length=580
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 63/86 (73%), Positives = 75/86 (87%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+DAN D AK+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW MHCH +VHLSWG
+Sbjct  494  GQGFGNFDANKDPAKFNLVDPVERNTVGVPSGGWVAIRFRADNPGVWFMHCHFEVHLSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAW+V DG +PNQKLPPPP+D+P+
+Sbjct  554  LKMAWIVLDGNLPNQKLPPPPADLPA  579
+
+
+>TR:A0A1S4AMY5_TOBAC A0A1S4AMY5 laccase-17-like OS=Nicotiana tabacum OX=4097 GN=LOC107799475 
+PE=3 SV=1
+Length=403
+
+ Score = 149 bits (376),  Expect = 2e-41
+ Identities = 60/85 (71%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  317  GQGFGNFDRNKDPANFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  376
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  377  LKMAWLVLDGKLPNQKLPPPPKDLP  401
+
+
+>TR:A0A2H5NDD2_CITUN A0A2H5NDD2 Laccase OS=Citrus unshiu OX=55188 GN=CUMW_033780 PE=3 
+SV=1
+Length=583
+
+ Score = 152 bits (384),  Expect = 2e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NL+DPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCH DVHLSWG
+Sbjct  497  GQGFGNFDPKNDPKKFNLIDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHFDVHLSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  557  LRMAWIVLDGELPNQKLPPPPSDLP  581
+
+
+>TR:A0A2P6QJ16_ROSCH A0A2P6QJ16 Laccase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr5g0065931 
+PE=3 SV=1
+Length=588
+
+ Score = 152 bits (384),  Expect = 3e-41
+ Identities = 60/85 (71%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+DAN D + +N+V+PV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH D+HLSWG
+Sbjct  502  GQGFGNFDANRDPSSFNIVNPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDIHLSWG  561
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  562  LRMAWIVQDGKLPNQKLPPPPSDLP  586
+
+
+>TR:A5AKT5_VITVI A5AKT5 Laccase OS=Vitis vinifera OX=29760 GN=VITISV_005802 PE=3 
+SV=1
+Length=559
+
+ Score = 152 bits (383),  Expect = 3e-41
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  473  GQGFGNYDPNKDPAKFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  532
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  533  LKMAWVVLDGKLPNQKLPPPPADLP  557
+
+
+>TR:A0A2S3IRY9_9POAL A0A2S3IRY9 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G515400 PE=4 SV=1
+Length=571
+
+ Score = 152 bits (383),  Expect = 3e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D AK+NL+DPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  485  GQGFGNYDSSKDPAKFNLIDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  544
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP+D+P
+Sbjct  545  LKMAWVVNDGPLPEQKLMPPPADLP  569
+
+
+>TR:A0A2T7CEC3_9POAL A0A2T7CEC3 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G525300 PE=4 SV=1
+Length=571
+
+ Score = 152 bits (383),  Expect = 3e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D AK+NL+DPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  485  GQGFGNYDSSKDPAKFNLIDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  544
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP+D+P
+Sbjct  545  LKMAWVVNDGPLPEQKLMPPPADLP  569
+
+
+>TR:A0A072TZK1_MEDTR A0A072TZK1 Laccase OS=Medicago truncatula OX=3880 GN=25498503 
+PE=3 SV=1
+Length=578
+
+ Score = 152 bits (383),  Expect = 3e-41
+ Identities = 65/85 (76%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDAN D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHLD+H SWG
+Sbjct  492  GQGFGNYDANKDPAKFNLVDPVERNTVGVPAGGWVAIRFFADNPGVWFMHCHLDIHTSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP  NQKL PPPSD+P
+Sbjct  552  LRMAWLVLDGPDSNQKLQPPPSDLP  576
+
+
+>TR:A0A067E0J7_CITSI A0A067E0J7 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g0085922mg PE=3 SV=1
+Length=384
+
+ Score = 148 bits (374),  Expect = 3e-41
+ Identities = 61/83 (73%), Positives = 71/83 (86%), Gaps = 0/83 (0%)
+
+Query  3    GFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWGLA  62
+            GFGN+D N D AK+NLVDP +R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWGL 
+Sbjct  300  GFGNFDPNKDPAKFNLVDPAERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWGLK  359
+
+Query  63   MAWLVNDGPMPNQKLPPPPSDIP  85
+            MAW+VNDG  P QKLPPPPSD+P
+Sbjct  360  MAWIVNDGKGPKQKLPPPPSDLP  382
+
+
+>TR:U5DA76_AMBTC U5DA76 Laccase OS=Amborella trichopoda OX=13333 GN=AMTR_s00055p00189700 
+PE=3 SV=1
+Length=582
+
+ Score = 152 bits (383),  Expect = 3e-41
+ Identities = 62/85 (73%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD + D AK+NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW+MHCHL+VH SWG
+Sbjct  496  GQGFGNYDPSKDPAKFNLVDPMERNTVGVPSGGWVAIRFLADNPGVWLMHCHLEVHTSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  556  LKMAWVVMDGTLPNQKLPPPPSDLP  580
+
+
+>TR:A0A0B2Q2G5_GLYSO A0A0B2Q2G5 Laccase OS=Glycine soja OX=3848 GN=glysoja_025019 
+PE=3 SV=1
+Length=555
+
+ Score = 151 bits (382),  Expect = 3e-41
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND A++NL+DPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  469  GQGFGNYDPNNDPARFNLIDPVERNTAGVPAGGWIAIRFFADNPGVWFMHCHLDLHTSWG  528
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP PNQKL PPPSD+P
+Sbjct  529  LRMAWLVLDGPEPNQKLQPPPSDLP  553
+
+
+>TR:D7SKP6_VITVI D7SKP6 Laccase OS=Vitis vinifera OX=29760 GN=VIT_06s0004g03760 
+PE=3 SV=1
+Length=585
+
+ Score = 152 bits (383),  Expect = 4e-41
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  499  GQGFGNYDPNKDPAKFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  559  LKMAWVVLDGKLPNQKLPPPPADLP  583
+
+
+>TR:G7JUW8_MEDTR G7JUW8 Laccase OS=Medicago truncatula OX=3880 GN=11414876 PE=3 
+SV=1
+Length=585
+
+ Score = 152 bits (383),  Expect = 4e-41
+ Identities = 61/85 (72%), Positives = 77/85 (91%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++A++D AK+NLVDPV+R+T++VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  499  GQGFGNFNASSDPAKFNLVDPVERNTVAVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPP D+P
+Sbjct  559  LRMAWIVEDGKLPDQKLPPPPKDLP  583
+
+
+>TR:A0A2I4H2U9_9ROSI A0A2I4H2U9 Laccase OS=Juglans regia OX=51240 GN=LOC109013004 
+PE=3 SV=1
+Length=589
+
+ Score = 152 bits (383),  Expect = 4e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D A +NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  503  GQGFGNFNPNKDPANFNLVDPVERNTVGVPAGGWVAIRFIADNPGVWLMHCHFDVHLSWG  562
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD P
+Sbjct  563  LRMAWIVQDGKLPNQKLPPPPSDYP  587
+
+
+>TR:A0A287M2R0_HORVV A0A287M2R0 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=373
+
+ Score = 148 bits (373),  Expect = 4e-41
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  287  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  346
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  P+QKL PPPSD+P
+Sbjct  347  LRMAWLVQDGSKPSQKLLPPPSDMP  371
+
+
+>TR:A0A1S2YMV4_CICAR A0A1S2YMV4 Laccase OS=Cicer arietinum OX=3827 GN=LOC101489865 
+PE=3 SV=1
+Length=594
+
+ Score = 152 bits (383),  Expect = 4e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D +ND  K+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  508  GQGFGNFDPSNDPNKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWLMHCHFDVHLSWG  567
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPP D+P
+Sbjct  568  LRMAWIVEDGKFPNQKLPPPPKDLP  592
+
+
+>TR:A0A0A9N5K4_ARUDO A0A0A9N5K4 Laccase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=412
+
+ Score = 149 bits (375),  Expect = 4e-41
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  326  GQGFGNFDPANDPAKYNLVDPVERNTVGVPAAGWVAIRFRADNPGVWFMHCHLEVHVSWG  385
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PN+KL PPPSD+P
+Sbjct  386  LKMAWLVLDGDQPNEKLLPPPSDLP  410
+
+
+>TR:M0YJA5_HORVV M0YJA5 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 PE=3 
+SV=1
+Length=541
+
+ Score = 151 bits (381),  Expect = 4e-41
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AKYNLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  455  GQGFGNYDPAKDPAKYNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  514
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  515  LKMAWLVLDGNLPNQKLPPPPADLP  539
+
+
+>TR:A0A2I4EJT6_9ROSI A0A2I4EJT6 Laccase OS=Juglans regia OX=51240 GN=LOC108990223 
+PE=3 SV=1
+Length=603
+
+ Score = 152 bits (383),  Expect = 4e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D A +NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  517  GQGFGNFNPNKDPANFNLVDPVERNTVGVPAGGWVAIRFIADNPGVWLMHCHFDVHLSWG  576
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD P
+Sbjct  577  LRMAWIVQDGKLPNQKLPPPPSDYP  601
+
+
+>TR:A5ACW6_VITVI A5ACW6 Laccase OS=Vitis vinifera OX=29760 GN=VITISV_012401 PE=3 
+SV=1
+Length=573
+
+ Score = 151 bits (382),  Expect = 4e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+  D  K+NLVDPV+R+T+ VP+ GWVAIRFVADNPGVW MHCHL+VH SWG
+Sbjct  487  GQGFGNFDSKKDPPKFNLVDPVERNTVGVPSGGWVAIRFVADNPGVWFMHCHLEVHTSWG  546
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  547  LKMAWIVKDGKLPNQKLPPPPSDLP  571
+
+
+>TR:I1N2I9_SOYBN I1N2I9 Laccase OS=Glycine max OX=3847 GN=100806074 PE=3 SV=2
+Length=576
+
+ Score = 151 bits (382),  Expect = 4e-41
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND A++NL+DPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  490  GQGFGNYDPNNDPARFNLIDPVERNTAGVPAGGWIAIRFFADNPGVWFMHCHLDLHTSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP PNQKL PPPSD+P
+Sbjct  550  LRMAWLVLDGPEPNQKLQPPPSDLP  574
+
+
+>TR:A0A2R6R7Y5_ACTCH A0A2R6R7Y5 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc08497 PE=3 SV=1
+Length=579
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND  K+NLVDP++R+T+ VP +GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  493  GQGFGNYDPKNDPKKFNLVDPIERNTVGVPASGWVAIRFLADNPGVWFMHCHLEVHTSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  553  LKMAWLVLDGKLPNQKLPPPPADLP  577
+
+
+>TR:K4C9Z3_SOLLC K4C9Z3 Laccase OS=Solanum lycopersicum OX=4081 PE=3 SV=1
+Length=614
+
+ Score = 152 bits (383),  Expect = 5e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  528  GQGFGNFDPKNDPAKYNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  587
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKL PPP+D+P
+Sbjct  588  LRMAWIVLDGKLPNQKLLPPPADLP  612
+
+
+>TR:F6HNW0_VITVI F6HNW0 Laccase OS=Vitis vinifera OX=29760 GN=VIT_13s0019g01930 
+PE=3 SV=1
+Length=583
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+  D  K+NLVDPV+R+T+ VP+ GWVAIRFVADNPGVW MHCHL+VH SWG
+Sbjct  497  GQGFGNFDSKKDPPKFNLVDPVERNTVGVPSGGWVAIRFVADNPGVWFMHCHLEVHTSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  557  LKMAWIVKDGKLPNQKLPPPPSDLP  581
+
+
+>TR:A0A2G2YRF7_CAPAN A0A2G2YRF7 Laccase-2 OS=Capsicum annuum OX=4072 GN=T459_23117 
+PE=3 SV=1
+Length=191
+
+ Score = 142 bits (359),  Expect = 5e-41
+ Identities = 57/85 (67%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNY+++ D A +NLVDP +R+T+ VP+ GW AIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  105  GRGFGNYNSSKDPASFNLVDPAERNTVGVPSGGWAAIRFLADNPGVWFMHCHLEVHTSWG  164
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L M W+VNDG  P QKLPPPP+D+P
+Sbjct  165  LKMVWMVNDGKGPKQKLPPPPADLP  189
+
+
+>TR:A0A1P8FAQ6_9ROSA A0A1P8FAQ6 Laccase OS=Pyrus x bretschneideri OX=225117 GN=LAC1 
+PE=2 SV=1
+Length=585
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D + +NLVDPV+R+++ VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  499  GQGFGNFDPNKDPSNFNLVDPVERNSVGVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  559  LRMAWVVQDGKLPNQKLPPPPSDLP  583
+
+
+>TR:A0A287G6R3_HORVV A0A287G6R3 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=556
+
+ Score = 151 bits (381),  Expect = 5e-41
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AKYNLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  470  GQGFGNYDPAKDPAKYNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  529
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  530  LKMAWLVLDGNLPNQKLPPPPADLP  554
+
+
+>TR:M5WQV0_PRUPE M5WQV0 Laccase OS=Prunus persica OX=3760 GN=PRUPE_6G072100 PE=3 
+SV=1
+Length=587
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 62/85 (73%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D A +NLVDPV+R+TI VP+ GWVAIRF+ADNPGVW++HCH DVHLSWG
+Sbjct  501  GQGFGNFNPNKDPASFNLVDPVERNTIGVPSGGWVAIRFLADNPGVWLLHCHFDVHLSWG  560
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  561  LRMAWVVQDGKLPNQKLPPPPSDLP  585
+
+
+>TR:A0A0B2RJX8_GLYSO A0A0B2RJX8 Laccase OS=Glycine soja OX=3848 GN=glysoja_028937 
+PE=3 SV=1
+Length=590
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  504  GQGFGNFNPNTDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  563
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  564  LRMAWIVEDGKLPNQKLPPPPADLP  588
+
+
+>TR:I1LQN6_SOYBN I1LQN6 Laccase OS=Glycine max OX=3847 GN=100811833 PE=3 SV=2
+Length=590
+
+ Score = 151 bits (382),  Expect = 5e-41
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  504  GQGFGNFNPNTDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHLSWG  563
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  564  LRMAWIVEDGKLPNQKLPPPPADLP  588
+
+
+>TR:A0A287G6R7_HORVV A0A287G6R7 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=565
+
+ Score = 151 bits (381),  Expect = 5e-41
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AKYNLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  479  GQGFGNYDPAKDPAKYNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  538
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  539  LKMAWLVLDGNLPNQKLPPPPADLP  563
+
+
+>TR:A0A2C9V979_MANES A0A2C9V979 Laccase OS=Manihot esculenta OX=3983 GN=MANES_09G092100 
+PE=3 SV=1
+Length=573
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 62/86 (72%), Positives = 71/86 (83%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D A +NL+DP++R+T  VP  GW+AIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  487  GQGFGNYDPNKDPANFNLIDPIERNTAGVPAGGWIAIRFLADNPGVWFMHCHLDVHTSWG  546
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAW+V DGP PNQKL PPPSD+PS
+Sbjct  547  LRMAWVVLDGPQPNQKLQPPPSDLPS  572
+
+
+>TR:A0A0D3EW33_9ORYZ A0A0D3EW33 Laccase OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:B8AC19_ORYSI B8AC19 Laccase OS=Oryza sativa subsp. indica OX=39946 GN=OsI_04394 
+PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A0E0J162_ORYNI A0A0E0J162 Laccase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A0E0N4T3_ORYRU A0A0E0N4T3 Laccase OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A0D9YH58_9ORYZ A0A0D9YH58 Laccase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A0D9V7P0_9ORYZ A0A0D9V7P0 Laccase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=577
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:J3L5Q9_ORYBR J3L5Q9 Laccase OS=Oryza brachyantha OX=4533 GN=102705117 PE=3 
+SV=1
+Length=578
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  492  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  552  LKMAWVVQDGSLPNQKILPPPSDLP  576
+
+
+>TR:I1NT81_ORYGL I1NT81 Laccase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=579
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  493  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  553  LKMAWVVQDGSLPNQKILPPPSDLP  577
+
+
+>TR:A0A2S3HBD9_9POAL A0A2S3HBD9 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_3G252100 PE=4 SV=1
+Length=581
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  +D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  495  GQGFGNFDPASDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  555  LKMAWLVQDGSLPNQKLPPPPSDLP  579
+
+
+>TR:A0A1R3J984_9ROSI A0A1R3J984 Laccase OS=Corchorus olitorius OX=93759 GN=COLO4_18414 
+PE=3 SV=1
+Length=581
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NL+DPV+R+TI VP  GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  495  GQGFGNFDPNKDPAKFNLIDPVERNTIGVPAGGWVAIRFLADNPGVWFMHCHLEVHTSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  555  LRMAWIVLDGKLPNQKLPPPPADLP  579
+
+
+>TR:A0A2T7ECX1_9POAL A0A2T7ECX1 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_3G243100 PE=4 SV=1
+Length=581
+
+ Score = 151 bits (381),  Expect = 6e-41
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  +D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  495  GQGFGNFDPASDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  555  LKMAWLVQDGSLPNQKLPPPPSDLP  579
+
+
+>TR:F2D9J2_HORVV F2D9J2 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 PE=2 
+SV=1
+Length=583
+
+ Score = 151 bits (381),  Expect = 7e-41
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AKYNLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  497  GQGFGNYDPAKDPAKYNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  557  LKMAWLVLDGNLPNQKLPPPPADLP  581
+
+
+>TR:A0A1D6DFS0_WHEAT A0A1D6DFS0 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=584
+
+ Score = 151 bits (381),  Expect = 7e-41
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  498  GQGFGNYDPAKDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  558  LKMAWLVQDGSLPNQKLPPPPADLP  582
+
+
+>TR:D7THL1_VITVI D7THL1 Laccase OS=Vitis vinifera OX=29760 GN=VIT_08s0007g00690 
+PE=3 SV=1
+Length=586
+
+ Score = 151 bits (381),  Expect = 7e-41
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  500  GQGFGNYDPNKDPAKFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  559
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L M W+V +G +PNQKLPPPPSD+P+
+Sbjct  560  LKMVWIVLEGKLPNQKLPPPPSDLPT  585
+
+
+>TR:A0A1U8HMN5_GOSHI A0A1U8HMN5 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107887552 
+PE=3 SV=1
+Length=422
+
+ Score = 148 bits (374),  Expect = 7e-41
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW MHCH DVH SWG
+Sbjct  336  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWRMHCHFDVHQSWG  395
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  396  LGMAWIVLDGELPNQKLPPPPSDLP  420
+
+
+>TR:A0A2H3YPN0_PHODC A0A2H3YPN0 Laccase OS=Phoenix dactylifera OX=42345 GN=LOC103715658 
+PE=3 SV=1
+Length=535
+
+ Score = 150 bits (379),  Expect = 7e-41
+ Identities = 64/85 (75%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D AK+NLVDPV+R+T+SVP  GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  449  GQGFGNHDPAKDPAKFNLVDPVERNTVSVPPGGWVAIRFLADNPGVWFMHCHLEVHTSWG  508
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  509  LKMAWLVLDGNLPNQKLPPPPSDLP  533
+
+
+>TR:A0A287M2Q1_HORVV A0A287M2Q1 Laccase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=411
+
+ Score = 148 bits (373),  Expect = 8e-41
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  325  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  384
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  P+QKL PPPSD+P
+Sbjct  385  LRMAWLVQDGSKPSQKLLPPPSDMP  409
+
+
+>TR:K4CRM1_SOLLC K4CRM1 Laccase OS=Solanum lycopersicum OX=4081 GN=101258179 PE=3 
+SV=1
+Length=569
+
+ Score = 150 bits (380),  Expect = 8e-41
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D + +NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  483  GQGFGNYDPNKDPSNFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  542
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  543  LKMAWLVQDGKLPNQKLPPPPMDLP  567
+
+
+>TR:W1PLC3_AMBTC W1PLC3 Laccase OS=Amborella trichopoda OX=13333 GN=AMTR_s00012p00245710 
+PE=3 SV=1
+Length=579
+
+ Score = 150 bits (380),  Expect = 9e-41
+ Identities = 61/85 (72%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD + D AK+NLVDP++R+T  VP+ GW+A+RF+ADNPGVW+MHCHL+VH SWG
+Sbjct  493  GQGFGNYDPSKDPAKFNLVDPMERNTAGVPSGGWLALRFLADNPGVWLMHCHLEVHTSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV+DG +PNQKLPPPPSD+P
+Sbjct  553  LKMAWLVSDGTLPNQKLPPPPSDLP  577
+
+
+>TR:I1KK07_SOYBN I1KK07 Laccase OS=Glycine max OX=3847 GN=100810993 PE=3 SV=1
+Length=579
+
+ Score = 150 bits (380),  Expect = 9e-41
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND AK+NL+DPV+R+T+ VP  GW+A RF+ADNPGVW MHCHLD+H SWG
+Sbjct  493  GQGFGNYDPNNDPAKFNLIDPVERNTVGVPAGGWIAFRFLADNPGVWFMHCHLDLHTSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DGP P QKL PPPSD+P
+Sbjct  553  LRMAWLVLDGPGPKQKLQPPPSDLP  577
+
+
+>TR:A0A2K1ZZ60_POPTR A0A2K1ZZ60 Laccase OS=Populus trichocarpa OX=3694 GN=POPTR_006G087100v3 
+PE=3 SV=1
+Length=580
+
+ Score = 150 bits (380),  Expect = 9e-41
+ Identities = 61/85 (72%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D + +NLVDP++R+T  VP  GW+AIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  494  GQGFGNYDPNKDPSNFNLVDPMERNTAGVPAGGWIAIRFLADNPGVWFMHCHLDVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQK+PPPPSD+P
+Sbjct  554  LRMAWIVLDGPQPNQKIPPPPSDLP  578
+
+
+>TR:Q9ZQW2_POPTR Q9ZQW2 Laccase OS=Populus trichocarpa OX=3694 GN=lac110 PE=2 
+SV=1
+Length=580
+
+ Score = 150 bits (380),  Expect = 9e-41
+ Identities = 61/85 (72%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D + +NLVDP++R+T  VP  GW+AIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  494  GQGFGNYDPNKDPSNFNLVDPMERNTAGVPAGGWIAIRFLADNPGVWFMHCHLDVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQK+PPPPSD+P
+Sbjct  554  LRMAWIVLDGPQPNQKIPPPPSDLP  578
+
+
+>TR:A0A200QIQ9_9MAGN A0A200QIQ9 Laccase OS=Macleaya cordata OX=56857 GN=BVC80_8911g20 
+PE=3 SV=1
+Length=554
+
+ Score = 150 bits (379),  Expect = 9e-41
+ Identities = 61/85 (72%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D  K+NL+DPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  468  GQGFGNYDPNKDPEKFNLIDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  527
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV +G +PNQKLPPPPSD+P
+Sbjct  528  LKMAWLVLNGELPNQKLPPPPSDLP  552
+
+
+>TR:A0A1U8B4P7_NELNU A0A1U8B4P7 Laccase OS=Nelumbo nucifera OX=4432 GN=LOC104610789 
+PE=3 SV=1
+Length=584
+
+ Score = 150 bits (380),  Expect = 9e-41
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  498  GQGFGNFDPNKDPASFNLVDPVERNTVGVPSGGWVAIRFIADNPGVWFMHCHLEVHTSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW V DG +PNQKLPPPPSD+P
+Sbjct  558  LKMAWAVMDGKLPNQKLPPPPSDLP  582
+
+
+>TR:M7YSX1_TRIUA M7YSX1 Laccase OS=Triticum urartu OX=4572 GN=TRIUR3_18514 PE=3 
+SV=1
+Length=504
+
+ Score = 149 bits (377),  Expect = 9e-41
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  418  GQGFGNYDPAKDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  477
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  478  LKMAWLVLDGNLPNQKLPPPPADLP  502
+
+
+>TR:W9SKY4_9ROSA W9SKY4 Laccase OS=Morus notabilis OX=981085 GN=L484_009439 PE=3 
+SV=1
+Length=589
+
+ Score = 150 bits (380),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D AK+NLVDP++ +T  VP+ GW+AIRF ADNPGVW MHCHLDVH SWG
+Sbjct  503  GQGFGNYDPNKDPAKFNLVDPLEGNTAGVPSGGWLAIRFFADNPGVWFMHCHLDVHTSWG  562
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  563  LRMAWIVLDGPQPNQKLPPPPSDLP  587
+
+
+>TR:A0A0E0JQW7_ORYPU A0A0E0JQW7 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=535
+
+ Score = 150 bits (378),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNL+DPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  449  GQGFGNFDPVNDPAKYNLLDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  508
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  509  LKMAWVVQDGSLPNQKILPPPSDLP  533
+
+
+>TR:A0A2P5DS45_9ROSA A0A2P5DS45 Laccase OS=Trema orientalis OX=63057 GN=TorRG33x02_243030 
+PE=3 SV=1
+Length=600
+
+ Score = 150 bits (380),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NLVDPV+R+T  VP+ GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  514  GQGFGNFDPNKDPIKFNLVDPVERNTAGVPSGGWLAIRFFADNPGVWFMHCHLDIHTSWG  573
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  574  LRMAWIVLDGPQPNQKLPPPPSDLP  598
+
+
+>TR:A0A2P5Y787_GOSBA A0A2P5Y787 Laccase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA09198 
+PE=3 SV=1
+Length=573
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  487  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  546
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  547  LGMAWIVLDGELPNQKLPPPPSDLP  571
+
+
+>TR:A5BDB6_VITVI A5BDB6 Laccase OS=Vitis vinifera OX=29760 GN=VITISV_037366 PE=3 
+SV=1
+Length=574
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+  D+ K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  488  GQGFGNFDSKKDSPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  547
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  548  LKMAWIVMDGKLPNQKLPPPPSDLP  572
+
+
+>TR:B4FDI9_MAIZE B4FDI9 Laccase OS=Zea mays OX=4577 GN=100193025 PE=2 SV=1
+Length=576
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D  K+NLVDPVQR+T+ VP  GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  490  GQGFGNYDSSKDPPKFNLVDPVQRNTVGVPAGGWVAIRFFADNPGVWFMHCHLEVHTSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP+D+P
+Sbjct  550  LKMAWVVNDGPLPEQKLMPPPADLP  574
+
+
+>TR:A0A2P4LU58_QUESU A0A2P4LU58 Laccase OS=Quercus suber OX=58331 GN=CFP56_46579 PE=3 
+SV=1
+Length=577
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T  VP  GW+AIRF++DNPGVW MHCHLDVH SWG
+Sbjct  491  GQGFGNYDPKKDPAKFNLVDPVERNTAGVPAGGWLAIRFLSDNPGVWFMHCHLDVHTSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  551  LRMAWVVLDGPEPNQKLPPPPSDLP  575
+
+
+>TR:A0A1E5ULM3_9POAL A0A1E5ULM3 Laccase OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0025206 
+PE=3 SV=1
+Length=580
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 64/85 (75%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VHLSWG
+Sbjct  494  GQGFGNFDPANDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHLSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  554  LKMAWLVLDGSLPNQKLPPPPLDLP  578
+
+
+>TR:A0A1S4B100_TOBAC A0A1S4B100 Laccase OS=Nicotiana tabacum OX=4097 GN=LOC107803413 
+PE=3 SV=1
+Length=582
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D A YNLVDPV+R+TI VP+ GWVAIRF+ADNPGVW MHCH +VHLSWG
+Sbjct  496  GQGFGNFDPKKDPANYNLVDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHFEVHLSWG  555
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  556  LRMAWLVLDGELPNQKLPPPPADLP  580
+
+
+>TR:A0A1J6IP72_NICAT A0A1J6IP72 Laccase OS=Nicotiana attenuata OX=49451 GN=LAC2 PE=3 
+SV=1
+Length=583
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D A YNLVDPV+R+TI VP+ GWVAIRF+ADNPGVW MHCH +VHLSWG
+Sbjct  497  GQGFGNFDPKKDPANYNLVDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHFEVHLSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  557  LRMAWLVLDGELPNQKLPPPPADLP  581
+
+
+>TR:A0A1P8FAQ4_9ROSA A0A1P8FAQ4 Laccase OS=Pyrus x bretschneideri OX=225117 GN=LAC2 
+PE=2 SV=1
+Length=584
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NLVDPV+R+T  VP  GW AIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  498  GQGFGNFDPNKDPPKFNLVDPVERNTYGVPARGWAAIRFLADNPGVWLMHCHFDVHLSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  558  LRMAWVVQDGKLPNQKLPPPPSDLP  582
+
+
+>TR:A0A220NLD3_9ROSA A0A220NLD3 Laccase OS=Pyrus x bretschneideri OX=225117 PE=2 SV=1
+Length=584
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NLVDPV+R+T  VP  GW AIRF+ADNPGVW+MHCH DVHLSWG
+Sbjct  498  GQGFGNFDPNKDPPKFNLVDPVERNTYGVPARGWAAIRFLADNPGVWLMHCHFDVHLSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  558  LRMAWVVQDGKLPNQKLPPPPSDLP  582
+
+
+>TR:C5YZ93_SORBI C5YZ93 Laccase OS=Sorghum bicolor OX=4558 GN=SORBI_3009G162800 
+PE=3 SV=1
+Length=585
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  499  GQGFGNFDPTNDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP D+P
+Sbjct  559  LKMAWLVLDGSLPNQKLPPPPLDLP  583
+
+
+>TR:A0A2N9EE97_FAGSY A0A2N9EE97 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS925 PE=3 SV=1
+Length=352
+
+ Score = 146 bits (368),  Expect = 1e-40
+ Identities = 59/85 (69%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+N D AK+NLVDP++R+T+ VP+ GWVAIRF+ADNPGVW MHCHL++H SWG
+Sbjct  266  GQGFGNFDSNKDPAKFNLVDPIERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEIHTSWG  325
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKL PPP D+P
+Sbjct  326  LKMAWVVLDGKLPNQKLLPPPVDLP  350
+
+
+>TR:A0A151SUP8_CAJCA A0A151SUP8 Laccase OS=Cajanus cajan OX=3821 GN=KK1_013931 PE=3 
+SV=1
+Length=588
+
+ Score = 150 bits (379),  Expect = 1e-40
+ Identities = 60/85 (71%), Positives = 75/85 (88%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  ++NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH+DVH+SWG
+Sbjct  502  GQGFGNFDPNADPHRFNLVDPVERNTVGVPSGGWVAIRFIADNPGVWLMHCHIDVHMSWG  561
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDG + +QKLPPPPSD+P
+Sbjct  562  LRMAWIVNDGELSHQKLPPPPSDLP  586
+
+
+>TR:A0A2P5Y767_GOSBA A0A2P5Y767 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA09200 PE=3 SV=1
+Length=536
+
+ Score = 149 bits (377),  Expect = 1e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  450  GQGFGNFDPKNDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  509
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPPSD+P
+Sbjct  510  LGMAWIVLDGEFPNQKLPPPPSDLP  534
+
+
+>TR:M7ZS72_TRIUA M7ZS72 Laccase-4 OS=Triticum urartu OX=4572 GN=TRIUR3_31482 PE=3 
+SV=1
+Length=512
+
+ Score = 149 bits (376),  Expect = 1e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  426  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  485
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  486  LRMAWLVLDGSLPNQKLLPPPADLP  510
+
+
+>TR:A0A2P5Q5F6_GOSBA A0A2P5Q5F6 Laccase OS=Gossypium barbadense OX=3634 GN=GOBAR_DD33336 
+PE=3 SV=1
+Length=568
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  482  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  541
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  542  LGMAWVVLDGELPNQKLPPPPSDLP  566
+
+
+>TR:A0A059DEJ3_EUCGR A0A059DEJ3 Laccase OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_A01282 
+PE=3 SV=1
+Length=571
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G GNY+ N D  K+NLVDP++R+T  VP+ GWVAIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  485  GQGSGNYNPNKDPTKFNLVDPIERNTFGVPSGGWVAIRFLADNPGVWFMHCHLDVHTSWG  544
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  545  LKMAWIVLDGPQPNQKLPPPPSDLP  569
+
+
+>TR:M0S8H9_MUSAM M0S8H9 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=544
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  +D A++NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCH+++HLSWG
+Sbjct  458  GEGFGNFDPASDPAEFNLVDPVERNTVGVPDGGWVAIRFLADNPGVWFMHCHIEIHLSWG  517
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPPSD+P
+Sbjct  518  LTMAWLVLDGALPNQKLPPPPSDLP  542
+
+
+>TR:A0A2P5QEK3_GOSBA A0A2P5QEK3 Laccase OS=Gossypium barbadense OX=3634 GN=GOBAR_DD30126 
+PE=3 SV=1
+Length=576
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  490  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  550  LGMAWVVLDGELPNQKLPPPPSDLP  574
+
+
+>TR:A0A0D2P0S6_GOSRA A0A0D2P0S6 Laccase OS=Gossypium raimondii OX=29730 GN=B456_003G129800 
+PE=3 SV=1
+Length=577
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  491  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LGMAWVVLDGELPNQKLPPPPSDLP  575
+
+
+>TR:A0A1U8NNS0_GOSHI A0A1U8NNS0 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107950332 
+PE=3 SV=1
+Length=577
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  491  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LGMAWVVLDGELPNQKLPPPPSDLP  575
+
+
+>TR:A0A1U8NRF1_GOSHI A0A1U8NRF1 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107950335 
+PE=3 SV=1
+Length=577
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  491  GQGFGNFDPENDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LGMAWVVLDGELPNQKLPPPPSDLP  575
+
+
+>TR:A0A1D5SEG6_WHEAT A0A1D5SEG6 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=584
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  498  GQGFGNYDPAKDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  558  LKMAWLVLDGSLPNQKLPPPPADLP  582
+
+
+>TR:A0A1S3B5F2_CUCME A0A1S3B5F2 Laccase OS=Cucumis melo OX=3656 GN=LOC103486379 PE=3 
+SV=1
+Length=584
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D A +NLVDPV+R+T  VP AGW+A RF ADNPGVW MHCHLDVH SWG
+Sbjct  498  GEGFGNFDPNKDPANFNLVDPVERNTAGVPAAGWIAFRFFADNPGVWFMHCHLDVHTSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPP+D+P
+Sbjct  558  LRMAWIVLDGPKPNQKLPPPPADLP  582
+
+
+>TR:M5WQU5_PRUPE M5WQU5 Laccase OS=Prunus persica OX=3760 GN=PRUPE_6G257700 PE=3 
+SV=1
+Length=585
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 61/85 (72%), Positives = 68/85 (80%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D A +NLVDP +R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  499  GLGFGNYDPTKDPANFNLVDPAERNTAGVPAGGWIAIRFFADNPGVWFMHCHLDIHTSWG  558
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DGP PNQKLPPPPSD+P
+Sbjct  559  LRMAWIVQDGPQPNQKLPPPPSDLP  583
+
+
+>TR:A0A0S3SD11_PHAAN A0A0S3SD11 Laccase OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.06G202000 PE=3 SV=1
+Length=586
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 60/85 (71%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVH SWG
+Sbjct  500  GRGFGNFNPNTDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHFSWG  559
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  560  LRMAWIVEDGKLPNQKLPPPPADLP  584
+
+
+>TR:A0A0L9T6I5_PHAAN A0A0L9T6I5 Laccase OS=Phaseolus angularis OX=3914 GN=LR48_Vigan238s004300 
+PE=3 SV=1
+Length=586
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 60/85 (71%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVH SWG
+Sbjct  500  GRGFGNFNPNTDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHFSWG  559
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  560  LRMAWIVEDGKLPNQKLPPPPADLP  584
+
+
+>TR:A0A200PM35_9MAGN A0A200PM35 Laccase OS=Macleaya cordata OX=56857 GN=BVC80_1503g4 
+PE=3 SV=1
+Length=586
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  500  GQGFGNYDPKKDPAKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  559
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  560  LKMAWIVLDGKLPHQKLPPPPSDLP  584
+
+
+>TR:A0A1S3VMA7_VIGRR A0A1S3VMA7 Laccase OS=Vigna radiata var. radiata OX=3916 GN=LOC106776538 
+PE=3 SV=1
+Length=587
+
+ Score = 150 bits (378),  Expect = 2e-40
+ Identities = 60/85 (71%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN++ N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW+MHCH DVH SWG
+Sbjct  501  GQGFGNFNPNTDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWLMHCHFDVHFSWG  560
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPP+D+P
+Sbjct  561  LRMAWIVEDGKLPNQKLPPPPADLP  585
+
+
+>TR:A0A2P5Y759_GOSBA A0A2P5Y759 Laccase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA09197 
+PE=3 SV=1
+Length=568
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  482  GQGFGNFDPENDPPKFNLVDPVERNTVVVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  541
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  542  LGMAWMVLDGELPNQKLPPPPSDLP  566
+
+
+>TR:B9HPE5_POPTR B9HPE5 Laccase OS=Populus trichocarpa OX=3694 GN=POPTR_009G034500v3 
+PE=3 SV=1
+Length=576
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D NND   +NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW MHCH DVHLSWG
+Sbjct  490  GEGFGNFDPNNDPKNFNLVDPVERNTVGVPSGGWVAIRFHADNPGVWFMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  550  LRMAWIVLDGTLPSQKLPPPPSDLP  574
+
+
+>TR:A0A1U8HGP7_GOSHI A0A1U8HGP7 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107885977 
+PE=3 SV=1
+Length=577
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  491  GQGFGNFDPENDPPKFNLVDPVERNTVVVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  551  LGMAWMVLDGELPNQKLPPPPSDLP  575
+
+
+>TR:Q8S2A8_ORYSJ Q8S2A8 Laccase OS=Oryza sativa subsp. japonica OX=39947 GN=Os01g0842500 
+PE=2 SV=1
+Length=577
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AKYNLVDPV+R+T+ VP AGWVAIRF+ DNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPAKYNLVDPVERNTVGVPAAGWVAIRFLVDNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A1D6DBB5_WHEAT A0A1D6DBB5 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=578
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  492  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW V DG  P+QKLPPPPSD+P
+Sbjct  552  LRMAWQVQDGSKPSQKLPPPPSDMP  576
+
+
+>TR:M4DPG7_BRARP M4DPG7 Laccase OS=Brassica rapa subsp. pekinensis OX=51351 PE=3 
+SV=1
+Length=578
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 61/86 (71%), Positives = 74/86 (86%), Gaps = 0/86 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D  +YNLVDPV+R+TI+VP+ GWVAIRF+ADNPGVW MHCH+++HLSWG
+Sbjct  492  GQGFGNFDPTRDPKQYNLVDPVERNTINVPSGGWVAIRFLADNPGVWFMHCHIEIHLSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIPS  86
+            L MAW+V DG +PNQKLPPPPSD P+
+Sbjct  552  LTMAWVVLDGDLPNQKLPPPPSDFPT  577
+
+
+>TR:A0A1U8HPN8_GOSHI A0A1U8HPN8 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107885975 
+PE=3 SV=1
+Length=579
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  493  GQGFGNFDPKNDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPPSD+P
+Sbjct  553  LGMAWIVLDGEFPNQKLPPPPSDLP  577
+
+
+>TR:A0A2G2VUV7_CAPBA A0A2G2VUV7 Laccase OS=Capsicum baccatum OX=33114 GN=CQW23_24444 
+PE=3 SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NL+DPV+R+TI VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  494  GQGFGNFDLNKDPAKFNLIDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPPSD+P
+Sbjct  554  LKMAWLVLDGKLPNQKLIPPPSDLP  578
+
+
+>TR:A0A1D6DFR5_WHEAT A0A1D6DFR5 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD   D AK+NLVDPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  494  GQGFGNYDPAKDPAKFNLVDPVERNTVGVPAGGWVAIRFRADNPGVWFMHCHLEVHMSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  554  LKMAWLVLDGNLPNQKLPPPPADLP  578
+
+
+>TR:A0A1U8HGJ1_GOSHI A0A1U8HGJ1 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107885975 
+PE=3 SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  494  GQGFGNFDPKNDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPPSD+P
+Sbjct  554  LGMAWIVLDGEFPNQKLPPPPSDLP  578
+
+
+>TR:A0A2G2YM91_CAPAN A0A2G2YM91 Laccase OS=Capsicum annuum OX=4072 GN=T459_25954 PE=3 
+SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NL+DPV+R+TI VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  494  GQGFGNFDPNKDPAKFNLIDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPPSD+P
+Sbjct  554  LKMAWLVLDGKLPNQKLIPPPSDLP  578
+
+
+>TR:A0A1U8EA11_CAPAN A0A1U8EA11 Laccase OS=Capsicum annuum OX=4072 GN=LOC107843471 
+PE=3 SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NL+DPV+R+TI VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  494  GQGFGNFDPNKDPAKFNLIDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPPSD+P
+Sbjct  554  LKMAWLVLDGKLPNQKLIPPPSDLP  578
+
+
+>TR:A0A2G3BFW6_CAPCH A0A2G3BFW6 Laccase OS=Capsicum chinense OX=80379 GN=BC332_26199 
+PE=3 SV=1
+Length=580
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D AK+NL+DPV+R+TI VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  494  GQGFGNFDPNKDPAKFNLIDPVERNTIGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPPSD+P
+Sbjct  554  LKMAWLVLDGKLPNQKLIPPPSDLP  578
+
+
+>TR:A0A1U8HMM9_GOSHI A0A1U8HMM9 Laccase OS=Gossypium hirsutum OX=3635 GN=LOC107885975 
+PE=3 SV=1
+Length=581
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 71/85 (84%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW+MHCH DVH SWG
+Sbjct  495  GQGFGNFDPKNDPPKFNLVDPVERNTVGVPSGGWVAIRFQADNPGVWLMHCHFDVHQSWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG  PNQKLPPPPSD+P
+Sbjct  555  LGMAWIVLDGEFPNQKLPPPPSDLP  579
+
+
+>TR:I1GTI4_BRADI I1GTI4 Laccase OS=Brachypodium distachyon OX=15368 GN=LOC100835303 
+PE=3 SV=1
+Length=581
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  ND A++NLVDPV+R+T++VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  495  GQGFGNYDVVNDPAQFNLVDPVERNTVAVPAGGWVAIRFIADNPGVWFMHCHLEVHTTWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPPSD+P
+Sbjct  555  LRMAWLVRDGSLPNQKLLPPPSDLP  579
+
+
+>TR:D7TLR5_VITVI D7TLR5 Laccase OS=Vitis vinifera OX=29760 GN=VIT_13s0019g01920 
+PE=3 SV=1
+Length=583
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+  D  K+NLVDPV+R+T+ VP+ GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  497  GQGFGNFDSKKDPPKFNLVDPVERNTVGVPSGGWVAIRFFADNPGVWFMHCHLEVHTSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  557  LKMAWIVTDGKLPNQKLPPPPSDLP  581
+
+
+>TR:F6HNU7_VITVI F6HNU7 Laccase OS=Vitis vinifera OX=29760 GN=VIT_13s0019g02150 
+PE=3 SV=1
+Length=584
+
+ Score = 149 bits (377),  Expect = 2e-40
+ Identities = 61/85 (72%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D+  D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  498  GQGFGNFDSKKDPPKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  557
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD+P
+Sbjct  558  LKMAWIVMDGKLPNQKLPPPPSDLP  582
+
+
+>TR:A0A0P0WN76_ORYSJ A0A0P0WN76 Os05g0458600 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os05g0458600 PE=3 SV=1
+Length=310
+
+ Score = 144 bits (363),  Expect = 3e-40
+ Identities = 61/85 (72%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND AK+NL DPV+R+T+ VP  GWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  224  GQGFGNFDPINDPAKFNLYDPVERNTVGVPAGGWVAIRFHADNPGVWFMHCHLEVHMSWG  283
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  P+QKLPPPP D+P
+Sbjct  284  LKMAWLVLDGSRPDQKLPPPPLDLP  308
+
+
+>TR:C5WQ07_SORBI C5WQ07 Laccase OS=Sorghum bicolor OX=4558 GN=SORBI_3001G422300 
+PE=3 SV=1
+Length=576
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD++ D AK+NL DPVQR+T+ VP+ GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  490  GQGFGNYDSSKDPAKFNLDDPVQRNTVGVPSGGWVAIRFFADNPGVWFMHCHLEVHTSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDGP+P QKL PPP D+P
+Sbjct  550  LKMAWVVNDGPLPEQKLMPPPPDLP  574
+
+
+>TR:A0A2H3XLM7_PHODC A0A2H3XLM7 Laccase OS=Phoenix dactylifera OX=42345 GN=LOC103704160 
+PE=3 SV=1
+Length=576
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G G GNYD  ND A++NLVDPV+R+T  VP+ GW+AIRF ADNPGVW+MHCH DVHLSWG
+Sbjct  490  GQGSGNYDPVNDPARFNLVDPVERNTAGVPSGGWIAIRFRADNPGVWLMHCHFDVHLSWG  549
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+VNDG +P QKLPPPPSD+P
+Sbjct  550  LVMAWVVNDGALPGQKLPPPPSDLP  574
+
+
+>TR:A0A0E0CA55_9ORYZ A0A0E0CA55 Laccase OS=Oryza meridionalis OX=40149 PE=3 SV=1
+Length=577
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D  ND A YNLVDPV+R+T+ VP AGWVAIRF+ADNPGVW MHCHL+VH+SWG
+Sbjct  491  GQGFGNFDPVNDPANYNLVDPVERNTVGVPAAGWVAIRFLADNPGVWFMHCHLEVHVSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQK+ PPPSD+P
+Sbjct  551  LKMAWVVQDGSLPNQKILPPPSDLP  575
+
+
+>TR:A0A0S3RV32_PHAAN A0A0S3RV32 Laccase OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.04G186900 PE=3 SV=1
+Length=577
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 64/85 (75%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND AK+NLVDPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  491  GQGFGNYDPNNDPAKFNLVDPVERNTAGVPAGGWIAIRFKADNPGVWFMHCHLDLHTSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PNQKL PPPSD+P
+Sbjct  551  LRMAWLVLDGAGPNQKLQPPPSDLP  575
+
+
+>TR:A0A0L9U5D1_PHAAN A0A0L9U5D1 Laccase OS=Phaseolus angularis OX=3914 GN=LR48_Vigan03g141500 
+PE=3 SV=1
+Length=577
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 64/85 (75%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND AK+NLVDPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  491  GQGFGNYDPNNDPAKFNLVDPVERNTAGVPAGGWIAIRFKADNPGVWFMHCHLDLHTSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PNQKL PPPSD+P
+Sbjct  551  LRMAWLVLDGAGPNQKLQPPPSDLP  575
+
+
+>TR:A0A1S3TSC2_VIGRR A0A1S3TSC2 Laccase OS=Vigna radiata var. radiata OX=3916 GN=LOC106758236 
+PE=3 SV=1
+Length=577
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 64/85 (75%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD NND AK+NLVDPV+R+T  VP  GW+AIRF ADNPGVW MHCHLD+H SWG
+Sbjct  491  GQGFGNYDPNNDPAKFNLVDPVERNTAGVPAGGWIAIRFKADNPGVWFMHCHLDLHTSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG  PNQKL PPPSD+P
+Sbjct  551  LRMAWLVLDGAGPNQKLQPPPSDLP  575
+
+
+>TR:B9SZZ6_RICCO B9SZZ6 Laccase OS=Ricinus communis OX=3988 GN=RCOM_0452260 PE=3 
+SV=1
+Length=577
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNY++N D A +NLVDP++R+T+ VP  GWVAIRF+ADNPGVW MHCHLDVH SWG
+Sbjct  491  GQGFGNYNSNKDPANFNLVDPMERNTVGVPAGGWVAIRFLADNPGVWFMHCHLDVHTSWG  550
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV +GP PNQKL PPPSD+P
+Sbjct  551  LRMAWLVLNGPQPNQKLQPPPSDLP  575
+
+
+>TR:A0A078JIR4_BRANA A0A078JIR4 Laccase OS=Brassica napus OX=3708 GN=BnaC04g54790D 
+PE=3 SV=1
+Length=578
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 61/85 (72%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D  +YNLVDPV+R+TI+VP+ GWVAIRF+ADNPGVW MHCH+++HLSWG
+Sbjct  492  GQGFGNFDPTRDPKQYNLVDPVERNTINVPSGGWVAIRFLADNPGVWFMHCHIEIHLSWG  551
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKLPPPPSD P
+Sbjct  552  LTMAWVVLDGELPNQKLPPPPSDFP  576
+
+
+>TR:A0A1D6CWV1_WHEAT A0A1D6CWV1 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=580
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  494  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  554  LRMAWLVLDGSLPNQKLLPPPADLP  578
+
+
+>TR:A0A2N9GTN7_FAGSY A0A2N9GTN7 Laccase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS30651 
+PE=3 SV=1
+Length=583
+
+ Score = 149 bits (376),  Expect = 3e-40
+ Identities = 59/85 (69%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNY+ NND  K+NL+DP++R+T+ VP+ GWVAIRF+ADNPGVW+MHCH D HLSWG
+Sbjct  497  GQGFGNYNPNNDPQKFNLIDPIERNTVGVPSGGWVAIRFLADNPGVWLMHCHYDAHLSWG  556
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V +G +PNQKLPPPP+D+P
+Sbjct  557  LRMAWVVFNGKLPNQKLPPPPADLP  581
+
+
+>TR:A0A2R6PX14_ACTCH A0A2R6PX14 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc24898 PE=3 SV=1
+Length=597
+
+ Score = 149 bits (376),  Expect = 4e-40
+ Identities = 62/85 (73%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D   +NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  511  GQGFGNYDPNTDPKTFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  570
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  571  LKMAWLVLDGNLPNQKLPPPPADLP  595
+
+
+>TR:A0A251T407_HELAN A0A251T407 Putative cupredoxin OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr12g0377951 
+PE=3 SV=1
+Length=313
+
+ Score = 144 bits (362),  Expect = 4e-40
+ Identities = 59/85 (69%), Positives = 70/85 (82%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD N D   +NLVDP++R+T+ VPT GWVA+RF+ADNPGVW MHCHL+VH SWG
+Sbjct  227  GQGFGNYDPNKDPKNFNLVDPIERNTVGVPTGGWVALRFLADNPGVWFMHCHLEVHTSWG  286
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV  G +PNQKL PPP+D+P
+Sbjct  287  LKMAWLVLHGKLPNQKLLPPPADLP  311
+
+
+>TR:A0A1D6BW56_WHEAT A0A1D6BW56 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=607
+
+ Score = 149 bits (376),  Expect = 4e-40
+ Identities = 63/85 (74%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NLVDPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  521  GQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  580
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  581  LRMAWLVLDGSLPNQKLLPPPADLP  605
+
+
+>TR:A0A1D5WMD2_WHEAT A0A1D5WMD2 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=545
+
+ Score = 148 bits (374),  Expect = 4e-40
+ Identities = 63/85 (74%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D   D AKYNLVDPV+R+T+ VP AGWVAIRF ADNPGVW MHCHL+VH+SWG
+Sbjct  459  GQGFGNFDPAKDPAKYNLVDPVERNTVGVPAAGWVAIRFRADNPGVWFMHCHLEVHVSWG  518
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +PNQKL PPPSD+P
+Sbjct  519  LKMAWVVQDGSLPNQKLLPPPSDLP  543
+
+
+>TR:A0A2R6RY67_ACTCH A0A2R6RY67 Laccase OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc02170 PE=3 SV=1
+Length=579
+
+ Score = 149 bits (375),  Expect = 5e-40
+ Identities = 61/85 (72%), Positives = 72/85 (85%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD  N+  K+NLVDP++R+T+ VP+ GWVAIRF ADNPGVW MHCHL+VH SWG
+Sbjct  493  GQGFGNYDPKNEPKKFNLVDPIERNTVGVPSGGWVAIRFQADNPGVWFMHCHLEVHTSWG  552
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKLPPPP+D+P
+Sbjct  553  LKMAWLVLDGKLPNQKLPPPPADLP  577
+
+
+>TR:A0A1D6SE83_WHEAT A0A1D6SE83 Laccase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=580
+
+ Score = 149 bits (375),  Expect = 5e-40
+ Identities = 62/85 (73%), Positives = 73/85 (86%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYDA ND AK+NL+DPV+R+T+ VP  GWVAIRF+ADNPGVW MHCHL+VH +WG
+Sbjct  494  GQGFGNYDAVNDPAKFNLIDPVERNTVGVPAGGWVAIRFLADNPGVWFMHCHLEVHTTWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAWLV DG +PNQKL PPP+D+P
+Sbjct  554  LRMAWLVLDGSLPNQKLLPPPADLP  578
+
+
+>TR:G7L1A9_MEDTR G7L1A9 Laccase OS=Medicago truncatula OX=3880 GN=11425350 PE=3 
+SV=2
+Length=580
+
+ Score = 149 bits (375),  Expect = 5e-40
+ Identities = 61/85 (72%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGNYD+N D  K+NLVDPV+R+T+ VP+ GWVAIRF+ADNPGVW MHCHL+VH SWG
+Sbjct  494  GQGFGNYDSNKDPQKFNLVDPVERNTVGVPSGGWVAIRFLADNPGVWFMHCHLEVHTSWG  553
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L+MAW+V DG +PNQKL PPP+D+P
+Sbjct  554  LSMAWIVLDGKLPNQKLLPPPADLP  578
+
+
+>TR:A0A218W2S6_PUNGR A0A218W2S6 Laccase OS=Punica granatum OX=22663 GN=CDL15_Pgr010420 
+PE=3 SV=1
+Length=581
+
+ Score = 149 bits (375),  Expect = 5e-40
+ Identities = 60/85 (71%), Positives = 74/85 (87%), Gaps = 0/85 (0%)
+
+Query  1    GTGFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWG  60
+            G GFGN+D N D  K+NLVDPV+R+T++VP+ GWVAIRF+ADNPGVW MHCH +VH+SWG
+Sbjct  495  GQGFGNFDPNKDPPKFNLVDPVERNTVAVPSGGWVAIRFLADNPGVWFMHCHFEVHISWG  554
+
+Query  61   LAMAWLVNDGPMPNQKLPPPPSDIP  85
+            L MAW+V DG +P+QKLPPPPSD+P
+Sbjct  555  LRMAWIVLDGSLPSQKLPPPPSDLP  579
+
+
+>TR:A0A251T4U2_HELAN A0A251T4U2 Laccase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr12g0377961 
+PE=3 SV=1
+Length=381
+
+ Score = 145 bits (366),  Expect = 5e-40
+ Identities = 60/83 (72%), Positives = 70/83 (84%), Gaps = 0/83 (0%)
+
+Query  3    GFGNYDANNDTAKYNLVDPVQRDTISVPTAGWVAIRFVADNPGVWIMHCHLDVHLSWGLA  62
+            GFGNYD N D   +NLVDP++R+T+ VPT GWVAIRF+ADNPGVW MHCHL+VH SWGL 
+Sbjct  297  GFGNYDPNKDLKNFNLVDPIERNTVGVPTGGWVAIRFLADNPGVWFMHCHLEVHTSWGLK  356
+
+Query  63   MAWLVNDGPMPNQKLPPPPSDIP  85
+            MAWLV DG +PNQKL PPP+D+P
+Sbjct  357  MAWLVLDGELPNQKLLPPPADLP  379
+
+
+
+Lambda      K        H
+   0.325    0.141    0.461 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 91330577730
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

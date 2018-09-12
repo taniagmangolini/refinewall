@@ -1,0 +1,4287 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=346
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1D6PZD9_MAIZE  A0A1D6PZD9 Putative fucosyltransferase-like ...  85.5    2e-16
+TR:I1QL15_ORYGL  I1QL15 Uncharacterized protein OS=Oryza glaberri...  81.3    3e-16
+TR:Q0VH31_MAIZE  Q0VH31 Core alpha 1,3-fucosyltransferase OS=Zea ...  85.5    5e-16
+TR:B4FW94_MAIZE  B4FW94 Uncharacterized protein OS=Zea mays OX=45...  84.3    5e-16
+TR:A0A1B6PI11_SORBI  A0A1B6PI11 Uncharacterized protein OS=Sorghu...  85.1    7e-16
+TR:K3YHA9_SETIT  K3YHA9 Uncharacterized protein OS=Setaria italic...  84.3    1e-15
+TR:A0A1D6KLA3_MAIZE  A0A1D6KLA3 3-alpha-L-fucosyltransferase OS=Z...  84.3    1e-15
+TR:A0A1E5W440_9POAL  A0A1E5W440 Glycoprotein 3-alpha-L-fucosyltra...  84.3    1e-15
+TR:Q2WBM0_MAIZE  Q2WBM0 3-alpha-L-fucosyltransferase OS=Zea mays ...  84.3    1e-15
+TR:A0A2T7D8C6_9POAL  A0A2T7D8C6 Uncharacterized protein OS=Panicu...  84.0    2e-15
+TR:A0A2T8IHC0_9POAL  A0A2T8IHC0 Uncharacterized protein OS=Panicu...  84.0    2e-15
+TR:A0A0A9BA52_ARUDO  A0A0A9BA52 Uncharacterized protein OS=Arundo...  80.9    4e-15
+TR:A0A0D9X8U0_9ORYZ  A0A0D9X8U0 Uncharacterized protein OS=Leersi...  82.0    7e-15
+TR:A0A1D6K4M7_MAIZE  A0A1D6K4M7 Putative fucosyltransferase-like ...  76.6    9e-15
+TR:Q70FI9_ORYSJ  Q70FI9 Glycoprotein 3-alpha-L-fucosyltransferase...  81.3    1e-14
+TR:A0A0D3H1A4_9ORYZ  A0A0D3H1A4 Uncharacterized protein OS=Oryza ...  81.3    1e-14
+TR:Q6ZDE5_ORYSJ  Q6ZDE5 Os08g0472600 protein OS=Oryza sativa subs...  81.3    1e-14
+TR:B9G1D5_ORYSJ  B9G1D5 Uncharacterized protein OS=Oryza sativa s...  81.3    1e-14
+TR:A0A0D3H1A3_9ORYZ  A0A0D3H1A3 Uncharacterized protein OS=Oryza ...  81.3    1e-14
+TR:B8BBL4_ORYSI  B8BBL4 Uncharacterized protein OS=Oryza sativa s...  81.3    1e-14
+TR:A0A0E0ID96_ORYNI  A0A0E0ID96 Uncharacterized protein OS=Oryza ...  81.3    1e-14
+TR:A0A0E0QK73_ORYRU  A0A0E0QK73 Uncharacterized protein OS=Oryza ...  81.3    1e-14
+TR:A0A0E0AWH9_9ORYZ  A0A0E0AWH9 Uncharacterized protein OS=Oryza ...  81.3    1e-14
+TR:A0A0E0LVV1_ORYPU  A0A0E0LVV1 Uncharacterized protein OS=Oryza ...  79.7    4e-14
+TR:J3MTR7_ORYBR  J3MTR7 Uncharacterized protein OS=Oryza brachyan...  79.7    4e-14
+TR:A0A1D6D0X6_WHEAT  A0A1D6D0X6 Uncharacterized protein OS=Tritic...  72.8    3e-13
+TR:I1I7T8_BRADI  I1I7T8 Uncharacterized protein OS=Brachypodium d...  75.9    8e-13
+TR:M8C9J9_AEGTA  M8C9J9 Glycoprotein 3-alpha-L-fucosyltransferase...  72.8    3e-12
+TR:D7TPI2_VITVI  D7TPI2 Uncharacterized protein OS=Vitis vinifera...  73.9    3e-12
+TR:M7YQ28_TRIUA  M7YQ28 Glycoprotein 3-alpha-L-fucosyltransferase...  72.8    4e-12
+TR:K7M7G3_SOYBN  K7M7G3 Uncharacterized protein OS=Glycine max OX...  71.6    6e-12
+TR:Q70G72_WHEAT  Q70G72 Putative glycoprotein 3-alpha-L-fucosyltr...  72.8    8e-12
+TR:A0A061DZR9_THECC  A0A061DZR9 Fucosyltransferase 11 isoform 3 O...  72.4    1e-11
+TR:A0A061E7P2_THECC  A0A061E7P2 Fucosyltransferase 12 isoform 2 O...  72.4    1e-11
+TR:A0A061E0W7_THECC  A0A061E0W7 Fucosyltransferase 12 isoform 1 O...  72.4    1e-11
+TR:A0A2I0AVD9_9ASPA  A0A2I0AVD9 Fucosyltransferase-like protein O...  72.0    1e-11
+TR:A0A2G9GL74_9LAMI  A0A2G9GL74 Fucosyltransferase OS=Handroanthu...  72.0    2e-11
+TR:A0A022RD79_ERYGU  A0A022RD79 Uncharacterized protein (Fragment...  71.2    2e-11
+TR:K7L301_SOYBN  K7L301 Uncharacterized protein OS=Glycine max OX...  70.9    2e-11
+TR:A0A2G5DRY5_AQUCA  A0A2G5DRY5 Uncharacterized protein OS=Aquile...  70.9    3e-11
+TR:A0A2H3YY84_PHODC  A0A2H3YY84 glycoprotein 3-alpha-L-fucosyltra...  70.9    3e-11
+TR:A0A2H3YXF7_PHODC  A0A2H3YXF7 glycoprotein 3-alpha-L-fucosyltra...  70.9    3e-11
+TR:A0A0D6R369_ARACU  A0A0D6R369 Uncharacterized protein OS=Arauca...  70.9    4e-11
+TR:I1KM01_SOYBN  I1KM01 Uncharacterized protein OS=Glycine max OX...  70.9    4e-11
+TR:A0A2G9GQJ9_9LAMI  A0A2G9GQJ9 Fucosyltransferase OS=Handroanthu...  70.9    4e-11
+TR:A0A2G5DS76_AQUCA  A0A2G5DS76 Uncharacterized protein OS=Aquile...  70.9    4e-11
+TR:A0A2G5DSQ8_AQUCA  A0A2G5DSQ8 Uncharacterized protein OS=Aquile...  70.9    4e-11
+TR:A0A2H3Z335_PHODC  A0A2H3Z335 glycoprotein 3-alpha-L-fucosyltra...  68.9    4e-11
+TR:A0A0K9PU00_ZOSMR  A0A0K9PU00 Core alpha 1,3-fucosyltransferase...  70.5    5e-11
+TR:A0A067EX55_CITSI  A0A067EX55 Uncharacterized protein (Fragment...  70.1    5e-11
+TR:A0A2I4EEI2_9ROSI  A0A2I4EEI2 putative fucosyltransferase-like ...  70.5    5e-11
+TR:A0A2P5Q466_GOSBA  A0A2P5Q466 Uncharacterized protein OS=Gossyp...  70.1    6e-11
+TR:A0A199VX47_ANACO  A0A199VX47 Glycoprotein 3-alpha-L-fucosyltra...  70.1    6e-11
+TR:V4RPF0_9ROSI  V4RPF0 Uncharacterized protein OS=Citrus clement...  70.1    6e-11
+TR:A0A1Q3DII1_CEPFO  A0A1Q3DII1 Glyco_transf_10 domain-containing...  70.1    7e-11
+TR:A0A164VNI3_DAUCA  A0A164VNI3 Uncharacterized protein OS=Daucus...  70.1    8e-11
+TR:A0A199VA57_ANACO  A0A199VA57 Glycoprotein 3-alpha-L-fucosyltra...  69.7    8e-11
+TR:A0A199UMM9_ANACO  A0A199UMM9 Glycoprotein 3-alpha-L-fucosyltra...  69.7    8e-11
+TR:A0A0K9QHE5_SPIOL  A0A0K9QHE5 Uncharacterized protein OS=Spinac...  69.3    1e-10
+TR:A0A0B0MMT4_GOSAR  A0A0B0MMT4 Glycoprotein 3-alpha-L-fucosyltra...  69.3    1e-10
+TR:A0A162A4A6_DAUCA  A0A162A4A6 Uncharacterized protein OS=Daucus...  68.9    1e-10
+TR:A0A0D2V953_GOSRA  A0A0D2V953 Uncharacterized protein OS=Gossyp...  68.9    2e-10
+TR:A0A200QYY5_9MAGN  A0A200QYY5 Glycosyl transferase OS=Macleaya ...  68.9    2e-10
+TR:A0A1S3BZA1_CUCME  A0A1S3BZA1 glycoprotein 3-alpha-L-fucosyltra...  68.6    2e-10
+TR:A0A1D6CHD6_WHEAT  A0A1D6CHD6 Uncharacterized protein OS=Tritic...  68.6    2e-10
+TR:A0A1S3C0Y4_CUCME  A0A1S3C0Y4 glycoprotein 3-alpha-L-fucosyltra...  68.6    2e-10
+TR:A0A2P5RJ48_GOSBA  A0A2P5RJ48 Uncharacterized protein OS=Gossyp...  68.6    2e-10
+TR:A0A0D2STI1_GOSRA  A0A0D2STI1 Uncharacterized protein OS=Gossyp...  68.6    2e-10
+TR:A0A1U8P1H3_GOSHI  A0A1U8P1H3 glycoprotein 3-alpha-L-fucosyltra...  68.6    2e-10
+TR:A0A1R3GYN1_9ROSI  A0A1R3GYN1 Glycosyl transferase, family 10 O...  68.6    2e-10
+TR:A0A1U8MI45_GOSHI  A0A1U8MI45 glycoprotein 3-alpha-L-fucosyltra...  68.2    3e-10
+TR:W9S687_9ROSA  W9S687 Glycoprotein 3-alpha-L-fucosyltransferase...  68.2    3e-10
+TR:A0A2P5XFD8_GOSBA  A0A2P5XFD8 Uncharacterized protein OS=Gossyp...  68.2    3e-10
+TR:A0A287WQA1_HORVV  A0A287WQA1 Uncharacterized protein OS=Hordeu...  67.4    3e-10
+TR:A0A287WQK9_HORVV  A0A287WQK9 Uncharacterized protein OS=Hordeu...  67.4    3e-10
+TR:A0A287WQK0_HORVV  A0A287WQK0 Uncharacterized protein OS=Hordeu...  67.4    3e-10
+TR:A0A287WQ96_HORVV  A0A287WQ96 Uncharacterized protein OS=Hordeu...  67.4    4e-10
+TR:A0A287WQG1_HORVV  A0A287WQG1 Uncharacterized protein OS=Hordeu...  67.4    4e-10
+TR:A0A287WQA3_HORVV  A0A287WQA3 Uncharacterized protein OS=Hordeu...  67.4    4e-10
+TR:Q70G73_HORVU  Q70G73 Putative glycoprotein 3-alpha-L-fucosyltr...  67.4    5e-10
+TR:A0A287WQJ5_HORVV  A0A287WQJ5 Uncharacterized protein OS=Hordeu...  67.4    5e-10
+TR:M0SCG5_MUSAM  M0SCG5 Uncharacterized protein OS=Musa acuminata...  67.4    5e-10
+TR:A0A151UD50_CAJCA  A0A151UD50 Glycoprotein 3-alpha-L-fucosyltra...  67.4    5e-10
+TR:A0A2K1Z5N9_POPTR  A0A2K1Z5N9 Uncharacterized protein OS=Populu...  67.4    5e-10
+TR:Q599J4_POPCN  Q599J4 Alpha 1,3 fucosyltransferase OS=Populus c...  67.4    5e-10
+TR:A0A2K1Z5P6_POPTR  A0A2K1Z5P6 Uncharacterized protein OS=Populu...  67.4    5e-10
+TR:A0A2K3L4P6_TRIPR  A0A2K3L4P6 Glycoprotein 3-alpha-L-fucosyltra...  65.1    5e-10
+TR:A0A2K1Z5R3_POPTR  A0A2K1Z5R3 Uncharacterized protein OS=Populu...  67.4    5e-10
+TR:A0A059AND0_EUCGR  A0A059AND0 Uncharacterized protein OS=Eucaly...  67.0    5e-10
+TR:A0A1U7XKC9_NICSY  A0A1U7XKC9 glycoprotein 3-alpha-L-fucosyltra...  67.0    6e-10
+TR:A0A1S4DHZ6_TOBAC  A0A1S4DHZ6 glycoprotein 3-alpha-L-fucosyltra...  67.0    6e-10
+TR:A0A0A0K6K1_CUCSA  A0A0A0K6K1 Uncharacterized protein OS=Cucumi...  67.0    6e-10
+TR:A0A2R6RH39_ACTCH  A0A2R6RH39 Fucosyltransferase-like protein O...  67.0    6e-10
+TR:A0A059AP59_EUCGR  A0A059AP59 Uncharacterized protein OS=Eucaly...  67.0    6e-10
+TR:A0A218X3X2_PUNGR  A0A218X3X2 Uncharacterized protein OS=Punica...  67.0    6e-10
+TR:A0A059AN64_EUCGR  A0A059AN64 Uncharacterized protein OS=Eucaly...  67.0    7e-10
+TR:A0A067LDY8_JATCU  A0A067LDY8 Uncharacterized protein OS=Jatrop...  67.0    7e-10
+TR:M0RJL2_MUSAM  M0RJL2 Uncharacterized protein OS=Musa acuminata...  66.6    8e-10
+TR:A0A0B2S036_GLYSO  A0A0B2S036 Glycoprotein 3-alpha-L-fucosyltra...  66.6    8e-10
+TR:A0A2H5PRB1_CITUN  A0A2H5PRB1 Uncharacterized protein (Fragment...  66.6    9e-10
+TR:A0A1U8A9Z6_NELNU  A0A1U8A9Z6 glycoprotein 3-alpha-L-fucosyltra...  66.6    9e-10
+TR:A0A2P5Y3C9_GOSBA  A0A2P5Y3C9 Uncharacterized protein OS=Gossyp...  66.6    9e-10
+TR:I1JET8_SOYBN  I1JET8 Uncharacterized protein OS=Glycine max OX...  66.6    9e-10
+TR:A0A1U8I9X9_GOSHI  A0A1U8I9X9 glycoprotein 3-alpha-L-fucosyltra...  66.6    9e-10
+TR:A0A0B0ND72_GOSAR  A0A0B0ND72 Glycoprotein 3-alpha-L-fucosyltra...  66.6    9e-10
+TR:Q6Q5Y3_MEDTR  Q6Q5Y3 Core alpha 1,3-fucosyltransferase OS=Medi...  66.2    1e-09
+TR:G7JL78_MEDTR  G7JL78 Glycoprotein 3-alpha-L-fucosyltransferase...  66.2    1e-09
+TR:A0A1R3HUP4_COCAP  A0A1R3HUP4 Glycosyl transferase, family 10 O...  66.2    1e-09
+TR:D6RSA0_TOBAC  D6RSA0 Fucosyltransferase OS=Nicotiana tabacum O...  66.2    1e-09
+TR:A9XMH2_NICBE  A9XMH2 Fucosyltransferase 1 OS=Nicotiana bentham...  65.9    2e-09
+TR:A0A078FU67_BRANA  A0A078FU67 BnaA08g02510D protein OS=Brassica...  65.9    2e-09
+TR:M4DCJ5_BRARP  M4DCJ5 Uncharacterized protein OS=Brassica rapa ...  65.9    2e-09
+TR:A0A2P5E974_9ROSA  A0A2P5E974 Glycosyltransferase OS=Trema orie...  65.9    2e-09
+TR:A0A2N9IG53_FAGSY  A0A2N9IG53 Uncharacterized protein OS=Fagus ...  65.5    2e-09
+TR:A0A1S4AG82_TOBAC  A0A1S4AG82 putative fucosyltransferase-like ...  65.5    2e-09
+TR:A0A287WQB3_HORVV  A0A287WQB3 Uncharacterized protein OS=Hordeu...  65.1    2e-09
+TR:A0A068TMP5_COFCA  A0A068TMP5 Uncharacterized protein OS=Coffea...  65.5    2e-09
+TR:K4B327_SOLLC  K4B327 Uncharacterized protein OS=Solanum lycope...  65.5    2e-09
+TR:A0A287WQA6_HORVV  A0A287WQA6 Uncharacterized protein OS=Hordeu...  64.7    3e-09
+TR:B9RYH8_RICCO  B9RYH8 Glycoprotein 3-alpha-l-fucosyltransferase...  65.1    3e-09
+TR:A0A1J3JCD7_NOCCA  A0A1J3JCD7 Glycoprotein 3-alpha-L-fucosyltra...  64.7    4e-09
+TR:A0A1J3CWK7_NOCCA  A0A1J3CWK7 Glycoprotein 3-alpha-L-fucosyltra...  64.7    4e-09
+TR:A0A2P5D788_PARAD  A0A2P5D788 Glycosyltransferase OS=Parasponia...  64.7    4e-09
+TR:A0A1J6IH42_NICAT  A0A1J6IH42 Glycoprotein 3-alpha-l-fucosyltra...  64.3    4e-09
+TR:A0A2K1Z5Q3_POPTR  A0A2K1Z5Q3 Uncharacterized protein OS=Populu...  64.7    4e-09
+TR:A0A1J7FYS5_LUPAN  A0A1J7FYS5 Uncharacterized protein OS=Lupinu...  64.3    5e-09
+TR:A0A2C9V5A9_MANES  A0A2C9V5A9 Uncharacterized protein OS=Maniho...  63.9    5e-09
+TR:M1CFC0_SOLTU  M1CFC0 Uncharacterized protein OS=Solanum tubero...  62.8    5e-09
+TR:A0A1S2YIB7_CICAR  A0A1S2YIB7 glycoprotein 3-alpha-L-fucosyltra...  63.9    6e-09
+TR:A0A1S2YIZ6_CICAR  A0A1S2YIZ6 glycoprotein 3-alpha-L-fucosyltra...  63.9    6e-09
+TR:A0A2P6PMD0_ROSCH  A0A2P6PMD0 Putative glycoprotein 3-alpha-L-f...  63.9    6e-09
+TR:A0A2R6RC06_ACTCH  A0A2R6RC06 Glycoprotein like OS=Actinidia ch...  63.9    6e-09
+TR:A0A1S2YIB5_CICAR  A0A1S2YIB5 glycoprotein 3-alpha-L-fucosyltra...  63.9    7e-09
+TR:A0A1S2YIB6_CICAR  A0A1S2YIB6 glycoprotein 3-alpha-L-fucosyltra...  63.9    7e-09
+TR:A0A2C9V647_MANES  A0A2C9V647 Uncharacterized protein OS=Maniho...  63.9    7e-09
+TR:A0A251V5V8_HELAN  A0A251V5V8 Putative fucosyltransferase 11 OS...  63.9    7e-09
+TR:A0A1J3DBL1_NOCCA  A0A1J3DBL1 Putative fucosyltransferase-like ...  60.5    7e-09
+TR:A0A124SHV6_CYNCS  A0A124SHV6 Glycosyl transferase, family 10 (...  63.9    7e-09
+TR:S8D926_9LAMI  S8D926 Uncharacterized protein (Fragment) OS=Gen...  63.5    8e-09
+TR:A0A087HAY0_ARAAL  A0A087HAY0 Uncharacterized protein OS=Arabis...  63.5    9e-09
+TR:A0A078H5U6_BRANA  A0A078H5U6 BnaC08g02710D protein OS=Brassica...  63.5    9e-09
+TR:A0A0D3DJH2_BRAOL  A0A0D3DJH2 Uncharacterized protein OS=Brassi...  63.5    9e-09
+TR:V7CGV0_PHAVU  V7CGV0 Uncharacterized protein OS=Phaseolus vulg...  63.5    9e-09
+TR:A0A175YCV6_DAUCA  A0A175YCV6 Uncharacterized protein OS=Daucus...  63.5    9e-09
+TR:A0A1J3INN4_NOCCA  A0A1J3INN4 Putative fucosyltransferase-like ...  60.1    9e-09
+TR:A0A1J3HRK4_NOCCA  A0A1J3HRK4 Putative fucosyltransferase-like ...  60.1    1e-08
+TR:M1CFC1_SOLTU  M1CFC1 Uncharacterized protein OS=Solanum tubero...  62.8    1e-08
+TR:M1CFC3_SOLTU  M1CFC3 Uncharacterized protein OS=Solanum tubero...  62.8    1e-08
+TR:R0I394_9BRAS  R0I394 Uncharacterized protein OS=Capsella rubel...  63.2    1e-08
+TR:R0IS36_9BRAS  R0IS36 Uncharacterized protein OS=Capsella rubel...  63.2    1e-08
+TR:A0A251MWX2_PRUPE  A0A251MWX2 Uncharacterized protein OS=Prunus...  62.4    1e-08
+TR:A0A251MX11_PRUPE  A0A251MX11 Uncharacterized protein OS=Prunus...  62.4    1e-08
+TR:A0A0V0IIV1_SOLCH  A0A0V0IIV1 Putative glycoprotein 3-alpha-L-f...  62.8    1e-08
+TR:A0A1J6I729_NICAT  A0A1J6I729 Putative fucosyltransferase-like ...  62.8    2e-08
+TR:W1NDR3_AMBTC  W1NDR3 Uncharacterized protein OS=Amborella tric...  62.8    2e-08
+TR:A0A2P5Q600_GOSBA  A0A2P5Q600 Uncharacterized protein OS=Gossyp...  62.8    2e-08
+TR:A0A0D2QYF2_GOSRA  A0A0D2QYF2 Uncharacterized protein OS=Gossyp...  62.8    2e-08
+TR:A0A1U8LQ62_GOSHI  A0A1U8LQ62 glycoprotein 3-alpha-L-fucosyltra...  62.8    2e-08
+TR:V4KT36_EUTSA  V4KT36 Uncharacterized protein OS=Eutrema salsug...  62.8    2e-08
+TR:A0A2P2K0Q7_RHIMU  A0A2P2K0Q7 Uncharacterized protein MANES_10G...  62.8    2e-08
+TR:M1CFC2_SOLTU  M1CFC2 Uncharacterized protein OS=Solanum tubero...  62.8    2e-08
+TR:A0A1U8ATW6_NELNU  A0A1U8ATW6 glycoprotein 3-alpha-L-fucosyltra...  62.4    2e-08
+TR:M0S421_MUSAM  M0S421 Uncharacterized protein OS=Musa acuminata...  62.4    2e-08
+TR:M5VLW9_PRUPE  M5VLW9 Uncharacterized protein OS=Prunus persica...  62.4    2e-08
+TR:A0A251MWX8_PRUPE  A0A251MWX8 Uncharacterized protein OS=Prunus...  62.4    2e-08
+TR:A0A0D3CII4_BRAOL  A0A0D3CII4 Uncharacterized protein OS=Brassi...  61.2    2e-08
+TR:A0A2G2WA52_CAPBA  A0A2G2WA52 Putative fucosyltransferase-like ...  62.4    2e-08
+TR:A0A2G2Y052_CAPAN  A0A2G2Y052 putative fucosyltransferase-like ...  62.4    2e-08
+TR:A0A1U8DX33_CAPAN  A0A1U8DX33 Putative fucosyltransferase-like ...  62.4    2e-08
+TR:A0A2G3BVE7_CAPCH  A0A2G3BVE7 Putative fucosyltransferase-like ...  62.4    2e-08
+TR:A0A0L9VAP5_PHAAN  A0A0L9VAP5 Uncharacterized protein OS=Phaseo...  62.4    2e-08
+TR:A0A0S3R363_PHAAN  A0A0S3R363 Uncharacterized protein OS=Vigna ...  62.4    2e-08
+TR:D7KF12_ARALL  D7KF12 Uncharacterized protein OS=Arabidopsis ly...  62.4    2e-08
+TR:A0A1U8APZ1_NELNU  A0A1U8APZ1 glycoprotein 3-alpha-L-fucosyltra...  62.4    2e-08
+TR:M1A6T9_SOLTU  M1A6T9 Uncharacterized protein OS=Solanum tubero...  60.5    2e-08
+TR:Q5DTC8_MEDSA  Q5DTC8 Alpha 1,3 fucosyltransferase OS=Medicago ...  62.0    3e-08
+TR:Q5DTC9_MEDSA  Q5DTC9 Alpha 1,3 fucosyltransferase OS=Medicago ...  62.0    3e-08
+TR:A0A087H1I3_ARAAL  A0A087H1I3 Uncharacterized protein OS=Arabis...  62.0    3e-08
+TR:A0A1U7VA40_NICSY  A0A1U7VA40 glycoprotein 3-alpha-L-fucosyltra...  62.0    3e-08
+TR:A0A1S3XN32_TOBAC  A0A1S3XN32 glycoprotein 3-alpha-L-fucosyltra...  62.0    3e-08
+TR:A0A287WQK4_HORVV  A0A287WQK4 Uncharacterized protein OS=Hordeu...  61.2    3e-08
+TR:A0A1J3FBW1_NOCCA  A0A1J3FBW1 Glycoprotein 3-alpha-L-fucosyltra...  61.6    4e-08
+TR:A0A1J3GLR0_NOCCA  A0A1J3GLR0 Putative fucosyltransferase-like ...  61.6    4e-08
+TR:A0A2P5WB14_GOSBA  A0A2P5WB14 Uncharacterized protein OS=Gossyp...  61.6    4e-08
+TR:K4D0H9_SOLLC  K4D0H9 Uncharacterized protein OS=Solanum lycope...  61.2    4e-08
+TR:A0A078GTX6_BRANA  A0A078GTX6 BnaC06g02690D protein OS=Brassica...  61.2    5e-08
+TR:A0A2J6JKU8_LACSA  A0A2J6JKU8 Uncharacterized protein OS=Lactuc...  61.2    5e-08
+TR:A0A1J7GW46_LUPAN  A0A1J7GW46 Uncharacterized protein OS=Lupinu...  61.2    5e-08
+TR:M4DQK8_BRARP  M4DQK8 Uncharacterized protein OS=Brassica rapa ...  61.2    5e-08
+TR:A0A078IJ30_BRANA  A0A078IJ30 BnaA06g03030D protein OS=Brassica...  61.2    6e-08
+TR:Q0PMD0_LEMMI  Q0PMD0 Alpha-1,3-fucosyltransferase OS=Lemna min...  60.8    6e-08
+TR:A0A0B0MHW5_GOSAR  A0A0B0MHW5 Glycoprotein 3-alpha-L-fucosyltra...  60.8    7e-08
+SP:FUT12_ARATH  Q9FX97 Putative fucosyltransferase-like protein O...  60.8    7e-08
+TR:Q5DTB2_ARATH  Q5DTB2 Core alpha 1, 3-fucosyltransferase OS=Ara...  60.8    7e-08
+TR:A0A178W149_ARATH  A0A178W149 FUT12 OS=Arabidopsis thaliana OX=...  60.8    7e-08
+TR:W8Q7A2_ARATH  W8Q7A2 Glycosyltransferase (Fragment) OS=Arabido...  60.8    7e-08
+TR:A0A0D3CPJ4_BRAOL  A0A0D3CPJ4 Uncharacterized protein OS=Brassi...  60.8    7e-08
+TR:A0A2R6Q618_ACTCH  A0A2R6Q618 Fucosyltransferase-like protein O...  60.5    7e-08
+TR:A0A103Y3P0_CYNCS  A0A103Y3P0 Glycosyl transferase, family 10 O...  60.8    8e-08
+TR:A0A078H7K1_BRANA  A0A078H7K1 BnaC08g02700D protein OS=Brassica...  57.8    9e-08
+TR:M4E0W1_BRARP  M4E0W1 Uncharacterized protein OS=Brassica rapa ...  60.1    1e-07
+TR:A0A1J3EJ20_NOCCA  A0A1J3EJ20 Putative fucosyltransferase-like ...  60.1    1e-07
+TR:A0A251RUW2_HELAN  A0A251RUW2 Putative glycosyl transferase fam...  59.3    2e-07
+TR:A0A1S3UTX3_VIGRR  A0A1S3UTX3 glycoprotein 3-alpha-L-fucosyltra...  58.9    3e-07
+TR:A0A2P4LT81_QUESU  A0A2P4LT81 Glycoprotein 3-alpha-l-fucosyltra...  59.3    3e-07
+TR:A0A1U8FCQ9_CAPAN  A0A1U8FCQ9 glycoprotein 3-alpha-L-fucosyltra...  58.5    3e-07
+TR:A0A0D3DJH1_BRAOL  A0A0D3DJH1 Uncharacterized protein OS=Brassi...  57.8    3e-07
+TR:A0A2G2VTA7_CAPBA  A0A2G2VTA7 Putative fucosyltransferase-like ...  58.5    4e-07
+TR:A0A2G2YKL3_CAPAN  A0A2G2YKL3 Putative fucosyltransferase-like ...  58.5    4e-07
+TR:A0A1U8FL39_CAPAN  A0A1U8FL39 putative fucosyltransferase-like ...  58.5    4e-07
+TR:A0A2G3BDY0_CAPCH  A0A2G3BDY0 Putative fucosyltransferase-like ...  58.5    4e-07
+TR:A0A1U8FJJ3_CAPAN  A0A1U8FJJ3 putative fucosyltransferase-like ...  58.5    4e-07
+TR:A0A2C9VJG2_MANES  A0A2C9VJG2 Uncharacterized protein OS=Maniho...  58.5    4e-07
+TR:A0A1U8FAY4_CAPAN  A0A1U8FAY4 glycoprotein 3-alpha-L-fucosyltra...  58.5    4e-07
+TR:A0A1U8FB75_CAPAN  A0A1U8FB75 glycoprotein 3-alpha-L-fucosyltra...  58.5    4e-07
+TR:D7L9X5_ARALL  D7L9X5 Uncharacterized protein OS=Arabidopsis ly...  58.2    5e-07
+TR:A0A1S3C3S9_CUCME  A0A1S3C3S9 glycoprotein 3-alpha-L-fucosyltra...  58.2    5e-07
+TR:Q50HM8_ARATH  Q50HM8 Core alpha 1,3-fucosyltransferase (Fragme...  57.4    7e-07
+SP:FUT11_ARATH  Q9LJK1 Glycoprotein 3-alpha-L-fucosyltransferase ...  57.4    8e-07
+TR:A0A068FIL1_ARATH  A0A068FIL1 Glycosyltransferase (Fragment) OS...  57.4    8e-07
+TR:A0A178V744_ARATH  A0A178V744 FUT11 OS=Arabidopsis thaliana OX=...  57.4    8e-07
+TR:Q4VWQ8_ARATH  Q4VWQ8 Alpha 1,3 fucosyltransferase OS=Arabidops...  57.4    8e-07
+TR:A0A0V0ICY6_SOLCH  A0A0V0ICY6 Putative fucosyltransferase-like ...  57.0    1e-06
+TR:A0A2K1JVP1_PHYPA  A0A2K1JVP1 Uncharacterized protein OS=Physco...  56.6    1e-06
+TR:A0A0A0L724_CUCSA  A0A0A0L724 Uncharacterized protein OS=Cucumi...  55.8    1e-06
+TR:A9RVI9_PHYPA  A9RVI9 Predicted protein OS=Physcomitrella paten...  56.6    2e-06
+TR:Q8L5D1_PHYPA  Q8L5D1 Alpha 1,3-fucosyltransferase OS=Physcomit...  56.6    2e-06
+TR:A0A2J6MD97_LACSA  A0A2J6MD97 Uncharacterized protein OS=Lactuc...  56.2    2e-06
+TR:A0A2R6W3L1_MARPO  A0A2R6W3L1 Uncharacterized protein OS=Marcha...  55.8    3e-06
+TR:Q9ST51_VIGRR  Q9ST51 Fuct c3 protein OS=Vigna radiata var. rad...  54.7    6e-06
+TR:A0A1D1XD26_9ARAE  A0A1D1XD26 Glycoprotein 3-alpha-L-fucosyltra...  53.5    1e-05
+TR:A0A1D1XUI8_9ARAE  A0A1D1XUI8 Glycoprotein 3-alpha-L-fucosyltra...  53.5    1e-05
+TR:Q6A2M3_PHYPA  Q6A2M3 Alpha 1,3-fucosyltransferase OS=Physcomit...  53.5    2e-05
+TR:D8QMW6_SELML  D8QMW6 Fucosyltransferase OS=Selaginella moellen...  51.6    6e-05
+TR:A0A1D6PZE1_MAIZE  A0A1D6PZE1 Putative fucosyltransferase-like ...  51.6    7e-05
+TR:Q1EPC5_MUSAC  Q1EPC5 Uncharacterized protein OS=Musa acuminata...  44.7    0.008
+TR:Q01K05_ORYSA  Q01K05 H0525E10.3 protein OS=Oryza sativa OX=453...  41.6    0.12 
+TR:A0A1Y1HND4_KLENI  A0A1Y1HND4 Fucosyltransferase OS=Klebsormidi...  40.4    0.24 
+TR:A0A0A9J652_ARUDO  A0A0A9J652 Uncharacterized protein OS=Arundo...  37.0    0.50 
+TR:A0A0D2LFZ7_9CHLO  A0A0D2LFZ7 Uncharacterized protein OS=Monora...  39.3    0.59 
+TR:A0A1D6G9B0_MAIZE  A0A1D6G9B0 SKU5 similar 13 OS=Zea mays OX=45...  36.2    1.2  
+TR:A8IK86_CHLRE  A8IK86 Predicted protein (Fragment) OS=Chlamydom...  38.1    1.5  
+TR:A0A2K3D2S7_CHLRE  A0A2K3D2S7 Uncharacterized protein OS=Chlamy...  38.1    1.5  
+TR:Q2QM95_ORYSJ  Q2QM95 Transposon protein, putative, Mutator sub...  37.4    2.5  
+TR:C1MKK8_MICPC  C1MKK8 Predicted protein OS=Micromonas pusilla (...  36.2    2.6  
+TR:A0A2P5DNA8_PARAD  A0A2P5DNA8 Amino acid/polyamine transporter ...  37.0    2.7  
+TR:A0A2P6VG24_9CHLO  A0A2P6VG24 Dynamin-related 3A-like OS=Micrac...  37.0    3.3  
+TR:A0A2U1L5F0_ARTAN  A0A2U1L5F0 Glycosyl transferase, family 10 O...  36.6    3.4  
+TR:A0A2P6VH16_9CHLO  A0A2P6VH16 ATP-dependent Clp protease ATP-bi...  37.0    3.5  
+TR:Q53PN8_ORYSJ  Q53PN8 Transposon protein, putative, Mutator sub...  36.6    4.2  
+TR:A0A150FVN0_GONPE  A0A150FVN0 Uncharacterized protein OS=Gonium...  36.2    5.6  
+TR:A0A2K3CY19_CHLRE  A0A2K3CY19 Uncharacterized protein OS=Chlamy...  35.0    5.9  
+TR:Q53LM3_ORYSJ  Q53LM3 Transposable element protein, putative, M...  35.8    7.4  
+TR:A0A150GSU4_GONPE  A0A150GSU4 Uncharacterized protein OS=Gonium...  35.8    7.4  
+TR:Q53JL9_ORYSJ  Q53JL9 Transposon protein, putative, Mutator sub...  35.8    7.5  
+TR:A0A2J8AAD7_9CHLO  A0A2J8AAD7 Uncharacterized protein OS=Tetrab...  35.8    7.5  
+TR:Q8S5Y8_ORYSJ  Q8S5Y8 Putative transposase related protein OS=O...  35.8    7.5  
+TR:Q6ATX7_ORYSJ  Q6ATX7 Uncharacterized protein OS=Oryza sativa s...  35.8    7.5  
+TR:Q2R3C4_ORYSJ  Q2R3C4 Transposon protein, putative, Mutator sub...  35.8    7.6  
+TR:Q7G3V7_ORYSJ  Q7G3V7 Transposon protein, putative, Mutator sub...  35.8    7.6  
+TR:A0A2K3DHF3_CHLRE  A0A2K3DHF3 Uncharacterized protein OS=Chlamy...  35.4    8.0  
+TR:Q0IQ47_ORYSJ  Q0IQ47 Os12g0145900 protein OS=Oryza sativa subs...  34.7    8.6  
+TR:I1R409_ORYGL  I1R409 Uncharacterized protein OS=Oryza glaberri...  34.7    8.6  
+
+
+>TR:A0A1D6PZD9_MAIZE A0A1D6PZD9 Putative fucosyltransferase-like protein OS=Zea mays 
+OX=4577 GN=778434 PE=3 SV=1
+Length=342
+
+ Score = 85.5 bits (210),  Expect = 2e-16
+ Identities = 48/75 (64%), Positives = 52/75 (69%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q         D E+ Q  
+Sbjct  270  AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQRQALYGFRFRDDSELEQ--  327
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  328  -YIKDHPCAKLEVIF  341
+
+
+>TR:I1QL15_ORYGL I1QL15 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=160
+
+ Score = 81.3 bits (199),  Expect = 3e-16
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  88   AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  144
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  145  KYIKDHPCAKLEVIF  159
+
+
+>TR:Q0VH31_MAIZE Q0VH31 Core alpha 1,3-fucosyltransferase OS=Zea mays OX=4577 
+GN=778434 PE=2 SV=1
+Length=498
+
+ Score = 85.5 bits (210),  Expect = 5e-16
+ Identities = 48/75 (64%), Positives = 52/75 (69%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q         D E+ Q  
+Sbjct  426  AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQRQALYGFRFRDDSELEQ--  483
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  484  -YIKDHPCAKLEVIF  497
+
+
+>TR:B4FW94_MAIZE B4FW94 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=345
+
+ Score = 84.3 bits (207),  Expect = 5e-16
+ Identities = 46/74 (62%), Positives = 51/74 (69%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNS---S  116
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q   +       +S    
+Sbjct  273  AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQRQ--ALYGFRFRDDSKLEQ  330
+
+Query  117  NIKDHACAKFQVNF  130
+             IKDH CAK +V F
+Sbjct  331  YIKDHPCAKLEVIF  344
+
+
+>TR:A0A1B6PI11_SORBI A0A1B6PI11 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3007G156200 PE=3 SV=1
+Length=498
+
+ Score = 85.1 bits (209),  Expect = 7e-16
+ Identities = 50/84 (60%), Positives = 54/84 (64%), Gaps = 7/84 (8%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TV  106
+            R+ L     +VL KFR LNHVPVWKDERPPSIR  DDLKVY IYPVGLTQ Q        
+Sbjct  417  RLTLGALESAVLSKFRSLNHVPVWKDERPPSIRGGDDLKVYRIYPVGLTQRQALYGFRFR  476
+
+Query  107  SDLEMIQNSSNIKDHACAKFQVNF  130
+             D E+ Q    IKDH CAK +V F
+Sbjct  477  DDSELEQ---YIKDHPCAKLEVIF  497
+
+
+>TR:K3YHA9_SETIT K3YHA9 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101766834 
+PE=3 SV=1
+Length=494
+
+ Score = 84.3 bits (207),  Expect = 1e-15
+ Identities = 48/75 (64%), Positives = 51/75 (68%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  DDLKVY IYPVGLTQ Q         D E+ Q  
+Sbjct  422  AVLAKFRSLNHVPVWKDERPPSIRGGDDLKVYRIYPVGLTQRQALYRFRFRDDSELEQ--  479
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  480  -YIKDHPCAKLEVIF  493
+
+
+>TR:A0A1D6KLA3_MAIZE A0A1D6KLA3 3-alpha-L-fucosyltransferase OS=Zea mays OX=4577 GN=100273557 
+PE=3 SV=1
+Length=498
+
+ Score = 84.3 bits (207),  Expect = 1e-15
+ Identities = 46/74 (62%), Positives = 51/74 (69%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNS---S  116
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q   +       +S    
+Sbjct  426  AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQRQ--ALYGFRFRDDSKLEQ  483
+
+Query  117  NIKDHACAKFQVNF  130
+             IKDH CAK +V F
+Sbjct  484  YIKDHPCAKLEVIF  497
+
+
+>TR:A0A1E5W440_9POAL A0A1E5W440 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Dichanthelium 
+oligosanthes OX=888268 GN=BAE44_0006933 PE=3 SV=1
+Length=508
+
+ Score = 84.3 bits (207),  Expect = 1e-15
+ Identities = 48/75 (64%), Positives = 51/75 (68%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  DDLKVY IYPVGLTQ Q         D E+ Q  
+Sbjct  436  AVLAKFRSLNHVPVWKDERPPSIRGGDDLKVYRIYPVGLTQRQALYGFRFRDDSELEQ--  493
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  494  -YIKDHPCAKLEVIF  507
+
+
+>TR:Q2WBM0_MAIZE Q2WBM0 3-alpha-L-fucosyltransferase OS=Zea mays OX=4577 GN=core3ft 
+PE=2 SV=1
+Length=516
+
+ Score = 84.3 bits (207),  Expect = 1e-15
+ Identities = 46/74 (62%), Positives = 51/74 (69%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNS---S  116
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q   +       +S    
+Sbjct  444  AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQRQ--ALYGFRFRDDSKLEQ  501
+
+Query  117  NIKDHACAKFQVNF  130
+             IKDH CAK +V F
+Sbjct  502  YIKDHPCAKLEVIF  515
+
+
+>TR:A0A2T7D8C6_9POAL A0A2T7D8C6 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_6G224600 PE=4 SV=1
+Length=490
+
+ Score = 84.0 bits (206),  Expect = 2e-15
+ Identities = 48/77 (62%), Positives = 51/77 (66%), Gaps = 11/77 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVSDLEMIQ  113
+            +VL KFR LNHVPVWKDERPPSIR  DDLKVY IYPVGLTQ Q          S+LE   
+Sbjct  418  AVLAKFRSLNHVPVWKDERPPSIRGGDDLKVYKIYPVGLTQRQALYGFRFRDDSELERY-  476
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                IKDH CAK +V F
+Sbjct  477  ----IKDHPCAKLEVIF  489
+
+
+>TR:A0A2T8IHC0_9POAL A0A2T8IHC0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_6G234900 PE=4 SV=1
+Length=492
+
+ Score = 84.0 bits (206),  Expect = 2e-15
+ Identities = 48/77 (62%), Positives = 51/77 (66%), Gaps = 11/77 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVSDLEMIQ  113
+            +VL KFR LNHVPVWKDERPPSIR  DDLKVY IYPVGLTQ Q          S+LE   
+Sbjct  420  AVLAKFRSLNHVPVWKDERPPSIRGGDDLKVYKIYPVGLTQRQALYGFRFRDDSELERY-  478
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                IKDH CAK +V F
+Sbjct  479  ----IKDHPCAKLEVIF  491
+
+
+>TR:A0A0A9BA52_ARUDO A0A0A9BA52 Uncharacterized protein OS=Arundo donax OX=35708 PE=3 
+SV=1
+Length=270
+
+ Score = 80.9 bits (198),  Expect = 4e-15
+ Identities = 45/75 (60%), Positives = 51/75 (68%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +VL KFR LNHVPVW+DERPPSIR  D+LKVY IYP+GLTQ Q         D E+ Q  
+Sbjct  198  AVLAKFRSLNHVPVWRDERPPSIRSGDELKVYRIYPMGLTQRQALYGFRFRDDSELEQ--  255
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  256  -YIKDHPCAKLEVIF  269
+
+
+>TR:A0A0D9X8U0_9ORYZ A0A0D9X8U0 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=510
+
+ Score = 82.0 bits (201),  Expect = 7e-15
+ Identities = 45/77 (58%), Positives = 51/77 (66%), Gaps = 11/77 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVSDLEMIQ  113
+            +VL KFR  NHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q          +DLE   
+Sbjct  438  AVLAKFRSFNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFKFRDDADLE---  494
+
+Query  114  NSSNIKDHACAKFQVNF  130
+               +IKDH CAK +V F
+Sbjct  495  --KHIKDHPCAKLEVIF  509
+
+
+>TR:A0A1D6K4M7_MAIZE A0A1D6K4M7 Putative fucosyltransferase-like protein OS=Zea mays 
+OX=4577 GN=ZEAMMB73_Zm00001d029362 PE=4 SV=1
+Length=137
+
+ Score = 76.6 bits (187),  Expect = 9e-15
+ Identities = 36/43 (84%), Positives = 38/43 (88%), Gaps = 0/43 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ  102
+            +VLGKFR LNHVPVWKDERPPSIR  DDLK+Y IYPVGLTQ Q
+Sbjct  90   AVLGKFRSLNHVPVWKDERPPSIRGGDDLKLYRIYPVGLTQHQ  132
+
+
+>TR:Q70FI9_ORYSJ Q70FI9 Glycoprotein 3-alpha-L-fucosyltransferase (Fragment) OS=Oryza 
+sativa subsp. japonica OX=39947 GN=FUT11 PE=2 SV=1
+Length=472
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  400  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  456
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  457  KYIKDHPCAKLEVIF  471
+
+
+>TR:A0A0D3H1A4_9ORYZ A0A0D3H1A4 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=513
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  441  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  497
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  498  KYIKDHPCAKLEVIF  512
+
+
+>TR:Q6ZDE5_ORYSJ Q6ZDE5 Os08g0472600 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os08g0472600 PE=3 SV=1
+Length=513
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  441  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  497
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  498  KYIKDHPCAKLEVIF  512
+
+
+>TR:B9G1D5_ORYSJ B9G1D5 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_27645 PE=3 SV=1
+Length=535
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  463  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  519
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  520  KYIKDHPCAKLEVIF  534
+
+
+>TR:A0A0D3H1A3_9ORYZ A0A0D3H1A3 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=535
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  463  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  519
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  520  KYIKDHPCAKLEVIF  534
+
+
+>TR:B8BBL4_ORYSI B8BBL4 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_29567 PE=3 SV=1
+Length=535
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  463  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  519
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  520  KYIKDHPCAKLEVIF  534
+
+
+>TR:A0A0E0ID96_ORYNI A0A0E0ID96 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=570
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  498  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  554
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  555  KYIKDHPCAKLEVIF  569
+
+
+>TR:A0A0E0QK73_ORYRU A0A0E0QK73 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=570
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  498  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  554
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  555  KYIKDHPCAKLEVIF  569
+
+
+>TR:A0A0E0AWH9_9ORYZ A0A0E0AWH9 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=571
+
+ Score = 81.3 bits (199),  Expect = 1e-14
+ Identities = 44/75 (59%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q         D ++    
+Sbjct  499  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADL---D  555
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  556  KYIKDHPCAKLEVIF  570
+
+
+>TR:A0A0E0LVV1_ORYPU A0A0E0LVV1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=505
+
+ Score = 79.7 bits (195),  Expect = 4e-14
+ Identities = 44/74 (59%), Positives = 49/74 (66%), Gaps = 11/74 (15%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVSDLEMIQ  113
+            +VL KFR LNHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q          +DLE   
+Sbjct  418  AVLAKFRSLNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFIFRDDADLE---  474
+
+Query  114  NSSNIKDHACAKFQ  127
+                IKDH CAK +
+Sbjct  475  --KYIKDHPCAKLE  486
+
+
+>TR:J3MTR7_ORYBR J3MTR7 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102709390 
+PE=3 SV=1
+Length=508
+
+ Score = 79.7 bits (195),  Expect = 4e-14
+ Identities = 44/77 (57%), Positives = 50/77 (65%), Gaps = 11/77 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVSDLEMIQ  113
+            +VL KFR +NHVPVWKDERPPSIR  D+LKVY IYP+GLTQ Q          +DLE   
+Sbjct  436  AVLAKFRSVNHVPVWKDERPPSIRGGDELKVYKIYPIGLTQRQALYQFRFRDDADLE---  492
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                IKDH C K +V F
+Sbjct  493  --KYIKDHPCGKLEVIF  507
+
+
+>TR:A0A1D6D0X6_WHEAT A0A1D6D0X6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=145
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 39/72 (54%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V GKFR L HVPVWKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  73   AVHGKFRSLKHVPVWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  132
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  133  KGHPCAKLEVIF  144
+
+
+>TR:I1I7T8_BRADI I1I7T8 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100834636 PE=3 SV=1
+Length=496
+
+ Score = 75.9 bits (185),  Expect = 8e-13
+ Identities = 42/75 (56%), Positives = 49/75 (65%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            +V  KFR LNHVPVWKDERP SIR  D+LKVY IYP+GLT+ Q         D E+   +
+Sbjct  424  AVHAKFRSLNHVPVWKDERPASIRGGDELKVYRIYPIGLTERQALYKFRFSDDTEL---A  480
+
+Query  116  SNIKDHACAKFQVNF  130
+              IKDH CAK +V F
+Sbjct  481  KYIKDHPCAKLEVIF  495
+
+
+>TR:M8C9J9_AEGTA M8C9J9 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Aegilops 
+tauschii OX=37682 GN=F775_28961 PE=3 SV=1
+Length=275
+
+ Score = 72.8 bits (177),  Expect = 3e-12
+ Identities = 39/72 (54%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V GKFR L HVPVWKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  203  AVHGKFRSLKHVPVWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  262
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  263  KGHPCAKLEVIF  274
+
+
+>TR:D7TPI2_VITVI D7TPI2 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_03s0063g00360 
+PE=3 SV=1
+Length=504
+
+ Score = 73.9 bits (180),  Expect = 3e-12
+ Identities = 37/72 (51%), Positives = 51/72 (71%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            ++L KF+ LNHVP+WK+ERP SIR +++LKVY IYPVGLTQ Q       E   +  S++
+Sbjct  432  AILKKFKSLNHVPIWKEERPESIRGDNELKVYRIYPVGLTQRQALYTFKFEGDADLRSHV  491
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  492  ESNPCAKFEVIF  503
+
+
+>TR:M7YQ28_TRIUA M7YQ28 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Triticum 
+urartu OX=4572 GN=TRIUR3_35298 PE=3 SV=1
+Length=333
+
+ Score = 72.8 bits (177),  Expect = 4e-12
+ Identities = 39/72 (54%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V GKFR L HVPVWKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  261  AVHGKFRSLKHVPVWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  320
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  321  KGHPCAKLEVIF  332
+
+
+>TR:K7M7G3_SOYBN K7M7G3 Uncharacterized protein OS=Glycine max OX=3847 GN=GLYMA_14G165200 
+PE=4 SV=1
+Length=267
+
+ Score = 71.6 bits (174),  Expect = 6e-12
+ Identities = 35/80 (44%), Positives = 49/80 (61%), Gaps = 1/80 (1%)
+
+Query  52   VLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEM  111
+            + L+   F+V  KF  LNHVP+WK ERP  +R  +DLK+Y IYPVGLTQ     +  L+ 
+Sbjct  187  ITLEALKFAVASKFTSLNHVPIWKTERPEVLRGANDLKLYKIYPVGLTQKASTLLLQLQR  246
+
+Query  112  -IQNSSNIKDHACAKFQVNF  130
+             +   S+++ H C KF+  F
+Sbjct  247  DVDFRSHLESHPCTKFEAIF  266
+
+
+>TR:Q70G72_WHEAT Q70G72 Putative glycoprotein 3-alpha-L-fucosyltransferase OS=Triticum 
+aestivum OX=4565 GN=core3ft PE=2 SV=1
+Length=487
+
+ Score = 72.8 bits (177),  Expect = 8e-12
+ Identities = 39/72 (54%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V GKFR L HVPVWKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  415  AVHGKFRSLKHVPVWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  474
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  475  KGHPCAKLEVIF  486
+
+
+>TR:A0A061DZR9_THECC A0A061DZR9 Fucosyltransferase 11 isoform 3 OS=Theobroma cacao 
+OX=3641 GN=TCM_007068 PE=3 SV=1
+Length=506
+
+ Score = 72.4 bits (176),  Expect = 1e-11
+ Identities = 42/72 (58%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            SVL KF+ L HVPVWKDERP SIR  D+LKVY IYPVGLTQ Q   T          S I
+Sbjct  434  SVLMKFKYLKHVPVWKDERPESIRGGDELKVYRIYPVGLTQRQALYTFKFKGDADLRSYI  493
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  494  ENNPCAKFEVIF  505
+
+
+>TR:A0A061E7P2_THECC A0A061E7P2 Fucosyltransferase 12 isoform 2 OS=Theobroma cacao 
+OX=3641 GN=TCM_007068 PE=3 SV=1
+Length=515
+
+ Score = 72.4 bits (176),  Expect = 1e-11
+ Identities = 42/72 (58%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            SVL KF+ L HVPVWKDERP SIR  D+LKVY IYPVGLTQ Q   T          S I
+Sbjct  443  SVLMKFKYLKHVPVWKDERPESIRGGDELKVYRIYPVGLTQRQALYTFKFKGDADLRSYI  502
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  503  ENNPCAKFEVIF  514
+
+
+>TR:A0A061E0W7_THECC A0A061E0W7 Fucosyltransferase 12 isoform 1 OS=Theobroma cacao 
+OX=3641 GN=TCM_007068 PE=3 SV=1
+Length=546
+
+ Score = 72.4 bits (176),  Expect = 1e-11
+ Identities = 42/72 (58%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            SVL KF+ L HVPVWKDERP SIR  D+LKVY IYPVGLTQ Q   T          S I
+Sbjct  474  SVLMKFKYLKHVPVWKDERPESIRGGDELKVYRIYPVGLTQRQALYTFKFKGDADLRSYI  533
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  534  ENNPCAKFEVIF  545
+
+
+>TR:A0A2I0AVD9_9ASPA A0A2I0AVD9 Fucosyltransferase-like protein OS=Apostasia shenzhenica 
+OX=1088818 GN=FUT12 PE=3 SV=1
+Length=495
+
+ Score = 72.0 bits (175),  Expect = 1e-11
+ Identities = 40/89 (45%), Positives = 53/89 (60%), Gaps = 11/89 (12%)
+
+Query  48   TQHRVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC---  104
+            +   V LK    +VL KF+ +NH P+WK ERP SIR  D+L++Y IYPVGLTQ +     
+Sbjct  411  SSRNVSLKALESAVLAKFKSINHAPIWKSERPKSIRGGDELRLYRIYPVGLTQREALYGF  470
+
+Query  105  ---TVSDLEMIQNSSNIKDHACAKFQVNF  130
+               T S L+      +I DH C+KF+V F
+Sbjct  471  RFGTDSALQ-----KHIDDHPCSKFEVIF  494
+
+
+>TR:A0A2G9GL74_9LAMI A0A2G9GL74 Fucosyltransferase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_21395 PE=3 SV=1
+Length=522
+
+ Score = 72.0 bits (175),  Expect = 2e-11
+ Identities = 38/78 (49%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            L+  S +VL KF+ L HVP+WK +RP S+R  ++LKVY IYPVG+TQ Q       +   
+Sbjct  444  LEALSSAVLMKFKSLKHVPIWKPDRPESLRGGNELKVYKIYPVGMTQRQALYAFSFKGDS  503
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+            N  N I+ H CAKF+V F
+Sbjct  504  NFKNHIESHPCAKFEVVF  521
+
+
+>TR:A0A022RD79_ERYGU A0A022RD79 Uncharacterized protein (Fragment) OS=Erythranthe 
+guttata OX=4155 GN=MIMGU_mgv1a0052691mg PE=3 SV=1
+Length=382
+
+ Score = 71.2 bits (173),  Expect = 2e-11
+ Identities = 38/78 (49%), Positives = 51/78 (65%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            L+  S +VL KF+ L HVPVWK ERP SIR  D+LKVY IYPVG+T+ Q       +   
+Sbjct  304  LEALSSAVLSKFKSLKHVPVWKSERPESIRGGDELKVYRIYPVGMTERQALYTFRFKGDS  363
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+            + +++I+ H CAK +V F
+Sbjct  364  DFTTHIESHPCAKLEVIF  381
+
+
+>TR:K7L301_SOYBN K7L301 Uncharacterized protein OS=Glycine max OX=3847 GN=100776065 
+PE=3 SV=1
+Length=364
+
+ Score = 70.9 bits (172),  Expect = 2e-11
+ Identities = 38/78 (49%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMI  112
+            L+   F+V+ KF  LNHVP+WK ERP  +R  +DLK++ IYPVGLTQ Q   T S     
+Sbjct  286  LEALKFAVVSKFTSLNHVPIWKTERPEILRGGNDLKLHKIYPVGLTQRQALYTFSFKGDA  345
+
+Query  113  QNSSNIKDHACAKFQVNF  130
+               S+++ H CAKF+V F
+Sbjct  346  DFRSHLESHPCAKFEVIF  363
+
+
+>TR:A0A2G5DRY5_AQUCA A0A2G5DRY5 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01500060v1 PE=3 SV=1
+Length=414
+
+ Score = 70.9 bits (172),  Expect = 3e-11
+ Identities = 40/80 (50%), Positives = 48/80 (60%), Gaps = 5/80 (6%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +V+ KF  LNHVPVWK ERP SIR  D+LKVY IYPVG+TQ Q   +       
+Sbjct  336  LKALESAVMAKFESLNHVPVWKQERPESIRGRDELKVYRIYPVGMTQRQ--ALYSFRFES  393
+
+Query  114  NS---SNIKDHACAKFQVNF  130
+            NS   S I+ + C K +V F
+Sbjct  394  NSDFRSYIESNPCTKLEVIF  413
+
+
+>TR:A0A2H3YY84_PHODC A0A2H3YY84 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X2 OS=Phoenix dactylifera OX=42345 GN=LOC103718299 PE=3 
+SV=1
+Length=419
+
+ Score = 70.9 bits (172),  Expect = 3e-11
+ Identities = 36/78 (46%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL KF+ LNH P+WK+ERP  IR +D+LK+Y IYPVGL Q Q     + +   
+Sbjct  341  LKALESAVLTKFKSLNHSPIWKNERPEVIRGDDNLKIYKIYPVGLAQRQALYSFNFDSDA  400
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+            +   +++ H CAKF+V F
+Sbjct  401  DLRKHVESHPCAKFEVIF  418
+
+
+>TR:A0A2H3YXF7_PHODC A0A2H3YXF7 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X1 OS=Phoenix dactylifera OX=42345 GN=LOC103718299 PE=3 
+SV=1
+Length=483
+
+ Score = 70.9 bits (172),  Expect = 3e-11
+ Identities = 36/78 (46%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL KF+ LNH P+WK+ERP  IR +D+LK+Y IYPVGL Q Q     + +   
+Sbjct  405  LKALESAVLTKFKSLNHSPIWKNERPEVIRGDDNLKIYKIYPVGLAQRQALYSFNFDSDA  464
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+            +   +++ H CAKF+V F
+Sbjct  465  DLRKHVESHPCAKFEVIF  482
+
+
+>TR:A0A0D6R369_ARACU A0A0D6R369 Uncharacterized protein OS=Araucaria cunninghamii 
+OX=56994 PE=3 SV=1
+Length=513
+
+ Score = 70.9 bits (172),  Expect = 4e-11
+ Identities = 39/90 (43%), Positives = 51/90 (57%), Gaps = 1/90 (1%)
+
+Query  42   MKLTLSTQHRVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQC  101
+            M+      H + LK    +VL KF+ LNHVP+WK ERP  IR  ++ KVY IYPVGLTQ 
+Sbjct  423  MQSVFVRSHNLTLKGLELAVLSKFKSLNHVPIWKTERPEVIRGTNEFKVYRIYPVGLTQR  482
+
+Query  102  QHCTVSDLEMIQN-SSNIKDHACAKFQVNF  130
+            Q     +     N  S ++ + CAK +V F
+Sbjct  483  QALYTWEFHDDDNVRSFVERNPCAKLEVIF  512
+
+
+>TR:I1KM01_SOYBN I1KM01 Uncharacterized protein OS=Glycine max OX=3847 GN=100776065 
+PE=3 SV=1
+Length=516
+
+ Score = 70.9 bits (172),  Expect = 4e-11
+ Identities = 38/78 (49%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMI  112
+            L+   F+V+ KF  LNHVP+WK ERP  +R  +DLK++ IYPVGLTQ Q   T S     
+Sbjct  438  LEALKFAVVSKFTSLNHVPIWKTERPEILRGGNDLKLHKIYPVGLTQRQALYTFSFKGDA  497
+
+Query  113  QNSSNIKDHACAKFQVNF  130
+               S+++ H CAKF+V F
+Sbjct  498  DFRSHLESHPCAKFEVIF  515
+
+
+>TR:A0A2G9GQJ9_9LAMI A0A2G9GQJ9 Fucosyltransferase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_20145 PE=3 SV=1
+Length=521
+
+ Score = 70.9 bits (172),  Expect = 4e-11
+ Identities = 38/76 (50%), Positives = 49/76 (64%), Gaps = 5/76 (7%)
+
+Query  58   SFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNS--  115
+            S +VL KF+ L HVPVWK ERP S+R  D+LK+Y IYPVG+TQ Q   +       NS  
+Sbjct  447  SSAVLSKFQSLKHVPVWKPERPESLRGRDELKIYKIYPVGMTQRQ--ALYTFRFKDNSDF  504
+
+Query  116  -SNIKDHACAKFQVNF  130
+             ++I+ H CAK +V F
+Sbjct  505  RNHIETHPCAKLEVIF  520
+
+
+>TR:A0A2G5DS76_AQUCA A0A2G5DS76 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01500060v1 PE=3 SV=1
+Length=551
+
+ Score = 70.9 bits (172),  Expect = 4e-11
+ Identities = 40/80 (50%), Positives = 48/80 (60%), Gaps = 5/80 (6%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +V+ KF  LNHVPVWK ERP SIR  D+LKVY IYPVG+TQ Q   +       
+Sbjct  473  LKALESAVMAKFESLNHVPVWKQERPESIRGRDELKVYRIYPVGMTQRQ--ALYSFRFES  530
+
+Query  114  NS---SNIKDHACAKFQVNF  130
+            NS   S I+ + C K +V F
+Sbjct  531  NSDFRSYIESNPCTKLEVIF  550
+
+
+>TR:A0A2G5DSQ8_AQUCA A0A2G5DSQ8 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01500060v1 PE=3 SV=1
+Length=552
+
+ Score = 70.9 bits (172),  Expect = 4e-11
+ Identities = 40/80 (50%), Positives = 48/80 (60%), Gaps = 5/80 (6%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +V+ KF  LNHVPVWK ERP SIR  D+LKVY IYPVG+TQ Q   +       
+Sbjct  474  LKALESAVMAKFESLNHVPVWKQERPESIRGRDELKVYRIYPVGMTQRQ--ALYSFRFES  531
+
+Query  114  NS---SNIKDHACAKFQVNF  130
+            NS   S I+ + C K +V F
+Sbjct  532  NSDFRSYIESNPCTKLEVIF  551
+
+
+>TR:A0A2H3Z335_PHODC A0A2H3Z335 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Phoenix 
+dactylifera OX=42345 GN=LOC103719837 PE=3 SV=1
+Length=250
+
+ Score = 68.9 bits (167),  Expect = 4e-11
+ Identities = 37/77 (48%), Positives = 48/77 (62%), Gaps = 11/77 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV------SDLEMIQ  113
+            +VL KFR LNH P+WK+ERP SIR  D+L++Y +YPVG+TQ Q          +DLE   
+Sbjct  178  AVLSKFRSLNHTPIWKNERPESIRGNDELRIYRMYPVGITQRQALYTFRFNDDADLERY-  236
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                IK + CAK +V F
+Sbjct  237  ----IKSNPCAKLEVIF  249
+
+
+>TR:A0A0K9PU00_ZOSMR A0A0K9PU00 Core alpha 1,3-fucosyltransferase, family GT10 OS=Zostera 
+marina OX=29655 GN=ZOSMA_164G00210 PE=3 SV=1
+Length=482
+
+ Score = 70.5 bits (171),  Expect = 5e-11
+ Identities = 40/83 (48%), Positives = 51/83 (61%), Gaps = 11/83 (13%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------TVS  107
+            +K    S L KF+ LNH+P+WK ERP SIR  D+LKVY IYPVG+TQ Q        T +
+Sbjct  404  IKALESSALSKFKSLNHLPIWKTERPESIRGGDELKVYRIYPVGMTQRQALYTFRFNTDN  463
+
+Query  108  DLEMIQNSSNIKDHACAKFQVNF  130
+            DL+       I+ + CAKF+V F
+Sbjct  464  DLQRY-----IEKNPCAKFEVIF  481
+
+
+>TR:A0A067EX55_CITSI A0A067EX55 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g038682mg PE=3 SV=1
+Length=382
+
+ Score = 70.1 bits (170),  Expect = 5e-11
+ Identities = 38/78 (49%), Positives = 48/78 (62%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL KF+ L HVP+WK ERP SIR ED+LK+Y I+PVGLTQ Q           
+Sbjct  304  LKALESAVLAKFKSLKHVPIWKQERPKSIRGEDELKIYRIHPVGLTQRQALYEFKFNGDD  363
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+            +   +I+   CAKF+V F
+Sbjct  364  DLKRHIESSPCAKFEVIF  381
+
+
+>TR:A0A2I4EEI2_9ROSI A0A2I4EEI2 putative fucosyltransferase-like protein OS=Juglans 
+regia OX=51240 GN=LOC108988882 PE=3 SV=1
+Length=506
+
+ Score = 70.5 bits (171),  Expect = 5e-11
+ Identities = 38/75 (51%), Positives = 48/75 (64%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KF  L HVP+WK ERP SIR  DDLKVY IYPVG+TQ Q         D ++    
+Sbjct  434  AVLKKFNSLKHVPIWKQERPESIRGGDDLKVYRIYPVGMTQRQALYTFRFKGDADL---K  490
+
+Query  116  SNIKDHACAKFQVNF  130
+            S+++ + CAKF+V F
+Sbjct  491  SHVESNPCAKFEVIF  505
+
+
+>TR:A0A2P5Q466_GOSBA A0A2P5Q466 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD33773 PE=3 SV=1
+Length=455
+
+ Score = 70.1 bits (170),  Expect = 6e-11
+ Identities = 40/72 (56%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            SVL KFR   HVPVWK ERP +IR  D+LKVY IYPVGLTQ Q       E   +  N I
+Sbjct  383  SVLTKFRYRKHVPVWKQERPETIRGGDELKVYRIYPVGLTQRQALYNFKFERDADLKNHI  442
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  443  QSNPCAKFEVIF  454
+
+
+>TR:A0A199VX47_ANACO A0A199VX47 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Ananas 
+comosus OX=4615 GN=ACMD2_05636 PE=3 SV=1
+Length=471
+
+ Score = 70.1 bits (170),  Expect = 6e-11
+ Identities = 38/89 (43%), Positives = 53/89 (60%), Gaps = 7/89 (8%)
+
+Query  46   LSTQHRVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCT  105
+            L  + R  L     ++  KF+ LNH P+WK+ERP SIR +DDL++Y +YPVGLTQ Q   
+Sbjct  385  LYVRERGRLNAFESAITAKFKSLNHTPIWKNERPQSIRGDDDLRIYRVYPVGLTQRQALY  444
+
+Query  106  V----SDLEMIQNSSNIKDHACAKFQVNF  130
+                 SD E    S +++ + C KF+V F
+Sbjct  445  SFKFGSDAEF---SEHVERNPCPKFEVIF  470
+
+
+>TR:V4RPF0_9ROSI V4RPF0 Uncharacterized protein OS=Citrus clementina OX=85681 
+GN=CICLE_v10028212mg PE=3 SV=1
+Length=520
+
+ Score = 70.1 bits (170),  Expect = 6e-11
+ Identities = 38/78 (49%), Positives = 48/78 (62%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL KF+ L HVP+WK ERP SIR ED+LK+Y I+PVGLTQ Q           
+Sbjct  442  LKALESAVLAKFKSLKHVPIWKQERPKSIRGEDELKIYRIHPVGLTQRQALYEFKFNGDD  501
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+            +   +I+   CAKF+V F
+Sbjct  502  DLKRHIESSPCAKFEVIF  519
+
+
+>TR:A0A1Q3DII1_CEPFO A0A1Q3DII1 Glyco_transf_10 domain-containing protein OS=Cephalotus 
+follicularis OX=3775 GN=CFOL_v3_20900 PE=3 SV=1
+Length=534
+
+ Score = 70.1 bits (170),  Expect = 7e-11
+ Identities = 38/72 (53%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLE-MIQNSSNI  118
+            +VL KF+ LN+VP+WK ERP SIR E +LKVY IYPVGLTQ Q          +   S+I
+Sbjct  462  AVLKKFKSLNYVPIWKQERPESIRGEGELKVYRIYPVGLTQRQALYNFKFNGDVHLRSHI  521
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  522  ESNPCAKFEVIF  533
+
+
+>TR:A0A164VNI3_DAUCA A0A164VNI3 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_022021 PE=3 SV=1
+Length=717
+
+ Score = 70.1 bits (170),  Expect = 8e-11
+ Identities = 39/78 (50%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMI  112
+            LK    +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLTQ Q   T S     
+Sbjct  639  LKALESAVQSKFESLKHVPIWKDERPESIRGTDELKVYRIYPLGLTQRQALYTFSFKGDN  698
+
+Query  113  QNSSNIKDHACAKFQVNF  130
+            +   +++ + CAKF+V F
+Sbjct  699  ELRKHLEKNPCAKFEVIF  716
+
+
+>TR:A0A199VA57_ANACO A0A199VA57 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Ananas 
+comosus OX=4615 GN=ACMD2_22980 PE=3 SV=1
+Length=470
+
+ Score = 69.7 bits (169),  Expect = 8e-11
+ Identities = 37/89 (42%), Positives = 53/89 (60%), Gaps = 7/89 (8%)
+
+Query  46   LSTQHRVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCT  105
+            L  + R  L     ++  KF+ LNH P+WK+ERP S+R +DDL++Y +YPVGLTQ Q   
+Sbjct  384  LYVRERGRLNAFESAITAKFKSLNHTPIWKNERPQSVRGDDDLRIYRVYPVGLTQRQALY  443
+
+Query  106  V----SDLEMIQNSSNIKDHACAKFQVNF  130
+                 SD E    S +++ + C KF+V F
+Sbjct  444  SFKFGSDAEF---SEHVERNPCPKFEVIF  469
+
+
+>TR:A0A199UMM9_ANACO A0A199UMM9 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Ananas 
+comosus OX=4615 GN=ACMD2_04907 PE=3 SV=1
+Length=489
+
+ Score = 69.7 bits (169),  Expect = 8e-11
+ Identities = 37/81 (46%), Positives = 52/81 (64%), Gaps = 1/81 (1%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDL  109
+            ++ ++   F+VL KFR LN+VP+WK+ERP SIR  D+LK+Y IYPVGLTQ Q   +    
+Sbjct  408  KLTVEALEFAVLEKFRSLNYVPIWKNERPASIRGGDELKIYRIYPVGLTQRQALYSFKFK  467
+
+Query  110  EMIQNSSNIKDHACAKFQVNF  130
+            +       IK++ C K +V F
+Sbjct  468  DDADLKRYIKNNPCTKLEVIF  488
+
+
+>TR:A0A0K9QHE5_SPIOL A0A0K9QHE5 Uncharacterized protein OS=Spinacia oleracea OX=3562 
+GN=SOVF_178890 PE=3 SV=1
+Length=503
+
+ Score = 69.3 bits (168),  Expect = 1e-10
+ Identities = 36/72 (50%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  L+HVP+WK ERP SIR  D+LK+Y IYPVG+TQ +   T    E     S+I
+Sbjct  431  AVLNKFSQLSHVPIWKPERPESIRGGDELKIYRIYPVGMTQRRALYTFKFKEESDFRSHI  490
+
+Query  119  KDHACAKFQVNF  130
+            +++ C+KF+V F
+Sbjct  491  ENNPCSKFEVIF  502
+
+
+>TR:A0A0B0MMT4_GOSAR A0A0B0MMT4 Glycoprotein 3-alpha-L-fucosyltransferase A-like protein 
+OS=Gossypium arboreum OX=29729 GN=F383_26554 PE=3 SV=1
+Length=516
+
+ Score = 69.3 bits (168),  Expect = 1e-10
+ Identities = 37/75 (49%), Positives = 50/75 (67%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KF+ L HVP+WK ERP SIR  D+LKVY +YPVGLTQ Q         D +++   
+Sbjct  444  AVLKKFKSLKHVPIWKQERPKSIRGGDELKVYRVYPVGLTQRQALYTFKFKGDADLM---  500
+
+Query  116  SNIKDHACAKFQVNF  130
+            S+I+++ C KF+V F
+Sbjct  501  SHIENNPCPKFEVIF  515
+
+
+>TR:A0A162A4A6_DAUCA A0A162A4A6 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_019244 PE=3 SV=1
+Length=455
+
+ Score = 68.9 bits (167),  Expect = 1e-10
+ Identities = 35/76 (46%), Positives = 49/76 (64%), Gaps = 1/76 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL KF+ LNHVPVWK+ERP S+R  D+LK+Y +YP+GLTQ +       E   
+Sbjct  376  LKALESAVLLKFKSLNHVPVWKEERPKSLRGSDELKLYRVYPLGLTQREALYTFSFEGDD  435
+
+Query  114  N-SSNIKDHACAKFQV  128
+                +I+ + CAKF++
+Sbjct  436  ELKIHIEKNPCAKFEI  451
+
+
+>TR:A0A0D2V953_GOSRA A0A0D2V953 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_013G044300 PE=3 SV=1
+Length=515
+
+ Score = 68.9 bits (167),  Expect = 2e-10
+ Identities = 39/70 (56%), Positives = 45/70 (64%), Gaps = 1/70 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            SVL KFR   HVPVWK ERP +IR  D+LKVY IYPVGLTQ Q       E   +  N I
+Sbjct  443  SVLTKFRYQKHVPVWKQERPETIRGGDELKVYRIYPVGLTQRQALYNFKFERDADLKNHI  502
+
+Query  119  KDHACAKFQV  128
+            + + CAKF+V
+Sbjct  503  QSNPCAKFEV  512
+
+
+>TR:A0A200QYY5_9MAGN A0A200QYY5 Glycosyl transferase OS=Macleaya cordata OX=56857 
+GN=BVC80_1313g68 PE=3 SV=1
+Length=548
+
+ Score = 68.9 bits (167),  Expect = 2e-10
+ Identities = 41/85 (48%), Positives = 50/85 (59%), Gaps = 11/85 (13%)
+
+Query  52   VLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV-----  106
+            V L+     VL KF+ LNHVP+WK ERP  IR  D+LKVY IYPVG+TQ Q         
+Sbjct  468  VTLEALESVVLAKFKSLNHVPIWKQERPERIRGGDELKVYRIYPVGMTQRQALYTFRFKG  527
+
+Query  107  -SDLEMIQNSSNIKDHACAKFQVNF  130
+             SDL      S ++ + CAKF+V F
+Sbjct  528  DSDLR-----SYLERNPCAKFEVIF  547
+
+
+>TR:A0A1S3BZA1_CUCME A0A1S3BZA1 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X2 OS=Cucumis melo OX=3656 GN=LOC103495239 PE=3 SV=1
+Length=455
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF  L HVP+WK+ERP S+R  D+LK+Y IYPVGLTQ Q       +   +  ++I
+Sbjct  383  TVLNKFNSLKHVPIWKEERPESVRGGDELKLYRIYPVGLTQRQALYTFRFKGNDDFRTHI  442
+
+Query  119  KDHACAKFQVNF  130
+            + H CAK +V F
+Sbjct  443  ETHPCAKMEVIF  454
+
+
+>TR:A0A1D6CHD6_WHEAT A0A1D6CHD6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=485
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 36/69 (52%), Positives = 44/69 (64%), Gaps = 1/69 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V GKFR L HVPVWKDERP  IR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  415  AVHGKFRSLKHVPVWKDERPSGIRGGDELKVYKIYPIGLTERQALYKFQFNDDAEVARYI  474
+
+Query  119  KDHACAKFQ  127
+            K H CAK +
+Sbjct  475  KGHPCAKLE  483
+
+
+>TR:A0A1S3C0Y4_CUCME A0A1S3C0Y4 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X1 OS=Cucumis melo OX=3656 GN=LOC103495239 PE=3 SV=1
+Length=513
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF  L HVP+WK+ERP S+R  D+LK+Y IYPVGLTQ Q       +   +  ++I
+Sbjct  441  TVLNKFNSLKHVPIWKEERPESVRGGDELKLYRIYPVGLTQRQALYTFRFKGNDDFRTHI  500
+
+Query  119  KDHACAKFQVNF  130
+            + H CAK +V F
+Sbjct  501  ETHPCAKMEVIF  512
+
+
+>TR:A0A2P5RJ48_GOSBA A0A2P5RJ48 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD16254 PE=3 SV=1
+Length=516
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 37/72 (51%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVP+WK ERP SIR  D+LKVY +YPVGLTQ Q   T          S+I
+Sbjct  444  AVLKKFKSLKHVPIWKQERPKSIRGGDELKVYRVYPVGLTQRQALYTFKFKGDADLRSHI  503
+
+Query  119  KDHACAKFQVNF  130
+            +++ C KF+V F
+Sbjct  504  ENNPCPKFEVIF  515
+
+
+>TR:A0A0D2STI1_GOSRA A0A0D2STI1 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_008G024900 PE=3 SV=1
+Length=516
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 37/72 (51%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVP+WK ERP SIR  D+LKVY +YPVGLTQ Q   T          S+I
+Sbjct  444  AVLKKFKSLKHVPIWKQERPKSIRGGDELKVYRVYPVGLTQRQALYTFKFKGDADLRSHI  503
+
+Query  119  KDHACAKFQVNF  130
+            +++ C KF+V F
+Sbjct  504  ENNPCPKFEVIF  515
+
+
+>TR:A0A1U8P1H3_GOSHI A0A1U8P1H3 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Gossypium 
+hirsutum OX=3635 GN=LOC107953397 PE=3 SV=1
+Length=516
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 37/72 (51%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVP+WK ERP SIR  D+LKVY +YPVGLTQ Q   T          S+I
+Sbjct  444  AVLKKFKSLKHVPIWKQERPKSIRGGDELKVYRVYPVGLTQRQALYTFKFKGDADLRSHI  503
+
+Query  119  KDHACAKFQVNF  130
+            +++ C KF+V F
+Sbjct  504  ENNPCPKFEVIF  515
+
+
+>TR:A0A1R3GYN1_9ROSI A0A1R3GYN1 Glycosyl transferase, family 10 OS=Corchorus olitorius 
+OX=93759 GN=COLO4_32649 PE=3 SV=1
+Length=676
+
+ Score = 68.6 bits (166),  Expect = 2e-10
+ Identities = 38/72 (53%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ LNHVPVWK ERP S+R  ++LKVY I+PVGLTQ Q   T          S+I
+Sbjct  604  AVLMKFKSLNHVPVWKQERPESLRGGNELKVYRIHPVGLTQRQALYTFKFKGDADLRSHI  663
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  664  ENNPCAKFEVIF  675
+
+
+>TR:A0A1U8MI45_GOSHI A0A1U8MI45 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Gossypium 
+hirsutum OX=3635 GN=LOC107937965 PE=3 SV=1
+Length=516
+
+ Score = 68.2 bits (165),  Expect = 3e-10
+ Identities = 36/72 (50%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVP+WK ERP SIR  D+LK+Y +YPVGLTQ Q   T          S+I
+Sbjct  444  AVLKKFKSLKHVPIWKQERPKSIRGGDELKIYRVYPVGLTQRQALYTFKFKGDADLRSHI  503
+
+Query  119  KDHACAKFQVNF  130
+            +++ C KF+V F
+Sbjct  504  ENNPCPKFEVIF  515
+
+
+>TR:W9S687_9ROSA W9S687 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Morus notabilis 
+OX=981085 GN=L484_027524 PE=3 SV=1
+Length=520
+
+ Score = 68.2 bits (165),  Expect = 3e-10
+ Identities = 34/71 (48%), Positives = 44/71 (62%), Gaps = 0/71 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIK  119
+            +VL KF    H+P+WK ERP SIR  D+LKVY IYPVGLTQ Q       +     S+++
+Sbjct  449  AVLTKFNSQKHIPIWKQERPESIRGGDELKVYRIYPVGLTQRQALYTFRFKGNDFRSHVE  508
+
+Query  120  DHACAKFQVNF  130
+             + C KF+V F
+Sbjct  509  SNPCTKFEVIF  519
+
+
+>TR:A0A2P5XFD8_GOSBA A0A2P5XFD8 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA18601 PE=3 SV=1
+Length=532
+
+ Score = 68.2 bits (165),  Expect = 3e-10
+ Identities = 36/72 (50%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVP+WK ERP SIR  D+LK+Y +YPVGLTQ Q   T          S+I
+Sbjct  460  AVLKKFKSLKHVPIWKQERPKSIRGGDELKIYRVYPVGLTQRQALYTFKFKGDADLRSHI  519
+
+Query  119  KDHACAKFQVNF  130
+            +++ C KF+V F
+Sbjct  520  ENNPCPKFEVIF  531
+
+
+>TR:A0A287WQA1_HORVV A0A287WQA1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=334
+
+ Score = 67.4 bits (163),  Expect = 3e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  262  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  321
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  322  KGHPCAKLEVIF  333
+
+
+>TR:A0A287WQK9_HORVV A0A287WQK9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=345
+
+ Score = 67.4 bits (163),  Expect = 3e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  273  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  332
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  333  KGHPCAKLEVIF  344
+
+
+>TR:A0A287WQK0_HORVV A0A287WQK0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=364
+
+ Score = 67.4 bits (163),  Expect = 3e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  292  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  351
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  352  KGHPCAKLEVIF  363
+
+
+>TR:A0A287WQ96_HORVV A0A287WQ96 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=387
+
+ Score = 67.4 bits (163),  Expect = 4e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  315  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  374
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  375  KGHPCAKLEVIF  386
+
+
+>TR:A0A287WQG1_HORVV A0A287WQG1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=393
+
+ Score = 67.4 bits (163),  Expect = 4e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  321  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  380
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  381  KGHPCAKLEVIF  392
+
+
+>TR:A0A287WQA3_HORVV A0A287WQA3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=405
+
+ Score = 67.4 bits (163),  Expect = 4e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  333  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  392
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  393  KGHPCAKLEVIF  404
+
+
+>TR:Q70G73_HORVU Q70G73 Putative glycoprotein 3-alpha-L-fucosyltransferase OS=Hordeum 
+vulgare OX=4513 GN=core3ft PE=2 SV=1
+Length=486
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  414  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  473
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  474  KGHPCAKLEVIF  485
+
+
+>TR:A0A287WQJ5_HORVV A0A287WQJ5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=486
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 36/72 (50%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  414  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  473
+
+Query  119  KDHACAKFQVNF  130
+            K H CAK +V F
+Sbjct  474  KGHPCAKLEVIF  485
+
+
+>TR:M0SCG5_MUSAM M0SCG5 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103977535 PE=3 SV=1
+Length=501
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 35/84 (42%), Positives = 52/84 (62%), Gaps = 7/84 (8%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----  106
+            ++ LK    ++L KFR LNH P+WK+ERP  +R  +DLK++ IYPVG+TQ +        
+Sbjct  420  KLTLKALESAILAKFRSLNHTPIWKNERPTILRGGNDLKIHRIYPVGITQREALYTFRFN  479
+
+Query  107  SDLEMIQNSSNIKDHACAKFQVNF  130
+            +D E+     +IK + CAK +V F
+Sbjct  480  NDAEL---EKHIKSNPCAKLEVIF  500
+
+
+>TR:A0A151UD50_CAJCA A0A151UD50 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Cajanus 
+cajan OX=3821 GN=KK1_046629 PE=3 SV=1
+Length=510
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 34/72 (47%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF  LNHVP+WK ERP  +R  +DLK+Y IYPVGLTQ Q       +  ++  S++
+Sbjct  438  AVVSKFTSLNHVPIWKSERPEVLRGGNDLKLYKIYPVGLTQRQALYTFSFKGDEDLRSHL  497
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  498  ESNPCAKFEVIF  509
+
+
+>TR:A0A2K1Z5N9_POPTR A0A2K1Z5N9 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G101500v3 PE=3 SV=1
+Length=522
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 35/72 (49%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK ERP SIR  DD KVY +YPVG+TQ Q           +  N +
+Sbjct  450  AVLKKFKSLKHVPIWKQERPESIRGGDDFKVYRVYPVGMTQRQALYSYKFNTDDDFKNHL  509
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  510  EVNPCAKFEVIF  521
+
+
+>TR:Q599J4_POPCN Q599J4 Alpha 1,3 fucosyltransferase OS=Populus canescens OX=80863 
+GN=poFUT2 PE=2 SV=1
+Length=522
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 35/72 (49%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK ERP SIR  DD KVY +YPVG+TQ Q           +  N +
+Sbjct  450  AVLKKFKSLKHVPIWKQERPESIRGGDDFKVYRVYPVGMTQRQALYSYKFNTDDDFKNHL  509
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  510  EVNPCAKFEVIF  521
+
+
+>TR:A0A2K1Z5P6_POPTR A0A2K1Z5P6 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G101500v3 PE=3 SV=1
+Length=523
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 35/72 (49%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK ERP SIR  DD KVY +YPVG+TQ Q           +  N +
+Sbjct  451  AVLKKFKSLKHVPIWKQERPESIRGGDDFKVYRVYPVGMTQRQALYSYKFNTDDDFKNHL  510
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  511  EVNPCAKFEVIF  522
+
+
+>TR:A0A2K3L4P6_TRIPR A0A2K3L4P6 Glycoprotein 3-alpha-L-fucosyltransferase A-like protein 
+(Fragment) OS=Trifolium pratense OX=57577 GN=L195_g029406 
+PE=3 SV=1
+Length=212
+
+ Score = 65.1 bits (157),  Expect = 5e-10
+ Identities = 34/72 (47%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF  LNHVPVWK ERP  ++  D+LK+Y IYPVGLTQ Q       +   +   ++
+Sbjct  140  AVLKKFTSLNHVPVWKPERPEMLKGGDELKIYKIYPVGLTQRQALYTFRFDGDADFRGHL  199
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  200  ESNPCAKFEVVF  211
+
+
+>TR:A0A2K1Z5R3_POPTR A0A2K1Z5R3 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G101500v3 PE=3 SV=1
+Length=533
+
+ Score = 67.4 bits (163),  Expect = 5e-10
+ Identities = 35/72 (49%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK ERP SIR  DD KVY +YPVG+TQ Q           +  N +
+Sbjct  461  AVLKKFKSLKHVPIWKQERPESIRGGDDFKVYRVYPVGMTQRQALYSYKFNTDDDFKNHL  520
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  521  EVNPCAKFEVIF  532
+
+
+>TR:A0A059AND0_EUCGR A0A059AND0 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_I01147 PE=3 SV=1
+Length=402
+
+ Score = 67.0 bits (162),  Expect = 5e-10
+ Identities = 33/81 (41%), Positives = 51/81 (63%), Gaps = 1/81 (1%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLE  110
+            ++ L+    ++  KF  +NHVP+WK+ERP SIR  ++LK+Y +YPVG+TQ Q       E
+Sbjct  321  KLTLEALESAIWTKFTSMNHVPIWKEERPESIRGGNELKIYRVYPVGMTQRQALYTFKFE  380
+
+Query  111  M-IQNSSNIKDHACAKFQVNF  130
+                  S+++ + CAKF+V F
+Sbjct  381  NDAALRSHVQSNPCAKFEVIF  401
+
+
+>TR:A0A1U7XKC9_NICSY A0A1U7XKC9 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104237589 PE=3 SV=1
+Length=502
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 34/78 (44%), Positives = 47/78 (60%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    ++L +F+ + HVPVWK+ERP  +R +D+LK+Y +YPVGLTQ Q           
+Sbjct  424  LKAFESAILSRFKSVKHVPVWKEERPQVLRGDDELKLYKVYPVGLTQRQAVFSFRFNGDT  483
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+               N I+ H CAKF+  F
+Sbjct  484  EFKNYIQSHPCAKFEAIF  501
+
+
+>TR:A0A1S4DHZ6_TOBAC A0A1S4DHZ6 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Nicotiana 
+tabacum OX=4097 GN=LOC107830046 PE=3 SV=1
+Length=502
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 34/78 (44%), Positives = 47/78 (60%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    ++L +F+ + HVPVWK+ERP  +R +D+LK+Y +YPVGLTQ Q           
+Sbjct  424  LKAFESAILSRFKSVKHVPVWKEERPQVLRGDDELKLYKVYPVGLTQRQAVFSFRFNGDT  483
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+               N I+ H CAKF+  F
+Sbjct  484  EFKNYIQSHPCAKFEAIF  501
+
+
+>TR:A0A0A0K6K1_CUCSA A0A0A0K6K1 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_7G073630 PE=3 SV=1
+Length=513
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF  L HVP+WK ERP SIR  D+LK+Y IYPVGLTQ Q       +   +  ++I
+Sbjct  441  TVLKKFNSLKHVPIWKQERPESIRGGDELKLYRIYPVGLTQRQALYTFRFKGNDDFRTHI  500
+
+Query  119  KDHACAKFQVNF  130
+            + H CAK ++ F
+Sbjct  501  ETHPCAKMEIIF  512
+
+
+>TR:A0A2R6RH39_ACTCH A0A2R6RH39 Fucosyltransferase-like protein OS=Actinidia chinensis 
+var. chinensis OX=1590841 GN=CEY00_Acc06949 PE=3 SV=1
+Length=514
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 38/74 (51%), Positives = 48/74 (65%), Gaps = 3/74 (4%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIR--VEDDLKVYIIYPVGLTQCQHCTVSDLE-MIQNSS  116
+            SVL KF+ L HVP+WK ERP SIR   ED+LKVY IYPVG TQ +       E   +  S
+Sbjct  440  SVLSKFKSLKHVPIWKPERPESIRGGDEDELKVYRIYPVGKTQKEALYTFRFEGDAEFQS  499
+
+Query  117  NIKDHACAKFQVNF  130
+            +++ + CAKF+V F
+Sbjct  500  HVERNPCAKFEVVF  513
+
+
+>TR:A0A059AP59_EUCGR A0A059AP59 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_I01147 PE=3 SV=1
+Length=514
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 33/81 (41%), Positives = 51/81 (63%), Gaps = 1/81 (1%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLE  110
+            ++ L+    ++  KF  +NHVP+WK+ERP SIR  ++LK+Y +YPVG+TQ Q       E
+Sbjct  433  KLTLEALESAIWTKFTSMNHVPIWKEERPESIRGGNELKIYRVYPVGMTQRQALYTFKFE  492
+
+Query  111  M-IQNSSNIKDHACAKFQVNF  130
+                  S+++ + CAKF+V F
+Sbjct  493  NDAALRSHVQSNPCAKFEVIF  513
+
+
+>TR:A0A218X3X2_PUNGR A0A218X3X2 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr003372 PE=3 SV=1
+Length=514
+
+ Score = 67.0 bits (162),  Expect = 6e-10
+ Identities = 41/97 (42%), Positives = 56/97 (58%), Gaps = 15/97 (15%)
+
+Query  38   NLIIMKLTLSTQHRVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVG  97
+            ++ + KLTL      +LKK        F  L H+P+WK+ERP SIR  + LKVY IYP+G
+Sbjct  428  SIFLRKLTLEALESAVLKK--------FTYLKHMPIWKEERPESIRGGNKLKVYRIYPLG  479
+
+Query  98   LTQCQHCTV----SDLEMIQNSSNIKDHACAKFQVNF  130
+            LTQ Q        SD ++    ++IK + CAKF+V F
+Sbjct  480  LTQRQALYTFRFNSDSDL---KAHIKSNPCAKFEVVF  513
+
+
+>TR:A0A059AN64_EUCGR A0A059AN64 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_I01147 PE=3 SV=1
+Length=518
+
+ Score = 67.0 bits (162),  Expect = 7e-10
+ Identities = 33/81 (41%), Positives = 51/81 (63%), Gaps = 1/81 (1%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLE  110
+            ++ L+    ++  KF  +NHVP+WK+ERP SIR  ++LK+Y +YPVG+TQ Q       E
+Sbjct  437  KLTLEALESAIWTKFTSMNHVPIWKEERPESIRGGNELKIYRVYPVGMTQRQALYTFKFE  496
+
+Query  111  M-IQNSSNIKDHACAKFQVNF  130
+                  S+++ + CAKF+V F
+Sbjct  497  NDAALRSHVQSNPCAKFEVIF  517
+
+
+>TR:A0A067LDY8_JATCU A0A067LDY8 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_01598 PE=3 SV=1
+Length=524
+
+ Score = 67.0 bits (162),  Expect = 7e-10
+ Identities = 32/67 (48%), Positives = 43/67 (64%), Gaps = 0/67 (0%)
+
+Query  64   KFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIKDHAC  123
+            KF+ + HVP+WK+ERP SIR  DD KVY IYPVG+TQ Q             ++++ + C
+Sbjct  457  KFKAMKHVPIWKEERPQSIRGGDDYKVYRIYPVGMTQRQALYTFKFGDADFQNHLEINPC  516
+
+Query  124  AKFQVNF  130
+            AKF+V F
+Sbjct  517  AKFEVIF  523
+
+
+>TR:M0RJL2_MUSAM M0RJL2 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=471
+
+ Score = 66.6 bits (161),  Expect = 8e-10
+ Identities = 38/86 (44%), Positives = 54/86 (63%), Gaps = 12/86 (14%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC------  104
+            R+ L++   +VL KF+ +NH P+WK ERP S+R  D+LK+Y IYPVGLTQ Q        
+Sbjct  391  RLTLRELESAVLSKFQSVNHTPLWKKERPESLR-GDNLKIYRIYPVGLTQRQALYSFRFD  449
+
+Query  105  TVSDLEMIQNSSNIKDHACAKFQVNF  130
+            T +DL       +++ + CAKF+V F
+Sbjct  450  TDADL-----GKHVESNPCAKFEVIF  470
+
+
+>TR:A0A0B2S036_GLYSO A0A0B2S036 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Glycine 
+soja OX=3848 GN=glysoja_034378 PE=3 SV=1
+Length=476
+
+ Score = 66.6 bits (161),  Expect = 8e-10
+ Identities = 34/72 (47%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF  LNHVP+WK ERP  +R  +DLK+Y IYPVGLTQ Q       +   +  S++
+Sbjct  404  AVVSKFTSLNHVPIWKTERPEVLRGGNDLKLYKIYPVGLTQRQALYYFSFKGDADFRSHL  463
+
+Query  119  KDHACAKFQVNF  130
+            + H CAKF+  F
+Sbjct  464  ESHPCAKFEAIF  475
+
+
+>TR:A0A2H5PRB1_CITUN A0A2H5PRB1 Uncharacterized protein (Fragment) OS=Citrus unshiu 
+OX=55188 GN=CUMW_160240 PE=3 SV=1
+Length=511
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 31/49 (63%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ  102
+            LK    +VL KF+ L HVP+WK ERP SIR ED+LK+Y I+PVGLTQ Q
+Sbjct  442  LKALESAVLAKFKSLKHVPIWKQERPKSIRGEDELKIYRIHPVGLTQRQ  490
+
+
+>TR:A0A1U8A9Z6_NELNU A0A1U8A9Z6 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Nelumbo 
+nucifera OX=4432 GN=LOC104601780 PE=3 SV=1
+Length=514
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 37/78 (47%), Positives = 49/78 (63%), Gaps = 12/78 (15%)
+
+Query  59   FSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV------SDLEMI  112
+            +++L KF+ LNHVP+WK ERP SIR  D+LK+Y IYPVG+TQ +          SDL   
+Sbjct  442  YAILKKFKSLNHVPIWKQERPESIR-GDELKIYRIYPVGMTQRKALYTFKFKGDSDLR--  498
+
+Query  113  QNSSNIKDHACAKFQVNF  130
+                 +K + CAKF+V F
+Sbjct  499  ---KYVKSNPCAKFEVIF  513
+
+
+>TR:A0A2P5Y3C9_GOSBA A0A2P5Y3C9 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA10616 PE=3 SV=1
+Length=515
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 39/72 (54%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            SVL KFR    VPVWK ERP +IR  D+LKVY IYPVGLTQ Q       E   +  N I
+Sbjct  443  SVLTKFRSRKLVPVWKQERPETIRGGDELKVYRIYPVGLTQRQALYNFKFERDADLKNHI  502
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  503  QSNPCAKFEVIF  514
+
+
+>TR:I1JET8_SOYBN I1JET8 Uncharacterized protein OS=Glycine max OX=3847 GN=100792811 
+PE=3 SV=1
+Length=515
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 34/72 (47%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF  LNHVP+WK ERP  +R  +DLK+Y IYPVGLTQ Q       +   +  S++
+Sbjct  443  AVVSKFTSLNHVPIWKTERPEVLRGGNDLKLYKIYPVGLTQRQALYYFSFKGDADFRSHL  502
+
+Query  119  KDHACAKFQVNF  130
+            + H CAKF+  F
+Sbjct  503  ESHPCAKFEAIF  514
+
+
+>TR:A0A1U8I9X9_GOSHI A0A1U8I9X9 glycoprotein 3-alpha-L-fucosyltransferase A OS=Gossypium 
+hirsutum OX=3635 GN=LOC107894268 PE=3 SV=1
+Length=516
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 39/72 (54%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            SVL KFR    VPVWK ERP +IR  D+LKVY IYPVGLTQ Q       E   +  N I
+Sbjct  444  SVLTKFRSRKLVPVWKQERPETIRGGDELKVYRIYPVGLTQRQALYNFKFERDADLKNHI  503
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  504  QSNPCAKFEVIF  515
+
+
+>TR:A0A0B0ND72_GOSAR A0A0B0ND72 Glycoprotein 3-alpha-L-fucosyltransferase A-like protein 
+OS=Gossypium arboreum OX=29729 GN=F383_15930 PE=3 SV=1
+Length=516
+
+ Score = 66.6 bits (161),  Expect = 9e-10
+ Identities = 39/72 (54%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            SVL KFR    VPVWK ERP +IR  D+LKVY IYPVGLTQ Q       E   +  N I
+Sbjct  444  SVLTKFRSRKLVPVWKQERPETIRGGDELKVYRIYPVGLTQRQALYNFKFERDADLKNHI  503
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  504  QSNPCAKFEVIF  515
+
+
+>TR:Q6Q5Y3_MEDTR Q6Q5Y3 Core alpha 1,3-fucosyltransferase OS=Medicago truncatula 
+OX=3880 GN=FUT2 PE=3 SV=1
+Length=504
+
+ Score = 66.2 bits (160),  Expect = 1e-09
+ Identities = 36/72 (50%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP  ++  D+LKVY IYP GLTQ Q   T      +   S++
+Sbjct  432  AVLTKFTSLNHVPVWKPERPEILKGGDELKVYKIYPAGLTQRQALYTFKFNGDVDFRSHL  491
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  492  ESNPCAKFEVVF  503
+
+
+>TR:G7JL78_MEDTR G7JL78 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Medicago 
+truncatula OX=3880 GN=11443440 PE=3 SV=1
+Length=504
+
+ Score = 66.2 bits (160),  Expect = 1e-09
+ Identities = 36/72 (50%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP  ++  D+LKVY IYP GLTQ Q   T      +   S++
+Sbjct  432  AVLTKFTSLNHVPVWKPERPEILKGGDELKVYKIYPAGLTQRQALYTFKFNGDVDFRSHL  491
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  492  ESNPCAKFEVIF  503
+
+
+>TR:A0A1R3HUP4_COCAP A0A1R3HUP4 Glycosyl transferase, family 10 OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_16962 PE=3 SV=1
+Length=513
+
+ Score = 66.2 bits (160),  Expect = 1e-09
+ Identities = 37/72 (51%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ L HVPVWK ERP S+R  ++LKVY I+PVGLTQ Q   T          S+I
+Sbjct  441  AVLMKFKSLKHVPVWKQERPESLRGGNELKVYRIHPVGLTQRQALYTFKFKGDADLRSHI  500
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  501  ENNPCAKFEVIF  512
+
+
+>TR:D6RSA0_TOBAC D6RSA0 Fucosyltransferase OS=Nicotiana tabacum OX=4097 GN=FucT 
+PE=2 SV=1
+Length=514
+
+ Score = 66.2 bits (160),  Expect = 1e-09
+ Identities = 32/72 (44%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK+ERP  +R  D+LK+Y +YP+G+TQ Q    S  +   +  N I
+Sbjct  442  AVLSKFKSLKHVPIWKEERPQILRGGDELKLYRVYPLGMTQRQALYTSRFKGDADFRNHI  501
+
+Query  119  KDHACAKFQVNF  130
+            + H CA F+  F
+Sbjct  502  ESHPCANFEAIF  513
+
+
+>TR:A9XMH2_NICBE A9XMH2 Fucosyltransferase 1 OS=Nicotiana benthamiana OX=4100 
+PE=2 SV=1
+Length=500
+
+ Score = 65.9 bits (159),  Expect = 2e-09
+ Identities = 34/78 (44%), Positives = 47/78 (60%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    ++L +F+ + HVPVWK+ERP  +R  D+LK+Y +YPVGLTQ Q           
+Sbjct  422  LKAFESAILSRFKSVKHVPVWKEERPQVLRGGDELKLYKVYPVGLTQRQALFSFRFNGDT  481
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+              +N I+ H CAKF+  F
+Sbjct  482  EFNNYIQSHPCAKFEAIF  499
+
+
+>TR:A0A078FU67_BRANA A0A078FU67 BnaA08g02510D protein OS=Brassica napus OX=3708 GN=BnaA08g02510D 
+PE=3 SV=1
+Length=505
+
+ Score = 65.9 bits (159),  Expect = 2e-09
+ Identities = 33/72 (46%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H PVWK ERPPS++ +++L+V+ IYP+GLTQ Q       E   + S++I
+Sbjct  433  AVVAKFKSLKHEPVWKKERPPSLKGDNELRVHRIYPLGLTQRQALYKFKFEGNSSLSTHI  492
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  493  QHNPCAKFEVVF  504
+
+
+>TR:M4DCJ5_BRARP M4DCJ5 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=505
+
+ Score = 65.9 bits (159),  Expect = 2e-09
+ Identities = 33/72 (46%), Positives = 50/72 (69%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H PVWK ERPPS++ +++L+V+ IYP+GLTQ Q       E   + S++I
+Sbjct  433  AVVAKFKSLKHEPVWKKERPPSLKGDNELRVHRIYPLGLTQRQALYKFKFEGNSSLSTHI  492
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  493  QHNPCAKFEVVF  504
+
+
+>TR:A0A2P5E974_9ROSA A0A2P5E974 Glycosyltransferase OS=Trema orientalis OX=63057 GN=TorRG33x02_221810 
+PE=3 SV=1
+Length=519
+
+ Score = 65.9 bits (159),  Expect = 2e-09
+ Identities = 35/72 (49%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  L HVP+WK ERP S+R  ++LKVY IYPVG+TQ Q   T          S++
+Sbjct  447  AVLTKFNSLKHVPIWKQERPESLRGGNELKVYRIYPVGMTQRQALYTFRFKGNADFKSHL  506
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  507  ESNPCAKFEVIF  518
+
+
+>TR:A0A2N9IG53_FAGSY A0A2N9IG53 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS50891 PE=3 SV=1
+Length=460
+
+ Score = 65.5 bits (158),  Expect = 2e-09
+ Identities = 36/83 (43%), Positives = 51/83 (61%), Gaps = 7/83 (8%)
+
+Query  52   VLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----S  107
+            + L+    +VL KF  L HVP+WK ERP SIR  ++LKVY IYPVG+TQ Q         
+Sbjct  380  ISLQALESAVLSKFNSLKHVPIWKPERPESIRGGNELKVYRIYPVGMTQRQALYTFRFNG  439
+
+Query  108  DLEMIQNSSNIKDHACAKFQVNF  130
+            D ++    S+++++ CAK +V F
+Sbjct  440  DADL---RSHVENNPCAKLEVIF  459
+
+
+>TR:A0A1S4AG82_TOBAC A0A1S4AG82 putative fucosyltransferase-like protein OS=Nicotiana 
+tabacum OX=4097 GN=LOC107797347 PE=3 SV=1
+Length=500
+
+ Score = 65.5 bits (158),  Expect = 2e-09
+ Identities = 34/78 (44%), Positives = 46/78 (59%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    ++L +F+ + HVPVWK+ERP  +R  D+LK+Y +YPVGLTQ Q           
+Sbjct  422  LKAFESAILSRFKSVKHVPVWKEERPQVLRGGDELKLYKVYPVGLTQRQALFSFRFNGDT  481
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+               N I+ H CAKF+  F
+Sbjct  482  EFKNYIQSHPCAKFEAIF  499
+
+
+>TR:A0A287WQB3_HORVV A0A287WQB3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=376
+
+ Score = 65.1 bits (157),  Expect = 2e-09
+ Identities = 34/71 (48%), Positives = 44/71 (62%), Gaps = 1/71 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  273  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  332
+
+Query  119  KDHACAKFQVN  129
+            K H CAK + +
+Sbjct  333  KGHPCAKLEAS  343
+
+
+>TR:A0A068TMP5_COFCA A0A068TMP5 Uncharacterized protein OS=Coffea canephora OX=49390 
+GN=GSCOC_T00014439001 PE=3 SV=1
+Length=509
+
+ Score = 65.5 bits (158),  Expect = 2e-09
+ Identities = 36/78 (46%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMI  112
+            LK    +VL KF+   HVPVWK ERP  IR +D LKV+ IYP+G+TQ Q   T +     
+Sbjct  431  LKALRSAVLSKFKSARHVPVWKQERPEKIRGDDGLKVHRIYPLGMTQRQALYTFTFKGDS  490
+
+Query  113  QNSSNIKDHACAKFQVNF  130
+            +  ++I+ + CAKF+V F
+Sbjct  491  EFRNHIESNPCAKFEVIF  508
+
+
+>TR:K4B327_SOLLC K4B327 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+GN=101264378 PE=3 SV=1
+Length=517
+
+ Score = 65.5 bits (158),  Expect = 2e-09
+ Identities = 33/72 (46%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK+Y +YP+GLTQ Q              N I
+Sbjct  445  AVLAKFKSVKHVPVWKEERPQVLRGGDELKIYKVYPLGLTQRQALYSFRFNGDTEFKNYI  504
+
+Query  119  KDHACAKFQVNF  130
+            + H CAKF+  F
+Sbjct  505  ESHPCAKFEAIF  516
+
+
+>TR:A0A287WQA6_HORVV A0A287WQA6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=363
+
+ Score = 64.7 bits (156),  Expect = 3e-09
+ Identities = 34/69 (49%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL-EMIQNSSNI  118
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q        +  + +  I
+Sbjct  273  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQALYKFQFSDDAEVARYI  332
+
+Query  119  KDHACAKFQ  127
+            K H CAK +
+Sbjct  333  KGHPCAKLE  341
+
+
+>TR:B9RYH8_RICCO B9RYH8 Glycoprotein 3-alpha-l-fucosyltransferase A, putative 
+OS=Ricinus communis OX=3988 GN=RCOM_0813330 PE=3 SV=1
+Length=525
+
+ Score = 65.1 bits (157),  Expect = 3e-09
+ Identities = 34/71 (48%), Positives = 45/71 (63%), Gaps = 1/71 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-IK  119
+            VL KF+ + HVP+WK ERP S+R  DD KVY IYPVG+TQ Q       +   +  N ++
+Sbjct  454  VLKKFKSMKHVPIWKQERPESLRGGDDYKVYRIYPVGMTQRQALYTFRFKGDADFQNHLE  513
+
+Query  120  DHACAKFQVNF  130
+             + CAKF+V F
+Sbjct  514  INPCAKFEVIF  524
+
+
+>TR:A0A1J3JCD7_NOCCA A0A1J3JCD7 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Noccaea 
+caerulescens OX=107243 GN=MP_TR15413_c0_g1_i1_g.44236 PE=3 
+SV=1
+Length=501
+
+ Score = 64.7 bits (156),  Expect = 4e-09
+ Identities = 35/78 (45%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            L+   ++VL KF+ L H P+WK ERP S+R + +LKV+ IYP+GLTQ Q       E   
+Sbjct  423  LEALEYAVLTKFKSLRHEPIWKKERPASLRGDSELKVHSIYPLGLTQRQALYNFKFEGNS  482
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+              S++I+   CAKF+V F
+Sbjct  483  TLSTHIQRTPCAKFEVVF  500
+
+
+>TR:A0A1J3CWK7_NOCCA A0A1J3CWK7 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Noccaea 
+caerulescens OX=107243 GN=GA_TR20588_c0_g1_i1_g.68452 PE=3 
+SV=1
+Length=501
+
+ Score = 64.7 bits (156),  Expect = 4e-09
+ Identities = 35/78 (45%), Positives = 49/78 (63%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            L+   ++VL KF+ L H P+WK ERP S+R + +LKV+ IYP+GLTQ Q       E   
+Sbjct  423  LEALEYAVLTKFKSLRHEPIWKKERPASLRGDSELKVHSIYPLGLTQRQALYNFKFEGNS  482
+
+Query  114  N-SSNIKDHACAKFQVNF  130
+              S++I+   CAKF+V F
+Sbjct  483  TLSTHIQRTPCAKFEVVF  500
+
+
+>TR:A0A2P5D788_PARAD A0A2P5D788 Glycosyltransferase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_091130 PE=3 SV=1
+Length=519
+
+ Score = 64.7 bits (156),  Expect = 4e-09
+ Identities = 35/75 (47%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIK  119
+            +VL KF  L HVP+WK ERP ++R   +LKVY IYPVG+TQ Q        M + +++ K
+Sbjct  447  AVLTKFNSLKHVPIWKQERPETLRGGTELKVYRIYPVGMTQRQALYTF---MFKGNADFK  503
+
+Query  120  DH----ACAKFQVNF  130
+             H     CAKF+V F
+Sbjct  504  SHLENNPCAKFEVIF  518
+
+
+>TR:A0A1J6IH42_NICAT A0A1J6IH42 Glycoprotein 3-alpha-l-fucosyltransferase a OS=Nicotiana 
+attenuata OX=49451 GN=FUT11 PE=3 SV=1
+Length=394
+
+ Score = 64.3 bits (155),  Expect = 4e-09
+ Identities = 31/72 (43%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK+ERP  +R  D+LK+Y +YP+G+TQ Q       +   +  N I
+Sbjct  322  AVLSKFKSLKHVPIWKEERPQILRGGDELKLYRVYPLGMTQRQALYTFKFKGDADFRNHI  381
+
+Query  119  KDHACAKFQVNF  130
+            + H CA F+  F
+Sbjct  382  ESHPCANFEAIF  393
+
+
+>TR:A0A2K1Z5Q3_POPTR A0A2K1Z5Q3 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G101500v3 PE=3 SV=1
+Length=559
+
+ Score = 64.7 bits (156),  Expect = 4e-09
+ Identities = 33/69 (48%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ L HVP+WK ERP SIR  DD KVY +YPVG+TQ Q           +  N +
+Sbjct  461  AVLKKFKSLKHVPIWKQERPESIRGGDDFKVYRVYPVGMTQRQALYSYKFNTDDDFKNHL  520
+
+Query  119  KDHACAKFQ  127
+            + + CAKF+
+Sbjct  521  EVNPCAKFE  529
+
+
+>TR:A0A1J7FYS5_LUPAN A0A1J7FYS5 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_23126 PE=3 SV=1
+Length=517
+
+ Score = 64.3 bits (155),  Expect = 5e-09
+ Identities = 32/68 (47%), Positives = 45/68 (66%), Gaps = 1/68 (1%)
+
+Query  64   KFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIKD-HA  122
+            KF+ LNHVP+WK ERP  +R +++LK+Y IYP+GLTQ Q       +  ++  N  D + 
+Sbjct  449  KFKSLNHVPIWKPERPEILRGDNELKIYRIYPIGLTQRQALYSFSFKGDEDFRNHLDRNP  508
+
+Query  123  CAKFQVNF  130
+            CAKF+V F
+Sbjct  509  CAKFEVIF  516
+
+
+>TR:A0A2C9V5A9_MANES A0A2C9V5A9 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_10G071900 PE=3 SV=1
+Length=388
+
+ Score = 63.9 bits (154),  Expect = 5e-09
+ Identities = 33/69 (48%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-IK  119
+            VL KF+ + HVP+WK ERP S+R  DD KVY IYPVG+TQ Q           +  N ++
+Sbjct  317  VLKKFKSMKHVPIWKQERPESLRRGDDYKVYRIYPVGMTQRQALYTFKFNGDADFQNHLE  376
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  377  INPCAKFEV  385
+
+
+>TR:M1CFC0_SOLTU M1CFC0 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102592560 
+PE=3 SV=1
+Length=250
+
+ Score = 62.8 bits (151),  Expect = 5e-09
+ Identities = 32/72 (44%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK++ +YPVGLTQ Q              N I
+Sbjct  178  AVLAKFKSVKHVPVWKEERPQVLRGGDELKLHKVYPVGLTQRQALYSFRFNGDTEFKNYI  237
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+  F
+Sbjct  238  ESHPCARFEAIF  249
+
+
+>TR:A0A1S2YIB7_CICAR A0A1S2YIB7 glycoprotein 3-alpha-L-fucosyltransferase A isoform 
+X4 OS=Cicer arietinum OX=3827 GN=LOC101502044 PE=3 SV=1
+Length=423
+
+ Score = 63.9 bits (154),  Expect = 6e-09
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP S++  ++LK+Y IYP+GLTQ Q   T S         ++
+Sbjct  351  AVLMKFTSLNHVPVWKPERPKSLKGSNELKLYRIYPLGLTQRQALYTFSFNGDNDFRGHL  410
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  411  ESNPCAKFEVVF  422
+
+
+>TR:A0A1S2YIZ6_CICAR A0A1S2YIZ6 glycoprotein 3-alpha-L-fucosyltransferase A isoform 
+X3 OS=Cicer arietinum OX=3827 GN=LOC101502044 PE=3 SV=1
+Length=424
+
+ Score = 63.9 bits (154),  Expect = 6e-09
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP S++  ++LK+Y IYP+GLTQ Q   T S         ++
+Sbjct  352  AVLMKFTSLNHVPVWKPERPKSLKGSNELKLYRIYPLGLTQRQALYTFSFNGDNDFRGHL  411
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  412  ESNPCAKFEVVF  423
+
+
+>TR:A0A2P6PMD0_ROSCH A0A2P6PMD0 Putative glycoprotein 3-alpha-L-fucosyltransferase 
+OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr6g0257471 PE=3 SV=1
+Length=506
+
+ Score = 63.9 bits (154),  Expect = 6e-09
+ Identities = 34/71 (48%), Positives = 43/71 (61%), Gaps = 1/71 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIK  119
+            VL KF+   HVP+WK ERP  +R  DD K+Y IYPVGLTQ Q   T          S+++
+Sbjct  435  VLTKFKSQKHVPIWKQERPEVLRGRDDFKIYKIYPVGLTQRQALYTFRYNGDADFRSHVE  494
+
+Query  120  DHACAKFQVNF  130
+             + CAKF+V F
+Sbjct  495  SNPCAKFEVIF  505
+
+
+>TR:A0A2R6RC06_ACTCH A0A2R6RC06 Glycoprotein like OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc07392 PE=3 SV=1
+Length=509
+
+ Score = 63.9 bits (154),  Expect = 6e-09
+ Identities = 34/75 (45%), Positives = 47/75 (63%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV----SDLEMIQNS  115
+            +VL KF+ L HVP+WK ERP SIR E+ LK+Y IYP+G TQ +         D E     
+Sbjct  437  AVLSKFKSLKHVPIWKLERPESIRGEEQLKIYRIYPLGKTQREALYTFRFGGDAEF---R  493
+
+Query  116  SNIKDHACAKFQVNF  130
+            S+++ + CAKF++ F
+Sbjct  494  SHVERNPCAKFEIIF  508
+
+
+>TR:A0A1S2YIB5_CICAR A0A1S2YIB5 glycoprotein 3-alpha-L-fucosyltransferase A isoform 
+X2 OS=Cicer arietinum OX=3827 GN=LOC101502044 PE=3 SV=1
+Length=511
+
+ Score = 63.9 bits (154),  Expect = 7e-09
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP S++  ++LK+Y IYP+GLTQ Q   T S         ++
+Sbjct  439  AVLMKFTSLNHVPVWKPERPKSLKGSNELKLYRIYPLGLTQRQALYTFSFNGDNDFRGHL  498
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  499  ESNPCAKFEVVF  510
+
+
+>TR:A0A1S2YIB6_CICAR A0A1S2YIB6 glycoprotein 3-alpha-L-fucosyltransferase A isoform 
+X1 OS=Cicer arietinum OX=3827 GN=LOC101502044 PE=3 SV=1
+Length=512
+
+ Score = 63.9 bits (154),  Expect = 7e-09
+ Identities = 35/72 (49%), Positives = 47/72 (65%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP S++  ++LK+Y IYP+GLTQ Q   T S         ++
+Sbjct  440  AVLMKFTSLNHVPVWKPERPKSLKGSNELKLYRIYPLGLTQRQALYTFSFNGDNDFRGHL  499
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  500  ESNPCAKFEVVF  511
+
+
+>TR:A0A2C9V647_MANES A0A2C9V647 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_10G071900 PE=3 SV=1
+Length=529
+
+ Score = 63.9 bits (154),  Expect = 7e-09
+ Identities = 33/69 (48%), Positives = 43/69 (62%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-IK  119
+            VL KF+ + HVP+WK ERP S+R  DD KVY IYPVG+TQ Q           +  N ++
+Sbjct  458  VLKKFKSMKHVPIWKQERPESLRRGDDYKVYRIYPVGMTQRQALYTFKFNGDADFQNHLE  517
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  518  INPCAKFEV  526
+
+
+>TR:A0A251V5V8_HELAN A0A251V5V8 Putative fucosyltransferase 11 OS=Helianthus annuus 
+OX=4232 GN=FUT11 PE=3 SV=1
+Length=538
+
+ Score = 63.9 bits (154),  Expect = 7e-09
+ Identities = 37/73 (51%), Positives = 49/73 (67%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDD-LKVYIIYPVGLTQCQHC-TVSDLEMIQNSSN  117
+            +VL KF+ L+H P+W++ERP SIR + + LKVY IYPVGLTQ Q   T S        S+
+Sbjct  465  AVLLKFKYLDHEPIWRNERPESIRGDKNVLKVYKIYPVGLTQRQALYTFSFKTSTAFKSH  524
+
+Query  118  IKDHACAKFQVNF  130
+            +K + CAKF+V F
+Sbjct  525  VKSNPCAKFEVVF  537
+
+
+>TR:A0A1J3DBL1_NOCCA A0A1J3DBL1 Putative fucosyltransferase-like protein (Fragment) 
+OS=Noccaea caerulescens OX=107243 GN=GA_TR20588_c5_g1_i1_g.68459 
+PE=4 SV=1
+Length=151
+
+ Score = 60.5 bits (145),  Expect = 7e-09
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVED-DLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            +V+ KF+ L H PVWK ERP S++ +D +L+V+ IYP+GLTQ Q       E   + SS+
+Sbjct  78   AVVAKFKSLKHEPVWKKERPVSLKGDDNELRVHRIYPLGLTQRQALYGFKFEGNSSLSSH  137
+
+Query  118  IKDHACAKFQVNF  130
+            I+ + CAKF+V F
+Sbjct  138  IQHNPCAKFEVVF  150
+
+
+>TR:A0A124SHV6_CYNCS A0A124SHV6 Glycosyl transferase, family 10 (Fragment) OS=Cynara 
+cardunculus var. scolymus OX=59895 GN=Ccrd_010860 PE=3 SV=1
+Length=606
+
+ Score = 63.9 bits (154),  Expect = 7e-09
+ Identities = 36/71 (51%), Positives = 48/71 (68%), Gaps = 2/71 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDD-LKVYIIYPVGLTQCQHC-TVSDLEMIQNSSN  117
+            +VL KF+ L H P+W++ERP SIR ++  LKVY IYPVG+TQ Q   T S       +S+
+Sbjct  533  AVLLKFKSLKHEPIWRNERPESIRGDEKVLKVYRIYPVGMTQRQALYTFSFKSSTAFTSH  592
+
+Query  118  IKDHACAKFQV  128
+            IK + CAKF+V
+Sbjct  593  IKSNPCAKFEV  603
+
+
+>TR:S8D926_9LAMI S8D926 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_00869 PE=3 SV=1
+Length=484
+
+ Score = 63.5 bits (153),  Expect = 8e-09
+ Identities = 36/81 (44%), Positives = 48/81 (59%), Gaps = 7/81 (9%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDL  109
+            L+  S +V+ KF  LNHVPVW   RP SIR  ++LKVY +YP+GLTQ +         D 
+Sbjct  406  LEGLSSAVVSKFGSLNHVPVWNPARPESIRGGNELKVYRVYPIGLTQREALYKFRFSGDY  465
+
+Query  110  EMIQNSSNIKDHACAKFQVNF  130
+            E+      ++ H CAKF+V F
+Sbjct  466  EL---KDYVERHPCAKFEVIF  483
+
+
+>TR:A0A087HAY0_ARAAL A0A087HAY0 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA3G224400 PE=3 SV=1
+Length=496
+
+ Score = 63.5 bits (153),  Expect = 9e-09
+ Identities = 34/74 (46%), Positives = 50/74 (68%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF+ L H P+WK ERP S+R + +L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  424  AVLAKFKSLRHEPIWKKERPASLRGDSELRVHGIYPLGLTQRQ--ALYNFKFEGNSSLST  481
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + CAKF+V F
+Sbjct  482  HIQRNPCAKFEVVF  495
+
+
+>TR:A0A078H5U6_BRANA A0A078H5U6 BnaC08g02710D protein OS=Brassica napus OX=3708 GN=BnaC08g02710D 
+PE=3 SV=1
+Length=504
+
+ Score = 63.5 bits (153),  Expect = 9e-09
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H PVWK ERPP ++ +++L+V+ IYP+GLTQ Q       E   + S++I
+Sbjct  432  AVVAKFKSLKHEPVWKKERPPILKGDNELRVHRIYPLGLTQRQALYKFKFEGNSSLSTHI  491
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  492  QHNPCAKFEVVF  503
+
+
+>TR:A0A0D3DJH2_BRAOL A0A0D3DJH2 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106307787 PE=3 SV=1
+Length=504
+
+ Score = 63.5 bits (153),  Expect = 9e-09
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H PVWK ERPP ++ +++L+V+ IYP+GLTQ Q       E   + S++I
+Sbjct  432  AVVAKFKSLKHEPVWKKERPPILKGDNELRVHRIYPLGLTQRQALYKFKFEGNSSLSTHI  491
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  492  QHNPCAKFEVVF  503
+
+
+>TR:V7CGV0_PHAVU V7CGV0 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_003G292000g PE=3 SV=1
+Length=511
+
+ Score = 63.5 bits (153),  Expect = 9e-09
+ Identities = 36/72 (50%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +V+ KF   NHVPVWK ERP  IR   DLK+Y IYP+GLTQ Q   T S        S++
+Sbjct  439  AVVLKFTSKNHVPVWKTERPEVIRGGTDLKLYKIYPIGLTQRQALYTFSFKGDADFRSHL  498
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  499  ENNPCAKFEVIF  510
+
+
+>TR:A0A175YCV6_DAUCA A0A175YCV6 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_029059 PE=3 SV=1
+Length=513
+
+ Score = 63.5 bits (153),  Expect = 9e-09
+ Identities = 34/75 (45%), Positives = 49/75 (65%), Gaps = 1/75 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMI  112
+            LK    +VL KF+ L HVPVWK+ERP  +R  D+LK+Y +YP+GLTQ +   T S     
+Sbjct  316  LKALESAVLLKFKSLKHVPVWKEERPKILRGTDELKLYRVYPLGLTQREALYTFSFKGDD  375
+
+Query  113  QNSSNIKDHACAKFQ  127
+            +   +I+++ CAKF+
+Sbjct  376  ELKIHIEENPCAKFE  390
+
+
+>TR:A0A1J3INN4_NOCCA A0A1J3INN4 Putative fucosyltransferase-like protein (Fragment) 
+OS=Noccaea caerulescens OX=107243 GN=MP_TR15413_c2_g1_i1_g.44238 
+PE=4 SV=1
+Length=151
+
+ Score = 60.1 bits (144),  Expect = 9e-09
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVED-DLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            +V+ KF+ L H PVWK ERP S++ +D +L+V+ IYP+GLTQ Q       E   + SS+
+Sbjct  78   AVVAKFKSLKHEPVWKRERPVSLKGDDNELRVHRIYPLGLTQRQALYGFKFEGNSSLSSH  137
+
+Query  118  IKDHACAKFQVNF  130
+            I+ + CAKF+V F
+Sbjct  138  IQHNPCAKFEVVF  150
+
+
+>TR:A0A1J3HRK4_NOCCA A0A1J3HRK4 Putative fucosyltransferase-like protein (Fragment) 
+OS=Noccaea caerulescens OX=107243 GN=LE_TR5611_c1_g1_i1_g.20616 
+PE=4 SV=1
+Length=153
+
+ Score = 60.1 bits (144),  Expect = 1e-08
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVED-DLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            +V+ KF+ L H PVWK ERP S++ +D +L+V+ IYP+GLTQ Q       E   + SS+
+Sbjct  80   AVVAKFKSLKHEPVWKRERPVSLKGDDNELRVHRIYPLGLTQRQALYGFKFEGNSSLSSH  139
+
+Query  118  IKDHACAKFQVNF  130
+            I+ + CAKF+V F
+Sbjct  140  IQHNPCAKFEVVF  152
+
+
+>TR:M1CFC1_SOLTU M1CFC1 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102592560 
+PE=3 SV=1
+Length=340
+
+ Score = 62.8 bits (151),  Expect = 1e-08
+ Identities = 32/72 (44%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK++ +YPVGLTQ Q              N I
+Sbjct  268  AVLAKFKSVKHVPVWKEERPQVLRGGDELKLHKVYPVGLTQRQALYSFRFNGDTEFKNYI  327
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+  F
+Sbjct  328  ESHPCARFEAIF  339
+
+
+>TR:M1CFC3_SOLTU M1CFC3 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102592560 
+PE=3 SV=1
+Length=345
+
+ Score = 62.8 bits (151),  Expect = 1e-08
+ Identities = 32/72 (44%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK++ +YPVGLTQ Q              N I
+Sbjct  273  AVLAKFKSVKHVPVWKEERPQVLRGGDELKLHKVYPVGLTQRQALYSFRFNGDTEFKNYI  332
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+  F
+Sbjct  333  ESHPCARFEAIF  344
+
+
+>TR:R0I394_9BRAS R0I394 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10015682mg 
+PE=3 SV=1
+Length=494
+
+ Score = 63.2 bits (152),  Expect = 1e-08
+ Identities = 35/80 (44%), Positives = 51/80 (64%), Gaps = 5/80 (6%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    ++L KF+   H P+WK ERP SIR + +L+V+ IYP+GLTQ Q   + + +   
+Sbjct  416  LKALKSAILAKFKSQGHEPIWKKERPASIRGDSELRVHGIYPLGLTQRQ--ALYNFKFEG  473
+
+Query  114  NSS---NIKDHACAKFQVNF  130
+            NSS   +I+ + CAKF+V F
+Sbjct  474  NSSLNTHIQRNPCAKFEVVF  493
+
+
+>TR:R0IS36_9BRAS R0IS36 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10008875mg 
+PE=3 SV=1
+Length=515
+
+ Score = 63.2 bits (152),  Expect = 1e-08
+ Identities = 33/74 (45%), Positives = 52/74 (70%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            ++L KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  443  AILTKFKSLKHEPVWKKERPVSLKGDNELRVHKIYPLGLTQRQ--ALYNFKFEGNSSLST  500
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+++ CAKF+V F
+Sbjct  501  HIENNPCAKFEVVF  514
+
+
+>TR:A0A251MWX2_PRUPE A0A251MWX2 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_8G126200 PE=3 SV=1
+Length=340
+
+ Score = 62.4 bits (150),  Expect = 1e-08
+ Identities = 33/69 (48%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIK  119
+            VL KF+   HVP+WK ERP SIR  DD K+Y IYPVG+TQ Q   T           +++
+Sbjct  269  VLTKFKSQKHVPIWKQERPESIRGGDDFKIYRIYPVGMTQRQALYTFRFNGDADFRRHVE  328
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  329  SNPCAKFEV  337
+
+
+>TR:A0A251MX11_PRUPE A0A251MX11 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_8G126200 PE=3 SV=1
+Length=341
+
+ Score = 62.4 bits (150),  Expect = 1e-08
+ Identities = 33/69 (48%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIK  119
+            VL KF+   HVP+WK ERP SIR  DD K+Y IYPVG+TQ Q   T           +++
+Sbjct  270  VLTKFKSQKHVPIWKQERPESIRGGDDFKIYRIYPVGMTQRQALYTFRFNGDADFRRHVE  329
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  330  SNPCAKFEV  338
+
+
+>TR:A0A0V0IIV1_SOLCH A0A0V0IIV1 Putative glycoprotein 3-alpha-L-fucosyltransferase 
+A-like OS=Solanum chacoense OX=4108 PE=3 SV=1
+Length=461
+
+ Score = 62.8 bits (151),  Expect = 1e-08
+ Identities = 32/72 (44%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK++ +YPVGLTQ Q              N I
+Sbjct  389  AVLAKFKSVKHVPVWKEERPQVLRGGDELKLHKVYPVGLTQRQALYSFRFNGDTEFKNYI  448
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+  F
+Sbjct  449  ESHPCARFEAIF  460
+
+
+>TR:A0A1J6I729_NICAT A0A1J6I729 Putative fucosyltransferase-like protein OS=Nicotiana 
+attenuata OX=49451 GN=FUT12_1 PE=3 SV=1
+Length=500
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 32/78 (41%), Positives = 45/78 (58%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            +K    ++L +F+ + HVPVWK+ERP  +   D+LK+Y +YPVGLTQ Q           
+Sbjct  422  IKAFESAILSRFKSVKHVPVWKEERPQVLHGGDELKLYKVYPVGLTQRQALFSFRFNGDT  481
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+               N I+ H CAKF+  F
+Sbjct  482  EFKNYIQSHPCAKFEAIF  499
+
+
+>TR:W1NDR3_AMBTC W1NDR3 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00132p00113370 PE=3 SV=1
+Length=503
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 34/72 (47%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF+ LNHVP+WK +RP  I+  DDLK+Y IYP+G+TQ Q   T S          I
+Sbjct  431  AVLAKFKSLNHVPIWKGDRPSVIKGGDDLKIYRIYPLGMTQRQALYTFSFKGDGDLQYYI  490
+
+Query  119  KDHACAKFQVNF  130
+            + + CAK +V F
+Sbjct  491  ESNPCAKLEVIF  502
+
+
+>TR:A0A2P5Q600_GOSBA A0A2P5Q600 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD33134 PE=3 SV=1
+Length=512
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 35/78 (45%), Positives = 48/78 (62%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL  F+   HVP+WK ERP S+R  D+LKV+ IYP+GLTQ Q       +   
+Sbjct  434  LKALEVAVLTHFKFRKHVPIWKPERPESLRGGDELKVHRIYPLGLTQRQALYTFKFKGDA  493
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+            +  N I+++ CAKF+V F
+Sbjct  494  DLKNHIENNPCAKFEVIF  511
+
+
+>TR:A0A0D2QYF2_GOSRA A0A0D2QYF2 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_002G008200 PE=3 SV=1
+Length=512
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 35/78 (45%), Positives = 48/78 (62%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL  F+   HVP+WK ERP S+R  D+LKV+ IYP+GLTQ Q       +   
+Sbjct  434  LKALEVAVLTHFKFRKHVPIWKPERPESLRGGDELKVHRIYPLGLTQRQALYTFKFKGDA  493
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+            +  N I+++ CAKF+V F
+Sbjct  494  DLKNHIENNPCAKFEVIF  511
+
+
+>TR:A0A1U8LQ62_GOSHI A0A1U8LQ62 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Gossypium 
+hirsutum OX=3635 GN=LOC107928817 PE=3 SV=1
+Length=512
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 35/78 (45%), Positives = 48/78 (62%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +VL  F+   HVP+WK ERP S+R  D+LKV+ IYP+GLTQ Q       +   
+Sbjct  434  LKALEVAVLTHFKFRKHVPIWKPERPESLRGGDELKVHRIYPLGLTQRQALYTFKFKGDA  493
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+            +  N I+++ CAKF+V F
+Sbjct  494  DLKNHIENNPCAKFEVIF  511
+
+
+>TR:V4KT36_EUTSA V4KT36 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10011402mg PE=3 SV=1
+Length=513
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 33/74 (45%), Positives = 51/74 (69%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +V+ KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  441  AVIAKFKSLKHEPVWKKERPGSLKGDNELRVHRIYPLGLTQRQ--ALYNFKFEGNSSLST  498
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + CAKF+V F
+Sbjct  499  HIQHNPCAKFEVVF  512
+
+
+>TR:A0A2P2K0Q7_RHIMU A0A2P2K0Q7 Uncharacterized protein MANES_10G071900 OS=Rhizophora 
+mucronata OX=61149 PE=3 SV=1
+Length=514
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 30/72 (42%), Positives = 42/72 (58%), Gaps = 0/72 (0%)
+
+Query  59   FSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNI  118
+            + VL KF+ + H+P+WK+ERP SIR  D+ KVY IYPVG+TQ Q             +++
+Sbjct  442  YEVLKKFKSIKHIPIWKEERPKSIRGGDEYKVYRIYPVGMTQRQALYTFKFTDADFRNHL  501
+
+Query  119  KDHACAKFQVNF  130
+                C K +V F
+Sbjct  502  AISPCLKLEVIF  513
+
+
+>TR:M1CFC2_SOLTU M1CFC2 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102592560 
+PE=3 SV=1
+Length=517
+
+ Score = 62.8 bits (151),  Expect = 2e-08
+ Identities = 32/72 (44%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVPVWK+ERP  +R  D+LK++ +YPVGLTQ Q              N I
+Sbjct  445  AVLAKFKSVKHVPVWKEERPQVLRGGDELKLHKVYPVGLTQRQALYSFRFNGDTEFKNYI  504
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+  F
+Sbjct  505  ESHPCARFEAIF  516
+
+
+>TR:A0A1U8ATW6_NELNU A0A1U8ATW6 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X2 OS=Nelumbo nucifera OX=4432 GN=LOC104606410 PE=3 SV=1
+Length=477
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 35/77 (45%), Positives = 46/77 (60%), Gaps = 12/77 (16%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV------SDLEMIQ  113
+            +VL KF+  NHVP+WK +RP SI+  D+LK+Y IYPVG+TQ Q          SDL    
+Sbjct  406  AVLAKFKSSNHVPIWKKQRPESIK-GDELKIYRIYPVGMTQRQALYTFKFNGDSDLR---  461
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                ++ H C KF+V F
+Sbjct  462  --KYVESHPCPKFEVIF  476
+
+
+>TR:M0S421_MUSAM M0S421 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=500
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 34/81 (42%), Positives = 49/81 (60%), Gaps = 1/81 (1%)
+
+Query  51   RVLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDL  109
+            ++ L+    +VL KFR LNH  +WK ERP  IR  +DLK+Y IYPVG+TQ +   T    
+Sbjct  419  KLTLEALKSAVLTKFRSLNHTSIWKKERPAMIRGGNDLKIYRIYPVGITQQKALYTFQFD  478
+
+Query  110  EMIQNSSNIKDHACAKFQVNF  130
+            +  +    I+ ++CAK +V F
+Sbjct  479  DDAELEKYIESNSCAKLEVIF  499
+
+
+>TR:M5VLW9_PRUPE M5VLW9 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_8G126200 
+PE=3 SV=1
+Length=502
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 33/69 (48%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIK  119
+            VL KF+   HVP+WK ERP SIR  DD K+Y IYPVG+TQ Q   T           +++
+Sbjct  431  VLTKFKSQKHVPIWKQERPESIRGGDDFKIYRIYPVGMTQRQALYTFRFNGDADFRRHVE  490
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  491  SNPCAKFEV  499
+
+
+>TR:A0A251MWX8_PRUPE A0A251MWX8 Uncharacterized protein OS=Prunus persica OX=3760 
+GN=PRUPE_8G126200 PE=3 SV=1
+Length=503
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 33/69 (48%), Positives = 42/69 (61%), Gaps = 1/69 (1%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIK  119
+            VL KF+   HVP+WK ERP SIR  DD K+Y IYPVG+TQ Q   T           +++
+Sbjct  432  VLTKFKSQKHVPIWKQERPESIRGGDDFKIYRIYPVGMTQRQALYTFRFNGDADFRRHVE  491
+
+Query  120  DHACAKFQV  128
+             + CAKF+V
+Sbjct  492  SNPCAKFEV  500
+
+
+>TR:A0A0D3CII4_BRAOL A0A0D3CII4 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 PE=3 SV=1
+Length=269
+
+ Score = 61.2 bits (147),  Expect = 2e-08
+ Identities = 33/74 (45%), Positives = 49/74 (66%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF+ L H P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +  +NSS   
+Sbjct  197  AVLTKFKSLRHEPIWKKERPVSLRGDGVLRVHAIYPLGLTQRQ--ALYNFKFEKNSSLST  254
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  255  HIQSNPCPKFEVVF  268
+
+
+>TR:A0A2G2WA52_CAPBA A0A2G2WA52 Putative fucosyltransferase-like protein OS=Capsicum 
+baccatum OX=33114 GN=CQW23_20903 PE=3 SV=1
+Length=508
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 31/72 (43%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVP+WK+ERP  +R  D+LK++ +YPVGLT+ Q              N I
+Sbjct  436  AVLAKFKSVKHVPIWKEERPRVLRGGDELKLHKVYPVGLTERQALYSFRFNGDTEFKNYI  495
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+V F
+Sbjct  496  ESHPCARFEVIF  507
+
+
+>TR:A0A2G2Y052_CAPAN A0A2G2Y052 putative fucosyltransferase-like protein OS=Capsicum 
+annuum OX=4072 GN=LOC107840277 PE=3 SV=1
+Length=508
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 31/72 (43%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVP+WK+ERP  +R  D+LK++ +YPVGLT+ Q              N I
+Sbjct  436  AVLAKFKSVKHVPIWKEERPRVLRGGDELKLHKVYPVGLTERQALYSFRFNGDTEFKNYI  495
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+V F
+Sbjct  496  ESHPCARFEVIF  507
+
+
+>TR:A0A1U8DX33_CAPAN A0A1U8DX33 Putative fucosyltransferase-like protein OS=Capsicum 
+annuum OX=4072 GN=T459_33039 PE=3 SV=1
+Length=508
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 31/72 (43%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVP+WK+ERP  +R  D+LK++ +YPVGLT+ Q              N I
+Sbjct  436  AVLAKFKSVKHVPIWKEERPRVLRGGDELKLHKVYPVGLTERQALYSFRFNGDTEFKNYI  495
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+V F
+Sbjct  496  ESHPCARFEVIF  507
+
+
+>TR:A0A2G3BVE7_CAPCH A0A2G3BVE7 Putative fucosyltransferase-like protein OS=Capsicum 
+chinense OX=80379 GN=BC332_22262 PE=3 SV=1
+Length=508
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 31/72 (43%), Positives = 45/72 (63%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL KF+ + HVP+WK+ERP  +R  D+LK++ +YPVGLT+ Q              N I
+Sbjct  436  AVLAKFKSVKHVPIWKEERPRVLRGGDELKLHKVYPVGLTERQALYSFRFNGDTEFKNYI  495
+
+Query  119  KDHACAKFQVNF  130
+            + H CA+F+V F
+Sbjct  496  ESHPCARFEVIF  507
+
+
+>TR:A0A0L9VAP5_PHAAN A0A0L9VAP5 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan09g073200 PE=3 SV=1
+Length=509
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 37/72 (51%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +V+ KF  LN VPVWK ERP  IR   DLK+Y IYPVGLTQ Q   T S        S++
+Sbjct  437  AVVLKFTSLNLVPVWKTERPEVIRGGSDLKLYKIYPVGLTQRQALYTFSFKGDADFRSHL  496
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  497  ENNPCAKFEVIF  508
+
+
+>TR:A0A0S3R363_PHAAN A0A0S3R363 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.01G276700 PE=3 SV=1
+Length=510
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 37/72 (51%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +V+ KF  LN VPVWK ERP  IR   DLK+Y IYPVGLTQ Q   T S        S++
+Sbjct  438  AVVLKFTSLNLVPVWKTERPEVIRGGSDLKLYKIYPVGLTQRQALYTFSFKGDADFRSHL  497
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  498  ENNPCAKFEVIF  509
+
+
+>TR:D7KF12_ARALL D7KF12 Uncharacterized protein OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_891885 PE=3 SV=1
+Length=512
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 33/72 (46%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF+ L   PVWK ERP S++ +++L+++ IYP+GLTQ Q       E   + SS+I
+Sbjct  440  AVLTKFKSLKREPVWKKERPGSLKGDNELRLHRIYPLGLTQRQALYKFKFEGNSSLSSHI  499
+
+Query  119  KDHACAKFQVNF  130
+            +D+ CAKF+V F
+Sbjct  500  QDNPCAKFEVVF  511
+
+
+>TR:A0A1U8APZ1_NELNU A0A1U8APZ1 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X1 OS=Nelumbo nucifera OX=4432 GN=LOC104606410 PE=3 SV=1
+Length=512
+
+ Score = 62.4 bits (150),  Expect = 2e-08
+ Identities = 35/77 (45%), Positives = 46/77 (60%), Gaps = 12/77 (16%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTV------SDLEMIQ  113
+            +VL KF+  NHVP+WK +RP SI+  D+LK+Y IYPVG+TQ Q          SDL    
+Sbjct  441  AVLAKFKSSNHVPIWKKQRPESIK-GDELKIYRIYPVGMTQRQALYTFKFNGDSDLR---  496
+
+Query  114  NSSNIKDHACAKFQVNF  130
+                ++ H C KF+V F
+Sbjct  497  --KYVESHPCPKFEVIF  511
+
+
+>TR:M1A6T9_SOLTU M1A6T9 Uncharacterized protein OS=Solanum tuberosum OX=4113 PE=3 
+SV=1
+Length=230
+
+ Score = 60.5 bits (145),  Expect = 2e-08
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ----HCTVSDLEMIQNS  115
+            +V+ KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  158  AVVSKFKSLKHVPIWKEERPEILRGGDELKLYRLHPLGMTQRQALYNFTFKGDTDF---R  214
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  215  DHIESHPCAKFEAIF  229
+
+
+>TR:Q5DTC8_MEDSA Q5DTC8 Alpha 1,3 fucosyltransferase OS=Medicago sativa OX=3879 
+PE=2 SV=1
+Length=505
+
+ Score = 62.0 bits (149),  Expect = 3e-08
+ Identities = 35/72 (49%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP  ++  D LKVY I P GLTQ Q   T      +   S++
+Sbjct  433  AVLTKFTSLNHVPVWKPERPQILKGGDKLKVYKIIPAGLTQRQALYTFQFNGDVDFRSHL  492
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  493  ESNPCAKFEVIF  504
+
+
+>TR:Q5DTC9_MEDSA Q5DTC9 Alpha 1,3 fucosyltransferase OS=Medicago sativa OX=3879 
+PE=2 SV=1
+Length=506
+
+ Score = 62.0 bits (149),  Expect = 3e-08
+ Identities = 35/72 (49%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +VL KF  LNHVPVWK ERP  ++  D LKVY I P GLTQ Q   T      +   S++
+Sbjct  434  AVLTKFTSLNHVPVWKPERPEILKGGDKLKVYKIIPAGLTQRQALYTFQFNGDVDFRSHL  493
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  494  ESNPCAKFEVIF  505
+
+
+>TR:A0A087H1I3_ARAAL A0A087H1I3 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA4G063200 PE=3 SV=1
+Length=512
+
+ Score = 62.0 bits (149),  Expect = 3e-08
+ Identities = 32/72 (44%), Positives = 49/72 (68%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L + PVWK ERP S++ +D+L+V++IYP+GLTQ Q       E     S++I
+Sbjct  440  AVVTKFKSLKYEPVWKKERPGSLKGDDELRVHMIYPLGLTQRQALYNFKFEGNSTLSTHI  499
+
+Query  119  KDHACAKFQVNF  130
+            + + CAKF+V F
+Sbjct  500  QHNPCAKFEVVF  511
+
+
+>TR:A0A1U7VA40_NICSY A0A1U7VA40 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104213968 PE=3 SV=1
+Length=514
+
+ Score = 62.0 bits (149),  Expect = 3e-08
+ Identities = 30/72 (42%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL K + L HVP+WK+ERP  +R  D+LK+Y +YP+G+TQ Q       +   +  N I
+Sbjct  442  AVLSKLKSLKHVPIWKEERPQILRGGDELKLYRVYPLGMTQRQALYTFRFKGDADFKNHI  501
+
+Query  119  KDHACAKFQVNF  130
+            + H CA F+  F
+Sbjct  502  ESHPCANFEAIF  513
+
+
+>TR:A0A1S3XN32_TOBAC A0A1S3XN32 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Nicotiana 
+tabacum OX=4097 GN=LOC107766938 PE=3 SV=1
+Length=514
+
+ Score = 62.0 bits (149),  Expect = 3e-08
+ Identities = 30/72 (42%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +VL K + L HVP+WK+ERP  +R  D+LK+Y +YP+G+TQ Q       +   +  N I
+Sbjct  442  AVLSKLKSLKHVPIWKEERPQILRGGDELKLYRVYPLGMTQRQALYTFRFKGDADFKNHI  501
+
+Query  119  KDHACAKFQVNF  130
+            + H CA F+  F
+Sbjct  502  ESHPCANFEAIF  513
+
+
+>TR:A0A287WQK4_HORVV A0A287WQK4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=331
+
+ Score = 61.2 bits (147),  Expect = 3e-08
+ Identities = 28/43 (65%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ  102
+            +V  KF  L HVP+WKDERP SIR  D+LKVY IYP+GLT+ Q
+Sbjct  273  AVHDKFSSLKHVPIWKDERPSSIRGGDELKVYKIYPIGLTERQ  315
+
+
+>TR:A0A1J3FBW1_NOCCA A0A1J3FBW1 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Noccaea 
+caerulescens OX=107243 GN=LC_TR1587_c1_g1_i1_g.5571 PE=3 
+SV=1
+Length=495
+
+ Score = 61.6 bits (148),  Expect = 4e-08
+ Identities = 33/73 (45%), Positives = 46/73 (63%), Gaps = 1/73 (1%)
+
+Query  59   FSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            ++VL KF+ L H P+WK ERP S+R + +LKV+ IYP+G TQ Q       E     S++
+Sbjct  422  YAVLTKFKSLRHEPIWKKERPASLRGDSELKVHSIYPLGRTQRQALYNFKFEGNSTLSTH  481
+
+Query  118  IKDHACAKFQVNF  130
+            I+   CAKF+V F
+Sbjct  482  IQRTPCAKFEVVF  494
+
+
+>TR:A0A1J3GLR0_NOCCA A0A1J3GLR0 Putative fucosyltransferase-like protein OS=Noccaea 
+caerulescens OX=107243 GN=LE_TR5611_c0_g1_i1_g.20614 PE=3 
+SV=1
+Length=505
+
+ Score = 61.6 bits (148),  Expect = 4e-08
+ Identities = 33/73 (45%), Positives = 46/73 (63%), Gaps = 1/73 (1%)
+
+Query  59   FSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            ++VL KF+ L H P+WK ERP S+R + +LKV+ IYP+G TQ Q       E     S++
+Sbjct  432  YAVLTKFKSLRHEPIWKKERPASLRGDSELKVHSIYPLGRTQRQALYNFKFEGNSTLSTH  491
+
+Query  118  IKDHACAKFQVNF  130
+            I+   CAKF+V F
+Sbjct  492  IQRTPCAKFEVVF  504
+
+
+>TR:A0A2P5WB14_GOSBA A0A2P5WB14 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA32409 PE=3 SV=1
+Length=546
+
+ Score = 61.6 bits (148),  Expect = 4e-08
+ Identities = 35/78 (45%), Positives = 47/78 (60%), Gaps = 1/78 (1%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQ  113
+            LK    +V   F+   HVP+WK ERP S+R  D+LKVY IYP+GLTQ Q       +   
+Sbjct  468  LKALEAAVHTHFKFRKHVPIWKPERPESLRGGDELKVYRIYPLGLTQRQALYTFKFKGDA  527
+
+Query  114  NSSN-IKDHACAKFQVNF  130
+            +  N I+++ CAKF+V F
+Sbjct  528  DLKNHIENNPCAKFEVIF  545
+
+
+>TR:K4D0H9_SOLLC K4D0H9 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+PE=3 SV=1
+Length=431
+
+ Score = 61.2 bits (147),  Expect = 4e-08
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ----HCTVSDLEMIQNS  115
+            +V+ KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  359  TVVSKFKSLKHVPIWKEERPEILRGRDELKLYRLHPLGMTQRQALYNFTFKGDTDF---R  415
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  416  DHIESHPCAKFEAIF  430
+
+
+>TR:A0A078GTX6_BRANA A0A078GTX6 BnaC06g02690D protein OS=Brassica napus OX=3708 GN=BnaC06g02690D 
+PE=3 SV=1
+Length=505
+
+ Score = 61.2 bits (147),  Expect = 5e-08
+ Identities = 33/74 (45%), Positives = 50/74 (68%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +V+ KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  433  AVVAKFKSLKHEPVWKKERPESLKGDNELRVHKIYPLGLTQRQ--ALYNFKFEGNSSLST  490
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+   CAKF+V F
+Sbjct  491  HIQHIPCAKFEVVF  504
+
+
+>TR:A0A2J6JKU8_LACSA A0A2J6JKU8 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_7X86701 PE=3 SV=1
+Length=534
+
+ Score = 61.2 bits (147),  Expect = 5e-08
+ Identities = 32/73 (44%), Positives = 48/73 (66%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDD-LKVYIIYPVGLTQCQHC-TVSDLEMIQNSSN  117
+            ++  KF+ L H P+W++ERP SIR +++ LK+Y IYP+G+TQ Q   T S        S+
+Sbjct  461  AIFSKFKSLKHEPIWRNERPESIRGDENVLKIYRIYPLGMTQRQALYTFSFKTSNAFESH  520
+
+Query  118  IKDHACAKFQVNF  130
+            I+ + CAKF+V F
+Sbjct  521  IRSNPCAKFEVVF  533
+
+
+>TR:A0A1J7GW46_LUPAN A0A1J7GW46 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_19318 PE=3 SV=1
+Length=547
+
+ Score = 61.2 bits (147),  Expect = 5e-08
+ Identities = 32/68 (47%), Positives = 44/68 (65%), Gaps = 1/68 (1%)
+
+Query  64   KFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNIKDHA  122
+            KF+  NHVP+WK ERP  +R  +DLK+Y IYP+GLTQ Q   + S    +   S++  + 
+Sbjct  479  KFKSRNHVPIWKLERPEILRGGNDLKIYRIYPLGLTQRQALYSFSFQGGVDFRSHLDSNP  538
+
+Query  123  CAKFQVNF  130
+            CAKF+V F
+Sbjct  539  CAKFEVIF  546
+
+
+>TR:M4DQK8_BRARP M4DQK8 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=624
+
+ Score = 61.2 bits (147),  Expect = 5e-08
+ Identities = 31/72 (43%), Positives = 50/72 (69%), Gaps = 5/72 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +V+ KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  441  AVVAKFKSLKHEPVWKKERPASLKGDNELRVHKIYPLGLTQRQ--ALYNFKFEGNSSLST  498
+
+Query  117  NIKDHACAKFQV  128
+            +I+ + CAKF++
+Sbjct  499  HIQHNPCAKFEI  510
+
+
+>TR:A0A078IJ30_BRANA A0A078IJ30 BnaA06g03030D protein OS=Brassica napus OX=3708 GN=BnaA06g03030D 
+PE=3 SV=1
+Length=755
+
+ Score = 61.2 bits (147),  Expect = 6e-08
+ Identities = 31/72 (43%), Positives = 50/72 (69%), Gaps = 5/72 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +V+ KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  434  AVVAKFKSLKHEPVWKKERPASLKGDNELRVHKIYPLGLTQRQ--ALYNFKFEGNSSLST  491
+
+Query  117  NIKDHACAKFQV  128
+            +I+ + CAKF++
+Sbjct  492  HIQHNPCAKFEI  503
+
+
+>TR:Q0PMD0_LEMMI Q0PMD0 Alpha-1,3-fucosyltransferase OS=Lemna minor OX=4472 GN=Fuct1 
+PE=2 SV=1
+Length=490
+
+ Score = 60.8 bits (146),  Expect = 6e-08
+ Identities = 35/83 (42%), Positives = 47/83 (57%), Gaps = 11/83 (13%)
+
+Query  54   LKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ------CQHCTVS  107
+            LK    +VL KF  L HVP+WK ERP S++    L +Y IYPVG+TQ       Q  T  
+Sbjct  412  LKALGSTVLEKFSSLKHVPIWKKERPESLKGGSKLDLYRIYPVGITQREALFSFQFNTDK  471
+
+Query  108  DLEMIQNSSNIKDHACAKFQVNF  130
+            +L++      ++ H CAKF+V F
+Sbjct  472  ELQIY-----LESHPCAKFEVIF  489
+
+
+>TR:A0A0B0MHW5_GOSAR A0A0B0MHW5 Glycoprotein 3-alpha-L-fucosyltransferase A-like protein 
+OS=Gossypium arboreum OX=29729 GN=F383_17469 PE=3 SV=1
+Length=512
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 34/68 (50%), Positives = 44/68 (65%), Gaps = 3/68 (4%)
+
+Query  64   KFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-IKDHA  122
+            KFR   HVP+WK ERP S+R  D+LKVY IYP+GLTQ Q       +   +  N I+++ 
+Sbjct  446  KFR--KHVPIWKPERPESLRGGDELKVYRIYPLGLTQRQALYTFKFKGDADFKNHIENNP  503
+
+Query  123  CAKFQVNF  130
+            CAKF+V F
+Sbjct  504  CAKFEVIF  511
+
+
+>SP:FUT12_ARATH Q9FX97 Putative fucosyltransferase-like protein OS=Arabidopsis 
+thaliana OX=3702 GN=FUT12 PE=2 SV=1
+Length=513
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 32/72 (44%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF+ L H  VWK ERP +++ + +LK++ IYP+GLTQ Q       E   + SS+I
+Sbjct  441  AVLAKFKSLKHEAVWKKERPGNLKGDKELKIHRIYPLGLTQRQALYNFKFEGNSSLSSHI  500
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  501  QNNPCAKFEVVF  512
+
+
+>TR:Q5DTB2_ARATH Q5DTB2 Core alpha 1, 3-fucosyltransferase OS=Arabidopsis thaliana 
+OX=3702 PE=2 SV=1
+Length=513
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 32/72 (44%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF+ L H  VWK ERP +++ + +LK++ IYP+GLTQ Q       E   + SS+I
+Sbjct  441  AVLAKFKSLKHEAVWKKERPGNLKGDKELKIHRIYPLGLTQRQALYNFKFEGNSSLSSHI  500
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  501  QNNPCAKFEVVF  512
+
+
+>TR:A0A178W149_ARATH A0A178W149 FUT12 OS=Arabidopsis thaliana OX=3702 GN=AXX17_At1g43880 
+PE=3 SV=1
+Length=513
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 32/72 (44%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF+ L H  VWK ERP +++ + +LK++ IYP+GLTQ Q       E   + SS+I
+Sbjct  441  AVLAKFKSLKHEAVWKKERPGNLKGDKELKIHRIYPLGLTQRQALYNFKFEGNSSLSSHI  500
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  501  QNNPCAKFEVVF  512
+
+
+>TR:W8Q7A2_ARATH W8Q7A2 Glycosyltransferase (Fragment) OS=Arabidopsis thaliana 
+OX=3702 GN=AT1G49710 PE=2 SV=1
+Length=513
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 32/72 (44%), Positives = 48/72 (67%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +VL KF+ L H  VWK ERP +++ + +LK++ IYP+GLTQ Q       E   + SS+I
+Sbjct  441  AVLAKFKSLKHEAVWKKERPGNLKGDKELKIHRIYPLGLTQRQALYNFKFEGNSSLSSHI  500
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  501  QNNPCAKFEVVF  512
+
+
+>TR:A0A0D3CPJ4_BRAOL A0A0D3CPJ4 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106301123 PE=3 SV=1
+Length=514
+
+ Score = 60.8 bits (146),  Expect = 7e-08
+ Identities = 32/74 (43%), Positives = 50/74 (68%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +V+ KF+ L H PVWK ERP S++ +++L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  442  AVVAKFKSLKHEPVWKKERPESLKGDNELRVHKIYPLGLTQRQ--ALYNFKFEGNSSLST  499
+
+Query  117  NIKDHACAKFQVNF  130
+            +++   CAKF+V F
+Sbjct  500  HVQHIPCAKFEVVF  513
+
+
+>TR:A0A2R6Q618_ACTCH A0A2R6Q618 Fucosyltransferase-like protein OS=Actinidia chinensis 
+var. chinensis OX=1590841 GN=CEY00_Acc21121 PE=3 SV=1
+Length=391
+
+ Score = 60.5 bits (145),  Expect = 7e-08
+ Identities = 35/75 (47%), Positives = 47/75 (63%), Gaps = 3/75 (4%)
+
+Query  59   FSVLGKFRPLNHVPVWKDERPPSIR--VEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNS  115
+            ++VL KF+ L H+P+WK ERP SIR   +D+LKVY IYPV  TQ +   T          
+Sbjct  316  YAVLSKFKSLKHIPIWKLERPESIRGGDDDELKVYRIYPVAKTQREALYTFRFKGDADFQ  375
+
+Query  116  SNIKDHACAKFQVNF  130
+            S+I+ + CAKF+V F
+Sbjct  376  SHIERNPCAKFEVVF  390
+
+
+>TR:A0A103Y3P0_CYNCS A0A103Y3P0 Glycosyl transferase, family 10 OS=Cynara cardunculus 
+var. scolymus OX=59895 GN=Ccrd_019774 PE=3 SV=1
+Length=822
+
+ Score = 60.8 bits (146),  Expect = 8e-08
+ Identities = 70/223 (31%), Positives = 106/223 (48%), Gaps = 31/223 (14%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVED-DLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNI  118
+            +VL KF+ + H  VW+ ERP  IR E  +LKVY IYPVG+TQ Q       + I   S+I
+Sbjct  505  AVLSKFKSIKHETVWRKERPEKIRGEKRELKVYRIYPVGMTQRQALYTFHFKGISFRSHI  564
+
+Query  119  KDHACAKFQ------VNFGNYDLGI---CFPLILTGLHHVEFQLYYSVGCFCIAKKLMLA  169
+            + + CAKF+      ++ G+  L I       I      +    YY+   FC+     LA
+Sbjct  565  ESNPCAKFETLSIWLMSKGDTPLKINKTTRAKIAKFTESMWKLTYYATIEFCV-----LA  619
+
+Query  170  STDHLPVEIFHDSEQQCLTSGTTVADLSEITSITLQLLKLKEPQAKAPSIA-----QTRK  224
+             T H P   F D       +G      ++    +L+L+ + +      SIA     +TR+
+Sbjct  620  ITYHEP--WFRD------ITGYFRGWPNQELKFSLELVYMCQCGFYTYSIAALLLWETRR  671
+
+Query  225  QEYSVVIQTGVGTMLCYLCGSSCTTNRSYLGSVGVLAGCDLCD  267
+            +++SV++   + T+  +L G S  T    +GSV VLA  D  D
+Sbjct  672  KDFSVMMSHHIITV--FLIGYSYITRFFRIGSV-VLAVHDASD  711
+
+
+>TR:A0A078H7K1_BRANA A0A078H7K1 BnaC08g02700D protein OS=Brassica napus OX=3708 GN=BnaC08g02700D 
+PE=4 SV=1
+Length=174
+
+ Score = 57.8 bits (138),  Expect = 9e-08
+ Identities = 28/69 (41%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H  VWK ERPPS++ +++L+V+ I+P+GLTQ Q       E   + S+++
+Sbjct  52   AVVAKFKSLRHETVWKKERPPSLKGDNELRVHRIHPLGLTQRQALYKFKFEGNSSLSTHV  111
+
+Query  119  KDHACAKFQ  127
+            + + CAKF+
+Sbjct  112  QHNPCAKFE  120
+
+
+>TR:M4E0W1_BRARP M4E0W1 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=506
+
+ Score = 60.1 bits (144),  Expect = 1e-07
+ Identities = 32/74 (43%), Positives = 49/74 (66%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF+ L H P+WK ERP S+R +  L+V+ +YP+GLTQ Q   + + +  +NSS   
+Sbjct  434  AVLTKFKSLRHEPIWKKERPASLRGDGVLRVHAMYPLGLTQRQ--ALYNFKFGKNSSLST  491
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  492  HIQSNPCPKFEVVF  505
+
+
+>TR:A0A1J3EJ20_NOCCA A0A1J3EJ20 Putative fucosyltransferase-like protein OS=Noccaea 
+caerulescens OX=107243 GN=LC_TR17496_c0_g1_i1_g.59815 PE=3 
+SV=1
+Length=508
+
+ Score = 60.1 bits (144),  Expect = 1e-07
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 2/73 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVED-DLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSN  117
+            +V+ KF+ L H PVWK ERP S++ +D +L+V+ IYP+GLTQ Q       E   + SS+
+Sbjct  435  AVVAKFKSLKHEPVWKRERPVSLKGDDNELRVHRIYPLGLTQRQALYGFKFEGNSSLSSH  494
+
+Query  118  IKDHACAKFQVNF  130
+            I+ + CAKF+V F
+Sbjct  495  IQHNPCAKFEVVF  507
+
+
+>TR:A0A251RUW2_HELAN A0A251RUW2 Putative glycosyl transferase family 10 OS=Helianthus 
+annuus OX=4232 GN=HannXRQ_Chr16g0497621 PE=3 SV=1
+Length=482
+
+ Score = 59.3 bits (142),  Expect = 2e-07
+ Identities = 35/74 (47%), Positives = 45/74 (61%), Gaps = 3/74 (4%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIR-VEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNS--S  116
+            +VL KF+   H  +W+ ERP SIR  E +LKVY IYPVG+TQ Q       +   NS  S
+Sbjct  408  AVLSKFKSRKHETIWRTERPESIRGDEKELKVYRIYPVGMTQRQALYKFSFKANNNSFKS  467
+
+Query  117  NIKDHACAKFQVNF  130
+            +I  + CAKF+V F
+Sbjct  468  HIISNPCAKFEVIF  481
+
+
+>TR:A0A1S3UTX3_VIGRR A0A1S3UTX3 glycoprotein 3-alpha-L-fucosyltransferase A OS=Vigna 
+radiata var. radiata OX=3916 GN=LOC106768760 PE=3 SV=1
+Length=510
+
+ Score = 58.9 bits (141),  Expect = 3e-07
+ Identities = 33/72 (46%), Positives = 46/72 (64%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF  LN VPVWK ERP  IR    LK+Y IYP+GLTQ Q   +   +   +  S++
+Sbjct  438  AVVLKFTSLNLVPVWKTERPEVIRGGSALKLYKIYPIGLTQRQALYIFSFKGDADFRSHL  497
+
+Query  119  KDHACAKFQVNF  130
+            +++ CAKF+V F
+Sbjct  498  ENNPCAKFEVIF  509
+
+
+>TR:A0A2P4LT81_QUESU A0A2P4LT81 Glycoprotein 3-alpha-l-fucosyltransferase a OS=Quercus 
+suber OX=58331 GN=CFP56_42623 PE=3 SV=1
+Length=1156
+
+ Score = 59.3 bits (142),  Expect = 3e-07
+ Identities = 29/59 (49%), Positives = 38/59 (64%), Gaps = 4/59 (7%)
+
+Query  52    VLLKKKSFSVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ----CQHCTV  106
+             + L+    +VL KF    HVP+WK ERP SIR  ++LKVY IYPVG+TQ    C H ++
+Sbjct  1085  ITLQALESAVLSKFNSSKHVPIWKQERPESIRGGNELKVYRIYPVGMTQRGSRCFHWSI  1143
+
+
+>TR:A0A1U8FCQ9_CAPAN A0A1U8FCQ9 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X5 OS=Capsicum annuum OX=4072 GN=LOC107855995 PE=3 SV=1
+Length=427
+
+ Score = 58.5 bits (140),  Expect = 3e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  355  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  411
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  412  DHIESHPCAKFEAIF  426
+
+
+>TR:A0A0D3DJH1_BRAOL A0A0D3DJH1 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 PE=4 SV=1
+Length=281
+
+ Score = 57.8 bits (138),  Expect = 3e-07
+ Identities = 28/69 (41%), Positives = 47/69 (68%), Gaps = 1/69 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQN-SSNI  118
+            +V+ KF+ L H  VWK ERPPS++ +++L+V+ I+P+GLTQ Q       E   + S+++
+Sbjct  52   AVVAKFKSLRHETVWKKERPPSLKGDNELRVHRIHPLGLTQRQALYKFKFEGNSSLSTHV  111
+
+Query  119  KDHACAKFQ  127
+            + + CAKF+
+Sbjct  112  QHNPCAKFE  120
+
+
+>TR:A0A2G2VTA7_CAPBA A0A2G2VTA7 Putative fucosyltransferase-like protein OS=Capsicum 
+baccatum OX=33114 GN=CQW23_23908 PE=3 SV=1
+Length=517
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  445  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  501
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  502  DHIESHPCAKFEAIF  516
+
+
+>TR:A0A2G2YKL3_CAPAN A0A2G2YKL3 Putative fucosyltransferase-like protein OS=Capsicum 
+annuum OX=4072 GN=T459_25235 PE=3 SV=1
+Length=517
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  445  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  501
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  502  DHIESHPCAKFEAIF  516
+
+
+>TR:A0A1U8FL39_CAPAN A0A1U8FL39 putative fucosyltransferase-like protein isoform X4 
+OS=Capsicum annuum OX=4072 GN=LOC107855995 PE=3 SV=1
+Length=517
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  445  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  501
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  502  DHIESHPCAKFEAIF  516
+
+
+>TR:A0A2G3BDY0_CAPCH A0A2G3BDY0 Putative fucosyltransferase-like protein OS=Capsicum 
+chinense OX=80379 GN=BC332_25509 PE=3 SV=1
+Length=517
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  445  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  501
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  502  DHIESHPCAKFEAIF  516
+
+
+>TR:A0A1U8FJJ3_CAPAN A0A1U8FJJ3 putative fucosyltransferase-like protein isoform X3 
+OS=Capsicum annuum OX=4072 GN=LOC107855995 PE=3 SV=1
+Length=521
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  449  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  505
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  506  DHIESHPCAKFEAIF  520
+
+
+>TR:A0A2C9VJG2_MANES A0A2C9VJG2 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_07G078000 PE=3 SV=1
+Length=524
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 33/71 (46%), Positives = 43/71 (61%), Gaps = 2/71 (3%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-IK  119
+            VL KF  + H+PVWK+ERP S+R   D KVY IYPVG+TQ Q           +  N ++
+Sbjct  454  VLKKFNSMKHIPVWKEERPESLR-GGDYKVYRIYPVGMTQRQALYTFRFNGDADFQNHLE  512
+
+Query  120  DHACAKFQVNF  130
+             + CAKF+V F
+Sbjct  513  INPCAKFEVIF  523
+
+
+>TR:A0A1U8FAY4_CAPAN A0A1U8FAY4 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X2 OS=Capsicum annuum OX=4072 GN=LOC107855995 PE=3 SV=1
+Length=524
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  452  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  508
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  509  DHIESHPCAKFEAIF  523
+
+
+>TR:A0A1U8FB75_CAPAN A0A1U8FB75 glycoprotein 3-alpha-L-fucosyltransferase A-like isoform 
+X1 OS=Capsicum annuum OX=4072 GN=LOC107855995 PE=3 SV=1
+Length=528
+
+ Score = 58.5 bits (140),  Expect = 4e-07
+ Identities = 30/75 (40%), Positives = 46/75 (61%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC----TVSDLEMIQNS  115
+            ++L KF+ L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q         D +     
+Sbjct  456  ALLLKFKSLKHVPIWKEERPQILRGGDELKLYRLHPLGMTQRQALYNFRFKGDTDF---R  512
+
+Query  116  SNIKDHACAKFQVNF  130
+             +I+ H CAKF+  F
+Sbjct  513  DHIESHPCAKFEAIF  527
+
+
+>TR:D7L9X5_ARALL D7L9X5 Uncharacterized protein OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_479443 PE=3 SV=1
+Length=499
+
+ Score = 58.2 bits (139),  Expect = 5e-07
+ Identities = 31/74 (42%), Positives = 49/74 (66%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF+ L H P+W+ ERP ++R + +L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  427  AVLAKFKSLRHEPIWEKERPVTLRGDGELRVHGIYPLGLTQRQ--ALYNFKFEGNSSLST  484
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  485  HIQRNPCPKFEVVF  498
+
+
+>TR:A0A1S3C3S9_CUCME A0A1S3C3S9 glycoprotein 3-alpha-L-fucosyltransferase A-like OS=Cucumis 
+melo OX=3656 GN=LOC103496162 PE=3 SV=1
+Length=514
+
+ Score = 58.2 bits (139),  Expect = 5e-07
+ Identities = 29/72 (40%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +V+ KF  L H P+WK ERP S++  D+L++Y IYPVGLTQ Q       +        +
+Sbjct  442  AVISKFNSLKHEPIWKQERPKSLKGGDELRLYKIYPVGLTQRQALYTFRFKGDSGFRRYV  501
+
+Query  119  KDHACAKFQVNF  130
+            +D+ CAK +  F
+Sbjct  502  EDNPCAKLEAIF  513
+
+
+>TR:Q50HM8_ARATH Q50HM8 Core alpha 1,3-fucosyltransferase (Fragment) OS=Arabidopsis 
+thaliana OX=3702 PE=2 SV=1
+Length=416
+
+ Score = 57.4 bits (137),  Expect = 7e-07
+ Identities = 32/74 (43%), Positives = 47/74 (64%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF  L + P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  344  AVLAKFMSLRYEPIWKKERPASLRGDGKLRVHGIYPIGLTQRQ--ALYNFKFEGNSSLST  401
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  402  HIQRNPCPKFEVVF  415
+
+
+>SP:FUT11_ARATH Q9LJK1 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Arabidopsis 
+thaliana OX=3702 GN=FUT11 PE=1 SV=1
+Length=501
+
+ Score = 57.4 bits (137),  Expect = 8e-07
+ Identities = 32/74 (43%), Positives = 47/74 (64%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF  L + P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  429  AVLAKFMSLRYEPIWKKERPASLRGDGKLRVHGIYPIGLTQRQ--ALYNFKFEGNSSLST  486
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  487  HIQRNPCPKFEVVF  500
+
+
+>TR:A0A068FIL1_ARATH A0A068FIL1 Glycosyltransferase (Fragment) OS=Arabidopsis thaliana 
+OX=3702 GN=AT3G19280 PE=2 SV=1
+Length=501
+
+ Score = 57.4 bits (137),  Expect = 8e-07
+ Identities = 32/74 (43%), Positives = 47/74 (64%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF  L + P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  429  AVLAKFMSLRYEPIWKKERPASLRGDGKLRVHGIYPIGLTQRQ--ALYNFKFEGNSSLST  486
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  487  HIQRNPCPKFEVVF  500
+
+
+>TR:A0A178V744_ARATH A0A178V744 FUT11 OS=Arabidopsis thaliana OX=3702 GN=AXX17_At3g20490 
+PE=3 SV=1
+Length=501
+
+ Score = 57.4 bits (137),  Expect = 8e-07
+ Identities = 32/74 (43%), Positives = 47/74 (64%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF  L + P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  429  AVLAKFMSLRYEPIWKKERPASLRGDGKLRVHGIYPIGLTQRQ--ALYNFKFEGNSSLST  486
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  487  HIQRNPCPKFEVVF  500
+
+
+>TR:Q4VWQ8_ARATH Q4VWQ8 Alpha 1,3 fucosyltransferase OS=Arabidopsis thaliana OX=3702 
+PE=2 SV=1
+Length=501
+
+ Score = 57.4 bits (137),  Expect = 8e-07
+ Identities = 32/74 (43%), Positives = 47/74 (64%), Gaps = 5/74 (7%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSS---  116
+            +VL KF  L + P+WK ERP S+R +  L+V+ IYP+GLTQ Q   + + +   NSS   
+Sbjct  429  AVLAKFMSLRYEPIWKKERPASLRGDGKLRVHGIYPIGLTQRQ--ALYNFKFEGNSSLST  486
+
+Query  117  NIKDHACAKFQVNF  130
+            +I+ + C KF+V F
+Sbjct  487  HIQRNPCPKFEVVF  500
+
+
+>TR:A0A0V0ICY6_SOLCH A0A0V0ICY6 Putative fucosyltransferase-like OS=Solanum chacoense 
+OX=4108 PE=3 SV=1
+Length=465
+
+ Score = 57.0 bits (136),  Expect = 1e-06
+ Identities = 29/75 (39%), Positives = 45/75 (60%), Gaps = 7/75 (9%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIK  119
+            +V+ KF  L HVP+WK+ERP  +R  D+LK+Y ++P+G+TQ Q          +  ++ +
+Sbjct  393  AVVSKFESLKHVPIWKEERPHILRGGDELKLYRLHPLGMTQRQALYNF---TFKGDTDFR  449
+
+Query  120  DH----ACAKFQVNF  130
+            DH     CAKF+  F
+Sbjct  450  DHIESLPCAKFEAIF  464
+
+
+>TR:A0A2K1JVP1_PHYPA A0A2K1JVP1 Uncharacterized protein OS=Physcomitrella patens subsp. 
+patens OX=3218 GN=PHYPA_015366 PE=3 SV=1
+Length=346
+
+ Score = 56.6 bits (135),  Expect = 1e-06
+ Identities = 25/40 (63%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            V+ KF  L HVP+WK ERP  IR   DL++Y IYPVGLTQ
+Sbjct  275  VVDKFTALKHVPIWKTERPEVIRGNSDLRIYKIYPVGLTQ  314
+
+
+>TR:A0A0A0L724_CUCSA A0A0A0L724 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_3G205310 PE=3 SV=1
+Length=263
+
+ Score = 55.8 bits (133),  Expect = 1e-06
+ Identities = 28/72 (39%), Positives = 42/72 (58%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSN-I  118
+            +V+ KF  L H P+WK ERP S++  D+L++Y IYPVG TQ Q       +   +    +
+Sbjct  191  AVISKFTSLKHEPIWKQERPKSLKGGDELRLYKIYPVGSTQRQALYTFRFKGDSDFRRFV  250
+
+Query  119  KDHACAKFQVNF  130
+            +D+ CAK +  F
+Sbjct  251  EDNPCAKLEAIF  262
+
+
+>TR:A9RVI9_PHYPA A9RVI9 Predicted protein OS=Physcomitrella patens subsp. patens 
+OX=3218 GN=PHYPADRAFT_206064 PE=3 SV=1
+Length=533
+
+ Score = 56.6 bits (135),  Expect = 2e-06
+ Identities = 25/40 (63%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            V+ KF  L HVP+WK ERP  IR   DL++Y IYPVGLTQ
+Sbjct  462  VVDKFTALKHVPIWKTERPEVIRGNSDLRIYKIYPVGLTQ  501
+
+
+>TR:Q8L5D1_PHYPA Q8L5D1 Alpha 1,3-fucosyltransferase OS=Physcomitrella patens 
+subsp. patens OX=3218 GN=fuct PE=2 SV=2
+Length=533
+
+ Score = 56.6 bits (135),  Expect = 2e-06
+ Identities = 25/40 (63%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            V+ KF  L HVP+WK ERP  IR   DL++Y IYPVGLTQ
+Sbjct  462  VVDKFTALKHVPIWKTERPEVIRGNSDLRIYKIYPVGLTQ  501
+
+
+>TR:A0A2J6MD97_LACSA A0A2J6MD97 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_5X112540 PE=3 SV=1
+Length=531
+
+ Score = 56.2 bits (134),  Expect = 2e-06
+ Identities = 32/73 (44%), Positives = 43/73 (59%), Gaps = 3/73 (4%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRV-EDDLKVYIIYPVGLTQCQHCTVSDLEMIQN--SSN  117
+            VL KF    H  +W+ ERP  IR  E +LK+Y IYPVG+TQ Q       +  +N  +S+
+Sbjct  458  VLSKFESTEHESIWRKERPERIRGNEKELKIYRIYPVGMTQRQALYAFSFKGNKNLFTSH  517
+
+Query  118  IKDHACAKFQVNF  130
+            I  + CAKF+V F
+Sbjct  518  IMSNPCAKFEVVF  530
+
+
+>TR:A0A2R6W3L1_MARPO A0A2R6W3L1 Uncharacterized protein OS=Marchantia polymorpha OX=3197 
+GN=MARPO_0164s0009 PE=3 SV=1
+Length=510
+
+ Score = 55.8 bits (133),  Expect = 3e-06
+ Identities = 27/58 (47%), Positives = 35/58 (60%), Gaps = 7/58 (12%)
+
+Query  50   HRVLLKKKSFSVLG-------KFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            H V LK  + +  G       KF+ LNHVP+W DERP  IR +  LK++ +YPVGL Q
+Sbjct  421  HSVFLKSTNLTTSGLKNAVFTKFKSLNHVPIWWDERPAVIRGDGTLKIHTLYPVGLNQ  478
+
+
+>TR:Q9ST51_VIGRR Q9ST51 Fuct c3 protein OS=Vigna radiata var. radiata OX=3916 
+GN=fuct PE=2 SV=1
+Length=510
+
+ Score = 54.7 bits (130),  Expect = 6e-06
+ Identities = 34/72 (47%), Positives = 44/72 (61%), Gaps = 1/72 (1%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHC-TVSDLEMIQNSSNI  118
+            +V+ KF  LN VPVWK ERP  IR    LK+Y IYP+GLTQ Q   T S        S++
+Sbjct  438  AVVLKFTSLNLVPVWKTERPEVIRGGSALKLYKIYPIGLTQRQALYTFSFKGDADFRSHL  497
+
+Query  119  KDHACAKFQVNF  130
+            +++  AKF+V F
+Sbjct  498  ENNPYAKFEVIF  509
+
+
+>TR:A0A1D1XD26_9ARAE A0A1D1XD26 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Anthurium 
+amnicola OX=1678845 GN=FUT11_1 PE=3 SV=1
+Length=451
+
+ Score = 53.5 bits (127),  Expect = 1e-05
+ Identities = 24/41 (59%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            +V+ KF+  ++VP+WK ERP S+R  D LKVY IYPVG+TQ
+Sbjct  379  AVVTKFKSRSYVPIWKKERPESLRGGDLLKVYRIYPVGITQ  419
+
+
+>TR:A0A1D1XUI8_9ARAE A0A1D1XUI8 Glycoprotein 3-alpha-L-fucosyltransferase A OS=Anthurium 
+amnicola OX=1678845 GN=FUT11_2 PE=3 SV=1
+Length=486
+
+ Score = 53.5 bits (127),  Expect = 1e-05
+ Identities = 24/41 (59%), Positives = 32/41 (78%), Gaps = 0/41 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            +V+ KF+  ++VP+WK ERP S+R  D LKVY IYPVG+TQ
+Sbjct  414  AVVTKFKSRSYVPIWKKERPESLRGGDLLKVYRIYPVGITQ  454
+
+
+>TR:Q6A2M3_PHYPA Q6A2M3 Alpha 1,3-fucosyltransferase OS=Physcomitrella patens 
+subsp. patens OX=3218 GN=fuct PE=3 SV=1
+Length=533
+
+ Score = 53.5 bits (127),  Expect = 2e-05
+ Identities = 24/40 (60%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  61   VLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQ  100
+            V+ KF  L H P+WK ERP  IR   DL++Y IYPVGLTQ
+Sbjct  462  VVDKFTALKHGPIWKTERPGVIRGNSDLRIYKIYPVGLTQ  501
+
+
+>TR:D8QMW6_SELML D8QMW6 Fucosyltransferase OS=Selaginella moellendorffii OX=88036 
+GN=FucTA PE=3 SV=1
+Length=497
+
+ Score = 51.6 bits (122),  Expect = 6e-05
+ Identities = 25/71 (35%), Positives = 39/71 (55%), Gaps = 0/71 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDLEMIQNSSNIK  119
+            +++ KF   NHVP+W   RP  ++ +  LKV+ +YPVGLTQ +             ++I 
+Sbjct  426  AIISKFSSKNHVPIWNAARPEMLKAKGPLKVHRVYPVGLTQREALFSWQFTDEDLVNHID  485
+
+Query  120  DHACAKFQVNF  130
+             + CAK +V F
+Sbjct  486  ANPCAKLEVIF  496
+
+
+>TR:A0A1D6PZE1_MAIZE A0A1D6PZE1 Putative fucosyltransferase-like protein OS=Zea mays 
+OX=4577 GN=778434 PE=3 SV=1
+Length=706
+
+ Score = 51.6 bits (122),  Expect = 7e-05
+ Identities = 22/24 (92%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIR  83
+            +VLGKFR LNHVPVWKDERPPSIR
+Sbjct  443  AVLGKFRSLNHVPVWKDERPPSIR  466
+
+
+>TR:Q1EPC5_MUSAC Q1EPC5 Uncharacterized protein OS=Musa acuminata OX=4641 GN=MA4_42M13.14 
+PE=4 SV=1
+Length=333
+
+ Score = 44.7 bits (104),  Expect = 0.008
+ Identities = 19/19 (100%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  71  VPVWKDERPPSIRVEDDLK  89
+           VPVWKDERPPSIRVEDDLK
+Sbjct  28  VPVWKDERPPSIRVEDDLK  46
+
+
+>TR:Q01K05_ORYSA Q01K05 H0525E10.3 protein OS=Oryza sativa OX=4530 GN=H0525E10.3 
+PE=4 SV=1
+Length=1399
+
+ Score = 41.6 bits (96),  Expect = 0.12
+ Identities = 37/129 (29%), Positives = 57/129 (44%), Gaps = 14/129 (11%)
+
+Query  173  HLPVEIFHDSEQQCLTSGTTVADLSEITSITLQLLKLKEPQAKAPSIAQTRKQEYSVVIQ  232
+            H P +    S  +   SG+T AD +  T +  Q      PQ   P+I    +   +VV +
+Sbjct  742  HCPKDKEKPSAAEAGLSGST-ADGARPTEMARQ----DTPQLLDPAIDHRHRSHLTVVQE  796
+
+Query  233  TGVGTMLCYLCGSSCTTNRSY---LGSVGVLAGCDLCDSSCAMSPPGKSDALRWGVE--A  287
+              +GT    +CG   T + S+   L   G+L  C L +++   + P    A RW V+   
+Sbjct  797  AQLGTFRARMCGELLTVHDSFVERLREAGLLPMCRLVEAAAGDADP----ARRWTVDRSL  852
+
+Query  288  LSAAASRWR  296
+            L+A   RWR
+Sbjct  853  LAALVDRWR  861
+
+
+>TR:A0A1Y1HND4_KLENI A0A1Y1HND4 Fucosyltransferase OS=Klebsormidium nitens OX=105231 
+GN=KFL_000470230 PE=3 SV=1
+Length=688
+
+ Score = 40.4 bits (93),  Expect = 0.24
+ Identities = 26/76 (34%), Positives = 38/76 (50%), Gaps = 8/76 (11%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQ-----HCTVSDLEMIQN  114
+            +VL +F+ L H PVW   R  +       +VY +YP+GLTQ Q         SD +++  
+Sbjct  615  AVLEEFKRLGHEPVWMKTRAAAGVKTTSWRVYKLYPIGLTQKQALFGGRVWESDADLLNY  674
+
+Query  115  SSNIKDHACAKFQVNF  130
+             S    + C KF+V F
+Sbjct  675  LSR---NPCPKFEVVF  687
+
+
+>TR:A0A0A9J652_ARUDO A0A0A9J652 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=110
+
+ Score = 37.0 bits (84),  Expect = 0.50
+ Identities = 25/56 (45%), Positives = 29/56 (52%), Gaps = 5/56 (9%)
+
+Query  276  GKSDALRWGVEALSAAASRWRLGAPDQGDHAGAEGCPPWEAGSGGVEALSAASRRI  331
+            G S   R  V +LS AA R RL APD G H  A+G PP     GGV  L+    R+
+Sbjct  57   GVSGRRRRLVTSLSGAALRCRLVAPDLGLHGSADGGPP-----GGVAVLAVGFIRV  107
+
+
+>TR:A0A0D2LFZ7_9CHLO A0A0D2LFZ7 Uncharacterized protein OS=Monoraphidium neglectum 
+OX=145388 GN=MNEG_2466 PE=4 SV=1
+Length=990
+
+ Score = 39.3 bits (90),  Expect = 0.59
+ Identities = 28/72 (39%), Positives = 33/72 (46%), Gaps = 5/72 (7%)
+
+Query  274  PPGKSDALRWGVEALSAAASRWRLGAPDQGDHAGAEGCPPWEAGSGGVEALSAASRRIDL  333
+            P G+  +L    EALS   SRWR GAP  G   G      W   S  V+ L+ A R  + 
+Sbjct  759  PAGRIGSLVGSPEALSRILSRWRPGAP--GARVGGPDAAAW---SALVDMLAEAGRLQEA  813
+
+Query  334  RGALHGGVAPAA  345
+              AL G V  AA
+Sbjct  814  EAALEGAVEAAA  825
+
+
+>TR:A0A1D6G9B0_MAIZE A0A1D6G9B0 SKU5 similar 13 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d012524 
+PE=4 SV=1
+Length=126
+
+ Score = 36.2 bits (82),  Expect = 1.2
+ Identities = 33/112 (29%), Positives = 45/112 (40%), Gaps = 6/112 (5%)
+
+Query  233  TGVGTMLCYLCGSSCTTNRSYLGSVGVLAGCDLCDSSCAMSPPGKSDALRWGVEALSAAA  292
+            T   +  C  C +S +++     S G   G   C + CA S P  +          SAA 
+Sbjct  16   TTTSSSTCSTCSTSRSSSHGTGSSRGRTRGRTACRAPCARSSPTPTSRTTGSPRTRSAAV  75
+
+Query  293  -SRWRLGAPDQG--DHAGAEGCPPWEAGSGGVEALSAASRRIDLRGALHGGV  341
+              R   GA  QG   HAG +  PP   G    +A +   RR++ R   HG V
+Sbjct  76   RERHLAGAVAQGRVQHAGDQ--PPLRQGRRPADA-TVLPRRLERRPIAHGAV  124
+
+
+>TR:A8IK86_CHLRE A8IK86 Predicted protein (Fragment) OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLREDRAFT_144593 PE=4 SV=1
+Length=1737
+
+ Score = 38.1 bits (87),  Expect = 1.5
+ Identities = 38/126 (30%), Positives = 57/126 (45%), Gaps = 8/126 (6%)
+
+Query  216  APSIAQTRKQEYSVVIQTGVGTMLCYLCGSSCT-TNRSYLGSVGVLAGCDLCDSSCAMSP  274
+            AP +++ R + YSVV   GV      L  ++C+ +  S+  + GV  G     ++ A + 
+Sbjct  303  APRLSRRRSRSYSVVYVEGVAPPAAPLPAAACSHSGASWRTAAGVAVGSGSPSTAGAGAA  362
+
+Query  275  PGKSDALRWGVEALSAAASR---WRLGAPDQGDHAGAEGCPPWEAG-SGGVEALSAASRR  330
+             G+  A   GVE + +  SR     L A   G   GA    P  AG  G  ++ SA SR 
+Sbjct  363  SGEGFA---GVEDVDSVGSRDVEEPLTAEPLGPGGGAWPAEPGRAGRPGSSDSSSARSRS  419
+
+Query  331  IDLRGA  336
+               RG+
+Sbjct  420  ASSRGS  425
+
+
+>TR:A0A2K3D2S7_CHLRE A0A2K3D2S7 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_12g507909v5 PE=4 SV=1
+Length=2182
+
+ Score = 38.1 bits (87),  Expect = 1.5
+ Identities = 38/126 (30%), Positives = 57/126 (45%), Gaps = 8/126 (6%)
+
+Query  216  APSIAQTRKQEYSVVIQTGVGTMLCYLCGSSCT-TNRSYLGSVGVLAGCDLCDSSCAMSP  274
+            AP +++ R + YSVV   GV      L  ++C+ +  S+  + GV  G     ++ A + 
+Sbjct  336  APRLSRRRSRSYSVVYVEGVAPPAAPLPAAACSHSGASWRTAAGVAVGSGSPSTAGAGAA  395
+
+Query  275  PGKSDALRWGVEALSAAASR---WRLGAPDQGDHAGAEGCPPWEAG-SGGVEALSAASRR  330
+             G+  A   GVE + +  SR     L A   G   GA    P  AG  G  ++ SA SR 
+Sbjct  396  SGEGFA---GVEDVDSVGSRDVEEPLTAEPLGPGGGAWPAEPGRAGRPGSSDSSSARSRS  452
+
+Query  331  IDLRGA  336
+               RG+
+Sbjct  453  ASSRGS  458
+
+
+>TR:Q2QM95_ORYSJ Q2QM95 Transposon protein, putative, Mutator sub-class OS=Oryza 
+sativa subsp. japonica OX=39947 GN=LOC_Os12g41870 PE=4 SV=1
+Length=1569
+
+ Score = 37.4 bits (85),  Expect = 2.5
+ Identities = 26/97 (27%), Positives = 43/97 (44%), Gaps = 9/97 (9%)
+
+Query  205  QLLKLKEPQAKAPSIAQTRKQEYSVVIQTGVGTMLCYLCGSSCTTNRSY---LGSVGVLA  261
+            ++ +   PQ   P+I    +   + V    +GT   + CG   T + S+   L   G+L 
+Sbjct  824  EMARQDTPQLLDPAIDHRHRSHLTAVQGAQLGTFRAWTCGELLTVHDSFVERLHKAGLLP  883
+
+Query  262  GCDLCDSSCAMSPPGKSDALRWGVE--ALSAAASRWR  296
+             C L +++   + P    A RW V+   L+A   RWR
+Sbjct  884  MCRLVEAAAGDADP----ARRWTVDRSLLAALVDRWR  916
+
+
+>TR:C1MKK8_MICPC C1MKK8 Predicted protein OS=Micromonas pusilla (strain CCMP1545) 
+OX=564608 GN=MICPUCDRAFT_38453 PE=4 SV=1
+Length=197
+
+ Score = 36.2 bits (82),  Expect = 2.6
+ Identities = 27/95 (28%), Positives = 41/95 (43%), Gaps = 9/95 (9%)
+
+Query  255  GSVGVLAGCDLCDSSCAMSPPGKSDALRWGVEALSAAASRWRLGAPDQGDHAGAEGCPPW  314
+            G  G  +GCD   SS + +    +   R G +  S A+S      P +   + ++    W
+Sbjct  91   GGAGGASGCDSSSSSSSSNATDGAGKRRRGSDRASVASS------PPRAFASASDAIVDW  144
+
+Query  315  EAGSGGVEALSA---ASRRIDLRGALHGGVAPAAR  346
+             AG GG   LS    A+  + L G   G  AP++R
+Sbjct  145  WAGEGGKHPLSVSSPAAAAVGLAGCCGGQRAPSSR  179
+
+
+>TR:A0A2P5DNA8_PARAD A0A2P5DNA8 Amino acid/polyamine transporter OS=Parasponia andersonii 
+OX=3476 GN=PanWU01x14_048480 PE=4 SV=1
+Length=500
+
+ Score = 37.0 bits (84),  Expect = 2.7
+ Identities = 24/70 (34%), Positives = 33/70 (47%), Gaps = 2/70 (3%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIRVEDDLKVYIIYPVGLTQCQHCTVSDL--EMIQNSSN  117
+            SVL K R L H    +   PPS+R+ED L V   +P    +     +SDL    +Q SS 
+Sbjct  431  SVLAKERKLMHFDAKQPAVPPSVRLEDHLVVPQTHPEAADEASISLLSDLSARTVQESSE  490
+
+Query  118  IKDHACAKFQ  127
+            I+     K +
+Sbjct  491  IRSEGVLKVE  500
+
+
+>TR:A0A2P6VG24_9CHLO A0A2P6VG24 Dynamin-related 3A-like OS=Micractinium conductrix 
+OX=554055 GN=C2E20_3569 PE=3 SV=1
+Length=1709
+
+ Score = 37.0 bits (84),  Expect = 3.3
+ Identities = 25/78 (32%), Positives = 37/78 (47%), Gaps = 1/78 (1%)
+
+Query  268  SSCAMSPPGKSDALRWGVEALSAAASRWRLGAPDQGDHAGAEGCPPWEAGSGGVEALSAA  327
+            ++ A +PP  +DA+     A SAAA       P  G  A +   P  E+ + G  A + A
+Sbjct  205  AAAAAAPPPAADAVE-AAPAASAAAGTSPTAGPPAGAAAPSPAGPVDESAALGAAAAAGA  263
+
+Query  328  SRRIDLRGALHGGVAPAA  345
+            +  +DLRG     +AP A
+Sbjct  264  ASFLDLRGGTDAAMAPPA  281
+
+
+>TR:A0A2U1L5F0_ARTAN A0A2U1L5F0 Glycosyl transferase, family 10 OS=Artemisia annua 
+OX=35608 GN=CTI12_AA528240 PE=4 SV=1
+Length=439
+
+ Score = 36.6 bits (83),  Expect = 3.4
+ Identities = 15/24 (63%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  60   SVLGKFRPLNHVPVWKDERPPSIR  83
+            +VL KF+ L H P+WK+ERP SIR
+Sbjct  399  AVLLKFKSLKHEPIWKNERPESIR  422
+
+
+>TR:A0A2P6VH16_9CHLO A0A2P6VH16 ATP-dependent Clp protease ATP-binding subunit clpA-like 
+protein chloroplastic-like OS=Micractinium conductrix 
+OX=554055 GN=C2E20_3401 PE=3 SV=1
+Length=3471
+
+ Score = 37.0 bits (84),  Expect = 3.5
+ Identities = 33/113 (29%), Positives = 47/113 (42%), Gaps = 10/113 (9%)
+
+Query  210  KEPQAKAPSIAQTRKQEYSVVIQTGVGTMLCYLCGSSCTTNRSYLGSVGVLAGCDLCDSS  269
+            ++  A AP++A   ++  S       G+      G   TT+ +      +LA  D  D  
+Sbjct  434  QQQPAAAPALALAERERSSSASHGMAGSA----AGGKATTDTARR----ILATLDALDKV  485
+
+Query  270  CAMSPPGKSDALRWGVEALSAAASRWRLGAPDQGDHAGAEGCPPWEAGSGGVE  322
+             A SPPG + A   G EA +AAA+     +P   D  G  G P  E   G  E
+Sbjct  486  VAASPPGGAAAALAGREAAAAAAA--AAASPPPTDSLGFAGLPRGEPAPGPAE  536
+
+
+>TR:Q53PN8_ORYSJ Q53PN8 Transposon protein, putative, Mutator sub-class OS=Oryza 
+sativa subsp. japonica OX=39947 GN=LOC_Os11g06380 PE=4 SV=1
+Length=1162
+
+ Score = 36.6 bits (83),  Expect = 4.2
+ Identities = 27/90 (30%), Positives = 39/90 (43%), Gaps = 9/90 (10%)
+
+Query  212  PQAKAPSIAQTRKQEYSVVIQTGVGTMLCYLCGSSCTTNRSY---LGSVGVLAGCDLCDS  268
+            PQ   P+I Q  +   + V    +GT     CG   T + S+   L   G+L  C L ++
+Sbjct  853  PQLLDPAIDQRHRSHLTAVQGAQLGTFRARTCGELLTVHDSFVERLREAGLLPMCRLVEA  912
+
+Query  269  SCAMSPPGKSDALRWGVE--ALSAAASRWR  296
+            +     P    A RW V+   L+A   RWR
+Sbjct  913  AAGHVDP----ARRWTVDKSLLAALVDRWR  938
+
+
+
+Lambda      K        H
+   0.320    0.134    0.411 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 293752534155
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

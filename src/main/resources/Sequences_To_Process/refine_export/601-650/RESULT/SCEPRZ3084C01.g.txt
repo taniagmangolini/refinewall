@@ -1,0 +1,510 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0A9JCX9_ARUDO  A0A0A9JCX9 Uncharacterized protein OS=Arundo...  48.9    4e-07
+TR:A0A0A9PKG1_ARUDO  A0A0A9PKG1 Uncharacterized protein OS=Arundo...  46.6    3e-06
+TR:A0A0A9K4F3_ARUDO  A0A0A9K4F3 Uncharacterized protein OS=Arundo...  47.8    3e-05
+TR:J3L7E0_ORYBR  J3L7E0 Uncharacterized protein OS=Oryza brachyan...  43.5    8e-04
+TR:A0A0E0JT14_ORYPU  A0A0E0JT14 Uncharacterized protein OS=Oryza ...  42.4    0.002
+TR:A0A0A9JHA4_ARUDO  A0A0A9JHA4 Uncharacterized protein OS=Arundo...  40.0    0.003
+TR:A0A0V0IEB8_SOLCH  A0A0V0IEB8 Putative ovule protein OS=Solanum...  39.7    0.018
+TR:A0A0P0VCD7_ORYSJ  A0A0P0VCD7 Os01g0926450 protein (Fragment) O...  37.7    0.083
+TR:A0A0A9LSK1_ARUDO  A0A0A9LSK1 Uncharacterized protein OS=Arundo...  36.6    0.12 
+TR:A0A2K3CNP1_CHLRE  A0A2K3CNP1 Uncharacterized protein OS=Chlamy...  35.4    0.60 
+TR:A0A0D3AG72_BRAOL  A0A0D3AG72 Carbonic anhydrase OS=Brassica ol...  34.7    0.85 
+TR:B8A222_MAIZE  B8A222 Uncharacterized protein OS=Zea mays OX=45...  33.9    1.8  
+TR:A8J7G2_CHLRE  A8J7G2 Chromodomain-helicase-DNA-binding protein...  33.9    2.0  
+TR:A0A2K3DW75_CHLRE  A0A2K3DW75 Uncharacterized protein OS=Chlamy...  33.9    2.1  
+TR:A0A2T7DCI2_9POAL  A0A2T7DCI2 Uncharacterized protein OS=Panicu...  33.5    2.5  
+TR:A0A2K3E285_CHLRE  A0A2K3E285 Uncharacterized protein OS=Chlamy...  33.5    2.8  
+TR:A0A1E5W2A7_9POAL  A0A1E5W2A7 Putative long-chain-alcohol O-fat...  33.1    3.3  
+TR:W5EL78_WHEAT  W5EL78 RING-type E3 ubiquitin transferase OS=Tri...  33.1    3.7  
+TR:A0A1B6QFW6_SORBI  A0A1B6QFW6 Uncharacterized protein OS=Sorghu...  33.1    3.8  
+TR:A0A1W0W7J6_SORBI  A0A1W0W7J6 Uncharacterized protein OS=Sorghu...  33.1    3.8  
+TR:M0THV2_MUSAM  M0THV2 Uncharacterized protein OS=Musa acuminata...  32.3    4.7  
+TR:D8U4F9_VOLCA  D8U4F9 Serine/threonine protein kinase OS=Volvox...  32.7    5.0  
+TR:A0A287N2N0_HORVV  A0A287N2N0 Uncharacterized protein OS=Hordeu...  32.3    6.2  
+TR:A0A067LC20_JATCU  A0A067LC20 Uncharacterized protein OS=Jatrop...  32.3    6.3  
+TR:A0A2K2CKR5_BRADI  A0A2K2CKR5 Uncharacterized protein (Fragment...  31.6    6.5  
+TR:K3YJU9_SETIT  K3YJU9 Uncharacterized protein OS=Setaria italic...  32.0    7.0  
+TR:A0A0E0JQW4_ORYPU  A0A0E0JQW4 Uncharacterized protein OS=Oryza ...  32.0    8.0  
+TR:A0A2P4ICC0_QUESU  A0A2P4ICC0 Uncharacterized protein OS=Quercu...  32.0    8.1  
+TR:A0A2J8A3F1_9CHLO  A0A2J8A3F1 Release factor glutamine methyltr...  32.0    8.6  
+TR:A0A2K3DXG3_CHLRE  A0A2K3DXG3 Uncharacterized protein OS=Chlamy...  32.0    9.3  
+TR:A0A2K3DBW2_CHLRE  A0A2K3DBW2 Uncharacterized protein OS=Chlamy...  32.0    9.6  
+TR:A0A2K3E4H2_CHLRE  A0A2K3E4H2 Uncharacterized protein OS=Chlamy...  32.0    9.6  
+
+
+>TR:A0A0A9JCX9_ARUDO A0A0A9JCX9 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=42
+
+ Score = 48.9 bits (115),  Expect = 4e-07
+ Identities = 21/37 (57%), Positives = 29/37 (78%), Gaps = 0/37 (0%)
+
+Query  5   CGKHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF  41
+           CGKHV++A  IL   LLVV   ++ID+DL+PP+R+IF
+Sbjct  6   CGKHVIEATWILGDHLLVVLPRQVIDEDLQPPHRIIF  42
+
+
+>TR:A0A0A9PKG1_ARUDO A0A0A9PKG1 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=42
+
+ Score = 46.6 bits (109),  Expect = 3e-06
+ Identities = 21/40 (53%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  2   KIXCGKHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF  41
+           K  C KHV++AP IL   LLVV   ++I +DL+PP+R+IF
+Sbjct  3   KNFCSKHVIEAPWILGDHLLVVLPRQVIYEDLQPPHRIIF  42
+
+
+>TR:A0A0A9K4F3_ARUDO A0A0A9K4F3 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=427
+
+ Score = 47.8 bits (112),  Expect = 3e-05
+ Identities = 22/36 (61%), Positives = 28/36 (78%), Gaps = 0/36 (0%)
+
+Query  6    GKHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF  41
+            G+H+ QAP ILL QLLVV A E++D DLE  +RV+F
+Sbjct  392  GEHMAQAPGILLHQLLVVLAREVVDVDLEAADRVVF  427
+
+
+>TR:J3L7E0_ORYBR J3L7E0 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=4 
+SV=1
+Length=393
+
+ Score = 43.5 bits (101),  Expect = 8e-04
+ Identities = 20/48 (42%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  6    GKHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIFYTSPALPSIRSV  53
+            G+HVVQAP +L QQ+ VV  G ++   L+ P+RV+   + ALP +  +
+Sbjct  337  GEHVVQAPAVLRQQVQVVLPGHLVHVHLQLPHRVLLQHAAALPCMHII  384
+
+
+>TR:A0A0E0JT14_ORYPU A0A0E0JT14 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=251
+
+ Score = 42.4 bits (98),  Expect = 0.002
+ Identities = 32/104 (31%), Positives = 53/104 (51%), Gaps = 7/104 (7%)
+
+Query  6    GKHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF-YTSPALPSIR---SVSCAATAAM  61
+            G+HVV+A  +L +Q+ VV A  ++D+ L+ P RV+  + + ALP I    S+S  A   +
+Sbjct  7    GEHVVEAAAVLGKQVQVVLARHLVDEHLQLPRRVVLQHVAAALPCIHMATSMSIGANLRI  66
+
+Query  62   SEQATSMTSARASARALPVPMILTRAAAFPLRHLTLGWSEERGE  105
+             E+   +   R   R+     I+   A+ P    TL   + +GE
+Sbjct  67   KEE--QVVQVRHRRRSSQETAIMAAFASIP-EAATLRMRDHKGE  107
+
+
+>TR:A0A0A9JHA4_ARUDO A0A0A9JHA4 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=83
+
+ Score = 40.0 bits (92),  Expect = 0.003
+ Identities = 19/35 (54%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  7   KHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF  41
+           KHV +A RI    LLVV  G++I   LEPPN +IF
+Sbjct  8   KHVAEASRIFCHHLLVVLGGQLIYVYLEPPNGIIF  42
+
+
+>TR:A0A0V0IEB8_SOLCH A0A0V0IEB8 Putative ovule protein OS=Solanum chacoense OX=4108 
+PE=4 SV=1
+Length=414
+
+ Score = 39.7 bits (91),  Expect = 0.018
+ Identities = 18/35 (51%), Positives = 24/35 (69%), Gaps = 0/35 (0%)
+
+Query  7    KHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIF  41
+            KHVV+A  + LQ  LVVFA ++IDK+   PN + F
+Sbjct  373  KHVVEASLVFLQNFLVVFARKLIDKNFXSPNWIXF  407
+
+
+>TR:A0A0P0VCD7_ORYSJ A0A0P0VCD7 Os01g0926450 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os01g0926450 PE=4 SV=1
+Length=394
+
+ Score = 37.7 bits (86),  Expect = 0.083
+ Identities = 18/42 (43%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  7    KHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIFYTSPALP  48
+            +HV+QAP +L QQ+ VV A  ++ + L+ P RV+     ALP
+Sbjct  338  EHVLQAPAVLGQQVQVVLAWHLVHEHLQLPRRVVLQHVAALP  379
+
+
+>TR:A0A0A9LSK1_ARUDO A0A0A9LSK1 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=140
+
+ Score = 36.6 bits (83),  Expect = 0.12
+ Identities = 21/57 (37%), Positives = 32/57 (56%), Gaps = 0/57 (0%)
+
+Query  44   SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLTLGWS  100
+            +P LP+ R+ S AA AA S  ATS T +R+SA   P  + +T +++      +  WS
+Sbjct  48   APPLPTARASSSAAPAARSRPATSTTRSRSSASTPPPRLGITASSSNSTSRDSWSWS  104
+
+
+>TR:A0A2K3CNP1_CHLRE A0A2K3CNP1 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_17g697150v5 PE=4 SV=1
+Length=4037
+
+ Score = 35.4 bits (80),  Expect = 0.60
+ Identities = 22/71 (31%), Positives = 35/71 (49%), Gaps = 3/71 (4%)
+
+Query  33    LEPPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPL  92
+             L+PP+ +   +   LP+++  + AA AA +  A +     A+A A P P  L   AA+ L
+Sbjct  2382  LQPPDVI---SRHVLPALQRAAAAAAAAAAAAAAATAPTTAAAAAAPSPRALVGYAAYLL  2438
+
+Query  93    RHLTLGWSEER  103
+              H  L   + R
+Sbjct  2439  HHTHLAARDPR  2449
+
+
+>TR:A0A0D3AG72_BRAOL A0A0D3AG72 Carbonic anhydrase OS=Brassica oleracea var. oleracea 
+OX=109376 PE=3 SV=1
+Length=209
+
+ Score = 34.7 bits (78),  Expect = 0.85
+ Identities = 19/64 (30%), Positives = 35/64 (55%), Gaps = 0/64 (0%)
+
+Query  44   SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLTLGWSEER  103
+            SP+  S++ VS  ++  ++   +S +S+ +S R++P+ +      A P   +T  WSEE 
+Sbjct  15   SPSQSSLQKVSLRSSPTVASLPSSSSSSSSSPRSVPILIRNEPVLAAPAPIITPYWSEEM  74
+
+Query  104  GERS  107
+            G  S
+Sbjct  75   GSES  78
+
+
+>TR:B8A222_MAIZE B8A222 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=389
+
+ Score = 33.9 bits (76),  Expect = 1.8
+ Identities = 16/42 (38%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  7    KHVVQAPRILLQQLLVVFAGEIIDKDLEPPNRVIFYTSPALP  48
+            +HVVQAP +L+QQ  VV A  ++ + L+ P+ V+   +  +P
+Sbjct  348  EHVVQAPAVLVQQHPVVLARHLVHEHLQLPHGVVVQHAHRVP  389
+
+
+>TR:A8J7G2_CHLRE A8J7G2 Chromodomain-helicase-DNA-binding protein (Fragment) OS=Chlamydomonas 
+reinhardtii OX=3055 GN=CHLREDRAFT_150334 PE=4 
+SV=1
+Length=2000
+
+ Score = 33.9 bits (76),  Expect = 2.0
+ Identities = 25/59 (42%), Positives = 33/59 (56%), Gaps = 3/59 (5%)
+
+Query  45    PALPSIRSVSCAATAAMSEQATSMTS--ARASARALPVPMILTRAAAF-PLRHLTLGWS  100
+             PA  +  + + AA AA +  A ++TS  A A+A A PVP    +AAA  PL   TLG S
+Sbjct  1912  PAATTTTTAAAAAAAATTAAAAAVTSTAAAAAAPAEPVPAAAPKAAAVKPLGKATLGGS  1970
+
+
+>TR:A0A2K3DW75_CHLRE A0A2K3DW75 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_03g158550v5 PE=4 SV=1
+Length=2035
+
+ Score = 33.9 bits (76),  Expect = 2.1
+ Identities = 25/59 (42%), Positives = 33/59 (56%), Gaps = 3/59 (5%)
+
+Query  45    PALPSIRSVSCAATAAMSEQATSMTS--ARASARALPVPMILTRAAAF-PLRHLTLGWS  100
+             PA  +  + + AA AA +  A ++TS  A A+A A PVP    +AAA  PL   TLG S
+Sbjct  1947  PAATTTTTAAAAAAAATTAAAAAVTSTAAAAAAPAEPVPAAAPKAAAVKPLGKATLGGS  2005
+
+
+>TR:A0A2T7DCI2_9POAL A0A2T7DCI2 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G037200 PE=4 SV=1
+Length=411
+
+ Score = 33.5 bits (75),  Expect = 2.5
+ Identities = 19/55 (35%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  44   SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLTLG  98
+            +PA+PS  +V+ AA AA +  A    +  A A  LP P   + +A+   R L  G
+Sbjct  254  APAIPSATAVAAAAAAAAAAPAPEEDATAAQAVPLPTPTTTSSSASSTWRRLVPG  308
+
+
+>TR:A0A2K3E285_CHLRE A0A2K3E285 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_02g100450v5 PE=3 SV=1
+Length=2179
+
+ Score = 33.5 bits (75),  Expect = 2.8
+ Identities = 20/53 (38%), Positives = 27/53 (51%), Gaps = 0/53 (0%)
+
+Query  44   SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLT  96
+            S ALP+    + AA AA    AT+  S  A++R LP+      AAA    HL+
+Sbjct  474  SEALPAEAPAAAAAAAAAVAAATAAASGAAASRGLPLSAAAAAAAAAVAAHLS  526
+
+
+>TR:A0A1E5W2A7_9POAL A0A1E5W2A7 Putative long-chain-alcohol O-fatty-acyltransferase 
+4 OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0007444 
+PE=4 SV=1
+Length=344
+
+ Score = 33.1 bits (74),  Expect = 3.3
+ Identities = 17/44 (39%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  45   PALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAA  88
+            PALP +R V+CAA              R+S+R+LP   +L+ AA
+Sbjct  86   PALPLVRFVACAALPIKVRDEKQQQQQRSSSRSLPSGFMLSYAA  129
+
+
+>TR:W5EL78_WHEAT W5EL78 RING-type E3 ubiquitin transferase OS=Triticum aestivum 
+OX=4565 PE=4 SV=1
+Length=777
+
+ Score = 33.1 bits (74),  Expect = 3.7
+ Identities = 21/56 (38%), Positives = 25/56 (45%), Gaps = 1/56 (2%)
+
+Query  35  PPNRVIFYTSPALPSIRSVSCAA-TAAMSEQATSMTSARASARALPVPMILTRAAA  89
+           PP      TSP  P +R    A   AAM E+A   TS  AS++A P       A A
+Sbjct  35  PPQIPFLCTSPVSPPLRPHDAAGGAAAMDEEAKPNTSEEASSKAAPAAAAAAAATA  90
+
+
+>TR:A0A1B6QFW6_SORBI A0A1B6QFW6 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3002G397500 PE=4 SV=1
+Length=1768
+
+ Score = 33.1 bits (74),  Expect = 3.8
+ Identities = 17/48 (35%), Positives = 33/48 (69%), Gaps = 1/48 (2%)
+
+Query  43   TSPALPSIRSVSCAATAAMSEQATSMTSARASA-RALPVPMILTRAAA  89
+            ++P+LPS+R  + +  +   + AT+ T++R++A R++PVP+  TR  A
+Sbjct  89   SNPSLPSVRPAAPSFPSPRPQLATADTTSRSAATRSMPVPVPSTRPTA  136
+
+
+>TR:A0A1W0W7J6_SORBI A0A1W0W7J6 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3002G397500 PE=4 SV=1
+Length=1769
+
+ Score = 33.1 bits (74),  Expect = 3.8
+ Identities = 17/48 (35%), Positives = 33/48 (69%), Gaps = 1/48 (2%)
+
+Query  43   TSPALPSIRSVSCAATAAMSEQATSMTSARASA-RALPVPMILTRAAA  89
+            ++P+LPS+R  + +  +   + AT+ T++R++A R++PVP+  TR  A
+Sbjct  89   SNPSLPSVRPAAPSFPSPRPQLATADTTSRSAATRSMPVPVPSTRPTA  136
+
+
+>TR:M0THV2_MUSAM M0THV2 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=4 SV=1
+Length=155
+
+ Score = 32.3 bits (72),  Expect = 4.7
+ Identities = 18/66 (27%), Positives = 34/66 (52%), Gaps = 0/66 (0%)
+
+Query  22  VVFAGEIIDKDLEPPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMTSARASARALPVP  81
+           + +AG++   +  PP + I   + A+     VS   T A +E+A ++    A+A A  + 
+Sbjct  15  IFYAGKVRVYNAIPPEKAIMLIATAVAGATKVSGDRTPAAAEKAPAIVGPSAAAAAAALG  74
+
+Query  82  MILTRA  87
+            +LTR+
+Sbjct  75  PVLTRS  80
+
+
+>TR:D8U4F9_VOLCA D8U4F9 Serine/threonine protein kinase OS=Volvox carteri f. nagariensis 
+OX=3068 GN=alk1 PE=4 SV=1
+Length=773
+
+ Score = 32.7 bits (73),  Expect = 5.0
+ Identities = 15/40 (38%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  44   SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMI  83
+            SP +PS+ +VS   TA+ SE A S+ ++ +S ++ P P +
+Sbjct  692  SPVVPSVSAVSSKGTASGSEAALSVVASSSSDQSSPSPAV  731
+
+
+>TR:A0A287N2N0_HORVV A0A287N2N0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=336
+
+ Score = 32.3 bits (72),  Expect = 6.2
+ Identities = 28/87 (32%), Positives = 38/87 (44%), Gaps = 6/87 (7%)
+
+Query  8    HVVQAPRILLQQLLVVFAGEIIDKDLE-PPNRVIFYTSPALPSIRSVSCAATAAMSEQAT  66
+            H++  P +L+      F    ID+DL   P      T P+ P IRS    + +A SE   
+Sbjct  43   HLLARPDVLVH-FRRKFYHRFIDRDLVVEPMSTTGSTQPSRPDIRS----SPSASSENVR  97
+
+Query  67   SMTSARASARALPVPMILTRAAAFPLR  93
+            +  S  +S  A P P      AA PLR
+Sbjct  98   ARNSGSSSRSAAPPPTAPQAGAANPLR  124
+
+
+>TR:A0A067LC20_JATCU A0A067LC20 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_01238 PE=3 SV=1
+Length=378
+
+ Score = 32.3 bits (72),  Expect = 6.3
+ Identities = 23/62 (37%), Positives = 34/62 (55%), Gaps = 9/62 (15%)
+
+Query  33  LEPPNRVIFYTSPALPSIRSVSCAATAAMSEQ--------ATSMTSARASARALPVPMIL  84
+           L+ PN  IF +SP +PSI   SCA+ +    Q        ++S +S+ +SA ALP   + 
+Sbjct  7   LQIPNSPIF-SSPRIPSIFCKSCASPSIHGPQSPKSLLLPSSSSSSSSSSASALPKSPLA  65
+
+Query  85  TR  86
+           TR
+Sbjct  66  TR  67
+
+
+>TR:A0A2K2CKR5_BRADI A0A2K2CKR5 Uncharacterized protein (Fragment) OS=Brachypodium 
+distachyon OX=15368 GN=BRADI_4g05995v3 PE=4 SV=1
+Length=115
+
+ Score = 31.6 bits (70),  Expect = 6.5
+ Identities = 19/46 (41%), Positives = 26/46 (57%), Gaps = 2/46 (4%)
+
+Query  44  SPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAA  89
+           SP LP ++  + AA AA +  A    S   S RALP+P   ++AAA
+Sbjct  46  SPVLPRVKVAAAAAEAAYAGPAFGAMS--PSPRALPLPRFSSKAAA  89
+
+
+>TR:K3YJU9_SETIT K3YJU9 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101765188 
+PE=4 SV=1
+Length=179
+
+ Score = 32.0 bits (71),  Expect = 7.0
+ Identities = 19/58 (33%), Positives = 30/58 (52%), Gaps = 0/58 (0%)
+
+Query  32   DLEPPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAA  89
+            D  PP  +        P+  S S  + +A    AT+ + +RAS+ A P P +LTRA++
+Sbjct  70   DSRPPGLLDVEGGIVSPASSSSSRTSRSASMGTATTRSLSRASSAASPSPQVLTRASS  127
+
+
+>TR:A0A0E0JQW4_ORYPU A0A0E0JQW4 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=256
+
+ Score = 32.0 bits (71),  Expect = 8.0
+ Identities = 19/63 (30%), Positives = 32/63 (51%), Gaps = 0/63 (0%)
+
+Query  46   ALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLTLGWSEERGE  105
+            A PS  S + AA+A  +   +  T++  ++RA P  ++  +    P RHL +     R +
+Sbjct  21   ASPSSCSSTVAASATPTHPGSCTTTSTRASRAFPTVVVAVKLPLTPERHLPMHIDLVRCQ  80
+
+Query  106  RSR  108
+            RSR
+Sbjct  81   RSR  83
+
+
+>TR:A0A2P4ICC0_QUESU A0A2P4ICC0 Uncharacterized protein OS=Quercus suber OX=58331 
+GN=CFP56_54429 PE=4 SV=1
+Length=280
+
+ Score = 32.0 bits (71),  Expect = 8.1
+ Identities = 22/65 (34%), Positives = 34/65 (52%), Gaps = 2/65 (3%)
+
+Query  39   VIFYTSPALPSIRSVSCAATAAMSEQATSMTSARASARALPVPMILTRAAAFPLRHLTLG  98
+            +I  TS  LPS  + + AAT +MS  +T  T + A    + VP+ L   A   + +LTL 
+Sbjct  158  IISDTSTLLPSSSTTALAATTSMSSASTKDTMSTAVGAGIGVPLGLIALAT--IVYLTLR  215
+
+Query  99   WSEER  103
+            +  +R
+Sbjct  216  YKGKR  220
+
+
+>TR:A0A2J8A3F1_9CHLO A0A2J8A3F1 Release factor glutamine methyltransferase OS=Tetrabaena 
+socialis OX=47790 GN=TSOC_006505 PE=4 SV=1
+Length=372
+
+ Score = 32.0 bits (71),  Expect = 8.6
+ Identities = 25/75 (33%), Positives = 32/75 (43%), Gaps = 9/75 (12%)
+
+Query  43   TSPALPSIRSVSCAATAAMSEQATSMTSA-------RASARALPVPMILTRAAAFPLRHL  95
+            TSP+LPS  S S A++AA +  A     A       R      P+P +L   AA   R  
+Sbjct  41   TSPSLPSSSSASAASSAASAASAAPADPAPQLPLCLRPPTHIEPLPAVLAWRAAMEERVA  100
+
+Query  96   TLG--WSEERGERSR  108
+             +G  W E  G   R
+Sbjct  101  DVGDDWEERDGGPGR  115
+
+
+>TR:A0A2K3DXG3_CHLRE A0A2K3DXG3 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_03g176300v5 PE=4 SV=1
+Length=882
+
+ Score = 32.0 bits (71),  Expect = 9.3
+ Identities = 17/40 (43%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  35   PPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMTSARAS  74
+            PP      T+PALP+   V+ AATAA +  AT+  +A A+
+Sbjct  473  PPRGAPGATAPALPAATPVTTAATAAATAAATAAAAAAAA  512
+
+
+>TR:A0A2K3DBW2_CHLRE A0A2K3DBW2 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_10g461550v5 PE=4 SV=1
+Length=1746
+
+ Score = 32.0 bits (71),  Expect = 9.6
+ Identities = 21/59 (36%), Positives = 28/59 (47%), Gaps = 5/59 (8%)
+
+Query  21    LVVFAGEIIDKDLEPPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMTSARASARALP  79
+             LV FAG      LE P       +PA P+  + + A TAA +  A S  +A A+A   P
+Sbjct  1645  LVAFAGV-----LESPAGAAMAAAPAAPAAGTAAAAGTAAAAADAPSAAAANAAAADAP  1698
+
+
+>TR:A0A2K3E4H2_CHLRE A0A2K3E4H2 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_02g141886v5 PE=4 SV=1
+Length=2239
+
+ Score = 32.0 bits (71),  Expect = 9.6
+ Identities = 25/68 (37%), Positives = 32/68 (47%), Gaps = 6/68 (9%)
+
+Query  10    VQAPRILLQQLLVVFAGEIIDKDLEPPNRVIFYTSPALPSIRSVSCAATAAMSEQATSMT  69
+             + A R +L  L  + A  +I  DL   N ++   SP LP       AA AAM   A S  
+Sbjct  1421  LMAARDVLSGLAFLHACSVIHGDLNENNILLKKASPVLPV------AAAAAMVASAASEA  1474
+
+Query  70    SARASARA  77
+             SA A+A A
+Sbjct  1475  SAEAAAAA  1482
+
+
+
+Lambda      K        H
+   0.322    0.131    0.379 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56612286720
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

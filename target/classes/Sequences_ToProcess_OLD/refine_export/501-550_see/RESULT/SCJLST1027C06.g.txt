@@ -1,0 +1,66 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=55
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:D9CIZ3_VOLCA  D9CIZ3 ALB3_1f OS=Volvox carteri f. nagariensis ...  30.0    7.2  
+
+
+>TR:D9CIZ3_VOLCA D9CIZ3 ALB3_1f OS=Volvox carteri f. nagariensis OX=3068 GN=ALB3_1f 
+PE=3 SV=1
+Length=474
+
+ Score = 30.0 bits (66),  Expect = 7.2
+ Identities = 18/52 (35%), Positives = 27/52 (52%), Gaps = 2/52 (4%)
+
+Query  5    FSTPMRNAASASEARRLPLPASF--GSVTAYSLTNTLGPLRDVLSNILFIWK  54
+            FS P+ NA +ASE+    + A+    S T       + PL DVL  +L++ K
+Sbjct  71   FSFPLANAGAASESVAAAVTANILSASPTDQRAGGWVAPLADVLEQVLYVLK  122
+
+
+
+Lambda      K        H
+   0.323    0.133    0.387 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56046560040
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

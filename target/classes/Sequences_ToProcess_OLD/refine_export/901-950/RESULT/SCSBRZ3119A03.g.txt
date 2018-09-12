@@ -1,0 +1,155 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=97
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A2P4I8M7_QUESU  A0A2P4I8M7 Meiotically up-regulated gene 70 ...  33.5    1.8  
+TR:I1HDJ7_BRADI  I1HDJ7 Uncharacterized protein OS=Brachypodium d...  32.0    5.5  
+TR:A0A0Q3FVL4_BRADI  A0A0Q3FVL4 Uncharacterized protein OS=Brachy...  32.0    5.9  
+TR:A0A1J3CLH2_NOCCA  A0A1J3CLH2 Uncharacterized protein (Fragment...  32.0    6.3  
+TR:A0A2P4KJL9_QUESU  A0A2P4KJL9 Meiotically up-regulated gene 70 ...  31.6    8.9  
+TR:A0A1E5VX70_9POAL  A0A1E5VX70 Uncharacterized protein OS=Dichan...  31.6    9.1  
+
+
+>TR:A0A2P4I8M7_QUESU A0A2P4I8M7 Meiotically up-regulated gene 70 protein OS=Quercus 
+suber OX=58331 GN=CFP56_69538 PE=4 SV=1
+Length=389
+
+ Score = 33.5 bits (75),  Expect = 1.8
+ Identities = 28/94 (30%), Positives = 37/94 (39%), Gaps = 6/94 (6%)
+
+Query  3    SMSTVRASGRYQKSNIRTQVEMAKLLRSSLNCYRKPCQHETLSXHFLAAVVSAPAPSVAL  62
+            S+S  RA    +   IR+++E        LN  R P      +       V A  P+ AL
+Sbjct  43   SLSASRAKQSKRDEAIRSKIE------KDLNKKRGPAGRARQTRKAPPGSVLALRPNQAL  96
+
+Query  63   GCQDKTNATDAMMTSANKRITCRPAVDDDTSIGG  96
+              +  T  T+A    A KR  C    DDD  I G
+Sbjct  97   QIKPNTTVTEAAQLMAAKREDCVLVTDDDDRIAG  130
+
+
+>TR:I1HDJ7_BRADI I1HDJ7 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100836942 PE=4 SV=1
+Length=193
+
+ Score = 32.0 bits (71),  Expect = 5.5
+ Identities = 24/76 (32%), Positives = 30/76 (39%), Gaps = 1/76 (1%)
+
+Query  8    RASGRYQKSNIRTQVEMAKLLRSSLNCYRKPCQHETLSXHFLAAVVSAPAPSVALG-CQD  66
+            R  G  Q   IR Q +M    RS       P QH+    HF AA  + P P  A    Q 
+Sbjct  38   RGLGVAQLEKIRMQNQMIAAYRSGGLNPPPPSQHQQQQVHFAAAAAAGPPPPAAASPFQP  97
+
+Query  67   KTNATDAMMTSANKRI  82
+             +  T    T  ++RI
+Sbjct  98   SSYLTGCFETMDHRRI  113
+
+
+>TR:A0A0Q3FVL4_BRADI A0A0Q3FVL4 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_2g07780v3 PE=4 SV=1
+Length=237
+
+ Score = 32.0 bits (71),  Expect = 5.9
+ Identities = 24/76 (32%), Positives = 30/76 (39%), Gaps = 1/76 (1%)
+
+Query  8    RASGRYQKSNIRTQVEMAKLLRSSLNCYRKPCQHETLSXHFLAAVVSAPAPSVALG-CQD  66
+            R  G  Q   IR Q +M    RS       P QH+    HF AA  + P P  A    Q 
+Sbjct  82   RGLGVAQLEKIRMQNQMIAAYRSGGLNPPPPSQHQQQQVHFAAAAAAGPPPPAAASPFQP  141
+
+Query  67   KTNATDAMMTSANKRI  82
+             +  T    T  ++RI
+Sbjct  142  SSYLTGCFETMDHRRI  157
+
+
+>TR:A0A1J3CLH2_NOCCA A0A1J3CLH2 Uncharacterized protein (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR5645_c19_g1_i1_g.18346 PE=4 SV=1
+Length=336
+
+ Score = 32.0 bits (71),  Expect = 6.3
+ Identities = 21/91 (23%), Positives = 40/91 (44%), Gaps = 8/91 (9%)
+
+Query  14   QKSNIRTQVEMAKLLRSSLNCYRKPCQHETLSXHFLAAVVSAP--------APSVALGCQ  65
+            QKSN    +E+ KL++ +L+   +P     +   F  A+   P         P V +G +
+Sbjct  114  QKSNSTPDLEVLKLIKKTLDLQPEPELMSLIHQTFSLAITMDPKCRKLISLGPQVEVGFE  173
+
+Query  66   DKTNATDAMMTSANKRITCRPAVDDDTSIGG  96
+            +        +  +N R+ C P   +++S+ G
+Sbjct  174  NGKYHVTGKVEGSNTRMHCLPVFWENSSLPG  204
+
+
+>TR:A0A2P4KJL9_QUESU A0A2P4KJL9 Meiotically up-regulated gene 70 protein OS=Quercus 
+suber OX=58331 GN=CFP56_19233 PE=4 SV=1
+Length=460
+
+ Score = 31.6 bits (70),  Expect = 8.9
+ Identities = 27/94 (29%), Positives = 37/94 (39%), Gaps = 6/94 (6%)
+
+Query  3    SMSTVRASGRYQKSNIRTQVEMAKLLRSSLNCYRKPCQHETLSXHFLAAVVSAPAPSVAL  62
+            S+S  RA    +   IR+++E        L+  R P      +       V A  P+ AL
+Sbjct  107  SLSASRAKQSKRDEAIRSKIE------KDLSKKRGPAGRARQTRKAPPGSVLALRPNQAL  160
+
+Query  63   GCQDKTNATDAMMTSANKRITCRPAVDDDTSIGG  96
+              +  T  T+A    A KR  C    DDD  I G
+Sbjct  161  QIKPNTTVTEAAQLMAAKREDCVLVTDDDDRIAG  194
+
+
+>TR:A0A1E5VX70_9POAL A0A1E5VX70 Uncharacterized protein OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0009288 PE=4 SV=1
+Length=607
+
+ Score = 31.6 bits (70),  Expect = 9.1
+ Identities = 26/68 (38%), Positives = 32/68 (47%), Gaps = 10/68 (15%)
+
+Query  30   SSLNCYRKPCQHETLSXHFLAAVVSAPAPSVALGCQDKTNATDAMMTSANKRITCRPAVD  89
+            +S NC + P Q +T S        S  AP+VA    D+  AT A  TSA      RPA D
+Sbjct  219  TSRNCRQAPLQQKTPSK-------SRAAPAVA---PDRRRATPAQTTSAAPPDRKRPAAD  268
+
+Query  90   DDTSIGGR  97
+              TS  G+
+Sbjct  269  AATSDCGK  276
+
+
+
+Lambda      K        H
+   0.317    0.124    0.357 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56823694710
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,251 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0A9K4F3_ARUDO  A0A0A9K4F3 Uncharacterized protein OS=Arundo...  147     7e-41
+TR:A0A0P0VCD7_ORYSJ  A0A0P0VCD7 Os01g0926450 protein (Fragment) O...  113     2e-28
+TR:J3L7E0_ORYBR  J3L7E0 Uncharacterized protein OS=Oryza brachyan...  98.2    1e-22
+TR:A0A0V0IEB8_SOLCH  A0A0V0IEB8 Putative ovule protein OS=Solanum...  89.4    2e-19
+TR:B8A222_MAIZE  B8A222 Uncharacterized protein OS=Zea mays OX=45...  85.5    5e-18
+TR:A0A2T8I4K7_9POAL  A0A2T8I4K7 Uncharacterized protein OS=Panicu...  36.2    0.99 
+TR:A0A2P6PUD2_ROSCH  A0A2P6PUD2 Uncharacterized protein OS=Rosa c...  35.8    1.3  
+TR:V7ANS7_PHAVU  V7ANS7 Uncharacterized protein OS=Phaseolus vulg...  35.0    2.4  
+TR:A0A0D3BYF5_BRAOL  A0A0D3BYF5 Uncharacterized protein OS=Brassi...  32.7    6.7  
+TR:W9QPS3_9ROSA  W9QPS3 KH domain-containing protein OS=Morus not...  33.5    7.6  
+TR:A0A1J6HVV3_NICAT  A0A1J6HVV3 Uncharacterized protein OS=Nicoti...  33.1    9.2  
+
+
+>TR:A0A0A9K4F3_ARUDO A0A0A9K4F3 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=427
+
+ Score = 147 bits (371),  Expect = 7e-41
+ Identities = 81/142 (57%), Positives = 97/142 (68%), Gaps = 4/142 (3%)
+
+Query  18   QMLPRLQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAG--GTHGLL  75
+            Q LPRL+V  R+S PV+D LP LQEDV  VREL RE       +   P   G    HG L
+Sbjct  51   QRLPRLEVFRRTSRPVEDRLPWLQEDVAAVRELPREPVQYL--VERVPRLRGLREQHGAL  108
+
+Query  76   HRRVREETLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHRDAA  135
+            HRR REE LLPQ++   +G QD VQ  D+LLGD+HT +LPR+GVRE + +V+GDDHRDAA
+Sbjct  109  HRRAREEALLPQHHPRRDGAQDGVQPRDVLLGDEHTDVLPRDGVRERQHDVVGDDHRDAA  168
+
+Query  136  KNHGFHQPGTPWSPTQWAQAEH  157
+            ++HG HQPG P  P Q AQAEH
+Sbjct  169  EHHGLHQPGAPRRPPQRAQAEH  190
+
+
+>TR:A0A0P0VCD7_ORYSJ A0A0P0VCD7 Os01g0926450 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os01g0926450 PE=4 SV=1
+Length=394
+
+ Score = 113 bits (283),  Expect = 2e-28
+ Identities = 64/134 (48%), Positives = 82/134 (61%), Gaps = 0/134 (0%)
+
+Query  23   LQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTHGLLHRRVREE  82
+            L+V   +  PV   L GL+ED + VR+LARE           P +    HGLLHRR R++
+Sbjct  1    LEVVLEALVPVDALLAGLEEDALGVRQLAREPVEYLVERVAGPRRLVEQHGLLHRRGRQQ  60
+
+Query  83   TLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHRDAAKNHGFHQ  142
+             LLP   +  +GRQD VQ   +LL  +H  L PR+GVREG+ +V+GDDHRDA ++H  HQ
+Sbjct  61   PLLPDDLVERDGRQDGVQPRHVLLRHEHADLPPRDGVREGEHDVVGDDHRDAPEHHRLHQ  120
+
+Query  143  PGTPWSPTQWAQAE  156
+            PG P  P Q AQAE
+Sbjct  121  PGAPRRPPQRAQAE  134
+
+
+>TR:J3L7E0_ORYBR J3L7E0 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=4 
+SV=1
+Length=393
+
+ Score = 98.2 bits (243),  Expect = 1e-22
+ Identities = 56/134 (42%), Positives = 80/134 (60%), Gaps = 0/134 (0%)
+
+Query  23   LQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTHGLLHRRVREE  82
+            L+VA  +  PV  ++ GL+EDV+ VR+LARE           P +    HGLLH R  ++
+Sbjct  1    LEVALEALVPVDATVAGLEEDVLAVRQLAREAVEYLVEGVAGPRRLVEQHGLLHGRAGQQ  60
+
+Query  83   TLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHRDAAKNHGFHQ  142
+             LL    +  +G +D V+ G +LL D+H  LLP +GV EG+ +V+GDD  DAA++H  HQ
+Sbjct  61   ALLADDVVERDGGEDGVEPGHVLLRDEHADLLPGDGVGEGEHDVVGDDDGDAAEHHRLHQ  120
+
+Query  143  PGTPWSPTQWAQAE  156
+             G P  P + A+AE
+Sbjct  121  AGAPGRPPKRAEAE  134
+
+
+>TR:A0A0V0IEB8_SOLCH A0A0V0IEB8 Putative ovule protein OS=Solanum chacoense OX=4108 
+PE=4 SV=1
+Length=414
+
+ Score = 89.4 bits (220),  Expect = 2e-19
+ Identities = 54/145 (37%), Positives = 84/145 (58%), Gaps = 1/145 (1%)
+
+Query  12   KVIVILQMLPRLQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGT  71
+            ++IV  Q LPR +V   +S PV   LPGLQ   + + +  R+  +      +   +    
+Sbjct  26   EIIVKSQPLPRFEVTNWTSSPVXGLLPGLQVSALVMWQFTRKS-IQDLMESITRLRCWKX  84
+
+Query  72   HGLLHRRVREETLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDH  131
+            H LLHRR+ +++LLPQY    N  ++ VQ+ +I L  KH Y+ P + V + +DNVI  ++
+Sbjct  85   HCLLHRRIGKQSLLPQYFFWSNRSENGVQIWNIFLCYKHAYIFPGDCVSKWQDNVICYNN  144
+
+Query  132  RDAAKNHGFHQPGTPWSPTQWAQAE  156
+            RDA+K + F+Q  TPW P+  AQA+
+Sbjct  145  RDASKYNCFNQSRTPWCPSXRAQAK  169
+
+
+>TR:B8A222_MAIZE B8A222 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=389
+
+ Score = 85.5 bits (210),  Expect = 5e-18
+ Identities = 57/143 (40%), Positives = 79/143 (55%), Gaps = 12/143 (8%)
+
+Query  20   LPRLQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTHGLLHRR-  78
+            LP L+VA  S  PV+  LPGLQE  + VR+L R+        HL  E   G  GL+ ++ 
+Sbjct  8    LPGLEVALESGVPVERLLPGLQEHALAVRQLPRQPV-----EHLV-EGVPGPGGLVEQQR  61
+
+Query  79   -----VREETLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHRD  133
+                  R++ L PQ     +G +D V+   + L  +H  +LP +GVRE + +V+GDD  D
+Sbjct  62   LLDGVPRQQALPPQDVGQRDGGEDGVEARHVPLRHEHADVLPGDGVRERQHDVVGDDDGD  121
+
+Query  134  AAKNHGFHQPGTPWSPTQWAQAE  156
+            A ++H  HQPG P  P Q AQAE
+Sbjct  122  APEHHRLHQPGAPGRPPQRAQAE  144
+
+
+>TR:A0A2T8I4K7_9POAL A0A2T8I4K7 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G440100 PE=4 SV=1
+Length=1180
+
+ Score = 36.2 bits (82),  Expect = 0.99
+ Identities = 20/56 (36%), Positives = 33/56 (59%), Gaps = 2/56 (4%)
+
+Query  81   EETLLPQYNICWNGR-QDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHRDAA  135
+            E T+LP +++ W  + +DA    + LL D+H Y L +   + G D+ +GDD  DA+
+Sbjct  40   ETTVLPHFDLAWLQQLKDAFYDAEDLL-DEHEYNLLKRKAKSGDDSSVGDDDDDAS  94
+
+
+>TR:A0A2P6PUD2_ROSCH A0A2P6PUD2 Uncharacterized protein OS=Rosa chinensis OX=74649 
+GN=RchiOBHm_Chr6g0284731 PE=4 SV=1
+Length=658
+
+ Score = 35.8 bits (81),  Expect = 1.3
+ Identities = 20/71 (28%), Positives = 30/71 (42%), Gaps = 6/71 (8%)
+
+Query  83   TLLPQYNICWNGRQDAVQLGDILLGDKHTYLLPRNGVREGK------DNVIGDDHRDAAK  136
+            TL+     CW+         D ++ +  T L  R  ++E         N +GD H DAA 
+Sbjct  285  TLISLIERCWDATSQNRPSFDAIVAELGTILEHRKRIKEPAIADGEAHNSVGDQHADAAN  344
+
+Query  137  NHGFHQPGTPW  147
+            N+  +Q G  W
+Sbjct  345  NYHVYQEGVDW  355
+
+
+>TR:V7ANS7_PHAVU V7ANS7 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_010G030600g PE=4 SV=1
+Length=902
+
+ Score = 35.0 bits (79),  Expect = 2.4
+ Identities = 29/102 (28%), Positives = 44/102 (43%), Gaps = 2/102 (2%)
+
+Query  31   GPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTHGLLHRRVREETLLPQYNI  90
+            GPVQ S   L   +V +  L R+   G        E+      L +  + EE + PQ   
+Sbjct  362  GPVQKSFWRLSR-LVPLEGLRRQFSTGRERGISSDERNSLPDSLANTLIEEEVVAPQLLE  420
+
+Query  91   CWNGRQDAVQLGDILLGDKHTYLLPRNGVREGKDNVIGDDHR  132
+               G  D + L  +   DKH+  +P NG  + K+NV+  D +
+Sbjct  421  IQEG-SDGISLKPLPEADKHSSEVPMNGKTDTKNNVMTGDEK  461
+
+
+>TR:A0A0D3BYF5_BRAOL A0A0D3BYF5 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106340724 PE=4 SV=1
+Length=134
+
+ Score = 32.7 bits (73),  Expect = 6.7
+ Identities = 15/52 (29%), Positives = 24/52 (46%), Gaps = 3/52 (6%)
+
+Query  105  LLGDKHTYLLPRNGVREGKDNVIGDDHRDAAKNHGFHQPGTPWSPTQWAQAE  156
+            ++ DK    LP    ++ ++ +IG   RD  K H     G  W P +W Q +
+Sbjct  37   IVSDKKDQALPEEKPKQNQEAIIG---RDKLKQHRREMAGRVWIPERWGQED  85
+
+
+>TR:W9QPS3_9ROSA W9QPS3 KH domain-containing protein OS=Morus notabilis OX=981085 
+GN=L484_013579 PE=4 SV=1
+Length=667
+
+ Score = 33.5 bits (75),  Expect = 7.6
+ Identities = 20/67 (30%), Positives = 36/67 (54%), Gaps = 2/67 (3%)
+
+Query  18   QMLPRLQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTHGLLHR  77
+            +++ +L+V  +S   + +++PG +E VVT+  ++ E     GG H+ P Q       +H 
+Sbjct  63   EIVKQLRVDTKSKIRIGETVPGSEERVVTIYSMSEESNAVEGGNHVCPAQDALFR--VHE  120
+
+Query  78   RVREETL  84
+            RV  E L
+Sbjct  121  RVVAEDL  127
+
+
+>TR:A0A1J6HVV3_NICAT A0A1J6HVV3 Uncharacterized protein OS=Nicotiana attenuata OX=49451 
+GN=A4A49_18462 PE=4 SV=1
+Length=363
+
+ Score = 33.1 bits (74),  Expect = 9.2
+ Identities = 27/112 (24%), Positives = 46/112 (41%), Gaps = 18/112 (16%)
+
+Query  13   VIVILQMLPRLQVAWRSSGPVQDSLPGLQEDVVTVRELAREXRLGSGGMHLPPEQAGGTH  72
+            +++I  M+ RL    +    + D + G+ EDV  + EL  E R+   GM+  P++  G  
+Sbjct  15   MLLIWSMVLRLMTEIKKEDALSDIVVGMYEDVANLEELT-EIRVDPMGMNYAPKEINGNG  73
+
+Query  73   G----------LLHRRVREETLLPQYNIC-------WNGRQDAVQLGDILLG  107
+                       ++   V  + +L QY          WN   + V   DI+ G
+Sbjct  74   AAQVQLRGYIIMIMTNVDPDAILKQYTDVVDSDINRWNEHVNGVPAADIVHG  125
+
+
+
+Lambda      K        H
+   0.319    0.137    0.431 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55056916860
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

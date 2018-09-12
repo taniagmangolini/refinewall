@@ -1,0 +1,143 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=48
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0A9D5J4_ARUDO  A0A0A9D5J4 Uncharacterized protein OS=Arundo...  39.3    8e-04
+TR:A0A0A9VH61_ARUDO  A0A0A9VH61 Uncharacterized protein OS=Arundo...  37.0    0.006
+TR:A0A0A9KXH2_ARUDO  A0A0A9KXH2 Uncharacterized protein OS=Arundo...  35.8    0.006
+TR:A0A0A9M852_ARUDO  A0A0A9M852 Uncharacterized protein OS=Arundo...  34.7    0.018
+TR:C0P8X8_MAIZE  C0P8X8 Uncharacterized protein OS=Zea mays OX=45...  34.3    0.078
+TR:A0A0E0M4J7_ORYPU  A0A0E0M4J7 Uncharacterized protein OS=Oryza ...  32.7    0.58 
+TR:A0A2H9ZVR4_9ASPA  A0A2H9ZVR4 Citrate synthase, mitochondrial O...  29.3    4.8  
+
+
+>TR:A0A0A9D5J4_ARUDO A0A0A9D5J4 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=89
+
+ Score = 39.3 bits (90),  Expect = 8e-04
+ Identities = 24/47 (51%), Positives = 28/47 (60%), Gaps = 1/47 (2%)
+
+Query  3   LPVVGV-MVPAAACTGGEEQPEELGSLVVRVAVPVKSQVAPLALLFW  48
+           LP +GV +VPAA    G  QP  LGSLV+R+ VP K Q     LL W
+Sbjct  43  LPPIGVELVPAALGFAGYWQPLLLGSLVLRLVVPEKMQACGFWLLRW  89
+
+
+>TR:A0A0A9VH61_ARUDO A0A0A9VH61 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=89
+
+ Score = 37.0 bits (84),  Expect = 0.006
+ Identities = 24/47 (51%), Positives = 26/47 (55%), Gaps = 1/47 (2%)
+
+Query  3   LPVVGV-MVPAAACTGGEEQPEELGSLVVRVAVPVKSQVAPLALLFW  48
+           LP VGV +VPAA    G   P  LGSLV+ V VP K Q     LL W
+Sbjct  43  LPPVGVELVPAALGDAGYWHPLLLGSLVLSVVVPEKMQACGFWLLRW  89
+
+
+>TR:A0A0A9KXH2_ARUDO A0A0A9KXH2 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=35
+
+ Score = 35.8 bits (81),  Expect = 0.006
+ Identities = 17/25 (68%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  24  ELGSLVVRVAVPVKSQVAPLALLFW  48
+           ELGS+VV VAVP+K QVAPL    W
+Sbjct  11  ELGSVVVVVAVPLKLQVAPLLAFLW  35
+
+
+>TR:A0A0A9M852_ARUDO A0A0A9M852 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=35
+
+ Score = 34.7 bits (78),  Expect = 0.018
+ Identities = 16/25 (64%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  24  ELGSLVVRVAVPVKSQVAPLALLFW  48
+           ELGS+VV VAVP+K QVAP+    W
+Sbjct  11  ELGSVVVVVAVPLKLQVAPVLTFLW  35
+
+
+>TR:C0P8X8_MAIZE C0P8X8 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=96
+
+ Score = 34.3 bits (77),  Expect = 0.078
+ Identities = 19/41 (46%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  8   VMVPAAACTGGEEQPEELGSLVVRVAVPVKSQVAPLALLFW  48
+           ++V AA    G  QP  LGSL++ VAVP K+Q     LL W
+Sbjct  56  LVVAAALGVAGYVQPLPLGSLLLSVAVPEKTQACGFWLLRW  96
+
+
+>TR:A0A0E0M4J7_ORYPU A0A0E0M4J7 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=347
+
+ Score = 32.7 bits (73),  Expect = 0.58
+ Identities = 16/21 (76%), Positives = 18/21 (86%), Gaps = 0/21 (0%)
+
+Query  25   LGSLVVRVAVPVKSQVAPLAL  45
+            LGSLV+ +AVP KSQVAPL L
+Sbjct  323  LGSLVISMAVPPKSQVAPLDL  343
+
+
+>TR:A0A2H9ZVR4_9ASPA A0A2H9ZVR4 Citrate synthase, mitochondrial OS=Apostasia shenzhenica 
+OX=1088818 GN=CS PE=4 SV=1
+Length=72
+
+ Score = 29.3 bits (64),  Expect = 4.8
+ Identities = 19/45 (42%), Positives = 26/45 (58%), Gaps = 6/45 (13%)
+
+Query  2   GLPVVGVMVP------AAACTGGEEQPEELGSLVVRVAVPVKSQV  40
+           G+ + G+ +P      +AA TGGE  PE L  LV+   VP K+QV
+Sbjct  26  GIRLRGLSIPECQKVLSAASTGGEPLPEGLLWLVLTGKVPRKTQV  70
+
+
+
+Lambda      K        H
+   0.320    0.137    0.414 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 57254051745
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

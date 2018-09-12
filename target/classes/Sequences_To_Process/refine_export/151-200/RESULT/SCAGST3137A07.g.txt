@@ -1,0 +1,3626 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:C0HJ30_MAIZE  C0HJ30 Uncharacterized protein OS=Zea mays OX=45...  80.9    1e-16
+TR:A0A1W0VTL1_SORBI  A0A1W0VTL1 Uncharacterized protein OS=Sorghu...  82.0    2e-16
+TR:A0A1W0VTL7_SORBI  A0A1W0VTL7 Uncharacterized protein OS=Sorghu...  82.0    2e-16
+TR:C5Z534_SORBI  C5Z534 Beta-galactosidase OS=Sorghum bicolor OX=...  82.0    2e-16
+TR:B4F9J1_MAIZE  B4F9J1 Beta-galactosidase OS=Zea mays OX=4577 GN...  80.9    5e-16
+TR:I1GXU1_BRADI  I1GXU1 Beta-galactosidase OS=Brachypodium distac...  79.3    2e-15
+TR:B6SXY3_MAIZE  B6SXY3 Beta-galactosidase OS=Zea mays OX=4577 PE...  79.0    2e-15
+TR:B6T0D0_MAIZE  B6T0D0 Beta-galactosidase OS=Zea mays OX=4577 PE...  79.0    2e-15
+TR:B9FTV3_ORYSJ  B9FTV3 Uncharacterized protein OS=Oryza sativa s...  72.8    3e-15
+TR:A2YE98_ORYSI  A2YE98 Uncharacterized protein OS=Oryza sativa s...  72.8    3e-15
+TR:A0A1E5VZ55_9POAL  A0A1E5VZ55 Beta-galactosidase OS=Dichantheli...  78.2    4e-15
+TR:A0A2S3HIH2_9POAL  A0A2S3HIH2 Uncharacterized protein OS=Panicu...  77.8    5e-15
+TR:A0A2T7DX90_9POAL  A0A2T7DX90 Uncharacterized protein OS=Panicu...  77.8    5e-15
+TR:A0A0P0WY55_ORYSJ  A0A0P0WY55 Os06g0573600 protein (Fragment) O...  72.8    1e-14
+TR:K3XWN9_SETIT  K3XWN9 Uncharacterized protein OS=Setaria italic...  75.9    2e-14
+TR:K3XWH9_SETIT  K3XWH9 Uncharacterized protein OS=Setaria italic...  75.9    2e-14
+TR:K3XVF7_SETIT  K3XVF7 Uncharacterized protein OS=Setaria italic...  75.9    3e-14
+TR:A0A287X720_HORVV  A0A287X720 Uncharacterized protein OS=Hordeu...  74.7    6e-14
+TR:A0A287X6R0_HORVV  A0A287X6R0 Uncharacterized protein OS=Hordeu...  74.7    6e-14
+TR:A0A1D6BLI6_WHEAT  A0A1D6BLI6 Uncharacterized protein OS=Tritic...  74.7    6e-14
+TR:A0A287X6U2_HORVV  A0A287X6U2 Uncharacterized protein OS=Hordeu...  74.7    6e-14
+TR:M8A003_TRIUA  M8A003 Beta-galactosidase OS=Triticum urartu OX=...  74.7    6e-14
+TR:A0A1D6CMU1_WHEAT  A0A1D6CMU1 Beta-galactosidase OS=Triticum ae...  74.7    6e-14
+TR:A0A287X6T2_HORVV  A0A287X6T2 Beta-galactosidase OS=Hordeum vul...  74.7    6e-14
+TR:A0A287X6X6_HORVV  A0A287X6X6 Uncharacterized protein OS=Hordeu...  74.7    6e-14
+TR:A0A287X724_HORVV  A0A287X724 Beta-galactosidase OS=Hordeum vul...  74.7    6e-14
+TR:F2EF11_HORVV  F2EF11 Beta-galactosidase OS=Hordeum vulgare sub...  74.7    6e-14
+TR:A0A1D6CMU2_WHEAT  A0A1D6CMU2 Beta-galactosidase OS=Triticum ae...  74.7    6e-14
+TR:R7W2E3_AEGTA  R7W2E3 Beta-galactosidase OS=Aegilops tauschii O...  74.7    6e-14
+TR:A0A287X6Q2_HORVV  A0A287X6Q2 Beta-galactosidase OS=Hordeum vul...  74.7    6e-14
+TR:A0A0D9WRE7_9ORYZ  A0A0D9WRE7 Beta-galactosidase OS=Leersia per...  73.2    2e-13
+TR:A0A0P0WYA9_ORYSJ  A0A0P0WYA9 Os06g0573600 protein (Fragment) O...  72.8    2e-13
+TR:A0A0E0AB65_9ORYZ  A0A0E0AB65 Beta-galactosidase OS=Oryza glumi...  72.8    3e-13
+TR:A0A0E0HFT5_ORYNI  A0A0E0HFT5 Beta-galactosidase OS=Oryza nivar...  72.8    3e-13
+SP:BGAL9_ORYSJ  Q5Z7L0 Beta-galactosidase 9 OS=Oryza sativa subsp...  72.8    3e-13
+TR:A0A0E0LCV5_ORYPU  A0A0E0LCV5 Beta-galactosidase OS=Oryza punct...  72.8    3e-13
+TR:I1Q372_ORYGL  I1Q372 Beta-galactosidase OS=Oryza glaberrima OX...  72.8    3e-13
+TR:A0A0E0PZE9_ORYRU  A0A0E0PZE9 Beta-galactosidase OS=Oryza rufip...  72.8    3e-13
+TR:A2YEA5_ORYSI  A2YEA5 Beta-galactosidase OS=Oryza sativa subsp....  72.8    3e-13
+TR:A0A0E0E331_9ORYZ  A0A0E0E331 Beta-galactosidase OS=Oryza merid...  72.8    3e-13
+TR:A0A0A9LFS7_ARUDO  A0A0A9LFS7 Uncharacterized protein OS=Arundo...  71.2    3e-13
+TR:A0A0P0VGI6_ORYSJ  A0A0P0VGI6 Os02g0219200 protein (Fragment) O...  70.1    4e-13
+TR:A0A2I0HJP9_PUNGR  A0A2I0HJP9 Uncharacterized protein OS=Punica...  68.6    4e-13
+TR:A0A1D6QQF0_MAIZE  A0A1D6QQF0 Beta-galactosidase OS=Zea mays OX...  71.6    7e-13
+TR:A0A1D6QQF3_MAIZE  A0A1D6QQF3 Beta-galactosidase OS=Zea mays OX...  71.6    7e-13
+TR:A0A0D3GI21_9ORYZ  A0A0D3GI21 Beta-galactosidase OS=Oryza barth...  71.6    7e-13
+TR:A0A1D6C8D7_WHEAT  A0A1D6C8D7 Beta-galactosidase OS=Triticum ae...  71.6    7e-13
+TR:A0A1D6QQE8_MAIZE  A0A1D6QQE8 Beta-galactosidase OS=Zea mays OX...  71.6    7e-13
+TR:A0A1D6QQE9_MAIZE  A0A1D6QQE9 Beta-galactosidase OS=Zea mays OX...  71.6    8e-13
+TR:A0A0A8XQ87_ARUDO  A0A0A8XQ87 Beta-galactosidase OS=Arundo dona...  71.2    1e-12
+TR:A0A1E5UV24_9POAL  A0A1E5UV24 Beta-galactosidase 4 OS=Dichanthe...  71.2    1e-12
+TR:A0A0P0VGH5_ORYSJ  A0A0P0VGH5 Os02g0219200 protein (Fragment) O...  70.1    1e-12
+TR:A0A0P0VGJ1_ORYSJ  A0A0P0VGJ1 Os02g0219200 protein (Fragment) O...  70.1    2e-12
+TR:J3LAX7_ORYBR  J3LAX7 Beta-galactosidase OS=Oryza brachyantha O...  70.1    3e-12
+TR:A0A0E0CI13_9ORYZ  A0A0E0CI13 Beta-galactosidase OS=Oryza merid...  70.1    3e-12
+SP:BGAL4_ORYSJ  Q6Z6K4 Beta-galactosidase 4 OS=Oryza sativa subsp...  70.1    3e-12
+SP:BGAL4_ORYSI  A2X2H7 Beta-galactosidase 4 OS=Oryza sativa subsp...  70.1    3e-12
+TR:A0A0D3F2I8_9ORYZ  A0A0D3F2I8 Beta-galactosidase OS=Oryza barth...  70.1    3e-12
+TR:A0A0E0IYA2_ORYNI  A0A0E0IYA2 Beta-galactosidase OS=Oryza nivar...  70.1    3e-12
+TR:A0A0E0NBT1_ORYRU  A0A0E0NBT1 Beta-galactosidase OS=Oryza rufip...  70.1    3e-12
+TR:A0A0D9YPE1_9ORYZ  A0A0D9YPE1 Beta-galactosidase OS=Oryza glumi...  70.1    3e-12
+TR:A0A0E0CI12_9ORYZ  A0A0E0CI12 Beta-galactosidase OS=Oryza merid...  70.1    3e-12
+TR:A0A0A9M1Q2_ARUDO  A0A0A9M1Q2 Uncharacterized protein OS=Arundo...  65.5    3e-12
+TR:A0A1Q3D657_CEPFO  A0A1Q3D657 Beta-galactosidase OS=Cephalotus ...  69.7    4e-12
+TR:K3YQC9_SETIT  K3YQC9 Uncharacterized protein OS=Setaria italic...  69.3    5e-12
+TR:A0A2P6RXZ0_ROSCH  A0A2P6RXZ0 Beta-galactosidase OS=Rosa chinen...  69.3    5e-12
+TR:Q93X58_FRAAN  Q93X58 Beta-galactosidase OS=Fragaria ananassa O...  69.3    5e-12
+TR:A0A0A9LBD0_ARUDO  A0A0A9LBD0 Uncharacterized protein OS=Arundo...  65.5    5e-12
+TR:A0A218WUL2_PUNGR  A0A218WUL2 Uncharacterized protein OS=Punica...  67.4    5e-12
+TR:A0A0E0JXD8_ORYPU  A0A0E0JXD8 Beta-galactosidase OS=Oryza punct...  68.9    6e-12
+TR:A0A0A9ICK0_ARUDO  A0A0A9ICK0 Uncharacterized protein OS=Arundo...  66.6    7e-12
+TR:A0A1J3EVJ6_NOCCA  A0A1J3EVJ6 Beta-galactosidase 12 (Fragment) ...  65.1    7e-12
+TR:A0A2P5BH96_PARAD  A0A2P5BH96 Beta-galactosidase OS=Parasponia ...  68.6    9e-12
+TR:A0A2P5FEB2_9ROSA  A0A2P5FEB2 Beta-galactosidase OS=Trema orien...  68.6    9e-12
+TR:A0A059AIM7_EUCGR  A0A059AIM7 Beta-galactosidase OS=Eucalyptus ...  68.6    9e-12
+TR:A0A218WVL4_PUNGR  A0A218WVL4 Beta-galactosidase OS=Punica gran...  68.6    9e-12
+TR:A0A2P4LTP8_QUESU  A0A2P4LTP8 Beta-galactosidase OS=Quercus sub...  68.6    9e-12
+TR:A0A1R3J9Z9_9ROSI  A0A1R3J9Z9 Uncharacterized protein OS=Corcho...  67.8    1e-11
+TR:A0A1D6NKH2_MAIZE  A0A1D6NKH2 Beta-galactosidase 1 OS=Zea mays ...  66.2    1e-11
+TR:A0A218WVN7_PUNGR  A0A218WVN7 Uncharacterized protein OS=Punica...  68.2    1e-11
+TR:A0A2S3GMN3_9POAL  A0A2S3GMN3 Uncharacterized protein OS=Panicu...  67.8    2e-11
+TR:A0A1R3HAE4_COCAP  A0A1R3HAE4 Beta-galactosidase OS=Corchorus c...  67.8    2e-11
+TR:A0A067KPU1_JATCU  A0A067KPU1 Beta-galactosidase OS=Jatropha cu...  67.8    2e-11
+TR:A0A1J3H048_NOCCA  A0A1J3H048 Beta-galactosidase 12 (Fragment) ...  65.1    2e-11
+TR:A0A1D6AJZ1_WHEAT  A0A1D6AJZ1 Uncharacterized protein OS=Tritic...  67.4    2e-11
+TR:C5XY33_SORBI  C5XY33 Beta-galactosidase OS=Sorghum bicolor OX=...  67.4    2e-11
+TR:A0A2I4GPB1_9ROSI  A0A2I4GPB1 Beta-galactosidase OS=Juglans reg...  67.4    2e-11
+TR:A0A199V442_ANACO  A0A199V442 Beta-galactosidase OS=Ananas como...  67.4    2e-11
+TR:A0A2I0JKG4_PUNGR  A0A2I0JKG4 Uncharacterized protein OS=Punica...  65.9    3e-11
+TR:A0A0Q3F3M1_BRADI  A0A0Q3F3M1 Beta-galactosidase OS=Brachypodiu...  67.0    3e-11
+TR:A0A067L0P8_JATCU  A0A067L0P8 Uncharacterized protein OS=Jatrop...  65.9    3e-11
+TR:A0A0D9VDU7_9ORYZ  A0A0D9VDU7 Beta-galactosidase OS=Leersia per...  67.0    3e-11
+TR:A0A2P5EIM8_9ROSA  A0A2P5EIM8 Beta-galactosidase OS=Trema orien...  67.0    3e-11
+TR:I1HYS4_BRADI  I1HYS4 Beta-galactosidase OS=Brachypodium distac...  67.0    3e-11
+TR:B2BMP7_PRUPE  B2BMP7 Beta-galactosidase OS=Prunus persica OX=3...  67.0    3e-11
+TR:M5XH07_PRUPE  M5XH07 Beta-galactosidase OS=Prunus persica OX=3...  67.0    3e-11
+TR:I1M5C9_SOYBN  I1M5C9 Beta-galactosidase OS=Glycine max OX=3847...  67.0    3e-11
+TR:A0A2G5F8L1_AQUCA  A0A2G5F8L1 Beta-galactosidase OS=Aquilegia c...  67.0    3e-11
+TR:A0A2C9UXV6_MANES  A0A2C9UXV6 Beta-galactosidase OS=Manihot esc...  67.0    3e-11
+TR:A0A061GM17_THECC  A0A061GM17 Beta-galactosidase OS=Theobroma c...  67.0    3e-11
+TR:A0A0D2VJ18_GOSRA  A0A0D2VJ18 Beta-galactosidase OS=Gossypium r...  66.6    4e-11
+TR:A0A1D6B1Q5_WHEAT  A0A1D6B1Q5 Beta-galactosidase OS=Triticum ae...  66.6    4e-11
+TR:A0A2T7F3P5_9POAL  A0A2T7F3P5 Uncharacterized protein OS=Panicu...  66.6    4e-11
+TR:A0A0D2UNH9_GOSRA  A0A0D2UNH9 Beta-galactosidase OS=Gossypium r...  66.6    4e-11
+TR:A0A0D2T3G0_GOSRA  A0A0D2T3G0 Beta-galactosidase OS=Gossypium r...  66.6    4e-11
+TR:A0A0D2RHX2_GOSRA  A0A0D2RHX2 Beta-galactosidase OS=Gossypium r...  66.6    4e-11
+TR:B2LYJ3_PETHY  B2LYJ3 Beta-galactosidase OS=Petunia hybrida OX=...  66.6    4e-11
+TR:A0A0D2UPW7_GOSRA  A0A0D2UPW7 Beta-galactosidase OS=Gossypium r...  66.6    4e-11
+TR:A0A1U8KF63_GOSHI  A0A1U8KF63 Beta-galactosidase OS=Gossypium h...  66.6    4e-11
+TR:A0A2P5RDF5_GOSBA  A0A2P5RDF5 Beta-galactosidase OS=Gossypium b...  66.6    4e-11
+TR:A0A1D6NKG7_MAIZE  A0A1D6NKG7 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:A0A1D6NKG0_MAIZE  A0A1D6NKG0 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:A0A1D6NKH0_MAIZE  A0A1D6NKH0 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:A0A1D6NKF6_MAIZE  A0A1D6NKF6 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:A0A1D6NKG9_MAIZE  A0A1D6NKG9 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:A0A1D6NKG8_MAIZE  A0A1D6NKG8 Beta-galactosidase 1 OS=Zea mays ...  66.2    5e-11
+TR:M0T336_MUSAM  M0T336 Uncharacterized protein OS=Musa acuminata...  66.2    5e-11
+TR:A0A0D2S0Q1_GOSRA  A0A0D2S0Q1 Beta-galactosidase OS=Gossypium r...  66.2    6e-11
+TR:A0A1D6NKE3_MAIZE  A0A1D6NKE3 Beta-galactosidase OS=Zea mays OX...  66.2    6e-11
+TR:A0A1W0VY46_SORBI  A0A1W0VY46 Beta-galactosidase OS=Sorghum bic...  66.2    6e-11
+TR:K3XEK0_SETIT  K3XEK0 Beta-galactosidase OS=Setaria italica OX=...  66.2    6e-11
+TR:A0A1W0VY58_SORBI  A0A1W0VY58 Beta-galactosidase OS=Sorghum bic...  66.2    6e-11
+TR:A0A1D6NKE5_MAIZE  A0A1D6NKE5 Beta-galactosidase OS=Zea mays OX...  66.2    6e-11
+TR:A0A2C9UAH0_MANES  A0A2C9UAH0 Beta-galactosidase OS=Manihot esc...  66.2    6e-11
+TR:B9RK64_RICCO  B9RK64 Beta-galactosidase OS=Ricinus communis OX...  66.2    6e-11
+TR:A0A2H3YZD8_PHODC  A0A2H3YZD8 Beta-galactosidase OS=Phoenix dac...  66.2    6e-11
+TR:A0A0D2QFN0_GOSRA  A0A0D2QFN0 Beta-galactosidase OS=Gossypium r...  66.2    6e-11
+TR:A0A1U8JDW5_GOSHI  A0A1U8JDW5 Beta-galactosidase OS=Gossypium h...  66.2    6e-11
+TR:A0A2H3YYM6_PHODC  A0A2H3YYM6 Beta-galactosidase OS=Phoenix dac...  66.2    6e-11
+TR:A0A2P5RZP7_GOSBA  A0A2P5RZP7 Beta-galactosidase OS=Gossypium b...  66.2    6e-11
+TR:A0A1E5VGC6_9POAL  A0A1E5VGC6 Beta-galactosidase OS=Dichantheli...  66.2    6e-11
+TR:R0HQF8_9BRAS  R0HQF8 Uncharacterized protein (Fragment) OS=Cap...  62.0    6e-11
+TR:A0A287L0K6_HORVV  A0A287L0K6 Uncharacterized protein OS=Hordeu...  63.9    7e-11
+TR:Q8W3Y6_PERAE  Q8W3Y6 Beta-galactosidase OS=Persea americana OX...  65.9    8e-11
+TR:A0A2G5DHU1_AQUCA  A0A2G5DHU1 Beta-galactosidase OS=Aquilegia c...  65.9    8e-11
+TR:Q6EM02_SANAU  Q6EM02 Beta-galactosidase OS=Sandersonia auranti...  65.9    8e-11
+TR:V7C958_PHAVU  V7C958 Beta-galactosidase OS=Phaseolus vulgaris ...  65.9    8e-11
+TR:A0A2G5DHP0_AQUCA  A0A2G5DHP0 Beta-galactosidase OS=Aquilegia c...  65.9    8e-11
+TR:A0A2G5DHR0_AQUCA  A0A2G5DHR0 Beta-galactosidase OS=Aquilegia c...  65.9    8e-11
+TR:A0A0B0PFZ7_GOSAR  A0A0B0PFZ7 Beta-galactosidase OS=Gossypium a...  65.9    8e-11
+TR:A0A1S3BIR6_CUCME  A0A1S3BIR6 Beta-galactosidase OS=Cucumis mel...  65.9    8e-11
+TR:W9S2S6_9ROSA  W9S2S6 Beta-galactosidase OS=Morus notabilis OX=...  65.9    8e-11
+TR:R0I922_9BRAS  R0I922 Beta-galactosidase OS=Capsella rubella OX...  65.9    8e-11
+TR:A0A1J3DQW7_NOCCA  A0A1J3DQW7 Beta-galactosidase OS=Noccaea cae...  65.9    8e-11
+TR:A0A1J3K1Q2_NOCCA  A0A1J3K1Q2 Beta-galactosidase OS=Noccaea cae...  65.9    8e-11
+TR:A0A1J3HDZ1_NOCCA  A0A1J3HDZ1 Beta-galactosidase OS=Noccaea cae...  65.9    8e-11
+TR:D7L1I1_ARALL  D7L1I1 Beta-galactosidase OS=Arabidopsis lyrata ...  65.9    8e-11
+TR:A0A178VM62_ARATH  A0A178VM62 Beta-galactosidase OS=Arabidopsis...  65.9    8e-11
+TR:A0A218WZF9_PUNGR  A0A218WZF9 Beta-galactosidase OS=Punica gran...  65.9    8e-11
+TR:A0A287TZV6_HORVV  A0A287TZV6 Uncharacterized protein OS=Hordeu...  65.5    9e-11
+TR:A0A287U0H8_HORVV  A0A287U0H8 Uncharacterized protein OS=Hordeu...  65.5    1e-10
+TR:Q0WKW5_ARATH  Q0WKW5 Putative galactosidase OS=Arabidopsis tha...  65.5    1e-10
+TR:B9DI45_ARATH  B9DI45 AT3G13750 protein (Fragment) OS=Arabidops...  65.5    1e-10
+TR:A0A287TZX7_HORVV  A0A287TZX7 Beta-galactosidase OS=Hordeum vul...  65.5    1e-10
+TR:A0A287TZN0_HORVV  A0A287TZN0 Beta-galactosidase OS=Hordeum vul...  65.5    1e-10
+TR:A0A287TZM8_HORVV  A0A287TZM8 Beta-galactosidase OS=Hordeum vul...  65.5    1e-10
+TR:A0A2N9EPW9_FAGSY  A0A2N9EPW9 Uncharacterized protein OS=Fagus ...  65.5    1e-10
+TR:A0A287TZL5_HORVV  A0A287TZL5 Beta-galactosidase OS=Hordeum vul...  65.5    1e-10
+TR:A0A199VZW1_ANACO  A0A199VZW1 Beta-galactosidase OS=Ananas como...  65.5    1e-10
+TR:A0A199W4Y7_ANACO  A0A199W4Y7 Beta-galactosidase OS=Ananas como...  65.5    1e-10
+TR:M0UZT2_HORVV  M0UZT2 Beta-galactosidase OS=Hordeum vulgare sub...  65.5    1e-10
+TR:A0A2P5BNZ9_PARAD  A0A2P5BNZ9 Beta-galactosidase OS=Parasponia ...  65.5    1e-10
+TR:A0A2I4GP81_9ROSI  A0A2I4GP81 Beta-galactosidase OS=Juglans reg...  65.5    1e-10
+TR:M0UZT3_HORVV  M0UZT3 Uncharacterized protein OS=Hordeum vulgar...  65.5    1e-10
+TR:A0A287TZX1_HORVV  A0A287TZX1 Beta-galactosidase OS=Hordeum vul...  65.5    1e-10
+TR:A0A2P5X2J4_GOSBA  A0A2P5X2J4 Beta-galactosidase OS=Gossypium b...  65.5    1e-10
+TR:A0A1U8IJT7_GOSHI  A0A1U8IJT7 Beta-galactosidase OS=Gossypium h...  65.5    1e-10
+TR:A0A0B0M8F2_GOSAR  A0A0B0M8F2 Beta-galactosidase OS=Gossypium a...  65.5    1e-10
+SP:BGAL1_ARATH  Q9SCW1 Beta-galactosidase 1 OS=Arabidopsis thalia...  65.5    1e-10
+TR:A0A287L0L8_HORVV  A0A287L0L8 Uncharacterized protein OS=Hordeu...  63.9    1e-10
+TR:Q6EM01_SANAU  Q6EM01 Beta-galactosidase (Fragment) OS=Sanderso...  65.1    1e-10
+TR:A0A1D6BF51_WHEAT  A0A1D6BF51 Beta-galactosidase OS=Triticum ae...  65.1    1e-10
+TR:A0A1J3IMB2_NOCCA  A0A1J3IMB2 Beta-galactosidase (Fragment) OS=...  65.1    1e-10
+TR:A0A2R6R462_ACTCH  A0A2R6R462 Beta-galactosidase OS=Actinidia c...  65.1    1e-10
+TR:A0A151R313_CAJCA  A0A151R313 Beta-galactosidase OS=Cajanus caj...  65.1    1e-10
+TR:A0A078GEW2_BRANA  A0A078GEW2 Beta-galactosidase OS=Brassica na...  65.1    1e-10
+TR:A0A0D3CKH8_BRAOL  A0A0D3CKH8 Beta-galactosidase OS=Brassica ol...  65.1    1e-10
+TR:M4EF41_BRARP  M4EF41 Beta-galactosidase OS=Brassica rapa subsp...  65.1    1e-10
+TR:W1NFR4_AMBTC  W1NFR4 Beta-galactosidase OS=Amborella trichopod...  64.7    2e-10
+TR:A0A0B0MF58_GOSAR  A0A0B0MF58 Beta-galactosidase OS=Gossypium a...  64.7    2e-10
+TR:J3L1C1_ORYBR  J3L1C1 Beta-galactosidase OS=Oryza brachyantha O...  64.7    2e-10
+TR:A0A078IRL6_BRANA  A0A078IRL6 Beta-galactosidase OS=Brassica na...  64.7    2e-10
+TR:A0A078HIB6_BRANA  A0A078HIB6 Beta-galactosidase OS=Brassica na...  64.7    2e-10
+TR:A0A0D3ADV5_BRAOL  A0A0D3ADV5 Beta-galactosidase OS=Brassica ol...  64.7    2e-10
+TR:A0A2I4EDN8_9ROSI  A0A2I4EDN8 Beta-galactosidase OS=Juglans reg...  64.7    2e-10
+TR:I1KUU7_SOYBN  I1KUU7 Beta-galactosidase OS=Glycine max OX=3847...  64.7    2e-10
+TR:A0A1U8N3V1_GOSHI  A0A1U8N3V1 Beta-galactosidase OS=Gossypium h...  64.7    2e-10
+TR:A9PIQ1_9ROSI  A9PIQ1 Beta-galactosidase OS=Populus trichocarpa...  64.7    2e-10
+TR:V4M1E3_EUTSA  V4M1E3 Beta-galactosidase OS=Eutrema salsugineum...  64.7    2e-10
+TR:U5GPE9_POPTR  U5GPE9 Beta-galactosidase OS=Populus trichocarpa...  64.7    2e-10
+TR:M4DYB0_BRARP  M4DYB0 Beta-galactosidase OS=Brassica rapa subsp...  64.7    2e-10
+TR:A0A2K2B174_POPTR  A0A2K2B174 Beta-galactosidase OS=Populus tri...  64.7    2e-10
+TR:A0A287L0K5_HORVV  A0A287L0K5 Uncharacterized protein OS=Hordeu...  63.9    2e-10
+TR:B8AAR0_ORYSI  B8AAR0 Uncharacterized protein OS=Oryza sativa s...  64.3    2e-10
+TR:A0A059CWA6_EUCGR  A0A059CWA6 Beta-galactosidase OS=Eucalyptus ...  64.3    3e-10
+TR:A0A0E0FNJ0_ORYNI  A0A0E0FNJ0 Beta-galactosidase OS=Oryza nivar...  64.3    3e-10
+TR:A0A0D9YAX3_9ORYZ  A0A0D9YAX3 Beta-galactosidase OS=Oryza glumi...  64.3    3e-10
+TR:A0A0R0GTD1_SOYBN  A0A0R0GTD1 Uncharacterized protein OS=Glycin...  64.3    3e-10
+TR:B8AAQ6_ORYSI  B8AAQ6 Beta-galactosidase OS=Oryza sativa subsp....  64.3    3e-10
+TR:A0A0E0MYG5_ORYRU  A0A0E0MYG5 Beta-galactosidase OS=Oryza rufip...  64.3    3e-10
+SP:BGAL2_ORYSJ  Q8W0A1 Beta-galactosidase 2 OS=Oryza sativa subsp...  64.3    3e-10
+TR:A0A0B2PB98_GLYSO  A0A0B2PB98 Beta-galactosidase OS=Glycine soj...  64.3    3e-10
+TR:A0A1Q3CBS7_CEPFO  A0A1Q3CBS7 Beta-galactosidase OS=Cephalotus ...  64.3    3e-10
+TR:A0A2I0AP11_9ASPA  A0A2I0AP11 Beta-galactosidase OS=Apostasia s...  64.3    3e-10
+TR:C3VDH9_CARPA  C3VDH9 Beta-galactosidase OS=Carica papaya OX=36...  64.3    3e-10
+TR:A0A2C9W6B5_MANES  A0A2C9W6B5 Beta-galactosidase OS=Manihot esc...  64.3    3e-10
+TR:B9EXP9_ORYSJ  B9EXP9 Beta-galactosidase OS=Oryza sativa subsp....  64.3    3e-10
+TR:A0A0R0GSW3_SOYBN  A0A0R0GSW3 Beta-galactosidase OS=Glycine max...  64.3    3e-10
+TR:A0A2I4GHK7_9ROSI  A0A2I4GHK7 Beta-galactosidase OS=Juglans reg...  64.3    3e-10
+TR:A0A0D3EQH4_9ORYZ  A0A0D3EQH4 Beta-galactosidase OS=Oryza barth...  64.3    3e-10
+TR:A0A287L0L7_HORVV  A0A287L0L7 Uncharacterized protein OS=Hordeu...  63.9    3e-10
+TR:A0A059BUT2_EUCGR  A0A059BUT2 Uncharacterized protein (Fragment...  63.5    3e-10
+TR:A0A1L6Z988_PETHY  A0A1L6Z988 Beta-galactosidase 6 (Fragment) O...  62.4    3e-10
+TR:A0A287L0K8_HORVV  A0A287L0K8 Uncharacterized protein OS=Hordeu...  63.9    3e-10
+TR:A0A287L0K4_HORVV  A0A287L0K4 Uncharacterized protein OS=Hordeu...  63.9    3e-10
+TR:A0A287L0J7_HORVV  A0A287L0J7 Beta-galactosidase OS=Hordeum vul...  63.9    3e-10
+TR:A0A078HW96_BRANA  A0A078HW96 Beta-galactosidase OS=Brassica na...  63.9    3e-10
+TR:M4DRH7_BRARP  M4DRH7 Beta-galactosidase OS=Brassica rapa subsp...  63.9    3e-10
+TR:M4DT01_BRARP  M4DT01 Beta-galactosidase OS=Brassica rapa subsp...  63.9    3e-10
+TR:Q68UW0_PYRCO  Q68UW0 Beta-galactosidase OS=Pyrus communis OX=2...  63.9    3e-10
+TR:A0A0D3BYE5_BRAOL  A0A0D3BYE5 Beta-galactosidase OS=Brassica ol...  63.9    3e-10
+TR:A0A0D3DG74_BRAOL  A0A0D3DG74 Beta-galactosidase OS=Brassica ol...  63.9    3e-10
+TR:Q2PHK0_PYRCO  Q2PHK0 Beta-galactosidase OS=Pyrus communis OX=2...  63.9    3e-10
+TR:A0A0R0FIV9_SOYBN  A0A0R0FIV9 Beta-galactosidase OS=Glycine max...  63.9    3e-10
+TR:A0A0L9TGJ5_PHAAN  A0A0L9TGJ5 Uncharacterized protein OS=Phaseo...  63.9    4e-10
+TR:A0A200QD89_9MAGN  A0A200QD89 Beta-galactosidase OS=Macleaya co...  63.9    4e-10
+TR:A0A287L0J9_HORVV  A0A287L0J9 Beta-galactosidase OS=Hordeum vul...  63.9    4e-10
+TR:I1HNV0_BRADI  I1HNV0 Beta-galactosidase OS=Brachypodium distac...  63.9    4e-10
+TR:A0A0S3R8L7_PHAAN  A0A0S3R8L7 Beta-galactosidase OS=Vigna angul...  63.9    4e-10
+TR:A0A072TLH1_MEDTR  A0A072TLH1 Beta-galactosidase OS=Medicago tr...  63.9    4e-10
+TR:I1MSH3_SOYBN  I1MSH3 Beta-galactosidase OS=Glycine max OX=3847...  63.9    4e-10
+TR:A0A2N9EWK0_FAGSY  A0A2N9EWK0 Beta-galactosidase OS=Fagus sylva...  63.9    4e-10
+TR:B9SN40_RICCO  B9SN40 Beta-galactosidase OS=Ricinus communis OX...  63.9    4e-10
+TR:A0A2K2C0M4_POPTR  A0A2K2C0M4 Uncharacterized protein OS=Populu...  63.5    4e-10
+TR:A0A2K2C0N7_POPTR  A0A2K2C0N7 Uncharacterized protein OS=Populu...  63.5    5e-10
+TR:A0A2K2C0M6_POPTR  A0A2K2C0M6 Beta-galactosidase OS=Populus tri...  63.5    5e-10
+TR:A0A2K2C0N5_POPTR  A0A2K2C0N5 Beta-galactosidase OS=Populus tri...  63.5    5e-10
+TR:A0A1U7V246_NICSY  A0A1U7V246 Beta-galactosidase OS=Nicotiana s...  63.5    5e-10
+TR:A0A1J6KUZ0_NICAT  A0A1J6KUZ0 Beta-galactosidase OS=Nicotiana a...  63.5    5e-10
+TR:A0A1S4BWG9_TOBAC  A0A1S4BWG9 Beta-galactosidase OS=Nicotiana t...  63.5    5e-10
+TR:A0A1S3YPI0_TOBAC  A0A1S3YPI0 Beta-galactosidase OS=Nicotiana t...  63.5    5e-10
+TR:A2Q570_MEDTR  A2Q570 Beta-galactosidase OS=Medicago truncatula...  63.5    5e-10
+TR:M4DBU6_BRARP  M4DBU6 Beta-galactosidase OS=Brassica rapa subsp...  63.5    5e-10
+TR:A0A0V0HAZ1_SOLCH  A0A0V0HAZ1 Putative ovule protein (Fragment)...  62.8    5e-10
+TR:A0A2I4GP95_9ROSI  A0A2I4GP95 Beta-galactosidase OS=Juglans reg...  63.5    5e-10
+TR:A0A0D3A6I7_BRAOL  A0A0D3A6I7 Beta-galactosidase OS=Brassica ol...  63.5    5e-10
+TR:A0A1S3UV22_VIGRR  A0A1S3UV22 Beta-galactosidase OS=Vigna radia...  63.5    5e-10
+TR:A0A200R0U1_9MAGN  A0A200R0U1 Beta-galactosidase OS=Macleaya co...  63.5    5e-10
+TR:A0A2I4EM37_9ROSI  A0A2I4EM37 Beta-galactosidase OS=Juglans reg...  63.5    5e-10
+TR:A0A1S3UUR3_VIGRR  A0A1S3UUR3 Beta-galactosidase OS=Vigna radia...  63.5    5e-10
+TR:A0A1J6ILZ6_NICAT  A0A1J6ILZ6 Beta-galactosidase OS=Nicotiana a...  63.5    5e-10
+TR:A0A1U7W1F9_NICSY  A0A1U7W1F9 Beta-galactosidase OS=Nicotiana s...  63.5    5e-10
+TR:A0A1S4AS56_TOBAC  A0A1S4AS56 Beta-galactosidase OS=Nicotiana t...  63.5    5e-10
+TR:U5GWC8_POPTR  U5GWC8 Beta-galactosidase OS=Populus trichocarpa...  63.5    5e-10
+TR:A2Q448_MEDTR  A2Q448 Beta-galactosidase OS=Medicago truncatula...  63.5    5e-10
+TR:A0A2P5RYW4_GOSBA  A0A2P5RYW4 Beta-galactosidase OS=Gossypium b...  63.5    5e-10
+TR:V7APN5_PHAVU  V7APN5 Beta-galactosidase OS=Phaseolus vulgaris ...  63.5    5e-10
+TR:A0A2C9W2E5_MANES  A0A2C9W2E5 Beta-galactosidase OS=Manihot esc...  63.5    5e-10
+TR:A0A2K2C0M3_POPTR  A0A2K2C0M3 Beta-galactosidase OS=Populus tri...  63.5    5e-10
+TR:A0A1D1Y901_9ARAE  A0A1D1Y901 Beta-galactosidase 2 (Fragment) O...  63.2    6e-10
+TR:A0A1R3H7N6_9ROSI  A0A1R3H7N6 Beta-galactosidase OS=Corchorus o...  63.2    6e-10
+TR:A0A0D2MGS3_GOSRA  A0A0D2MGS3 Beta-galactosidase OS=Gossypium r...  63.2    6e-10
+TR:A0A0D2RDJ4_GOSRA  A0A0D2RDJ4 Beta-galactosidase (Fragment) OS=...  63.2    6e-10
+TR:A0A0D2QCW3_GOSRA  A0A0D2QCW3 Beta-galactosidase OS=Gossypium r...  63.2    6e-10
+TR:M0TFY4_MUSAM  M0TFY4 Uncharacterized protein OS=Musa acuminata...  63.2    6e-10
+TR:V7BZJ8_PHAVU  V7BZJ8 Beta-galactosidase OS=Phaseolus vulgaris ...  63.2    7e-10
+TR:A0A0S3SFT6_PHAAN  A0A0S3SFT6 Beta-galactosidase OS=Vigna angul...  63.2    7e-10
+TR:A0A0L9UPB4_PHAAN  A0A0L9UPB4 Beta-galactosidase OS=Phaseolus a...  63.2    7e-10
+TR:I1MCY9_SOYBN  I1MCY9 Beta-galactosidase OS=Glycine max OX=3847...  63.2    7e-10
+TR:A0A1U8NPX9_GOSHI  A0A1U8NPX9 Beta-galactosidase OS=Gossypium h...  63.2    7e-10
+TR:A0A1R3HKD8_COCAP  A0A1R3HKD8 Beta-galactosidase OS=Corchorus c...  63.2    7e-10
+TR:A0A0D9V293_9ORYZ  A0A0D9V293 Uncharacterized protein OS=Leersi...  63.2    7e-10
+TR:M1A148_SOLTU  M1A148 Uncharacterized protein OS=Solanum tubero...  62.8    8e-10
+TR:M1D7B2_SOLTU  M1D7B2 Uncharacterized protein OS=Solanum tubero...  61.2    8e-10
+TR:A0A067FQ32_CITSI  A0A067FQ32 Uncharacterized protein OS=Citrus...  62.8    8e-10
+TR:A0A151SHR4_CAJCA  A0A151SHR4 Beta-galactosidase 1 OS=Cajanus c...  62.8    8e-10
+SP:BGAL2_ARATH  Q9LFA6 Beta-galactosidase 2 OS=Arabidopsis thalia...  62.8    9e-10
+TR:A0A178V7H5_ARATH  A0A178V7H5 Beta-galactosidase OS=Arabidopsis...  62.8    9e-10
+TR:D7LUB6_ARALL  D7LUB6 Beta-galactosidase OS=Arabidopsis lyrata ...  62.8    9e-10
+TR:A0A2R6QUT9_ACTCH  A0A2R6QUT9 Beta-galactosidase OS=Actinidia c...  62.8    9e-10
+TR:M0TFY2_MUSAM  M0TFY2 Uncharacterized protein OS=Musa acuminata...  62.8    9e-10
+TR:A0A2K3PJN9_TRIPR  A0A2K3PJN9 Beta-galactosidase OS=Trifolium p...  62.8    9e-10
+TR:A0A1I9LM56_ARATH  A0A1I9LM56 Beta-galactosidase OS=Arabidopsis...  62.8    9e-10
+TR:A0A0K9QTR9_SPIOL  A0A0K9QTR9 Beta-galactosidase OS=Spinacia ol...  62.8    9e-10
+TR:M7ZNR7_TRIUA  M7ZNR7 Beta-galactosidase OS=Triticum urartu OX=...  62.8    9e-10
+TR:A0A067FPA5_CITSI  A0A067FPA5 Beta-galactosidase OS=Citrus sine...  62.8    9e-10
+TR:A0A2H5NEG0_CITUN  A0A2H5NEG0 Beta-galactosidase OS=Citrus unsh...  62.8    9e-10
+TR:A0A2I0X900_9ASPA  A0A2I0X900 Beta-galactosidase OS=Dendrobium ...  62.8    9e-10
+TR:A0A1D5VAP1_WHEAT  A0A1D5VAP1 Beta-galactosidase OS=Triticum ae...  62.8    9e-10
+TR:A0A1S3U690_VIGRR  A0A1S3U690 Beta-galactosidase OS=Vigna radia...  62.8    9e-10
+TR:M1A147_SOLTU  M1A147 Beta-galactosidase OS=Solanum tuberosum O...  62.8    9e-10
+TR:A0A2H3Y4D6_PHODC  A0A2H3Y4D6 Beta-galactosidase OS=Phoenix dac...  62.8    9e-10
+TR:K4C6Y9_SOLLC  K4C6Y9 Beta-galactosidase OS=Solanum lycopersicu...  62.8    9e-10
+TR:A0A1U8HDR9_CAPAN  A0A1U8HDR9 Beta-galactosidase OS=Capsicum an...  62.8    9e-10
+TR:A0A2G2ZBE1_CAPAN  A0A2G2ZBE1 Beta-galactosidase OS=Capsicum an...  62.8    9e-10
+TR:A0A1S3ZN21_TOBAC  A0A1S3ZN21 Beta-galactosidase OS=Nicotiana t...  62.8    9e-10
+TR:A0A151SHS2_CAJCA  A0A151SHS2 Beta-galactosidase OS=Cajanus caj...  62.8    9e-10
+TR:A0A067FD06_CITSI  A0A067FD06 Beta-galactosidase OS=Citrus sine...  62.8    9e-10
+TR:A0A2G2WL62_CAPBA  A0A2G2WL62 Beta-galactosidase OS=Capsicum ba...  62.8    9e-10
+TR:A0A2H5NEE9_CITUN  A0A2H5NEE9 Beta-galactosidase OS=Citrus unsh...  62.8    9e-10
+TR:A0A2G3C8Y3_CAPCH  A0A2G3C8Y3 Beta-galactosidase OS=Capsicum ch...  62.8    9e-10
+TR:V4SLN7_9ROSI  V4SLN7 Beta-galactosidase OS=Citrus clementina O...  62.8    9e-10
+TR:V4UK86_9ROSI  V4UK86 Beta-galactosidase OS=Citrus clementina O...  62.8    9e-10
+TR:A0A067FGM8_CITSI  A0A067FGM8 Beta-galactosidase OS=Citrus sine...  62.8    9e-10
+TR:A0A178V501_ARATH  A0A178V501 Uncharacterized protein OS=Arabid...  60.1    1e-09
+TR:A0A2P6R839_ROSCH  A0A2P6R839 Putative beta-galactosidase OS=Ro...  59.7    1e-09
+TR:M0TFY5_MUSAM  M0TFY5 Beta-galactosidase OS=Musa acuminata subs...  62.4    1e-09
+TR:V4LVJ4_EUTSA  V4LVJ4 Beta-galactosidase OS=Eutrema salsugineum...  62.4    1e-09
+TR:A0A199VPU6_ANACO  A0A199VPU6 Beta-galactosidase OS=Ananas como...  62.4    1e-09
+TR:A0A067KC92_JATCU  A0A067KC92 Beta-galactosidase OS=Jatropha cu...  62.4    1e-09
+TR:A0A2H3WY23_PHODC  A0A2H3WY23 Beta-galactosidase OS=Phoenix dac...  62.4    1e-09
+TR:A0A1U7XFX1_NICSY  A0A1U7XFX1 Beta-galactosidase OS=Nicotiana s...  62.4    1e-09
+TR:A0A1J6L6V1_NICAT  A0A1J6L6V1 Beta-galactosidase OS=Nicotiana a...  62.4    1e-09
+TR:A0A1U7WZI1_NICSY  A0A1U7WZI1 Beta-galactosidase OS=Nicotiana s...  62.4    1e-09
+TR:A0A0S3T011_PHAAN  A0A0S3T011 Beta-galactosidase OS=Vigna angul...  62.4    1e-09
+TR:A0A0L9TII3_PHAAN  A0A0L9TII3 Beta-galactosidase OS=Phaseolus a...  62.4    1e-09
+TR:A0A1S3VDF3_VIGRR  A0A1S3VDF3 Beta-galactosidase OS=Vigna radia...  62.4    1e-09
+TR:A0A1S3ZWV7_TOBAC  A0A1S3ZWV7 Beta-galactosidase OS=Nicotiana t...  62.4    1e-09
+TR:A0A1S2XES4_CICAR  A0A1S2XES4 Beta-galactosidase OS=Cicer ariet...  62.4    1e-09
+TR:Q8VWU5_NARPS  Q8VWU5 Putative beta-galactosidase (Fragment) OS...  58.5    1e-09
+TR:M0ZHI4_SOLTU  M0ZHI4 Uncharacterized protein OS=Solanum tubero...  61.6    1e-09
+TR:A0A2K3PCQ1_TRIPR  A0A2K3PCQ1 Beta-galactosidase-like protein O...  62.0    1e-09
+TR:A0A140GMM4_NEPMI  A0A140GMM4 Beta-galactosidase (Fragment) OS=...  62.0    2e-09
+TR:A0A0J8B708_BETVU  A0A0J8B708 Beta-galactosidase OS=Beta vulgar...  62.0    2e-09
+TR:A0A0V0ITI1_SOLCH  A0A0V0ITI1 Beta-galactosidase OS=Solanum cha...  62.0    2e-09
+TR:A0A1J3IPK9_NOCCA  A0A1J3IPK9 Beta-galactosidase OS=Noccaea cae...  62.0    2e-09
+TR:A0A1J3DAZ9_NOCCA  A0A1J3DAZ9 Beta-galactosidase OS=Noccaea cae...  62.0    2e-09
+TR:A0A1J3G2W1_NOCCA  A0A1J3G2W1 Beta-galactosidase OS=Noccaea cae...  62.0    2e-09
+TR:A0A2G2XJ64_CAPAN  A0A2G2XJ64 Uncharacterized protein OS=Capsic...  60.5    2e-09
+TR:N1QQ23_AEGTA  N1QQ23 Beta-galactosidase OS=Aegilops tauschii O...  62.0    2e-09
+SP:BGAL_ASPOF  P45582 Beta-galactosidase OS=Asparagus officinalis...  62.0    2e-09
+TR:A0A1D5VP83_WHEAT  A0A1D5VP83 Beta-galactosidase OS=Triticum ae...  62.0    2e-09
+TR:O65761_CICAR  O65761 Beta-galactosidase OS=Cicer arietinum OX=...  62.0    2e-09
+TR:A0A0K9PJ10_ZOSMR  A0A0K9PJ10 Beta-galactosidase OS=Zostera mar...  62.0    2e-09
+TR:A0A2G9GBC3_9LAMI  A0A2G9GBC3 Beta-galactosidase OS=Handroanthu...  62.0    2e-09
+TR:I1KGC4_SOYBN  I1KGC4 Beta-galactosidase OS=Glycine max OX=3847...  62.0    2e-09
+TR:A0A1D5WNH3_WHEAT  A0A1D5WNH3 Beta-galactosidase OS=Triticum ae...  62.0    2e-09
+TR:S8CL68_9LAMI  S8CL68 Beta-galactosidase OS=Genlisea aurea OX=1...  61.6    2e-09
+TR:O65737_CICAR  O65737 Beta-galactosidase (Fragment) OS=Cicer ar...  61.2    2e-09
+TR:M0ZHI5_SOLTU  M0ZHI5 Beta-galactosidase OS=Solanum tuberosum O...  61.6    2e-09
+TR:A0A0K9QFB3_SPIOL  A0A0K9QFB3 Beta-galactosidase OS=Spinacia ol...  61.6    2e-09
+TR:M0ZHI6_SOLTU  M0ZHI6 Beta-galactosidase OS=Solanum tuberosum O...  61.6    2e-09
+TR:O82670_CICAR  O82670 Beta-galactosidase OS=Cicer arietinum OX=...  61.6    2e-09
+TR:K4DBX2_SOLLC  K4DBX2 Beta-galactosidase OS=Solanum lycopersicu...  61.6    2e-09
+TR:Q9T0P6_SOLLC  Q9T0P6 Beta-galactosidase OS=Solanum lycopersicu...  61.6    2e-09
+TR:O81100_SOLLC  O81100 Beta-galactosidase OS=Solanum lycopersicu...  61.6    2e-09
+TR:A0A2P4LTI1_QUESU  A0A2P4LTI1 Beta-galactosidase OS=Quercus sub...  61.6    2e-09
+TR:E7D4T9_ACTDE  E7D4T9 Beta-galactosidase OS=Actinidia deliciosa...  61.6    2e-09
+TR:A0A022PYF1_ERYGU  A0A022PYF1 Beta-galactosidase OS=Erythranthe...  61.6    2e-09
+TR:A0A2G2VH25_CAPBA  A0A2G2VH25 Beta-galactosidase OS=Capsicum ba...  61.6    2e-09
+TR:A0A2G3B358_CAPCH  A0A2G3B358 Beta-galactosidase OS=Capsicum ch...  61.6    2e-09
+TR:A0A1U8EXR0_CAPAN  A0A1U8EXR0 Beta-galactosidase OS=Capsicum an...  61.6    2e-09
+TR:A0A2G2Y8M8_CAPAN  A0A2G2Y8M8 Beta-galactosidase OS=Capsicum an...  61.6    2e-09
+TR:A0A2R6QFF6_ACTCH  A0A2R6QFF6 Beta-galactosidase OS=Actinidia c...  61.6    2e-09
+TR:M0S8L9_MUSAM  M0S8L9 Uncharacterized protein OS=Musa acuminata...  61.6    2e-09
+TR:A0A2R6R0C9_ACTCH  A0A2R6R0C9 Beta-galactosidase OS=Actinidia c...  61.6    2e-09
+TR:A0A061GD78_THECC  A0A061GD78 Beta-galactosidase OS=Theobroma c...  61.6    2e-09
+TR:A0A067KNH2_JATCU  A0A067KNH2 Uncharacterized protein OS=Jatrop...  61.2    3e-09
+TR:A0A2K2A2E4_POPTR  A0A2K2A2E4 Beta-galactosidase OS=Populus tri...  61.2    3e-09
+TR:A0A087GXC6_ARAAL  A0A087GXC6 Beta-galactosidase OS=Arabis alpi...  61.2    3e-09
+TR:A0A2G2YUX4_CAPAN  A0A2G2YUX4 Beta-galactosidase OS=Capsicum an...  61.2    3e-09
+TR:V4LRV2_EUTSA  V4LRV2 Beta-galactosidase OS=Eutrema salsugineum...  61.2    3e-09
+TR:A0A2I0AU02_9ASPA  A0A2I0AU02 Beta-galactosidase OS=Apostasia s...  61.2    3e-09
+TR:O65736_CICAR  O65736 Beta-galactosidase OS=Cicer arietinum OX=...  61.2    3e-09
+TR:W9QUM5_9ROSA  W9QUM5 Beta-galactosidase OS=Morus notabilis OX=...  61.2    3e-09
+TR:A0A251NHH7_PRUPE  A0A251NHH7 Beta-galactosidase OS=Prunus pers...  61.2    3e-09
+TR:A0A2K2A2E0_POPTR  A0A2K2A2E0 Beta-galactosidase OS=Populus tri...  61.2    3e-09
+TR:A0A2K2A2E1_POPTR  A0A2K2A2E1 Beta-galactosidase OS=Populus tri...  61.2    3e-09
+TR:A0A2S3HUI5_9POAL  A0A2S3HUI5 Uncharacterized protein OS=Panicu...  61.2    3e-09
+TR:A0A2T7DKL1_9POAL  A0A2T7DKL1 Uncharacterized protein OS=Panicu...  61.2    3e-09
+SP:BGAL_SOLLC  P48980 Beta-galactosidase OS=Solanum lycopersicum ...  61.2    3e-09
+TR:M1D7B3_SOLTU  M1D7B3 Beta-galactosidase OS=Solanum tuberosum O...  61.2    3e-09
+TR:A0A2U1P5B7_ARTAN  A0A2U1P5B7 Beta-galactosidase OS=Artemisia a...  61.2    3e-09
+TR:Q546T5_SOLLC  Q546T5 Beta-galactosidase OS=Solanum lycopersicu...  61.2    3e-09
+TR:B2BMP8_PRUPE  B2BMP8 Beta-galactosidase OS=Prunus persica OX=3...  61.2    3e-09
+TR:M5WGE4_PRUPE  M5WGE4 Beta-galactosidase OS=Prunus persica OX=3...  61.2    3e-09
+TR:B9HDL7_POPTR  B9HDL7 Beta-galactosidase OS=Populus trichocarpa...  61.2    3e-09
+TR:A0A1U8B3Y8_NELNU  A0A1U8B3Y8 Beta-galactosidase OS=Nelumbo nuc...  61.2    3e-09
+TR:M4DMM1_BRARP  M4DMM1 Uncharacterized protein OS=Brassica rapa ...  60.5    4e-09
+TR:A0A2G3C0D1_CAPCH  A0A2G3C0D1 Uncharacterized protein OS=Capsic...  60.8    4e-09
+TR:A0A2K3PIK1_TRIPR  A0A2K3PIK1 Beta-galactosidase 1-like protein...  60.8    4e-09
+TR:A0A022QKD4_ERYGU  A0A022QKD4 Beta-galactosidase OS=Erythranthe...  60.8    4e-09
+TR:A0A2P5SG41_GOSBA  A0A2P5SG41 Beta-galactosidase OS=Gossypium b...  60.8    4e-09
+SP:BGAL_MALDO  P48981 Beta-galactosidase OS=Malus domestica OX=37...  60.8    4e-09
+TR:Q9AYS1_PYRPY  Q9AYS1 Beta-galactosidase OS=Pyrus pyrifolia OX=...  60.8    4e-09
+TR:A0A0D2LT52_GOSRA  A0A0D2LT52 Beta-galactosidase OS=Gossypium r...  60.8    4e-09
+TR:A0A1U8M219_GOSHI  A0A1U8M219 Beta-galactosidase OS=Gossypium h...  60.8    4e-09
+TR:A0A2P5W3G8_GOSBA  A0A2P5W3G8 Beta-galactosidase OS=Gossypium b...  60.8    4e-09
+TR:A0A218XEC9_PUNGR  A0A218XEC9 Beta-galactosidase OS=Punica gran...  60.8    4e-09
+TR:A0A1J7IWH2_LUPAN  A0A1J7IWH2 Beta-galactosidase OS=Lupinus ang...  60.8    4e-09
+TR:W1P006_AMBTC  W1P006 Beta-galactosidase OS=Amborella trichopod...  60.8    4e-09
+TR:A0A2P4N1X3_QUESU  A0A2P4N1X3 Beta-galactosidase OS=Quercus sub...  60.8    4e-09
+TR:A0A0D3DHZ3_BRAOL  A0A0D3DHZ3 Beta-galactosidase OS=Brassica ol...  60.8    4e-09
+TR:A0A1U8E1W5_CAPAN  A0A1U8E1W5 Beta-galactosidase OS=Capsicum an...  60.5    5e-09
+TR:A0A1U8EAR7_CAPAN  A0A1U8EAR7 Beta-galactosidase OS=Capsicum an...  60.5    5e-09
+TR:A0A2G2X3S2_CAPBA  A0A2G2X3S2 Beta-galactosidase OS=Capsicum ba...  60.5    5e-09
+TR:A0A1U8E994_CAPAN  A0A1U8E994 Beta-galactosidase OS=Capsicum an...  60.5    5e-09
+TR:A0A022S0R8_ERYGU  A0A022S0R8 Beta-galactosidase OS=Erythranthe...  60.5    5e-09
+TR:Q8LP12_CAPAN  Q8LP12 Beta-galactosidase OS=Capsicum annuum OX=...  60.5    5e-09
+TR:Q93XM4_CAPAN  Q93XM4 Beta-galactosidase OS=Capsicum annuum OX=...  60.5    5e-09
+TR:A0A1U8DZG3_CAPAN  A0A1U8DZG3 Beta-galactosidase OS=Capsicum an...  60.5    5e-09
+TR:A0A2G3BNT0_CAPCH  A0A2G3BNT0 Beta-galactosidase OS=Capsicum ch...  60.5    5e-09
+TR:D7MFC5_ARALL  D7MFC5 Beta-galactosidase OS=Arabidopsis lyrata ...  60.5    5e-09
+TR:F6LC68_LINUS  F6LC68 Beta-galactosidase OS=Linum usitatissimum...  60.5    5e-09
+TR:A0A158VV53_DIOKA  A0A158VV53 Beta-galactosidase OS=Diospyros k...  60.5    5e-09
+TR:A0A0D2U8I0_GOSRA  A0A0D2U8I0 Beta-galactosidase OS=Gossypium r...  60.5    6e-09
+TR:A0A2C9UAN4_MANES  A0A2C9UAN4 Beta-galactosidase OS=Manihot esc...  60.5    6e-09
+TR:A0A2I0X3A5_9ASPA  A0A2I0X3A5 Beta-galactosidase OS=Dendrobium ...  60.5    6e-09
+TR:E3UVW5_SOLLC  E3UVW5 Beta-galactosidase OS=Solanum lycopersicu...  60.5    6e-09
+TR:Q9ZP11_SOLLC  Q9ZP11 Beta-galactosidase OS=Solanum lycopersicu...  60.5    6e-09
+TR:A0A1U7VSS3_NICSY  A0A1U7VSS3 Beta-galactosidase OS=Nicotiana s...  60.5    6e-09
+TR:A0A1J6KPI8_NICAT  A0A1J6KPI8 Beta-galactosidase OS=Nicotiana a...  60.5    6e-09
+TR:A0A1S3XAD0_TOBAC  A0A1S3XAD0 Beta-galactosidase OS=Nicotiana t...  60.5    6e-09
+TR:A0A1S3YSF6_TOBAC  A0A1S3YSF6 Beta-galactosidase OS=Nicotiana t...  60.5    6e-09
+TR:U3PIW7_TOBAC  U3PIW7 Beta-galactosidase OS=Nicotiana tabacum O...  60.5    6e-09
+TR:A0A1U8J2P0_GOSHI  A0A1U8J2P0 Beta-galactosidase OS=Gossypium h...  60.5    6e-09
+TR:A0A0D2V7C6_GOSRA  A0A0D2V7C6 Beta-galactosidase OS=Gossypium r...  60.5    6e-09
+TR:A0A0D2R483_GOSRA  A0A0D2R483 Beta-galactosidase OS=Gossypium r...  60.5    6e-09
+TR:A0A2P5R2E1_GOSBA  A0A2P5R2E1 Beta-galactosidase OS=Gossypium b...  60.5    6e-09
+TR:A0A059CMW5_EUCGR  A0A059CMW5 Beta-galactosidase OS=Eucalyptus ...  60.5    6e-09
+TR:A0A103YB78_CYNCS  A0A103YB78 Galactose-binding domain-like pro...  60.1    7e-09
+TR:A0A2I0VPM6_9ASPA  A0A2I0VPM6 Beta-galactosidase OS=Dendrobium ...  59.7    7e-09
+TR:A0A2I0V8R7_9ASPA  A0A2I0V8R7 Beta-galactosidase OS=Dendrobium ...  60.1    7e-09
+TR:A0A059BQK8_EUCGR  A0A059BQK8 Beta-galactosidase OS=Eucalyptus ...  60.1    7e-09
+TR:A0A059CX37_EUCGR  A0A059CX37 Beta-galactosidase OS=Eucalyptus ...  60.1    7e-09
+SP:BGA12_ARATH  Q9SCV0 Beta-galactosidase 12 OS=Arabidopsis thali...  60.1    7e-09
+TR:A0A0A0LGB3_CUCSA  A0A0A0LGB3 Uncharacterized protein OS=Cucumi...  60.1    7e-09
+TR:A0A1P8B849_ARATH  A0A1P8B849 Beta-galactosidase OS=Arabidopsis...  60.1    7e-09
+TR:B8LLU8_PICSI  B8LLU8 Beta-galactosidase OS=Picea sitchensis OX...  60.1    8e-09
+TR:A0A0B0MK07_GOSAR  A0A0B0MK07 Beta-galactosidase OS=Gossypium a...  60.1    8e-09
+TR:A0A1U8HLK5_GOSHI  A0A1U8HLK5 Beta-galactosidase OS=Gossypium h...  60.1    8e-09
+TR:W5RYK6_CAMSI  W5RYK6 Beta-galactosidase OS=Camellia sinensis O...  60.1    8e-09
+TR:D7MBM5_ARALL  D7MBM5 Beta-galactosidase OS=Arabidopsis lyrata ...  60.1    8e-09
+TR:A0A0D3A1J5_BRAOL  A0A0D3A1J5 Beta-galactosidase OS=Brassica ol...  60.1    8e-09
+TR:M4D5C0_BRARP  M4D5C0 Beta-galactosidase OS=Brassica rapa subsp...  60.1    8e-09
+TR:M1D1X7_SOLTU  M1D1X7 Uncharacterized protein OS=Solanum tubero...  59.7    1e-08
+TR:A0A2N9ECC2_FAGSY  A0A2N9ECC2 Beta-galactosidase OS=Fagus sylva...  59.7    1e-08
+TR:Q9ZP30_CARPA  Q9ZP30 Beta-galactosidase OS=Carica papaya OX=36...  59.7    1e-08
+TR:B2MWR2_CARPA  B2MWR2 Beta-galactosidase OS=Carica papaya OX=36...  59.7    1e-08
+TR:E3UVW6_SOLLC  E3UVW6 Beta-galactosidase OS=Solanum lycopersicu...  59.7    1e-08
+TR:A0A2P6RK95_ROSCH  A0A2P6RK95 Beta-galactosidase OS=Rosa chinen...  59.7    1e-08
+TR:A0A1S4CTC6_TOBAC  A0A1S4CTC6 Beta-galactosidase OS=Nicotiana t...  59.7    1e-08
+TR:K4B3L3_SOLLC  K4B3L3 Beta-galactosidase OS=Solanum lycopersicu...  59.7    1e-08
+TR:M1D1X9_SOLTU  M1D1X9 Uncharacterized protein OS=Solanum tubero...  59.7    1e-08
+TR:A0A2G2XWQ9_CAPAN  A0A2G2XWQ9 Beta-galactosidase OS=Capsicum an...  59.7    1e-08
+TR:A0A1U8E8Z4_CAPAN  A0A1U8E8Z4 Beta-galactosidase OS=Capsicum an...  59.7    1e-08
+TR:A0A2R6Q523_ACTCH  A0A2R6Q523 Beta-galactosidase OS=Actinidia c...  59.7    1e-08
+TR:A0A2P5WPA1_GOSBA  A0A2P5WPA1 Beta-galactosidase OS=Gossypium b...  59.7    1e-08
+TR:A3A4M1_ORYSJ  A3A4M1 Beta-galactosidase OS=Oryza sativa subsp....  59.7    1e-08
+TR:A0A0V0ITW0_SOLCH  A0A0V0ITW0 Beta-galactosidase OS=Solanum cha...  59.7    1e-08
+TR:A0A068TRC2_COFCA  A0A068TRC2 Beta-galactosidase OS=Coffea cane...  59.7    1e-08
+TR:W9R5Y9_9ROSA  W9R5Y9 Beta-galactosidase OS=Morus notabilis OX=...  59.7    1e-08
+TR:A0A2G9GHW9_9LAMI  A0A2G9GHW9 Beta-galactosidase OS=Handroanthu...  59.7    1e-08
+TR:A0A2G5EJH9_AQUCA  A0A2G5EJH9 Beta-galactosidase OS=Aquilegia c...  59.7    1e-08
+TR:A0A2G5EJI0_AQUCA  A0A2G5EJI0 Beta-galactosidase OS=Aquilegia c...  59.7    1e-08
+TR:A0A2G5EJZ6_AQUCA  A0A2G5EJZ6 Beta-galactosidase OS=Aquilegia c...  59.7    1e-08
+TR:A0A1S3CTM6_CUCME  A0A1S3CTM6 beta-galactosidase 2-like OS=Cucu...  55.8    1e-08
+TR:M0ZRS6_SOLTU  M0ZRS6 Uncharacterized protein OS=Solanum tubero...  58.2    1e-08
+TR:A0A1P8AMY9_ARATH  A0A1P8AMY9 Beta-galactosidase OS=Arabidopsis...  59.3    1e-08
+TR:A0A2P5BIX6_9ROSA  A0A2P5BIX6 Beta-galactosidase OS=Trema orien...  59.3    1e-08
+TR:A0A078HGQ4_BRANA  A0A078HGQ4 Beta-galactosidase OS=Brassica na...  59.3    1e-08
+TR:M4DC24_BRARP  M4DC24 Beta-galactosidase OS=Brassica rapa subsp...  59.3    1e-08
+TR:A0A087H225_ARAAL  A0A087H225 Beta-galactosidase OS=Arabis alpi...  59.3    1e-08
+TR:A0A059CWC5_EUCGR  A0A059CWC5 Beta-galactosidase OS=Eucalyptus ...  59.3    1e-08
+TR:A0A1U7WAN8_NICSY  A0A1U7WAN8 Beta-galactosidase OS=Nicotiana s...  59.3    1e-08
+TR:A0A1S4DCI9_TOBAC  A0A1S4DCI9 Beta-galactosidase OS=Nicotiana t...  59.3    1e-08
+TR:A0A2G3BW46_CAPCH  A0A2G3BW46 Beta-galactosidase OS=Capsicum ch...  59.3    1e-08
+TR:A0A2G9HIC9_9LAMI  A0A2G9HIC9 Beta-galactosidase OS=Handroanthu...  59.3    1e-08
+TR:R0H1Q6_9BRAS  R0H1Q6 Beta-galactosidase OS=Capsella rubella OX...  59.3    1e-08
+TR:A0A068TNS4_COFCA  A0A068TNS4 Beta-galactosidase OS=Coffea cane...  59.3    1e-08
+TR:G7ICD0_MEDTR  G7ICD0 Beta-galactosidase OS=Medicago truncatula...  59.3    1e-08
+SP:BGAL5_ARATH  Q9MAJ7 Beta-galactosidase 5 OS=Arabidopsis thalia...  59.3    1e-08
+TR:A0A178WBB9_ARATH  A0A178WBB9 Beta-galactosidase OS=Arabidopsis...  59.3    1e-08
+TR:A0A175YBC6_DAUCA  A0A175YBC6 Beta-galactosidase OS=Daucus caro...  59.3    1e-08
+TR:A0A2G2XXC6_CAPAN  A0A2G2XXC6 Beta-galactosidase OS=Capsicum an...  59.3    1e-08
+TR:A0A1U8G1M4_CAPAN  A0A1U8G1M4 Beta-galactosidase OS=Capsicum an...  59.3    1e-08
+TR:D7TZZ8_VITVI  D7TZZ8 Beta-galactosidase OS=Vitis vinifera OX=2...  59.3    1e-08
+TR:A0A1U7YSZ0_NELNU  A0A1U7YSZ0 Beta-galactosidase OS=Nelumbo nuc...  59.3    1e-08
+TR:Q0EDA8_PERAE  Q0EDA8 Beta-galactosidase OS=Persea americana OX...  59.3    1e-08
+TR:A0A200Q6U9_9MAGN  A0A200Q6U9 Beta-galactosidase OS=Macleaya co...  59.3    1e-08
+TR:A0A2G3D0R2_CAPCH  A0A2G3D0R2 Beta-galactosidase OS=Capsicum ch...  59.3    1e-08
+TR:A0A2I0ARY5_9ASPA  A0A2I0ARY5 Beta-galactosidase OS=Apostasia s...  59.3    1e-08
+TR:A0A1U8HF40_CAPAN  A0A1U8HF40 beta-galactosidase-like OS=Capsic...  58.5    1e-08
+TR:M0ZHI3_SOLTU  M0ZHI3 Uncharacterized protein OS=Solanum tubero...  54.3    2e-08
+TR:A0A2G2Z3A5_CAPAN  A0A2G2Z3A5 Uncharacterized protein OS=Capsic...  56.2    2e-08
+TR:A0A0M4MYJ9_9ROSA  A0A0M4MYJ9 Beta-galactosidase OS=Pyrus x bre...  58.9    2e-08
+TR:A0A251TQD2_HELAN  A0A251TQD2 Beta-galactosidase OS=Helianthus ...  58.9    2e-08
+TR:V7AYU3_PHAVU  V7AYU3 Beta-galactosidase OS=Phaseolus vulgaris ...  58.9    2e-08
+TR:S5MHI5_9ROSA  S5MHI5 Beta-galactosidase OS=Pyrus x bretschneid...  58.9    2e-08
+TR:Q5CCP9_PYRPY  Q5CCP9 Beta-galactosidase OS=Pyrus pyrifolia OX=...  58.9    2e-08
+TR:V4KIC1_EUTSA  V4KIC1 Beta-galactosidase OS=Eutrema salsugineum...  58.9    2e-08
+TR:A0A1J3I1H3_NOCCA  A0A1J3I1H3 Beta-galactosidase OS=Noccaea cae...  58.9    2e-08
+TR:A0A1J3K894_NOCCA  A0A1J3K894 Beta-galactosidase OS=Noccaea cae...  58.9    2e-08
+TR:A0A1J3FFG1_NOCCA  A0A1J3FFG1 Beta-galactosidase OS=Noccaea cae...  58.9    2e-08
+TR:A0A1J3DA73_NOCCA  A0A1J3DA73 Beta-galactosidase OS=Noccaea cae...  58.9    2e-08
+TR:D7KPS1_ARALL  D7KPS1 Beta-galactosidase OS=Arabidopsis lyrata ...  58.9    2e-08
+TR:A0A068VLB4_COFCA  A0A068VLB4 Uncharacterized protein OS=Coffea...  58.5    2e-08
+TR:A0A2J6LQD6_LACSA  A0A2J6LQD6 Beta-galactosidase OS=Lactuca sat...  58.9    2e-08
+TR:A0A2G2V8S9_CAPBA  A0A2G2V8S9 Beta-galactosidase OS=Capsicum ba...  58.9    2e-08
+TR:I1H9D2_BRADI  I1H9D2 Beta-galactosidase OS=Brachypodium distac...  58.9    2e-08
+
+
+>TR:C0HJ30_MAIZE C0HJ30 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=296
+
+ Score = 80.9 bits (198),  Expect = 1e-16
+ Identities = 36/40 (90%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLV+LEEFGGDLSGVKLV +
+Sbjct  255  GDVSQRYYHVPRSWLNPSGNLLVMLEEFGGDLSGVKLVTR  294
+
+
+>TR:A0A1W0VTL1_SORBI A0A1W0VTL1 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3010G173800 PE=3 SV=1
+Length=501
+
+ Score = 82.0 bits (201),  Expect = 2e-16
+ Identities = 37/40 (93%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV +
+Sbjct  460  GDVSQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVTR  499
+
+
+>TR:A0A1W0VTL7_SORBI A0A1W0VTL7 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3010G173800 PE=3 SV=1
+Length=515
+
+ Score = 82.0 bits (201),  Expect = 2e-16
+ Identities = 37/40 (93%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV +
+Sbjct  474  GDVSQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVTR  513
+
+
+>TR:C5Z534_SORBI C5Z534 Beta-galactosidase OS=Sorghum bicolor OX=4558 GN=SORBI_3010G173800 
+PE=3 SV=1
+Length=725
+
+ Score = 82.0 bits (201),  Expect = 2e-16
+ Identities = 37/40 (93%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV +
+Sbjct  684  GDVSQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVTR  723
+
+
+>TR:B4F9J1_MAIZE B4F9J1 Beta-galactosidase OS=Zea mays OX=4577 GN=100191631 PE=2 
+SV=1
+Length=722
+
+ Score = 80.9 bits (198),  Expect = 5e-16
+ Identities = 36/40 (90%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLV+LEEFGGDLSGVKLV +
+Sbjct  681  GDVSQRYYHVPRSWLNPSGNLLVMLEEFGGDLSGVKLVTR  720
+
+
+>TR:I1GXU1_BRADI I1GXU1 Beta-galactosidase OS=Brachypodium distachyon OX=15368 
+GN=LOC100832421 PE=3 SV=1
+Length=719
+
+ Score = 79.3 bits (194),  Expect = 2e-15
+ Identities = 36/40 (90%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWLNPSGNLLVVLEEFGGDLSGVKL+ +
+Sbjct  678  GDISQRWYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLMTR  717
+
+
+>TR:B6SXY3_MAIZE B6SXY3 Beta-galactosidase OS=Zea mays OX=4577 PE=2 SV=1
+Length=450
+
+ Score = 79.0 bits (193),  Expect = 2e-15
+ Identities = 35/40 (88%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLV+LEEFGGDL GVKLV +
+Sbjct  409  GDVSQRYYHVPRSWLNPSGNLLVLLEEFGGDLPGVKLVTR  448
+
+
+>TR:B6T0D0_MAIZE B6T0D0 Beta-galactosidase OS=Zea mays OX=4577 PE=2 SV=1
+Length=723
+
+ Score = 79.0 bits (193),  Expect = 2e-15
+ Identities = 35/40 (88%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQRYYHVPRSWLNPSGNLLV+LEEFGGDL GVKLV +
+Sbjct  682  GDVSQRYYHVPRSWLNPSGNLLVLLEEFGGDLPGVKLVTR  721
+
+
+>TR:B9FTV3_ORYSJ B9FTV3 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_21763 PE=4 SV=1
+Length=85
+
+ Score = 72.8 bits (177),  Expect = 3e-15
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  44  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  83
+
+
+>TR:A2YE98_ORYSI A2YE98 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_23443 PE=4 SV=1
+Length=85
+
+ Score = 72.8 bits (177),  Expect = 3e-15
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  44  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  83
+
+
+>TR:A0A1E5VZ55_9POAL A0A1E5VZ55 Beta-galactosidase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0008597 PE=3 SV=1
+Length=768
+
+ Score = 78.2 bits (191),  Expect = 4e-15
+ Identities = 35/40 (88%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPRSWLNPSGNLLV++EEFGGDLSGV LV +
+Sbjct  727  GDISQRYYHVPRSWLNPSGNLLVLMEEFGGDLSGVTLVTR  766
+
+
+>TR:A0A2S3HIH2_9POAL A0A2S3HIH2 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G103800 PE=4 SV=1
+Length=723
+
+ Score = 77.8 bits (190),  Expect = 5e-15
+ Identities = 35/40 (88%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPR+WLNPSGNLLV+LEEFGGDLSGV LV +
+Sbjct  682  GDISQRYYHVPRAWLNPSGNLLVLLEEFGGDLSGVTLVTR  721
+
+
+>TR:A0A2T7DX90_9POAL A0A2T7DX90 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G104600 PE=4 SV=1
+Length=723
+
+ Score = 77.8 bits (190),  Expect = 5e-15
+ Identities = 35/40 (88%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPR+WLNPSGNLLV+LEEFGGDLSGV LV +
+Sbjct  682  GDISQRYYHVPRAWLNPSGNLLVLLEEFGGDLSGVTLVTR  721
+
+
+>TR:A0A0P0WY55_ORYSJ A0A0P0WY55 Os06g0573600 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os06g0573600 PE=4 SV=1
+Length=137
+
+ Score = 72.8 bits (177),  Expect = 1e-14
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  96   GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  135
+
+
+>TR:K3XWN9_SETIT K3XWN9 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_005914mg 
+PE=3 SV=1
+Length=474
+
+ Score = 75.9 bits (185),  Expect = 2e-14
+ Identities = 34/40 (85%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPRSWLNPSGNL+V+LEEFGG+LSGV LV +
+Sbjct  433  GDISQRYYHVPRSWLNPSGNLVVLLEEFGGNLSGVTLVTR  472
+
+
+>TR:K3XWH9_SETIT K3XWH9 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_005914mg 
+PE=3 SV=1
+Length=501
+
+ Score = 75.9 bits (185),  Expect = 2e-14
+ Identities = 34/40 (85%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPRSWLNPSGNL+V+LEEFGG+LSGV LV +
+Sbjct  460  GDISQRYYHVPRSWLNPSGNLVVLLEEFGGNLSGVTLVTR  499
+
+
+>TR:K3XVF7_SETIT K3XVF7 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_005914mg 
+PE=3 SV=1
+Length=759
+
+ Score = 75.9 bits (185),  Expect = 3e-14
+ Identities = 34/40 (85%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQRYYHVPRSWLNPSGNL+V+LEEFGG+LSGV LV +
+Sbjct  718  GDISQRYYHVPRSWLNPSGNLVVLLEEFGGNLSGVTLVTR  757
+
+
+>TR:A0A287X720_HORVV A0A287X720 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=472
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  431  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  470
+
+
+>TR:A0A287X6R0_HORVV A0A287X6R0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=489
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  448  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  487
+
+
+>TR:A0A1D6BLI6_WHEAT A0A1D6BLI6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=551
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  510  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  549
+
+
+>TR:A0A287X6U2_HORVV A0A287X6U2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=570
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  529  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  568
+
+
+>TR:M8A003_TRIUA M8A003 Beta-galactosidase OS=Triticum urartu OX=4572 GN=TRIUR3_09432 
+PE=3 SV=1
+Length=649
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  608  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  647
+
+
+>TR:A0A1D6CMU1_WHEAT A0A1D6CMU1 Beta-galactosidase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=692
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  651  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  690
+
+
+>TR:A0A287X6T2_HORVV A0A287X6T2 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=704
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  663  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  702
+
+
+>TR:A0A287X6X6_HORVV A0A287X6X6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=704
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  663  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  702
+
+
+>TR:A0A287X724_HORVV A0A287X724 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=704
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  663  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  702
+
+
+>TR:F2EF11_HORVV F2EF11 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=716
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  675  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  714
+
+
+>TR:A0A1D6CMU2_WHEAT A0A1D6CMU2 Beta-galactosidase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=717
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  676  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  715
+
+
+>TR:R7W2E3_AEGTA R7W2E3 Beta-galactosidase OS=Aegilops tauschii OX=37682 GN=F775_10189 
+PE=3 SV=1
+Length=735
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  694  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  733
+
+
+>TR:A0A287X6Q2_HORVV A0A287X6Q2 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=747
+
+ Score = 74.7 bits (182),  Expect = 6e-14
+ Identities = 34/40 (85%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLSGV L+ +
+Sbjct  706  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSGVTLMTR  745
+
+
+>TR:A0A0D9WRE7_9ORYZ A0A0D9WRE7 Beta-galactosidase OS=Leersia perrieri OX=77586 PE=3 
+SV=1
+Length=720
+
+ Score = 73.2 bits (178),  Expect = 2e-13
+ Identities = 31/40 (78%), Positives = 38/40 (95%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWLNPSGNL+V+LEE+GGDLSGV L+ +
+Sbjct  679  GDVSQRWYHVPRSWLNPSGNLVVLLEEYGGDLSGVTLMTR  718
+
+
+>TR:A0A0P0WYA9_ORYSJ A0A0P0WYA9 Os06g0573600 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os06g0573600 PE=4 SV=1
+Length=389
+
+ Score = 72.8 bits (177),  Expect = 2e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  348  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  387
+
+
+>TR:A0A0E0AB65_9ORYZ A0A0E0AB65 Beta-galactosidase OS=Oryza glumipatula OX=40148 PE=3 
+SV=1
+Length=681
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  640  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  679
+
+
+>TR:A0A0E0HFT5_ORYNI A0A0E0HFT5 Beta-galactosidase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=696
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  655  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  694
+
+
+>SP:BGAL9_ORYSJ Q5Z7L0 Beta-galactosidase 9 OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os06g0573600 PE=2 SV=1
+Length=715
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  674  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  713
+
+
+>TR:A0A0E0LCV5_ORYPU A0A0E0LCV5 Beta-galactosidase OS=Oryza punctata OX=4537 PE=3 
+SV=1
+Length=715
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  674  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  713
+
+
+>TR:I1Q372_ORYGL I1Q372 Beta-galactosidase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=715
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  674  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  713
+
+
+>TR:A0A0E0PZE9_ORYRU A0A0E0PZE9 Beta-galactosidase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=716
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  675  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  714
+
+
+>TR:A2YEA5_ORYSI A2YEA5 Beta-galactosidase OS=Oryza sativa subsp. indica OX=39946 
+GN=OsI_23450 PE=3 SV=1
+Length=717
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  676  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  715
+
+
+>TR:A0A0E0E331_9ORYZ A0A0E0E331 Beta-galactosidase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=720
+
+ Score = 72.8 bits (177),  Expect = 3e-13
+ Identities = 32/40 (80%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNPSGNL+V+LEEFGGDLSGV L+ +
+Sbjct  679  GDASQRWYHVPRSWLNPSGNLVVLLEEFGGDLSGVTLMTR  718
+
+
+>TR:A0A0A9LFS7_ARUDO A0A0A9LFS7 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=262
+
+ Score = 71.2 bits (173),  Expect = 3e-13
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  221  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVALATR  260
+
+
+>TR:A0A0P0VGI6_ORYSJ A0A0P0VGI6 Os02g0219200 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os02g0219200 PE=4 SV=1
+Length=196
+
+ Score = 70.1 bits (170),  Expect = 4e-13
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  155  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  194
+
+
+>TR:A0A2I0HJP9_PUNGR A0A2I0HJP9 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_047687 PE=4 SV=1
+Length=137
+
+ Score = 68.6 bits (166),  Expect = 4e-13
+ Identities = 29/41 (71%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+           G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV +D
+Sbjct  54  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGISLVRRD  94
+
+
+>TR:A0A1D6QQF0_MAIZE A0A1D6QQF0 Beta-galactosidase OS=Zea mays OX=4577 GN=103654804 
+PE=3 SV=1
+Length=518
+
+ Score = 71.6 bits (174),  Expect = 7e-13
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  477  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVSLATR  516
+
+
+>TR:A0A1D6QQF3_MAIZE A0A1D6QQF3 Beta-galactosidase OS=Zea mays OX=4577 GN=103654804 
+PE=3 SV=1
+Length=537
+
+ Score = 71.6 bits (174),  Expect = 7e-13
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  496  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVSLATR  535
+
+
+>TR:A0A0D3GI21_9ORYZ A0A0D3GI21 Beta-galactosidase OS=Oryza barthii OX=65489 PE=3 
+SV=1
+Length=715
+
+ Score = 71.6 bits (174),  Expect = 7e-13
+ Identities = 31/40 (78%), Positives = 37/40 (93%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNL+V+LEEFGGDLSGV L+ +
+Sbjct  674  GDASQRWYHVPRSWLNPNGNLVVLLEEFGGDLSGVTLMTR  713
+
+
+>TR:A0A1D6C8D7_WHEAT A0A1D6C8D7 Beta-galactosidase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=718
+
+ Score = 71.6 bits (174),  Expect = 7e-13
+ Identities = 33/40 (83%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEEFGGDLS V L+ +
+Sbjct  677  GDISQRWYHVPRSWLKPSGNLLVVLEEFGGDLSRVTLMTR  716
+
+
+>TR:A0A1D6QQE8_MAIZE A0A1D6QQE8 Beta-galactosidase OS=Zea mays OX=4577 GN=103654804 
+PE=3 SV=1
+Length=736
+
+ Score = 71.6 bits (174),  Expect = 7e-13
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  695  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVSLATR  734
+
+
+>TR:A0A1D6QQE9_MAIZE A0A1D6QQE9 Beta-galactosidase OS=Zea mays OX=4577 GN=103654804 
+PE=3 SV=1
+Length=829
+
+ Score = 71.6 bits (174),  Expect = 8e-13
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  788  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVSLATR  827
+
+
+>TR:A0A0A8XQ87_ARUDO A0A0A8XQ87 Beta-galactosidase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=720
+
+ Score = 71.2 bits (173),  Expect = 1e-12
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  679  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVALATR  718
+
+
+>TR:A0A1E5UV24_9POAL A0A1E5UV24 Beta-galactosidase 4 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0022247 PE=3 SV=1
+Length=761
+
+ Score = 71.2 bits (173),  Expect = 1e-12
+ Identities = 31/40 (78%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  720  GDLSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVALATR  759
+
+
+>TR:A0A0P0VGH5_ORYSJ A0A0P0VGH5 Os02g0219200 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os02g0219200 PE=4 SV=1
+Length=282
+
+ Score = 70.1 bits (170),  Expect = 1e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  241  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  280
+
+
+>TR:A0A0P0VGJ1_ORYSJ A0A0P0VGJ1 Os02g0219200 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os02g0219200 PE=3 SV=1
+Length=500
+
+ Score = 70.1 bits (170),  Expect = 2e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  459  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  498
+
+
+>TR:J3LAX7_ORYBR J3LAX7 Beta-galactosidase OS=Oryza brachyantha OX=4533 GN=102706537 
+PE=3 SV=1
+Length=706
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  665  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  704
+
+
+>TR:A0A0E0CI13_9ORYZ A0A0E0CI13 Beta-galactosidase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=725
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  684  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  723
+
+
+>SP:BGAL4_ORYSJ Q6Z6K4 Beta-galactosidase 4 OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os02g0219200 PE=2 SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>SP:BGAL4_ORYSI A2X2H7 Beta-galactosidase 4 OS=Oryza sativa subsp. indica OX=39946 
+GN=OsI_006270 PE=3 SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>TR:A0A0D3F2I8_9ORYZ A0A0D3F2I8 Beta-galactosidase OS=Oryza barthii OX=65489 PE=3 
+SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>TR:A0A0E0IYA2_ORYNI A0A0E0IYA2 Beta-galactosidase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>TR:A0A0E0NBT1_ORYRU A0A0E0NBT1 Beta-galactosidase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>TR:A0A0D9YPE1_9ORYZ A0A0D9YPE1 Beta-galactosidase OS=Oryza glumipatula OX=40148 PE=3 
+SV=1
+Length=729
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  688  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  727
+
+
+>TR:A0A0E0CI12_9ORYZ A0A0E0CI12 Beta-galactosidase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=791
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV L  +
+Sbjct  750  GDLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVSLATR  789
+
+
+>TR:A0A0A9M1Q2_ARUDO A0A0A9M1Q2 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=99
+
+ Score = 65.5 bits (158),  Expect = 3e-12
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNP+GNLLV  EE+GGD +G+ +V +
+Sbjct  48  GDASQRWYHVPRSWLNPTGNLLVAFEEWGGDPTGISMVKR  87
+
+
+>TR:A0A1Q3D657_CEPFO A0A1Q3D657 Beta-galactosidase OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_31369 PE=3 SV=1
+Length=841
+
+ Score = 69.7 bits (169),  Expect = 4e-12
+ Identities = 30/41 (73%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            GD SQR+YHVPRSWLNP+GNLLVVLEE GGD +G+ LV ++
+Sbjct  687  GDASQRWYHVPRSWLNPTGNLLVVLEELGGDPNGISLVRRE  727
+
+
+>TR:K3YQC9_SETIT K3YQC9 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101763409 
+PE=3 SV=1
+Length=716
+
+ Score = 69.3 bits (168),  Expect = 5e-12
+ Identities = 31/40 (78%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  675  GDPSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVALATR  714
+
+
+>TR:A0A2P6RXZ0_ROSCH A0A2P6RXZ0 Beta-galactosidase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr2g0142961 
+PE=3 SV=1
+Length=841
+
+ Score = 69.3 bits (168),  Expect = 5e-12
+ Identities = 34/68 (50%), Positives = 49/68 (72%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVVLEE+GGD +G+ LV +  D +  +  +   NL+  +
+Sbjct  687  GEASQRWYHVPRSWLNPAGNLLVVLEEWGGDPNGIFLVRREVDSICADIYEWQPNLMSWQ  746
+
+Query  59   LEKGGRTH  66
+            ++  GR +
+Sbjct  747  MQVSGRVN  754
+
+
+>TR:Q93X58_FRAAN Q93X58 Beta-galactosidase OS=Fragaria ananassa OX=3747 GN=beta-gal1 
+PE=2 SV=1
+Length=843
+
+ Score = 69.3 bits (168),  Expect = 5e-12
+ Identities = 34/68 (50%), Positives = 49/68 (72%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVVLEE+GGD +G+ LV +  D +  +  +   NL+  +
+Sbjct  689  GEASQRWYHVPRSWLNPTGNLLVVLEEWGGDPNGIFLVRREVDSVCADIYEWQPNLMSWQ  748
+
+Query  59   LEKGGRTH  66
+            ++  GR +
+Sbjct  749  MQVSGRVN  756
+
+
+>TR:A0A0A9LBD0_ARUDO A0A0A9LBD0 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=124
+
+ Score = 65.5 bits (158),  Expect = 5e-12
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV  EE+GGD +G+ +V +
+Sbjct  73   GDASQRWYHVPRSWLNPTGNLLVAFEEWGGDPTGISMVKR  112
+
+
+>TR:A0A218WUL2_PUNGR A0A218WUL2 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr005511 PE=4 SV=1
+Length=216
+
+ Score = 67.4 bits (163),  Expect = 5e-12
+ Identities = 33/70 (47%), Positives = 46/70 (66%), Gaps = 2/70 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGMIGNGD--QVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+ NLLVV EE+GGD +G+ LV +D +    D  +    L+  E
+Sbjct  82   GEASQRWYHVPRSWLNPTANLLVVFEEWGGDPNGISLVRRDIVSVCADIYEWQPTLINYE  141
+
+Query  59   LEKGGRTHTH  68
+            ++  G+   H
+Sbjct  142  MQTSGKVKKH  151
+
+
+>TR:A0A0E0JXD8_ORYPU A0A0E0JXD8 Beta-galactosidase OS=Oryza punctata OX=4537 PE=3 
+SV=1
+Length=726
+
+ Score = 68.9 bits (167),  Expect = 6e-12
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLV+LEE+GGDL+GV L  +
+Sbjct  685  GDLSQRWYHVPRSWLKPGGNLLVMLEEYGGDLAGVNLATR  724
+
+
+>TR:A0A0A9ICK0_ARUDO A0A0A9ICK0 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=196
+
+ Score = 66.6 bits (161),  Expect = 7e-12
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  48  GDASQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  87
+
+
+>TR:A0A1J3EVJ6_NOCCA A0A1J3EVJ6 Beta-galactosidase 12 (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=LC_TR19694_c1_g1_i1_g.65645 PE=4 SV=1
+Length=128
+
+ Score = 65.1 bits (157),  Expect = 7e-12
+ Identities = 28/50 (56%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGMIGNGDQV  50
+            G+ SQR+YHVPRSW+ PSGNL+VVLEE+GGD +G+ LV +       D +
+Sbjct  76   GEASQRWYHVPRSWVKPSGNLIVVLEEWGGDPNGISLVKRSAKTLASDSI  125
+
+
+>TR:A0A2P5BH96_PARAD A0A2P5BH96 Beta-galactosidase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_239240 PE=3 SV=1
+Length=841
+
+ Score = 68.6 bits (166),  Expect = 9e-12
+ Identities = 30/41 (73%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            GD SQR+YHVP SWLNP+GNLLVVLEE+GGD +G+ LV +D
+Sbjct  687  GDASQRWYHVPHSWLNPTGNLLVVLEEWGGDPNGIFLVRRD  727
+
+
+>TR:A0A2P5FEB2_9ROSA A0A2P5FEB2 Beta-galactosidase OS=Trema orientalis OX=63057 GN=TorRG33x02_080700 
+PE=3 SV=1
+Length=844
+
+ Score = 68.6 bits (166),  Expect = 9e-12
+ Identities = 30/41 (73%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            GD SQR+YHVP SWLNP+GNLLVVLEE+GGD +G+ LV +D
+Sbjct  690  GDASQRWYHVPHSWLNPTGNLLVVLEEWGGDPNGIFLVRRD  730
+
+
+>TR:A0A059AIM7_EUCGR A0A059AIM7 Beta-galactosidase OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_J02867 PE=3 SV=1
+Length=844
+
+ Score = 68.6 bits (166),  Expect = 9e-12
+ Identities = 29/41 (71%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV +D
+Sbjct  690  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGISLVRRD  730
+
+
+>TR:A0A218WVL4_PUNGR A0A218WVL4 Beta-galactosidase OS=Punica granatum OX=22663 GN=CDL15_Pgr005523 
+PE=3 SV=1
+Length=863
+
+ Score = 68.6 bits (166),  Expect = 9e-12
+ Identities = 29/41 (71%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV +D
+Sbjct  629  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGISLVRRD  669
+
+
+>TR:A0A2P4LTP8_QUESU A0A2P4LTP8 Beta-galactosidase OS=Quercus suber OX=58331 GN=CFP56_53074 
+PE=3 SV=1
+Length=866
+
+ Score = 68.6 bits (166),  Expect = 9e-12
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EEFGGD +G+ LV +
+Sbjct  715  GEPSQRWYHVPRSWLNPSGNLLVVFEEFGGDPTGISLVKR  754
+
+
+>TR:A0A1R3J9Z9_9ROSI A0A1R3J9Z9 Uncharacterized protein OS=Corchorus olitorius OX=93759 
+GN=COLO4_18203 PE=4 SV=1
+Length=319
+
+ Score = 67.8 bits (164),  Expect = 1e-11
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EE+GGD SG+ LV +
+Sbjct  168  GEPSQRWYHVPRSWLNPSGNLLVVFEEWGGDPSGISLVKR  207
+
+
+>TR:A0A1D6NKH2_MAIZE A0A1D6NKH2 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=196
+
+ Score = 66.2 bits (160),  Expect = 1e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  48  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  87
+
+
+>TR:A0A218WVN7_PUNGR A0A218WVN7 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr005532 PE=4 SV=1
+Length=622
+
+ Score = 68.2 bits (165),  Expect = 1e-11
+ Identities = 28/41 (68%), Positives = 37/41 (90%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ S+R+YHVPRSWLNP+GNLLV+ EE+GGDL+G+ LV +D
+Sbjct  495  GESSRRWYHVPRSWLNPTGNLLVLFEEWGGDLNGISLVRRD  535
+
+
+>TR:A0A2S3GMN3_9POAL A0A2S3GMN3 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G089100 PE=4 SV=1
+Length=731
+
+ Score = 67.8 bits (164),  Expect = 2e-11
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  690  GEPSQRWYHVPRSWLKPSGNLLVVLEEYGGDLAGVALARR  729
+
+
+>TR:A0A1R3HAE4_COCAP A0A1R3HAE4 Beta-galactosidase OS=Corchorus capsularis OX=210143 
+GN=CCACVL1_20626 PE=3 SV=1
+Length=832
+
+ Score = 67.8 bits (164),  Expect = 2e-11
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EE+GGD SG+ LV +
+Sbjct  681  GEPSQRWYHVPRSWLNPSGNLLVVFEEWGGDPSGISLVKR  720
+
+
+>TR:A0A067KPU1_JATCU A0A067KPU1 Beta-galactosidase OS=Jatropha curcas OX=180498 GN=JCGZ_07400 
+PE=3 SV=1
+Length=838
+
+ Score = 67.8 bits (164),  Expect = 2e-11
+ Identities = 30/40 (75%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EEFGG+ SG+ LV +
+Sbjct  685  GEPSQRWYHVPRSWLNPSGNLLVVFEEFGGNPSGISLVKR  724
+
+
+>TR:A0A1J3H048_NOCCA A0A1J3H048 Beta-galactosidase 12 (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=LE_TR3576_c2_g1_i1_g.11644 PE=4 SV=1
+Length=169
+
+ Score = 65.1 bits (157),  Expect = 2e-11
+ Identities = 28/50 (56%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGMIGNGDQV  50
+            G+ SQR+YHVPRSW+ PSGNL+VVLEE+GGD +G+ LV +       D +
+Sbjct  117  GEASQRWYHVPRSWVKPSGNLIVVLEEWGGDPNGISLVKRSAKTLASDSI  166
+
+
+>TR:A0A1D6AJZ1_WHEAT A0A1D6AJZ1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=404
+
+ Score = 67.4 bits (163),  Expect = 2e-11
+ Identities = 28/40 (70%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G++SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  362  GELSQRWYHVPRSWLKPGGNLLVVLEEYGGDLTGVAMATR  401
+
+
+>TR:C5XY33_SORBI C5XY33 Beta-galactosidase OS=Sorghum bicolor OX=4558 GN=SORBI_3004G093400 
+PE=3 SV=1
+Length=740
+
+ Score = 67.4 bits (163),  Expect = 2e-11
+ Identities = 32/41 (78%), Positives = 36/41 (88%), Gaps = 1/41 (2%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEF-GGDLSGVKLVNQ  40
+            GDISQR+YHVPRSWL PSGNLLVVLEE+ GGDL+GV L  +
+Sbjct  698  GDISQRWYHVPRSWLKPSGNLLVVLEEYGGGDLAGVTLATR  738
+
+
+>TR:A0A2I4GPB1_9ROSI A0A2I4GPB1 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC109009617 
+PE=3 SV=1
+Length=843
+
+ Score = 67.4 bits (163),  Expect = 2e-11
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EE+GGD +G+ LV +
+Sbjct  692  GEASQRWYHVPRSWLNPSGNLLVVFEEWGGDPTGISLVKR  731
+
+
+>TR:A0A199V442_ANACO A0A199V442 Beta-galactosidase OS=Ananas comosus OX=4615 GN=ACMD2_05029 
+PE=3 SV=1
+Length=855
+
+ Score = 67.4 bits (163),  Expect = 2e-11
+ Identities = 28/40 (70%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNL+VVLEE+GGD +G+ +V +
+Sbjct  707  GDSSQRWYHVPRSWLNPTGNLIVVLEEWGGDPTGISMVKR  746
+
+
+>TR:A0A2I0JKG4_PUNGR A0A2I0JKG4 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_022856 PE=4 SV=1
+Length=240
+
+ Score = 65.9 bits (159),  Expect = 3e-11
+ Identities = 27/41 (66%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YH+PRSWLNP+GNLLVV EE GGD SG+ L  ++
+Sbjct  86   GEASQRWYHIPRSWLNPTGNLLVVFEELGGDPSGISLARRE  126
+
+
+>TR:A0A0Q3F3M1_BRADI A0A0Q3F3M1 Beta-galactosidase OS=Brachypodium distachyon OX=15368 
+GN=BRADI_3g08180v3 PE=3 SV=1
+Length=664
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 28/40 (70%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G++SQR+YHVPRSWL P GNLLVVLEE+GGD++GV L  +
+Sbjct  623  GELSQRWYHVPRSWLKPGGNLLVVLEEYGGDVAGVTLATR  662
+
+
+>TR:A0A067L0P8_JATCU A0A067L0P8 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_24782 PE=4 SV=1
+Length=251
+
+ Score = 65.9 bits (159),  Expect = 3e-11
+ Identities = 27/41 (66%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQ++YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  124  GEASQKWYHVPRSWLNPTGNLLVVFEEWGGDPNGISLVRRE  164
+
+
+>TR:A0A0D9VDU7_9ORYZ A0A0D9VDU7 Beta-galactosidase OS=Leersia perrieri OX=77586 PE=3 
+SV=1
+Length=714
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 28/40 (70%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD+SQR+YHVPRSWL P GNLLVV+EE+GG+L+GV L  +
+Sbjct  673  GDLSQRWYHVPRSWLKPGGNLLVVMEEYGGNLAGVTLATR  712
+
+
+>TR:A0A2P5EIM8_9ROSA A0A2P5EIM8 Beta-galactosidase OS=Trema orientalis OX=63057 GN=TorRG33x02_187840 
+PE=3 SV=1
+Length=720
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 29/38 (76%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV  38
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD SG+ LV
+Sbjct  675  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPSGISLV  712
+
+
+>TR:I1HYS4_BRADI I1HYS4 Beta-galactosidase OS=Brachypodium distachyon OX=15368 
+GN=LOC100842758 PE=3 SV=1
+Length=724
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 28/40 (70%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G++SQR+YHVPRSWL P GNLLVVLEE+GGD++GV L  +
+Sbjct  683  GELSQRWYHVPRSWLKPGGNLLVVLEEYGGDVAGVTLATR  722
+
+
+>TR:B2BMP7_PRUPE B2BMP7 Beta-galactosidase OS=Prunus persica OX=3760 PE=2 SV=1
+Length=841
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPR+WLNP+GNLLVVLEE+GGD +G+ LV +  D +  +  +   NL+  +
+Sbjct  687  GEASQRWYHVPRTWLNPTGNLLVVLEEWGGDPNGIFLVRREIDSICADIYEWQPNLMSWQ  746
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  747  MQASGK  752
+
+
+>TR:M5XH07_PRUPE M5XH07 Beta-galactosidase OS=Prunus persica OX=3760 GN=PRUPE_3G050200 
+PE=3 SV=1
+Length=841
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 32/66 (48%), Positives = 48/66 (73%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPR+WLNP+GNLLVVLEE+GGD +G+ LV +  D +  +  +   NL+  +
+Sbjct  687  GEASQRWYHVPRTWLNPTGNLLVVLEEWGGDPNGIFLVRREIDSICADIYEWQPNLMSWQ  746
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  747  MQASGK  752
+
+
+>TR:I1M5C9_SOYBN I1M5C9 Beta-galactosidase OS=Glycine max OX=3847 GN=100787084 
+PE=3 SV=2
+Length=841
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE GGDL+G+ LV +D
+Sbjct  689  GEASQRWYHVPQSWLKPTGNLLVVFEELGGDLNGISLVRRD  729
+
+
+>TR:A0A2G5F8L1_AQUCA A0A2G5F8L1 Beta-galactosidase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_00100069v1 PE=3 SV=1
+Length=843
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 27/40 (68%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YH+PRSWLNPSGNLLV+ EE+GG+ +G+ LV++
+Sbjct  689  GDASQRWYHIPRSWLNPSGNLLVIFEEWGGEPNGISLVSR  728
+
+
+>TR:A0A2C9UXV6_MANES A0A2C9UXV6 Beta-galactosidase OS=Manihot esculenta OX=3983 GN=MANES_11G026900 
+PE=3 SV=1
+Length=845
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  691  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGISLVRRE  731
+
+
+>TR:A0A061GM17_THECC A0A061GM17 Beta-galactosidase OS=Theobroma cacao OX=3641 GN=TCM_037665 
+PE=3 SV=1
+Length=847
+
+ Score = 67.0 bits (162),  Expect = 3e-11
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNL+VV EE+GGD SG+ LV +
+Sbjct  696  GEPSQRWYHVPRSWLNPSGNLMVVFEEWGGDPSGISLVKR  735
+
+
+>TR:A0A0D2VJ18_GOSRA A0A0D2VJ18 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_011G065300 PE=3 SV=1
+Length=690
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  536  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  576
+
+
+>TR:A0A1D6B1Q5_WHEAT A0A1D6B1Q5 Beta-galactosidase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=725
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G +SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  683  GQLSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  722
+
+
+>TR:A0A2T7F3P5_9POAL A0A2T7F3P5 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G087300 PE=4 SV=1
+Length=731
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWL PSGNLLVVLEE+GGDL+GV L  +
+Sbjct  690  GEPSQRWYHLPRSWLKPSGNLLVVLEEYGGDLAGVALARR  729
+
+
+>TR:A0A0D2UNH9_GOSRA A0A0D2UNH9 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_011G065300 PE=3 SV=1
+Length=784
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  630  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  670
+
+
+>TR:A0A0D2T3G0_GOSRA A0A0D2T3G0 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_011G065300 PE=3 SV=1
+Length=788
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A0D2RHX2_GOSRA A0A0D2RHX2 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_011G065300 PE=3 SV=1
+Length=841
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:B2LYJ3_PETHY B2LYJ3 Beta-galactosidase OS=Petunia hybrida OX=4102 GN=BGAL1 
+PE=2 SV=1
+Length=842
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            GD SQR+YHVPRSWL+P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  688  GDASQRWYHVPRSWLHPTGNLLVVFEEWGGDPNGISLVKRE  728
+
+
+>TR:A0A0D2UPW7_GOSRA A0A0D2UPW7 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_011G065300 PE=3 SV=1
+Length=846
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A1U8KF63_GOSHI A0A1U8KF63 Beta-galactosidase OS=Gossypium hirsutum OX=3635 GN=LOC107916371 
+PE=3 SV=1
+Length=846
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A2P5RDF5_GOSBA A0A2P5RDF5 Beta-galactosidase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD18231 PE=3 SV=1
+Length=860
+
+ Score = 66.6 bits (161),  Expect = 4e-11
+ Identities = 28/41 (68%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A1D6NKG7_MAIZE A0A1D6NKG7 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=416
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  268  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  307
+
+
+>TR:A0A1D6NKG0_MAIZE A0A1D6NKG0 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=437
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  289  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  328
+
+
+>TR:A0A1D6NKH0_MAIZE A0A1D6NKH0 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=516
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  368  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  407
+
+
+>TR:A0A1D6NKF6_MAIZE A0A1D6NKF6 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=521
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  373  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  412
+
+
+>TR:A0A1D6NKG9_MAIZE A0A1D6NKG9 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=543
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  395  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  434
+
+
+>TR:A0A1D6NKG8_MAIZE A0A1D6NKG8 Beta-galactosidase 1 OS=Zea mays OX=4577 GN=100272556 
+PE=4 SV=1
+Length=569
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  421  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  460
+
+
+>TR:M0T336_MUSAM M0T336 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=734
+
+ Score = 66.2 bits (160),  Expect = 5e-11
+ Identities = 28/43 (65%), Positives = 36/43 (84%), Gaps = 0/43 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGM  43
+            G+ SQ++YHVPRSWLNP+GNLLVV EE+GGD SG+ LV +  +
+Sbjct  692  GESSQKWYHVPRSWLNPTGNLLVVFEEWGGDPSGISLVKRTAL  734
+
+
+>TR:A0A0D2S0Q1_GOSRA A0A0D2S0Q1 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_009G140800 PE=3 SV=1
+Length=806
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  652  GEASQRWYHVPRSWLNPTGNLLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  711
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  712  MQASGKVN  719
+
+
+>TR:A0A1D6NKE3_MAIZE A0A1D6NKE3 Beta-galactosidase OS=Zea mays OX=4577 GN=100272556 
+PE=3 SV=1
+Length=818
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  670  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  709
+
+
+>TR:A0A1W0VY46_SORBI A0A1W0VY46 Beta-galactosidase OS=Sorghum bicolor OX=4558 GN=SORBI_3003G197100 
+PE=3 SV=1
+Length=820
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  672  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  711
+
+
+>TR:K3XEK0_SETIT K3XEK0 Beta-galactosidase OS=Setaria italica OX=4555 GN=LOC101765698 
+PE=3 SV=1
+Length=825
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  677  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  716
+
+
+>TR:A0A1W0VY58_SORBI A0A1W0VY58 Beta-galactosidase OS=Sorghum bicolor OX=4558 GN=SORBI_3003G197100 
+PE=3 SV=1
+Length=827
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  679  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  718
+
+
+>TR:A0A1D6NKE5_MAIZE A0A1D6NKE5 Beta-galactosidase OS=Zea mays OX=4577 GN=100272556 
+PE=3 SV=1
+Length=830
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  682  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  721
+
+
+>TR:A0A2C9UAH0_MANES A0A2C9UAH0 Beta-galactosidase OS=Manihot esculenta OX=3983 GN=MANES_16G102400 
+PE=3 SV=1
+Length=838
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 29/40 (73%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD SG+ LV +
+Sbjct  685  GEPSQRWYHVPRSWLKPSGNLLVVFEEWGGDASGISLVKR  724
+
+
+>TR:B9RK64_RICCO B9RK64 Beta-galactosidase OS=Ricinus communis OX=3988 GN=RCOM_1046790 
+PE=3 SV=1
+Length=840
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPSGNLLVV EE+GG+ SG+ LV +
+Sbjct  687  GEPSQRWYHVPRSWLNPSGNLLVVFEEWGGEPSGISLVKR  726
+
+
+>TR:A0A2H3YZD8_PHODC A0A2H3YZD8 Beta-galactosidase OS=Phoenix dactylifera OX=42345 
+GN=LOC103718637 PE=3 SV=1
+Length=841
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 28/40 (70%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNP+GNLLVVLEE+GGD +G+ +V +
+Sbjct  687  GEPSQRWYHVPRSWLNPTGNLLVVLEEWGGDPTGISMVKR  726
+
+
+>TR:A0A0D2QFN0_GOSRA A0A0D2QFN0 Beta-galactosidase OS=Gossypium raimondii OX=29730 
+GN=B456_009G140800 PE=3 SV=1
+Length=845
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  691  GEASQRWYHVPRSWLNPTGNLLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  750
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  751  MQASGKVN  758
+
+
+>TR:A0A1U8JDW5_GOSHI A0A1U8JDW5 Beta-galactosidase OS=Gossypium hirsutum OX=3635 GN=LOC107906107 
+PE=3 SV=1
+Length=845
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  691  GEASQRWYHVPRSWLNPTGNLLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  750
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  751  MQASGKVN  758
+
+
+>TR:A0A2H3YYM6_PHODC A0A2H3YYM6 Beta-galactosidase OS=Phoenix dactylifera OX=42345 
+GN=LOC103718637 PE=3 SV=1
+Length=846
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 28/40 (70%), Positives = 36/40 (90%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNP+GNLLVVLEE+GGD +G+ +V +
+Sbjct  687  GEPSQRWYHVPRSWLNPTGNLLVVLEEWGGDPTGISMVKR  726
+
+
+>TR:A0A2P5RZP7_GOSBA A0A2P5RZP7 Beta-galactosidase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD10815 PE=3 SV=1
+Length=876
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  687  GEASQRWYHVPRSWLNPTGNLLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  746
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  747  MQASGKVN  754
+
+
+>TR:A0A1E5VGC6_9POAL A0A1E5VGC6 Beta-galactosidase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0014819 PE=3 SV=1
+Length=881
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  733  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDPTGISMVKR  772
+
+
+>TR:R0HQF8_9BRAS R0HQF8 Uncharacterized protein (Fragment) OS=Capsella rubella 
+OX=81985 GN=CARUB_v100167700mg PE=4 SV=1
+Length=104
+
+ Score = 62.0 bits (149),  Expect = 6e-11
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNL+VV EE+GGD SG+ LV +
+Sbjct  63   GEPSQRWYHVPRSWLKPYGNLVVVFEEWGGDPSGISLVKR  102
+
+
+>TR:A0A287L0K6_HORVV A0A287L0K6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=196
+
+ Score = 63.9 bits (154),  Expect = 7e-11
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+           GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  48  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  87
+
+
+>TR:Q8W3Y6_PERAE Q8W3Y6 Beta-galactosidase OS=Persea americana OX=3435 PE=2 SV=1
+Length=766
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 30/52 (58%), Positives = 40/52 (77%), Gaps = 2/52 (4%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGMIGNGDQVVN  52
+            G+ SQR+YH+PRSWLNP+GNLLVV EE+GGD +G+ LV +   IG+    +N
+Sbjct  693  GEASQRWYHIPRSWLNPTGNLLVVFEEWGGDPTGITLVRR--TIGSACAYIN  742
+
+
+>TR:A0A2G5DHU1_AQUCA A0A2G5DHU1 Beta-galactosidase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_02000465v1 PE=3 SV=1
+Length=818
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 33/66 (50%), Positives = 43/66 (65%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNPS NLLVV EE GGD SG+ LV +    +  N  +   NL+   
+Sbjct  683  GEASQRWYHVPRSWLNPSDNLLVVFEEMGGDPSGISLVKRTVQSVCANIYEWQPNLMSYM  742
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  743  MQSSGK  748
+
+
+>TR:Q6EM02_SANAU Q6EM02 Beta-galactosidase OS=Sandersonia aurantiaca OX=61864 
+GN=GAL1 PE=2 SV=1
+Length=826
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 30/58 (52%), Positives = 40/58 (69%), Gaps = 5/58 (9%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD-----GMIGNGDQVVNN  53
+            GD SQR+YHVPRSWLNP+GNL+VV EE+GG+ +G+ LV +        +  G   +NN
+Sbjct  679  GDSSQRWYHVPRSWLNPTGNLIVVFEEWGGEPTGISLVKRSMRSACAYVSQGQPSMNN  736
+
+
+>TR:V7C958_PHAVU V7C958 Beta-galactosidase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_003G137000g 
+PE=3 SV=1
+Length=833
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/40 (70%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVVLEE+GGD +G+ LV +
+Sbjct  682  GEPSQRWYHIPRSWLNPSGNYLVVLEEWGGDPNGISLVKR  721
+
+
+>TR:A0A2G5DHP0_AQUCA A0A2G5DHP0 Beta-galactosidase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_02000465v1 PE=3 SV=1
+Length=837
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 33/66 (50%), Positives = 43/66 (65%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNPS NLLVV EE GGD SG+ LV +    +  N  +   NL+   
+Sbjct  683  GEASQRWYHVPRSWLNPSDNLLVVFEEMGGDPSGISLVKRTVQSVCANIYEWQPNLMSYM  742
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  743  MQSSGK  748
+
+
+>TR:A0A2G5DHR0_AQUCA A0A2G5DHR0 Beta-galactosidase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_02000465v1 PE=3 SV=1
+Length=842
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 33/66 (50%), Positives = 43/66 (65%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNPS NLLVV EE GGD SG+ LV +    +  N  +   NL+   
+Sbjct  683  GEASQRWYHVPRSWLNPSDNLLVVFEEMGGDPSGISLVKRTVQSVCANIYEWQPNLMSYM  742
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  743  MQSSGK  748
+
+
+>TR:A0A0B0PFZ7_GOSAR A0A0B0PFZ7 Beta-galactosidase OS=Gossypium arboreum OX=29729 
+GN=F383_00225 PE=3 SV=1
+Length=843
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 27/41 (66%), Positives = 37/41 (90%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLNP+GNLLVV+EE+GGD + + LV+++
+Sbjct  689  GEASQRWYHVPRSWLNPTGNLLVVIEEWGGDPNAISLVHRE  729
+
+
+>TR:A0A1S3BIR6_CUCME A0A1S3BIR6 Beta-galactosidase OS=Cucumis melo OX=3656 GN=LOC103490020 
+PE=3 SV=1
+Length=844
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +D
+Sbjct  690  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGIHLVRRD  730
+
+
+>TR:W9S2S6_9ROSA W9S2S6 Beta-galactosidase OS=Morus notabilis OX=981085 GN=L484_004531 
+PE=3 SV=1
+Length=845
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 29/41 (71%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            GD SQR+YHVP+SWL P+GNLLVV EE+GGD +GV LV +D
+Sbjct  691  GDASQRWYHVPKSWLKPTGNLLVVFEEWGGDPNGVFLVRRD  731
+
+
+>TR:R0I922_9BRAS R0I922 Beta-galactosidase OS=Capsella rubella OX=81985 GN=CARUB_v10016323mg 
+PE=3 SV=1
+Length=846
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  732
+
+
+>TR:A0A1J3DQW7_NOCCA A0A1J3DQW7 Beta-galactosidase OS=Noccaea caerulescens OX=107243 
+GN=GA_TR16597_c0_g1_i1_g.53127 PE=3 SV=1
+Length=846
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  732
+
+
+>TR:A0A1J3K1Q2_NOCCA A0A1J3K1Q2 Beta-galactosidase OS=Noccaea caerulescens OX=107243 
+GN=MP_TR25976_c0_g1_i1_g.75784 PE=3 SV=1
+Length=846
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  732
+
+
+>TR:A0A1J3HDZ1_NOCCA A0A1J3HDZ1 Beta-galactosidase OS=Noccaea caerulescens OX=107243 
+GN=LC_TR10209_c0_g1_i1_g.35982 PE=3 SV=1
+Length=846
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  732
+
+
+>TR:D7L1I1_ARALL D7L1I1 Beta-galactosidase OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_897617 PE=3 SV=1
+Length=847
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  693  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  733
+
+
+>TR:A0A178VM62_ARATH A0A178VM62 Beta-galactosidase OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At3g14160 PE=3 SV=1
+Length=847
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  693  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGISLVRRE  733
+
+
+>TR:A0A218WZF9_PUNGR A0A218WZF9 Beta-galactosidase OS=Punica granatum OX=22663 GN=CDL15_Pgr012452 
+PE=3 SV=1
+Length=901
+
+ Score = 65.9 bits (159),  Expect = 8e-11
+ Identities = 27/41 (66%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YH+PRSWLNP+GNLLVV EE GGD SG+ L  ++
+Sbjct  747  GEASQRWYHIPRSWLNPTGNLLVVFEELGGDPSGISLARRE  787
+
+
+>TR:A0A287TZV6_HORVV A0A287TZV6 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=473
+
+ Score = 65.5 bits (158),  Expect = 9e-11
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  432  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  471
+
+
+>TR:A0A287U0H8_HORVV A0A287U0H8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=571
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  530  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  569
+
+
+>TR:Q0WKW5_ARATH Q0WKW5 Putative galactosidase OS=Arabidopsis thaliana OX=3702 
+GN=At3g13750 PE=2 SV=1
+Length=592
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  438  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGITLVRRE  478
+
+
+>TR:B9DI45_ARATH B9DI45 AT3G13750 protein (Fragment) OS=Arabidopsis thaliana OX=3702 
+GN=At3g13750 PE=2 SV=1
+Length=625
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  471  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGITLVRRE  511
+
+
+>TR:A0A287TZX7_HORVV A0A287TZX7 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=666
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  625  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  664
+
+
+>TR:A0A287TZN0_HORVV A0A287TZN0 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=666
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  625  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  664
+
+
+>TR:A0A287TZM8_HORVV A0A287TZM8 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=666
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  625  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  664
+
+
+>TR:A0A2N9EPW9_FAGSY A0A2N9EPW9 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS4506 PE=3 SV=1
+Length=677
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 29/40 (73%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL+PSGNLLVV EE+GGD SG+ LV +
+Sbjct  557  GEPSQRWYHVPRSWLSPSGNLLVVFEEWGGDPSGIALVKR  596
+
+
+>TR:A0A287TZL5_HORVV A0A287TZL5 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=717
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  676  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  715
+
+
+>TR:A0A199VZW1_ANACO A0A199VZW1 Beta-galactosidase OS=Ananas comosus OX=4615 GN=ACMD2_16647 
+PE=3 SV=1
+Length=719
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YH+PRSWLNP+GNLLVV EE+GGD +G+ L  +
+Sbjct  678  GDSSQRWYHIPRSWLNPTGNLLVVFEEWGGDPTGISLATR  717
+
+
+>TR:A0A199W4Y7_ANACO A0A199W4Y7 Beta-galactosidase OS=Ananas comosus OX=4615 GN=ACMD2_04575 
+PE=3 SV=1
+Length=719
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YH+PRSWLNP+GNLLVV EE+GGD +G+ L  +
+Sbjct  678  GDSSQRWYHIPRSWLNPTGNLLVVFEEWGGDPTGISLATR  717
+
+
+>TR:M0UZT2_HORVV M0UZT2 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=724
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  683  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  722
+
+
+>TR:A0A2P5BNZ9_PARAD A0A2P5BNZ9 Beta-galactosidase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_223290 PE=3 SV=1
+Length=726
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/38 (74%), Positives = 33/38 (87%), Gaps = 0/38 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV  38
+            G+ SQR+YHVPRSWLNP+GN LVV EE+GGD SG+ LV
+Sbjct  681  GEASQRWYHVPRSWLNPTGNFLVVFEEWGGDPSGISLV  718
+
+
+>TR:A0A2I4GP81_9ROSI A0A2I4GP81 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC109009606 
+PE=3 SV=1
+Length=728
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 29/42 (69%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDG  42
+            G  SQR+YHVPRSWL+P GNLLVVLEE+GGD  G+ LV + G
+Sbjct  687  GSSSQRWYHVPRSWLSPKGNLLVVLEEWGGDPRGISLVRRTG  728
+
+
+>TR:M0UZT3_HORVV M0UZT3 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=750
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  709  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  748
+
+
+>TR:A0A287TZX1_HORVV A0A287TZX1 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=764
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P GNLLVVLEE+GGDL+GV +  +
+Sbjct  723  GEPSQRWYHVPRSWLKPGGNLLVVLEEYGGDLAGVAMATR  762
+
+
+>TR:A0A2P5X2J4_GOSBA A0A2P5X2J4 Beta-galactosidase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA23106 PE=3 SV=1
+Length=846
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G  SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GGASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A1U8IJT7_GOSHI A0A1U8IJT7 Beta-galactosidase OS=Gossypium hirsutum OX=3635 GN=LOC107897410 
+PE=3 SV=1
+Length=846
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G  SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GGASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>TR:A0A0B0M8F2_GOSAR A0A0B0M8F2 Beta-galactosidase OS=Gossypium arboreum OX=29729 
+GN=F383_15031 PE=3 SV=1
+Length=846
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G  SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GGASQRWYHVPRSWLNPTGNLLVVFEEWGGDPNGITLVRRE  732
+
+
+>SP:BGAL1_ARATH Q9SCW1 Beta-galactosidase 1 OS=Arabidopsis thaliana OX=3702 GN=BGAL1 
+PE=2 SV=1
+Length=847
+
+ Score = 65.5 bits (158),  Expect = 1e-10
+ Identities = 28/41 (68%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV ++
+Sbjct  693  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPNGITLVRRE  733
+
+
+>TR:A0A287L0L8_HORVV A0A287L0L8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=238
+
+ Score = 63.9 bits (154),  Expect = 1e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  90   GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  129
+
+
+>TR:Q6EM01_SANAU Q6EM01 Beta-galactosidase (Fragment) OS=Sandersonia aurantiaca 
+OX=61864 GN=GAL2 PE=2 SV=1
+Length=568
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ +QR+YHVPRSWLNP+GNLLVV EE+GGD SG+ +V +
+Sbjct  415  GESTQRWYHVPRSWLNPTGNLLVVFEEWGGDPSGISMVRR  454
+
+
+>TR:A0A1D6BF51_WHEAT A0A1D6BF51 Beta-galactosidase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=725
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G++SQR+YHVPRSWL P GNLLVVLEE+ GDL+GV +  +
+Sbjct  683  GELSQRWYHVPRSWLKPGGNLLVVLEEYAGDLAGVAMATR  722
+
+
+>TR:A0A1J3IMB2_NOCCA A0A1J3IMB2 Beta-galactosidase (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=MP_TR26635_c0_g1_i1_g.77928 PE=3 SV=1
+Length=767
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 28/50 (56%), Positives = 37/50 (74%), Gaps = 0/50 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDGMIGNGDQV  50
+            G+ SQR+YHVPRSW+ PSGNL+VVLEE+GGD +G+ LV +       D +
+Sbjct  715  GEASQRWYHVPRSWVKPSGNLIVVLEEWGGDPNGISLVKRSAKTLASDSI  764
+
+
+>TR:A0A2R6R462_ACTCH A0A2R6R462 Beta-galactosidase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc09848 PE=3 SV=1
+Length=837
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV +
+Sbjct  684  GEASQRWYHVPRSWLKPSGNLLVVFEEWGGDPTGISLVRR  723
+
+
+>TR:A0A151R313_CAJCA A0A151R313 Beta-galactosidase OS=Cajanus cajan OX=3821 GN=KK1_041902 
+PE=3 SV=1
+Length=838
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV ++
+Sbjct  687  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGISLVQRE  727
+
+
+>TR:A0A078GEW2_BRANA A0A078GEW2 Beta-galactosidase OS=Brassica napus OX=3708 GN=BnaC05g39570D 
+PE=3 SV=1
+Length=839
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +  D +  +  +  + L+  +
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRREVDSVCADIYEWQSTLVNYQ  744
+
+Query  59   LEKGGRTH  66
+            L   G+ +
+Sbjct  745  LHSSGKVN  752
+
+
+>TR:A0A0D3CKH8_BRAOL A0A0D3CKH8 Beta-galactosidase OS=Brassica oleracea var. oleracea 
+OX=109376 GN=106294363 PE=3 SV=1
+Length=839
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +  D +  +  +  + L+  +
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRREVDSVCADIYEWQSTLVNYQ  744
+
+Query  59   LEKGGRTH  66
+            L   G+ +
+Sbjct  745  LHSSGKVN  752
+
+
+>TR:M4EF41_BRARP M4EF41 Beta-galactosidase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=839
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +  D +  +  +  + L+  +
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRREVDSVCADIYEWQSTLVNYQ  744
+
+Query  59   LEKGGRTH  66
+            L   G+ +
+Sbjct  745  LHSSGKVN  752
+
+
+>TR:W1NFR4_AMBTC W1NFR4 Beta-galactosidase OS=Amborella trichopoda OX=13333 GN=AMTR_s00136p00108810 
+PE=3 SV=1
+Length=755
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPR WLNP+GNLLVV EE+GGD SG+ LV +
+Sbjct  601  GEPSQRWYHVPRPWLNPTGNLLVVFEEWGGDPSGISLVKR  640
+
+
+>TR:A0A0B0MF58_GOSAR A0A0B0MF58 Beta-galactosidase OS=Gossypium arboreum OX=29729 
+GN=F383_16830 PE=3 SV=1
+Length=808
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 31/68 (46%), Positives = 45/68 (66%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GN LVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  654  GEASQRWYHVPRSWLNPTGNFLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  713
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  714  MQASGKVN  721
+
+
+>TR:J3L1C1_ORYBR J3L1C1 Beta-galactosidase OS=Oryza brachyantha OX=4533 GN=102711762 
+PE=3 SV=1
+Length=827
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 26/40 (65%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE+GGD +G+ +  +
+Sbjct  679  GDSSQRWYHVPRSWLNPTGNLLVIFEEWGGDHTGISMAKR  718
+
+
+>TR:A0A078IRL6_BRANA A0A078IRL6 Beta-galactosidase OS=Brassica napus OX=3708 GN=BnaA01g37210D 
+PE=3 SV=1
+Length=839
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRRE  725
+
+
+>TR:A0A078HIB6_BRANA A0A078HIB6 Beta-galactosidase OS=Brassica napus OX=3708 GN=BnaC01g37460D 
+PE=3 SV=1
+Length=839
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRRE  725
+
+
+>TR:A0A0D3ADV5_BRAOL A0A0D3ADV5 Beta-galactosidase OS=Brassica oleracea var. oleracea 
+OX=109376 GN=106317528 PE=3 SV=1
+Length=839
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  685  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRRE  725
+
+
+>TR:A0A2I4EDN8_9ROSI A0A2I4EDN8 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC108988647 
+PE=3 SV=1
+Length=840
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVP SWLNP+GNLLVV EE+GGD +G+ LV +  D +  N  +    L+  +
+Sbjct  686  GEASQRWYHVPHSWLNPTGNLLVVFEEWGGDPNGIFLVRREIDSVCANIYEWQPTLMNWQ  745
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  746  MQASGKVN  753
+
+
+>TR:I1KUU7_SOYBN I1KUU7 Beta-galactosidase OS=Glycine max OX=3847 GN=100781074 
+PE=3 SV=1
+Length=843
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 32/69 (46%), Positives = 45/69 (65%), Gaps = 2/69 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVP SWL PSGNLLVV EE GGD +G+ LV +  D +  +  +   NL+  E
+Sbjct  689  GEASQRWYHVPHSWLKPSGNLLVVFEELGGDPNGIFLVRRDIDSVCADIYEWQPNLVSYE  748
+
+Query  59   LEKGGRTHT  67
+            ++  G+  +
+Sbjct  749  MQASGKVRS  757
+
+
+>TR:A0A1U8N3V1_GOSHI A0A1U8N3V1 Beta-galactosidase OS=Gossypium hirsutum OX=3635 GN=LOC107943287 
+PE=3 SV=1
+Length=845
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 31/68 (46%), Positives = 45/68 (66%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GN LVV EE GGD +G+ LV +  D +  +  +    L+  E
+Sbjct  691  GEASQRWYHVPRSWLNPTGNFLVVFEESGGDPNGISLVRRETDSVCADIYEWQPTLMNYE  750
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  751  MQASGKVN  758
+
+
+>TR:A9PIQ1_9ROSI A9PIQ1 Beta-galactosidase OS=Populus trichocarpa x Populus deltoides 
+OX=3695 PE=2 SV=1
+Length=846
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +G+ LV +D
+Sbjct  692  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGISLVRRD  732
+
+
+>TR:V4M1E3_EUTSA V4M1E3 Beta-galactosidase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10020056mg 
+PE=3 SV=1
+Length=846
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  692  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRRE  732
+
+
+>TR:U5GPE9_POPTR U5GPE9 Beta-galactosidase OS=Populus trichocarpa OX=3694 GN=POPTR_003G038500v3 
+PE=3 SV=1
+Length=846
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +G+ LV +D
+Sbjct  692  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGISLVRRD  732
+
+
+>TR:M4DYB0_BRARP M4DYB0 Beta-galactosidase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=861
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV ++
+Sbjct  707  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVRRE  747
+
+
+>TR:A0A2K2B174_POPTR A0A2K2B174 Beta-galactosidase OS=Populus trichocarpa OX=3694 
+GN=POPTR_003G038500v3 PE=3 SV=1
+Length=872
+
+ Score = 64.7 bits (156),  Expect = 2e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +G+ LV +D
+Sbjct  692  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGISLVRRD  732
+
+
+>TR:A0A287L0K5_HORVV A0A287L0K5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=298
+
+ Score = 63.9 bits (154),  Expect = 2e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  150  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  189
+
+
+>TR:B8AAR0_ORYSI B8AAR0 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_02569 PE=3 SV=1
+Length=480
+
+ Score = 64.3 bits (155),  Expect = 2e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  332  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  371
+
+
+>TR:A0A059CWA6_EUCGR A0A059CWA6 Beta-galactosidase OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_C03662 PE=3 SV=1
+Length=763
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 28/42 (67%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDG  42
+            G+ SQR+YH+PRSWLNP+GNLLVV EE+GGD + V LV + G
+Sbjct  690  GEASQRWYHIPRSWLNPTGNLLVVFEEWGGDPTQVSLVQRMG  731
+
+
+>TR:A0A0E0FNJ0_ORYNI A0A0E0FNJ0 Beta-galactosidase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=785
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  637  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  676
+
+
+>TR:A0A0D9YAX3_9ORYZ A0A0D9YAX3 Beta-galactosidase OS=Oryza glumipatula OX=40148 PE=3 
+SV=1
+Length=785
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  637  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  676
+
+
+>TR:A0A0R0GTD1_SOYBN A0A0R0GTD1 Uncharacterized protein OS=Glycine max OX=3847 GN=106795462 
+PE=3 SV=1
+Length=791
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV +
+Sbjct  640  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGISLVKR  679
+
+
+>TR:B8AAQ6_ORYSI B8AAQ6 Beta-galactosidase OS=Oryza sativa subsp. indica OX=39946 
+GN=OsI_02561 PE=3 SV=1
+Length=822
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  674  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  713
+
+
+>TR:A0A0E0MYG5_ORYRU A0A0E0MYG5 Beta-galactosidase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=822
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  674  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  713
+
+
+>SP:BGAL2_ORYSJ Q8W0A1 Beta-galactosidase 2 OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os01g0580200 PE=2 SV=1
+Length=827
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  679  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  718
+
+
+>TR:A0A0B2PB98_GLYSO A0A0B2PB98 Beta-galactosidase OS=Glycine soja OX=3848 GN=glysoja_040115 
+PE=3 SV=1
+Length=831
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV +
+Sbjct  680  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGISLVKR  719
+
+
+>TR:A0A1Q3CBS7_CEPFO A0A1Q3CBS7 Beta-galactosidase OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_21151 PE=3 SV=1
+Length=835
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQ++YH+PRSWLNPSGNLLVV EE+GGD +G+ LV +
+Sbjct  682  GEPSQKWYHLPRSWLNPSGNLLVVFEEWGGDPTGISLVKR  721
+
+
+>TR:A0A2I0AP11_9ASPA A0A2I0AP11 Beta-galactosidase OS=Apostasia shenzhenica OX=1088818 
+GN=AXF42_Ash002596 PE=3 SV=1
+Length=835
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/38 (71%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLV  38
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GGD +G+ +V
+Sbjct  687  GEPSQRWYHVPRSWLNPTGNLLVVFEEWGGDPTGISMV  724
+
+
+>TR:C3VDH9_CARPA C3VDH9 Beta-galactosidase OS=Carica papaya OX=3649 PE=2 SV=1
+Length=836
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSW NP+GNLLVV EE+GGD +G+ LV ++
+Sbjct  681  GEASQRWYHVPRSWPNPTGNLLVVFEEWGGDPNGISLVRRE  721
+
+
+>TR:A0A2C9W6B5_MANES A0A2C9W6B5 Beta-galactosidase OS=Manihot esculenta OX=3983 GN=MANES_03G033400 
+PE=3 SV=1
+Length=839
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPS NLLVV EE+GGD SG+ LV +
+Sbjct  686  GEPSQRWYHIPRSWLNPSENLLVVFEEWGGDPSGISLVKR  725
+
+
+>TR:B9EXP9_ORYSJ B9EXP9 Beta-galactosidase OS=Oryza sativa subsp. japonica OX=39947 
+GN=OsJ_02342 PE=3 SV=1
+Length=839
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  691  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  730
+
+
+>TR:A0A0R0GSW3_SOYBN A0A0R0GSW3 Beta-galactosidase OS=Glycine max OX=3847 GN=106795462 
+PE=3 SV=1
+Length=839
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV +
+Sbjct  688  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGISLVKR  727
+
+
+>TR:A0A2I4GHK7_9ROSI A0A2I4GHK7 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC109007920 
+PE=3 SV=1
+Length=840
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 31/68 (46%), Positives = 46/68 (68%), Gaps = 2/68 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +  D +  N  +    L+  +
+Sbjct  686  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGIFLVRREMDSVCANIYEWQPTLMNWQ  745
+
+Query  59   LEKGGRTH  66
+            ++  G+ +
+Sbjct  746  MQASGKVN  753
+
+
+>TR:A0A0D3EQH4_9ORYZ A0A0D3EQH4 Beta-galactosidase OS=Oryza barthii OX=65489 PE=3 
+SV=1
+Length=844
+
+ Score = 64.3 bits (155),  Expect = 3e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWL+P+GNLLV+ EE+GGD +G+ +V +
+Sbjct  696  GDSSQRWYHVPRSWLSPTGNLLVIFEEWGGDPTGISMVKR  735
+
+
+>TR:A0A287L0L7_HORVV A0A287L0L7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=370
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  222  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  261
+
+
+>TR:A0A059BUT2_EUCGR A0A059BUT2 Uncharacterized protein (Fragment) OS=Eucalyptus grandis 
+OX=71139 GN=EUGRSUZ_F031301 PE=4 SV=1
+Length=291
+
+ Score = 63.5 bits (153),  Expect = 3e-10
+ Identities = 26/41 (63%), Positives = 36/41 (88%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YH+PRSWL P+GNLLVVLEE+GG+ +G+ LV ++
+Sbjct  137  GEASQRWYHIPRSWLYPTGNLLVVLEEWGGEPNGISLVKRE  177
+
+
+>TR:A0A1L6Z988_PETHY A0A1L6Z988 Beta-galactosidase 6 (Fragment) OS=Petunia hybrida 
+OX=4102 GN=BGAL6 PE=2 SV=1
+Length=203
+
+ Score = 62.4 bits (150),  Expect = 3e-10
+ Identities = 26/41 (63%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1   GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+           G+ SQR+YHVPRSWL P+GNLLVV EE+GG+  G+ LV ++
+Sbjct  49  GEASQRWYHVPRSWLRPTGNLLVVFEEWGGEPRGISLVKRE  89
+
+
+>TR:A0A287L0K8_HORVV A0A287L0K8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=556
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  408  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  447
+
+
+>TR:A0A287L0K4_HORVV A0A287L0K4 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=568
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  420  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  459
+
+
+>TR:A0A287L0J7_HORVV A0A287L0J7 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=679
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  531  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  570
+
+
+>TR:A0A078HW96_BRANA A0A078HW96 Beta-galactosidase OS=Brassica napus OX=3708 GN=BnaA03g47840D 
+PE=3 SV=1
+Length=712
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 28/42 (67%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDG  42
+            G+ SQR+YHVPRSWL PS NL+VVLEE GGD +G+ LV + G
+Sbjct  669  GEASQRWYHVPRSWLKPSANLIVVLEELGGDPNGISLVIRTG  710
+
+
+>TR:M4DRH7_BRARP M4DRH7 Beta-galactosidase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=712
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 28/42 (67%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDG  42
+            G+ SQR+YHVPRSWL PS NL+VVLEE GGD +G+ LV + G
+Sbjct  669  GEASQRWYHVPRSWLKPSANLIVVLEELGGDPNGISLVIRTG  710
+
+
+>TR:M4DT01_BRARP M4DT01 Beta-galactosidase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=712
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD SG+ +V +
+Sbjct  670  GQSSQRWYHVPRSWLKPSGNLLVVFEEWGGDPSGISVVKR  709
+
+
+>TR:Q68UW0_PYRCO Q68UW0 Beta-galactosidase OS=Pyrus communis OX=23211 GN=gal PE=2 
+SV=1
+Length=724
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWL P+GNLLVV EE+GGD SG+ LV +
+Sbjct  676  GEPSQRWYHIPRSWLTPTGNLLVVFEEWGGDPSGISLVER  715
+
+
+>TR:A0A0D3BYE5_BRAOL A0A0D3BYE5 Beta-galactosidase OS=Brassica oleracea var. oleracea 
+OX=109376 GN=106342243 PE=3 SV=1
+Length=727
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD SG+ +V +
+Sbjct  685  GQSSQRWYHVPRSWLKPSGNLLVVFEEWGGDPSGISVVKR  724
+
+
+>TR:A0A0D3DG74_BRAOL A0A0D3DG74 Beta-galactosidase OS=Brassica oleracea var. oleracea 
+OX=109376 GN=106303785 PE=3 SV=1
+Length=729
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 28/42 (67%), Positives = 34/42 (81%), Gaps = 0/42 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQDG  42
+            G+ SQR+YHVPRSWL PS NL+VVLEE GGD +G+ LV + G
+Sbjct  686  GEASQRWYHVPRSWLKPSANLIVVLEELGGDPNGISLVVRTG  727
+
+
+>TR:Q2PHK0_PYRCO Q2PHK0 Beta-galactosidase OS=Pyrus communis OX=23211 GN=PcGAL1 
+PE=2 SV=1
+Length=731
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWL P+GNLLVV EE+GGD SG+ LV +
+Sbjct  683  GEPSQRWYHIPRSWLTPTGNLLVVFEEWGGDPSGISLVER  722
+
+
+>TR:A0A0R0FIV9_SOYBN A0A0R0FIV9 Beta-galactosidase OS=Glycine max OX=3847 GN=100810170 
+PE=3 SV=1
+Length=759
+
+ Score = 63.9 bits (154),  Expect = 3e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV +
+Sbjct  608  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGITLVKR  647
+
+
+>TR:A0A0L9TGJ5_PHAAN A0A0L9TGJ5 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan728s003400 PE=3 SV=1
+Length=806
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH PRSWLNPSGN LVV EE+GGD SG+ LV +
+Sbjct  655  GEPSQRWYHFPRSWLNPSGNYLVVFEEWGGDPSGISLVKR  694
+
+
+>TR:A0A200QD89_9MAGN A0A200QD89 Beta-galactosidase OS=Macleaya cordata OX=56857 GN=BVC80_209g174 
+PE=3 SV=1
+Length=823
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL P+GNLLVV EE+GGD +G+ LV +
+Sbjct  669  GEASQRWYHVPRSWLKPTGNLLVVFEEWGGDPNGISLVGR  708
+
+
+>TR:A0A287L0J9_HORVV A0A287L0J9 Beta-galactosidase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=831
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 27/40 (68%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPRSWLNP+GNLLV+ EE GGD S + +V +
+Sbjct  683  GDSSQRWYHVPRSWLNPTGNLLVIFEEMGGDPSEISMVKR  722
+
+
+>TR:I1HNV0_BRADI I1HNV0 Beta-galactosidase OS=Brachypodium distachyon OX=15368 
+GN=LOC100838778 PE=3 SV=1
+Length=831
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 26/40 (65%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            GD SQR+YHVPR WLNP+GNLLV+ EE+GGD +G+ +V +
+Sbjct  683  GDPSQRWYHVPRPWLNPTGNLLVIFEEWGGDPTGISMVKR  722
+
+
+>TR:A0A0S3R8L7_PHAAN A0A0S3R8L7 Beta-galactosidase OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.01G487000 PE=3 SV=1
+Length=833
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH PRSWLNPSGN LVV EE+GGD SG+ LV +
+Sbjct  682  GEPSQRWYHFPRSWLNPSGNYLVVFEEWGGDPSGISLVKR  721
+
+
+>TR:A0A072TLH1_MEDTR A0A072TLH1 Beta-galactosidase OS=Medicago truncatula OX=3880 
+GN=25500443 PE=3 SV=1
+Length=838
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 27/41 (66%), Positives = 34/41 (83%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLV+ EE GGD +GV LV +D
+Sbjct  684  GEASQRWYHVPKSWLKPTGNLLVMFEELGGDPNGVSLVRRD  724
+
+
+>TR:I1MSH3_SOYBN I1MSH3 Beta-galactosidase OS=Glycine max OX=3847 GN=100810170 
+PE=3 SV=2
+Length=839
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YH+PRSWLNPSGN LVV EE+GGD +G+ LV +
+Sbjct  688  GEPSQRWYHIPRSWLNPSGNYLVVFEEWGGDPTGITLVKR  727
+
+
+>TR:A0A2N9EWK0_FAGSY A0A2N9EWK0 Beta-galactosidase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS7094 
+PE=3 SV=1
+Length=842
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 31/66 (47%), Positives = 45/66 (68%), Gaps = 2/66 (3%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ--DGMIGNGDQVVNNLLGRE  58
+            G+ SQR+YHVPRSWLNP+GNLLVV EE  GD +G+ LV +  D +  +  +   NL+  +
+Sbjct  688  GEASQRWYHVPRSWLNPTGNLLVVFEELAGDPNGIFLVRREIDSVCADIFEWQPNLMSWQ  747
+
+Query  59   LEKGGR  64
+            ++  G+
+Sbjct  748  MQASGK  753
+
+
+>TR:B9SN40_RICCO B9SN40 Beta-galactosidase OS=Ricinus communis OX=3988 GN=RCOM_0312450 
+PE=3 SV=1
+Length=845
+
+ Score = 63.9 bits (154),  Expect = 4e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWLN +GNLLVV EE+GGD +G+ LV ++
+Sbjct  691  GEASQRWYHVPRSWLNTAGNLLVVFEEWGGDPNGISLVRRE  731
+
+
+>TR:A0A2K2C0M4_POPTR A0A2K2C0M4 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G200400v3 PE=4 SV=1
+Length=449
+
+ Score = 63.5 bits (153),  Expect = 4e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +GV LV ++
+Sbjct  295  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGVSLVRRE  335
+
+
+>TR:A0A2K2C0N7_POPTR A0A2K2C0N7 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G200400v3 PE=3 SV=1
+Length=592
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +GV LV ++
+Sbjct  438  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGVSLVRRE  478
+
+
+>TR:A0A2K2C0M6_POPTR A0A2K2C0M6 Beta-galactosidase OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G200400v3 PE=3 SV=1
+Length=666
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +GV LV ++
+Sbjct  569  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGVSLVRRE  609
+
+
+>TR:A0A2K2C0N5_POPTR A0A2K2C0N5 Beta-galactosidase OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G200400v3 PE=3 SV=1
+Length=723
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/41 (66%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVP+SWL P+GNLLVV EE+GGD +GV LV ++
+Sbjct  569  GEASQRWYHVPQSWLKPTGNLLVVFEEWGGDPNGVSLVRRE  609
+
+
+>TR:A0A1U7V246_NICSY A0A1U7V246 Beta-galactosidase OS=Nicotiana sylvestris OX=4096 
+GN=LOC104214355 PE=3 SV=1
+Length=725
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV +
+Sbjct  684  GQPSQRWYHVPRSWLKPSGNLLVVFEEWGGDPTGISLVRR  723
+
+
+>TR:A0A1J6KUZ0_NICAT A0A1J6KUZ0 Beta-galactosidase OS=Nicotiana attenuata OX=49451 
+GN=BGAL_1 PE=3 SV=1
+Length=725
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV +
+Sbjct  684  GQPSQRWYHVPRSWLKPSGNLLVVFEEWGGDPTGISLVRR  723
+
+
+>TR:A0A1S4BWG9_TOBAC A0A1S4BWG9 Beta-galactosidase OS=Nicotiana tabacum OX=4097 GN=LOC107812610 
+PE=3 SV=1
+Length=725
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV +
+Sbjct  684  GQPSQRWYHVPRSWLKPSGNLLVVFEEWGGDPTGISLVRR  723
+
+
+>TR:A0A1S3YPI0_TOBAC A0A1S3YPI0 Beta-galactosidase OS=Nicotiana tabacum OX=4097 GN=LOC107778191 
+PE=3 SV=1
+Length=725
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQR+YHVPRSWL PSGNLLVV EE+GGD +G+ LV +
+Sbjct  684  GQPSQRWYHVPRSWLKPSGNLLVVFEEWGGDPTGISLVKR  723
+
+
+>TR:A2Q570_MEDTR A2Q570 Beta-galactosidase OS=Medicago truncatula OX=3880 GN=11441599 
+PE=3 SV=1
+Length=726
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 26/40 (65%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  +Q++YH+PRSWLNPSGN+LVVLEE+GGD +G+ LV +
+Sbjct  686  GQPTQKWYHIPRSWLNPSGNVLVVLEEWGGDPTGISLVKR  725
+
+
+>TR:M4DBU6_BRARP M4DBU6 Beta-galactosidase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=732
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL PS NL+VVLEE+GGD +G+ LV +
+Sbjct  680  GEASQRWYHVPRSWLKPSANLIVVLEEWGGDPNGISLVRR  719
+
+
+>TR:A0A0V0HAZ1_SOLCH A0A0V0HAZ1 Putative ovule protein (Fragment) OS=Solanum chacoense 
+OX=4108 PE=4 SV=1
+Length=273
+
+ Score = 62.8 bits (151),  Expect = 5e-10
+ Identities = 26/41 (63%), Positives = 35/41 (85%), Gaps = 0/41 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQD  41
+            G+ SQR+YHVPRSWL+P+GNLLVV EE+GGD + + LV ++
+Sbjct  157  GEASQRWYHVPRSWLHPTGNLLVVFEEWGGDPNAISLVKRE  197
+
+
+>TR:A0A2I4GP95_9ROSI A0A2I4GP95 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC109009612 
+PE=3 SV=1
+Length=735
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G  SQ++YHVPRSWLNP GNLLVVLEE+GGD  G+ LV +
+Sbjct  695  GSPSQKWYHVPRSWLNPRGNLLVVLEEWGGDPRGISLVKR  734
+
+
+>TR:A0A0D3A6I7_BRAOL A0A0D3A6I7 Beta-galactosidase OS=Brassica oleracea var. oleracea 
+OX=109376 PE=3 SV=1
+Length=739
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/40 (68%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWL PS NL+VVLEE+GGD +G+ LV +
+Sbjct  687  GEASQRWYHVPRSWLKPSANLIVVLEEWGGDPNGISLVRR  726
+
+
+>TR:A0A1S3UV22_VIGRR A0A1S3UV22 Beta-galactosidase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106768933 PE=3 SV=1
+Length=759
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/37 (73%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  4    SQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            SQR+YH+PRSWLNPSGN LVV EE+GGD SG+ LV +
+Sbjct  611  SQRWYHIPRSWLNPSGNYLVVFEEWGGDPSGISLVKR  647
+
+
+>TR:A0A200R0U1_9MAGN A0A200R0U1 Beta-galactosidase OS=Macleaya cordata OX=56857 GN=BVC80_8473g2 
+PE=3 SV=1
+Length=803
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/37 (73%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKL  37
+            G+ SQR+YHVPRSWLNP+GNLLVV EE+GG+ SG+ L
+Sbjct  654  GEASQRWYHVPRSWLNPTGNLLVVFEEWGGNPSGISL  690
+
+
+>TR:A0A2I4EM37_9ROSI A0A2I4EM37 Beta-galactosidase OS=Juglans regia OX=51240 GN=LOC108990817 
+PE=3 SV=1
+Length=832
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 28/40 (70%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1    GDISQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            G+ SQR+YHVPRSWLNPS NLLVV EE+GG+ SG+ LV +
+Sbjct  681  GEASQRWYHVPRSWLNPSRNLLVVFEEWGGEPSGIALVKR  720
+
+
+>TR:A0A1S3UUR3_VIGRR A0A1S3UUR3 Beta-galactosidase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106768933 PE=3 SV=1
+Length=833
+
+ Score = 63.5 bits (153),  Expect = 5e-10
+ Identities = 27/37 (73%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  4    SQRYYHVPRSWLNPSGNLLVVLEEFGGDLSGVKLVNQ  40
+            SQR+YH+PRSWLNPSGN LVV EE+GGD SG+ LV +
+Sbjct  685  SQRWYHIPRSWLNPSGNYLVVFEEWGGDPSGISLVKR  721
+
+
+
+Lambda      K        H
+   0.320    0.136    0.415 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 61692046290
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

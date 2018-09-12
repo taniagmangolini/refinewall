@@ -1,0 +1,709 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:M1BCL5_SOLTU  M1BCL5 Uncharacterized protein OS=Solanum tubero...  36.6    0.39 
+TR:A0A2I0IHZ4_PUNGR  A0A2I0IHZ4 Uncharacterized protein (Fragment...  35.8    0.59 
+TR:A0A1B6QCP0_SORBI  A0A1B6QCP0 Uncharacterized protein OS=Sorghu...  35.4    0.96 
+TR:A0A2G5C5U9_AQUCA  A0A2G5C5U9 Uncharacterized protein OS=Aquile...  35.0    1.2  
+TR:A0A059CIT0_EUCGR  A0A059CIT0 Uncharacterized protein OS=Eucaly...  34.7    1.9  
+TR:A0A059BMM7_EUCGR  A0A059BMM7 Uncharacterized protein OS=Eucaly...  33.9    2.1  
+TR:M1E0N8_SOLTU  M1E0N8 Uncharacterized protein OS=Solanum tubero...  33.9    2.4  
+TR:A0A0E0D8Z7_9ORYZ  A0A0E0D8Z7 Uncharacterized protein OS=Oryza ...  34.3    2.4  
+TR:A0A151U2N8_CAJCA  A0A151U2N8 Transcription factor HBP-1b(C1) O...  33.9    3.2  
+TR:A0A0A9IIA2_ARUDO  A0A0A9IIA2 Uncharacterized protein OS=Arundo...  33.1    3.6  
+TR:D8U8A8_VOLCA  D8U8A8 Uncharacterized protein OS=Volvox carteri...  33.9    3.6  
+TR:A0A1S2Z6U7_CICAR  A0A1S2Z6U7 classical arabinogalactan protein...  33.5    3.6  
+TR:A0A2K3D919_CHLRE  A0A2K3D919 Uncharacterized protein OS=Chlamy...  33.9    3.8  
+TR:A0A2K3D922_CHLRE  A0A2K3D922 Uncharacterized protein OS=Chlamy...  33.9    3.8  
+TR:A8I5V6_CHLRE  A8I5V6 Predicted protein OS=Chlamydomonas reinha...  33.5    4.8  
+TR:A0A2K3DM35_CHLRE  A0A2K3DM35 Uncharacterized protein OS=Chlamy...  33.5    4.8  
+TR:A0A2R6Q095_ACTCH  A0A2R6Q095 Protein IQ-DOMAIN like OS=Actinid...  33.5    4.8  
+TR:A0A1J6JAK1_NICAT  A0A1J6JAK1 Transcription factor tcp7 OS=Nico...  33.1    5.3  
+TR:A0A2H3XRQ6_PHODC  A0A2H3XRQ6 growth-regulating factor 1-like i...  33.1    5.6  
+TR:A0A2H3ZNF5_PHODC  A0A2H3ZNF5 growth-regulating factor 1-like i...  33.1    5.7  
+TR:L0P3T1_9POAL  L0P3T1 PH01B019A14.22 protein OS=Phyllostachys e...  33.1    5.7  
+TR:W9R408_9ROSA  W9R408 Uncharacterized protein OS=Morus notabili...  32.7    5.9  
+TR:A0A1D6I4Y7_MAIZE  A0A1D6I4Y7 Ethylene response factor OS=Zea m...  33.1    6.0  
+TR:A0A166HSD6_DAUCA  A0A166HSD6 Uncharacterized protein OS=Daucus...  33.1    6.0  
+TR:V7BIB3_PHAVU  V7BIB3 Uncharacterized protein OS=Phaseolus vulg...  33.1    6.2  
+TR:V7BKV8_PHAVU  V7BKV8 Uncharacterized protein OS=Phaseolus vulg...  33.1    6.3  
+TR:A0A2C9V744_MANES  A0A2C9V744 Uncharacterized protein OS=Maniho...  33.1    6.4  
+TR:A0A2K2CV17_BRADI  A0A2K2CV17 Uncharacterized protein OS=Brachy...  33.1    6.5  
+TR:I1HX73_BRADI  I1HX73 Uncharacterized protein OS=Brachypodium d...  33.1    6.5  
+TR:A0A1D1XIY9_9ARAE  A0A1D1XIY9 DNA-directed RNA polymerase subun...  33.1    6.6  
+TR:A0A0S3RBD8_PHAAN  A0A0S3RBD8 Uncharacterized protein OS=Vigna ...  32.7    7.4  
+TR:A0A0L9V957_PHAAN  A0A0L9V957 Uncharacterized protein OS=Phaseo...  32.7    7.4  
+TR:A0A1D2A106_AUXPR  A0A1D2A106 Uncharacterized protein (Fragment...  32.7    7.9  
+TR:A0A0P0WDW5_ORYSJ  A0A0P0WDW5 Os04g0580350 protein OS=Oryza sat...  31.2    8.4  
+TR:A0A1D5U6N5_WHEAT  A0A1D5U6N5 Uncharacterized protein OS=Tritic...  32.7    8.4  
+TR:I1JXP5_SOYBN  I1JXP5 Uncharacterized protein OS=Glycine max OX...  32.7    8.6  
+TR:A0A2G9G0I2_9LAMI  A0A2G9G0I2 Uncharacterized protein OS=Handro...  32.7    8.6  
+TR:A0A2I0HWX4_PUNGR  A0A2I0HWX4 Uncharacterized protein (Fragment...  32.0    8.7  
+TR:A0A2N9F5L2_FAGSY  A0A2N9F5L2 Uncharacterized protein OS=Fagus ...  32.7    8.8  
+TR:A0A1D1ZWG8_AUXPR  A0A1D1ZWG8 Uncharacterized protein OS=Auxeno...  32.3    9.2  
+
+
+>TR:M1BCL5_SOLTU M1BCL5 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102605188 
+PE=4 SV=1
+Length=448
+
+ Score = 36.6 bits (83),  Expect = 0.39
+ Identities = 29/95 (31%), Positives = 46/95 (48%), Gaps = 16/95 (17%)
+
+Query  45   WTAPAKADKTKVLSLAPPNPDTTPS------PTRLVRRELLAPGNRDQGFPRVSIEEGNT  98
+            W  PA+ D  +V S A P P+ + S      P+RL+++++      +    RV    GN 
+Sbjct  167  WAVPARPDFGQVWSFAAPPPEISHSAAMISHPSRLLQQQM-----EEASVGRV----GNY  217
+
+Query  99   LPFTKSPL-MLAKISSSEKNNPLYSLLLSVHLFAN  132
+             P  +  L +LA +S SE+    YS  + + LF N
+Sbjct  218  FPIAQGHLNLLASLSGSEEGLQTYSPTMLLGLFKN  252
+
+
+>TR:A0A2I0IHZ4_PUNGR A0A2I0IHZ4 Uncharacterized protein (Fragment) OS=Punica granatum 
+OX=22663 GN=CRG98_035978 PE=4 SV=1
+Length=224
+
+ Score = 35.8 bits (81),  Expect = 0.59
+ Identities = 21/67 (31%), Positives = 36/67 (54%), Gaps = 7/67 (10%)
+
+Query  18   NGAVQYDEDD------FEAXIPASSSAVSARMSWTAPAKADKTKVLSL-APPNPDTTPSP  70
+            N AVQ+  D       +++ +P S+S  + R  +  PA +DK K L++ A   P+ +P+P
+Sbjct  107  NRAVQHHRDPADNTRPYQSRLPTSTSKFARRRLYENPAVSDKGKALAIGAEATPEVSPTP  166
+
+Query  71   TRLVRRE  77
+             + V  E
+Sbjct  167  PKKVTEE  173
+
+
+>TR:A0A1B6QCP0_SORBI A0A1B6QCP0 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3002G212000 PE=4 SV=1
+Length=390
+
+ Score = 35.4 bits (80),  Expect = 0.96
+ Identities = 24/65 (37%), Positives = 30/65 (46%), Gaps = 1/65 (2%)
+
+Query  1   KQQRCVVADLGWSGLVFNGAV-QYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSL  59
+           +Q R V ADL W G    GA+ Q +EDDFEA        +S         +    +V  L
+Sbjct  28  QQGRRVTADLLWPGPGKKGALPQEEEDDFEADFREFERGLSEDDDVDGAGEGGDDEVQEL  87
+
+Query  60  APPNP  64
+           APP P
+Sbjct  88  APPEP  92
+
+
+>TR:A0A2G5C5U9_AQUCA A0A2G5C5U9 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_09100069v1 PE=4 SV=1
+Length=284
+
+ Score = 35.0 bits (79),  Expect = 1.2
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  10   LGWSGLVFNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPS  69
+            LG +  +    ++ D+D  E    A+S+A +A   W  PA+AD  +V S A       P 
+Sbjct  159  LGATPFLLGKRLRSDDDSDEGAAVAASAAAAANGFWALPARADFGQVWSFAAAPEMVVPM  218
+
+Query  70   PT  71
+            PT
+Sbjct  219  PT  220
+
+
+>TR:A0A059CIT0_EUCGR A0A059CIT0 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_D02526 PE=4 SV=1
+Length=597
+
+ Score = 34.7 bits (78),  Expect = 1.9
+ Identities = 23/82 (28%), Positives = 41/82 (50%), Gaps = 3/82 (4%)
+
+Query  33   PASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVS  92
+            P+S+SA ++ +S+ AP+ A  +   + A  NP ++P+P    R  L +  +    F   S
+Sbjct  40   PSSASASASPLSFFAPSSASPSPFAAAAVSNPSSSPAPAPFFR--LSSSSSISSAFSAPS  97
+
+Query  93   IEEGNTLPFTKSPLMLAKISSS  114
+               G+T P   +P +    SS+
+Sbjct  98   FSFGST-PAASAPSLFGTPSSA  118
+
+
+>TR:A0A059BMM7_EUCGR A0A059BMM7 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_F01083 PE=4 SV=1
+Length=151
+
+ Score = 33.9 bits (76),  Expect = 2.1
+ Identities = 21/59 (36%), Positives = 28/59 (47%), Gaps = 2/59 (3%)
+
+Query  44   SWTAPAK--ADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVSIEEGNTLP  100
+            +W A A+  A   ++ SL P  P +TP    LV R  LA G    G P+V+  E    P
+Sbjct  49   AWAAAARQAAASARLPSLKPSAPRSTPGAATLVHRRGLAGGGEHHGPPKVNFWEDPLSP  107
+
+
+>TR:M1E0N8_SOLTU M1E0N8 Uncharacterized protein OS=Solanum tuberosum OX=4113 PE=4 
+SV=1
+Length=173
+
+ Score = 33.9 bits (76),  Expect = 2.4
+ Identities = 18/61 (30%), Positives = 29/61 (48%), Gaps = 6/61 (10%)
+
+Query  14   GLVFNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRL  73
+            G  F+  V + E D E  + +  + + AR      +  D ++ L+  PP  DT P+PT  
+Sbjct  97   GESFDSQVAFSESDDERPLQSRQAEICAR------SHPDSSRALTTTPPTADTVPAPTPT  150
+
+Query  74   V  74
+            V
+Sbjct  151  V  151
+
+
+>TR:A0A0E0D8Z7_9ORYZ A0A0E0D8Z7 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=4 SV=1
+Length=413
+
+ Score = 34.3 bits (77),  Expect = 2.4
+ Identities = 25/94 (27%), Positives = 45/94 (48%), Gaps = 10/94 (11%)
+
+Query  33   PASSSAVSARMSWTAPAKADKTKVLSLAPPNP-------DTTPSPTRLVRRELLAPGNRD  85
+            PA+ +A +A  + ++P  A ++  L+ APP+P        T+PSPT  +R   LA    D
+Sbjct  78   PATPAAATAGPTSSSPTAARRSNRLAGAPPDPPAAAAAGSTSPSPTTAMRSNRLAGAPPD  137
+
+Query  86   QGFPRVSIEEGNTLPFTKSPLMLAKISSSEKNNP  119
+               P  +   G T P   +     +++ +  ++P
+Sbjct  138  ---PPAAATAGPTSPSPPAARRSNRLAGAPPDHP  168
+
+
+>TR:A0A151U2N8_CAJCA A0A151U2N8 Transcription factor HBP-1b(C1) OS=Cajanus cajan OX=3821 
+GN=KK1_006168 PE=4 SV=1
+Length=379
+
+ Score = 33.9 bits (76),  Expect = 3.2
+ Identities = 29/93 (31%), Positives = 44/93 (47%), Gaps = 9/93 (10%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDT----TPSPTRLVRRELLAPGNRDQG  87
+            +P S+S VS  +  T  + + +    SLA PNP T     P P + V+RE    GNR +G
+Sbjct  18   VPPSNSKVSMEIPSTQTSGSKRPPEPSLAKPNPHTEAPSAPEPPKAVKRE----GNR-KG  72
+
+Query  88   FPRVSIEEGNTLPFTKSPLMLAKISSSEKNNPL  120
+                S +E    P  K+   LA+   + + + L
+Sbjct  73   TTSSSEQEAPKTPDPKTLRRLAQNREAARKSRL  105
+
+
+>TR:A0A0A9IIA2_ARUDO A0A0A9IIA2 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=139
+
+ Score = 33.1 bits (74),  Expect = 3.6
+ Identities = 23/61 (38%), Positives = 29/61 (48%), Gaps = 3/61 (5%)
+
+Query  33   PASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAP---GNRDQGFP  89
+            P S S+ S+R S  AP  A      + A P P TT +P   +RR  +A    G R   FP
+Sbjct  67   PRSRSSRSSRTSPRAPLGARSRAPTAAASPTPATTSAPAAALRRRPMATAPHGRRFAIFP  126
+
+Query  90   R  90
+            R
+Sbjct  127  R  127
+
+
+>TR:D8U8A8_VOLCA D8U8A8 Uncharacterized protein OS=Volvox carteri f. nagariensis 
+OX=3068 GN=VOLCADRAFT_106578 PE=4 SV=1
+Length=799
+
+ Score = 33.9 bits (76),  Expect = 3.6
+ Identities = 29/87 (33%), Positives = 41/87 (47%), Gaps = 17/87 (20%)
+
+Query  24   DEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRREL-----  78
+            +EDDF A   A +SA          A+A+  +  +LAPP PD T +  R +  E+     
+Sbjct  688  EEDDFYAQAKADASA-------RKKARAEAHRAPALAPPAPDPTTAAARGITEEIQRNRG  740
+
+Query  79   LAP-GNRDQGFPRVSIEEGNTLPFTKS  104
+            L P   RDQ  PR    + N + F K+
+Sbjct  741  LTPHRRRDQKNPR----KKNRMKFEKA  763
+
+
+>TR:A0A1S2Z6U7_CICAR A0A1S2Z6U7 classical arabinogalactan protein 9-like OS=Cicer 
+arietinum OX=3827 GN=LOC101497395 PE=4 SV=1
+Length=211
+
+ Score = 33.5 bits (75),  Expect = 3.6
+ Identities = 34/99 (34%), Positives = 41/99 (41%), Gaps = 14/99 (14%)
+
+Query  33   PASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVR---------RELLAPGN  83
+            P  S AV    S  +PA +  +KV S   P+P  TP PT  V               P  
+Sbjct  85   PTKSPAVQPPSS-VSPAVSPSSKVSSPPVPSP-ATPPPTAAVAPVSSPVEGPSVSSPPEA  142
+
+Query  84   RDQGFPRVSIEEGN---TLPFTKSPLMLAKISSSEKNNP  119
+               G P  S   G+   TLP +KSP   A  SSS  N+P
+Sbjct  143  SSAGIPSSSATPGDSPATLPSSKSPPGTASSSSSPGNSP  181
+
+
+>TR:A0A2K3D919_CHLRE A0A2K3D919 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_10g419200v5 PE=4 SV=1
+Length=2833
+
+ Score = 33.9 bits (76),  Expect = 3.8
+ Identities = 32/94 (34%), Positives = 43/94 (46%), Gaps = 8/94 (9%)
+
+Query  20    AVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELL  79
+             AV+    +FE+ + A+S+A SA      PA AD    +S AP  P    S   + RR+  
+Sbjct  1969  AVECSSHEFESSLSATSAATSATAPAMGPA-ADAVAAVSTAP--PAALQSGHSITRRDAR  2025
+
+Query  80    AP--GNRDQGF--PRVS-IEEGNTLPFTKSPLML  108
+              P  GN+ Q    P VS    G   P   SP +L
+Sbjct  2026  KPHSGNQQQALLPPPVSPARSGQLEPAPSSPQVL  2059
+
+
+>TR:A0A2K3D922_CHLRE A0A2K3D922 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_10g419200v5 PE=4 SV=1
+Length=2897
+
+ Score = 33.9 bits (76),  Expect = 3.8
+ Identities = 32/94 (34%), Positives = 43/94 (46%), Gaps = 8/94 (9%)
+
+Query  20    AVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELL  79
+             AV+    +FE+ + A+S+A SA      PA AD    +S AP  P    S   + RR+  
+Sbjct  1969  AVECSSHEFESSLSATSAATSATAPAMGPA-ADAVAAVSTAP--PAALQSGHSITRRDAR  2025
+
+Query  80    AP--GNRDQGF--PRVS-IEEGNTLPFTKSPLML  108
+              P  GN+ Q    P VS    G   P   SP +L
+Sbjct  2026  KPHSGNQQQALLPPPVSPARSGQLEPAPSSPQVL  2059
+
+
+>TR:A8I5V6_CHLRE A8I5V6 Predicted protein OS=Chlamydomonas reinhardtii OX=3055 
+GN=CHLREDRAFT_167697 PE=4 SV=1
+Length=673
+
+ Score = 33.5 bits (75),  Expect = 4.8
+ Identities = 28/83 (34%), Positives = 35/83 (42%), Gaps = 15/83 (18%)
+
+Query  12   WSGL-VFNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSP  70
+            W GL +      Y + D EA     + A  AR++ TA A+AD+T    L  P PD  P P
+Sbjct  537  WDGLSLLQSGAAYAKTDEEAQERKEALAKGARLANTAIAEADRT---DLQTPAPDMMPGP  593
+
+Query  71   T-----------RLVRRELLAPG  82
+                          VRR L A G
+Sbjct  594  ALEFDSGRSARRAQVRRRLAASG  616
+
+
+>TR:A0A2K3DM35_CHLRE A0A2K3DM35 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_06g253250v5 PE=4 SV=1
+Length=696
+
+ Score = 33.5 bits (75),  Expect = 4.8
+ Identities = 24/96 (25%), Positives = 41/96 (43%), Gaps = 6/96 (6%)
+
+Query  29   EAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGF  88
+            EA +  +++A +A  +  A  + D  + + +APP P   P P          P  R  GF
+Sbjct  387  EAALAGAAAAAAAGGAAGAGVQEDAGEPMDMAPPPPQPPPPPPP------PPPSGRAAGF  440
+
+Query  89   PRVSIEEGNTLPFTKSPLMLAKISSSEKNNPLYSLL  124
+            P  + +     PF  SP  +     + +  P ++LL
+Sbjct  441  PPPAKQPRFAEPFAPSPQPMHPPPPANRRGPGHALL  476
+
+
+>TR:A0A2R6Q095_ACTCH A0A2R6Q095 Protein IQ-DOMAIN like OS=Actinidia chinensis var. 
+chinensis OX=1590841 GN=CEY00_Acc23583 PE=4 SV=1
+Length=789
+
+ Score = 33.5 bits (75),  Expect = 4.8
+ Identities = 27/87 (31%), Positives = 40/87 (46%), Gaps = 5/87 (6%)
+
+Query  19   GAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPP--NPDTTPSPTRLVRR  76
+            G+ + D  D E     SS+++ + M  T  A+A   K L+ + P  +PD       L +R
+Sbjct  694  GSGRPDHVDQEPRDSNSSNSLPSYMQATESARA---KALANSSPRSSPDMQDKDIYLKKR  750
+
+Query  77   ELLAPGNRDQGFPRVSIEEGNTLPFTK  103
+              L   N  QG PR+ +    T P TK
+Sbjct  751  HSLPGANGRQGSPRIQLSTSRTQPGTK  777
+
+
+>TR:A0A1J6JAK1_NICAT A0A1J6JAK1 Transcription factor tcp7 OS=Nicotiana attenuata OX=49451 
+GN=TCP7_0 PE=4 SV=1
+Length=248
+
+ Score = 33.1 bits (74),  Expect = 5.3
+ Identities = 22/71 (31%), Positives = 32/71 (45%), Gaps = 5/71 (7%)
+
+Query  45   WTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVSIEEGNTLPFTKS  104
+            W  PA++D  +V S APP P    +PT       L     ++   R+    GN  P  + 
+Sbjct  169  WAVPARSDFGQVWSFAPPPPPEMVAPTHSSAARFLQQQMGEESAARL----GNYFPIAQG  224
+
+Query  105  PL-MLAKISSS  114
+             L +LA +S S
+Sbjct  225  HLNLLASLSGS  235
+
+
+>TR:A0A2H3XRQ6_PHODC A0A2H3XRQ6 growth-regulating factor 1-like isoform X2 OS=Phoenix 
+dactylifera OX=42345 GN=LOC103705768 PE=4 SV=1
+Length=308
+
+ Score = 33.1 bits (74),  Expect = 5.6
+ Identities = 24/95 (25%), Positives = 42/95 (44%), Gaps = 19/95 (20%)
+
+Query  29   EAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGF  88
+            +  +  +S+  S+R+S      +  + +LSL+PP  D             L P +   G 
+Sbjct  120  QVDLSLASNPTSSRLS------SPYSSLLSLSPPEADRA-----------LFPSSSSSGS  162
+
+Query  89   PRVSIEEGNTLPFTKSPLMLAKISSSEKNNPLYSL  123
+            P +S+   N +P+  S L    +S+ + N  LY L
+Sbjct  163  PSISLSAQNNIPY--SHLDTVSLSADKSNRELYGL  195
+
+
+>TR:A0A2H3ZNF5_PHODC A0A2H3ZNF5 growth-regulating factor 1-like isoform X1 OS=Phoenix 
+dactylifera OX=42345 GN=LOC103705768 PE=4 SV=1
+Length=313
+
+ Score = 33.1 bits (74),  Expect = 5.7
+ Identities = 24/95 (25%), Positives = 42/95 (44%), Gaps = 19/95 (20%)
+
+Query  29   EAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGF  88
+            +  +  +S+  S+R+S      +  + +LSL+PP  D             L P +   G 
+Sbjct  120  QVDLSLASNPTSSRLS------SPYSSLLSLSPPEADRA-----------LFPSSSSSGS  162
+
+Query  89   PRVSIEEGNTLPFTKSPLMLAKISSSEKNNPLYSL  123
+            P +S+   N +P+  S L    +S+ + N  LY L
+Sbjct  163  PSISLSAQNNIPY--SHLDTVSLSADKSNRELYGL  195
+
+
+>TR:L0P3T1_9POAL L0P3T1 PH01B019A14.22 protein OS=Phyllostachys edulis OX=38705 
+GN=PH01B019A14.22 PE=4 SV=1
+Length=329
+
+ Score = 33.1 bits (74),  Expect = 5.7
+ Identities = 18/47 (38%), Positives = 27/47 (57%), Gaps = 2/47 (4%)
+
+Query  24  DEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSP  70
+           D+DDFE  IPA+++A+SA     +  K     +L   PP+P  +P P
+Sbjct  29  DDDDFEFRIPAAAAALSAADELFSGGKL--VPLLPPPPPSPPCSPPP  73
+
+
+>TR:W9R408_9ROSA W9R408 Uncharacterized protein OS=Morus notabilis OX=981085 GN=L484_010181 
+PE=4 SV=1
+Length=169
+
+ Score = 32.7 bits (73),  Expect = 5.9
+ Identities = 20/57 (35%), Positives = 27/57 (47%), Gaps = 1/57 (2%)
+
+Query  44  SWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVSIEEGNTLP  100
+           +WTA A+     +  L+ P P +T   T LV R  LA G    G P+V+  E    P
+Sbjct  3   AWTAAAR-QAANLARLSTPKPASTAQATSLVHRRGLAGGGDHHGPPKVNFWEDPLSP  58
+
+
+>TR:A0A1D6I4Y7_MAIZE A0A1D6I4Y7 Ethylene response factor OS=Zea mays OX=4577 GN=100284306 
+PE=4 SV=1
+Length=418
+
+ Score = 33.1 bits (74),  Expect = 6.0
+ Identities = 25/65 (38%), Positives = 30/65 (46%), Gaps = 2/65 (3%)
+
+Query  1   KQQRC-VVADLGWSGLVFNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSL  59
+           +QQRC V ADL W G    GA Q  E+DFEA        +      +A    D  +V  L
+Sbjct  29  QQQRCRVTADLLWPGPGSKGAPQDKEEDFEADFREFERGLGEDDVDSAGEGGD-PEVQEL  87
+
+Query  60  APPNP  64
+            PP P
+Sbjct  88  PPPEP  92
+
+
+>TR:A0A166HSD6_DAUCA A0A166HSD6 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_002987 PE=4 SV=1
+Length=422
+
+ Score = 33.1 bits (74),  Expect = 6.0
+ Identities = 21/77 (27%), Positives = 36/77 (47%), Gaps = 3/77 (4%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKT---KVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGF  88
+            +P +S A   R    APA    T   K+ ++APP+P  T SP+   R   ++   +    
+Sbjct  69   VPPASVAPVTRSPPAAPAPVPATPPSKITTVAPPSPIVTQSPSTANRSSPVSSAPKATLA  128
+
+Query  89   PRVSIEEGNTLPFTKSP  105
+            P + +   ++LP +  P
+Sbjct  129  PVIPLPSSSSLPQSPKP  145
+
+
+>TR:V7BIB3_PHAVU V7BIB3 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_007G257700g PE=4 SV=1
+Length=488
+
+ Score = 33.1 bits (74),  Expect = 6.2
+ Identities = 27/93 (29%), Positives = 45/93 (48%), Gaps = 9/93 (10%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDT----TPSPTRLVRRELLAPGNRDQG  87
+            +P S+S V+  +  T  + + +    S+A PNP T     P P ++V+RE    GNR +G
+Sbjct  143  VPPSNSKVTMELPSTQTSGSKRPPGSSIAKPNPHTEAPSAPEPPKVVKRE----GNR-KG  197
+
+Query  88   FPRVSIEEGNTLPFTKSPLMLAKISSSEKNNPL  120
+                S +E    P  K+   LA+   + + + L
+Sbjct  198  ATSSSEQEAPKTPDPKTLRRLAQNREAARKSRL  230
+
+
+>TR:V7BKV8_PHAVU V7BKV8 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_007G257700g PE=4 SV=1
+Length=530
+
+ Score = 33.1 bits (74),  Expect = 6.3
+ Identities = 27/93 (29%), Positives = 45/93 (48%), Gaps = 9/93 (10%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDT----TPSPTRLVRRELLAPGNRDQG  87
+            +P S+S V+  +  T  + + +    S+A PNP T     P P ++V+RE    GNR +G
+Sbjct  185  VPPSNSKVTMELPSTQTSGSKRPPGSSIAKPNPHTEAPSAPEPPKVVKRE----GNR-KG  239
+
+Query  88   FPRVSIEEGNTLPFTKSPLMLAKISSSEKNNPL  120
+                S +E    P  K+   LA+   + + + L
+Sbjct  240  ATSSSEQEAPKTPDPKTLRRLAQNREAARKSRL  272
+
+
+>TR:A0A2C9V744_MANES A0A2C9V744 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_10G132700 PE=4 SV=1
+Length=612
+
+ Score = 33.1 bits (74),  Expect = 6.4
+ Identities = 23/75 (31%), Positives = 34/75 (45%), Gaps = 12/75 (16%)
+
+Query  55   KVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVSIEEGNTLPFTKSPLMLAKISSS  114
+            + L+  PP   T P PT  ++R           F  ++I +   +P T S      +S S
+Sbjct  271  EALAQGPPRARTPPQPTSGIQR-----------FEELAIRQSRLIPMTPSMPKTLVVSPS  319
+
+Query  115  EKNNP-LYSLLLSVH  128
+            EK+ P + SL  SVH
+Sbjct  320  EKSKPKIGSLQQSVH  334
+
+
+>TR:A0A2K2CV17_BRADI A0A2K2CV17 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g03840v3 PE=4 SV=1
+Length=690
+
+ Score = 33.1 bits (74),  Expect = 6.5
+ Identities = 30/102 (29%), Positives = 45/102 (44%), Gaps = 5/102 (5%)
+
+Query  25   EDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELL-APGN  83
+            +DD    +P      S+R       + D  ++L L PP P  +P P RLV  + L A   
+Sbjct  68   DDDDRLLLPPPPPLGSSRPKRLVEDENDDDRLL-LPPPPPLRSPRPKRLVEDDRLEADSP  126
+
+Query  84   RDQGFPRVSIEEGNTLPFTKSPLMLAKISSSEKNNPLYSLLL  125
+            R+ G PR     G +     +PL+ A  + S +  P+   LL
+Sbjct  127  RNNGTPR---GHGRSPENVYAPLLPAPPAGSSRPGPVVYRLL  165
+
+
+>TR:I1HX73_BRADI I1HX73 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+PE=4 SV=1
+Length=717
+
+ Score = 33.1 bits (74),  Expect = 6.5
+ Identities = 30/102 (29%), Positives = 45/102 (44%), Gaps = 5/102 (5%)
+
+Query  25   EDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELL-APGN  83
+            +DD    +P      S+R       + D  ++L L PP P  +P P RLV  + L A   
+Sbjct  68   DDDDRLLLPPPPPLGSSRPKRLVEDENDDDRLL-LPPPPPLRSPRPKRLVEDDRLEADSP  126
+
+Query  84   RDQGFPRVSIEEGNTLPFTKSPLMLAKISSSEKNNPLYSLLL  125
+            R+ G PR     G +     +PL+ A  + S +  P+   LL
+Sbjct  127  RNNGTPR---GHGRSPENVYAPLLPAPPAGSSRPGPVVYRLL  165
+
+
+>TR:A0A1D1XIY9_9ARAE A0A1D1XIY9 DNA-directed RNA polymerase subunit alpha (Fragment) 
+OS=Anthurium amnicola OX=1678845 GN=rpoA_11 PE=4 SV=1
+Length=955
+
+ Score = 33.1 bits (74),  Expect = 6.6
+ Identities = 17/67 (25%), Positives = 32/67 (48%), Gaps = 0/67 (0%)
+
+Query  22   QYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAP  81
+            +++E+DF+      +S +  R S+  P  +  +  L  +P + DT PS T  +   +  P
+Sbjct  92   KFEEEDFDHSKEKETSVLQFRFSFQVPEVSLNSTKLQGSPASEDTVPSMTTSISNYIFLP  151
+
+Query  82   GNRDQGF  88
+                +GF
+Sbjct  152  EGDIRGF  158
+
+
+>TR:A0A0S3RBD8_PHAAN A0A0S3RBD8 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.02G030900 PE=4 SV=1
+Length=275
+
+ Score = 32.7 bits (73),  Expect = 7.4
+ Identities = 30/79 (38%), Positives = 39/79 (49%), Gaps = 16/79 (20%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPG-----NRDQ  86
+            IP SSS+ S+  S +A AK +     SL P NP +TPS  +        PG     N++ 
+Sbjct  110  IPYSSSSSSSSSS-SAAAKKNPVLDTSLPPSNPPSTPSRPK--------PGGNLQTNQEP  160
+
+Query  87   GFPRVSIEEG--NTLPFTK  103
+            GF   SI E   NT+P  K
+Sbjct  161  GFTGSSISEYLINTIPGMK  179
+
+
+>TR:A0A0L9V957_PHAAN A0A0L9V957 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan09g028900 PE=4 SV=1
+Length=275
+
+ Score = 32.7 bits (73),  Expect = 7.4
+ Identities = 30/79 (38%), Positives = 39/79 (49%), Gaps = 16/79 (20%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPG-----NRDQ  86
+            IP SSS+ S+  S +A AK +     SL P NP +TPS  +        PG     N++ 
+Sbjct  110  IPYSSSSSSSSSS-SAAAKKNPVLDTSLPPSNPPSTPSRPK--------PGGNLQTNQEP  160
+
+Query  87   GFPRVSIEEG--NTLPFTK  103
+            GF   SI E   NT+P  K
+Sbjct  161  GFTGSSISEYLINTIPGMK  179
+
+
+>TR:A0A1D2A106_AUXPR A0A1D2A106 Uncharacterized protein (Fragment) OS=Auxenochlorella 
+protothecoides OX=3075 GN=g.34317 PE=4 SV=1
+Length=353
+
+ Score = 32.7 bits (73),  Expect = 7.9
+ Identities = 17/54 (31%), Positives = 23/54 (43%), Gaps = 0/54 (0%)
+
+Query  33   PASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQ  86
+            P    AV+A   + A  ++  T      PP P   P PT+   RELL     +Q
+Sbjct  194  PEPGEAVAAASDFLAGLQSTSTLTAQQEPPGPSARPQPTKEEERELLRRQREEQ  247
+
+
+>TR:A0A0P0WDW5_ORYSJ A0A0P0WDW5 Os04g0580350 protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=Os04g0580350 PE=4 SV=1
+Length=79
+
+ Score = 31.2 bits (69),  Expect = 8.4
+ Identities = 18/56 (32%), Positives = 31/56 (55%), Gaps = 0/56 (0%)
+
+Query  4   RCVVADLGWSGLVFNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSL  59
+           R VVA++G        AV+ DE + +  IP +++A+SA +S    A A   + L++
+Sbjct  11  RDVVAEVGGEQEAEEDAVEVDEFEGDRVIPTATAAISAEVSGETAADAAAVRCLTV  66
+
+
+>TR:A0A1D5U6N5_WHEAT A0A1D5U6N5 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=490
+
+ Score = 32.7 bits (73),  Expect = 8.4
+ Identities = 20/60 (33%), Positives = 28/60 (47%), Gaps = 3/60 (5%)
+
+Query  35   SSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRVSIE  94
+            S + +++R +WT  A        +  PP P    +PTR  RR    PG R +  PR S E
+Sbjct  376  SLAKMNSRWTWTMAATRAGA---APPPPRPRIPAAPTRARRRRNRRPGARRRNLPRCSTE  432
+
+
+>TR:I1JXP5_SOYBN I1JXP5 Uncharacterized protein OS=Glycine max OX=3847 GN=100795139 
+PE=4 SV=1
+Length=576
+
+ Score = 32.7 bits (73),  Expect = 8.6
+ Identities = 26/89 (29%), Positives = 39/89 (44%), Gaps = 6/89 (7%)
+
+Query  24   DEDD----FEAXIPASSSAVSARMSWTAPAKADKTKV--LSLAPPNPDTTPSPTRLVRRE  77
+            D+DD    F A  PAS S+ S+       A  + T +  +S+A PN   +P+  R     
+Sbjct  80   DDDDLDFRFSAPSPASLSSFSSNSGSNRSASTNATAIPPISVARPNRSPSPALGRNFVEH  139
+
+Query  78   LLAPGNRDQGFPRVSIEEGNTLPFTKSPL  106
+              +  +   G P VS+     +P  KS L
+Sbjct  140  THSVRSTSAGRPAVSVRSAAVVPPNKSTL  168
+
+
+>TR:A0A2G9G0I2_9LAMI A0A2G9G0I2 Uncharacterized protein OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_28678 PE=4 SV=1
+Length=590
+
+ Score = 32.7 bits (73),  Expect = 8.6
+ Identities = 22/87 (25%), Positives = 39/87 (45%), Gaps = 0/87 (0%)
+
+Query  32   IPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRV  91
+            I A++ A+++  S+ +   A  T ++     NP T  +   + +   L P    + FP +
+Sbjct  490  IAAATKAITSDPSFQSALAAALTSIIGSGSSNPTTLGNQNAVEKSSQLNPIKPSEPFPIL  549
+
+Query  92   SIEEGNTLPFTKSPLMLAKISSSEKNN  118
+            S     + P   +P  L K SSS  N+
+Sbjct  550  SSFPSTSNPTKCAPSFLRKSSSSTTNS  576
+
+
+>TR:A0A2I0HWX4_PUNGR A0A2I0HWX4 Uncharacterized protein (Fragment) OS=Punica granatum 
+OX=22663 GN=CRG98_043376 PE=4 SV=1
+Length=133
+
+ Score = 32.0 bits (71),  Expect = 8.7
+ Identities = 21/65 (32%), Positives = 34/65 (52%), Gaps = 1/65 (2%)
+
+Query  17  FNGAVQYDEDDFEAXIPASSSAVSARMSWTAPAKADKTKVLSLAPPNPDTTPSPTRLVRR  76
+           F+  V+     F    P+SSS+ +A  S T+ + A   KVL+LA P+P +  S + +V  
+Sbjct  24  FSSHVRRHRISFSLPDPSSSSSCAASAS-TSKSGAGLKKVLNLAAPSPKSISSISEIVAE  82
+
+Query  77  ELLAP  81
+           +   P
+Sbjct  83  DASVP  87
+
+
+>TR:A0A2N9F5L2_FAGSY A0A2N9F5L2 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS10257 PE=4 SV=1
+Length=742
+
+ Score = 32.7 bits (73),  Expect = 8.8
+ Identities = 22/86 (26%), Positives = 38/86 (44%), Gaps = 5/86 (6%)
+
+Query  46   TAPAKADKTKVLSLAPPNPDTTPSPTRLVRRELLAPGNRDQGFPRV-----SIEEGNTLP  100
+            T P   D + +      +P ++PSP    R   L+ G+ +   PR+     S+E   T  
+Sbjct  12   TIPRDPDSSPISDKQQRSPSSSPSPRSCTRLGFLSGGSSNPSTPRLRCRTTSLESTQTPT  71
+
+Query  101  FTKSPLMLAKISSSEKNNPLYSLLLS  126
+              +SP +  K S+ + +    SL+ S
+Sbjct  72   VDESPRLQCKTSTPKTSKSPRSLIAS  97
+
+
+>TR:A0A1D1ZWG8_AUXPR A0A1D1ZWG8 Uncharacterized protein OS=Auxenochlorella protothecoides 
+OX=3075 GN=g.10385 PE=3 SV=1
+Length=212
+
+ Score = 32.3 bits (72),  Expect = 9.2
+ Identities = 25/77 (32%), Positives = 36/77 (47%), Gaps = 12/77 (16%)
+
+Query  35  SSSAVSARMSWTAPAKADKTKVLSLAPPNP-----------DTTP-SPTRLVRRELLAPG  82
+           +SSA  A+ +WT  + AD +  +S A P             + +P +P  L+ R   AP 
+Sbjct  16  ASSAGPAKQAWTCRSHADLSASVSRAYPTEPRVGVGVVVLRELSPGNPETLLIRRAKAPN  75
+
+Query  83  NRDQGFPRVSIEEGNTL  99
+             D  FP  S+E G TL
+Sbjct  76  KGDWCFPGGSLELGETL  92
+
+
+
+Lambda      K        H
+   0.313    0.129    0.377 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55371698580
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

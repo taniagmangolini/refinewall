@@ -1,0 +1,4618 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:C5YKH3_SORBI  C5YKH3 Uncharacterized protein OS=Sorghum bicolo...  189     7e-57
+TR:A0A1D6KQ60_MAIZE  A0A1D6KQ60 UDP-glucose 4-epimerase 4 OS=Zea ...  184     8e-55
+TR:B6TQ45_MAIZE  B6TQ45 UDP-glucose 4-epimerase 4 OS=Zea mays OX=...  184     9e-55
+TR:C0PBK9_MAIZE  C0PBK9 Uncharacterized protein OS=Zea mays OX=45...  181     2e-53
+TR:A0A1E5URM0_9POAL  A0A1E5URM0 UDP-glucose 4-epimerase 2 OS=Dich...  176     3e-51
+TR:K3YI98_SETIT  K3YI98 Uncharacterized protein OS=Setaria italic...  173     3e-51
+TR:A0A2S3I1T7_9POAL  A0A2S3I1T7 Uncharacterized protein OS=Panicu...  171     7e-50
+TR:A0A2T7D6Q4_9POAL  A0A2T7D6Q4 Uncharacterized protein OS=Panicu...  171     7e-50
+TR:A0A0A9IF36_ARUDO  A0A0A9IF36 Gpm440 OS=Arundo donax OX=35708 P...  124     2e-35
+TR:A0A0A9VEH0_ARUDO  A0A0A9VEH0 Gpm440 OS=Arundo donax OX=35708 P...  122     1e-34
+TR:A0A0A9NAY3_ARUDO  A0A0A9NAY3 Gpm440 OS=Arundo donax OX=35708 P...  116     3e-32
+TR:J3MSL6_ORYBR  J3MSL6 Uncharacterized protein OS=Oryza brachyan...  117     3e-29
+TR:A0A0E0LUD7_ORYPU  A0A0E0LUD7 Uncharacterized protein OS=Oryza ...  115     9e-29
+TR:A0A0E0QI96_ORYRU  A0A0E0QI96 Uncharacterized protein OS=Oryza ...  110     1e-27
+TR:A0A0D9X7B8_9ORYZ  A0A0D9X7B8 Uncharacterized protein OS=Leersi...  111     3e-27
+TR:A0A0D3GZM4_9ORYZ  A0A0D3GZM4 Uncharacterized protein OS=Oryza ...  110     6e-27
+TR:A0A0E0EL04_9ORYZ  A0A0E0EL04 Uncharacterized protein OS=Oryza ...  110     6e-27
+TR:I1QI66_ORYGL  I1QI66 Uncharacterized protein OS=Oryza glaberri...  110     6e-27
+TR:A0A0E0AUU1_9ORYZ  A0A0E0AUU1 Uncharacterized protein OS=Oryza ...  110     6e-27
+SP:UGE2_ORYSJ  Q6ZDJ7 UDP-glucose 4-epimerase 2 OS=Oryza sativa s...  110     8e-27
+TR:A0A0E0IB30_ORYNI  A0A0E0IB30 Uncharacterized protein OS=Oryza ...  110     8e-27
+TR:A0A0E0QI95_ORYRU  A0A0E0QI95 Uncharacterized protein OS=Oryza ...  110     1e-26
+TR:A3BSK5_ORYSJ  A3BSK5 Uncharacterized protein OS=Oryza sativa s...  110     1e-26
+TR:A2YUN4_ORYSI  A2YUN4 Uncharacterized protein OS=Oryza sativa s...  110     1e-26
+TR:I1I6T1_BRADI  I1I6T1 Uncharacterized protein OS=Brachypodium d...  99.8    7e-23
+TR:A0A287RAV1_HORVV  A0A287RAV1 Uncharacterized protein OS=Hordeu...  78.6    1e-16
+TR:A0A287RAR8_HORVV  A0A287RAR8 Uncharacterized protein OS=Hordeu...  78.6    7e-16
+TR:A0A1D5ZB89_WHEAT  A0A1D5ZB89 Uncharacterized protein OS=Tritic...  77.8    1e-15
+TR:A0A287RAV0_HORVV  A0A287RAV0 Uncharacterized protein OS=Hordeu...  78.6    1e-15
+TR:A0A287RAL7_HORVV  A0A287RAL7 Uncharacterized protein OS=Hordeu...  78.6    2e-15
+TR:M7YVB1_TRIUA  M7YVB1 UDP-glucose 4-epimerase GEPI48 OS=Triticu...  77.8    2e-15
+TR:A0A287RB16_HORVV  A0A287RB16 Uncharacterized protein OS=Hordeu...  78.6    3e-15
+TR:Q58IJ5_HORVU  Q58IJ5 UDP-D-glucose epimerase 2 OS=Hordeum vulg...  78.6    3e-15
+TR:A0A287RAM2_HORVV  A0A287RAM2 Uncharacterized protein OS=Hordeu...  78.6    3e-15
+TR:A0A1D5YGX0_WHEAT  A0A1D5YGX0 Uncharacterized protein OS=Tritic...  77.8    5e-15
+TR:M8ARY4_AEGTA  M8ARY4 UDP-glucose 4-epimerase GEPI48 OS=Aegilop...  77.8    7e-15
+TR:A0A1D5ZTJ7_WHEAT  A0A1D5ZTJ7 Uncharacterized protein OS=Tritic...  77.8    7e-15
+TR:F2D567_HORVV  F2D567 Predicted protein OS=Hordeum vulgare subs...  76.6    1e-14
+TR:A0A0N7KQK3_ORYSJ  A0A0N7KQK3 Os09g0323000 protein (Fragment) O...  68.9    1e-13
+TR:I1IPD3_BRADI  I1IPD3 Uncharacterized protein OS=Brachypodium d...  72.0    6e-13
+TR:J3MWI1_ORYBR  J3MWI1 Uncharacterized protein OS=Oryza brachyan...  70.9    1e-12
+TR:A0A0D3H571_9ORYZ  A0A0D3H571 Uncharacterized protein OS=Oryza ...  68.9    3e-12
+TR:A0A0E0LZS8_ORYPU  A0A0E0LZS8 Uncharacterized protein OS=Oryza ...  68.9    5e-12
+TR:A0A0E0EQS1_9ORYZ  A0A0E0EQS1 Uncharacterized protein OS=Oryza ...  68.9    7e-12
+TR:I1QMW4_ORYGL  I1QMW4 Uncharacterized protein OS=Oryza glaberri...  68.9    7e-12
+TR:A0A0E0B1D2_9ORYZ  A0A0E0B1D2 Uncharacterized protein OS=Oryza ...  68.9    7e-12
+SP:UGE4_ORYSJ  Q6K2E1 UDP-glucose 4-epimerase 4 OS=Oryza sativa s...  68.9    7e-12
+TR:B8BEF8_ORYSI  B8BEF8 Uncharacterized protein OS=Oryza sativa s...  68.9    7e-12
+TR:A0A0E0QPQ6_ORYRU  A0A0E0QPQ6 Uncharacterized protein OS=Oryza ...  68.9    7e-12
+TR:A0A0E0B1D1_9ORYZ  A0A0E0B1D1 Uncharacterized protein OS=Oryza ...  68.9    9e-12
+TR:A0A0D9XCH0_9ORYZ  A0A0D9XCH0 Uncharacterized protein OS=Leersi...  67.8    2e-11
+TR:M0TAF7_MUSAM  M0TAF7 Uncharacterized protein OS=Musa acuminata...  67.0    4e-11
+TR:A0A0E0INT2_ORYNI  A0A0E0INT2 Uncharacterized protein OS=Oryza ...  66.2    6e-11
+TR:A0A0E0INT3_ORYNI  A0A0E0INT3 Uncharacterized protein OS=Oryza ...  66.2    6e-11
+TR:A0A1R3IAZ3_COCAP  A0A1R3IAZ3 NAD-dependent epimerase/dehydrata...  63.2    7e-10
+TR:A0A2I4HMY5_9ROSI  A0A2I4HMY5 UDP-glucose 4-epimerase GEPI48-li...  63.2    7e-10
+TR:A0A1U8APY8_NELNU  A0A1U8APY8 UDP-glucose 4-epimerase GEPI48 OS...  63.2    7e-10
+TR:A0A0E0L6M2_ORYPU  A0A0E0L6M2 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A0E0A3P0_9ORYZ  A0A0E0A3P0 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+SP:UGE1_ORYSJ  Q8LNZ3 UDP-glucose 4-epimerase 1 OS=Oryza sativa s...  62.4    1e-09
+TR:A2Y861_ORYSI  A2Y861 Uncharacterized protein OS=Oryza sativa s...  62.4    1e-09
+TR:A0A0E0PS58_ORYRU  A0A0E0PS58 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:I1PYK0_ORYGL  I1PYK0 Uncharacterized protein OS=Oryza glaberri...  62.4    1e-09
+TR:A0A0D9WKL3_9ORYZ  A0A0D9WKL3 Uncharacterized protein OS=Leersi...  62.4    1e-09
+TR:A0A0D3GBN1_9ORYZ  A0A0D3GBN1 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A0E0HJC2_ORYNI  A0A0E0HJC2 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A0E0DV96_9ORYZ  A0A0E0DV96 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A1D6I243_MAIZE  A0A1D6I243 UDP-glucose 4-epimerase 4 OS=Zea ...  60.1    1e-09
+TR:A0A0E0L6M1_ORYPU  A0A0E0L6M1 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A249Y714_9CARY  A0A249Y714 UDP-glucose 4-epimerase 1 OS=Hylo...  62.0    2e-09
+TR:A0A2P2JDI6_RHIMU  A0A2P2JDI6 Uncharacterized protein OS=Rhizop...  59.3    2e-09
+TR:A0A1E5V9M0_9POAL  A0A1E5V9M0 UDP-glucose 4-epimerase 4 OS=Dich...  61.2    3e-09
+TR:A0A067JR64_JATCU  A0A067JR64 Uncharacterized protein OS=Jatrop...  61.2    3e-09
+TR:A0A1R3K7G3_9ROSI  A0A1R3K7G3 NAD-dependent epimerase/dehydrata...  61.2    3e-09
+TR:J3MAD8_ORYBR  J3MAD8 Uncharacterized protein OS=Oryza brachyan...  61.2    3e-09
+TR:C5X9S7_SORBI  C5X9S7 Uncharacterized protein OS=Sorghum bicolo...  61.2    3e-09
+TR:K3ZUG6_SETIT  K3ZUG6 Uncharacterized protein OS=Setaria italic...  61.2    3e-09
+TR:B4FYI0_MAIZE  B4FYI0 UDP-glucose 4-epimerase 4 OS=Zea mays OX=...  60.8    5e-09
+TR:A0A2T8KQ13_9POAL  A0A2T8KQ13 Uncharacterized protein OS=Panicu...  60.8    5e-09
+TR:A0A1S2YXI1_CICAR  A0A1S2YXI1 UDP-glucose 4-epimerase GEPI48-li...  60.8    5e-09
+TR:A0A2T7ER94_9POAL  A0A2T7ER94 Uncharacterized protein OS=Panicu...  60.8    5e-09
+TR:I3T4R1_MEDTR  I3T4R1 Uncharacterized protein OS=Medicago trunc...  59.7    6e-09
+TR:A0A1D6I244_MAIZE  A0A1D6I244 UDP-glucose 4-epimerase 4 OS=Zea ...  60.1    7e-09
+TR:A0A2C9W9S1_MANES  A0A2C9W9S1 Uncharacterized protein OS=Maniho...  60.1    8e-09
+TR:A0A059C2I6_EUCGR  A0A059C2I6 Uncharacterized protein OS=Eucaly...  60.1    8e-09
+TR:B6TIV4_MAIZE  B6TIV4 UDP-glucose 4-epimerase GEPI48 OS=Zea may...  60.1    8e-09
+TR:G7K9B4_MEDTR  G7K9B4 UDP-D-glucose/UDP-D-galactose 4-epimerase...  60.1    9e-09
+TR:A0A1Q3DEQ5_CEPFO  A0A1Q3DEQ5 Epimerase domain-containing prote...  59.7    1e-08
+TR:B7FIW1_MEDTR  B7FIW1 Uncharacterized protein OS=Medicago trunc...  59.7    1e-08
+TR:A0A1Q3DEP9_CEPFO  A0A1Q3DEP9 Epimerase domain-containing prote...  59.3    1e-08
+TR:A0A2P4JDT0_QUESU  A0A2P4JDT0 Udp-glucose 4-epimerase gepi48 OS...  59.3    2e-08
+TR:A0A2P2JDI5_RHIMU  A0A2P2JDI5 Uncharacterized protein OS=Rhizop...  59.3    2e-08
+TR:B9GXJ3_POPTR  B9GXJ3 Uncharacterized protein OS=Populus tricho...  58.9    2e-08
+TR:A0A200PS49_9MAGN  A0A200PS49 NAD-dependent epimerase/dehydrata...  58.9    2e-08
+TR:A0A2H3Y4F0_PHODC  A0A2H3Y4F0 UDP-glucose 4-epimerase GEPI48 OS...  58.9    2e-08
+TR:A0A2H3YJK7_PHODC  A0A2H3YJK7 UDP-glucose 4-epimerase GEPI48 OS...  58.9    2e-08
+TR:M0SWZ9_MUSAM  M0SWZ9 Uncharacterized protein OS=Musa acuminata...  58.9    2e-08
+TR:B9GL51_POPTR  B9GL51 Uncharacterized protein OS=Populus tricho...  58.5    3e-08
+TR:A9PG00_POPTR  A9PG00 Uncharacterized protein OS=Populus tricho...  58.5    3e-08
+TR:W9RMQ8_9ROSA  W9RMQ8 UDP-glucose 4-epimerase GEPI48 OS=Morus n...  58.5    3e-08
+TR:A0A2N9FEA0_FAGSY  A0A2N9FEA0 Uncharacterized protein OS=Fagus ...  58.5    3e-08
+TR:G7K9B3_MEDTR  G7K9B3 UDP-D-glucose/UDP-D-galactose 4-epimerase...  57.8    4e-08
+TR:B9RCT8_RICCO  B9RCT8 UDP-glucose 4-epimerase, putative OS=Rici...  57.8    4e-08
+TR:G7K9B2_MEDTR  G7K9B2 UDP-D-glucose/UDP-D-galactose 4-epimerase...  57.8    5e-08
+TR:A0A2I0INN9_PUNGR  A0A2I0INN9 Uncharacterized protein OS=Punica...  53.1    6e-08
+TR:A0A067DC97_CITSI  A0A067DC97 Uncharacterized protein OS=Citrus...  57.4    7e-08
+TR:A0A2R6QN19_ACTCH  A0A2R6QN19 UDP-glucose 4-epimerase OS=Actini...  57.4    7e-08
+TR:A0A2I4EYA1_9ROSI  A0A2I4EYA1 UDP-glucose 4-epimerase GEPI48 OS...  57.4    7e-08
+TR:A0A2P6P644_ROSCH  A0A2P6P644 Putative UDP-glucose 4-epimerase ...  57.4    7e-08
+TR:A0A200QW73_9MAGN  A0A200QW73 NAD-dependent epimerase/dehydrata...  57.4    7e-08
+TR:A0A059CG22_EUCGR  A0A059CG22 Uncharacterized protein OS=Eucaly...  57.4    7e-08
+TR:A0A2K3PDY4_TRIPR  A0A2K3PDY4 UDP-glucose 4-epimerase gepi48-li...  57.0    1e-07
+TR:A0A068UUT9_COFCA  A0A068UUT9 Uncharacterized protein OS=Coffea...  56.6    1e-07
+TR:A0A2P6P635_ROSCH  A0A2P6P635 Putative UDP-glucose 4-epimerase ...  52.4    1e-07
+TR:A0A199W1L5_ANACO  A0A199W1L5 UDP-glucose 4-epimerase GEPI48 OS...  56.2    2e-07
+TR:A0A0C9RKP9_9SPER  A0A0C9RKP9 TSA: Wollemia nobilis Ref_Wollemi...  56.2    2e-07
+TR:A0A1D1ZD43_9ARAE  A0A1D1ZD43 UDP-glucose 4-epimerase GEPI48 (F...  56.2    2e-07
+TR:A0A2P5D6T4_9ROSA  A0A2P5D6T4 UDP-glucose 4-epimerase OS=Trema ...  55.8    2e-07
+TR:A0A1J7GE25_LUPAN  A0A1J7GE25 Uncharacterized protein OS=Lupinu...  55.8    2e-07
+TR:A0A2K3LM75_TRIPR  A0A2K3LM75 UDP-glucose 4-epimerase gepi48-li...  51.6    3e-07
+TR:M0SKI4_MUSAM  M0SKI4 Uncharacterized protein OS=Musa acuminata...  55.5    3e-07
+TR:A0A2K3LL75_TRIPR  A0A2K3LL75 UDP-glucose 4-epimerase gepi48-li...  51.6    3e-07
+TR:A0A2P5SNW1_GOSBA  A0A2P5SNW1 Uncharacterized protein OS=Gossyp...  55.1    4e-07
+TR:A0A218XKI6_PUNGR  A0A218XKI6 Uncharacterized protein OS=Punica...  55.1    4e-07
+TR:A0A218XKK6_PUNGR  A0A218XKK6 Uncharacterized protein OS=Punica...  55.1    4e-07
+TR:A0A0D2R407_GOSRA  A0A0D2R407 Uncharacterized protein OS=Gossyp...  55.1    4e-07
+TR:A0A1U8IE59_GOSHI  A0A1U8IE59 UDP-glucose 4-epimerase GEPI48-li...  55.1    4e-07
+TR:A0A1U8K204_GOSHI  A0A1U8K204 UDP-glucose 4-epimerase GEPI48-li...  55.1    4e-07
+TR:A0A0K9P5M4_ZOSMR  A0A0K9P5M4 UDP-glucose 4-epimerase OS=Zoster...  55.1    4e-07
+TR:A0A151SD02_CAJCA  A0A151SD02 UDP-glucose 4-epimerase GEPI48 OS...  55.1    5e-07
+TR:A0A2C9WIA1_MANES  A0A2C9WIA1 Uncharacterized protein OS=Maniho...  54.7    6e-07
+TR:M0TW74_MUSAM  M0TW74 Uncharacterized protein OS=Musa acuminata...  54.7    6e-07
+TR:A0A087GGE8_ARAAL  A0A087GGE8 Uncharacterized protein OS=Arabis...  54.7    6e-07
+TR:A0A067GMK5_CITSI  A0A067GMK5 Uncharacterized protein OS=Citrus...  53.9    7e-07
+TR:A0A0A8Y330_ARUDO  A0A0A8Y330 UDP-glucose-4-epimerase OS=Arundo...  53.5    7e-07
+TR:C0HEU5_MAIZE  C0HEU5 UDP-glucose 4-epimerase 4 OS=Zea mays OX=...  53.9    7e-07
+TR:D7TVG8_VITVI  D7TVG8 Uncharacterized protein OS=Vitis vinifera...  54.3    8e-07
+TR:A0A2H5QBP9_CITUN  A0A2H5QBP9 Uncharacterized protein OS=Citrus...  54.3    8e-07
+TR:V4SBE3_9ROSI  V4SBE3 Uncharacterized protein OS=Citrus clement...  54.3    8e-07
+SP:GALE2_CYATE  O65781 UDP-glucose 4-epimerase GEPI48 OS=Cyamopsi...  54.3    8e-07
+TR:M0TXX3_MUSAM  M0TXX3 Uncharacterized protein OS=Musa acuminata...  54.3    9e-07
+TR:A0A0A9N3B8_ARUDO  A0A0A9N3B8 UDP-glucose-4-epimerase OS=Arundo...  53.5    1e-06
+TR:C0HHU3_MAIZE  C0HHU3 Uncharacterized protein OS=Zea mays OX=45...  53.9    1e-06
+TR:A0A0K9QTS4_SPIOL  A0A0K9QTS4 Uncharacterized protein OS=Spinac...  53.9    1e-06
+TR:V4TGU1_9ROSI  V4TGU1 Uncharacterized protein OS=Citrus clement...  53.9    1e-06
+TR:Q7XZQ2_MAIZE  Q7XZQ2 UDP-glucose-4-epimerase OS=Zea mays OX=45...  53.9    1e-06
+TR:B6THJ8_MAIZE  B6THJ8 UDP-glucose 4-epimerase GEPI48 OS=Zea may...  53.9    1e-06
+TR:C0HI30_MAIZE  C0HI30 UDP-glucose 4-epimerase 4 OS=Zea mays OX=...  53.9    1e-06
+TR:A0A2H5NGI9_CITUN  A0A2H5NGI9 Uncharacterized protein OS=Citrus...  53.9    1e-06
+TR:C6TNT8_SOYBN  C6TNT8 Uncharacterized protein OS=Glycine max OX...  53.9    1e-06
+TR:I1JAE3_SOYBN  I1JAE3 Uncharacterized protein OS=Glycine max OX...  53.9    1e-06
+TR:M0SF53_MUSAM  M0SF53 Uncharacterized protein OS=Musa acuminata...  53.9    1e-06
+TR:K3Z999_SETIT  K3Z999 Uncharacterized protein OS=Setaria italic...  53.1    1e-06
+TR:K3Z938_SETIT  K3Z938 Uncharacterized protein OS=Setaria italic...  53.1    1e-06
+TR:A0A1U8BPS6_NELNU  A0A1U8BPS6 UDP-glucose 4-epimerase GEPI48-li...  53.5    1e-06
+TR:K3Z807_SETIT  K3Z807 Uncharacterized protein OS=Setaria italic...  53.1    2e-06
+TR:A0A2I0LB36_PUNGR  A0A2I0LB36 Uncharacterized protein OS=Punica...  53.1    2e-06
+TR:A0A061GDC4_THECC  A0A061GDC4 UDP-D-glucose/UDP-D-galactose 4-e...  53.1    2e-06
+TR:I1HFQ6_BRADI  I1HFQ6 Uncharacterized protein OS=Brachypodium d...  53.1    2e-06
+TR:A0A2T7E9E8_9POAL  A0A2T7E9E8 Uncharacterized protein OS=Panicu...  53.1    2e-06
+TR:K3Z7G6_SETIT  K3Z7G6 Uncharacterized protein OS=Setaria italic...  53.1    2e-06
+TR:K3Z7F7_SETIT  K3Z7F7 Uncharacterized protein OS=Setaria italic...  53.1    2e-06
+TR:A0A0K9P7Q0_ZOSMR  A0A0K9P7Q0 UDP-glucose 4-epimerase OS=Zoster...  53.1    2e-06
+TR:A0A2S3H8X1_9POAL  A0A2S3H8X1 Uncharacterized protein OS=Panicu...  53.1    2e-06
+TR:A0A1S3UNN3_VIGRR  A0A1S3UNN3 UDP-glucose 4-epimerase GEPI48-li...  52.8    3e-06
+TR:A0A1S3BS45_CUCME  A0A1S3BS45 UDP-glucose 4-epimerase GEPI48-li...  52.8    3e-06
+TR:I1K694_SOYBN  I1K694 Uncharacterized protein OS=Glycine max OX...  52.8    3e-06
+TR:A0A251RKQ7_HELAN  A0A251RKQ7 Putative UDP-glucose 4-epimerase ...  52.8    3e-06
+TR:A0A2I0ARI9_9ASPA  A0A2I0ARI9 UDP-glucose 4-epimerase GEPI48 OS...  52.8    3e-06
+TR:V7CPQ2_PHAVU  V7CPQ2 Uncharacterized protein OS=Phaseolus vulg...  52.4    3e-06
+TR:A0A164W094_DAUCA  A0A164W094 Uncharacterized protein OS=Daucus...  52.4    4e-06
+TR:A0A2G9I2S4_9LAMI  A0A2G9I2S4 UDP-glucose 4-epimerase/UDP-sulfo...  52.4    4e-06
+TR:A0A2G9GK74_9LAMI  A0A2G9GK74 UDP-glucose 4-epimerase/UDP-sulfo...  52.4    4e-06
+TR:A0A2G9HS71_9LAMI  A0A2G9HS71 UDP-glucose 4-epimerase/UDP-sulfo...  52.4    4e-06
+TR:V7CTF2_PHAVU  V7CTF2 Uncharacterized protein OS=Phaseolus vulg...  52.4    4e-06
+TR:A0A0S3QXD3_PHAAN  A0A0S3QXD3 Uncharacterized protein OS=Vigna ...  52.4    4e-06
+TR:A0A0L9TH33_PHAAN  A0A0L9TH33 Uncharacterized protein OS=Phaseo...  52.4    4e-06
+TR:M5WMM1_PRUPE  M5WMM1 UDP-glucose 4-epimerase OS=Prunus persica...  52.4    4e-06
+TR:A0A2I0WPU1_9ASPA  A0A2I0WPU1 UDP-glucose 4-epimerase GEPI48 OS...  52.4    4e-06
+TR:M1A1V5_SOLTU  M1A1V5 Uncharacterized protein OS=Solanum tubero...  48.1    5e-06
+TR:A0A1S2YEZ1_CICAR  A0A1S2YEZ1 UDP-glucose 4-epimerase GEPI48 OS...  52.0    5e-06
+TR:A0A2P5QNW2_GOSBA  A0A2P5QNW2 Uncharacterized protein OS=Gossyp...  52.0    5e-06
+TR:A0A1U8LKX8_GOSHI  A0A1U8LKX8 UDP-glucose 4-epimerase 2-like OS...  52.0    5e-06
+TR:W1PTA5_AMBTC  W1PTA5 Uncharacterized protein OS=Amborella tric...  52.0    5e-06
+TR:A0A2P5W8A0_GOSBA  A0A2P5W8A0 Uncharacterized protein OS=Gossyp...  52.0    5e-06
+TR:C5WZT3_SORBI  C5WZT3 Uncharacterized protein OS=Sorghum bicolo...  52.0    5e-06
+TR:A0A0D2V0P8_GOSRA  A0A0D2V0P8 Uncharacterized protein OS=Gossyp...  52.0    5e-06
+TR:S8EDN5_9LAMI  S8EDN5 Uncharacterized protein (Fragment) OS=Gen...  52.0    5e-06
+TR:I1LG74_SOYBN  I1LG74 Uncharacterized protein OS=Glycine max OX...  52.0    5e-06
+TR:V7CK54_PHAVU  V7CK54 Uncharacterized protein OS=Phaseolus vulg...  52.0    5e-06
+TR:A0A1E5VXZ4_9POAL  A0A1E5VXZ4 UDP-glucose 4-epimerase 1 OS=Dich...  52.0    5e-06
+TR:A0A2I0INM4_PUNGR  A0A2I0INM4 Uncharacterized protein OS=Punica...  51.2    6e-06
+TR:A0A103XR63_CYNCS  A0A103XR63 NAD-dependent epimerase/dehydrata...  51.6    7e-06
+TR:A0A0D3DFS3_BRAOL  A0A0D3DFS3 Uncharacterized protein OS=Brassi...  51.6    7e-06
+TR:A0A0A0KYE5_CUCSA  A0A0A0KYE5 Uncharacterized protein OS=Cucumi...  51.6    7e-06
+TR:A0A2I0A2L0_9ASPA  A0A2I0A2L0 UDP-glucose 4-epimerase GEPI48 OS...  51.6    7e-06
+TR:W1PUV2_AMBTC  W1PUV2 Uncharacterized protein OS=Amborella tric...  51.6    7e-06
+TR:A0A251TPR9_HELAN  A0A251TPR9 Putative UDP-glucose 4-epimerase ...  51.6    7e-06
+TR:A0A103XFV4_CYNCS  A0A103XFV4 NAD-dependent epimerase/dehydrata...  51.2    9e-06
+TR:A0A078ICM7_BRANA  A0A078ICM7 BnaA01g13540D protein OS=Brassica...  51.2    9e-06
+TR:A0A0D3A5S3_BRAOL  A0A0D3A5S3 Uncharacterized protein OS=Brassi...  51.2    9e-06
+TR:M4DB84_BRARP  M4DB84 Uncharacterized protein OS=Brassica rapa ...  51.2    9e-06
+TR:M4DRW4_BRARP  M4DRW4 Uncharacterized protein OS=Brassica rapa ...  51.2    9e-06
+TR:A5BGY1_VITVI  A5BGY1 Uncharacterized protein OS=Vitis vinifera...  51.2    9e-06
+TR:A0A2U1LPG2_ARTAN  A0A2U1LPG2 UDP-glucose 4-epimerase GEPI48 OS...  51.2    9e-06
+TR:A0A061FNL6_THECC  A0A061FNL6 UDP-D-glucose/UDP-D-galactose 4-e...  51.2    9e-06
+TR:A0A2P5B8T8_PARAD  A0A2P5B8T8 UDP-glucose 4-epimerase OS=Parasp...  51.2    1e-05
+TR:A0A1D5S6B3_WHEAT  A0A1D5S6B3 Uncharacterized protein OS=Tritic...  50.4    1e-05
+TR:A0A1U7XE04_NICSY  A0A1U7XE04 UDP-glucose 4-epimerase GEPI48-li...  50.8    1e-05
+TR:A0A1S4BCP5_TOBAC  A0A1S4BCP5 UDP-glucose 4-epimerase GEPI48-li...  50.8    1e-05
+TR:A0A1S4BDF8_TOBAC  A0A1S4BDF8 UDP-glucose 4-epimerase GEPI48-li...  50.8    1e-05
+TR:D7M8Z8_ARALL  D7M8Z8 UDP-D-glucose/UDP-D-galactose 4-epimerase...  50.8    1e-05
+TR:A0A199UP07_ANACO  A0A199UP07 UDP-glucose 4-epimerase 1 OS=Anan...  50.8    1e-05
+TR:A0A2P5Y230_GOSBA  A0A2P5Y230 Uncharacterized protein OS=Gossyp...  50.8    1e-05
+TR:R0H0F5_9BRAS  R0H0F5 Uncharacterized protein OS=Capsella rubel...  50.8    1e-05
+TR:A0A199UNU6_ANACO  A0A199UNU6 UDP-glucose 4-epimerase 1 OS=Anan...  50.8    1e-05
+TR:A0A2G9I2S2_9LAMI  A0A2G9I2S2 UDP-glucose 4-epimerase/UDP-sulfo...  50.4    2e-05
+TR:A0A2G9HRJ4_9LAMI  A0A2G9HRJ4 UDP-glucose 4-epimerase/UDP-sulfo...  50.4    2e-05
+TR:A0A0A0KQQ5_CUCSA  A0A0A0KQQ5 Uncharacterized protein OS=Cucumi...  50.4    2e-05
+TR:A0A1S3AU38_CUCME  A0A1S3AU38 UDP-glucose 4-epimerase GEPI48 OS...  50.4    2e-05
+TR:M0T9B0_MUSAM  M0T9B0 Uncharacterized protein OS=Musa acuminata...  50.4    2e-05
+TR:V4P5Z7_EUTSA  V4P5Z7 Uncharacterized protein OS=Eutrema salsug...  50.4    2e-05
+TR:A0A1J3ITY1_NOCCA  A0A1J3ITY1 UDP-glucose 4-epimerase 2 OS=Nocc...  50.4    2e-05
+TR:A0A1J3H9N6_NOCCA  A0A1J3H9N6 UDP-glucose 4-epimerase 2 OS=Nocc...  50.4    2e-05
+TR:A0A1J3DN73_NOCCA  A0A1J3DN73 UDP-glucose 4-epimerase 2 OS=Nocc...  50.4    2e-05
+TR:W5AET9_WHEAT  W5AET9 Uncharacterized protein OS=Triticum aesti...  50.4    2e-05
+TR:A0A1D5RR81_WHEAT  A0A1D5RR81 Uncharacterized protein OS=Tritic...  50.4    2e-05
+TR:W5A1W3_WHEAT  W5A1W3 Uncharacterized protein OS=Triticum aesti...  50.4    2e-05
+TR:R7WES5_AEGTA  R7WES5 UDP-glucose 4-epimerase GEPI48 OS=Aegilop...  50.4    2e-05
+TR:A0A2J6M7Q8_LACSA  A0A2J6M7Q8 Uncharacterized protein OS=Lactuc...  50.4    2e-05
+TR:M8A7A1_TRIUA  M8A7A1 UDP-glucose 4-epimerase GEPI48 OS=Triticu...  50.1    2e-05
+TR:A0A2P5QU65_GOSBA  A0A2P5QU65 Uncharacterized protein OS=Gossyp...  50.1    2e-05
+TR:A0A0D2S005_GOSRA  A0A0D2S005 Uncharacterized protein OS=Gossyp...  50.1    2e-05
+TR:A0A1U8IG71_GOSHI  A0A1U8IG71 UDP-glucose 4-epimerase GEPI48-li...  50.1    2e-05
+TR:A0A1U8I4R0_GOSHI  A0A1U8I4R0 UDP-glucose 4-epimerase GEPI48-li...  50.1    2e-05
+TR:A0A0B0NA06_GOSAR  A0A0B0NA06 UDP-glucose 4-epimerase GEPI48 OS...  50.1    2e-05
+TR:K4DFS4_SOLLC  K4DFS4 Uncharacterized protein OS=Solanum lycope...  50.1    2e-05
+TR:M1A1V4_SOLTU  M1A1V4 Uncharacterized protein OS=Solanum tubero...  50.1    2e-05
+TR:A0A0V0I432_SOLCH  A0A0V0I432 Putative UDP-glucose 4-epimerase ...  50.1    2e-05
+TR:A0A2G2VHA0_CAPBA  A0A2G2VHA0 UDP-glucose 4-epimerase 4 OS=Caps...  50.1    2e-05
+TR:A0A1U8F6E7_CAPAN  A0A1U8F6E7 UDP-glucose 4-epimerase GEPI48-li...  50.1    2e-05
+TR:A0A2G2Y8Z1_CAPAN  A0A2G2Y8Z1 UDP-glucose 4-epimerase 1 OS=Caps...  50.1    2e-05
+TR:A0A2G3B3I8_CAPCH  A0A2G3B3I8 UDP-glucose 4-epimerase 4 OS=Caps...  50.1    2e-05
+TR:A0A1U7W998_NICSY  A0A1U7W998 UDP-glucose 4-epimerase GEPI48-li...  50.1    2e-05
+TR:A0A1S3Z206_TOBAC  A0A1S3Z206 UDP-glucose 4-epimerase GEPI48-li...  50.1    2e-05
+TR:A0A0D2T1U2_GOSRA  A0A0D2T1U2 Uncharacterized protein OS=Gossyp...  50.1    2e-05
+TR:A0A2J6JNR6_LACSA  A0A2J6JNR6 Uncharacterized protein OS=Lactuc...  50.1    2e-05
+TR:A0A1J3GSZ1_NOCCA  A0A1J3GSZ1 UDP-glucose 4-epimerase 4 (Fragme...  50.1    2e-05
+TR:A0A1J3CQP1_NOCCA  A0A1J3CQP1 UDP-glucose 4-epimerase 4 (Fragme...  50.1    2e-05
+TR:A0A1J3FQ21_NOCCA  A0A1J3FQ21 UDP-glucose 4-epimerase 4 (Fragme...  50.1    2e-05
+TR:A0A022Q7Z8_ERYGU  A0A022Q7Z8 Uncharacterized protein OS=Erythr...  50.1    2e-05
+TR:A0A1J7HE56_LUPAN  A0A1J7HE56 Uncharacterized protein OS=Lupinu...  46.6    3e-05
+TR:V4KNJ6_EUTSA  V4KNJ6 Uncharacterized protein OS=Eutrema salsug...  49.7    3e-05
+TR:A0A178V1Y1_ARATH  A0A178V1Y1 UGE5 OS=Arabidopsis thaliana OX=3...  49.7    3e-05
+TR:I1I6T2_BRADI  I1I6T2 Uncharacterized protein OS=Brachypodium d...  49.3    4e-05
+TR:A0A072U5W7_MEDTR  A0A072U5W7 UDP-D-glucose/UDP-D-galactose 4-e...  49.3    4e-05
+TR:C6T9U6_SOYBN  C6T9U6 Uncharacterized protein OS=Glycine max OX...  49.3    4e-05
+TR:V7CIN9_PHAVU  V7CIN9 Uncharacterized protein OS=Phaseolus vulg...  49.3    4e-05
+TR:A0A0S3T667_PHAAN  A0A0S3T667 Uncharacterized protein OS=Vigna ...  49.3    4e-05
+TR:A0A0L9TAX6_PHAAN  A0A0L9TAX6 Uncharacterized protein OS=Phaseo...  49.3    4e-05
+TR:A0A1S3VRS6_VIGRR  A0A1S3VRS6 UDP-glucose 4-epimerase GEPI48 OS...  49.3    4e-05
+TR:A0A251UA70_HELAN  A0A251UA70 Putative UDP-glucose 4-epimerase ...  49.3    4e-05
+TR:A0A2G3ADC6_CAPAN  A0A2G3ADC6 UDP-glucose 4-epimerase 1 OS=Caps...  48.9    4e-05
+TR:M0TU56_MUSAM  M0TU56 Uncharacterized protein OS=Musa acuminata...  49.3    5e-05
+TR:A0A2G2XK34_CAPBA  A0A2G2XK34 UDP-glucose 4-epimerase 5 OS=Caps...  48.9    6e-05
+TR:D7KSA2_ARALL  D7KSA2 Uncharacterized protein OS=Arabidopsis ly...  48.9    6e-05
+TR:A0A078IKA6_BRANA  A0A078IKA6 BnaC07g38610D protein OS=Brassica...  48.9    6e-05
+TR:R0GE37_9BRAS  R0GE37 Uncharacterized protein OS=Capsella rubel...  48.9    6e-05
+TR:K4CPP0_SOLLC  K4CPP0 Uncharacterized protein OS=Solanum lycope...  48.9    6e-05
+TR:A0A1U8F8X5_CAPAN  A0A1U8F8X5 UDP-glucose 4-epimerase GEPI48 OS...  48.9    6e-05
+TR:A0A2G3DAZ5_CAPCH  A0A2G3DAZ5 UDP-glucose 4-epimerase 5 OS=Caps...  48.9    6e-05
+TR:Q58IJ6_HORVU  Q58IJ6 UDP-D-glucose epimerase 1 OS=Hordeum vulg...  48.9    6e-05
+TR:A0A287GUH4_HORVV  A0A287GUH4 Uncharacterized protein OS=Hordeu...  48.9    6e-05
+TR:A0A287GUI1_HORVV  A0A287GUI1 Uncharacterized protein OS=Hordeu...  48.9    6e-05
+TR:A0A287GUH8_HORVV  A0A287GUH8 Uncharacterized protein OS=Hordeu...  48.9    6e-05
+TR:A0A287GUM9_HORVV  A0A287GUM9 Uncharacterized protein OS=Hordeu...  48.9    6e-05
+TR:A0A287GUF9_HORVV  A0A287GUF9 Uncharacterized protein OS=Hordeu...  48.9    6e-05
+TR:A0A0V0I5X1_SOLCH  A0A0V0I5X1 Putative UDP-glucose 4-epimerase ...  48.9    6e-05
+TR:A0A087GPS8_ARAAL  A0A087GPS8 Udp-d-glucose udp-d-galactose 4-e...  48.9    7e-05
+TR:A0A151SV76_CAJCA  A0A151SV76 UDP-glucose 4-epimerase GEPI48 OS...  48.5    8e-05
+TR:M1AWM7_SOLTU  M1AWM7 Uncharacterized protein OS=Solanum tubero...  48.5    8e-05
+TR:A0A1J3IY62_NOCCA  A0A1J3IY62 UDP-glucose 4-epimerase 4 (Fragme...  48.5    8e-05
+TR:A0A103XJG0_CYNCS  A0A103XJG0 NAD-dependent epimerase/dehydrata...  48.1    9e-05
+SP:UGE4_ARATH  Q9C7W7 UDP-glucose 4-epimerase 4 OS=Arabidopsis th...  48.1    1e-04
+TR:A0A2U1PAS3_ARTAN  A0A2U1PAS3 UDP-glucose 4-epimerase 1 OS=Arte...  48.1    1e-04
+TR:A0A178W7Z8_ARATH  A0A178W7Z8 UGE4 OS=Arabidopsis thaliana OX=3...  48.1    1e-04
+TR:A0A1S4D9G1_TOBAC  A0A1S4D9G1 UDP-glucose 4-epimerase GEPI48-li...  48.1    1e-04
+TR:A0A2I0VRA5_9ASPA  A0A2I0VRA5 UDP-glucose 4-epimerase GEPI48 OS...  48.1    1e-04
+TR:A0A178W706_ARATH  A0A178W706 UGE4 OS=Arabidopsis thaliana OX=3...  48.1    1e-04
+TR:A0A2U1N363_ARTAN  A0A2U1N363 NAD-dependent epimerase/dehydrata...  48.1    1e-04
+TR:A0A168GPP2_ALBBR  A0A168GPP2 UDP-glucose 4-epimerase OS=Albuca...  47.8    1e-04
+TR:A0A251V9N2_HELAN  A0A251V9N2 Putative UDP-glucose 4-epimerase ...  47.4    2e-04
+SP:UGE2_ARATH  Q9T0A7 UDP-glucose 4-epimerase 2 OS=Arabidopsis th...  47.4    2e-04
+TR:A0A178V4G0_ARATH  A0A178V4G0 UGE2 OS=Arabidopsis thaliana OX=3...  47.4    2e-04
+TR:A0A0R0IFU9_SOYBN  A0A0R0IFU9 Uncharacterized protein OS=Glycin...  47.0    2e-04
+TR:A0A061S7J8_9CHLO  A0A061S7J8 UDP-glucose 4-epimerase OS=Tetras...  47.0    2e-04
+TR:A0A078ID75_BRANA  A0A078ID75 BnaA09g12250D protein OS=Brassica...  47.0    3e-04
+TR:M4EG19_BRARP  M4EG19 Uncharacterized protein OS=Brassica rapa ...  47.0    3e-04
+TR:A0A078HSN7_BRANA  A0A078HSN7 BnaC09g26030D protein OS=Brassica...  47.0    3e-04
+TR:A0A0D3E936_BRAOL  A0A0D3E936 Uncharacterized protein OS=Brassi...  47.0    3e-04
+TR:A0A0R0IPL8_SOYBN  A0A0R0IPL8 Uncharacterized protein OS=Glycin...  47.0    3e-04
+SP:UGE5_ARATH  Q9SN58 UDP-glucose 4-epimerase 5 OS=Arabidopsis th...  47.0    3e-04
+TR:D7LYU6_ARALL  D7LYU6 UDP-D-glucose/UDP-D-galactose 4-epimerase...  47.0    3e-04
+TR:A0A0D2NY34_GOSRA  A0A0D2NY34 Uncharacterized protein OS=Gossyp...  47.0    3e-04
+TR:A0A0B0MFP4_GOSAR  A0A0B0MFP4 UDP-glucose 4-epimerase GEPI48 OS...  46.6    3e-04
+TR:Q6XZA0_SOLTU  Q6XZA0 UDP-glucose 4-epimerase OS=Solanum tubero...  47.0    3e-04
+TR:A0A1U8JAW7_GOSHI  A0A1U8JAW7 UDP-glucose 4-epimerase GEPI48-li...  46.6    3e-04
+TR:A0A0D2MFG8_GOSRA  A0A0D2MFG8 Uncharacterized protein OS=Gossyp...  46.6    3e-04
+TR:M4F2G4_BRARP  M4F2G4 Uncharacterized protein OS=Brassica rapa ...  46.6    3e-04
+TR:A0A2P5RTA0_GOSBA  A0A2P5RTA0 Uncharacterized protein OS=Gossyp...  46.6    3e-04
+TR:A0A2P5WN33_GOSBA  A0A2P5WN33 Uncharacterized protein OS=Gossyp...  46.6    3e-04
+TR:A0A0D2QIF8_GOSRA  A0A0D2QIF8 Uncharacterized protein OS=Gossyp...  46.6    3e-04
+TR:A0A1U8JAZ0_GOSHI  A0A1U8JAZ0 UDP-glucose 4-epimerase GEPI48-li...  46.6    3e-04
+TR:A0A1J7IAF3_LUPAN  A0A1J7IAF3 Uncharacterized protein OS=Lupinu...  46.6    4e-04
+TR:A0A2U1PWJ1_ARTAN  A0A2U1PWJ1 UDP-glucose 4-epimerase GalE, Nuc...  46.2    5e-04
+TR:A0A2G5EI46_AQUCA  A0A2G5EI46 Uncharacterized protein OS=Aquile...  46.2    5e-04
+TR:A0A087GUZ0_ARAAL  A0A087GUZ0 Uncharacterized protein OS=Arabis...  45.8    6e-04
+TR:A0A251SVZ0_HELAN  A0A251SVZ0 Putative UDP-glucose 4-epimerase ...  45.8    6e-04
+TR:A0A2J6KZY3_LACSA  A0A2J6KZY3 Uncharacterized protein OS=Lactuc...  45.8    6e-04
+TR:R0FFF1_9BRAS  R0FFF1 Uncharacterized protein OS=Capsella rubel...  45.8    6e-04
+TR:A0A1R3HUD3_COCAP  A0A1R3HUD3 Root cap OS=Corchorus capsularis ...  45.8    7e-04
+TR:M5XMB0_PRUPE  M5XMB0 Uncharacterized protein OS=Prunus persica...  45.8    7e-04
+TR:A0A251QDI5_PRUPE  A0A251QDI5 Uncharacterized protein OS=Prunus...  45.8    8e-04
+TR:A0A2P5Y9H8_GOSBA  A0A2P5Y9H8 Uncharacterized protein OS=Gossyp...  45.4    9e-04
+TR:A0A1U8NU62_GOSHI  A0A1U8NU62 LOW QUALITY PROTEIN: UDP-glucose ...  45.4    9e-04
+TR:A0A0C9RY54_9SPER  A0A0C9RY54 TSA: Wollemia nobilis Ref_Wollemi...  45.4    9e-04
+TR:A0A087G2D6_ARAAL  A0A087G2D6 Uncharacterized protein (Fragment...  42.7    9e-04
+TR:A0A078F9C5_BRANA  A0A078F9C5 BnaC09g12180D protein OS=Brassica...  45.1    0.001
+TR:A0A0D3E497_BRAOL  A0A0D3E497 Uncharacterized protein OS=Brassi...  45.1    0.001
+TR:A5YKE8_CATRO  A5YKE8 UDP-glucose 4-epimerase (Fragment) OS=Cat...  44.3    0.002
+TR:A0A2U1PYK1_ARTAN  A0A2U1PYK1 UDP-glucose 4-epimerase GEPI48 OS...  43.9    0.002
+TR:A0A0R0H5T1_SOYBN  A0A0R0H5T1 Uncharacterized protein OS=Glycin...  40.8    0.002
+TR:K7MS59_SOYBN  K7MS59 Uncharacterized protein OS=Glycine max OX...  41.2    0.003
+TR:A0A1J3I1P3_NOCCA  A0A1J3I1P3 UDP-glucose 4-epimerase 5 (Fragme...  43.5    0.003
+TR:A0A0R0F370_SOYBN  A0A0R0F370 Uncharacterized protein OS=Glycin...  40.8    0.004
+TR:V4LF61_EUTSA  V4LF61 Uncharacterized protein OS=Eutrema salsug...  43.5    0.004
+TR:A0A166FB62_DAUCA  A0A166FB62 Uncharacterized protein OS=Daucus...  43.5    0.004
+TR:A0A0D6R2K8_ARACU  A0A0D6R2K8 Uncharacterized protein OS=Arauca...  43.5    0.004
+TR:A0A1J3J3K8_NOCCA  A0A1J3J3K8 UDP-glucose 4-epimerase 5 (Fragme...  43.1    0.005
+TR:K4CP57_SOLLC  K4CP57 Uncharacterized protein OS=Solanum lycope...  43.1    0.005
+TR:A0A2G2XKH0_CAPBA  A0A2G2XKH0 Bifunctional UDP-glucose 4-epimer...  43.1    0.005
+TR:A0A068UQB2_COFCA  A0A068UQB2 Uncharacterized protein OS=Coffea...  43.1    0.005
+TR:A0A1U8G7H2_CAPAN  A0A1U8G7H2 Bifunctional UDP-glucose 4-epimer...  43.1    0.005
+TR:A0A2G3AE02_CAPAN  A0A2G3AE02 bifunctional UDP-glucose 4-epimer...  43.1    0.005
+TR:A0A2G3DB92_CAPCH  A0A2G3DB92 Bifunctional UDP-glucose 4-epimer...  43.1    0.005
+TR:Q6XP48_SOLTU  Q6XP48 UDP-Glc-4-epimerase OS=Solanum tuberosum ...  43.1    0.005
+TR:I1LG76_SOYBN  I1LG76 Uncharacterized protein OS=Glycine max OX...  43.1    0.005
+TR:A0A2U1LY46_ARTAN  A0A2U1LY46 UDP-glucose 4-epimerase GalE, Nuc...  43.1    0.005
+TR:A0A251VHB8_HELAN  A0A251VHB8 Putative kinesin motor domain-con...  43.1    0.007
+TR:A0A287RZG9_HORVV  A0A287RZG9 Uncharacterized protein OS=Hordeu...  40.0    0.007
+TR:A0A2P2K6E8_RHIMU  A0A2P2K6E8 Uncharacterized protein OS=Rhizop...  42.0    0.010
+TR:A0A2K2B5Y8_POPTR  A0A2K2B5Y8 Uncharacterized protein OS=Populu...  42.0    0.010
+TR:A0A150G6J7_GONPE  A0A150G6J7 Uncharacterized protein OS=Gonium...  41.6    0.011
+TR:A0A2N9EKI4_FAGSY  A0A2N9EKI4 Uncharacterized protein OS=Fagus ...  42.4    0.011
+TR:M1AWM8_SOLTU  M1AWM8 Uncharacterized protein OS=Solanum tubero...  42.0    0.012
+TR:A0A151SBD1_CAJCA  A0A151SBD1 UDP-glucose 4-epimerase GEPI42 OS...  42.0    0.013
+TR:M5WML6_PRUPE  M5WML6 Uncharacterized protein OS=Prunus persica...  42.0    0.013
+TR:I1IS21_BRADI  I1IS21 Uncharacterized protein OS=Brachypodium d...  42.0    0.013
+TR:A0A078JRE8_BRANA  A0A078JRE8 BnaA06g38100D protein OS=Brassica...  41.6    0.017
+TR:M4DTE2_BRARP  M4DTE2 Uncharacterized protein OS=Brassica rapa ...  41.6    0.017
+TR:I3SGE1_LOTJA  I3SGE1 Uncharacterized protein OS=Lotus japonicu...  40.4    0.018
+TR:A0A2N9HVM3_FAGSY  A0A2N9HVM3 Uncharacterized protein OS=Fagus ...  41.6    0.019
+TR:A0A251T1Q7_HELAN  A0A251T1Q7 Putative UDP-glucose 4-epimerase ...  41.6    0.019
+TR:A0A059D001_EUCGR  A0A059D001 Uncharacterized protein OS=Eucaly...  41.2    0.022
+TR:A0A2G9FYA2_9LAMI  A0A2G9FYA2 UDP-glucose 4-epimerase/UDP-sulfo...  41.2    0.023
+TR:A0A2P5ELL7_9ROSA  A0A2P5ELL7 UDP-glucose 4-epimerase (Fragment...  41.2    0.023
+TR:A0A1U8LFS4_GOSHI  A0A1U8LFS4 bifunctional UDP-glucose 4-epimer...  41.2    0.024
+TR:A0A067JZP0_JATCU  A0A067JZP0 Uncharacterized protein OS=Jatrop...  41.2    0.024
+TR:A0A1S3YD81_TOBAC  A0A1S3YD81 bifunctional UDP-glucose 4-epimer...  41.2    0.024
+TR:A0A1U8LFV4_GOSHI  A0A1U8LFV4 bifunctional UDP-glucose 4-epimer...  41.2    0.024
+TR:A0A0B0NHJ5_GOSAR  A0A0B0NHJ5 Uncharacterized protein OS=Gossyp...  41.2    0.024
+TR:A0A1U7VJ35_NICSY  A0A1U7VJ35 bifunctional UDP-glucose 4-epimer...  41.2    0.024
+TR:A0A2S3H1X1_9POAL  A0A2S3H1X1 Uncharacterized protein OS=Panicu...  41.2    0.024
+TR:A0A2T7EUX1_9POAL  A0A2T7EUX1 Uncharacterized protein OS=Panicu...  41.2    0.024
+TR:A0A2I0B1H6_9ASPA  A0A2I0B1H6 Bifunctional UDP-glucose 4-epimer...  41.2    0.025
+TR:A0A2C9WIF9_MANES  A0A2C9WIF9 Uncharacterized protein OS=Maniho...  40.8    0.029
+TR:A0A2C9WIG1_MANES  A0A2C9WIG1 Uncharacterized protein OS=Maniho...  40.8    0.032
+TR:A0A2I4DXR7_9ROSI  A0A2I4DXR7 bifunctional UDP-glucose 4-epimer...  40.8    0.032
+TR:V7C9Y9_PHAVU  V7C9Y9 Uncharacterized protein OS=Phaseolus vulg...  40.8    0.032
+TR:A0A1U8B1R3_NELNU  A0A1U8B1R3 bifunctional UDP-glucose 4-epimer...  40.8    0.032
+TR:A0A1U8AYA6_NELNU  A0A1U8AYA6 bifunctional UDP-glucose 4-epimer...  40.8    0.032
+TR:A0A0L9TSQ8_PHAAN  A0A0L9TSQ8 Uncharacterized protein OS=Phaseo...  40.8    0.032
+TR:R0GQC1_9BRAS  R0GQC1 Uncharacterized protein OS=Capsella rubel...  40.8    0.032
+TR:A0A1S3UII9_VIGRR  A0A1S3UII9 UDP-glucose 4-epimerase GEPI42-li...  40.8    0.032
+TR:C6THZ0_SOYBN  C6THZ0 Uncharacterized protein OS=Glycine max OX...  40.8    0.032
+SP:GALE1_CYATE  O65780 UDP-glucose 4-epimerase GEPI42 OS=Cyamopsi...  40.8    0.032
+TR:B8LKM2_PICSI  B8LKM2 Uncharacterized protein OS=Picea sitchens...  40.8    0.032
+TR:A0A0K9NHL3_ZOSMR  A0A0K9NHL3 UDP-glucose 4-epimerase OS=Zoster...  40.8    0.032
+TR:A0A1U8Q8U3_NELNU  A0A1U8Q8U3 bifunctional UDP-glucose 4-epimer...  40.8    0.032
+TR:A0A2I4DXU0_9ROSI  A0A2I4DXU0 bifunctional UDP-glucose 4-epimer...  40.8    0.033
+TR:A0A0B2S7G4_GLYSO  A0A0B2S7G4 UDP-glucose 4-epimerase GEPI42 OS...  40.8    0.033
+TR:A0A1E5V3P7_9POAL  A0A1E5V3P7 UDP-glucose 4-epimerase 3 OS=Dich...  40.8    0.033
+TR:A0A1Z2QRY9_9ASTR  A0A1Z2QRY9 Uncharacterized protein OS=Clermo...  40.8    0.034
+TR:A0A1V0JB88_DAHPI  A0A1V0JB88 PawS-like protein 1e OS=Dahlia pi...  40.4    0.037
+TR:W8CW81_MEDTR  W8CW81 Acetyl-coenzyme A carboxylase carboxyl tr...  40.8    0.039
+TR:A0A2P4N5Z8_QUESU  A0A2P4N5Z8 Ndr1/hin1-like protein 13 OS=Quer...  40.4    0.039
+TR:A0A0B2RW36_GLYSO  A0A0B2RW36 UDP-glucose 4-epimerase GEPI42 OS...  40.0    0.042
+TR:A0A176W5S0_MARPO  A0A176W5S0 Uncharacterized protein OS=Marcha...  40.4    0.043
+TR:A0A251UFR7_HELAN  A0A251UFR7 Putative UDP-D-glucose/UDP-D-gala...  40.4    0.043
+SP:UGE1_PEA  B0M3E8 Bifunctional UDP-glucose 4-epimerase and UDP-...  40.4    0.043
+SP:GALE1_PEA  Q43070 UDP-glucose 4-epimerase OS=Pisum sativum OX=...  40.4    0.043
+TR:I3SSU7_LOTJA  I3SSU7 Uncharacterized protein OS=Lotus japonicu...  40.4    0.043
+TR:A0A2I0VK51_9ASPA  A0A2I0VK51 Bifunctional UDP-glucose 4-epimer...  40.4    0.043
+TR:A0A2R6WPR7_MARPO  A0A2R6WPR7 Uncharacterized protein OS=Marcha...  40.4    0.044
+TR:A0A072USD8_MEDTR  A0A072USD8 UDP-glucose 4-epimerase OS=Medica...  40.4    0.044
+TR:A0A0D2S355_GOSRA  A0A0D2S355 Uncharacterized protein OS=Gossyp...  40.0    0.045
+TR:A0A287RZ67_HORVV  A0A287RZ67 Uncharacterized protein OS=Hordeu...  40.0    0.046
+TR:A0A2I0KAV3_PUNGR  A0A2I0KAV3 Uncharacterized protein OS=Punica...  40.0    0.046
+TR:A0A0D2S361_GOSRA  A0A0D2S361 Uncharacterized protein OS=Gossyp...  40.0    0.047
+TR:A0A0B0PQP1_GOSAR  A0A0B0PQP1 UDP-glucose 4-epimerase GEPI42 OS...  37.7    0.048
+TR:M0YRD3_HORVV  M0YRD3 Uncharacterized protein OS=Hordeum vulgar...  40.0    0.050
+TR:A0A1D5VRM2_WHEAT  A0A1D5VRM2 Uncharacterized protein OS=Tritic...  40.4    0.050
+TR:G7KEQ7_MEDTR  G7KEQ7 Heavy metal-associated domain protein OS=...  40.0    0.050
+TR:A0A287RZE7_HORVV  A0A287RZE7 Uncharacterized protein OS=Hordeu...  40.0    0.054
+TR:A0A287RZH6_HORVV  A0A287RZH6 Uncharacterized protein OS=Hordeu...  40.0    0.055
+TR:A0A287RZ88_HORVV  A0A287RZ88 Uncharacterized protein OS=Hordeu...  40.0    0.056
+TR:Q41725_ZINVI  Q41725 TED3 OS=Zinnia violacea OX=34245 PE=2 SV=1    40.0    0.056
+TR:A0A2P5SS13_GOSBA  A0A2P5SS13 Uncharacterized protein OS=Gossyp...  40.0    0.057
+TR:A0A2P5CBA6_PARAD  A0A2P5CBA6 UDP-glucose 4-epimerase OS=Parasp...  40.0    0.058
+TR:A0A2I4FAG9_9ROSI  A0A2I4FAG9 bifunctional UDP-glucose 4-epimer...  40.0    0.058
+TR:A0A2P5VTG8_GOSBA  A0A2P5VTG8 Uncharacterized protein OS=Gossyp...  40.0    0.058
+TR:A0A0D2R153_GOSRA  A0A0D2R153 Uncharacterized protein OS=Gossyp...  40.0    0.058
+TR:A0A0K9QAJ7_SPIOL  A0A0K9QAJ7 Uncharacterized protein OS=Spinac...  40.0    0.058
+TR:A0A1U8LR83_GOSHI  A0A1U8LR83 bifunctional UDP-glucose 4-epimer...  40.0    0.058
+TR:A0A2P6P794_ROSCH  A0A2P6P794 Putative isomerase OS=Rosa chinen...  40.0    0.058
+TR:A0A1J7FZE2_LUPAN  A0A1J7FZE2 Uncharacterized protein OS=Lupinu...  40.0    0.058
+TR:A0A1J7HTV5_LUPAN  A0A1J7HTV5 Uncharacterized protein OS=Lupinu...  40.0    0.058
+TR:A0A2G5CX03_AQUCA  A0A2G5CX03 Uncharacterized protein OS=Aquile...  40.0    0.058
+TR:A0A218WGM4_PUNGR  A0A218WGM4 Uncharacterized protein OS=Punica...  40.0    0.058
+TR:A0A287RZP0_HORVV  A0A287RZP0 Uncharacterized protein OS=Hordeu...  40.0    0.059
+TR:Q1XG32_9POAL  Q1XG32 UDP-galactose epimerase OS=Paspalum vagin...  40.0    0.059
+TR:A0A2K3NI12_TRIPR  A0A2K3NI12 UDP-glucose 4-epimerase-like prot...  40.0    0.059
+TR:Q58IJ7_HORVU  Q58IJ7 UDP-D-glucose epimerase 3 OS=Hordeum vulg...  40.0    0.059
+TR:F2DEC3_HORVV  F2DEC3 Predicted protein OS=Hordeum vulgare subs...  40.0    0.059
+TR:A0A287RZN1_HORVV  A0A287RZN1 Uncharacterized protein OS=Hordeu...  40.0    0.059
+TR:A0A1U8LV14_GOSHI  A0A1U8LV14 bifunctional UDP-glucose 4-epimer...  40.0    0.060
+TR:A0A1U8LUG9_GOSHI  A0A1U8LUG9 bifunctional UDP-glucose 4-epimer...  40.0    0.060
+TR:A0A287RZI0_HORVV  A0A287RZI0 Uncharacterized protein OS=Hordeu...  40.0    0.060
+TR:A0A059CHE5_EUCGR  A0A059CHE5 Uncharacterized protein OS=Eucaly...  40.0    0.062
+TR:A0A059CI37_EUCGR  A0A059CI37 Uncharacterized protein OS=Eucaly...  40.0    0.062
+TR:A0A287RZM6_HORVV  A0A287RZM6 Uncharacterized protein OS=Hordeu...  40.0    0.062
+TR:A0A067F856_CITSI  A0A067F856 Uncharacterized protein (Fragment...  37.7    0.068
+TR:A0A1D6I9C9_MAIZE  A0A1D6I9C9 Bifunctional UDP-glucose 4-epimer...  39.3    0.069
+TR:A0A199UXX0_ANACO  A0A199UXX0 UDP-glucose 4-epimerase OS=Ananas...  39.7    0.072
+TR:A0A0A9L5Q8_ARUDO  A0A0A9L5Q8 Uncharacterized protein OS=Arundo...  39.7    0.075
+TR:M8AUN0_AEGTA  M8AUN0 UDP-glucose 4-epimerase OS=Aegilops tausc...  39.7    0.076
+TR:M7ZGA0_TRIUA  M7ZGA0 UDP-glucose 4-epimerase OS=Triticum urart...  39.7    0.078
+TR:A0A1D5YRG6_WHEAT  A0A1D5YRG6 Uncharacterized protein OS=Tritic...  39.7    0.080
+TR:W5F9P7_WHEAT  W5F9P7 Uncharacterized protein OS=Triticum aesti...  39.7    0.080
+TR:A0A1D5ZMT8_WHEAT  A0A1D5ZMT8 Uncharacterized protein OS=Tritic...  39.7    0.080
+TR:A9SPG4_PHYPA  A9SPG4 Predicted protein OS=Physcomitrella paten...  39.7    0.081
+TR:A0A199W2N0_ANACO  A0A199W2N0 Bifunctional UDP-glucose 4-epimer...  39.7    0.081
+TR:A0A2K3LLA8_TRIPR  A0A2K3LLA8 UDP-glucose 4-epimerase-like prot...  39.3    0.083
+TR:A0A0D2R816_GOSRA  A0A0D2R816 Uncharacterized protein OS=Gossyp...  39.3    0.084
+TR:I1K6M7_SOYBN  I1K6M7 Uncharacterized protein OS=Glycine max OX...  39.3    0.085
+TR:A0A067EGY2_CITSI  A0A067EGY2 Uncharacterized protein (Fragment...  39.7    0.091
+TR:B4FG89_MAIZE  B4FG89 Uncharacterized protein OS=Zea mays OX=45...  39.3    0.10 
+TR:A0A0R0ILV6_SOYBN  A0A0R0ILV6 Uncharacterized protein OS=Glycin...  39.3    0.10 
+TR:A0A0B2QQ54_GLYSO  A0A0B2QQ54 UDP-glucose 4-epimerase OS=Glycin...  39.3    0.11 
+TR:A0A200QUG3_9MAGN  A0A200QUG3 NAD-dependent epimerase/dehydrata...  39.3    0.11 
+TR:I1KP71_SOYBN  I1KP71 Uncharacterized protein OS=Glycine max OX...  39.3    0.11 
+TR:C6T9D7_SOYBN  C6T9D7 Uncharacterized protein OS=Glycine max OX...  39.3    0.11 
+TR:A0A0D2R819_GOSRA  A0A0D2R819 Uncharacterized protein OS=Gossyp...  39.3    0.11 
+TR:B6TA76_MAIZE  B6TA76 UDP-glucose 4-epimerase OS=Zea mays OX=45...  39.3    0.11 
+TR:B4FU63_MAIZE  B4FU63 Bifunctional UDP-glucose 4-epimerase and ...  39.3    0.11 
+TR:B4FGQ0_MAIZE  B4FGQ0 Uncharacterized protein OS=Zea mays OX=45...  36.2    0.11 
+TR:B9RC62_RICCO  B9RC62 UDP-glucose 4-epimerase, putative OS=Rici...  38.9    0.11 
+TR:A0A2P5YKF0_GOSBA  A0A2P5YKF0 Uncharacterized protein OS=Gossyp...  37.7    0.11 
+TR:A0A0E0QAW4_ORYRU  A0A0E0QAW4 Uncharacterized protein OS=Oryza ...  39.3    0.12 
+TR:A2YNG6_ORYSI  A2YNG6 Uncharacterized protein OS=Oryza sativa s...  39.3    0.12 
+TR:A0A0E0I3E2_ORYNI  A0A0E0I3E2 Uncharacterized protein OS=Oryza ...  39.3    0.12 
+TR:Q6YW02_ORYSJ  Q6YW02 Os07g0603100 protein OS=Oryza sativa subs...  39.3    0.12 
+TR:A0A2J7ZNM7_9CHLO  A0A2J7ZNM7 UDP-glucose 4-epimerase 3 OS=Tetr...  38.5    0.13 
+TR:A0A0B0P3V2_GOSAR  A0A0B0P3V2 Protein THEMIS2 OS=Gossypium arbo...  38.1    0.13 
+TR:A0A2J8AHE7_9CHLO  A0A2J8AHE7 Uncharacterized protein OS=Tetrab...  39.3    0.13 
+TR:A0A2R6PI07_ACTCH  A0A2R6PI07 Bifunctional UDP-glucose 4-epimer...  38.9    0.14 
+TR:A4PCV9_MALDO  A4PCV9 UDP-galactose OS=Malus domestica OX=3750 ...  38.9    0.14 
+TR:A0A2P5WAE5_GOSBA  A0A2P5WAE5 Uncharacterized protein OS=Gossyp...  38.9    0.14 
+TR:A0A151RRJ3_CAJCA  A0A151RRJ3 UDP-glucose 4-epimerase OS=Cajanu...  38.9    0.14 
+TR:A0A0D2T673_GOSRA  A0A0D2T673 Uncharacterized protein OS=Gossyp...  38.9    0.14 
+TR:A0A1U8MCK5_GOSHI  A0A1U8MCK5 bifunctional UDP-glucose 4-epimer...  38.9    0.14 
+TR:A0A061G683_THECC  A0A061G683 UDP-D-glucose/UDP-D-galactose 4-e...  38.9    0.14 
+TR:B7FK31_MEDTR  B7FK31 UDP-D-glucose/UDP-D-galactose 4-epimerase...  38.9    0.14 
+TR:A0A1R3IA63_COCAP  A0A1R3IA63 NAD-dependent epimerase/dehydrata...  38.9    0.14 
+TR:A0A2P5R9S1_GOSBA  A0A2P5R9S1 Uncharacterized protein OS=Gossyp...  37.7    0.15 
+TR:A0A0D2SRW0_GOSRA  A0A0D2SRW0 Uncharacterized protein OS=Gossyp...  37.7    0.15 
+TR:A0A1U8HVD6_GOSHI  A0A1U8HVD6 uncharacterized protein LOC107889...  37.7    0.15 
+TR:A0A0R0ILU1_SOYBN  A0A0R0ILU1 Uncharacterized protein OS=Glycin...  38.9    0.15 
+TR:K7L6M2_SOYBN  K7L6M2 Uncharacterized protein OS=Glycine max OX...  38.9    0.16 
+TR:A0A0V0GN09_SOLCH  A0A0V0GN09 Putative RNA-binding protein FUS-...  37.7    0.17 
+TR:A0A2J8A2A3_9CHLO  A0A2J8A2A3 Uncharacterized protein OS=Tetrab...  38.9    0.18 
+TR:A0A0D2ZX80_BRAOL  A0A0D2ZX80 Uncharacterized protein OS=Brassi...  37.0    0.18 
+TR:A0A1U8KG51_GOSHI  A0A1U8KG51 serine-rich adhesin for platelets...  38.9    0.19 
+TR:A0A1U8KFT1_GOSHI  A0A1U8KFT1 serine-rich adhesin for platelets...  38.9    0.19 
+TR:A0A1U8KFZ6_GOSHI  A0A1U8KFZ6 serine-rich adhesin for platelets...  38.9    0.19 
+TR:A0A1U8KL03_GOSHI  A0A1U8KL03 serine-rich adhesin for platelets...  38.9    0.19 
+TR:A0A287GUL3_HORVV  A0A287GUL3 Uncharacterized protein OS=Hordeu...  38.1    0.19 
+TR:C6T7T2_SOYBN  C6T7T2 Uncharacterized protein OS=Glycine max OX...  38.5    0.19 
+TR:A0A1Q3BLM6_CEPFO  A0A1Q3BLM6 Epimerase domain-containing prote...  38.5    0.19 
+TR:A0A2H3YJ88_PHODC  A0A2H3YJ88 bifunctional UDP-glucose 4-epimer...  38.5    0.19 
+
+
+>TR:C5YKH3_SORBI C5YKH3 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3007G114500 
+PE=3 SV=1
+Length=423
+
+ Score = 189 bits (481),  Expect = 7e-57
+ Identities = 98/144 (68%), Positives = 100/144 (69%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFGERRPGDAEILFSETTKAERELNWK  Y    +C                       
+Sbjct  303  LIFGERRPGDAEILFSETTKAERELNWKAKYGIEEMC-----------------------  339
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+QTNGSADSSKQNGH TNGSTDSPKRN HYA
+Sbjct  340  -----RDQWNWASKNPYGYGSLDSTKQNGHQTNGSADSSKQNGHHTNGSTDSPKRNDHYA  394
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGHYVYGSSDFKQNG
+Sbjct  395  YGSADSPKRNGHYVYGSSDFKQNG  418
+
+
+>TR:A0A1D6KQ60_MAIZE A0A1D6KQ60 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=100284107 
+PE=3 SV=1
+Length=420
+
+ Score = 184 bits (467),  Expect = 8e-55
+ Identities = 95/144 (66%), Positives = 99/144 (69%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFGERRPGDAEILFSETTKAERELNWK  Y    +C                       
+Sbjct  300  LIFGERRPGDAEILFSETTKAERELNWKAKYGIEEMC-----------------------  336
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDS KQNG+QTNGSADSSKQNGHRTNGSTDSPKRNGH+A
+Sbjct  337  -----RDQWNWASKNPYGYGSPDSIKQNGHQTNGSADSSKQNGHRTNGSTDSPKRNGHHA  391
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGH V+GSSD K NG
+Sbjct  392  YGSADSPKRNGHCVFGSSDLKPNG  415
+
+
+>TR:B6TQ45_MAIZE B6TQ45 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=100284107 
+PE=2 SV=1
+Length=423
+
+ Score = 184 bits (467),  Expect = 9e-55
+ Identities = 95/144 (66%), Positives = 99/144 (69%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFGERRPGDAEILFSETTKAERELNWK  Y    +C                       
+Sbjct  303  LIFGERRPGDAEILFSETTKAERELNWKAKYGIEEMC-----------------------  339
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDS KQNG+QTNGSADSSKQNGHRTNGSTDSPKRNGH+A
+Sbjct  340  -----RDQWNWASKNPYGYGSPDSIKQNGHQTNGSADSSKQNGHRTNGSTDSPKRNGHHA  394
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGH V+GSSD K NG
+Sbjct  395  YGSADSPKRNGHCVFGSSDLKPNG  418
+
+
+>TR:C0PBK9_MAIZE C0PBK9 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=423
+
+ Score = 181 bits (458),  Expect = 2e-53
+ Identities = 94/144 (65%), Positives = 98/144 (68%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFGERRPGDAEILFSETTKAERELNWK  Y    +C                       
+Sbjct  303  LIFGERRPGDAEILFSETTKAERELNWKAKYGIEEMC-----------------------  339
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDS KQNG+QTNGSADSSKQNGHRTNGST SPKRNGH+A
+Sbjct  340  -----RDQWNWASKNPYGYGSPDSIKQNGHQTNGSADSSKQNGHRTNGSTVSPKRNGHHA  394
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGH V+GSSD K NG
+Sbjct  395  YGSADSPKRNGHCVFGSSDLKPNG  418
+
+
+>TR:A0A1E5URM0_9POAL A0A1E5URM0 UDP-glucose 4-epimerase 2 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0023487 PE=3 SV=1
+Length=446
+
+ Score = 176 bits (445),  Expect = 3e-51
+ Identities = 90/144 (63%), Positives = 94/144 (65%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFG RRPGDAEILFS T KAERELNWK  Y    +C                       
+Sbjct  326  LIFGARRPGDAEILFSVTAKAERELNWKAKYGIEEMC-----------------------  362
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+QTNGSADS +QNGH TNGS  SPKRNGHYA
+Sbjct  363  -----RDQWNWASKNPYGYGSPDSTKQNGHQTNGSADSPRQNGHHTNGSVGSPKRNGHYA  417
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGHY YGSSD +QNG
+Sbjct  418  YGSADSPKRNGHYAYGSSDSRQNG  441
+
+
+>TR:K3YI98_SETIT K3YI98 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101759107 
+PE=3 SV=1
+Length=366
+
+ Score = 173 bits (439),  Expect = 3e-51
+ Identities = 88/144 (61%), Positives = 94/144 (65%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFG RRPGDAEILFS T KAERELNWK  Y    +C                       
+Sbjct  246  LIFGARRPGDAEILFSVTAKAERELNWKAKYGIEEMC-----------------------  282
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPD+TKQNG+QTNGSADS +QNGH TNGS  SPKRNGHYA
+Sbjct  283  -----RDQWNWASKNPYGYGSPDTTKQNGHQTNGSADSPRQNGHHTNGSVGSPKRNGHYA  337
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSP+RNGHY YGSSD +QNG
+Sbjct  338  YGSADSPRRNGHYAYGSSDSRQNG  361
+
+
+>TR:A0A2S3I1T7_9POAL A0A2S3I1T7 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_6G174500 PE=4 SV=1
+Length=427
+
+ Score = 171 bits (434),  Expect = 7e-50
+ Identities = 88/144 (61%), Positives = 94/144 (65%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFG RRPGDAEILFS T KAERELNWK  Y  + +C                       
+Sbjct  307  LIFGARRPGDAEILFSVTAKAERELNWKAKYGIDEMC-----------------------  343
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+QTNGSADS +QNGH TNGS  SP+RNGH  
+Sbjct  344  -----RDQWNWASKNPYGYGSPDSTKQNGHQTNGSADSPRQNGHHTNGSVGSPRRNGHCG  398
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGHYVYGSSD +QNG
+Sbjct  399  YGSADSPKRNGHYVYGSSDSRQNG  422
+
+
+>TR:A0A2T7D6Q4_9POAL A0A2T7D6Q4 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_6G168300 PE=4 SV=1
+Length=427
+
+ Score = 171 bits (434),  Expect = 7e-50
+ Identities = 88/144 (61%), Positives = 94/144 (65%), Gaps = 28/144 (19%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LIFG RRPGDAEILFS T KAERELNWK  Y  + +C                       
+Sbjct  307  LIFGARRPGDAEILFSVTAKAERELNWKAKYGIDEMC-----------------------  343
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+QTNGSADS +QNGH TNGS  SP+RNGH  
+Sbjct  344  -----RDQWNWASKNPYGYGSPDSTKQNGHQTNGSADSPRQNGHHTNGSVGSPRRNGHCG  398
+
+Query  121  NGSADSPKRNGHYVYGSSDFKQNG  144
+             GSADSPKRNGHYVYGSSD +QNG
+Sbjct  399  YGSADSPKRNGHYVYGSSDSRQNG  422
+
+
+>TR:A0A0A9IF36_ARUDO A0A0A9IF36 Gpm440 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=85
+
+ Score = 124 bits (312),  Expect = 2e-35
+ Identities = 59/73 (81%), Positives = 65/73 (89%), Gaps = 1/73 (1%)
+
+Query  72   ASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYANGSADSPKRNG  131
+            ASKNPYGYGSPDSTK+NG+QTNGSADS KQNG+ T G  DSPKRNGHYANGSA+S K+NG
+Sbjct  9    ASKNPYGYGSPDSTKKNGHQTNGSADSPKQNGYHTTGLADSPKRNGHYANGSANS-KQNG  67
+
+Query  132  HYVYGSSDFKQNG  144
+            H+ YGSSD KQNG
+Sbjct  68   HHGYGSSDSKQNG  80
+
+
+>TR:A0A0A9VEH0_ARUDO A0A0A9VEH0 Gpm440 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=85
+
+ Score = 122 bits (307),  Expect = 1e-34
+ Identities = 59/73 (81%), Positives = 64/73 (88%), Gaps = 1/73 (1%)
+
+Query  72   ASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYANGSADSPKRNG  131
+            ASKNPYGYGSPDSTKQNG+QTNGSADSSK NGH TNG  +SPK NGHYA GSA+S K+NG
+Sbjct  9    ASKNPYGYGSPDSTKQNGHQTNGSADSSKLNGHHTNGPAESPKWNGHYAYGSANS-KQNG  67
+
+Query  132  HYVYGSSDFKQNG  144
+            H+ YGSSD KQNG
+Sbjct  68   HHGYGSSDSKQNG  80
+
+
+>TR:A0A0A9NAY3_ARUDO A0A0A9NAY3 Gpm440 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=84
+
+ Score = 116 bits (291),  Expect = 3e-32
+ Identities = 58/73 (79%), Positives = 63/73 (86%), Gaps = 2/73 (3%)
+
+Query  72   ASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYANGSADSPKRNG  131
+            ASKNPYGYGSPDSTKQNG+QTNGSAD SK NGH TNG  +SPK NGHYA GSA+S K+NG
+Sbjct  9    ASKNPYGYGSPDSTKQNGHQTNGSAD-SKLNGHHTNGPAESPKWNGHYAYGSANS-KQNG  66
+
+Query  132  HYVYGSSDFKQNG  144
+            H+ YGSSD KQNG
+Sbjct  67   HHGYGSSDSKQNG  79
+
+
+ Score = 34.3 bits (77),  Expect = 1.2
+ Identities = 16/29 (55%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  119  YANGSADSPKRNGHYVYGSSDFKQNGMAT  147
+            Y  GS DS K+NGH   GS+D K NG  T
+Sbjct  14   YGYGSPDSTKQNGHQTNGSADSKLNGHHT  42
+
+
+>TR:J3MSL6_ORYBR J3MSL6 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=410
+
+ Score = 117 bits (292),  Expect = 3e-29
+ Identities = 63/132 (48%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS T KAE+ELNWK  +    +C                       
+Sbjct  303  LIIGPRRPGDAEILFSSTAKAEKELNWKAKFGIEEMC-----------------------  339
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+   GS  S +QNGH TNG ++S K NGH  
+Sbjct  340  -----RDQWNWASKNPYGYGSPDSTKQNGHHLYGSTGSPRQNGHCTNGFSESTKHNGHNG  394
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  395  YGLVDSAKHNGN  406
+
+
+>TR:A0A0E0LUD7_ORYPU A0A0E0LUD7 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=412
+
+ Score = 115 bits (289),  Expect = 9e-29
+ Identities = 62/132 (47%), Positives = 72/132 (55%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  305  LIIGPRRPGDAEILFSSPAKAEKELNWKAKFGIDEMC-----------------------  341
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  342  -----RDQWNWASKNPYGYGSPDSTKQNGHHSYGSTGSPKQNGHCTNGFSESTRHNGHNG  396
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  397  YGLVDSAKHNGN  408
+
+
+>TR:A0A0E0QI96_ORYRU A0A0E0QI96 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=284
+
+ Score = 110 bits (275),  Expect = 1e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  177  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  213
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  214  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  268
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  269  YGLVDSAKHNGN  280
+
+
+>TR:A0A0D9X7B8_9ORYZ A0A0D9X7B8 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=411
+
+ Score = 111 bits (278),  Expect = 3e-27
+ Identities = 62/132 (47%), Positives = 71/132 (54%), Gaps = 29/132 (22%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAE LFS T KAE+ELNWK  +    +C                       
+Sbjct  305  LIIGPRRPGDAETLFSSTAKAEKELNWKAKFGIEEMC-----------------------  341
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGSPDSTKQNG+ + G+  S KQNGH TNG ++S K NGH  
+Sbjct  342  -----RDQWNWASKNPYGYGSPDSTKQNGHHSFGTG-SPKQNGHYTNGFSESTKHNGHNG  395
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  396  YGLVDSTKHNGN  407
+
+
+>TR:A0A0D3GZM4_9ORYZ A0A0D3GZM4 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=408
+
+ Score = 110 bits (276),  Expect = 6e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSTGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>TR:A0A0E0EL04_9ORYZ A0A0E0EL04 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=408
+
+ Score = 110 bits (276),  Expect = 6e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSTGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>TR:I1QI66_ORYGL I1QI66 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=408
+
+ Score = 110 bits (276),  Expect = 6e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSTGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>TR:A0A0E0AUU1_9ORYZ A0A0E0AUU1 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=408
+
+ Score = 110 bits (276),  Expect = 6e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSTGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>SP:UGE2_ORYSJ Q6ZDJ7 UDP-glucose 4-epimerase 2 OS=Oryza sativa subsp. japonica 
+OX=39947 GN=UGE-2 PE=2 SV=1
+Length=408
+
+ Score = 110 bits (275),  Expect = 8e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>TR:A0A0E0IB30_ORYNI A0A0E0IB30 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=408
+
+ Score = 110 bits (275),  Expect = 8e-27
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  301  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  337
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  338  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  392
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  393  YGLVDSAKHNGN  404
+
+
+>TR:A0A0E0QI95_ORYRU A0A0E0QI95 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=420
+
+ Score = 110 bits (275),  Expect = 1e-26
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  313  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  349
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  350  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  404
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  405  YGLVDSAKHNGN  416
+
+
+>TR:A3BSK5_ORYSJ A3BSK5 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_27110 PE=3 SV=1
+Length=444
+
+ Score = 110 bits (275),  Expect = 1e-26
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  337  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  373
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  374  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  428
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  429  YGLVDSAKHNGN  440
+
+
+>TR:A2YUN4_ORYSI A2YUN4 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_29040 PE=3 SV=1
+Length=444
+
+ Score = 110 bits (275),  Expect = 1e-26
+ Identities = 61/132 (46%), Positives = 71/132 (54%), Gaps = 28/132 (21%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS   KAE+ELNWK  +  + +C                       
+Sbjct  337  LIIGPRRPGDAEILFSLPAKAEKELNWKAKFGIDEMC-----------------------  373
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGHYA  120
+                       ASKNPYGYGS DSTKQNG+ + GS  S KQNGH TNG ++S + NGH  
+Sbjct  374  -----RDQWNWASKNPYGYGSLDSTKQNGHHSYGSIGSPKQNGHCTNGFSESTRHNGHNG  428
+
+Query  121  NGSADSPKRNGH  132
+             G  DS K NG+
+Sbjct  429  YGLVDSAKHNGN  440
+
+
+>TR:I1I6T1_BRADI I1I6T1 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100829118 PE=3 SV=1
+Length=395
+
+ Score = 99.8 bits (247),  Expect = 7e-23
+ Identities = 56/118 (47%), Positives = 64/118 (54%), Gaps = 28/118 (24%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G RRPGDAEILFS T KAER+L+WK  Y  + +C                       
+Sbjct  302  LIIGPRRPGDAEILFSSTAKAERDLSWKAKYGIDEMC-----------------------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDSPKRNGH  118
+                       ASKNP GYGS DS KQNG++  GSAD  KQNGH   GSTDS K+NG+
+Sbjct  339  -----RDQWNWASKNPNGYGSADSIKQNGHRGYGSADPCKQNGHHGYGSTDSAKQNGN  391
+
+
+>TR:A0A287RAV1_HORVV A0A287RAV1 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=153
+
+ Score = 78.6 bits (192),  Expect = 1e-16
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  90   LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  126
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  127  -----RDQWNWASKNPYGYGSPDSTKQNGN  151
+
+
+>TR:A0A287RAR8_HORVV A0A287RAR8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=241
+
+ Score = 78.6 bits (192),  Expect = 7e-16
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  178  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  214
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  215  -----RDQWNWASKNPYGYGSPDSTKQNGN  239
+
+
+>TR:A0A1D5ZB89_WHEAT A0A1D5ZB89 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=242
+
+ Score = 77.8 bits (190),  Expect = 1e-15
+ Identities = 42/93 (45%), Positives = 49/93 (53%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  178  LVIGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  214
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGYGSPDSTKQNG+ ++
+Sbjct  215  -----RDQWNWASKNPYGYGSPDSTKQNGSNSH  242
+
+
+>TR:A0A287RAV0_HORVV A0A287RAV0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=295
+
+ Score = 78.6 bits (192),  Expect = 1e-15
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  232  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  268
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  269  -----RDQWNWASKNPYGYGSPDSTKQNGN  293
+
+
+>TR:A0A287RAL7_HORVV A0A287RAL7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=303
+
+ Score = 78.6 bits (192),  Expect = 2e-15
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  240  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  276
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  277  -----RDQWNWASKNPYGYGSPDSTKQNGN  301
+
+
+>TR:M7YVB1_TRIUA M7YVB1 UDP-glucose 4-epimerase GEPI48 OS=Triticum urartu OX=4572 
+GN=TRIUR3_18744 PE=4 SV=1
+Length=278
+
+ Score = 77.8 bits (190),  Expect = 2e-15
+ Identities = 42/93 (45%), Positives = 49/93 (53%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  214  LVIGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  250
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGYGSPDSTKQNG+ ++
+Sbjct  251  -----RDQWNWASKNPYGYGSPDSTKQNGSNSH  278
+
+
+>TR:A0A287RB16_HORVV A0A287RB16 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=367
+
+ Score = 78.6 bits (192),  Expect = 3e-15
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  304  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  340
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  341  -----RDQWNWASKNPYGYGSPDSTKQNGN  365
+
+
+>TR:Q58IJ5_HORVU Q58IJ5 UDP-D-glucose epimerase 2 OS=Hordeum vulgare OX=4513 GN=UGE2 
+PE=2 SV=2
+Length=374
+
+ Score = 78.6 bits (192),  Expect = 3e-15
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  311  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  347
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  348  -----RDQWNWASKNPYGYGSPDSTKQNGN  372
+
+
+>TR:A0A287RAM2_HORVV A0A287RAM2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=374
+
+ Score = 78.6 bits (192),  Expect = 3e-15
+ Identities = 43/90 (48%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  311  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  347
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNGN
+Sbjct  348  -----RDQWNWASKNPYGYGSPDSTKQNGN  372
+
+
+>TR:A0A1D5YGX0_WHEAT A0A1D5YGX0 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=375
+
+ Score = 77.8 bits (190),  Expect = 5e-15
+ Identities = 42/93 (45%), Positives = 49/93 (53%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  311  LVIGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  347
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGYGSPDSTKQNG+ ++
+Sbjct  348  -----RDQWNWASKNPYGYGSPDSTKQNGSNSH  375
+
+
+>TR:M8ARY4_AEGTA M8ARY4 UDP-glucose 4-epimerase GEPI48 OS=Aegilops tauschii OX=37682 
+GN=F775_15595 PE=4 SV=1
+Length=462
+
+ Score = 77.8 bits (190),  Expect = 7e-15
+ Identities = 42/93 (45%), Positives = 49/93 (53%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  398  LVIGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  434
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGYGSPDSTKQNG+ ++
+Sbjct  435  -----RDQWNWASKNPYGYGSPDSTKQNGSNSH  462
+
+
+>TR:A0A1D5ZTJ7_WHEAT A0A1D5ZTJ7 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=557
+
+ Score = 77.8 bits (190),  Expect = 7e-15
+ Identities = 42/93 (45%), Positives = 49/93 (53%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  493  LVIGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  529
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGYGSPDSTKQNG+ ++
+Sbjct  530  -----RDQWNWASKNPYGYGSPDSTKQNGSNSH  557
+
+
+>TR:F2D567_HORVV F2D567 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=374
+
+ Score = 76.6 bits (187),  Expect = 1e-14
+ Identities = 42/90 (47%), Positives = 47/90 (52%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILF+ T KAERELNWK  Y    +C                       
+Sbjct  311  LVVGQRRPGDAEILFAGTGKAERELNWKAKYGITEMC-----------------------  347
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGYGSPDSTKQNG+
+Sbjct  348  -----RDQWNWASKNPYGYGSPDSTKQNGD  372
+
+
+>TR:A0A0N7KQK3_ORYSJ A0A0N7KQK3 Os09g0323000 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os09g0323000 PE=4 SV=1
+Length=81
+
+ Score = 68.9 bits (167),  Expect = 1e-13
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1   LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+           L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  18  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  54
+
+Query  61  LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                      ASKNP+GY SPDSTKQNG+
+Sbjct  55  -----RDQWNWASKNPFGYASPDSTKQNGH  79
+
+
+>TR:I1IPD3_BRADI I1IPD3 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100822377 PE=3 SV=1
+Length=379
+
+ Score = 72.0 bits (175),  Expect = 6e-13
+ Identities = 40/93 (43%), Positives = 46/93 (49%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILFS   KAERELNWK  Y    +C                       
+Sbjct  315  LVIGQRRPGDAEILFSVARKAERELNWKAKYGITEMC-----------------------  351
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                       ASKNPYGY SPDS KQNG+ ++
+Sbjct  352  -----RDQWNWASKNPYGYESPDSPKQNGSNSH  379
+
+
+>TR:J3MWI1_ORYBR J3MWI1 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102712197 
+PE=3 SV=1
+Length=360
+
+ Score = 70.9 bits (172),  Expect = 1e-12
+ Identities = 39/90 (43%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  297  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  333
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNGN
+Sbjct  334  -----RDQWNWASKNPFGYASPDSTKQNGN  358
+
+
+>TR:A0A0D3H571_9ORYZ A0A0D3H571 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=239
+
+ Score = 68.9 bits (167),  Expect = 3e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  176  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  212
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  213  -----RDQWNWASKNPFGYASPDSTKQNGH  237
+
+
+>TR:A0A0E0LZS8_ORYPU A0A0E0LZS8 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=299
+
+ Score = 68.9 bits (167),  Expect = 5e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  236  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  272
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  273  -----RDQWNWASKNPFGYASPDSTKQNGH  297
+
+
+>TR:A0A0E0EQS1_9ORYZ A0A0E0EQS1 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=366
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  303  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  339
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  340  -----RDQWNWASKNPFGYASPDSTKQNGH  364
+
+
+>TR:I1QMW4_ORYGL I1QMW4 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=368
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  305  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  341
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  342  -----RDQWNWASKNPFGYASPDSTKQNGH  366
+
+
+>TR:A0A0E0B1D2_9ORYZ A0A0E0B1D2 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=368
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  305  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  341
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  342  -----RDQWNWASKNPFGYASPDSTKQNGH  366
+
+
+>SP:UGE4_ORYSJ Q6K2E1 UDP-glucose 4-epimerase 4 OS=Oryza sativa subsp. japonica 
+OX=39947 GN=UGE-4 PE=2 SV=1
+Length=369
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  306  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  342
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  343  -----RDQWNWASKNPFGYASPDSTKQNGH  367
+
+
+>TR:B8BEF8_ORYSI B8BEF8 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_30878 PE=3 SV=1
+Length=369
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  306  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  342
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  343  -----RDQWNWASKNPFGYASPDSTKQNGH  367
+
+
+>TR:A0A0E0QPQ6_ORYRU A0A0E0QPQ6 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=369
+
+ Score = 68.9 bits (167),  Expect = 7e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  306  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  342
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  343  -----RDQWNWASKNPFGYASPDSTKQNGH  367
+
+
+>TR:A0A0E0B1D1_9ORYZ A0A0E0B1D1 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=719
+
+ Score = 68.9 bits (167),  Expect = 9e-12
+ Identities = 38/90 (42%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  656  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  692
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNG+
+Sbjct  693  -----RDQWNWASKNPFGYASPDSTKQNGH  717
+
+
+>TR:A0A0D9XCH0_9ORYZ A0A0D9XCH0 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=369
+
+ Score = 67.8 bits (164),  Expect = 2e-11
+ Identities = 38/90 (42%), Positives = 41/90 (46%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RR GDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  306  LVIGPRRAGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  342
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPDSTKQNGN
+Sbjct  343  -----RDQWNWASKNPFGYASPDSTKQNGN  367
+
+
+>TR:M0TAF7_MUSAM M0TAF7 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103989150 PE=3 SV=1
+Length=537
+
+ Score = 67.0 bits (162),  Expect = 4e-11
+ Identities = 51/150 (34%), Positives = 67/150 (45%), Gaps = 44/150 (29%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ TTKAE+EL W+  Y    +C                       
+Sbjct  353  LVMAGRRPGDAEVVYASTTKAEKELQWRAKYGIEEMC-----------------------  389
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN-GSADSSKQNGHRTNGSTDSPKRNGHY  119
+                       ASKNP+GYGSP++T  NGNQ   GS++S   +    N    S   NG Y
+Sbjct  390  -----RDQWNWASKNPWGYGSPETT--NGNQLGYGSSESINGSIETANEKRSSETANGKY  442
+
+Query  120  --------ANG---SADSPK-RNG-HYVYG  136
+                     NG   + +SPK  NG H  YG
+Sbjct  443  PTYGPFKITNGKRTAFESPKISNGKHPAYG  472
+
+
+>TR:A0A0E0INT2_ORYNI A0A0E0INT2 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=374
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 37/88 (42%), Positives = 40/88 (45%), Gaps = 28/88 (32%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  290  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQN  88
+                       ASKNP+GY SPDSTKQN
+Sbjct  327  -----RDQWNWASKNPFGYASPDSTKQN  349
+
+
+>TR:A0A0E0INT3_ORYNI A0A0E0INT3 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=392
+
+ Score = 66.2 bits (160),  Expect = 6e-11
+ Identities = 37/88 (42%), Positives = 40/88 (45%), Gaps = 28/88 (32%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G RRPGDAEILFS   KAERE  WK  Y    +C                       
+Sbjct  308  LVIGPRRPGDAEILFSSAAKAEREFKWKAKYGIEEMC-----------------------  344
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQN  88
+                       ASKNP+GY SPDSTKQN
+Sbjct  345  -----RDQWNWASKNPFGYASPDSTKQN  367
+
+
+>TR:A0A1R3IAZ3_COCAP A0A1R3IAZ3 NAD-dependent epimerase/dehydratase OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_13434 PE=3 SV=1
+Length=348
+
+ Score = 63.2 bits (152),  Expect = 7e-10
+ Identities = 34/85 (40%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDAEVVYASTAKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  328  -----RDQWNWASKNPYGYGSPDST  347
+
+
+>TR:A0A2I4HMY5_9ROSI A0A2I4HMY5 UDP-glucose 4-epimerase GEPI48-like OS=Juglans regia 
+OX=51240 GN=LOC109019638 PE=3 SV=1
+Length=348
+
+ Score = 63.2 bits (152),  Expect = 7e-10
+ Identities = 34/85 (40%), Positives = 41/85 (48%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  N +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTAKAEKELNWKAKYGINEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSP+ST
+Sbjct  328  -----QDQWNWASKNPYGYGSPEST  347
+
+
+>TR:A0A1U8APY8_NELNU A0A1U8APY8 UDP-glucose 4-epimerase GEPI48 OS=Nelumbo nucifera 
+OX=4432 GN=LOC104606279 PE=3 SV=1
+Length=348
+
+ Score = 63.2 bits (152),  Expect = 7e-10
+ Identities = 35/85 (41%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  328  -----RDQWNWASKNPYGYGSPDST  347
+
+
+>TR:A0A0E0L6M2_ORYPU A0A0E0L6M2 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=338
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  281  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  322
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  323  ----------WASKNPYGYGSPDSS  337
+
+
+>TR:A0A0E0A3P0_9ORYZ A0A0E0A3P0 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=338
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  281  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  322
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  323  ----------WASKNPYGYGSPDSS  337
+
+
+>SP:UGE1_ORYSJ Q8LNZ3 UDP-glucose 4-epimerase 1 OS=Oryza sativa subsp. japonica 
+OX=39947 GN=UGE-1 PE=2 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A2Y861_ORYSI A2Y861 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_21235 PE=3 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A0A0E0PS58_ORYRU A0A0E0PS58 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:I1PYK0_ORYGL I1PYK0 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A0A0D9WKL3_9ORYZ A0A0D9WKL3 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 44/85 (52%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAE++++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEVVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  339  ----------WASKNPYGYGSPDST  353
+
+
+>TR:A0A0D3GBN1_9ORYZ A0A0D3GBN1 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A0A0E0HJC2_ORYNI A0A0E0HJC2 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A0A0E0DV96_9ORYZ A0A0E0DV96 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:A0A1D6I243_MAIZE A0A1D6I243 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d020093 
+PE=4 SV=1
+Length=152
+
+ Score = 60.1 bits (144),  Expect = 1e-09
+ Identities = 35/90 (39%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G+RRPGDAEILFS   KAEREL+WK  Y    +C                       
+Sbjct  89   LIMGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-----------------------  125
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  126  -----GDLWNWASKSPYGYAASESPKLNGS  150
+
+
+>TR:A0A0E0L6M1_ORYPU A0A0E0L6M1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=374
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 35/85 (41%), Positives = 45/85 (53%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI++++T KAE+EL WK  Y    +C       R L++           
+Sbjct  317  LVFAGRRPGDAEIVYAQTAKAEKELKWKAKYGVEEMC-------RDLWN-----------  358
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  359  ----------WASKNPYGYGSPDSS  373
+
+
+>TR:A0A249Y714_9CARY A0A249Y714 UDP-glucose 4-epimerase 1 OS=Hylocereus polyrhizus 
+OX=1195597 GN=UGE1 PE=2 SV=1
+Length=358
+
+ Score = 62.0 bits (149),  Expect = 2e-09
+ Identities = 35/93 (38%), Positives = 45/93 (48%), Gaps = 28/93 (30%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAERELNWK  Y    +C       R L++  C        
+Sbjct  291  LVFAGRRPGDAEIVYASTEKAERELNWKAKYGIEDMC-------RDLWNWAC--------  335
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTN  93
+                         KNPYGYGSP+  ++     N
+Sbjct  336  -------------KNPYGYGSPNQGQEQDQSQN  355
+
+
+>TR:A0A2P2JDI6_RHIMU A0A2P2JDI6 Uncharacterized protein OS=Rhizophora mucronata OX=61149 
+PE=4 SV=1
+Length=144
+
+ Score = 59.3 bits (142),  Expect = 2e-09
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE ELNWK  Y  + +C                       
+Sbjct  87   LVIAGRRPGDAEIVYASTDKAESELNWKAKYGIDEMC-----------------------  123
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPD T
+Sbjct  124  -----RDQWNWASKNPYGYGSPDHT  143
+
+
+>TR:A0A1E5V9M0_9POAL A0A1E5V9M0 UDP-glucose 4-epimerase 4 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0017154 PE=4 SV=1
+Length=300
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 36/90 (40%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  237  LVIGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  278
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  279  ----------WASKHPYGYAASESPKLNGS  298
+
+
+>TR:A0A067JR64_JATCU A0A067JR64 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_20444 PE=3 SV=1
+Length=348
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 33/86 (38%), Positives = 42/86 (49%), Gaps = 28/86 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTDKAERELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTK  86
+                       ASKNPYGYGSP+++K
+Sbjct  328  -----RDQWNWASKNPYGYGSPENSK  348
+
+
+>TR:A0A1R3K7G3_9ROSI A0A1R3K7G3 NAD-dependent epimerase/dehydratase OS=Corchorus olitorius 
+OX=93759 GN=COLO4_10712 PE=3 SV=1
+Length=348
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDAEVVYASTAKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  328  -----RDQWNWASKNPYGYGSPDST  347
+
+
+>TR:J3MAD8_ORYBR J3MAD8 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=3 
+SV=1
+Length=354
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 35/85 (41%), Positives = 44/85 (52%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  339  ----------WASKNPYGYGSPDSS  353
+
+
+>TR:C5X9S7_SORBI C5X9S7 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3002G170100 
+PE=3 SV=1
+Length=366
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 36/90 (40%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  303  LVMGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  344
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  345  ----------WASKSPYGYAASESPKLNGS  364
+
+
+>TR:K3ZUG6_SETIT K3ZUG6 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101785034 
+PE=3 SV=1
+Length=367
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 36/90 (40%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAEILFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  304  LVMGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  345
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  346  ----------WASKHPYGYAASESPKLNGS  365
+
+
+>TR:B4FYI0_MAIZE B4FYI0 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=100303816 
+PE=2 SV=1
+Length=365
+
+ Score = 60.8 bits (146),  Expect = 5e-09
+ Identities = 35/90 (39%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAE+LFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  302  LVMGQRRPGDAEVLFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  343
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  344  ----------WASKSPYGYAASESPKLNGS  363
+
+
+>TR:A0A2T8KQ13_9POAL A0A2T8KQ13 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_2G228300 PE=4 SV=1
+Length=369
+
+ Score = 60.8 bits (146),  Expect = 5e-09
+ Identities = 35/90 (39%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAE+LFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  306  LVMGQRRPGDAEVLFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  347
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  348  ----------WASKHPYGYAASESPKLNGS  367
+
+
+>TR:A0A1S2YXI1_CICAR A0A1S2YXI1 UDP-glucose 4-epimerase GEPI48-like OS=Cicer arietinum 
+OX=3827 GN=LOC101504754 PE=3 SV=1
+Length=391
+
+ Score = 60.8 bits (146),  Expect = 5e-09
+ Identities = 33/85 (39%), Positives = 41/85 (48%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  334  LVMADRRPGDAEIVYASTKKAEKELNWKAKYGIDEMC-----------------------  370
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGS DST
+Sbjct  371  -----RDQWNWASKNPYGYGSQDST  390
+
+
+>TR:A0A2T7ER94_9POAL A0A2T7ER94 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_2G220900 PE=4 SV=1
+Length=481
+
+ Score = 60.8 bits (146),  Expect = 5e-09
+ Identities = 35/90 (39%), Positives = 46/90 (51%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+ G+RRPGDAE+LFS   KAEREL+WK  Y    +C       R L++           
+Sbjct  418  LVMGQRRPGDAEVLFSSPAKAERELHWKAKYGITEMC-------RDLWN-----------  459
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  460  ----------WASKHPYGYAASESPKLNGS  479
+
+
+>TR:I3T4R1_MEDTR I3T4R1 Uncharacterized protein OS=Medicago truncatula OX=3880 
+PE=2 SV=1
+Length=230
+
+ Score = 59.7 bits (143),  Expect = 6e-09
+ Identities = 34/85 (40%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  173  LVKAGRRPGDAEIVYASTKKAERELKWKAKYGIDGMC-----------------------  209
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  210  -----RDQWNWASKNPYGYGSPDST  229
+
+
+>TR:A0A1D6I244_MAIZE A0A1D6I244 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d020093 
+PE=4 SV=1
+Length=302
+
+ Score = 60.1 bits (144),  Expect = 7e-09
+ Identities = 35/90 (39%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G+RRPGDAEILFS   KAEREL+WK  Y    +C                       
+Sbjct  239  LIMGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-----------------------  275
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  276  -----GDLWNWASKSPYGYAASESPKLNGS  300
+
+
+>TR:A0A2C9W9S1_MANES A0A2C9W9S1 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_02G009300 PE=3 SV=1
+Length=348
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 33/86 (38%), Positives = 41/86 (48%), Gaps = 28/86 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDA I+++ T KAERELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAGIVYASTEKAERELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTK  86
+                       ASKNPYGYGSP++TK
+Sbjct  328  -----RDQWNWASKNPYGYGSPETTK  348
+
+
+>TR:A0A059C2I6_EUCGR A0A059C2I6 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_E00872 PE=3 SV=1
+Length=348
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 34/85 (40%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVKAGRRPGDAEIVYASTEKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  328  -----RDQWNWASKNPYGYGSPDST  347
+
+
+>TR:B6TIV4_MAIZE B6TIV4 UDP-glucose 4-epimerase GEPI48 OS=Zea mays OX=4577 PE=2 
+SV=1
+Length=365
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 35/90 (39%), Positives = 42/90 (47%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI G+RRPGDAEILFS   KAEREL+WK  Y    +C                       
+Sbjct  302  LIMGQRRPGDAEILFSSPAKAERELHWKAKYGITEMC-----------------------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASK+PYGY + +S K NG+
+Sbjct  339  -----GDLWNWASKSPYGYAASESPKLNGS  363
+
+
+>TR:G7K9B4_MEDTR G7K9B4 UDP-D-glucose/UDP-D-galactose 4-epimerase OS=Medicago 
+truncatula OX=3880 GN=11427482 PE=3 SV=1
+Length=392
+
+ Score = 60.1 bits (144),  Expect = 9e-09
+ Identities = 34/85 (40%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  335  LVKAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  371
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  372  -----RDQWNWASKNPYGYGSPDST  391
+
+
+>TR:A0A1Q3DEQ5_CEPFO A0A1Q3DEQ5 Epimerase domain-containing protein/Epimerase_Csub 
+domain-containing protein OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_34321 PE=3 SV=1
+Length=348
+
+ Score = 59.7 bits (143),  Expect = 1e-08
+ Identities = 33/85 (39%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KA RELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTDKAARELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  328  -----RDQWNWASKNPYGYGSPDSS  347
+
+
+>TR:B7FIW1_MEDTR B7FIW1 Uncharacterized protein OS=Medicago truncatula OX=3880 
+PE=2 SV=1
+Length=392
+
+ Score = 59.7 bits (143),  Expect = 1e-08
+ Identities = 34/85 (40%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  335  LVKAGRRPGDAEIVYASTKKAERELKWKAKYGIDGMC-----------------------  371
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  372  -----RDQWNWASKNPYGYGSPDST  391
+
+
+>TR:A0A1Q3DEP9_CEPFO A0A1Q3DEP9 Epimerase domain-containing protein/Epimerase_Csub 
+domain-containing protein OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_34322 PE=3 SV=1
+Length=348
+
+ Score = 59.3 bits (142),  Expect = 1e-08
+ Identities = 32/85 (38%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KA RELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAEVVYASTDKAARELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDS+
+Sbjct  328  -----RDQWNWASKNPYGYGSPDSS  347
+
+
+>TR:A0A2P4JDT0_QUESU A0A2P4JDT0 Udp-glucose 4-epimerase gepi48 OS=Quercus suber OX=58331 
+GN=CFP56_31951 PE=3 SV=1
+Length=349
+
+ Score = 59.3 bits (142),  Expect = 2e-08
+ Identities = 33/85 (39%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+EL WK  Y  + +C                       
+Sbjct  292  LVTSGRRPGDAEIVYASTDKAEKELKWKAKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  329  -----RDQWNWASKNPYGYGSPDST  348
+
+
+>TR:A0A2P2JDI5_RHIMU A0A2P2JDI5 Uncharacterized protein OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=351
+
+ Score = 59.3 bits (142),  Expect = 2e-08
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE ELNWK  Y  + +C                       
+Sbjct  294  LVIAGRRPGDAEIVYASTDKAESELNWKAKYGIDEMC-----------------------  330
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPD T
+Sbjct  331  -----RDQWNWASKNPYGYGSPDHT  350
+
+
+>TR:B9GXJ3_POPTR B9GXJ3 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_003G140900v3 PE=3 SV=1
+Length=348
+
+ Score = 58.9 bits (141),  Expect = 2e-08
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  291  LVMAARRPGDAEIVYAATEKAERELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       A KNPYGYGS DST
+Sbjct  328  -----RDQWNWAGKNPYGYGSSDST  347
+
+
+>TR:A0A200PS49_9MAGN A0A200PS49 NAD-dependent epimerase/dehydratase OS=Macleaya cordata 
+OX=56857 GN=BVC80_8913g30 PE=3 SV=1
+Length=348
+
+ Score = 58.9 bits (141),  Expect = 2e-08
+ Identities = 32/85 (38%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  291  LVMAPRRPGDAEIVYASTDKAERELKWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPD++
+Sbjct  328  -----RDQWNWASKNPYGYGSPDTS  347
+
+
+>TR:A0A2H3Y4F0_PHODC A0A2H3Y4F0 UDP-glucose 4-epimerase GEPI48 OS=Phoenix dactylifera 
+OX=42345 GN=LOC103709523 PE=3 SV=1
+Length=349
+
+ Score = 58.9 bits (141),  Expect = 2e-08
+ Identities = 32/84 (38%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  292  LVMAGRRPGDAEIVYASTAKAEKELNWKTKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPDS
+Sbjct  329  -----RDQWNWASKNPWGYGSPDS  347
+
+
+>TR:A0A2H3YJK7_PHODC A0A2H3YJK7 UDP-glucose 4-epimerase GEPI48 OS=Phoenix dactylifera 
+OX=42345 GN=LOC103714197 PE=3 SV=1
+Length=349
+
+ Score = 58.9 bits (141),  Expect = 2e-08
+ Identities = 32/84 (38%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  292  LVMAGRRPGDAEIVYASTAKAEKELNWKAKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPDS
+Sbjct  329  -----RDQWNWASKNPWGYGSPDS  347
+
+
+>TR:M0SWZ9_MUSAM M0SWZ9 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103984746 PE=3 SV=1
+Length=355
+
+ Score = 58.9 bits (141),  Expect = 2e-08
+ Identities = 34/90 (38%), Positives = 43/90 (48%), Gaps = 28/90 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI   RRPGDAEIL++ T KAE+ELNWK  Y    +C HD+  +                
+Sbjct  292  LIMAGRRPGDAEILYASTAKAEKELNWKAKYGIEEMC-HDQWNW----------------  334
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNP+GY SPD   +  +
+Sbjct  335  -----------ASKNPWGYESPDPANRGSS  353
+
+
+>TR:B9GL51_POPTR B9GL51 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_001G090700v3 PE=3 SV=2
+Length=348
+
+ Score = 58.5 bits (140),  Expect = 3e-08
+ Identities = 31/85 (36%), Positives = 41/85 (48%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAE +++ T KAER+L+WK +Y  + +C                       
+Sbjct  291  LVMADRRPGDAETVYAATEKAERDLSWKANYGVDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPD T
+Sbjct  328  -----RDQWNWASKNPYGYGSPDGT  347
+
+
+>TR:A9PG00_POPTR A9PG00 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+PE=2 SV=1
+Length=348
+
+ Score = 58.5 bits (140),  Expect = 3e-08
+ Identities = 31/85 (36%), Positives = 41/85 (48%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAE +++ T KAER+L+WK +Y  + +C                       
+Sbjct  291  LVMADRRPGDAETVYAATEKAERDLSWKANYGVDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPD T
+Sbjct  328  -----RDQWNWASKNPYGYGSPDGT  347
+
+
+>TR:W9RMQ8_9ROSA W9RMQ8 UDP-glucose 4-epimerase GEPI48 OS=Morus notabilis OX=981085 
+GN=L484_002240 PE=3 SV=1
+Length=348
+
+ Score = 58.5 bits (140),  Expect = 3e-08
+ Identities = 35/84 (42%), Positives = 41/84 (49%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD EILF+ T KAERELNWK  Y  + +C  D+  +                
+Sbjct  291  LVIAGRRPGDVEILFASTEKAERELNWKARYGIDEMC-QDQWKW----------------  333
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS DS
+Sbjct  334  -----------ASKNPYGYGSLDS  346
+
+
+>TR:A0A2N9FEA0_FAGSY A0A2N9FEA0 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS13350 PE=3 SV=1
+Length=349
+
+ Score = 58.5 bits (140),  Expect = 3e-08
+ Identities = 33/85 (39%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  292  LVTAGRRPGDAEIVYASTDKAEKELNWKAKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY SPDST
+Sbjct  329  -----RDQWNWASKNPYGYESPDST  348
+
+
+>TR:G7K9B3_MEDTR G7K9B3 UDP-D-glucose/UDP-D-galactose 4-epimerase OS=Medicago 
+truncatula OX=3880 GN=11439983 PE=4 SV=1
+Length=286
+
+ Score = 57.8 bits (138),  Expect = 4e-08
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  229  LVKAGRRPGDAEIVYASTEKAERELKWKAKYGIDDMC-----------------------  265
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG PDST
+Sbjct  266  -----RDQWNWASKNPYGYGPPDST  285
+
+
+>TR:B9RCT8_RICCO B9RCT8 UDP-glucose 4-epimerase, putative OS=Ricinus communis 
+OX=3988 GN=RCOM_1692150 PE=4 SV=1
+Length=297
+
+ Score = 57.8 bits (138),  Expect = 4e-08
+ Identities = 32/86 (37%), Positives = 40/86 (47%), Gaps = 28/86 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  +  + +C                       
+Sbjct  240  LVMAGRRPGDAEIVYASTDKAERELNWKAKFGIDEMC-----------------------  276
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTK  86
+                       ASKNPYGYGS D+ K
+Sbjct  277  -----RDQWNWASKNPYGYGSADTAK  297
+
+
+>TR:G7K9B2_MEDTR G7K9B2 UDP-D-glucose/UDP-D-galactose 4-epimerase OS=Medicago 
+truncatula OX=3880 GN=11439983 PE=3 SV=1
+Length=349
+
+ Score = 57.8 bits (138),  Expect = 5e-08
+ Identities = 33/85 (39%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  292  LVKAGRRPGDAEIVYASTEKAERELKWKAKYGIDDMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG PDST
+Sbjct  329  -----RDQWNWASKNPYGYGPPDST  348
+
+
+>TR:A0A2I0INN9_PUNGR A0A2I0INN9 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_034271 PE=4 SV=1
+Length=56
+
+ Score = 53.1 bits (126),  Expect = 6e-08
+ Identities = 31/80 (39%), Positives = 35/80 (44%), Gaps = 28/80 (35%)
+
+Query  6   RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+           RRPGDAEI+++ T KAERELNWK  Y    +C                            
+Sbjct  4   RRPGDAEIVYASTEKAERELNWKAKYGIEEMC----------------------------  35
+
+Query  66  ATNGTGASKNPYGYGSPDST  85
+                 ASKNPYGYGS   T
+Sbjct  36  RDQWNWASKNPYGYGSLKDT  55
+
+
+>TR:A0A067DC97_CITSI A0A067DC97 Uncharacterized protein OS=Citrus sinensis OX=2711 
+GN=CISIN_1g040584mg PE=3 SV=1
+Length=347
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 33/85 (39%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  290  LVKSGRRPGDAEIVYASTEKAERELNWKAKYGIDEMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY SP+ST
+Sbjct  327  -----RDQWNWASKNPYGYESPNST  346
+
+
+>TR:A0A2R6QN19_ACTCH A0A2R6QN19 UDP-glucose 4-epimerase OS=Actinidia chinensis var. 
+chinensis OX=1590841 GN=CEY00_Acc15575 PE=3 SV=1
+Length=347
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 33/84 (39%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVFSGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGY S DS
+Sbjct  328  -----RDQWNWASKNPYGYESADS  346
+
+
+>TR:A0A2I4EYA1_9ROSI A0A2I4EYA1 UDP-glucose 4-epimerase GEPI48 OS=Juglans regia OX=51240 
+GN=LOC108993800 PE=3 SV=1
+Length=347
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 32/84 (38%), Positives = 39/84 (46%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTDKAEKELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS DS
+Sbjct  328  -----RDQWNWASKNPYGYGSSDS  346
+
+
+>TR:A0A2P6P644_ROSCH A0A2P6P644 Putative UDP-glucose 4-epimerase OS=Rosa chinensis 
+OX=74649 GN=RchiOBHm_Chr7g0194661 PE=3 SV=1
+Length=348
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  YN + +C                       
+Sbjct  291  LVIAGRRPGDAEVVYASTDKAERELNWKAKYNIDDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG  D++
+Sbjct  328  -----RDQWNWASKNPYGYGPQDNS  347
+
+
+>TR:A0A200QW73_9MAGN A0A200QW73 NAD-dependent epimerase/dehydratase OS=Macleaya cordata 
+OX=56857 GN=BVC80_1819g8 PE=3 SV=1
+Length=348
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 30/84 (36%), Positives = 39/84 (46%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD+E++++ T KAEREL W+  Y  N +C                       
+Sbjct  291  LVMAARRPGDSEVVYASTDKAERELKWRAKYGINEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  328  -----RDQWNWASKNPYGYGSPES  346
+
+
+>TR:A0A059CG22_EUCGR A0A059CG22 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_D01750 PE=3 SV=1
+Length=350
+
+ Score = 57.4 bits (137),  Expect = 7e-08
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  293  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS+NPYGYGSP+++
+Sbjct  330  -----RDQWNWASQNPYGYGSPETS  349
+
+
+>TR:A0A2K3PDY4_TRIPR A0A2K3PDY4 UDP-glucose 4-epimerase gepi48-like protein OS=Trifolium 
+pratense OX=57577 GN=L195_g010147 PE=3 SV=1
+Length=385
+
+ Score = 57.0 bits (136),  Expect = 1e-07
+ Identities = 32/85 (38%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  328  LVKAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  364
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS+NPYGYGSPDS+
+Sbjct  365  -----RDQWNWASQNPYGYGSPDSS  384
+
+
+>TR:A0A068UUT9_COFCA A0A068UUT9 Uncharacterized protein OS=Coffea canephora OX=49390 
+GN=GSCOC_T00035568001 PE=3 SV=1
+Length=350
+
+ Score = 56.6 bits (135),  Expect = 1e-07
+ Identities = 33/85 (39%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI++  T KAE ELNWK  Y    +C                       
+Sbjct  293  LVKAGRRAGDAEIVYGSTDKAEHELNWKAKYGIEEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSPDST
+Sbjct  330  -----RDQWNWASKNPYGYGSPDST  349
+
+
+>TR:A0A2P6P635_ROSCH A0A2P6P635 Putative UDP-glucose 4-epimerase OS=Rosa chinensis 
+OX=74649 GN=RchiOBHm_Chr7g0194541 PE=4 SV=1
+Length=58
+
+ Score = 52.4 bits (124),  Expect = 1e-07
+ Identities = 21/37 (57%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1   LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+           L+   RRPGDAE++++ T KAERELNWK  YN + +C
+Sbjct  9   LVIAGRRPGDAEVVYASTDKAERELNWKAKYNIDDMC  45
+
+
+>TR:A0A199W1L5_ANACO A0A199W1L5 UDP-glucose 4-epimerase GEPI48 OS=Ananas comosus OX=4615 
+GN=ACMD2_20464 PE=3 SV=1
+Length=329
+
+ Score = 56.2 bits (134),  Expect = 2e-07
+ Identities = 32/85 (38%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD+EIL+  T KAE+EL WK  Y    +C                       
+Sbjct  270  LVIAGRRPGDSEILYGSTIKAEKELKWKAKYTIEDMC-----------------------  306
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGSP ST
+Sbjct  307  -----QDQWNWASKNPYGYGSPGST  326
+
+
+>TR:A0A0C9RKP9_9SPER A0A0C9RKP9 TSA: Wollemia nobilis Ref_Wollemi_Transcript_13403_1581 
+transcribed RNA sequence OS=Wollemia nobilis OX=56998 
+PE=3 SV=1
+Length=350
+
+ Score = 56.2 bits (134),  Expect = 2e-07
+ Identities = 30/80 (38%), Positives = 38/80 (48%), Gaps = 28/80 (35%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RRPGDAE++++ T KAERELNWK  Y    +C                            
+Sbjct  298  RRPGDAEVVYASTEKAERELNWKAQYGVEEMC----------------------------  329
+
+Query  66   ATNGTGASKNPYGYGSPDST  85
+                  ASKNP+GYGSP++T
+Sbjct  330  RDQWNWASKNPWGYGSPETT  349
+
+
+>TR:A0A1D1ZD43_9ARAE A0A1D1ZD43 UDP-glucose 4-epimerase GEPI48 (Fragment) OS=Anthurium 
+amnicola OX=1678845 GN=GALE2_2 PE=3 SV=1
+Length=384
+
+ Score = 56.2 bits (134),  Expect = 2e-07
+ Identities = 32/84 (38%), Positives = 37/84 (44%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI   RRPGDAE +++ T KAE ELNWK  Y    +C                       
+Sbjct  327  LIMAGRRPGDAETVYASTAKAEEELNWKAKYGIEEMC-----------------------  363
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPDS
+Sbjct  364  -----RDQWNWASKNPWGYGSPDS  382
+
+
+>TR:A0A2P5D6T4_9ROSA A0A2P5D6T4 UDP-glucose 4-epimerase OS=Trema orientalis OX=63057 
+GN=TorRG33x02_260530 PE=3 SV=1
+Length=324
+
+ Score = 55.8 bits (133),  Expect = 2e-07
+ Identities = 32/85 (38%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y+ + +C                       
+Sbjct  267  LVIAGRRPGDAEIVYASTEKAERELNWKARYDIDEMC-----------------------  303
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S DS+
+Sbjct  304  -----RDQWNWASKNPYGYESQDSS  323
+
+
+>TR:A0A1J7GE25_LUPAN A0A1J7GE25 Uncharacterized protein OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_17992 PE=3 SV=1
+Length=350
+
+ Score = 55.8 bits (133),  Expect = 2e-07
+ Identities = 34/86 (40%), Positives = 40/86 (47%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  292  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGS-PDST  85
+                       ASKNPYGYGS  DST
+Sbjct  329  -----RDQWNWASKNPYGYGSQKDST  349
+
+
+>TR:A0A2K3LM75_TRIPR A0A2K3LM75 UDP-glucose 4-epimerase gepi48-like protein OS=Trifolium 
+pratense OX=57577 GN=L195_g035619 PE=4 SV=1
+Length=59
+
+ Score = 51.6 bits (122),  Expect = 3e-07
+ Identities = 27/80 (34%), Positives = 37/80 (46%), Gaps = 28/80 (35%)
+
+Query  1   LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+           ++  +RRPGDAE++++ T KAE+ELNWK  Y  + +C                       
+Sbjct  5   IVKADRRPGDAEVVYASTAKAEKELNWKAKYGIDDMC-----------------------  41
+
+Query  61  LKRCVATNGTGASKNPYGYG  80
+                      ASKNPYGYG
+Sbjct  42  -----RDQWNWASKNPYGYG  56
+
+
+>TR:M0SKI4_MUSAM M0SKI4 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103980232 PE=3 SV=1
+Length=349
+
+ Score = 55.5 bits (132),  Expect = 3e-07
+ Identities = 31/80 (39%), Positives = 36/80 (45%), Gaps = 28/80 (35%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RRPGDAEIL++ T KAE+EL WK  Y    +C                            
+Sbjct  297  RRPGDAEILYASTRKAEKELKWKAKYGIEEMC----------------------------  328
+
+Query  66   ATNGTGASKNPYGYGSPDST  85
+                  A KNP+GYGSPDST
+Sbjct  329  RDQWNWAKKNPWGYGSPDST  348
+
+
+>TR:A0A2K3LL75_TRIPR A0A2K3LL75 UDP-glucose 4-epimerase gepi48-like protein OS=Trifolium 
+pratense OX=57577 GN=L195_g035260 PE=4 SV=1
+Length=69
+
+ Score = 51.6 bits (122),  Expect = 3e-07
+ Identities = 27/80 (34%), Positives = 37/80 (46%), Gaps = 28/80 (35%)
+
+Query  1   LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+           ++  +RRPGDAE++++ T KAE+ELNWK  Y  + +C                       
+Sbjct  15  IVKADRRPGDAEVVYASTAKAEKELNWKAKYGIDDMC-----------------------  51
+
+Query  61  LKRCVATNGTGASKNPYGYG  80
+                      ASKNPYGYG
+Sbjct  52  -----RDQWNWASKNPYGYG  66
+
+
+>TR:A0A2P5SNW1_GOSBA A0A2P5SNW1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD02267 PE=4 SV=1
+Length=289
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 31/84 (37%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  229  LVMAGRRAGDAEIVYASTKKAERELNWRARYGIEEMC-----------------------  265
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  266  -----RDQWNWASKNPYGYGSPES  284
+
+
+>TR:A0A218XKI6_PUNGR A0A218XKI6 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr028003 PE=4 SV=1
+Length=306
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 32/85 (38%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  249  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  285
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGS   T
+Sbjct  286  -----RDQWNWASKNPYGYGSLKDT  305
+
+
+>TR:A0A218XKK6_PUNGR A0A218XKK6 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr028006 PE=3 SV=1
+Length=348
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 31/86 (36%), Positives = 38/86 (44%), Gaps = 28/86 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAESELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTK  86
+                       ASKNPYGY SP+ +K
+Sbjct  328  -----RDQWNWASKNPYGYESPEDSK  348
+
+
+>TR:A0A0D2R407_GOSRA A0A0D2R407 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G132700 PE=3 SV=1
+Length=351
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 31/84 (37%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMAGRRAGDAEIVYASTKKAERELNWRARYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  328  -----RDQWNWASKNPYGYGSPES  346
+
+
+>TR:A0A1U8IE59_GOSHI A0A1U8IE59 UDP-glucose 4-epimerase GEPI48-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107893957 PE=3 SV=1
+Length=351
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 31/84 (37%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMAGRRAGDAEIVYASTKKAERELNWRARYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  328  -----RDQWNWASKNPYGYGSPES  346
+
+
+>TR:A0A1U8K204_GOSHI A0A1U8K204 UDP-glucose 4-epimerase GEPI48-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107911231 PE=3 SV=1
+Length=351
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 31/84 (37%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMAGRRAGDAEIVYASTKKAERELNWRARYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  328  -----RDQWNWASKNPYGYGSPES  346
+
+
+>TR:A0A0K9P5M4_ZOSMR A0A0K9P5M4 UDP-glucose 4-epimerase OS=Zostera marina OX=29655 
+GN=ZOSMA_376G00110 PE=3 SV=1
+Length=363
+
+ Score = 55.1 bits (131),  Expect = 4e-07
+ Identities = 35/98 (36%), Positives = 45/98 (46%), Gaps = 33/98 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI   RRPGD E L++ T KAE+ELNWK  Y  + +C       R L+            
+Sbjct  294  LIMSGRRPGDVETLYASTAKAEKELNWKAKYGIDEMC-------RDLW------------  334
+
+Query  61   LKRCVATNGTGASKNPYGYGS-----PDSTKQNGNQTN  93
+                         KNP+GYGS     PDS+  +G+ TN
+Sbjct  335  ---------KWGKKNPWGYGSSDSSDPDSSDSSGDSTN  363
+
+
+>TR:A0A151SD02_CAJCA A0A151SD02 UDP-glucose 4-epimerase GEPI48 OS=Cajanus cajan OX=3821 
+GN=KK1_025370 PE=3 SV=1
+Length=389
+
+ Score = 55.1 bits (131),  Expect = 5e-07
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  332  LVMAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  368
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG  +ST
+Sbjct  369  -----RDQWNWASKNPYGYGDQEST  388
+
+
+>TR:A0A2C9WIA1_MANES A0A2C9WIA1 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_01G047800 PE=3 SV=1
+Length=347
+
+ Score = 54.7 bits (130),  Expect = 6e-07
+ Identities = 30/84 (36%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y    +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAERELKWKAKYGIGEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYG+GSP++
+Sbjct  328  -----KDQWNWASKNPYGFGSPET  346
+
+
+>TR:M0TW74_MUSAM M0TW74 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103996553 PE=3 SV=1
+Length=349
+
+ Score = 54.7 bits (130),  Expect = 6e-07
+ Identities = 31/83 (37%), Positives = 38/83 (46%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEIL++ T KAE+ELNWK  Y+   +C                       
+Sbjct  292  LVMAGRRPGDAEILYACTAKAEKELNWKAKYSIEEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNP+GYG PD
+Sbjct  329  -----RDQWNWASKNPWGYGLPD  346
+
+
+>TR:A0A087GGE8_ARAAL A0A087GGE8 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA7G069700 PE=3 SV=1
+Length=351
+
+ Score = 54.7 bits (130),  Expect = 6e-07
+ Identities = 35/90 (39%), Positives = 45/90 (50%), Gaps = 30/90 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KA+RELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEIVYASTEKAKRELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY S  S+K NG+
+Sbjct  333  ----------WASKNPYGYDS--SSKPNGS  350
+
+
+>TR:A0A067GMK5_CITSI A0A067GMK5 Uncharacterized protein OS=Citrus sinensis OX=2711 
+GN=CISIN_1g026752mg PE=4 SV=1
+Length=233
+
+ Score = 53.9 bits (128),  Expect = 7e-07
+ Identities = 32/85 (38%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  176  LVKSGRRPGDAEIVYASTGKAERELNWKAKYGIDEMC-----------------------  212
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S +ST
+Sbjct  213  -----RDQWNWASKNPYGYESSNST  232
+
+
+>TR:A0A0A8Y330_ARUDO A0A0A8Y330 UDP-glucose-4-epimerase OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=201
+
+ Score = 53.5 bits (127),  Expect = 7e-07
+ Identities = 32/85 (38%), Positives = 42/85 (49%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RR GDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  144  LVFAGRRAGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  185
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGS D++
+Sbjct  186  ----------WASKNPYGYGSHDNS  200
+
+
+>TR:C0HEU5_MAIZE C0HEU5 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d029151 
+PE=2 SV=1
+Length=236
+
+ Score = 53.9 bits (128),  Expect = 7e-07
+ Identities = 34/87 (39%), Positives = 44/87 (51%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  178  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  219
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D++K
+Sbjct  220  ----------WASKNPYGYAGSRDNSK  236
+
+
+>TR:D7TVG8_VITVI D7TVG8 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_02s0025g01560 
+PE=3 SV=1
+Length=348
+
+ Score = 54.3 bits (129),  Expect = 8e-07
+ Identities = 31/85 (36%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ TTKAE+ELNWK  Y  + +C                       
+Sbjct  291  LVMDGRRPGDAEIVYASTTKAEKELNWKAKYGISEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S  +T
+Sbjct  328  -----RDQWNWASKNPYGYESSPTT  347
+
+
+>TR:A0A2H5QBP9_CITUN A0A2H5QBP9 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_214830 PE=3 SV=1
+Length=348
+
+ Score = 54.3 bits (129),  Expect = 8e-07
+ Identities = 32/85 (38%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAER LNWK  Y  + +C                       
+Sbjct  291  LVKSGRRPGDAEIVYASTEKAERGLNWKARYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY SP+ST
+Sbjct  328  -----RDQWNWASKNPYGYESPNST  347
+
+
+>TR:V4SBE3_9ROSI V4SBE3 Uncharacterized protein OS=Citrus clementina OX=85681 
+GN=CICLE_v10001690mg PE=3 SV=1
+Length=348
+
+ Score = 54.3 bits (129),  Expect = 8e-07
+ Identities = 32/85 (38%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAER LNWK  Y  + +C                       
+Sbjct  291  LVKSGRRPGDAEIVYASTEKAERGLNWKARYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY SP+ST
+Sbjct  328  -----RDQWNWASKNPYGYESPNST  347
+
+
+>SP:GALE2_CYATE O65781 UDP-glucose 4-epimerase GEPI48 OS=Cyamopsis tetragonoloba 
+OX=3832 PE=2 SV=1
+Length=350
+
+ Score = 54.3 bits (129),  Expect = 8e-07
+ Identities = 29/85 (34%), Positives = 38/85 (45%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y  + +C                       
+Sbjct  292  LVMAGRRPGDAEVVYASTNKAERELNWKAKYGIDEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG  + +
+Sbjct  329  -----RDQWNWASKNPYGYGGSEDS  348
+
+
+>TR:M0TXX3_MUSAM M0TXX3 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103997071 PE=3 SV=1
+Length=521
+
+ Score = 54.3 bits (129),  Expect = 9e-07
+ Identities = 40/141 (28%), Positives = 59/141 (42%), Gaps = 40/141 (28%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  ERRPGDAE +++   KAE+EL+WK  Y+   +C                       
+Sbjct  354  LVMAERRPGDAETVYASIAKAEKELHWKAKYDIEEMC-----------------------  390
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGNQTNGSADSSKQNGHRTNGSTDS---PK-RN  116
+                       ASKNP+GY SP++T    + T GS ++        NG   +   PK  N
+Sbjct  391  -----RDQWNWASKNPWGYKSPETTNDK-HLTCGSPET-------INGKLPTYALPKIAN  437
+
+Query  117  GHYANGSADSPKRNGHYVYGS  137
+            G      +       H++YG+
+Sbjct  438  GRLCTTGSLGNSNGKHHIYGA  458
+
+
+>TR:A0A0A9N3B8_ARUDO A0A0A9N3B8 UDP-glucose-4-epimerase OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=235
+
+ Score = 53.5 bits (127),  Expect = 1e-06
+ Identities = 32/85 (38%), Positives = 42/85 (49%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RR GDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  178  LVFAGRRAGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  219
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYGS D++
+Sbjct  220  ----------WASKNPYGYGSRDNS  234
+
+
+>TR:C0HHU3_MAIZE C0HHU3 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=305
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 34/87 (39%), Positives = 44/87 (51%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  247  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  288
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D++K
+Sbjct  289  ----------WASKNPYGYAGSRDNSK  305
+
+
+>TR:A0A0K9QTS4_SPIOL A0A0K9QTS4 Uncharacterized protein OS=Spinacia oleracea OX=3562 
+GN=SOVF_142380 PE=3 SV=1
+Length=348
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 31/79 (39%), Positives = 36/79 (46%), Gaps = 28/79 (35%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RR GDAEI+++ T KAERELNWK  +  N +C                            
+Sbjct  296  RRAGDAEIVYASTEKAERELNWKAKFGINEMC----------------------------  327
+
+Query  66   ATNGTGASKNPYGYGSPDS  84
+                  ASKNPYGYGS DS
+Sbjct  328  RDQWNWASKNPYGYGSSDS  346
+
+
+>TR:V4TGU1_9ROSI V4TGU1 Uncharacterized protein OS=Citrus clementina OX=85681 
+GN=CICLE_v10020919mg PE=3 SV=1
+Length=348
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 32/85 (38%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  291  LVKSGRRPGDAEIVYASTGKAERELNWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S +ST
+Sbjct  328  -----RDQWNWASKNPYGYESSNST  347
+
+
+>TR:Q7XZQ2_MAIZE Q7XZQ2 UDP-glucose-4-epimerase OS=Zea mays OX=4577 PE=2 SV=1
+Length=355
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 34/87 (39%), Positives = 44/87 (51%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D++K
+Sbjct  339  ----------WASKNPYGYAGSRDNSK  355
+
+
+>TR:B6THJ8_MAIZE B6THJ8 UDP-glucose 4-epimerase GEPI48 OS=Zea mays OX=4577 PE=2 
+SV=1
+Length=355
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 34/87 (39%), Positives = 44/87 (51%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D++K
+Sbjct  339  ----------WASKNPYGYAGSRDNSK  355
+
+
+>TR:C0HI30_MAIZE C0HI30 UDP-glucose 4-epimerase 4 OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d029151 
+PE=2 SV=1
+Length=355
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 34/87 (39%), Positives = 44/87 (51%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D++K
+Sbjct  339  ----------WASKNPYGYAGSRDNSK  355
+
+
+>TR:A0A2H5NGI9_CITUN A0A2H5NGI9 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_043310 PE=3 SV=1
+Length=367
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 32/85 (38%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y  + +C                       
+Sbjct  310  LVKSGRRPGDAEIVYASTGKAERELNWKAKYGIDEMC-----------------------  346
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S +ST
+Sbjct  347  -----RDQWNWASKNPYGYESSNST  366
+
+
+>TR:C6TNT8_SOYBN C6TNT8 Uncharacterized protein OS=Glycine max OX=3847 PE=2 SV=1
+Length=391
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  334  LVMAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  370
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG   ST
+Sbjct  371  -----RDQWNWASKNPYGYGDQGST  390
+
+
+>TR:I1JAE3_SOYBN I1JAE3 Uncharacterized protein OS=Glycine max OX=3847 GN=100818509 
+PE=3 SV=1
+Length=391
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  334  LVMAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  370
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG   ST
+Sbjct  371  -----RDQWNWASKNPYGYGDQGST  390
+
+
+>TR:M0SF53_MUSAM M0SF53 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=433
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 32/89 (36%), Positives = 43/89 (48%), Gaps = 28/89 (31%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI   RRPGDAEI+++ T KAE+EL+WK  Y+   +C                  + N V
+Sbjct  360  LILAGRRPGDAEIVYASTAKAEKELHWKAKYSIEEMCRD----------------QWNWV  403
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNG  89
+                        SKNP+GY  P++T  NG
+Sbjct  404  ------------SKNPWGYRLPETTNGNG  420
+
+
+>TR:K3Z999_SETIT K3Z999 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101782923 
+PE=4 SV=1
+Length=236
+
+ Score = 53.1 bits (126),  Expect = 1e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  178  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  219
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  220  ----------WASKNPYGY---SGSSENGN  236
+
+
+>TR:K3Z938_SETIT K3Z938 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101782923 
+PE=4 SV=1
+Length=249
+
+ Score = 53.1 bits (126),  Expect = 1e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  191  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  232
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  233  ----------WASKNPYGY---SGSSENGN  249
+
+
+>TR:A0A1U8BPS6_NELNU A0A1U8BPS6 UDP-glucose 4-epimerase GEPI48-like OS=Nelumbo nucifera 
+OX=4432 GN=LOC104613436 PE=3 SV=1
+Length=348
+
+ Score = 53.5 bits (127),  Expect = 1e-06
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E L++ T KAE EL WK  Y  + +C                       
+Sbjct  291  LVMAARRPGDVETLYALTDKAENELKWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                     + ASKNPYGYGS DST
+Sbjct  328  -----RDQWSWASKNPYGYGSADST  347
+
+
+>TR:K3Z807_SETIT K3Z807 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101782923 
+PE=4 SV=1
+Length=321
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  263  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  304
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  305  ----------WASKNPYGY---SGSSENGN  321
+
+
+>TR:A0A2I0LB36_PUNGR A0A2I0LB36 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_001696 PE=3 SV=1
+Length=348
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 30/85 (35%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE ELNW   Y    +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAEHELNWTAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY SP++T
+Sbjct  328  -----RDQWNWASKNPYGYESPEAT  347
+
+
+>TR:A0A061GDC4_THECC A0A061GDC4 UDP-D-glucose/UDP-D-galactose 4-epimerase 5 isoform 
+1 OS=Theobroma cacao OX=3641 GN=TCM_016477 PE=3 SV=1
+Length=348
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW   Y    +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAERELNWTAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S +ST
+Sbjct  328  -----RDQWNWASKNPYGYESSEST  347
+
+
+>TR:I1HFQ6_BRADI I1HFQ6 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100838089 PE=3 SV=1
+Length=352
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 31/83 (37%), Positives = 41/83 (49%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RRPGDAEI+++ T+KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVYAGRRPGDAEIVYAATSKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       AS NPYGYGS D
+Sbjct  339  ----------WASNNPYGYGSGD  351
+
+
+>TR:A0A2T7E9E8_9POAL A0A2T7E9E8 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_3G143700 PE=4 SV=1
+Length=355
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  339  ----------WASKNPYGYA---GSSENGN  355
+
+
+>TR:K3Z7G6_SETIT K3Z7G6 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101782923 
+PE=3 SV=1
+Length=355
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  339  ----------WASKNPYGY---SGSSENGN  355
+
+
+>TR:K3Z7F7_SETIT K3Z7F7 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101782923 
+PE=3 SV=1
+Length=357
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  299  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  340
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  341  ----------WASKNPYGY---SGSSENGN  357
+
+
+>TR:A0A0K9P7Q0_ZOSMR A0A0K9P7Q0 UDP-glucose 4-epimerase OS=Zostera marina OX=29655 
+GN=ZOSMA_33G00980 PE=3 SV=1
+Length=380
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 21/37 (57%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            ++F  RRPGDAEI+++ T KAERELNWK  Y  + +C
+Sbjct  302  IVFDNRRPGDAEIVYASTAKAERELNWKPKYGVDEMC  338
+
+
+>TR:A0A2S3H8X1_9POAL A0A2S3H8X1 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_3G151900 PE=4 SV=1
+Length=433
+
+ Score = 53.1 bits (126),  Expect = 2e-06
+ Identities = 33/90 (37%), Positives = 43/90 (48%), Gaps = 31/90 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  375  LVFAGRRPGDAEIVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  416
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQNGN  90
+                       ASKNPYGY     + +NGN
+Sbjct  417  ----------WASKNPYGYA---GSSENGN  433
+
+
+>TR:A0A1S3UNN3_VIGRR A0A1S3UNN3 UDP-glucose 4-epimerase GEPI48-like OS=Vigna radiata 
+var. radiata OX=3916 GN=LOC106767273 PE=3 SV=1
+Length=348
+
+ Score = 52.8 bits (125),  Expect = 3e-06
+ Identities = 33/87 (38%), Positives = 41/87 (47%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L  G RRPGDAEI+++ T KAE+ELNWK  ++ + +C                       
+Sbjct  290  LAMGGRRPGDAEIVYASTKKAEKELNWKAKHDIDDMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDSTK  86
+                       ASKNPYGYG S DS K
+Sbjct  327  -----RDQWNWASKNPYGYGRSGDSPK  348
+
+
+>TR:A0A1S3BS45_CUCME A0A1S3BS45 UDP-glucose 4-epimerase GEPI48-like OS=Cucumis melo 
+OX=3656 GN=LOC103493104 PE=3 SV=1
+Length=349
+
+ Score = 52.8 bits (125),  Expect = 3e-06
+ Identities = 30/84 (36%), Positives = 37/84 (44%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  293  LVMSARRPGDAEIVYASTHKAEKELNWKAKYGIDEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGY  P S
+Sbjct  330  -----RDQWNWASKNPYGYEPPKS  348
+
+
+>TR:I1K694_SOYBN I1K694 Uncharacterized protein OS=Glycine max OX=3847 GN=100812565 
+PE=3 SV=1
+Length=350
+
+ Score = 52.8 bits (125),  Expect = 3e-06
+ Identities = 33/86 (38%), Positives = 40/86 (47%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L    RRPGDAEI+++ T KAERELNWK  Y+ + +C                       
+Sbjct  292  LAMAGRRPGDAEIVYASTEKAERELNWKTKYSIDDMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDST  85
+                       ASKNPYGYG S DS+
+Sbjct  329  -----RDQWNWASKNPYGYGASADSS  349
+
+
+>TR:A0A251RKQ7_HELAN A0A251RKQ7 Putative UDP-glucose 4-epimerase GEPI48 OS=Helianthus 
+annuus OX=4232 GN=GALE2 PE=3 SV=1
+Length=352
+
+ Score = 52.8 bits (125),  Expect = 3e-06
+ Identities = 29/87 (33%), Positives = 39/87 (45%), Gaps = 28/87 (32%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAE++++ T KAE ELNWK  Y  + +C                       
+Sbjct  293  LVMSDRRPGDAEVVYASTEKAELELNWKAKYGIDEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQ  87
+                       ASKNPYGY + +  KQ
+Sbjct  330  -----RDQWNWASKNPYGYLTKEEAKQ  351
+
+
+>TR:A0A2I0ARI9_9ASPA A0A2I0ARI9 UDP-glucose 4-epimerase GEPI48 OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash012887 PE=3 SV=1
+Length=381
+
+ Score = 52.8 bits (125),  Expect = 3e-06
+ Identities = 29/84 (35%), Positives = 39/84 (46%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAEREL+W+  Y  N +C                       
+Sbjct  324  LVMAGRRAGDAEIVYASTEKAERELSWRAKYGINEMC-----------------------  360
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       A+KNP+GYGSP+S
+Sbjct  361  -----RDQWNWANKNPWGYGSPES  379
+
+
+>TR:V7CPQ2_PHAVU V7CPQ2 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_002G298500g PE=4 SV=1
+Length=278
+
+ Score = 52.4 bits (124),  Expect = 3e-06
+ Identities = 33/86 (38%), Positives = 40/86 (47%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L  G RRPGDAEI+++ T KAERELNWK  +  + +C                       
+Sbjct  220  LAMGGRRPGDAEIVYASTKKAERELNWKAKHGIDDMC-----------------------  256
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDST  85
+                       ASKNPYGYG S DS+
+Sbjct  257  -----RDQWNWASKNPYGYGRSGDSS  277
+
+
+>TR:A0A164W094_DAUCA A0A164W094 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_021534 PE=3 SV=1
+Length=319
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 28/83 (34%), Positives = 38/83 (46%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAEI++  T KAE+ELNWK  ++ + +C                       
+Sbjct  252  LVMADRRPGDAEIVYGSTAKAEKELNWKAKFDIDDMC-----------------------  288
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY  P+
+Sbjct  289  -----RDQWNWASKNPYGYEPPE  306
+
+
+>TR:A0A2G9I2S4_9LAMI A0A2G9I2S4 UDP-glucose 4-epimerase/UDP-sulfoquinovose synthase 
+OS=Handroanthus impetiginosus OX=429701 GN=CDL12_03239 PE=3 
+SV=1
+Length=345
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 31/81 (38%), Positives = 34/81 (42%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEIL+  T KAERELNWK  Y    +C                       
+Sbjct  291  LVKASRRPGDAEILYGSTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       ASKNPYGY S
+Sbjct  328  -----RDQWNWASKNPYGYDS  343
+
+
+>TR:A0A2G9GK74_9LAMI A0A2G9GK74 UDP-glucose 4-epimerase/UDP-sulfoquinovose synthase 
+OS=Handroanthus impetiginosus OX=429701 GN=CDL12_22024 PE=3 
+SV=1
+Length=345
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 30/79 (38%), Positives = 35/79 (44%), Gaps = 28/79 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+F+ET KAEREL WK  Y  + +C                       
+Sbjct  291  LVMAARRPGDAEIVFAETDKAERELKWKAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY  79
+                       ASKNPYGY
+Sbjct  328  -----RDQWNWASKNPYGY  341
+
+
+>TR:A0A2G9HS71_9LAMI A0A2G9HS71 UDP-glucose 4-epimerase/UDP-sulfoquinovose synthase 
+OS=Handroanthus impetiginosus OX=429701 GN=CDL12_07156 PE=3 
+SV=1
+Length=345
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 31/81 (38%), Positives = 34/81 (42%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEIL+  T KAERELNWK  Y    +C                       
+Sbjct  291  LVKASRRPGDAEILYGSTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       ASKNPYGY S
+Sbjct  328  -----RDQWNWASKNPYGYDS  343
+
+
+>TR:V7CTF2_PHAVU V7CTF2 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_002G298500g PE=3 SV=1
+Length=348
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 33/86 (38%), Positives = 40/86 (47%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L  G RRPGDAEI+++ T KAERELNWK  +  + +C                       
+Sbjct  290  LAMGGRRPGDAEIVYASTKKAERELNWKAKHGIDDMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDST  85
+                       ASKNPYGYG S DS+
+Sbjct  327  -----RDQWNWASKNPYGYGRSGDSS  347
+
+
+>TR:A0A0S3QXD3_PHAAN A0A0S3QXD3 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.01G043200 PE=3 SV=1
+Length=348
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 33/87 (38%), Positives = 40/87 (46%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L  G RRPGDAEI+++ T KAE+ELNWK  +  + +C                       
+Sbjct  290  LAMGGRRPGDAEIVYASTKKAEKELNWKAKHGIDDMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDSTK  86
+                       ASKNPYGYG S DS K
+Sbjct  327  -----RDQWNWASKNPYGYGRSGDSPK  348
+
+
+>TR:A0A0L9TH33_PHAAN A0A0L9TH33 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan818s005800 PE=3 SV=1
+Length=348
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 33/87 (38%), Positives = 40/87 (46%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L  G RRPGDAEI+++ T KAE+ELNWK  +  + +C                       
+Sbjct  290  LAMGGRRPGDAEIVYASTKKAEKELNWKAKHGIDDMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYG-SPDSTK  86
+                       ASKNPYGYG S DS K
+Sbjct  327  -----RDQWNWASKNPYGYGRSGDSPK  348
+
+
+>TR:M5WMM1_PRUPE M5WMM1 UDP-glucose 4-epimerase OS=Prunus persica OX=3760 GN=UGE 
+PE=2 SV=1
+Length=348
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 29/85 (34%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y+ + +C                       
+Sbjct  291  LVTSGRRPGDAEVVYASTEKAERELNWKAQYSIDDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNP+GY + +ST
+Sbjct  328  -----RDQWNWASKNPFGYDTSEST  347
+
+
+>TR:A0A2I0WPU1_9ASPA A0A2I0WPU1 UDP-glucose 4-epimerase GEPI48 OS=Dendrobium catenatum 
+OX=906689 GN=MA16_Dca005521 PE=3 SV=1
+Length=350
+
+ Score = 52.4 bits (124),  Expect = 4e-06
+ Identities = 29/84 (35%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW+  Y  + +C                       
+Sbjct  293  LVMAARRSGDAEIVYASTMKAERELNWRAKYGIDEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       A KNP+GYGSP+S
+Sbjct  330  -----RDQWNWARKNPWGYGSPES  348
+
+
+>TR:M1A1V5_SOLTU M1A1V5 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102580464 
+PE=4 SV=1
+Length=56
+
+ Score = 48.1 bits (113),  Expect = 5e-06
+ Identities = 30/80 (38%), Positives = 36/80 (45%), Gaps = 29/80 (36%)
+
+Query  6   RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+           RRPGDAEI+++ T KAERELNW+  Y    +C                            
+Sbjct  4   RRPGDAEIVYAATQKAERELNWRAKYGIEDMC----------------------------  35
+
+Query  66  ATNGTGASKNPYGY-GSPDS  84
+                 ASKNPYGY GS +S
+Sbjct  36  RDQWNWASKNPYGYEGSKES  55
+
+
+>TR:A0A1S2YEZ1_CICAR A0A1S2YEZ1 UDP-glucose 4-epimerase GEPI48 OS=Cicer arietinum 
+OX=3827 GN=LOC101508472 PE=3 SV=1
+Length=344
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 28/80 (35%), Positives = 37/80 (46%), Gaps = 28/80 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            ++  +RRPGDAE++++ T KAERELNWK  Y  + +C                       
+Sbjct  291  VVKADRRPGDAEVVYASTKKAERELNWKAKYGIDDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYG  80
+                       ASKNPYGYG
+Sbjct  328  -----RDQWNWASKNPYGYG  342
+
+
+>TR:A0A2P5QNW2_GOSBA A0A2P5QNW2 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD26815 PE=3 SV=1
+Length=346
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            L+   RRPGDAEIL++ T KAERELNWK  Y+   +C
+Sbjct  291  LVIAARRPGDAEILYASTEKAERELNWKAKYSIEDMC  327
+
+
+>TR:A0A1U8LKX8_GOSHI A0A1U8LKX8 UDP-glucose 4-epimerase 2-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107927530 PE=3 SV=1
+Length=346
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            L+   RRPGDAEIL++ T KAERELNWK  Y+   +C
+Sbjct  291  LVIAARRPGDAEILYASTEKAERELNWKAKYSIEDMC  327
+
+
+>TR:W1PTA5_AMBTC W1PTA5 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00024p00131820 PE=3 SV=1
+Length=348
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 29/84 (35%), Positives = 37/84 (44%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KA R LNW   Y  + +C                       
+Sbjct  291  LVMAARRPGDAEIVYASTDKAARALNWTAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPD+
+Sbjct  328  -----RDQWNWASKNPWGYGSPDT  346
+
+
+>TR:A0A2P5W8A0_GOSBA A0A2P5W8A0 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA33385 PE=3 SV=1
+Length=354
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            L+   RRPGDAEIL++ T KAERELNWK  Y+   +C
+Sbjct  291  LVIAARRPGDAEILYASTEKAERELNWKAKYSIEDMC  327
+
+
+>TR:C5WZT3_SORBI C5WZT3 Uncharacterized protein OS=Sorghum bicolor OX=4558 GN=SORBI_3001G372500 
+PE=3 SV=1
+Length=355
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 33/87 (38%), Positives = 43/87 (49%), Gaps = 29/87 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAEI+++ T KAE++L WK  Y    +C       R L++           
+Sbjct  297  LVFAGRRPGDAEIVYAATAKAEKDLKWKAKYGIEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDSTK  86
+                       ASKNPYGY GS D+ K
+Sbjct  339  ----------WASKNPYGYAGSQDNGK  355
+
+
+>TR:A0A0D2V0P8_GOSRA A0A0D2V0P8 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_012G024200 PE=3 SV=1
+Length=359
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            L+   RRPGDAEIL++ T KAERELNWK  Y+   +C
+Sbjct  291  LVIAARRPGDAEILYASTEKAERELNWKAKYSIEDMC  327
+
+
+>TR:S8EDN5_9LAMI S8EDN5 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_00681 PE=3 SV=1
+Length=360
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 29/79 (37%), Positives = 35/79 (44%), Gaps = 28/79 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  ERRPGDAEI+++ET KAEREL WK  +    +C                       
+Sbjct  306  LVLAERRPGDAEIVYAETDKAERELKWKSKFGIEEMC-----------------------  342
+
+Query  61   LKRCVATNGTGASKNPYGY  79
+                       ASKNPYGY
+Sbjct  343  -----RDQWNWASKNPYGY  356
+
+
+>TR:I1LG74_SOYBN I1LG74 Uncharacterized protein OS=Glycine max OX=3847 GN=100792137 
+PE=3 SV=1
+Length=388
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 29/85 (34%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  330  LVMAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  366
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG  + +
+Sbjct  367  -----RDQWNWASKNPYGYGDQEDS  386
+
+
+>TR:V7CK54_PHAVU V7CK54 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_002G164700g PE=3 SV=1
+Length=395
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 29/85 (34%), Positives = 37/85 (44%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y  + +C                       
+Sbjct  337  LVMAGRRPGDAEIVYASTKKAERELKWKAKYGIDEMC-----------------------  373
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGYG  + +
+Sbjct  374  -----RDQWNWASKNPYGYGDQEDS  393
+
+
+>TR:A0A1E5VXZ4_9POAL A0A1E5VXZ4 UDP-glucose 4-epimerase 1 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0008990 PE=4 SV=1
+Length=397
+
+ Score = 52.0 bits (123),  Expect = 5e-06
+ Identities = 32/86 (37%), Positives = 43/86 (50%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+F  RRPGDAE++++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  339  LVFAGRRPGDAEVVYAATAKAEKELKWKAKYGIEEMC-------RDLWN-----------  380
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDST  85
+                       ASKNPYGY GS D++
+Sbjct  381  ----------WASKNPYGYAGSSDNS  396
+
+
+>TR:A0A2I0INM4_PUNGR A0A2I0INM4 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_034274 PE=4 SV=1
+Length=218
+
+ Score = 51.2 bits (121),  Expect = 6e-06
+ Identities = 29/80 (36%), Positives = 35/80 (44%), Gaps = 28/80 (35%)
+
+Query  7    RPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCVA  66
+            RPGDAEI+++ T KAE ELNWK  Y    +C                             
+Sbjct  167  RPGDAEIVYASTEKAESELNWKAKYGIEEMC----------------------------R  198
+
+Query  67   TNGTGASKNPYGYGSPDSTK  86
+                 ASKNPYGY SP+ +K
+Sbjct  199  DQWNWASKNPYGYESPEDSK  218
+
+
+>TR:A0A103XR63_CYNCS A0A103XR63 NAD-dependent epimerase/dehydratase OS=Cynara cardunculus 
+var. scolymus OX=59895 GN=Ccrd_002609 PE=3 SV=1
+Length=334
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 29/86 (34%), Positives = 38/86 (44%), Gaps = 28/86 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAER+LNWK  Y  + +C                       
+Sbjct  277  LVMAGRRPGDAEVVYASTGKAERDLNWKAKYGIDDMC-----------------------  313
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTK  86
+                       ASKNPYGY + D  K
+Sbjct  314  -----RDQWNWASKNPYGYLTKDEAK  334
+
+
+>TR:A0A0D3DFS3_BRAOL A0A0D3DFS3 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106301827 PE=3 SV=1
+Length=348
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS NPYGY S + +
+Sbjct  333  ----------WASNNPYGYNSSNGS  347
+
+
+>TR:A0A0A0KYE5_CUCSA A0A0A0KYE5 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_4G052620 PE=3 SV=1
+Length=349
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 30/84 (36%), Positives = 37/84 (44%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  293  LVTSARRPGDAEIVYASTYKAEKELNWKAKYGIDDMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGY  P S
+Sbjct  330  -----KDQWNWASKNPYGYEPPKS  348
+
+
+>TR:A0A2I0A2L0_9ASPA A0A2I0A2L0 UDP-glucose 4-epimerase GEPI48 OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash004327 PE=3 SV=1
+Length=350
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 30/84 (36%), Positives = 38/84 (45%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            LI   RR GDAEI+++   KAERELNW+  +  + +C                       
+Sbjct  293  LIMDGRRSGDAEIVYASMKKAERELNWRAKFGIDEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPDS
+Sbjct  330  -----RDQWNWASKNPWGYGSPDS  348
+
+
+>TR:W1PUV2_AMBTC W1PUV2 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00024p00132940 PE=3 SV=1
+Length=351
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 29/84 (35%), Positives = 37/84 (44%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KA R LNW   Y  + +C                       
+Sbjct  291  LVMAVRRPGDAEIVYASTDKAARALNWTAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNP+GYGSPD+
+Sbjct  328  -----RDQWNWASKNPWGYGSPDT  346
+
+
+>TR:A0A251TPR9_HELAN A0A251TPR9 Putative UDP-glucose 4-epimerase 1 OS=Helianthus annuus 
+OX=4232 GN=UGE1 PE=3 SV=1
+Length=352
+
+ Score = 51.6 bits (122),  Expect = 7e-06
+ Identities = 23/37 (62%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            LI   RRPGDAEI+++ TTKAERELNWK  Y    +C
+Sbjct  293  LIKTARRPGDAEIVYASTTKAERELNWKAKYGIEEMC  329
+
+
+>TR:A0A103XFV4_CYNCS A0A103XFV4 NAD-dependent epimerase/dehydratase OS=Cynara cardunculus 
+var. scolymus OX=59895 GN=Ccrd_007997 PE=3 SV=1
+Length=347
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC  37
+            L+ GERR GDAEI+++ T KAERELNWK  Y    +C
+Sbjct  293  LVKGERRHGDAEIVYASTAKAERELNWKAKYGIEEMC  329
+
+
+>TR:A0A078ICM7_BRANA A0A078ICM7 BnaA01g13540D protein OS=Brassica napus OX=3708 GN=BnaA01g13540D 
+PE=3 SV=1
+Length=348
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEIVYASTEKAERELNWKAKYGIEDMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS NPYGY S + +
+Sbjct  333  ----------WASNNPYGYASSNGS  347
+
+
+>TR:A0A0D3A5S3_BRAOL A0A0D3A5S3 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106306971 PE=3 SV=1
+Length=348
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEIVYASTEKAERELNWKAKYGIEDMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS NPYGY S + +
+Sbjct  333  ----------WASNNPYGYASSNGS  347
+
+
+>TR:M4DB84_BRARP M4DB84 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=348
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEIVYASTEKAERELNWKAKYGIEDMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS NPYGY S + +
+Sbjct  333  ----------WASNNPYGYASSNGS  347
+
+
+>TR:M4DRW4_BRARP M4DRW4 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=348
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 31/85 (36%), Positives = 40/85 (47%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVMAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       AS NPYGY S + +
+Sbjct  333  ----------WASNNPYGYDSSNGS  347
+
+
+>TR:A5BGY1_VITVI A5BGY1 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_02s0025g01580 
+PE=3 SV=1
+Length=348
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 29/81 (36%), Positives = 36/81 (44%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAE+ELNWK  Y  + +C                       
+Sbjct  291  LVMAGRRPGDAEIVYASTAKAEKELNWKAKYGISEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       ASKNPYGY S
+Sbjct  328  -----RDQWNWASKNPYGYES  343
+
+
+>TR:A0A2U1LPG2_ARTAN A0A2U1LPG2 UDP-glucose 4-epimerase GEPI48 OS=Artemisia annua 
+OX=35608 GN=CTI12_AA454880 PE=4 SV=1
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 28/88 (32%), Positives = 39/88 (44%), Gaps = 28/88 (32%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  +    +C                       
+Sbjct  293  LVMAGRRPGDAEVVYASTDKAERELNWKAKFGIEEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDSTKQN  88
+                       ASKNPYGY + +  K++
+Sbjct  330  -----RDQWNWASKNPYGYLTKEEAKES  352
+
+
+>TR:A0A061FNL6_THECC A0A061FNL6 UDP-D-glucose/UDP-D-galactose 4-epimerase 5 OS=Theobroma 
+cacao OX=3641 GN=TCM_043427 PE=3 SV=1
+Length=366
+
+ Score = 51.2 bits (121),  Expect = 9e-06
+ Identities = 29/82 (35%), Positives = 35/82 (43%), Gaps = 28/82 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD EI+++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDGEIVYASTEKAERELNWKAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSP  82
+                       A+KNPYGY SP
+Sbjct  328  -----RDQWNWANKNPYGYQSP  344
+
+
+>TR:A0A2P5B8T8_PARAD A0A2P5B8T8 UDP-glucose 4-epimerase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_260340 PE=3 SV=1
+Length=386
+
+ Score = 51.2 bits (121),  Expect = 1e-05
+ Identities = 30/85 (35%), Positives = 39/85 (46%), Gaps = 28/85 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            ++   RR GDAEI+++ T KAERELNWK  Y+ + +C                       
+Sbjct  329  VVIAGRRHGDAEIVYASTEKAERELNWKARYDIDEMC-----------------------  365
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDST  85
+                       ASKNPYGY S DS+
+Sbjct  366  -----RDQWNWASKNPYGYESQDSS  385
+
+
+>TR:A0A1D5S6B3_WHEAT A0A1D5S6B3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=235
+
+ Score = 50.4 bits (119),  Expect = 1e-05
+ Identities = 30/84 (36%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  178  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  219
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS D+
+Sbjct  220  ----------WASKNPYGYGSTDN  233
+
+
+>TR:A0A1U7XE04_NICSY A0A1U7XE04 UDP-glucose 4-epimerase GEPI48-like OS=Nicotiana sylvestris 
+OX=4096 GN=LOC104233076 PE=3 SV=1
+Length=348
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 31/85 (36%), Positives = 39/85 (46%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y  + +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATKKAERELNWRAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSEES  347
+
+
+>TR:A0A1S4BCP5_TOBAC A0A1S4BCP5 UDP-glucose 4-epimerase GEPI48-like OS=Nicotiana tabacum 
+OX=4097 GN=LOC107806902 PE=3 SV=1
+Length=348
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 31/85 (36%), Positives = 39/85 (46%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y  + +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATKKAERELNWRAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSEES  347
+
+
+>TR:A0A1S4BDF8_TOBAC A0A1S4BDF8 UDP-glucose 4-epimerase GEPI48-like OS=Nicotiana tabacum 
+OX=4097 GN=LOC107807145 PE=3 SV=1
+Length=348
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 31/85 (36%), Positives = 39/85 (46%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y  + +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIDEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSEES  347
+
+
+>TR:D7M8Z8_ARALL D7M8Z8 UDP-D-glucose/UDP-D-galactose 4-epimerase 2 OS=Arabidopsis 
+lyrata subsp. lyrata OX=81972 GN=UGE2 PE=3 SV=1
+Length=350
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVMAGRRPGDAEVVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  333  ----------WASNNPYGYNS  343
+
+
+>TR:A0A199UP07_ANACO A0A199UP07 UDP-glucose 4-epimerase 1 OS=Ananas comosus OX=4615 
+GN=ACMD2_17621 PE=3 SV=1
+Length=350
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 30/86 (35%), Positives = 39/86 (45%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDA I+++ T KAE+ELNWK +Y    +C                       
+Sbjct  292  LVMAGRRPGDAAIVYASTAKAEKELNWKTNYGIEEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDST  85
+                       ASKNPYGY G PD++
+Sbjct  329  -----RDQWNWASKNPYGYCGLPDNS  349
+
+
+>TR:A0A2P5Y230_GOSBA A0A2P5Y230 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA10992 PE=3 SV=1
+Length=350
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 31/84 (37%), Positives = 38/84 (45%), Gaps = 29/84 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RR GDAEI+++ T KAERELNW + Y    +C                       
+Sbjct  291  LVMAGRRAGDAEIVYASTKKAERELNWAR-YGIEEMC-----------------------  326
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGSP+S
+Sbjct  327  -----RDQWNWASKNPYGYGSPES  345
+
+
+>TR:R0H0F5_9BRAS R0H0F5 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10005157mg 
+PE=3 SV=1
+Length=350
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVMAGRRPGDAEVVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  333  ----------WASNNPYGYNS  343
+
+
+>TR:A0A199UNU6_ANACO A0A199UNU6 UDP-glucose 4-epimerase 1 OS=Ananas comosus OX=4615 
+GN=ACMD2_17616 PE=3 SV=1
+Length=363
+
+ Score = 50.8 bits (120),  Expect = 1e-05
+ Identities = 30/86 (35%), Positives = 39/86 (45%), Gaps = 29/86 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDA I+++ T KAE+EL WK  Y  + +C                       
+Sbjct  305  LVMAGRRPGDAAIVYASTAKAEKELKWKTKYGIDEMC-----------------------  341
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDST  85
+                       ASKNPYGY GSPD++
+Sbjct  342  -----RDQWNWASKNPYGYCGSPDNS  362
+
+
+>TR:A0A2G9I2S2_9LAMI A0A2G9I2S2 UDP-glucose 4-epimerase/UDP-sulfoquinovose synthase 
+OS=Handroanthus impetiginosus OX=429701 GN=CDL12_03240 PE=3 
+SV=1
+Length=345
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 35/81 (43%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVKAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       ASKNPYGY S
+Sbjct  328  -----RDQWNWASKNPYGYES  343
+
+
+>TR:A0A2G9HRJ4_9LAMI A0A2G9HRJ4 UDP-glucose 4-epimerase/UDP-sulfoquinovose synthase 
+OS=Handroanthus impetiginosus OX=429701 GN=CDL12_07157 PE=3 
+SV=1
+Length=345
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 35/81 (43%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNWK  Y    +C                       
+Sbjct  291  LVKAGRRPGDAEIVYASTEKAERELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       ASKNPYGY S
+Sbjct  328  -----RDQWNWASKNPYGYES  343
+
+
+>TR:A0A0A0KQQ5_CUCSA A0A0A0KQQ5 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_5G148720 PE=3 SV=1
+Length=348
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 27/79 (34%), Positives = 35/79 (44%), Gaps = 28/79 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAE++++ET KAE+EL WK  Y    +C                       
+Sbjct  291  LVMADRRPGDAEVVYAETDKAEKELKWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY  79
+                       ASKNPYGY
+Sbjct  328  -----RDQWNWASKNPYGY  341
+
+
+>TR:A0A1S3AU38_CUCME A0A1S3AU38 UDP-glucose 4-epimerase GEPI48 OS=Cucumis melo OX=3656 
+GN=LOC103482842 PE=3 SV=1
+Length=348
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 27/79 (34%), Positives = 35/79 (44%), Gaps = 28/79 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+  +RRPGDAE++++ET KAE+EL WK  Y    +C                       
+Sbjct  291  LVMADRRPGDAEVVYAETDKAEKELKWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY  79
+                       ASKNPYGY
+Sbjct  328  -----RDQWNWASKNPYGY  341
+
+
+>TR:M0T9B0_MUSAM M0T9B0 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103988808 PE=3 SV=1
+Length=349
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 29/83 (35%), Positives = 37/83 (45%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEIL++ T KAE+EL+WK  Y    +C                       
+Sbjct  292  LVMAGRRPGDAEILYACTVKAEKELSWKAKYGIEEMC-----------------------  328
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       A+KNP+GY SPD
+Sbjct  329  -----RDQWNWATKNPWGYRSPD  346
+
+
+>TR:V4P5Z7_EUTSA V4P5Z7 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10025610mg PE=3 SV=1
+Length=349
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVMAGRRPGDAEVVYASTEKAERELNWKAKYGVEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  333  ----------WASNNPYGYDS  343
+
+
+>TR:A0A1J3ITY1_NOCCA A0A1J3ITY1 UDP-glucose 4-epimerase 2 OS=Noccaea caerulescens 
+OX=107243 GN=MP_TR6365_c0_g1_i1_g.18654 PE=3 SV=1
+Length=350
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEVVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  333  ----------WASNNPYGYDS  343
+
+
+>TR:A0A1J3H9N6_NOCCA A0A1J3H9N6 UDP-glucose 4-epimerase 2 OS=Noccaea caerulescens 
+OX=107243 GN=LC_TR12372_c0_g1_i1_g.43207 PE=3 SV=1
+Length=350
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  291  LVLAGRRPGDAEVVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  332
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  333  ----------WASNNPYGYDS  343
+
+
+>TR:A0A1J3DN73_NOCCA A0A1J3DN73 UDP-glucose 4-epimerase 2 OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR11006_c0_g1_i1_g.35522 PE=3 SV=1
+Length=351
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 38/81 (47%), Gaps = 28/81 (35%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAE++++ T KAERELNWK  Y    +C       R L++           
+Sbjct  292  LVLAGRRPGDAEVVYASTEKAERELNWKAKYGIEEMC-------RDLWN-----------  333
+
+Query  61   LKRCVATNGTGASKNPYGYGS  81
+                       AS NPYGY S
+Sbjct  334  ----------WASNNPYGYDS  344
+
+
+>TR:W5AET9_WHEAT W5AET9 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/84 (36%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS D+
+Sbjct  339  ----------WASKNPYGYGSSDN  352
+
+
+>TR:A0A1D5RR81_WHEAT A0A1D5RR81 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/84 (36%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS D+
+Sbjct  339  ----------WASKNPYGYGSTDN  352
+
+
+>TR:W5A1W3_WHEAT W5A1W3 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/84 (36%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  297  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  338
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS D+
+Sbjct  339  ----------WASKNPYGYGSTDN  352
+
+
+>TR:R7WES5_AEGTA R7WES5 UDP-glucose 4-epimerase GEPI48 OS=Aegilops tauschii OX=37682 
+GN=F775_30198 PE=3 SV=1
+Length=366
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 30/84 (36%), Positives = 40/84 (48%), Gaps = 28/84 (33%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  309  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  350
+
+Query  61   LKRCVATNGTGASKNPYGYGSPDS  84
+                       ASKNPYGYGS D+
+Sbjct  351  ----------WASKNPYGYGSSDN  364
+
+
+>TR:A0A2J6M7Q8_LACSA A0A2J6M7Q8 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_6X83821 PE=3 SV=1
+Length=612
+
+ Score = 50.4 bits (119),  Expect = 2e-05
+ Identities = 25/55 (45%), Positives = 33/55 (60%), Gaps = 5/55 (9%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMIC-----YHDKMLYRILYDR  50
+            LI  ERRPGDAE++++ T KAERELNWK       +C     +  K  Y I++ R
+Sbjct  293  LIIAERRPGDAEVVYASTAKAERELNWKAENGIEEMCRDQWNWASKNPYGIVFTR  347
+
+
+>TR:M8A7A1_TRIUA M8A7A1 UDP-glucose 4-epimerase GEPI48 OS=Triticum urartu OX=4572 
+GN=TRIUR3_34527 PE=3 SV=1
+Length=340
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 30/83 (36%), Positives = 39/83 (47%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L++  RR GDAE +++ T KAE+EL WK  Y    +C       R L++           
+Sbjct  286  LVYAGRRAGDAETVYAATAKAEKELKWKAKYGVEEMC-------RDLWN-----------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGYGS D
+Sbjct  328  ----------WASKNPYGYGSSD  340
+
+
+>TR:A0A2P5QU65_GOSBA A0A2P5QU65 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD24993 PE=3 SV=1
+Length=347
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  328  -----RDQWNWASKNPYGYASPN  345
+
+
+>TR:A0A0D2S005_GOSRA A0A0D2S005 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_006G207400 PE=3 SV=1
+Length=347
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  328  -----RDQWNWASKNPYGYASPN  345
+
+
+>TR:A0A1U8IG71_GOSHI A0A1U8IG71 UDP-glucose 4-epimerase GEPI48-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107896457 PE=3 SV=1
+Length=347
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  328  -----RDQWNWASKNPYGYASPN  345
+
+
+>TR:A0A1U8I4R0_GOSHI A0A1U8I4R0 UDP-glucose 4-epimerase GEPI48-like OS=Gossypium hirsutum 
+OX=3635 GN=LOC107890704 PE=3 SV=1
+Length=347
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  328  -----RDQWNWASKNPYGYASPN  345
+
+
+>TR:A0A0B0NA06_GOSAR A0A0B0NA06 UDP-glucose 4-epimerase GEPI48 OS=Gossypium arboreum 
+OX=29729 GN=F383_14821 PE=3 SV=1
+Length=347
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  291  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  328  -----RDQWNWASKNPYGYASPN  345
+
+
+>TR:K4DFS4_SOLLC K4DFS4 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+GN=101248179 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSKES  347
+
+
+>TR:M1A1V4_SOLTU M1A1V4 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102580464 
+PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATQKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSKES  347
+
+
+>TR:A0A0V0I432_SOLCH A0A0V0I432 Putative UDP-glucose 4-epimerase GEPI48-like OS=Solanum 
+chacoense OX=4108 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSKES  347
+
+
+>TR:A0A2G2VHA0_CAPBA A0A2G2VHA0 UDP-glucose 4-epimerase 4 OS=Capsicum baccatum OX=33114 
+GN=CQW23_28674 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSQES  347
+
+
+>TR:A0A1U8F6E7_CAPAN A0A1U8F6E7 UDP-glucose 4-epimerase GEPI48-like OS=Capsicum annuum 
+OX=4072 GN=LOC107851333 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSQES  347
+
+
+>TR:A0A2G2Y8Z1_CAPAN A0A2G2Y8Z1 UDP-glucose 4-epimerase 1 OS=Capsicum annuum OX=4072 
+GN=T459_30661 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSQES  347
+
+
+>TR:A0A2G3B3I8_CAPCH A0A2G3B3I8 UDP-glucose 4-epimerase 4 OS=Capsicum chinense OX=80379 
+GN=BC332_30832 PE=3 SV=1
+Length=348
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 38/85 (45%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAERELNW+  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELNWRAKYGIEDMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY GS +S
+Sbjct  328  -----RDQWNWASKNPYGYEGSQES  347
+
+
+>TR:A0A1U7W998_NICSY A0A1U7W998 UDP-glucose 4-epimerase GEPI48-like OS=Nicotiana sylvestris 
+OX=4096 GN=LOC104225138 PE=3 SV=1
+Length=350
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELKWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY G P+S
+Sbjct  328  -----RDQWNWASKNPYGYEGIPES  347
+
+
+>TR:A0A1S3Z206_TOBAC A0A1S3Z206 UDP-glucose 4-epimerase GEPI48-like OS=Nicotiana tabacum 
+OX=4097 GN=LOC107782117 PE=3 SV=1
+Length=350
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 31/85 (36%), Positives = 37/85 (44%), Gaps = 29/85 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGDAEI+++ T KAEREL WK  Y    +C                       
+Sbjct  291  LVMSGRRPGDAEIVYAATEKAERELKWKAKYGIEEMC-----------------------  327
+
+Query  61   LKRCVATNGTGASKNPYGY-GSPDS  84
+                       ASKNPYGY G P+S
+Sbjct  328  -----RDQWNWASKNPYGYEGIPES  347
+
+
+>TR:A0A0D2T1U2_GOSRA A0A0D2T1U2 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_006G207400 PE=3 SV=1
+Length=351
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 34/83 (41%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            L+   RRPGD E +++ T KAE ELNWK  Y    +C                       
+Sbjct  295  LVMAGRRPGDVETVYASTKKAEHELNWKAKYGIEEMC-----------------------  331
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY SP+
+Sbjct  332  -----RDQWNWASKNPYGYASPN  349
+
+
+>TR:A0A2J6JNR6_LACSA A0A2J6JNR6 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_3X10960 PE=3 SV=1
+Length=360
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 28/83 (34%), Positives = 37/83 (45%), Gaps = 28/83 (34%)
+
+Query  1    LIFGERRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMV  60
+            ++   RRPGDAE++++ T KAERELNWK  Y  + +C                       
+Sbjct  293  IVTAGRRPGDAEVVYASTEKAERELNWKPKYGIDEMC-----------------------  329
+
+Query  61   LKRCVATNGTGASKNPYGYGSPD  83
+                       ASKNPYGY + D
+Sbjct  330  -----RDQWNWASKNPYGYLTKD  347
+
+
+>TR:A0A1J3GSZ1_NOCCA A0A1J3GSZ1 UDP-glucose 4-epimerase 4 (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=LE_TR7166_c0_g1_i1_g.25432 PE=3 SV=1
+Length=370
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 37/81 (46%), Gaps = 29/81 (36%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RRPGDAE +++ T KAERELNWK +Y    +C                            
+Sbjct  318  RRPGDAETVYASTEKAERELNWKTNYGIGDMC----------------------------  349
+
+Query  66   ATNGTGASKNPYGYG-SPDST  85
+                  AS NP+GYG SPD+T
+Sbjct  350  RDQWNWASNNPFGYGASPDTT  370
+
+
+>TR:A0A1J3CQP1_NOCCA A0A1J3CQP1 UDP-glucose 4-epimerase 4 (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR15113_c0_g1_i1_g.46469 PE=3 SV=1
+Length=370
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 37/81 (46%), Gaps = 29/81 (36%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RRPGDAE +++ T KAERELNWK +Y    +C                            
+Sbjct  318  RRPGDAETVYASTEKAERELNWKTNYGIGDMC----------------------------  349
+
+Query  66   ATNGTGASKNPYGYG-SPDST  85
+                  AS NP+GYG SPD+T
+Sbjct  350  RDQWNWASNNPFGYGASPDTT  370
+
+
+>TR:A0A1J3FQ21_NOCCA A0A1J3FQ21 UDP-glucose 4-epimerase 4 (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=LC_TR13187_c0_g1_i1_g.45698 PE=3 SV=1
+Length=373
+
+ Score = 50.1 bits (118),  Expect = 2e-05
+ Identities = 30/81 (37%), Positives = 37/81 (46%), Gaps = 29/81 (36%)
+
+Query  6    RRPGDAEILFSETTKAERELNWKKSYNXNMICYHDKMLYRILYDRRCLPLEQNMVLKRCV  65
+            RRPGDAE +++ T KAERELNWK +Y    +C                            
+Sbjct  321  RRPGDAETVYASTEKAERELNWKTNYGIGDMC----------------------------  352
+
+Query  66   ATNGTGASKNPYGYG-SPDST  85
+                  AS NP+GYG SPD+T
+Sbjct  353  RDQWNWASNNPFGYGASPDTT  373
+
+
+
+Lambda      K        H
+   0.315    0.132    0.408 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 77172269415
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

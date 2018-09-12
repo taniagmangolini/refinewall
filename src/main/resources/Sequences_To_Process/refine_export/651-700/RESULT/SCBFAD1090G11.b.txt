@@ -1,0 +1,79 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0E0A5W8_9ORYZ  A0A0E0A5W8 Uncharacterized protein OS=Oryza ...  39.3    0.011
+TR:A0A2G5DYR4_AQUCA  A0A2G5DYR4 Uncharacterized protein OS=Aquile...  35.8    0.21 
+
+
+>TR:A0A0E0A5W8_9ORYZ A0A0E0A5W8 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=65
+
+ Score = 39.3 bits (90),  Expect = 0.011
+ Identities = 16/37 (43%), Positives = 22/37 (59%), Gaps = 0/37 (0%)
+
+Query  99   QPSTEGLIKQHTLWNSDTKGNHANIVIGVKRSTPIIY  135
+            +P  +  +K   +WNS+TKGNHA+   G K   PI Y
+Sbjct  6    RPRLKAWLKSSLVWNSETKGNHASTATGTKMRIPIRY  42
+
+
+>TR:A0A2G5DYR4_AQUCA A0A2G5DYR4 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01400909v1 PE=4 SV=1
+Length=66
+
+ Score = 35.8 bits (81),  Expect = 0.21
+ Identities = 15/36 (42%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+
+Query  99   QPSTEGLIKQHTLWNSDTKGNHANIVIGVKRSTPII  134
+            +P     +K   +WNS+TKGN A    GV +S P+I
+Sbjct  29   KPRLNAWLKSMRVWNSETKGNQARNATGVNKSKPMI  64
+
+
+
+Lambda      K        H
+   0.317    0.134    0.399 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 71661000600
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

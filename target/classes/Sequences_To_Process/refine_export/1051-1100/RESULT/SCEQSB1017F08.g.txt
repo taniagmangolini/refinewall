@@ -1,0 +1,216 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=222
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A2P5CLQ2_PARAD  A0A2P5CLQ2 Uncharacterized protein OS=Parasp...  37.7    0.24 
+TR:A0A0D6R1C4_ARACU  A0A0D6R1C4 Uncharacterized protein OS=Arauca...  36.2    1.8  
+TR:A0A0C9QVH3_9SPER  A0A0C9QVH3 TSA: Wollemia nobilis Ref_Wollemi...  36.2    2.0  
+TR:A0A0D9WZD1_9ORYZ  A0A0D9WZD1 Uncharacterized protein OS=Leersi...  35.4    4.2  
+TR:A0A0D9WZD0_9ORYZ  A0A0D9WZD0 Uncharacterized protein OS=Leersi...  35.4    4.2  
+TR:A0A0L9TYM5_PHAAN  A0A0L9TYM5 Uncharacterized protein OS=Phaseo...  35.4    4.2  
+TR:A0A0S3SQJ6_PHAAN  A0A0S3SQJ6 Uncharacterized protein OS=Vigna ...  35.4    4.2  
+TR:A0A2P6U188_CHLSO  A0A2P6U188 Transcriptional regulator ATRX OS...  35.0    6.1  
+TR:I6UEH5_BETVU  I6UEH5 ADP,ATP carrier protein OS=Beta vulgaris ...  34.7    6.8  
+TR:A0A1S3BP43_CUCME  A0A1S3BP43 protein-tyrosine-phosphatase IBR5...  33.9    9.3  
+
+
+>TR:A0A2P5CLQ2_PARAD A0A2P5CLQ2 Uncharacterized protein OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_141720 PE=4 SV=1
+Length=142
+
+ Score = 37.7 bits (86),  Expect = 0.24
+ Identities = 28/67 (42%), Positives = 33/67 (49%), Gaps = 3/67 (4%)
+
+Query  49   AAATAWKLGRVEQMEAFEDGVCRSK-QGSGKTSSEYPEMLEQDQEEVELAESASEKLMLE  107
+            A A  +++   +Q E   D   RS   GSGKT SE PE LE  Q   E      +K ML 
+Sbjct  76   AEAFPYRVDNAKQAEEGFDFELRSSGHGSGKTKSEEPETLEHSQVVGE--PEVIDKEMLN  133
+
+Query  108  RQMSVNG  114
+            RQM V G
+Sbjct  134  RQMEVKG  140
+
+
+>TR:A0A0D6R1C4_ARACU A0A0D6R1C4 Uncharacterized protein OS=Araucaria cunninghamii 
+OX=56994 PE=3 SV=1
+Length=309
+
+ Score = 36.2 bits (82),  Expect = 1.8
+ Identities = 27/102 (26%), Positives = 47/102 (46%), Gaps = 4/102 (4%)
+
+Query  6    FFDGTDAPSFKEFLGRKRLERFSELYKER-GIGRRMNTLYSCIYAAATAWKLGRVEQMEA  64
+            FFD    P   E +  +  E+  +L ++   IG   +T+   I   A +W  G   Q++ 
+Sbjct  184  FFDPPQVPEDDENIDEETAEQLQDLMEQDYDIG---STIRDKIIPHAVSWFTGEACQLDE  240
+
+Query  65   FEDGVCRSKQGSGKTSSEYPEMLEQDQEEVELAESASEKLML  106
+            FED    S++  G +  E  E  ++D++E E  E   ++  L
+Sbjct  241  FEDVDGDSEEEEGDSEEEEDEDEDEDEDEDEEDEEEDKRRKL  282
+
+
+>TR:A0A0C9QVH3_9SPER A0A0C9QVH3 TSA: Wollemia nobilis Ref_Wollemi_Transcript_5828_1768 
+transcribed RNA sequence OS=Wollemia nobilis OX=56998 PE=3 
+SV=1
+Length=386
+
+ Score = 36.2 bits (82),  Expect = 2.0
+ Identities = 27/102 (26%), Positives = 47/102 (46%), Gaps = 4/102 (4%)
+
+Query  6    FFDGTDAPSFKEFLGRKRLERFSELYKER-GIGRRMNTLYSCIYAAATAWKLGRVEQMEA  64
+            FFD    P   E +  +  E+  +L ++   IG   +T+   I   A +W  G   Q++ 
+Sbjct  261  FFDPPQVPEDDENIDEETAEQLQDLMEQDYDIG---STIRDKIIPHAVSWFTGEACQLDE  317
+
+Query  65   FEDGVCRSKQGSGKTSSEYPEMLEQDQEEVELAESASEKLML  106
+            FED    S++  G +  E  E  ++D++E E  E   ++  L
+Sbjct  318  FEDVDGDSEEEEGDSDEEEDEDEDEDEDEDEEDEEEDKRRKL  359
+
+
+>TR:A0A0D9WZD1_9ORYZ A0A0D9WZD1 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=820
+
+ Score = 35.4 bits (80),  Expect = 4.2
+ Identities = 25/88 (28%), Positives = 40/88 (45%), Gaps = 3/88 (3%)
+
+Query  68   GVCRSKQGSGKTSSEYPEMLEQDQEEVELAESASEKLML---ERQMSVNGSPAIPDKTPA  124
+            G  + K+G+G      P  + +D  E  L E   E L     E + S + + A+P   PA
+Sbjct  97   GKGKGKKGAGDDGPPLPWKVWEDANEKWLDEREVEDLAAAADEGEPSESPAAAVPTAEPA  156
+
+Query  125  TEIFVPVMFFRVMWLITGSAAGSKWSSG  152
+             E+ +P++ F+  WL    A  +  S G
+Sbjct  157  PEVVLPLLRFQKEWLAWALAQEASPSRG  184
+
+
+>TR:A0A0D9WZD0_9ORYZ A0A0D9WZD0 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=846
+
+ Score = 35.4 bits (80),  Expect = 4.2
+ Identities = 25/88 (28%), Positives = 40/88 (45%), Gaps = 3/88 (3%)
+
+Query  68   GVCRSKQGSGKTSSEYPEMLEQDQEEVELAESASEKLML---ERQMSVNGSPAIPDKTPA  124
+            G  + K+G+G      P  + +D  E  L E   E L     E + S + + A+P   PA
+Sbjct  97   GKGKGKKGAGDDGPPLPWKVWEDANEKWLDEREVEDLAAAADEGEPSESPAAAVPTAEPA  156
+
+Query  125  TEIFVPVMFFRVMWLITGSAAGSKWSSG  152
+             E+ +P++ F+  WL    A  +  S G
+Sbjct  157  PEVVLPLLRFQKEWLAWALAQEASPSRG  184
+
+
+>TR:A0A0L9TYM5_PHAAN A0A0L9TYM5 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan02g163200 PE=4 SV=1
+Length=857
+
+ Score = 35.4 bits (80),  Expect = 4.2
+ Identities = 18/43 (42%), Positives = 27/43 (63%), Gaps = 5/43 (12%)
+
+Query  66   EDGVCRSKQGSGKTSSE-----YPEMLEQDQEEVELAESASEK  103
+            + GVC  K+ +GK SS+     + E LE+++EEV+L E   EK
+Sbjct  134  KSGVCSKKRSAGKISSKRGRKLHTEELEEEEEEVKLEEEEEEK  176
+
+
+>TR:A0A0S3SQJ6_PHAAN A0A0S3SQJ6 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.08G176700 PE=4 SV=1
+Length=885
+
+ Score = 35.4 bits (80),  Expect = 4.2
+ Identities = 18/43 (42%), Positives = 27/43 (63%), Gaps = 5/43 (12%)
+
+Query  66   EDGVCRSKQGSGKTSSE-----YPEMLEQDQEEVELAESASEK  103
+            + GVC  K+ +GK SS+     + E LE+++EEV+L E   EK
+Sbjct  162  KSGVCSKKRSAGKISSKRGRKLHTEELEEEEEEVKLEEEEEEK  204
+
+
+>TR:A0A2P6U188_CHLSO A0A2P6U188 Transcriptional regulator ATRX OS=Chlorella sorokiniana 
+OX=3076 GN=C2E21_1821 PE=4 SV=1
+Length=3091
+
+ Score = 35.0 bits (79),  Expect = 6.1
+ Identities = 25/97 (26%), Positives = 38/97 (39%), Gaps = 8/97 (8%)
+
+Query  60   EQMEAFEDGVCRSKQGSGKTSSEYPEMLEQDQEEVELAESASEKLMLERQMSVNGSPAIP  119
+            EQ  A E    ++ +       E  E  E+++EE E+ E  +E  M E ++   G   +P
+Sbjct  769  EQAAAAEGQAQQAGRSGAGAEGEQQEEEEEEEEEEEMEEEQTETAMSEDEVEATG---LP  825
+
+Query  120  DKTPATEIFVPVMFFRVMWLITGSAAGSKWSSGWLDQ  156
+                   +  PV   R     T  A G  W   +L Q
+Sbjct  826  GHLARLAVMAPVEVLR-----TSDARGLHWERAYLQQ  857
+
+
+>TR:I6UEH5_BETVU I6UEH5 ADP,ATP carrier protein OS=Beta vulgaris OX=161934 GN=TLC1 
+PE=3 SV=1
+Length=507
+
+ Score = 34.7 bits (78),  Expect = 6.8
+ Identities = 30/120 (25%), Positives = 51/120 (43%), Gaps = 5/120 (4%)
+
+Query  25   ERFSELYKERGIGRRMNTLYSCIYAAATAWKLGRVEQMEAFEDGVCRSKQGSGKTSSEYP  84
+            E  S L+   G G  +  L+  ++AA  AW    +  + AF   +  + Q S   S + P
+Sbjct  184  ESGSRLFGFIGAGATLGQLFGSLFAAGMAWLGSFLLLVAAFLMEL--AAQSSKGISQDAP  241
+
+Query  85   EMLEQDQEEVELAESASEKLMLERQMSVNGSPAIPDKTPATEIFVPVMFFRVMWLITGSA  144
+             + E+D   ++L +  S      R  +   SP I       +++V    F  +WLI  S+
+Sbjct  242  HLSEEDTPMIKLDDQESGVNRNTRSTANGSSPKIASTPAKPQLWV---MFDGLWLILASS  298
+
+
+>TR:A0A1S3BP43_CUCME A0A1S3BP43 protein-tyrosine-phosphatase IBR5 OS=Cucumis melo 
+OX=3656 GN=LOC103491664 PE=4 SV=1
+Length=255
+
+ Score = 33.9 bits (76),  Expect = 9.3
+ Identities = 33/118 (28%), Positives = 56/118 (47%), Gaps = 17/118 (14%)
+
+Query  28   SELYKERGIGRRMNTLYSC--IYAAATAWKLGRVEQMEAFEDGV----CRS--------K  73
+            SEL K +GI R +NT+ +C  +Y  +  +   + ++   F+D V    CRS         
+Sbjct  66   SELLKTQGISRVLNTVPACQNLYKNSFTYHCLQYDKTLPFDDAVTLIYCRSPAIVIAFLM  125
+
+Query  74   QGSGKTSSEYPEMLEQDQEEVELAESASEKLMLERQMSVNGSPAIPDKTPATEIFVPV  131
+            +  G   ++  + +++ +  VEL ES  ++L    Q  V G P   +  P  +IF PV
+Sbjct  126  KCKGWRLAQGYQWVKERRPSVELTESIYQQLQAYEQ-KVFGLP--ENSLPTLQIFPPV  180
+
+
+
+Lambda      K        H
+   0.315    0.128    0.377 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 133038841275
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
