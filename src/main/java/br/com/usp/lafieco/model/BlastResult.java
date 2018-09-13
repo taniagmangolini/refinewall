@@ -1,29 +1,29 @@
 package br.com.usp.lafieco.model;
 
+
 import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "blast_result", schema="public")
+@Table(name = "blast_result")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt", "sucestBusca"})
 public class BlastResult {
@@ -32,11 +32,11 @@ public class BlastResult {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn
 	private Sucest sucest;
 	
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	private SearchHistory searchHistory;
 	
 	@Column(name = "db")
@@ -96,7 +96,15 @@ public class BlastResult {
     @Temporal(TemporalType.TIMESTAMP)
     private Date disabledAt;
     
-	private String sucestBusca;
+    @Column (name = "new_v_available")
+    private Boolean newVersionAvailable;
+    
+    @Column(name = "updated_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date updatedAt;
+    
+    @Column(name = "sucest_busca")
+    private String sucestBusca;
 	
 	public Long getId() {
 		return id;
@@ -272,6 +280,22 @@ public class BlastResult {
 
 	public void setSearchHistory(SearchHistory searchHistory) {
 		this.searchHistory = searchHistory;
+	}
+
+	public Boolean getNewVersionAvailable() {
+		return newVersionAvailable;
+	}
+
+	public void setNewVersionAvailable(Boolean newVersionAvailable) {
+		this.newVersionAvailable = newVersionAvailable;
+	}
+
+	public Date getUpdatedAt() {
+		return updatedAt;
+	}
+
+	public void setUpdatedAt(Date updatedAt) {
+		this.updatedAt = updatedAt;
 	}
 
 	@Override

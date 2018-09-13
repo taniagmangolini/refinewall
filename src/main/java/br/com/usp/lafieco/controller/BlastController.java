@@ -81,9 +81,9 @@ public class BlastController {
 	@PostMapping("/multiple")
 	@ResponseBody
 	public void runBlastMultipleSequences(@RequestParam("file") MultipartFile file,
-			@RequestParam("email") String email) {
+			@RequestParam("email") String email, @RequestParam("blastFilesAvailable") Boolean blastFilesAvailable) {
 		
-		blastService.runBlastMultipleSequences(file, email);
+		blastService.runBlastMultipleSequences(file, email, blastFilesAvailable);
 	}
 
 }

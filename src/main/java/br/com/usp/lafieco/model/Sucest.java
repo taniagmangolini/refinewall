@@ -7,32 +7,32 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "sucest", schema="public")
+@Table(name = "sucest")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt"})
+@JsonIgnoreProperties(value = {"createdAt", "idBlastJob", "resultBlastContents"})
 public class Sucest {
 	
 	@Id
 	private String id;
 	
-	@Column(name = "sequence")
+	@Column(name = "sequence", length = 10000)
 	private String sequence;
 	
-	@Column(name = "description")
+	@Column(name = "description", length =  5000)
 	private String description;
 	
 	@Column(name = "created_at", nullable = false, updatable = false)
@@ -40,9 +40,19 @@ public class Sucest {
     @CreatedDate
     private Date createdAt;
 	
+	@Column(name = "path", length =  5000)
+	private String path;
+	
 	@OneToMany(mappedBy = "sucest", cascade = CascadeType.ALL)
 	private List<BlastResult> blastResults;
-
+	
+	@JsonIgnore
+	@Transient
+	private String idBlastJob;
+	
+	@JsonIgnore
+	@Transient
+	private List<String> resultBlastContents;
 
 	public String getId() {
 		return id;
@@ -82,6 +92,32 @@ public class Sucest {
 
 	public void setBlastResults(List<BlastResult> blastResults) {
 		this.blastResults = blastResults;
+	}
+
+	public String getIdBlastJob() {
+		return idBlastJob;
+	}
+
+	public void setIdBlastJob(String idBlastJob) {
+		this.idBlastJob = idBlastJob;
+	}
+	
+	public List<String> getResultBlastContents() {
+		return resultBlastContents;
+	}
+
+	public void setResultBlastContents(List<String> resultBlastContents) {
+		this.resultBlastContents = resultBlastContents;
+	}
+
+	
+	
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
 	}
 
 	@Override

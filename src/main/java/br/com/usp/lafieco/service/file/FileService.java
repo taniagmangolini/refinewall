@@ -35,10 +35,18 @@ public class FileService implements IFileService {
 	private MessageSource messageSource;
 
 	private static String SEQUENCE_SEPARATOR = ",";
-
+	
+	//LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
 			+ System.getProperty("file.separator") + "refine_export";
-
+	
+	
+	//WINDOWS
+	/*private static String EXPORT_FOLDER = "C:"+ System.getProperty("file.separator") + "tmp"
+			+ System.getProperty("file.separator") + "refine_export";
+	
+	*/
+	
 	private static String BLAST_JOBS_PREFIX = "BLAST_JOBS_";
 
 	private static String BLAST_RESULT_FOLDER = "RESULT";
@@ -98,7 +106,7 @@ public class FileService implements IFileService {
 					
 					sucest.setDescription(idAndSequence[1].trim());
 					
-					sucest.setSequence(idAndSequence[3].trim());
+					sucest.setSequence(idAndSequence[2].trim());
 					
 					sequencesMap.put(sucest.getId(), sucest);
 				}
@@ -144,8 +152,9 @@ public class FileService implements IFileService {
 		return sequences;
 	}
 
+	
 	public Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds,
-			Map<String, Map<String, String>> sequencesJobs, String folderName) {
+			Map<String, Sucest> sucestJobs, String folderName) {
 
 		Map<String, String> errors = null;
 
@@ -153,21 +162,12 @@ public class FileService implements IFileService {
 
 			for (String jobId : jobIds) {
 
-				Map<String, String> geneSequence = sequencesJobs.get(jobId);
+				Sucest  sucest = sucestJobs.get(jobId);
 
-				String gene = null;
-
-				Iterator it = geneSequence.entrySet().iterator();
-
-				for (Map.Entry<String, String> entry : geneSequence.entrySet()) {
-					gene = entry.getKey();
-					break;
-				}
-
-				if (jobResult.get(jobId) != null && gene != null) {
+				if (jobResult.get(jobId) != null && sucest != null && sucest.getId() != null) {
 
 					//export the file
-					this.exportBlastResultToFile(jobId, gene, jobResult.get(jobId), errors, folderName);
+					this.exportBlastResultToFile(jobId, sucest.getId(), jobResult.get(jobId), errors, folderName);
 
 				} else {
 
@@ -578,37 +578,28 @@ public class FileService implements IFileService {
 		return sequencesFileFolder;
 	}
 
-	public Map<String, BlastResult> processSucestBlastResultFiles( Map<String, String> jobResult, List<String> jobIds,
-			Map<String, Map<String, String>> sequencesJobs, String folderName, Map<String, Sucest> sequences) {
+	public Map<String, BlastResult> processSucestBlastResultFiles( String folderName, Map<String, Sucest> sucests) {
 
 		Map<String, BlastResult>  mapResult = null;
 
-		if (jobResult != null && !jobResult.isEmpty()) {
+		if (sucests != null && !sucests.isEmpty()) {
+			
+			Iterator it = sucests.entrySet().iterator();
 			
 			mapResult  = new HashMap<String, BlastResult> ();
 			
-			for (String jobId : jobIds) {
+			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
+				
+				Sucest sucest = entry.getValue();
 
-				Map<String, String> geneSequence = sequencesJobs.get(jobId);
-
-				String gene = null;
-
-				Iterator it = geneSequence.entrySet().iterator();
-
-				for (Map.Entry<String, String> entry : geneSequence.entrySet()) {
-					gene = entry.getKey();
-					break;
-				}
-
-				if (jobResult.get(jobId) != null && gene != null && sequences.get(gene) != null) {
+				if (sucest != null) {
 
 					//process the file
-					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(gene, folderName);
+					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(sucest.getId(), folderName);
 					
 					if(mapResultGene != null && !mapResultGene.isEmpty()) {
 						mapResult.putAll(mapResultGene);
 					}
-
 				} 
 			}
 		}

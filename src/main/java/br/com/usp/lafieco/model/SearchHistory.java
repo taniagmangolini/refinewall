@@ -21,7 +21,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "search_history", schema="public")
+@Table(name = "search_history")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
 public class SearchHistory {
@@ -30,7 +30,7 @@ public class SearchHistory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name = "sequence")
+	@Column(name = "sequence", length = 5000)
 	private String sequence;
 	
 	@Column(name = "created_at", nullable = false, updatable = false)

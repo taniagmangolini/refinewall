@@ -52,10 +52,10 @@ public class BlastService implements IBlastService {
 
 	@Autowired
 	private MessageSource messageSource;
-	
+
 	@Autowired
 	private BlastResultRepository blastRepository;
-	
+
 	@Autowired
 	private SucestRepository sucestRepository;
 
@@ -94,7 +94,7 @@ public class BlastService implements IBlastService {
 			System.out.println("got the blast job id: " + data);
 
 		} catch (RuntimeException e) {
-			
+
 			throw new CustomException(messageSource.getMessage("messages.errorBlast",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -122,7 +122,7 @@ public class BlastService implements IBlastService {
 			System.out.println("blast job " + jobId + " status: " + status);
 
 		} catch (RuntimeException e) {
-			
+
 			throw new CustomException(messageSource.getMessage("messages.errorBlastJobStatus",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -151,7 +151,7 @@ public class BlastService implements IBlastService {
 			System.out.println("blast result: " + blastResult);
 
 		} catch (RuntimeException e) {
-			
+
 			throw new CustomException(messageSource.getMessage("messages.errorBlastJobStatus",
 					new Object[] { e.getMessage() + " -  " + e.getCause() }, Locale.US));
 		}
@@ -159,52 +159,67 @@ public class BlastService implements IBlastService {
 		return blastResult;
 	}
 
-	public void runBlastMultipleSequences(MultipartFile file, String email) {
+	public void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable) {
 
-		Map<String, Sucest> sequences = fileService.processMultipleSequenceFile(file);
+		Map<String, Sucest> sucests = fileService.processMultipleSequenceFile(file);
 
-		Map<String, Map<String, String>> sequencesJobs = new HashMap<String, Map<String, String>>();
+		Map<String, Sucest> sucestJobs = null;
 
 		List<String> jobIds = null;
 
-		Map<String, String> jobResult = new HashMap<String, String>();
+		Map<String, String> jobResult = null;
 
 		Map<String, String> errors = new HashMap<String, String>();
 
 		String folderName = null;
 
-		if (sequences != null && !sequences.isEmpty()) {
-			
-			jobIds = new ArrayList<String>();
-			
-			Iterator it = sequences.entrySet().iterator();
+		if (sucests != null && !sucests.isEmpty()) {
 
-			for (Map.Entry<String, Sucest> entry : sequences.entrySet()) {
-				
-				String gene = entry.getKey();
+			if (!blastFilesAvailable) {
+
+				sucestJobs = new HashMap<String, Sucest>();
+
+				jobResult = new HashMap<String, String>();
+			}
+
+			jobIds = new ArrayList<String>();
+
+			Iterator it = sucests.entrySet().iterator();
+
+			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
 
 				Sucest sucest = entry.getValue();
-				
+
 				String sequence = sucest.getSequence();
 
 				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
 
-				String jobId = this.runBlast(sequence, email);
+				sucest.setPath(folderName);
 
-				sequencesJobs.put(jobId, new HashMap<String, String>());
+				// run blast if the blast result files are not available to process
+				if (!blastFilesAvailable) {
 
-				sequencesJobs.get(jobId).put(gene, sequence);
+					String jobId = this.runBlast(sequence, email);
 
-				jobIds.add(jobId);
+					if (jobId != null) {
+
+						sucest.setIdBlastJob(jobId);
+
+						sucestJobs.put(jobId, sucest);
+
+						jobIds.add(jobId);
+					}
+				}
 			}
-			
-			if (!jobIds.isEmpty()) {
+
+			// export job ids to a file
+			if (!blastFilesAvailable && !jobIds.isEmpty()) {
 
 				fileService.exportBlastJobsToFile(jobIds, folderName);
 			}
 		}
 
-		if (jobIds != null && !jobIds.isEmpty()) {
+		if (!blastFilesAvailable && jobIds != null && !jobIds.isEmpty()) {
 
 			Integer attempts = 0;
 
@@ -223,7 +238,7 @@ public class BlastService implements IBlastService {
 							jobResult.put(jobId, result);
 
 						} else {
-							
+
 							attempts += 1;
 						}
 					}
@@ -233,30 +248,35 @@ public class BlastService implements IBlastService {
 
 		if (folderName != null) {
 
-			errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, sequencesJobs, folderName);	
-		
+			if (!blastFilesAvailable) {
+
+				errors = fileService.exportBlastResultMapToFile(jobResult, jobIds, sucestJobs, folderName);
+
+				blastFilesAvailable = true;
+			}
+
 			if (errors != null && !errors.isEmpty()) {
 
 				fileService.exportErrors(errors, folderName);
-				
+
 			} else {
-				
-				//process result files
-				Map<String, BlastResult>  mapResult  = fileService.processSucestBlastResultFiles(jobResult,jobIds,
-						sequencesJobs, folderName, sequences); 
-				
-				if (mapResult == null || mapResult.isEmpty() ) {
-					
-					throw new CustomException(messageSource.getMessage("messages.errorProcessFile", new Object[] {}, Locale.US));
+
+				// process result files
+				Map<String, BlastResult> mapResult = fileService.processSucestBlastResultFiles(folderName, sucests);
+
+				if (mapResult == null || mapResult.isEmpty()) {
+
+					throw new CustomException(
+							messageSource.getMessage("messages.errorProcessFile", new Object[] {}, Locale.US));
 				}
-				
-				if(mapResult != null && !mapResult.isEmpty()) {
-					
+
+				if (mapResult != null && !mapResult.isEmpty()) {
+
 					Iterator it = mapResult.entrySet().iterator();
 
 					for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
-						
-						this.saveBlastResultForSucest(entry.getValue(), sequences.get(entry.getKey()));
+
+						this.saveBlastResultForSucest(entry.getValue(), sucests.get(entry.getValue().getSucestBusca()));
 					}
 				}
 			}
@@ -264,14 +284,14 @@ public class BlastService implements IBlastService {
 	}
 
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
-		
-		if(!sucestRepository.existsById(sucest.getId())) {
+
+		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null 
+				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
+						blastResult.getSucestBusca()) == null) {
+
+			blastResult.setSucest(sucest);
 			
-			sucestRepository.save(sucest);
+			blastRepository.save(blastResult);
 		}
-		
-		blastResult.setSucest(sucest);
-		
-		blastRepository.save(blastResult);
 	}
 }

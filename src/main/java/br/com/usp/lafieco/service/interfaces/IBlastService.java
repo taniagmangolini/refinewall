@@ -13,7 +13,7 @@ public interface IBlastService {
 
 	String getBlastResult(String jobId);
 
-	void runBlastMultipleSequences(MultipartFile file, String email);
+	void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable);
 
 	void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest);
 }
