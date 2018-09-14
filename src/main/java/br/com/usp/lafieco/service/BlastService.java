@@ -190,7 +190,7 @@ public class BlastService implements IBlastService {
 
 				Sucest sucest = entry.getValue();
 
-				String sequence = sucest.getSequence();
+				String sequence = sucest.getSequences().get(0).getSequence();
 
 				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
 

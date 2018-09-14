@@ -26,6 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.model.Sucest;
+import br.com.usp.lafieco.model.SucestSequence;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @Component
@@ -98,17 +99,22 @@ public class FileService implements IFileService {
 
 				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
 
-					idAndSequence = sequences.get(i).split(":");
+					idAndSequence = sequences.get(i).split("#");
 					
 					Sucest sucest = new Sucest();
 
-					sucest.setId(idAndSequence[0].trim());
+					sucest.setGene(idAndSequence[0].trim());
 					
 					sucest.setDescription(idAndSequence[1].trim());
 					
-					sucest.setSequence(idAndSequence[2].trim());
-					
-					sequencesMap.put(sucest.getId(), sucest);
+					List<SucestSequence> sucestSequences = new ArrayList<SucestSequence>();
+					SucestSequence sucestSequence = new SucestSequence();
+					sucestSequence.setSequence(idAndSequence[2].trim());
+					sucestSequence.setSucest(sucest);
+					sucestSequences.add(sucestSequence);
+					sucest.setSequences(sucestSequences);
+
+					sequencesMap.put(sucest.getGene(), sucest);
 				}
 			}
 
@@ -164,10 +170,10 @@ public class FileService implements IFileService {
 
 				Sucest  sucest = sucestJobs.get(jobId);
 
-				if (jobResult.get(jobId) != null && sucest != null && sucest.getId() != null) {
+				if (jobResult.get(jobId) != null && sucest != null && sucest.getGene() != null) {
 
 					//export the file
-					this.exportBlastResultToFile(jobId, sucest.getId(), jobResult.get(jobId), errors, folderName);
+					this.exportBlastResultToFile(jobId, sucest.getGene(), jobResult.get(jobId), errors, folderName);
 
 				} else {
 
@@ -595,7 +601,7 @@ public class FileService implements IFileService {
 				if (sucest != null) {
 
 					//process the file
-					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(sucest.getId(), folderName);
+					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(sucest.getGene(), folderName);
 					
 					if(mapResultGene != null && !mapResultGene.isEmpty()) {
 						mapResult.putAll(mapResultGene);

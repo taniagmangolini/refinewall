@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.controller;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.model.Sucest;
+import br.com.usp.lafieco.model.SucestSequence;
 import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
@@ -65,9 +67,13 @@ public class FileController {
 			
 			sucest = new Sucest();
 			sucest.setDescription(description);
-			sucest.setId(gene);
-			sucest.setSequence(sequence);
-			
+			sucest.setGene(gene);
+			SucestSequence sucestSequence = new SucestSequence();
+			sucestSequence.setSequence(sequence);
+			sucestSequence.setSucest(sucest);
+			List<SucestSequence> sequences = new ArrayList<SucestSequence>();
+			sequences.add(sucestSequence);
+			sucest.setSequences(sequences);
 		}
 		
 		Map<String, BlastResult>  mapResult = fileService.processBlastResultFile(gene, folderName);
