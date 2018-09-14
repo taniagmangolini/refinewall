@@ -113,7 +113,7 @@ public class FileService implements IFileService {
 					sucestSequence.setSucest(sucest);
 					sucestSequences.add(sucestSequence);
 					sucest.setSequences(sucestSequences);
-
+					
 					sequencesMap.put(sucest.getGene(), sucest);
 				}
 			}
@@ -313,6 +313,16 @@ public class FileService implements IFileService {
 						textLine.append(line);
 
 						textLine.append(" ");
+					}
+				}
+				
+				//if there is just one result
+				if (!mapResult.isEmpty() && mapResult.size() == 1 && identifier != null) {
+					if (mapResult.get(identifier) != null) {
+
+						mapResult.get(identifier).setFullText(textLine.toString());
+
+						mapResult.get(identifier).setSucestBusca(gene);
 					}
 				}
 
