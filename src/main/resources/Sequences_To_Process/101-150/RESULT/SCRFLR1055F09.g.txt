@@ -1,0 +1,4546 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,413,124 sequences; 2,265,929,236 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1D6Q0N1_MAIZE  A0A1D6Q0N1 Hexosyltransferase OS=Zea mays OX...  141     3e-41
+TR:A0A1D6KPK1_MAIZE  A0A1D6KPK1 Hexosyltransferase OS=Zea mays OX...  139     5e-41
+TR:A0A1D6KPK5_MAIZE  A0A1D6KPK5 Hexosyltransferase OS=Zea mays OX...  139     6e-40
+TR:B4FLJ8_MAIZE  B4FLJ8 Hexosyltransferase OS=Zea mays OX=4577 PE...  137     8e-40
+TR:A0A2T7D6T6_9POAL  A0A2T7D6T6 Hexosyltransferase OS=Panicum hal...  137     2e-39
+TR:K3YIM9_SETIT  K3YIM9 Hexosyltransferase OS=Setaria italica OX=...  137     1e-38
+TR:K7UUH3_MAIZE  K7UUH3 Hexosyltransferase OS=Zea mays OX=4577 GN...  137     1e-38
+TR:A0A1D6Q0N0_MAIZE  A0A1D6Q0N0 Hexosyltransferase OS=Zea mays OX...  137     2e-38
+TR:K3YIE8_SETIT  K3YIE8 Hexosyltransferase OS=Setaria italica OX=...  137     2e-38
+TR:A0A1D6Q0M9_MAIZE  A0A1D6Q0M9 Hexosyltransferase OS=Zea mays OX...  137     3e-38
+TR:C5YKM2_SORBI  C5YKM2 Hexosyltransferase OS=Sorghum bicolor OX=...  137     3e-38
+TR:A0A287WQ22_HORVV  A0A287WQ22 Hexosyltransferase OS=Hordeum vul...  130     3e-38
+TR:A0A1D6KPK6_MAIZE  A0A1D6KPK6 Hexosyltransferase OS=Zea mays OX...  136     6e-38
+TR:A0A2S3I235_9POAL  A0A2S3I235 Hexosyltransferase OS=Panicum hal...  136     6e-38
+TR:A0A2T7D6V2_9POAL  A0A2T7D6V2 Hexosyltransferase OS=Panicum hal...  136     6e-38
+TR:B6TEC2_MAIZE  B6TEC2 Hexosyltransferase OS=Zea mays OX=4577 PE...  136     6e-38
+TR:C0P552_MAIZE  C0P552 Hexosyltransferase OS=Zea mays OX=4577 GN...  136     6e-38
+TR:A0A1D6KPK2_MAIZE  A0A1D6KPK2 Hexosyltransferase OS=Zea mays OX...  136     7e-38
+TR:A0A1D6KPJ7_MAIZE  A0A1D6KPJ7 Hexosyltransferase OS=Zea mays OX...  136     7e-38
+TR:A0A1D6KPK0_MAIZE  A0A1D6KPK0 Hexosyltransferase OS=Zea mays OX...  136     1e-37
+TR:A0A1D6KPJ9_MAIZE  A0A1D6KPJ9 Hexosyltransferase OS=Zea mays OX...  136     2e-37
+TR:M0V0I8_HORVV  M0V0I8 Hexosyltransferase OS=Hordeum vulgare sub...  130     3e-37
+TR:I1I6N8_BRADI  I1I6N8 Hexosyltransferase OS=Brachypodium distac...  132     1e-36
+TR:A0A287WPQ8_HORVV  A0A287WPQ8 Hexosyltransferase OS=Hordeum vul...  130     1e-36
+TR:A0A287WPV2_HORVV  A0A287WPV2 Hexosyltransferase OS=Hordeum vul...  130     1e-36
+TR:I1I6N7_BRADI  I1I6N7 Hexosyltransferase OS=Brachypodium distac...  132     2e-36
+TR:A0A287WQ24_HORVV  A0A287WQ24 Hexosyltransferase OS=Hordeum vul...  130     5e-36
+TR:A0A287WPV7_HORVV  A0A287WPV7 Hexosyltransferase OS=Hordeum vul...  130     1e-35
+TR:A0A287WPS5_HORVV  A0A287WPS5 Hexosyltransferase OS=Hordeum vul...  130     1e-35
+TR:A0A287WPS1_HORVV  A0A287WPS1 Hexosyltransferase OS=Hordeum vul...  130     1e-35
+TR:A0A1D6DHQ8_WHEAT  A0A1D6DHQ8 Hexosyltransferase OS=Triticum ae...  128     7e-35
+TR:A0A0E0EL82_9ORYZ  A0A0E0EL82 Hexosyltransferase OS=Oryza merid...  127     9e-35
+TR:Q8L6H3_ORYSA  Q8L6H3 Hexosyltransferase OS=Oryza sativa OX=453...  127     9e-35
+TR:A0A0E0QIG1_ORYRU  A0A0E0QIG1 Hexosyltransferase OS=Oryza rufip...  127     1e-34
+TR:A0A0E0EL81_9ORYZ  A0A0E0EL81 Hexosyltransferase OS=Oryza merid...  127     1e-34
+TR:A0A0E0QIG0_ORYRU  A0A0E0QIG0 Hexosyltransferase OS=Oryza rufip...  127     1e-34
+TR:A0A1D6C6Y7_WHEAT  A0A1D6C6Y7 Hexosyltransferase OS=Triticum ae...  125     1e-34
+TR:B9G0Q0_ORYSJ  B9G0Q0 Hexosyltransferase OS=Oryza sativa subsp....  127     1e-34
+TR:Q6ZA16_ORYSJ  Q6ZA16 Hexosyltransferase OS=Oryza sativa subsp....  127     1e-34
+TR:A0A0E0AIH6_9ORYZ  A0A0E0AIH6 Hexosyltransferase OS=Oryza glumi...  127     2e-34
+TR:J3MSQ7_ORYBR  J3MSQ7 Hexosyltransferase OS=Oryza brachyantha O...  126     2e-34
+TR:A0A0D9X7H3_9ORYZ  A0A0D9X7H3 Hexosyltransferase OS=Leersia per...  127     2e-34
+TR:B8BAC0_ORYSI  B8BAC0 Hexosyltransferase OS=Oryza sativa subsp....  127     2e-34
+TR:A0A0E0IBD4_ORYNI  A0A0E0IBD4 Hexosyltransferase OS=Oryza nivar...  127     3e-34
+TR:A0A0E0LUJ3_ORYPU  A0A0E0LUJ3 Hexosyltransferase OS=Oryza punct...  125     4e-34
+TR:A0A0E0LUJ2_ORYPU  A0A0E0LUJ2 Hexosyltransferase OS=Oryza punct...  125     4e-34
+TR:I1QIB4_ORYGL  I1QIB4 Hexosyltransferase OS=Oryza glaberrima OX...  125     8e-34
+TR:A0A0D3GZU1_9ORYZ  A0A0D3GZU1 Hexosyltransferase OS=Oryza barth...  125     2e-33
+TR:A0A2H3ZQB2_PHODC  A0A2H3ZQB2 Hexosyltransferase OS=Phoenix dac...  114     3e-30
+TR:A0A2I0VFU6_9ASPA  A0A2I0VFU6 Hexosyltransferase OS=Dendrobium ...  115     4e-30
+TR:A0A199VMS9_ANACO  A0A199VMS9 Hexosyltransferase OS=Ananas como...  115     7e-30
+TR:A0A2H3Y0G5_PHODC  A0A2H3Y0G5 Hexosyltransferase OS=Phoenix dac...  114     1e-29
+TR:A0A1U8A4Y2_NELNU  A0A1U8A4Y2 Hexosyltransferase OS=Nelumbo nuc...  112     5e-29
+TR:A0A1D6Q0M8_MAIZE  A0A1D6Q0M8 Hexosyltransferase OS=Zea mays OX...  113     9e-29
+TR:A0A1D1XSL5_9ARAE  A0A1D1XSL5 Hexosyltransferase OS=Anthurium a...  109     8e-28
+TR:W9R5K5_9ROSA  W9R5K5 Hexosyltransferase OS=Morus notabilis OX=...  108     2e-27
+TR:W1PA71_AMBTC  W1PA71 Hexosyltransferase (Fragment) OS=Amborell...  107     4e-27
+TR:A0A2P5BMP6_PARAD  A0A2P5BMP6 Hexosyltransferase OS=Parasponia ...  107     4e-27
+TR:E0CUK3_VITVI  E0CUK3 Hexosyltransferase OS=Vitis vinifera OX=2...  107     4e-27
+TR:A0A2P5FGI8_9ROSA  A0A2P5FGI8 Hexosyltransferase OS=Trema orien...  107     4e-27
+TR:A0A2H3YH56_PHODC  A0A2H3YH56 Hexosyltransferase OS=Phoenix dac...  107     4e-27
+TR:A0A2P4MDR8_QUESU  A0A2P4MDR8 Hexosyltransferase OS=Quercus sub...  107     8e-27
+TR:A0A1J7GC80_LUPAN  A0A1J7GC80 Hexosyltransferase OS=Lupinus ang...  106     1e-26
+TR:A5APR4_VITVI  A5APR4 Hexosyltransferase OS=Vitis vinifera OX=2...  107     1e-26
+TR:A0A2I4H7F3_9ROSI  A0A2I4H7F3 Hexosyltransferase OS=Juglans reg...  104     2e-26
+TR:V4VJ35_9ROSI  V4VJ35 Hexosyltransferase OS=Citrus clementina O...  106     2e-26
+TR:M0SK11_MUSAM  M0SK11 Hexosyltransferase OS=Musa acuminata subs...  105     3e-26
+TR:A0A058ZYR0_EUCGR  A0A058ZYR0 Hexosyltransferase OS=Eucalyptus ...  105     3e-26
+TR:A0A2K2B6M5_POPTR  A0A2K2B6M5 Hexosyltransferase OS=Populus tri...  103     4e-26
+TR:A0A067G9T0_CITSI  A0A067G9T0 Hexosyltransferase OS=Citrus sine...  102     4e-26
+TR:A0A2G5E0B8_AQUCA  A0A2G5E0B8 Hexosyltransferase OS=Aquilegia c...  103     4e-26
+TR:A9NVS4_PICSI  A9NVS4 Hexosyltransferase OS=Picea sitchensis OX...  105     4e-26
+TR:A0A2I4H7F2_9ROSI  A0A2I4H7F2 Hexosyltransferase OS=Juglans reg...  104     6e-26
+TR:A0A2G5E0H6_AQUCA  A0A2G5E0H6 Hexosyltransferase OS=Aquilegia c...  103     7e-26
+TR:A0A2N9EML3_FAGSY  A0A2N9EML3 Hexosyltransferase OS=Fagus sylva...  102     8e-26
+TR:A0A2G5E0B4_AQUCA  A0A2G5E0B4 Hexosyltransferase OS=Aquilegia c...  103     8e-26
+TR:A0A2R6Q8J9_ACTCH  A0A2R6Q8J9 Hexosyltransferase OS=Actinidia c...  102     1e-25
+TR:A0A068UBT5_COFCA  A0A068UBT5 Hexosyltransferase OS=Coffea cane...  103     1e-25
+TR:A0A2H5NGK7_CITUN  A0A2H5NGK7 Hexosyltransferase OS=Citrus unsh...  103     1e-25
+TR:A0A2G5E091_AQUCA  A0A2G5E091 Hexosyltransferase OS=Aquilegia c...  103     1e-25
+TR:A0A251SN88_HELAN  A0A251SN88 Hexosyltransferase OS=Helianthus ...  103     2e-25
+TR:A0A2G5E093_AQUCA  A0A2G5E093 Hexosyltransferase OS=Aquilegia c...  103     2e-25
+TR:A0A2G5E096_AQUCA  A0A2G5E096 Hexosyltransferase OS=Aquilegia c...  103     2e-25
+TR:B9GX59_POPTR  B9GX59 Hexosyltransferase OS=Populus trichocarpa...  103     2e-25
+TR:A0A067GLW8_CITSI  A0A067GLW8 Hexosyltransferase OS=Citrus sine...  102     2e-25
+TR:A0A2I4HQG6_9ROSI  A0A2I4HQG6 Hexosyltransferase OS=Juglans reg...  101     2e-25
+TR:A0A2I0B913_9ASPA  A0A2I0B913 Hexosyltransferase OS=Apostasia s...  103     2e-25
+TR:A0A2G5E0E2_AQUCA  A0A2G5E0E2 Hexosyltransferase OS=Aquilegia c...  103     3e-25
+TR:A0A2G5E086_AQUCA  A0A2G5E086 Hexosyltransferase OS=Aquilegia c...  103     3e-25
+TR:A0A2G5E0D7_AQUCA  A0A2G5E0D7 Hexosyltransferase OS=Aquilegia c...  103     3e-25
+TR:A0A151TGU4_CAJCA  A0A151TGU4 Hexosyltransferase OS=Cajanus caj...  102     5e-25
+TR:A0A1Q3CXC3_CEPFO  A0A1Q3CXC3 Hexosyltransferase OS=Cephalotus ...  102     6e-25
+TR:A0A2G9HSS5_9LAMI  A0A2G9HSS5 Hexosyltransferase OS=Handroanthu...  102     6e-25
+TR:M5X8C4_PRUPE  M5X8C4 Hexosyltransferase OS=Prunus persica OX=3...  102     6e-25
+TR:I1KAL8_SOYBN  I1KAL8 Hexosyltransferase OS=Glycine max OX=3847...  102     6e-25
+TR:A0A2P6SNR1_ROSCH  A0A2P6SNR1 Hexosyltransferase OS=Rosa chinen...  101     8e-25
+TR:A0A2I4HQF5_9ROSI  A0A2I4HQF5 Hexosyltransferase OS=Juglans reg...  101     9e-25
+TR:A0A0K9QKV6_SPIOL  A0A0K9QKV6 Hexosyltransferase (Fragment) OS=...  100     1e-24
+TR:A0A200PUK4_9MAGN  A0A200PUK4 Hexosyltransferase OS=Macleaya co...  100     1e-24
+TR:B9RIN6_RICCO  B9RIN6 Hexosyltransferase OS=Ricinus communis OX...  101     1e-24
+TR:A0A072UNK4_MEDTR  A0A072UNK4 Hexosyltransferase OS=Medicago tr...  99.4    2e-24
+TR:D8SLD2_SELML  D8SLD2 Hexosyltransferase OS=Selaginella moellen...  101     2e-24
+TR:D8RMA1_SELML  D8RMA1 Hexosyltransferase OS=Selaginella moellen...  101     2e-24
+TR:A0A1S3VVJ5_VIGRR  A0A1S3VVJ5 Hexosyltransferase OS=Vigna radia...  100     2e-24
+TR:I1JYW1_SOYBN  I1JYW1 Hexosyltransferase OS=Glycine max OX=3847...  100     2e-24
+TR:A0A0B2SBZ4_GLYSO  A0A0B2SBZ4 Hexosyltransferase OS=Glycine soj...  100     2e-24
+TR:I1JYW0_SOYBN  I1JYW0 Hexosyltransferase OS=Glycine max OX=3847...  100     2e-24
+TR:A0A2K3N5V2_TRIPR  A0A2K3N5V2 Hexosyltransferase (Fragment) OS=...  97.8    2e-24
+TR:A0A072VB91_MEDTR  A0A072VB91 Hexosyltransferase OS=Medicago tr...  100     2e-24
+TR:A0A072V178_MEDTR  A0A072V178 Hexosyltransferase OS=Medicago tr...  100     2e-24
+TR:A0A2P2LPG0_RHIMU  A0A2P2LPG0 Hexosyltransferase OS=Rhizophora ...  99.0    2e-24
+TR:A0A2N9FHE3_FAGSY  A0A2N9FHE3 Hexosyltransferase OS=Fagus sylva...  100     2e-24
+TR:A0A0S3RDS9_PHAAN  A0A0S3RDS9 Hexosyltransferase OS=Vigna angul...  100     2e-24
+TR:A0A0L9UFE0_PHAAN  A0A0L9UFE0 Hexosyltransferase OS=Phaseolus a...  100     3e-24
+TR:A0A2G5E0A7_AQUCA  A0A2G5E0A7 Hexosyltransferase OS=Aquilegia c...  97.1    3e-24
+TR:A0A072V0A6_MEDTR  A0A072V0A6 Hexosyltransferase OS=Medicago tr...  100     3e-24
+TR:G7J676_MEDTR  G7J676 Hexosyltransferase OS=Medicago truncatula...  100     3e-24
+TR:A0A2U1QK94_ARTAN  A0A2U1QK94 Hexosyltransferase OS=Artemisia a...  98.6    4e-24
+TR:A0A2C9WHT7_MANES  A0A2C9WHT7 Hexosyltransferase OS=Manihot esc...  97.8    4e-24
+TR:V7AVC3_PHAVU  V7AVC3 Hexosyltransferase OS=Phaseolus vulgaris ...  99.8    5e-24
+TR:A0A2G3CWX1_CAPCH  A0A2G3CWX1 Hexosyltransferase OS=Capsicum ch...  99.4    5e-24
+TR:A0A2R6Q940_ACTCH  A0A2R6Q940 Hexosyltransferase OS=Actinidia c...  99.4    6e-24
+TR:A0A2K3P857_TRIPR  A0A2K3P857 Hexosyltransferase OS=Trifolium p...  100     6e-24
+TR:A0A2P2LPF4_RHIMU  A0A2P2LPF4 Hexosyltransferase OS=Rhizophora ...  99.0    6e-24
+TR:A0A2G2X775_CAPBA  A0A2G2X775 Hexosyltransferase OS=Capsicum ba...  99.4    7e-24
+TR:A0A2G2ZZN6_CAPAN  A0A2G2ZZN6 Hexosyltransferase OS=Capsicum an...  99.4    7e-24
+TR:A0A1U8FZ82_CAPAN  A0A1U8FZ82 Hexosyltransferase OS=Capsicum an...  99.4    7e-24
+TR:G7KAP6_MEDTR  G7KAP6 Hexosyltransferase OS=Medicago truncatula...  99.4    7e-24
+TR:A0A1R3KGK1_9ROSI  A0A1R3KGK1 Hexosyltransferase OS=Corchorus o...  95.5    7e-24
+TR:A0A1Q3B699_CEPFO  A0A1Q3B699 Hexosyltransferase OS=Cephalotus ...  99.4    7e-24
+TR:M1AIB3_SOLTU  M1AIB3 Hexosyltransferase OS=Solanum tuberosum O...  96.3    7e-24
+TR:A0A2P2LPF9_RHIMU  A0A2P2LPF9 Hexosyltransferase OS=Rhizophora ...  99.0    8e-24
+TR:A0A067EM61_CITSI  A0A067EM61 Hexosyltransferase OS=Citrus sine...  97.4    9e-24
+TR:A0A2J6K0B2_LACSA  A0A2J6K0B2 Hexosyltransferase OS=Lactuca sat...  99.0    9e-24
+TR:A0A1S2Y4N2_CICAR  A0A1S2Y4N2 Hexosyltransferase OS=Cicer ariet...  99.0    9e-24
+TR:A0A067EY54_CITSI  A0A067EY54 Hexosyltransferase OS=Citrus sine...  97.4    1e-23
+TR:A0A2P4L853_QUESU  A0A2P4L853 Hexosyltransferase OS=Quercus sub...  100     1e-23
+TR:A0A2U1LG31_ARTAN  A0A2U1LG31 Hexosyltransferase OS=Artemisia a...  98.6    1e-23
+TR:A0A2U1LG16_ARTAN  A0A2U1LG16 Hexosyltransferase OS=Artemisia a...  98.6    1e-23
+TR:A0A2U1QBM4_ARTAN  A0A2U1QBM4 Hexosyltransferase OS=Artemisia a...  98.6    1e-23
+TR:U5CMF5_AMBTC  U5CMF5 Hexosyltransferase OS=Amborella trichopod...  98.6    1e-23
+TR:D7TVB8_VITVI  D7TVB8 Hexosyltransferase OS=Vitis vinifera OX=2...  98.6    1e-23
+TR:V7CUZ9_PHAVU  V7CUZ9 Hexosyltransferase OS=Phaseolus vulgaris ...  98.6    1e-23
+TR:Q8RW34_SOLLC  Q8RW34 Hexosyltransferase OS=Solanum lycopersicu...  98.6    1e-23
+TR:M1AWT1_SOLTU  M1AWT1 Hexosyltransferase OS=Solanum tuberosum O...  97.8    2e-23
+TR:A0A2K2A8B8_POPTR  A0A2K2A8B8 Hexosyltransferase OS=Populus tri...  96.7    2e-23
+TR:A0A1E5VLS5_9POAL  A0A1E5VLS5 Hexosyltransferase OS=Dichantheli...  95.9    2e-23
+TR:A0A1S4DS11_TOBAC  A0A1S4DS11 Hexosyltransferase OS=Nicotiana t...  98.2    2e-23
+TR:A0A2G3ADR6_CAPAN  A0A2G3ADR6 Hexosyltransferase OS=Capsicum an...  98.2    2e-23
+TR:A0A1U8G556_CAPAN  A0A1U8G556 Hexosyltransferase OS=Capsicum an...  98.2    2e-23
+TR:A0A2G3DAS0_CAPCH  A0A2G3DAS0 Hexosyltransferase OS=Capsicum ch...  98.2    2e-23
+TR:M1AIB2_SOLTU  M1AIB2 Hexosyltransferase OS=Solanum tuberosum O...  96.3    2e-23
+TR:M1AIA9_SOLTU  M1AIA9 Hexosyltransferase OS=Solanum tuberosum O...  96.3    2e-23
+TR:A0A1U7V8Q9_NICSY  A0A1U7V8Q9 Hexosyltransferase OS=Nicotiana s...  97.8    2e-23
+TR:A0A1S4CIS6_TOBAC  A0A1S4CIS6 Hexosyltransferase OS=Nicotiana t...  97.8    2e-23
+TR:A0A1S2YXJ6_CICAR  A0A1S2YXJ6 Hexosyltransferase OS=Cicer ariet...  97.8    2e-23
+TR:A0A151RLC6_CAJCA  A0A151RLC6 Hexosyltransferase OS=Cajanus caj...  97.8    2e-23
+TR:A0A2G2XJI9_CAPBA  A0A2G2XJI9 Hexosyltransferase OS=Capsicum ba...  97.8    2e-23
+TR:A0A2N9HMQ7_FAGSY  A0A2N9HMQ7 Hexosyltransferase OS=Fagus sylva...  97.1    3e-23
+TR:A0A1R3G5D3_COCAP  A0A1R3G5D3 Hexosyltransferase (Fragment) OS=...  97.4    3e-23
+TR:A0A2H5NZN9_CITUN  A0A2H5NZN9 Hexosyltransferase OS=Citrus unsh...  97.4    3e-23
+TR:A0A2H5NZN3_CITUN  A0A2H5NZN3 Hexosyltransferase OS=Citrus unsh...  97.4    3e-23
+TR:A0A067ELV4_CITSI  A0A067ELV4 Hexosyltransferase OS=Citrus sine...  97.4    3e-23
+TR:A0A067ELV9_CITSI  A0A067ELV9 Hexosyltransferase OS=Citrus sine...  97.4    5e-23
+TR:A0A2R6REY2_ACTCH  A0A2R6REY2 Hexosyltransferase OS=Actinidia c...  97.1    5e-23
+TR:M1AIB0_SOLTU  M1AIB0 Hexosyltransferase OS=Solanum tuberosum O...  96.3    5e-23
+TR:V4RM74_9ROSI  V4RM74 Hexosyltransferase OS=Citrus clementina O...  97.1    5e-23
+TR:W9RB17_9ROSA  W9RB17 Hexosyltransferase OS=Morus notabilis OX=...  97.1    5e-23
+TR:A0A2H3YPK6_PHODC  A0A2H3YPK6 Hexosyltransferase OS=Phoenix dac...  97.1    5e-23
+TR:A0A0V0HZ74_SOLCH  A0A0V0HZ74 Hexosyltransferase OS=Solanum cha...  96.3    6e-23
+TR:V4S4R2_9ROSI  V4S4R2 Hexosyltransferase OS=Citrus clementina O...  97.1    6e-23
+TR:A0A2H5NZN6_CITUN  A0A2H5NZN6 Hexosyltransferase OS=Citrus unsh...  97.4    7e-23
+TR:A0A1S2YD47_CICAR  A0A1S2YD47 Hexosyltransferase OS=Cicer ariet...  96.7    7e-23
+TR:A0A0B2QH95_GLYSO  A0A0B2QH95 Hexosyltransferase OS=Glycine soj...  96.7    7e-23
+TR:A0A1W0VRN2_SORBI  A0A1W0VRN2 Hexosyltransferase OS=Sorghum bic...  95.1    7e-23
+TR:A0A1S2YC12_CICAR  A0A1S2YC12 Hexosyltransferase OS=Cicer ariet...  96.7    7e-23
+TR:I1M9H1_SOYBN  I1M9H1 Hexosyltransferase OS=Glycine max OX=3847...  96.7    7e-23
+TR:A0A2K2A8C6_POPTR  A0A2K2A8C6 Hexosyltransferase OS=Populus tri...  96.7    7e-23
+TR:V4LTM1_EUTSA  V4LTM1 Hexosyltransferase OS=Eutrema salsugineum...  96.7    7e-23
+TR:A0A2P2LE29_RHIMU  A0A2P2LE29 Hexosyltransferase OS=Rhizophora ...  95.5    8e-23
+TR:V7B601_PHAVU  V7B601 Hexosyltransferase OS=Phaseolus vulgaris ...  96.3    8e-23
+TR:R0H1D5_9BRAS  R0H1D5 Hexosyltransferase OS=Capsella rubella OX...  94.7    9e-23
+TR:A0A1U8L6R4_GOSHI  A0A1U8L6R4 Hexosyltransferase OS=Gossypium h...  96.3    9e-23
+TR:A0A0V0I4E7_SOLCH  A0A0V0I4E7 Hexosyltransferase OS=Solanum cha...  96.3    1e-22
+TR:M1AIB1_SOLTU  M1AIB1 Hexosyltransferase OS=Solanum tuberosum O...  96.3    1e-22
+TR:A0A2P5VU08_GOSBA  A0A2P5VU08 Hexosyltransferase OS=Gossypium b...  96.3    1e-22
+TR:A0A251P8F0_PRUPE  A0A251P8F0 Hexosyltransferase OS=Prunus pers...  95.1    1e-22
+TR:A0A178UYR4_ARATH  A0A178UYR4 Hexosyltransferase OS=Arabidopsis...  95.1    1e-22
+TR:A0A022QFA3_ERYGU  A0A022QFA3 Hexosyltransferase (Fragment) OS=...  95.9    1e-22
+TR:A0A0B2R4Y8_GLYSO  A0A0B2R4Y8 Hexosyltransferase OS=Glycine soj...  96.7    1e-22
+TR:I1M9H0_SOYBN  I1M9H0 Hexosyltransferase OS=Glycine max OX=3847...  96.7    1e-22
+TR:A0A1S3UGQ6_VIGRR  A0A1S3UGQ6 Hexosyltransferase OS=Vigna radia...  95.9    1e-22
+TR:V4WB65_9ROSI  V4WB65 Hexosyltransferase OS=Citrus clementina O...  95.9    1e-22
+TR:A0A068V0X0_COFCA  A0A068V0X0 Hexosyltransferase OS=Coffea cane...  95.9    1e-22
+TR:A0A2P5EAF5_9ROSA  A0A2P5EAF5 Hexosyltransferase OS=Trema orien...  95.9    1e-22
+TR:A0A067JQC0_JATCU  A0A067JQC0 Hexosyltransferase OS=Jatropha cu...  95.5    2e-22
+TR:M0TT73_MUSAM  M0TT73 Hexosyltransferase OS=Musa acuminata subs...  95.9    2e-22
+TR:A0A0S3RPI2_PHAAN  A0A0S3RPI2 Hexosyltransferase OS=Vigna angul...  95.9    2e-22
+TR:A0A0L9TI28_PHAAN  A0A0L9TI28 Hexosyltransferase OS=Phaseolus a...  95.9    2e-22
+TR:A0A1S4C876_TOBAC  A0A1S4C876 Hexosyltransferase OS=Nicotiana t...  95.1    2e-22
+TR:A0A2G9H6Y6_9LAMI  A0A2G9H6Y6 Hexosyltransferase OS=Handroanthu...  95.5    2e-22
+TR:A0A2C9W3L3_MANES  A0A2C9W3L3 Hexosyltransferase OS=Manihot esc...  95.5    2e-22
+TR:A0A199UQ93_ANACO  A0A199UQ93 Hexosyltransferase OS=Ananas como...  96.3    2e-22
+TR:A0A2P2LE51_RHIMU  A0A2P2LE51 Hexosyltransferase OS=Rhizophora ...  95.5    2e-22
+TR:A0A2R6PJN9_ACTCH  A0A2R6PJN9 Hexosyltransferase OS=Actinidia c...  95.5    2e-22
+TR:B9RP11_RICCO  B9RP11 Hexosyltransferase OS=Ricinus communis OX...  95.5    2e-22
+TR:A0A2U1Q6W5_ARTAN  A0A2U1Q6W5 Hexosyltransferase OS=Artemisia a...  95.5    2e-22
+TR:M5WFF9_PRUPE  M5WFF9 Hexosyltransferase OS=Prunus persica OX=3...  95.1    3e-22
+TR:A0A251P710_PRUPE  A0A251P710 Hexosyltransferase OS=Prunus pers...  95.1    3e-22
+TR:B9N9A0_POPTR  B9N9A0 Hexosyltransferase OS=Populus trichocarpa...  95.1    3e-22
+TR:A0A103YJG0_CYNCS  A0A103YJG0 Hexosyltransferase OS=Cynara card...  95.1    3e-22
+SP:B3GTA_ARATH  Q94A05 Hydroxyproline O-galactosyltransferase HPG...  95.1    3e-22
+TR:A0A068UV24_COFCA  A0A068UV24 Hexosyltransferase OS=Coffea cane...  95.1    3e-22
+TR:W8Q6I0_ARATH  W8Q6I0 Hexosyltransferase (Fragment) OS=Arabidop...  95.1    3e-22
+TR:A0A2K1XGX0_POPTR  A0A2K1XGX0 Hexosyltransferase OS=Populus tri...  95.1    3e-22
+TR:A0A0A0LSK0_CUCSA  A0A0A0LSK0 Hexosyltransferase OS=Cucumis sat...  95.1    3e-22
+TR:A0A1S3BCY2_CUCME  A0A1S3BCY2 Hexosyltransferase OS=Cucumis mel...  95.1    3e-22
+TR:C5Z5D2_SORBI  C5Z5D2 Hexosyltransferase OS=Sorghum bicolor OX=...  95.1    3e-22
+TR:A0A061GQK5_THECC  A0A061GQK5 Hexosyltransferase OS=Theobroma c...  94.7    4e-22
+TR:A0A1D6NTZ6_MAIZE  A0A1D6NTZ6 Hexosyltransferase OS=Zea mays OX...  93.2    4e-22
+TR:D7MAR5_ARALL  D7MAR5 Hexosyltransferase OS=Arabidopsis lyrata ...  94.7    4e-22
+TR:A0A2K2A8C2_POPTR  A0A2K2A8C2 Hexosyltransferase OS=Populus tri...  94.7    4e-22
+TR:A0A0K9S0L7_SPIOL  A0A0K9S0L7 Hexosyltransferase OS=Spinacia ol...  94.7    4e-22
+TR:A0A067F388_CITSI  A0A067F388 Hexosyltransferase OS=Citrus sine...  93.2    5e-22
+TR:A0A2P5B690_PARAD  A0A2P5B690 Hexosyltransferase OS=Parasponia ...  94.0    5e-22
+TR:A0A067F354_CITSI  A0A067F354 Hexosyltransferase OS=Citrus sine...  93.2    5e-22
+TR:D7SV29_VITVI  D7SV29 Hexosyltransferase OS=Vitis vinifera OX=2...  94.4    5e-22
+TR:A0A2P6P6E3_ROSCH  A0A2P6P6E3 Hexosyltransferase OS=Rosa chinen...  94.4    5e-22
+TR:A0A0D2UAF9_GOSRA  A0A0D2UAF9 Hexosyltransferase OS=Gossypium r...  94.4    5e-22
+TR:A0A1U8PUX1_GOSHI  A0A1U8PUX1 Hexosyltransferase OS=Gossypium h...  94.4    5e-22
+TR:A0A087GIX4_ARAAL  A0A087GIX4 Hexosyltransferase OS=Arabis alpi...  94.4    5e-22
+TR:A0A0D2SCC9_GOSRA  A0A0D2SCC9 Hexosyltransferase OS=Gossypium r...  92.8    5e-22
+TR:A0A166GFA1_DAUCA  A0A166GFA1 Hexosyltransferase OS=Daucus caro...  94.0    5e-22
+TR:A0A1U7ZC34_NELNU  A0A1U7ZC34 Hexosyltransferase OS=Nelumbo nuc...  94.4    5e-22
+TR:A0A2R6QZE4_ACTCH  A0A2R6QZE4 Hexosyltransferase OS=Actinidia c...  94.4    6e-22
+TR:A0A2K1WUR8_POPTR  A0A2K1WUR8 Hexosyltransferase OS=Populus tri...  93.6    7e-22
+TR:A0A2G9I2N7_9LAMI  A0A2G9I2N7 Hexosyltransferase OS=Handroanthu...  93.2    7e-22
+TR:A0A022PV18_ERYGU  A0A022PV18 Hexosyltransferase OS=Erythranthe...  94.0    7e-22
+TR:A0A022RI14_ERYGU  A0A022RI14 Hexosyltransferase OS=Erythranthe...  94.0    7e-22
+TR:A0A0D3GDF0_9ORYZ  A0A0D3GDF0 Hexosyltransferase OS=Oryza barth...  93.2    7e-22
+TR:A0A0B0N4Z7_GOSAR  A0A0B0N4Z7 Hexosyltransferase OS=Gossypium a...  94.4    7e-22
+TR:A0A2I4ES32_9ROSI  A0A2I4ES32 Hexosyltransferase OS=Juglans reg...  94.0    7e-22
+TR:A0A103XJP4_CYNCS  A0A103XJP4 Hexosyltransferase OS=Cynara card...  93.6    7e-22
+TR:A0A072VEH9_MEDTR  A0A072VEH9 Hexosyltransferase OS=Medicago tr...  94.0    7e-22
+TR:A0A2G2VMW0_CAPBA  A0A2G2VMW0 Hexosyltransferase OS=Capsicum ba...  94.0    8e-22
+TR:A0A2G2YFA8_CAPAN  A0A2G2YFA8 Hexosyltransferase OS=Capsicum an...  94.0    8e-22
+TR:A0A1U8EVS5_CAPAN  A0A1U8EVS5 Hexosyltransferase OS=Capsicum an...  94.0    8e-22
+TR:K4CJX9_SOLLC  K4CJX9 Hexosyltransferase OS=Solanum lycopersicu...  94.0    8e-22
+TR:A0A251VTV7_HELAN  A0A251VTV7 Hexosyltransferase OS=Helianthus ...  94.0    8e-22
+TR:A0A1U8FZ51_CAPAN  A0A1U8FZ51 Hexosyltransferase OS=Capsicum an...  92.8    8e-22
+TR:A0A2P5RIY6_GOSBA  A0A2P5RIY6 Hexosyltransferase OS=Gossypium b...  94.4    8e-22
+TR:A0A1D6NTZ4_MAIZE  A0A1D6NTZ4 Hexosyltransferase OS=Zea mays OX...  93.2    9e-22
+TR:A0A118JZN1_CYNCS  A0A118JZN1 Hexosyltransferase OS=Cynara card...  93.6    9e-22
+TR:A5B9L8_VITVI  A5B9L8 Hexosyltransferase OS=Vitis vinifera OX=2...  94.4    9e-22
+TR:A0A0D3GDE8_9ORYZ  A0A0D3GDE8 Hexosyltransferase OS=Oryza barth...  93.2    1e-21
+TR:A0A2P5DDF1_PARAD  A0A2P5DDF1 Hexosyltransferase OS=Parasponia ...  93.6    1e-21
+TR:A0A2I4FX81_9ROSI  A0A2I4FX81 Hexosyltransferase OS=Juglans reg...  93.6    1e-21
+TR:A0A2K1WUR5_POPTR  A0A2K1WUR5 Hexosyltransferase OS=Populus tri...  93.6    1e-21
+TR:A0A2P5QU68_GOSBA  A0A2P5QU68 Hexosyltransferase OS=Gossypium b...  93.2    1e-21
+TR:B9RCM9_RICCO  B9RCM9 Hexosyltransferase OS=Ricinus communis OX...  93.6    1e-21
+TR:A0A0D9WMH1_9ORYZ  A0A0D9WMH1 Hexosyltransferase OS=Leersia per...  93.6    1e-21
+TR:A0A0E0DXV3_9ORYZ  A0A0E0DXV3 Hexosyltransferase OS=Oryza merid...  93.2    1e-21
+TR:A0A1R3GUA7_COCAP  A0A1R3GUA7 Hexosyltransferase (Fragment) OS=...  93.2    1e-21
+TR:A0A1U8EUA1_CAPAN  A0A1U8EUA1 Hexosyltransferase OS=Capsicum an...  94.0    1e-21
+TR:A0A1S3ATZ9_CUCME  A0A1S3ATZ9 Hexosyltransferase OS=Cucumis mel...  93.2    1e-21
+TR:A0A2P5EWE8_9ROSA  A0A2P5EWE8 Hexosyltransferase OS=Trema orien...  93.2    1e-21
+TR:A0A067FEC5_CITSI  A0A067FEC5 Hexosyltransferase OS=Citrus sine...  93.2    1e-21
+TR:I3S1X5_MEDTR  I3S1X5 Hexosyltransferase OS=Medicago truncatula...  93.2    1e-21
+TR:A0A1S4ATQ4_TOBAC  A0A1S4ATQ4 Hexosyltransferase OS=Nicotiana t...  92.8    1e-21
+TR:B6TJD4_MAIZE  B6TJD4 Hexosyltransferase OS=Zea mays OX=4577 PE...  93.2    2e-21
+TR:K7V6D7_MAIZE  K7V6D7 Hexosyltransferase OS=Zea mays OX=4577 GN...  93.2    2e-21
+TR:A0A2G5C674_AQUCA  A0A2G5C674 Hexosyltransferase OS=Aquilegia c...  93.2    2e-21
+TR:I1PZZ6_ORYGL  I1PZZ6 Hexosyltransferase OS=Oryza glaberrima OX...  93.2    2e-21
+TR:A0A0E0DXV2_9ORYZ  A0A0E0DXV2 Hexosyltransferase OS=Oryza merid...  93.2    2e-21
+TR:Q8L6H2_ORYSA  Q8L6H2 Hexosyltransferase (Fragment) OS=Oryza sa...  92.8    2e-21
+TR:A0A0E0DXV1_9ORYZ  A0A0E0DXV1 Hexosyltransferase OS=Oryza merid...  93.2    2e-21
+TR:A0A2J6JW43_LACSA  A0A2J6JW43 Uncharacterized protein OS=Lactuc...  94.4    2e-21
+TR:A0A1U8JCS3_GOSHI  A0A1U8JCS3 Hexosyltransferase OS=Gossypium h...  92.8    2e-21
+TR:A0A0D2T774_GOSRA  A0A0D2T774 Hexosyltransferase OS=Gossypium r...  92.8    2e-21
+TR:A0A2R6XNR2_MARPO  A0A2R6XNR2 Hexosyltransferase OS=Marchantia ...  93.2    2e-21
+TR:A0A1J6K1U0_NICAT  A0A1J6K1U0 Hexosyltransferase OS=Nicotiana a...  92.8    2e-21
+TR:A0A1J7GRM4_LUPAN  A0A1J7GRM4 Hexosyltransferase OS=Lupinus ang...  92.8    2e-21
+TR:A0A059CQX8_EUCGR  A0A059CQX8 Hexosyltransferase OS=Eucalyptus ...  92.8    2e-21
+TR:A0A2P5SDG3_GOSBA  A0A2P5SDG3 Hexosyltransferase OS=Gossypium b...  92.8    2e-21
+TR:A0A059CQ81_EUCGR  A0A059CQ81 Hexosyltransferase OS=Eucalyptus ...  92.8    2e-21
+TR:A0A067FF24_CITSI  A0A067FF24 Hexosyltransferase OS=Citrus sine...  93.2    2e-21
+TR:A0A1S4AT23_TOBAC  A0A1S4AT23 Hexosyltransferase OS=Nicotiana t...  92.8    2e-21
+TR:A0A0K9QKM7_SPIOL  A0A0K9QKM7 Hexosyltransferase (Fragment) OS=...  92.8    2e-21
+TR:B8B3G7_ORYSI  B8B3G7 Hexosyltransferase OS=Oryza sativa subsp....  92.8    2e-21
+TR:A0A0E0HLP1_ORYNI  A0A0E0HLP1 Hexosyltransferase OS=Oryza nivar...  92.8    2e-21
+TR:Q7FN01_ORYSA  Q7FN01 Hexosyltransferase OS=Oryza sativa OX=453...  92.8    2e-21
+TR:A0A0E0PU72_ORYRU  A0A0E0PU72 Hexosyltransferase OS=Oryza rufip...  92.8    2e-21
+TR:Q9LDB7_ORYSJ  Q9LDB7 Hexosyltransferase OS=Oryza sativa subsp....  92.8    2e-21
+TR:A0A0K9PRH6_ZOSMR  A0A0K9PRH6 Hexosyltransferase OS=Zostera mar...  92.8    2e-21
+TR:A0A1U8G043_CAPAN  A0A1U8G043 Hexosyltransferase OS=Capsicum an...  92.8    2e-21
+TR:A0A0A0KJY1_CUCSA  A0A0A0KJY1 Hexosyltransferase OS=Cucumis sat...  92.4    3e-21
+TR:V4KYW1_EUTSA  V4KYW1 Hexosyltransferase OS=Eutrema salsugineum...  91.3    3e-21
+TR:A0A2R6QN40_ACTCH  A0A2R6QN40 Hexosyltransferase OS=Actinidia c...  92.4    3e-21
+TR:A0A1W0VRN8_SORBI  A0A1W0VRN8 Hexosyltransferase OS=Sorghum bic...  92.0    3e-21
+TR:A0A176VJN7_MARPO  A0A176VJN7 Hexosyltransferase OS=Marchantia ...  93.2    3e-21
+TR:J3MBR9_ORYBR  J3MBR9 Hexosyltransferase OS=Oryza brachyantha O...  92.0    3e-21
+TR:A0A2G3B971_CAPCH  A0A2G3B971 Hexosyltransferase OS=Capsicum ch...  92.4    3e-21
+TR:A0A2J6JLS8_LACSA  A0A2J6JLS8 Hexosyltransferase OS=Lactuca sat...  92.4    3e-21
+TR:A0A1S4ATH1_TOBAC  A0A1S4ATH1 Hexosyltransferase OS=Nicotiana t...  92.8    3e-21
+TR:A0A1W0VRR3_SORBI  A0A1W0VRR3 Hexosyltransferase OS=Sorghum bic...  92.0    3e-21
+TR:A0A2S3HLE4_9POAL  A0A2S3HLE4 Hexosyltransferase OS=Panicum hal...  92.4    3e-21
+TR:A0A2T7E2B9_9POAL  A0A2T7E2B9 Hexosyltransferase OS=Panicum hal...  92.4    3e-21
+TR:A0A1W0VRQ0_SORBI  A0A1W0VRQ0 Hexosyltransferase OS=Sorghum bic...  92.0    3e-21
+TR:A0A061G8Q0_THECC  A0A061G8Q0 Hexosyltransferase (Fragment) OS=...  91.7    3e-21
+TR:A0A0D3AMH8_BRAOL  A0A0D3AMH8 Hexosyltransferase OS=Brassica ol...  92.0    3e-21
+TR:A0A087GAQ2_ARAAL  A0A087GAQ2 Hexosyltransferase OS=Arabis alpi...  92.0    3e-21
+TR:A0A087GAQ3_ARAAL  A0A087GAQ3 Hexosyltransferase OS=Arabis alpi...  92.0    4e-21
+TR:A0A2C9UJT7_MANES  A0A2C9UJT7 Hexosyltransferase OS=Manihot esc...  92.0    4e-21
+TR:A0A1W0VRP1_SORBI  A0A1W0VRP1 Hexosyltransferase OS=Sorghum bic...  92.0    4e-21
+TR:A0A1J6I482_NICAT  A0A1J6I482 Hexosyltransferase OS=Nicotiana a...  92.0    4e-21
+TR:A0A194YHJ0_SORBI  A0A194YHJ0 Hexosyltransferase OS=Sorghum bic...  92.0    4e-21
+TR:A0A061G205_THECC  A0A061G205 Hexosyltransferase OS=Theobroma c...  91.7    4e-21
+TR:A0A0V0I9N6_SOLCH  A0A0V0I9N6 Hexosyltransferase OS=Solanum cha...  92.0    4e-21
+TR:A0A061G0P7_THECC  A0A061G0P7 Hexosyltransferase (Fragment) OS=...  91.7    4e-21
+TR:A0A061G2I6_THECC  A0A061G2I6 Hexosyltransferase (Fragment) OS=...  91.7    4e-21
+TR:A0A1W0VRP2_SORBI  A0A1W0VRP2 Hexosyltransferase OS=Sorghum bic...  92.0    5e-21
+TR:A0A078IGM6_BRANA  A0A078IGM6 Hexosyltransferase OS=Brassica na...  91.7    5e-21
+TR:A0A087GRT1_ARAAL  A0A087GRT1 Hexosyltransferase OS=Arabis alpi...  91.7    5e-21
+TR:A0A061G1G2_THECC  A0A061G1G2 Hexosyltransferase OS=Theobroma c...  91.7    5e-21
+TR:A0A061G8P5_THECC  A0A061G8P5 Hexosyltransferase OS=Theobroma c...  91.7    6e-21
+TR:A0A0E0A5S9_9ORYZ  A0A0E0A5S9 Uncharacterized protein OS=Oryza ...  92.8    6e-21
+TR:A0A0E0A5S8_9ORYZ  A0A0E0A5S8 Uncharacterized protein OS=Oryza ...  92.8    6e-21
+TR:V4NBA0_EUTSA  V4NBA0 Hexosyltransferase OS=Eutrema salsugineum...  91.3    7e-21
+TR:A0A1R3KA74_COCAP  A0A1R3KA74 Hexosyltransferase OS=Corchorus c...  90.9    7e-21
+TR:A0A0D2R620_GOSRA  A0A0D2R620 Hexosyltransferase OS=Gossypium r...  91.3    7e-21
+TR:A0A1U8MTV9_GOSHI  A0A1U8MTV9 Hexosyltransferase OS=Gossypium h...  91.3    7e-21
+TR:M4E1J7_BRARP  M4E1J7 Hexosyltransferase OS=Brassica rapa subsp...  91.7    9e-21
+TR:A0A061GCP0_THECC  A0A061GCP0 Hexosyltransferase OS=Theobroma c...  90.9    1e-20
+TR:M4D4C0_BRARP  M4D4C0 Hexosyltransferase OS=Brassica rapa subsp...  90.9    1e-20
+TR:A0A0D3A2P3_BRAOL  A0A0D3A2P3 Hexosyltransferase OS=Brassica ol...  90.9    1e-20
+TR:A0A2C9W9U5_MANES  A0A2C9W9U5 Hexosyltransferase OS=Manihot esc...  90.9    1e-20
+TR:A0A2J6LIU8_LACSA  A0A2J6LIU8 Hexosyltransferase OS=Lactuca sat...  90.9    1e-20
+TR:A0A103XGI8_CYNCS  A0A103XGI8 Hexosyltransferase OS=Cynara card...  91.3    1e-20
+TR:A0A1S3YWB6_TOBAC  A0A1S3YWB6 Hexosyltransferase OS=Nicotiana t...  90.1    1e-20
+TR:A0A178UFT6_ARATH  A0A178UFT6 Hexosyltransferase OS=Arabidopsis...  90.1    1e-20
+TR:A0A2P4N206_QUESU  A0A2P4N206 Hexosyltransferase OS=Quercus sub...  90.5    1e-20
+TR:A0A1J3GYJ2_NOCCA  A0A1J3GYJ2 Hexosyltransferase OS=Noccaea cae...  90.5    1e-20
+TR:A0A0E0L8I2_ORYPU  A0A0E0L8I2 Hexosyltransferase OS=Oryza punct...  90.5    1e-20
+TR:A0A151TK10_CAJCA  A0A151TK10 Hexosyltransferase OS=Cajanus caj...  89.7    2e-20
+SP:Q94F27-2  Q94F27 Isoform 2 of Hydroxyproline O-galactosyltrans...  90.1    2e-20
+SP:B3GTB_ARATH  Q94F27 Hydroxyproline O-galactosyltransferase HPG...  90.1    2e-20
+TR:W8PUB4_ARATH  W8PUB4 Hexosyltransferase (Fragment) OS=Arabidop...  90.1    2e-20
+TR:A0A1D6BZK3_WHEAT  A0A1D6BZK3 Hexosyltransferase OS=Triticum ae...  89.7    2e-20
+TR:A0A1U7W9U9_NICSY  A0A1U7W9U9 Hexosyltransferase OS=Nicotiana s...  90.1    2e-20
+TR:A0A1S3YVB7_TOBAC  A0A1S3YVB7 Hexosyltransferase OS=Nicotiana t...  90.1    2e-20
+TR:A0A078J0V3_BRANA  A0A078J0V3 Hexosyltransferase OS=Brassica na...  90.1    2e-20
+TR:A0A2U1NUR5_ARTAN  A0A2U1NUR5 Hexosyltransferase OS=Artemisia a...  90.1    2e-20
+TR:A0A1J3FNA4_NOCCA  A0A1J3FNA4 Hexosyltransferase (Fragment) OS=...  90.5    2e-20
+TR:D7LKM6_ARALL  D7LKM6 Hexosyltransferase OS=Arabidopsis lyrata ...  90.1    2e-20
+TR:K3Y1B2_SETIT  K3Y1B2 Hexosyltransferase OS=Setaria italica OX=...  90.5    2e-20
+TR:A0A1U7WDX3_NICSY  A0A1U7WDX3 Hexosyltransferase OS=Nicotiana s...  90.1    2e-20
+TR:A0A1S4A6P8_TOBAC  A0A1S4A6P8 Hexosyltransferase OS=Nicotiana t...  90.1    2e-20
+TR:A0A162AUA4_DAUCA  A0A162AUA4 Uncharacterized protein OS=Daucus...  91.3    2e-20
+TR:A0A0D2P282_GOSRA  A0A0D2P282 Hexosyltransferase OS=Gossypium r...  89.0    2e-20
+TR:M8ARF9_TRIUA  M8ARF9 Hexosyltransferase OS=Triticum urartu OX=...  89.7    2e-20
+TR:A0A1J3D3N0_NOCCA  A0A1J3D3N0 Hexosyltransferase OS=Noccaea cae...  89.7    3e-20
+TR:A0A1J3ICL4_NOCCA  A0A1J3ICL4 Hexosyltransferase OS=Noccaea cae...  89.7    3e-20
+TR:A0A1J3E876_NOCCA  A0A1J3E876 Hexosyltransferase OS=Noccaea cae...  89.7    3e-20
+TR:A0A1D6BZK2_WHEAT  A0A1D6BZK2 Hexosyltransferase OS=Triticum ae...  89.7    3e-20
+TR:A0A0S3T5Z5_PHAAN  A0A0S3T5Z5 Hexosyltransferase OS=Vigna angul...  89.7    3e-20
+TR:A0A2P6PXQ3_ROSCH  A0A2P6PXQ3 Hexosyltransferase OS=Rosa chinen...  89.7    3e-20
+TR:A0A078FF35_BRANA  A0A078FF35 Hexosyltransferase OS=Brassica na...  89.7    3e-20
+TR:V4NJU3_EUTSA  V4NJU3 Hexosyltransferase OS=Eutrema salsugineum...  89.7    3e-20
+TR:A0A1U7W2L0_NICSY  A0A1U7W2L0 Hexosyltransferase OS=Nicotiana s...  90.1    3e-20
+TR:A0A2H5P0I6_CITUN  A0A2H5P0I6 Uncharacterized protein OS=Citrus...  90.9    3e-20
+TR:A0A1D6D5Q4_WHEAT  A0A1D6D5Q4 Hexosyltransferase OS=Triticum ae...  89.7    3e-20
+TR:A0A1S4A6K6_TOBAC  A0A1S4A6K6 Hexosyltransferase OS=Nicotiana t...  90.1    3e-20
+TR:M8B9J6_AEGTA  M8B9J6 Hexosyltransferase OS=Aegilops tauschii O...  89.7    3e-20
+TR:M4CFT2_BRARP  M4CFT2 Hexosyltransferase OS=Brassica rapa subsp...  89.4    3e-20
+TR:A9SPR8_PHYPA  A9SPR8 Hexosyltransferase OS=Physcomitrella pate...  89.0    3e-20
+TR:A0A2G5E0Z0_AQUCA  A0A2G5E0Z0 Hexosyltransferase OS=Aquilegia c...  89.4    3e-20
+TR:A0A1J3HL32_NOCCA  A0A1J3HL32 Hexosyltransferase OS=Noccaea cae...  89.4    4e-20
+TR:A0A0L9TAH7_PHAAN  A0A0L9TAH7 Hexosyltransferase OS=Phaseolus a...  89.7    4e-20
+TR:A0A1U8NIV5_GOSHI  A0A1U8NIV5 Hexosyltransferase OS=Gossypium h...  89.4    4e-20
+TR:A0A1J3HSF3_NOCCA  A0A1J3HSF3 Hexosyltransferase OS=Noccaea cae...  89.4    4e-20
+TR:A0A1J3K3P4_NOCCA  A0A1J3K3P4 Hexosyltransferase OS=Noccaea cae...  89.4    4e-20
+TR:A0A1J3E788_NOCCA  A0A1J3E788 Hexosyltransferase OS=Noccaea cae...  89.4    4e-20
+TR:A0A1J3D172_NOCCA  A0A1J3D172 Hexosyltransferase OS=Noccaea cae...  89.4    4e-20
+TR:A0A067JMY0_JATCU  A0A067JMY0 Hexosyltransferase OS=Jatropha cu...  89.4    4e-20
+TR:A0A287VV54_HORVV  A0A287VV54 Hexosyltransferase OS=Hordeum vul...  87.8    4e-20
+TR:A0A287VV48_HORVV  A0A287VV48 Hexosyltransferase OS=Hordeum vul...  87.8    4e-20
+TR:A0A2K1IH88_PHYPA  A0A2K1IH88 Hexosyltransferase OS=Physcomitre...  89.0    5e-20
+TR:S8CUS3_9LAMI  S8CUS3 Hexosyltransferase (Fragment) OS=Genlisea...  89.0    5e-20
+TR:A0A0D2MPG9_GOSRA  A0A0D2MPG9 Hexosyltransferase OS=Gossypium r...  89.0    5e-20
+TR:A0A1U8PZH8_GOSHI  A0A1U8PZH8 Hexosyltransferase OS=Gossypium h...  89.0    5e-20
+TR:A0A1U8LRK0_GOSHI  A0A1U8LRK0 Hexosyltransferase OS=Gossypium h...  89.0    5e-20
+TR:A0A067KMP8_JATCU  A0A067KMP8 Hexosyltransferase OS=Jatropha cu...  89.0    5e-20
+TR:A0A0B0MKU3_GOSAR  A0A0B0MKU3 Hexosyltransferase OS=Gossypium a...  89.0    5e-20
+TR:A0A287VV36_HORVV  A0A287VV36 Hexosyltransferase OS=Hordeum vul...  87.8    7e-20
+TR:A0A078FMS1_BRANA  A0A078FMS1 Hexosyltransferase OS=Brassica na...  88.6    7e-20
+TR:I1LGA9_SOYBN  I1LGA9 Hexosyltransferase OS=Glycine max OX=3847...  88.6    7e-20
+TR:A0A1Q3AXR3_CEPFO  A0A1Q3AXR3 Hexosyltransferase OS=Cephalotus ...  88.6    7e-20
+TR:M4CUB0_BRARP  M4CUB0 Hexosyltransferase OS=Brassica rapa subsp...  88.6    7e-20
+TR:D7MSX5_ARALL  D7MSX5 Hexosyltransferase OS=Arabidopsis lyrata ...  88.2    9e-20
+TR:O49381_ARATH  O49381 Hexosyltransferase (Fragment) OS=Arabidop...  87.0    9e-20
+TR:A0A022QYD9_ERYGU  A0A022QYD9 Hexosyltransferase OS=Erythranthe...  88.2    9e-20
+TR:A0A1P8B0G1_ARATH  A0A1P8B0G1 Hexosyltransferase OS=Arabidopsis...  87.0    1e-19
+TR:R0HQ55_9BRAS  R0HQ55 Hexosyltransferase OS=Capsella rubella OX...  88.2    1e-19
+TR:A0A287VV59_HORVV  A0A287VV59 Hexosyltransferase OS=Hordeum vul...  87.8    1e-19
+TR:A0A287VVQ1_HORVV  A0A287VVQ1 Hexosyltransferase OS=Hordeum vul...  87.8    1e-19
+TR:A0A1D6CGP9_WHEAT  A0A1D6CGP9 Hexosyltransferase OS=Triticum ae...  88.2    1e-19
+TR:A0A078HCV9_BRANA  A0A078HCV9 Hexosyltransferase OS=Brassica na...  87.8    1e-19
+TR:A0A0D3DVH3_BRAOL  A0A0D3DVH3 Hexosyltransferase OS=Brassica ol...  87.8    1e-19
+TR:A0A1D1XW78_9ARAE  A0A1D1XW78 Hexosyltransferase (Fragment) OS=...  87.8    1e-19
+TR:A0A1D1YYH6_9ARAE  A0A1D1YYH6 Hexosyltransferase (Fragment) OS=...  87.8    1e-19
+TR:A0A251VGS8_HELAN  A0A251VGS8 Hexosyltransferase OS=Helianthus ...  87.8    2e-19
+TR:A0A287VV27_HORVV  A0A287VV27 Hexosyltransferase OS=Hordeum vul...  87.8    2e-19
+TR:A0A287VVE1_HORVV  A0A287VVE1 Hexosyltransferase OS=Hordeum vul...  87.8    2e-19
+TR:A0A287VVD6_HORVV  A0A287VVD6 Hexosyltransferase OS=Hordeum vul...  87.8    2e-19
+TR:A0A287VV22_HORVV  A0A287VV22 Hexosyltransferase OS=Hordeum vul...  87.8    2e-19
+TR:M5XWP2_PRUPE  M5XWP2 Hexosyltransferase OS=Prunus persica OX=3...  87.4    2e-19
+TR:R0GEA1_9BRAS  R0GEA1 Hexosyltransferase OS=Capsella rubella OX...  87.0    2e-19
+TR:S8CAU7_9LAMI  S8CAU7 Hexosyltransferase (Fragment) OS=Genlisea...  87.0    3e-19
+SP:B3GT9_ARATH  Q5XEZ1 Hydroxyproline O-galactosyltransferase HPG...  87.0    3e-19
+TR:A0A178VQX5_ARATH  A0A178VQX5 Hexosyltransferase OS=Arabidopsis...  87.0    3e-19
+TR:W8Q717_ARATH  W8Q717 Hexosyltransferase (Fragment) OS=Arabidop...  87.0    3e-19
+TR:A0A0D6R6P3_ARACU  A0A0D6R6P3 Hexosyltransferase OS=Araucaria c...  86.7    4e-19
+TR:A0A1R3J7G6_9ROSI  A0A1R3J7G6 Hexosyltransferase OS=Corchorus o...  86.7    4e-19
+TR:A0A0D3EAM5_BRAOL  A0A0D3EAM5 Hexosyltransferase OS=Brassica ol...  86.3    5e-19
+TR:I1H0I8_BRADI  I1H0I8 Hexosyltransferase OS=Brachypodium distac...  85.5    7e-19
+TR:A0A251VBH3_HELAN  A0A251VBH3 Hexosyltransferase OS=Helianthus ...  84.3    9e-19
+TR:A0A218WSX6_PUNGR  A0A218WSX6 Hexosyltransferase OS=Punica gran...  85.5    1e-18
+TR:I1H0I7_BRADI  I1H0I7 Hexosyltransferase OS=Brachypodium distac...  85.5    1e-18
+TR:A0A0C9RJ70_9SPER  A0A0C9RJ70 Hexosyltransferase OS=Wollemia no...  83.2    2e-18
+TR:A0A2P5WIF2_GOSBA  A0A2P5WIF2 Hexosyltransferase OS=Gossypium b...  84.7    2e-18
+TR:A0A0K9NK41_ZOSMR  A0A0K9NK41 Hexosyltransferase OS=Zostera mar...  84.0    3e-18
+TR:A0A067JE96_JATCU  A0A067JE96 Hexosyltransferase OS=Jatropha cu...  83.6    4e-18
+TR:V7CMG2_PHAVU  V7CMG2 Hexosyltransferase OS=Phaseolus vulgaris ...  84.0    4e-18
+TR:A0A1E5V0W8_9POAL  A0A1E5V0W8 Hexosyltransferase (Fragment) OS=...  81.6    4e-18
+TR:A0A1U8I4P5_GOSHI  A0A1U8I4P5 Hexosyltransferase OS=Gossypium h...  82.8    5e-18
+TR:A0A1S3VNZ5_VIGRR  A0A1S3VNZ5 Hexosyltransferase OS=Vigna radia...  83.6    5e-18
+TR:A0A1S3VPL6_VIGRR  A0A1S3VPL6 Hexosyltransferase OS=Vigna radia...  83.6    5e-18
+TR:A0A0D2NVZ2_GOSRA  A0A0D2NVZ2 Hexosyltransferase OS=Gossypium r...  82.8    6e-18
+TR:A0A1Y1IJ07_KLENI  A0A1Y1IJ07 Hexosyltransferase OS=Klebsormidi...  83.6    6e-18
+TR:A0A0D2QDZ8_GOSRA  A0A0D2QDZ8 Hexosyltransferase OS=Gossypium r...  82.8    6e-18
+TR:A0A2K1ITT8_PHYPA  A0A2K1ITT8 Hexosyltransferase OS=Physcomitre...  83.2    7e-18
+TR:A0A0D2S6Z6_GOSRA  A0A0D2S6Z6 Hexosyltransferase OS=Gossypium r...  82.8    1e-17
+TR:A0A1U8I3B9_GOSHI  A0A1U8I3B9 Hexosyltransferase OS=Gossypium h...  82.8    1e-17
+TR:A9T1X8_PHYPA  A9T1X8 Hexosyltransferase OS=Physcomitrella pate...  82.4    1e-17
+TR:A0A0B0NSA8_GOSAR  A0A0B0NSA8 Hexosyltransferase OS=Gossypium a...  83.2    1e-17
+TR:A0A1U8IDS6_GOSHI  A0A1U8IDS6 Hexosyltransferase OS=Gossypium h...  81.3    2e-17
+TR:A0A1U8I8P1_GOSHI  A0A1U8I8P1 Hexosyltransferase OS=Gossypium h...  81.3    2e-17
+TR:A0A1U8I8C3_GOSHI  A0A1U8I8C3 Hexosyltransferase OS=Gossypium h...  81.3    2e-17
+TR:A0A1U8I893_GOSHI  A0A1U8I893 Hexosyltransferase OS=Gossypium h...  81.3    2e-17
+TR:M0TNP5_MUSAM  M0TNP5 Hexosyltransferase OS=Musa acuminata subs...  81.3    5e-17
+TR:A0A1U8IL68_GOSHI  A0A1U8IL68 Hexosyltransferase OS=Gossypium h...  80.9    5e-17
+TR:A0A2K3N4N5_TRIPR  A0A2K3N4N5 Hexosyltransferase (Fragment) OS=...  75.5    2e-16
+TR:A0A1U8I8P6_GOSHI  A0A1U8I8P6 Hexosyltransferase OS=Gossypium h...  75.5    2e-15
+TR:A0A287G001_HORVV  A0A287G001 Hexosyltransferase OS=Hordeum vul...  73.2    1e-14
+TR:M8ANR4_AEGTA  M8ANR4 Hexosyltransferase OS=Aegilops tauschii O...  73.2    3e-14
+TR:A0A0E0L2U3_ORYPU  A0A0E0L2U3 Hexosyltransferase OS=Oryza punct...  73.6    3e-14
+TR:A0A0E0L2U2_ORYPU  A0A0E0L2U2 Uncharacterized protein OS=Oryza ...  73.6    3e-14
+TR:A0A0D9WGS6_9ORYZ  A0A0D9WGS6 Uncharacterized protein OS=Leersi...  73.6    3e-14
+TR:A0A0D9WGS5_9ORYZ  A0A0D9WGS5 Uncharacterized protein OS=Leersi...  73.6    3e-14
+TR:D8R8Z1_SELML  D8R8Z1 Hexosyltransferase (Fragment) OS=Selagine...  72.4    3e-14
+TR:A0A1D5RY59_WHEAT  A0A1D5RY59 Hexosyltransferase OS=Triticum ae...  73.2    4e-14
+TR:M7ZCQ7_TRIUA  M7ZCQ7 Hexosyltransferase OS=Triticum urartu OX=...  73.2    4e-14
+TR:A0A2K2DA93_BRADI  A0A2K2DA93 Hexosyltransferase OS=Brachypodiu...  73.2    4e-14
+TR:A0A1D5S8E7_WHEAT  A0A1D5S8E7 Hexosyltransferase OS=Triticum ae...  73.2    4e-14
+TR:A0A1D5RY58_WHEAT  A0A1D5RY58 Hexosyltransferase OS=Triticum ae...  73.2    4e-14
+TR:A0A1D5T029_WHEAT  A0A1D5T029 Hexosyltransferase OS=Triticum ae...  73.2    4e-14
+TR:A0A287G004_HORVV  A0A287G004 Hexosyltransferase OS=Hordeum vul...  73.2    4e-14
+TR:I1HJ66_BRADI  I1HJ66 Hexosyltransferase OS=Brachypodium distac...  73.2    4e-14
+TR:A0A0D9ZZH3_9ORYZ  A0A0D9ZZH3 Hexosyltransferase OS=Oryza glumi...  72.0    5e-14
+TR:A0A1B6P8R2_SORBI  A0A1B6P8R2 Hexosyltransferase OS=Sorghum bic...  72.8    5e-14
+TR:A0A0E0DRN8_9ORYZ  A0A0E0DRN8 Hexosyltransferase OS=Oryza merid...  72.4    7e-14
+TR:A0A0E0DRP2_9ORYZ  A0A0E0DRP2 Hexosyltransferase OS=Oryza merid...  72.4    7e-14
+TR:A0A0D2QLG2_GOSRA  A0A0D2QLG2 Hexosyltransferase OS=Gossypium r...  72.0    8e-14
+TR:A0A0E0DRP0_9ORYZ  A0A0E0DRP0 Uncharacterized protein OS=Oryza ...  72.4    8e-14
+TR:A0A0P0WMK9_ORYSJ  A0A0P0WMK9 Hexosyltransferase (Fragment) OS=...  72.0    1e-13
+TR:J3M7D8_ORYBR  J3M7D8 Hexosyltransferase OS=Oryza brachyantha O...  72.0    1e-13
+TR:B8AYH6_ORYSI  B8AYH6 Hexosyltransferase OS=Oryza sativa subsp....  72.0    1e-13
+TR:A0A0E0HEU0_ORYNI  A0A0E0HEU0 Hexosyltransferase OS=Oryza nivar...  72.0    1e-13
+TR:I1PVU6_ORYGL  I1PVU6 Hexosyltransferase OS=Oryza glaberrima OX...  72.0    1e-13
+TR:A0A0D9ZZH2_9ORYZ  A0A0D9ZZH2 Hexosyltransferase OS=Oryza glumi...  72.0    1e-13
+TR:Q0DI03_ORYSJ  Q0DI03 Hexosyltransferase OS=Oryza sativa subsp....  72.0    1e-13
+TR:A0A0D3G7X0_9ORYZ  A0A0D3G7X0 Hexosyltransferase OS=Oryza barth...  72.0    1e-13
+TR:M0RSC4_MUSAM  M0RSC4 Hexosyltransferase OS=Musa acuminata subs...  72.0    1e-13
+TR:Q60EB2_ORYSJ  Q60EB2 Hexosyltransferase OS=Oryza sativa subsp....  72.0    1e-13
+TR:A0A0K9PU65_ZOSMR  A0A0K9PU65 Hexosyltransferase OS=Zostera mar...  72.0    1e-13
+TR:A0A0P0WMP1_ORYSJ  A0A0P0WMP1 Hexosyltransferase (Fragment) OS=...  72.0    1e-13
+TR:A0A287X2X9_HORVV  A0A287X2X9 Hexosyltransferase OS=Hordeum vul...  70.9    1e-13
+TR:A0A0D9ZZH1_9ORYZ  A0A0D9ZZH1 Hexosyltransferase OS=Oryza glumi...  72.0    1e-13
+TR:W9S0U7_9ROSA  W9S0U7 Hexosyltransferase OS=Morus notabilis OX=...  72.0    1e-13
+TR:A0A0D3G7W9_9ORYZ  A0A0D3G7W9 Hexosyltransferase OS=Oryza barth...  72.0    1e-13
+TR:A0A0E0PMT1_ORYRU  A0A0E0PMT1 Uncharacterized protein OS=Oryza ...  72.0    1e-13
+TR:Q75HQ8_ORYSJ  Q75HQ8 Putative galactosyltransferase OS=Oryza s...  72.0    1e-13
+TR:A0A0E0HET9_ORYNI  A0A0E0HET9 Uncharacterized protein OS=Oryza ...  72.0    1e-13
+TR:A0A0D9ZZH0_9ORYZ  A0A0D9ZZH0 Uncharacterized protein OS=Oryza ...  72.0    1e-13
+TR:A0A251VE39_HELAN  A0A251VE39 Hexosyltransferase OS=Helianthus ...  71.6    1e-13
+TR:A0A2I0VM30_9ASPA  A0A2I0VM30 Hexosyltransferase OS=Dendrobium ...  71.6    1e-13
+TR:A0A1S3Z9X9_TOBAC  A0A1S3Z9X9 Hexosyltransferase OS=Nicotiana t...  71.6    1e-13
+TR:A0A2I0K874_PUNGR  A0A2I0K874 Hexosyltransferase OS=Punica gran...  68.2    2e-13
+TR:A0A2I4ETC9_9ROSI  A0A2I4ETC9 Hexosyltransferase OS=Juglans reg...  71.2    2e-13
+TR:A0A2H3YRZ0_PHODC  A0A2H3YRZ0 Hexosyltransferase OS=Phoenix dac...  71.2    2e-13
+
+
+>TR:A0A1D6Q0N1_MAIZE A0A1D6Q0N1 Hexosyltransferase OS=Zea mays OX=4577 GN=100217131 
+PE=3 SV=1
+Length=228
+
+ Score = 141 bits (356),  Expect = 3e-41
+ Identities = 69/80 (86%), Positives = 73/80 (91%), Gaps = 0/80 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  139  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAANTFDAAFYA  198
+
+Query  62   KVNDDIYINVGXVLSVNFEG  81
+            KVNDDIYINVG    +N  G
+Sbjct  199  KVNDDIYINVGMCHLLNLMG  218
+
+
+>TR:A0A1D6KPK1_MAIZE A0A1D6KPK1 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=162
+
+ Score = 139 bits (349),  Expect = 5e-41
+ Identities = 68/87 (78%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  72   VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  131
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYEWFAF  88
+            KVNDDIYINVG    +   G      F
+Sbjct  132  KVNDDIYINVGMCHVLTLRGSISGLCF  158
+
+
+>TR:A0A1D6KPK5_MAIZE A0A1D6KPK5 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=252
+
+ Score = 139 bits (349),  Expect = 6e-40
+ Identities = 68/87 (78%), Positives = 73/87 (84%), Gaps = 0/87 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  221
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYEWFAF  88
+            KVNDDIYINVG    +   G      F
+Sbjct  222  KVNDDIYINVGMCHVLTLRGSISGLCF  248
+
+
+>TR:B4FLJ8_MAIZE B4FLJ8 Hexosyltransferase OS=Zea mays OX=4577 PE=2 SV=1
+Length=222
+
+ Score = 137 bits (346),  Expect = 8e-40
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  38   VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAANTFDAAFYA  97
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  98   KVNDDIYINV  107
+
+
+>TR:A0A2T7D6T6_9POAL A0A2T7D6T6 Hexosyltransferase OS=Panicum hallii var. hallii OX=1504633 
+GN=GQ55_6G173100 PE=3 SV=1
+Length=264
+
+ Score = 137 bits (346),  Expect = 2e-39
+ Identities = 68/80 (85%), Positives = 71/80 (89%), Gaps = 0/80 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFD EID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  IVGRSANRGDTFDSEIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFDAAFYA  221
+
+Query  62   KVNDDIYINVGXVLSVNFEG  81
+            KVNDDIYINV     +N  G
+Sbjct  222  KVNDDIYINVEPTSGMNQTG  241
+
+
+>TR:K3YIM9_SETIT K3YIM9 Hexosyltransferase OS=Setaria italica OX=4555 GN=LOC101768586 
+PE=3 SV=1
+Length=322
+
+ Score = 137 bits (345),  Expect = 1e-38
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFDREID+ENRST+DFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  IVGRSANRGDTFDREIDDENRSTRDFLILDDHIESDEELPKKTKSFFANAAETFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:K7UUH3_MAIZE K7UUH3 Hexosyltransferase OS=Zea mays OX=4577 GN=100217131 PE=3 
+SV=1
+Length=346
+
+ Score = 137 bits (346),  Expect = 1e-38
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAANTFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A1D6Q0N0_MAIZE A0A1D6Q0N0 Hexosyltransferase OS=Zea mays OX=4577 GN=100217131 
+PE=3 SV=1
+Length=353
+
+ Score = 137 bits (346),  Expect = 2e-38
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAANTFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:K3YIE8_SETIT K3YIE8 Hexosyltransferase OS=Setaria italica OX=4555 GN=LOC101768586 
+PE=3 SV=1
+Length=346
+
+ Score = 137 bits (345),  Expect = 2e-38
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFDREID+ENRST+DFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  IVGRSANRGDTFDREIDDENRSTRDFLILDDHIESDEELPKKTKSFFANAAETFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A1D6Q0M9_MAIZE A0A1D6Q0M9 Hexosyltransferase OS=Zea mays OX=4577 GN=100217131 
+PE=3 SV=1
+Length=375
+
+ Score = 137 bits (346),  Expect = 3e-38
+ Identities = 66/70 (94%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  224  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAANTFDAAFYA  283
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  284  KVNDDIYINV  293
+
+
+>TR:C5YKM2_SORBI C5YKM2 Hexosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3007G118500 
+PE=3 SV=1
+Length=346
+
+ Score = 137 bits (344),  Expect = 3e-38
+ Identities = 66/70 (94%), Positives = 68/70 (97%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREIDEENRST+DFLILDDH ESDEE PKKTKSFFANAADTFDAAFYA
+Sbjct  162  VVGRSANRGDTFDREIDEENRSTRDFLILDDHIESDEEHPKKTKSFFANAADTFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A287WQ22_HORVV A0A287WQ22 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=122
+
+ Score = 130 bits (327),  Expect = 3e-38
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2   IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+           IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  23  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  82
+
+Query  62  KVNDDIYINV  71
+           KVNDDIYINV
+Sbjct  83  KVNDDIYINV  92
+
+
+>TR:A0A1D6KPK6_MAIZE A0A1D6KPK6 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=345
+
+ Score = 136 bits (342),  Expect = 6e-38
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A2S3I235_9POAL A0A2S3I235 Hexosyltransferase OS=Panicum hallii OX=206008 GN=PAHAL_6G180400 
+PE=3 SV=1
+Length=346
+
+ Score = 136 bits (342),  Expect = 6e-38
+ Identities = 66/70 (94%), Positives = 68/70 (97%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFD EID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  IVGRSANRGDTFDSEIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A2T7D6V2_9POAL A0A2T7D6V2 Hexosyltransferase OS=Panicum hallii var. hallii OX=1504633 
+GN=GQ55_6G173100 PE=3 SV=1
+Length=346
+
+ Score = 136 bits (342),  Expect = 6e-38
+ Identities = 66/70 (94%), Positives = 68/70 (97%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFD EID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TFDAAFYA
+Sbjct  162  IVGRSANRGDTFDSEIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFDAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:B6TEC2_MAIZE B6TEC2 Hexosyltransferase OS=Zea mays OX=4577 PE=2 SV=1
+Length=346
+
+ Score = 136 bits (342),  Expect = 6e-38
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:C0P552_MAIZE C0P552 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 PE=2 
+SV=1
+Length=346
+
+ Score = 136 bits (342),  Expect = 6e-38
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A1D6KPK2_MAIZE A0A1D6KPK2 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=354
+
+ Score = 136 bits (342),  Expect = 7e-38
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  222  KVNDDIYINV  231
+
+
+>TR:A0A1D6KPJ7_MAIZE A0A1D6KPJ7 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=358
+
+ Score = 136 bits (342),  Expect = 7e-38
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  172  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  231
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  232  KVNDDIYINV  241
+
+
+>TR:A0A1D6KPK0_MAIZE A0A1D6KPK0 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=383
+
+ Score = 136 bits (342),  Expect = 1e-37
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  172  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  231
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  232  KVNDDIYINV  241
+
+
+>TR:A0A1D6KPJ9_MAIZE A0A1D6KPJ9 Hexosyltransferase OS=Zea mays OX=4577 GN=100283067 
+PE=3 SV=1
+Length=406
+
+ Score = 136 bits (342),  Expect = 2e-37
+ Identities = 65/70 (93%), Positives = 69/70 (99%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGDTFDREID+ENRSTKDFLILDDH ESDEELPKKTKSFFANAA+TF+AAFYA
+Sbjct  195  VVGRSANRGDTFDREIDDENRSTKDFLILDDHIESDEELPKKTKSFFANAAETFNAAFYA  254
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  255  KVNDDIYINV  264
+
+
+>TR:M0V0I8_HORVV M0V0I8 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=196
+
+ Score = 130 bits (327),  Expect = 3e-37
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2   IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+           IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  21  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  80
+
+Query  62  KVNDDIYINV  71
+           KVNDDIYINV
+Sbjct  81  KVNDDIYINV  90
+
+
+>TR:I1I6N8_BRADI I1I6N8 Hexosyltransferase OS=Brachypodium distachyon OX=15368 
+GN=LOC100821629 PE=3 SV=1
+Length=313
+
+ Score = 132 bits (331),  Expect = 1e-36
+ Identities = 63/70 (90%), Positives = 67/70 (96%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFDREID+EN+ TKDFLILDDH ESDEELPKKTKS+FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDTFDREIDDENKITKDFLILDDHIESDEELPKKTKSYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A287WPQ8_HORVV A0A287WPQ8 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=256
+
+ Score = 130 bits (327),  Expect = 1e-36
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  72   IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  131
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  132  KVNDDIYINV  141
+
+
+>TR:A0A287WPV2_HORVV A0A287WPV2 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=260
+
+ Score = 130 bits (327),  Expect = 1e-36
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:I1I6N7_BRADI I1I6N7 Hexosyltransferase OS=Brachypodium distachyon OX=15368 
+GN=LOC100821629 PE=3 SV=1
+Length=345
+
+ Score = 132 bits (331),  Expect = 2e-36
+ Identities = 63/70 (90%), Positives = 67/70 (96%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGDTFDREID+EN+ TKDFLILDDH ESDEELPKKTKS+FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDTFDREIDDENKITKDFLILDDHIESDEELPKKTKSYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A287WQ24_HORVV A0A287WQ24 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=312
+
+ Score = 130 bits (327),  Expect = 5e-36
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  128  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  187
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  188  KVNDDIYINV  197
+
+
+>TR:A0A287WPV7_HORVV A0A287WPV7 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=345
+
+ Score = 130 bits (327),  Expect = 1e-35
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A287WPS5_HORVV A0A287WPS5 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=345
+
+ Score = 130 bits (327),  Expect = 1e-35
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A287WPS1_HORVV A0A287WPS1 Hexosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=346
+
+ Score = 130 bits (327),  Expect = 1e-35
+ Identities = 62/70 (89%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDHTESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVILDDHTESDEELPKKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A1D6DHQ8_WHEAT A0A1D6DHQ8 Hexosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=345
+
+ Score = 128 bits (321),  Expect = 7e-35
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ILDDH ESDEELPKKTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVILDDHIESDEELPKKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  221  KVNDDIYINV  230
+
+
+>TR:A0A0E0EL82_9ORYZ A0A0E0EL82 Hexosyltransferase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=323
+
+ Score = 127 bits (319),  Expect = 9e-35
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:Q8L6H3_ORYSA Q8L6H3 Hexosyltransferase OS=Oryza sativa OX=4530 GN=b3gt1 PE=2 
+SV=1
+Length=323
+
+ Score = 127 bits (319),  Expect = 9e-35
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  140  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  199
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  200  KVNDDIYINV  209
+
+
+>TR:A0A0E0QIG1_ORYRU A0A0E0QIG1 Hexosyltransferase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=325
+
+ Score = 127 bits (319),  Expect = 1e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0EL81_9ORYZ A0A0E0EL81 Hexosyltransferase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=326
+
+ Score = 127 bits (319),  Expect = 1e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0QIG0_ORYRU A0A0E0QIG0 Hexosyltransferase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=326
+
+ Score = 127 bits (319),  Expect = 1e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A1D6C6Y7_WHEAT A0A1D6C6Y7 Hexosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=255
+
+ Score = 125 bits (314),  Expect = 1e-34
+ Identities = 59/71 (83%), Positives = 64/71 (90%), Gaps = 0/71 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSANRGD FDREID+ENRST DF+ +DDH ESDEELP KTK +FANAA+TFDA FYA
+Sbjct  161  IVGRSANRGDRFDREIDDENRSTNDFVTMDDHIESDEELPMKTKRYFANAAETFDAEFYA  220
+
+Query  62   KVNDDIYINVG  72
+            KVNDDIYINVG
+Sbjct  221  KVNDDIYINVG  231
+
+
+>TR:B9G0Q0_ORYSJ B9G0Q0 Hexosyltransferase OS=Oryza sativa subsp. japonica OX=39947 
+GN=OsJ_27160 PE=3 SV=1
+Length=343
+
+ Score = 127 bits (319),  Expect = 1e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:Q6ZA16_ORYSJ Q6ZA16 Hexosyltransferase OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os08g0386700 PE=3 SV=1
+Length=343
+
+ Score = 127 bits (319),  Expect = 1e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0AIH6_9ORYZ A0A0E0AIH6 Hexosyltransferase OS=Oryza glumipatula OX=40148 PE=3 
+SV=1
+Length=349
+
+ Score = 127 bits (319),  Expect = 2e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:J3MSQ7_ORYBR J3MSQ7 Hexosyltransferase OS=Oryza brachyantha OX=4533 GN=102706220 
+PE=3 SV=1
+Length=324
+
+ Score = 126 bits (317),  Expect = 2e-34
+ Identities = 60/70 (86%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSAN+GD  DREIDEENRSTKDF+ILDDH ESDEE PKKT+SFFANAAD+FDA FYA
+Sbjct  140  VVGRSANQGDASDREIDEENRSTKDFMILDDHIESDEESPKKTRSFFANAADSFDAEFYA  199
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  200  KVNDDIYINV  209
+
+
+>TR:A0A0D9X7H3_9ORYZ A0A0D9X7H3 Hexosyltransferase OS=Leersia perrieri OX=77586 PE=3 
+SV=1
+Length=381
+
+ Score = 127 bits (320),  Expect = 2e-34
+ Identities = 61/70 (87%), Positives = 66/70 (94%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRSAN+GDT DREIDEENRSTKDF+ILDDH ES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  158  IVGRSANQGDTLDREIDEENRSTKDFMILDDHIESEEESPKKTKSFFANAAESFDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  218  KVNDDIYINV  227
+
+
+>TR:B8BAC0_ORYSI B8BAC0 Hexosyltransferase OS=Oryza sativa subsp. indica OX=39946 
+GN=OsI_29085 PE=3 SV=1
+Length=372
+
+ Score = 127 bits (319),  Expect = 2e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0IBD4_ORYNI A0A0E0IBD4 Hexosyltransferase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=377
+
+ Score = 127 bits (319),  Expect = 3e-34
+ Identities = 61/70 (87%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0LUJ3_ORYPU A0A0E0LUJ3 Hexosyltransferase OS=Oryza punctata OX=4537 PE=3 
+SV=1
+Length=325
+
+ Score = 125 bits (315),  Expect = 4e-34
+ Identities = 60/70 (86%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS N+GD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNQGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0E0LUJ2_ORYPU A0A0E0LUJ2 Hexosyltransferase OS=Oryza punctata OX=4537 PE=3 
+SV=1
+Length=326
+
+ Score = 125 bits (315),  Expect = 4e-34
+ Identities = 60/70 (86%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS N+GD  DREIDEENRSTKDF+ILDDHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNQGDASDREIDEENRSTKDFMILDDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:I1QIB4_ORYGL I1QIB4 Hexosyltransferase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=343
+
+ Score = 125 bits (314),  Expect = 8e-34
+ Identities = 60/70 (86%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+IL+DHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILNDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A0D3GZU1_9ORYZ A0A0D3GZU1 Hexosyltransferase OS=Oryza barthii OX=65489 PE=3 
+SV=1
+Length=398
+
+ Score = 125 bits (314),  Expect = 2e-33
+ Identities = 60/70 (86%), Positives = 65/70 (93%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            IVGRS NRGD  DREIDEENRSTKDF+IL+DHTES+EE PKKTKSFFANAA++FDA FYA
+Sbjct  159  IVGRSVNRGDASDREIDEENRSTKDFMILNDHTESEEESPKKTKSFFANAAESFDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYINV
+Sbjct  219  KVNDDIYINV  228
+
+
+>TR:A0A2H3ZQB2_PHODC A0A2H3ZQB2 Hexosyltransferase OS=Phoenix dactylifera OX=42345 
+GN=LOC103708359 PE=3 SV=1
+Length=286
+
+ Score = 114 bits (286),  Expect = 3e-30
+ Identities = 51/70 (73%), Positives = 62/70 (89%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+FDR ID+ENR TKDFLILD+H E+ EE PKKTK FFA+AADT+DA FYA
+Sbjct  158  VIGRSANRGDSFDRAIDDENRHTKDFLILDNHIETSEECPKKTKLFFAHAADTWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KV DD+Y+N+
+Sbjct  218  KVKDDVYVNI  227
+
+
+>TR:A0A2I0VFU6_9ASPA A0A2I0VFU6 Hexosyltransferase OS=Dendrobium catenatum OX=906689 
+GN=B3GALT11 PE=3 SV=1
+Length=342
+
+ Score = 115 bits (289),  Expect = 4e-30
+ Identities = 52/70 (74%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR+IDEEN++TKDFLILDDH E+ EELPKKTK FF +AAD +DA FYA
+Sbjct  158  VVGRSANRGDSMDRDIDEENKNTKDFLILDDHVEASEELPKKTKLFFVHAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVND+IY+N+
+Sbjct  218  KVNDNIYVNI  227
+
+
+>TR:A0A199VMS9_ANACO A0A199VMS9 Hexosyltransferase OS=Ananas comosus OX=4615 GN=ACMD2_20913 
+PE=3 SV=1
+Length=342
+
+ Score = 115 bits (287),  Expect = 7e-30
+ Identities = 54/82 (66%), Positives = 70/82 (85%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            I+GRSANRGD+FDREIDEEN+ TKDF+ILD+H E+ EE PKKTK FFA+AA+T DA FYA
+Sbjct  158  IIGRSANRGDSFDREIDEENKYTKDFIILDNHIEASEEHPKKTKIFFAHAAETIDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLSVNFE  80
+            KVNDD+Y+N   +G +L+ +++
+Sbjct  218  KVNDDLYVNTDALGAMLATHWD  239
+
+
+>TR:A0A2H3Y0G5_PHODC A0A2H3Y0G5 Hexosyltransferase OS=Phoenix dactylifera OX=42345 
+GN=LOC103708359 PE=3 SV=1
+Length=342
+
+ Score = 114 bits (286),  Expect = 1e-29
+ Identities = 51/70 (73%), Positives = 62/70 (89%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+FDR ID+ENR TKDFLILD+H E+ EE PKKTK FFA+AADT+DA FYA
+Sbjct  158  VIGRSANRGDSFDRAIDDENRHTKDFLILDNHIETSEECPKKTKLFFAHAADTWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KV DD+Y+N+
+Sbjct  218  KVKDDVYVNI  227
+
+
+>TR:A0A1U8A4Y2_NELNU A0A1U8A4Y2 Hexosyltransferase OS=Nelumbo nucifera OX=4432 GN=LOC104600296 
+PE=3 SV=1
+Length=342
+
+ Score = 112 bits (281),  Expect = 5e-29
+ Identities = 48/70 (69%), Positives = 63/70 (90%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+ID+ENR T DF+ILD+H E+ EE+PKKTK FFA+AADT++A FYA
+Sbjct  158  VIGRSANRGDSMDRDIDKENRQTNDFIILDNHVEAPEEIPKKTKFFFAHAADTWEAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A1D6Q0M8_MAIZE A0A1D6Q0M8 Hexosyltransferase OS=Zea mays OX=4577 GN=100217131 
+PE=3 SV=1
+Length=406
+
+ Score = 113 bits (282),  Expect = 9e-29
+ Identities = 66/123 (54%), Positives = 69/123 (56%), Gaps = 53/123 (43%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLIL-------------------------------  30
+            +VGRSANRGDTFDREID+ENRSTKDFLIL                               
+Sbjct  162  VVGRSANRGDTFDREIDDENRSTKDFLILVSLIEQLILHYYVDGFNDNIVLCIFYALCLM  221
+
+Query  31   ----------------------DDHTESDEELPKKTKSFFANAADTFDAAFYAKVNDDIY  68
+                                  DDH ESDEELPKKTKSFFANAA+TFDAAFYAKVNDDIY
+Sbjct  222  LIEDSFTLVVLVYPYMCTVALQDDHIESDEELPKKTKSFFANAANTFDAAFYAKVNDDIY  281
+
+Query  69   INV  71
+            INV
+Sbjct  282  INV  284
+
+
+>TR:A0A1D1XSL5_9ARAE A0A1D1XSL5 Hexosyltransferase OS=Anthurium amnicola OX=1678845 
+GN=B3GALT11_1 PE=3 SV=1
+Length=342
+
+ Score = 109 bits (273),  Expect = 8e-28
+ Identities = 47/70 (67%), Positives = 60/70 (86%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR +D+EN+   DFLILD+H E+ EELPKKTK FF++AADT+DA FY 
+Sbjct  158  VIGRSANRGDSLDRAVDDENKKNNDFLILDNHVEASEELPKKTKLFFSHAADTWDAEFYG  217
+
+Query  62   KVNDDIYINV  71
+            KVNDDIY+N+
+Sbjct  218  KVNDDIYVNI  227
+
+
+>TR:W9R5K5_9ROSA W9R5K5 Hexosyltransferase OS=Morus notabilis OX=981085 GN=L484_011478 
+PE=3 SV=1
+Length=347
+
+ Score = 108 bits (270),  Expect = 2e-27
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD FDR ID ENR T DF+ILD H E+ EE PKK K FFA+AAD +DA FYA
+Sbjct  160  VIGRSANRGDQFDRAIDNENRKTNDFIILDKHVEAPEEFPKKAKLFFAHAADKWDAEFYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>TR:W1PA71_AMBTC W1PA71 Hexosyltransferase (Fragment) OS=Amborella trichopoda 
+OX=13333 GN=AMTR_s00075p00098720 PE=3 SV=1
+Length=335
+
+ Score = 107 bits (268),  Expect = 4e-27
+ Identities = 49/70 (70%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            I+GRSANRGD+ DR IDEEN  T DFLIL+DH E  EEL KKTK FF +AADT+D+ FYA
+Sbjct  158  IIGRSANRGDSLDRAIDEENSKTNDFLILEDHVEVSEELSKKTKKFFVSAADTWDSDFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNL  227
+
+
+>TR:A0A2P5BMP6_PARAD A0A2P5BMP6 Hexosyltransferase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_225090 PE=3 SV=1
+Length=342
+
+ Score = 107 bits (268),  Expect = 4e-27
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD FDR I+ ENR T DF+ILDDH E+ EE PKK K FFA AAD +DA FYA
+Sbjct  158  VIGRSANRGDQFDRAIESENRKTNDFVILDDHVEAPEEYPKKAKLFFAYAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:E0CUK3_VITVI E0CUK3 Hexosyltransferase OS=Vitis vinifera OX=29760 GN=VIT_16s0050g02460 
+PE=3 SV=1
+Length=342
+
+ Score = 107 bits (268),  Expect = 4e-27
+ Identities = 48/76 (63%), Positives = 63/76 (83%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            I+GRSAN+GD+ DR I  ENR T DF+IL+DH E+ EELPKKTK FFA+AAD +DA FYA
+Sbjct  158  IIGRSANQGDSLDRAIINENRQTNDFIILNDHVEAPEELPKKTKLFFAHAADNWDAEFYA  217
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVNDD+Y+N+  ++++
+Sbjct  218  KVNDDVYVNIDALVTM  233
+
+
+>TR:A0A2P5FGI8_9ROSA A0A2P5FGI8 Hexosyltransferase OS=Trema orientalis OX=63057 GN=TorRG33x02_072860 
+PE=3 SV=1
+Length=342
+
+ Score = 107 bits (268),  Expect = 4e-27
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD FDR I+ ENR T DF+ILDDH E+ EE PKK K FFA AAD +DA FYA
+Sbjct  158  VIGRSANRGDQFDRAIESENRKTNDFVILDDHVEAPEEYPKKAKLFFAYAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2H3YH56_PHODC A0A2H3YH56 Hexosyltransferase OS=Phoenix dactylifera OX=42345 
+GN=LOC103713488 PE=3 SV=1
+Length=344
+
+ Score = 107 bits (268),  Expect = 4e-27
+ Identities = 50/82 (61%), Positives = 66/82 (80%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+FD  ID+EN  TKD +ILD+H E  EE PKKTK FFA+AADT+DA FYA
+Sbjct  158  VIGRSANRGDSFDGAIDDENMHTKDIIILDNHIEVPEERPKKTKRFFAHAADTWDAEFYA  217
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVNDD+Y+N+   G +L+ +++
+Sbjct  218  KVNDDVYVNIDALGAMLATHWD  239
+
+
+>TR:A0A2P4MDR8_QUESU A0A2P4MDR8 Hexosyltransferase OS=Quercus suber OX=58331 GN=CFP56_35335 
+PE=3 SV=1
+Length=342
+
+ Score = 107 bits (266),  Expect = 8e-27
+ Identities = 46/70 (66%), Positives = 60/70 (86%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D+ +D E+R   DF+ILD+H E+DEELPKKTK FFA+AAD +DA FYA
+Sbjct  158  VIGRSANRGDSSDKSVDIESRQNNDFIILDNHVEADEELPKKTKLFFAHAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A1J7GC80_LUPAN A0A1J7GC80 Hexosyltransferase OS=Lupinus angustifolius OX=3871 
+GN=TanjilG_14079 PE=3 SV=1
+Length=336
+
+ Score = 106 bits (265),  Expect = 1e-26
+ Identities = 48/70 (69%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  D++ID ENR T DFLILDDH E++E L KK K FFA+AAD +DA FYA
+Sbjct  152  VIGRSANRGDNLDKDIDHENRLTNDFLILDDHVETEEGLSKKAKLFFAHAADKWDAEFYA  211
+
+Query  62   KVNDDIYINV  71
+            KVNDD+YIN+
+Sbjct  212  KVNDDVYINI  221
+
+
+>TR:A5APR4_VITVI A5APR4 Hexosyltransferase OS=Vitis vinifera OX=29760 GN=VITISV_019168 
+PE=3 SV=1
+Length=363
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 48/70 (69%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            I+GRSAN+GD+ DR I  ENR T DF+IL+DH E+ EELPKKTK FFA+AAD +DA FYA
+Sbjct  155  IIGRSANQGDSLDRAIINENRQTNDFIILNDHVEAPEELPKKTKLFFAHAADNWDAEFYA  214
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  215  KVNDDVYVNI  224
+
+
+>TR:A0A2I4H7F3_9ROSI A0A2I4H7F3 Hexosyltransferase OS=Juglans regia OX=51240 GN=LOC109014175 
+PE=3 SV=1
+Length=276
+
+ Score = 104 bits (260),  Expect = 2e-26
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ D+ ID ENR   DF+ILD+H E+ EELPKK K FF++AAD +DA FYA
+Sbjct  158  VVGRSANRGDSLDKSIDSENRQHNDFIILDNHVEAAEELPKKAKLFFSHAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:V4VJ35_9ROSI V4VJ35 Hexosyltransferase OS=Citrus clementina OX=85681 GN=CICLE_v10020783mg 
+PE=3 SV=1
+Length=360
+
+ Score = 106 bits (264),  Expect = 2e-26
+ Identities = 46/71 (65%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+FD EID EN  T DF+ILDDH E+ EEL KK KSFF +A + +DA FY 
+Sbjct  158  VIGRSANRGDSFDTEIDSENSQTNDFIILDDHVEAPEELAKKMKSFFVHAVEKWDAEFYT  217
+
+Query  62   KVNDDIYINVG  72
+            KVNDD+Y+N+G
+Sbjct  218  KVNDDVYVNIG  228
+
+
+>TR:M0SK11_MUSAM M0SK11 Hexosyltransferase OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103980392 PE=3 SV=1
+Length=337
+
+ Score = 105 bits (262),  Expect = 3e-26
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN+GD  DREID+EN  TKDF++LD+H E+ EE PKKTK F   AADT+DA FYA
+Sbjct  153  VIGRSANQGDGLDREIDDENSQTKDFIVLDNHVEASEEGPKKTKLFLVYAADTWDAEFYA  212
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  213  KVNDDVYVNI  222
+
+
+>TR:A0A058ZYR0_EUCGR A0A058ZYR0 Hexosyltransferase OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_K00317 PE=3 SV=1
+Length=339
+
+ Score = 105 bits (262),  Expect = 3e-26
+ Identities = 46/75 (61%), Positives = 60/75 (80%), Gaps = 0/75 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN+GD+ D  ID ENR T DF+ILDDH E+ EE PKK K FFA+AA+T+DA FYA
+Sbjct  155  VIGRSANKGDSLDGAIDSENRQTNDFIILDDHVEAPEETPKKAKLFFAHAAETWDAEFYA  214
+
+Query  62   KVNDDIYINVGXVLS  76
+            KV DD+Y+N+  +L+
+Sbjct  215  KVKDDVYVNIDALLT  229
+
+
+>TR:A0A2K2B6M5_POPTR A0A2K2B6M5 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_003G136000v3 PE=3 SV=1
+Length=256
+
+ Score = 103 bits (257),  Expect = 4e-26
+ Identities = 47/82 (57%), Positives = 62/82 (76%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DREID ENR T DF++LD   E+ EE PKK+K FF +A +T+DA FYA
+Sbjct  72   VIGRSANRGDSLDREIDNENRQTNDFIVLDGQVEATEEQPKKSKLFFIHAVETWDAEFYA  131
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVNDD+Y+N+   G  LS + +
+Sbjct  132  KVNDDVYVNIDALGATLSTHLD  153
+
+
+>TR:A0A067G9T0_CITSI A0A067G9T0 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g024633mg 
+PE=3 SV=1
+Length=195
+
+ Score = 102 bits (253),  Expect = 4e-26
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+FD EID EN  T DF+ILDDH E+ EEL KK KSFF +A + +DA FY 
+Sbjct  79   VIGRSANHGDSFDTEIDSENSQTNDFIILDDHVEAPEELAKKMKSFFVHAVEKWDAEFYT  138
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  139  KVNDDVYVNI  148
+
+
+>TR:A0A2G5E0B8_AQUCA A0A2G5E0B8 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=258
+
+ Score = 103 bits (257),  Expect = 4e-26
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  74   VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  133
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  134  KVNDDVYVNI  143
+
+
+>TR:A9NVS4_PICSI A9NVS4 Hexosyltransferase OS=Picea sitchensis OX=3332 PE=2 SV=1
+Length=340
+
+ Score = 105 bits (261),  Expect = 4e-26
+ Identities = 47/82 (57%), Positives = 66/82 (80%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD +D+ ID+ENR TKDF IL++H ES EELPKK K +F+NAADT+DA FY 
+Sbjct  156  VVGRSANRGDIYDKAIDDENRQTKDFFILENHVESSEELPKKPKLYFSNAADTWDADFYV  215
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KV D++++N+   G +L+ +++
+Sbjct  216  KVQDNVFVNIDKLGAMLATHWD  237
+
+
+>TR:A0A2I4H7F2_9ROSI A0A2I4H7F2 Hexosyltransferase OS=Juglans regia OX=51240 GN=LOC109014175 
+PE=3 SV=1
+Length=342
+
+ Score = 104 bits (260),  Expect = 6e-26
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ D+ ID ENR   DF+ILD+H E+ EELPKK K FF++AAD +DA FYA
+Sbjct  158  VVGRSANRGDSLDKSIDSENRQHNDFIILDNHVEAAEELPKKAKLFFSHAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2G5E0H6_AQUCA A0A2G5E0H6 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=288
+
+ Score = 103 bits (257),  Expect = 7e-26
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  74   VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  133
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  134  KVNDDVYVNI  143
+
+
+>TR:A0A2N9EML3_FAGSY A0A2N9EML3 Hexosyltransferase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS3935 
+PE=3 SV=1
+Length=228
+
+ Score = 102 bits (253),  Expect = 8e-26
+ Identities = 47/71 (66%), Positives = 56/71 (79%), Gaps = 0/71 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DR ID ENR   DF ILD+  E+DEELPKK K FFA AAD +DA FYA
+Sbjct  158  VIGRSANPGDSSDRSIDIENRQNNDFFILDNLVEADEELPKKAKIFFAYAADKWDAEFYA  217
+
+Query  62   KVNDDIYINVG  72
+            KVNDD+Y+N+G
+Sbjct  218  KVNDDVYVNIG  228
+
+
+>TR:A0A2G5E0B4_AQUCA A0A2G5E0B4 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=297
+
+ Score = 103 bits (257),  Expect = 8e-26
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  74   VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  133
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  134  KVNDDVYVNI  143
+
+
+>TR:A0A2R6Q8J9_ACTCH A0A2R6Q8J9 Hexosyltransferase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc20073 PE=3 SV=1
+Length=262
+
+ Score = 102 bits (254),  Expect = 1e-25
+ Identities = 46/80 (58%), Positives = 60/80 (75%), Gaps = 0/80 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DREID EN  + DF+IL DHTE+ EE PKK+K F  +A + +DA FY 
+Sbjct  154  VIGRSANRGDSLDREIDSENGQSNDFIILKDHTEAPEEDPKKSKLFLIHAVEHWDAEFYV  213
+
+Query  62   KVNDDIYINVGXVLSVNFEG  81
+            KVNDD+YIN+G +  +N  G
+Sbjct  214  KVNDDVYINIGPINGLNQTG  233
+
+
+>TR:A0A068UBT5_COFCA A0A068UBT5 Hexosyltransferase OS=Coffea canephora OX=49390 GN=GSCOC_T00020045001 
+PE=3 SV=1
+Length=342
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 44/70 (63%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID EN+ T DFLIL++H E+ EELP KTKSFFA AA+ +DA F+A
+Sbjct  158  VIGRSSNRGDSLDRSIDNENKETNDFLILENHVEAPEELPNKTKSFFAYAAENWDADFFA  217
+
+Query  62   KVNDDIYINV  71
+            K+NDD+Y+N+
+Sbjct  218  KINDDVYLNI  227
+
+
+>TR:A0A2H5NGK7_CITUN A0A2H5NGK7 Hexosyltransferase OS=Citrus unshiu OX=55188 GN=CUMW_042790 
+PE=3 SV=1
+Length=344
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+FD EID EN  T DF+ILDDH E+ EEL KK KSFF +A + +DA FY 
+Sbjct  158  VIGRSANRGDSFDTEIDSENSQTNDFIILDDHVEAPEELAKKMKSFFVHAVEKWDAEFYT  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2G5E091_AQUCA A0A2G5E091 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=322
+
+ Score = 103 bits (257),  Expect = 1e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  138  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  197
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  198  KVNDDVYVNI  207
+
+
+>TR:A0A251SN88_HELAN A0A251SN88 Hexosyltransferase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr14g0462721 
+PE=3 SV=1
+Length=341
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 46/70 (66%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENR+  DF ILD H ES EELPKKTK FFA+AA+ ++A +YA
+Sbjct  157  VIGRSANRGDSLDRGIDIENRNYNDFFILDSHVESSEELPKKTKYFFAHAAERWEAEYYA  216
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  217  KVNDDVYVNI  226
+
+
+>TR:A0A2G5E093_AQUCA A0A2G5E093 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=342
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  158  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2G5E096_AQUCA A0A2G5E096 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=344
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  160  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>TR:B9GX59_POPTR B9GX59 Hexosyltransferase OS=Populus trichocarpa OX=3694 GN=POPTR_003G136000v3 
+PE=3 SV=1
+Length=344
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 47/82 (57%), Positives = 62/82 (76%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DREID ENR T DF++LD   E+ EE PKK+K FF +A +T+DA FYA
+Sbjct  160  VIGRSANRGDSLDREIDNENRQTNDFIVLDGQVEATEEQPKKSKLFFIHAVETWDAEFYA  219
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVNDD+Y+N+   G  LS + +
+Sbjct  220  KVNDDVYVNIDALGATLSTHLD  241
+
+
+>TR:A0A067GLW8_CITSI A0A067GLW8 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g024633mg 
+PE=3 SV=1
+Length=265
+
+ Score = 102 bits (253),  Expect = 2e-25
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+FD EID EN  T DF+ILDDH E+ EEL KK KSFF +A + +DA FY 
+Sbjct  79   VIGRSANHGDSFDTEIDSENSQTNDFIILDDHVEAPEELAKKMKSFFVHAVEKWDAEFYT  138
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  139  KVNDDVYVNI  148
+
+
+>TR:A0A2I4HQG6_9ROSI A0A2I4HQG6 Hexosyltransferase OS=Juglans regia OX=51240 GN=LOC109020394 
+PE=3 SV=1
+Length=255
+
+ Score = 101 bits (252),  Expect = 2e-25
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DREID ENR TKDF+ILD   E+ EE PKK KSFF +A + +DA FYA
+Sbjct  72   VIGRSTNRGDSLDREIDNENRQTKDFIILDGQVEATEEHPKKMKSFFTHAVENWDAEFYA  131
+
+Query  62   KVNDDIYINV  71
+            K NDD+Y+N+
+Sbjct  132  KANDDVYVNI  141
+
+
+>TR:A0A2I0B913_9ASPA A0A2I0B913 Hexosyltransferase OS=Apostasia shenzhenica OX=1088818 
+GN=B3GALT11 PE=3 SV=1
+Length=342
+
+ Score = 103 bits (256),  Expect = 2e-25
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN+ ++DFLILDDH E+ EE+PKK K F   AAD +DA FYA
+Sbjct  158  VIGRSANRGDSMDRAIDEENKHSRDFLILDDHVEAAEEVPKKVKMFLVQAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDDI +N+
+Sbjct  218  KVNDDINVNI  227
+
+
+>TR:A0A2G5E0E2_AQUCA A0A2G5E0E2 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=374
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  160  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>TR:A0A2G5E086_AQUCA A0A2G5E086 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=380
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  160  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>TR:A0A2G5E0D7_AQUCA A0A2G5E0D7 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=383
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 45/70 (64%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYA
+Sbjct  160  VIGRSPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>TR:A0A151TGU4_CAJCA A0A151TGU4 Hexosyltransferase OS=Cajanus cajan OX=3821 GN=KK1_012549 
+PE=3 SV=1
+Length=343
+
+ Score = 102 bits (254),  Expect = 5e-25
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D++ID ENR T DFLILD+H E ++  PKK K FFA+AAD +DA FYA
+Sbjct  158  VIGRSENRGDNLDKDIDRENRMTNDFLILDNHVEKNDGFPKKAKLFFAHAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A1Q3CXC3_CEPFO A0A1Q3CXC3 Hexosyltransferase OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_28339 PE=3 SV=1
+Length=340
+
+ Score = 102 bits (253),  Expect = 6e-25
+ Identities = 45/70 (64%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  D+ ID EN  TKDF+ILD+H E+ EELP+K K FFA AAD +DA FYA
+Sbjct  156  VIGRSANRGDGSDKAIDSENMQTKDFIILDNHIEAPEELPEKAKLFFALAADKWDAEFYA  215
+
+Query  62   KVNDDIYINV  71
+            K+NDD+Y+N+
+Sbjct  216  KINDDVYVNI  225
+
+
+>TR:A0A2G9HSS5_9LAMI A0A2G9HSS5 Hexosyltransferase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_06746 PE=3 SV=1
+Length=341
+
+ Score = 102 bits (253),  Expect = 6e-25
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID EN+ T DF ILD+H E+ EELP KTK FFA+AA+ +DA ++A
+Sbjct  157  VIGRSSNRGDSLDRSIDSENKQTNDFFILDNHVETPEELPNKTKLFFAHAAEKWDADYFA  216
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  217  KVNDDVYVNI  226
+
+
+>TR:M5X8C4_PRUPE M5X8C4 Hexosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_2G305900 
+PE=3 SV=1
+Length=342
+
+ Score = 102 bits (253),  Expect = 6e-25
+ Identities = 44/70 (63%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DR ID ENR TKDF+ILD H E+ EE PKK K FFA+AA+ ++A FY+
+Sbjct  158  VIGRSANHGDSLDRAIDNENRQTKDFIILDTHLEAPEEFPKKAKLFFAHAAEEWNAEFYS  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:I1KAL8_SOYBN I1KAL8 Hexosyltransferase OS=Glycine max OX=3847 GN=100807753 
+PE=3 SV=1
+Length=343
+
+ Score = 102 bits (253),  Expect = 6e-25
+ Identities = 44/70 (63%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILD+H E+++  PKK K FFA+AAD +DA FYA
+Sbjct  159  VIGRSENRGDSQDKDIDHENRLTNDFLILDNHVETNDAFPKKVKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A2P6SNR1_ROSCH A0A2P6SNR1 Hexosyltransferase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr1g0379951 
+PE=3 SV=1
+Length=337
+
+ Score = 101 bits (252),  Expect = 8e-25
+ Identities = 46/70 (66%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D  ID ENR TKDFLILD H E+ EE  KK K FFA+ AD +DA FYA
+Sbjct  153  VIGRSANRGDSLDIAIDNENRQTKDFLILDTHLEAPEEFSKKAKLFFAHGADKWDAEFYA  212
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  213  KVNDDVYVNI  222
+
+
+>TR:A0A2I4HQF5_9ROSI A0A2I4HQF5 Hexosyltransferase OS=Juglans regia OX=51240 GN=LOC109020394 
+PE=3 SV=1
+Length=341
+
+ Score = 101 bits (252),  Expect = 9e-25
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DREID ENR TKDF+ILD   E+ EE PKK KSFF +A + +DA FYA
+Sbjct  158  VIGRSTNRGDSLDREIDNENRQTKDFIILDGQVEATEEHPKKMKSFFTHAVENWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            K NDD+Y+N+
+Sbjct  218  KANDDVYVNI  227
+
+
+>TR:A0A0K9QKV6_SPIOL A0A0K9QKV6 Hexosyltransferase (Fragment) OS=Spinacia oleracea 
+OX=3562 GN=SOVF_167840 PE=3 SV=1
+Length=266
+
+ Score = 100 bits (248),  Expect = 1e-24
+ Identities = 46/82 (56%), Positives = 61/82 (74%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++G+SANRGD+ DR+ID ENR T DF+IL DH E+ EE+ KK K FFA AA+T++A FY 
+Sbjct  82   VIGKSANRGDSLDRDIDAENRQTNDFIILGDHVEAPEEISKKIKLFFAYAAETWEAEFYV  141
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVNDD+Y+ +     VLS N +
+Sbjct  142  KVNDDVYVKIDGLAAVLSANLD  163
+
+
+>TR:A0A200PUK4_9MAGN A0A200PUK4 Hexosyltransferase OS=Macleaya cordata OX=56857 GN=BVC80_9079g36 
+PE=3 SV=1
+Length=273
+
+ Score = 100 bits (248),  Expect = 1e-24
+ Identities = 47/70 (67%), Positives = 59/70 (84%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENR   DF+ILD++ E+ EELPKKTK FFA+AADT+DA FYA
+Sbjct  158  VIGRSANRGDSLDRGIDSENRQHNDFIILDNN-EAPEELPKKTKLFFAHAADTWDAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND +Y+N+
+Sbjct  217  KVNDAVYVNI  226
+
+
+>TR:B9RIN6_RICCO B9RIN6 Hexosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_1581340 
+PE=3 SV=1
+Length=346
+
+ Score = 101 bits (251),  Expect = 1e-24
+ Identities = 44/70 (63%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ D+ ID+ENR T DF+ILD+H E+ EE PKK K FFA+A D +DA FYA
+Sbjct  162  VIGRSANWGDSLDKAIDDENRQTNDFIILDNHVEATEEFPKKAKLFFAHAVDKWDAEFYA  221
+
+Query  62   KVNDDIYINV  71
+            KVND+IY+N+
+Sbjct  222  KVNDNIYVNI  231
+
+
+>TR:A0A072UNK4_MEDTR A0A072UNK4 Hexosyltransferase OS=Medicago truncatula OX=3880 
+GN=11436753 PE=3 SV=1
+Length=256
+
+ Score = 99.4 bits (246),  Expect = 2e-24
+ Identities = 52/108 (48%), Positives = 67/108 (62%), Gaps = 3/108 (3%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D+EI+ EN  T DF+ILDD  E+ EE  KKTKSFF  A D +DA FYA
+Sbjct  72   VIGRSANRGDSLDKEIETENSQTNDFIILDDQVEAVEESAKKTKSFFIYAVDNWDAEFYA  131
+
+Query  62   KVNDDIYINV---GXVLSVNFEGLYEWFAFYYIGRKFLGSLLLPHVPD  106
+            KVNDD+Y+N+   G V++ + E    +      G  F       H PD
+Sbjct  132  KVNDDVYVNLDAFGGVITSHLEKPRVYIGCMKSGEVFSDPTHKWHEPD  179
+
+
+>TR:D8SLD2_SELML D8SLD2 Hexosyltransferase OS=Selaginella moellendorffii OX=88036 
+GN=GT31A5-2 PE=3 SV=1
+Length=368
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR ID+EN  T DFLILDDH E  EE+P+K K FFA A +T+DA F+ 
+Sbjct  153  VVGRSANRGDSLDRFIDDENNRTHDFLILDDHVEEPEEIPRKAKKFFATAVETWDADFFL  212
+
+Query  62   KVNDDIYINV  71
+            KV+DD+Y+N+
+Sbjct  213  KVDDDVYVNI  222
+
+
+>TR:D8RMA1_SELML D8RMA1 Hexosyltransferase OS=Selaginella moellendorffii OX=88036 
+GN=GT31A5-1 PE=3 SV=1
+Length=368
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR ID+EN  T DFLILDDH E  EE+P+K K FFA A +T+DA F+ 
+Sbjct  153  VVGRSANRGDSLDRLIDDENNRTHDFLILDDHVEEPEEIPRKAKKFFATAVETWDADFFL  212
+
+Query  62   KVNDDIYINV  71
+            KV+DD+Y+N+
+Sbjct  213  KVDDDVYVNI  222
+
+
+>TR:A0A1S3VVJ5_VIGRR A0A1S3VVJ5 Hexosyltransferase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106778905 PE=3 SV=1
+Length=342
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 43/70 (61%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D++ID ENR T DF+ILD+H E+++  PKK K FFA AAD +DA FYA
+Sbjct  158  VIGRSENRGDNLDKDIDRENRLTNDFIILDNHVETNDAFPKKAKLFFAYAADKWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:I1JYW1_SOYBN I1JYW1 Hexosyltransferase OS=Glycine max OX=3847 GN=100779561 
+PE=3 SV=1
+Length=342
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 43/70 (61%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D++ID ENR T DF+ILD+H E+++  PKK K FFA+AAD +DA FYA
+Sbjct  159  VIGRSENRGDNQDKDIDRENRLTNDFIILDNHVETNDAFPKKAKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A0B2SBZ4_GLYSO A0A0B2SBZ4 Hexosyltransferase OS=Glycine soja OX=3848 GN=glysoja_024461 
+PE=3 SV=1
+Length=343
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 43/70 (61%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D++ID ENR T DF+ILD+H E+++  PKK K FFA+AAD +DA FYA
+Sbjct  159  VIGRSENRGDNQDKDIDRENRLTNDFIILDNHVETNDAFPKKAKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:I1JYW0_SOYBN I1JYW0 Hexosyltransferase OS=Glycine max OX=3847 GN=100779561 
+PE=3 SV=1
+Length=343
+
+ Score = 100 bits (250),  Expect = 2e-24
+ Identities = 43/70 (61%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D++ID ENR T DF+ILD+H E+++  PKK K FFA+AAD +DA FYA
+Sbjct  159  VIGRSENRGDNQDKDIDRENRLTNDFIILDNHVETNDAFPKKAKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A2K3N5V2_TRIPR A0A2K3N5V2 Hexosyltransferase (Fragment) OS=Trifolium pratense 
+OX=57577 GN=L195_g021613 PE=3 SV=1
+Length=200
+
+ Score = 97.8 bits (242),  Expect = 2e-24
+ Identities = 45/76 (59%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENRSTKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  84   VIGRSANRGDSLDRNIDEENRSTKDFLILESHEEAQEELPKKAKIFFSTAVQNWDADFYV  143
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D I I++  ++++
+Sbjct  144  KVDDSIDIDLEGLIAL  159
+
+
+>TR:A0A072VB91_MEDTR A0A072VB91 Hexosyltransferase OS=Medicago truncatula OX=3880 
+GN=11411516 PE=3 SV=1
+Length=306
+
+ Score = 100 bits (248),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILDDH E  +  P+K K FFA+AAD +DA FYA
+Sbjct  156  VIGRSPNRGDSQDKDIDRENRLTNDFLILDDHVEGSQGHPEKAKLFFAHAADEWDAEFYA  215
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  216  KVNDDVYVNI  225
+
+
+>TR:A0A072V178_MEDTR A0A072V178 Hexosyltransferase OS=Medicago truncatula OX=3880 
+GN=11411516 PE=3 SV=1
+Length=308
+
+ Score = 100 bits (248),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILDDH E  +  P+K K FFA+AAD +DA FYA
+Sbjct  158  VIGRSPNRGDSQDKDIDRENRLTNDFLILDDHVEGSQGHPEKAKLFFAHAADEWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2P2LPG0_RHIMU A0A2P2LPG0 Hexosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=255
+
+ Score = 99.0 bits (245),  Expect = 2e-24
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  DR ID+ENR T DF+ILD+H E+  ELPKK K FFA AA+ +DA FYA
+Sbjct  72   VIGRSANRGDNLDRNIDDENRQTNDFIILDNHVET-TELPKKAKLFFAYAAEKWDADFYA  130
+
+Query  62   KVNDDIYINV  71
+            KVND+IY+N+
+Sbjct  131  KVNDNIYVNI  140
+
+
+>TR:A0A2N9FHE3_FAGSY A0A2N9FHE3 Hexosyltransferase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS14397 
+PE=3 SV=1
+Length=314
+
+ Score = 100 bits (248),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DREID EN  T DF+ILD   E+ EE PKK KSFF +A + +DA FYA
+Sbjct  133  VIGRSANRGDSLDREIDNENSHTNDFIILDGQVEAPEEHPKKMKSFFVHAVENWDAEFYA  192
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  193  KVNDDVYVNI  202
+
+
+>TR:A0A0S3RDS9_PHAAN A0A0S3RDS9 Hexosyltransferase OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.02G150500 PE=3 SV=1
+Length=343
+
+ Score = 100 bits (249),  Expect = 2e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D +ID ENR T DF+ILD+H E+++ LPKK K FFA AAD +DA FYA
+Sbjct  159  VIGRSENRGDNLDIDIDRENRLTNDFIILDNHVETNDALPKKAKLFFAYAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A0L9UFE0_PHAAN A0A0L9UFE0 Hexosyltransferase OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan04g163400 PE=3 SV=1
+Length=347
+
+ Score = 100 bits (249),  Expect = 3e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D +ID ENR T DF+ILD+H E+++ LPKK K FFA AAD +DA FYA
+Sbjct  155  VIGRSENRGDNLDIDIDRENRLTNDFIILDNHVETNDALPKKAKLFFAYAADKWDAEFYA  214
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  215  KVNDDVYVNI  224
+
+
+>TR:A0A2G5E0A7_AQUCA A0A2G5E0A7 Hexosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_01300208v1 PE=3 SV=1
+Length=185
+
+ Score = 97.1 bits (240),  Expect = 3e-24
+ Identities = 43/66 (65%), Positives = 55/66 (83%), Gaps = 0/66 (0%)
+
+Query  6   SANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYAKVND  65
+           S NRGD+ D++ID ENR T DF+IL++H E+ EE  KKTK FFA+AADT+DA FYAKVND
+Sbjct  5   SPNRGDSSDKDIDNENRQTNDFMILENHVEAPEENSKKTKLFFAHAADTWDAEFYAKVND  64
+
+Query  66  DIYINV  71
+           D+Y+N+
+Sbjct  65  DVYVNI  70
+
+
+>TR:A0A072V0A6_MEDTR A0A072V0A6 Hexosyltransferase OS=Medicago truncatula OX=3880 
+GN=11411516 PE=3 SV=1
+Length=340
+
+ Score = 100 bits (248),  Expect = 3e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILDDH E  +  P+K K FFA+AAD +DA FYA
+Sbjct  156  VIGRSPNRGDSQDKDIDRENRLTNDFLILDDHVEGSQGHPEKAKLFFAHAADEWDAEFYA  215
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  216  KVNDDVYVNI  225
+
+
+>TR:G7J676_MEDTR G7J676 Hexosyltransferase OS=Medicago truncatula OX=3880 GN=11411516 
+PE=3 SV=2
+Length=342
+
+ Score = 100 bits (248),  Expect = 3e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILDDH E  +  P+K K FFA+AAD +DA FYA
+Sbjct  158  VIGRSPNRGDSQDKDIDRENRLTNDFLILDDHVEGSQGHPEKAKLFFAHAADEWDAEFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2U1QK94_ARTAN A0A2U1QK94 Hexosyltransferase OS=Artemisia annua OX=35608 GN=CTI12_AA019700 
+PE=3 SV=1
+Length=269
+
+ Score = 98.6 bits (244),  Expect = 4e-24
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID E+++  DF IL+ H ES EELPKKTK FFA+AA+ ++A +YA
+Sbjct  85   VIGRSANRGDSLDRGIDIEDKNYNDFFILESHVESPEELPKKTKLFFAHAAERWEAEYYA  144
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  145  KVNDDVYVNI  154
+
+
+>TR:A0A2C9WHT7_MANES A0A2C9WHT7 Hexosyltransferase OS=Manihot esculenta OX=3983 GN=MANES_01G048500 
+PE=3 SV=1
+Length=237
+
+ Score = 97.8 bits (242),  Expect = 4e-24
+ Identities = 43/82 (52%), Positives = 59/82 (72%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DREID ENR T DF++LD   E+ EE PKKTK FF NA + ++A FY 
+Sbjct  53   VIGRSANHGDSLDREIDSENRQTNDFIVLDGKVEATEEAPKKTKLFFINAVENWNAEFYV  112
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            K+NDD+++N+   G  LS + +
+Sbjct  113  KINDDVFVNIDALGATLSTHLD  134
+
+
+>TR:V7AVC3_PHAVU V7AVC3 Hexosyltransferase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_009G136600g 
+PE=3 SV=1
+Length=343
+
+ Score = 99.8 bits (247),  Expect = 5e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD  D +I  ENR T DF+ILD+H E+++ LPKK K FFA+AAD +DA FYA
+Sbjct  159  VIGRSENRGDNLDADIARENRLTNDFIILDNHVETNDALPKKAKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDDIY+N+
+Sbjct  219  KVNDDIYVNI  228
+
+
+>TR:A0A2G3CWX1_CAPCH A0A2G3CWX1 Hexosyltransferase OS=Capsicum chinense OX=80379 GN=BC332_08306 
+PE=3 SV=1
+Length=325
+
+ Score = 99.4 bits (246),  Expect = 5e-24
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELPKKTK FFA+AAD++ A +YA
+Sbjct  135  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPKKTKLFFAHAADSWTADYYA  194
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  195  KVNDNVFVNL  204
+
+
+>TR:A0A2R6Q940_ACTCH A0A2R6Q940 Hexosyltransferase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc20275 PE=3 SV=1
+Length=339
+
+ Score = 99.4 bits (246),  Expect = 6e-24
+ Identities = 42/70 (60%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DR ID EN+   DF+IL++H E+ EELPKKTK FFA+A++ +DA FYA
+Sbjct  157  VIGRSANHGDSLDRGIDSENKQMNDFIILENHVEAPEELPKKTKLFFAHASERWDAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            KV+DD+Y+N+
+Sbjct  217  KVHDDVYVNI  226
+
+
+>TR:A0A2K3P857_TRIPR A0A2K3P857 Hexosyltransferase OS=Trifolium pratense OX=57577 
+GN=L195_g008065 PE=3 SV=1
+Length=436
+
+ Score = 100 bits (249),  Expect = 6e-24
+ Identities = 44/70 (63%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID ENR T DFLILDDH E ++  P+K K FFA+AAD +DA FYA
+Sbjct  159  VIGRSPNRGDSQDKDIDRENRLTNDFLILDDHVEGNQGHPEKAKLFFAHAADEWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A2P2LPF4_RHIMU A0A2P2LPF4 Hexosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=316
+
+ Score = 99.0 bits (245),  Expect = 6e-24
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  DR ID+ENR T DF+ILD+H E+  ELPKK K FFA AA+ +DA FYA
+Sbjct  133  VIGRSANRGDNLDRNIDDENRQTNDFIILDNHVET-TELPKKAKLFFAYAAEKWDADFYA  191
+
+Query  62   KVNDDIYINV  71
+            KVND+IY+N+
+Sbjct  192  KVNDNIYVNI  201
+
+
+>TR:A0A2G2X775_CAPBA A0A2G2X775 Hexosyltransferase OS=Capsicum baccatum OX=33114 GN=CQW23_07782 
+PE=3 SV=1
+Length=341
+
+ Score = 99.4 bits (246),  Expect = 7e-24
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELPKKTK FFA+AAD++ A +YA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPKKTKLFFAHAADSWTADYYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:A0A2G2ZZN6_CAPAN A0A2G2ZZN6 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107863176 
+PE=3 SV=1
+Length=341
+
+ Score = 99.4 bits (246),  Expect = 7e-24
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELPKKTK FFA+AAD++ A +YA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPKKTKLFFAHAADSWTADYYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:A0A1U8FZ82_CAPAN A0A1U8FZ82 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=T459_09536 
+PE=3 SV=1
+Length=341
+
+ Score = 99.4 bits (246),  Expect = 7e-24
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELPKKTK FFA+AAD++ A +YA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPKKTKLFFAHAADSWTADYYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:G7KAP6_MEDTR G7KAP6 Hexosyltransferase OS=Medicago truncatula OX=3880 GN=11436753 
+PE=3 SV=2
+Length=342
+
+ Score = 99.4 bits (246),  Expect = 7e-24
+ Identities = 52/108 (48%), Positives = 67/108 (62%), Gaps = 3/108 (3%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D+EI+ EN  T DF+ILDD  E+ EE  KKTKSFF  A D +DA FYA
+Sbjct  158  VIGRSANRGDSLDKEIETENSQTNDFIILDDQVEAVEESAKKTKSFFIYAVDNWDAEFYA  217
+
+Query  62   KVNDDIYINV---GXVLSVNFEGLYEWFAFYYIGRKFLGSLLLPHVPD  106
+            KVNDD+Y+N+   G V++ + E    +      G  F       H PD
+Sbjct  218  KVNDDVYVNLDAFGGVITSHLEKPRVYIGCMKSGEVFSDPTHKWHEPD  265
+
+
+>TR:A0A1R3KGK1_9ROSI A0A1R3KGK1 Hexosyltransferase OS=Corchorus olitorius OX=93759 
+GN=COLO4_08251 PE=3 SV=1
+Length=167
+
+ Score = 95.5 bits (236),  Expect = 7e-24
+ Identities = 44/70 (63%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENR T DF+IL+   E+  ELPKK K FFA AA+T+DA FYA
+Sbjct  72   VIGRSANRGDSLDRSIDNENRQTNDFIILNQ-VEAPGELPKKAKMFFALAAETWDAEFYA  130
+
+Query  62   KVNDDIYINV  71
+            K+NDD+Y+N+
+Sbjct  131  KLNDDVYVNI  140
+
+
+>TR:A0A1Q3B699_CEPFO A0A1Q3B699 Hexosyltransferase OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_07055 PE=3 SV=1
+Length=344
+
+ Score = 99.4 bits (246),  Expect = 7e-24
+ Identities = 50/108 (46%), Positives = 65/108 (60%), Gaps = 3/108 (3%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS N GD  D EID ENR TKDF++LD H E+ EELPKK KSFF +A + +DA FYA
+Sbjct  161  VIGRSGNHGDKMDMEIDNENRETKDFIVLDAHVEAPEELPKKAKSFFIHALENWDAEFYA  220
+
+Query  62   KVNDDIYINV---GXVLSVNFEGLYEWFAFYYIGRKFLGSLLLPHVPD  106
+            KV DD+Y  +   G +LS + +    +      G+ F       H PD
+Sbjct  221  KVTDDVYFKIDVLGAILSTHLDKPRVYIGCMKSGQVFSEPAHKWHEPD  268
+
+
+>TR:M1AIB3_SOLTU M1AIB3 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=196
+
+ Score = 96.3 bits (238),  Expect = 7e-24
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2   IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+           ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  12  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  71
+
+Query  62  KVNDDIYINV  71
+           KVND++++N+
+Sbjct  72  KVNDNVFVNL  81
+
+
+>TR:A0A2P2LPF9_RHIMU A0A2P2LPF9 Hexosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=329
+
+ Score = 99.0 bits (245),  Expect = 8e-24
+ Identities = 46/70 (66%), Positives = 57/70 (81%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  DR ID+ENR T DF+ILD+H E+  ELPKK K FFA AA+ +DA FYA
+Sbjct  146  VIGRSANRGDNLDRNIDDENRQTNDFIILDNHVET-TELPKKAKLFFAYAAEKWDADFYA  204
+
+Query  62   KVNDDIYINV  71
+            KVND+IY+N+
+Sbjct  205  KVNDNIYVNI  214
+
+
+>TR:A0A067EM61_CITSI A0A067EM61 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g017892mg 
+PE=3 SV=1
+Length=256
+
+ Score = 97.4 bits (241),  Expect = 9e-24
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  72   VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  131
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  132  KVNDDVYVNI  141
+
+
+>TR:A0A2J6K0B2_LACSA A0A2J6K0B2 Hexosyltransferase OS=Lactuca sativa OX=4236 GN=LSAT_2X134401 
+PE=3 SV=1
+Length=341
+
+ Score = 99.0 bits (245),  Expect = 9e-24
+ Identities = 42/70 (60%), Positives = 59/70 (84%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR+ID E++S  DF IL+ H E+ EELPKKTK FFA+AA+ ++A +YA
+Sbjct  159  VIGRSSNRGDSLDRDIDIEDKSHNDFFILESHVEAPEELPKKTKLFFAHAAERWEAEYYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:A0A1S2Y4N2_CICAR A0A1S2Y4N2 Hexosyltransferase OS=Cicer arietinum OX=3827 GN=LOC101490816 
+PE=3 SV=1
+Length=344
+
+ Score = 99.0 bits (245),  Expect = 9e-24
+ Identities = 49/83 (59%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENRSTKDFLILD H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  160  VIGRSANRGDSLDRNIDEENRSTKDFLILDSHEEAQEELPKKAKIFFSTAVQNWDADFYV  219
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  220  KVDDSI--------GIDLEGLIE  234
+
+
+>TR:A0A067EY54_CITSI A0A067EY54 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g017892mg 
+PE=3 SV=1
+Length=264
+
+ Score = 97.4 bits (241),  Expect = 1e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  80   VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  139
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  140  KVNDDVYVNI  149
+
+
+>TR:A0A2P4L853_QUESU A0A2P4L853 Hexosyltransferase OS=Quercus suber OX=58331 GN=CFP56_35733 
+PE=3 SV=1
+Length=481
+
+ Score = 100 bits (248),  Expect = 1e-23
+ Identities = 44/70 (63%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DREID ENR T DF+ILD   E+ EE PKK KSFF +A + +DA FYA
+Sbjct  297  VIGRSANHGDSLDREIDNENRHTTDFIILDGQVEAPEESPKKMKSFFIHAVENWDAEFYA  356
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  357  KVNDDVYVNI  366
+
+
+>TR:A0A2U1LG31_ARTAN A0A2U1LG31 Hexosyltransferase OS=Artemisia annua OX=35608 GN=CTI12_AA495090 
+PE=3 SV=1
+Length=334
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID E+++  DF IL+ H ES EELPKKTK FFA+AA+ ++A +YA
+Sbjct  154  VIGRSANRGDSLDRGIDIEDKNYNDFFILESHVESPEELPKKTKLFFAHAAERWEAEYYA  213
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  214  KVNDDVYVNI  223
+
+
+>TR:A0A2U1LG16_ARTAN A0A2U1LG16 Hexosyltransferase OS=Artemisia annua OX=35608 GN=CTI12_AA495090 
+PE=3 SV=1
+Length=338
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID E+++  DF IL+ H ES EELPKKTK FFA+AA+ ++A +YA
+Sbjct  154  VIGRSANRGDSLDRGIDIEDKNYNDFFILESHVESPEELPKKTKLFFAHAAERWEAEYYA  213
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  214  KVNDDVYVNI  223
+
+
+>TR:A0A2U1QBM4_ARTAN A0A2U1QBM4 Hexosyltransferase OS=Artemisia annua OX=35608 GN=CTI12_AA050710 
+PE=3 SV=1
+Length=338
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 43/70 (61%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID E+++  DF IL+ H ES EELPKKTK FFA+AA+ ++A +YA
+Sbjct  154  VIGRSANRGDSLDRGIDIEDKNYNDFFILESHVESPEELPKKTKLFFAHAAERWEAEYYA  213
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  214  KVNDDVYVNI  223
+
+
+>TR:U5CMF5_AMBTC U5CMF5 Hexosyltransferase OS=Amborella trichopoda OX=13333 GN=AMTR_s00033p00197520 
+PE=3 SV=1
+Length=340
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 43/76 (57%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELPKK K FF++A +T+DA FY 
+Sbjct  156  VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEAQEELPKKAKFFFSSAVETWDADFYV  215
+
+Query  62   KVNDDIYINVGXVLSV  77
+            K+ D+I +N+  ++++
+Sbjct  216  KIADNIDVNLDKLVAL  231
+
+
+>TR:D7TVB8_VITVI D7TVB8 Hexosyltransferase OS=Vitis vinifera OX=29760 GN=VIT_02s0025g01010 
+PE=3 SV=1
+Length=341
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 42/70 (60%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN  T DF+IL++H E+ EE PKKTK FF +AA+ ++A FYA
+Sbjct  157  VIGRSANRGDSSDKDIDSENMQTNDFIILNNHVEAPEEHPKKTKLFFIHAAENWNAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  217  KVNDDVYVNI  226
+
+
+>TR:V7CUZ9_PHAVU V7CUZ9 Hexosyltransferase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_001G049900g 
+PE=3 SV=1
+Length=342
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 48/83 (58%), Positives = 60/83 (72%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENRSTKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  158  VIGRSANRGDSLDRNIDEENRSTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  217
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D+I         ++ EGL E
+Sbjct  218  KVDDNI--------DIDLEGLIE  232
+
+
+>TR:Q8RW34_SOLLC Q8RW34 Hexosyltransferase OS=Solanum lycopersicum OX=4081 GN=543789 
+PE=2 SV=1
+Length=343
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 45/76 (59%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR ID+E+RS  DF+IL+DH ES +E  KKTKSFFA+A + +DA FYA
+Sbjct  159  VIGRSLNRGDSSDRAIDDESRSFDDFIILNDHVESPQEQSKKTKSFFAHAVEHWDAEFYA  218
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVND++Y+N+  + SV
+Sbjct  219  KVNDNVYVNLDAIGSV  234
+
+
+>TR:M1AWT1_SOLTU M1AWT1 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=313
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 45/78 (58%), Positives = 63/78 (81%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR ID+E+R++ DF+IL+DH ES +E  KKTKSFFA+A + +DA FYA
+Sbjct  129  VIGRSLNRGDSSDRAIDDESRNSNDFIILNDHVESPQEQSKKTKSFFAHAVEHWDAEFYA  188
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++Y+N   +G VL+
+Sbjct  189  KVNDNVYVNLDAIGAVLT  206
+
+
+>TR:A0A2K2A8B8_POPTR A0A2K2A8B8 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_006G257200v3 PE=3 SV=1
+Length=254
+
+ Score = 96.7 bits (239),  Expect = 2e-23
+ Identities = 44/76 (58%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL+ H E+ EELPKK K FF+ A  T+DA FY 
+Sbjct  70   VIGRSANRGDSLDRNIDGENRSTKDFLILEGHEEAQEELPKKVKYFFSTAVQTWDAEFYV  129
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  130  KVDDNINLDLEGLIEL  145
+
+
+>TR:A0A1E5VLS5_9POAL A0A1E5VLS5 Hexosyltransferase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0012902 PE=3 SV=1
+Length=222
+
+ Score = 95.9 bits (237),  Expect = 2e-23
+ Identities = 45/80 (56%), Positives = 57/80 (71%), Gaps = 0/80 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP K K FF+ A + +DA FY 
+Sbjct  134  VVGRSANRGDSLDRNIDDENRRTKDFLILESHEEAAEELPSKAKFFFSAAVEAWDAEFYV  193
+
+Query  62   KVNDDIYINVGXVLSVNFEG  81
+            KV D+I +++G     N  G
+Sbjct  194  KVEDNINLDLGANNGTNLSG  213
+
+
+>TR:A0A1S4DS11_TOBAC A0A1S4DS11 Hexosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107832579 
+PE=3 SV=1
+Length=341
+
+ Score = 98.2 bits (243),  Expect = 2e-23
+ Identities = 43/70 (61%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELP KTK FFA+AAD++ A FYA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPMKTKLFFAHAADSWTADFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:A0A2G3ADR6_CAPAN A0A2G3ADR6 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107864412 
+PE=3 SV=1
+Length=342
+
+ Score = 98.2 bits (243),  Expect = 2e-23
+ Identities = 47/78 (60%), Positives = 62/78 (79%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID+E+R + DF+IL+DH ES +E  KKTK FFA+A D +DA FYA
+Sbjct  158  VIGRSSNRGDSSDRAIDDESRHSNDFIILNDHVESSQEQSKKTKLFFAHAVDHWDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++YIN   VG VL+
+Sbjct  218  KVNDNVYINLDAVGAVLA  235
+
+
+>TR:A0A1U8G556_CAPAN A0A1U8G556 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=T459_00210 
+PE=3 SV=1
+Length=342
+
+ Score = 98.2 bits (243),  Expect = 2e-23
+ Identities = 47/78 (60%), Positives = 62/78 (79%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID+E+R + DF+IL+DH ES +E  KKTK FFA+A D +DA FYA
+Sbjct  158  VIGRSSNRGDSSDRAIDDESRHSNDFIILNDHVESSQEQSKKTKLFFAHAVDHWDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++YIN   VG VL+
+Sbjct  218  KVNDNVYINLDAVGAVLA  235
+
+
+>TR:A0A2G3DAS0_CAPCH A0A2G3DAS0 Hexosyltransferase OS=Capsicum chinense OX=80379 GN=BC332_00171 
+PE=3 SV=1
+Length=342
+
+ Score = 98.2 bits (243),  Expect = 2e-23
+ Identities = 47/78 (60%), Positives = 62/78 (79%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID+E+R + DF+IL+DH ES +E  KKTK FFA+A D +DA FYA
+Sbjct  158  VIGRSSNRGDSSDRAIDDESRHSNDFIILNDHVESSQEQSKKTKLFFAHAVDHWDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++YIN   VG VL+
+Sbjct  218  KVNDNVYINLDAVGAVLA  235
+
+
+>TR:M1AIB2_SOLTU M1AIB2 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=253
+
+ Score = 96.3 bits (238),  Expect = 2e-23
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  69   VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  128
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  129  KVNDNVFVNL  138
+
+
+>TR:M1AIA9_SOLTU M1AIA9 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=254
+
+ Score = 96.3 bits (238),  Expect = 2e-23
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  155  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  214
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  215  KVNDNVFVNL  224
+
+
+>TR:A0A1U7V8Q9_NICSY A0A1U7V8Q9 Hexosyltransferase OS=Nicotiana sylvestris OX=4096 
+GN=LOC104211308 PE=3 SV=1
+Length=341
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 42/70 (60%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELP KTK FFA+A+D+++A FYA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPMKTKLFFAHASDSWNADFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:A0A1S4CIS6_TOBAC A0A1S4CIS6 Hexosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107819505 
+PE=3 SV=1
+Length=341
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 42/70 (60%), Positives = 58/70 (83%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EELP KTK FFA+A+D+++A FYA
+Sbjct  157  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPMKTKLFFAHASDSWNADFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  217  KVNDNVFVNL  226
+
+
+>TR:A0A1S2YXJ6_CICAR A0A1S2YXJ6 Hexosyltransferase OS=Cicer arietinum OX=3827 GN=LOC101510545 
+PE=3 SV=1
+Length=342
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 51/108 (47%), Positives = 68/108 (63%), Gaps = 3/108 (3%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D+EI++EN  T DF+ILD+  E+ EE  KKTKSFF  A D +DA FYA
+Sbjct  158  VIGRSANRGDSLDKEIEKENSQTNDFIILDNQVEAVEESAKKTKSFFIYAVDNWDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLSVNFEGLYEWFAFYYIGRKFLGSLLLPHVPD  106
+            KVNDD+Y+N   +G VL+ + +    +      G  F       H PD
+Sbjct  218  KVNDDVYVNLDSLGVVLTSHLDKPRAYIGCMKSGEVFSEPTHQWHEPD  265
+
+
+>TR:A0A151RLC6_CAJCA A0A151RLC6 Hexosyltransferase OS=Cajanus cajan OX=3821 GN=KK1_035208 
+PE=3 SV=1
+Length=342
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 48/83 (58%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENRSTKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  158  VIGRSANRGDSLDRNIDEENRSTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  217
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV D I         ++ EGL E
+Sbjct  218  KVEDSI--------DIDLEGLIE  232
+
+
+>TR:A0A2G2XJI9_CAPBA A0A2G2XJI9 Hexosyltransferase OS=Capsicum baccatum OX=33114 GN=CQW23_00023 
+PE=3 SV=1
+Length=342
+
+ Score = 97.8 bits (242),  Expect = 2e-23
+ Identities = 47/78 (60%), Positives = 62/78 (79%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID+E+R + DF+IL+DH ES +E  KKTK FFA+A D +DA FYA
+Sbjct  158  VIGRSSNRGDSSDRAIDDESRHSNDFIILNDHVESPQEQSKKTKLFFAHAVDHWDAEFYA  217
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++YIN   VG VL+
+Sbjct  218  KVNDNVYINLDAVGAVLA  235
+
+
+>TR:A0A2N9HMQ7_FAGSY A0A2N9HMQ7 Hexosyltransferase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS18035 
+PE=3 SV=1
+Length=296
+
+ Score = 97.1 bits (240),  Expect = 3e-23
+ Identities = 45/76 (59%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR IDEENRSTKDFLILD H E+ EELPKK K FF+ A   +DA F+ 
+Sbjct  160  VVGRSANRGDSLDRNIDEENRSTKDFLILDGHEEAQEELPKKAKFFFSTAVQNWDADFFV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  220  KVDDNIDLDLEGLIGL  235
+
+
+>TR:A0A1R3G5D3_COCAP A0A1R3G5D3 Hexosyltransferase (Fragment) OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_28767 PE=3 SV=1
+Length=334
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENR T DF+ILD   E+  ELPKK K FFA AA+T+DA FYA
+Sbjct  158  VIGRSANRGDSLDRSIDNENRQTNDFIILDQ-VEAPGELPKKAKMFFALAAETWDAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            K+NDD+Y+N+
+Sbjct  217  KLNDDVYVNI  226
+
+
+>TR:A0A2H5NZN9_CITUN A0A2H5NZN9 Hexosyltransferase OS=Citrus unshiu OX=55188 GN=CUMW_090510 
+PE=3 SV=1
+Length=341
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2H5NZN3_CITUN A0A2H5NZN3 Hexosyltransferase OS=Citrus unshiu OX=55188 GN=CUMW_090510 
+PE=3 SV=1
+Length=342
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A067ELV4_CITSI A0A067ELV4 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g017892mg 
+PE=3 SV=1
+Length=342
+
+ Score = 97.4 bits (241),  Expect = 3e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A067ELV9_CITSI A0A067ELV9 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g017892mg 
+PE=3 SV=1
+Length=364
+
+ Score = 97.4 bits (241),  Expect = 5e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2R6REY2_ACTCH A0A2R6REY2 Hexosyltransferase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc03384 PE=3 SV=1
+Length=339
+
+ Score = 97.1 bits (240),  Expect = 5e-23
+ Identities = 41/70 (59%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DR ID EN+   DF+IL++H E+ EE P KTK FFA+A++ +DA FYA
+Sbjct  157  VIGRSANHGDSLDRGIDSENKQMNDFIILENHVEAPEERPNKTKLFFAHASEKWDAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  217  KVNDDVYVNI  226
+
+
+>TR:M1AIB0_SOLTU M1AIB0 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=295
+
+ Score = 96.3 bits (238),  Expect = 5e-23
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  155  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  214
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  215  KVNDNVFVNL  224
+
+
+>TR:V4RM74_9ROSI V4RM74 Hexosyltransferase OS=Citrus clementina OX=85681 GN=CICLE_v10005228mg 
+PE=3 SV=1
+Length=342
+
+ Score = 97.1 bits (240),  Expect = 5e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHMEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:W9RB17_9ROSA W9RB17 Hexosyltransferase OS=Morus notabilis OX=981085 GN=L484_008512 
+PE=3 SV=1
+Length=348
+
+ Score = 97.1 bits (240),  Expect = 5e-23
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENRSTKDF IL+DH E+ EELPKK K FF+ A   ++A FY 
+Sbjct  160  VIGRSANRGDSLDRNIDEENRSTKDFFILEDHEEAQEELPKKAKFFFSTAVQNWNAGFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  220  KVDDNIDLDLDGLIGL  235
+
+
+>TR:A0A2H3YPK6_PHODC A0A2H3YPK6 Hexosyltransferase OS=Phoenix dactylifera OX=42345 
+GN=LOC103715892 PE=3 SV=1
+Length=349
+
+ Score = 97.1 bits (240),  Expect = 5e-23
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E  EELPKK K FF+ A +T+DA FY 
+Sbjct  165  VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEDGEELPKKAKFFFSAAVETWDAEFYV  224
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D I +++  ++ +
+Sbjct  225  KVDDSINLDLDGLIEI  240
+
+
+>TR:A0A0V0HZ74_SOLCH A0A0V0HZ74 Hexosyltransferase OS=Solanum chacoense OX=4108 PE=3 
+SV=1
+Length=310
+
+ Score = 96.3 bits (238),  Expect = 6e-23
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  126  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  185
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  186  KVNDNVFVNL  195
+
+
+>TR:V4S4R2_9ROSI V4S4R2 Hexosyltransferase OS=Citrus clementina OX=85681 GN=CICLE_v10005228mg 
+PE=3 SV=1
+Length=364
+
+ Score = 97.1 bits (240),  Expect = 6e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHMEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A2H5NZN6_CITUN A0A2H5NZN6 Hexosyltransferase OS=Citrus unshiu OX=55188 GN=CUMW_090510 
+PE=3 SV=1
+Length=402
+
+ Score = 97.4 bits (241),  Expect = 7e-23
+ Identities = 41/70 (59%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ D++ID EN+ T DF ILD H E+ +E P K K FFA A D +DA +YA
+Sbjct  158  VIGRSANRGDSLDQDIDSENKQTNDFFILDHHVEAPKEFPNKAKLFFAYAVDKWDAEYYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A1S2YD47_CICAR A0A1S2YD47 Hexosyltransferase OS=Cicer arietinum OX=3827 GN=LOC101495564 
+PE=3 SV=1
+Length=341
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 43/70 (61%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN  D  D++ID ENR T DFLILDDH E +   P+K K FFA+AAD +DA FYA
+Sbjct  157  VIGRSANSADGLDKDIDRENRLTNDFLILDDHVEGNPGHPEKAKLFFAHAADKWDAEFYA  216
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  217  KVNDDVYVNI  226
+
+
+>TR:A0A0B2QH95_GLYSO A0A0B2QH95 Hexosyltransferase OS=Glycine soja OX=3848 GN=glysoja_046541 
+PE=3 SV=1
+Length=341
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 47/83 (57%), Positives = 59/83 (71%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  157  VIGRSANRGDSLDRNIDEENRTTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  216
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  217  KVDDGI--------DIDLEGLIE  231
+
+
+>TR:A0A1W0VRN2_SORBI A0A1W0VRN2 Hexosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3010G059700 
+PE=3 SV=1
+Length=255
+
+ Score = 95.1 bits (235),  Expect = 7e-23
+ Identities = 45/87 (52%), Positives = 62/87 (71%), Gaps = 5/87 (6%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP K K FF+ A +T+DA FY 
+Sbjct  71   VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEAAEELPSKAKFFFSAAVETWDAEFYV  130
+
+Query  62   KVNDDIYINVGXVLSV-----NFEGLY  83
+            KV D+I +++  ++ +       +GLY
+Sbjct  131  KVEDNINLDLAGLIEMLEGRRGSQGLY  157
+
+
+>TR:A0A1S2YC12_CICAR A0A1S2YC12 Hexosyltransferase OS=Cicer arietinum OX=3827 GN=LOC101495564 
+PE=3 SV=1
+Length=343
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 43/70 (61%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN  D  D++ID ENR T DFLILDDH E +   P+K K FFA+AAD +DA FYA
+Sbjct  159  VIGRSANSADGLDKDIDRENRLTNDFLILDDHVEGNPGHPEKAKLFFAHAADKWDAEFYA  218
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  219  KVNDDVYVNI  228
+
+
+>TR:I1M9H1_SOYBN I1M9H1 Hexosyltransferase OS=Glycine max OX=3847 GN=100816327 
+PE=3 SV=1
+Length=343
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 47/83 (57%), Positives = 59/83 (71%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  159  VIGRSANRGDSLDRNIDEENRTTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  218
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  219  KVDDGI--------DIDLEGLIE  233
+
+
+>TR:A0A2K2A8C6_POPTR A0A2K2A8C6 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_006G257200v3 PE=3 SV=1
+Length=345
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 44/76 (58%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL+ H E+ EELPKK K FF+ A  T+DA FY 
+Sbjct  161  VIGRSANRGDSLDRNIDGENRSTKDFLILEGHEEAQEELPKKVKYFFSTAVQTWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  221  KVDDNINLDLEGLIEL  236
+
+
+>TR:V4LTM1_EUTSA V4LTM1 Hexosyltransferase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10025629mg 
+PE=3 SV=1
+Length=345
+
+ Score = 96.7 bits (239),  Expect = 7e-23
+ Identities = 42/76 (55%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  161  VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+DD+ +++  ++ +
+Sbjct  221  KVDDDVDLDLEGLIGL  236
+
+
+>TR:A0A2P2LE29_RHIMU A0A2P2LE29 Hexosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=282
+
+ Score = 95.5 bits (236),  Expect = 8e-23
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  166  VIGRSANRGDSLDRNIDEENRATKDFLILEGHEEAQEELPKKAKFFFSAAVQNWDAEFYV  225
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  226  KVDDNINLDLEGLIGL  241
+
+
+>TR:V7B601_PHAVU V7B601 Hexosyltransferase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_008G159800g 
+PE=3 SV=1
+Length=330
+
+ Score = 96.3 bits (238),  Expect = 8e-23
+ Identities = 42/70 (60%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  + +ID EN    DF+ILDD+ E +EELP K+K FFA AA+ +DA FYA
+Sbjct  146  VIGRSANRGDNLNEDIDRENWQNNDFVILDDYVEPNEELPMKSKLFFAEAAEKWDAYFYA  205
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  206  KVNDDVYVNI  215
+
+
+>TR:R0H1D5_9BRAS R0H1D5 Hexosyltransferase OS=Capsella rubella OX=81985 GN=CARUB_v10005570mg 
+PE=3 SV=1
+Length=252
+
+ Score = 94.7 bits (234),  Expect = 9e-23
+ Identities = 41/76 (54%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  68   VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  127
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++ +
+Sbjct  128  KVDDNVDLDLEGMIGL  143
+
+
+>TR:A0A1U8L6R4_GOSHI A0A1U8L6R4 Hexosyltransferase OS=Gossypium hirsutum OX=3635 GN=LOC107924382 
+PE=3 SV=1
+Length=342
+
+ Score = 96.3 bits (238),  Expect = 9e-23
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSA+RGD+ DR ID+ENR T DF+ILD   E+  ELPKK K FFA AAD +DA FYA
+Sbjct  159  VIGRSADRGDSLDRSIDDENRQTNDFIILDQ-VEAPGELPKKVKMFFALAADKWDADFYA  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A0V0I4E7_SOLCH A0A0V0I4E7 Hexosyltransferase OS=Solanum chacoense OX=4108 PE=3 
+SV=1
+Length=349
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 45/78 (58%), Positives = 62/78 (79%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR ID+E+R++ DF+IL+DH ES +E  KKTKSFFA A + +DA FYA
+Sbjct  159  VIGRSLNRGDSSDRAIDDESRNSDDFIILNDHVESPQEQSKKTKSFFAYAVEHWDAEFYA  218
+
+Query  62   KVNDDIYIN---VGXVLS  76
+            KVND++Y+N   +G VL+
+Sbjct  219  KVNDNVYVNLDAIGAVLT  236
+
+
+>TR:M1AIB1_SOLTU M1AIB1 Hexosyltransferase OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=351
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 42/70 (60%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID EN  T DF IL++H E+ EEL KKTK FFA+AAD++ A +YA
+Sbjct  155  VIGRSANRGDSLDRSIDSENSQTNDFFILENHVEAPEELSKKTKLFFAHAADSWTADYYA  214
+
+Query  62   KVNDDIYINV  71
+            KVND++++N+
+Sbjct  215  KVNDNVFVNL  224
+
+
+>TR:A0A2P5VU08_GOSBA A0A2P5VU08 Hexosyltransferase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA38396 PE=3 SV=1
+Length=353
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 45/70 (64%), Positives = 56/70 (80%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSA+RGD+ DR ID+ENR T DF+ILD   E+  ELPKK K FFA AAD +DA FYA
+Sbjct  167  VIGRSADRGDSLDRSIDDENRQTNDFIILDQ-VEAPGELPKKVKMFFALAADKWDADFYA  225
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  226  KVNDDVYVNI  235
+
+
+>TR:A0A251P8F0_PRUPE A0A251P8F0 Hexosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_5G113400 
+PE=3 SV=1
+Length=283
+
+ Score = 95.1 bits (235),  Expect = 1e-22
+ Identities = 39/70 (56%), Positives = 53/70 (76%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR+ID EN  T DF++LD   E+ EE PKK KSF+ +A + +DA FY 
+Sbjct  99   VIGRSPNRGDSLDRQIDRENEQTNDFIVLDGQVEASEERPKKMKSFYIHAVENWDAEFYV  158
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  159  KVNDDVYVNI  168
+
+
+>TR:A0A178UYR4_ARATH A0A178UYR4 Hexosyltransferase OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At4g36790 PE=3 SV=1
+Length=284
+
+ Score = 95.1 bits (235),  Expect = 1e-22
+ Identities = 41/76 (54%), Positives = 62/76 (82%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  100  VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  159
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++++
+Sbjct  160  KVDDNVDLDLEGMIAL  175
+
+
+>TR:A0A022QFA3_ERYGU A0A022QFA3 Hexosyltransferase (Fragment) OS=Erythranthe guttata 
+OX=4155 GN=MIMGU_mgv1a022857mg PE=3 SV=1
+Length=334
+
+ Score = 95.9 bits (237),  Expect = 1e-22
+ Identities = 39/70 (56%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS+NRGD+ DR ID EN+   D  IL+ H E+ EELP KTK FFA+A++ +DA +YA
+Sbjct  157  VIGRSSNRGDSLDRSIDSENKQNNDIFILEKHVEAPEELPNKTKLFFAHASENWDADYYA  216
+
+Query  62   KVNDDIYINV  71
+            K+NDD+Y+N+
+Sbjct  217  KINDDVYVNI  226
+
+
+>TR:A0A0B2R4Y8_GLYSO A0A0B2R4Y8 Hexosyltransferase OS=Glycine soja OX=3848 GN=glysoja_039453 
+PE=3 SV=1
+Length=399
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 47/83 (57%), Positives = 59/83 (71%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  159  VIGRSANRGDSLDRNIDEENRTTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  218
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  219  KVDDGI--------DIDLEGLIE  233
+
+
+>TR:I1M9H0_SOYBN I1M9H0 Hexosyltransferase OS=Glycine max OX=3847 GN=100816327 
+PE=3 SV=1
+Length=399
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 47/83 (57%), Positives = 59/83 (71%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  159  VIGRSANRGDSLDRNIDEENRTTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  218
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  219  KVDDGI--------DIDLEGLIE  233
+
+
+>TR:A0A1S3UGQ6_VIGRR A0A1S3UGQ6 Hexosyltransferase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106765191 PE=3 SV=1
+Length=342
+
+ Score = 95.9 bits (237),  Expect = 1e-22
+ Identities = 47/83 (57%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  158  VIGRSANRGDSLDRNIDAENRSTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  217
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  218  KVDDSI--------DIDLEGLIE  232
+
+
+>TR:V4WB65_9ROSI V4WB65 Hexosyltransferase OS=Citrus clementina OX=85681 GN=CICLE_v10008816mg 
+PE=3 SV=1
+Length=346
+
+ Score = 95.9 bits (237),  Expect = 1e-22
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+ID ENR TKDFLIL+DH E+ EELPKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSANRGDSLDRKIDAENRETKDFLILEDHEEAQEELPKKAKFFFSTAVQIWDAEFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  222  KVDDNIDLDLEGLIGL  237
+
+
+>TR:A0A068V0X0_COFCA A0A068V0X0 Hexosyltransferase OS=Coffea canephora OX=49390 GN=GSCOC_T00038527001 
+PE=3 SV=1
+Length=348
+
+ Score = 95.9 bits (237),  Expect = 1e-22
+ Identities = 44/76 (58%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR TKDFLILD H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  164  VIGRSANRGDSLDRNIDEENRVTKDFLILDGHEEAQEELPKKAKFFFSTAVQMWDAEFYV  223
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  224  KVDDNIDLDLEGLIEL  239
+
+
+>TR:A0A2P5EAF5_9ROSA A0A2P5EAF5 Hexosyltransferase OS=Trema orientalis OX=63057 GN=TorRG33x02_217390 
+PE=3 SV=1
+Length=352
+
+ Score = 95.9 bits (237),  Expect = 1e-22
+ Identities = 44/81 (54%), Positives = 59/81 (73%), Gaps = 3/81 (4%)
+
+Query  3    VGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYAK  62
+            +GRSANRGD+ D EID ENR T DFL+LDD  ES EE P+K KSF  +A D +DA F+ K
+Sbjct  159  IGRSANRGDSLDVEIDRENRQTHDFLVLDDQVESPEEHPRKIKSFLVHALDKWDAEFFVK  218
+
+Query  63   VNDDIYINV---GXVLSVNFE  80
+            VNDD+++N+   G +L+ + +
+Sbjct  219  VNDDVFVNIDSLGAILTAHLD  239
+
+
+>TR:A0A067JQC0_JATCU A0A067JQC0 Hexosyltransferase OS=Jatropha curcas OX=180498 GN=JCGZ_26016 
+PE=3 SV=1
+Length=328
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 40/70 (57%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  ++ ID EN+ T DF+IL++H E+ + LP K K FFA+AAD +DA FYA
+Sbjct  161  VIGRSANRGDNLEKAIDNENKQTNDFIILNNHVEATDGLPNKAKLFFAHAADKWDAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVND++Y+N+
+Sbjct  221  KVNDNVYVNI  230
+
+
+>TR:M0TT73_MUSAM M0TT73 Hexosyltransferase OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103996382 PE=3 SV=1
+Length=360
+
+ Score = 95.9 bits (237),  Expect = 2e-22
+ Identities = 41/76 (54%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP+K K FF++A +++DA FY 
+Sbjct  176  VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEAAEELPRKAKFFFSSAVESWDAEFYV  235
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  236  KVDDNINLDLDGLIEI  251
+
+
+>TR:A0A0S3RPI2_PHAAN A0A0S3RPI2 Hexosyltransferase OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.03G233600 PE=3 SV=1
+Length=367
+
+ Score = 95.9 bits (237),  Expect = 2e-22
+ Identities = 47/83 (57%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  158  VIGRSANRGDSLDRNIDAENRSTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  217
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  218  KVDDSI--------DIDLEGLIE  232
+
+
+>TR:A0A0L9TI28_PHAAN A0A0L9TI28 Hexosyltransferase OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan909s000600 PE=3 SV=1
+Length=367
+
+ Score = 95.9 bits (237),  Expect = 2e-22
+ Identities = 47/83 (57%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL+ H E+ EELPKK K+FF+ A   +DA FY 
+Sbjct  158  VIGRSANRGDSLDRNIDAENRSTKDFLILEGHEEAQEELPKKVKTFFSTAVQNWDADFYV  217
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D I         ++ EGL E
+Sbjct  218  KVDDSI--------DIDLEGLIE  232
+
+
+>TR:A0A1S4C876_TOBAC A0A1S4C876 Hexosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107816262 
+PE=3 SV=1
+Length=315
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 42/76 (55%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS++RGD+ DR ID+E+R + DF+I++DH ES +E  KKTK FF +AA+ +DA FYA
+Sbjct  131  VIGRSSSRGDSSDRAIDDESRRSNDFIIINDHVESPQEQAKKTKLFFVHAAENWDAEFYA  190
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVND+IY+N+  V +V
+Sbjct  191  KVNDNIYVNIDAVGAV  206
+
+
+>TR:A0A2G9H6Y6_9LAMI A0A2G9H6Y6 Hexosyltransferase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_14103 PE=3 SV=1
+Length=342
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 42/76 (55%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSA+ GD+ DREID ENR   DF+IL++H E+ EE  KKTK FF +A + +DA FYA
+Sbjct  158  VIGRSAHHGDSSDREIDSENRQANDFMILENHVETPEERAKKTKLFFIHAVEHWDAEFYA  217
+
+Query  62   KVNDDIYINVGXVLSV  77
+            K+NDD+Y+N+  + SV
+Sbjct  218  KINDDVYVNIDALGSV  233
+
+
+>TR:A0A2C9W3L3_MANES A0A2C9W3L3 Hexosyltransferase OS=Manihot esculenta OX=3983 GN=MANES_03G012800 
+PE=3 SV=1
+Length=344
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 43/76 (57%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+EN STKDFLIL+ H E+ EELPKK K FF+ AA ++DA FY 
+Sbjct  160  VIGRSANRGDSLDRIIDDENSSTKDFLILEGHEEAQEELPKKAKFFFSTAAQSWDAEFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  220  KVDDNINLDLEGLIGI  235
+
+
+>TR:A0A199UQ93_ANACO A0A199UQ93 Hexosyltransferase OS=Ananas comosus OX=4615 GN=ACMD2_12014 
+PE=3 SV=1
+Length=417
+
+ Score = 96.3 bits (238),  Expect = 2e-22
+ Identities = 40/76 (53%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+++ELP+K KSFF+ A + +DA FY 
+Sbjct  186  VIGRSANRGDSLDRNIDDENRRTKDFLILESHEEAEDELPRKAKSFFSAAVEAWDAEFYV  245
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++ +
+Sbjct  246  KVDDNVNLDLDGLIEI  261
+
+
+>TR:A0A2P2LE51_RHIMU A0A2P2LE51 Hexosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=350
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR+TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  166  VIGRSANRGDSLDRNIDEENRATKDFLILEGHEEAQEELPKKAKFFFSAAVQNWDAEFYV  225
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  226  KVDDNINLDLEGLIGL  241
+
+
+>TR:A0A2R6PJN9_ACTCH A0A2R6PJN9 Hexosyltransferase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc29197 PE=3 SV=1
+Length=353
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 48/86 (56%), Positives = 59/86 (69%), Gaps = 8/86 (9%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  169  VIGRSANRGDSLDRNIDEENRRTKDFLILESHEEAQEELPKKAKFFFSTAIQNWDADFYV  228
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYEWFA  87
+            KV+D+I         ++ EGL E  A
+Sbjct  229  KVDDNI--------DLDLEGLIELLA  246
+
+
+>TR:B9RP11_RICCO B9RP11 Hexosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_0923250 
+PE=3 SV=1
+Length=354
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN STKDFLILD H E+ EE+PKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSANRGDSLDRNIDEENSSTKDFLILDGHEEAQEEIPKKAKFFFSTAVQKWDAEFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  222  KVDDNINLDLEGLIGL  237
+
+
+>TR:A0A2U1Q6W5_ARTAN A0A2U1Q6W5 Hexosyltransferase OS=Artemisia annua OX=35608 GN=CTI12_AA068100 
+PE=3 SV=1
+Length=365
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 43/76 (57%), Positives = 57/76 (75%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR IDEENRST DFLILDDH E+DEE  KK K FF+ A   +DA FY 
+Sbjct  178  VIGRSPNRGDSLDRGIDEENRSTNDFLILDDHEEADEESSKKAKFFFSTAVQNWDAEFYV  237
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+ DI++++  ++ +
+Sbjct  238  KVDKDIHLDIEGLIEL  253
+
+
+>TR:M5WFF9_PRUPE M5WFF9 Hexosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_ppa008209mg 
+PE=3 SV=1
+Length=341
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 39/70 (56%), Positives = 53/70 (76%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR+ID EN  T DF++LD   E+ EE PKK KSF+ +A + +DA FY 
+Sbjct  158  VIGRSPNRGDSLDRQIDRENEQTNDFIVLDGQVEASEERPKKMKSFYIHAVENWDAEFYV  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:A0A251P710_PRUPE A0A251P710 Hexosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_5G113400 
+PE=3 SV=1
+Length=342
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 39/70 (56%), Positives = 53/70 (76%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR+ID EN  T DF++LD   E+ EE PKK KSF+ +A + +DA FY 
+Sbjct  158  VIGRSPNRGDSLDRQIDRENEQTNDFIVLDGQVEASEERPKKMKSFYIHAVENWDAEFYV  217
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  218  KVNDDVYVNI  227
+
+
+>TR:B9N9A0_POPTR B9N9A0 Hexosyltransferase OS=Populus trichocarpa OX=3694 GN=POPTR_015G023700v3 
+PE=3 SV=1
+Length=344
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 45/82 (55%), Positives = 59/82 (72%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++G+SAN GD  DR ID ENR + DF+ILDD  E  E+LPKK + FFA AAD +DA FYA
+Sbjct  162  VIGKSANPGDNLDRGIDNENRQSNDFIILDDLVEGTEDLPKKARLFFAYAADKWDAEFYA  221
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVND+IY+ +   G  L+ +F+
+Sbjct  222  KVNDNIYVTIDALGTALAAHFD  243
+
+
+>TR:A0A103YJG0_CYNCS A0A103YJG0 Hexosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_011417 PE=3 SV=1
+Length=344
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 41/70 (59%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSAN GD+ DR ID EN++  DF IL+ H E+ EE PKKTK FFA+AA+ ++A +YA
+Sbjct  160  VIGRSANHGDSLDRGIDIENKNYNDFFILESHVEAPEEQPKKTKLFFAHAAERWEAEYYA  219
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  220  KVNDDVYVNI  229
+
+
+>SP:B3GTA_ARATH Q94A05 Hydroxyproline O-galactosyltransferase HPGT2 OS=Arabidopsis 
+thaliana OX=3702 GN=HPGT2 PE=1 SV=1
+Length=345
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 41/76 (54%), Positives = 62/76 (82%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  161  VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++++
+Sbjct  221  KVDDNVDLDLEGMIAL  236
+
+
+>TR:A0A068UV24_COFCA A0A068UV24 Hexosyltransferase OS=Coffea canephora OX=49390 GN=GSCOC_T00035503001 
+PE=3 SV=1
+Length=345
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 42/70 (60%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD  D++ID ENR T DF+IL+DH E+ +E  KK K FFA+A + ++A FY 
+Sbjct  161  VIGRSANRGDISDKDIDNENRQTSDFIILNDHLEAPKESSKKAKLFFAHAVENWNAEFYV  220
+
+Query  62   KVNDDIYINV  71
+            KVNDDIYIN+
+Sbjct  221  KVNDDIYINI  230
+
+
+>TR:W8Q6I0_ARATH W8Q6I0 Hexosyltransferase (Fragment) OS=Arabidopsis thaliana 
+OX=3702 GN=AT4G32120 PE=2 SV=1
+Length=345
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 41/76 (54%), Positives = 62/76 (82%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  161  VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++++
+Sbjct  221  KVDDNVDLDLEGMIAL  236
+
+
+>TR:A0A2K1XGX0_POPTR A0A2K1XGX0 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_015G023700v3 PE=3 SV=1
+Length=346
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 45/82 (55%), Positives = 59/82 (72%), Gaps = 3/82 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++G+SAN GD  DR ID ENR + DF+ILDD  E  E+LPKK + FFA AAD +DA FYA
+Sbjct  162  VIGKSANPGDNLDRGIDNENRQSNDFIILDDLVEGTEDLPKKARLFFAYAADKWDAEFYA  221
+
+Query  62   KVNDDIYINV---GXVLSVNFE  80
+            KVND+IY+ +   G  L+ +F+
+Sbjct  222  KVNDNIYVTIDALGTALAAHFD  243
+
+
+>TR:A0A0A0LSK0_CUCSA A0A0A0LSK0 Hexosyltransferase OS=Cucumis sativus OX=3659 GN=Csa_2G382400 
+PE=3 SV=1
+Length=346
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+EN STKDFLIL+ H E+DEELPKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSANRGDSLDRNIDKENLSTKDFLILEGHEEADEELPKKAKFFFSTAVQNWDAQFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  222  KVDDNIDLDLEGLIGL  237
+
+
+>TR:A0A1S3BCY2_CUCME A0A1S3BCY2 Hexosyltransferase OS=Cucumis melo OX=3656 GN=LOC103488325 
+PE=3 SV=1
+Length=346
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+EN STKDFLIL+ H E+DEELPKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSANRGDSLDRNIDKENHSTKDFLILEGHEEADEELPKKAKFFFSTAVQNWDAEFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D I +++  ++ +
+Sbjct  222  KVDDHIDLDLEGLIGL  237
+
+
+>TR:C5Z5D2_SORBI C5Z5D2 Hexosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3010G059700 
+PE=3 SV=1
+Length=353
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 45/87 (52%), Positives = 62/87 (71%), Gaps = 5/87 (6%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP K K FF+ A +T+DA FY 
+Sbjct  169  VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEAAEELPSKAKFFFSAAVETWDAEFYV  228
+
+Query  62   KVNDDIYINVGXVLSV-----NFEGLY  83
+            KV D+I +++  ++ +       +GLY
+Sbjct  229  KVEDNINLDLAGLIEMLEGRRGSQGLY  255
+
+
+>TR:A0A061GQK5_THECC A0A061GQK5 Hexosyltransferase OS=Theobroma cacao OX=3641 GN=TCM_046901 
+PE=3 SV=1
+Length=343
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 44/76 (58%), Positives = 55/76 (72%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR TKDF ILD H E+ EELPKK K FF  A   +DA FY 
+Sbjct  159  VIGRSANRGDSLDRNIDEENRKTKDFFILDGHEEAQEELPKKAKFFFTAAVQNWDAEFYV  218
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I I +  ++ +
+Sbjct  219  KVDDNIDIGLEGLIGL  234
+
+
+>TR:A0A1D6NTZ6_MAIZE A0A1D6NTZ6 Hexosyltransferase OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d045146 
+PE=3 SV=1
+Length=255
+
+ Score = 93.2 bits (230),  Expect = 4e-22
+ Identities = 44/87 (51%), Positives = 61/87 (70%), Gaps = 5/87 (6%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP K K FF+ A + +DA FY 
+Sbjct  71   VIGRSANRGDSLDRNIDDENRQTKDFLILESHEEAAEELPSKAKIFFSAAVEAWDAEFYV  130
+
+Query  62   KVNDDIYINVGXVLSV-----NFEGLY  83
+            KV D+I +++  ++ +       +GLY
+Sbjct  131  KVEDNINLDLAGLIEMLEGRRGSQGLY  157
+
+
+>TR:D7MAR5_ARALL D7MAR5 Hexosyltransferase OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_491522 PE=3 SV=1
+Length=345
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 41/76 (54%), Positives = 61/76 (80%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  161  VIGRSANRGDSLDRKIDEENRATKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D++ +++  ++ +
+Sbjct  221  KVDDNVDLDLEGMIGL  236
+
+
+>TR:A0A2K2A8C2_POPTR A0A2K2A8C2 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_006G257200v3 PE=3 SV=1
+Length=345
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 44/76 (58%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENRSTKDFLIL  H E+ EELPKK K FF+ A  T+DA FY 
+Sbjct  161  VIGRSANRGDSLDRNIDGENRSTKDFLILVGHEEAQEELPKKVKYFFSTAVQTWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  221  KVDDNINLDLEGLIEL  236
+
+
+>TR:A0A0K9S0L7_SPIOL A0A0K9S0L7 Hexosyltransferase OS=Spinacia oleracea OX=3562 GN=SOVF_007840 
+PE=3 SV=1
+Length=346
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 40/70 (57%), Positives = 54/70 (77%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS N GD+ D EID ENR   DF++L DH E+ ++LPKKT  +FA+ AD ++A FYA
+Sbjct  161  VIGRSENHGDSLDLEIDIENRQNNDFIVLKDHVETSKQLPKKTMFYFAHVADNWEAEFYA  220
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+NV
+Sbjct  221  KVNDDVYVNV  230
+
+
+>TR:A0A067F388_CITSI A0A067F388 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g016756mg 
+PE=3 SV=1
+Length=269
+
+ Score = 93.2 bits (230),  Expect = 5e-22
+ Identities = 42/76 (55%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+ID ENR TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSANRGDSLDRKIDAENRETKDFLILEGHEEAQEELPKKAKFFFSTAVQIWDAEFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  222  KVDDNIDLDLEGLIGL  237
+
+
+>TR:A0A2P5B690_PARAD A0A2P5B690 Hexosyltransferase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_268250 PE=3 SV=1
+Length=313
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 47/101 (47%), Positives = 66/101 (65%), Gaps = 8/101 (8%)
+
+Query  3    VGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYAK  62
+            +GRS+NRGD+ D EID ENR T DFL+LDD  ES EE P+K KSF  +A D +DA  + K
+Sbjct  117  IGRSSNRGDSLDVEIDRENRQTHDFLVLDDQVESPEEHPRKIKSFLVHALDKWDAELFVK  176
+
+Query  63   VNDDIYINV---GXVLSVNFEGLYEWFAFYYIGRKFLGSLL  100
+            VNDD+++N+   G +L+ + +  +      YIGR   G ++
+Sbjct  177  VNDDVFVNIDSLGAILTAHLDKHH-----IYIGRMKSGQVV  212
+
+
+>TR:A0A067F354_CITSI A0A067F354 Hexosyltransferase OS=Citrus sinensis OX=2711 GN=CISIN_1g016756mg 
+PE=3 SV=1
+Length=270
+
+ Score = 93.2 bits (230),  Expect = 5e-22
+ Identities = 42/76 (55%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR+ID ENR TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  86   VIGRSANRGDSLDRKIDAENRETKDFLILEGHEEAQEELPKKAKFFFSTAVQIWDAEFYV  145
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  146  KVDDNIDLDLEGLIGL  161
+
+
+>TR:D7SV29_VITVI D7SV29 Hexosyltransferase OS=Vitis vinifera OX=29760 GN=VIT_04s0008g06480 
+PE=3 SV=1
+Length=339
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 44/76 (58%), Positives = 57/76 (75%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID ENR TKDFLILD H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  155  VIGRSANRGDSLDRNIDVENRLTKDFLILDGHEEAQEELPKKAKLFFSTALQNWDAEFYV  214
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D I +++  ++S+
+Sbjct  215  KVDDKIDLDLDGLISL  230
+
+
+>TR:A0A2P6P6E3_ROSCH A0A2P6P6E3 Hexosyltransferase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr7g0195671 
+PE=3 SV=1
+Length=340
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 40/70 (57%), Positives = 56/70 (80%), Gaps = 0/70 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ D++ID E+R TKDF++LD   E+ EE PKK KSFF +A +++DA FY 
+Sbjct  156  VIGRSPNRGDSLDKQIDSESRQTKDFIVLDGQVEAYEEGPKKMKSFFIHAVESWDAEFYV  215
+
+Query  62   KVNDDIYINV  71
+            KVNDD++IN+
+Sbjct  216  KVNDDVFINI  225
+
+
+>TR:A0A0D2UAF9_GOSRA A0A0D2UAF9 Hexosyltransferase OS=Gossypium raimondii OX=29730 
+GN=B456_010G116400 PE=3 SV=1
+Length=344
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 43/76 (57%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN  TKDF IL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  160  VIGRSANRGDSLDRHIDEENHRTKDFFILEGHEEAQEELPKKVKFFFSTAVQNWDAEFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVND+I I++  ++ +
+Sbjct  220  KVNDNIDIDLEGLIGL  235
+
+
+>TR:A0A1U8PUX1_GOSHI A0A1U8PUX1 Hexosyltransferase OS=Gossypium hirsutum OX=3635 GN=LOC107962907 
+PE=3 SV=1
+Length=344
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 43/76 (57%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN  TKDF IL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  160  VIGRSANRGDSLDRHIDEENHRTKDFFILEGHEEAQEELPKKVKFFFSTAVQNWDAEFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVND+I I++  ++ +
+Sbjct  220  KVNDNIDIDLEGLIGL  235
+
+
+>TR:A0A087GIX4_ARAAL A0A087GIX4 Hexosyltransferase OS=Arabis alpina OX=50452 GN=AALP_AA7G183900 
+PE=3 SV=1
+Length=345
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 42/76 (55%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRSANRGD+ DR+IDEENR+TKDFLIL++H E+ EELPKK K F++ A   +DA FY 
+Sbjct  161  VVGRSANRGDSLDRKIDEENRTTKDFLILENHEEAQEELPKKVKFFYSAAVQNWDAKFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D + +++  ++ +
+Sbjct  221  KVDDGVDLDLEALIGL  236
+
+
+>TR:A0A0D2SCC9_GOSRA A0A0D2SCC9 Hexosyltransferase OS=Gossypium raimondii OX=29730 
+GN=B456_007G014300 PE=3 SV=1
+Length=255
+
+ Score = 92.8 bits (229),  Expect = 5e-22
+ Identities = 44/70 (63%), Positives = 54/70 (77%), Gaps = 1/70 (1%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSA+R D  DR ID+ENR T DF+ILD   E+  ELPKK K FFA AAD +DA FYA
+Sbjct  72   VIGRSADREDNLDRSIDDENRQTNDFIILDQ-VEAPGELPKKVKMFFALAADKWDADFYA  130
+
+Query  62   KVNDDIYINV  71
+            KVNDD+Y+N+
+Sbjct  131  KVNDDVYVNI  140
+
+
+>TR:A0A166GFA1_DAUCA A0A166GFA1 Hexosyltransferase OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_001548 PE=3 SV=1
+Length=322
+
+ Score = 94.0 bits (232),  Expect = 5e-22
+ Identities = 42/76 (55%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR+T DFLI+D H E++EELPKK K FF+ A   +DA FY 
+Sbjct  138  VIGRSANRGDSLDRNIDKENRTTNDFLIMDGHEEAEEELPKKAKFFFSTAVQKWDADFYV  197
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I I++  ++ +
+Sbjct  198  KVDDNIDIDLDALVEL  213
+
+
+>TR:A0A1U7ZC34_NELNU A0A1U7ZC34 Hexosyltransferase OS=Nelumbo nucifera OX=4432 GN=LOC104592531 
+PE=3 SV=1
+Length=351
+
+ Score = 94.4 bits (233),  Expect = 5e-22
+ Identities = 43/76 (57%), Positives = 57/76 (75%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR  KDFLILD H E+ EELPKK K FF+ A + +DA FY 
+Sbjct  167  VIGRSANRGDSLDRSIDEENRQMKDFLILDGHEEAQEELPKKAKFFFSAAVENWDAEFYV  226
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+  I++  ++ +
+Sbjct  227  KVDDNFNIDLEGLIEM  242
+
+
+>TR:A0A2R6QZE4_ACTCH A0A2R6QZE4 Hexosyltransferase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc12445 PE=3 SV=1
+Length=353
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEENR TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  169  VIGRSANRGDSLDRNIDEENRRTKDFLILEGHEEAQEELPKKAKFFFSTAIQNWDADFYV  228
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  229  KVDDNIDLDLEGLIEL  244
+
+
+>TR:A0A2K1WUR8_POPTR A0A2K1WUR8 Hexosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_018G024500v3 PE=3 SV=1
+Length=313
+
+ Score = 93.6 bits (231),  Expect = 7e-22
+ Identities = 42/76 (55%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR I+ ENRSTKDFLIL+ H E+ EELPKK KSFF+ A  T+DA FY 
+Sbjct  161  VIGRSANRGDSLDRNINGENRSTKDFLILEGHEEAQEELPKKVKSFFSTAVQTWDAEFYV  220
+
+Query  62   KVNDDIYINVGXVLSV  77
+            K +++I +++  ++ +
+Sbjct  221  KADNNINLDLEGLIEL  236
+
+
+>TR:A0A2G9I2N7_9LAMI A0A2G9I2N7 Hexosyltransferase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_03262 PE=3 SV=1
+Length=291
+
+ Score = 93.2 bits (230),  Expect = 7e-22
+ Identities = 41/76 (54%), Positives = 57/76 (75%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN + KDFLILD H E+ EELPKK K FF+ A   ++A FY 
+Sbjct  107  VIGRSANRGDSLDRNIDEENHALKDFLILDHHEEAQEELPKKAKFFFSTAVQMWNADFYV  166
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV D++ +++G ++ +
+Sbjct  167  KVGDNVDLDIGGLVEL  182
+
+
+>TR:A0A022PV18_ERYGU A0A022PV18 Hexosyltransferase OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a009462mg PE=3 SV=1
+Length=341
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 45/83 (54%), Positives = 58/83 (70%), Gaps = 8/83 (10%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR IDEENR+T+DFLILD+H E+ EEL KK K FF  A   +DA FY 
+Sbjct  157  VIGRSPNRGDSLDRNIDEENRATEDFLILDNHEEAQEELSKKAKFFFGTAVQMWDADFYV  216
+
+Query  62   KVNDDIYINVGXVLSVNFEGLYE  84
+            KV+D++         +NF+GL E
+Sbjct  217  KVDDNV--------DINFDGLVE  231
+
+
+>TR:A0A022RI14_ERYGU A0A022RI14 Hexosyltransferase OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a009438mg PE=3 SV=1
+Length=342
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 41/76 (54%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++G+SAN+GD+ DREID ENR T DF+IL++H E+ EE  KKTK F  +A + +DAAFY 
+Sbjct  158  VIGKSANKGDSSDREIDSENRQTNDFVILENHVETIEERAKKTKLFLIHAVENWDAAFYT  217
+
+Query  62   KVNDDIYINVGXVLSV  77
+            K++DD+Y+N+  + SV
+Sbjct  218  KLSDDVYVNIDALGSV  233
+
+
+>TR:A0A0D3GDF0_9ORYZ A0A0D3GDF0 Hexosyltransferase OS=Oryza barthii OX=65489 PE=3 
+SV=1
+Length=293
+
+ Score = 93.2 bits (230),  Expect = 7e-22
+ Identities = 44/87 (51%), Positives = 63/87 (72%), Gaps = 5/87 (6%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR TKDFLIL+ H E+ EELP K K FF+ A + +DA FY 
+Sbjct  133  VIGRSANRGDSLDRNIDDENRRTKDFLILESHEEAAEELPSKVKFFFSAAIEAWDAEFYV  192
+
+Query  62   KVNDDIYINVGXVLSV-----NFEGLY  83
+            KV+D+I +++  ++ +     + +GLY
+Sbjct  193  KVDDNINLDLAGLIEMLEARRSSQGLY  219
+
+
+>TR:A0A0B0N4Z7_GOSAR A0A0B0N4Z7 Hexosyltransferase OS=Gossypium arboreum OX=29729 
+GN=F383_34315 PE=3 SV=1
+Length=375
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 43/76 (57%), Positives = 56/76 (74%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR IDEEN  TKDF IL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  160  VIGRSANRGDSLDRHIDEENHRTKDFFILEGHEEAQEELPKKVKFFFSTAVQNWDAEFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KVND+I I++  ++ +
+Sbjct  220  KVNDNIDIDLEGLIGL  235
+
+
+>TR:A0A2I4ES32_9ROSI A0A2I4ES32 Hexosyltransferase OS=Juglans regia OX=51240 GN=LOC108992198 
+PE=3 SV=1
+Length=344
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 42/76 (55%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRSANRGD+ DR ID+ENR+TKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  160  VIGRSANRGDSLDRNIDKENRTTKDFLILEGHEEAQEELPKKVKYFFSTAVQKWDAEFYV  219
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  220  KVDDNIDLDLEGLIGL  235
+
+
+>TR:A0A103XJP4_CYNCS A0A103XJP4 Hexosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_006141 PE=3 SV=1
+Length=318
+
+ Score = 93.6 bits (231),  Expect = 7e-22
+ Identities = 45/78 (58%), Positives = 57/78 (73%), Gaps = 3/78 (4%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS N GD  DR+I+ EN   KDFLIL+DH E+ EE PKKTK FF +A + +DA FY 
+Sbjct  134  VIGRSLNHGDNSDRDINNENIKEKDFLILNDHVETAEEKPKKTKLFFIDALEHWDAEFYV  193
+
+Query  62   KVNDDIYINV---GXVLS  76
+            KVNDDIY+N+   G +LS
+Sbjct  194  KVNDDIYLNIDALGAILS  211
+
+
+>TR:A0A072VEH9_MEDTR A0A072VEH9 Hexosyltransferase OS=Medicago truncatula OX=3880 
+GN=25481926 PE=3 SV=1
+Length=346
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 43/76 (57%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR I+EENRSTKDFLIL+ H E+ EELPKK K FF+ A   +DA FY 
+Sbjct  162  VIGRSPNRGDSLDRNINEENRSTKDFLILESHEEAQEELPKKAKIFFSTAVQNWDADFYV  221
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D I I++  ++++
+Sbjct  222  KVDDSIDIDLEGLIAL  237
+
+
+>TR:A0A2G2VMW0_CAPBA A0A2G2VMW0 Hexosyltransferase OS=Capsicum baccatum OX=33114 GN=CQW23_26108 
+PE=3 SV=1
+Length=354
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 42/76 (55%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR I+EENR+TKDFLIL+ H E+ EELPKK K FF++A  T+DA FY 
+Sbjct  170  VIGRSPNRGDSLDRNINEENRATKDFLILEIHEEAQEELPKKAKYFFSSAIQTWDAEFYV  229
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  230  KVDDNIDVDLDGLIEL  245
+
+
+>TR:A0A2G2YFA8_CAPAN A0A2G2YFA8 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107847619 
+PE=3 SV=1
+Length=354
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 42/76 (55%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR I+EENR+TKDFLIL+ H E+ EELPKK K FF++A  T+DA FY 
+Sbjct  170  VIGRSPNRGDSLDRNINEENRATKDFLILEIHEEAQEELPKKAKYFFSSAIQTWDAEFYV  229
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  230  KVDDNIDVDLDGLIEL  245
+
+
+>TR:A0A1U8EVS5_CAPAN A0A1U8EVS5 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=T459_27919 
+PE=3 SV=1
+Length=354
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 42/76 (55%), Positives = 60/76 (79%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR I+EENR+TKDFLIL+ H E+ EELPKK K FF++A  T+DA FY 
+Sbjct  170  VIGRSPNRGDSLDRNINEENRATKDFLILEIHEEAQEELPKKAKYFFSSAIQTWDAEFYV  229
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  230  KVDDNIDVDLDGLIEL  245
+
+
+>TR:K4CJX9_SOLLC K4CJX9 Hexosyltransferase OS=Solanum lycopersicum OX=4081 GN=101264448 
+PE=3 SV=1
+Length=355
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 43/76 (57%), Positives = 59/76 (78%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            +VGRS NRGD+ DR I+EENR+TKDFLIL  H E+ EELPKK K FF++A  T+DA FY 
+Sbjct  170  VVGRSPNRGDSLDRNINEENRATKDFLILGSHEEAHEELPKKAKYFFSSAIQTWDAEFYV  229
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+D+I +++  ++ +
+Sbjct  230  KVDDNIDVDLDGLIEL  245
+
+
+>TR:A0A251VTV7_HELAN A0A251VTV7 Hexosyltransferase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr01g0030601 
+PE=3 SV=1
+Length=355
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 42/76 (55%), Positives = 58/76 (76%), Gaps = 0/76 (0%)
+
+Query  2    IVGRSANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYA  61
+            ++GRS NRGD+ DR IDEENR+TKDFLILD H E+DEE PKK K FF+ A   +DA FY 
+Sbjct  171  VIGRSPNRGDSLDRNIDEENRTTKDFLILDGHEEADEESPKKAKFFFSTAVQNWDAEFYV  230
+
+Query  62   KVNDDIYINVGXVLSV  77
+            KV+++I +++  ++ +
+Sbjct  231  KVDNNIALDLEGLIEL  246
+
+
+>TR:A0A1U8FZ51_CAPAN A0A1U8FZ51 Hexosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107863176 
+PE=3 SV=1
+Length=281
+
+ Score = 92.8 bits (229),  Expect = 8e-22
+ Identities = 41/66 (62%), Positives = 54/66 (82%), Gaps = 0/66 (0%)
+
+Query  6    SANRGDTFDREIDEENRSTKDFLILDDHTESDEELPKKTKSFFANAADTFDAAFYAKVND  65
+            SANRGD+ DR ID EN  T DF IL++H E+ EELPKKTK FFA+AAD++ A +YAKVND
+Sbjct  101  SANRGDSLDRSIDSENSQTNDFFILENHVEAPEELPKKTKLFFAHAADSWTADYYAKVND  160
+
+Query  66   DIYINV  71
+            ++++N+
+Sbjct  161  NVFVNL  166
+
+
+
+Lambda      K        H
+   0.321    0.142    0.421 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56998485060
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Aug 10, 2018  11:08 PM
+  Number of letters in database: 2,265,929,236
+  Number of sequences in database:  6,413,124
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
