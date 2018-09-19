@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -24,8 +25,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Table(name = "search_history")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
-public class SearchHistory {
-	
+public class SearchHistory implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

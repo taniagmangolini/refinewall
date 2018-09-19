@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.CascadeType;
@@ -18,6 +19,7 @@ import javax.persistence.TemporalType;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
@@ -25,7 +27,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Table(name = "sucest_sequence")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
-public class SucestSequence {
+public class SucestSequence implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,7 +41,8 @@ public class SucestSequence {
 	@Column(name = "sequence", length = 10000)
 	private String sequence;
 	
-	@ManyToOne(cascade = CascadeType.ALL)
+	@JsonBackReference
+	@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	@JoinColumn
 	private Sucest sucest;
 	

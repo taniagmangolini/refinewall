@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -21,12 +22,18 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name = "sucest")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt", "idBlastJob", "resultBlastContents"})
-public class Sucest {
+public class Sucest implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -46,10 +53,12 @@ public class Sucest {
 	@Column(name = "path", length =  5000)
 	private String path;
 	
-	@OneToMany(mappedBy = "sucest", cascade = CascadeType.ALL)
+	@JsonManagedReference
+	@OneToMany(mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	private List<BlastResult> blastResults;
 	
-	@OneToMany(mappedBy = "sucest", cascade = CascadeType.ALL)
+	@JsonManagedReference
+	@OneToMany(mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	private List<SucestSequence> sequences;
 	
 	@JsonIgnore

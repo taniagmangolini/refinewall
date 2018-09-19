@@ -4,13 +4,11 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import br.com.usp.lafieco.model.BlastResult;
-import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.model.SucestSequence;
 
 @Repository
-public interface SucestRepository extends CrudRepository<Sucest, String>  {
+public interface SucestSequenceRepository extends CrudRepository<SucestSequence, String>  {
 
-	Sucest findByGene(String gene);  
-
+	SucestSequence findBySequence(String sequence);  
 
 }
