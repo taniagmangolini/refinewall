@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.service.interfaces.IUniprotService;
+import br.com.usp.lafieco.vo.UniprotVO;
 
 @RestController
 @CrossOrigin(maxAge = 3600)
@@ -29,9 +29,9 @@ public class UniprotController {
 	@CrossOrigin
 	@GetMapping
 	@ResponseBody
-	public Uniprot getUniprot(@RequestParam("idProtein") String idProtein) {
+	public UniprotVO getUniprot(@RequestParam("idProtein") String idProtein) {
 
-		Uniprot uniprot = uniprotService.getUniprot(idProtein);
+		UniprotVO uniprot = uniprotService.getUniprot(idProtein);
 
 		if (uniprot == null ) {
 			throw new CustomException(messageSource.getMessage("messages.errorUniprot", new Object[] {idProtein}, Locale.US));
