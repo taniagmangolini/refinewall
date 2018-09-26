@@ -2,6 +2,7 @@ package br.com.usp.lafieco.vo;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 public class UniprotVO implements Serializable {
 	
@@ -14,6 +15,12 @@ public class UniprotVO implements Serializable {
 	private List<String> genes;
 	
 	private String sequence;
+	
+	private String organism;
+	
+	private List<String> databases;
+	
+	private List<String> keywords;
 	
 	public List<String> getAccessions() {
 		return accessions;
@@ -45,6 +52,31 @@ public class UniprotVO implements Serializable {
 
 	public void setSequence(String sequence) {
 		this.sequence = sequence;
+	}
+	
+
+	public String getOrganism() {
+		return organism;
+	}
+
+	public void setOrganism(String organism) {
+		this.organism = organism;
+	}
+	
+	public List<String> getDatabases() {
+		return databases;
+	}
+
+	public void setDatabases(List<String> databases) {
+		this.databases = databases;
+	}
+
+	public List<String> getKeywords() {
+		return keywords;
+	}
+
+	public void setKeywords(List<String> keywords) {
+		this.keywords = keywords;
 	}
 
 	@Override

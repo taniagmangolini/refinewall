@@ -2,16 +2,18 @@ package br.com.usp.lafieco.service;
 
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import br.com.usp.lafieco.bean.org.uniprot.uniprot.DbReferenceType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.EvidencedStringType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.GeneNameType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.GeneType;
-import br.com.usp.lafieco.bean.org.uniprot.uniprot.ProteinType;
+import br.com.usp.lafieco.bean.org.uniprot.uniprot.KeywordType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.enums.FormatEnum;
 import br.com.usp.lafieco.service.interfaces.IUniprotService;
@@ -44,52 +46,9 @@ public class UniprotService implements IUniprotService {
 		try {
 
 			uniprot = restTemplate.getForObject(targetUrl, Uniprot.class);
-
-			System.out.println("uniprot=>>>> " + uniprot.getEntry().get(0).getAccession());
-
-			uniprotVO = new UniprotVO();
-			uniprotVO.setAccessions(new ArrayList<String>());
-			uniprotVO.setGenes(new ArrayList<String>());
-			uniprotVO.setProtein(new ProteinVO());
-
-			for (String item : uniprot.getEntry().get(0).getAccession()) {
-				uniprotVO.getAccessions().add(item);
-			}
-
-			// mount the uniprot value object
-			if (uniprot.getEntry().get(0).getProtein() != null
-					&& uniprot.getEntry().get(0).getProtein().getSubmittedName() != null
-					&& !uniprot.getEntry().get(0).getProtein().getSubmittedName().isEmpty()) {
-
-				for (ProteinType.SubmittedName item : uniprot.getEntry().get(0).getProtein().getSubmittedName()) {
-
-					uniprotVO.getProtein()
-							.setProteinName(item.getFullName().getValue() != null ? item.getFullName().getValue() : "");
-
-					uniprotVO.getProtein().setEcNumber(new ArrayList<String>());
-
-					if (item.getEcNumber() != null && !item.getEcNumber().isEmpty()) {
-
-						for (EvidencedStringType ec : item.getEcNumber()) {
-
-							uniprotVO.getProtein().getEcNumber().add(ec.getValue() != null ? ec.getValue() : "");
-						}
-					}
-
-				}
-			}
-
-			if (uniprot.getEntry().get(0).getGene() != null && !uniprot.getEntry().get(0).getGene().isEmpty()) {
-				for (GeneType item : uniprot.getEntry().get(0).getGene()) {
-					List<GeneNameType> geneNames = item.getName();
-					for (GeneNameType name : geneNames) {
-						uniprotVO.getGenes().add(name.getValue() != null ? name.getValue() : "");
-					}
-				}
-			}
 			
-			if (uniprot.getEntry().get(0).getSequence() != null) {
-				uniprotVO.setSequence(uniprot.getEntry().get(0).getSequence().getValue() != null ? uniprot.getEntry().get(0).getSequence().getValue() : "");
+			if(uniprot != null) {
+				uniprotVO = this.getUniprotVO(uniprot);
 			}
 			
 		} catch (RuntimeException e) {
@@ -100,4 +59,72 @@ public class UniprotService implements IUniprotService {
 		return uniprotVO;
 	}
 
+	private UniprotVO getUniprotVO(Uniprot uniprot) {
+		
+		UniprotVO uniprotVO = new UniprotVO();
+		uniprotVO.setAccessions(new ArrayList<String>());
+		uniprotVO.setGenes(new ArrayList<String>());
+		uniprotVO.setProtein(new ProteinVO());
+
+		for (String item : uniprot.getEntry().get(0).getAccession()) {
+			uniprotVO.getAccessions().add(item);
+		}
+
+		// protein data
+		if (uniprot.getEntry().get(0).getProtein() != null
+				&& uniprot.getEntry().get(0).getProtein().getRecommendedName() != null) {
+
+
+				uniprotVO.getProtein()
+						.setProteinName(uniprot.getEntry().get(0).getProtein().getRecommendedName().getFullName().getValue());
+
+				uniprotVO.getProtein().setEcNumber(new ArrayList<String>());
+
+				if (uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber() != null && !uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber().isEmpty()) {
+
+					for (EvidencedStringType ec : uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber()) {
+
+						uniprotVO.getProtein().getEcNumber().add(ec.getValue() != null ? ec.getValue() : "");
+					}
+				}
+		}
+
+		//genes
+		if (uniprot.getEntry().get(0).getGene() != null && !uniprot.getEntry().get(0).getGene().isEmpty()) {
+			for (GeneType item : uniprot.getEntry().get(0).getGene()) {
+				List<GeneNameType> geneNames = item.getName();
+				for (GeneNameType name : geneNames) {
+					uniprotVO.getGenes().add(name.getValue() != null ? name.getValue() : "");
+				}
+			}
+		}
+		
+		//organism
+		if (uniprot.getEntry().get(0).getOrganism() != null) {
+			uniprotVO.setOrganism(uniprot.getEntry().get(0).getOrganism().getName().get(0).getValue());
+		}
+		
+		//sequence
+		if (uniprot.getEntry().get(0).getSequence() != null) {
+			uniprotVO.setSequence(uniprot.getEntry().get(0).getSequence().getValue() != null ? uniprot.getEntry().get(0).getSequence().getValue() : "");
+		}
+		
+		//databases
+		if (uniprot.getEntry().get(0).getDbReference() != null && !uniprot.getEntry().get(0).getDbReference().isEmpty()) {
+			uniprotVO.setDatabases(new ArrayList<String>());
+			for(DbReferenceType db : uniprot.getEntry().get(0).getDbReference()) {
+				uniprotVO.getDatabases().add( db.getType() + ": " + db.getId() );
+			}
+		}
+		
+		//keywords
+		if (uniprot.getEntry().get(0).getKeyword() != null && !uniprot.getEntry().get(0).getKeyword().isEmpty()) {
+			uniprotVO.setKeywords(new ArrayList<String>());
+			for(KeywordType key : uniprot.getEntry().get(0).getKeyword()) {
+				uniprotVO.getKeywords().add(key.getValue());
+			}
+		}
+		
+		 return uniprotVO;
+	}
 }
