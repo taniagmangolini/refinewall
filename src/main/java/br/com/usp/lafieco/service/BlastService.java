@@ -1,6 +1,8 @@
 package br.com.usp.lafieco.service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -159,6 +161,62 @@ public class BlastService implements IBlastService {
 		return blastResult;
 	}
 
+	public List<BlastResult> runBlastSequence(String sequence, String email) {
+
+		Integer attempts = 0;
+
+		String jobId = this.runBlast(sequence, email);
+
+		Map<String, BlastResult> blastResult = null;
+
+		List<BlastResult> blastResultFiltered = null;
+
+		if (jobId != null) {
+
+			Map<String, String> jobResult = new HashMap<String, String>();
+
+			while ((jobResult.size() == 0) && attempts <= MAX_ATTEMPTS) {
+
+				String status = this.checkBlastStatus(jobId);
+
+				if (status.equals(BlastJobStatusEnum.FINISHED.getStatus())) {
+
+					String result = this.getBlastResult(jobId);
+					
+					jobResult.put(jobId, result);
+
+					List<String> lines = Arrays.asList(result.split("\\n"));
+
+					blastResult = fileService.processBlastResultFile(lines);
+
+				} else {
+
+					attempts += 1;
+				}
+
+			}
+
+			if (blastResult != null && !blastResult.isEmpty()) {
+
+				blastResultFiltered = new ArrayList<BlastResult>();
+
+				for (Map.Entry<String, BlastResult> entry : blastResult.entrySet()) {
+
+					List<BlastResult> result = blastRepository.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
+
+					if (result != null && !result.isEmpty()) {
+
+						blastResultFiltered.addAll(result);
+					}
+				}
+
+			}
+
+		}
+
+		return blastResultFiltered;
+	}
+
 	public void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable) {
 
 		Map<String, Sucest> sucests = fileService.processMultipleSequenceFile(file);
@@ -285,12 +343,12 @@ public class BlastService implements IBlastService {
 
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
 
-		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null 
+		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
 						blastResult.getSucestBusca()) == null) {
 
 			blastResult.setSucest(sucest);
-			
+
 			blastRepository.save(blastResult);
 		}
 	}

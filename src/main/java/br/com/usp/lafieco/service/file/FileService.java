@@ -36,18 +36,19 @@ public class FileService implements IFileService {
 	private MessageSource messageSource;
 
 	private static String SEQUENCE_SEPARATOR = ",";
-	
-	//LINUX
+
+	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
 			+ System.getProperty("file.separator") + "refine_export";
-	
-	
-	//WINDOWS
-	/*private static String EXPORT_FOLDER = "C:"+ System.getProperty("file.separator") + "tmp"
-			+ System.getProperty("file.separator") + "refine_export";
-	
-	*/
-	
+
+	// WINDOWS
+	/*
+	 * private static String EXPORT_FOLDER = "C:"+
+	 * System.getProperty("file.separator") + "tmp" +
+	 * System.getProperty("file.separator") + "refine_export";
+	 * 
+	 */
+
 	private static String BLAST_JOBS_PREFIX = "BLAST_JOBS_";
 
 	private static String BLAST_RESULT_FOLDER = "RESULT";
@@ -100,30 +101,30 @@ public class FileService implements IFileService {
 				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
 
 					idAndSequence = sequences.get(i).split("#");
-					
+
 					Sucest sucest = new Sucest();
 
 					sucest.setGene(idAndSequence[0].trim());
-					
+
 					sucest.setDescription(idAndSequence[1].trim());
-					
+
 					List<SucestSequence> sucestSequences = new ArrayList<SucestSequence>();
 					SucestSequence sucestSequence = new SucestSequence();
 					sucestSequence.setSequence(idAndSequence[2].trim());
 					sucestSequence.setSucest(sucest);
 					sucestSequences.add(sucestSequence);
 					sucest.setSequences(sucestSequences);
-					
+
 					sequencesMap.put(sucest.getGene(), sucest);
 				}
 			}
 
 		} catch (IOException e) {
-			
+
 			e.printStackTrace();
 			throw new CustomException(messageSource.getMessage("messages.errorInputFile", new Object[] {}, Locale.US));
 		}
-		
+
 		return sequencesMap;
 	}
 
@@ -158,7 +159,6 @@ public class FileService implements IFileService {
 		return sequences;
 	}
 
-	
 	public Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds,
 			Map<String, Sucest> sucestJobs, String folderName) {
 
@@ -168,11 +168,11 @@ public class FileService implements IFileService {
 
 			for (String jobId : jobIds) {
 
-				Sucest  sucest = sucestJobs.get(jobId);
+				Sucest sucest = sucestJobs.get(jobId);
 
 				if (jobResult.get(jobId) != null && sucest != null && sucest.getGene() != null) {
 
-					//export the file
+					// export the file
 					this.exportBlastResultToFile(jobId, sucest.getGene(), jobResult.get(jobId), errors, folderName);
 
 				} else {
@@ -249,6 +249,14 @@ public class FileService implements IFileService {
 		}
 	}
 
+	public Map<String, BlastResult> processBlastResultFile(List<String> lines) {
+		return processBlastResultFile(null, null, lines);
+	}
+
+	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName) {
+		return processBlastResultFile(gene, folderName, null);
+	}
+
 	/**
 	 * Sample Item to process: >TR:C5Z0W2_SORBI C5Z0W2 Uncharacterized protein
 	 * OS=Sorghum bicolor OX=4558 GN=SORBI_3009G194900 PE=4 SV=1 Length=229
@@ -261,13 +269,16 @@ public class FileService implements IFileService {
 	 * @param errors
 	 * @param folderName
 	 */
-	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName) {
+	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines) {
 
 		Map<String, BlastResult> mapResult = new HashMap<String, BlastResult>();
 
 		try {
 
-			List<String> lines = this.readFile(gene + TXT, folderName);
+			if (lines == null) {
+
+				lines = this.readFile(gene + TXT, folderName);
+			}
 
 			if (lines != null && !lines.isEmpty()) {
 
@@ -285,7 +296,9 @@ public class FileService implements IFileService {
 
 								mapResult.get(identifier).setFullText(textLine.toString());
 
-								mapResult.get(identifier).setSucestBusca(gene);
+								if (gene != null) {
+									mapResult.get(identifier).setSucestBusca(gene);
+								}
 							}
 
 							identifier = null;
@@ -315,8 +328,8 @@ public class FileService implements IFileService {
 						textLine.append(" ");
 					}
 				}
-				
-				//if there is just one result
+
+				// if there is just one result
 				if (!mapResult.isEmpty() && mapResult.size() == 1 && identifier != null) {
 					if (mapResult.get(identifier) != null) {
 
@@ -360,7 +373,7 @@ public class FileService implements IFileService {
 							String entryName = fullText.substring(0, fullText.indexOf(" "));
 							fullText = fullText.substring(fullText.indexOf(" ")).trim();
 							blastResult.setEntryName(entryName.trim());
-							
+
 							// get the protein name: Uncharacterized protein
 							String proteinName = fullText.substring(0, fullText.indexOf("OS="));
 							fullText = fullText.substring(fullText.indexOf("OS=")).trim();
@@ -379,58 +392,62 @@ public class FileService implements IFileService {
 							Integer positivesBeginPosition = fullText.trim().indexOf("Positives =");
 							Integer gapsBeginPosition = fullText.trim().indexOf("Gaps =");
 							Integer queryBeginPosition = fullText.trim().indexOf("Query");
-	
+
 							// OS
 							if (OSBeginPosition != -1 && OXBeginPosition != 1) {
-								String[] OSParts = fullText.substring(OSBeginPosition, OXBeginPosition).trim().split("=");
+								String[] OSParts = fullText.substring(OSBeginPosition, OXBeginPosition).trim()
+										.split("=");
 								blastResult.setOrganismName(OSParts[1].trim());
 							}
-							
+
 							// OX
 							String[] OXParts = null;
-							if (OXBeginPosition != -1  && GNBeginPosition != -1) {
-								
-								OXParts = fullText.substring(OXBeginPosition, GNBeginPosition).trim().split("=");	
-								
-							} else if (OXBeginPosition != -1  && PEBeginPosition != -1) {
-								
-								OXParts = fullText.substring(OXBeginPosition, PEBeginPosition).trim().split("=");	
-							}	
-							
+							if (OXBeginPosition != -1 && GNBeginPosition != -1) {
+
+								OXParts = fullText.substring(OXBeginPosition, GNBeginPosition).trim().split("=");
+
+							} else if (OXBeginPosition != -1 && PEBeginPosition != -1) {
+
+								OXParts = fullText.substring(OXBeginPosition, PEBeginPosition).trim().split("=");
+							}
+
 							blastResult.setOrganismIdentifier(OXParts[1].trim());
-							
+
 							// GN
-							if (GNBeginPosition != -1  && PEBeginPosition != -1) {
-								String[] GNParts = fullText.substring(GNBeginPosition, PEBeginPosition).trim().split("=");
+							if (GNBeginPosition != -1 && PEBeginPosition != -1) {
+								String[] GNParts = fullText.substring(GNBeginPosition, PEBeginPosition).trim()
+										.split("=");
 								blastResult.setGeneName(GNParts[1].trim());
-							} 
-							
+							}
+
 							// PE
-							if (PEBeginPosition != -1  && SVBeginPosition != -1) {
-								String[] PEParts = fullText.substring(PEBeginPosition, SVBeginPosition).trim().split("=");
+							if (PEBeginPosition != -1 && SVBeginPosition != -1) {
+								String[] PEParts = fullText.substring(PEBeginPosition, SVBeginPosition).trim()
+										.split("=");
 								blastResult.setProteinExistence(Integer.parseInt(PEParts[1].trim()));
 							}
-							
+
 							// SV
-							if (SVBeginPosition != -1   && lengthBeginPosition != -1) {
-								String[] SVParts = fullText.substring(SVBeginPosition, lengthBeginPosition).trim().split("=");
+							if (SVBeginPosition != -1 && lengthBeginPosition != -1) {
+								String[] SVParts = fullText.substring(SVBeginPosition, lengthBeginPosition).trim()
+										.split("=");
 								blastResult.setSequenceVersion(Integer.parseInt(SVParts[1].trim()));
 							}
 
 							// Length
-							if (lengthBeginPosition != -1  && scoreBeginPosition != -1) {
+							if (lengthBeginPosition != -1 && scoreBeginPosition != -1) {
 								String[] lenghtParts = fullText.substring(lengthBeginPosition, scoreBeginPosition)
 										.trim().split("=");
 								blastResult.setLength(Integer.parseInt(lenghtParts[1].trim()));
 							}
 
 							// Score
-							if (scoreBeginPosition != -1  && expectBeginPosition != -1) {
+							if (scoreBeginPosition != -1 && expectBeginPosition != -1) {
 								String[] scoreParts = fullText.substring(scoreBeginPosition, expectBeginPosition).trim()
 										.split("=");
 								String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") + 1,
 										scoreParts[1].indexOf(")"));
-								blastResult.setScore(Integer.parseInt(scoreValuePart ));
+								blastResult.setScore(Integer.parseInt(scoreValuePart));
 							}
 
 							// Expect
@@ -444,23 +461,23 @@ public class FileService implements IFileService {
 							if (identitiesBeginPosition != -1 && positivesBeginPosition != -1) {
 								String[] identitiesParts = fullText
 										.substring(identitiesBeginPosition, positivesBeginPosition).trim().split("=");
-								String identitiesValuePart = identitiesParts[1].substring(identitiesParts[1].indexOf("(") + 1,
-										identitiesParts[1].indexOf("%)"));
+								String identitiesValuePart = identitiesParts[1].substring(
+										identitiesParts[1].indexOf("(") + 1, identitiesParts[1].indexOf("%)"));
 								blastResult.setIdentities(Integer.parseInt(identitiesValuePart));
 							}
 
 							// Positives
-							if (positivesBeginPosition != -1  && gapsBeginPosition != -1) {
+							if (positivesBeginPosition != -1 && gapsBeginPosition != -1) {
 								String[] positivesParts = fullText.substring(positivesBeginPosition, gapsBeginPosition)
 										.trim().split("=");
-								String positivesValueParts = positivesParts[1].substring(positivesParts[1].indexOf("(") + 1,
-										positivesParts[1].indexOf("%)"));
+								String positivesValueParts = positivesParts[1]
+										.substring(positivesParts[1].indexOf("(") + 1, positivesParts[1].indexOf("%)"));
 								blastResult.setPositives(Integer.parseInt(positivesValueParts));
-							
+
 							}
 
 							// Gaps
-							if (gapsBeginPosition != -1  && queryBeginPosition != -1) {
+							if (gapsBeginPosition != -1 && queryBeginPosition != -1) {
 								String[] gapsParts = fullText.substring(gapsBeginPosition, queryBeginPosition).trim()
 										.split("=");
 								String gapsValuesParts = gapsParts[1].substring(gapsParts[1].indexOf("(") + 1,
@@ -473,7 +490,9 @@ public class FileService implements IFileService {
 			}
 
 		} catch (RuntimeException e) {
-			System.out.println(messageSource.getMessage("messages.errorProcessFile", new Object[] {gene, folderName}, Locale.US)  + e.getMessage() + " - " + e.getCause() );
+			System.out.println(
+					messageSource.getMessage("messages.errorProcessFile", new Object[] { gene, folderName }, Locale.US)
+							+ e.getMessage() + " - " + e.getCause());
 		}
 
 		return mapResult;
@@ -594,29 +613,29 @@ public class FileService implements IFileService {
 		return sequencesFileFolder;
 	}
 
-	public Map<String, BlastResult> processSucestBlastResultFiles( String folderName, Map<String, Sucest> sucests) {
+	public Map<String, BlastResult> processSucestBlastResultFiles(String folderName, Map<String, Sucest> sucests) {
 
-		Map<String, BlastResult>  mapResult = null;
+		Map<String, BlastResult> mapResult = null;
 
 		if (sucests != null && !sucests.isEmpty()) {
-			
+
 			Iterator it = sucests.entrySet().iterator();
-			
-			mapResult  = new HashMap<String, BlastResult> ();
-			
+
+			mapResult = new HashMap<String, BlastResult>();
+
 			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
-				
+
 				Sucest sucest = entry.getValue();
 
 				if (sucest != null) {
 
-					//process the file
-					Map<String, BlastResult>  mapResultGene = this.processBlastResultFile(sucest.getGene(), folderName);
-					
-					if(mapResultGene != null && !mapResultGene.isEmpty()) {
+					// process the file
+					Map<String, BlastResult> mapResultGene = this.processBlastResultFile(sucest.getGene(), folderName);
+
+					if (mapResultGene != null && !mapResultGene.isEmpty()) {
 						mapResult.putAll(mapResultGene);
 					}
-				} 
+				}
 			}
 		}
 		return mapResult;

@@ -37,5 +37,8 @@ public interface IFileService {
 	
 	Map<String, BlastResult>  processBlastResultFile(String gene,String folderName);
 	
-	 Map<String, BlastResult> processSucestBlastResultFiles( String folderName, Map<String, Sucest> sucests);
+	Map<String, BlastResult> processSucestBlastResultFiles( String folderName, Map<String, Sucest> sucests);
+	 
+	Map<String, BlastResult> processBlastResultFile(List<String> lines);
+
 }

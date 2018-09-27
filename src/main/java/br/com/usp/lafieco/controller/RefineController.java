@@ -34,4 +34,16 @@ public class RefineController {
 		return refineResult;
 	}
 	
+	@CrossOrigin
+	@GetMapping("/id")
+	@ResponseBody
+	public RefineResultVO refineById(@RequestParam("id") String id,
+			@RequestParam("email") String email) {
+		
+		System.out.println("refineById " + id);
+		RefineResultVO refineResult = refineService.refineById(id, email);
+		
+		return refineResult;
+	}
+	
 }
