@@ -27,6 +27,7 @@ import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.model.SucestSequence;
+import br.com.usp.lafieco.repository.SucestRepository;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @Component
@@ -34,8 +35,11 @@ public class FileService implements IFileService {
 
 	@Autowired
 	private MessageSource messageSource;
+	
+	@Autowired
+	private SucestRepository sucestRepository;
 
-	private static String SEQUENCE_SEPARATOR = ",";
+	private static String SEQUENCE_SEPARATOR = "\\$";
 
 	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
@@ -626,6 +630,10 @@ public class FileService implements IFileService {
 			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
 
 				Sucest sucest = entry.getValue();
+				
+				if(sucest.getGene().equalsIgnoreCase("SCRLFL4103A08.g")) {
+					System.out.println("Here");
+				}
 
 				if (sucest != null) {
 
@@ -634,6 +642,10 @@ public class FileService implements IFileService {
 
 					if (mapResultGene != null && !mapResultGene.isEmpty()) {
 						mapResult.putAll(mapResultGene);
+						
+					} else {
+						//if does not exists blast matches just save the sucest without any blasts
+						sucestRepository.save(sucest);
 					}
 				}
 			}

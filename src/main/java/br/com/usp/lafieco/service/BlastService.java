@@ -58,9 +58,6 @@ public class BlastService implements IBlastService {
 	@Autowired
 	private BlastResultRepository blastRepository;
 
-	@Autowired
-	private SucestRepository sucestRepository;
-
 	public String runBlast(String sequence, String email) {
 
 		String data = "";
@@ -247,7 +244,7 @@ public class BlastService implements IBlastService {
 			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
 
 				Sucest sucest = entry.getValue();
-
+				
 				String sequence = sucest.getSequences().get(0).getSequence();
 
 				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);
