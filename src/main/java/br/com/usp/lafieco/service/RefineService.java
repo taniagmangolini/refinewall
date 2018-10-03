@@ -115,17 +115,34 @@ public class RefineService implements IRefineService {
 			Map<String, BlastResult> blastResultsWithoutRepeats = new HashMap<String, BlastResult>();
 
 			if (blastResults != null && !blastResults.isEmpty()) {
-
+				
+					Sucest genericSucest = null;
+				
 				for (BlastResult result : blastResults) {
 
-					if (blastResultsWithoutRepeats.get(result.getSucestBusca()) == null) {
+					if (result.getSucestBusca() != null && blastResultsWithoutRepeats.get(result.getSucestBusca()) == null) {
 
 						blastResultsWithoutRepeats.put(result.getSucestBusca(), result);
 
 						Sucest sucest = sucestRepository.findByGene(result.getSucestBusca());
 
 						refineResult.getSucests().add(sucest);
+						
+					} else {
+						
+						if(genericSucest == null) {
+							genericSucest = new Sucest();
+							genericSucest.setGene("NOT_FOUND");
+							genericSucest.setBlastResults(new ArrayList<BlastResult>());
+						}
+						
+						//include results without any sucest related. The field sucestBusca is going to appear null
+						genericSucest.getBlastResults().add(result);
 					}
+				}
+				
+				if(genericSucest != null) {
+					refineResult.getSucests().add(genericSucest);
 				}
 			}
 

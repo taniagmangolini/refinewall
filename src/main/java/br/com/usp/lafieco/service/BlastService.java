@@ -200,10 +200,15 @@ public class BlastService implements IBlastService {
 				for (Map.Entry<String, BlastResult> entry : blastResult.entrySet()) {
 
 					List<BlastResult> result = blastRepository.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
-
+					
+					//get all blast results that have some sucests related
 					if (result != null && !result.isEmpty()) {
 
 						blastResultFiltered.addAll(result);
+						
+					} else {
+					// if there isn not sucest related, add to the list the same way, but sucest object will be null	
+						blastResultFiltered.add(entry.getValue());
 					}
 				}
 
