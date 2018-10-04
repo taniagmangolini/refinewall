@@ -61,6 +61,10 @@ public class Sucest implements Serializable{
 	@OneToMany(mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	private List<SucestSequence> sequences;
 	
+	@JsonManagedReference
+	@OneToMany(mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+	private List<SucestDomain> domains;
+	
 	@JsonIgnore
 	@Transient
 	private String idBlastJob;
@@ -139,6 +143,14 @@ public class Sucest implements Serializable{
 
 	public void setSequences(List<SucestSequence> sequences) {
 		this.sequences = sequences;
+	}	
+
+	public List<SucestDomain> getDomains() {
+		return domains;
+	}
+
+	public void setDomains(List<SucestDomain> domains) {
+		this.domains = domains;
 	}
 
 	@Override

@@ -14,6 +14,7 @@ import br.com.usp.lafieco.bean.org.uniprot.uniprot.EvidencedStringType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.GeneNameType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.GeneType;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.KeywordType;
+import br.com.usp.lafieco.bean.org.uniprot.uniprot.ProteinType.SubmittedName;
 import br.com.usp.lafieco.bean.org.uniprot.uniprot.Uniprot;
 import br.com.usp.lafieco.enums.FormatEnum;
 import br.com.usp.lafieco.service.interfaces.IUniprotService;
@@ -46,11 +47,11 @@ public class UniprotService implements IUniprotService {
 		try {
 
 			uniprot = restTemplate.getForObject(targetUrl, Uniprot.class);
-			
-			if(uniprot != null) {
+
+			if (uniprot != null) {
 				uniprotVO = this.getUniprotVO(uniprot);
 			}
-			
+
 		} catch (RuntimeException e) {
 
 			e.printStackTrace();
@@ -60,7 +61,7 @@ public class UniprotService implements IUniprotService {
 	}
 
 	private UniprotVO getUniprotVO(Uniprot uniprot) {
-		
+
 		UniprotVO uniprotVO = new UniprotVO();
 		uniprotVO.setAccessions(new ArrayList<String>());
 		uniprotVO.setGenes(new ArrayList<String>());
@@ -72,24 +73,61 @@ public class UniprotService implements IUniprotService {
 
 		// protein data
 		if (uniprot.getEntry().get(0).getProtein() != null
-				&& uniprot.getEntry().get(0).getProtein().getRecommendedName() != null) {
+				&& (uniprot.getEntry().get(0).getProtein().getRecommendedName() != null
+						|| uniprot.getEntry().get(0).getProtein().getSubmittedName() != null)) {
 
+			if (uniprot.getEntry().get(0).getProtein().getRecommendedName() != null) {
 
-				uniprotVO.getProtein()
-						.setProteinName(uniprot.getEntry().get(0).getProtein().getRecommendedName().getFullName().getValue());
+				uniprotVO.getProtein().setProteinName(
+						uniprot.getEntry().get(0).getProtein().getRecommendedName().getFullName().getValue());
 
-				uniprotVO.getProtein().setEcNumber(new ArrayList<String>());
+			} else if (uniprot.getEntry().get(0).getProtein().getSubmittedName() != null) {
 
-				if (uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber() != null && !uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber().isEmpty()) {
+				StringBuilder sbProteinNames = new StringBuilder();
 
-					for (EvidencedStringType ec : uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber()) {
+				// all submitted names
+				for (SubmittedName submittedName : uniprot.getEntry().get(0).getProtein().getSubmittedName()) {
+					sbProteinNames.append(submittedName.getFullName().getValue());
+					sbProteinNames.append("; ");
+				}
 
-						uniprotVO.getProtein().getEcNumber().add(ec.getValue() != null ? ec.getValue() : "");
+				if(!sbProteinNames.toString().equalsIgnoreCase("")) {
+					uniprotVO.getProtein().setProteinName(sbProteinNames.toString().substring(0, sbProteinNames.toString().length() -2 ));
+				}
+			}
+
+			uniprotVO.getProtein().setEcNumber(new ArrayList<String>());
+
+			if (uniprot.getEntry().get(0).getProtein().getRecommendedName() != null
+					&& uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber() != null
+					&& !uniprot.getEntry().get(0).getProtein().getRecommendedName().getEcNumber().isEmpty()) {
+
+				for (EvidencedStringType ec : uniprot.getEntry().get(0).getProtein().getRecommendedName()
+						.getEcNumber()) {
+
+					uniprotVO.getProtein().getEcNumber().add(ec.getValue() != null ? ec.getValue() : "");
+				}
+				// all submitted ec numbers
+			} else if (uniprot.getEntry().get(0).getProtein().getSubmittedName() != null) {
+				
+				StringBuilder sbECNumbers = new StringBuilder();
+				
+				for (SubmittedName sbname : uniprot.getEntry().get(0).getProtein().getSubmittedName()) {
+					if (!sbname.getEcNumber().isEmpty()) {
+						for (EvidencedStringType ec : sbname.getEcNumber()) {
+							sbECNumbers.append(ec.getValue());
+							sbECNumbers.append("; ");
+						}
 					}
 				}
+				
+				if(!sbECNumbers.toString().equalsIgnoreCase("")) {
+					uniprotVO.getProtein().getEcNumber().add(sbECNumbers.toString().substring(0, sbECNumbers.toString().length() -2 ));
+				}
+			}
 		}
 
-		//genes
+		// genes
 		if (uniprot.getEntry().get(0).getGene() != null && !uniprot.getEntry().get(0).getGene().isEmpty()) {
 			for (GeneType item : uniprot.getEntry().get(0).getGene()) {
 				List<GeneNameType> geneNames = item.getName();
@@ -98,33 +136,36 @@ public class UniprotService implements IUniprotService {
 				}
 			}
 		}
-		
-		//organism
+
+		// organism
 		if (uniprot.getEntry().get(0).getOrganism() != null) {
 			uniprotVO.setOrganism(uniprot.getEntry().get(0).getOrganism().getName().get(0).getValue());
 		}
-		
-		//sequence
+
+		// sequence
 		if (uniprot.getEntry().get(0).getSequence() != null) {
-			uniprotVO.setSequence(uniprot.getEntry().get(0).getSequence().getValue() != null ? uniprot.getEntry().get(0).getSequence().getValue() : "");
+			uniprotVO.setSequence(uniprot.getEntry().get(0).getSequence().getValue() != null
+					? uniprot.getEntry().get(0).getSequence().getValue()
+					: "");
 		}
-		
-		//databases
-		if (uniprot.getEntry().get(0).getDbReference() != null && !uniprot.getEntry().get(0).getDbReference().isEmpty()) {
+
+		// databases
+		if (uniprot.getEntry().get(0).getDbReference() != null
+				&& !uniprot.getEntry().get(0).getDbReference().isEmpty()) {
 			uniprotVO.setDatabases(new ArrayList<String>());
-			for(DbReferenceType db : uniprot.getEntry().get(0).getDbReference()) {
-				uniprotVO.getDatabases().add( db.getType() + ": " + db.getId() );
+			for (DbReferenceType db : uniprot.getEntry().get(0).getDbReference()) {
+				uniprotVO.getDatabases().add(db.getType() + ": " + db.getId());
 			}
 		}
-		
-		//keywords
+
+		// keywords
 		if (uniprot.getEntry().get(0).getKeyword() != null && !uniprot.getEntry().get(0).getKeyword().isEmpty()) {
 			uniprotVO.setKeywords(new ArrayList<String>());
-			for(KeywordType key : uniprot.getEntry().get(0).getKeyword()) {
+			for (KeywordType key : uniprot.getEntry().get(0).getKeyword()) {
 				uniprotVO.getKeywords().add(key.getValue());
 			}
 		}
-		
-		 return uniprotVO;
+
+		return uniprotVO;
 	}
 }

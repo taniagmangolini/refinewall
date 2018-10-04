@@ -179,7 +179,7 @@ public class BlastService implements IBlastService {
 				if (status.equals(BlastJobStatusEnum.FINISHED.getStatus())) {
 
 					String result = this.getBlastResult(jobId);
-					
+
 					jobResult.put(jobId, result);
 
 					List<String> lines = Arrays.asList(result.split("\\n"));
@@ -196,20 +196,32 @@ public class BlastService implements IBlastService {
 			if (blastResult != null && !blastResult.isEmpty()) {
 
 				blastResultFiltered = new ArrayList<BlastResult>();
+				Map<String, BlastResult> mapAlreadyIncluded = new HashMap<String, BlastResult>();
 
 				for (Map.Entry<String, BlastResult> entry : blastResult.entrySet()) {
 
-					List<BlastResult> result = blastRepository.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
+					String identifier = entry.getValue().getUniqueIdentifier() ;
 					
-					//get all blast results that have some sucests related
-					if (result != null && !result.isEmpty()) {
-
-						blastResultFiltered.addAll(result);
-						
-					} else {
-					// if there isn not sucest related, add to the list the same way, but sucest object will be null	
-						blastResultFiltered.add(entry.getValue());
+					if(entry.getValue().getSucestBusca() != null && !entry.getValue().getSucestBusca().equalsIgnoreCase("") ){
+						identifier += entry.getValue().getSucestBusca() ;
 					}
+					
+					List<BlastResult> result = blastRepository
+							.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
+					
+					if (mapAlreadyIncluded.get(identifier) == null ) {
+						// get all blast results that have some sucests related in the database
+						if (result != null && !result.isEmpty()) {
+
+							blastResultFiltered.addAll(result);
+
+						} else {
+							// if there isn not sucest related, add to the list the same way, but sucest
+							// object will be null
+							blastResultFiltered.add(entry.getValue());
+						}
+						mapAlreadyIncluded.put(identifier,entry.getValue());
+					} 
 				}
 
 			}
@@ -249,7 +261,7 @@ public class BlastService implements IBlastService {
 			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
 
 				Sucest sucest = entry.getValue();
-				
+
 				String sequence = sucest.getSequences().get(0).getSequence();
 
 				folderName = fileService.getFolderForSequenceFile(file.getOriginalFilename(), false);

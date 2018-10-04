@@ -23,9 +23,6 @@ import br.com.usp.lafieco.vo.RefineResultVO;
 public class RefineService implements IRefineService {
 
 	@Autowired
-	private MessageSource messageSource;
-
-	@Autowired
 	private BlastResultRepository blastRepository;
 
 	@Autowired
