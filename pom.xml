@@ -7,7 +7,8 @@
 	<groupId>refinewall</groupId>
 	<artifactId>refinewall</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<!-- <packaging>jar</packaging> --> <!-- LOCAL -->
+	<packaging>war</packaging> <!-- WILDFLY -->
 
 	<name>refinewall</name>
 	<description>Cell Wall Data Refine</description>
@@ -78,6 +79,41 @@
 			<version>1.2.0</version>
 		</dependency>
 		<!-- XML - end -->
+
+		<!-- DEPLOY ON WILDFLY BEGIN -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- We need to include the javax.servlet API specs, the implementation 
+			will be provided by Wildfly / JBoss -->
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- DEPLOY ON WILDFLY END -->
 
 	</dependencies>
 
