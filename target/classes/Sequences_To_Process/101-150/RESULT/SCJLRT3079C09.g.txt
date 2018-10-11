@@ -1,0 +1,122 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,413,124 sequences; 2,265,929,236 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=84
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0P0Y766_ORYSJ  A0A0P0Y766 Os12g0144401 protein OS=Oryza sat...  34.7    0.13 
+TR:A0A1J3ERY3_NOCCA  A0A1J3ERY3 Uncharacterized protein OS=Noccae...  33.1    1.7  
+TR:A0A2P6TR89_CHLSO  A0A2P6TR89 Vacuolar sorting-associated 13A i...  31.2    8.8  
+TR:A0A2P6TRA4_CHLSO  A0A2P6TRA4 Vacuolar sorting-associated 13A i...  31.2    8.8  
+TR:A0A2P6TR96_CHLSO  A0A2P6TR96 Vacuolar sorting-associated 13A i...  31.2    8.8  
+
+
+>TR:A0A0P0Y766_ORYSJ A0A0P0Y766 Os12g0144401 protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=Os12g0144401 PE=4 SV=1
+Length=71
+
+ Score = 34.7 bits (78),  Expect = 0.13
+ Identities = 12/24 (50%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  19  INSVLDSTTCHTKCSGPTDNSPFS  42
+           ++ +LD T+CH + +GPT+NSPF+
+Sbjct  15  VHPLLDHTSCHGELTGPTNNSPFT  38
+
+
+>TR:A0A1J3ERY3_NOCCA A0A1J3ERY3 Uncharacterized protein OS=Noccaea caerulescens OX=107243 
+GN=LC_TR190_c0_g1_i1_g.558 PE=4 SV=1
+Length=396
+
+ Score = 33.1 bits (74),  Expect = 1.7
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 4/62 (6%)
+
+Query  25  STTCHTKCSGPTDNSPFSSTGKVPITASVD----PMYLLSSLNTKFTAVNQLNSDGLDDN  80
+           +T+   + S P  +SP S    VP+T S D    P +L S  N   T ++++  D   DN
+Sbjct  14  TTSSARRASTPEASSPISPISDVPLTESPDSIHSPFFLTSGDNPGITIIHEVLDDTNYDN  73
+
+Query  81  VC  82
+            C
+Sbjct  74  WC  75
+
+
+>TR:A0A2P6TR89_CHLSO A0A2P6TR89 Vacuolar sorting-associated 13A isoform B OS=Chlorella 
+sorokiniana OX=3076 GN=C2E21_4604 PE=4 SV=1
+Length=5234
+
+ Score = 31.2 bits (69),  Expect = 8.8
+ Identities = 13/26 (50%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  40  PFSSTGKVPITASVDPMYLLSSLNTK  65
+           P+SS G VP+ A +D +YLL+S  T+
+Sbjct  69  PWSSLGTVPVEAKIDRLYLLASPKTE  94
+
+
+>TR:A0A2P6TRA4_CHLSO A0A2P6TRA4 Vacuolar sorting-associated 13A isoform A OS=Chlorella 
+sorokiniana OX=3076 GN=C2E21_4604 PE=4 SV=1
+Length=5239
+
+ Score = 31.2 bits (69),  Expect = 8.8
+ Identities = 13/26 (50%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  40  PFSSTGKVPITASVDPMYLLSSLNTK  65
+           P+SS G VP+ A +D +YLL+S  T+
+Sbjct  69  PWSSLGTVPVEAKIDRLYLLASPKTE  94
+
+
+>TR:A0A2P6TR96_CHLSO A0A2P6TR96 Vacuolar sorting-associated 13A isoform C OS=Chlorella 
+sorokiniana OX=3076 GN=C2E21_4604 PE=4 SV=1
+Length=5242
+
+ Score = 31.2 bits (69),  Expect = 8.8
+ Identities = 13/26 (50%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  40  PFSSTGKVPITASVDPMYLLSSLNTK  65
+           P+SS G VP+ A +D +YLL+S  T+
+Sbjct  69  PWSSLGTVPVEAKIDRLYLLASPKTE  94
+
+
+
+Lambda      K        H
+   0.314    0.128    0.389 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55483015064
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Aug 10, 2018  11:08 PM
+  Number of letters in database: 2,265,929,236
+  Number of sequences in database:  6,413,124
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,208 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=227
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:V4K157_EUTSA  V4K157 Uncharacterized protein (Fragment) OS=Eut...  36.2    2.2  
+TR:A0A1Q3AXB9_CEPFO  A0A1Q3AXB9 Uncharacterized protein OS=Cephal...  35.0    4.7  
+TR:A0A1Q3D3B4_CEPFO  A0A1Q3D3B4 Uncharacterized protein (Fragment...  34.3    6.8  
+TR:A0A2G9G421_9LAMI  A0A2G9G421 Uncharacterized protein OS=Handro...  34.7    7.0  
+TR:A0A1Q3BLY3_CEPFO  A0A1Q3BLY3 Uncharacterized protein OS=Cephal...  34.3    8.0  
+TR:A0A1Q3C271_CEPFO  A0A1Q3C271 Uncharacterized protein OS=Cephal...  34.3    8.2  
+TR:A0A2N9FEM4_FAGSY  A0A2N9FEM4 Uncharacterized protein OS=Fagus ...  34.3    9.4  
+
+
+>TR:V4K157_EUTSA V4K157 Uncharacterized protein (Fragment) OS=Eutrema salsugineum 
+OX=72664 GN=EUTSA_v10005372mg PE=4 SV=1
+Length=485
+
+ Score = 36.2 bits (82),  Expect = 2.2
+ Identities = 34/125 (27%), Positives = 55/125 (44%), Gaps = 7/125 (6%)
+
+Query  6    TKKSKFLVGSNTIKVFPNGCKTIRWFFIGKTEEYAVVKQNSNVLLIKHVPKRPVLEKKKS  65
+            T+ S   +GS ++ +  +  K +R      + +  VVKQN  V  ++ + K  +L K K 
+Sbjct  36   TRTSSKKLGSLSLNISCSTHKIVR----SPSLDRHVVKQN-RVRFVQKL-KTLLLSKPKH  89
+
+Query  66   FVPRAKGYHCRMTYNENAKIKPACVYSENFESISSLTIPPTPMYNNPGANPLCNLCLRMF  125
+            ++P    Y CR +Y      +        + +I  L   PTP        PL  LC+RM 
+Sbjct  90   YIPIQILYKCR-SYLSIENPRTILPMIRRYPTIFQLFTTPTPHLPMNATKPLSQLCVRMT  148
+
+Query  126  PVLTS  130
+            P  +S
+Sbjct  149  PAASS  153
+
+
+>TR:A0A1Q3AXB9_CEPFO A0A1Q3AXB9 Uncharacterized protein OS=Cephalotus follicularis 
+OX=3775 GN=CFOL_v3_03881 PE=4 SV=1
+Length=348
+
+ Score = 35.0 bits (79),  Expect = 4.7
+ Identities = 47/191 (25%), Positives = 80/191 (42%), Gaps = 30/191 (16%)
+
+Query  33   IGKTEEYAVVKQNSNV-----LLIKHVP---KRPVLEKKKSFVPRAKGYHCRMTYNENAK  84
+            IGKTE   +  +  NV     +   H+P   +  +L    +F+P+ +G H  + +  + K
+Sbjct  102  IGKTEALGICLEQPNVNPLMNVTSSHLPIASRIILLLVTNTFLPK-EGSHT-LPFERDLK  159
+
+Query  85   IKPACVYSENFESISSLTIPPTPMYNNPGANPLCNLCLRMFPVLTSSLFLAASQDPRDLK  144
+               ACV  +N   I+   +    + + P   P   L  R+  V+ +SL +    D + +K
+Sbjct  160  FV-ACV--KNGTPINLPYLIVNHLLSRPNHTPYPMLLSRIIEVVLASLNIDIPDDEQSVK  216
+
+Query  145  PSAKCVIK--------------EQSRLELRDKW---EPCQLRHRDEDDDPHQVFVPPREG  187
+            PS K ++               E  +L+ R +    E   +R  D++DDP Q  V P  G
+Sbjct  217  PSHKQLVNKAGLRLCNIIFEDGEWVKLQGRGREQVREQANVRVGDDEDDPQQFAVRPSVG  276
+
+Query  188  LHRSPQPTCLD  198
+               S     L+
+Sbjct  277  QSSSSSRPTLE  287
+
+
+>TR:A0A1Q3D3B4_CEPFO A0A1Q3D3B4 Uncharacterized protein (Fragment) OS=Cephalotus follicularis 
+OX=3775 GN=CFOL_v3_30204 PE=4 SV=1
+Length=231
+
+ Score = 34.3 bits (77),  Expect = 6.8
+ Identities = 47/191 (25%), Positives = 76/191 (40%), Gaps = 30/191 (16%)
+
+Query  33   IGKTEEYAVVKQNSNV-----LLIKHVP---KRPVLEKKKSFVPRAKGYHCRMTYNENAK  84
+            IG+TE   +  +  NV     +   H+P   +  +L    +F+P+ +G H   +  +   
+Sbjct  1    IGRTEPLGICSEQPNVNPLMNVTSSHLPIASRIILLLVTNTFLPK-EGSHTPPSERDLKF  59
+
+Query  85   IKPACVYSENFESISSLTIPPTPMYNNPGANPLCNLCLRMFPVLTSSLFLAASQDPRDLK  144
+            +  ACV  +N   I+   +    M + P   P   L  R+   + +SL +    D   +K
+Sbjct  60   V--ACV--KNGTPINLPYLIVNHMLSRPNHTPYPMLLSRIIETVFASLNIDIPDDELSVK  115
+
+Query  145  PSAKCVIKEQS----RLELRD-KWEPCQLRHR------------DEDDDPHQVFVPPREG  187
+            PS K ++ +       L   D +W   Q R R            D++DDP Q  V P  G
+Sbjct  116  PSHKQIVNKAGLRVCNLIFEDGEWVKIQSRGREQVREQANVGGGDDEDDPQQFEVRPSIG  175
+
+Query  188  LHRSPQPTCLD  198
+               S     LD
+Sbjct  176  TSSSSSRPTLD  186
+
+
+>TR:A0A2G9G421_9LAMI A0A2G9G421 Uncharacterized protein OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_27430 PE=4 SV=1
+Length=491
+
+ Score = 34.7 bits (78),  Expect = 7.0
+ Identities = 29/88 (33%), Positives = 39/88 (44%), Gaps = 7/88 (8%)
+
+Query  41   VVKQNSNVLLIKHVPKRPVLEKKKSFVPRAKGYHCRMTYNENAKIKPACVYS--ENFESI  98
+            VVKQN    + K   K  +L K K F+P    Y CR   + +   KP  + S    + +I
+Sbjct  70   VVKQNKIRFVQKL--KTLLLSKPKHFMPIDVLYKCRSYLSLH---KPRSILSMIHRYPTI  124
+
+Query  99   SSLTIPPTPMYNNPGANPLCNLCLRMFP  126
+              L   PTP        PLC  C+R+ P
+Sbjct  125  FELFTIPTPPTPFHATGPLCQTCVRLTP  152
+
+
+>TR:A0A1Q3BLY3_CEPFO A0A1Q3BLY3 Uncharacterized protein OS=Cephalotus follicularis 
+OX=3775 GN=CFOL_v3_12541 PE=4 SV=1
+Length=308
+
+ Score = 34.3 bits (77),  Expect = 8.0
+ Identities = 41/184 (22%), Positives = 74/184 (40%), Gaps = 34/184 (18%)
+
+Query  33   IGKTEEYAVVKQNSNV-----LLIKHVP---KRPVLEKKKSFVPRAKGYHCRMTYNENAK  84
+            IGKTE   +  +  NV     +   H+P   +  +L    +F+P+ +G H   +  +   
+Sbjct  66   IGKTEALGICLEQPNVNPLMNVTSSHLPIAYRIILLLVTNTFLPK-EGSHTLPSERDLKF  124
+
+Query  85   IKPACVYSENFESISSLTIPPTPMYNNPGANPLCNLCLRMFPVLTSSLFLAASQDPRDLK  144
+            +  ACV +    ++    +    + + P   P   L  R+  V+ +SL +    D + +K
+Sbjct  125  V--ACVKNGTLINLPYFIV--NHILSRPNHTPYPMLLSRIIEVVLASLNIVIPDDEQSIK  180
+
+Query  145  PSAKCVIKEQSRLELR-----DKWEPCQLRHR----------------DEDDDPHQVFVP  183
+            PS K ++ +    +        +W   Q R R                D++DDPHQ  + 
+Sbjct  181  PSHKQLVNKDGLRQCNIVFEEGEWVKLQGRGREQVREQANVRAEEDEDDDEDDPHQFEMR  240
+
+Query  184  PREG  187
+            P  G
+Sbjct  241  PSVG  244
+
+
+>TR:A0A1Q3C271_CEPFO A0A1Q3C271 Uncharacterized protein OS=Cephalotus follicularis 
+OX=3775 GN=CFOL_v3_17759 PE=4 SV=1
+Length=321
+
+ Score = 34.3 bits (77),  Expect = 8.2
+ Identities = 47/192 (24%), Positives = 79/192 (41%), Gaps = 34/192 (18%)
+
+Query  33   IGKTEEYAVVKQNSNV-----LLIKHVP---KRPVLEKKKSFVPRAKGYHCRMTYNENAK  84
+            IGKTE   +  +  NV     +   H+P   +  +L    +F+P+ +G H   +  +   
+Sbjct  72   IGKTEALGICLEQPNVNPLMNVTSSHLPIASRIILLLVTNTFLPK-EGSHTLPSEQDLKF  130
+
+Query  85   IKPACVYSENFESISSLTIPPTPMYNNPGANPLCNLCLRMFPVLTSSLFLAASQDPRDLK  144
+            +  ACV  +N   I+   +    + + P   P   L  R+F V+ +SL +    D + +K
+Sbjct  131  V--ACV--KNGTPINLPYLIVNHLLSRPNHTPYPMLLSRIFEVVLASLNIDIPDDEQSIK  186
+
+Query  145  PSAKCVIKEQS----RLELRD-KWEPCQLRHR----------------DEDDDPHQVFVP  183
+            PS K ++ +       +   D +W   Q R R                D++DDP Q  V 
+Sbjct  187  PSHKQLVNKAGLRLCNIIFEDGEWVKLQGRGREQVREQANVRARDDEDDDEDDPQQFEVR  246
+
+Query  184  PREGLHRSPQPT  195
+               G   S +PT
+Sbjct  247  LSVGASSSNRPT  258
+
+
+>TR:A0A2N9FEM4_FAGSY A0A2N9FEM4 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS13535 PE=4 SV=1
+Length=496
+
+ Score = 34.3 bits (77),  Expect = 9.4
+ Identities = 20/89 (22%), Positives = 37/89 (42%), Gaps = 0/89 (0%)
+
+Query  35   KTEEYAVVKQNSNVLLIKHVPKRPVLEKKKSFVPRAKGYHCRMTYNENAKIKPACVYSEN  94
+            KTEE  +     N   I H+       + +  V  A G+       E   +K + +   N
+Sbjct  215  KTEEDLLRSATDNSKEIAHMAMAGAEIRIEDEVVTAAGFRPPAVDVEGVPVKASFINGGN  274
+
+Query  95   FESISSLTIPPTPMYNNPGANPLCNLCLR  123
+            F + + ++  P    +NP + P+C +C +
+Sbjct  275  FSNFTPVSPNPQSWSSNPSSRPICQICYK  303
+
+
+
+Lambda      K        H
+   0.321    0.137    0.442 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 140191467150
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

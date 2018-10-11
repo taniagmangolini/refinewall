@@ -1,0 +1,4511 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A2T8I6C6_9POAL  A0A2T8I6C6 Uncharacterized protein OS=Panicu...  119     1e-30
+TR:A0A0A9P8A6_ARUDO  A0A0A9P8A6 Uncharacterized protein OS=Arundo...  114     3e-30
+TR:A0A2S3IU78_9POAL  A0A2S3IU78 Uncharacterized protein OS=Panicu...  117     5e-30
+TR:A0A2T7CHL3_9POAL  A0A2T7CHL3 Uncharacterized protein OS=Panicu...  117     5e-30
+TR:A0A1B6QQG1_SORBI  A0A1B6QQG1 Uncharacterized protein OS=Sorghu...  117     5e-30
+TR:A0A0D3FDX8_9ORYZ  A0A0D3FDX8 Uncharacterized protein OS=Oryza ...  114     5e-30
+TR:A0A287PLF2_HORVV  A0A287PLF2 Uncharacterized protein OS=Hordeu...  110     1e-29
+TR:A0A1D6Q0V8_MAIZE  A0A1D6Q0V8 Uncharacterized protein OS=Zea ma...  110     1e-29
+TR:A0A0A9N003_ARUDO  A0A0A9N003 Uncharacterized protein OS=Arundo...  113     1e-29
+TR:A0A287PLL8_HORVV  A0A287PLL8 Uncharacterized protein OS=Hordeu...  110     1e-29
+TR:A0A2T8I6E1_9POAL  A0A2T8I6E1 Uncharacterized protein OS=Panicu...  115     1e-29
+TR:A0A2T7CHH3_9POAL  A0A2T7CHH3 Uncharacterized protein OS=Panicu...  115     1e-29
+TR:A0A287PLA7_HORVV  A0A287PLA7 Uncharacterized protein OS=Hordeu...  110     2e-29
+TR:K4A827_SETIT  K4A827 Uncharacterized protein OS=Setaria italic...  115     2e-29
+TR:A0A0E0K8W5_ORYPU  A0A0E0K8W5 Uncharacterized protein OS=Oryza ...  114     3e-29
+SP:4CLL1_ORYSJ  Q0DV32 4-coumarate--CoA ligase-like 1 OS=Oryza sa...  114     4e-29
+TR:A0A0E0NPT2_ORYRU  A0A0E0NPT2 Uncharacterized protein OS=Oryza ...  114     4e-29
+TR:I1P7N6_ORYGL  I1P7N6 Uncharacterized protein OS=Oryza glaberri...  114     4e-29
+TR:A0A0E0GGX7_ORYNI  A0A0E0GGX7 Uncharacterized protein OS=Oryza ...  114     4e-29
+TR:A0A0D9Z268_9ORYZ  A0A0D9Z268 Uncharacterized protein OS=Oryza ...  114     4e-29
+TR:B8AND5_ORYSI  B8AND5 Uncharacterized protein OS=Oryza sativa s...  114     4e-29
+TR:B9FB36_ORYSJ  B9FB36 Uncharacterized protein OS=Oryza sativa s...  114     4e-29
+TR:B4FAE3_MAIZE  B4FAE3 Uncharacterized protein OS=Zea mays OX=45...  111     7e-29
+TR:B4FDF0_MAIZE  B4FDF0 Uncharacterized protein OS=Zea mays OX=45...  111     2e-28
+TR:M7ZH64_TRIUA  M7ZH64 4-coumarate--CoA ligase-like 1 OS=Triticu...  110     2e-28
+TR:I1H9M3_BRADI  I1H9M3 Uncharacterized protein OS=Brachypodium d...  112     3e-28
+TR:F2D0T4_HORVV  F2D0T4 Predicted protein (Fragment) OS=Hordeum v...  112     4e-28
+TR:B6SV48_MAIZE  B6SV48 4-coumarate--CoA ligase 2 OS=Zea mays OX=...  111     4e-28
+TR:A0A1D6JNY6_MAIZE  A0A1D6JNY6 4-coumarate--CoA ligase-like 7 OS...  111     4e-28
+TR:K4A825_SETIT  K4A825 Uncharacterized protein OS=Setaria italic...  111     5e-28
+TR:A0A096S078_MAIZE  A0A096S078 4-coumarate--CoA ligase-like 7 OS...  111     5e-28
+TR:J3LK37_ORYBR  J3LK37 Uncharacterized protein OS=Oryza brachyan...  111     5e-28
+TR:A0A287PLM2_HORVV  A0A287PLM2 Uncharacterized protein OS=Hordeu...  110     8e-28
+TR:A0A0D9VPN8_9ORYZ  A0A0D9VPN8 Uncharacterized protein OS=Leersi...  110     9e-28
+TR:A0A287PMG3_HORVV  A0A287PMG3 Uncharacterized protein OS=Hordeu...  110     1e-27
+TR:A0A1D5XC27_WHEAT  A0A1D5XC27 Uncharacterized protein OS=Tritic...  110     2e-27
+TR:A0A2T8I4V0_9POAL  A0A2T8I4V0 Uncharacterized protein OS=Panicu...  109     2e-27
+TR:A0A2T8I4V5_9POAL  A0A2T8I4V5 Uncharacterized protein OS=Panicu...  109     2e-27
+TR:B8A1Y1_MAIZE  B8A1Y1 Uncharacterized protein OS=Zea mays OX=45...  107     3e-27
+TR:A0A0A9GJ43_ARUDO  A0A0A9GJ43 Uncharacterized protein OS=Arundo...  105     3e-27
+TR:A0A2T7C4B0_9POAL  A0A2T7C4B0 Uncharacterized protein OS=Panicu...  108     4e-27
+TR:A0A2T7C4A7_9POAL  A0A2T7C4A7 Uncharacterized protein OS=Panicu...  108     4e-27
+TR:A0A2H5Q500_CITUN  A0A2H5Q500 Uncharacterized protein OS=Citrus...  108     8e-27
+TR:V4SG03_9ROSI  V4SG03 Uncharacterized protein OS=Citrus clement...  108     8e-27
+TR:A0A061GYC8_THECC  A0A061GYC8 AMP-dependent synthetase and liga...  107     1e-26
+TR:A0A270R4W3_9POAL  A0A270R4W3 Uncharacterized protein OS=Panicu...  107     1e-26
+TR:A0A2T8I4V4_9POAL  A0A2T8I4V4 Uncharacterized protein OS=Panicu...  107     1e-26
+TR:A0A2T7C4B2_9POAL  A0A2T7C4B2 Uncharacterized protein OS=Panicu...  107     1e-26
+TR:A0A067D233_CITSI  A0A067D233 Uncharacterized protein (Fragment...  102     2e-26
+TR:A0A1D6KW34_MAIZE  A0A1D6KW34 4-coumarate--CoA ligase-like 7 OS...  107     2e-26
+TR:A0A1D5XJS6_WHEAT  A0A1D5XJS6 Uncharacterized protein OS=Tritic...  107     2e-26
+TR:A0A068UEX7_COFCA  A0A068UEX7 Uncharacterized protein OS=Coffea...  102     2e-26
+TR:A0A1Z5S6P3_SORBI  A0A1Z5S6P3 Uncharacterized protein OS=Sorghu...  107     2e-26
+TR:M8C618_AEGTA  M8C618 4-coumarate--CoA ligase-like protein 1 OS...  105     2e-26
+TR:A0A059DAI7_EUCGR  A0A059DAI7 Uncharacterized protein OS=Eucaly...  107     3e-26
+TR:A0A2G2YHF4_CAPAN  A0A2G2YHF4 4-coumarate--CoA ligase-like 7 OS...  106     3e-26
+TR:A0A1U8ELY2_CAPAN  A0A1U8ELY2 4-coumarate--CoA ligase-like 7 OS...  106     3e-26
+TR:A0A2G3BBH0_CAPCH  A0A2G3BBH0 4-coumarate--CoA ligase-like 7 OS...  106     3e-26
+TR:A0A2G2VQD4_CAPBA  A0A2G2VQD4 4-coumarate--CoA ligase-like 7 OS...  106     3e-26
+TR:A0A199W501_ANACO  A0A199W501 4-coumarate--CoA ligase-like 1 OS...  106     4e-26
+TR:A0A1R3K5V2_9ROSI  A0A1R3K5V2 AMP-dependent synthetase/ligase O...  106     4e-26
+TR:A0A1R3IJR0_COCAP  A0A1R3IJR0 AMP-dependent synthetase/ligase O...  106     4e-26
+TR:A0A1D6KNL0_MAIZE  A0A1D6KNL0 4-coumarate--CoA ligase-like 7 OS...  101     4e-26
+TR:A0A089WWI7_BETPN  A0A089WWI7 4-coumarate:CoA ligase-like prote...  105     5e-26
+TR:A0A1D5Y3W1_WHEAT  A0A1D5Y3W1 Uncharacterized protein OS=Tritic...  105     5e-26
+TR:A0A059D9T8_EUCGR  A0A059D9T8 Uncharacterized protein OS=Eucaly...  105     6e-26
+TR:W9SXG6_9ROSA  W9SXG6 4-coumarate--CoA ligase-like 7 OS=Morus n...  105     6e-26
+TR:A0A1S4AFE3_TOBAC  A0A1S4AFE3 4-coumarate--CoA ligase-like 7 OS...  105     7e-26
+TR:A0A2T8I1M0_9POAL  A0A2T8I1M0 Uncharacterized protein OS=Panicu...  105     7e-26
+TR:A0A1E5VR14_9POAL  A0A1E5VR14 4-coumarate--CoA ligase-like 1 OS...  105     7e-26
+TR:A0A0V0IJA8_SOLCH  A0A0V0IJA8 Putative 4-coumarate--CoA ligase-...  104     7e-26
+TR:A0A2P4LTB5_QUESU  A0A2P4LTB5 4-coumarate--coa ligase-like 7 OS...  100     8e-26
+TR:A0A2I0JQ53_PUNGR  A0A2I0JQ53 Uncharacterized protein OS=Punica...  100     9e-26
+TR:A0A059Q9S8_PHAVU  A0A059Q9S8 4-coumarate:coenzyme A ligase 4 O...  105     1e-25
+TR:V7BVX4_PHAVU  V7BVX4 Uncharacterized protein OS=Phaseolus vulg...  105     1e-25
+TR:A0A200R5N5_9MAGN  A0A200R5N5 AMP-dependent synthetase/ligase O...  105     1e-25
+TR:A0A218WN26_PUNGR  A0A218WN26 Uncharacterized protein OS=Punica...  105     1e-25
+TR:A0A2I0K7V3_PUNGR  A0A2I0K7V3 Uncharacterized protein OS=Punica...  105     1e-25
+TR:A0A1U8AJ01_NELNU  A0A1U8AJ01 4-coumarate--CoA ligase-like 7 OS...  105     1e-25
+TR:A0A1E5W433_9POAL  A0A1E5W433 4-coumarate--CoA ligase-like 1 OS...  105     1e-25
+TR:K4ALU4_SETIT  K4ALU4 Uncharacterized protein OS=Setaria italic...  105     1e-25
+TR:K4DA61_SOLLC  K4DA61 Uncharacterized protein OS=Solanum lycope...  104     1e-25
+TR:A0A0B2NUG0_GLYSO  A0A0B2NUG0 4-coumarate--CoA ligase-like 7 (F...  99.4    1e-25
+TR:K4A7N6_SETIT  K4A7N6 Uncharacterized protein OS=Setaria italic...  104     1e-25
+TR:M0TQC4_MUSAM  M0TQC4 Uncharacterized protein OS=Musa acuminata...  104     2e-25
+TR:V4SL14_9ROSI  V4SL14 Uncharacterized protein (Fragment) OS=Cit...  99.8    2e-25
+TR:A0A0M4KDV5_MORAL  A0A0M4KDV5 4-coumarate-CoA ligase 7-2 OS=Mor...  104     2e-25
+TR:A0A1D8KVT5_MORAL  A0A1D8KVT5 4-coumarate-CoA ligase 7 OS=Morus...  104     2e-25
+TR:A0A067L6D3_JATCU  A0A067L6D3 Uncharacterized protein OS=Jatrop...  104     2e-25
+TR:S4W911_CHOAR  S4W911 Ca4CL11 OS=Chosenia arbutifolia OX=75699 ...  104     2e-25
+TR:A0A2K2ASK3_POPTR  A0A2K2ASK3 Uncharacterized protein OS=Populu...  104     2e-25
+TR:A0A2P5CZL5_PARAD  A0A2P5CZL5 4-coumarate-CoA ligase OS=Paraspo...  104     2e-25
+TR:A0A2P5FTQ5_9ROSA  A0A2P5FTQ5 4-coumarate-CoA ligase OS=Trema o...  104     2e-25
+TR:A0A2P4M0D9_QUESU  A0A2P4M0D9 4-coumarate--coa ligase-like 7 OS...  104     2e-25
+TR:A0A1D6KW35_MAIZE  A0A1D6KW35 4-coumarate--CoA ligase-like 7 OS...  103     2e-25
+TR:A0A1U7XIM3_NICSY  A0A1U7XIM3 4-coumarate--CoA ligase-like 7 OS...  103     3e-25
+TR:A0A1S4AJS0_TOBAC  A0A1S4AJS0 4-coumarate--CoA ligase-like 7 OS...  103     3e-25
+TR:A0A1Q3BF15_CEPFO  A0A1Q3BF15 AMP-binding domain-containing pro...  103     3e-25
+TR:W8Q8X1_9LAMI  W8Q8X1 4-coumarate:coenzyme A ligase 4 OS=Fraxin...  103     3e-25
+TR:A0A166DHN2_DAUCA  A0A166DHN2 Uncharacterized protein OS=Daucus...  99.4    3e-25
+TR:K4ALV4_SETIT  K4ALV4 Uncharacterized protein OS=Setaria italic...  103     3e-25
+TR:A0A072VCC0_MEDTR  A0A072VCC0 4-coumarate:CoA ligase-like prote...  103     4e-25
+TR:A0A2H9ZXN4_9ASPA  A0A2H9ZXN4 4-coumarate--CoA ligase-like 7 OS...  103     4e-25
+TR:W1P4C6_AMBTC  W1P4C6 Uncharacterized protein OS=Amborella tric...  103     4e-25
+TR:A0A2R6PQ80_ACTCH  A0A2R6PQ80 4-coumarate--CoA ligase-like OS=A...  103     4e-25
+TR:A0A1U8MBI0_GOSHI  A0A1U8MBI0 4-coumarate--CoA ligase-like 7 OS...  103     4e-25
+TR:A0A2P5YCB4_GOSBA  A0A2P5YCB4 Uncharacterized protein OS=Gossyp...  103     4e-25
+TR:A0A2P5QW89_GOSBA  A0A2P5QW89 Uncharacterized protein OS=Gossyp...  103     4e-25
+TR:A0A0D2VKP5_GOSRA  A0A0D2VKP5 Uncharacterized protein (Fragment...  103     4e-25
+TR:F6HKB4_VITVI  F6HKB4 Uncharacterized protein OS=Vitis vinifera...  103     5e-25
+TR:A0A0S3SGN8_PHAAN  A0A0S3SGN8 Uncharacterized protein OS=Vigna ...  103     5e-25
+TR:A0A1S3TX94_VIGRR  A0A1S3TX94 4-coumarate--CoA ligase-like 7 OS...  103     5e-25
+TR:A0A1D5XJS5_WHEAT  A0A1D5XJS5 Uncharacterized protein OS=Tritic...  103     5e-25
+TR:A0A1L6K4A7_POPTO  A0A1L6K4A7 4-coumarate--CoA ligase family pr...  103     5e-25
+TR:H9A1V5_CANSA  H9A1V5 Acyl-activating enzyme 3 OS=Cannabis sati...  103     5e-25
+TR:V9HWZ4_ISATI  V9HWZ4 4-coumarate coenzyme A ligase OS=Isatis t...  103     5e-25
+TR:B9H3P7_POPTR  B9H3P7 Uncharacterized protein OS=Populus tricho...  103     5e-25
+TR:A0A2P5WRY0_GOSBA  A0A2P5WRY0 Uncharacterized protein OS=Gossyp...  103     5e-25
+TR:A0A1U8PXT3_GOSHI  A0A1U8PXT3 4-coumarate--CoA ligase-like 7 OS...  103     5e-25
+TR:A0A2H5Q4Z7_CITUN  A0A2H5Q4Z7 Uncharacterized protein OS=Citrus...  102     5e-25
+TR:K4A7T8_SETIT  K4A7T8 Uncharacterized protein OS=Setaria italic...  103     5e-25
+TR:A0A0L9UN68_PHAAN  A0A0L9UN68 Uncharacterized protein OS=Phaseo...  103     6e-25
+TR:A0A1S2XC32_CICAR  A0A1S2XC32 4-coumarate--CoA ligase-like 7 OS...  102     7e-25
+TR:A0A151SAH6_CAJCA  A0A151SAH6 4-coumarate--CoA ligase-like 7 OS...  102     7e-25
+TR:V4KJQ8_EUTSA  V4KJQ8 Uncharacterized protein OS=Eutrema salsug...  102     7e-25
+TR:A0A2H3Z5Q6_PHODC  A0A2H3Z5Q6 4-coumarate--CoA ligase-like 1 OS...  102     7e-25
+TR:A0A2I4HRL8_9ROSI  A0A2I4HRL8 4-coumarate--CoA ligase-like 7 OS...  102     7e-25
+TR:A0A059A7S0_EUCGR  A0A059A7S0 Uncharacterized protein OS=Eucaly...  102     7e-25
+TR:A0A2T8I1L5_9POAL  A0A2T8I1L5 Uncharacterized protein OS=Panicu...  102     7e-25
+TR:M0SZZ4_MUSAM  M0SZZ4 Uncharacterized protein OS=Musa acuminata...  102     7e-25
+TR:A0A2P6QGW4_ROSCH  A0A2P6QGW4 Putative AMP-dependent synthetase...  96.3    8e-25
+TR:A0A2K3PPQ7_TRIPR  A0A2K3PPQ7 4-coumarate-CoA ligase 7-like pro...  102     9e-25
+TR:A0A1L7H9K0_9APIA  A0A1L7H9K0 4-Coumarate:CoA ligase 7 (Fragmen...  102     9e-25
+TR:A0A2C9W0W5_MANES  A0A2C9W0W5 Uncharacterized protein OS=Maniho...  102     9e-25
+TR:A0A1X9HIJ5_HEVBR  A0A1X9HIJ5 4-coumarate:CoA ligase OS=Hevea b...  102     9e-25
+TR:D7M1Y8_ARALL  D7M1Y8 Uncharacterized protein OS=Arabidopsis ly...  102     9e-25
+TR:M1AEE2_SOLTU  M1AEE2 Uncharacterized protein OS=Solanum tubero...  102     1e-24
+TR:B9S0G8_RICCO  B9S0G8 AMP dependent CoA ligase, putative OS=Ric...  102     1e-24
+TR:M5WDH6_PRUPE  M5WDH6 Uncharacterized protein OS=Prunus persica...  102     1e-24
+TR:A0A178UXS2_ARATH  A0A178UXS2 Uncharacterized protein OS=Arabid...  102     1e-24
+TR:M4IRL6_HUMLU  M4IRL6 CCL7 OS=Humulus lupulus OX=3486 PE=2 SV=1     102     1e-24
+TR:A0A2H5QQL4_CITUN  A0A2H5QQL4 Uncharacterized protein OS=Citrus...  102     1e-24
+TR:A0A0M4L8I0_MORAL  A0A0M4L8I0 4-coumarate-CoA ligase 7-1 OS=Mor...  102     1e-24
+TR:A0A1D8KVS6_MORAL  A0A1D8KVS6 4-coumarate-CoA ligase 1 OS=Morus...  102     1e-24
+TR:K7LTN2_SOYBN  K7LTN2 Uncharacterized protein OS=Glycine max OX...  99.4    2e-24
+TR:H2BER4_SOYBN  H2BER4 4-coumarate:CoA ligase OS=Glycine max OX=...  101     2e-24
+TR:A0A2K1X6J3_POPTR  A0A2K1X6J3 Uncharacterized protein OS=Populu...  101     2e-24
+TR:W9S512_9ROSA  W9S512 4-coumarate--CoA ligase-like 7 OS=Morus n...  101     2e-24
+TR:A0A199VGP1_ANACO  A0A199VGP1 4-coumarate--CoA ligase-like 1 OS...  101     2e-24
+TR:A0A2P4LTB2_QUESU  A0A2P4LTB2 4-coumarate--coa ligase-like 7 OS...  100     2e-24
+TR:A0A2N9EY56_FAGSY  A0A2N9EY56 Uncharacterized protein OS=Fagus ...  101     2e-24
+TR:A0A164Z8Y6_DAUCA  A0A164Z8Y6 Uncharacterized protein OS=Daucus...  101     2e-24
+TR:A0A2S1VVS7_BOENI  A0A2S1VVS7 4-coumarate CoA ligase OS=Boehmer...  101     2e-24
+TR:A0A2K3LEK0_TRIPR  A0A2K3LEK0 4-coumarate-CoA ligase 7-like pro...  93.6    3e-24
+TR:A0A2I4DIE3_9ROSI  A0A2I4DIE3 4-coumarate--CoA ligase-like 7 is...  100     3e-24
+TR:M4EL94_BRARP  M4EL94 Uncharacterized protein OS=Brassica rapa ...  100     3e-24
+TR:B9SCH9_RICCO  B9SCH9 AMP dependent CoA ligase, putative OS=Ric...  100     3e-24
+TR:A0A2P6QGZ5_ROSCH  A0A2P6QGZ5 Putative AMP-dependent synthetase...  100     3e-24
+SP:4CLL7_ARATH  Q9M0X9 4-coumarate--CoA ligase-like 7 OS=Arabidop...  100     3e-24
+TR:R0H9R2_9BRAS  R0H9R2 Uncharacterized protein OS=Capsella rubel...  100     3e-24
+TR:A0A2P2PLG1_RHIMU  A0A2P2PLG1 Uncharacterized protein MANES_04G...  100     3e-24
+TR:A0A1R3K5Z6_9ROSI  A0A1R3K5Z6 AMP-dependent synthetase/ligase O...  100     3e-24
+TR:A0A059A6N2_EUCGR  A0A059A6N2 Uncharacterized protein OS=Eucaly...  100     3e-24
+TR:A0A2P5Q3T5_GOSBA  A0A2P5Q3T5 Uncharacterized protein OS=Gossyp...  99.4    4e-24
+TR:A0A2I4HJ23_9ROSI  A0A2I4HJ23 4-coumarate--CoA ligase-like 7 OS...  93.6    4e-24
+TR:A0A1J3GLV5_NOCCA  A0A1J3GLV5 4-coumarate--CoA ligase-like 7 OS...  100     4e-24
+TR:A0A1J3CNG1_NOCCA  A0A1J3CNG1 4-coumarate--CoA ligase-like 7 OS...  100     4e-24
+TR:A0A078HKZ9_BRANA  A0A078HKZ9 BnaC09g21890D protein OS=Brassica...  100     4e-24
+TR:A0A078I666_BRANA  A0A078I666 BnaA09g19890D protein OS=Brassica...  100     4e-24
+TR:A0A0D3E813_BRAOL  A0A0D3E813 Uncharacterized protein OS=Brassi...  100     4e-24
+TR:A0A218W9X8_PUNGR  A0A218W9X8 Uncharacterized protein OS=Punica...  100     6e-24
+TR:A0A2S3IU74_9POAL  A0A2S3IU74 Uncharacterized protein OS=Panicu...  100     6e-24
+TR:A0A2T7CHI9_9POAL  A0A2T7CHI9 Uncharacterized protein OS=Panicu...  100     6e-24
+TR:A0A251VIB7_HELAN  A0A251VIB7 Putative AMP-dependent synthetase...  99.8    8e-24
+TR:M5W8J3_PRUPE  M5W8J3 Uncharacterized protein OS=Prunus persica...  99.8    8e-24
+TR:F6GW98_VITVI  F6GW98 Uncharacterized protein OS=Vitis vinifera...  99.8    8e-24
+TR:A0A2G9GWE8_9LAMI  A0A2G9GWE8 Acyl-CoA synthetase OS=Handroanth...  99.8    8e-24
+TR:A5BUH4_VITVI  A5BUH4 Uncharacterized protein OS=Vitis vinifera...  99.8    9e-24
+TR:A0A151TNK3_CAJCA  A0A151TNK3 4-coumarate--CoA ligase-like 7 OS...  99.4    1e-23
+TR:A0A1J3FFL0_NOCCA  A0A1J3FFL0 4-coumarate--CoA ligase-like 7 OS...  99.4    1e-23
+TR:E4MVR7_EUTHA  E4MVR7 mRNA, clone: RTFL01-04-L10 OS=Eutrema hal...  99.4    1e-23
+TR:V4LE97_EUTSA  V4LE97 Uncharacterized protein OS=Eutrema salsug...  99.4    1e-23
+TR:A0A1U8LJM9_GOSHI  A0A1U8LJM9 4-coumarate--CoA ligase-like 7 is...  99.4    1e-23
+TR:A0A1D1Y9J4_9ARAE  A0A1D1Y9J4 4-coumarate--CoA ligase-like 7 OS...  99.4    1e-23
+TR:I1LL16_SOYBN  I1LL16 Uncharacterized protein OS=Glycine max OX...  99.4    1e-23
+TR:I1LL15_SOYBN  I1LL15 Uncharacterized protein OS=Glycine max OX...  99.4    1e-23
+TR:A0A0R0HJB4_SOYBN  A0A0R0HJB4 Uncharacterized protein OS=Glycin...  99.4    1e-23
+TR:A0A0D2QKS3_GOSRA  A0A0D2QKS3 Uncharacterized protein OS=Gossyp...  99.0    1e-23
+TR:A0A0D2QTJ7_GOSRA  A0A0D2QTJ7 Uncharacterized protein OS=Gossyp...  99.0    1e-23
+TR:A0A0L9TEL9_PHAAN  A0A0L9TEL9 Uncharacterized protein OS=Phaseo...  99.0    2e-23
+TR:A0A078I937_BRANA  A0A078I937 BnaA09g19900D protein OS=Brassica...  99.0    2e-23
+TR:A0A291FH95_GLELI  A0A291FH95 4-coumarate:CoA ligase OS=Glehnia...  99.0    2e-23
+TR:A0A0S3SCI5_PHAAN  A0A0S3SCI5 Uncharacterized protein OS=Vigna ...  99.0    2e-23
+TR:A0A2P5BJU6_PARAD  A0A2P5BJU6 4-coumarate-CoA ligase OS=Paraspo...  98.6    2e-23
+TR:M4IQS1_HUMLU  M4IQS1 CCL10 OS=Humulus lupulus OX=3486 PE=2 SV=1    98.6    2e-23
+TR:A0A2P5FVC4_9ROSA  A0A2P5FVC4 4-coumarate-CoA ligase OS=Trema o...  98.6    2e-23
+TR:S4WCP0_CHOAR  S4WCP0 Ca4CL10 OS=Chosenia arbutifolia OX=75699 ...  98.6    2e-23
+TR:U3PIV4_PHAVU  U3PIV4 4-coumarate:coenzyme A ligase 8 OS=Phaseo...  98.6    2e-23
+TR:V7AHH4_PHAVU  V7AHH4 Uncharacterized protein OS=Phaseolus vulg...  98.6    2e-23
+TR:A0A059XSM2_9MAGN  A0A059XSM2 4-coumarate-CoA ligase OS=Sinopod...  98.2    3e-23
+TR:A0A022PR31_ERYGU  A0A022PR31 Uncharacterized protein OS=Erythr...  98.2    3e-23
+TR:A0A1R3HPY2_COCAP  A0A1R3HPY2 AMP-dependent synthetase/ligase O...  98.2    3e-23
+TR:S4WBH6_CHOAR  S4WBH6 Ca4CL12 OS=Chosenia arbutifolia OX=75699 ...  97.8    4e-23
+TR:A0A200Q9A1_9MAGN  A0A200Q9A1 AMP-dependent synthetase/ligase O...  97.8    4e-23
+TR:A0A2G5D214_AQUCA  A0A2G5D214 Uncharacterized protein OS=Aquile...  97.8    4e-23
+TR:A0A1P8VEX6_RUBCO  A0A1P8VEX6 4-coumarate-CoA ligase-like prote...  97.8    4e-23
+TR:U3N8B2_SALMI  U3N8B2 4-coumarate:coenzyme A ligase 5 OS=Salvia...  97.4    6e-23
+TR:A0A0K9Q443_ZOSMR  A0A0K9Q443 4-coumarate--CoA ligase like OS=Z...  97.4    6e-23
+TR:A0A1R3HTD5_9ROSI  A0A1R3HTD5 AMP-dependent synthetase/ligase O...  97.1    7e-23
+TR:A0A2P6QGZ0_ROSCH  A0A2P6QGZ0 Putative AMP-dependent synthetase...  97.1    8e-23
+TR:A0A146AUQ2_SCUBA  A0A146AUQ2 CoA ligase-like protein 7 OS=Scut...  97.1    8e-23
+TR:A0A2P5Q5Y2_GOSBA  A0A2P5Q5Y2 Uncharacterized protein OS=Gossyp...  92.8    9e-23
+TR:A0A2G5D130_AQUCA  A0A2G5D130 Uncharacterized protein OS=Aquile...  96.7    1e-22
+TR:A0A087GQR9_ARAAL  A0A087GQR9 Uncharacterized protein OS=Arabis...  96.7    1e-22
+TR:A0A1L6K5S0_POPTO  A0A1L6K5S0 4-coumarate--CoA ligase family pr...  96.7    1e-22
+TR:A0A2J6JGE9_LACSA  A0A2J6JGE9 Uncharacterized protein OS=Lactuc...  96.3    1e-22
+TR:A0A078HQV5_BRANA  A0A078HQV5 BnaC09g21910D protein OS=Brassica...  96.3    1e-22
+TR:A0A0D3E814_BRAOL  A0A0D3E814 Uncharacterized protein OS=Brassi...  96.3    1e-22
+TR:A0A1J3ITD7_NOCCA  A0A1J3ITD7 4-coumarate--CoA ligase-like 7 OS...  95.9    2e-22
+TR:A0A1S3VPY6_VIGRR  A0A1S3VPY6 4-coumarate--CoA ligase-like 7 OS...  95.5    3e-22
+TR:A0A2H9ZRK0_9ASPA  A0A2H9ZRK0 4-coumarate--CoA ligase-like 7 OS...  95.1    4e-22
+TR:A0A0K9NPU7_ZOSMR  A0A0K9NPU7 4-coumarate--CoA ligase like OS=Z...  95.1    4e-22
+TR:A0A2I0XAV2_9ASPA  A0A2I0XAV2 4-coumarate--CoA ligase-like 7 OS...  95.1    4e-22
+TR:A0A2I4F9I8_9ROSI  A0A2I4F9I8 uncharacterized protein LOC108996...  95.1    4e-22
+TR:A0A118JTR2_CYNCS  A0A118JTR2 AMP-binding, conserved site-conta...  94.7    6e-22
+TR:A0A2P4LTA8_QUESU  A0A2P4LTA8 4-coumarate--coa ligase-like 7 OS...  92.8    7e-22
+TR:A0A2U1MZK7_ARTAN  A0A2U1MZK7 AMP-binding, conserved site-conta...  94.4    7e-22
+TR:A0A2U1MZH0_ARTAN  A0A2U1MZH0 AMP-binding, conserved site-conta...  94.4    7e-22
+TR:A0A2U1MZN2_ARTAN  A0A2U1MZN2 AMP-binding, conserved site-conta...  94.4    7e-22
+TR:A0A2H4UXV8_CARTI  A0A2H4UXV8 4CL2 OS=Carthamus tinctorius OX=4...  94.4    7e-22
+TR:A0A0B0PPS7_GOSAR  A0A0B0PPS7 4-coumarate--CoA ligase-like 7 OS...  94.0    7e-22
+TR:A0A0B0PCQ9_GOSAR  A0A0B0PCQ9 4-coumarate--CoA ligase-like 7 OS...  94.0    7e-22
+TR:A0A2P5WRY1_GOSBA  A0A2P5WRY1 Uncharacterized protein OS=Gossyp...  94.0    8e-22
+TR:A0A1S3CIB0_CUCME  A0A1S3CIB0 4-coumarate--CoA ligase-like 7 OS...  94.0    9e-22
+TR:A0A067F9W4_CITSI  A0A067F9W4 Uncharacterized protein (Fragment...  88.6    9e-22
+TR:A0A0A0LXU2_CUCSA  A0A0A0LXU2 Uncharacterized protein OS=Cucumi...  93.6    1e-21
+TR:A0A251VKR8_HELAN  A0A251VKR8 Putative AMP-dependent synthetase...  93.6    1e-21
+TR:A0A061ESW3_THECC  A0A061ESW3 AMP-dependent synthetase and liga...  89.4    2e-21
+TR:A0A2P4LTB7_QUESU  A0A2P4LTB7 4-coumarate--coa ligase-like 7 OS...  92.0    2e-21
+TR:A0A067K282_JATCU  A0A067K282 Uncharacterized protein OS=Jatrop...  92.8    2e-21
+TR:A0A2J6JG93_LACSA  A0A2J6JG93 Uncharacterized protein OS=Lactuc...  92.8    2e-21
+TR:A0A0D2S456_GOSRA  A0A0D2S456 Uncharacterized protein OS=Gossyp...  92.8    2e-21
+TR:A0A1U8JJQ0_GOSHI  A0A1U8JJQ0 4-coumarate--CoA ligase-like 7 OS...  92.4    3e-21
+TR:A0A1U8I6H2_GOSHI  A0A1U8I6H2 4-coumarate--CoA ligase-like 7 is...  92.4    3e-21
+TR:A0A2U1KAE0_ARTAN  A0A2U1KAE0 AMP-binding, conserved site-conta...  92.0    4e-21
+TR:A0A2P6PCD1_ROSCH  A0A2P6PCD1 Putative AMP-dependent synthetase...  90.5    6e-21
+TR:S8CZ23_9LAMI  S8CZ23 Uncharacterized protein (Fragment) OS=Gen...  90.9    1e-20
+TR:A0A061ES94_THECC  A0A061ES94 AMP-dependent synthetase and liga...  90.5    2e-20
+TR:A0A072UJR1_MEDTR  A0A072UJR1 4-coumarate:CoA ligase-like prote...  90.1    2e-20
+TR:A0A1S2Y0Y2_CICAR  A0A1S2Y0Y2 4-coumarate--CoA ligase-like 7 OS...  90.1    2e-20
+TR:A0A0B2PC72_GLYSO  A0A0B2PC72 4-coumarate--CoA ligase-like 7 OS...  83.2    3e-20
+TR:A0A2U1MBW6_ARTAN  A0A2U1MBW6 4-coumarate--CoA ligase-like 7 OS...  89.0    5e-20
+TR:V4SB68_9ROSI  V4SB68 Uncharacterized protein OS=Citrus clement...  88.6    7e-20
+TR:A0A2J6JG52_LACSA  A0A2J6JG52 Uncharacterized protein OS=Lactuc...  88.6    8e-20
+TR:B8LNP4_PICSI  B8LNP4 Uncharacterized protein OS=Picea sitchens...  88.6    8e-20
+TR:A0A0G7ZNY1_PICGL  A0A0G7ZNY1 Putative 4-coumarate-CoA ligase O...  88.6    8e-20
+TR:A0A0G7ZNV2_PICGL  A0A0G7ZNV2 Putative 4-coumarate-CoA ligase O...  88.6    8e-20
+TR:A0A0K9RAU5_SPIOL  A0A0K9RAU5 Uncharacterized protein OS=Spinac...  88.2    9e-20
+TR:A0A1S3B5U8_CUCME  A0A1S3B5U8 4-coumarate--CoA ligase-like 7 OS...  88.2    1e-19
+TR:A0A103Y013_CYNCS  A0A103Y013 AMP-dependent synthetase/ligase O...  83.2    1e-19
+TR:A0A199UG73_ANACO  A0A199UG73 4-coumarate--CoA ligase-like 4 OS...  87.4    2e-19
+TR:F6I5L0_VITVI  F6I5L0 Uncharacterized protein OS=Vitis vinifera...  87.0    3e-19
+TR:A0A0D2RJA2_GOSRA  A0A0D2RJA2 Uncharacterized protein OS=Gossyp...  86.3    5e-19
+TR:A0A2P4J5I6_QUESU  A0A2P4J5I6 4-coumarate--coa ligase-like 9 OS...  85.9    7e-19
+TR:A0A072VK34_MEDTR  A0A072VK34 4-coumarate:CoA ligase-like prote...  85.9    7e-19
+TR:A0A2H5QX58_CITUN  A0A2H5QX58 Uncharacterized protein OS=Citrus...  85.5    9e-19
+TR:V4TIW9_9ROSI  V4TIW9 Uncharacterized protein OS=Citrus clement...  85.5    9e-19
+TR:A0A1U8JV40_GOSHI  A0A1U8JV40 4-coumarate--CoA ligase-like 5 is...  85.5    9e-19
+TR:B9RBM4_RICCO  B9RBM4 AMP dependent CoA ligase, putative OS=Ric...  85.1    1e-18
+TR:A0A0K9Q7J3_SPIOL  A0A0K9Q7J3 Uncharacterized protein (Fragment...  80.5    1e-18
+TR:W1PZW4_AMBTC  W1PZW4 Uncharacterized protein OS=Amborella tric...  84.7    2e-18
+TR:B8LRA6_PICSI  B8LRA6 Uncharacterized protein OS=Picea sitchens...  84.7    2e-18
+TR:A0A0A0LDK0_CUCSA  A0A0A0LDK0 Uncharacterized protein OS=Cucumi...  84.7    2e-18
+TR:A0A0D2PR93_GOSRA  A0A0D2PR93 Uncharacterized protein OS=Gossyp...  84.3    2e-18
+TR:A0A0S3T9G1_PHAAN  A0A0S3T9G1 Uncharacterized protein OS=Vigna ...  80.1    3e-18
+TR:D5ADH9_PICSI  D5ADH9 Uncharacterized protein OS=Picea sitchens...  82.8    3e-18
+TR:A0A022R2C2_ERYGU  A0A022R2C2 Uncharacterized protein OS=Erythr...  84.0    3e-18
+TR:A0A0D2QLB4_GOSRA  A0A0D2QLB4 Uncharacterized protein OS=Gossyp...  84.0    3e-18
+TR:A0A0D2PV28_GOSRA  A0A0D2PV28 Uncharacterized protein OS=Gossyp...  84.0    3e-18
+TR:A0A0B2PL78_GLYSO  A0A0B2PL78 4-coumarate--CoA ligase-like 9 OS...  82.8    3e-18
+TR:L0AU88_POPTO  L0AU88 4-coumarate: CoA ligase OS=Populus toment...  82.0    3e-18
+TR:A0A199VGN9_ANACO  A0A199VGN9 4-coumarate--CoA ligase-like 4 OS...  83.6    3e-18
+TR:A0A2I0I2X6_PUNGR  A0A2I0I2X6 Uncharacterized protein OS=Punica...  80.1    4e-18
+TR:I3SFN1_MEDTR  I3SFN1 Uncharacterized protein OS=Medicago trunc...  77.8    4e-18
+TR:A0A0G7ZP16_PICGL  A0A0G7ZP16 Putative 4-coumarate-CoA ligase O...  83.6    4e-18
+TR:A0A2P5RXM5_GOSBA  A0A2P5RXM5 Uncharacterized protein OS=Gossyp...  83.6    4e-18
+TR:A0A1U8JV28_GOSHI  A0A1U8JV28 4-coumarate--CoA ligase-like 5 is...  83.6    4e-18
+TR:A0A072VL68_MEDTR  A0A072VL68 4-coumarate:CoA ligase-like prote...  83.6    4e-18
+TR:A0A199UG82_ANACO  A0A199UG82 4-coumarate--CoA ligase-like 4 OS...  83.6    4e-18
+TR:A0A1U7ZDF5_NELNU  A0A1U7ZDF5 4-coumarate--CoA ligase-like 9 OS...  83.2    6e-18
+TR:A0A0A1ETJ8_ALBBR  A0A0A1ETJ8 4-coumarate:CoA ligase-like prote...  83.2    6e-18
+TR:A0A1J3IV27_NOCCA  A0A1J3IV27 4-coumarate--CoA ligase-like 4 (F...  83.2    6e-18
+TR:W1NK47_AMBTC  W1NK47 Uncharacterized protein OS=Amborella tric...  79.3    7e-18
+TR:I1N7E7_SOYBN  I1N7E7 Uncharacterized protein OS=Glycine max OX...  82.8    8e-18
+TR:A0A1J3H685_NOCCA  A0A1J3H685 4-coumarate--CoA ligase-like 4 OS...  82.8    8e-18
+TR:A0A1J3CCC4_NOCCA  A0A1J3CCC4 4-coumarate--CoA ligase-like 4 OS...  82.8    8e-18
+TR:A0A1J3F743_NOCCA  A0A1J3F743 4-coumarate--CoA ligase-like 4 (F...  82.8    8e-18
+TR:A0A251VRN1_HELAN  A0A251VRN1 Putative AMP-dependent synthetase...  82.8    8e-18
+TR:A0A0H4LV98_LABPU  A0A0H4LV98 4-coumarate-CoA ligase (Fragment)...  79.0    9e-18
+TR:W1PUE1_AMBTC  W1PUE1 Uncharacterized protein OS=Amborella tric...  79.3    1e-17
+TR:A0A2K3PAN7_TRIPR  A0A2K3PAN7 4-coumarate-CoA ligase 9-like pro...  79.0    1e-17
+TR:A0A0B4L7V8_9MONI  A0A0B4L7V8 4-coumarate:CoA ligase 3 OS=Dryop...  82.4    1e-17
+TR:A0A1S3UQZ3_VIGRR  A0A1S3UQZ3 4-coumarate--CoA ligase-like 9 OS...  82.4    1e-17
+TR:B8LP93_PICSI  B8LP93 Uncharacterized protein OS=Picea sitchens...  82.4    1e-17
+TR:A0A2P5WLR9_GOSBA  A0A2P5WLR9 Uncharacterized protein OS=Gossyp...  82.4    1e-17
+TR:A0A1U8NV25_GOSHI  A0A1U8NV25 4-coumarate--CoA ligase-like 5 OS...  82.4    1e-17
+TR:A0A0B0MW99_GOSAR  A0A0B0MW99 4-coumarate--CoA ligase-like 5 OS...  82.4    1e-17
+TR:A0A0B4L7S2_9MONI  A0A0B4L7S2 4-coumarate:CoA ligase 4 OS=Dryop...  82.4    1e-17
+TR:A0A1S4DUD8_CUCME  A0A1S4DUD8 4-coumarate--CoA ligase-like 9 is...  82.4    1e-17
+TR:A0A2P2NMD3_RHIMU  A0A2P2NMD3 4-coumarateCoA ligase-like 9 OS=R...  78.2    1e-17
+TR:A0A2I0AX44_9ASPA  A0A2I0AX44 4-coumarate--CoA ligase-like 4 OS...  82.4    1e-17
+TR:A0A068UET6_COFCA  A0A068UET6 Uncharacterized protein OS=Coffea...  82.0    2e-17
+TR:V7C059_PHAVU  V7C059 Uncharacterized protein OS=Phaseolus vulg...  82.0    2e-17
+SP:4CLL8_ARATH  Q84P26 4-coumarate--CoA ligase-like 8 OS=Arabidop...  82.0    2e-17
+TR:R0FNV8_9BRAS  R0FNV8 Uncharacterized protein OS=Capsella rubel...  82.0    2e-17
+TR:A0A2I4E5V1_9ROSI  A0A2I4E5V1 4-coumarate--CoA ligase-like 9 OS...  82.0    2e-17
+TR:A0A1Q3BW40_CEPFO  A0A1Q3BW40 AMP-binding domain-containing pro...  81.6    2e-17
+TR:A0A0V0IKF9_SOLCH  A0A0V0IKF9 Putative 4-coumarate--CoA ligase-...  81.3    2e-17
+TR:D8R5S4_SELML  D8R5S4 Uncharacterized protein OS=Selaginella mo...  81.6    2e-17
+TR:D8SFZ7_SELML  D8SFZ7 Uncharacterized protein OS=Selaginella mo...  81.6    2e-17
+TR:F6I5K9_VITVI  F6I5K9 Uncharacterized protein OS=Vitis vinifera...  81.6    2e-17
+TR:A0A087HPW0_ARAAL  A0A087HPW0 Uncharacterized protein OS=Arabis...  81.6    2e-17
+TR:A0A146AUN5_SCUBA  A0A146AUN5 CoA ligase-like protein 6 OS=Scut...  81.6    2e-17
+TR:R0IRW3_9BRAS  R0IRW3 Uncharacterized protein OS=Capsella rubel...  81.6    2e-17
+TR:A0A061FZC5_THECC  A0A061FZC5 AMP-dependent synthetase and liga...  81.6    2e-17
+TR:D5A7S8_PICSI  D5A7S8 Uncharacterized protein OS=Picea sitchens...  77.8    2e-17
+TR:A0A0D2PMF4_GOSRA  A0A0D2PMF4 Uncharacterized protein OS=Gossyp...  81.3    3e-17
+TR:A0A2G2WW89_CAPBA  A0A2G2WW89 Uncharacterized protein OS=Capsic...  81.3    3e-17
+TR:A0A1U8GHA4_CAPAN  A0A1U8GHA4 Uncharacterized protein OS=Capsic...  81.3    3e-17
+TR:A0A2G2XUP4_CAPAN  A0A2G2XUP4 4-coumarate--CoA ligase-like 9 OS...  81.3    3e-17
+TR:D7KJ24_ARALL  D7KJ24 Opc-8:0 CoA ligase1 OS=Arabidopsis lyrata...  81.3    3e-17
+TR:A0A2K1IMU6_PHYPA  A0A2K1IMU6 Uncharacterized protein OS=Physco...  81.3    3e-17
+TR:V4MSF6_EUTSA  V4MSF6 Uncharacterized protein OS=Eutrema salsug...  81.3    3e-17
+TR:A0A2P5QQ43_GOSBA  A0A2P5QQ43 Uncharacterized protein OS=Gossyp...  81.3    3e-17
+SP:4CLL5_ARATH  Q84P21 4-coumarate--CoA ligase-like 5 OS=Arabidop...  80.9    4e-17
+TR:A0A067EKG8_CITSI  A0A067EKG8 Uncharacterized protein OS=Citrus...  80.9    4e-17
+TR:W8Q9V9_9LAMI  W8Q9V9 4-coumarate:coenzyme A ligase 4 OS=Fraxin...  80.9    4e-17
+TR:A0A200QY89_9MAGN  A0A200QY89 AMP-dependent synthetase/ligase O...  80.9    4e-17
+SP:4CLL3_ARATH  Q3E6Y4 4-coumarate--CoA ligase-like 3 OS=Arabidop...  80.9    4e-17
+TR:A0A151RB04_CAJCA  A0A151RB04 4-coumarate--CoA ligase-like 9 OS...  80.9    4e-17
+TR:A0A1J3FYM7_NOCCA  A0A1J3FYM7 4-coumarate--CoA ligase-like 2 (F...  80.9    4e-17
+TR:A0A2J6JGA6_LACSA  A0A2J6JGA6 Uncharacterized protein OS=Lactuc...  80.9    4e-17
+TR:K4BDT3_SOLLC  K4BDT3 Uncharacterized protein OS=Solanum lycope...  80.9    4e-17
+TR:A0A0C9RTR5_9SPER  A0A0C9RTR5 TSA: Wollemia nobilis Ref_Wollemi...  76.6    5e-17
+TR:G7I2P5_MEDTR  G7I2P5 4-coumarate:CoA ligase-like protein OS=Me...  80.5    5e-17
+SP:4CLL4_ARATH  P0C5B6 4-coumarate--CoA ligase-like 4 OS=Arabidop...  80.5    5e-17
+TR:F6GST0_VITVI  F6GST0 Uncharacterized protein OS=Vitis vinifera...  80.5    5e-17
+TR:A0A178WF84_ARATH  A0A178WF84 Uncharacterized protein OS=Arabid...  80.5    5e-17
+TR:A0A0E3JHZ7_TAXBA  A0A0E3JHZ7 Phenylalanoyl CoA ligase OS=Taxus...  80.5    5e-17
+TR:A0A2P4J5G3_QUESU  A0A2P4J5G3 4-coumarate--coa ligase-like 9 OS...  80.5    5e-17
+TR:A0A2P4J5J3_QUESU  A0A2P4J5J3 4-coumarate--coa ligase-like 9 OS...  80.5    5e-17
+TR:A0A2H3ZJF1_PHODC  A0A2H3ZJF1 4-coumarate--CoA ligase-like 4 OS...  79.7    7e-17
+TR:A0A2I4E5U5_9ROSI  A0A2I4E5U5 4-coumarate--CoA ligase-like 9 OS...  80.1    7e-17
+TR:A9RIX8_PHYPA  A9RIX8 Predicted protein OS=Physcomitrella paten...  80.1    7e-17
+TR:A0A087HPW1_ARAAL  A0A087HPW1 Uncharacterized protein OS=Arabis...  80.1    7e-17
+TR:A0A1U9WSG1_9ASTR  A0A1U9WSG1 4-coumarate:coenzyme A ligase 1 O...  80.1    7e-17
+TR:A0A0S3T8H8_PHAAN  A0A0S3T8H8 Uncharacterized protein OS=Vigna ...  80.1    7e-17
+TR:A0A2J6JT11_LACSA  A0A2J6JT11 Uncharacterized protein OS=Lactuc...  80.1    7e-17
+TR:A0A2U1LPP2_ARTAN  A0A2U1LPP2 4-coumarate--CoA ligase 2 OS=Arte...  80.1    7e-17
+TR:A0A2U1KDL0_ARTAN  A0A2U1KDL0 4-coumarate--CoA ligase 2 OS=Arte...  80.1    7e-17
+TR:A0A1J7HEX8_LUPAN  A0A1J7HEX8 Uncharacterized protein OS=Lupinu...  80.1    7e-17
+TR:A0A087HPW5_ARAAL  A0A087HPW5 Uncharacterized protein OS=Arabis...  80.1    7e-17
+TR:A0A2P2J0Q9_RHIMU  A0A2P2J0Q9 AMP dependent CoA ligase OS=Rhizo...  80.1    7e-17
+TR:M5XCK9_PRUPE  M5XCK9 Uncharacterized protein OS=Prunus persica...  80.1    7e-17
+TR:A0A2I4HEQ6_9ROSI  A0A2I4HEQ6 4-coumarate--CoA ligase 1-like OS...  74.7    1e-16
+TR:A0A0D2T8S9_GOSRA  A0A0D2T8S9 Uncharacterized protein OS=Gossyp...  79.7    1e-16
+TR:Q2YHM7_PLAMJ  Q2YHM7 4-coumaryl-CoA ligase (Fragment) OS=Plant...  75.1    1e-16
+TR:D5ABX8_PICSI  D5ABX8 Uncharacterized protein OS=Picea sitchens...  79.3    1e-16
+TR:M0TQ26_MUSAM  M0TQ26 Uncharacterized protein OS=Musa acuminata...  79.7    1e-16
+TR:A0A0D2SDZ7_GOSRA  A0A0D2SDZ7 Uncharacterized protein OS=Gossyp...  79.7    1e-16
+TR:A0A1U8KWX8_GOSHI  A0A1U8KWX8 4-coumarate--CoA ligase-like 9 OS...  79.7    1e-16
+TR:A0A0D2QLC2_GOSRA  A0A0D2QLC2 Uncharacterized protein OS=Gossyp...  79.7    1e-16
+TR:D7MK44_ARALL  D7MK44 Uncharacterized protein OS=Arabidopsis ly...  79.7    1e-16
+TR:M4D6X2_BRARP  M4D6X2 Uncharacterized protein OS=Brassica rapa ...  79.7    1e-16
+TR:A0A2P5W9H3_GOSBA  A0A2P5W9H3 Uncharacterized protein OS=Gossyp...  79.7    1e-16
+TR:A0A0D2P2U8_GOSRA  A0A0D2P2U8 Uncharacterized protein OS=Gossyp...  79.7    1e-16
+TR:A0A1U8L611_GOSHI  A0A1U8L611 4-coumarate--CoA ligase-like 9 OS...  79.7    1e-16
+TR:A0A0B0NWN1_GOSAR  A0A0B0NWN1 4-coumarate--CoA ligase-like 9 OS...  79.7    1e-16
+TR:A0A2H3XRI0_PHODC  A0A2H3XRI0 4-coumarate--CoA ligase-like 5 is...  79.7    1e-16
+TR:A0A1L2ILR0_9ROSA  A0A1L2ILR0 Loquat lignin related protein 4CL...  79.7    1e-16
+TR:M4DIY7_BRARP  M4DIY7 Uncharacterized protein OS=Brassica rapa ...  79.7    1e-16
+TR:A0A151TDX8_CAJCA  A0A151TDX8 4-coumarate--CoA ligase-like 5 OS...  79.7    1e-16
+TR:A0A1J3GLF8_NOCCA  A0A1J3GLF8 4-coumarate--CoA ligase-like 2 (F...  79.7    1e-16
+TR:A0A1J3D378_NOCCA  A0A1J3D378 4-coumarate--CoA ligase-like 2 (F...  79.7    1e-16
+TR:W9S0A7_9ROSA  W9S0A7 4-coumarate--CoA ligase 1 OS=Morus notabi...  79.7    1e-16
+TR:A0A0D3D7T5_BRAOL  A0A0D3D7T5 Uncharacterized protein OS=Brassi...  79.7    1e-16
+TR:A0A2R6P3V6_ACTCH  A0A2R6P3V6 4-coumarate--CoA ligase-like OS=A...  76.6    1e-16
+TR:A0A059CXI7_EUCGR  A0A059CXI7 Uncharacterized protein OS=Eucaly...  79.3    1e-16
+TR:A0A1S3UXM7_VIGRR  A0A1S3UXM7 4-coumarate--CoA ligase-like 9 OS...  79.3    1e-16
+TR:A0A2P5W955_GOSBA  A0A2P5W955 Uncharacterized protein OS=Gossyp...  79.3    1e-16
+TR:A0A1S2Z5Z2_CICAR  A0A1S2Z5Z2 4-coumarate--CoA ligase-like 9 OS...  79.3    1e-16
+TR:V4KXF3_EUTSA  V4KXF3 Uncharacterized protein OS=Eutrema salsug...  79.3    1e-16
+TR:A0A0D2SAC5_GOSRA  A0A0D2SAC5 Uncharacterized protein OS=Gossyp...  79.3    1e-16
+TR:A0A1U8LZI8_GOSHI  A0A1U8LZI8 4-coumarate--CoA ligase-like 9 OS...  79.3    1e-16
+TR:V4KAP1_EUTSA  V4KAP1 Uncharacterized protein OS=Eutrema salsug...  79.3    1e-16
+TR:A0A2I4ETH4_9ROSI  A0A2I4ETH4 4-coumarate--CoA ligase-like 9 OS...  79.3    1e-16
+TR:A0A2H3XR26_PHODC  A0A2H3XR26 4-coumarate--CoA ligase-like 5 OS...  79.3    1e-16
+TR:A0A2P6P531_ROSCH  A0A2P6P531 Putative AMP-dependent synthetase...  79.0    1e-16
+TR:A0A2G2XB38_CAPBA  A0A2G2XB38 4-coumarate--CoA ligase-like 4 OS...  75.9    2e-16
+TR:A0A2K1X2N5_POPTR  A0A2K1X2N5 Uncharacterized protein (Fragment...  76.6    2e-16
+TR:A0A0V0HJ56_SOLCH  A0A0V0HJ56 Putative ovule protein OS=Solanum...  76.6    2e-16
+TR:A0A0B4KIC1_9ROSA  A0A0B4KIC1 4-coumarate-CoA ligase (Fragment)...  74.7    2e-16
+TR:A0A1R3ISC9_9ROSI  A0A1R3ISC9 AMP-dependent synthetase/ligase O...  79.0    2e-16
+TR:A0A1P8BFF5_ARATH  A0A1P8BFF5 AMP-dependent synthetase and liga...  79.0    2e-16
+TR:L7Z9J1_LONJA  L7Z9J1 4-coumarate CoA ligase OS=Lonicera japoni...  79.0    2e-16
+TR:A0A022RRD0_ERYGU  A0A022RRD0 Uncharacterized protein OS=Erythr...  79.0    2e-16
+TR:M4DIY9_BRARP  M4DIY9 Uncharacterized protein OS=Brassica rapa ...  79.0    2e-16
+TR:A0A0A0LTS5_CUCSA  A0A0A0LTS5 Uncharacterized protein OS=Cucumi...  79.0    2e-16
+TR:A0A1S4DV63_CUCME  A0A1S4DV63 4-coumarate--CoA ligase-like 9 OS...  79.0    2e-16
+TR:A0A2P4J5H0_QUESU  A0A2P4J5H0 4-coumarate--coa ligase-like 9 OS...  79.0    2e-16
+TR:M4EAL4_BRARP  M4EAL4 Uncharacterized protein OS=Brassica rapa ...  79.0    2e-16
+TR:D7KJ23_ARALL  D7KJ23 F5M15.18 OS=Arabidopsis lyrata subsp. lyr...  79.0    2e-16
+TR:A0A0B2PY27_GLYSO  A0A0B2PY27 4-coumarate--CoA ligase-like 5 OS...  76.6    2e-16
+TR:A0A1U8K4T3_GOSHI  A0A1U8K4T3 4-coumarate--CoA ligase-like 9 is...  78.6    2e-16
+TR:A0A2P5RMK5_GOSBA  A0A2P5RMK5 Uncharacterized protein OS=Gossyp...  78.6    3e-16
+TR:A0A0D2UDX2_GOSRA  A0A0D2UDX2 Uncharacterized protein OS=Gossyp...  78.6    3e-16
+TR:A0A1U8JJA3_GOSHI  A0A1U8JJA3 4-coumarate--CoA ligase 2-like OS...  78.6    3e-16
+TR:A0A0B0MBN2_GOSAR  A0A0B0MBN2 4-coumarate--CoA ligase 1 OS=Goss...  78.6    3e-16
+TR:A0A061EDN5_THECC  A0A061EDN5 AMP-dependent synthetase and liga...  78.6    3e-16
+TR:A0A061EKB5_THECC  A0A061EKB5 AMP-dependent synthetase and liga...  78.6    3e-16
+TR:A0A061ECS1_THECC  A0A061ECS1 AMP-dependent synthetase and liga...  78.6    3e-16
+TR:A0A1U8K3R1_GOSHI  A0A1U8K3R1 4-coumarate--CoA ligase-like 9 is...  78.6    3e-16
+TR:A0A061FDV0_THECC  A0A061FDV0 OPC-8:0 CoA ligase1 OS=Theobroma ...  78.6    3e-16
+TR:M4IQR7_HUMLU  M4IQR7 CCL5 OS=Humulus lupulus OX=3486 PE=2 SV=1     78.6    3e-16
+TR:A0A0A0LR49_CUCSA  A0A0A0LR49 Uncharacterized protein OS=Cucumi...  78.6    3e-16
+TR:A0A0D3DQK5_BRAOL  A0A0D3DQK5 Uncharacterized protein OS=Brassi...  78.6    3e-16
+TR:A0A2P5WDN2_GOSBA  A0A2P5WDN2 Uncharacterized protein OS=Gossyp...  78.6    3e-16
+TR:E5GBV5_CUCME  E5GBV5 4-coumarate-CoA ligase OS=Cucumis melo su...  78.6    3e-16
+TR:A0A2I4HEV7_9ROSI  A0A2I4HEV7 4-coumarate--CoA ligase 1-like OS...  74.7    3e-16
+TR:A0A1D1ZFY0_9ARAE  A0A1D1ZFY0 4-coumarate--CoA ligase-like 7 (F...  75.5    3e-16
+TR:A0A2G9HB11_9LAMI  A0A2G9HB11 4-coumarate--CoA ligase OS=Handro...  75.9    3e-16
+TR:A0A1Q3DKC0_CEPFO  A0A1Q3DKC0 AMP-binding domain-containing pro...  78.2    3e-16
+TR:A0A2K1X2N7_POPTR  A0A2K1X2N7 Uncharacterized protein OS=Populu...  76.6    3e-16
+TR:A0A1Q3DK65_CEPFO  A0A1Q3DK65 AMP-binding domain-containing pro...  78.2    3e-16
+TR:A0A2G3CJK3_CAPCH  A0A2G3CJK3 Uncharacterized protein OS=Capsic...  78.2    3e-16
+TR:A0A072VLZ4_MEDTR  A0A072VLZ4 4-coumarate:CoA ligase-like prote...  78.2    3e-16
+TR:I3ZR68_CYNCS  I3ZR68 4-coumarate: coenzyme A ligase OS=Cynara ...  78.2    3e-16
+TR:A0A251UTF5_HELAN  A0A251UTF5 Putative 4-coumarate--CoA ligase ...  78.2    3e-16
+TR:A0A2N9G907_FAGSY  A0A2N9G907 Uncharacterized protein OS=Fagus ...  78.2    3e-16
+TR:A0A0D4C3L0_9MARC  A0A0D4C3L0 4-coumarate: coenzyme A ligase OS...  78.2    3e-16
+TR:A0A2H3X3M3_PHODC  A0A2H3X3M3 LOW QUALITY PROTEIN: 4-coumarate-...  78.2    3e-16
+TR:U3NDJ6_SALMI  U3NDJ6 4-coumarate:coenzyme A ligase 4 OS=Salvia...  78.2    3e-16
+TR:M5WAE4_PRUPE  M5WAE4 Uncharacterized protein OS=Prunus persica...  78.2    3e-16
+TR:A0A166DQQ7_DAUCA  A0A166DQQ7 Uncharacterized protein OS=Daucus...  78.2    3e-16
+TR:A0A2H3ZP18_PHODC  A0A2H3ZP18 4-coumarate--CoA ligase-like 5 is...  78.2    3e-16
+TR:A0A067EBX9_CITSI  A0A067EBX9 Uncharacterized protein OS=Citrus...  77.8    5e-16
+TR:A0A0R0FB43_SOYBN  A0A0R0FB43 Uncharacterized protein OS=Glycin...  72.8    5e-16
+TR:A0A1S3X4Z3_TOBAC  A0A1S3X4Z3 4-coumarate--CoA ligase-like 9 OS...  77.8    5e-16
+TR:A0A2U1QMR9_ARTAN  A0A2U1QMR9 4-coumarate--CoA ligase 2 OS=Arte...  77.8    5e-16
+TR:A0A1S4C700_TOBAC  A0A1S4C700 4-coumarate--CoA ligase-like 9 OS...  77.8    5e-16
+TR:A0A2R6QG67_ACTCH  A0A2R6QG67 4-coumarate--CoA ligase OS=Actini...  77.8    5e-16
+TR:A0A2R6PE01_ACTCH  A0A2R6PE01 4-coumarate--CoA ligase OS=Actini...  77.8    5e-16
+TR:A0A068F498_9ROSA  A0A068F498 4-coumarate coenzyme A ligase 5 O...  77.8    5e-16
+TR:A0A0D3CBS4_BRAOL  A0A0D3CBS4 Uncharacterized protein OS=Brassi...  77.8    5e-16
+TR:R0IEY1_9BRAS  R0IEY1 Uncharacterized protein OS=Capsella rubel...  77.8    5e-16
+TR:A0A1E5VVX5_9POAL  A0A1E5VVX5 4-coumarate--CoA ligase-like 4 OS...  77.8    5e-16
+TR:M5XYE1_PRUPE  M5XYE1 Uncharacterized protein OS=Prunus persica...  77.8    5e-16
+TR:R0GVV6_9BRAS  R0GVV6 Uncharacterized protein OS=Capsella rubel...  77.8    5e-16
+TR:A0A087HPW2_ARAAL  A0A087HPW2 Uncharacterized protein OS=Arabis...  77.8    5e-16
+TR:A0A1S4DUE1_CUCME  A0A1S4DUE1 4-coumarate--CoA ligase-like 9 is...  77.8    5e-16
+TR:A0A1U7W779_NICSY  A0A1U7W779 4-coumarate--CoA ligase-like 5 OS...  77.8    5e-16
+TR:A0A1S4BUY6_TOBAC  A0A1S4BUY6 4-coumarate--CoA ligase-like 5 OS...  77.8    5e-16
+TR:A0A251R2A1_PRUPE  A0A251R2A1 Uncharacterized protein OS=Prunus...  77.8    5e-16
+TR:A0A0D3DQL0_BRAOL  A0A0D3DQL0 Uncharacterized protein OS=Brassi...  77.4    5e-16
+TR:A0A251TF25_HELAN  A0A251TF25 Putative AMP-dependent synthetase...  73.9    5e-16
+TR:A0A0E0K8D7_ORYPU  A0A0E0K8D7 Uncharacterized protein OS=Oryza ...  76.3    6e-16
+TR:S8DT76_9LAMI  S8DT76 Acyl:coa ligase (Fragment) OS=Genlisea au...  77.4    6e-16
+TR:A0A078GWK7_BRANA  A0A078GWK7 BnaA06g14430D protein OS=Brassica...  77.4    6e-16
+TR:M4D6X3_BRARP  M4D6X3 Uncharacterized protein OS=Brassica rapa ...  77.4    6e-16
+TR:M4EAL3_BRARP  M4EAL3 Uncharacterized protein OS=Brassica rapa ...  77.4    6e-16
+TR:D8SRG0_SELML  D8SRG0 Uncharacterized protein OS=Selaginella mo...  77.4    6e-16
+TR:D8SND9_SELML  D8SND9 Uncharacterized protein OS=Selaginella mo...  77.4    6e-16
+TR:A0A2R6PZD6_ACTCH  A0A2R6PZD6 4-coumarate--CoA ligase-like OS=A...  77.4    6e-16
+TR:A0A078H6Z7_BRANA  A0A078H6Z7 BnaC08g19310D protein OS=Brassica...  77.4    6e-16
+TR:V4L4Q7_EUTSA  V4L4Q7 Uncharacterized protein OS=Eutrema salsug...  77.4    6e-16
+TR:A0A165Y0H9_DAUCA  A0A165Y0H9 Uncharacterized protein OS=Daucus...  77.4    6e-16
+TR:A0A2K1ZAV5_POPTR  A0A2K1ZAV5 Uncharacterized protein OS=Populu...  77.4    6e-16
+TR:A0A078H821_BRANA  A0A078H821 BnaC08g19270D protein OS=Brassica...  77.4    6e-16
+TR:A0A1L6K510_POPTO  A0A1L6K510 4-coumarate--CoA ligase family pr...  77.4    6e-16
+TR:U5FXN6_POPTR  U5FXN6 Uncharacterized protein OS=Populus tricho...  77.4    6e-16
+TR:A0A059CYC0_EUCGR  A0A059CYC0 Uncharacterized protein OS=Eucaly...  77.4    6e-16
+SP:4CLL2_ARATH  Q84P25 4-coumarate--CoA ligase-like 2 OS=Arabidop...  77.4    6e-16
+TR:A0A178W891_ARATH  A0A178W891 Uncharacterized protein OS=Arabid...  77.4    6e-16
+TR:W1NKP7_AMBTC  W1NKP7 Uncharacterized protein OS=Amborella tric...  77.4    7e-16
+TR:A0A059CY82_EUCGR  A0A059CY82 Uncharacterized protein OS=Eucaly...  77.0    7e-16
+TR:A0A059BGC8_EUCGR  A0A059BGC8 Uncharacterized protein OS=Eucaly...  77.0    7e-16
+TR:A0A078H1V5_BRANA  A0A078H1V5 BnaC05g15810D protein OS=Brassica...  77.0    9e-16
+TR:A0A2K1YBD0_POPTR  A0A2K1YBD0 Uncharacterized protein OS=Populu...  77.0    9e-16
+TR:A0A2J6JRG3_LACSA  A0A2J6JRG3 Uncharacterized protein OS=Lactuc...  77.0    9e-16
+TR:A0A2I0XEV5_9ASPA  A0A2I0XEV5 4-coumarate--CoA ligase-like 9 OS...  77.0    9e-16
+TR:A0A0D3D7T3_BRAOL  A0A0D3D7T3 Uncharacterized protein OS=Brassi...  77.0    9e-16
+TR:A0A2G5EM04_AQUCA  A0A2G5EM04 Uncharacterized protein OS=Aquile...  77.0    9e-16
+TR:A0A2G5E6B5_AQUCA  A0A2G5E6B5 Uncharacterized protein OS=Aquile...  77.0    9e-16
+TR:A0A2G2WLC9_CAPBA  A0A2G2WLC9 4-coumarate--CoA ligase 1 OS=Caps...  77.0    9e-16
+TR:A0A061E905_THECC  A0A061E905 AMP dependent CoA ligase, putativ...  77.0    9e-16
+TR:A0A2G2XZP2_CAPAN  A0A2G2XZP2 4-coumarate--CoA ligase 1 OS=Caps...  77.0    9e-16
+TR:A0A2G3C983_CAPCH  A0A2G3C983 4-coumarate--CoA ligase 1 OS=Caps...  77.0    9e-16
+TR:V4KTX3_EUTSA  V4KTX3 Uncharacterized protein OS=Eutrema salsug...  77.0    9e-16
+TR:A0A1L2ILF8_9ROSA  A0A1L2ILF8 Loquat lignin related protein 4CL...  77.0    9e-16
+TR:A0A1L2ILE3_9ROSA  A0A1L2ILE3 Loquat lignin related protein 4CL...  77.0    9e-16
+
+
+>TR:A0A2T8I6C6_9POAL A0A2T8I6C6 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G601400 PE=4 SV=1
+Length=562
+
+ Score = 119 bits (297),  Expect = 1e-30
+ Identities = 65/86 (76%), Positives = 69/86 (80%), Gaps = 3/86 (3%)
+
+Query  2    NLIFFLLEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQK  61
+            N   F  +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQK
+Sbjct  460  NFCLFYWQIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQK  519
+
+Query  62   FIEKQVSL---CRNLGLIVSVGKSNS  84
+            FIE QV+     R +  + SV KS S
+Sbjct  520  FIENQVAYYKRLRRVSFVDSVPKSAS  545
+
+
+>TR:A0A0A9P8A6_ARUDO A0A0A9P8A6 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=325
+
+ Score = 114 bits (286),  Expect = 3e-30
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  230  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPESSLTEVDVQKFIEKQVA  289
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  290  YYKRLKRVTFVDSVPKSAS  308
+
+
+>TR:A0A2S3IU78_9POAL A0A2S3IU78 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G601300 PE=4 SV=1
+Length=553
+
+ Score = 117 bits (292),  Expect = 5e-30
+ Identities = 64/79 (81%), Positives = 68/79 (86%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVTFVDSVPKSAS  536
+
+
+>TR:A0A2T7CHL3_9POAL A0A2T7CHL3 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G610900 PE=4 SV=1
+Length=553
+
+ Score = 117 bits (292),  Expect = 5e-30
+ Identities = 64/79 (81%), Positives = 68/79 (86%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVTFVDSVPKSAS  536
+
+
+>TR:A0A1B6QQG1_SORBI A0A1B6QQG1 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G500800 PE=4 SV=1
+Length=553
+
+ Score = 117 bits (292),  Expect = 5e-30
+ Identities = 64/79 (81%), Positives = 68/79 (86%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKKLRRVTFVDSVPKSAS  536
+
+
+>TR:A0A0D3FDX8_9ORYZ A0A0D3FDX8 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=358
+
+ Score = 114 bits (286),  Expect = 5e-30
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  252  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  311
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  312  YYKRLKRVTFVG  323
+
+
+>TR:A0A287PLF2_HORVV A0A287PLF2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=204
+
+ Score = 110 bits (275),  Expect = 1e-29
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  109  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  168
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  169  YYKRLRRVTFV  179
+
+
+>TR:A0A1D6Q0V8_MAIZE A0A1D6Q0V8 Uncharacterized protein OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d050295 
+PE=4 SV=1
+Length=206
+
+ Score = 110 bits (275),  Expect = 1e-29
+ Identities = 55/61 (90%), Positives = 59/61 (97%), Gaps = 0/61 (0%)
+
+Query  10  IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+           IAPAE+EGLLLSHPEILDA+VIP P+AEAGEVPIAYVVRSP SSLT+VDVQKFIEKQVSL
+Sbjct  18  IAPAEVEGLLLSHPEILDAIVIPLPNAEAGEVPIAYVVRSPDSSLTKVDVQKFIEKQVSL  77
+
+Query  70  C  70
+           C
+Sbjct  78  C  78
+
+
+>TR:A0A0A9N003_ARUDO A0A0A9N003 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=325
+
+ Score = 113 bits (282),  Expect = 1e-29
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPI YVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  230  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIGYVVRSPESSLTEVDVQKFIEKQVA  289
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  290  YYKRLKRVTFVDSVPKSAS  308
+
+
+>TR:A0A287PLL8_HORVV A0A287PLL8 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=212
+
+ Score = 110 bits (275),  Expect = 1e-29
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  117  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  176
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  177  YYKRLRRVTFV  187
+
+
+>TR:A0A2T8I6E1_9POAL A0A2T8I6E1 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G601400 PE=4 SV=1
+Length=553
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIE QV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIENQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVSFVDSVPKSAS  536
+
+
+>TR:A0A2T7CHH3_9POAL A0A2T7CHH3 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G611000 PE=4 SV=1
+Length=553
+
+ Score = 115 bits (289),  Expect = 1e-29
+ Identities = 63/79 (80%), Positives = 67/79 (85%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIE QV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIENQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVSFVDSVPKSAS  536
+
+
+>TR:A0A287PLA7_HORVV A0A287PLA7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=228
+
+ Score = 110 bits (275),  Expect = 2e-29
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  133  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  192
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  193  YYKRLRRVTFV  203
+
+
+>TR:K4A827_SETIT K4A827 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781746 
+PE=4 SV=1
+Length=546
+
+ Score = 115 bits (288),  Expect = 2e-29
+ Identities = 63/79 (80%), Positives = 68/79 (86%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSPVSSLTEVDVQKFIEKQV+
+Sbjct  451  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVA  510
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  511  YYKKLKRVTFVDSVPKSAS  529
+
+
+>TR:A0A0E0K8W5_ORYPU A0A0E0K8W5 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=512
+
+ Score = 114 bits (286),  Expect = 3e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  417  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  476
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  477  YYKRLKRVTFVG  488
+
+
+>SP:4CLL1_ORYSJ Q0DV32 4-coumarate--CoA ligase-like 1 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=4CLL1 PE=2 SV=2
+Length=552
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  457  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  516
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  517  YYKRLKRVTFVG  528
+
+
+>TR:A0A0E0NPT2_ORYRU A0A0E0NPT2 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=552
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  457  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  516
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  517  YYKRLKRVTFVG  528
+
+
+>TR:I1P7N6_ORYGL I1P7N6 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=553
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  517
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  518  YYKRLKRVTFVG  529
+
+
+>TR:A0A0E0GGX7_ORYNI A0A0E0GGX7 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=583
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  488  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  547
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  548  YYKRLKRVTFVG  559
+
+
+>TR:A0A0D9Z268_9ORYZ A0A0D9Z268 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=583
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  488  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  547
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  548  YYKRLKRVTFVG  559
+
+
+>TR:B8AND5_ORYSI B8AND5 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_10054 PE=4 SV=1
+Length=587
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  492  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  551
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  552  YYKRLKRVTFVG  563
+
+
+>TR:B9FB36_ORYSJ B9FB36 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_09444 PE=4 SV=1
+Length=598
+
+ Score = 114 bits (286),  Expect = 4e-29
+ Identities = 59/72 (82%), Positives = 64/72 (89%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  492  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  551
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  552  YYKRLKRVTFVG  563
+
+
+>TR:B4FAE3_MAIZE B4FAE3 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=350
+
+ Score = 111 bits (278),  Expect = 7e-29
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQKFIEKQV+
+Sbjct  255  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSESSLTEVDVQKFIEKQVA  314
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  315  YYKKLRRVTFVDSVPKSAS  333
+
+
+>TR:B4FDF0_MAIZE B4FDF0 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=2
+Length=408
+
+ Score = 111 bits (278),  Expect = 2e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQKFIEKQV+
+Sbjct  313  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSESSLTEVDVQKFIEKQVA  372
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  373  YYKKLRRVTFVDSVPKSAS  391
+
+
+>TR:M7ZH64_TRIUA M7ZH64 4-coumarate--CoA ligase-like 1 OS=Triticum urartu OX=4572 
+GN=TRIUR3_14392 PE=4 SV=1
+Length=326
+
+ Score = 110 bits (274),  Expect = 2e-28
+ Identities = 60/77 (78%), Positives = 64/77 (83%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  231  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  290
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  291  HYKRLRRVTFVESVPKS  307
+
+
+>TR:I1H9M3_BRADI I1H9M3 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100845934 PE=4 SV=1
+Length=545
+
+ Score = 112 bits (279),  Expect = 3e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTEVDVQKFIE QV+
+Sbjct  450  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPDSSLTEVDVQKFIETQVT  509
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     + SV KS S
+Sbjct  510  YYKRLKRVTFVSSVPKSAS  528
+
+
+>TR:F2D0T4_HORVV F2D0T4 Predicted protein (Fragment) OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=2 SV=1
+Length=574
+
+ Score = 112 bits (279),  Expect = 4e-28
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  479  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  538
+
+Query  69   L---CRNLGLIVSVGKS  82
+                 R + L+ SV KS
+Sbjct  539  YYKRLRRVTLVESVPKS  555
+
+
+>TR:B6SV48_MAIZE B6SV48 4-coumarate--CoA ligase 2 OS=Zea mays OX=4577 PE=2 SV=1
+Length=520
+
+ Score = 111 bits (278),  Expect = 4e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQKFIEKQV+
+Sbjct  425  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSESSLTEVDVQKFIEKQVA  484
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  485  YYKKLRRVTFVDSVPKSAS  503
+
+
+>TR:A0A1D6JNY6_MAIZE A0A1D6JNY6 4-coumarate--CoA ligase-like 7 OS=Zea mays OX=4577 
+GN=100191850 PE=4 SV=1
+Length=536
+
+ Score = 111 bits (278),  Expect = 4e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQKFIEKQV+
+Sbjct  441  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSESSLTEVDVQKFIEKQVA  500
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  501  YYKKLRRVTFVDSVPKSAS  519
+
+
+>TR:K4A825_SETIT K4A825 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781746 
+PE=4 SV=1
+Length=546
+
+ Score = 111 bits (278),  Expect = 5e-28
+ Identities = 56/58 (97%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  66
+            +IAPAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSPVSSLTEVDVQKFIEKQ
+Sbjct  451  QIAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  508
+
+
+>TR:A0A096S078_MAIZE A0A096S078 4-coumarate--CoA ligase-like 7 OS=Zea mays OX=4577 
+GN=100191850 PE=4 SV=1
+Length=555
+
+ Score = 111 bits (278),  Expect = 5e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQKFIEKQV+
+Sbjct  460  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSESSLTEVDVQKFIEKQVA  519
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  520  YYKKLRRVTFVDSVPKSAS  538
+
+
+>TR:J3LK37_ORYBR J3LK37 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102712977 
+PE=4 SV=1
+Length=501
+
+ Score = 111 bits (277),  Expect = 5e-28
+ Identities = 58/71 (82%), Positives = 63/71 (89%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIPFPDAEAGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  406  QIAPAELEGLLLSHSEILDAVVIPFPDAEAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  465
+
+Query  69   LCRNLGLIVSV  79
+              + L  ++ V
+Sbjct  466  YYKRLKRVMFV  476
+
+
+>TR:A0A287PLM2_HORVV A0A287PLM2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=469
+
+ Score = 110 bits (275),  Expect = 8e-28
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  374  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  433
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  434  YYKRLRRVTFV  444
+
+
+>TR:A0A0D9VPN8_9ORYZ A0A0D9VPN8 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=551
+
+ Score = 110 bits (276),  Expect = 9e-28
+ Identities = 62/79 (78%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIPFPDAEAGEVPIAYVVRSP SSLTEVDVQKFIEKQV+
+Sbjct  456  QIAPAELEGLLLSHREILDAVVIPFPDAEAGEVPIAYVVRSPDSSLTEVDVQKFIEKQVA  515
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  516  YYKRLKRVTFVDSVPKSAS  534
+
+
+>TR:A0A287PMG3_HORVV A0A287PMG3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=557
+
+ Score = 110 bits (275),  Expect = 1e-27
+ Identities = 57/71 (80%), Positives = 61/71 (86%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  462  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  521
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  522  YYKRLRRVTFV  532
+
+
+>TR:A0A1D5XC27_WHEAT A0A1D5XC27 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=549
+
+ Score = 110 bits (274),  Expect = 2e-27
+ Identities = 60/77 (78%), Positives = 64/77 (83%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLTEVDVQKFI KQV+
+Sbjct  454  QIAPAELEGLLLSHPEILDAVVIPFPDDEAGEVPIAYVVRSPASSLTEVDVQKFIAKQVT  513
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  514  HYKRLRRVTFVESVPKS  530
+
+
+>TR:A0A2T8I4V0_9POAL A0A2T8I4V0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G463000 PE=4 SV=1
+Length=549
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 60/79 (76%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  454  QIAPAELEGLLLSHPEILDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEVDVQKFIEKQVT  513
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  514  YYKRLRKVTFVDSVPKSAS  532
+
+
+>TR:A0A2T8I4V5_9POAL A0A2T8I4V5 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G463000 PE=4 SV=1
+Length=550
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 60/79 (76%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  455  QIAPAELEGLLLSHPEILDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEVDVQKFIEKQVT  514
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  515  YYKRLRKVTFVDSVPKSAS  533
+
+
+>TR:B8A1Y1_MAIZE B8A1Y1 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=325
+
+ Score = 107 bits (266),  Expect = 3e-27
+ Identities = 55/72 (76%), Positives = 60/72 (83%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDA VIP+PDAEAGEVPIAYVV SP SSL E DVQKFIEKQV+
+Sbjct  230  QIAPAELEGLLLSHPEILDAAVIPYPDAEAGEVPIAYVVLSPKSSLAEADVQKFIEKQVA  289
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  290  HYKRLRKVTFVG  301
+
+
+>TR:A0A0A9GJ43_ARUDO A0A0A9GJ43 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=272
+
+ Score = 105 bits (263),  Expect = 3e-27
+ Identities = 54/64 (84%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPDAEAGEVPIAYVVRS  SSLTEVDVQ FIEKQ  
+Sbjct  209  QVAPAELEGLLMSHMEILDAVVIPFPDAEAGEVPIAYVVRSLKSSLTEVDVQNFIEKQAR  268
+
+Query  69   LCRN  72
+            L RN
+Sbjct  269  LARN  272
+
+
+>TR:A0A2T7C4B0_9POAL A0A2T7C4B0 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G176400 PE=4 SV=1
+Length=549
+
+ Score = 108 bits (271),  Expect = 4e-27
+ Identities = 59/79 (75%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGL+LSHPEILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  454  QIAPAELEGLILSHPEILDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEVDVQKFIEKQVT  513
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  514  YYKRLRKVTFVDSVPKSAS  532
+
+
+>TR:A0A2T7C4A7_9POAL A0A2T7C4A7 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G176400 PE=4 SV=1
+Length=550
+
+ Score = 108 bits (271),  Expect = 4e-27
+ Identities = 59/79 (75%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGL+LSHPEILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  455  QIAPAELEGLILSHPEILDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEVDVQKFIEKQVT  514
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  515  YYKRLRKVTFVDSVPKSAS  533
+
+
+>TR:A0A2H5Q500_CITUN A0A2H5Q500 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_196680 PE=4 SV=1
+Length=545
+
+ Score = 108 bits (269),  Expect = 8e-27
+ Identities = 60/79 (76%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  451  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFINSVPKSAS  529
+
+
+>TR:V4SG03_9ROSI V4SG03 Uncharacterized protein OS=Citrus clementina OX=85681 
+GN=CICLE_v10028138mg PE=4 SV=1
+Length=545
+
+ Score = 108 bits (269),  Expect = 8e-27
+ Identities = 60/79 (76%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  451  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFINSVPKSAS  529
+
+
+>TR:A0A061GYC8_THECC A0A061GYC8 AMP-dependent synthetase and ligase family protein 
+isoform 1 OS=Theobroma cacao OX=3641 GN=TCM_042143 PE=4 SV=1
+Length=545
+
+ Score = 107 bits (268),  Expect = 1e-26
+ Identities = 58/79 (73%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTEVDVQ FI KQV+
+Sbjct  451  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPSSSLTEVDVQNFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFISSVPKSAS  529
+
+
+>TR:A0A270R4W3_9POAL A0A270R4W3 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_J01133 PE=4 SV=1
+Length=538
+
+ Score = 107 bits (267),  Expect = 1e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  443  QIAPAELEGLLLSHAEILDAVVIPYPDLEAGEVPIAYVVRSPKSSLSEVDVQKFIEKQVT  502
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  503  YYKRLRKVTFVESVPKSAS  521
+
+
+>TR:A0A2T8I4V4_9POAL A0A2T8I4V4 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G462900 PE=4 SV=1
+Length=544
+
+ Score = 107 bits (267),  Expect = 1e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  449  QIAPAELEGLLLSHAEILDAVVIPYPDLEAGEVPIAYVVRSPKSSLSEVDVQKFIEKQVT  508
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  YYKRLRKVTFVESVPKSAS  527
+
+
+>TR:A0A2T7C4B2_9POAL A0A2T7C4B2 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G176500 PE=4 SV=1
+Length=544
+
+ Score = 107 bits (267),  Expect = 1e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  449  QIAPAELEGLLLSHAEILDAVVIPYPDLEAGEVPIAYVVRSPKSSLSEVDVQKFIEKQVT  508
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  YYKRLRKVTFVESVPKSAS  527
+
+
+>TR:A0A067D233_CITSI A0A067D233 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g043808mg PE=4 SV=1
+Length=206
+
+ Score = 102 bits (254),  Expect = 2e-26
+ Identities = 54/79 (68%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEG+L+SHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLT+ DVQKF+ KQV+
+Sbjct  112  QVAPAELEGVLVSHPEILDAVVIPFPDPEAGEVPIAYVVRSPNSSLTKEDVQKFVVKQVA  171
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 RN+    S+ K+ S
+Sbjct  172  RYKRLRNVTFTNSIPKTTS  190
+
+
+>TR:A0A1D6KW34_MAIZE A0A1D6KW34 4-coumarate--CoA ligase-like 7 OS=Zea mays OX=4577 
+GN=ZEAMMB73_Zm00001d033055 PE=4 SV=1
+Length=550
+
+ Score = 107 bits (266),  Expect = 2e-26
+ Identities = 55/72 (76%), Positives = 60/72 (83%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDA VIP+PDAEAGEVPIAYVV SP SSL E DVQKFIEKQV+
+Sbjct  455  QIAPAELEGLLLSHPEILDAAVIPYPDAEAGEVPIAYVVLSPKSSLAEADVQKFIEKQVA  514
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  515  HYKRLRKVTFVG  526
+
+
+>TR:A0A1D5XJS6_WHEAT A0A1D5XJS6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=555
+
+ Score = 107 bits (266),  Expect = 2e-26
+ Identities = 58/79 (73%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIP PD EAGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  460  QIAPAELEGLLLSHPEILDAVVIPLPDDEAGEVPIAYVVRSPASSLTEADVQKFIAKQVT  519
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS +
+Sbjct  520  YYKRLRRVTFVESVPKSTA  538
+
+
+>TR:A0A068UEX7_COFCA A0A068UEX7 Uncharacterized protein OS=Coffea canephora OX=49390 
+GN=GSCOC_T00024147001 PE=4 SV=1
+Length=221
+
+ Score = 102 bits (254),  Expect = 2e-26
+ Identities = 55/79 (70%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE D++K+I  QV+
+Sbjct  127  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDIKKYIADQVA  186
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  187  PFKRLRRVTFINSVPKSAS  205
+
+
+>TR:A0A1Z5S6P3_SORBI A0A1Z5S6P3 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3001G187000 PE=4 SV=1
+Length=557
+
+ Score = 107 bits (266),  Expect = 2e-26
+ Identities = 58/77 (75%), Positives = 63/77 (82%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDA VIP+PD EAGEVPIAYVVRSP SSL EVDVQKFIEKQV+
+Sbjct  462  QIAPAELEGLLLSHPEILDAAVIPYPDPEAGEVPIAYVVRSPKSSLAEVDVQKFIEKQVA  521
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  522  HYKRLRKVKFVDSVPKS  538
+
+
+>TR:M8C618_AEGTA M8C618 4-coumarate--CoA ligase-like protein 1 OS=Aegilops tauschii 
+OX=37682 GN=F775_22333 PE=4 SV=1
+Length=406
+
+ Score = 105 bits (263),  Expect = 2e-26
+ Identities = 58/77 (75%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD  AGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  311  QIAPAELEGLLLSHPEILDAVVIPFPDDVAGEVPIAYVVRSPASSLTEADVQKFIAKQVT  370
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  371  HYKRLRRVTFVESVPKS  387
+
+
+>TR:A0A059DAI7_EUCGR A0A059DAI7 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_B03943 PE=4 SV=1
+Length=670
+
+ Score = 107 bits (266),  Expect = 3e-26
+ Identities = 59/79 (75%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE +VQKFI  QV+
+Sbjct  576  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPTSSLTEEEVQKFIANQVA  635
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  636  PFKRLRRVTFVNSVPKSAS  654
+
+
+>TR:A0A2G2YHF4_CAPAN A0A2G2YHF4 4-coumarate--CoA ligase-like 7 OS=Capsicum annuum 
+OX=4072 GN=LOC107847568 PE=4 SV=1
+Length=542
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTEVDVQKFI  QV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEVDVQKFIADQVA  507
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     I SV KS S
+Sbjct  508  PFKRLKKVTFINSVPKSVS  526
+
+
+>TR:A0A1U8ELY2_CAPAN A0A1U8ELY2 4-coumarate--CoA ligase-like 7 OS=Capsicum annuum 
+OX=4072 GN=T459_28675 PE=4 SV=1
+Length=542
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTEVDVQKFI  QV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEVDVQKFIADQVA  507
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     I SV KS S
+Sbjct  508  PFKRLKKVTFINSVPKSVS  526
+
+
+>TR:A0A2G3BBH0_CAPCH A0A2G3BBH0 4-coumarate--CoA ligase-like 7 OS=Capsicum chinense 
+OX=80379 GN=BC332_29078 PE=4 SV=1
+Length=542
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTEVDVQKFI  QV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEVDVQKFIADQVA  507
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     I SV KS S
+Sbjct  508  PFKRLKKVTFINSVPKSVS  526
+
+
+>TR:A0A2G2VQD4_CAPBA A0A2G2VQD4 4-coumarate--CoA ligase-like 7 OS=Capsicum baccatum 
+OX=33114 GN=CQW23_26995 PE=4 SV=1
+Length=546
+
+ Score = 106 bits (265),  Expect = 3e-26
+ Identities = 59/79 (75%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTEVDVQKFI  QV+
+Sbjct  452  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEVDVQKFIADQVA  511
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     I SV KS S
+Sbjct  512  PFKRLKKVTFINSVPKSVS  530
+
+
+>TR:A0A199W501_ANACO A0A199W501 4-coumarate--CoA ligase-like 1 OS=Ananas comosus OX=4615 
+GN=ACMD2_21649 PE=4 SV=1
+Length=526
+
+ Score = 106 bits (264),  Expect = 4e-26
+ Identities = 59/79 (75%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  432  QVAPAELESLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAKQVA  491
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  492  PFKRLRRVTFVNSVPKSVS  510
+
+
+>TR:A0A1R3K5V2_9ROSI A0A1R3K5V2 AMP-dependent synthetase/ligase OS=Corchorus olitorius 
+OX=93759 GN=COLO4_11059 PE=4 SV=1
+Length=547
+
+ Score = 106 bits (264),  Expect = 4e-26
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQ FI KQV+
+Sbjct  453  QIAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQNFIAKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  513  PFKRLRRVTFITSVPKSAS  531
+
+
+>TR:A0A1R3IJR0_COCAP A0A1R3IJR0 AMP-dependent synthetase/ligase OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_11760 PE=4 SV=1
+Length=547
+
+ Score = 106 bits (264),  Expect = 4e-26
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQ FI KQV+
+Sbjct  453  QIAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQNFIAKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  513  PFKRLRRVRFITSVPKSAS  531
+
+
+>TR:A0A1D6KNL0_MAIZE A0A1D6KNL0 4-coumarate--CoA ligase-like 7 OS=Zea mays OX=4577 
+GN=ZEAMMB73_Zm00001d032107 PE=4 SV=1
+Length=218
+
+ Score = 101 bits (252),  Expect = 4e-26
+ Identities = 51/60 (85%), Positives = 57/60 (95%), Gaps = 0/60 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EI+DAVVIP P+A+AGEVPIAY+VRSP SSLTEVDVQKFIEKQV+
+Sbjct  129  QIAPAELEGLLLSHLEIMDAVVIPLPNAKAGEVPIAYIVRSPDSSLTEVDVQKFIEKQVT  188
+
+
+>TR:A0A089WWI7_BETPN A0A089WWI7 4-coumarate:CoA ligase-like protein OS=Betula pendula 
+OX=3505 PE=2 SV=1
+Length=545
+
+ Score = 105 bits (263),  Expect = 5e-26
+ Identities = 53/73 (73%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTEVD  KFI  QV+
+Sbjct  451  QVAPAELEGLLISHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEVDAMKFIANQVA  510
+
+Query  69   LCRNLGLIVSVGK  81
+              + L  +  + K
+Sbjct  511  PFKRLRRVTFINK  523
+
+
+>TR:A0A1D5Y3W1_WHEAT A0A1D5Y3W1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=547
+
+ Score = 105 bits (263),  Expect = 5e-26
+ Identities = 58/77 (75%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPD  AGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  452  QIAPAELEGLLLSHPEILDAVVIPFPDDVAGEVPIAYVVRSPASSLTEADVQKFIAKQVT  511
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  512  HYKRLRRVTFVESVPKS  528
+
+
+>TR:A0A059D9T8_EUCGR A0A059D9T8 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_B03942 PE=4 SV=1
+Length=626
+
+ Score = 105 bits (263),  Expect = 6e-26
+ Identities = 54/65 (83%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE +VQKFI  QV+
+Sbjct  542  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPTSSLTEEEVQKFIANQVA  601
+
+Query  69   LCRNL  73
+              + L
+Sbjct  602  PFKRL  606
+
+
+>TR:W9SXG6_9ROSA W9SXG6 4-coumarate--CoA ligase-like 7 OS=Morus notabilis OX=981085 
+GN=L484_020607 PE=4 SV=1
+Length=665
+
+ Score = 105 bits (263),  Expect = 6e-26
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIANQVA  504
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  505  PFKRLRKVTFINSVPKSAS  523
+
+
+>TR:A0A1S4AFE3_TOBAC A0A1S4AFE3 4-coumarate--CoA ligase-like 7 OS=Nicotiana tabacum 
+OX=4097 GN=LOC107797035 PE=4 SV=1
+Length=538
+
+ Score = 105 bits (262),  Expect = 7e-26
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI  QV+
+Sbjct  444  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIADQVA  503
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  504  PFKRLRKVTFVNSVPKSAS  522
+
+
+>TR:A0A2T8I1M0_9POAL A0A2T8I1M0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G181300 PE=4 SV=1
+Length=538
+
+ Score = 105 bits (262),  Expect = 7e-26
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH EILDAVVIP+PD EAGEVPIAYVVRSP SSL+E DVQKFIEKQV+
+Sbjct  443  QIAPAELEGLLLSHAEILDAVVIPYPDLEAGEVPIAYVVRSPKSSLSEFDVQKFIEKQVT  502
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  503  YYKRLRKVTFVESVPKSAS  521
+
+
+>TR:A0A1E5VR14_9POAL A0A1E5VR14 4-coumarate--CoA ligase-like 1 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0011427 PE=4 SV=1
+Length=538
+
+ Score = 105 bits (262),  Expect = 7e-26
+ Identities = 59/83 (71%), Positives = 65/83 (78%), Gaps = 3/83 (4%)
+
+Query  5    FFLLEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIE  64
+            F   +IAPAELEGLLLSH EILDAVVIP+PD EAGEVPIAYVV SP SSL+EVDVQKFIE
+Sbjct  439  FIYWQIAPAELEGLLLSHAEILDAVVIPYPDPEAGEVPIAYVVPSPKSSLSEVDVQKFIE  498
+
+Query  65   KQVSL---CRNLGLIVSVGKSNS  84
+            KQV+     R +  + SV KS S
+Sbjct  499  KQVTYYKRLRKVTFVDSVPKSAS  521
+
+
+>TR:A0A0V0IJA8_SOLCH A0A0V0IJA8 Putative 4-coumarate--CoA ligase-like 7-like OS=Solanum 
+chacoense OX=4108 PE=4 SV=1
+Length=429
+
+ Score = 104 bits (260),  Expect = 7e-26
+ Identities = 52/65 (80%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI +QV+
+Sbjct  335  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIAEQVA  394
+
+Query  69   LCRNL  73
+              + L
+Sbjct  395  PFKRL  399
+
+
+>TR:A0A2P4LTB5_QUESU A0A2P4LTB5 4-coumarate--coa ligase-like 7 OS=Quercus suber OX=58331 
+GN=CFP56_58543 PE=4 SV=1
+Length=203
+
+ Score = 100 bits (249),  Expect = 8e-26
+ Identities = 51/71 (72%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+ILDAVVIPFPDA+AGEVPIA+VVR+P SSL E DVQKFI KQV+
+Sbjct  109  QVAPAELEGLLLSHPKILDAVVIPFPDAKAGEVPIAFVVRAPNSSLKEKDVQKFIAKQVA  168
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  169  PYKRLRAVAFV  179
+
+
+>TR:A0A2I0JQ53_PUNGR A0A2I0JQ53 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_021944 PE=4 SV=1
+Length=192
+
+ Score = 100 bits (248),  Expect = 9e-26
+ Identities = 51/77 (66%), Positives = 61/77 (79%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPD +AGEVPIAY+VRSP SS+ E DVQ+F+ KQV+
+Sbjct  98   QVAPAELEALLLSHPEILDAVVIPFPDEKAGEVPIAYIVRSPSSSIAETDVQEFVSKQVA  157
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV K+
+Sbjct  158  PHKRLRRVNFITSVPKT  174
+
+
+>TR:A0A059Q9S8_PHAVU A0A059Q9S8 4-coumarate:coenzyme A ligase 4 OS=Phaseolus vulgaris 
+OX=3885 PE=4 SV=1
+Length=536
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 52/65 (80%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI KQV+
+Sbjct  442  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIAKQVA  501
+
+Query  69   LCRNL  73
+              + L
+Sbjct  502  PFKRL  506
+
+
+>TR:V7BVX4_PHAVU V7BVX4 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_005G131400g PE=4 SV=1
+Length=536
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 52/65 (80%), Positives = 59/65 (91%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI KQV+
+Sbjct  442  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIAKQVA  501
+
+Query  69   LCRNL  73
+              + L
+Sbjct  502  PFKRL  506
+
+
+>TR:A0A200R5N5_9MAGN A0A200R5N5 AMP-dependent synthetase/ligase OS=Macleaya cordata 
+OX=56857 GN=BVC80_1835g411 PE=4 SV=1
+Length=540
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 58/79 (73%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVR+  SSL EVDV+KFIE+QV+
+Sbjct  446  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRASNSSLNEVDVKKFIEQQVA  505
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  506  PFKKLRRVTFVSSVPKSAS  524
+
+
+>TR:A0A218WN26_PUNGR A0A218WN26 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr026864 PE=4 SV=1
+Length=542
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 59/79 (75%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQ FI  QV+
+Sbjct  448  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQNFIANQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  508  PFKRLRRVTFIQTVPKSAS  526
+
+
+>TR:A0A2I0K7V3_PUNGR A0A2I0K7V3 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_015034 PE=4 SV=1
+Length=542
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 59/79 (75%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQ FI  QV+
+Sbjct  448  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQNFIANQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  508  PFKRLRRVTFIQTVPKSAS  526
+
+
+>TR:A0A1U8AJ01_NELNU A0A1U8AJ01 4-coumarate--CoA ligase-like 7 OS=Nelumbo nucifera 
+OX=4432 GN=LOC104604518 PE=4 SV=1
+Length=543
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIP PDAEAGEVPIAYVVR+P SSLTE DVQKFI KQV+
+Sbjct  449  QVAPAELEGLLLSHPEILDAVVIPLPDAEAGEVPIAYVVRTPNSSLTEEDVQKFIAKQVA  508
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  509  PFKRLRRVTFTNSVPKSAS  527
+
+
+>TR:A0A1E5W433_9POAL A0A1E5W433 4-coumarate--CoA ligase-like 1 OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0006839 PE=4 SV=1
+Length=549
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 54/72 (75%), Positives = 61/72 (85%), Gaps = 0/72 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH +ILDAVVIP+PD EAGEVPIAYVV SP SSL+EVDVQKFIEKQV+
+Sbjct  454  QIAPAELEGLLLSHEDILDAVVIPYPDPEAGEVPIAYVVLSPKSSLSEVDVQKFIEKQVT  513
+
+Query  69   LCRNLGLIVSVG  80
+              + L  +  VG
+Sbjct  514  YYKRLRKVTFVG  525
+
+
+>TR:K4ALU4_SETIT K4ALU4 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101770138 
+PE=4 SV=1
+Length=550
+
+ Score = 105 bits (261),  Expect = 1e-25
+ Identities = 58/79 (73%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH +ILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  455  QIAPAELEGLLLSHAQILDAVVIPYPDPEAGEVPIAYVVRSPKSSLSEVDVQKFIEKQVT  514
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  515  HYKRLRKVTFVDSVPKSVS  533
+
+
+>TR:K4DA61_SOLLC K4DA61 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+GN=101249706 PE=4 SV=1
+Length=538
+
+ Score = 104 bits (260),  Expect = 1e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  444  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIADQVA  503
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     I SV KS S
+Sbjct  504  PFKRLKKVTFINSVPKSAS  522
+
+
+>TR:A0A0B2NUG0_GLYSO A0A0B2NUG0 4-coumarate--CoA ligase-like 7 (Fragment) OS=Glycine 
+soja OX=3848 GN=glysoja_043325 PE=4 SV=1
+Length=186
+
+ Score = 99.4 bits (246),  Expect = 1e-25
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI KQV+
+Sbjct  92   QVAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIAKQVA  151
+
+Query  69   LCRNL  73
+              + L
+Sbjct  152  PFKKL  156
+
+
+>TR:K4A7N6_SETIT K4A7N6 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101781346 
+PE=4 SV=1
+Length=575
+
+ Score = 104 bits (260),  Expect = 1e-25
+ Identities = 55/79 (70%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEI DAVVIPFPDAEAG+VP+AYVVR+P SSL+E D+Q FIEKQV+
+Sbjct  460  QIAPAELEGLLLSHPEIHDAVVIPFPDAEAGQVPVAYVVRAPQSSLSEADIQSFIEKQVA  519
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS+S
+Sbjct  520  HYKRLRRVTFVDSVPKSSS  538
+
+
+>TR:M0TQC4_MUSAM M0TQC4 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=4 SV=1
+Length=496
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 57/79 (72%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDA VIPFPDAEAGEVPIAYVVRSP SSLT  DVQ FI KQV+
+Sbjct  402  QVAPAELEGLLLSHPEILDAAVIPFPDAEAGEVPIAYVVRSPTSSLTGEDVQNFIAKQVA  461
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  462  PYKRLRRVTFVSSVPKSAS  480
+
+
+>TR:V4SL14_9ROSI V4SL14 Uncharacterized protein (Fragment) OS=Citrus clementina 
+OX=85681 GN=CICLE_v100281391mg PE=4 SV=1
+Length=206
+
+ Score = 99.8 bits (247),  Expect = 2e-25
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD E+GEVPIAYVVRSP S LT  DVQKF+ +QVS
+Sbjct  112  QVAPAELEGLLVSHPEILDAVVIPFPDPESGEVPIAYVVRSPNSLLTAEDVQKFVAEQVS  171
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  172  PYKRLRKVTFINSVPKSAS  190
+
+
+>TR:A0A0M4KDV5_MORAL A0A0M4KDV5 4-coumarate-CoA ligase 7-2 OS=Morus alba OX=3498 GN=4CL7-2 
+PE=2 SV=1
+Length=539
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEI DAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEIFDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIANQVA  504
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  505  PFKRLRKVTFINSVPKSAS  523
+
+
+>TR:A0A1D8KVT5_MORAL A0A1D8KVT5 4-coumarate-CoA ligase 7 OS=Morus alba OX=3498 GN=4CL7 
+PE=2 SV=1
+Length=539
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEI DAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEIFDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIANQVA  504
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  505  PFKRLRKVTFINSVPKSAS  523
+
+
+>TR:A0A067L6D3_JATCU A0A067L6D3 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_05454 PE=4 SV=1
+Length=542
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 53/65 (82%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI  QV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIADQVA  507
+
+Query  69   LCRNL  73
+              + L
+Sbjct  508  PFKRL  512
+
+
+>TR:S4W911_CHOAR S4W911 Ca4CL11 OS=Chosenia arbutifolia OX=75699 PE=2 SV=1
+Length=543
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 55/79 (70%), Positives = 66/79 (84%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP S+LTEVDV+KFI +QV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSALTEVDVKKFIAEQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  PFKRLRKVTFVNSVPKSAS  527
+
+
+>TR:A0A2K2ASK3_POPTR A0A2K2ASK3 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_004G102000v3 PE=4 SV=1
+Length=543
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 52/65 (80%), Positives = 60/65 (92%), Gaps = 2/65 (3%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIP+PDAEAGEVP+AYVVRSP S+LTEVDVQKFI  QVS
+Sbjct  449  QVAPAELEGLLVSHPQILDAVVIPYPDAEAGEVPVAYVVRSPNSALTEVDVQKFIADQVS  508
+
+Query  69   --LCR  71
+              LC+
+Sbjct  509  GRLCK  513
+
+
+>TR:A0A2P5CZL5_PARAD A0A2P5CZL5 4-coumarate-CoA ligase OS=Parasponia andersonii OX=3476 
+GN=PanOPCL3 PE=4 SV=1
+Length=544
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 56/79 (71%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVP+AY+VRSP SSLTEVDV+KFI  QV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDVEAGEVPVAYIVRSPNSSLTEVDVKKFIADQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  510  PFKRLRKVTFINSVPKSAS  528
+
+
+>TR:A0A2P5FTQ5_9ROSA A0A2P5FTQ5 4-coumarate-CoA ligase OS=Trema orientalis OX=63057 
+GN=TorOPCL3 PE=4 SV=1
+Length=544
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 57/79 (72%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DV+KFI  QV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPSSSLTEEDVKKFIADQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  510  PFKRLRKVTFINSVPKSAS  528
+
+
+>TR:A0A2P4M0D9_QUESU A0A2P4M0D9 4-coumarate--coa ligase-like 7 OS=Quercus suber OX=58331 
+GN=CFP56_33209 PE=4 SV=1
+Length=547
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 52/73 (71%), Positives = 61/73 (84%), Gaps = 0/73 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE D++KFI  QV+
+Sbjct  453  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDIKKFIASQVA  512
+
+Query  69   LCRNLGLIVSVGK  81
+              + L  +  + K
+Sbjct  513  PFKRLRRVTFIDK  525
+
+
+>TR:A0A1D6KW35_MAIZE A0A1D6KW35 4-coumarate--CoA ligase-like 7 OS=Zea mays OX=4577 
+GN=ZEAMMB73_Zm00001d033055 PE=4 SV=1
+Length=521
+
+ Score = 103 bits (258),  Expect = 2e-25
+ Identities = 52/61 (85%), Positives = 55/61 (90%), Gaps = 0/61 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDA VIP+PDAEAGEVPIAYVV SP SSL E DVQKFIEKQV 
+Sbjct  455  QIAPAELEGLLLSHPEILDAAVIPYPDAEAGEVPIAYVVLSPKSSLAEADVQKFIEKQVK  514
+
+Query  69   L  69
+            +
+Sbjct  515  V  515
+
+
+>TR:A0A1U7XIM3_NICSY A0A1U7XIM3 4-coumarate--CoA ligase-like 7 OS=Nicotiana sylvestris 
+OX=4096 GN=LOC104234871 PE=4 SV=1
+Length=538
+
+ Score = 103 bits (258),  Expect = 3e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPI YVVRSP SSLTE DVQKFI  QV+
+Sbjct  444  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPITYVVRSPNSSLTEEDVQKFIADQVA  503
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  504  PFKRLRKVTFVNSVPKSAS  522
+
+
+>TR:A0A1S4AJS0_TOBAC A0A1S4AJS0 4-coumarate--CoA ligase-like 7 OS=Nicotiana tabacum 
+OX=4097 GN=LOC107798422 PE=4 SV=1
+Length=538
+
+ Score = 103 bits (258),  Expect = 3e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPI YVVRSP SSLTE DVQKFI  QV+
+Sbjct  444  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPITYVVRSPNSSLTEEDVQKFIADQVA  503
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  504  PFKRLRKVTFVNSVPKSAS  522
+
+
+>TR:A0A1Q3BF15_CEPFO A0A1Q3BF15 AMP-binding domain-containing protein/DUF4009 domain-containing 
+protein OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_09999 
+PE=4 SV=1
+Length=539
+
+ Score = 103 bits (258),  Expect = 3e-25
+ Identities = 55/77 (71%), Positives = 63/77 (82%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVR+P SSLTE D+QK+I  QV+
+Sbjct  445  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRAPKSSLTEEDIQKYIANQVA  504
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  505  PYKRLRRVAFINSVPKS  521
+
+
+>TR:W8Q8X1_9LAMI W8Q8X1 4-coumarate:coenzyme A ligase 4 OS=Fraxinus mandshurica 
+OX=56029 GN=4CL PE=4 SV=1
+Length=543
+
+ Score = 103 bits (258),  Expect = 3e-25
+ Identities = 58/79 (73%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDA VIPFPDAEAGEVPIAYVVRSP SSLTE DVQKFI  QV+
+Sbjct  449  QIAPAELEGLLVSHPEILDAAVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIADQVA  508
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  509  PFKRLRRVTFTNSVPKSAS  527
+
+
+>TR:A0A166DHN2_DAUCA A0A166DHN2 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_006109 PE=4 SV=1
+Length=213
+
+ Score = 99.4 bits (246),  Expect = 3e-25
+ Identities = 54/79 (68%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIPFPDAEAGEVP A+VVR+P SSLTE DV+KFI +QV+
+Sbjct  119  QVAPAELEGLLVSHPDILDAVVIPFPDAEAGEVPSAHVVRAPNSSLTEEDVKKFISEQVA  178
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  179  PFKRLRRVTFIKSVPKSAS  197
+
+
+>TR:K4ALV4_SETIT K4ALV4 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_039889mg 
+PE=4 SV=1
+Length=535
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 57/79 (72%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH +ILDAVVIP+PD EAG+VPIAYVVRSP SSL+EVDVQKFIEKQV+
+Sbjct  440  KIAPAELEGLLLSHAQILDAVVIPYPDPEAGKVPIAYVVRSPNSSLSEVDVQKFIEKQVT  499
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  500  YYKRLRKVTFVDSVPKSAS  518
+
+
+>TR:A0A072VCC0_MEDTR A0A072VCC0 4-coumarate:CoA ligase-like protein OS=Medicago truncatula 
+OX=3880 GN=25487863 PE=4 SV=1
+Length=539
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE D+QKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDIQKFIADQVA  504
+
+Query  69   LCRNL  73
+              + L
+Sbjct  505  PFKRL  509
+
+
+>TR:A0A2H9ZXN4_9ASPA A0A2H9ZXN4 4-coumarate--CoA ligase-like 7 OS=Apostasia shenzhenica 
+OX=1088818 GN=4CLL7 PE=4 SV=1
+Length=543
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 55/79 (70%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLL+HPEI+DAVVIPFPDAEAGEVPIAYVVRSP SSLTE+DV++FI  QV+
+Sbjct  449  QVAPAELEGLLLAHPEIIDAVVIPFPDAEAGEVPIAYVVRSPNSSLTELDVKQFIADQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  PFKRLRRVSFVNSVPKSAS  527
+
+
+>TR:W1P4C6_AMBTC W1P4C6 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00076p00189570 PE=4 SV=1
+Length=543
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 57/79 (72%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SS+TE DVQ+F+ KQV+
+Sbjct  449  QIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSQGSSITEKDVQEFVAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  SFKRLRRVTFVNSVPKSAS  527
+
+
+>TR:A0A2R6PQ80_ACTCH A0A2R6PQ80 4-coumarate--CoA ligase-like OS=Actinidia chinensis 
+var. chinensis OX=1590841 GN=CEY00_Acc25973 PE=4 SV=1
+Length=544
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP S LTE DVQKFI  QV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPKSLLTEEDVQKFIADQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  510  PFKRLRRVTFVDSVPKSAS  528
+
+
+>TR:A0A1U8MBI0_GOSHI A0A1U8MBI0 4-coumarate--CoA ligase-like 7 OS=Gossypium hirsutum 
+OX=3635 GN=LOC107936009 PE=4 SV=1
+Length=545
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI DAVVIP+PDAEAGEVPIAYVVRSP SSLTE DVQKFI +QV+
+Sbjct  451  QIAPAELEGLLVSHPEISDAVVIPYPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAEQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFINSVPKSAS  529
+
+
+>TR:A0A2P5YCB4_GOSBA A0A2P5YCB4 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA07409 PE=4 SV=1
+Length=550
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI DAVVIP+PDAEAGEVPIAYVVRSP SSLTE DVQKFI +QV+
+Sbjct  456  QIAPAELEGLLVSHPEISDAVVIPYPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAEQVA  515
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  516  PFKRIRRVTFINSVPKSAS  534
+
+
+>TR:A0A2P5QW89_GOSBA A0A2P5QW89 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD24272 PE=4 SV=1
+Length=574
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI DAVVIP+PDAEAGEVPIAYVVRSP SSLTE DVQKFI +QV+
+Sbjct  480  QIAPAELEGLLVSHPEISDAVVIPYPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAEQVA  539
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  540  PFKRLRRVTFINSVPKSAS  558
+
+
+>TR:A0A0D2VKP5_GOSRA A0A0D2VKP5 Uncharacterized protein (Fragment) OS=Gossypium raimondii 
+OX=29730 GN=B456_013G269100 PE=4 SV=1
+Length=583
+
+ Score = 103 bits (257),  Expect = 4e-25
+ Identities = 58/79 (73%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI DAVVIP+PDAEAGEVPIAYVVRSP SSLTE DVQKFI +QV+
+Sbjct  489  QIAPAELEGLLVSHPEISDAVVIPYPDAEAGEVPIAYVVRSPNSSLTEEDVQKFIAEQVA  548
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  549  PFKRLRRVTFINSVPKSAS  567
+
+
+>TR:F6HKB4_VITVI F6HKB4 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_08s0007g05050 
+PE=4 SV=1
+Length=530
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILD+VVIP PD EAGEVPIAYVVRSP SSLTE DVQKFI KQV+
+Sbjct  436  QVAPAELEGLLLSHPEILDSVVIPLPDVEAGEVPIAYVVRSPRSSLTEEDVQKFIAKQVA  495
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  496  PFKRLRRVTFINNVPKSAS  514
+
+
+>TR:A0A0S3SGN8_PHAAN A0A0S3SGN8 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.07G065800 PE=4 SV=1
+Length=536
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  442  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPHSSLTEEDVQKFIANQVA  501
+
+Query  69   LCRNL  73
+              + L
+Sbjct  502  PFKRL  506
+
+
+>TR:A0A1S3TX94_VIGRR A0A1S3TX94 4-coumarate--CoA ligase-like 7 OS=Vigna radiata var. 
+radiata OX=3916 GN=LOC106759615 PE=4 SV=1
+Length=536
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  442  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPHSSLTEEDVQKFIANQVA  501
+
+Query  69   LCRNL  73
+              + L
+Sbjct  502  PFKRL  506
+
+
+>TR:A0A1D5XJS5_WHEAT A0A1D5XJS5 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=537
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 52/58 (90%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  66
+            +IAPAELEGLLLSHPEILDAVVIP PD EAGEVPIAYVVRSP SSLTE DVQKFI KQ
+Sbjct  460  QIAPAELEGLLLSHPEILDAVVIPLPDDEAGEVPIAYVVRSPASSLTEADVQKFIAKQ  517
+
+
+>TR:A0A1L6K4A7_POPTO A0A1L6K4A7 4-coumarate--CoA ligase family protein 11 OS=Populus 
+tomentosa OX=118781 PE=2 SV=1
+Length=543
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 55/79 (70%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIP+PDAEAGEVP+AYVVRSP S+LTEVDVQKFI  QV+
+Sbjct  449  QVAPAELEGLLVSHPQILDAVVIPYPDAEAGEVPVAYVVRSPNSALTEVDVQKFIADQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  509  PFKRLRKVTFINTVPKSAS  527
+
+
+>TR:H9A1V5_CANSA H9A1V5 Acyl-activating enzyme 3 OS=Cannabis sativa OX=3483 PE=2 
+SV=1
+Length=543
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 57/79 (72%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DV+KFI  QV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTENDVKKFIAGQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  SFKRLRKVTFINSVPKSAS  527
+
+
+>TR:V9HWZ4_ISATI V9HWZ4 4-coumarate coenzyme A ligase OS=Isatis tinctoria OX=161756 
+GN=4CL PE=2 SV=1
+Length=543
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 54/77 (70%), Positives = 63/77 (82%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVPIA+VVRSP SS+T+ D+QKFI KQV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPFPDEEAGEVPIAFVVRSPKSSITQEDIQKFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  509  PYKRLRRVSFISSVPKS  525
+
+
+>TR:B9H3P7_POPTR B9H3P7 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_004G102000v3 PE=4 SV=1
+Length=543
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 55/79 (70%), Positives = 65/79 (82%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIP+PDAEAGEVP+AYVVRSP S+LTEVDVQKFI  QV+
+Sbjct  449  QVAPAELEGLLVSHPQILDAVVIPYPDAEAGEVPVAYVVRSPNSALTEVDVQKFIADQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  509  PFKRLRKVTFINTVPKSAS  527
+
+
+>TR:A0A2P5WRY0_GOSBA A0A2P5WRY0 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA26826 PE=4 SV=1
+Length=545
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDAV IP+PD EAGEVP+AYVVRSP SSLTE DVQKFI KQV+
+Sbjct  451  QIAPAELEGLLVSHPEILDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVQKFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRKVTFISSVPKSVS  529
+
+
+>TR:A0A1U8PXT3_GOSHI A0A1U8PXT3 4-coumarate--CoA ligase-like 7 OS=Gossypium hirsutum 
+OX=3635 GN=LOC107963914 PE=4 SV=1
+Length=545
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDAV IP+PD EAGEVP+AYVVRSP SSLTE DVQKFI KQV+
+Sbjct  451  QIAPAELEGLLVSHPEILDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVQKFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRKVTFISSVPKSVS  529
+
+
+>TR:A0A2H5Q4Z7_CITUN A0A2H5Q4Z7 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_196650 PE=4 SV=1
+Length=425
+
+ Score = 102 bits (254),  Expect = 5e-25
+ Identities = 54/79 (68%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEG+L+SHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLT+ DVQKF+ KQV+
+Sbjct  331  QVAPAELEGVLVSHPEILDAVVIPFPDPEAGEVPIAYVVRSPNSSLTKEDVQKFVVKQVA  390
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 RN+    S+ K+ S
+Sbjct  391  RYKRLRNVTFTNSIPKTTS  409
+
+
+>TR:K4A7T8_SETIT K4A7T8 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101769729 
+PE=4 SV=1
+Length=564
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 56/79 (71%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSH ++LDAVVIP+PD EAGEVPIAYVVRSP SSL+E DVQKFIEKQV+
+Sbjct  469  QIAPAELEGLLLSHAQVLDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEADVQKFIEKQVA  528
+
+Query  69   LC---RNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  529  YYKRPRKVKFVDSVPKSAS  547
+
+
+>TR:A0A0L9UN68_PHAAN A0A0L9UN68 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan05g176100 PE=4 SV=1
+Length=647
+
+ Score = 103 bits (256),  Expect = 6e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  553  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPHSSLTEEDVQKFIANQVA  612
+
+Query  69   LCRNL  73
+              + L
+Sbjct  613  PFKRL  617
+
+
+>TR:A0A1S2XC32_CICAR A0A1S2XC32 4-coumarate--CoA ligase-like 7 OS=Cicer arietinum 
+OX=3827 GN=LOC101500143 PE=4 SV=1
+Length=539
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEKDVQKFIADQVA  504
+
+Query  69   LCRNL  73
+              + L
+Sbjct  505  PFKRL  509
+
+
+>TR:A0A151SAH6_CAJCA A0A151SAH6 4-coumarate--CoA ligase-like 7 OS=Cajanus cajan OX=3821 
+GN=KK1_026308 PE=4 SV=1
+Length=539
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  445  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIADQVA  504
+
+Query  69   LCRNL  73
+              + L
+Sbjct  505  PFKRL  509
+
+
+>TR:V4KJQ8_EUTSA V4KJQ8 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10028562mg PE=4 SV=1
+Length=543
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 55/79 (70%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPE+LDAVVIP PD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  449  QVAPAELEGLLLSHPELLDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQKFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  PYKRLRRVSFISSVPKSAS  527
+
+
+>TR:A0A2H3Z5Q6_PHODC A0A2H3Z5Q6 4-coumarate--CoA ligase-like 1 OS=Phoenix dactylifera 
+OX=42345 GN=LOC103720770 PE=4 SV=1
+Length=544
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 57/80 (71%), Positives = 64/80 (80%), Gaps = 3/80 (4%)
+
+Query  8    LEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            L++APAELEGLLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DVQKFI +QV
+Sbjct  449  LQVAPAELEGLLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVQKFIAEQV  508
+
+Query  68   S---LCRNLGLIVSVGKSNS  84
+            +     R +  + SV KS S
+Sbjct  509  APFKRLRRVTFVNSVPKSAS  528
+
+
+>TR:A0A2I4HRL8_9ROSI A0A2I4HRL8 4-coumarate--CoA ligase-like 7 OS=Juglans regia OX=51240 
+GN=LOC109020728 PE=4 SV=1
+Length=544
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 50/73 (68%), Positives = 59/73 (81%), Gaps = 0/73 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AY+VRSP SSLTE D  KFI  QV+
+Sbjct  450  QVAPAELEGLLISHPEILDAVVIPFPDAEAGEVPVAYIVRSPNSSLTEEDAMKFIANQVA  509
+
+Query  69   LCRNLGLIVSVGK  81
+              + L  +  + K
+Sbjct  510  PFKRLRRVTFINK  522
+
+
+>TR:A0A059A7S0_EUCGR A0A059A7S0 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_K02929 PE=4 SV=1
+Length=549
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 52/65 (80%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIPFPDA+AGEVPIAYVVRSP SSLTEV VQ+FI  QV+
+Sbjct  455  QVAPAELEGLLLSHPEILDAVVIPFPDAKAGEVPIAYVVRSPNSSLTEVSVQEFIANQVA  514
+
+Query  69   LCRNL  73
+              + L
+Sbjct  515  PFKRL  519
+
+
+>TR:A0A2T8I1L5_9POAL A0A2T8I1L5 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G181200 PE=4 SV=1
+Length=555
+
+ Score = 102 bits (255),  Expect = 7e-25
+ Identities = 52/64 (81%), Positives = 57/64 (89%), Gaps = 0/64 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEILDAVVIP+PD EAGEVPIAYVVRSP SSL+EVDVQKFIE +  
+Sbjct  492  QIAPAELEGLLLSHPEILDAVVIPYPDPEAGEVPIAYVVRSPNSSLSEVDVQKFIESRSR  551
+
+Query  69   LCRN  72
+              R+
+Sbjct  552  TTRD  555
+
+
+>TR:M0SZZ4_MUSAM M0SZZ4 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=4 SV=1
+Length=486
+
+ Score = 102 bits (254),  Expect = 7e-25
+ Identities = 53/71 (75%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIPFP+AEAGEVPIAYVVRSP SSLTE DVQ FI K V+
+Sbjct  392  QVAPAELEGLLLSHPEILDAVVIPFPNAEAGEVPIAYVVRSPNSSLTEEDVQNFISKLVA  451
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  452  PIKRLRRVTFV  462
+
+
+>TR:A0A2P6QGW4_ROSCH A0A2P6QGW4 Putative AMP-dependent synthetase/ligase, AMP-binding 
+enzyme domain-containing protein OS=Rosa chinensis OX=74649 
+GN=RchiOBHm_Chr5g0057411 PE=4 SV=1
+Length=145
+
+ Score = 96.3 bits (238),  Expect = 8e-25
+ Identities = 47/67 (70%), Positives = 55/67 (82%), Gaps = 0/67 (0%)
+
+Query  7    LLEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  66
+            L  +APAELEGLL+SHPEILDA+VIPFPDAEAGEVP+AYVVRSP SSLT  D++ FI  Q
+Sbjct  42   LFVVAPAELEGLLVSHPEILDAIVIPFPDAEAGEVPVAYVVRSPNSSLTGEDIKSFIASQ  101
+
+Query  67   VSLCRNL  73
+             +  + L
+Sbjct  102  AASFKRL  108
+
+
+>TR:A0A2K3PPQ7_TRIPR A0A2K3PPQ7 4-coumarate-CoA ligase 7-like protein OS=Trifolium 
+pratense OX=57577 GN=L195_g014008 PE=4 SV=1
+Length=540
+
+ Score = 102 bits (254),  Expect = 9e-25
+ Identities = 50/65 (77%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE D++KFI  QV+
+Sbjct  446  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDIKKFIANQVA  505
+
+Query  69   LCRNL  73
+              + L
+Sbjct  506  PFKRL  510
+
+
+>TR:A0A1L7H9K0_9APIA A0A1L7H9K0 4-Coumarate:CoA ligase 7 (Fragment) OS=Peucedanum 
+praeruptorum OX=312531 GN=4CL7 PE=2 SV=1
+Length=542
+
+ Score = 102 bits (254),  Expect = 9e-25
+ Identities = 56/79 (71%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV+ FI KQV+
+Sbjct  448  QVAPAELEGLLVSHSEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVKSFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  508  PFKRLRRINFVNSVPKSAS  526
+
+
+>TR:A0A2C9W0W5_MANES A0A2C9W0W5 Uncharacterized protein OS=Manihot esculenta OX=3983 
+GN=MANES_04G015100 PE=4 SV=1
+Length=542
+
+ Score = 102 bits (254),  Expect = 9e-25
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DVQKFI  QV+
+Sbjct  448  QVAPAELEGLLVSHHEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIADQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  508  PFKRLRRVNFINSVPKSVS  526
+
+
+>TR:A0A1X9HIJ5_HEVBR A0A1X9HIJ5 4-coumarate:CoA ligase OS=Hevea brasiliensis subsp. 
+brasiliensis OX=187338 PE=2 SV=1
+Length=542
+
+ Score = 102 bits (254),  Expect = 9e-25
+ Identities = 55/77 (71%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AY+VRSP SSLTE DV KFI  QV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYIVRSPNSSLTEEDVLKFIADQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  508  PFKRLRRVNFINSVPKS  524
+
+
+>TR:D7M1Y8_ARALL D7M1Y8 Uncharacterized protein OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_490166 PE=4 SV=1
+Length=544
+
+ Score = 102 bits (254),  Expect = 9e-25
+ Identities = 54/77 (70%), Positives = 63/77 (82%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDEEAGEVPIAFVVRSPNSSITEQDIQKFIAKQVA  509
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I +V KS
+Sbjct  510  PYKRLRRVSFINTVPKS  526
+
+
+>TR:M1AEE2_SOLTU M1AEE2 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102597265 
+PE=4 SV=1
+Length=541
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 51/65 (78%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE +VQKFI  QV+
+Sbjct  447  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEENVQKFIADQVA  506
+
+Query  69   LCRNL  73
+              + L
+Sbjct  507  PFKRL  511
+
+
+>TR:B9S0G8_RICCO B9S0G8 AMP dependent CoA ligase, putative OS=Ricinus communis 
+OX=3988 GN=RCOM_1354540 PE=4 SV=1
+Length=543
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLL HPEILDAVVIPFPD +AGEVPIAYVVRSP SSLTE DVQKFI +QV+
+Sbjct  449  QVAPAELEGLLLLHPEILDAVVIPFPDPKAGEVPIAYVVRSPNSSLTEEDVQKFIAEQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  PFKRLRRVTFINSVPKSAS  527
+
+
+>TR:M5WDH6_PRUPE M5WDH6 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_7G129300 
+PE=4 SV=1
+Length=543
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 48/68 (71%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  6    FLLEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEK  65
+            +  ++APAELEGLLLSHPEILDAVVIP+PD +AGEVP+AYVVR+P SS+T+ D+QKFIEK
+Sbjct  446  YSFQVAPAELEGLLLSHPEILDAVVIPYPDEKAGEVPVAYVVRAPNSSITQQDIQKFIEK  505
+
+Query  66   QVSLCRNL  73
+            QV+  + L
+Sbjct  506  QVAPFKRL  513
+
+
+>TR:A0A178UXS2_ARATH A0A178UXS2 Uncharacterized protein OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At4g05000 PE=4 SV=1
+Length=544
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 50/65 (77%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDEEAGEVPIAFVVRSPNSSITEQDIQKFIAKQVA  509
+
+Query  69   LCRNL  73
+              + L
+Sbjct  510  PYKRL  514
+
+
+>TR:M4IRL6_HUMLU M4IRL6 CCL7 OS=Humulus lupulus OX=3486 PE=2 SV=1
+Length=544
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 56/79 (71%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDA+AGEVP+AYVVRSP SSLTE DV+KFI  QV+
+Sbjct  450  QVAPAELEGLLVSHPEILDAVVIPFPDADAGEVPVAYVVRSPNSSLTEDDVKKFIAGQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  510  SFKRLRKVTFINSVPKSAS  528
+
+
+>TR:A0A2H5QQL4_CITUN A0A2H5QQL4 Uncharacterized protein OS=Citrus unshiu OX=55188 
+GN=CUMW_252520 PE=4 SV=1
+Length=546
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 56/79 (71%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD E+GEVPIAYVVRSP SSLT  DVQKF+ +QVS
+Sbjct  452  QVAPAELEGLLVSHPEILDAVVIPFPDPESGEVPIAYVVRSPNSSLTAEDVQKFVAEQVS  511
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  512  PYKRLRKVTFINSVPKSAS  530
+
+
+>TR:A0A0M4L8I0_MORAL A0A0M4L8I0 4-coumarate-CoA ligase 7-1 OS=Morus alba OX=3498 GN=4CL7-1 
+PE=2 SV=1
+Length=547
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 55/82 (67%), Positives = 65/82 (79%), Gaps = 3/82 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEIL+AVVIPFPD +AGEVPIA++VRSP SSLTE  VQ+FIEKQV+
+Sbjct  453  QVAPAELEGLLLSHPEILEAVVIPFPDEKAGEVPIAFIVRSPNSSLTEKGVQRFIEKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNSHST  87
+                 R +  + SV KS S  T
+Sbjct  513  PFKRLRRVTFVSSVPKSASGKT  534
+
+
+>TR:A0A1D8KVS6_MORAL A0A1D8KVS6 4-coumarate-CoA ligase 1 OS=Morus alba OX=3498 GN=4CL1 
+PE=2 SV=1
+Length=547
+
+ Score = 102 bits (253),  Expect = 1e-24
+ Identities = 55/82 (67%), Positives = 65/82 (79%), Gaps = 3/82 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEIL+AVVIPFPD +AGEVPIA++VRSP SSLTE  VQ+FIEKQV+
+Sbjct  453  QVAPAELEGLLLSHPEILEAVVIPFPDEKAGEVPIAFIVRSPNSSLTEEGVQRFIEKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNSHST  87
+                 R +  + SV KS S  T
+Sbjct  513  PFKRLRRVTFVSSVPKSASGKT  534
+
+
+>TR:K7LTN2_SOYBN K7LTN2 Uncharacterized protein OS=Glycine max OX=3847 GN=GLYMA_12G079600 
+PE=4 SV=1
+Length=305
+
+ Score = 99.4 bits (246),  Expect = 2e-24
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI KQV+
+Sbjct  211  QVAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIAKQVA  270
+
+Query  69   LCRNL  73
+              + L
+Sbjct  271  PFKKL  275
+
+
+>TR:H2BER4_SOYBN H2BER4 4-coumarate:CoA ligase OS=Glycine max OX=3847 GN=4CL PE=2 
+SV=1
+Length=540
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 50/60 (83%), Positives = 56/60 (93%), Gaps = 0/60 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIP+PDAEAGEVP+AYVVRSP SSLTE DVQKFI KQV+
+Sbjct  446  QVAPAELEGLLVSHAEILDAVVIPYPDAEAGEVPVAYVVRSPNSSLTEEDVQKFIAKQVA  505
+
+
+>TR:A0A2K1X6J3_POPTR A0A2K1X6J3 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_017G112800v3 PE=4 SV=1
+Length=543
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 55/79 (70%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVV P+PDAEAGEVP+AYVVRSP S+LTE DVQKFI  QV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVTPYPDAEAGEVPVAYVVRSPNSALTEEDVQKFISDQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  PFKRLRKVTFINSVPKSAS  527
+
+
+>TR:W9S512_9ROSA W9S512 4-coumarate--CoA ligase-like 7 OS=Morus notabilis OX=981085 
+GN=L484_002716 PE=4 SV=1
+Length=547
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 54/82 (66%), Positives = 65/82 (79%), Gaps = 3/82 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEIL+AVVIPFPD +AGEVPIA++VRSP SSLTE  VQ+F+EKQV+
+Sbjct  453  QVAPAELEGLLLSHPEILEAVVIPFPDEKAGEVPIAFIVRSPNSSLTEQGVQRFVEKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNSHST  87
+                 R +  + SV KS S  T
+Sbjct  513  PFKRLRRVTFVSSVPKSASGKT  534
+
+
+>TR:A0A199VGP1_ANACO A0A199VGP1 4-coumarate--CoA ligase-like 1 OS=Ananas comosus OX=4615 
+GN=ACMD2_25769 PE=4 SV=1
+Length=550
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 57/79 (72%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPDAEAGEVPIAYVVRS  SSLTE DVQKFI +QV+
+Sbjct  456  QVAPAELESLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSSNSSLTEEDVQKFIAEQVA  515
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  516  PFKRLRRVTFVNSVPKSVS  534
+
+
+>TR:A0A2P4LTB2_QUESU A0A2P4LTB2 4-coumarate--coa ligase-like 7 OS=Quercus suber OX=58331 
+GN=CFP56_58545 PE=4 SV=1
+Length=390
+
+ Score = 100 bits (249),  Expect = 2e-24
+ Identities = 51/71 (72%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+ILDAVVIPFPDA+AGEVPIA+VVR+P SSL E DVQKFI KQV+
+Sbjct  296  QVAPAELEGLLLSHPKILDAVVIPFPDAKAGEVPIAFVVRAPNSSLKEKDVQKFIAKQVA  355
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  356  PYKRLRAVAFV  366
+
+
+>TR:A0A2N9EY56_FAGSY A0A2N9EY56 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS7660 PE=4 SV=1
+Length=659
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 51/73 (70%), Positives = 60/73 (82%), Gaps = 0/73 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE DV+KFI  QV+
+Sbjct  565  QVAPAELEGLLVSHSEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDVKKFIANQVA  624
+
+Query  69   LCRNLGLIVSVGK  81
+              + L  +  + K
+Sbjct  625  PFKRLRSVTFINK  637
+
+
+>TR:A0A164Z8Y6_DAUCA A0A164Z8Y6 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_018780 PE=4 SV=1
+Length=1120
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 56/79 (71%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV+ FI KQV+
+Sbjct  449  QVAPAELEGLLVSHSEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVKNFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  PFKRLRRITFVNSVPKSAS  527
+
+
+>TR:A0A2S1VVS7_BOENI A0A2S1VVS7 4-coumarate CoA ligase OS=Boehmeria nivea OX=83906 
+GN=4CL3 PE=2 SV=1
+Length=539
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 55/79 (70%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE  V+KFI  QV+
+Sbjct  445  QVAPAELEGLLISHPEILDAVVIPFPDAEAGEVPVAYVVRSPSSSLTEDGVKKFIADQVA  504
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  505  PFKRLRRVTFVNSVPKSAS  523
+
+
+>TR:A0A2K3LEK0_TRIPR A0A2K3LEK0 4-coumarate-CoA ligase 7-like protein (Fragment) OS=Trifolium 
+pratense OX=57577 GN=L195_g032928 PE=4 SV=1
+Length=97
+
+ Score = 93.6 bits (231),  Expect = 3e-24
+ Identities = 48/72 (67%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  10  IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+           +APAELE LL SHPEI DA VIP PDA+AGEVP+AYVVRSP SS+TEVD+QKF+ KQV+ 
+Sbjct  1   VAPAELEDLLKSHPEISDAGVIPSPDAKAGEVPVAYVVRSPNSSITEVDIQKFVAKQVAP  60
+
+Query  70  CRNLGLIVSVGK  81
+            + L  +  V K
+Sbjct  61  YKRLRRVNFVDK  72
+
+
+>TR:A0A2I4DIE3_9ROSI A0A2I4DIE3 4-coumarate--CoA ligase-like 7 isoform X1 OS=Juglans 
+regia OX=51240 GN=LOC108980442 PE=4 SV=1
+Length=540
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 52/65 (80%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV  FI  QV+
+Sbjct  446  QIAPAELEGLLISHPEILDAVVIPFPDAEAGEVPIAYVVRSPSSSLTEEDVINFIANQVA  505
+
+Query  69   LCRNL  73
+              + L
+Sbjct  506  PFKRL  510
+
+
+>TR:M4EL94_BRARP M4EL94 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=4 SV=1
+Length=542
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 53/77 (69%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPSSSITEEDIQKFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I +V KS
+Sbjct  508  PYKRLRRVSFISTVPKS  524
+
+
+>TR:B9SCH9_RICCO B9SCH9 AMP dependent CoA ligase, putative OS=Ricinus communis 
+OX=3988 GN=RCOM_0473330 PE=4 SV=1
+Length=542
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 54/79 (68%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDAVVIPFPDAEAGEVP+AYVVRSP SSLTE +VQK+I  QV+
+Sbjct  448  QVAPAELEGLLVSHPELLDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEEVQKYIADQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  508  PFKRLRRVTFINTVPKSAS  526
+
+
+>TR:A0A2P6QGZ5_ROSCH A0A2P6QGZ5 Putative AMP-dependent synthetase/ligase, AMP-binding 
+enzyme domain-containing protein OS=Rosa chinensis OX=74649 
+GN=RchiOBHm_Chr5g0057631 PE=4 SV=1
+Length=543
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 49/65 (75%), Positives = 57/65 (88%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE D++ FI  QV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSPNSSLTEEDIKSFIASQVA  508
+
+Query  69   LCRNL  73
+              + L
+Sbjct  509  SFKRL  513
+
+
+>SP:4CLL7_ARATH Q9M0X9 4-coumarate--CoA ligase-like 7 OS=Arabidopsis thaliana 
+OX=3702 GN=4CLL7 PE=1 SV=1
+Length=544
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 49/65 (75%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIPFPD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  450  QVAPAELEGLLVSHPDILDAVVIPFPDEEAGEVPIAFVVRSPNSSITEQDIQKFIAKQVA  509
+
+Query  69   LCRNL  73
+              + L
+Sbjct  510  PYKRL  514
+
+
+>TR:R0H9R2_9BRAS R0H9R2 Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10000646mg 
+PE=4 SV=1
+Length=544
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVVIPFPD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  450  QVAPAELEGLLVSHSEILDAVVIPFPDEEAGEVPIAFVVRSPNSSITEQDIQKFIAKQVA  509
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  510  PYKRLRRVSFIKSVPKS  526
+
+
+>TR:A0A2P2PLG1_RHIMU A0A2P2PLG1 Uncharacterized protein MANES_04G015100 OS=Rhizophora 
+mucronata OX=61149 PE=4 SV=1
+Length=545
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIPFPDAEAGEVP+AYVVRSP SSLTE D Q FI  QV+
+Sbjct  451  QVAPAELEGLLVSHPKILDAVVIPFPDAEAGEVPVAYVVRSPDSSLTEEDTQNFISDQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFINSVPKSAS  529
+
+
+>TR:A0A1R3K5Z6_9ROSI A0A1R3K5Z6 AMP-dependent synthetase/ligase OS=Corchorus olitorius 
+OX=93759 GN=COLO4_11060 PE=4 SV=1
+Length=547
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PD EAGEVP+AYVVRSP SSLT  DVQ FI KQV+
+Sbjct  453  QVAPAELEGLLVSHPEILDAVVIPYPDTEAGEVPVAYVVRSPNSSLTAEDVQNFIAKQVA  512
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  513  PFKRLRRVTFIPSVPKSVS  531
+
+
+>TR:A0A059A6N2_EUCGR A0A059A6N2 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_K02927 PE=4 SV=1
+Length=548
+
+ Score = 100 bits (250),  Expect = 3e-24
+ Identities = 52/65 (80%), Positives = 57/65 (88%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIPF DA+AGEVPIAYVVRSP SSLTEV VQKFI  QV+
+Sbjct  454  QVAPAELEGLLLSHPEILDAVVIPFHDAKAGEVPIAYVVRSPNSSLTEVSVQKFIANQVA  513
+
+Query  69   LCRNL  73
+              + L
+Sbjct  514  PFKRL  518
+
+
+>TR:A0A2P5Q3T5_GOSBA A0A2P5Q3T5 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD33906 PE=4 SV=1
+Length=369
+
+ Score = 99.4 bits (246),  Expect = 4e-24
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI+DAV IP+PD EAGEVP+AYVVRSP SSLTE DV KFI KQV+
+Sbjct  226  QIAPAELEGLLVSHPEIVDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVLKFIAKQVA  285
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  286  PFKRLRKVTFISSVPKSVS  304
+
+
+>TR:A0A2I4HJ23_9ROSI A0A2I4HJ23 4-coumarate--CoA ligase-like 7 OS=Juglans regia OX=51240 
+GN=LOC109018470 PE=4 SV=1
+Length=114
+
+ Score = 93.6 bits (231),  Expect = 4e-24
+ Identities = 45/58 (78%), Positives = 52/58 (90%), Gaps = 0/58 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  66
+            +++PAE+EGLLLSHPEI DAVVIPFPD ++GEVP+AYVVRSP S LTE DVQKFI KQ
+Sbjct  57   QVSPAEIEGLLLSHPEISDAVVIPFPDPKSGEVPVAYVVRSPNSLLTEEDVQKFIGKQ  114
+
+
+>TR:A0A1J3GLV5_NOCCA A0A1J3GLV5 4-coumarate--CoA ligase-like 7 OS=Noccaea caerulescens 
+OX=107243 GN=LE_TR17194_c0_g1_i1_g.55107 PE=4 SV=1
+Length=541
+
+ Score = 100 bits (249),  Expect = 4e-24
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVPIA+VVRSP SS+TE  +QKFI KQV+
+Sbjct  447  QVAPAELEGLLVSHPEILDAVVIPFPDEEAGEVPIAFVVRSPDSSITEEVIQKFIAKQVA  506
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  507  PYKRLRRVSFISSVPKS  523
+
+
+>TR:A0A1J3CNG1_NOCCA A0A1J3CNG1 4-coumarate--CoA ligase-like 7 OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR3490_c0_g1_i1_g.11820 PE=4 SV=1
+Length=541
+
+ Score = 100 bits (249),  Expect = 4e-24
+ Identities = 54/77 (70%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPD EAGEVPIA+VVRSP SS+TE  +QKFI KQV+
+Sbjct  447  QVAPAELEGLLVSHPEILDAVVIPFPDEEAGEVPIAFVVRSPDSSITEEVIQKFIAKQVA  506
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  507  PYKRLRRVSFISSVPKS  523
+
+
+>TR:A0A078HKZ9_BRANA A0A078HKZ9 BnaC09g21890D protein OS=Brassica napus OX=3708 GN=BnaC09g21890D 
+PE=4 SV=1
+Length=542
+
+ Score = 100 bits (249),  Expect = 4e-24
+ Identities = 53/77 (69%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQKFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I +V KS
+Sbjct  508  PYKRLRRVSFISTVPKS  524
+
+
+>TR:A0A078I666_BRANA A0A078I666 BnaA09g19890D protein OS=Brassica napus OX=3708 GN=BnaA09g19890D 
+PE=4 SV=1
+Length=542
+
+ Score = 100 bits (249),  Expect = 4e-24
+ Identities = 53/77 (69%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQKFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I +V KS
+Sbjct  508  PYKRLRRVSFISTVPKS  524
+
+
+>TR:A0A0D3E813_BRAOL A0A0D3E813 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106318984 PE=4 SV=1
+Length=542
+
+ Score = 100 bits (249),  Expect = 4e-24
+ Identities = 53/77 (69%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  448  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQKFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I +V KS
+Sbjct  508  PYKRLRRVSFISTVPKS  524
+
+
+>TR:A0A218W9X8_PUNGR A0A218W9X8 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr025536 PE=4 SV=1
+Length=550
+
+ Score = 100 bits (248),  Expect = 6e-24
+ Identities = 51/77 (66%), Positives = 61/77 (79%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPD +AGEVPIAY+VRSP SS+ E DVQ+F+ KQV+
+Sbjct  456  QVAPAELEALLLSHPEILDAVVIPFPDEKAGEVPIAYIVRSPSSSIAETDVQEFVSKQVA  515
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV K+
+Sbjct  516  PHKRLRRVNFITSVPKT  532
+
+
+>TR:A0A2S3IU74_9POAL A0A2S3IU74 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G601200 PE=4 SV=1
+Length=560
+
+ Score = 100 bits (248),  Expect = 6e-24
+ Identities = 55/79 (70%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEI DA VI FPD EAGEVP+AYVVRSP SSL+E DVQ FIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEIHDAAVIRFPDTEAGEVPVAYVVRSPKSSLSEADVQNFIEKQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVTFVDSVPKSPS  536
+
+
+>TR:A0A2T7CHI9_9POAL A0A2T7CHI9 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G610800 PE=4 SV=1
+Length=560
+
+ Score = 100 bits (248),  Expect = 6e-24
+ Identities = 55/79 (70%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLLLSHPEI DA VI FPD EAGEVP+AYVVRSP SSL+E DVQ FIEKQV+
+Sbjct  458  QIAPAELEGLLLSHPEIHDAAVIRFPDTEAGEVPVAYVVRSPKSSLSEADVQNFIEKQVA  517
+
+Query  69   L---CRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  518  YYKRLRRVTFVDSVPKSPS  536
+
+
+>TR:A0A251VIB7_HELAN A0A251VIB7 Putative AMP-dependent synthetase and ligase family 
+protein OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr02g0055421 
+PE=4 SV=1
+Length=538
+
+ Score = 99.8 bits (247),  Expect = 8e-24
+ Identities = 55/79 (70%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DV+KFI +QV+
+Sbjct  444  QVAPAELEGLLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVKKFISEQVA  503
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  504  PYKRLKRVTFVNSVPKSAS  522
+
+
+>TR:M5W8J3_PRUPE M5W8J3 Uncharacterized protein OS=Prunus persica OX=3760 GN=PRUPE_6G109000 
+PE=4 SV=1
+Length=542
+
+ Score = 99.8 bits (247),  Expect = 8e-24
+ Identities = 54/79 (68%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AY VR+P SSLTE DV+ FI  QV+
+Sbjct  448  QVAPAELEGLLISHPEILDAVVIPFPDAEAGEVPVAYCVRTPNSSLTEEDVKNFIANQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  508  PFKRLRRVTFINSVPKSAS  526
+
+
+>TR:F6GW98_VITVI F6GW98 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_06s0061g00450 
+PE=4 SV=1
+Length=544
+
+ Score = 99.8 bits (247),  Expect = 8e-24
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV+ FI  QV+
+Sbjct  450  QVAPAELEALLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVKTFIANQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  510  PFKKLRRVSFINTVPKSAS  528
+
+
+>TR:A0A2G9GWE8_9LAMI A0A2G9GWE8 Acyl-CoA synthetase OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_17805 PE=4 SV=1
+Length=547
+
+ Score = 99.8 bits (247),  Expect = 8e-24
+ Identities = 55/79 (70%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVPIAYVVR+  SSLTE DV+KF+  QV+
+Sbjct  451  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPIAYVVRASNSSLTEEDVKKFVADQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRRVTFINSVPKSAS  529
+
+
+>TR:A5BUH4_VITVI A5BUH4 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VITISV_031619 
+PE=4 SV=1
+Length=663
+
+ Score = 99.8 bits (247),  Expect = 9e-24
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV+ FI  QV+
+Sbjct  569  QVAPAELEALLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVKTFIANQVA  628
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  629  PFKKLRRVSFINTVPKSAS  647
+
+
+>TR:A0A151TNK3_CAJCA A0A151TNK3 4-coumarate--CoA ligase-like 7 OS=Cajanus cajan OX=3821 
+GN=KK1_022208 PE=4 SV=1
+Length=539
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 53/79 (67%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI  QV+
+Sbjct  445  QIAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIANQVA  504
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV K+ S
+Sbjct  505  PFKRLRRVTFISSVPKTGS  523
+
+
+>TR:A0A1J3FFL0_NOCCA A0A1J3FFL0 4-coumarate--CoA ligase-like 7 OS=Noccaea caerulescens 
+OX=107243 GN=LC_TR1260_c0_g1_i1_g.4047 PE=4 SV=1
+Length=541
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 52/77 (68%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDAVVIP P+ EAGEVPIA+VVRSP SS+TE D+QKFI KQV+
+Sbjct  447  QVAPAELEGLLVSHPELLDAVVIPLPNVEAGEVPIAFVVRSPDSSITEEDIQKFIAKQVA  506
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  507  PYKRLRRVSFISSVPKS  523
+
+
+>TR:E4MVR7_EUTHA E4MVR7 mRNA, clone: RTFL01-04-L10 OS=Eutrema halophilum OX=98038 
+PE=2 SV=1
+Length=543
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 53/77 (69%), Positives = 61/77 (79%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+Q FI KQV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQAFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  509  PYKRLRRVSFISSVPKS  525
+
+
+>TR:V4LE97_EUTSA V4LE97 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10028563mg PE=4 SV=1
+Length=543
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 53/77 (69%), Positives = 61/77 (79%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP PD EAGEVPIA+VVRSP SS+TE D+Q FI KQV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPLPDEEAGEVPIAFVVRSPNSSITEEDIQAFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  509  PYKRLRRVSFISSVPKS  525
+
+
+>TR:A0A1U8LJM9_GOSHI A0A1U8LJM9 4-coumarate--CoA ligase-like 7 isoform X1 OS=Gossypium 
+hirsutum OX=3635 GN=LOC107927154 PE=4 SV=1
+Length=545
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI+DAV IP+PD EAGEVP+AYVVRSP SSLTE DV KFI KQV+
+Sbjct  451  QIAPAELEGLLVSHPEIVDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVLKFIAKQVA  510
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  511  PFKRLRKVTFISSVPKSVS  529
+
+
+>TR:A0A1D1Y9J4_9ARAE A0A1D1Y9J4 4-coumarate--CoA ligase-like 7 OS=Anthurium amnicola 
+OX=1678845 GN=4CLL7_2 PE=4 SV=1
+Length=546
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDA VIPFPDAEAGEVP+AYVV    SSLTEVDVQKFI +QV+
+Sbjct  452  QVAPAELEGLLLSHPEILDAAVIPFPDAEAGEVPVAYVVCRQHSSLTEVDVQKFIAEQVA  511
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  512  PFKRLRRVTFTDSVPKSAS  530
+
+
+>TR:I1LL16_SOYBN I1LL16 Uncharacterized protein OS=Glycine max OX=3847 GN=100808944 
+PE=4 SV=1
+Length=548
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI KQV+
+Sbjct  454  QVAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIAKQVA  513
+
+Query  69   LCRNL  73
+              + L
+Sbjct  514  PFKKL  518
+
+
+>TR:I1LL15_SOYBN I1LL15 Uncharacterized protein OS=Glycine max OX=3847 GN=100808944 
+PE=4 SV=1
+Length=557
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI KQV+
+Sbjct  463  QVAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIAKQVA  522
+
+Query  69   LCRNL  73
+              + L
+Sbjct  523  PFKKL  527
+
+
+>TR:A0A0R0HJB4_SOYBN A0A0R0HJB4 Uncharacterized protein OS=Glycine max OX=3847 GN=100808944 
+PE=4 SV=1
+Length=558
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 48/65 (74%), Positives = 58/65 (89%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEIL+AVV+P+PD EAGEVPIAYVVRSP SSLTE ++QKFI KQV+
+Sbjct  464  QVAPAELEGLLVSHPEILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIQKFIAKQVA  523
+
+Query  69   LCRNL  73
+              + L
+Sbjct  524  PFKKL  528
+
+
+>TR:A0A0D2QKS3_GOSRA A0A0D2QKS3 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_003G144900 PE=4 SV=1
+Length=517
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 54/79 (68%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI+DAV IP+PD EAGEVP+AYVVRSP SSLTE DV KFI KQV+
+Sbjct  423  QIAPAELEGLLVSHPEIVDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVLKFIAKQVA  482
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  483  PFKRLRKVTFVSSVPKSVS  501
+
+
+>TR:A0A0D2QTJ7_GOSRA A0A0D2QTJ7 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_003G144900 PE=4 SV=1
+Length=518
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 54/79 (68%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            +IAPAELEGLL+SHPEI+DAV IP+PD EAGEVP+AYVVRSP SSLTE DV KFI KQV+
+Sbjct  423  QIAPAELEGLLVSHPEIVDAVTIPYPDDEAGEVPVAYVVRSPNSSLTEEDVLKFIAKQVA  482
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  483  PFKRLRKVTFVSSVPKSVS  501
+
+
+>TR:A0A0L9TEL9_PHAAN A0A0L9TEL9 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan598s000200 PE=4 SV=1
+Length=537
+
+ Score = 99.0 bits (245),  Expect = 2e-23
+ Identities = 51/79 (65%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVV+P+PD EAGEVPIAYVVRSP SS+TE +++KFI  QV+
+Sbjct  443  QVAPAELEGLLISHPEILDAVVVPYPDDEAGEVPIAYVVRSPNSSVTEEEIKKFIADQVA  502
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV K++S
+Sbjct  503  PFKKLRRVSFISSVPKTSS  521
+
+
+>TR:A0A078I937_BRANA A0A078I937 BnaA09g19900D protein OS=Brassica napus OX=3708 GN=BnaA09g19900D 
+PE=4 SV=1
+Length=539
+
+ Score = 99.0 bits (245),  Expect = 2e-23
+ Identities = 50/77 (65%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDA+VIPFPD  AGEVPIA+VVRSP +S+TE D+QKFI KQV+
+Sbjct  445  QVAPAELEGLLVSHPELLDAIVIPFPDVYAGEVPIAFVVRSPNTSITEEDIQKFIAKQVA  504
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  505  PYKRLRRVSFVSSVPKS  521
+
+
+>TR:A0A291FH95_GLELI A0A291FH95 4-coumarate:CoA ligase OS=Glehnia littoralis OX=48119 
+GN=4CL PE=2 SV=1
+Length=544
+
+ Score = 99.0 bits (245),  Expect = 2e-23
+ Identities = 53/79 (67%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDAVVIPFPDAEAGEVP A++VR+P SSLTE DV+KFI +QV+
+Sbjct  450  QVAPAELEGLLVSHPDILDAVVIPFPDAEAGEVPSAHIVRAPNSSLTEEDVKKFISEQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  510  PFKRLRRVTFIKSVPKSAS  528
+
+
+>TR:A0A0S3SCI5_PHAAN A0A0S3SCI5 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.06G177700 PE=4 SV=1
+Length=551
+
+ Score = 99.0 bits (245),  Expect = 2e-23
+ Identities = 51/79 (65%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVV+P+PD EAGEVPIAYVVRSP SS+TE +++KFI  QV+
+Sbjct  457  QVAPAELEGLLISHPEILDAVVVPYPDDEAGEVPIAYVVRSPNSSVTEEEIKKFIADQVA  516
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV K++S
+Sbjct  517  PFKKLRRVSFISSVPKTSS  535
+
+
+>TR:A0A2P5BJU6_PARAD A0A2P5BJU6 4-coumarate-CoA ligase OS=Parasponia andersonii OX=3476 
+GN=PanOPCL4 PE=4 SV=1
+Length=543
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 54/79 (68%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSH EILDAVVIPFPD +AGEVPIAYVVR+  SSLT+ DVQ+FIEKQV+
+Sbjct  449  QVAPAELEGLLLSHSEILDAVVIPFPDEKAGEVPIAYVVRAQNSSLTQEDVQRFIEKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  509  PFKRLRRVTFVSSVPKSAS  527
+
+
+>TR:M4IQS1_HUMLU M4IQS1 CCL10 OS=Humulus lupulus OX=3486 PE=2 SV=1
+Length=543
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 51/71 (72%), Positives = 59/71 (83%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPD +AGEVPIA VVRSP SSL+E DVQ+FIEKQV+
+Sbjct  449  QVAPAELEALLLSHPEILDAVVIPFPDEKAGEVPIANVVRSPNSSLSEEDVQRFIEKQVA  508
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  509  PFKKLRRVTFV  519
+
+
+>TR:A0A2P5FVC4_9ROSA A0A2P5FVC4 4-coumarate-CoA ligase OS=Trema orientalis OX=63057 
+GN=TorOPCL4 PE=4 SV=1
+Length=546
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 54/79 (68%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSH EILDAVVIPFPD +AGEVPIAYVVR+  SSLT+ DVQ+FIEKQV+
+Sbjct  452  QVAPAELEGLLLSHSEILDAVVIPFPDEKAGEVPIAYVVRAQNSSLTQEDVQRFIEKQVA  511
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  512  PFKRLRRVTFVSSVPKSAS  530
+
+
+>TR:S4WCP0_CHOAR S4WCP0 Ca4CL10 OS=Chosenia arbutifolia OX=75699 PE=2 SV=1
+Length=548
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 54/79 (68%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP S+L   DVQKFI  QV+
+Sbjct  454  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSTLAGEDVQKFIADQVA  513
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  514  PFKRLRKVTFINSVPKSAS  532
+
+
+>TR:U3PIV4_PHAVU U3PIV4 4-coumarate:coenzyme A ligase 8 OS=Phaseolus vulgaris 
+OX=3885 PE=4 SV=1
+Length=548
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 51/79 (65%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVV+P+PD EAGEVPIAYVVRSP SSLTE +++KFI  QV+
+Sbjct  454  QVAPAELEGLLISHPEILDAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIKKFIANQVA  513
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV +++S
+Sbjct  514  PFKKLRRVTFISSVPRTSS  532
+
+
+>TR:V7AHH4_PHAVU V7AHH4 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_011G084300g PE=4 SV=1
+Length=548
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 51/79 (65%), Positives = 64/79 (81%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVV+P+PD EAGEVPIAYVVRSP SSLTE +++KFI  QV+
+Sbjct  454  QVAPAELEGLLISHPEILDAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIKKFIANQVA  513
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV +++S
+Sbjct  514  PFKKLRRVTFISSVPRTSS  532
+
+
+>TR:A0A059XSM2_9MAGN A0A059XSM2 4-coumarate-CoA ligase OS=Sinopodophyllum hexandrum 
+OX=93608 PE=2 SV=1
+Length=533
+
+ Score = 98.2 bits (243),  Expect = 3e-23
+ Identities = 51/65 (78%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLL  PEILDAVVIPFPDAEAGEVPIAYVVRSP SSL E DVQ FI KQV+
+Sbjct  439  QVAPAELEGLLLPPPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLNEEDVQNFIAKQVA  498
+
+Query  69   LCRNL  73
+              + L
+Sbjct  499  PFKKL  503
+
+
+>TR:A0A022PR31_ERYGU A0A022PR31 Uncharacterized protein OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a004091mg PE=4 SV=1
+Length=544
+
+ Score = 98.2 bits (243),  Expect = 3e-23
+ Identities = 52/77 (68%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEI DAVVIPFPDAEAGEVP AYVVR+P SSL+E D++KFI +QV+
+Sbjct  450  QVAPAELEGLLVSHPEISDAVVIPFPDAEAGEVPAAYVVRAPNSSLSEEDIKKFIAEQVA  509
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  510  PFKRLRRVTFITSVPKS  526
+
+
+>TR:A0A1R3HPY2_COCAP A0A1R3HPY2 AMP-dependent synthetase/ligase OS=Corchorus capsularis 
+OX=210143 GN=CCACVL1_17826 PE=4 SV=1
+Length=546
+
+ Score = 98.2 bits (243),  Expect = 3e-23
+ Identities = 54/80 (68%), Positives = 66/80 (83%), Gaps = 5/80 (6%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIPFPD +AGEVPI+YVVR+P SSLTE DV+KFI ++V+
+Sbjct  452  QVAPAELEGLLLSHPEILDAVVIPFPDDKAGEVPISYVVRAPNSSLTEEDVKKFIAEKVA  511
+
+Query  69   ----LCRNLGLIVSVGKSNS  84
+                LCR +  + SV +S S
+Sbjct  512  PYKRLCR-VTFVSSVPRSVS  530
+
+
+>TR:S4WBH6_CHOAR S4WBH6 Ca4CL12 OS=Chosenia arbutifolia OX=75699 PE=2 SV=1
+Length=529
+
+ Score = 97.8 bits (242),  Expect = 4e-23
+ Identities = 48/60 (80%), Positives = 54/60 (90%), Gaps = 0/60 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIP+PDAEAGEVP+AYVVRSP S+L   DVQKFI  QVS
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPYPDAEAGEVPVAYVVRSPNSTLAGEDVQKFIADQVS  508
+
+
+>TR:A0A200Q9A1_9MAGN A0A200Q9A1 AMP-dependent synthetase/ligase OS=Macleaya cordata 
+OX=56857 GN=BVC80_1731g33 PE=4 SV=1
+Length=542
+
+ Score = 97.8 bits (242),  Expect = 4e-23
+ Identities = 54/79 (68%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSH EI+DAVVIP+PDAEAGEVP+AYVVRS  SSLTE DV+KFI KQV+
+Sbjct  448  QVAPAELEGLLLSHAEIVDAVVIPYPDAEAGEVPVAYVVRSTNSSLTEEDVKKFIAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  508  PFKRLRRVTFINTVPKSAS  526
+
+
+>TR:A0A2G5D214_AQUCA A0A2G5D214 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_03000071v1 PE=4 SV=1
+Length=543
+
+ Score = 97.8 bits (242),  Expect = 4e-23
+ Identities = 55/79 (70%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLL+HPEI DAVVIPFPDAEAGEVPIAYVVRSP SSLTE  V+ FI KQV+
+Sbjct  449  QVAPAELEGLLLTHPEINDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEAVKNFIAKQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  509  PFKRLRRVTFINTVPKSAS  527
+
+
+>TR:A0A1P8VEX6_RUBCO A0A1P8VEX6 4-coumarate-CoA ligase-like protein 2 OS=Rubia cordifolia 
+OX=339321 GN=4CL2 PE=2 SV=1
+Length=544
+
+ Score = 97.8 bits (242),  Expect = 4e-23
+ Identities = 55/77 (71%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  11   APAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS--  68
+            APAELE LL+SHPEILDAVVIPFPDAEAGEVPIAYVVRSP SSLTE DV+ FI  QV+  
+Sbjct  452  APAELEALLVSHPEILDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEDVKTFIANQVAPF  511
+
+Query  69   -LCRNLGLIVSVGKSNS  84
+               R +  I +V KS S
+Sbjct  512  KKLRRVSFINTVPKSAS  528
+
+
+>TR:U3N8B2_SALMI U3N8B2 4-coumarate:coenzyme A ligase 5 OS=Salvia miltiorrhiza 
+OX=226208 GN=4CL5 PE=2 SV=1
+Length=545
+
+ Score = 97.4 bits (241),  Expect = 6e-23
+ Identities = 53/80 (66%), Positives = 63/80 (79%), Gaps = 3/80 (4%)
+
+Query  8    LEIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            L++APAELEGLL+SHPEI DAVVIP+PDAEAGEVP AYVVR+P SSL+E D++KFI  QV
+Sbjct  450  LQVAPAELEGLLVSHPEISDAVVIPYPDAEAGEVPAAYVVRAPNSSLSEEDIKKFIADQV  509
+
+Query  68   S---LCRNLGLIVSVGKSNS  84
+            +     R +  I SV KS S
+Sbjct  510  APFKRLRRVTFINSVPKSAS  529
+
+
+>TR:A0A0K9Q443_ZOSMR A0A0K9Q443 4-coumarate--CoA ligase like OS=Zostera marina OX=29655 
+GN=ZOSMA_107G00380 PE=4 SV=1
+Length=560
+
+ Score = 97.4 bits (241),  Expect = 6e-23
+ Identities = 54/79 (68%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVV+P PD +AGEVPIAYVVRS  SSLTE  VQKFI +QVS
+Sbjct  466  QVAPAELEGLLLSHPEILDAVVVPLPDDQAGEVPIAYVVRSAQSSLTEKIVQKFITQQVS  525
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     + SV KS S
+Sbjct  526  PFKRLHKVSFVTSVPKSPS  544
+
+
+>TR:A0A1R3HTD5_9ROSI A0A1R3HTD5 AMP-dependent synthetase/ligase OS=Corchorus olitorius 
+OX=93759 GN=COLO4_26952 PE=4 SV=1
+Length=524
+
+ Score = 97.1 bits (240),  Expect = 7e-23
+ Identities = 49/71 (69%), Positives = 60/71 (85%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEILDAVVIPFPD +AGEVPI+YVVR+P SSLTE DV+KFI ++V+
+Sbjct  430  QVAPAELEGLLLSHPEILDAVVIPFPDDKAGEVPISYVVRAPNSSLTEEDVKKFIVEKVA  489
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  490  PYKRLRRVTFV  500
+
+
+>TR:A0A2P6QGZ0_ROSCH A0A2P6QGZ0 Putative AMP-dependent synthetase/ligase, AMP-binding 
+enzyme domain-containing protein OS=Rosa chinensis OX=74649 
+GN=RchiOBHm_Chr5g0057621 PE=4 SV=1
+Length=543
+
+ Score = 97.1 bits (240),  Expect = 8e-23
+ Identities = 48/65 (74%), Positives = 56/65 (86%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEILDAVVIPFPDAEAGEVP+AYVVRS  SSLTE D++ FI  QV+
+Sbjct  449  QVAPAELEGLLVSHPEILDAVVIPFPDAEAGEVPVAYVVRSLNSSLTEEDIKSFIASQVA  508
+
+Query  69   LCRNL  73
+              + L
+Sbjct  509  SFKRL  513
+
+
+>TR:A0A146AUQ2_SCUBA A0A146AUQ2 CoA ligase-like protein 7 OS=Scutellaria baicalensis 
+OX=65409 GN=CLL-7 PE=2 SV=1
+Length=544
+
+ Score = 97.1 bits (240),  Expect = 8e-23
+ Identities = 52/77 (68%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEI DAVVIPFPDAEAGEVPIAYVVR+P SSL+E D++ FI +QV+
+Sbjct  450  QVAPAELEGLLVSHPEISDAVVIPFPDAEAGEVPIAYVVRAPNSSLSEEDIKNFIAEQVA  509
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  510  PFKRLRRVTFINSVPKS  526
+
+
+>TR:A0A2P5Q5Y2_GOSBA A0A2P5Q5Y2 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD33212 PE=4 SV=1
+Length=209
+
+ Score = 92.8 bits (229),  Expect = 9e-23
+ Identities = 49/79 (62%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+I DAVVIPFPD +AGEVPIAYVVR P SSLTE D ++F+  +V+
+Sbjct  115  QVAPAELEGLLLSHPDITDAVVIPFPDVKAGEVPIAYVVRDPNSSLTEEDFKQFVANKVA  174
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  175  HYKKLRRITFLESVPKSAS  193
+
+
+>TR:A0A2G5D130_AQUCA A0A2G5D130 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_03000071v1 PE=4 SV=1
+Length=520
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 49/59 (83%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            ++APAELEGLLL+HPEI DAVVIPFPDAEAGEVPIAYVVRSP SSLTE  V+ FI KQV
+Sbjct  449  QVAPAELEGLLLTHPEINDAVVIPFPDAEAGEVPIAYVVRSPNSSLTEEAVKNFIAKQV  507
+
+
+>TR:A0A087GQR9_ARAAL A0A087GQR9 Uncharacterized protein OS=Arabis alpina OX=50452 
+GN=AALP_AA6G213500 PE=4 SV=1
+Length=542
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 51/77 (66%), Positives = 60/77 (78%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDA VIPFPD EAGEVPIA+VVRSP SS+TE D+Q F+ KQV+
+Sbjct  448  QVAPAELEDLLVSHPEILDAAVIPFPDEEAGEVPIAFVVRSPNSSITEKDIQDFVAKQVA  507
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  508  PYKRLRRVSFINSVPKS  524
+
+
+>TR:A0A1L6K5S0_POPTO A0A1L6K5S0 4-coumarate--CoA ligase family protein 10 OS=Populus 
+tomentosa OX=118781 PE=2 SV=1
+Length=543
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 53/79 (67%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDAVV P+PDAEAGEVP+AYVVRSP S+LTE D QKFI  QV+
+Sbjct  449  QVAPAELEELLVSHPEILDAVVTPYPDAEAGEVPVAYVVRSPDSALTEEDFQKFISDQVA  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  PFKRLRKVTFINSVPKSAS  527
+
+
+>TR:A0A2J6JGE9_LACSA A0A2J6JGE9 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_6X43841 PE=4 SV=1
+Length=538
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 53/79 (67%), Positives = 62/79 (78%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE +LLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DV+KFI K+V+
+Sbjct  444  QVAPAELEAVLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVKKFIAKEVA  503
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  504  PYKRLKRVTFVNSVPKSAS  522
+
+
+>TR:A0A078HQV5_BRANA A0A078HQV5 BnaC09g21910D protein OS=Brassica napus OX=3708 GN=BnaC09g21910D 
+PE=4 SV=1
+Length=539
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 48/77 (62%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDA+VIPFPD  AGEVPIA+VVRSP +++TE D+QKFI +QV+
+Sbjct  445  QVAPAELEGLLVSHPELLDAIVIPFPDVYAGEVPIAFVVRSPNTTITEEDIQKFIAEQVA  504
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  505  PYKRLRRVSFVSSVPKS  521
+
+
+>TR:A0A0D3E814_BRAOL A0A0D3E814 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106316391 PE=4 SV=1
+Length=539
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 48/77 (62%), Positives = 62/77 (81%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDA+VIPFPD  AGEVPIA+VVRSP +++TE D+QKFI +QV+
+Sbjct  445  QVAPAELEGLLVSHPELLDAIVIPFPDVYAGEVPIAFVVRSPNTTITEEDIQKFIAEQVA  504
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  + SV KS
+Sbjct  505  PYKRLRRVSFVSSVPKS  521
+
+
+>TR:A0A1J3ITD7_NOCCA A0A1J3ITD7 4-coumarate--CoA ligase-like 7 OS=Noccaea caerulescens 
+OX=107243 GN=MP_TR1826_c0_g1_i1_g.5091 PE=4 SV=1
+Length=541
+
+ Score = 95.9 bits (237),  Expect = 2e-22
+ Identities = 51/77 (66%), Positives = 61/77 (79%), Gaps = 3/77 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPE+LDAVVIP P+ EAGEVPIA+VVRSP SS+TE  +QKFI KQV+
+Sbjct  447  QVAPAELEGLLVSHPELLDAVVIPLPNVEAGEVPIAFVVRSPDSSITEEVIQKFIAKQVA  506
+
+Query  69   ---LCRNLGLIVSVGKS  82
+                 R +  I SV KS
+Sbjct  507  PYKRLRRVSFISSVPKS  523
+
+
+>TR:A0A1S3VPY6_VIGRR A0A1S3VPY6 4-coumarate--CoA ligase-like 7 OS=Vigna radiata var. 
+radiata OX=3916 GN=LOC106777374 PE=4 SV=1
+Length=552
+
+ Score = 95.5 bits (236),  Expect = 3e-22
+ Identities = 49/79 (62%), Positives = 63/79 (80%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP IL+AVV+P+PD EAGEVPIAYVVRSP SSLTE +++KFI  QV+
+Sbjct  458  QVAPAELEGLLISHPGILEAVVVPYPDDEAGEVPIAYVVRSPNSSLTEEEIKKFIADQVA  517
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I S+ K++S
+Sbjct  518  PFKKLRRVSFISSIPKTSS  536
+
+
+>TR:A0A2H9ZRK0_9ASPA A0A2H9ZRK0 4-coumarate--CoA ligase-like 7 OS=Apostasia shenzhenica 
+OX=1088818 GN=4CLL7 PE=4 SV=1
+Length=548
+
+ Score = 95.1 bits (235),  Expect = 4e-22
+ Identities = 52/79 (66%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHP+ILDA VIPFPDAEAGEVP AYVVR+  SSLTE +V+KFI  QV+
+Sbjct  454  QVAPAELEGLLISHPQILDAAVIPFPDAEAGEVPAAYVVRTLTSSLTEDEVKKFIADQVA  513
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  514  PFKRVRRVSFIDSVPKSAS  532
+
+
+>TR:A0A0K9NPU7_ZOSMR A0A0K9NPU7 4-coumarate--CoA ligase like OS=Zostera marina OX=29655 
+GN=ZOSMA_7G00380 PE=4 SV=1
+Length=557
+
+ Score = 95.1 bits (235),  Expect = 4e-22
+ Identities = 54/89 (61%), Positives = 63/89 (71%), Gaps = 3/89 (3%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SHPEI+DAVVIP PD EAGEVPIAYVVRS  SS+TE DV+ FI KQV+
+Sbjct  463  QVAPAELEGLLISHPEIVDAVVIPLPDDEAGEVPIAYVVRSAKSSVTEKDVKFFIAKQVA  522
+
+Query  69   LCRNL---GLIVSVGKSNSHSTCHSSMER  94
+              + L     + SV KS S       M R
+Sbjct  523  PFKRLHKVSFVKSVPKSASGKILRREMIR  551
+
+
+>TR:A0A2I0XAV2_9ASPA A0A2I0XAV2 4-coumarate--CoA ligase-like 7 OS=Dendrobium catenatum 
+OX=906689 GN=4CLL7 PE=4 SV=1
+Length=601
+
+ Score = 95.1 bits (235),  Expect = 4e-22
+ Identities = 46/58 (79%), Positives = 52/58 (90%), Gaps = 0/58 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQ  66
+            ++APAELEGLLLSHP+I+DAVVIPFPD EAGEVPIAYVVR+  SSLTE +VQKFI  Q
+Sbjct  449  QVAPAELEGLLLSHPDIIDAVVIPFPDVEAGEVPIAYVVRTANSSLTEAEVQKFIANQ  506
+
+
+>TR:A0A2I4F9I8_9ROSI A0A2I4F9I8 uncharacterized protein LOC108996746 OS=Juglans regia 
+OX=51240 GN=LOC108996746 PE=4 SV=1
+Length=1191
+
+ Score = 95.1 bits (235),  Expect = 4e-22
+ Identities = 46/59 (78%), Positives = 53/59 (90%), Gaps = 0/59 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            +++PAE+EGLLLSHPEI DAVVIPFPD ++GEVP+AYVVRSP S LTE DVQKFI KQV
+Sbjct  840  QVSPAEIEGLLLSHPEISDAVVIPFPDPKSGEVPVAYVVRSPNSLLTEEDVQKFIGKQV  898
+
+
+>TR:A0A118JTR2_CYNCS A0A118JTR2 AMP-binding, conserved site-containing protein OS=Cynara 
+cardunculus var. scolymus OX=59895 GN=Ccrd_007234 PE=4 
+SV=1
+Length=1065
+
+ Score = 94.7 bits (234),  Expect = 6e-22
+ Identities = 49/71 (69%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSL E DV+KFI +QV+
+Sbjct  444  QVAPAELEALLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLNEEDVKKFIAEQVA  503
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  504  PYKRLRRVTFV  514
+
+
+ Score = 90.5 bits (223),  Expect = 2e-20
+ Identities = 47/71 (66%), Positives = 55/71 (77%), Gaps = 0/71 (0%)
+
+Query  9     EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+             ++APAELE LLLSH EILDA VIPFPDAEAGEVPI +VVRSP SSL E DV+KFI + V+
+Sbjct  971   QVAPAELEALLLSHSEILDAAVIPFPDAEAGEVPIGFVVRSPNSSLNEEDVKKFIAELVA  1030
+
+Query  69    LCRNLGLIVSV  79
+               + L  +  V
+Sbjct  1031  PYKRLRRVTFV  1041
+
+
+>TR:A0A2P4LTA8_QUESU A0A2P4LTA8 4-coumarate--coa ligase-like 7 OS=Quercus suber OX=58331 
+GN=CFP56_58540 PE=4 SV=1
+Length=325
+
+ Score = 92.8 bits (229),  Expect = 7e-22
+ Identities = 47/65 (72%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDAVV PFPDA+AGEVP+A VVRSP S LTE DVQKFI  QV+
+Sbjct  231  QVAPAELEGLLISHTEILDAVVFPFPDAKAGEVPVANVVRSPNSLLTEEDVQKFIANQVA  290
+
+Query  69   LCRNL  73
+              + L
+Sbjct  291  PFKRL  295
+
+
+>TR:A0A2U1MZK7_ARTAN A0A2U1MZK7 AMP-binding, conserved site-containing protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA325700 PE=4 SV=1
+Length=537
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 53/79 (67%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DV+KFI + V+
+Sbjct  443  QVAPAELEALLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVKKFIAELVA  502
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  503  PYKRLKRVTFVNSVPKSAS  521
+
+
+>TR:A0A2U1MZH0_ARTAN A0A2U1MZH0 AMP-binding, conserved site-containing protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA325700 PE=4 SV=1
+Length=538
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 53/79 (67%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DV+KFI + V+
+Sbjct  444  QVAPAELEALLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVKKFIAELVA  503
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  504  PYKRLKRVTFVNSVPKSAS  522
+
+
+>TR:A0A2U1MZN2_ARTAN A0A2U1MZN2 AMP-binding, conserved site-containing protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA325700 PE=4 SV=1
+Length=538
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 53/79 (67%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSH EILDA VIPFPDAEAGEVPIA+VVRSP SSLTE DV+KFI + V+
+Sbjct  444  QVAPAELEALLLSHSEILDAAVIPFPDAEAGEVPIAFVVRSPNSSLTEEDVKKFIAELVA  503
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  504  PYKRLKRVTFVNSVPKSAS  522
+
+
+>TR:A0A2H4UXV8_CARTI A0A2H4UXV8 4CL2 OS=Carthamus tinctorius OX=4222 PE=2 SV=1
+Length=538
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 49/71 (69%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDAVVIPFPDAEAGEVPIA+VVRSP S L   DV+KFI +QV+
+Sbjct  444  QVAPAELEALLLSHPEILDAVVIPFPDAEAGEVPIAFVVRSPNSLLNGEDVKKFIAEQVA  503
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  504  PYKRLRQVTFV  514
+
+
+>TR:A0A0B0PPS7_GOSAR A0A0B0PPS7 4-coumarate--CoA ligase-like 7 OS=Gossypium arboreum 
+OX=29729 GN=F383_33584 PE=4 SV=1
+Length=443
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  10   IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+            IAPAELEGLL+SHPEILDAV IP+PD EAGEVP+AY+VRSP SSLT+   QKFI KQV+ 
+Sbjct  350  IAPAELEGLLVSHPEILDAVTIPYPDDEAGEVPVAYLVRSPNSSLTKEIFQKFIAKQVAP  409
+
+Query  70   CRNLGLIVSV  79
+             + L  + S+
+Sbjct  410  LKWLWKVTSI  419
+
+
+>TR:A0A0B0PCQ9_GOSAR A0A0B0PCQ9 4-coumarate--CoA ligase-like 7 OS=Gossypium arboreum 
+OX=29729 GN=F383_29594 PE=4 SV=1
+Length=453
+
+ Score = 94.0 bits (232),  Expect = 7e-22
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  10   IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+            IAPAELEGLL+SHPEILDAV IP+PD EAGEVP+AY+VRSP SSLT+   QKFI KQV+ 
+Sbjct  360  IAPAELEGLLVSHPEILDAVTIPYPDDEAGEVPVAYLVRSPNSSLTKEIFQKFIAKQVAP  419
+
+Query  70   CRNLGLIVSV  79
+             + L  + S+
+Sbjct  420  LKWLWKVTSI  429
+
+
+>TR:A0A2P5WRY1_GOSBA A0A2P5WRY1 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA26825 PE=4 SV=1
+Length=465
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 48/70 (69%), Positives = 57/70 (81%), Gaps = 0/70 (0%)
+
+Query  10   IAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+            IAPAELEGLL+SHPEILDAV IP+PD EAGEVP+AY+VRSP SSLT+   QKFI KQV+ 
+Sbjct  372  IAPAELEGLLVSHPEILDAVTIPYPDDEAGEVPVAYLVRSPNSSLTKEIFQKFIAKQVAP  431
+
+Query  70   CRNLGLIVSV  79
+             + L  + S+
+Sbjct  432  LKWLWKVTSI  441
+
+
+>TR:A0A1S3CIB0_CUCME A0A1S3CIB0 4-coumarate--CoA ligase-like 7 OS=Cucumis melo OX=3656 
+GN=LOC103501298 PE=4 SV=1
+Length=543
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 52/79 (66%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDAVVIP+PD EAGEVPIAY+VRS  SSLTE D+ KFI  QVS
+Sbjct  449  QVAPAELEALLVSHPEILDAVVIPYPDEEAGEVPIAYIVRSANSSLTEEDILKFIADQVS  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I +V KS S
+Sbjct  509  PYKRLRRVTFISNVPKSVS  527
+
+
+>TR:A0A067F9W4_CITSI A0A067F9W4 Uncharacterized protein (Fragment) OS=Citrus sinensis 
+OX=2711 GN=CISIN_1g0436012mg PE=4 SV=1
+Length=148
+
+ Score = 88.6 bits (218),  Expect = 9e-22
+ Identities = 44/56 (79%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  14   ELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVSL  69
+            ELEG+L+SHPEILDAVVIPFPD EAGEVPIAYVVRSP SSLT+ DVQKF+     L
+Sbjct  93   ELEGVLVSHPEILDAVVIPFPDPEAGEVPIAYVVRSPNSSLTKEDVQKFVANDSQL  148
+
+
+>TR:A0A0A0LXU2_CUCSA A0A0A0LXU2 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_1G108800 PE=4 SV=1
+Length=543
+
+ Score = 93.6 bits (231),  Expect = 1e-21
+ Identities = 54/79 (68%), Positives = 59/79 (75%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEILDAVVIP PD EAGEVPIAYVVRS  SSLTE D+ KFI  QVS
+Sbjct  449  QVAPAELEALLVSHPEILDAVVIPCPDEEAGEVPIAYVVRSANSSLTEEDILKFIADQVS  508
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV KS S
+Sbjct  509  PYKRLRRVTFISSVPKSVS  527
+
+
+>TR:A0A251VKR8_HELAN A0A251VKR8 Putative AMP-dependent synthetase/ligase, AMP-binding 
+enzyme C-terminal domain protein OS=Helianthus annuus OX=4232 
+GN=HannXRQ_Chr02g0055431 PE=4 SV=1
+Length=574
+
+ Score = 93.6 bits (231),  Expect = 1e-21
+ Identities = 51/79 (65%), Positives = 61/79 (77%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSH EIL+A VIPFPD EAGEVP+A+VVRSP S LTE DV+KFI +QV+
+Sbjct  480  QVAPAELEGLLLSHSEILNAAVIPFPDTEAGEVPVAFVVRSPDSLLTEEDVKKFISEQVA  539
+
+Query  69   LCRNL---GLIVSVGKSNS  84
+              + L     + SV KS S
+Sbjct  540  PYKRLKKVTFVSSVPKSAS  558
+
+
+>TR:A0A061ESW3_THECC A0A061ESW3 AMP-dependent synthetase and ligase family protein 
+OS=Theobroma cacao OX=3641 GN=TCM_022253 PE=4 SV=1
+Length=203
+
+ Score = 89.4 bits (220),  Expect = 2e-21
+ Identities = 43/65 (66%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEI+D VVIPFPD +AGEVP+AY+VR+P SSL E DV+ FI ++V+
+Sbjct  109  QVAPAELEGLLLSHPEIVDVVVIPFPDVKAGEVPMAYIVRAPNSSLNEDDVKIFIAEKVA  168
+
+Query  69   LCRNL  73
+              + L
+Sbjct  169  PYKRL  173
+
+
+>TR:A0A2P4LTB7_QUESU A0A2P4LTB7 4-coumarate--coa ligase-like 7 OS=Quercus suber OX=58331 
+GN=CFP56_58540 PE=4 SV=1
+Length=368
+
+ Score = 92.0 bits (227),  Expect = 2e-21
+ Identities = 46/59 (78%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            ++APAELEGLL+SH EILDAVV PFPDA+AGEVP+A VVRSP S LTE DVQKFI  QV
+Sbjct  231  QVAPAELEGLLISHTEILDAVVFPFPDAKAGEVPVANVVRSPNSLLTEEDVQKFIANQV  289
+
+
+>TR:A0A067K282_JATCU A0A067K282 Uncharacterized protein OS=Jatropha curcas OX=180498 
+GN=JCGZ_16547 PE=4 SV=1
+Length=479
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 47/59 (80%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            ++APAELEGLLLSHPEILDAVV PFP ++AG VPIAYVV SP SSLTE DVQKFI +QV
+Sbjct  404  QVAPAELEGLLLSHPEILDAVVFPFPYSKAGGVPIAYVVHSPDSSLTEEDVQKFIVEQV  462
+
+
+>TR:A0A2J6JG93_LACSA A0A2J6JG93 Uncharacterized protein OS=Lactuca sativa OX=4236 
+GN=LSAT_6X43881 PE=4 SV=1
+Length=538
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 48/71 (68%), Positives = 57/71 (80%), Gaps = 0/71 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSH EILDA VIPFP+ EAGEVPIA+VVRSP SSLTE DV+KFI +QV+
+Sbjct  444  QVAPAELEALLLSHSEILDAAVIPFPNMEAGEVPIAFVVRSPNSSLTEEDVKKFIAEQVA  503
+
+Query  69   LCRNLGLIVSV  79
+              + L  +  V
+Sbjct  504  PYKRLKRVTFV  514
+
+
+>TR:A0A0D2S456_GOSRA A0A0D2S456 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_006G162900 PE=4 SV=1
+Length=546
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 49/79 (62%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+I DAVVIPFPD +AGEVPIAYVVR P SSLTE D ++F+  +V+
+Sbjct  452  QVAPAELEGLLLSHPDITDAVVIPFPDVKAGEVPIAYVVRDPNSSLTEEDFKQFVANKVA  511
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  512  HYKKLRRITFLESVPKSAS  530
+
+
+>TR:A0A1U8JJQ0_GOSHI A0A1U8JJQ0 4-coumarate--CoA ligase-like 7 OS=Gossypium hirsutum 
+OX=3635 GN=LOC107907703 PE=4 SV=1
+Length=538
+
+ Score = 92.4 bits (228),  Expect = 3e-21
+ Identities = 49/79 (62%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+I DAVVIPFPD +AGEVPIAYVVR P SSLTE D ++F+  +V+
+Sbjct  444  QVAPAELEGLLLSHPDITDAVVIPFPDVKAGEVPIAYVVRDPNSSLTEEDFKQFVANKVA  503
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  504  HYKELRKITFLESVPKSAS  522
+
+
+>TR:A0A1U8I6H2_GOSHI A0A1U8I6H2 4-coumarate--CoA ligase-like 7 isoform X1 OS=Gossypium 
+hirsutum OX=3635 GN=LOC107891158 PE=4 SV=1
+Length=546
+
+ Score = 92.4 bits (228),  Expect = 3e-21
+ Identities = 49/79 (62%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHP+I DAVVIPFPD +AGEVPIAYVVR P SSLTE D ++F+  +V+
+Sbjct  452  QVAPAELEGLLLSHPDITDAVVIPFPDVKAGEVPIAYVVRDPNSSLTEEDFKQFVANKVA  511
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + SV KS S
+Sbjct  512  HYKELRKITFLESVPKSAS  530
+
+
+>TR:A0A2U1KAE0_ARTAN A0A2U1KAE0 AMP-binding, conserved site-containing protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA622090 PE=4 SV=1
+Length=539
+
+ Score = 92.0 bits (227),  Expect = 4e-21
+ Identities = 52/79 (66%), Positives = 58/79 (73%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LLLSHPEILDA VIP PD EAGEVPIAYVV SP SSLT+ DV  FI KQV+
+Sbjct  445  QVAPAELEALLLSHPEILDAAVIPLPDVEAGEVPIAYVVLSPNSSLTQEDVINFIAKQVA  504
+
+Query  69   LCRNLGLIV---SVGKSNS  84
+              + L  +    SV KS S
+Sbjct  505  PYKRLRWVTFVNSVPKSAS  523
+
+
+>TR:A0A2P6PCD1_ROSCH A0A2P6PCD1 Putative AMP-dependent synthetase/ligase, AMP-binding 
+enzyme domain-containing protein OS=Rosa chinensis OX=74649 
+GN=RchiOBHm_Chr7g0218711 PE=4 SV=1
+Length=343
+
+ Score = 90.5 bits (223),  Expect = 6e-21
+ Identities = 43/59 (73%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQV  67
+            ++ P ELEGLLL+HPEILDAVVIP+PDA+AGEVP AYVVR P S LTE D+ KF+EK V
+Sbjct  235  QVTPTELEGLLLTHPEILDAVVIPYPDAKAGEVPTAYVVREPNSLLTEQDILKFVEKLV  293
+
+
+>TR:S8CZ23_9LAMI S8CZ23 Uncharacterized protein (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_04447 PE=4 SV=1
+Length=540
+
+ Score = 90.9 bits (224),  Expect = 1e-20
+ Identities = 45/79 (57%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLL+SH EILDA V+P+PD EAG+VP+A+VVR P SSL+E DV+KF+  QV+
+Sbjct  450  QVAPAELEGLLISHDEILDAAVVPYPDEEAGQVPVAFVVRLPTSSLSEEDVKKFVADQVA  509
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  + +V KS S
+Sbjct  510  PFKRLRRVSFVTAVPKSAS  528
+
+
+>TR:A0A061ES94_THECC A0A061ES94 AMP-dependent synthetase and ligase family protein, 
+putative OS=Theobroma cacao OX=3641 GN=TCM_022248 PE=4 SV=1
+Length=617
+
+ Score = 90.5 bits (223),  Expect = 2e-20
+ Identities = 44/65 (68%), Positives = 55/65 (85%), Gaps = 0/65 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELEGLLLSHPEI+D VVIPFPD +AGEVPIAY+VR+P SSL E DV+ FI ++V+
+Sbjct  523  QVAPAELEGLLLSHPEIVDVVVIPFPDVKAGEVPIAYIVRAPNSSLNEDDVKIFIAEKVA  582
+
+Query  69   LCRNL  73
+              + L
+Sbjct  583  PYKRL  587
+
+
+>TR:A0A072UJR1_MEDTR A0A072UJR1 4-coumarate:CoA ligase-like protein OS=Medicago truncatula 
+OX=3880 GN=25492399 PE=4 SV=1
+Length=542
+
+ Score = 90.1 bits (222),  Expect = 2e-20
+ Identities = 49/79 (62%), Positives = 60/79 (76%), Gaps = 3/79 (4%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEI DAVV+PFPD EAGEVPIAYVVR P SSL+E +++KFI  QV+
+Sbjct  448  QVAPAELEDLLVSHPEIQDAVVVPFPDDEAGEVPIAYVVRLPNSSLSEEEIKKFIANQVA  507
+
+Query  69   ---LCRNLGLIVSVGKSNS  84
+                 R +  I SV K+ S
+Sbjct  508  PFKRLRRVTFINSVPKTAS  526
+
+
+>TR:A0A1S2Y0Y2_CICAR A0A1S2Y0Y2 4-coumarate--CoA ligase-like 7 OS=Cicer arietinum 
+OX=3827 GN=LOC101514356 PE=4 SV=1
+Length=558
+
+ Score = 90.1 bits (222),  Expect = 2e-20
+ Identities = 44/73 (60%), Positives = 58/73 (79%), Gaps = 0/73 (0%)
+
+Query  9    EIAPAELEGLLLSHPEILDAVVIPFPDAEAGEVPIAYVVRSPVSSLTEVDVQKFIEKQVS  68
+            ++APAELE LL+SHPEI DA VIP PDA+AGEVP+A+VVRSP SS+TE ++QKF+ KQV+
+Sbjct  461  QVAPAELEDLLVSHPEISDAGVIPSPDAKAGEVPVAFVVRSPDSSITEEEIQKFVAKQVA  520
+
+Query  69   LCRNLGLIVSVGK  81
+              + L  +  + K
+Sbjct  521  PYKRLRRVSFIDK  533
+
+
+
+Lambda      K        H
+   0.318    0.135    0.377 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55182337650
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

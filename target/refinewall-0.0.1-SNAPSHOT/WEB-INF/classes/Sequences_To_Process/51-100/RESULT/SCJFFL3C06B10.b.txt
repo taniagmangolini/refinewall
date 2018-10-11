@@ -1,0 +1,4350 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=104
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1B6QKH6_SORBI  A0A1B6QKH6 Pectate lyase OS=Sorghum bicolor ...  191     5e-58
+TR:A0A1D6KU41_MAIZE  A0A1D6KU41 Pectate lyase OS=Zea mays OX=4577...  171     5e-51
+TR:B6SWR0_MAIZE  B6SWR0 Pectate lyase OS=Zea mays OX=4577 PE=2 SV=1   171     1e-50
+TR:A0A0A9CS44_ARUDO  A0A0A9CS44 Pectate lyase OS=Arundo donax OX=...  162     1e-49
+TR:A0A2T7C635_9POAL  A0A2T7C635 Uncharacterized protein OS=Panicu...  167     4e-49
+TR:A0A2S3ILS1_9POAL  A0A2S3ILS1 Uncharacterized protein OS=Panicu...  167     7e-49
+TR:K4A985_SETIT  K4A985 Pectate lyase OS=Setaria italica OX=4555 ...  166     1e-48
+TR:A0A1E5WM80_9POAL  A0A1E5WM80 Pectate lyase OS=Dichanthelium ol...  164     1e-47
+TR:A0A0A9M7H1_ARUDO  A0A0A9M7H1 Uncharacterized protein OS=Arundo...  151     9e-47
+TR:A0A0A9CXQ9_ARUDO  A0A0A9CXQ9 Pectate lyase OS=Arundo donax OX=...  154     3e-44
+TR:A0A0D3HEC7_9ORYZ  A0A0D3HEC7 Pectate lyase OS=Oryza barthii OX...  125     7e-35
+TR:J3N354_ORYBR  J3N354 Pectate lyase OS=Oryza brachyantha OX=453...  129     2e-34
+TR:B9G630_ORYSJ  B9G630 Pectate lyase OS=Oryza sativa subsp. japo...  125     4e-33
+TR:A0A0D9XKB0_9ORYZ  A0A0D9XKB0 Pectate lyase OS=Leersia perrieri...  125     4e-33
+TR:B8BH93_ORYSI  B8BH93 Pectate lyase OS=Oryza sativa subsp. indi...  125     5e-33
+TR:A0A0E0ISW9_ORYNI  A0A0E0ISW9 Pectate lyase OS=Oryza nivara OX=...  125     5e-33
+TR:A0A0E0QZY8_ORYRU  A0A0E0QZY8 Pectate lyase OS=Oryza rufipogon ...  125     5e-33
+TR:A0A0E0BBA3_9ORYZ  A0A0E0BBA3 Pectate lyase OS=Oryza glumipatul...  125     5e-33
+TR:A0A0E0EYM0_9ORYZ  A0A0E0EYM0 Pectate lyase OS=Oryza meridional...  125     5e-33
+TR:A0A0P0XVJ6_ORYSJ  A0A0P0XVJ6 Pectate lyase OS=Oryza sativa sub...  125     1e-32
+TR:A0A0E0M8C1_ORYPU  A0A0E0M8C1 Pectate lyase OS=Oryza punctata O...  124     1e-32
+TR:T1MVU8_TRIUA  T1MVU8 Pectate lyase OS=Triticum urartu OX=4572 ...  120     2e-32
+TR:A0A1D5RP05_WHEAT  A0A1D5RP05 Pectate lyase OS=Triticum aestivu...  122     3e-32
+TR:I1I4F1_BRADI  I1I4F1 Pectate lyase OS=Brachypodium distachyon ...  122     6e-32
+TR:I1QV46_ORYGL  I1QV46 Pectate lyase OS=Oryza glaberrima OX=4538...  121     1e-31
+TR:A0A287F6B9_HORVV  A0A287F6B9 Uncharacterized protein OS=Hordeu...  112     3e-31
+TR:A0A1D5SX57_WHEAT  A0A1D5SX57 Pectate lyase OS=Triticum aestivu...  115     2e-29
+TR:A0A287F6C0_HORVV  A0A287F6C0 Pectate lyase OS=Hordeum vulgare ...  112     5e-29
+TR:A0A287F6C4_HORVV  A0A287F6C4 Pectate lyase OS=Hordeum vulgare ...  112     2e-28
+TR:A0A1D5SEI6_WHEAT  A0A1D5SEI6 Pectate lyase OS=Triticum aestivu...  111     6e-28
+TR:A0A287F6F6_HORVV  A0A287F6F6 Pectate lyase OS=Hordeum vulgare ...  109     2e-27
+TR:A0A2H4A184_PHODC  A0A2H4A184 Pectate lyase OS=Phoenix dactylif...  101     2e-24
+TR:A0A287F6F1_HORVV  A0A287F6F1 Pectate lyase OS=Hordeum vulgare ...  94.0    8e-22
+TR:A0A1D1XN86_9ARAE  A0A1D1XN86 Putative pectate lyase 13 (Fragme...  83.6    4e-19
+TR:M0RWP0_MUSAM  M0RWP0 Pectate lyase OS=Musa acuminata subsp. ma...  85.1    2e-18
+TR:A0A2H3YVX9_PHODC  A0A2H3YVX9 Pectate lyase OS=Phoenix dactylif...  81.3    4e-17
+TR:M0SRX3_MUSAM  M0SRX3 Pectate lyase OS=Musa acuminata subsp. ma...  78.6    3e-16
+TR:Q6U6I9_BRANA  Q6U6I9 Pectate lyase OS=Brassica napus OX=3708 G...  77.8    6e-16
+TR:A0A0D3DT66_BRAOL  A0A0D3DT66 Pectate lyase OS=Brassica olerace...  77.8    7e-16
+TR:A0A2G9I3W3_9LAMI  A0A2G9I3W3 Pectate lyase OS=Handroanthus imp...  77.4    9e-16
+TR:M4CSC4_BRARP  M4CSC4 Pectate lyase OS=Brassica rapa subsp. pek...  76.6    2e-15
+TR:A0A1S3XA18_TOBAC  A0A1S3XA18 Pectate lyase OS=Nicotiana tabacu...  75.9    3e-15
+SP:PLY13_ARATH  Q93Z04 Probable pectate lyase 13 OS=Arabidopsis t...  74.7    8e-15
+TR:A0A178VCI0_ARATH  A0A178VCI0 Pectate lyase OS=Arabidopsis thal...  74.7    8e-15
+TR:A0A2I0VWZ8_9ASPA  A0A2I0VWZ8 Pectate lyase OS=Dendrobium caten...  74.3    1e-14
+TR:V4SPP8_9ROSI  V4SPP8 Pectate lyase OS=Citrus clementina OX=856...  73.2    3e-14
+TR:A0A0D3CTW4_BRAOL  A0A0D3CTW4 Pectate lyase OS=Brassica olerace...  73.2    3e-14
+TR:M4CG67_BRARP  M4CG67 Pectate lyase OS=Brassica rapa subsp. pek...  72.8    4e-14
+TR:A0A1U7V8R2_NICSY  A0A1U7V8R2 Pectate lyase OS=Nicotiana sylves...  72.4    5e-14
+TR:A0A1S3YNC2_TOBAC  A0A1S3YNC2 Pectate lyase OS=Nicotiana tabacu...  72.4    5e-14
+TR:A0A1U7VHN4_NICSY  A0A1U7VHN4 Pectate lyase OS=Nicotiana sylves...  72.4    5e-14
+TR:A0A1S3YNB7_TOBAC  A0A1S3YNB7 Pectate lyase OS=Nicotiana tabacu...  72.4    5e-14
+TR:A0A078J3Q3_BRANA  A0A078J3Q3 Pectate lyase OS=Brassica napus O...  72.4    5e-14
+TR:A0A078EZL5_BRANA  A0A078EZL5 Pectate lyase OS=Brassica napus O...  72.0    7e-14
+TR:A0A2G9FY40_9LAMI  A0A2G9FY40 Pectate lyase OS=Handroanthus imp...  72.0    7e-14
+TR:A0A022QUT3_ERYGU  A0A022QUT3 Pectate lyase OS=Erythranthe gutt...  72.0    7e-14
+TR:A0A0A0LK67_CUCSA  A0A0A0LK67 Pectate lyase OS=Cucumis sativus ...  71.2    1e-13
+TR:A0A2I4DW92_9ROSI  A0A2I4DW92 Pectate lyase OS=Juglans regia OX...  71.2    1e-13
+TR:C0PC85_MAIZE  C0PC85 Pectate lyase OS=Zea mays OX=4577 PE=2 SV=1   70.5    2e-13
+TR:Q0IX91_ORYSJ  Q0IX91 Os10g0457100 protein OS=Oryza sativa subs...  66.6    2e-13
+TR:V4LYI0_EUTSA  V4LYI0 Uncharacterized protein OS=Eutrema salsug...  68.2    3e-13
+TR:R0FMZ2_9BRAS  R0FMZ2 Pectate lyase OS=Capsella rubella OX=8198...  69.7    5e-13
+TR:A0A2I0X677_9ASPA  A0A2I0X677 Pectate lyase OS=Dendrobium caten...  69.3    6e-13
+TR:A0A2K1ZAY5_POPTR  A0A2K1ZAY5 Pectate lyase OS=Populus trichoca...  69.3    6e-13
+TR:A0A2R6PWC4_ACTCH  A0A2R6PWC4 Pectate lyase OS=Actinidia chinen...  68.6    1e-12
+TR:A0A1S3C4R4_CUCME  A0A1S3C4R4 Pectate lyase OS=Cucumis melo OX=...  68.2    2e-12
+TR:I0IK23_9MYRT  I0IK23 Pectate lyase (Fragment) OS=Eucalyptus pi...  67.8    2e-12
+TR:I0IK24_9MYRT  I0IK24 Pectate lyase (Fragment) OS=Eucalyptus py...  67.8    2e-12
+TR:A0A059BGW9_EUCGR  A0A059BGW9 Pectate lyase OS=Eucalyptus grand...  67.8    2e-12
+TR:A0A059BGQ2_EUCGR  A0A059BGQ2 Pectate lyase OS=Eucalyptus grand...  67.8    2e-12
+TR:A0A1U8AJ37_NELNU  A0A1U8AJ37 Pectate lyase OS=Nelumbo nucifera...  67.4    3e-12
+TR:A0A1Q3BHY6_CEPFO  A0A1Q3BHY6 Pectate lyase OS=Cephalotus folli...  67.4    3e-12
+TR:A0A0D2RB21_GOSRA  A0A0D2RB21 Pectate lyase OS=Gossypium raimon...  67.0    3e-12
+TR:A0A0D2SWB0_GOSRA  A0A0D2SWB0 Pectate lyase OS=Gossypium raimon...  67.0    4e-12
+TR:A0A0D2VCY4_GOSRA  A0A0D2VCY4 Pectate lyase OS=Gossypium raimon...  67.0    4e-12
+TR:A0A067KE09_JATCU  A0A067KE09 Pectate lyase OS=Jatropha curcas ...  67.0    4e-12
+TR:A0A1U8MNE8_GOSHI  A0A1U8MNE8 Pectate lyase OS=Gossypium hirsut...  67.0    4e-12
+TR:A0A1S3BGT0_CUCME  A0A1S3BGT0 Pectate lyase OS=Cucumis melo OX=...  67.0    4e-12
+TR:A0A2P5QXJ7_GOSBA  A0A2P5QXJ7 Pectate lyase OS=Gossypium barbad...  67.0    4e-12
+TR:A0A251QIU6_PRUPE  A0A251QIU6 Pectate lyase OS=Prunus persica O...  66.6    5e-12
+TR:A0A251QJ53_PRUPE  A0A251QJ53 Pectate lyase OS=Prunus persica O...  66.6    6e-12
+TR:M5X7B4_PRUPE  M5X7B4 Pectate lyase OS=Prunus persica OX=3760 G...  66.6    6e-12
+TR:I0IK25_EUCGG  I0IK25 Pectate lyase (Fragment) OS=Eucalyptus gl...  66.2    6e-12
+TR:Q27U75_EUCGG  Q27U75 Pectate lyase (Fragment) OS=Eucalyptus gl...  66.2    6e-12
+TR:A0A2K1YYW5_POPTR  A0A2K1YYW5 Pectate lyase OS=Populus trichoca...  66.2    6e-12
+TR:A0A2N9IUB2_FAGSY  A0A2N9IUB2 Pectate lyase OS=Fagus sylvatica ...  66.2    7e-12
+TR:B9HUL2_POPTR  B9HUL2 Pectate lyase OS=Populus trichocarpa OX=3...  66.2    7e-12
+TR:A0A0A0KRG9_CUCSA  A0A0A0KRG9 Pectate lyase OS=Cucumis sativus ...  66.2    7e-12
+TR:D7LUZ0_ARALL  D7LUZ0 Pectate lyase OS=Arabidopsis lyrata subsp...  65.9    1e-11
+TR:A0A1U7Z6R0_NELNU  A0A1U7Z6R0 Pectate lyase OS=Nelumbo nucifera...  65.9    1e-11
+TR:A0A287F6A7_HORVV  A0A287F6A7 Uncharacterized protein OS=Hordeu...  62.0    1e-11
+TR:A0A1U7WEJ0_NICSY  A0A1U7WEJ0 Pectate lyase OS=Nicotiana sylves...  65.5    1e-11
+TR:M1D2F0_SOLTU  M1D2F0 Pectate lyase OS=Solanum tuberosum OX=411...  65.5    1e-11
+TR:A0A1U7WVW3_NICSY  A0A1U7WVW3 Pectate lyase OS=Nicotiana sylves...  65.5    1e-11
+TR:A0A218WBI3_PUNGR  A0A218WBI3 Uncharacterized protein OS=Punica...  63.5    2e-11
+TR:A0A200R5K1_9MAGN  A0A200R5K1 Pectate lyase OS=Macleaya cordata...  65.1    2e-11
+TR:A0A087GXY4_ARAAL  A0A087GXY4 Pectate lyase OS=Arabis alpina OX...  65.1    2e-11
+TR:A0A0K9RD09_SPIOL  A0A0K9RD09 Pectate lyase OS=Spinacia olerace...  65.1    2e-11
+TR:A0A1J3DTK7_NOCCA  A0A1J3DTK7 Pectate lyase OS=Noccaea caerules...  64.7    3e-11
+TR:A0A1J3FW95_NOCCA  A0A1J3FW95 Pectate lyase OS=Noccaea caerules...  64.7    3e-11
+TR:A0A1J3GTQ3_NOCCA  A0A1J3GTQ3 Pectate lyase OS=Noccaea caerules...  64.7    3e-11
+TR:A0A251SSF0_HELAN  A0A251SSF0 Pectate lyase OS=Helianthus annuu...  64.3    4e-11
+TR:A0A2P6SJ54_ROSCH  A0A2P6SJ54 Pectate lyase OS=Rosa chinensis O...  63.5    7e-11
+TR:A0A068VKP2_COFCA  A0A068VKP2 Pectate lyase OS=Coffea canephora...  63.5    7e-11
+TR:A0A1J3JPC4_NOCCA  A0A1J3JPC4 Pectate lyase OS=Noccaea caerules...  63.5    7e-11
+TR:R7W716_AEGTA  R7W716 Pectate lyase OS=Aegilops tauschii OX=376...  63.2    9e-11
+TR:Q0IX90_ORYSJ  Q0IX90 Pectate lyase OS=Oryza sativa subsp. japo...  63.2    9e-11
+TR:Q7XDP5_ORYSJ  Q7XDP5 Pectate lyase OS=Oryza sativa subsp. japo...  63.2    9e-11
+TR:A0A0K9P2P4_ZOSMR  A0A0K9P2P4 Pectate lyase OS=Zostera marina O...  63.2    9e-11
+TR:A0A251UTJ3_HELAN  A0A251UTJ3 Pectate lyase OS=Helianthus annuu...  62.8    1e-10
+TR:A0A2J6KDL6_LACSA  A0A2J6KDL6 Pectate lyase OS=Lactuca sativa O...  62.8    1e-10
+TR:A0A164ZEV0_DAUCA  A0A164ZEV0 Uncharacterized protein OS=Daucus...  62.0    2e-10
+TR:D7TM46_VITVI  D7TM46 Pectate lyase OS=Vitis vinifera OX=29760 ...  62.0    2e-10
+TR:A0A061FP39_THECC  A0A061FP39 Pectate lyase (Fragment) OS=Theob...  61.6    3e-10
+TR:A0A2G3AZH6_CAPCH  A0A2G3AZH6 Pectate lyase OS=Capsicum chinens...  61.6    3e-10
+TR:A0A061FND9_THECC  A0A061FND9 Pectate lyase OS=Theobroma cacao ...  61.6    3e-10
+TR:B9T6Z7_RICCO  B9T6Z7 Pectate lyase OS=Ricinus communis OX=3988...  61.6    3e-10
+TR:Q94LR5_ORYSJ  Q94LR5 Pectate lyase OS=Oryza sativa subsp. japo...  61.2    4e-10
+TR:A0A2P5FLI4_9ROSA  A0A2P5FLI4 Pectate lyase OS=Trema orientalis...  61.2    4e-10
+TR:A0A2I0VWZ6_9ASPA  A0A2I0VWZ6 Pectate lyase OS=Dendrobium caten...  60.8    6e-10
+TR:A0A1U8EVV8_CAPAN  A0A1U8EVV8 Pectate lyase OS=Capsicum annuum ...  60.8    6e-10
+TR:A0A1S4D1S8_TOBAC  A0A1S4D1S8 Pectate lyase OS=Nicotiana tabacu...  60.5    8e-10
+TR:A0A2C9VK14_MANES  A0A2C9VK14 Pectate lyase OS=Manihot esculent...  60.5    8e-10
+TR:A0A103YD34_CYNCS  A0A103YD34 Pectate lyase OS=Cynara carduncul...  60.5    8e-10
+TR:A0A1S4D1X0_TOBAC  A0A1S4D1X0 Pectate lyase OS=Nicotiana tabacu...  60.5    8e-10
+TR:A0A2U1P0G8_ARTAN  A0A2U1P0G8 Uncharacterized protein OS=Artemi...  60.5    8e-10
+TR:A0A2G5CSS3_AQUCA  A0A2G5CSS3 Pectate lyase OS=Aquilegia coerul...  60.1    1e-09
+TR:A0A2G2VA75_CAPBA  A0A2G2VA75 Pectate lyase OS=Capsicum baccatu...  60.1    1e-09
+TR:A0A2P5AX09_PARAD  A0A2P5AX09 Pectate lyase OS=Parasponia ander...  60.1    1e-09
+TR:W1NRA0_AMBTC  W1NRA0 Pectate lyase OS=Amborella trichopoda OX=...  60.1    1e-09
+TR:E7BTN2_VITVI  E7BTN2 Pectate lyase OS=Vitis vinifera OX=29760 ...  59.7    1e-09
+TR:A0A2C9V4N0_MANES  A0A2C9V4N0 Pectate lyase OS=Manihot esculent...  59.7    1e-09
+TR:A0A199UIR7_ANACO  A0A199UIR7 Pectate lyase (Fragment) OS=Anana...  59.3    2e-09
+TR:A0A2R6PKW9_ACTCH  A0A2R6PKW9 Pectate lyase OS=Actinidia chinen...  59.3    2e-09
+TR:A0A1U8GB15_CAPAN  A0A1U8GB15 Pectate lyase OS=Capsicum annuum ...  59.3    2e-09
+TR:A0A2G2ZWT5_CAPAN  A0A2G2ZWT5 Pectate lyase OS=Capsicum annuum ...  59.3    2e-09
+TR:R0H9Y1_9BRAS  R0H9Y1 Pectate lyase OS=Capsella rubella OX=8198...  58.5    4e-09
+TR:R0GU57_9BRAS  R0GU57 Pectate lyase OS=Capsella rubella OX=8198...  58.5    4e-09
+TR:B6T049_MAIZE  B6T049 Uncharacterized protein OS=Zea mays OX=45...  53.5    5e-09
+TR:A0A2G2X594_CAPBA  A0A2G2X594 Pectate lyase OS=Capsicum baccatu...  58.2    5e-09
+TR:A0A2C9VE83_MANES  A0A2C9VE83 Pectate lyase OS=Manihot esculent...  57.8    7e-09
+TR:A0A287F6B2_HORVV  A0A287F6B2 Pectate lyase OS=Hordeum vulgare ...  57.4    1e-08
+TR:A0A287F6D0_HORVV  A0A287F6D0 Pectate lyase OS=Hordeum vulgare ...  57.4    1e-08
+TR:A0A287F6B3_HORVV  A0A287F6B3 Pectate lyase OS=Hordeum vulgare ...  57.4    1e-08
+TR:A0A287F6C1_HORVV  A0A287F6C1 Pectate lyase OS=Hordeum vulgare ...  57.4    1e-08
+TR:A0A2P4J754_QUESU  A0A2P4J754 Pectate lyase OS=Quercus suber OX...  56.6    2e-08
+TR:A0A251TU86_HELAN  A0A251TU86 Pectate lyase OS=Helianthus annuu...  56.6    2e-08
+TR:A0A2J6LT06_LACSA  A0A2J6LT06 Pectate lyase OS=Lactuca sativa O...  56.2    2e-08
+TR:D7LXH4_ARALL  D7LXH4 Pectate lyase OS=Arabidopsis lyrata subsp...  56.2    2e-08
+TR:Q93Z77_ARATH  Q93Z77 Pectate lyase OS=Arabidopsis thaliana OX=...  55.8    3e-08
+TR:K4BHI7_SOLLC  K4BHI7 Pectate lyase OS=Solanum lycopersicum OX=...  55.8    3e-08
+TR:A0A178U748_ARATH  A0A178U748 Pectate lyase OS=Arabidopsis thal...  55.8    3e-08
+TR:F4JW80_ARATH  F4JW80 Pectate lyase OS=Arabidopsis thaliana OX=...  55.8    3e-08
+TR:A0A251SPI7_HELAN  A0A251SPI7 Pectate lyase OS=Helianthus annuu...  55.5    5e-08
+TR:V7BEG9_PHAVU  V7BEG9 Pectate lyase OS=Phaseolus vulgaris OX=38...  55.1    6e-08
+TR:A0A1U7VJR2_NICSY  A0A1U7VJR2 Pectate lyase OS=Nicotiana sylves...  55.1    6e-08
+TR:A0A1S4A255_TOBAC  A0A1S4A255 Pectate lyase OS=Nicotiana tabacu...  55.1    6e-08
+TR:A0A2G5CST7_AQUCA  A0A2G5CST7 Pectate lyase OS=Aquilegia coerul...  55.1    6e-08
+TR:A0A2U1KQP9_ARTAN  A0A2U1KQP9 AmbAllergen OS=Artemisia annua OX...  54.7    8e-08
+TR:A0A1S3ZY64_TOBAC  A0A1S3ZY64 Pectate lyase OS=Nicotiana tabacu...  54.7    9e-08
+TR:A0A1J6IRU0_NICAT  A0A1J6IRU0 Pectate lyase OS=Nicotiana attenu...  54.7    9e-08
+TR:A0A2I4EPH4_9ROSI  A0A2I4EPH4 Pectate lyase OS=Juglans regia OX...  54.7    9e-08
+TR:A0A2I4EPI9_9ROSI  A0A2I4EPI9 Pectate lyase OS=Juglans regia OX...  54.3    1e-07
+TR:A0A2G3CUW1_CAPCH  A0A2G3CUW1 Pectate lyase OS=Capsicum chinens...  53.9    2e-07
+TR:A0A2G2Y3K0_CAPAN  A0A2G2Y3K0 Pectate lyase OS=Capsicum annuum ...  53.5    2e-07
+TR:A0A251SS49_HELAN  A0A251SS49 Pectate lyase OS=Helianthus annuu...  52.8    4e-07
+TR:A0A1J3CPF7_NOCCA  A0A1J3CPF7 Pectate lyase OS=Noccaea caerules...  52.4    6e-07
+TR:A0A2I0AZ70_9ASPA  A0A2I0AZ70 Pectate lyase OS=Apostasia shenzh...  52.0    7e-07
+TR:A0A068V3R0_COFCA  A0A068V3R0 Pectate lyase OS=Coffea canephora...  52.0    7e-07
+TR:A0A1J3K0Q2_NOCCA  A0A1J3K0Q2 Pectate lyase OS=Noccaea caerules...  52.0    8e-07
+TR:A0A162AT77_DAUCA  A0A162AT77 Pectate lyase OS=Daucus carota su...  52.0    8e-07
+TR:A0A2U1MJ92_ARTAN  A0A2U1MJ92 AmbAllergen OS=Artemisia annua OX...  51.6    1e-06
+TR:A0A1J3FVL8_NOCCA  A0A1J3FVL8 Pectate lyase OS=Noccaea caerules...  51.6    1e-06
+TR:A0A1J3HW72_NOCCA  A0A1J3HW72 Pectate lyase OS=Noccaea caerules...  51.6    1e-06
+TR:A0A2G2ZKP0_CAPAN  A0A2G2ZKP0 Pectate lyase OS=Capsicum annuum ...  51.2    1e-06
+TR:A0A151TQ41_CAJCA  A0A151TQ41 Pectate lyase OS=Cajanus cajan OX...  51.2    1e-06
+TR:A0A1U8GRG1_CAPAN  A0A1U8GRG1 Pectate lyase OS=Capsicum annuum ...  51.2    1e-06
+TR:B9S0E1_RICCO  B9S0E1 Pectate lyase OS=Ricinus communis OX=3988...  50.8    2e-06
+TR:A0A103XH01_CYNCS  A0A103XH01 Pectate lyase OS=Cynara carduncul...  50.8    2e-06
+TR:A0A0S3SLM0_PHAAN  A0A0S3SLM0 Pectate lyase OS=Vigna angularis ...  50.8    2e-06
+TR:A0A0L9U0Z0_PHAAN  A0A0L9U0Z0 Pectate lyase OS=Phaseolus angula...  50.8    2e-06
+TR:A0A251VH07_HELAN  A0A251VH07 Pectate lyase OS=Helianthus annuu...  50.4    3e-06
+TR:A0A1S2Y158_CICAR  A0A1S2Y158 Pectate lyase OS=Cicer arietinum ...  50.4    3e-06
+TR:A0A2C9V8E2_MANES  A0A2C9V8E2 Pectate lyase OS=Manihot esculent...  50.1    4e-06
+TR:K4C2M7_SOLLC  K4C2M7 Pectate lyase OS=Solanum lycopersicum OX=...  50.1    4e-06
+TR:A0A2I0HTV3_PUNGR  A0A2I0HTV3 Pectate lyase OS=Punica granatum ...  49.7    5e-06
+TR:A0A161WTD2_DAUCA  A0A161WTD2 Pectate lyase OS=Daucus carota su...  49.7    5e-06
+TR:A0A1S3V511_VIGRR  A0A1S3V511 Pectate lyase OS=Vigna radiata va...  49.7    5e-06
+TR:A0A2I4E8A3_9ROSI  A0A2I4E8A3 Pectate lyase OS=Juglans regia OX...  49.3    7e-06
+TR:A0A2I4GYH0_9ROSI  A0A2I4GYH0 Pectate lyase OS=Juglans regia OX...  49.3    7e-06
+TR:A0A1U8HJY1_GOSHI  A0A1U8HJY1 Pectate lyase OS=Gossypium hirsut...  49.3    7e-06
+TR:A0A2G5D112_AQUCA  A0A2G5D112 Pectate lyase OS=Aquilegia coerul...  49.3    7e-06
+TR:V4KQY2_EUTSA  V4KQY2 Pectate lyase (Fragment) OS=Eutrema salsu...  49.3    7e-06
+TR:M1D2E9_SOLTU  M1D2E9 Pectate lyase OS=Solanum tuberosum OX=411...  48.9    9e-06
+TR:A0A2H5PQ55_CITUN  A0A2H5PQ55 Pectate lyase OS=Citrus unshiu OX...  48.9    9e-06
+TR:A0A2N9F1Z4_FAGSY  A0A2N9F1Z4 Pectate lyase OS=Fagus sylvatica ...  48.9    9e-06
+TR:A0A2K1ZB02_POPTR  A0A2K1ZB02 Pectate lyase OS=Populus trichoca...  48.5    1e-05
+TR:A0A2G9HVH0_9LAMI  A0A2G9HVH0 Pectate lyase OS=Handroanthus imp...  48.5    1e-05
+TR:A0A2U1MWT3_ARTAN  A0A2U1MWT3 Pectin lyase-like superfamily pro...  48.5    1e-05
+TR:A0A2P5BJQ0_PARAD  A0A2P5BJQ0 Pectate lyase OS=Parasponia ander...  48.5    1e-05
+TR:I1LEZ6_SOYBN  I1LEZ6 Pectate lyase OS=Glycine max OX=3847 GN=1...  48.5    1e-05
+TR:A0A2J6JP87_LACSA  A0A2J6JP87 Pectate lyase OS=Lactuca sativa O...  48.1    2e-05
+TR:A0A0V0IGR3_SOLCH  A0A0V0IGR3 Pectate lyase OS=Solanum chacoens...  48.1    2e-05
+TR:A0A061F0C5_THECC  A0A061F0C5 Pectate lyase OS=Theobroma cacao ...  48.1    2e-05
+TR:A0A0D2QBJ3_GOSRA  A0A0D2QBJ3 Pectate lyase OS=Gossypium raimon...  48.1    2e-05
+TR:A0A2U1NCZ5_ARTAN  A0A2U1NCZ5 Pectin lyase-like superfamily pro...  48.1    2e-05
+TR:A0A2R6R823_ACTCH  A0A2R6R823 Pectate lyase OS=Actinidia chinen...  48.1    2e-05
+TR:A0A061ETH0_THECC  A0A061ETH0 Pectate lyase OS=Theobroma cacao ...  48.1    2e-05
+TR:E7BTN4_VITVI  E7BTN4 Pectate lyase OS=Vitis vinifera OX=29760 ...  48.1    2e-05
+TR:A0A0D2RC56_GOSRA  A0A0D2RC56 Pectate lyase OS=Gossypium raimon...  48.1    2e-05
+TR:A0A078FEB1_BRANA  A0A078FEB1 Pectate lyase OS=Brassica napus O...  48.1    2e-05
+TR:M4CNL1_BRARP  M4CNL1 Pectate lyase OS=Brassica rapa subsp. pek...  48.1    2e-05
+TR:A0A061EU72_THECC  A0A061EU72 Pectate lyase OS=Theobroma cacao ...  48.1    2e-05
+TR:W9SAD4_9ROSA  W9SAD4 Pectate lyase OS=Morus notabilis OX=98108...  47.8    2e-05
+TR:A0A2K1YYW6_POPTR  A0A2K1YYW6 Pectate lyase OS=Populus trichoca...  47.8    2e-05
+TR:A0A2I4E5S6_9ROSI  A0A2I4E5S6 Pectate lyase OS=Juglans regia OX...  47.8    2e-05
+TR:A0A1P8BF75_ARATH  A0A1P8BF75 Pectate lyase OS=Arabidopsis thal...  47.4    3e-05
+TR:A0A022RIS3_ERYGU  A0A022RIS3 Pectate lyase OS=Erythranthe gutt...  47.4    3e-05
+TR:A0A0A0KIG0_CUCSA  A0A0A0KIG0 Pectate lyase OS=Cucumis sativus ...  47.4    3e-05
+TR:A0A1S3CH45_CUCME  A0A1S3CH45 Pectate lyase OS=Cucumis melo OX=...  47.4    3e-05
+TR:M5W1S7_PRUPE  M5W1S7 Pectate lyase OS=Prunus persica OX=3760 G...  47.4    3e-05
+TR:A0A2P5FVF8_9ROSA  A0A2P5FVF8 Pectate lyase OS=Trema orientalis...  47.4    3e-05
+TR:A0A0K9RUT8_SPIOL  A0A0K9RUT8 Pectate lyase OS=Spinacia olerace...  47.4    3e-05
+TR:A0A2G3CIX9_CAPCH  A0A2G3CIX9 Pectate lyase OS=Capsicum chinens...  47.4    3e-05
+TR:M4CZ22_BRARP  M4CZ22 Pectate lyase OS=Brassica rapa subsp. pek...  47.4    3e-05
+TR:S8CKN5_9LAMI  S8CKN5 Pectate lyase (Fragment) OS=Genlisea aure...  47.0    4e-05
+TR:A0A2H5PQ51_CITUN  A0A2H5PQ51 Pectate lyase OS=Citrus unshiu OX...  47.0    4e-05
+TR:A0A1U8G2A6_CAPAN  A0A1U8G2A6 Pectate lyase OS=Capsicum annuum ...  47.0    4e-05
+TR:K4D575_SOLLC  K4D575 Pectate lyase OS=Solanum lycopersicum OX=...  47.0    4e-05
+TR:I1NFF3_SOYBN  I1NFF3 Pectate lyase OS=Glycine max OX=3847 GN=1...  47.0    4e-05
+TR:A0A2G2WUS5_CAPBA  A0A2G2WUS5 Pectate lyase OS=Capsicum baccatu...  47.0    4e-05
+TR:A0A200R9V2_9MAGN  A0A200R9V2 Pectate lyase OS=Macleaya cordata...  46.6    6e-05
+TR:A0A1I9W0F1_POPTO  A0A1I9W0F1 Pectate lyase OS=Populus tomentos...  46.6    6e-05
+TR:A0A0D3EHY4_BRAOL  A0A0D3EHY4 Pectate lyase OS=Brassica olerace...  46.6    6e-05
+TR:A0A0E0M8B9_ORYPU  A0A0E0M8B9 Uncharacterized protein OS=Oryza ...  46.6    6e-05
+TR:A0A2P5Q1X0_GOSBA  A0A2P5Q1X0 Uncharacterized protein OS=Gossyp...  45.4    6e-05
+TR:A0A067DX44_CITSI  A0A067DX44 Pectate lyase OS=Citrus sinensis ...  46.2    8e-05
+TR:A0A2P5YNZ9_GOSBA  A0A2P5YNZ9 Pectate lyase OS=Gossypium barbad...  46.2    8e-05
+TR:A0A1J7H229_LUPAN  A0A1J7H229 Pectate lyase OS=Lupinus angustif...  46.2    8e-05
+TR:A0A2G2VX49_CAPBA  A0A2G2VX49 Pectate lyase OS=Capsicum baccatu...  46.2    8e-05
+TR:A0A2G3BJ46_CAPCH  A0A2G3BJ46 Pectate lyase OS=Capsicum chinens...  46.2    8e-05
+TR:W9RX13_9ROSA  W9RX13 Pectate lyase OS=Morus notabilis OX=98108...  46.2    8e-05
+TR:A0A078HU48_BRANA  A0A078HU48 Pectate lyase OS=Brassica napus O...  46.2    8e-05
+TR:A0A2R6R7X5_ACTCH  A0A2R6R7X5 Pectate lyase OS=Actinidia chinen...  45.8    1e-04
+TR:A0A1R3HTH4_9ROSI  A0A1R3HTH4 Pectate lyase OS=Corchorus olitor...  45.8    1e-04
+TR:A0A1R3IGU6_COCAP  A0A1R3IGU6 Pectate lyase OS=Corchorus capsul...  45.8    1e-04
+TR:A0A2K2A103_POPTR  A0A2K2A103 Pectate lyase OS=Populus trichoca...  45.8    1e-04
+TR:A0A067E122_CITSI  A0A067E122 Pectate lyase (Fragment) OS=Citru...  45.4    1e-04
+TR:A0A022REE8_ERYGU  A0A022REE8 Pectate lyase OS=Erythranthe gutt...  45.4    1e-04
+TR:A0A1U8JFE2_GOSHI  A0A1U8JFE2 Pectate lyase OS=Gossypium hirsut...  45.4    1e-04
+TR:A0A1U8E8M6_CAPAN  A0A1U8E8M6 Pectate lyase OS=Capsicum annuum ...  45.4    1e-04
+TR:A0A2G2YPV9_CAPAN  A0A2G2YPV9 Pectate lyase OS=Capsicum annuum ...  45.4    1e-04
+TR:A0A078J061_BRANA  A0A078J061 Pectate lyase OS=Brassica napus O...  45.1    2e-04
+TR:A0A0D3AZN9_BRAOL  A0A0D3AZN9 Pectate lyase OS=Brassica olerace...  45.1    2e-04
+TR:M1C5R1_SOLTU  M1C5R1 Pectate lyase OS=Solanum tuberosum OX=411...  45.1    2e-04
+TR:A0A1R3KAW2_9ROSI  A0A1R3KAW2 Pectate lyase OS=Corchorus olitor...  44.7    3e-04
+TR:A0A1R3H5V5_COCAP  A0A1R3H5V5 Pectate lyase OS=Corchorus capsul...  44.7    3e-04
+TR:A0A0K9RRP9_SPIOL  A0A0K9RRP9 Pectate lyase OS=Spinacia olerace...  44.7    3e-04
+TR:A0A0J8B740_BETVU  A0A0J8B740 Pectate lyase OS=Beta vulgaris su...  44.3    4e-04
+TR:A0A067K2B3_JATCU  A0A067K2B3 Pectate lyase OS=Jatropha curcas ...  44.3    4e-04
+TR:A0A2I0JMW7_PUNGR  A0A2I0JMW7 Pectate lyase OS=Punica granatum ...  43.9    5e-04
+TR:A0A218WBV5_PUNGR  A0A218WBV5 Pectate lyase OS=Punica granatum ...  43.9    5e-04
+TR:A0A103YIG7_CYNCS  A0A103YIG7 Pectate lyase (Fragment) OS=Cynar...  43.9    5e-04
+TR:A0A151TVD2_CAJCA  A0A151TVD2 Pectate lyase OS=Cajanus cajan OX...  43.5    7e-04
+TR:A0A1S3TQJ1_VIGRR  A0A1S3TQJ1 Pectate lyase OS=Vigna radiata va...  43.5    7e-04
+TR:V7CXF0_PHAVU  V7CXF0 Pectate lyase OS=Phaseolus vulgaris OX=38...  43.5    7e-04
+TR:A0A0S3RYT1_PHAAN  A0A0S3RYT1 Pectate lyase OS=Vigna angularis ...  43.5    7e-04
+TR:A0A0L9TGM4_PHAAN  A0A0L9TGM4 Pectate lyase OS=Phaseolus angula...  43.5    7e-04
+TR:A0A0D3DSP8_BRAOL  A0A0D3DSP8 Pectate lyase OS=Brassica olerace...  43.5    7e-04
+TR:A0A1J3D9C9_NOCCA  A0A1J3D9C9 Pectate lyase OS=Noccaea caerules...  43.5    7e-04
+TR:A0A1J3IBE3_NOCCA  A0A1J3IBE3 Pectate lyase OS=Noccaea caerules...  43.5    7e-04
+TR:A0A0D3CTJ6_BRAOL  A0A0D3CTJ6 Pectate lyase OS=Brassica olerace...  43.5    7e-04
+TR:A0A078FJX5_BRANA  A0A078FJX5 Pectate lyase OS=Brassica napus O...  43.5    7e-04
+TR:A0A2P5XVF1_GOSBA  A0A2P5XVF1 Pectate lyase OS=Gossypium barbad...  43.1    0.001
+TR:J3LEB2_ORYBR  J3LEB2 Uncharacterized protein OS=Oryza brachyan...  42.4    0.001
+TR:M4EID4_BRARP  M4EID4 Pectate lyase OS=Brassica rapa subsp. pek...  43.1    0.001
+TR:A0A0D2TY42_GOSRA  A0A0D2TY42 Pectate lyase OS=Gossypium raimon...  42.7    0.001
+TR:D7LUF5_ARALL  D7LUF5 Pectate lyase OS=Arabidopsis lyrata subsp...  42.7    0.001
+TR:A0A0D2UWP6_GOSRA  A0A0D2UWP6 Pectate lyase OS=Gossypium raimon...  42.7    0.001
+TR:A0A1U8J6D5_GOSHI  A0A1U8J6D5 Pectate lyase OS=Gossypium hirsut...  42.7    0.001
+TR:A0A1S2XSZ6_CICAR  A0A1S2XSZ6 Pectate lyase OS=Cicer arietinum ...  42.4    0.002
+TR:S8E265_9LAMI  S8E265 Pectate lyase OS=Genlisea aurea OX=192259...  42.4    0.002
+TR:M4CRY4_BRARP  M4CRY4 Pectate lyase OS=Brassica rapa subsp. pek...  42.0    0.002
+TR:A0A1J6IGH6_NICAT  A0A1J6IGH6 Pectate lyase OS=Nicotiana attenu...  42.0    0.002
+TR:A0A1U8F8D8_CAPAN  A0A1U8F8D8 Pectate lyase OS=Capsicum annuum ...  41.6    0.003
+TR:A0A1J7GCS3_LUPAN  A0A1J7GCS3 Pectate lyase OS=Lupinus angustif...  41.6    0.003
+TR:A0A1S3ZDX0_TOBAC  A0A1S3ZDX0 Pectate lyase OS=Nicotiana tabacu...  41.6    0.003
+TR:Q8LPA7_WHEAT  Q8LPA7 Cold shock protein-1 OS=Triticum aestivum...  41.2    0.004
+TR:A0A1D6RDC7_WHEAT  A0A1D6RDC7 Uncharacterized protein OS=Tritic...  41.2    0.005
+TR:A0A087GXG6_ARAAL  A0A087GXG6 Pectate lyase OS=Arabis alpina OX...  41.2    0.005
+TR:M1BIQ8_SOLTU  M1BIQ8 Uncharacterized protein OS=Solanum tubero...  40.0    0.005
+TR:M0ZX26_SOLTU  M0ZX26 Pectate lyase OS=Solanum tuberosum OX=411...  40.8    0.006
+TR:I1JPR5_SOYBN  I1JPR5 Pectate lyase OS=Glycine max OX=3847 GN=1...  40.8    0.006
+SP:PLY12_ARATH  Q9SCP2 Probable pectate lyase 12 OS=Arabidopsis t...  40.8    0.006
+TR:Q56XU8_ARATH  Q56XU8 Pectate lyase OS=Arabidopsis thaliana OX=...  40.8    0.006
+TR:A0A178VBF0_ARATH  A0A178VBF0 Pectate lyase OS=Arabidopsis thal...  40.8    0.006
+TR:A0A1U7W2F2_NICSY  A0A1U7W2F2 Pectate lyase OS=Nicotiana sylves...  40.8    0.006
+TR:A0A1S4ALB3_TOBAC  A0A1S4ALB3 Pectate lyase OS=Nicotiana tabacu...  40.8    0.006
+TR:A0A0K0VKK1_HORVU  A0A0K0VKK1 CSP1 OS=Hordeum vulgare OX=4513 G...  40.4    0.007
+TR:A0A0D9VHP3_9ORYZ  A0A0D9VHP3 Uncharacterized protein OS=Leersi...  38.9    0.007
+TR:A0A2K3NC22_TRIPR  A0A2K3NC22 Pectate lyase OS=Trifolium praten...  40.4    0.008
+TR:K4CQM6_SOLLC  K4CQM6 Pectate lyase OS=Solanum lycopersicum OX=...  40.4    0.009
+TR:E7BTN3_VITVI  E7BTN3 Pectate lyase OS=Vitis vinifera OX=29760 ...  40.4    0.009
+TR:A0A287FYT0_HORVV  A0A287FYT0 Uncharacterized protein OS=Hordeu...  39.7    0.009
+TR:A0A287FYT9_HORVV  A0A287FYT9 Uncharacterized protein OS=Hordeu...  39.7    0.010
+TR:A0A287FYT8_HORVV  A0A287FYT8 Uncharacterized protein OS=Hordeu...  39.7    0.010
+TR:A0A2R6QCT9_ACTCH  A0A2R6QCT9 Glycine rich protein OS=Actinidia...  39.3    0.011
+TR:R0FN47_9BRAS  R0FN47 Pectate lyase OS=Capsella rubella OX=8198...  40.0    0.012
+TR:A0A2G3AZH3_CAPCH  A0A2G3AZH3 Pectate lyase OS=Capsicum chinens...  40.0    0.012
+TR:A0A287FYS6_HORVV  A0A287FYS6 Uncharacterized protein OS=Hordeu...  39.7    0.012
+TR:A0A287FYT5_HORVV  A0A287FYT5 Uncharacterized protein OS=Hordeu...  39.7    0.012
+TR:A0A287FYU2_HORVV  A0A287FYU2 Uncharacterized protein OS=Hordeu...  39.7    0.012
+TR:E1Z7R6_CHLVA  E1Z7R6 Uncharacterized protein OS=Chlorella vari...  40.0    0.012
+TR:Q75QN9_WHEAT  Q75QN9 Cold shock domain protein 2 OS=Triticum a...  39.7    0.013
+TR:A0A287FYR6_HORVV  A0A287FYR6 Uncharacterized protein OS=Hordeu...  39.7    0.013
+TR:A0A287FYT4_HORVV  A0A287FYT4 Uncharacterized protein OS=Hordeu...  39.7    0.015
+TR:H9MAL5_PINRA  H9MAL5 Uncharacterized protein (Fragment) OS=Pin...  37.7    0.015
+TR:H9VJ76_PINTA  H9VJ76 Uncharacterized protein (Fragment) OS=Pin...  37.7    0.015
+TR:H9MAL6_PINLA  H9MAL6 Uncharacterized protein (Fragment) OS=Pin...  37.7    0.015
+TR:H9VJ71_PINTA  H9VJ71 Uncharacterized protein (Fragment) OS=Pin...  37.7    0.015
+TR:D8TIJ2_VOLCA  D8TIJ2 Uncharacterized protein OS=Volvox carteri...  39.7    0.016
+TR:A0A1Q3CVK0_CEPFO  A0A1Q3CVK0 CSD domain-containing protein OS=...  39.3    0.016
+TR:A0A1S4BNE9_TOBAC  A0A1S4BNE9 glycine-rich protein 2-like OS=Ni...  38.9    0.018
+TR:A0A087GNI8_ARAAL  A0A087GNI8 Uncharacterized protein OS=Arabis...  39.3    0.019
+TR:C1E891_MICCC  C1E891 Derlin OS=Micromonas commoda (strain RCC2...  39.3    0.020
+TR:D7MUE8_ARALL  D7MUE8 Uncharacterized protein OS=Arabidopsis ly...  39.3    0.020
+TR:A0A1W5IXF8_9CHLO  A0A1W5IXF8 RegA OS=Platydorina caudata OX=51...  39.3    0.023
+TR:A0A166HX12_DAUCA  A0A166HX12 Uncharacterized protein OS=Daucus...  38.9    0.023
+TR:F6I111_VITVI  F6I111 Uncharacterized protein OS=Vitis vinifera...  38.9    0.025
+TR:A0A2H3X299_PHODC  A0A2H3X299 glycine-rich cell wall structural...  38.5    0.026
+SP:DOF54_ARATH  Q8LDR0 Dof zinc finger protein DOF5.4 OS=Arabidop...  38.9    0.028
+TR:Q0WUB6_ARATH  Q0WUB6 Zinc finger protein OBP4-like OS=Arabidop...  38.9    0.028
+TR:A0A178UF84_ARATH  A0A178UF84 OBP4 OS=Arabidopsis thaliana OX=3...  38.9    0.028
+TR:A0A2P6V3R0_9CHLO  A0A2P6V3R0 Long-chain-fatty-acid-ligase 15 i...  38.9    0.028
+TR:A0A2P6V3S1_9CHLO  A0A2P6V3S1 Long-chain-fatty-acid-ligase 15 i...  38.9    0.028
+TR:A0A2P6RB30_ROSCH  A0A2P6RB30 Pectate lyase OS=Rosa chinensis O...  38.9    0.030
+TR:Q6EUE3_ORYSJ  Q6EUE3 Uncharacterized protein OJ1705_E12.47 OS=...  38.5    0.030
+TR:R0IMS0_9BRAS  R0IMS0 Uncharacterized protein OS=Capsella rubel...  38.9    0.030
+TR:A0A251VS60_HELAN  A0A251VS60 Putative RNA helicase, ATP-depend...  38.9    0.030
+TR:F2CX17_HORVV  F2CX17 Predicted protein OS=Hordeum vulgare subs...  38.5    0.031
+TR:A0A2I4EWV6_9ROSI  A0A2I4EWV6 glycine-rich protein 2-like OS=Ju...  38.5    0.033
+TR:A0A2P5CFH7_PARAD  A0A2P5CFH7 Cold shock protein OS=Parasponia ...  38.5    0.033
+TR:A0A251QGK0_PRUPE  A0A251QGK0 Uncharacterized protein OS=Prunus...  38.5    0.034
+TR:A0A059CYZ3_EUCGR  A0A059CYZ3 Uncharacterized protein OS=Eucaly...  38.5    0.036
+TR:A0A0E0N6R1_ORYRU  A0A0E0N6R1 Uncharacterized protein OS=Oryza ...  38.5    0.037
+TR:A0A0A0L6Q5_CUCSA  A0A0A0L6Q5 Uncharacterized protein OS=Cucumi...  36.6    0.038
+TR:A0A0Q3PGE3_BRADI  A0A0Q3PGE3 Uncharacterized protein OS=Brachy...  38.5    0.039
+TR:A0A072U2V5_MEDTR  A0A072U2V5 Pectate lyase OS=Medicago truncat...  38.5    0.040
+TR:F2D1Q3_HORVV  F2D1Q3 Predicted protein (Fragment) OS=Hordeum v...  38.1    0.041
+TR:A0A2H3ZG92_PHODC  A0A2H3ZG92 pentatricopeptide repeat-containi...  38.5    0.042
+TR:A0A2K3DSD7_CHLRE  A0A2K3DSD7 Uncharacterized protein OS=Chlamy...  38.5    0.043
+TR:A0A1U8AMI5_NELNU  A0A1U8AMI5 glycine-rich protein 2-like OS=Ne...  38.1    0.043
+TR:A5BQ96_VITVI  A5BQ96 Uncharacterized protein OS=Vitis vinifera...  38.1    0.047
+TR:F2DD34_HORVV  F2DD34 Predicted protein OS=Hordeum vulgare subs...  38.1    0.048
+TR:A0A068TLD3_COFCA  A0A068TLD3 Uncharacterized protein OS=Coffea...  38.1    0.054
+TR:A0A2P6VRH8_9CHLO  A0A2P6VRH8 Uncharacterized protein OS=Micrac...  38.1    0.056
+TR:I0YQE9_COCSC  I0YQE9 Uncharacterized protein OS=Coccomyxa sube...  38.1    0.057
+TR:Q42110_ARATH  Q42110 Protein 9612 (Fragment) OS=Arabidopsis th...  36.2    0.057
+TR:A0A1D5SGZ0_WHEAT  A0A1D5SGZ0 Uncharacterized protein OS=Tritic...  37.7    0.059
+TR:A0A1D5SGZ3_WHEAT  A0A1D5SGZ3 Uncharacterized protein OS=Tritic...  37.7    0.062
+TR:A0A1S4BZW6_TOBAC  A0A1S4BZW6 glycine-rich protein 3-like isofo...  37.4    0.063
+TR:A0A1D5SGZ4_WHEAT  A0A1D5SGZ4 Uncharacterized protein OS=Tritic...  37.7    0.064
+TR:A0A1D5SGZ5_WHEAT  A0A1D5SGZ5 Uncharacterized protein OS=Tritic...  37.7    0.064
+TR:A0A2K3E8F1_CHLRE  A0A2K3E8F1 Uncharacterized protein OS=Chlamy...  36.2    0.064
+TR:O81929_CICAR  O81929 Glycine-rich protein 1 (Fragment) OS=Cice...  37.4    0.065
+TR:Q75QN8_WHEAT  Q75QN8 Cold shock domain protein 3 OS=Triticum a...  37.7    0.065
+TR:Q5Z4P9_ORYSJ  Q5Z4P9 Os06g0317200 protein OS=Oryza sativa subs...  36.6    0.068
+TR:A0A1S2XL98_CICAR  A0A1S2XL98 abscisic acid and environmental s...  37.4    0.069
+TR:A0A1U7XKQ5_NICSY  A0A1U7XKQ5 glycine-rich cell wall structural...  37.7    0.070
+TR:A0A1S4D5A5_TOBAC  A0A1S4D5A5 glycine-rich cell wall structural...  37.7    0.070
+TR:S8DVT2_9LAMI  S8DVT2 Uncharacterized protein OS=Genlisea aurea...  37.0    0.070
+TR:A0A1Q3C2X3_CEPFO  A0A1Q3C2X3 GRP domain-containing protein OS=...  36.6    0.071
+TR:A0A1U7X4Q1_NICSY  A0A1U7X4Q1 glycine-rich cell wall structural...  37.7    0.074
+TR:A0A2R6PPS8_ACTCH  A0A2R6PPS8 Transcription initiation factor T...  37.7    0.075
+TR:I3SDP0_MEDTR  I3SDP0 Uncharacterized protein OS=Medicago trunc...  37.0    0.075
+TR:A0A2P5ATY6_PARAD  A0A2P5ATY6 Splicing factor-like protein OS=P...  37.7    0.075
+TR:A0A067E572_CITSI  A0A067E572 Pectate lyase OS=Citrus sinensis ...  37.7    0.075
+TR:A0A2H5QG46_CITUN  A0A2H5QG46 Pectate lyase OS=Citrus unshiu OX...  37.7    0.075
+TR:V4UQA6_9ROSI  V4UQA6 Pectate lyase OS=Citrus clementina OX=856...  37.7    0.075
+TR:A0A2K3N7K6_TRIPR  A0A2K3N7K6 Uncharacterized protein OS=Trifol...  36.6    0.076
+TR:A0A1B6PN88_SORBI  A0A1B6PN88 Uncharacterized protein OS=Sorghu...  37.7    0.080
+TR:A0A2K3D8K6_CHLRE  A0A2K3D8K6 Uncharacterized protein OS=Chlamy...  37.7    0.081
+TR:A0A2K3D8K9_CHLRE  A0A2K3D8K9 Uncharacterized protein OS=Chlamy...  37.7    0.081
+TR:A0A078FNA6_BRANA  A0A078FNA6 BnaA09g43450D protein OS=Brassica...  37.4    0.083
+TR:M4EQT6_BRARP  M4EQT6 Uncharacterized protein OS=Brassica rapa ...  37.4    0.083
+TR:Q9ZRV2_CICAR  Q9ZRV2 Glycine-rich protein 2 (Fragment) OS=Cice...  37.4    0.085
+TR:A0A1S2XMR8_CICAR  A0A1S2XMR8 abscisic acid and environmental s...  37.0    0.086
+TR:J3N322_ORYBR  J3N322 Uncharacterized protein OS=Oryza brachyan...  35.8    0.087
+TR:B8BH85_ORYSI  B8BH85 Uncharacterized protein OS=Oryza sativa s...  37.4    0.088
+TR:A0A1S2XNJ6_CICAR  A0A1S2XNJ6 glycine-rich cell wall structural...  37.4    0.089
+TR:A0A1S3TH72_VIGRR  A0A1S3TH72 loricrin-like OS=Vigna radiata va...  37.0    0.090
+TR:A0A150GLY3_GONPE  A0A150GLY3 Uncharacterized protein OS=Gonium...  37.4    0.093
+TR:I1II82_BRADI  I1II82 Uncharacterized protein OS=Brachypodium d...  37.4    0.094
+TR:A8IZS5_CHLRE  A8IZS5 Glycine-rich RNA-binding protein OS=Chlam...  37.0    0.097
+TR:A0A2K3DDE6_CHLRE  A0A2K3DDE6 Uncharacterized protein OS=Chlamy...  37.0    0.100
+TR:A0A2G2Y3K8_CAPAN  A0A2G2Y3K8 Pectate lyase OS=Capsicum annuum ...  37.4    0.10 
+TR:A0A1S3T7D1_VIGRR  A0A1S3T7D1 transcription initiation factor T...  37.4    0.10 
+TR:A0A1J3CXP1_NOCCA  A0A1J3CXP1 Protein decapping 5 OS=Noccaea ca...  37.4    0.11 
+TR:A0A1J3JN12_NOCCA  A0A1J3JN12 Protein decapping 5 OS=Noccaea ca...  37.4    0.11 
+TR:Q5Z4P7_ORYSJ  Q5Z4P7 Os06g0317200 protein OS=Oryza sativa subs...  36.6    0.11 
+TR:A0A1D5U0G9_WHEAT  A0A1D5U0G9 Uncharacterized protein OS=Tritic...  37.4    0.11 
+TR:A2Z828_ORYSI  A2Z828 Uncharacterized protein OS=Oryza sativa s...  37.0    0.11 
+TR:I1QV29_ORYGL  I1QV29 Uncharacterized protein OS=Oryza glaberri...  37.0    0.11 
+TR:A0A0E0BB81_9ORYZ  A0A0E0BB81 Uncharacterized protein OS=Oryza ...  37.0    0.11 
+TR:Q7XDR9_ORYSJ  Q7XDR9 Expressed protein OS=Oryza sativa subsp. ...  37.0    0.11 
+TR:A0A150GMD9_GONPE  A0A150GMD9 Uncharacterized protein OS=Gonium...  37.4    0.11 
+TR:A0A2K3D074_CHLRE  A0A2K3D074 Uncharacterized protein OS=Chlamy...  37.4    0.11 
+TR:Q5Z4P8_ORYSJ  Q5Z4P8 Os06g0317200 protein OS=Oryza sativa subs...  36.6    0.12 
+TR:A0A1Y1IH49_KLENI  A0A1Y1IH49 RNA recognition motif containing ...  36.6    0.12 
+TR:A0A2R6QCR8_ACTCH  A0A2R6QCR8 Loricrin-like OS=Actinidia chinen...  36.6    0.12 
+TR:A0A2G3AA58_CAPAN  A0A2G3AA58 Cold shock domain-containing prot...  37.0    0.12 
+TR:J3N316_ORYBR  J3N316 Uncharacterized protein OS=Oryza brachyan...  37.0    0.12 
+TR:A0A2H3YN10_PHODC  A0A2H3YN10 putative glycine-rich cell wall s...  36.6    0.12 
+TR:A0A1E5VHX4_9POAL  A0A1E5VHX4 Uncharacterized protein OS=Dichan...  36.6    0.12 
+TR:I1GZR9_BRADI  I1GZR9 Uncharacterized protein OS=Brachypodium d...  36.6    0.12 
+TR:A2WYA9_ORYSI  A2WYA9 Uncharacterized protein OS=Oryza sativa s...  37.0    0.13 
+TR:A0A0E0FXK1_ORYNI  A0A0E0FXK1 Uncharacterized protein OS=Oryza ...  37.0    0.13 
+TR:M1CPX1_SOLTU  M1CPX1 Uncharacterized protein OS=Solanum tubero...  37.0    0.13 
+TR:A0A0D9YJ51_9ORYZ  A0A0D9YJ51 Uncharacterized protein OS=Oryza ...  37.0    0.13 
+TR:Q8RZX2_ORYSJ  Q8RZX2 Os01g0916000 protein OS=Oryza sativa subs...  37.0    0.13 
+TR:A0A0D3EXU6_9ORYZ  A0A0D3EXU6 Uncharacterized protein OS=Oryza ...  37.0    0.13 
+TR:I1NUM8_ORYGL  I1NUM8 Uncharacterized protein OS=Oryza glaberri...  37.0    0.13 
+TR:G7K7D9_MEDTR  G7K7D9 Uncharacterized protein OS=Medicago trunc...  36.6    0.13 
+TR:V4LZB7_EUTSA  V4LZB7 Uncharacterized protein OS=Eutrema salsug...  37.0    0.13 
+TR:A0A0D3HEA9_9ORYZ  A0A0D3HEA9 Uncharacterized protein OS=Oryza ...  37.0    0.14 
+TR:A0A072VRH1_MEDTR  A0A072VRH1 Pectate lyase OS=Medicago truncat...  37.0    0.14 
+TR:A0A0B2QSH1_GLYSO  A0A0B2QSH1 Pectate lyase OS=Glycine soja OX=...  37.0    0.14 
+TR:I1LAJ4_SOYBN  I1LAJ4 Pectate lyase OS=Glycine max OX=3847 GN=1...  37.0    0.14 
+TR:A0A072UF04_MEDTR  A0A072UF04 K-like selenoprotein OS=Medicago ...  35.8    0.14 
+TR:A0A2J6LBR9_LACSA  A0A2J6LBR9 Pectate lyase OS=Lactuca sativa O...  37.0    0.14 
+TR:A0A150FVW8_GONPE  A0A150FVW8 Uncharacterized protein OS=Gonium...  37.0    0.14 
+TR:A9SQ74_PHYPA  A9SQ74 Predicted protein (Fragment) OS=Physcomit...  36.6    0.14 
+TR:A0A078IZI5_BRANA  A0A078IZI5 BnaCnng29620D protein OS=Brassica...  37.0    0.14 
+TR:A0A0D3BI34_BRAOL  A0A0D3BI34 Uncharacterized protein OS=Brassi...  37.0    0.14 
+TR:A0A0E0ISU0_ORYNI  A0A0E0ISU0 Uncharacterized protein OS=Oryza ...  37.0    0.14 
+TR:A0A2P6TQR3_CHLSO  A0A2P6TQR3 RNA-binding cabeza OS=Chlorella s...  37.0    0.15 
+TR:A0A1D6BSZ7_WHEAT  A0A1D6BSZ7 Uncharacterized protein OS=Tritic...  36.6    0.15 
+TR:A0A2K3CQS9_CHLRE  A0A2K3CQS9 26S proteasome non-ATPase regulat...  37.0    0.15 
+TR:A8J6S7_CHLRE  A8J6S7 26S proteasome non-ATPase regulatory subu...  37.0    0.15 
+TR:A0A0D2J7I0_9CHLO  A0A0D2J7I0 Uncharacterized protein (Fragment...  35.0    0.15 
+TR:A0A0E0QZW6_ORYRU  A0A0E0QZW6 Uncharacterized protein OS=Oryza ...  37.0    0.15 
+TR:G7K8W6_MEDTR  G7K8W6 K-like selenoprotein OS=Medicago truncatu...  35.8    0.15 
+TR:A0A2R6XR48_MARPO  A0A2R6XR48 Uncharacterized protein OS=Marcha...  36.6    0.15 
+TR:A0A287FYU8_HORVV  A0A287FYU8 Uncharacterized protein OS=Hordeu...  36.6    0.15 
+TR:A0A150G8F5_GONPE  A0A150G8F5 Uncharacterized protein OS=Gonium...  37.0    0.15 
+TR:A0A2K1KGT1_PHYPA  A0A2K1KGT1 Uncharacterized protein OS=Physco...  36.6    0.15 
+TR:A0A1J3J1Y6_NOCCA  A0A1J3J1Y6 Cold shock domain-containing prot...  36.6    0.16 
+TR:A0A0D9X415_9ORYZ  A0A0D9X415 Uncharacterized protein OS=Leersi...  36.2    0.16 
+TR:A0A287FYS8_HORVV  A0A287FYS8 Uncharacterized protein OS=Hordeu...  36.6    0.16 
+TR:A0A088FZS5_CICAR  A0A088FZS5 Cold shock protein OS=Cicer ariet...  36.6    0.16 
+TR:A0A0K9P8C9_ZOSMR  A0A0K9P8C9 Cold shock domain-containing prot...  36.6    0.16 
+TR:G7K7D5_MEDTR  G7K7D5 Uncharacterized protein OS=Medicago trunc...  36.6    0.16 
+TR:A0A072UQ88_MEDTR  A0A072UQ88 K-like selenoprotein OS=Medicago ...  35.8    0.16 
+TR:A0A176VF35_MARPO  A0A176VF35 Uncharacterized protein OS=Marcha...  36.6    0.16 
+TR:V4K4E7_EUTSA  V4K4E7 Uncharacterized protein OS=Eutrema salsug...  35.0    0.17 
+TR:A0A0E0HPM9_ORYNI  A0A0E0HPM9 Uncharacterized protein OS=Oryza ...  36.2    0.17 
+TR:J3LSK9_ORYBR  J3LSK9 Uncharacterized protein OS=Oryza brachyan...  36.6    0.18 
+TR:B8AWR4_ORYSI  B8AWR4 Uncharacterized protein OS=Oryza sativa s...  36.6    0.18 
+TR:A0A2N9GA99_FAGSY  A0A2N9GA99 Uncharacterized protein OS=Fagus ...  36.6    0.18 
+TR:S8D8G8_9LAMI  S8D8G8 Uncharacterized protein (Fragment) OS=Gen...  36.6    0.18 
+TR:A0A2U1MKM4_ARTAN  A0A2U1MKM4 Zinc finger CCCH domain-containin...  36.6    0.19 
+TR:A0A2U1MKS7_ARTAN  A0A2U1MKS7 Zinc finger CCCH domain-containin...  36.6    0.19 
+TR:A0A067KW68_JATCU  A0A067KW68 Uncharacterized protein OS=Jatrop...  36.6    0.19 
+TR:A0A0A0LH77_CUCSA  A0A0A0LH77 Uncharacterized protein OS=Cucumi...  36.6    0.19 
+TR:A0A0D2SUY8_GOSRA  A0A0D2SUY8 Uncharacterized protein OS=Gossyp...  36.6    0.19 
+TR:A0A2P6QRX6_ROSCH  A0A2P6QRX6 Pectate lyase OS=Rosa chinensis O...  36.6    0.19 
+TR:A0A1B6Q1J6_SORBI  A0A1B6Q1J6 Uncharacterized protein OS=Sorghu...  36.6    0.19 
+TR:A0A0S3SBX0_PHAAN  A0A0S3SBX0 Uncharacterized protein (Fragment...  35.4    0.19 
+TR:A0A1U8APJ9_NELNU  A0A1U8APJ9 transcription initiation factor T...  36.6    0.19 
+TR:A0A1U8ANX6_NELNU  A0A1U8ANX6 transcription initiation factor T...  36.6    0.19 
+TR:A0A1Q3CM04_CEPFO  A0A1Q3CM04 Pectate lyase OS=Cephalotus folli...  36.6    0.19 
+TR:C1EIE9_MICCC  C1EIE9 Dead-box ATP-dependent RNA helicase OS=Mi...  36.6    0.20 
+TR:A8IBY2_CHLRE  A8IBY2 Predicted protein (Fragment) OS=Chlamydom...  36.6    0.20 
+TR:A0A2K3D9L7_CHLRE  A0A2K3D9L7 Uncharacterized protein OS=Chlamy...  36.6    0.20 
+TR:A0A2K3E5M1_CHLRE  A0A2K3E5M1 Uncharacterized protein OS=Chlamy...  36.6    0.20 
+TR:A0A2K3E0V2_CHLRE  A0A2K3E0V2 Uncharacterized protein OS=Chlamy...  36.6    0.20 
+TR:A0A2U1LGY0_ARTAN  A0A2U1LGY0 Pectin lyase-like superfamily pro...  35.0    0.20 
+TR:A8IZJ6_CHLRE  A8IZJ6 RWP-RK transcription factor OS=Chlamydomo...  36.6    0.21 
+TR:A0A2K3DDQ8_CHLRE  A0A2K3DDQ8 Uncharacterized protein OS=Chlamy...  36.6    0.21 
+TR:A0A2K3D6F6_CHLRE  A0A2K3D6F6 Uncharacterized protein OS=Chlamy...  36.6    0.21 
+TR:A0A2I0X920_9ASPA  A0A2I0X920 Uncharacterized protein OS=Dendro...  36.2    0.21 
+TR:A0A087H302_ARAAL  A0A087H302 Uncharacterized protein OS=Arabis...  35.8    0.21 
+TR:A0A1D5RWD1_WHEAT  A0A1D5RWD1 Uncharacterized protein OS=Tritic...  36.2    0.21 
+TR:A0A2P5Q2K5_GOSBA  A0A2P5Q2K5 Uncharacterized protein OS=Gossyp...  35.4    0.22 
+TR:A0A2P5E5L8_9ROSA  A0A2P5E5L8 Cold shock protein OS=Trema orien...  36.2    0.22 
+TR:A0A1J3G132_NOCCA  A0A1J3G132 Putative pectate lyase 20 (Fragme...  35.4    0.22 
+TR:A0A2I4G1I9_9ROSI  A0A2I4G1I9 LOW QUALITY PROTEIN: glycine-rich...  36.2    0.23 
+TR:A0A1S2YTM4_CICAR  A0A1S2YTM4 glycine-rich cell wall structural...  36.2    0.23 
+TR:A0A0E0PX14_ORYRU  A0A0E0PX14 Uncharacterized protein OS=Oryza ...  35.8    0.23 
+TR:Q5Z4P5_ORYSJ  Q5Z4P5 Os06g0317400 protein OS=Oryza sativa subs...  35.8    0.23 
+TR:M0TMS3_MUSAM  M0TMS3 Uncharacterized protein OS=Musa acuminata...  35.8    0.24 
+TR:A0A103Y4W2_CYNCS  A0A103Y4W2 Nucleotide-binding, alpha-beta pl...  36.2    0.24 
+TR:A0A1R3I3Z4_COCAP  A0A1R3I3Z4 Uncharacterized protein OS=Corcho...  36.2    0.24 
+TR:A0A1J6JRV3_NICAT  A0A1J6JRV3 Glycine-rich rna-binding protein ...  36.2    0.24 
+TR:A0A2P5EPD9_9ROSA  A0A2P5EPD9 Uncharacterized protein OS=Trema ...  36.2    0.25 
+TR:A0A2K1Z5L3_POPTR  A0A2K1Z5L3 Uncharacterized protein OS=Populu...  35.4    0.25 
+TR:A0A2P5W8N7_GOSBA  A0A2P5W8N7 Uncharacterized protein OS=Gossyp...  36.2    0.25 
+TR:A0A022R542_ERYGU  A0A022R542 Uncharacterized protein OS=Erythr...  36.2    0.25 
+TR:M4D2J3_BRARP  M4D2J3 Uncharacterized protein OS=Brassica rapa ...  35.8    0.25 
+TR:A0A2K3NWA7_TRIPR  A0A2K3NWA7 Pectate lyase OS=Trifolium praten...  36.2    0.25 
+
+
+>TR:A0A1B6QKH6_SORBI A0A1B6QKH6 Pectate lyase OS=Sorghum bicolor OX=4558 GN=SORBI_3001G230400 
+PE=3 SV=1
+Length=482
+
+ Score = 191 bits (484),  Expect = 5e-58
+ Identities = 97/104 (93%), Positives = 98/104 (94%), Gaps = 1/104 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE+IYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVG GGG G
+Sbjct  380  SGEGLEEIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGTGGG-G  438
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GNGYGYLGMVYANGGGDRR RS SAL LISSV TLIALGCLRLL
+Sbjct  439  GNGYGYLGMVYANGGGDRRSRSQSALSLISSVTTLIALGCLRLL  482
+
+
+>TR:A0A1D6KU41_MAIZE A0A1D6KU41 Pectate lyase OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d032806 
+PE=3 SV=1
+Length=432
+
+ Score = 171 bits (434),  Expect = 5e-51
+ Identities = 88/104 (85%), Positives = 93/104 (89%), Gaps = 2/104 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+EDIY KASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG G  GG G
+Sbjct  331  SGEGMEDIYGKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG-GRTGGGG  389
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G GYGYLGMVYA GGGD+R RSHSAL L+SS IT++ALGCL LL
+Sbjct  390  GYGYGYLGMVYA-GGGDQRWRSHSALSLVSSAITVVALGCLHLL  432
+
+
+>TR:B6SWR0_MAIZE B6SWR0 Pectate lyase OS=Zea mays OX=4577 PE=2 SV=1
+Length=483
+
+ Score = 171 bits (434),  Expect = 1e-50
+ Identities = 88/104 (85%), Positives = 93/104 (89%), Gaps = 2/104 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+EDIY KASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG G  GG G
+Sbjct  382  SGEGMEDIYGKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG-GRTGGGG  440
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G GYGYLGMVYA GGGD+R RSHSAL L+SS IT++ALGCL LL
+Sbjct  441  GYGYGYLGMVYA-GGGDQRWRSHSALSLVSSAITVVALGCLHLL  483
+
+
+>TR:A0A0A9CS44_ARUDO A0A0A9CS44 Pectate lyase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=215
+
+ Score = 162 bits (409),  Expect = 1e-49
+ Identities = 79/104 (76%), Positives = 87/104 (84%), Gaps = 1/104 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E+IYDKASSTDPKSSALVD LTQNAGV+GDPR+D +ETGY GVNYAGVG G G G
+Sbjct  113  SGEGMEEIYDKASSTDPKSSALVDTLTQNAGVIGDPRDDGQETGYTGVNYAGVGTGAGGG  172
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+             NGYGYLGMVYANGGG RRC+ HS L L S V+ L+ LG L LL
+Sbjct  173  NNGYGYLGMVYANGGG-RRCQCHSMLSLTSLVLALVGLGRLHLL  215
+
+
+>TR:A0A2T7C635_9POAL A0A2T7C635 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_9G225600 PE=4 SV=1
+Length=483
+
+ Score = 167 bits (424),  Expect = 4e-49
+ Identities = 87/105 (83%), Positives = 92/105 (88%), Gaps = 2/105 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG-GGS  59
+            SGEG+E+IYDKASSTDPKSSALVD LTQNAGVLGDPRNDA ETGY GVNYAGVG G GG 
+Sbjct  380  SGEGMEEIYDKASSTDPKSSALVDTLTQNAGVLGDPRNDAAETGYAGVNYAGVGNGRGGG  439
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GG+GYGYLGMVYANG G  R R+ S LPL SSVITL+ALGCLRLL
+Sbjct  440  GGDGYGYLGMVYANGAGRGR-RTLSTLPLASSVITLVALGCLRLL  483
+
+
+>TR:A0A2S3ILS1_9POAL A0A2S3ILS1 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_9G230500 PE=4 SV=1
+Length=484
+
+ Score = 167 bits (422),  Expect = 7e-49
+ Identities = 86/106 (81%), Positives = 92/106 (87%), Gaps = 3/106 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG--GG  58
+            SGEG+E+IYDKASSTDPKSSALVD LTQNAGVLGDPRNDA ETGY G+NYAGVG G  GG
+Sbjct  380  SGEGMEEIYDKASSTDPKSSALVDALTQNAGVLGDPRNDAAETGYAGINYAGVGNGRRGG  439
+
+Query  59   SGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+             GG+GYGYLGMVYANG G  R R+ S LPL SSVITL+ALGCLRLL
+Sbjct  440  GGGDGYGYLGMVYANGAGRGR-RTLSTLPLASSVITLVALGCLRLL  484
+
+
+>TR:K4A985_SETIT K4A985 Pectate lyase OS=Setaria italica OX=4555 GN=LOC101763908 
+PE=3 SV=1
+Length=481
+
+ Score = 166 bits (420),  Expect = 1e-48
+ Identities = 84/104 (81%), Positives = 90/104 (87%), Gaps = 1/104 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E+IY+KASSTDPKSSALVD LTQNAGVLGDPRNDAEETGY G+NYAGVG G G G
+Sbjct  379  SGEGMEEIYEKASSTDPKSSALVDTLTQNAGVLGDPRNDAEETGYTGLNYAGVGNGRGGG  438
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GNGYGYLGMVYAN   DR  RS S L L SSV+TL+ALGCLRLL
+Sbjct  439  GNGYGYLGMVYAN-DADRGRRSRSMLSLTSSVVTLVALGCLRLL  481
+
+
+>TR:A0A1E5WM80_9POAL A0A1E5WM80 Pectate lyase OS=Dichanthelium oligosanthes OX=888268 
+GN=BAE44_0000476 PE=3 SV=1
+Length=514
+
+ Score = 164 bits (415),  Expect = 1e-47
+ Identities = 85/105 (81%), Positives = 89/105 (85%), Gaps = 2/105 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+EDIY KASSTDPKSSALVD LTQNAGVLGDPRN+AEETGY GVNYAGVG G G G
+Sbjct  411  SGEGMEDIYSKASSTDPKSSALVDALTQNAGVLGDPRNNAEETGYTGVNYAGVGNGRGGG  470
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITL-IALGCLRLL  104
+             NGYGYLGMVYAN G DRRCRS   L L +SV TL +ALGCLRLL
+Sbjct  471  NNGYGYLGMVYAN-GADRRCRSPPTLSLTTSVTTLVVALGCLRLL  514
+
+
+>TR:A0A0A9M7H1_ARUDO A0A0A9M7H1 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=114
+
+ Score = 151 bits (381),  Expect = 9e-47
+ Identities = 78/105 (74%), Positives = 85/105 (81%), Gaps = 2/105 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E+IYDKASSTDPKSSALVD LTQ+AGVLGDPR+D +ETGY GVNYAGVG GGG G
+Sbjct  11   SGEGMEEIYDKASSTDPKSSALVDTLTQSAGVLGDPRDDGQETGYAGVNYAGVGTGGGGG  70
+
+Query  61   G-NGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G NGYGYLGMVYAN GG R CR+   L L S V  L+ LG L LL
+Sbjct  71   GNNGYGYLGMVYANSGG-RSCRTQLMLSLTSLVRALVGLGRLHLL  114
+
+
+>TR:A0A0A9CXQ9_ARUDO A0A0A9CXQ9 Pectate lyase OS=Arundo donax OX=35708 PE=3 SV=1
+Length=426
+
+ Score = 154 bits (388),  Expect = 3e-44
+ Identities = 78/104 (75%), Positives = 86/104 (83%), Gaps = 2/104 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E+IY KASSTDPKSSALVD LTQNAGV+GDPR+D +ETGY GVNYAGVG GGG G
+Sbjct  325  SGEGMEEIYGKASSTDPKSSALVDTLTQNAGVIGDPRDDGQETGYTGVNYAGVGTGGG-G  383
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+             NGYGYLGMVYANGGG R CR+H    L S V+ L+ LG LRLL
+Sbjct  384  NNGYGYLGMVYANGGG-RSCRTHWMQSLTSLVLALVGLGRLRLL  426
+
+
+>TR:A0A0D3HEC7_9ORYZ A0A0D3HEC7 Pectate lyase OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=240
+
+ Score = 125 bits (313),  Expect = 7e-35
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  132  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  191
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  192  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  240
+
+
+>TR:J3N354_ORYBR J3N354 Pectate lyase OS=Oryza brachyantha OX=4533 PE=3 SV=1
+Length=489
+
+ Score = 129 bits (323),  Expect = 2e-34
+ Identities = 71/109 (65%), Positives = 77/109 (71%), Gaps = 6/109 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGA-----  55
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAG+GA     
+Sbjct  382  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGMGAGSSGG  441
+
+Query  56   GGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GGG GG GYGYLGMVY + GGD  CR+   L L S  I L+AL CL  L
+Sbjct  442  GGGDGGLGYGYLGMVYGS-GGDWSCRAELTLQLTSLFIALVALICLHPL  489
+
+
+>TR:B9G630_ORYSJ B9G630 Pectate lyase OS=Oryza sativa subsp. japonica OX=39947 
+GN=OsJ_31774 PE=3 SV=1
+Length=454
+
+ Score = 125 bits (313),  Expect = 4e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  346  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  405
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  406  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  454
+
+
+>TR:A0A0D9XKB0_9ORYZ A0A0D9XKB0 Pectate lyase OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=488
+
+ Score = 125 bits (314),  Expect = 4e-33
+ Identities = 68/110 (62%), Positives = 76/110 (69%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLEDIYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG  GG G
+Sbjct  380  SGEGLEDIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTAGGRG  439
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S ++ L+ L CL  L
+Sbjct  440  GGGAGGGLGYGYLGMVYGS-GGNWSCRADLILQLTSLLLALVGLICLHPL  488
+
+
+>TR:B8BH93_ORYSI B8BH93 Pectate lyase OS=Oryza sativa subsp. indica OX=39946 GN=OsI_33884 
+PE=3 SV=1
+Length=491
+
+ Score = 125 bits (313),  Expect = 5e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  442
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  443  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  491
+
+
+>TR:A0A0E0ISW9_ORYNI A0A0E0ISW9 Pectate lyase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=491
+
+ Score = 125 bits (313),  Expect = 5e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  442
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  443  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  491
+
+
+>TR:A0A0E0QZY8_ORYRU A0A0E0QZY8 Pectate lyase OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=491
+
+ Score = 125 bits (313),  Expect = 5e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  442
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  443  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  491
+
+
+>TR:A0A0E0BBA3_9ORYZ A0A0E0BBA3 Pectate lyase OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=491
+
+ Score = 125 bits (313),  Expect = 5e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  442
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  443  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  491
+
+
+>TR:A0A0E0EYM0_9ORYZ A0A0E0EYM0 Pectate lyase OS=Oryza meridionalis OX=40149 PE=3 
+SV=1
+Length=492
+
+ Score = 125 bits (313),  Expect = 5e-33
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  384  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  443
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  444  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  492
+
+
+>TR:A0A0P0XVJ6_ORYSJ A0A0P0XVJ6 Pectate lyase OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os10g0457200 PE=3 SV=1
+Length=608
+
+ Score = 125 bits (313),  Expect = 1e-32
+ Identities = 69/110 (63%), Positives = 75/110 (68%), Gaps = 7/110 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GGG G
+Sbjct  500  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  559
+
+Query  61   GN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  560  GGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  608
+
+
+>TR:A0A0E0M8C1_ORYPU A0A0E0M8C1 Pectate lyase OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=485
+
+ Score = 124 bits (310),  Expect = 1e-32
+ Identities = 68/109 (62%), Positives = 76/109 (70%), Gaps = 6/109 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG---  57
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR++ E   Y GVNYAGVG GG   
+Sbjct  378  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRDNGEAAAYAGVNYAGVGTGGGGG  437
+
+Query  58   --GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+              G+GG GYGYLGMVY +  G+  CR+   L L S  + L+AL CL  L
+Sbjct  438  GAGAGGMGYGYLGMVYGS-SGNWSCRADLTLQLTSLFLALVALICLHPL  485
+
+
+>TR:T1MVU8_TRIUA T1MVU8 Pectate lyase OS=Triticum urartu OX=4572 PE=3 SV=1
+Length=309
+
+ Score = 120 bits (301),  Expect = 2e-32
+ Identities = 67/100 (67%), Positives = 74/100 (74%), Gaps = 5/100 (5%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV---GAG  56
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG    G G
+Sbjct  210  SGEGMENIYDKASSGVDPKSSALVDQLTIGAGVLGGPRDNGEASAYVGFNYAGSATGGGG  269
+
+Query  57   GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            GGSGGNGYG LGMVYAN  GDR CRSH  L L + V+ LI
+Sbjct  270  GGSGGNGYGSLGMVYAN-SGDRGCRSHLILSLTTLVLALI  308
+
+
+>TR:A0A1D5RP05_WHEAT A0A1D5RP05 Pectate lyase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=480
+
+ Score = 122 bits (307),  Expect = 3e-32
+ Identities = 70/107 (65%), Positives = 78/107 (73%), Gaps = 7/107 (7%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV---GAG  56
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG    G G
+Sbjct  376  SGEGMENIYDKASSGVDPKSSALVDQLTIGAGVLGGPRDNGEASAYVGFNYAGSATGGGG  435
+
+Query  57   GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRL  103
+            GGSGGNGYG LGMVYAN  GDR CRSH  L L + V+ LI   C+RL
+Sbjct  436  GGSGGNGYGSLGMVYAN-SGDRGCRSHLILSLTTLVLALIC--CVRL  479
+
+
+>TR:I1I4F1_BRADI I1I4F1 Pectate lyase OS=Brachypodium distachyon OX=15368 GN=LOC100834927 
+PE=3 SV=1
+Length=479
+
+ Score = 122 bits (305),  Expect = 6e-32
+ Identities = 67/107 (63%), Positives = 77/107 (72%), Gaps = 5/107 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+EDIY KASS DPKSSALVD LT  AGVLG PR++ E   Y GVNYAGV  GGG+ 
+Sbjct  375  SGEGMEDIYQKASSIDPKSSALVDQLTIGAGVLGGPRDNGEAAAYAGVNYAGVSTGGGAS  434
+
+Query  61   ---GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+               GNGYG LGMVYANGG    CRSH  +P ++S++ + AL CL  L
+Sbjct  435  GGRGNGYGVLGMVYANGGDWISCRSH-LIPSLASLL-VFALVCLHPL  479
+
+
+>TR:I1QV46_ORYGL I1QV46 Pectate lyase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=492
+
+ Score = 121 bits (303),  Expect = 1e-31
+ Identities = 70/111 (63%), Positives = 74/111 (67%), Gaps = 8/111 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND-AEETGYRGVNYAGVGAGGGS  59
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR D  E   Y GVNYAGVG GGG 
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPRYDNGEAAAYAGVNYAGVGTGGGG  442
+
+Query  60   GGN------GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GG       GYGYLGMVY + GG+  CR+   L L S  + L AL CL  L
+Sbjct  443  GGGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSLFLALFALICLHPL  492
+
+
+>TR:A0A287F6B9_HORVV A0A287F6B9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=142
+
+ Score = 112 bits (281),  Expect = 3e-31
+ Identities = 63/97 (65%), Positives = 70/97 (72%), Gaps = 4/97 (4%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG   GG  
+Sbjct  43   SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASAYVGFNYAGSATGG--  100
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            GGNGYG LGMVYAN  GD+ CRS   L L  SV+ LI
+Sbjct  101  GGNGYGSLGMVYAN-SGDQGCRSQLILSLTISVVALI  136
+
+
+>TR:A0A1D5SX57_WHEAT A0A1D5SX57 Pectate lyase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=478
+
+ Score = 115 bits (288),  Expect = 2e-29
+ Identities = 65/105 (62%), Positives = 74/105 (70%), Gaps = 5/105 (5%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG-VGAGGG  58
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG    GGG
+Sbjct  376  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASSYVGFNYAGSATGGGG  435
+
+Query  59   SGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRL  103
+             GGNGYG LGMVYAN  GDR CR+   L   + +I LI   C+RL
+Sbjct  436  GGGNGYGSLGMVYAN-SGDRGCRTQLILSFTTLIIALIC--CVRL  477
+
+
+>TR:A0A287F6C0_HORVV A0A287F6C0 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=376
+
+ Score = 112 bits (281),  Expect = 5e-29
+ Identities = 63/97 (65%), Positives = 70/97 (72%), Gaps = 4/97 (4%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG   GG  
+Sbjct  277  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASAYVGFNYAGSATGG--  334
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            GGNGYG LGMVYAN  GD+ CRS   L L  SV+ LI
+Sbjct  335  GGNGYGSLGMVYAN-SGDQGCRSQLILSLTISVVALI  370
+
+
+>TR:A0A287F6C4_HORVV A0A287F6C4 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=473
+
+ Score = 112 bits (281),  Expect = 2e-28
+ Identities = 63/97 (65%), Positives = 70/97 (72%), Gaps = 4/97 (4%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG   GG  
+Sbjct  374  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASAYVGFNYAGSATGG--  431
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            GGNGYG LGMVYAN  GD+ CRS   L L  SV+ LI
+Sbjct  432  GGNGYGSLGMVYAN-SGDQGCRSQLILSLTISVVALI  467
+
+
+>TR:A0A1D5SEI6_WHEAT A0A1D5SEI6 Pectate lyase OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=480
+
+ Score = 111 bits (277),  Expect = 6e-28
+ Identities = 63/100 (63%), Positives = 70/100 (70%), Gaps = 5/100 (5%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG   GGGS
+Sbjct  376  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASAYVGFNYAGSATGGGS  435
+
+Query  60   ---GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+               GGNGYG LGMVYAN  G R C S   L L + V+ LI
+Sbjct  436  AGGGGNGYGSLGMVYAN-SGHRSCPSQLILSLTTLVLALI  474
+
+
+>TR:A0A287F6F6_HORVV A0A287F6F6 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=465
+
+ Score = 109 bits (273),  Expect = 2e-27
+ Identities = 61/94 (65%), Positives = 68/94 (72%), Gaps = 4/94 (4%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR++ E + Y G NYAG   GG  
+Sbjct  374  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRDNGEASAYVGFNYAGSATGG--  431
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVI  93
+            GGNGYG LGMVYAN  GD+ CRS   L L  SV+
+Sbjct  432  GGNGYGSLGMVYAN-SGDQGCRSQLILSLTISVV  464
+
+
+>TR:A0A2H4A184_PHODC A0A2H4A184 Pectate lyase OS=Phoenix dactylifera OX=42345 GN=LOC103723301 
+PE=3 SV=1
+Length=508
+
+ Score = 101 bits (252),  Expect = 2e-24
+ Identities = 58/110 (53%), Positives = 70/110 (64%), Gaps = 9/110 (8%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV-------  53
+            SGEGLE  Y KA S DPK +AL+D LT NAGVLG PR++   TGY GVN  G+       
+Sbjct  396  SGEGLEVTYAKAESLDPKPAALIDQLTMNAGVLGGPRDNEVGTGYSGVNNGGLTADGGGG  455
+
+Query  54   GAGGGSGGN-GYGYLGMVYANGGGDRRCRSHSALPLISS-VITLIALGCL  101
+            GAGGG+GG  GYGYLGMV+ +G        HS L L SS ++ L ++ CL
+Sbjct  456  GAGGGAGGGAGYGYLGMVFGSGAPSSPSHCHSILLLSSSLIVALFSILCL  505
+
+
+>TR:A0A287F6F1_HORVV A0A287F6F1 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=418
+
+ Score = 94.0 bits (232),  Expect = 8e-22
+ Identities = 63/135 (47%), Positives = 70/135 (52%), Gaps = 42/135 (31%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPR----------------------  37
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR                      
+Sbjct  281  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPRYYAPLPFPSLLRGWVRGLKYLH  340
+
+Query  38   ----------------NDAEETGYRGVNYAGVGAGGGSGGNGYGYLGMVYANGGGDRRCR  81
+                            ++ E + Y G NYAG   GG  GGNGYG LGMVYAN  GD+ CR
+Sbjct  341  KLPSIAAKRVPRQRLWDNGEASAYVGFNYAGSATGG--GGNGYGSLGMVYAN-SGDQGCR  397
+
+Query  82   SHSALPLISSVITLI  96
+            S   L L  SV+ LI
+Sbjct  398  SQLILSLTISVVALI  412
+
+
+>TR:A0A1D1XN86_9ARAE A0A1D1XN86 Putative pectate lyase 13 (Fragment) OS=Anthurium 
+amnicola OX=1678845 GN=PMR6_1 PE=4 SV=1
+Length=206
+
+ Score = 83.6 bits (205),  Expect = 4e-19
+ Identities = 50/104 (48%), Positives = 64/104 (62%), Gaps = 6/104 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL   Y KASS +PKS+ ++D LT NAGVLG PR+D + T   G + +G  AGGG  
+Sbjct  90   SGEGLGVKYAKASSVEPKSAGMIDQLTMNAGVLGGPRDDDDGT---GSSPSGADAGGGGA  146
+
+Query  61   GNGY-GYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRL  103
+            G  Y GY GMV+  GGG     S    PL+ S ++++AL  L L
+Sbjct  147  GGAYGGYFGMVF--GGGRVSGASQRPPPLLLSCLSVVALAILHL  188
+
+
+>TR:M0RWP0_MUSAM M0RWP0 Pectate lyase OS=Musa acuminata subsp. malaccensis OX=214687 
+PE=3 SV=1
+Length=511
+
+ Score = 85.1 bits (209),  Expect = 2e-18
+ Identities = 47/80 (59%), Positives = 54/80 (68%), Gaps = 6/80 (8%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV-----GA  55
+            SGEGL+  Y KA S DPKS+AL+D LT NAGVLG PR++   T Y GVNY G      G 
+Sbjct  399  SGEGLDAKYAKAESLDPKSAALIDQLTLNAGVLGGPRDNGVGTAYSGVNYGGSAATADGG  458
+
+Query  56   GGGSG-GNGYGYLGMVYANG  74
+            GG SG G GYG LGMV+ +G
+Sbjct  459  GGASGWGVGYGPLGMVFGSG  478
+
+
+>TR:A0A2H3YVX9_PHODC A0A2H3YVX9 Pectate lyase OS=Phoenix dactylifera OX=42345 GN=LOC103717730 
+PE=3 SV=1
+Length=487
+
+ Score = 81.3 bits (199),  Expect = 4e-17
+ Identities = 51/98 (52%), Positives = 60/98 (61%), Gaps = 3/98 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GLE  Y KA S +PKS+AL+D LT NAGVLG PR++   TGY GV+  G G    S 
+Sbjct  384  SGAGLEATYAKAESLNPKSAALIDRLTMNAGVLGGPRDNDMGTGYSGVSNGGTGTTAYS-  442
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G GYG LGM +A+G         S L L SS+  LIAL
+Sbjct  443  GPGYGSLGMAFASGAPSPPSHCCSLLILCSSL--LIAL  478
+
+
+>TR:M0SRX3_MUSAM M0SRX3 Pectate lyase OS=Musa acuminata subsp. malaccensis OX=214687 
+PE=3 SV=1
+Length=447
+
+ Score = 78.6 bits (192),  Expect = 3e-16
+ Identities = 46/92 (50%), Positives = 56/92 (61%), Gaps = 5/92 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GLE  Y KA S +PKS+AL+D LT NAGVLG PR+++   G  GVNY G       G
+Sbjct  342  SGQGLEAKYAKAWSVEPKSAALIDQLTGNAGVLGGPRDNSVGPGNSGVNYVGSATTQDGG  401
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSV  92
+              GYG LGMV+A+          SA P+ SSV
+Sbjct  402  EGGYGSLGMVFAS-----VAPPPSAPPIFSSV  428
+
+
+>TR:Q6U6I9_BRANA Q6U6I9 Pectate lyase OS=Brassica napus OX=3708 GN=BPL1 PE=2 SV=1
+Length=500
+
+ Score = 77.8 bits (190),  Expect = 6e-16
+ Identities = 39/68 (57%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+  +Y KASS +PK+SALVD LT+NAGV G PR+D  +TG     Y G G GGGSG
+Sbjct  373  SGGGVSALYSKASSVEPKASALVDQLTRNAGVFGGPRDDQGQTGDSYSGYGGGGGGGGSG  432
+
+Query  61   GNGYGYLG  68
+            G G G  G
+Sbjct  433  GGGGGSSG  440
+
+
+>TR:A0A0D3DT66_BRAOL A0A0D3DT66 Pectate lyase OS=Brassica oleracea var. oleracea OX=109376 
+GN=106312405 PE=3 SV=1
+Length=503
+
+ Score = 77.8 bits (190),  Expect = 7e-16
+ Identities = 39/68 (57%), Positives = 46/68 (68%), Gaps = 0/68 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+  +Y KASS +PK+SALVD LT+NAGV G PR+D  +TG     Y G G GGGSG
+Sbjct  376  SGGGVSALYSKASSVEPKASALVDQLTRNAGVFGGPRDDQGQTGDSYSGYGGGGGGGGSG  435
+
+Query  61   GNGYGYLG  68
+            G G G  G
+Sbjct  436  GGGGGSSG  443
+
+
+>TR:A0A2G9I3W3_9LAMI A0A2G9I3W3 Pectate lyase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_02806 PE=3 SV=1
+Length=535
+
+ Score = 77.4 bits (189),  Expect = 9e-16
+ Identities = 47/99 (47%), Positives = 57/99 (58%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRG---VNYAGVGAGG  57
+            SGEG    Y KASS + KS+ L+D LT NAGVLG PR++     Y G       G G GG
+Sbjct  428  SGEGANMQYVKASSVEAKSATLIDQLTMNAGVLGGPRDNGVSISYGGGTTTGGGGSGGGG  487
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            GS G G  Y GM++A  GG    +  SA+   SS+ITLI
+Sbjct  488  GSRGGGEEYFGMIFA--GGAAAMQPPSAVVFSSSLITLI  524
+
+
+>TR:M4CSC4_BRARP M4CSC4 Pectate lyase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=490
+
+ Score = 76.6 bits (187),  Expect = 2e-15
+ Identities = 40/75 (53%), Positives = 51/75 (68%), Gaps = 3/75 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+  +Y KASS +PK+SALVD LT+NAGV G PR+D    G  G +Y+G G GGG G
+Sbjct  380  SGGGVSALYSKASSVEPKASALVDQLTRNAGVFGGPRDD---QGQSGDSYSGYGGGGGGG  436
+
+Query  61   GNGYGYLGMVYANGG  75
+            G+G G  G   ++GG
+Sbjct  437  GSGGGGGGSSGSDGG  451
+
+
+>TR:A0A1S3XA18_TOBAC A0A1S3XA18 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107762739 
+PE=3 SV=1
+Length=493
+
+ Score = 75.9 bits (185),  Expect = 3e-15
+ Identities = 40/99 (40%), Positives = 58/99 (59%), Gaps = 3/99 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRG---VNYAGVGAGG  57
+            SGEGL + Y KASS +PKS+ L+D LT NAGV G PR+++    Y G      +G G  G
+Sbjct  376  SGEGLSNQYAKASSVEPKSAVLIDQLTLNAGVFGAPRDNSISISYGGGTTTGASGSGGAG  435
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+             +GGN   + GM++ +G   +   S +   L+S +I L+
+Sbjct  436  STGGNDSDFFGMIFGSGAAAKLSPSTTTTILLSHLIILV  474
+
+
+>SP:PLY13_ARATH Q93Z04 Probable pectate lyase 13 OS=Arabidopsis thaliana OX=3702 
+GN=PMR6 PE=1 SV=1
+Length=501
+
+ Score = 74.7 bits (182),  Expect = 8e-15
+ Identities = 41/84 (49%), Positives = 51/84 (61%), Gaps = 2/84 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+  +Y KASS DPK+++LVD LT+NAGV G PR+D  ++G     Y G G GGGS 
+Sbjct  380  SGEGMSSMYSKASSVDPKAASLVDQLTRNAGVFGGPRDDQGQSGNSYSPYGGDGGGGGSS  439
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS  84
+            G   G  G +   GG  R   S S
+Sbjct  440  GGSSG--GGMDVMGGTTRGSSSSS  461
+
+
+>TR:A0A178VCI0_ARATH A0A178VCI0 Pectate lyase OS=Arabidopsis thaliana OX=3702 GN=AXX17_At3g49450 
+PE=3 SV=1
+Length=501
+
+ Score = 74.7 bits (182),  Expect = 8e-15
+ Identities = 41/84 (49%), Positives = 51/84 (61%), Gaps = 2/84 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+  +Y KASS DPK+++LVD LT+NAGV G PR+D  ++G     Y G G GGGS 
+Sbjct  380  SGEGMSSMYSKASSVDPKAASLVDQLTRNAGVFGGPRDDQGQSGNSYSPYGGDGGGGGSS  439
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS  84
+            G   G  G +   GG  R   S S
+Sbjct  440  GGSSG--GGMDVMGGTTRGSSSSS  461
+
+
+>TR:A0A2I0VWZ8_9ASPA A0A2I0VWZ8 Pectate lyase OS=Dendrobium catenatum OX=906689 GN=PMR6 
+PE=3 SV=1
+Length=480
+
+ Score = 74.3 bits (181),  Expect = 1e-14
+ Identities = 42/90 (47%), Positives = 53/90 (59%), Gaps = 14/90 (16%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEET--GYRGVNYAGV-----  53
+            SGEGL  +YDKASS +PKS+  +D LT+NAGVLG PR++  ++   Y G N  G      
+Sbjct  367  SGEGLAALYDKASSVEPKSAEFIDELTRNAGVLGGPRDNGGQSSGAYPGANDGGFAAGGG  426
+
+Query  54   -----GAGGGSGGNGYGYLGMVYANGGGDR  78
+                 G GGG G    G+ GMV+  GGG R
+Sbjct  427  GMAIDGGGGGGGSGASGFFGMVF--GGGAR  454
+
+
+>TR:V4SPP8_9ROSI V4SPP8 Pectate lyase OS=Citrus clementina OX=85681 GN=CICLE_v10031337mg 
+PE=3 SV=1
+Length=491
+
+ Score = 73.2 bits (178),  Expect = 3e-14
+ Identities = 45/98 (46%), Positives = 57/98 (58%), Gaps = 2/98 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND-AEETGYRGVNYAGVGAGGGS  59
+            SG GL   Y KASS +PKS+AL+D LT NAGV G PR+D  E   Y G +  G G+GG +
+Sbjct  376  SGVGLSTQYAKASSVEPKSAALIDRLTMNAGVFGGPRDDEGEGNSYPGFSGGGSGSGGTN  435
+
+Query  60   GGNGYG-YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+              NG G + GMV+ +G       S S    +S +I LI
+Sbjct  436  RNNGDGDFFGMVFGSGASRLPPPSPSTSIFLSLLIILI  473
+
+
+>TR:A0A0D3CTW4_BRAOL A0A0D3CTW4 Pectate lyase OS=Brassica oleracea var. oleracea OX=109376 
+PE=3 SV=1
+Length=567
+
+ Score = 73.2 bits (178),  Expect = 3e-14
+ Identities = 43/111 (39%), Positives = 61/111 (55%), Gaps = 18/111 (16%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG---  57
+            SGEG+  +Y KASS +PK++ALVD LTQNAGV G PR+D  ++G     Y G G GG   
+Sbjct  456  SGEGVSTLYSKASSVEPKAAALVDQLTQNAGVFGGPRDDQGQSGDSYSGYGGGGDGGTGA  515
+
+Query  58   ------GSGGNG-YGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCL  101
+                  GS  NG   + GM++ N    R        P ++ ++ L+ + C+
+Sbjct  516  IGGTSRGSSSNGDNNFFGMIFGNNAPPR--------PRLTLLLLLLLMICV  558
+
+
+>TR:M4CG67_BRARP M4CG67 Pectate lyase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=491
+
+ Score = 72.8 bits (177),  Expect = 4e-14
+ Identities = 39/88 (44%), Positives = 50/88 (57%), Gaps = 10/88 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG--YRGVNYAGVGAGGG  58
+            SGEG+  +Y KASS +PK++ALVD LTQNAGV G PR+D  ++G  Y G    G G  G 
+Sbjct  380  SGEGVSTLYSKASSVEPKAAALVDQLTQNAGVFGGPRDDQGQSGDSYSGYGGGGAGGTGA  439
+
+Query  59   SGGNGYG--------YLGMVYANGGGDR  78
+             GG   G        + GM++ N    R
+Sbjct  440  IGGTSRGSSSNSDNNFFGMIFGNNAPPR  467
+
+
+>TR:A0A1U7V8R2_NICSY A0A1U7V8R2 Pectate lyase OS=Nicotiana sylvestris OX=4096 GN=LOC104213544 
+PE=3 SV=1
+Length=490
+
+ Score = 72.4 bits (176),  Expect = 5e-14
+ Identities = 41/99 (41%), Positives = 57/99 (58%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL + Y KASS +PKS+ L+D LT NAGV G PR+++    Y G    G    GG+G
+Sbjct  375  SGEGLSNQYAKASSVEPKSAVLIDQLTLNAGVFGGPRDNSISISYGGGTTTGASGSGGAG  434
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+              G G   + GM++  G G +   S +   L+S +I L+
+Sbjct  435  STGGGDSDFYGMIF--GSGAKLSPSTTTTILLSHLIILV  471
+
+
+>TR:A0A1S3YNC2_TOBAC A0A1S3YNC2 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107778084 
+PE=3 SV=1
+Length=490
+
+ Score = 72.4 bits (176),  Expect = 5e-14
+ Identities = 41/99 (41%), Positives = 57/99 (58%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL + Y KASS +PKS+ L+D LT NAGV G PR+++    Y G    G    GG+G
+Sbjct  375  SGEGLSNQYAKASSVEPKSAVLIDQLTLNAGVFGGPRDNSISISYGGGTTTGASGSGGAG  434
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+              G G   + GM++  G G +   S +   L+S +I L+
+Sbjct  435  STGGGDSDFYGMIF--GSGAKLSPSTTTTILLSHLIILV  471
+
+
+>TR:A0A1U7VHN4_NICSY A0A1U7VHN4 Pectate lyase OS=Nicotiana sylvestris OX=4096 GN=LOC104213544 
+PE=3 SV=1
+Length=491
+
+ Score = 72.4 bits (176),  Expect = 5e-14
+ Identities = 41/99 (41%), Positives = 57/99 (58%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL + Y KASS +PKS+ L+D LT NAGV G PR+++    Y G    G    GG+G
+Sbjct  376  SGEGLSNQYAKASSVEPKSAVLIDQLTLNAGVFGGPRDNSISISYGGGTTTGASGSGGAG  435
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+              G G   + GM++  G G +   S +   L+S +I L+
+Sbjct  436  STGGGDSDFYGMIF--GSGAKLSPSTTTTILLSHLIILV  472
+
+
+>TR:A0A1S3YNB7_TOBAC A0A1S3YNB7 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107778084 
+PE=3 SV=1
+Length=491
+
+ Score = 72.4 bits (176),  Expect = 5e-14
+ Identities = 41/99 (41%), Positives = 57/99 (58%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL + Y KASS +PKS+ L+D LT NAGV G PR+++    Y G    G    GG+G
+Sbjct  376  SGEGLSNQYAKASSVEPKSAVLIDQLTLNAGVFGGPRDNSISISYGGGTTTGASGSGGAG  435
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+              G G   + GM++  G G +   S +   L+S +I L+
+Sbjct  436  STGGGDSDFYGMIF--GSGAKLSPSTTTTILLSHLIILV  472
+
+
+>TR:A0A078J3Q3_BRANA A0A078J3Q3 Pectate lyase OS=Brassica napus OX=3708 GN=BnaA09g55050D 
+PE=3 SV=1
+Length=492
+
+ Score = 72.4 bits (176),  Expect = 5e-14
+ Identities = 42/86 (49%), Positives = 53/86 (62%), Gaps = 3/86 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+  +Y KASS +PK+SALVD LT+NAGV G P  D  + G  G +Y+G G GGG G
+Sbjct  369  SGGGVSALYSKASSVEPKASALVDQLTRNAGVFGGPSRD--DQGQSGDSYSGYGGGGGGG  426
+
+Query  61   G-NGYGYLGMVYANGGGDRRCRSHSA  85
+            G +G G  G   A GG  R   + S+
+Sbjct  427  GSSGSGSDGGTSAIGGTTRGSSTSSS  452
+
+
+>TR:A0A078EZL5_BRANA A0A078EZL5 Pectate lyase OS=Brassica napus OX=3708 GN=BnaC06g15490D 
+PE=3 SV=1
+Length=492
+
+ Score = 72.0 bits (175),  Expect = 7e-14
+ Identities = 43/103 (42%), Positives = 56/103 (54%), Gaps = 17/103 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+  +Y KASS +PK++ALVD LTQNAGV G P  D  + G  G +Y+G G GGG G
+Sbjct  380  SGEGVSTLYSKASSVEPKAAALVDQLTQNAGVFGGPSRD--DQGQSGDSYSGYG-GGGDG  436
+
+Query  61   GNG--------------YGYLGMVYANGGGDRRCRSHSALPLI  89
+            G G                + GM++ N    R   +   LPL+
+Sbjct  437  GTGAIGGTSRGSSSNGDNNFFGMIFGNNAPPRPRLTLLLLPLL  479
+
+
+>TR:A0A2G9FY40_9LAMI A0A2G9FY40 Pectate lyase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_29722 PE=3 SV=1
+Length=492
+
+ Score = 72.0 bits (175),  Expect = 7e-14
+ Identities = 43/100 (43%), Positives = 55/100 (55%), Gaps = 5/100 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS-  59
+            SGEGL   Y KASS +P+S+AL+D LT NAGVLG PR+++    Y G    G    GGS 
+Sbjct  383  SGEGLSTQYAKASSVEPRSAALIDQLTINAGVLGGPRDNSVSISYGGGTTGGASGNGGSR  442
+
+Query  60   ---GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+               G  G  Y GM + NG   +     + +  +S VI LI
+Sbjct  443  SDDGDGGDDYFGMTFGNGAAAQLSPPPTTI-FLSLVIILI  481
+
+
+>TR:A0A022QUT3_ERYGU A0A022QUT3 Pectate lyase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a004990mg 
+PE=3 SV=1
+Length=501
+
+ Score = 72.0 bits (175),  Expect = 7e-14
+ Identities = 42/104 (40%), Positives = 57/104 (55%), Gaps = 6/104 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYA-----GVGA  55
+            SGEGL   Y KASS +PKS  L+D LT NAGVLG PR+++    Y G   A       G 
+Sbjct  380  SGEGLSMQYAKASSVEPKSVGLIDQLTANAGVLGGPRDNSVSISYGGEGSAAGATTANGG  439
+
+Query  56   GGGSGGNGYG-YLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            GGGS   G G Y GM++ +G    R    +   ++ S++ ++ L
+Sbjct  440  GGGSNDGGDGDYFGMIFGSGAAPARLSPPTTTTMLLSLLIILFL  483
+
+
+>TR:A0A0A0LK67_CUCSA A0A0A0LK67 Pectate lyase OS=Cucumis sativus OX=3659 GN=Csa_2G326460 
+PE=3 SV=1
+Length=489
+
+ Score = 71.2 bits (173),  Expect = 1e-13
+ Identities = 39/76 (51%), Positives = 49/76 (64%), Gaps = 2/76 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL ++Y KASS  PKS+ALVD LT NAGV G  R + + T Y G + A   + G SG
+Sbjct  383  SGEGLSNMYVKASSLPPKSAALVDQLTLNAGVFGGSRENRQSTSYPG-DEASSSSSGSSG  441
+
+Query  61   GNGYG-YLGMVYANGG  75
+             +G G Y GM++  GG
+Sbjct  442  SDGGGDYFGMIFGGGG  457
+
+
+>TR:A0A2I4DW92_9ROSI A0A2I4DW92 Pectate lyase OS=Juglans regia OX=51240 GN=LOC108984033 
+PE=3 SV=1
+Length=499
+
+ Score = 71.2 bits (173),  Expect = 1e-13
+ Identities = 42/99 (42%), Positives = 54/99 (55%), Gaps = 10/99 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG----  56
+            SG GL   Y  ASS +PK++ L+D LT NAGVLG PR  ++   Y G N  G G G    
+Sbjct  381  SGAGLSAQYAMASSVEPKAAGLIDQLTMNAGVLGGPRESSQSISYPGYNGGGTGTGTTYT  440
+
+Query  57   --GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVI  93
+               GSGG+G  Y GM++   GG     +  A P  +S+I
+Sbjct  441  GNSGSGGDG-DYFGMIF---GGGAMAAAPPAAPSSTSII  475
+
+
+>TR:C0PC85_MAIZE C0PC85 Pectate lyase OS=Zea mays OX=4577 PE=2 SV=1
+Length=419
+
+ Score = 70.5 bits (171),  Expect = 2e-13
+ Identities = 34/36 (94%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP  36
+            SGEG+EDIY KASSTDPKSSALVDVLTQNAGVLGDP
+Sbjct  382  SGEGMEDIYGKASSTDPKSSALVDVLTQNAGVLGDP  417
+
+
+>TR:Q0IX91_ORYSJ Q0IX91 Os10g0457100 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os10g0457100 PE=4 SV=2
+Length=119
+
+ Score = 66.6 bits (161),  Expect = 2e-13
+ Identities = 37/73 (51%), Positives = 43/73 (59%), Gaps = 7/73 (10%)
+
+Query  38   NDAEETGYRGVNYAGVGAGGGSGGN------GYGYLGMVYANGGGDRRCRSHSALPLISS  91
+            ++ E   Y GVNYAGVG GGG GG       GYGYLGMVY + GG+  CR+   L L S 
+Sbjct  48   DNGEAAAYAGVNYAGVGTGGGGGGGAGAGGMGYGYLGMVYGS-GGNWSCRADLTLQLTSL  106
+
+Query  92   VITLIALGCLRLL  104
+             + L AL CL  L
+Sbjct  107  FLALFALICLHPL  119
+
+
+>TR:V4LYI0_EUTSA V4LYI0 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10011163mg PE=4 SV=1
+Length=204
+
+ Score = 68.2 bits (165),  Expect = 3e-13
+ Identities = 39/84 (46%), Positives = 48/84 (57%), Gaps = 3/84 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+ +  +Y KASS +PK++A VD LT+NAGV G PR+D    G  G  Y G G GGG G
+Sbjct  83   SGQEMSSMYSKASSLEPKAAAQVDQLTRNAGVFGGPRDD---EGQSGDTYTGYGGGGGEG  139
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS  84
+            G G    G   +  GG  R  S S
+Sbjct  140  GGGGVISGGGTSAMGGTTRGSSSS  163
+
+
+>TR:R0FMZ2_9BRAS R0FMZ2 Pectate lyase OS=Capsella rubella OX=81985 GN=CARUB_v10017065mg 
+PE=3 SV=1
+Length=501
+
+ Score = 69.7 bits (169),  Expect = 5e-13
+ Identities = 40/84 (48%), Positives = 52/84 (62%), Gaps = 4/84 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+  +Y KASS DPK+++LV+ LT+NAGV G PR+D    G  G +Y+  G GG  G
+Sbjct  378  SGEGVSSMYSKASSVDPKAASLVNTLTRNAGVFGGPRDD---QGQSGNSYSPYG-GGDGG  433
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS  84
+             +G G LG +   GG  R   S S
+Sbjct  434  SSGSGGLGDMSGMGGTTRGSSSSS  457
+
+
+>TR:A0A2I0X677_9ASPA A0A2I0X677 Pectate lyase OS=Dendrobium catenatum OX=906689 GN=PMR6 
+PE=3 SV=1
+Length=483
+
+ Score = 69.3 bits (168),  Expect = 6e-13
+ Identities = 42/88 (48%), Positives = 47/88 (53%), Gaps = 14/88 (16%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR-NDAEETGYRGVNYAGVG--AGG  57
+            SG+GLE IY KASS  PK   L+D LT NAGVLG  R N  +  G  G NY G G   GG
+Sbjct  372  SGDGLETIYSKASSVSPKPVGLIDQLTLNAGVLGGSRDNGGQSGGNGGANYGGGGGDGGG  431
+
+Query  58   GSGGNG-----------YGYLGMVYANG  74
+            G GG G            GYL M + +G
+Sbjct  432  GDGGGGGVAMGGRGSGLTGYLAMAFGSG  459
+
+
+>TR:A0A2K1ZAY5_POPTR A0A2K1ZAY5 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_008G032700v3 
+PE=3 SV=1
+Length=501
+
+ Score = 69.3 bits (168),  Expect = 6e-13
+ Identities = 45/116 (39%), Positives = 63/116 (54%), Gaps = 24/116 (21%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYA------  51
+            SG GL + Y KASS +P+S+ L+  LT NAGV GDPR+D+      G+ G   +      
+Sbjct  379  SGAGLSEQYSKASSVEPRSARLITELTMNAGVFGDPRDDSGGISNPGFSGAGTSTVTPTT  438
+
+Query  52   ---GVGAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+               G GAGGG+ G+   Y GM++ +G         S+LP   + I+LI L  L +L
+Sbjct  439  GTQGTGAGGGTDGD---YFGMIFGSG---------SSLPRPPTSISLIFLSLLIIL  482
+
+
+>TR:A0A2R6PWC4_ACTCH A0A2R6PWC4 Pectate lyase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc24662 PE=3 SV=1
+Length=490
+
+ Score = 68.6 bits (166),  Expect = 1e-12
+ Identities = 40/102 (39%), Positives = 55/102 (54%), Gaps = 5/102 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGY----RGVNYAGVGAG  56
+            SG GL   Y KASS +PKS+ L++ LT NAGV GDPR  +    Y     G + A  G G
+Sbjct  375  SGVGLSQ-YTKASSIEPKSAGLINQLTMNAGVFGDPRYSSGSVTYPGFGGGTSSATTGKG  433
+
+Query  57   GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+             G G  G  YLGM++ +G         +   L+SS++ ++ L
+Sbjct  434  NGVGSGGGDYLGMIFRSGAVPSSSSLSTTTNLLSSLLIILTL  475
+
+
+>TR:A0A1S3C4R4_CUCME A0A1S3C4R4 Pectate lyase OS=Cucumis melo OX=3656 GN=LOC103496461 
+PE=3 SV=1
+Length=495
+
+ Score = 68.2 bits (165),  Expect = 2e-12
+ Identities = 36/75 (48%), Positives = 44/75 (59%), Gaps = 1/75 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL ++Y KASS  PKS+ALVD LT NAGV G  R   + + Y G   +      GS 
+Sbjct  383  SGEGLSNMYVKASSLPPKSAALVDQLTLNAGVFGGSRETRQSSSYPGDETSSSSGSSGSD  442
+
+Query  61   GNGYGYLGMVYANGG  75
+            G G  Y GM++  GG
+Sbjct  443  GGG-DYFGMIFGGGG  456
+
+
+>TR:I0IK23_9MYRT I0IK23 Pectate lyase (Fragment) OS=Eucalyptus pilularis OX=106643 
+GN=PL1 PE=3 SV=1
+Length=333
+
+ Score = 67.8 bits (164),  Expect = 2e-12
+ Identities = 41/105 (39%), Positives = 55/105 (52%), Gaps = 10/105 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA-------EETGYRGVNYAGV  53
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR+++         TG      A  
+Sbjct  214  SGVGLSAQYSKASSLEPKSAGLIDQLTMNAGVFGDPRDNSGISNPGFSGTGTTTATTADG  273
+
+Query  54   GAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G G GS G    Y GM++   G D      SA  ++ S++ ++ L
+Sbjct  274  GGGNGSNGGESDYFGMIF---GSDAPPAHSSATSILLSLLIILVL  315
+
+
+>TR:I0IK24_9MYRT I0IK24 Pectate lyase (Fragment) OS=Eucalyptus pyrocarpa OX=904381 
+GN=PL1 PE=3 SV=1
+Length=334
+
+ Score = 67.8 bits (164),  Expect = 2e-12
+ Identities = 41/105 (39%), Positives = 55/105 (52%), Gaps = 10/105 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA-------EETGYRGVNYAGV  53
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR+++         TG      A  
+Sbjct  216  SGVGLSAQYSKASSLEPKSAGLIDQLTMNAGVFGDPRDNSGISNPGFSGTGTTTATTADG  275
+
+Query  54   GAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G G GS G    Y GM++   G D      SA  ++ S++ ++ L
+Sbjct  276  GGGNGSNGGESDYFGMIF---GSDAPPAHSSATSILLSLLIILVL  317
+
+
+>TR:A0A059BGW9_EUCGR A0A059BGW9 Pectate lyase OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_G02748 
+PE=3 SV=1
+Length=351
+
+ Score = 67.8 bits (164),  Expect = 2e-12
+ Identities = 44/113 (39%), Positives = 60/113 (53%), Gaps = 15/113 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVG------  54
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR   + +G     ++G G      
+Sbjct  234  SGVGLSAQYSKASSLEPKSAGLIDQLTLNAGVFGDPR---DTSGISNPGFSGAGTTTATT  290
+
+Query  55   --AGGGSGGNG-YGYLGMVYANGGGDRRCRSHS---ALPLISSVITLIALGCL  101
+               GGG+G NG   Y GM++ + G      + S   +LP+I  + T+   G L
+Sbjct  291  ADGGGGNGSNGDSDYFGMIFGSDGPPAHSSATSILLSLPIILVLYTITNHGAL  343
+
+
+>TR:A0A059BGQ2_EUCGR A0A059BGQ2 Pectate lyase OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_G02748 
+PE=3 SV=1
+Length=491
+
+ Score = 67.8 bits (164),  Expect = 2e-12
+ Identities = 44/113 (39%), Positives = 60/113 (53%), Gaps = 15/113 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVG------  54
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR   + +G     ++G G      
+Sbjct  374  SGVGLSAQYSKASSLEPKSAGLIDQLTLNAGVFGDPR---DTSGISNPGFSGAGTTTATT  430
+
+Query  55   --AGGGSGGNG-YGYLGMVYANGGGDRRCRSHS---ALPLISSVITLIALGCL  101
+               GGG+G NG   Y GM++ + G      + S   +LP+I  + T+   G L
+Sbjct  431  ADGGGGNGSNGDSDYFGMIFGSDGPPAHSSATSILLSLPIILVLYTITNHGAL  483
+
+
+>TR:A0A1U8AJ37_NELNU A0A1U8AJ37 Pectate lyase OS=Nelumbo nucifera OX=4432 GN=LOC104604548 
+PE=3 SV=1
+Length=494
+
+ Score = 67.4 bits (163),  Expect = 3e-12
+ Identities = 46/110 (42%), Positives = 56/110 (51%), Gaps = 11/110 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG----  56
+            SGEGL   Y KASS +PKS+ L+D LT NAG  G  R+D     Y G N  G G+G    
+Sbjct  378  SGEGLGVKYAKASSVEPKSAGLIDQLTMNAGAFGGSRDDTGGMTYPGFNGGGSGSGSGVA  437
+
+Query  57   ---GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRL  103
+               G +GG      GM++  GGG  R  S S  P   S++ L  L  L L
+Sbjct  438  VGSGSAGGGDADIFGMIF--GGG--RSGSGSGAPPPPSILLLCYLSSLLL  483
+
+
+>TR:A0A1Q3BHY6_CEPFO A0A1Q3BHY6 Pectate lyase OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_11151 
+PE=3 SV=1
+Length=501
+
+ Score = 67.4 bits (163),  Expect = 3e-12
+ Identities = 40/83 (48%), Positives = 53/83 (64%), Gaps = 9/83 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND-AEETGYRGVNYAGV----GA  55
+            SGEGL   Y  ASS +PKS+AL+D LT NAGV G+  +D +E   Y G +  G     G+
+Sbjct  382  SGEGLSTQYAMASSVEPKSAALIDHLTMNAGVYGEQHSDNSESISYPGFSGTGATSNSGS  441
+
+Query  56   GGGSGGNGYG-YLGMVYANGGGD  77
+            GG SGG+G G ++GM++   GGD
+Sbjct  442  GGSSGGDGDGDFMGMIF---GGD  461
+
+
+>TR:A0A0D2RB21_GOSRA A0A0D2RB21 Pectate lyase OS=Gossypium raimondii OX=29730 GN=B456_010G207200 
+PE=3 SV=1
+Length=347
+
+ Score = 67.0 bits (162),  Expect = 3e-12
+ Identities = 35/77 (45%), Positives = 45/77 (58%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG G+   Y KASS +PKS+ LV+ LT NAGV G+ R +       GY G   AG G  G
+Sbjct  234  SGAGVMTQYVKASSVEPKSATLVEQLTSNAGVFGETREETGSYSYPGYTGTTNAGSGGRG  293
+
+Query  58   GSGGNGYGYLGMVYANG  74
+            GS GN   + GM++ +G
+Sbjct  294  GSSGNDGDFFGMIFGSG  310
+
+
+>TR:A0A0D2SWB0_GOSRA A0A0D2SWB0 Pectate lyase OS=Gossypium raimondii OX=29730 GN=B456_010G207200 
+PE=3 SV=1
+Length=454
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 35/77 (45%), Positives = 45/77 (58%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG G+   Y KASS +PKS+ LV+ LT NAGV G+ R +       GY G   AG G  G
+Sbjct  341  SGAGVMTQYVKASSVEPKSATLVEQLTSNAGVFGETREETGSYSYPGYTGTTNAGSGGRG  400
+
+Query  58   GSGGNGYGYLGMVYANG  74
+            GS GN   + GM++ +G
+Sbjct  401  GSSGNDGDFFGMIFGSG  417
+
+
+>TR:A0A0D2VCY4_GOSRA A0A0D2VCY4 Pectate lyase OS=Gossypium raimondii OX=29730 GN=B456_010G207200 
+PE=3 SV=1
+Length=486
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 35/77 (45%), Positives = 45/77 (58%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG G+   Y KASS +PKS+ LV+ LT NAGV G+ R +       GY G   AG G  G
+Sbjct  373  SGAGVMTQYVKASSVEPKSATLVEQLTSNAGVFGETREETGSYSYPGYTGTTNAGSGGRG  432
+
+Query  58   GSGGNGYGYLGMVYANG  74
+            GS GN   + GM++ +G
+Sbjct  433  GSSGNDGDFFGMIFGSG  449
+
+
+>TR:A0A067KE09_JATCU A0A067KE09 Pectate lyase OS=Jatropha curcas OX=180498 GN=JCGZ_16174 
+PE=3 SV=1
+Length=491
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 42/106 (40%), Positives = 56/106 (53%), Gaps = 7/106 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG----  56
+            SG GL   Y KASS +PKS+ L++ LT NAGVLG PR D  +    G +  G   G    
+Sbjct  373  SGAGLSAQYAKASSVEPKSAGLINQLTMNAGVLGGPREDNGDVPTPGFSGGGTTTGTTNT  432
+
+Query  57   --GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGC  100
+               GS G    Y GM++ +GG      S S++ ++S +I LI   C
+Sbjct  433  GTAGSTGGDADYFGMIFGSGGAPPPTSSLSSI-ILSILIILILHTC  477
+
+
+>TR:A0A1U8MNE8_GOSHI A0A1U8MNE8 Pectate lyase OS=Gossypium hirsutum OX=3635 GN=LOC107939532 
+PE=3 SV=1
+Length=497
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 35/77 (45%), Positives = 45/77 (58%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG G+   Y KASS +PKS+ LV+ LT NAGV G+ R +       GY G   AG G  G
+Sbjct  373  SGAGVMTQYVKASSVEPKSATLVEQLTSNAGVFGETREETGSYSYPGYTGTTNAGSGGRG  432
+
+Query  58   GSGGNGYGYLGMVYANG  74
+            GS GN   + GM++ +G
+Sbjct  433  GSSGNDGDFFGMIFGSG  449
+
+
+>TR:A0A1S3BGT0_CUCME A0A1S3BGT0 Pectate lyase OS=Cucumis melo OX=3656 GN=LOC103489433 
+PE=3 SV=1
+Length=511
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 41/82 (50%), Positives = 47/82 (57%), Gaps = 10/82 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV-GAGGGS  59
+            SG GL   Y KASS +PKS AL++ LT NAGVLG PR     TG  G+ Y G  G  GG+
+Sbjct  380  SGAGLSTQYGKASSVEPKSVALINQLTMNAGVLGAPR----YTGGEGIVYPGFSGGNGGN  435
+
+Query  60   GGNGYG-----YLGMVYANGGG  76
+            G  GYG         +Y NGGG
+Sbjct  436  GDEGYGGNTVINNSPIYENGGG  457
+
+
+>TR:A0A2P5QXJ7_GOSBA A0A2P5QXJ7 Pectate lyase OS=Gossypium barbadense OX=3634 GN=GOBAR_DD23779 
+PE=3 SV=1
+Length=515
+
+ Score = 67.0 bits (162),  Expect = 4e-12
+ Identities = 35/77 (45%), Positives = 45/77 (58%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG G+   Y KASS +PKS+ LV+ LT NAGV G+ R +       GY G   AG G  G
+Sbjct  402  SGAGVMTQYVKASSVEPKSATLVEQLTSNAGVFGETREETGSYSYPGYTGTTNAGSGGRG  461
+
+Query  58   GSGGNGYGYLGMVYANG  74
+            GS GN   + GM++ +G
+Sbjct  462  GSSGNDGDFFGMIFGSG  478
+
+
+>TR:A0A251QIU6_PRUPE A0A251QIU6 Pectate lyase OS=Prunus persica OX=3760 GN=PRUPE_2G206100 
+PE=3 SV=1
+Length=444
+
+ Score = 66.6 bits (161),  Expect = 5e-12
+ Identities = 39/102 (38%), Positives = 56/102 (55%), Gaps = 7/102 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND------AEETGYRGVNYAGVG  54
+            SG G+   Y +ASST+PKS AL+D LT NAGV GDPR+        ++ G    +    G
+Sbjct  324  SGAGMSTQYARASSTEPKSVALIDRLTNNAGVFGDPRSSTSVSHPGDDGGGTITDGTNTG  383
+
+Query  55   AGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            + G SGG+G  Y GM++ NG       S + + L   +I ++
+Sbjct  384  SEGSSGGDG-DYFGMIFGNGAPPSSSSSSNTIFLSLLIIFIL  424
+
+
+>TR:A0A251QJ53_PRUPE A0A251QJ53 Pectate lyase OS=Prunus persica OX=3760 GN=PRUPE_2G206100 
+PE=3 SV=1
+Length=531
+
+ Score = 66.6 bits (161),  Expect = 6e-12
+ Identities = 39/102 (38%), Positives = 56/102 (55%), Gaps = 7/102 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND------AEETGYRGVNYAGVG  54
+            SG G+   Y +ASST+PKS AL+D LT NAGV GDPR+        ++ G    +    G
+Sbjct  411  SGAGMSTQYARASSTEPKSVALIDRLTNNAGVFGDPRSSTSVSHPGDDGGGTITDGTNTG  470
+
+Query  55   AGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            + G SGG+G  Y GM++ NG       S + + L   +I ++
+Sbjct  471  SEGSSGGDG-DYFGMIFGNGAPPSSSSSSNTIFLSLLIIFIL  511
+
+
+>TR:M5X7B4_PRUPE M5X7B4 Pectate lyase OS=Prunus persica OX=3760 GN=PL3 PE=2 SV=1
+Length=563
+
+ Score = 66.6 bits (161),  Expect = 6e-12
+ Identities = 39/102 (38%), Positives = 56/102 (55%), Gaps = 7/102 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND------AEETGYRGVNYAGVG  54
+            SG G+   Y +ASST+PKS AL+D LT NAGV GDPR+        ++ G    +    G
+Sbjct  443  SGAGMSTQYARASSTEPKSVALIDRLTNNAGVFGDPRSSTSVSHPGDDGGGTITDGTNTG  502
+
+Query  55   AGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            + G SGG+G  Y GM++ NG       S + + L   +I ++
+Sbjct  503  SEGSSGGDG-DYFGMIFGNGAPPSSSSSSNTIFLSLLIIFIL  543
+
+
+>TR:I0IK25_EUCGG I0IK25 Pectate lyase (Fragment) OS=Eucalyptus globulus subsp. 
+globulus OX=71271 GN=PL1 PE=3 SV=1
+Length=324
+
+ Score = 66.2 bits (160),  Expect = 6e-12
+ Identities = 42/108 (39%), Positives = 58/108 (54%), Gaps = 16/108 (15%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVG------  54
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR   + +G     ++G G      
+Sbjct  214  SGVGLSAQYSKASSLEPKSAGLIDQLTLNAGVFGDPR---DTSGISNPGFSGAGTTTATT  270
+
+Query  55   --AGGGSGGNG--YGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+               GGG+G NG    Y GM++   G D      SA  ++ S++ ++ L
+Sbjct  271  ADGGGGNGSNGGDSDYFGMIF---GSDAPPAHSSATSILLSLLIILVL  315
+
+
+>TR:Q27U75_EUCGG Q27U75 Pectate lyase (Fragment) OS=Eucalyptus globulus subsp. 
+globulus OX=71271 GN=PL1 PE=2 SV=1
+Length=338
+
+ Score = 66.2 bits (160),  Expect = 6e-12
+ Identities = 42/108 (39%), Positives = 58/108 (54%), Gaps = 16/108 (15%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVG------  54
+            SG GL   Y KASS +PKS+ L+D LT NAGV GDPR   + +G     ++G G      
+Sbjct  220  SGVGLSAQYSKASSLEPKSAGLIDQLTLNAGVFGDPR---DTSGISNPGFSGAGTTTATT  276
+
+Query  55   --AGGGSGGNG--YGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+               GGG+G NG    Y GM++   G D      SA  ++ S++ ++ L
+Sbjct  277  ADGGGGNGSNGGDSDYFGMIF---GSDAPPAHSSATSILLSLLIILVL  321
+
+
+>TR:A0A2K1YYW5_POPTR A0A2K1YYW5 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_010G229000v3 
+PE=3 SV=1
+Length=351
+
+ Score = 66.2 bits (160),  Expect = 6e-12
+ Identities = 35/81 (43%), Positives = 45/81 (56%), Gaps = 7/81 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGA-----  55
+            SG GL   Y KASS +PKS+ L+  LT NAGV GDPR+D+      G +  G  +     
+Sbjct  234  SGGGLSAQYSKASSVEPKSAGLIQQLTLNAGVFGDPRDDSGSISTPGFSGGGTSSTTNTG  293
+
+Query  56   --GGGSGGNGYGYLGMVYANG  74
+              G GS G G  Y GM++ +G
+Sbjct  294  VQGSGSSGGGGDYFGMIFGSG  314
+
+
+>TR:A0A2N9IUB2_FAGSY A0A2N9IUB2 Pectate lyase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS55980 
+PE=3 SV=1
+Length=400
+
+ Score = 66.2 bits (160),  Expect = 7e-12
+ Identities = 42/106 (40%), Positives = 52/106 (49%), Gaps = 18/106 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GL   Y KASS +P S+ L++ LT NAGV+G PR+D E   Y G N  G     G+ 
+Sbjct  284  SGLGLSAQYAKASSVEPISAGLINQLTMNAGVIGGPRDDGETISYPGFNGGGTSTSTGTT  343
+
+Query  61   GNGY--------GYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+             NG         GYL M++ N          +A PL  S  T I L
+Sbjct  344  NNGNGRSSDGDGGYLNMIFGN----------AAAPLAPSTTTSIFL  379
+
+
+>TR:B9HUL2_POPTR B9HUL2 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_010G229000v3 
+PE=3 SV=2
+Length=496
+
+ Score = 66.2 bits (160),  Expect = 7e-12
+ Identities = 35/81 (43%), Positives = 45/81 (56%), Gaps = 7/81 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGA-----  55
+            SG GL   Y KASS +PKS+ L+  LT NAGV GDPR+D+      G +  G  +     
+Sbjct  379  SGGGLSAQYSKASSVEPKSAGLIQQLTLNAGVFGDPRDDSGSISTPGFSGGGTSSTTNTG  438
+
+Query  56   --GGGSGGNGYGYLGMVYANG  74
+              G GS G G  Y GM++ +G
+Sbjct  439  VQGSGSSGGGGDYFGMIFGSG  459
+
+
+>TR:A0A0A0KRG9_CUCSA A0A0A0KRG9 Pectate lyase OS=Cucumis sativus OX=3659 GN=Csa_5G622520 
+PE=3 SV=1
+Length=515
+
+ Score = 66.2 bits (160),  Expect = 7e-12
+ Identities = 48/126 (38%), Positives = 59/126 (47%), Gaps = 26/126 (21%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV-GAGGGS  59
+            SG GL   Y KASS +PKS AL++ LT NAGVLG PR +    G  G+ Y G  G  GG+
+Sbjct  381  SGAGLSTQYGKASSVEPKSVALINQLTMNAGVLGAPRYN----GGEGIVYPGFSGGSGGN  436
+
+Query  60   GGNGYG-----YLGMVYANGGGDR----------------RCRSHSALPLISSVITLIAL  98
+            G  GYG         +Y NGGG                  +   H   P+ SS+  L  L
+Sbjct  437  GDEGYGGNTVINNSPIYENGGGSGGYGNGNGNDDYFGMIFKANGHRTFPIFSSLNYLCTL  496
+
+Query  99   GCLRLL  104
+              + LL
+Sbjct  497  LIIFLL  502
+
+
+>TR:D7LUZ0_ARALL D7LUZ0 Pectate lyase OS=Arabidopsis lyrata subsp. lyrata OX=81972 
+GN=ARALYDRAFT_485907 PE=3 SV=1
+Length=490
+
+ Score = 65.9 bits (159),  Expect = 1e-11
+ Identities = 31/57 (54%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG  57
+            SGEG+  +Y KASS DPK+++LVD LT+NAGV G PR+D  ++G     Y G G GG
+Sbjct  376  SGEGMSSMYSKASSVDPKAASLVDQLTRNAGVFGGPRDDQGQSGNSYSPYGGDGGGG  432
+
+
+>TR:A0A1U7Z6R0_NELNU A0A1U7Z6R0 Pectate lyase OS=Nelumbo nucifera OX=4432 GN=LOC104587349 
+PE=3 SV=1
+Length=505
+
+ Score = 65.9 bits (159),  Expect = 1e-11
+ Identities = 45/115 (39%), Positives = 59/115 (51%), Gaps = 19/115 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGY----RGVNYAGVGAG  56
+            SGEGL   Y KA+S +PKS+ L+D LT NAGVLG  R+++    Y     G    G G G
+Sbjct  391  SGEGLGVKYAKATSVEPKSAELIDQLTMNAGVLGGTRDNSGSITYPVFNGGGTSTGTGTG  450
+
+Query  57   GGSGGNGYG--------YLGMVYANGGGDRRCRSHSALP-------LISSVITLI  96
+             G G  G+G        Y GM++ +G G     S S L        LIS++ TL+
+Sbjct  451  TGVGSGGFGGGGGGDPDYFGMIFGSGSGAPPPPSFSWLSSLLLFLYLISTITTLL  505
+
+
+>TR:A0A287F6A7_HORVV A0A287F6A7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=108
+
+ Score = 62.0 bits (149),  Expect = 1e-11
+ Identities = 34/60 (57%), Positives = 39/60 (65%), Gaps = 3/60 (5%)
+
+Query  37   RNDAEETGYRGVNYAGVGAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+            R++ E + Y G NYAG   GGG  GNGYG LGMVYAN  GD+ CRS   L L  SV+ LI
+Sbjct  46   RDNGEASAYVGFNYAGSATGGG--GNGYGSLGMVYAN-SGDQGCRSQLILSLTISVVALI  102
+
+
+>TR:A0A1U7WEJ0_NICSY A0A1U7WEJ0 Pectate lyase OS=Nicotiana sylvestris OX=4096 GN=LOC104227767 
+PE=3 SV=1
+Length=456
+
+ Score = 65.5 bits (158),  Expect = 1e-11
+ Identities = 37/103 (36%), Positives = 57/103 (55%), Gaps = 5/103 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y KA S DPKS+ L+D LT+NAGVLG PR+++     +G    G G+G G  
+Sbjct  336  SGQGISTQYVKAYSVDPKSALLIDQLTKNAGVLGGPRDNSMSMSSKGGITGGSGSGSGHA  395
+
+Query  61   GNGYG---YLGMVYANGGGDR--RCRSHSALPLISSVITLIAL  98
+             +  G     GM+++  G        SH+  P++ S + ++ L
+Sbjct  396  KSTSGDVDMFGMIFSGTGASSAGSSPSHTTTPILLSFLIILTL  438
+
+
+>TR:M1D2F0_SOLTU M1D2F0 Pectate lyase OS=Solanum tuberosum OX=4113 GN=102578838 
+PE=3 SV=1
+Length=490
+
+ Score = 65.5 bits (158),  Expect = 1e-11
+ Identities = 37/97 (38%), Positives = 52/97 (54%), Gaps = 4/97 (4%)
+
+Query  3    EGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSGGN  62
+            EGL + Y KASS +PKS+A++D LT NAGV G PR+ +    Y G    G    GG G  
+Sbjct  382  EGLGNQYAKASSVEPKSAAIIDQLTLNAGVFGAPRDKSISISYGGGTTTGASGSGGGGST  441
+
+Query  63   GYG----YLGMVYANGGGDRRCRSHSALPLISSVITL  95
+            G G    + GM++ +G   +   +     L+S +I L
+Sbjct  442  GAGDDSDFFGMMFGSGAPQKISSTTYYTILLSHLIIL  478
+
+
+>TR:A0A1U7WVW3_NICSY A0A1U7WVW3 Pectate lyase OS=Nicotiana sylvestris OX=4096 GN=LOC104227767 
+PE=3 SV=1
+Length=495
+
+ Score = 65.5 bits (158),  Expect = 1e-11
+ Identities = 37/103 (36%), Positives = 57/103 (55%), Gaps = 5/103 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y KA S DPKS+ L+D LT+NAGVLG PR+++     +G    G G+G G  
+Sbjct  375  SGQGISTQYVKAYSVDPKSALLIDQLTKNAGVLGGPRDNSMSMSSKGGITGGSGSGSGHA  434
+
+Query  61   GNGYG---YLGMVYANGGGDR--RCRSHSALPLISSVITLIAL  98
+             +  G     GM+++  G        SH+  P++ S + ++ L
+Sbjct  435  KSTSGDVDMFGMIFSGTGASSAGSSPSHTTTPILLSFLIILTL  477
+
+
+>TR:A0A218WBI3_PUNGR A0A218WBI3 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr026087 PE=4 SV=1
+Length=200
+
+ Score = 63.5 bits (153),  Expect = 2e-11
+ Identities = 38/105 (36%), Positives = 52/105 (50%), Gaps = 11/105 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG-------V  53
+            SG GL   Y KASS +PKS++LV  LT NAGV GDPR       Y G + +G        
+Sbjct  82   SGAGLSAQYSKASSIEPKSASLVSQLTLNAGVFGDPRESTGGIAYPGFSGSGTTTATTST  141
+
+Query  54   GAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G   GS  +   Y GM++ +G       S+S   +  S + ++ L
+Sbjct  142  GGSSGSDSDSNDYFGMIFGSGA----AASYSTTSVFLSFLIILVL  182
+
+
+>TR:A0A200R5K1_9MAGN A0A200R5K1 Pectate lyase OS=Macleaya cordata OX=56857 GN=BVC80_1835g380 
+PE=3 SV=1
+Length=473
+
+ Score = 65.1 bits (157),  Expect = 2e-11
+ Identities = 33/77 (43%), Positives = 47/77 (61%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+   Y KASS +PKS+ L++ LT NAGV+G  R++     Y G +  G  +GGG G
+Sbjct  378  SGGGVGYKYAKASSVEPKSAGLIEQLTMNAGVMGGNRDNGMSISYPGFSDGGSDSGGGGG  437
+
+Query  61   GNG---YGYLGMVYANG  74
+            G G    G+ GM++ +G
+Sbjct  438  GGGGGDGGFFGMIFGSG  454
+
+
+>TR:A0A087GXY4_ARAAL A0A087GXY4 Pectate lyase OS=Arabis alpina OX=50452 GN=AALP_AA5G186200 
+PE=3 SV=1
+Length=500
+
+ Score = 65.1 bits (157),  Expect = 2e-11
+ Identities = 40/86 (47%), Positives = 49/86 (57%), Gaps = 9/86 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS-  59
+            SGEG+  +Y KASS  PK+++ VD LTQNAGV G PR+D  ++G     Y G   GGGS 
+Sbjct  382  SGEGMSSMYSKASSMGPKAASSVDQLTQNAGVFGGPRDDEGQSGDSYSPYEGGSDGGGSI  441
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSA  85
+            GG G          GGG  R  S S+
+Sbjct  442  GGTG--------DMGGGTTRGSSSSS  459
+
+
+>TR:A0A0K9RD09_SPIOL A0A0K9RD09 Pectate lyase OS=Spinacia oleracea OX=3562 GN=SOVF_080790 
+PE=3 SV=1
+Length=504
+
+ Score = 65.1 bits (157),  Expect = 2e-11
+ Identities = 37/93 (40%), Positives = 47/93 (51%), Gaps = 18/93 (19%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR-----------NDAEETGYRGVN  49
+            SG GL   Y KASST+PKS+A +D +T NAG  GDPR           + +      G  
+Sbjct  376  SGNGLTAQYAKASSTEPKSAASIDQITMNAGAFGDPRDTTNMPQGGGTSTSSSQAKSGAG  435
+
+Query  50   Y-------AGVGAGGGSGGNGYGYLGMVYANGG  75
+            Y       +G G+G GSG     Y GM++ NGG
+Sbjct  436  YSSSSGSGSGSGSGSGSGSGSEDYFGMMFGNGG  468
+
+
+>TR:A0A1J3DTK7_NOCCA A0A1J3DTK7 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=GA_TR13033_c1_g1_i1_g.41462 
+PE=3 SV=1
+Length=501
+
+ Score = 64.7 bits (156),  Expect = 3e-11
+ Identities = 38/85 (45%), Positives = 50/85 (59%), Gaps = 7/85 (8%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +  +Y KASS +P++SALVD LT+NAGV G PR+D    G  G +Y+    GG S 
+Sbjct  382  SGESVSTMYSKASSLEPQASALVDQLTRNAGVFGGPRDD---EGQSGDSYSPYEGGGSSS  438
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSA  85
+            G   G +G +    GG  R  S S+
+Sbjct  439  GGSIGGMGGI----GGTARGTSSSS  459
+
+
+>TR:A0A1J3FW95_NOCCA A0A1J3FW95 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=LC_TR10727_c1_g1_i1_g.37975 
+PE=3 SV=1
+Length=503
+
+ Score = 64.7 bits (156),  Expect = 3e-11
+ Identities = 38/85 (45%), Positives = 51/85 (60%), Gaps = 5/85 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +  +Y KASS +P++SALVD LT+NAGV G PR+D  ++G     Y G G+   SG
+Sbjct  382  SGESVSTMYSKASSLEPQASALVDQLTRNAGVFGGPRDDEGQSGDSYSPYEGGGSSSSSG  441
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSA  85
+            G+  G  G+     GG  R  S S+
+Sbjct  442  GSIGGMGGI-----GGTARGTSSSS  461
+
+
+>TR:A0A1J3GTQ3_NOCCA A0A1J3GTQ3 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=LE_TR15423_c3_g1_i1_g.48356 
+PE=3 SV=1
+Length=503
+
+ Score = 64.7 bits (156),  Expect = 3e-11
+ Identities = 38/85 (45%), Positives = 51/85 (60%), Gaps = 5/85 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +  +Y KASS +P++SALVD LT+NAGV G PR+D  ++G     Y G G+   SG
+Sbjct  382  SGESVSTMYSKASSLEPQASALVDQLTRNAGVFGGPRDDEGQSGDSYSPYEGGGSSSSSG  441
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSA  85
+            G+  G  G+     GG  R  S S+
+Sbjct  442  GSIGGMGGI-----GGTARGTSSSS  461
+
+
+>TR:A0A251SSF0_HELAN A0A251SSF0 Pectate lyase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr13g0404491 
+PE=3 SV=1
+Length=483
+
+ Score = 64.3 bits (155),  Expect = 4e-11
+ Identities = 36/75 (48%), Positives = 44/75 (59%), Gaps = 4/75 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGL  +Y KASS DPK + LVD LT NAG+   PR+D     + G     +  GG SG
+Sbjct  376  SGEGLNAMYAKASSIDPKPAFLVDQLTMNAGIFDGPRDDGGGMSFGG---GPINGGGESG  432
+
+Query  61   GN-GYGYLGMVYANG  74
+             N   GY GMV+ +G
+Sbjct  433  DNQNDGYFGMVFGSG  447
+
+
+>TR:A0A2P6SJ54_ROSCH A0A2P6SJ54 Pectate lyase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr1g0362211 
+PE=3 SV=1
+Length=486
+
+ Score = 63.5 bits (153),  Expect = 7e-11
+ Identities = 35/81 (43%), Positives = 45/81 (56%), Gaps = 10/81 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG--------  52
+            SG G+   Y KASS +PKS  L+D LT  AGV GDPR+ +    Y G +  G        
+Sbjct  367  SGAGMSTQYAKASSLEPKSVGLIDRLTVTAGVFGDPRDSSRSESYPGYSGGGTVTDGTTN  426
+
+Query  53   VGAGGGSGGNGYGYLGMVYAN  73
+             G+GG SGG+   Y GM++ N
+Sbjct  427  TGSGGSSGGD--DYFGMIFGN  445
+
+
+>TR:A0A068VKP2_COFCA A0A068VKP2 Pectate lyase OS=Coffea canephora OX=49390 GN=GSCOC_T00007367001 
+PE=3 SV=1
+Length=495
+
+ Score = 63.5 bits (153),  Expect = 7e-11
+ Identities = 36/79 (46%), Positives = 48/79 (61%), Gaps = 5/79 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG--GG  58
+            SGEGL   Y +ASS +PKSS L+D LT N+GVLG PR+++    Y G +  G  A   GG
+Sbjct  383  SGEGLSAQYARASSVEPKSSGLIDQLTFNSGVLGGPRDNSVSMSYGGGSTTGDSANGYGG  442
+
+Query  59   SG---GNGYGYLGMVYANG  74
+            SG   G    + GM++ +G
+Sbjct  443  SGSTPGGDGDFFGMIFGSG  461
+
+
+>TR:A0A1J3JPC4_NOCCA A0A1J3JPC4 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=MP_TR1657_c0_g1_i1_g.4315 
+PE=3 SV=1
+Length=503
+
+ Score = 63.5 bits (153),  Expect = 7e-11
+ Identities = 37/85 (44%), Positives = 51/85 (60%), Gaps = 5/85 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +  +Y KASS +P++SALVD LT+NAGV G PR+D  ++G     Y G G+  G+ 
+Sbjct  382  SGESVSTMYSKASSLEPQASALVDQLTRNAGVFGGPRDDEGQSGDSYSPYEGGGSSSGTS  441
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSA  85
+            G+  G  G+     GG  R  S S+
+Sbjct  442  GSIGGMGGI-----GGTARGTSSSS  461
+
+
+>TR:R7W716_AEGTA R7W716 Pectate lyase OS=Aegilops tauschii OX=37682 GN=F775_17944 
+PE=3 SV=1
+Length=434
+
+ Score = 63.2 bits (152),  Expect = 9e-11
+ Identities = 37/62 (60%), Positives = 41/62 (66%), Gaps = 4/62 (6%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR       +  +    V  GGGS
+Sbjct  376  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPR---YYYAFPSLGLRAVYVGGGS  432
+
+Query  60   GG  61
+            GG
+Sbjct  433  GG  434
+
+
+>TR:Q0IX90_ORYSJ Q0IX90 Pectate lyase OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os10g0457200 PE=3 SV=2
+Length=446
+
+ Score = 63.2 bits (152),  Expect = 9e-11
+ Identities = 32/37 (86%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPR  419
+
+
+>TR:Q7XDP5_ORYSJ Q7XDP5 Pectate lyase OS=Oryza sativa subsp. japonica OX=39947 
+GN=LOC_Os10g31910 PE=3 SV=1
+Length=467
+
+ Score = 63.2 bits (152),  Expect = 9e-11
+ Identities = 32/37 (86%), Positives = 32/37 (86%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG PR
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGPR  419
+
+
+>TR:A0A0K9P2P4_ZOSMR A0A0K9P2P4 Pectate lyase OS=Zostera marina OX=29655 GN=ZOSMA_41G00870 
+PE=3 SV=1
+Length=469
+
+ Score = 63.2 bits (152),  Expect = 9e-11
+ Identities = 35/72 (49%), Positives = 40/72 (56%), Gaps = 1/72 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG-VGAGGGS  59
+            SG G +  Y KASS DPKS  ++D LT NAGVLG         G   + + G     GG 
+Sbjct  374  SGTGRDGKYAKASSVDPKSVGMIDQLTMNAGVLGSSSRGGRGRGSPTILHGGSYDVVGGG  433
+
+Query  60   GGNGYGYLGMVY  71
+            GGN YGY GMVY
+Sbjct  434  GGNYYGYNGMVY  445
+
+
+>TR:A0A251UTJ3_HELAN A0A251UTJ3 Pectate lyase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr05g0161321 
+PE=3 SV=1
+Length=494
+
+ Score = 62.8 bits (151),  Expect = 1e-10
+ Identities = 35/78 (45%), Positives = 43/78 (55%), Gaps = 4/78 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG---  57
+            SG+GL DIY KASS +PKS+ LV  LT  AGV G PR+D     +      G  A G   
+Sbjct  379  SGDGLSDIYAKASSYEPKSANLVTQLTMYAGVFGGPRDDDGSESFTDGTITGDSASGNTG  438
+
+Query  58   -GSGGNGYGYLGMVYANG  74
+             G GG+   Y GM++  G
+Sbjct  439  RGGGGSDGDYFGMMFGGG  456
+
+
+>TR:A0A2J6KDL6_LACSA A0A2J6KDL6 Pectate lyase OS=Lactuca sativa OX=4236 GN=LSAT_2X111980 
+PE=3 SV=1
+Length=510
+
+ Score = 62.8 bits (151),  Expect = 1e-10
+ Identities = 33/79 (42%), Positives = 45/79 (57%), Gaps = 5/79 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+  IY KA+S +PKS++LV  LT NAGV G PR+D     +      G  A G +G
+Sbjct  378  SGDGMSAIYAKAASYEPKSASLVTQLTMNAGVFGGPRDDDGSESFTDGTITGDSASGNTG  437
+
+Query  61   GNGYG-----YLGMVYANG  74
+             +G G     Y GM++  G
+Sbjct  438  RSGGGGDDGDYFGMIFGGG  456
+
+
+>TR:A0A164ZEV0_DAUCA A0A164ZEV0 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_019067 PE=4 SV=1
+Length=275
+
+ Score = 62.0 bits (149),  Expect = 2e-10
+ Identities = 28/63 (44%), Positives = 39/63 (62%), Gaps = 0/63 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA+S + KS+A++D LT  AGVLG PR++ +   Y G    G  + GG G
+Sbjct  204  SGQGLSNQYTKAASVEAKSAAMIDQLTSTAGVLGGPRDNGDRISYSGGTTTGASSSGGGG  263
+
+Query  61   GNG  63
+              G
+Sbjct  264  SGG  266
+
+
+>TR:D7TM46_VITVI D7TM46 Pectate lyase OS=Vitis vinifera OX=29760 GN=VIT_13s0019g04910 
+PE=3 SV=1
+Length=496
+
+ Score = 62.0 bits (149),  Expect = 2e-10
+ Identities = 41/109 (38%), Positives = 58/109 (53%), Gaps = 16/109 (15%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGS-  59
+            SG GL   Y KASS +PKS+AL+  LT NAG L   R+D+      GV+Y G  +GG S 
+Sbjct  380  SGVGLSTQYAKASSVEPKSAALIQQLTMNAGALSGSRDDS-----MGVSYPGFSSGGTSS  434
+
+Query  60   -----GGNGYG----YLGMVYANGGGDRRCRSHS-ALPLISSVITLIAL  98
+                 GG+G      Y GM++ +G G       S  +P+  S++ ++ L
+Sbjct  435  SISNNGGHGSSDDPDYFGMIFGSGSGSGAPPPPSVTIPMFFSLLIILIL  483
+
+
+>TR:A0A061FP39_THECC A0A061FP39 Pectate lyase (Fragment) OS=Theobroma cacao OX=3641 
+GN=TCM_043329 PE=3 SV=1
+Length=481
+
+ Score = 61.6 bits (148),  Expect = 3e-10
+ Identities = 40/107 (37%), Positives = 53/107 (50%), Gaps = 12/107 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG---VGAGG  57
+            SG GL   Y KASS +PKS+AL++ LT NAGV G+ R +     Y G +  G      G 
+Sbjct  364  SGAGLSAQYAKASSVEPKSAALIEQLTFNAGVFGEAREETGSFSYPGYSSGGSSSTSTGS  423
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+               G+   Y GM++ +G         S LP  S+ I  I L  L +L
+Sbjct  424  ARSGDDGDYFGMIFGSG---------SPLPPASTSIASIFLSLLIIL  461
+
+
+>TR:A0A2G3AZH6_CAPCH A0A2G3AZH6 Pectate lyase OS=Capsicum chinense OX=80379 GN=BC332_29414 
+PE=3 SV=1
+Length=489
+
+ Score = 61.6 bits (148),  Expect = 3e-10
+ Identities = 40/107 (37%), Positives = 53/107 (50%), Gaps = 14/107 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+ + Y KASS +P+S A++D LT NAGV G PR+++    Y G    G    GG G
+Sbjct  372  SGEGMSNQYAKASSMEPQSGAIIDQLTLNAGVFGAPRDNSISISYGGGTTTGATGSGGGG  431
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+                G   + GM++            SA P   S  T I L  L +L
+Sbjct  432  PTTNGENDFFGMMFG-----------SATPQKLSTTTTILLSLLIIL  467
+
+
+>TR:A0A061FND9_THECC A0A061FND9 Pectate lyase OS=Theobroma cacao OX=3641 GN=TCM_043329 
+PE=3 SV=1
+Length=493
+
+ Score = 61.6 bits (148),  Expect = 3e-10
+ Identities = 40/107 (37%), Positives = 53/107 (50%), Gaps = 12/107 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAG---VGAGG  57
+            SG GL   Y KASS +PKS+AL++ LT NAGV G+ R +     Y G +  G      G 
+Sbjct  376  SGAGLSAQYAKASSVEPKSAALIEQLTFNAGVFGEAREETGSFSYPGYSSGGSSSTSTGS  435
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+               G+   Y GM++ +G         S LP  S+ I  I L  L +L
+Sbjct  436  ARSGDDGDYFGMIFGSG---------SPLPPASTSIASIFLSLLIIL  473
+
+
+>TR:B9T6Z7_RICCO B9T6Z7 Pectate lyase OS=Ricinus communis OX=3988 GN=RCOM_1010900 
+PE=3 SV=1
+Length=503
+
+ Score = 61.6 bits (148),  Expect = 3e-10
+ Identities = 40/105 (38%), Positives = 55/105 (52%), Gaps = 8/105 (8%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAE---ETGYRG----VNYAGV  53
+            SG GL   Y KASS +PKS+AL+  LT NAGV GD R   E     G+ G          
+Sbjct  380  SGAGLSAQYAKASSVEPKSAALITQLTLNAGVFGDARERDEGISNPGFIGGGTTTGTTNT  439
+
+Query  54   GAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G+ G +GG+G  Y GM++ +G         S+  ++ SV+ +I L
+Sbjct  440  GSAGSTGGDG-DYFGMIFGSGASPSPPPLASSSSVVLSVLIIIVL  483
+
+
+>TR:Q94LR5_ORYSJ Q94LR5 Pectate lyase OS=Oryza sativa subsp. japonica OX=39947 
+GN=OSJNBb0011A08.18 PE=3 SV=1
+Length=453
+
+ Score = 61.2 bits (147),  Expect = 4e-10
+ Identities = 31/36 (86%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP  36
+            SGEGLE IYDKASSTDPKSSALVD LT  AGVLG P
+Sbjct  383  SGEGLEAIYDKASSTDPKSSALVDQLTAGAGVLGGP  418
+
+
+>TR:A0A2P5FLI4_9ROSA A0A2P5FLI4 Pectate lyase OS=Trema orientalis OX=63057 GN=TorPLL6 
+PE=3 SV=1
+Length=501
+
+ Score = 61.2 bits (147),  Expect = 4e-10
+ Identities = 36/105 (34%), Positives = 52/105 (50%), Gaps = 9/105 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG----  56
+            SG GL   Y KASS +PKS+AL+D LT  AGV GDPR+        G +  G+  G    
+Sbjct  379  SGAGLSTQYAKASSVEPKSAALIDQLTSTAGVFGDPRD--RSVALPGFSGGGISTGTTSN  436
+
+Query  57   ---GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+               G S G+   Y GM++ +G         S+  +  S+  ++ +
+Sbjct  437  TGHGSSSGDDGDYFGMIFGSGASASPPAPSSSFAIFLSLSIILVM  481
+
+
+>TR:A0A2I0VWZ6_9ASPA A0A2I0VWZ6 Pectate lyase OS=Dendrobium catenatum OX=906689 GN=MA16_Dca006968 
+PE=3 SV=1
+Length=445
+
+ Score = 60.8 bits (146),  Expect = 6e-10
+ Identities = 41/103 (40%), Positives = 53/103 (51%), Gaps = 10/103 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G   +Y+KASS + K + L+D LT NAGVLG  + D       G    G G GGG G
+Sbjct  350  SGDGSAAMYEKASSVEAKPAELIDQLTLNAGVLGRLKRDG------GGQILGGGGGGGGG  403
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLIALGC  100
+            G G G   + GM ++ G           LPL S +IT+I   C
+Sbjct  404  GGGLGDSKFPGMGFSGGAPPPLFGIQLLLPL-SILITIIIYSC  445
+
+
+>TR:A0A1U8EVV8_CAPAN A0A1U8EVV8 Pectate lyase OS=Capsicum annuum OX=4072 GN=LOC107850983 
+PE=3 SV=1
+Length=489
+
+ Score = 60.8 bits (146),  Expect = 6e-10
+ Identities = 37/99 (37%), Positives = 54/99 (55%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+ + Y KASS +P+S A++D LT NAGV G PR+++    Y G    G    GG G
+Sbjct  372  SGEGMSNQYAKASSMEPQSGAIIDQLTLNAGVFGAPRDNSISISYGGGTTTGATGSGGGG  431
+
+Query  61   GNGYG---YLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+                G   + GM++  G    +  S +   L+S +I L+
+Sbjct  432  PTTNGENDFFGMMF--GSATPQNLSTTTTILMSLLIILV  468
+
+
+>TR:A0A1S4D1S8_TOBAC A0A1S4D1S8 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107825055 
+PE=3 SV=1
+Length=453
+
+ Score = 60.5 bits (145),  Expect = 8e-10
+ Identities = 35/100 (35%), Positives = 52/100 (52%), Gaps = 2/100 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y KA S DPKS+ L+D LT+NAGVLG PR+++     +G    G G    S 
+Sbjct  336  SGQGISTQYVKAYSVDPKSALLIDQLTKNAGVLGGPRDNSMSMSSKGGITGGGGGHAEST  395
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS--ALPLISSVITLIAL  98
+                   GM+++  G      S S    P++ S + ++ L
+Sbjct  396  SGDVDMFGMIFSGTGASSAGSSPSPTTTPILLSFLIILTL  435
+
+
+>TR:A0A2C9VK14_MANES A0A2C9VK14 Pectate lyase OS=Manihot esculenta OX=3983 GN=MANES_07G094700 
+PE=3 SV=1
+Length=480
+
+ Score = 60.5 bits (145),  Expect = 8e-10
+ Identities = 33/90 (37%), Positives = 48/90 (53%), Gaps = 12/90 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG---  57
+            SG GL   Y KASS +PKS+ +++ LT NAGV G PR+++    + G  ++G G+     
+Sbjct  376  SGAGLSAQYAKASSVEPKSAGIINQLTMNAGVFGGPRHES----FSGPGFSGYGSSTGTT  431
+
+Query  58   -----GSGGNGYGYLGMVYANGGGDRRCRS  82
+                 GS G    Y GM++ +G     C S
+Sbjct  432  NTGSVGSSGGDSDYFGMIFGSGAPQPTCAS  461
+
+
+>TR:A0A103YD34_CYNCS A0A103YD34 Pectate lyase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_014769 PE=3 SV=1
+Length=483
+
+ Score = 60.5 bits (145),  Expect = 8e-10
+ Identities = 33/77 (43%), Positives = 43/77 (56%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +  +Y KA+S DPKS+ LVD LT NAGV G PR+D     +      G G    +G
+Sbjct  374  SGEDMSAMYAKATSIDPKSAFLVDQLTMNAGVFGGPRDDVGSVSFGDGPITGGGESRNTG  433
+
+Query  61   G---NGYGYLGMVYANG  74
+            G   N   Y G+V+ +G
+Sbjct  434  GGDHNDDDYFGIVFGSG  450
+
+
+>TR:A0A1S4D1X0_TOBAC A0A1S4D1X0 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107825055 
+PE=3 SV=1
+Length=496
+
+ Score = 60.5 bits (145),  Expect = 8e-10
+ Identities = 35/100 (35%), Positives = 52/100 (52%), Gaps = 2/100 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y KA S DPKS+ L+D LT+NAGVLG PR+++     +G    G G    S 
+Sbjct  379  SGQGISTQYVKAYSVDPKSALLIDQLTKNAGVLGGPRDNSMSMSSKGGITGGGGGHAEST  438
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHS--ALPLISSVITLIAL  98
+                   GM+++  G      S S    P++ S + ++ L
+Sbjct  439  SGDVDMFGMIFSGTGASSAGSSPSPTTTPILLSFLIILTL  478
+
+
+>TR:A0A2U1P0G8_ARTAN A0A2U1P0G8 Uncharacterized protein OS=Artemisia annua OX=35608 
+GN=CTI12_AA063370 PE=4 SV=1
+Length=807
+
+ Score = 60.5 bits (145),  Expect = 8e-10
+ Identities = 33/77 (43%), Positives = 42/77 (55%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+  IY KA+S +PKS+ALV  LT  AGV G PR+D     Y      G  A G +G
+Sbjct  695  SGDGMSAIYAKAASYEPKSAALVTQLTMYAGVFGGPRDDDGSQSYTDGTITGDSASGNTG  754
+
+Query  61   ---GNGYGYLGMVYANG  74
+               G    Y GM++  G
+Sbjct  755  KSSGEDGDYFGMIFGGG  771
+
+
+>TR:A0A2G5CSS3_AQUCA A0A2G5CSS3 Pectate lyase OS=Aquilegia coerulea OX=218851 GN=AQUCO_03800141v1 
+PE=3 SV=1
+Length=365
+
+ Score = 60.1 bits (144),  Expect = 1e-09
+ Identities = 40/115 (35%), Positives = 56/115 (49%), Gaps = 20/115 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP--RNDAEETGYRGVNYAGV-----  53
+            SG GL   Y KASS +PKS+ ++D LT NAGV+G    R+++    Y G N  G      
+Sbjct  234  SGFGLGQQYAKASSVEPKSAGIIDQLTMNAGVMGGSGNRDNSRSISYPGFNNGGTSTVPG  293
+
+Query  54   -------GAGGGSG----GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIA  97
+                   G GGG G    GN   Y GM++ +    R+    S  P+  S + +I+
+Sbjct  294  VAVGPGEGGGGGQGEGGDGNDVNYFGMIFGSNSSPRQPPPPS--PIFLSFLIIIS  346
+
+
+>TR:A0A2G2VA75_CAPBA A0A2G2VA75 Pectate lyase OS=Capsicum baccatum OX=33114 GN=CQW23_30524 
+PE=3 SV=1
+Length=489
+
+ Score = 60.1 bits (144),  Expect = 1e-09
+ Identities = 36/99 (36%), Positives = 55/99 (56%), Gaps = 5/99 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRG---VNYAGVGAGG  57
+            SGEG+ + Y KASS +P+S A++D LT NAGV G PR+++    Y G       G G+GG
+Sbjct  372  SGEGMSNQYAKASSMEPQSGAIIDQLTLNAGVFGAPRDNSISISYGGGTTTGATGSGSGG  431
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLI  96
+             +      + GM++  G    +  S +   L+S +I L+
+Sbjct  432  PTANGENDFFGMMF--GSATPQKLSTTTTILMSLLIILV  468
+
+
+>TR:A0A2P5AX09_PARAD A0A2P5AX09 Pectate lyase OS=Parasponia andersonii OX=3476 GN=PanPLL6 
+PE=3 SV=1
+Length=504
+
+ Score = 60.1 bits (144),  Expect = 1e-09
+ Identities = 35/104 (34%), Positives = 52/104 (50%), Gaps = 8/104 (8%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG----  56
+            SG GL   Y KASS +PKS+AL+D LT  AGV GDPR+        G +  G+  G    
+Sbjct  382  SGAGLSTQYVKASSVEPKSAALIDQLTSTAGVFGDPRD--RSVALPGFSGGGISTGTSNT  439
+
+Query  57   --GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+              G S G+   + GM++ +G         S+  +  S+  ++ +
+Sbjct  440  GRGSSSGDDGDFFGMIFGSGASANPPAPSSSFAIFLSLSIILVM  483
+
+
+>TR:W1NRA0_AMBTC W1NRA0 Pectate lyase OS=Amborella trichopoda OX=13333 GN=AMTR_s00120p00111300 
+PE=3 SV=1
+Length=554
+
+ Score = 60.1 bits (144),  Expect = 1e-09
+ Identities = 39/91 (43%), Positives = 47/91 (52%), Gaps = 16/91 (18%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNY-------AGV  53
+            SG G    Y+KA S +PKS+A +D LT+NAGV G  R+ +    Y G N        AG 
+Sbjct  376  SGLGSASKYEKAYSVEPKSAAFIDALTRNAGVFGSSRDTSTSVIYPGGNNGVVTGGGAGA  435
+
+Query  54   GAGGGSG--------GNGY-GYLGMVYANGG  75
+            GAG G+G        G GY GY GMV    G
+Sbjct  436  GAGAGAGAGAGMGDTGGGYGGYPGMVSLEAG  466
+
+
+>TR:E7BTN2_VITVI E7BTN2 Pectate lyase OS=Vitis vinifera OX=29760 PE=2 SV=1
+Length=496
+
+ Score = 59.7 bits (143),  Expect = 1e-09
+ Identities = 33/81 (41%), Positives = 45/81 (56%), Gaps = 5/81 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAG-GGS  59
+            SG GL   Y KASS +PKS+AL+  LT NAG L   R+D+    Y G +  G  +    +
+Sbjct  380  SGVGLSTQYAKASSVEPKSAALIQQLTMNAGALSGSRDDSMGLSYPGFSSGGTSSSISNN  439
+
+Query  60   GGNGYG----YLGMVYANGGG  76
+            GG+G      Y GM++ +G G
+Sbjct  440  GGHGSSDDPDYFGMIFGSGSG  460
+
+
+>TR:A0A2C9V4N0_MANES A0A2C9V4N0 Pectate lyase OS=Manihot esculenta OX=3983 GN=MANES_10G051500 
+PE=3 SV=1
+Length=500
+
+ Score = 59.7 bits (143),  Expect = 1e-09
+ Identities = 33/82 (40%), Positives = 47/82 (57%), Gaps = 8/82 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVN-------YAGV  53
+            SG GL   Y KASS +P+S+ L+  LT NAGV G PR+++      G+N           
+Sbjct  378  SGAGLSAQYAKASSVEPRSAGLISQLTMNAGVFGAPRDNSVGISNPGINGGTSTAGTTNT  437
+
+Query  54   GAGGGSGGNGYG-YLGMVYANG  74
+            G+ G S G+G G +LGM++ +G
+Sbjct  438  GSSGASSGDGDGDFLGMIFGSG  459
+
+
+>TR:A0A199UIR7_ANACO A0A199UIR7 Pectate lyase (Fragment) OS=Ananas comosus OX=4615 
+GN=ACMD2_01919 PE=3 SV=1
+Length=412
+
+ Score = 59.3 bits (142),  Expect = 2e-09
+ Identities = 29/36 (81%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP  36
+            SGEGLE IY KASS DPKS+AL+D LTQNAGVLG P
+Sbjct  377  SGEGLEAIYAKASSLDPKSAALIDQLTQNAGVLGSP  412
+
+
+>TR:A0A2R6PKW9_ACTCH A0A2R6PKW9 Pectate lyase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc27597 PE=3 SV=1
+Length=491
+
+ Score = 59.3 bits (142),  Expect = 2e-09
+ Identities = 34/101 (34%), Positives = 54/101 (53%), Gaps = 5/101 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA---EETGYRGVNYAGVGAGG  57
+            SG GL   Y KASS +PKS++L++ LT NAGV GDPR+ +      G+ G   +    G 
+Sbjct  375  SGIGLSQ-YTKASSVEPKSASLINQLTMNAGVFGDPRDSSGSITSPGFSG-GTSSATTGN  432
+
+Query  58   GSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G G +G  Y GM++ +          +   ++ S++ ++ L
+Sbjct  433  GVGSSGGDYFGMIFGSDAAPSSSSLSTTTTILLSLLIILTL  473
+
+
+>TR:A0A1U8GB15_CAPAN A0A1U8GB15 Pectate lyase OS=Capsicum annuum OX=4072 GN=T459_08558 
+PE=3 SV=1
+Length=495
+
+ Score = 59.3 bits (142),  Expect = 2e-09
+ Identities = 38/104 (37%), Positives = 49/104 (47%), Gaps = 7/104 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA + DPKS+ LV  LT NAGVLG PR+++      G   A       S 
+Sbjct  378  SGQGLSNQYAKAYNVDPKSALLVHQLTSNAGVLGGPRDNSMSMSKGGTTGASSSGNAESN  437
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+                   GM+++  G        SA  L S   TL  L  L +L
+Sbjct  438  SGDVNLFGMIFSGAGA-------SAASLQSQTTTLTLLAFLIIL  474
+
+
+>TR:A0A2G2ZWT5_CAPAN A0A2G2ZWT5 Pectate lyase OS=Capsicum annuum OX=4072 GN=LOC107863694 
+PE=3 SV=1
+Length=495
+
+ Score = 59.3 bits (142),  Expect = 2e-09
+ Identities = 38/104 (37%), Positives = 49/104 (47%), Gaps = 7/104 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA + DPKS+ LV  LT NAGVLG PR+++      G   A       S 
+Sbjct  378  SGQGLSNQYAKAYNVDPKSALLVHQLTSNAGVLGGPRDNSMSMSKGGTTGASSSGNAESN  437
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+                   GM+++  G        SA  L S   TL  L  L +L
+Sbjct  438  SGDVNLFGMIFSGAGA-------SAASLQSQTTTLTLLAFLIIL  474
+
+
+>TR:R0H9Y1_9BRAS R0H9Y1 Pectate lyase OS=Capsella rubella OX=81985 GN=CARUB_v10000723mg 
+PE=3 SV=1
+Length=467
+
+ Score = 58.5 bits (140),  Expect = 4e-09
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 13/89 (15%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP--RN----------DAEETGYRGV  48
+            SG+G+   Y KA+S  PK++A++D LT NAGV GDP  RN          D   T  RG 
+Sbjct  352  SGDGVSPAYAKATSVQPKAAAVIDQLTVNAGVFGDPSGRNGQGGSFPGITDGGGTITRGY  411
+
+Query  49   NYAGVGAGGGSGGNG-YGYLGMVYANGGG  76
+            + +G G GGG G +   G   +++ N  G
+Sbjct  412  SKSGPGGGGGGGSDSDDGIFSVIFGNNSG  440
+
+
+>TR:R0GU57_9BRAS R0GU57 Pectate lyase OS=Capsella rubella OX=81985 GN=CARUB_v10000723mg 
+PE=3 SV=1
+Length=520
+
+ Score = 58.5 bits (140),  Expect = 4e-09
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 13/89 (15%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP--RN----------DAEETGYRGV  48
+            SG+G+   Y KA+S  PK++A++D LT NAGV GDP  RN          D   T  RG 
+Sbjct  405  SGDGVSPAYAKATSVQPKAAAVIDQLTVNAGVFGDPSGRNGQGGSFPGITDGGGTITRGY  464
+
+Query  49   NYAGVGAGGGSGGNG-YGYLGMVYANGGG  76
+            + +G G GGG G +   G   +++ N  G
+Sbjct  465  SKSGPGGGGGGGSDSDDGIFSVIFGNNSG  493
+
+
+>TR:B6T049_MAIZE B6T049 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=35
+
+ Score = 53.5 bits (127),  Expect = 5e-09
+ Identities = 27/36 (75%), Positives = 31/36 (86%), Gaps = 1/36 (3%)
+
+Query  69   MVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            MVYA GGGD+R RSHSAL L+SS IT++ALGCL LL
+Sbjct  1    MVYA-GGGDQRWRSHSALSLVSSAITVVALGCLHLL  35
+
+
+>TR:A0A2G2X594_CAPBA A0A2G2X594 Pectate lyase OS=Capsicum baccatum OX=33114 GN=CQW23_07120 
+PE=3 SV=1
+Length=560
+
+ Score = 58.2 bits (139),  Expect = 5e-09
+ Identities = 35/91 (38%), Positives = 48/91 (53%), Gaps = 1/91 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA + DPKS+ LV  LT NAGVLG PR+++      G   A       S 
+Sbjct  379  SGQGLSNQYAKAYNVDPKSALLVHQLTSNAGVLGGPRDNSMSMSKGGTTGASSSGNAESN  438
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISS  91
+                   GM++ +G G  R  S + L L+S+
+Sbjct  439  SGDVDLFGMIF-SGAGKARKGSSANLILLSN  468
+
+
+>TR:A0A2C9VE83_MANES A0A2C9VE83 Pectate lyase OS=Manihot esculenta OX=3983 GN=MANES_08G012400 
+PE=3 SV=1
+Length=484
+
+ Score = 57.8 bits (138),  Expect = 7e-09
+ Identities = 32/67 (48%), Positives = 40/67 (60%), Gaps = 1/67 (1%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEGLE  Y+KA S +PKS+A +D++T +AGVLG    D    G       GVG GG   
+Sbjct  378  SGEGLEVKYEKAYSVEPKSAAFIDLITMHAGVLGVGGRD-NNLGMWSTGANGVGGGGTGE  436
+
+Query  61   GNGYGYL  67
+             +GY YL
+Sbjct  437  DSGYYYL  443
+
+
+>TR:A0A287F6B2_HORVV A0A287F6B2 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=448
+
+ Score = 57.4 bits (137),  Expect = 1e-08
+ Identities = 30/38 (79%), Positives = 32/38 (84%), Gaps = 1/38 (3%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPR  37
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR
+Sbjct  374  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPR  411
+
+
+>TR:A0A287F6D0_HORVV A0A287F6D0 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=452
+
+ Score = 57.4 bits (137),  Expect = 1e-08
+ Identities = 30/38 (79%), Positives = 32/38 (84%), Gaps = 1/38 (3%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPR  37
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR
+Sbjct  362  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPR  399
+
+
+>TR:A0A287F6B3_HORVV A0A287F6B3 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=464
+
+ Score = 57.4 bits (137),  Expect = 1e-08
+ Identities = 30/38 (79%), Positives = 32/38 (84%), Gaps = 1/38 (3%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPR  37
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR
+Sbjct  374  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPR  411
+
+
+>TR:A0A287F6C1_HORVV A0A287F6C1 Pectate lyase OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=487
+
+ Score = 57.4 bits (137),  Expect = 1e-08
+ Identities = 30/38 (79%), Positives = 32/38 (84%), Gaps = 1/38 (3%)
+
+Query  1    SGEGLEDIYDKASS-TDPKSSALVDVLTQNAGVLGDPR  37
+            SGEG+E+IYDKASS  DPKSSALVD LT  AGVLG PR
+Sbjct  374  SGEGMENIYDKASSGVDPKSSALVDQLTMGAGVLGGPR  411
+
+
+>TR:A0A2P4J754_QUESU A0A2P4J754 Pectate lyase OS=Quercus suber OX=58331 GN=CFP56_15262 
+PE=3 SV=1
+Length=483
+
+ Score = 56.6 bits (135),  Expect = 2e-08
+ Identities = 41/108 (38%), Positives = 54/108 (50%), Gaps = 13/108 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRN--DAEETGYRGVNYAGV--GAG  56
+            SG G    Y +ASS +P S+ L++ LT NAGV G PR+  D  E    G + +G   G G
+Sbjct  382  SGAGASIQYARASSVNPFSAGLINQLTMNAGVFGGPRDGQDGSEPISSGTSPSGTSNGDG  441
+
+Query  57   GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            G S G   GY  M++ N          +A P  S+V T I L  L +L
+Sbjct  442  GYSDGGSGGYFDMIFKNA---------AAPPASSTVTTTIFLSLLIIL  480
+
+
+>TR:A0A251TU86_HELAN A0A251TU86 Pectate lyase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr09g0248191 
+PE=3 SV=1
+Length=489
+
+ Score = 56.6 bits (135),  Expect = 2e-08
+ Identities = 33/76 (43%), Positives = 43/76 (57%), Gaps = 2/76 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGY-RGVNYAGVGAGGGS  59
+            SGE L  +Y KA+S DPKS+ LVD LT NAGV G PR+D     +  G    G G G  +
+Sbjct  376  SGEDLNAMYAKATSVDPKSAFLVDQLTMNAGVFGAPRDDVGTVSFGNGPITTGGGEGRNT  435
+
+Query  60   GG-NGYGYLGMVYANG  74
+            G  +   Y G+ + +G
+Sbjct  436  GNHDDDDYFGITFGSG  451
+
+
+>TR:A0A2J6LT06_LACSA A0A2J6LT06 Pectate lyase OS=Lactuca sativa OX=4236 GN=LSAT_9X71760 
+PE=3 SV=1
+Length=437
+
+ Score = 56.2 bits (134),  Expect = 2e-08
+ Identities = 33/81 (41%), Positives = 42/81 (52%), Gaps = 10/81 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+    +Y KA+STDPKS+ LVD LT NAGV G  R+D     Y       +  GG S 
+Sbjct  320  SGDAFSTMYAKATSTDPKSAFLVDQLTMNAGVFGGMRDDVGTVSY---GDGPITTGGESR  376
+
+Query  61   GNGYG-------YLGMVYANG  74
+             NG         Y GM++ +G
+Sbjct  377  NNGENSGHDDDDYFGMIFGSG  397
+
+
+>TR:D7LXH4_ARALL D7LXH4 Pectate lyase OS=Arabidopsis lyrata subsp. lyrata OX=81972 
+GN=ARALYDRAFT_487211 PE=3 SV=1
+Length=519
+
+ Score = 56.2 bits (134),  Expect = 2e-08
+ Identities = 33/105 (31%), Positives = 52/105 (50%), Gaps = 10/105 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG-YRGV---------NY  50
+            SG+G+   Y +A+S  PK++A++D LT NAGV GDP     + G + G+          Y
+Sbjct  406  SGDGVSPAYARATSVQPKAAAIIDQLTVNAGVFGDPSGRNGQGGSFPGITDGGGTITRGY  465
+
+Query  51   AGVGAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITL  95
+            +  G GG SG +  G   +++ N  G    R      ++  +I L
+Sbjct  466  SKSGPGGSSGDSDDGLFTVIFGNNSGAVALRPGQVWSILLIIIIL  510
+
+
+>TR:Q93Z77_ARATH Q93Z77 Pectate lyase OS=Arabidopsis thaliana OX=3702 PE=2 SV=1
+Length=349
+
+ Score = 55.8 bits (133),  Expect = 3e-08
+ Identities = 29/77 (38%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y +A+S  PK++A++D LT NAGV GDP         +G ++ G+  GGG+ 
+Sbjct  234  SGDGVSPAYARATSVQPKAAAIIDQLTVNAGVFGDPSG----RNGQGGSFPGITNGGGTI  289
+
+Query  61   GNGYGYLGMVYANGGGD  77
+              GY   G      G D
+Sbjct  290  TRGYSKSGPAGGGSGSD  306
+
+
+>TR:K4BHI7_SOLLC K4BHI7 Pectate lyase OS=Solanum lycopersicum OX=4081 GN=101260911 
+PE=3 SV=1
+Length=504
+
+ Score = 55.8 bits (133),  Expect = 3e-08
+ Identities = 37/108 (34%), Positives = 56/108 (52%), Gaps = 18/108 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA S DPKS+ L++ LT NAGVLG PR+++       ++      GG S 
+Sbjct  388  SGQGLSNQYTKAYSVDPKSALLINQLTANAGVLGGPRDNS-------ISILPQVGGGTSE  440
+
+Query  61   GNGYGY----------LGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G+G G+           GM++ +G G       +  P++ S   L+ L
+Sbjct  441  GSGRGHDQSNSGSVDLFGMIF-SGTGASAAAPPTTTPILFSFFILLTL  487
+
+
+>TR:A0A178U748_ARATH A0A178U748 Pectate lyase OS=Arabidopsis thaliana OX=3702 GN=AXX17_At5g03700 
+PE=3 SV=1
+Length=517
+
+ Score = 55.8 bits (133),  Expect = 3e-08
+ Identities = 29/77 (38%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y +A+S  PK++A++D LT NAGV GDP         +G ++ G+  GGG+ 
+Sbjct  402  SGDGVSPAYARATSVQPKAAAIIDQLTVNAGVFGDPSG----RNGQGGSFPGITDGGGTI  457
+
+Query  61   GNGYGYLGMVYANGGGD  77
+              GY   G      G D
+Sbjct  458  TRGYSKSGPAGGGSGSD  474
+
+
+>TR:F4JW80_ARATH F4JW80 Pectate lyase OS=Arabidopsis thaliana OX=3702 GN=At5g04310 
+PE=3 SV=1
+Length=518
+
+ Score = 55.8 bits (133),  Expect = 3e-08
+ Identities = 29/77 (38%), Positives = 42/77 (55%), Gaps = 4/77 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y +A+S  PK++A++D LT NAGV GDP         +G ++ G+  GGG+ 
+Sbjct  403  SGDGVSPAYARATSVQPKAAAIIDQLTVNAGVFGDPSG----RNGQGGSFPGITNGGGTI  458
+
+Query  61   GNGYGYLGMVYANGGGD  77
+              GY   G      G D
+Sbjct  459  TRGYSKSGPAGGGSGSD  475
+
+
+>TR:A0A251SPI7_HELAN A0A251SPI7 Pectate lyase OS=Helianthus annuus OX=4232 GN=PMR6 
+PE=3 SV=1
+Length=500
+
+ Score = 55.5 bits (132),  Expect = 5e-08
+ Identities = 33/88 (38%), Positives = 43/88 (49%), Gaps = 14/88 (16%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL   Y KASS +PKS+ALV  LT+ AGV G PR+D     +      G  A G +G
+Sbjct  378  SGDGLSATYAKASSYEPKSAALVTQLTKYAGVFGGPRDDDGTASFTAGTITGDSASGNTG  437
+
+Query  61   GNGYG--------------YLGMVYANG  74
+             +  G              Y GM++  G
+Sbjct  438  YSAGGNTGATRSSSEDDGDYFGMIFGGG  465
+
+
+>TR:V7BEG9_PHAVU V7BEG9 Pectate lyase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_007G024400g 
+PE=3 SV=1
+Length=493
+
+ Score = 55.1 bits (131),  Expect = 6e-08
+ Identities = 39/110 (35%), Positives = 53/110 (48%), Gaps = 14/110 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+   Y +A+S  PKS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  377  SGAGMSAQYAEATSVQPKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGTVTGATSK  434
+
+Query  61   GNGYG------YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GN  G      + GM++      R   SH+A P   S  T+     L LL
+Sbjct  435  GNSAGSSDDGDFFGMIF------RGSSSHAAPPSPPSSSTVFVTTFLSLL  478
+
+
+>TR:A0A1U7VJR2_NICSY A0A1U7VJR2 Pectate lyase OS=Nicotiana sylvestris OX=4096 GN=LOC104219334 
+PE=3 SV=1
+Length=494
+
+ Score = 55.1 bits (131),  Expect = 6e-08
+ Identities = 29/60 (48%), Positives = 36/60 (60%), Gaps = 0/60 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGVLG PR+ +    Y G     VG   G G
+Sbjct  378  SGDGLSNQYALASSMEPKSAFLIDQLTMNAGVLGVPRDTSVAMSYGGRTRTTVGTNQGGG  437
+
+
+>TR:A0A1S4A255_TOBAC A0A1S4A255 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107793009 
+PE=3 SV=1
+Length=494
+
+ Score = 55.1 bits (131),  Expect = 6e-08
+ Identities = 29/60 (48%), Positives = 36/60 (60%), Gaps = 0/60 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGVLG PR+ +    Y G     VG   G G
+Sbjct  378  SGDGLSNQYALASSMEPKSAFLIDQLTMNAGVLGVPRDTSVAMSYGGRTRTTVGTNQGGG  437
+
+
+>TR:A0A2G5CST7_AQUCA A0A2G5CST7 Pectate lyase OS=Aquilegia coerulea OX=218851 GN=AQUCO_03800142v1 
+PE=3 SV=1
+Length=523
+
+ Score = 55.1 bits (131),  Expect = 6e-08
+ Identities = 34/89 (38%), Positives = 43/89 (48%), Gaps = 16/89 (18%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   +  ASS +PKS+ LV+ LT NAGV GD   D    G  G    G G G G+G
+Sbjct  401  SGDGVGVKFAMASSLEPKSAELVEQLTMNAGVFGDKNKDQNIPGGGGGGGGGGGTGVGTG  460
+
+Query  61   G----------------NGYGYLGMVYAN  73
+            G                 G GY GM+Y +
+Sbjct  461  GGGPGGTAIGGPGGTGIGGPGYYGMIYGS  489
+
+
+>TR:A0A2U1KQP9_ARTAN A0A2U1KQP9 AmbAllergen OS=Artemisia annua OX=35608 GN=CTI12_AA558430 
+PE=4 SV=1
+Length=445
+
+ Score = 54.7 bits (130),  Expect = 8e-08
+ Identities = 29/77 (38%), Positives = 41/77 (53%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G  ++Y KA+S D +S+ ++D LT NAGV G+ RND     +      G GA   + 
+Sbjct  329  SGAGANEMYAKATSIDARSAYIIDQLTMNAGVFGEQRNDVGSVSFGNGPINGGGASRNTD  388
+
+Query  61   GN---GYGYLGMVYANG  74
+            GN      Y GM + +G
+Sbjct  389  GNYNDDDDYFGMAFGSG  405
+
+
+>TR:A0A1S3ZY64_TOBAC A0A1S3ZY64 Pectate lyase OS=Nicotiana tabacum OX=4097 GN=LOC107791654 
+PE=3 SV=1
+Length=494
+
+ Score = 54.7 bits (130),  Expect = 9e-08
+ Identities = 30/64 (47%), Positives = 39/64 (61%), Gaps = 2/64 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGA--GGG  58
+            SG+GL + Y  ASS +PKS+ L+D LT NAG+LG PR+ +    Y G     VG   GGG
+Sbjct  377  SGDGLSNQYALASSMEPKSAFLIDQLTMNAGILGVPRDTSVAMSYGGRTRTTVGTKRGGG  436
+
+Query  59   SGGN  62
+            +  N
+Sbjct  437  ARSN  440
+
+
+>TR:A0A1J6IRU0_NICAT A0A1J6IRU0 Pectate lyase OS=Nicotiana attenuata OX=49451 GN=PMR6_0 
+PE=3 SV=1
+Length=495
+
+ Score = 54.7 bits (130),  Expect = 9e-08
+ Identities = 29/60 (48%), Positives = 35/60 (58%), Gaps = 0/60 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGVLG PR+      Y G     VG   G G
+Sbjct  379  SGDGLSNQYALASSMEPKSAFLIDQLTMNAGVLGVPRDTTVAMSYGGRTRTTVGTNQGGG  438
+
+
+>TR:A0A2I4EPH4_9ROSI A0A2I4EPH4 Pectate lyase OS=Juglans regia OX=51240 GN=LOC108991494 
+PE=3 SV=1
+Length=499
+
+ Score = 54.7 bits (130),  Expect = 9e-08
+ Identities = 36/102 (35%), Positives = 49/102 (48%), Gaps = 4/102 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAE--ETGYRGVNYAGV--GAG  56
+            SG G    Y KASS +PK++ L+D LT NAGVLG  R  +E   T Y G +         
+Sbjct  381  SGAGASVQYAKASSVEPKAAGLIDQLTMNAGVLGGRRESSETASTSYPGFSNGSTTYSDN  440
+
+Query  57   GGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+             GSG     Y GM++ +        S +   L S +I ++ L
+Sbjct  441  TGSGDGTSDYFGMIFGSAAAPPLTLSSTTSVLSSLLIFILTL  482
+
+
+>TR:A0A2I4EPI9_9ROSI A0A2I4EPI9 Pectate lyase OS=Juglans regia OX=51240 GN=LOC108991494 
+PE=3 SV=1
+Length=496
+
+ Score = 54.3 bits (129),  Expect = 1e-07
+ Identities = 35/100 (35%), Positives = 49/100 (49%), Gaps = 3/100 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGV--GAGGG  58
+            SG G    Y KASS +PK++ L+D LT NAGVLG  R++   T Y G +          G
+Sbjct  381  SGAGASVQYAKASSVEPKAAGLIDQLTMNAGVLGG-RSETASTSYPGFSNGSTTYSDNTG  439
+
+Query  59   SGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            SG     Y GM++ +        S +   L S +I ++ L
+Sbjct  440  SGDGTSDYFGMIFGSAAAPPLTLSSTTSVLSSLLIFILTL  479
+
+
+>TR:A0A2G3CUW1_CAPCH A0A2G3CUW1 Pectate lyase OS=Capsicum chinense OX=80379 GN=BC332_07618 
+PE=3 SV=1
+Length=595
+
+ Score = 53.9 bits (128),  Expect = 2e-07
+ Identities = 28/72 (39%), Positives = 38/72 (53%), Gaps = 0/72 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y KA + DPKS+ LV  LT NAGVLG PR+++      G   A       S 
+Sbjct  495  SGQGLSNQYAKAYNVDPKSALLVHQLTSNAGVLGGPRDNSMSMSKGGTTGASSSGNAESN  554
+
+Query  61   GNGYGYLGMVYA  72
+                   GM+++
+Sbjct  555  SGDVNLFGMIFS  566
+
+
+>TR:A0A2G2Y3K0_CAPAN A0A2G2Y3K0 Pectate lyase OS=Capsicum annuum OX=4072 GN=T459_31852 
+PE=3 SV=1
+Length=489
+
+ Score = 53.5 bits (127),  Expect = 2e-07
+ Identities = 26/57 (46%), Positives = 35/57 (61%), Gaps = 0/57 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG  57
+            SGEG+ + Y KASS +P+S A++D LT NAGV G PR+++    Y G    G    G
+Sbjct  372  SGEGMSNQYAKASSMEPQSGAIIDQLTLNAGVFGAPRDNSISISYGGGTTTGATGSG  428
+
+
+>TR:A0A251SS49_HELAN A0A251SS49 Pectate lyase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr13g0400951 
+PE=3 SV=1
+Length=484
+
+ Score = 52.8 bits (125),  Expect = 4e-07
+ Identities = 35/71 (49%), Positives = 40/71 (56%), Gaps = 15/71 (21%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND-AEETGYRGVNYAGVGAGGGS  59
+            SGEGLE  Y+KA S +PKS+AL+D LT NAGVLG   N   + TG         G G G 
+Sbjct  385  SGEGLELKYEKAYSVEPKSAALIDQLTMNAGVLGSRSNKLGKWTG---------GDGNGD  435
+
+Query  60   GG-----NGYG  65
+            GG     N YG
+Sbjct  436  GGVDDSENDYG  446
+
+
+>TR:A0A1J3CPF7_NOCCA A0A1J3CPF7 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=GA_TR6270_c0_g1_i1_g.20617 
+PE=3 SV=1
+Length=521
+
+ Score = 52.4 bits (124),  Expect = 6e-07
+ Identities = 34/106 (32%), Positives = 52/106 (49%), Gaps = 11/106 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG--------YRGVNYAG  52
+            SG+G+   Y +A+S   K++A++D LT NAGV GDP     + G         RG +  G
+Sbjct  407  SGDGVSPAYARATSVQAKAAAIIDQLTVNAGVFGDPSGRNGQGGGFPGGGTITRGYSKGG  466
+
+Query  53   VGA--GGGSGGNGYGYLGMVY-ANGGGDRRCRSHSALPLISSVITL  95
+             G   GGGS  +  G   M++ +NG      R      ++ ++I L
+Sbjct  467  PGGGDGGGSSDDDGGLFSMIFGSNGSAAAALRPGQVWSILLTIILL  512
+
+
+>TR:A0A2I0AZ70_9ASPA A0A2I0AZ70 Pectate lyase OS=Apostasia shenzhenica OX=1088818 
+GN=AXF42_Ash006482 PE=3 SV=1
+Length=411
+
+ Score = 52.0 bits (123),  Expect = 7e-07
+ Identities = 26/37 (70%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SGEGL   Y KASS  PKS+AL+D LT NAGVLG PR
+Sbjct  375  SGEGLGATYSKASSISPKSAALIDQLTLNAGVLGGPR  411
+
+
+>TR:A0A068V3R0_COFCA A0A068V3R0 Pectate lyase OS=Coffea canephora OX=49390 GN=GSCOC_T00042957001 
+PE=3 SV=1
+Length=471
+
+ Score = 52.0 bits (123),  Expect = 7e-07
+ Identities = 37/99 (37%), Positives = 50/99 (51%), Gaps = 11/99 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+A +D LT NAGV G           RG       AG G+G
+Sbjct  378  SGEGVEVKYEKAYSVEPKSAAFIDQLTMNAGVWGS----------RGSRMGRWTAGNGTG  427
+
+Query  61   GNGYGYLGMVYANGGGDR-RCRSHSALPLISSVITLIAL  98
+            G+  G     Y +   D   C+S S   L++ ++ L  L
+Sbjct  428  GSELGGDSDDYDDYDDDSGSCKSPSLPTLLAFLLALSTL  466
+
+
+>TR:A0A1J3K0Q2_NOCCA A0A1J3K0Q2 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=MP_TR3205_c0_g1_i1_g.8941 
+PE=3 SV=1
+Length=521
+
+ Score = 52.0 bits (123),  Expect = 8e-07
+ Identities = 34/106 (32%), Positives = 51/106 (48%), Gaps = 11/106 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG--------YRGVNYAG  52
+            SG+G+   Y +A+S   K++A++D LT NAGV GDP     + G         RG +  G
+Sbjct  407  SGDGVSPAYARATSVQAKAAAIIDQLTVNAGVFGDPSGRNGQGGGFPGGGTITRGYSKGG  466
+
+Query  53   VGA--GGGSGGNGYGYLGMVY-ANGGGDRRCRSHSALPLISSVITL  95
+             G   GGGS     G   M++ +NG      R      ++ ++I L
+Sbjct  467  PGGGDGGGSSDGDGGLFSMIFGSNGSAAAALRPGQVWSILLTIILL  512
+
+
+>TR:A0A162AT77_DAUCA A0A162AT77 Pectate lyase OS=Daucus carota subsp. sativus OX=79200 
+GN=DCAR_006400 PE=3 SV=1
+Length=525
+
+ Score = 52.0 bits (123),  Expect = 8e-07
+ Identities = 34/106 (32%), Positives = 59/106 (56%), Gaps = 7/106 (7%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGY-RGVNYAGVGAGGG-  58
+            SG+G  D+Y K S  +P+S+A++D LT  AGVLG PR++ +   +  G N    G+GGG 
+Sbjct  413  SGQG--DLYTKDSGAEPRSAAMIDRLTSAAGVLGGPRDNGDHISHDGGTNSDENGSGGGM  470
+
+Query  59   SGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            + G+G    GM + + G +    +    P  +  +++I +  L ++
+Sbjct  471  TFGSGD---GMTFGSAGMEFGSANPPLSPSTAIFLSVIVVATLEMI  513
+
+
+>TR:A0A2U1MJ92_ARTAN A0A2U1MJ92 AmbAllergen OS=Artemisia annua OX=35608 GN=CTI12_AA374260 
+PE=4 SV=1
+Length=491
+
+ Score = 51.6 bits (122),  Expect = 1e-06
+ Identities = 28/77 (36%), Positives = 40/77 (52%), Gaps = 3/77 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G  ++Y KA+S D +S+ ++D LT NAGV G+ RND     +      G GA   + 
+Sbjct  375  SGAGANEMYAKATSIDARSAYIIDQLTMNAGVFGEQRNDVGSVSFGNGPINGGGASRNTD  434
+
+Query  61   GN---GYGYLGMVYANG  74
+             N      Y GM + +G
+Sbjct  435  RNYNDDDDYFGMAFGSG  451
+
+
+>TR:A0A1J3FVL8_NOCCA A0A1J3FVL8 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=LC_TR17242_c0_g1_i1_g.59180 
+PE=3 SV=1
+Length=521
+
+ Score = 51.6 bits (122),  Expect = 1e-06
+ Identities = 30/85 (35%), Positives = 43/85 (51%), Gaps = 10/85 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG--------YRGVNYAG  52
+            SG+G+   Y +A+S   K++A++D LT NAGV GDP     + G         RG +  G
+Sbjct  407  SGDGVSPAYARATSVQAKAAAIIDQLTVNAGVFGDPSGRNGQGGGFPGGGTITRGYSKGG  466
+
+Query  53   VGA--GGGSGGNGYGYLGMVYANGG  75
+             G   GGGS     G   M++ + G
+Sbjct  467  PGGGDGGGSSDGDGGLFSMIFGSNG  491
+
+
+>TR:A0A1J3HW72_NOCCA A0A1J3HW72 Pectate lyase OS=Noccaea caerulescens OX=107243 GN=LE_TR21839_c0_g1_i1_g.69932 
+PE=3 SV=1
+Length=521
+
+ Score = 51.6 bits (122),  Expect = 1e-06
+ Identities = 31/86 (36%), Positives = 45/86 (52%), Gaps = 12/86 (14%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETG--------YRGVNYAG  52
+            SG+G+   Y +A+S   K++A++D LT NAGV GDP     + G         RG +  G
+Sbjct  407  SGDGVSPAYARATSVQAKAAAIIDQLTVNAGVFGDPSGRNGQGGGFPGGGTITRGYSKGG  466
+
+Query  53   VGAGGGSG---GNGYGYLGMVYANGG  75
+             G G G G   G+G G   M++ + G
+Sbjct  467  PGGGDGGGNSDGDG-GLFSMIFGSNG  491
+
+
+>TR:A0A2G2ZKP0_CAPAN A0A2G2ZKP0 Pectate lyase OS=Capsicum annuum OX=4072 GN=T459_15567 
+PE=3 SV=1
+Length=287
+
+ Score = 51.2 bits (121),  Expect = 1e-06
+ Identities = 38/109 (35%), Positives = 53/109 (49%), Gaps = 12/109 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGV G PR+      Y G     + A   S 
+Sbjct  165  SGDGLGNQYIMASSMEPKSAFLIDQLTMNAGVTGVPRDTTVAMSYGGRTRTTIAANRTSS  224
+
+Query  61   --------GNGYGYLGMVY---ANGGGDRRCRSHSALPLISSVITLIAL  98
+                    G+G  +L  V+   A+ G      S S  P++ S++ L  L
+Sbjct  225  IRPVKSHEGDG-DFLEKVFGSVASAGTSSSSPSSSTTPILMSLLILYVL  272
+
+
+>TR:A0A151TQ41_CAJCA A0A151TQ41 Pectate lyase OS=Cajanus cajan OX=3821 GN=KK1_008315 
+PE=3 SV=1
+Length=494
+
+ Score = 51.2 bits (121),  Expect = 1e-06
+ Identities = 36/112 (32%), Positives = 54/112 (48%), Gaps = 11/112 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G+   Y +A+S  PKS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  373  SGAGVSAQYAEATSVQPKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGTVTGATSK  430
+
+Query  61   GNGYG--------YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GN  G        + GM++  G    +  + S    I  V T ++L  + +L
+Sbjct  431  GNSAGSTSSDDGDFFGMIF-KGSSSSQAPAPSPSSSIVFVSTFLSLFIIFIL  481
+
+
+>TR:A0A1U8GRG1_CAPAN A0A1U8GRG1 Pectate lyase OS=Capsicum annuum OX=4072 GN=LOC107871435 
+PE=3 SV=1
+Length=504
+
+ Score = 51.2 bits (121),  Expect = 1e-06
+ Identities = 38/109 (35%), Positives = 53/109 (49%), Gaps = 12/109 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGV G PR+      Y G     + A   S 
+Sbjct  382  SGDGLGNQYIMASSMEPKSAFLIDQLTMNAGVTGVPRDTTVAMSYGGRTRTTIAANRTSS  441
+
+Query  61   --------GNGYGYLGMVY---ANGGGDRRCRSHSALPLISSVITLIAL  98
+                    G+G  +L  V+   A+ G      S S  P++ S++ L  L
+Sbjct  442  IRPVKSHEGDG-DFLEKVFGSVASAGTSSSSPSSSTTPILMSLLILYVL  489
+
+
+>TR:B9S0E1_RICCO B9S0E1 Pectate lyase OS=Ricinus communis OX=3988 GN=RCOM_1353560 
+PE=3 SV=1
+Length=483
+
+ Score = 50.8 bits (120),  Expect = 2e-06
+ Identities = 33/68 (49%), Positives = 42/68 (62%), Gaps = 3/68 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLG-DPRNDAEETGYRGVNYAGVGAGGGS  59
+            SGE LE  Y+KA S +PKS+AL+D++T +AGVLG   RN+       G N  G GA    
+Sbjct  378  SGEELEVKYEKAYSVEPKSAALIDLITMHAGVLGVGGRNNNLGMWSTGAN--GGGADQEL  435
+
+Query  60   GGNGYGYL  67
+            GG+G  YL
+Sbjct  436  GGSGDDYL  443
+
+
+>TR:A0A103XH01_CYNCS A0A103XH01 Pectate lyase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_007587 PE=3 SV=1
+Length=483
+
+ Score = 50.8 bits (120),  Expect = 2e-06
+ Identities = 30/65 (46%), Positives = 37/65 (57%), Gaps = 4/65 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GLE  Y+KA S +PKS+AL+D LT N+GVLG   N   +    G    GV    G  
+Sbjct  387  SGQGLELKYEKAYSVEPKSAALIDQLTMNSGVLGSRSNKLGKWTGEGEGEDGV----GDA  442
+
+Query  61   GNGYG  65
+             N YG
+Sbjct  443  ENDYG  447
+
+
+>TR:A0A0S3SLM0_PHAAN A0A0S3SLM0 Pectate lyase OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.08G026300 PE=3 SV=1
+Length=494
+
+ Score = 50.8 bits (120),  Expect = 2e-06
+ Identities = 36/112 (32%), Positives = 53/112 (47%), Gaps = 11/112 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GL   Y +A+S  PKS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  377  SGAGLSAQYAEATSVQPKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGSVTGATSK  434
+
+Query  61   GNGYG--------YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GN           + GM++  G   R     S    ++ V T ++L  + +L
+Sbjct  435  GNSAAGSSSDDGDFFGMIF-RGSSSRAAPPSSPSLSVAFVSTFLSLVIILIL  485
+
+
+>TR:A0A0L9U0Z0_PHAAN A0A0L9U0Z0 Pectate lyase OS=Phaseolus angularis OX=3914 GN=LR48_Vigan02g250200 
+PE=3 SV=1
+Length=494
+
+ Score = 50.8 bits (120),  Expect = 2e-06
+ Identities = 36/112 (32%), Positives = 53/112 (47%), Gaps = 11/112 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GL   Y +A+S  PKS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  377  SGAGLSAQYAEATSVQPKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGSVTGATSK  434
+
+Query  61   GNGYG--------YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GN           + GM++  G   R     S    ++ V T ++L  + +L
+Sbjct  435  GNSAAGSSSDDGDFFGMIF-RGSSSRAAPPSSPSLSVAFVSTFLSLVIILIL  485
+
+
+>TR:A0A251VH07_HELAN A0A251VH07 Pectate lyase OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr02g0051211 
+PE=3 SV=1
+Length=477
+
+ Score = 50.4 bits (119),  Expect = 3e-06
+ Identities = 25/38 (66%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRN  38
+            SGEGLE  Y+KA S +PKS+AL+D LT NAGVLG   N
+Sbjct  382  SGEGLELKYEKAYSVEPKSAALIDQLTMNAGVLGSRSN  419
+
+
+>TR:A0A1S2Y158_CICAR A0A1S2Y158 Pectate lyase OS=Cicer arietinum OX=3827 GN=LOC101509935 
+PE=3 SV=1
+Length=498
+
+ Score = 50.4 bits (119),  Expect = 3e-06
+ Identities = 28/64 (44%), Positives = 35/64 (55%), Gaps = 2/64 (3%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GL   Y +ASS  PKS   +D LT  +GV GDPR++ +   Y G N  G   GG + 
+Sbjct  379  SGAGLSAQYAQASSVQPKSVVQIDQLTMYSGVFGDPRDNGDI--YPGFNGGGTTTGGTNM  436
+
+Query  61   GNGY  64
+              GY
+Sbjct  437  NKGY  440
+
+
+>TR:A0A2C9V8E2_MANES A0A2C9V8E2 Pectate lyase OS=Manihot esculenta OX=3983 GN=MANES_09G062700 
+PE=3 SV=1
+Length=477
+
+ Score = 50.1 bits (118),  Expect = 4e-06
+ Identities = 39/101 (39%), Positives = 51/101 (50%), Gaps = 10/101 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GLE  Y+KA S +PKS+ L+D +T +AGVLG    D       G+  AG   GG S 
+Sbjct  375  SGQGLEVKYEKAYSVEPKSAVLIDQITMHAGVLGVGGRD----NNLGMWNAGDNGGGDSH  430
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCL  101
+             +G  YL     +  G     SH     + S+   IAL CL
+Sbjct  431  DSGDDYLD----DYSGSSSPLSHPTTNGLFSI--FIALFCL  465
+
+
+>TR:K4C2M7_SOLLC K4C2M7 Pectate lyase OS=Solanum lycopersicum OX=4081 GN=101264933 
+PE=3 SV=1
+Length=494
+
+ Score = 50.1 bits (118),  Expect = 4e-06
+ Identities = 34/106 (32%), Positives = 54/106 (51%), Gaps = 12/106 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+ + Y  ASS +PKS+ L++ LT NAGV+G PR+      + G     + A   S 
+Sbjct  380  SGDGISNQYALASSMEPKSAFLIEQLTMNAGVIGVPRDTTVAMSFGGRTRTTIAANRSSS  439
+
+Query  61   --------GNGYGYLGMVY---ANGGGDRRCRSHSALPLISSVITL  95
+                    G+G G+L  V+   A+ G      S S + ++ S++ L
+Sbjct  440  VRPSRSKDGDG-GFLEKVFGSVASAGSSTSSPSSSTITILFSLLIL  484
+
+
+>TR:A0A2I0HTV3_PUNGR A0A2I0HTV3 Pectate lyase OS=Punica granatum OX=22663 GN=CRG98_044736 
+PE=3 SV=1
+Length=440
+
+ Score = 49.7 bits (117),  Expect = 5e-06
+ Identities = 24/40 (60%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA  40
+            SG GL   Y KASS +PKS++LV  LT NAGV GDPR+++
+Sbjct  399  SGAGLSAQYSKASSIEPKSASLVSQLTLNAGVFGDPRSNS  438
+
+
+>TR:A0A161WTD2_DAUCA A0A161WTD2 Pectate lyase OS=Daucus carota subsp. sativus OX=79200 
+GN=DCAR_020808 PE=3 SV=1
+Length=488
+
+ Score = 49.7 bits (117),  Expect = 5e-06
+ Identities = 28/66 (42%), Positives = 37/66 (56%), Gaps = 0/66 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE LE  Y+KA S +PKS+ ++D LT NAGVLG  RN+  +    G      G+  G  
+Sbjct  382  SGESLELKYEKAYSVEPKSAVIIDQLTVNAGVLGHRRNNLGKWTSGGDENGVPGSDSGDL  441
+
+Query  61   GNGYGY  66
+             + Y Y
+Sbjct  442  DDDYDY  447
+
+
+>TR:A0A1S3V511_VIGRR A0A1S3V511 Pectate lyase OS=Vigna radiata var. radiata OX=3916 
+GN=LOC106771804 PE=3 SV=1
+Length=495
+
+ Score = 49.7 bits (117),  Expect = 5e-06
+ Identities = 35/112 (31%), Positives = 52/112 (46%), Gaps = 10/112 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG GL   Y +A+S  PKS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  377  SGAGLSAQYAEATSVQPKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGSVTGATSK  434
+
+Query  61   GNGYG--------YLGMVYANGGGDRRCRSHSALPLISSVITLIALGCLRLL  104
+            GN           + GM++          S  +   I+ V T ++L  + +L
+Sbjct  435  GNSAAGSSSDDGDFFGMIFRGSSSRAAPPSSPSSLSIAFVSTFLSLVIILIL  486
+
+
+>TR:A0A2I4E8A3_9ROSI A0A2I4E8A3 Pectate lyase OS=Juglans regia OX=51240 GN=LOC108987200 
+PE=3 SV=1
+Length=478
+
+ Score = 49.3 bits (116),  Expect = 7e-06
+ Identities = 29/65 (45%), Positives = 36/65 (55%), Gaps = 8/65 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D L  +AGVLG         G R  N      G   G
+Sbjct  379  SGEGVEVKYEKAYSVEPKSAVLIDQLIMHAGVLG--------VGGRENNLGMWTKGSEGG  430
+
+Query  61   GNGYG  65
+            GNG+G
+Sbjct  431  GNGFG  435
+
+
+>TR:A0A2I4GYH0_9ROSI A0A2I4GYH0 Pectate lyase OS=Juglans regia OX=51240 GN=LOC109011993 
+PE=3 SV=1
+Length=478
+
+ Score = 49.3 bits (116),  Expect = 7e-06
+ Identities = 29/65 (45%), Positives = 36/65 (55%), Gaps = 8/65 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D L  +AGVLG         G R  N      G   G
+Sbjct  379  SGEGVEVKYEKAYSVEPKSAVLIDQLIMHAGVLG--------VGGRENNLGMWTKGSEGG  430
+
+Query  61   GNGYG  65
+            GNG+G
+Sbjct  431  GNGFG  435
+
+
+>TR:A0A1U8HJY1_GOSHI A0A1U8HJY1 Pectate lyase OS=Gossypium hirsutum OX=3635 GN=LOC107886801 
+PE=3 SV=1
+Length=481
+
+ Score = 49.3 bits (116),  Expect = 7e-06
+ Identities = 27/64 (42%), Positives = 37/64 (58%), Gaps = 8/64 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG         G R  N     +G   G
+Sbjct  378  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLG--------VGGRDNNLGKWSSGANGG  429
+
+Query  61   GNGY  64
+            G+G+
+Sbjct  430  GSGF  433
+
+
+>TR:A0A2G5D112_AQUCA A0A2G5D112 Pectate lyase OS=Aquilegia coerulea OX=218851 GN=AQUCO_03000036v1 
+PE=3 SV=1
+Length=503
+
+ Score = 49.3 bits (116),  Expect = 7e-06
+ Identities = 36/110 (33%), Positives = 53/110 (48%), Gaps = 12/110 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKS----SALVDVLTQNAGVLGDPRNDAEETGYRGVNYA-----  51
+            SG G    Y + SS +PKS    + ++D LT NAGV+G  R++    G  G +       
+Sbjct  381  SGGGAGAKYARESSVEPKSQPKSAGMIDRLTMNAGVMGGNRDNDMSMGNSGFSDGSSSSG  440
+
+Query  52   -GVGAGGGSGGN--GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+             G G GGGSGG   G  + GM++A+        S  ++ L   ++ L  L
+Sbjct  441  GGGGGGGGSGGGERGTDFFGMIFASSARPTLIVSSFSIVLCCLLLNLYIL  490
+
+
+>TR:V4KQY2_EUTSA V4KQY2 Pectate lyase (Fragment) OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10016093mg PE=3 SV=1
+Length=526
+
+ Score = 49.3 bits (116),  Expect = 7e-06
+ Identities = 28/76 (37%), Positives = 41/76 (54%), Gaps = 7/76 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   + +A+S   K++A++D LT NAGV GDP         +G  + G+  GGG+ 
+Sbjct  431  SGDGVSPAFARATSVQAKAAAIIDQLTVNAGVFGDPSG----RNGQGGGFPGITGGGGTI  486
+
+Query  61   GNGYGYLGMVYANGGG  76
+              GY   G     GGG
+Sbjct  487  TRGYSKGG---PGGGG  499
+
+
+>TR:M1D2E9_SOLTU M1D2E9 Pectate lyase OS=Solanum tuberosum OX=4113 GN=102578838 
+PE=3 SV=1
+Length=376
+
+ Score = 48.9 bits (115),  Expect = 9e-06
+ Identities = 24/40 (60%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  3    EGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEE  42
+            EGL + Y KASS +PKS+A++D LT NAGV G PR  A+E
+Sbjct  323  EGLGNQYAKASSVEPKSAAIIDQLTLNAGVFGAPRPKAKE  362
+
+
+>TR:A0A2H5PQ55_CITUN A0A2H5PQ55 Pectate lyase OS=Citrus unshiu OX=55188 GN=CUMW_157130 
+PE=3 SV=1
+Length=421
+
+ Score = 48.9 bits (115),  Expect = 9e-06
+ Identities = 24/37 (65%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG GL   Y KASS +PKS+AL+D LT NAGV G PR
+Sbjct  376  SGVGLSTQYAKASSVEPKSAALIDRLTMNAGVFGGPR  412
+
+
+>TR:A0A2N9F1Z4_FAGSY A0A2N9F1Z4 Pectate lyase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS9004 
+PE=3 SV=1
+Length=483
+
+ Score = 48.9 bits (115),  Expect = 9e-06
+ Identities = 36/99 (36%), Positives = 49/99 (49%), Gaps = 17/99 (17%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT +AG LG         G R  N      G   G
+Sbjct  378  SGEGVEVKYEKAYSVEPKSAVLIDQLTMHAGALG--------VGGRDNNLGMWSTGPNDG  429
+
+Query  61   GNGYGYLGMVYANGGGD-RRCRSHSALPLISSVITLIAL  98
+            G G        ++ G D     S S++PL+ S  T ++L
+Sbjct  430  GTG--------SDSGPDYTDDMSGSSVPLLPSTSTFLSL  460
+
+
+>TR:A0A2K1ZB02_POPTR A0A2K1ZB02 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_008G032700v3 
+PE=3 SV=1
+Length=421
+
+ Score = 48.5 bits (114),  Expect = 1e-05
+ Identities = 22/37 (59%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG GL + Y KASS +P+S+ L+  LT NAGV GDPR
+Sbjct  385  SGAGLSEQYSKASSVEPRSARLITELTMNAGVFGDPR  421
+
+
+>TR:A0A2G9HVH0_9LAMI A0A2G9HVH0 Pectate lyase OS=Handroanthus impetiginosus OX=429701 
+GN=CDL12_05837 PE=3 SV=1
+Length=458
+
+ Score = 48.5 bits (114),  Expect = 1e-05
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND  39
+            SGEG+E  Y+KA S +PKS+A +D LT N+GVLG  RN+
+Sbjct  363  SGEGVEVKYEKAYSVEPKSAAYIDQLTLNSGVLGSRRNN  401
+
+
+>TR:A0A2U1MWT3_ARTAN A0A2U1MWT3 Pectin lyase-like superfamily protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA333610 PE=4 SV=1
+Length=478
+
+ Score = 48.5 bits (114),  Expect = 1e-05
+ Identities = 30/66 (45%), Positives = 37/66 (56%), Gaps = 7/66 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRN-------DAEETGYRGVNYAGV  53
+            SG+GLE  Y+KA S +PKS+AL+D LT N+GVLG   N       D EE      N  G 
+Sbjct  382  SGQGLELKYEKAYSVEPKSAALIDQLTMNSGVLGSRTNKLGKWTGDGEEGTDDSENDYGE  441
+
+Query  54   GAGGGS  59
+             + G S
+Sbjct  442  DSDGSS  447
+
+
+>TR:A0A2P5BJQ0_PARAD A0A2P5BJQ0 Pectate lyase OS=Parasponia andersonii OX=3476 GN=PanPLL7 
+PE=3 SV=1
+Length=490
+
+ Score = 48.5 bits (114),  Expect = 1e-05
+ Identities = 34/98 (35%), Positives = 48/98 (49%), Gaps = 6/98 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D+LT +AG LG    D        V     G  GG  
+Sbjct  382  SGEGVEVKYEKAYSVEPKSAVLIDMLTLHAGPLGVGGRD------NNVGMWSTGPNGGRS  435
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G G G       +G      RS + +   S +++L +L
+Sbjct  436  GLGSGPDYTDDMSGSSISTLRSSAFILFCSLILSLSSL  473
+
+
+>TR:I1LEZ6_SOYBN I1LEZ6 Pectate lyase OS=Glycine max OX=3847 GN=100789303 PE=3 
+SV=1
+Length=504
+
+ Score = 48.5 bits (114),  Expect = 1e-05
+ Identities = 35/101 (35%), Positives = 47/101 (47%), Gaps = 12/101 (12%)
+
+Query  9    YDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSGGN------  62
+            Y +A+S   KS+  +D LT  +GVLGDPR++ +   Y G N  G   G  S GN      
+Sbjct  390  YQEATSVQAKSAVQIDQLTMYSGVLGDPRDNGDL--YPGFNGGGTVTGATSKGNTDGSSS  447
+
+Query  63   --GYGYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCL  101
+              G  + GM++   GG     S  A P  S +   I L  L
+Sbjct  448  DDGGDFFGMIFR--GGSSSSSSSQAAPPSSVLFVSIFLSLL  486
+
+
+>TR:A0A2J6JP87_LACSA A0A2J6JP87 Pectate lyase OS=Lactuca sativa OX=4236 GN=LSAT_6X28301 
+PE=3 SV=1
+Length=380
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 29/58 (50%), Positives = 36/58 (62%), Gaps = 1/58 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGG  58
+            SGEGLE  Y+KA S +PKS+ L+D LT N+GVLG  R++       G   A VG  GG
+Sbjct  234  SGEGLELKYEKAYSVEPKSAGLIDQLTMNSGVLGS-RSNKLGKWTDGNGDAEVGIDGG  290
+
+
+>TR:A0A0V0IGR3_SOLCH A0A0V0IGR3 Pectate lyase OS=Solanum chacoense OX=4108 PE=3 SV=1
+Length=432
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 23/37 (62%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG+GL + Y KA S DPKS+ L++ LT NAGVLG PR
+Sbjct  391  SGQGLTNQYTKAYSVDPKSALLINQLTANAGVLGGPR  427
+
+
+>TR:A0A061F0C5_THECC A0A061F0C5 Pectate lyase OS=Theobroma cacao OX=3641 GN=TCM_022294 
+PE=3 SV=1
+Length=437
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 27/64 (42%), Positives = 36/64 (56%), Gaps = 8/64 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG         G R  N     +G   G
+Sbjct  329  SGEGVEVKYEKAYSVEPKSAVLIDQLTMHSGVLG--------VGGRDNNLGKWSSGANGG  380
+
+Query  61   GNGY  64
+            G G+
+Sbjct  381  GAGF  384
+
+
+>TR:A0A0D2QBJ3_GOSRA A0A0D2QBJ3 Pectate lyase OS=Gossypium raimondii OX=29730 GN=B456_002G246200 
+PE=3 SV=1
+Length=474
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 28/60 (47%), Positives = 36/60 (60%), Gaps = 1/60 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG    D    G       G G+G GSG
+Sbjct  371  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLGVGGRD-NNLGKWSSGVNGDGSGFGSG  429
+
+
+>TR:A0A2U1NCZ5_ARTAN A0A2U1NCZ5 Pectin lyase-like superfamily protein OS=Artemisia 
+annua OX=35608 GN=CTI12_AA281760 PE=4 SV=1
+Length=478
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 23/38 (61%), Positives = 29/38 (76%), Gaps = 0/38 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRN  38
+            SG+GLE  Y+KA S +PKS+AL+D LT N+GVLG   N
+Sbjct  382  SGQGLELKYEKAYSVEPKSAALIDQLTMNSGVLGSRTN  419
+
+
+>TR:A0A2R6R823_ACTCH A0A2R6R823 Pectate lyase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc08513 PE=3 SV=1
+Length=485
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 26/57 (46%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGG  57
+            SG G+E  Y+KA S +PKS++ +D LT NAGVLG   N  +++ +   N + VG GG
+Sbjct  379  SGAGVEVKYEKAYSVEPKSASFIDQLTMNAGVLGGRTN--KQSKWTDGNNSVVGGGG  433
+
+
+>TR:A0A061ETH0_THECC A0A061ETH0 Pectate lyase OS=Theobroma cacao OX=3641 GN=TCM_022294 
+PE=3 SV=1
+Length=486
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 27/64 (42%), Positives = 36/64 (56%), Gaps = 8/64 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG         G R  N     +G   G
+Sbjct  378  SGEGVEVKYEKAYSVEPKSAVLIDQLTMHSGVLG--------VGGRDNNLGKWSSGANGG  429
+
+Query  61   GNGY  64
+            G G+
+Sbjct  430  GAGF  433
+
+
+>TR:E7BTN4_VITVI E7BTN4 Pectate lyase OS=Vitis vinifera OX=29760 GN=VIT_08s0007g04820 
+PE=2 SV=1
+Length=489
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRND  39
+            SGE +E +Y+KA S +PKS+AL+D LT NAGVLG   N+
+Sbjct  399  SGETVEVLYEKAYSVEPKSAALIDQLTTNAGVLGGSGNN  437
+
+
+>TR:A0A0D2RC56_GOSRA A0A0D2RC56 Pectate lyase OS=Gossypium raimondii OX=29730 GN=B456_002G246200 
+PE=3 SV=1
+Length=503
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 28/60 (47%), Positives = 36/60 (60%), Gaps = 1/60 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG    D    G       G G+G GSG
+Sbjct  400  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLGVGGRD-NNLGKWSSGVNGDGSGFGSG  458
+
+
+>TR:A0A078FEB1_BRANA A0A078FEB1 Pectate lyase OS=Brassica napus OX=3708 GN=BnaA03g01200D 
+PE=3 SV=1
+Length=510
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 10/83 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR-NDAEETGYRGV---------NY  50
+            SG+G+   Y +A+S   K++ ++D LT NAGV GDP   + +  G+ G+          Y
+Sbjct  396  SGDGVSPAYARATSLQAKTADVIDQLTVNAGVFGDPSGRNGQGGGFPGITGGGGTVTRGY  455
+
+Query  51   AGVGAGGGSGGNGYGYLGMVYAN  73
+            +  G GGGS  +  G   M++ +
+Sbjct  456  SKGGPGGGSSDSDDGIFTMIFGS  478
+
+
+>TR:M4CNL1_BRARP M4CNL1 Pectate lyase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=512
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 27/83 (33%), Positives = 44/83 (53%), Gaps = 10/83 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR-NDAEETGYRGV---------NY  50
+            SG+G+   Y +A+S   K++ ++D LT NAGV GDP   + +  G+ G+          Y
+Sbjct  398  SGDGVSPAYARATSLQAKTADVIDQLTVNAGVFGDPSGRNGQGGGFPGITGGGGTVTRGY  457
+
+Query  51   AGVGAGGGSGGNGYGYLGMVYAN  73
+            +  G GGGS  +  G   M++ +
+Sbjct  458  SKGGPGGGSSDSDDGIFTMIFGS  480
+
+
+>TR:A0A061EU72_THECC A0A061EU72 Pectate lyase OS=Theobroma cacao OX=3641 GN=TCM_022294 
+PE=3 SV=1
+Length=536
+
+ Score = 48.1 bits (113),  Expect = 2e-05
+ Identities = 27/64 (42%), Positives = 36/64 (56%), Gaps = 8/64 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG         G R  N     +G   G
+Sbjct  428  SGEGVEVKYEKAYSVEPKSAVLIDQLTMHSGVLG--------VGGRDNNLGKWSSGANGG  479
+
+Query  61   GNGY  64
+            G G+
+Sbjct  480  GAGF  483
+
+
+>TR:W9SAD4_9ROSA W9SAD4 Pectate lyase OS=Morus notabilis OX=981085 GN=L484_017015 
+PE=3 SV=1
+Length=417
+
+ Score = 47.8 bits (112),  Expect = 2e-05
+ Identities = 23/37 (62%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG  L   Y KASS +PKS+AL++ LT NAGV GDPR
+Sbjct  381  SGAELSTQYAKASSVEPKSAALIEQLTSNAGVFGDPR  417
+
+
+>TR:A0A2K1YYW6_POPTR A0A2K1YYW6 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_010G229000v3 
+PE=3 SV=1
+Length=458
+
+ Score = 47.8 bits (112),  Expect = 2e-05
+ Identities = 23/37 (62%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG GL   Y KASS +PKS+ L+  LT NAGV GDPR
+Sbjct  379  SGGGLSAQYSKASSVEPKSAGLIQQLTLNAGVFGDPR  415
+
+
+>TR:A0A2I4E5S6_9ROSI A0A2I4E5S6 Pectate lyase OS=Juglans regia OX=51240 GN=LOC108986560 
+PE=3 SV=1
+Length=481
+
+ Score = 47.8 bits (112),  Expect = 2e-05
+ Identities = 40/105 (38%), Positives = 49/105 (47%), Gaps = 17/105 (16%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D L  +AGVLG         G R  N      GG  G
+Sbjct  380  SGEGVEVKYEKAYSVEPKSAVLIDQLIMHAGVLG--------VGGRDNNLGKWTTGGNDG  431
+
+Query  61   GNGY----GYLGMVYANGGGDRRCRSHSALPLISSVITLIALGCL  101
+            G G      Y  M Y +G         ++  LIS    LIA  CL
+Sbjct  432  GIGLESEPDY--MDYMSGSSVSLMSPTTSTTLIS---LLIAFSCL  471
+
+
+>TR:A0A1P8BF75_ARATH A0A1P8BF75 Pectate lyase OS=Arabidopsis thaliana OX=3702 GN=At5g04310 
+PE=3 SV=1
+Length=475
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 20/37 (54%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG+G+   Y +A+S  PK++A++D LT NAGV GDPR
+Sbjct  403  SGDGVSPAYARATSVQPKAAAIIDQLTVNAGVFGDPR  439
+
+
+>TR:A0A022RIS3_ERYGU A0A022RIS3 Pectate lyase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a005520mg 
+PE=3 SV=1
+Length=480
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 35/78 (45%), Positives = 42/78 (54%), Gaps = 17/78 (22%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGG--  58
+            SGEG+     KASS + KS+ L+D LT NAGVLG  R+          N   V  GGG  
+Sbjct  382  SGEGVSV---KASSVEAKSATLIDQLTMNAGVLGGQRD----------NSGSVSNGGGTP  428
+
+Query  59   -SGGN-GYGYLGMVYANG  74
+             SGGN G    GMV+ +G
+Sbjct  429  RSGGNGGEDDFGMVFGSG  446
+
+
+>TR:A0A0A0KIG0_CUCSA A0A0A0KIG0 Pectate lyase OS=Cucumis sativus OX=3659 GN=Csa_6G447060 
+PE=3 SV=1
+Length=480
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 31/73 (42%), Positives = 39/73 (53%), Gaps = 7/73 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GLE  Y+KA S +PKS+AL+D LT +AG LG    D        +     G  G  G
+Sbjct  385  SGQGLEVKYEKAYSVEPKSAALIDQLTWHAGPLGVGGRD------NNLGMWTTGPNGNGG  438
+
+Query  61   GNGYGYLGMVYAN  73
+            G G G  GM Y +
+Sbjct  439  GFGLG-SGMDYTD  450
+
+
+>TR:A0A1S3CH45_CUCME A0A1S3CH45 Pectate lyase OS=Cucumis melo OX=3656 GN=LOC103500832 
+PE=3 SV=1
+Length=481
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 31/73 (42%), Positives = 39/73 (53%), Gaps = 7/73 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GLE  Y+KA S +PKS+AL+D LT +AG LG    D        +     G  G  G
+Sbjct  387  SGQGLEVKYEKAYSVEPKSAALIDQLTWHAGPLGVGGRD------NNLGMWTTGPNGNGG  440
+
+Query  61   GNGYGYLGMVYAN  73
+            G G G  GM Y +
+Sbjct  441  GFGLG-SGMDYTD  452
+
+
+>TR:M5W1S7_PRUPE M5W1S7 Pectate lyase OS=Prunus persica OX=3760 GN=PRUPE_7G126700 
+PE=3 SV=1
+Length=487
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 40/105 (38%), Positives = 52/105 (50%), Gaps = 15/105 (14%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+E  Y+KA S +PKS+ L+D L  +AG LG         G R  N     +G    
+Sbjct  379  SGKGVEFNYEKAYSVEPKSAVLIDQLIMHAGALG--------VGGRDNNLGKWSSGSNGD  430
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITL----IALGCL  101
+            GNG G  G  Y +       R ++ LPL SS  TL    I+L CL
+Sbjct  431  GNGLG-SGPDYTDDMSGSSSR-NNPLPL-SSTSTLFSFFISLSCL  472
+
+
+>TR:A0A2P5FVF8_9ROSA A0A2P5FVF8 Pectate lyase OS=Trema orientalis OX=63057 GN=TorPLL7 
+PE=3 SV=1
+Length=491
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 32/98 (33%), Positives = 49/98 (50%), Gaps = 6/98 (6%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D+LT +AG LG    D        +     G  GG  
+Sbjct  382  SGEGVEVKYEKAYSVEPKSAVLIDMLTLHAGPLGVGGRD------NNLGMWSTGPNGGRS  435
+
+Query  61   GNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+            G G G       +G  +   RS + +   S ++++ +L
+Sbjct  436  GLGSGPDYTDDMSGSSNFMLRSSAFILFCSLILSISSL  473
+
+
+>TR:A0A0K9RUT8_SPIOL A0A0K9RUT8 Pectate lyase OS=Spinacia oleracea OX=3562 GN=SOVF_026320 
+PE=3 SV=1
+Length=501
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 33/84 (39%), Positives = 43/84 (51%), Gaps = 12/84 (14%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGG--  58
+            SG+G+   Y  ASS +PK +A +D LT  AG+L  P       G RG   +G+ +GGG  
+Sbjct  368  SGDGVNPQYSLASSMEPKPAAFIDQLTLYAGIL-LPNRGIANPGSRG---SGISSGGGLI  423
+
+Query  59   SGGNGY------GYLGMVYANGGG  76
+             GG G       G  G +Y  GGG
+Sbjct  424  PGGGGAVPGGAGGVPGGMYGTGGG  447
+
+
+>TR:A0A2G3CIX9_CAPCH A0A2G3CIX9 Pectate lyase OS=Capsicum chinense OX=80379 GN=BC332_14342 
+PE=3 SV=1
+Length=504
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 36/109 (33%), Positives = 52/109 (48%), Gaps = 12/109 (11%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+GL + Y  ASS +PKS+ L+D LT NAGV G PR+      Y G     + A   S 
+Sbjct  382  SGDGLGNQYIMASSMEPKSAFLIDQLTMNAGVTGVPRDTTVAMSYGGRTRTTIAANRTSS  441
+
+Query  61   --------GNGYGYLGMVY---ANGGGDRRCRSHSALPLISSVITLIAL  98
+                    G+G  +L  V+   A+ G      S S   ++ S++ L  +
+Sbjct  442  IRPVKSHEGDG-DFLEKVFGSVASAGTSSSSPSSSTTTILMSLLILYVI  489
+
+
+>TR:M4CZ22_BRARP M4CZ22 Pectate lyase OS=Brassica rapa subsp. pekinensis OX=51351 
+PE=3 SV=1
+Length=524
+
+ Score = 47.4 bits (111),  Expect = 3e-05
+ Identities = 28/76 (37%), Positives = 41/76 (54%), Gaps = 7/76 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+   Y +A+S   K++  +D LT NAGV GDP         +G  ++G+  GGG+ 
+Sbjct  410  SGDGVSLAYARATSLQAKAAGFIDQLTVNAGVFGDPSG----RNGQGGGFSGITDGGGTI  465
+
+Query  61   GNGYGYLGMVYANGGG  76
+              GY   G    +GGG
+Sbjct  466  TRGYSKDG---PSGGG  478
+
+
+>TR:S8CKN5_9LAMI S8CKN5 Pectate lyase (Fragment) OS=Genlisea aurea OX=192259 GN=M569_07014 
+PE=3 SV=1
+Length=347
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 23/36 (64%), Positives = 27/36 (75%), Gaps = 0/36 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP  36
+            SG+G    Y KASS DPKS+AL+D LT N+GVLG P
+Sbjct  312  SGQGASLQYAKASSVDPKSAALIDQLTVNSGVLGGP  347
+
+
+>TR:A0A2H5PQ51_CITUN A0A2H5PQ51 Pectate lyase OS=Citrus unshiu OX=55188 GN=CUMW_157140 
+PE=3 SV=1
+Length=425
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 23/36 (64%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDP  36
+            SG GL   Y KASS +PKS+AL+D LT NAGV G P
+Sbjct  376  SGVGLSTQYAKASSVEPKSAALIDRLTMNAGVFGGP  411
+
+
+>TR:A0A1U8G2A6_CAPAN A0A1U8G2A6 Pectate lyase OS=Capsicum annuum OX=4072 GN=LOC107863694 
+PE=3 SV=1
+Length=444
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 23/37 (62%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG+GL + Y KA + DPKS+ LV  LT NAGVLG PR
+Sbjct  378  SGQGLSNQYAKAYNVDPKSALLVHQLTSNAGVLGGPR  414
+
+
+>TR:K4D575_SOLLC K4D575 Pectate lyase OS=Solanum lycopersicum OX=4081 PE=3 SV=1
+Length=449
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLG  34
+            SGEGL + Y KASS +PKS+A++D LT NAGV G
+Sbjct  379  SGEGLSNQYAKASSVEPKSAAIIDQLTLNAGVFG  412
+
+
+>TR:I1NFF3_SOYBN I1NFF3 Pectate lyase OS=Glycine max OX=3847 GN=100808438 PE=3 
+SV=1
+Length=502
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 34/104 (33%), Positives = 48/104 (46%), Gaps = 14/104 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG G    Y +A+S   KS+  +D LT  +GV GDPR++ +   Y G N  G   G  S 
+Sbjct  382  SGAGQSAQYAEATSVQAKSAVQIDQLTMYSGVFGDPRDNGDL--YPGFNGGGTVTGATSK  439
+
+Query  61   GNGYG-------YLGMVYANGGGDRRCRSHSALPLISSVITLIA  97
+            GN  G       + GM++          S +A P  SS I  ++
+Sbjct  440  GNTEGSSSDDGDFFGMIFRGSSS-----SQAAPPSPSSSIVFVS  478
+
+
+>TR:A0A2G2WUS5_CAPBA A0A2G2WUS5 Pectate lyase OS=Capsicum baccatum OX=33114 GN=CQW23_13138 
+PE=3 SV=1
+Length=504
+
+ Score = 47.0 bits (110),  Expect = 4e-05
+ Identities = 24/47 (51%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRG  47
+            SG+GL + Y  ASS +PKS+ L+D LT NAGV G PR+      Y G
+Sbjct  382  SGDGLGNQYIMASSMEPKSAFLIDQLTMNAGVTGVPRDTTVAMSYGG  428
+
+
+>TR:A0A200R9V2_9MAGN A0A200R9V2 Pectate lyase OS=Macleaya cordata OX=56857 GN=BVC80_9057g86 
+PE=3 SV=1
+Length=365
+
+ Score = 46.6 bits (109),  Expect = 6e-05
+ Identities = 22/34 (65%), Positives = 27/34 (79%), Gaps = 0/34 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLG  34
+            SGEGL + Y KASS +P++S L+D LT NAGVLG
+Sbjct  324  SGEGLGNQYAKASSVEPRASGLIDQLTMNAGVLG  357
+
+
+>TR:A0A1I9W0F1_POPTO A0A1I9W0F1 Pectate lyase OS=Populus tomentosa OX=118781 PE=3 
+SV=1
+Length=497
+
+ Score = 46.6 bits (109),  Expect = 6e-05
+ Identities = 23/40 (58%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDA  40
+            SG GL   Y KASS +PKS+ L+  LT NAGV GDP  +A
+Sbjct  450  SGAGLSAQYSKASSVEPKSAGLIQQLTLNAGVFGDPSCNA  489
+
+
+>TR:A0A0D3EHY4_BRAOL A0A0D3EHY4 Pectate lyase OS=Brassica oleracea var. oleracea OX=109376 
+GN=106316056 PE=3 SV=1
+Length=524
+
+ Score = 46.6 bits (109),  Expect = 6e-05
+ Identities = 26/83 (31%), Positives = 42/83 (51%), Gaps = 10/83 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR-NDAEETGYRGV---------NY  50
+            SG+G+   Y +A+S   K++  +D LT NAGV GDP   + +  G+ G+          Y
+Sbjct  410  SGDGVSLAYARATSLQAKAAGFIDQLTVNAGVFGDPSGRNGQGGGFPGITDGGGTITRGY  469
+
+Query  51   AGVGAGGGSGGNGYGYLGMVYAN  73
+            +  G GGG   +  G   M++ +
+Sbjct  470  SKGGPGGGGSDSDGGLFSMIFGS  492
+
+
+>TR:A0A0E0M8B9_ORYPU A0A0E0M8B9 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=3961
+
+ Score = 46.6 bits (109),  Expect = 6e-05
+ Identities = 22/37 (59%), Positives = 25/37 (68%), Gaps = 5/37 (14%)
+
+Query  38    NDAEETGYRGVNYAGVGAGG-----GSGGNGYGYLGM  69
+             ++ E   Y GVNYAGVG GG     G+GG GYGYLGM
+Sbjct  3924  DNGEAAAYAGVNYAGVGTGGGGGGAGAGGMGYGYLGM  3960
+
+
+>TR:A0A2P5Q1X0_GOSBA A0A2P5Q1X0 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD34567 PE=4 SV=1
+Length=153
+
+ Score = 45.4 bits (106),  Expect = 6e-05
+ Identities = 27/60 (45%), Positives = 35/60 (58%), Gaps = 1/60 (2%)
+
+Query  1   SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+           SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG    D    G       G G+  GSG
+Sbjct  40  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLGVGGRD-NNLGKWSSGVNGDGSDFGSG  98
+
+
+>TR:A0A067DX44_CITSI A0A067DX44 Pectate lyase OS=Citrus sinensis OX=2711 GN=CISIN_1g0112041mg 
+PE=3 SV=1
+Length=421
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 23/37 (62%), Positives = 26/37 (70%), Gaps = 0/37 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPR  37
+            SG GL   Y KASS +PKS+AL+D LT NAGV G  R
+Sbjct  376  SGAGLSTQYAKASSVEPKSAALIDQLTMNAGVFGGHR  412
+
+
+>TR:A0A2P5YNZ9_GOSBA A0A2P5YNZ9 Pectate lyase OS=Gossypium barbadense OX=3634 GN=GOBAR_AA03291 
+PE=3 SV=1
+Length=471
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 26/64 (41%), Positives = 36/64 (56%), Gaps = 8/64 (13%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG         G R  N     +    G
+Sbjct  368  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLG--------VGGRDNNLGKWSSRANGG  419
+
+Query  61   GNGY  64
+            G+G+
+Sbjct  420  GSGF  423
+
+
+>TR:A0A1J7H229_LUPAN A0A1J7H229 Pectate lyase OS=Lupinus angustifolius OX=3871 GN=TanjilG_18308 
+PE=3 SV=1
+Length=479
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 38/106 (36%), Positives = 48/106 (45%), Gaps = 13/106 (12%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGD--------PRNDAEETGYRGVNYAG  52
+            SG G    Y +A+S   KS++ +D LT  +GV GD        P +D  ET   G     
+Sbjct  360  SGSGDNAEYAEATSVQAKSASQIDQLTMYSGVFGDVRDNGGSNPGSDGGET-MTGSTNGN  418
+
+Query  53   VGAGGGSGGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIAL  98
+               G GSGGN  G   M+Y  GGG  +    S   LI  V T + L
+Sbjct  419  DATGSGSGGN--GNFRMIY--GGGSSQAAPPSPTSLIVLVSTFLYL  460
+
+
+>TR:A0A2G2VX49_CAPBA A0A2G2VX49 Pectate lyase OS=Capsicum baccatum OX=33114 GN=CQW23_21139 
+PE=3 SV=1
+Length=486
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 37/102 (36%), Positives = 51/102 (50%), Gaps = 5/102 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +E  Y+KA S +PKS+  +D +T NAGVL   R           N     AG   G
+Sbjct  385  SGEEVEVKYEKAYSVEPKSADFIDQITMNAGVL-IHRGSNSGKWTAATNNDTESAGDDGG  443
+
+Query  61   GNGYGYLGMVYANGGGDRRCRS---HSALP-LISSVITLIAL  98
+            G     +     + GGD   RS   +S LP L++S++ L+AL
+Sbjct  444  GEDLVAISGDGDDYGGDEESRSSTIYSRLPLLLNSLMLLLAL  485
+
+
+>TR:A0A2G3BJ46_CAPCH A0A2G3BJ46 Pectate lyase OS=Capsicum chinense OX=80379 GN=BC332_22952 
+PE=3 SV=1
+Length=486
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 37/102 (36%), Positives = 51/102 (50%), Gaps = 5/102 (5%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGE +E  Y+KA S +PKS+  +D +T NAGVL   R           N     AG   G
+Sbjct  385  SGEEVEVKYEKAYSVEPKSADFIDQITMNAGVL-IHRGSNSGKWTAATNNDTESAGDDGG  443
+
+Query  61   GNGYGYLGMVYANGGGDRRCRS---HSALP-LISSVITLIAL  98
+            G     +     + GGD   RS   +S LP L++S++ L+AL
+Sbjct  444  GEDLVAISGDGDDYGGDEESRSSTIYSRLPLLLNSLMLLLAL  485
+
+
+>TR:W9RX13_9ROSA W9RX13 Pectate lyase OS=Morus notabilis OX=981085 GN=L484_022571 
+PE=3 SV=1
+Length=490
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 27/65 (42%), Positives = 34/65 (52%), Gaps = 6/65 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG E  Y+KA S +PKS+ L+D LT +AG LG    D        +     G  GG+ 
+Sbjct  382  SGEGAEFRYEKAYSVEPKSAVLIDFLTMHAGPLGVGSRD------NNLGMWSTGPNGGTD  435
+
+Query  61   GNGYG  65
+            G G G
+Sbjct  436  GLGSG  440
+
+
+>TR:A0A078HU48_BRANA A0A078HU48 Pectate lyase OS=Brassica napus OX=3708 GN=BnaCnng10180D 
+PE=3 SV=1
+Length=527
+
+ Score = 46.2 bits (108),  Expect = 8e-05
+ Identities = 30/76 (39%), Positives = 40/76 (53%), Gaps = 7/76 (9%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G    Y +A+S   K++  +D LT NAGV GDP   +   G  GV + G+  GGG+ 
+Sbjct  413  SGDGASLAYARATSLQAKAAGFIDQLTVNAGVFGDP---SGRNGQGGV-FPGITDGGGTI  468
+
+Query  61   GNGYGYLGMVYANGGG  76
+              GY   G     GGG
+Sbjct  469  TRGYSKGG---PGGGG  481
+
+
+>TR:A0A2R6R7X5_ACTCH A0A2R6R7X5 Pectate lyase OS=Actinidia chinensis var. chinensis 
+OX=1590841 GN=CEY00_Acc08464 PE=3 SV=1
+Length=483
+
+ Score = 45.8 bits (107),  Expect = 1e-04
+ Identities = 26/58 (45%), Positives = 34/58 (59%), Gaps = 6/58 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGG  58
+            SG G+E  Y+KA S +PKS++ ++ LT NAGVLG   N   +    GV      AGGG
+Sbjct  379  SGAGVEVKYEKAYSVEPKSASFIEQLTMNAGVLGGRSNKLSKWTANGV------AGGG  430
+
+
+>TR:A0A1R3HTH4_9ROSI A0A1R3HTH4 Pectate lyase OS=Corchorus olitorius OX=93759 GN=COLO4_26920 
+PE=3 SV=1
+Length=484
+
+ Score = 45.8 bits (107),  Expect = 1e-04
+ Identities = 26/62 (42%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+E  Y+KA S +PKS+ L++ L  +AGVLG    D        +     GAGGG+G
+Sbjct  379  SGQGVEVKYEKAYSVEPKSAVLIEQLVMHAGVLGVGGRD------NNLGKWSSGAGGGTG  432
+
+Query  61   GN  62
+             N
+Sbjct  433  FN  434
+
+
+>TR:A0A1R3IGU6_COCAP A0A1R3IGU6 Pectate lyase OS=Corchorus capsularis OX=210143 GN=CCACVL1_12193 
+PE=3 SV=1
+Length=484
+
+ Score = 45.8 bits (107),  Expect = 1e-04
+ Identities = 26/62 (42%), Positives = 36/62 (58%), Gaps = 6/62 (10%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SG+G+E  Y+KA S +PKS+ L++ L  +AGVLG    D        +     GAGGG+G
+Sbjct  379  SGQGVEVKYEKAYSVEPKSAVLIEQLVMHAGVLGVGGRD------NNLGKWSSGAGGGTG  432
+
+Query  61   GN  62
+             N
+Sbjct  433  FN  434
+
+
+>TR:A0A2K2A103_POPTR A0A2K2A103 Pectate lyase OS=Populus trichocarpa OX=3694 GN=POPTR_006G122000v3 
+PE=3 SV=1
+Length=486
+
+ Score = 45.8 bits (107),  Expect = 1e-04
+ Identities = 33/98 (34%), Positives = 52/98 (53%), Gaps = 4/98 (4%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLG-DPRNDAEETGYRGVNYAGVGAGGGS  59
+            SG  LE  Y+KA S +PKS+ L+D+LT ++GVLG   RN+       G N    G G G 
+Sbjct  379  SGAELEVKYEKAYSVEPKSAVLIDLLTMHSGVLGVGGRNNNLGMWSTGSNGGKEGLGSGE  438
+
+Query  60   GGNGYGYLGMVYANGGGDRRCRSHSALPLISSVITLIA  97
+            G +   YL     +         ++ LP+++++I L++
+Sbjct  439  GDD---YLDDYSGSSISLPPPSPYALLPILTALIYLLS  473
+
+
+>TR:A0A067E122_CITSI A0A067E122 Pectate lyase (Fragment) OS=Citrus sinensis OX=2711 
+GN=CISIN_1g0112041mg PE=3 SV=1
+Length=411
+
+ Score = 45.4 bits (106),  Expect = 1e-04
+ Identities = 22/34 (65%), Positives = 25/34 (74%), Gaps = 0/34 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLG  34
+            SG GL   Y KASS +PKS+AL+D LT NAGV G
+Sbjct  376  SGAGLSTQYAKASSVEPKSAALIDQLTMNAGVFG  409
+
+
+>TR:A0A022REE8_ERYGU A0A022REE8 Pectate lyase OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a006100mg 
+PE=3 SV=1
+Length=457
+
+ Score = 45.4 bits (106),  Expect = 1e-04
+ Identities = 22/33 (67%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVL  33
+            SGEG+E  Y+KA ST+PKS+A +D LT NAGVL
+Sbjct  358  SGEGVEVKYEKAYSTEPKSAAYIDQLTLNAGVL  390
+
+
+>TR:A0A1U8JFE2_GOSHI A0A1U8JFE2 Pectate lyase OS=Gossypium hirsutum OX=3635 GN=LOC107905323 
+PE=3 SV=1
+Length=481
+
+ Score = 45.4 bits (106),  Expect = 1e-04
+ Identities = 27/60 (45%), Positives = 35/60 (58%), Gaps = 1/60 (2%)
+
+Query  1    SGEGLEDIYDKASSTDPKSSALVDVLTQNAGVLGDPRNDAEETGYRGVNYAGVGAGGGSG  60
+            SGEG+E  Y+KA S +PKS+ L+D LT ++GVLG    D    G       G G+  GSG
+Sbjct  378  SGEGVEFKYEKAYSVEPKSAVLIDQLTMHSGVLGVGGRD-NNLGKWSSGVNGDGSDFGSG  436
+
+
+
+Lambda      K        H
+   0.313    0.138    0.403 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55437315345
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,3607 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=63
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:C5Z8T3_SORBI  C5Z8T3 Xyloglucan endotransglucosylase/hydrolase...  128     4e-36
+TR:K3XYI4_SETIT  K3XYI4 Xyloglucan endotransglucosylase/hydrolase...  120     2e-33
+TR:A0A2S3HGZ8_9POAL  A0A2S3HGZ8 Uncharacterized protein OS=Panicu...  117     4e-32
+TR:A0A2T7DUQ4_9POAL  A0A2T7DUQ4 Uncharacterized protein OS=Panicu...  117     4e-32
+TR:A0A0P0X0P2_ORYSJ  A0A0P0X0P2 Os06g0696566 protein (Fragment) O...  101     3e-28
+TR:A0A0A9CP76_ARUDO  A0A0A9CP76 Xyloglucan endotransglucosylase/h...  107     6e-28
+TR:A0A287XIG0_HORVV  A0A287XIG0 Xyloglucan endotransglucosylase/h...  102     1e-27
+TR:A0A0E0LF37_ORYPU  A0A0E0LF37 Xyloglucan endotransglucosylase/h...  104     4e-27
+TR:A0A1D6BMF8_WHEAT  A0A1D6BMF8 Xyloglucan endotransglucosylase/h...  103     7e-27
+TR:F2D8P2_HORVV  F2D8P2 Xyloglucan endotransglucosylase/hydrolase...  102     7e-27
+TR:A0A1D6CNU5_WHEAT  A0A1D6CNU5 Xyloglucan endotransglucosylase/h...  103     8e-27
+TR:A0A1D6C2R8_WHEAT  A0A1D6C2R8 Xyloglucan endotransglucosylase/h...  103     2e-26
+TR:F2D337_HORVV  F2D337 Xyloglucan endotransglucosylase/hydrolase...  102     4e-26
+TR:A0A287XIH6_HORVV  A0A287XIH6 Xyloglucan endotransglucosylase/h...  95.1    5e-26
+TR:A2YGL0_ORYSI  A2YGL0 Xyloglucan endotransglucosylase/hydrolase...  101     5e-26
+TR:I1Q4V4_ORYGL  I1Q4V4 Xyloglucan endotransglucosylase/hydrolase...  101     5e-26
+TR:Q5Z6H1_ORYSJ  Q5Z6H1 Xyloglucan endotransglucosylase/hydrolase...  101     5e-26
+TR:A0A0E0HI60_ORYNI  A0A0E0HI60 Xyloglucan endotransglucosylase/h...  101     9e-26
+TR:A0A0E0Q237_ORYRU  A0A0E0Q237 Xyloglucan endotransglucosylase/h...  101     9e-26
+TR:A0A0E0ADS6_9ORYZ  A0A0E0ADS6 Xyloglucan endotransglucosylase/h...  101     1e-25
+TR:A0A0D3GKB3_9ORYZ  A0A0D3GKB3 Xyloglucan endotransglucosylase/h...  101     1e-25
+TR:J3MH64_ORYBR  J3MH64 Xyloglucan endotransglucosylase/hydrolase...  99.8    3e-25
+TR:A0A0E0E5T8_9ORYZ  A0A0E0E5T8 Uncharacterized protein OS=Oryza ...  101     3e-25
+TR:I1GWJ9_BRADI  I1GWJ9 Xyloglucan endotransglucosylase/hydrolase...  99.0    6e-25
+TR:A0A0D9WTM9_9ORYZ  A0A0D9WTM9 Uncharacterized protein OS=Leersi...  98.6    6e-24
+TR:M8BSJ5_AEGTA  M8BSJ5 Putative xyloglucan endotransglucosylase/...  91.7    6e-23
+TR:A0A199UD88_ANACO  A0A199UD88 Xyloglucan endotransglucosylase/h...  86.7    2e-20
+TR:M8A787_TRIUA  M8A787 Brassinosteroid-regulated protein BRU1 OS...  77.8    3e-17
+TR:B8ATT8_ORYSI  B8ATT8 Xyloglucan endotransglucosylase/hydrolase...  65.1    2e-12
+TR:Q7XTP8_ORYSJ  Q7XTP8 Xyloglucan endotransglucosylase/hydrolase...  65.1    2e-12
+TR:Q01KK3_ORYSA  Q01KK3 Xyloglucan endotransglucosylase/hydrolase...  65.1    2e-12
+TR:A0A0D3FZU4_9ORYZ  A0A0D3FZU4 Xyloglucan endotransglucosylase/h...  65.1    2e-12
+TR:Q0JAD6_ORYSJ  Q0JAD6 Xyloglucan endotransglucosylase/hydrolase...  65.1    3e-12
+TR:A0A0E0H5L3_ORYNI  A0A0E0H5L3 Xyloglucan endotransglucosylase/h...  65.1    3e-12
+TR:I1PPG7_ORYGL  I1PPG7 Xyloglucan endotransglucosylase/hydrolase...  65.1    3e-12
+TR:A0A0D9ZQ94_9ORYZ  A0A0D9ZQ94 Xyloglucan endotransglucosylase/h...  65.1    3e-12
+TR:A0A0E0PDP5_ORYRU  A0A0E0PDP5 Xyloglucan endotransglucosylase/h...  65.1    3e-12
+TR:A0A0E0KUT6_ORYPU  A0A0E0KUT6 Xyloglucan endotransglucosylase/h...  64.3    5e-12
+TR:A0A2I0A769_9ASPA  A0A2I0A769 Xyloglucan endotransglucosylase/h...  62.0    7e-12
+TR:A0A151UDL6_CAJCA  A0A151UDL6 Xyloglucan endotransglucosylase/h...  61.2    1e-11
+TR:C0IRG8_9ERIC  C0IRG8 Xyloglucan endotransglucosylase/hydrolase...  63.2    1e-11
+TR:A0A068U321_COFCA  A0A068U321 Xyloglucan endotransglucosylase/h...  62.4    1e-11
+TR:A0A2P2ITT2_RHIMU  A0A2P2ITT2 Xyloglucan endotransglucosylase/h...  63.2    1e-11
+TR:A0A2I0J7T6_PUNGR  A0A2I0J7T6 Uncharacterized protein OS=Punica...  60.1    2e-11
+TR:Q8W4U8_ORYSA  Q8W4U8 Xyloglucan endotransglucosylase/hydrolase...  62.8    2e-11
+TR:A0A059CKG4_EUCGR  A0A059CKG4 Xyloglucan endotransglucosylase/h...  62.8    2e-11
+TR:M0TQQ9_MUSAM  M0TQQ9 Xyloglucan endotransglucosylase/hydrolase...  61.6    3e-11
+TR:V7CBQ5_PHAVU  V7CBQ5 Xyloglucan endotransglucosylase/hydrolase...  62.4    3e-11
+TR:A0A059CJU5_EUCGR  A0A059CJU5 Uncharacterized protein OS=Eucaly...  62.8    3e-11
+TR:M0TZC7_MUSAM  M0TZC7 Xyloglucan endotransglucosylase/hydrolase...  62.0    3e-11
+TR:A0A2I0A774_9ASPA  A0A2I0A774 Xyloglucan endotransglucosylase/h...  62.0    3e-11
+TR:C4N554_MUSAC  C4N554 Xyloglucan endotransglycosylase/hydrolase...  60.5    4e-11
+TR:A0A2I0W9E5_9ASPA  A0A2I0W9E5 Xyloglucan endotransglucosylase/h...  61.6    5e-11
+TR:A0A2G5CBJ8_AQUCA  A0A2G5CBJ8 Xyloglucan endotransglucosylase/h...  61.6    5e-11
+TR:E0D591_9LAMI  E0D591 Xyloglucan endo-1,4-beta-D-glucanase-like...  57.0    7e-11
+TR:B9SJQ4_RICCO  B9SJQ4 Xyloglucan endotransglucosylase/hydrolase...  60.8    7e-11
+TR:A0A199UB10_MANES  A0A199UB10 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:A0A059CJZ9_EUCGR  A0A059CJZ9 Uncharacterized protein OS=Eucaly...  60.8    1e-10
+TR:A0A2G9HSN0_9LAMI  A0A2G9HSN0 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:C5YFH5_SORBI  C5YFH5 Xyloglucan endotransglucosylase/hydrolase...  60.5    1e-10
+TR:A0A2G5CBH2_AQUCA  A0A2G5CBH2 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:A0A059CJV4_EUCGR  A0A059CJV4 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:A0A2J6LJP1_LACSA  A0A2J6LJP1 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:I0IK80_EUCGG  I0IK80 Xyloglucan endotransglycosylase/hydrolase...  58.5    1e-10
+TR:Q4F8J1_EUCGL  Q4F8J1 Putative xyloglucan endotransglycosylase/...  58.5    1e-10
+TR:A0A2P4LIV4_QUESU  A0A2P4LIV4 Xyloglucan endotransglucosylase/h...  60.5    1e-10
+TR:A0A2G9H2I7_9LAMI  A0A2G9H2I7 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:A0A251JDB5_MANES  A0A251JDB5 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:M4YCW2_9GENT  M4YCW2 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:A0A2C9UMY1_MANES  A0A2C9UMY1 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:M4YCW7_9GENT  M4YCW7 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:M4YEB3_9GENT  M4YEB3 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:M4YEC1_9GENT  M4YEC1 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:M4YB85_9GENT  M4YB85 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:M4YAQ9_9GENT  M4YAQ9 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:M4YSC6_9GENT  M4YSC6 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:J7HCG3_9GENT  J7HCG3 Xyloglucan endotransglucosylase/hydrolase...  60.1    2e-10
+TR:A0A2P4N534_QUESU  A0A2P4N534 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:A0A061GQK3_THECC  A0A061GQK3 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:A0A061GPN2_THECC  A0A061GPN2 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:A0A218W0Z4_PUNGR  A0A218W0Z4 Xyloglucan endotransglucosylase/h...  60.1    2e-10
+TR:K7LWV9_SOYBN  K7LWV9 Uncharacterized protein OS=Glycine max OX...  57.4    2e-10
+TR:A0A287K964_HORVV  A0A287K964 Uncharacterized protein OS=Hordeu...  58.5    2e-10
+TR:A0A2I0W1S7_9ASPA  A0A2I0W1S7 Xyloglucan endotransglucosylase/h...  59.7    2e-10
+TR:A0A2C9ULP9_MANES  A0A2C9ULP9 Xyloglucan endotransglucosylase/h...  59.7    2e-10
+TR:M4YAR4_9GENT  M4YAR4 Xyloglucan endotransglucosylase/hydrolase...  59.7    2e-10
+TR:A0A2I0W1S0_9ASPA  A0A2I0W1S0 Xyloglucan endotransglucosylase/h...  59.7    2e-10
+TR:C6TKG4_SOYBN  C6TKG4 Xyloglucan endotransglucosylase/hydrolase...  59.7    3e-10
+TR:A0A2P4LIT9_QUESU  A0A2P4LIT9 Xyloglucan endotransglucosylase/h...  59.7    3e-10
+TR:X5IDB4_IPONI  X5IDB4 Xyloglucan endotransglucosylase/hydrolase...  59.7    3e-10
+TR:A0A068U3Q5_COFCA  A0A068U3Q5 Xyloglucan endotransglucosylase/h...  59.7    3e-10
+TR:A0A2G9HSN6_9LAMI  A0A2G9HSN6 Xyloglucan endotransglucosylase/h...  59.7    3e-10
+TR:F2DLJ0_HORVV  F2DLJ0 Predicted protein (Fragment) OS=Hordeum v...  58.5    3e-10
+TR:A0A0B2QS99_GLYSO  A0A0B2QS99 Putative xyloglucan endotransgluc...  57.0    3e-10
+TR:A0A287K9B9_HORVV  A0A287K9B9 Uncharacterized protein OS=Hordeu...  58.5    3e-10
+TR:A0A2I0A760_9ASPA  A0A2I0A760 Putative xyloglucan endotransgluc...  59.7    3e-10
+TR:A0A1R3I3M7_9ROSI  A0A1R3I3M7 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A2H3ZV99_PHODC  A0A2H3ZV99 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A2H3YCA5_PHODC  A0A2H3YCA5 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A0S3R7W0_PHAAN  A0A0S3R7W0 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A0A0LGP8_CUCSA  A0A0A0LGP8 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A0L9TF39_PHAAN  A0A0L9TF39 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A1S3UUX1_VIGRR  A0A1S3UUX1 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:M4YCV7_9GENT  M4YCV7 Xyloglucan endotransglucosylase/hydrolase...  59.3    3e-10
+TR:A0A2I0A786_9ASPA  A0A2I0A786 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A251UNP0_HELAN  A0A251UNP0 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:A0A2J6LJI5_LACSA  A0A2J6LJI5 Xyloglucan endotransglucosylase/h...  59.3    3e-10
+TR:B9SAD7_RICCO  B9SAD7 Xyloglucan:xyloglucosyl transferase, puta...  57.4    3e-10
+TR:I1MSS9_SOYBN  I1MSS9 Xyloglucan endotransglucosylase/hydrolase...  59.3    3e-10
+TR:A0A1U8ACC5_NELNU  A0A1U8ACC5 Xyloglucan endotransglucosylase/h...  59.3    4e-10
+TR:W1PIE0_AMBTC  W1PIE0 Xyloglucan endotransglucosylase/hydrolase...  59.3    4e-10
+TR:A0A2P5C4L2_PARAD  A0A2P5C4L2 Xyloglucan endotransglucosylase/h...  57.0    4e-10
+TR:A0A1R3HLJ8_COCAP  A0A1R3HLJ8 Xyloglucan endotransglucosylase/h...  59.3    4e-10
+TR:A0A2K3JUY4_TRIPR  A0A2K3JUY4 Xyloglucan endotransglucosylase/h...  56.6    4e-10
+TR:A0A1R3KRL3_9ROSI  A0A1R3KRL3 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:Q84JX3_CUCSA  Q84JX3 Xyloglucan endotransglucosylase/hydrolase...  58.9    5e-10
+TR:A0A2C9V1Q6_MANES  A0A2C9V1Q6 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A0D6QTF1_ARACU  A0A0D6QTF1 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A067KVY4_JATCU  A0A067KVY4 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A2I0W9D2_9ASPA  A0A2I0W9D2 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:B4FTH5_MAIZE  B4FTH5 Xyloglucan endotransglucosylase/hydrolase...  58.9    5e-10
+TR:A0A2J6LJL5_LACSA  A0A2J6LJL5 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A061GXF9_THECC  A0A061GXF9 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A0B0N3N6_GOSAR  A0A0B0N3N6 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A2P4GWV4_QUESU  A0A2P4GWV4 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A2P4N9L4_QUESU  A0A2P4N9L4 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:A0A2P4LIU6_QUESU  A0A2P4LIU6 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:C4N553_MUSAC  C4N553 Xyloglucan endotransglycosylase/hydrolase...  57.8    5e-10
+TR:A0A2N9IMD9_FAGSY  A0A2N9IMD9 Xyloglucan endotransglucosylase/h...  58.9    5e-10
+TR:I0IK79_9MYRT  I0IK79 Xyloglucan endotransglycosylase/hydrolase...  57.0    5e-10
+TR:I0IK77_9MYRT  I0IK77 Xyloglucan endotransglycosylase/hydrolase...  57.0    5e-10
+TR:A0A2P2IUI0_RHIMU  A0A2P2IUI0 Uncharacterized protein MANES_14G...  56.2    5e-10
+TR:A0A1S4A6G3_TOBAC  A0A1S4A6G3 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:U5DAH3_AMBTC  U5DAH3 Uncharacterized protein OS=Amborella tric...  55.8    6e-10
+TR:J3M152_ORYBR  J3M152 Xyloglucan endotransglucosylase/hydrolase...  58.5    6e-10
+TR:A0A1U7VFJ6_NICSY  A0A1U7VFJ6 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A1J6J3S2_NICAT  A0A1J6J3S2 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A1S3ZHF2_TOBAC  A0A1S3ZHF2 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A1S4A6B8_TOBAC  A0A1S4A6B8 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A287K960_HORVV  A0A287K960 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A2P5WBV6_GOSBA  A0A2P5WBV6 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A0K9RRH8_SPIOL  A0A0K9RRH8 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A2G9HYU9_9LAMI  A0A2G9HYU9 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A151UFB5_CAJCA  A0A151UFB5 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:V7CCR5_PHAVU  V7CCR5 Xyloglucan endotransglucosylase/hydrolase...  58.5    6e-10
+TR:A0A0S3R847_PHAAN  A0A0S3R847 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A0L9TG74_PHAAN  A0A0L9TG74 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A1S3ULZ7_VIGRR  A0A1S3ULZ7 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:M4YSC7_9GENT  M4YSC7 Xyloglucan endotransglucosylase/hydrolase...  58.5    6e-10
+TR:Q06BI4_CUCME  Q06BI4 Xyloglucan endotransglucosylase/hydrolase...  58.5    6e-10
+TR:A0A0R0GKM0_SOYBN  A0A0R0GKM0 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A2S3IA26_9POAL  A0A2S3IA26 Uncharacterized protein OS=Panicu...  58.5    6e-10
+TR:A0A2T7CZK5_9POAL  A0A2T7CZK5 Uncharacterized protein OS=Panicu...  58.5    6e-10
+TR:A0A251UM65_HELAN  A0A251UM65 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A0K9RRH7_SPIOL  A0A0K9RRH7 Xyloglucan endotransglucosylase/h...  58.5    6e-10
+TR:A0A2K3MBZ3_TRIPR  A0A2K3MBZ3 Xyloglucan endotransglucosylase/h...  55.5    6e-10
+TR:A0A059D2T3_EUCGR  A0A059D2T3 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A251UM62_HELAN  A0A251UM62 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A1U8PLV0_GOSHI  A0A1U8PLV0 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A2P4LIX4_QUESU  A0A2P4LIX4 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A2P5XRP1_GOSBA  A0A2P5XRP1 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A287K9B5_HORVV  A0A287K9B5 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A287K963_HORVV  A0A287K963 Xyloglucan endotransglucosylase/h...  58.5    7e-10
+TR:A0A287J6Z2_HORVV  A0A287J6Z2 Uncharacterized protein OS=Hordeu...  54.3    7e-10
+TR:A0A0D2NAU4_GOSRA  A0A0D2NAU4 Xyloglucan endotransglucosylase/h...  57.8    7e-10
+TR:A0A067DIA0_CITSI  A0A067DIA0 Xyloglucan endotransglucosylase/h...  58.2    7e-10
+TR:A0A2P5FJH2_9ROSA  A0A2P5FJH2 Xyloglucan endotransglucosylase/h...  56.2    8e-10
+TR:V4UQS0_9ROSI  V4UQS0 Xyloglucan endotransglucosylase/hydrolase...  58.2    8e-10
+TR:A0A0D2QR05_GOSRA  A0A0D2QR05 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A0D2RSL4_GOSRA  A0A0D2RSL4 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:I1GWK0_BRADI  I1GWK0 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A151QUG5_CAJCA  A0A151QUG5 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A0Q3JZC4_BRADI  A0A0Q3JZC4 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:N0DX45_CUCSA  N0DX45 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A2G9HSV3_9LAMI  A0A2G9HSV3 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A2G9FW38_9LAMI  A0A2G9FW38 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:W1PI40_AMBTC  W1PI40 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A067XSJ2_DIOKA  A0A067XSJ2 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A1U8NS84_GOSHI  A0A1U8NS84 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A061ENV7_THECC  A0A061ENV7 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:B9IM12_POPTR  B9IM12 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A2P4GWZ8_QUESU  A0A2P4GWZ8 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:A0A2N9G7A5_FAGSY  A0A2N9G7A5 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:Q9ZRV1_FAGSY  Q9ZRV1 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:I1MST0_SOYBN  I1MST0 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A061GRL8_THECC  A0A061GRL8 Xyloglucan endotransglucosylase/h...  58.2    9e-10
+TR:F6GXE7_VITVI  F6GXE7 Xyloglucan endotransglucosylase/hydrolase...  58.2    9e-10
+TR:A0A1Q3B5C1_CEPFO  A0A1Q3B5C1 Xyloglucan endotransglucosylase/h...  58.2    1e-09
+TR:A0A0D2NWM3_GOSRA  A0A0D2NWM3 Xyloglucan endotransglucosylase/h...  58.2    1e-09
+TR:A0A0A0LU34_CUCSA  A0A0A0LU34 Uncharacterized protein OS=Cucumi...  55.1    1e-09
+TR:A0A2I4HFH7_9ROSI  A0A2I4HFH7 Xyloglucan endotransglucosylase/h...  57.4    1e-09
+TR:A0A2I0A775_9ASPA  A0A2I0A775 Putative xyloglucan endotransgluc...  58.2    1e-09
+TR:K3Y9A4_SETIT  K3Y9A4 Xyloglucan endotransglucosylase/hydrolase...  57.8    1e-09
+TR:A0A2P5X5Y8_GOSBA  A0A2P5X5Y8 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2P5QNE3_GOSBA  A0A2P5QNE3 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2G9I3F4_9LAMI  A0A2G9I3F4 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A1U8LGZ3_GOSHI  A0A1U8LGZ3 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A1U8KUR5_GOSHI  A0A1U8KUR5 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A0B0NB30_GOSAR  A0A0B0NB30 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:S5MMS2_9ROSA  S5MMS2 Xyloglucan endotransglucosylase/hydrolase...  57.8    1e-09
+TR:Q8GTJ0_MALDO  Q8GTJ0 Xyloglucan endotransglucosylase/hydrolase...  57.8    1e-09
+TR:A0A1U7YV04_NELNU  A0A1U7YV04 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2U1PL26_ARTAN  A0A2U1PL26 Beta-glucanase OS=Artemisia annua...  57.8    1e-09
+TR:G7JT81_MEDTR  G7JT81 Xyloglucan endotransglucosylase/hydrolase...  57.8    1e-09
+TR:A0A0D2PR99_GOSRA  A0A0D2PR99 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2P5FJI0_9ROSA  A0A2P5FJI0 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2J6LJM2_LACSA  A0A2J6LJM2 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:G5DAC9_DIOKA  G5DAC9 Xyloglucan endotransglucosylase/hydrolase...  57.8    1e-09
+TR:A0A2P5QYB0_GOSBA  A0A2P5QYB0 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2P5RMM2_GOSBA  A0A2P5RMM2 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2P5WDM1_GOSBA  A0A2P5WDM1 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A0D2TGX2_GOSRA  A0A0D2TGX2 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A0D2RCV8_GOSRA  A0A0D2RCV8 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A1U8MXZ6_GOSHI  A0A1U8MXZ6 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A0B0MGZ6_GOSAR  A0A0B0MGZ6 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A0J8B1X1_BETVU  A0A0J8B1X1 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A059CKM1_EUCGR  A0A059CKM1 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2I4FHU8_9ROSI  A0A2I4FHU8 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2P5C748_PARAD  A0A2P5C748 Xyloglucan endotransglucosylase/h...  57.8    1e-09
+TR:A0A2I0JVF9_PUNGR  A0A2I0JVF9 Uncharacterized protein OS=Punica...  55.5    1e-09
+TR:U5DDK0_AMBTC  U5DDK0 Uncharacterized protein OS=Amborella tric...  56.6    1e-09
+TR:M0TI30_MUSAM  M0TI30 Xyloglucan endotransglucosylase/hydrolase...  57.0    1e-09
+TR:B9T354_RICCO  B9T354 Xyloglucan endotransglucosylase/hydrolase...  57.4    1e-09
+TR:A0A2K2A9X1_POPTR  A0A2K2A9X1 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A0D9W929_9ORYZ  A0A0D9W929 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A067L322_JATCU  A0A067L322 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:I3T593_LOTJA  I3T593 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:A0A2C9VZR4_MANES  A0A2C9VZR4 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A0D2MSV9_GOSRA  A0A0D2MSV9 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A1E5VER4_9POAL  A0A1E5VER4 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:C6TEP4_SOYBN  C6TEP4 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:A0A0B2QME0_GLYSO  A0A0B2QME0 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A0R0GL47_SOYBN  A0A0R0GL47 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:Q9LLC2_ASPOF  Q9LLC2 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:W9RVF1_9ROSA  W9RVF1 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:F6GXE6_VITVI  F6GXE6 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:A0A0A0LWT1_CUCSA  A0A0A0LWT1 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:N0DX33_CUCSA  N0DX33 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:A0A2P6QTG3_ROSCH  A0A2P6QTG3 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A2I0A1Q7_9ASPA  A0A2I0A1Q7 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A1U7ZH77_NELNU  A0A1U7ZH77 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:I3T3W3_LOTJA  I3T3W3 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:I3SJD4_LOTJA  I3SJD4 Xyloglucan endotransglucosylase/hydrolase...  57.4    2e-09
+TR:A0A2I4DJ37_9ROSI  A0A2I4DJ37 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A2I4FHV7_9ROSI  A0A2I4FHV7 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A2I4FHJ1_9ROSI  A0A2I4FHJ1 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A0A9DP67_ARUDO  A0A0A9DP67 Gpm554 OS=Arundo donax OX=35708 P...  56.2    2e-09
+TR:A0A2H3YIU5_PHODC  A0A2H3YIU5 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A200QZV2_9MAGN  A0A200QZV2 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:A0A2G3BX13_CAPCH  A0A2G3BX13 Xyloglucan endotransglucosylase/h...  54.7    2e-09
+TR:A0A2P6QTG0_ROSCH  A0A2P6QTG0 Xyloglucan endotransglucosylase/h...  57.4    2e-09
+TR:V4U1H2_9ROSI  V4U1H2 Uncharacterized protein (Fragment) OS=Cit...  55.8    2e-09
+TR:A0A2I0JFQ8_PUNGR  A0A2I0JFQ8 Xyloglucan endotransglucosylase/h...  56.6    2e-09
+TR:M0T0L3_MUSAM  M0T0L3 Xyloglucan endotransglucosylase/hydrolase...  56.6    2e-09
+TR:A0A1R3KRI1_9ROSI  A0A1R3KRI1 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A1U8KU32_GOSHI  A0A1U8KU32 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2P5QNF3_GOSBA  A0A2P5QNF3 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A0B0PE25_GOSAR  A0A0B0PE25 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2P5X5X6_GOSBA  A0A2P5X5X6 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A1U8KY52_GOSHI  A0A1U8KY52 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A0B0N0Q1_GOSAR  A0A0B0N0Q1 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2S3I1A2_9POAL  A0A2S3I1A2 Uncharacterized protein OS=Panicu...  57.0    2e-09
+TR:A0A2U1PNJ0_ARTAN  A0A2U1PNJ0 Beta-glucanase OS=Artemisia annua...  57.0    2e-09
+TR:A0A2U1K9Z8_ARTAN  A0A2U1K9Z8 Beta-glucanase OS=Artemisia annua...  57.0    2e-09
+TR:K3YIZ6_SETIT  K3YIZ6 Xyloglucan endotransglucosylase/hydrolase...  57.0    2e-09
+TR:A0A1S3UUD6_VIGRR  A0A1S3UUD6 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:Q06BI5_CUCME  Q06BI5 Xyloglucan endotransglucosylase/hydrolase...  57.0    2e-09
+TR:M0RKS1_MUSAM  M0RKS1 Xyloglucan endotransglucosylase/hydrolase...  57.0    2e-09
+TR:A0A151SRS4_CAJCA  A0A151SRS4 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2G5CUK7_AQUCA  A0A2G5CUK7 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2I4GLN4_9ROSI  A0A2I4GLN4 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2P4LIW3_QUESU  A0A2P4LIW3 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A061GPN5_THECC  A0A061GPN5 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A1Q3AVJ1_CEPFO  A0A1Q3AVJ1 Xyloglucan endotransglucosylase/h...  56.2    2e-09
+TR:A0A068V5H0_COFCA  A0A068V5H0 Xyloglucan endotransglucosylase/h...  56.2    2e-09
+TR:A0A2P5C4H8_PARAD  A0A2P5C4H8 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A2P5FJL5_9ROSA  A0A2P5FJL5 Xyloglucan endotransglucosylase/h...  57.0    2e-09
+TR:A0A1U8ADG4_NELNU  A0A1U8ADG4 Xyloglucan endotransglucosylase/h...  57.0    3e-09
+TR:A0A2K3K9V2_TRIPR  A0A2K3K9V2 Xyloglucan endotransglucosylase/h...  54.3    3e-09
+TR:A0A2P5Q3B0_GOSBA  A0A2P5Q3B0 Uncharacterized protein OS=Gossyp...  55.5    3e-09
+TR:A0A067E5L9_CITSI  A0A067E5L9 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A078HQZ7_BRANA  A0A078HQZ7 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:V4WIU8_9ROSI  V4WIU8 Xyloglucan endotransglucosylase/hydrolase...  56.6    3e-09
+TR:M0SKE1_MUSAM  M0SKE1 Uncharacterized protein OS=Musa acuminata...  55.8    3e-09
+TR:A0A1D5WRX3_WHEAT  A0A1D5WRX3 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A0D3DGZ0_BRAOL  A0A0D3DGZ0 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:M4E5N5_BRARP  M4E5N5 Xyloglucan endotransglucosylase/hydrolase...  56.6    3e-09
+TR:A0A2T7D543_9POAL  A0A2T7D543 Uncharacterized protein OS=Panicu...  56.6    3e-09
+TR:A0A2C9UM13_MANES  A0A2C9UM13 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A2H3YP73_PHODC  A0A2H3YP73 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:V4UVF7_9ROSI  V4UVF7 Uncharacterized protein OS=Citrus clement...  55.8    3e-09
+TR:A0A218XQ68_PUNGR  A0A218XQ68 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A2I0W1R0_9ASPA  A0A2I0W1R0 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A2P6QTF7_ROSCH  A0A2P6QTF7 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A2H3YP55_PHODC  A0A2H3YP55 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A1R3HR07_9ROSI  A0A1R3HR07 Xyloglucan endotransglucosylase/h...  56.6    3e-09
+TR:A0A2K3MBJ6_TRIPR  A0A2K3MBJ6 Xyloglucan endotransglucosylase/h...  54.3    3e-09
+TR:B9I6N9_POPTR  B9I6N9 Xyloglucan endotransglucosylase/hydrolase...  56.6    3e-09
+TR:A0A1U8NIY9_GOSHI  A0A1U8NIY9 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A2K3KXK1_TRIPR  A0A2K3KXK1 Xyloglucan endotransglucosylase/h...  53.9    4e-09
+TR:A0A2H5P7V4_CITUN  A0A2H5P7V4 Xyloglucan endotransglucosylase/h...  56.6    4e-09
+TR:A0A2H5P7Q2_CITUN  A0A2H5P7Q2 Uncharacterized protein (Fragment...  56.6    4e-09
+TR:A0A2H5P7Q5_CITUN  A0A2H5P7Q5 Uncharacterized protein (Fragment...  56.6    4e-09
+TR:A0A2G2YZI6_CAPAN  A0A2G2YZI6 Xyloglucan endotransglucosylase/h...  55.8    4e-09
+TR:A0A2I4FHH9_9ROSI  A0A2I4FHH9 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A067KN44_JATCU  A0A067KN44 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A2P5QQH0_GOSBA  A0A2P5QQH0 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:K7U6H7_MAIZE  K7U6H7 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:A0A2P5C4K7_PARAD  A0A2P5C4K7 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A1U8LD71_GOSHI  A0A1U8LD71 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:B9SJR0_RICCO  B9SJR0 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:V4WIV0_9ROSI  V4WIV0 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:V4UVG7_9ROSI  V4UVG7 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:A0A2C9ULY1_MANES  A0A2C9ULY1 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:W9RVF8_9ROSA  W9RVF8 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:C0SSE3_ROSHC  C0SSE3 Xyloglucan endotransglucosylase/hydrolase...  56.2    4e-09
+TR:A0A1R3HRE2_9ROSI  A0A1R3HRE2 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A2N9G8H8_FAGSY  A0A2N9G8H8 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A1R3HQZ7_9ROSI  A0A1R3HQZ7 Xyloglucan endotransglucosylase/h...  56.2    4e-09
+TR:A0A0D2QSI6_GOSRA  A0A0D2QSI6 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A218XXP0_PUNGR  A0A218XXP0 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A0E0LF39_ORYPU  A0A0E0LF39 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A1U8A4N4_NELNU  A0A1U8A4N4 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A067KJM2_JATCU  A0A067KJM2 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A2I4FHI5_9ROSI  A0A2I4FHI5 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A0D2MBB4_GOSRA  A0A0D2MBB4 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A2I4DUQ1_9ROSI  A0A2I4DUQ1 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:A0A022RQY0_ERYGU  A0A022RQY0 Xyloglucan endotransglucosylase/h...  56.2    5e-09
+TR:W1PBV0_AMBTC  W1PBV0 Uncharacterized protein (Fragment) OS=Amb...  54.3    5e-09
+TR:A0A2H5MYH7_CITUN  A0A2H5MYH7 Uncharacterized protein OS=Citrus...  53.5    6e-09
+TR:Q1W398_STRAF  Q1W398 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A067DY55_CITSI  A0A067DY55 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:V4UGI0_9ROSI  V4UGI0 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:R0EY21_9BRAS  R0EY21 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A061GTH8_THECC  A0A061GTH8 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:M5XCX9_PRUPE  M5XCX9 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A0A9E1N7_ARUDO  A0A0A9E1N7 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A0A9F0T6_ARUDO  A0A0A9F0T6 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A1R3HQU5_9ROSI  A0A1R3HQU5 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A5ANB1_VITVI  A5ANB1 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A2P5C4G0_PARAD  A0A2P5C4G0 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A1U8H888_CAPAN  A0A1U8H888 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A2P5FJJ0_9ROSA  A0A2P5FJJ0 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:C0IRI1_MALDO  C0IRI1 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A068U5S0_COFCA  A0A068U5S0 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:B9IM13_POPTR  B9IM13 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A1S3UV16_VIGRR  A0A1S3UV16 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A2C9UKY7_MANES  A0A2C9UKY7 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A1S2YP98_CICAR  A0A1S2YP98 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A5C3A3_VITVI  A5C3A3 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:Q84V49_CUCSA  Q84V49 Xyloglucan endotransglucosylase/hydrolase...  55.8    6e-09
+TR:A0A0B0N2P5_GOSAR  A0A0B0N2P5 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A200QZW4_9MAGN  A0A200QZW4 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A200R029_9MAGN  A0A200R029 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:A0A1U7ZZ16_NELNU  A0A1U7ZZ16 Xyloglucan endotransglucosylase/h...  55.8    6e-09
+TR:F6GXE9_VITVI  F6GXE9 Xyloglucan endotransglucosylase/hydrolase...  55.8    7e-09
+TR:F2DXV8_HORVV  F2DXV8 Xyloglucan endotransglucosylase/hydrolase...  55.8    7e-09
+TR:A0A2C9UKX2_MANES  A0A2C9UKX2 Xyloglucan endotransglucosylase/h...  55.8    7e-09
+TR:I3T4N7_MEDTR  I3T4N7 Xyloglucan endotransglucosylase/hydrolase...  55.5    7e-09
+TR:M0U040_MUSAM  M0U040 Xyloglucan endotransglucosylase/hydrolase...  55.1    7e-09
+TR:A0A1Q3AV48_CEPFO  A0A1Q3AV48 Xyloglucan endotransglucosylase/h...  55.5    7e-09
+TR:A0A199UQY6_ANACO  A0A199UQY6 Xyloglucan endotransglucosylase/h...  55.5    7e-09
+TR:A0A022PYM1_ERYGU  A0A022PYM1 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A164YMB5_DAUCA  A0A164YMB5 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A022QEN1_ERYGU  A0A022QEN1 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:G7JD13_MEDTR  G7JD13 Xyloglucan endotransglucosylase/hydrolase...  55.5    8e-09
+TR:A0A2G5DD18_AQUCA  A0A2G5DD18 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A2G9GDY0_9LAMI  A0A2G9GDY0 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A1S3BTE1_CUCME  A0A1S3BTE1 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A0B2QSS8_GLYSO  A0A0B2QSS8 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A0R0GKR5_SOYBN  A0A0R0GKR5 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A1L6K5X6_POPTO  A0A1L6K5X6 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A067DE55_CITSI  A0A067DE55 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A5ANA9_VITVI  A5ANA9 Xyloglucan endotransglucosylase/hydrolase...  55.5    8e-09
+TR:A0A0K9RTK3_SPIOL  A0A0K9RTK3 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:W9RSW5_9ROSA  W9RSW5 Xyloglucan endotransglucosylase/hydrolase...  55.5    8e-09
+TR:A0A2U1N1Y7_ARTAN  A0A2U1N1Y7 Xyloglucan endotransglucosylase/h...  55.5    8e-09
+TR:A0A0S3R7U0_PHAAN  A0A0S3R7U0 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A067KN47_JATCU  A0A067KN47 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A0L9TF38_PHAAN  A0A0L9TF38 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A1D6IZ02_MAIZE  A0A1D6IZ02 Xyloglucan endo-transglycosylase/...  53.1    9e-09
+TR:A0A218XWR3_PUNGR  A0A218XWR3 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A022Q186_ERYGU  A0A022Q186 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A1U8I3D9_GOSHI  A0A1U8I3D9 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A1U8A0V9_NELNU  A0A1U8A0V9 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:F6GXD6_VITVI  F6GXD6 Xyloglucan endotransglucosylase/hydrolase...  55.5    9e-09
+TR:A0A0A0LU38_CUCSA  A0A0A0LU38 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:F6GXE1_VITVI  F6GXE1 Xyloglucan endotransglucosylase/hydrolase...  55.5    9e-09
+TR:A0A200RCH5_9MAGN  A0A200RCH5 Xyloglucan endotransglucosylase/h...  55.5    9e-09
+TR:A0A2P4LIX5_QUESU  A0A2P4LIX5 Xyloglucan endotransglucosylase/h...  54.7    9e-09
+TR:M1B6T9_SOLTU  M1B6T9 Uncharacterized protein OS=Solanum tubero...  53.1    9e-09
+TR:F6GXE8_VITVI  F6GXE8 Xyloglucan endotransglucosylase/hydrolase...  55.5    1e-08
+TR:A0A2G2YZW0_CAPAN  A0A2G2YZW0 Xyloglucan endotransglucosylase/h...  54.7    1e-08
+SP:XTH24_ARATH  P24806 Xyloglucan endotransglucosylase/hydrolase ...  55.1    1e-08
+TR:A0A178UVM1_ARATH  A0A178UVM1 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:Q0WLB0_ARATH  Q0WLB0 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:A0A2G3B518_CAPCH  A0A2G3B518 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A1U8ETM7_CAPAN  A0A1U8ETM7 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A2G2YBE4_CAPAN  A0A2G2YBE4 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A0S3R8E9_PHAAN  A0A0S3R8E9 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A0L9TEK2_PHAAN  A0A0L9TEK2 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A068V653_COFCA  A0A068V653 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:K4BII9_SOLLC  K4BII9 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:M1B6T4_SOLTU  M1B6T4 Uncharacterized protein OS=Solanum tubero...  53.1    1e-08
+TR:K4BII8_SOLLC  K4BII8 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:Q6RHY0_SOLLC  Q6RHY0 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:I3RZU5_MEDTR  I3RZU5 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:G7JD12_MEDTR  G7JD12 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:F6GXE3_VITVI  F6GXE3 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:N0DX76_CUCSA  N0DX76 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:V7C9G8_PHAVU  V7C9G8 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:A0A0E0HI61_ORYNI  A0A0E0HI61 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A2P4LIU5_QUESU  A0A2P4LIU5 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A2P4LIU2_QUESU  A0A2P4LIU2 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A5BND5_VITVI  A5BND5 Xyloglucan endotransglucosylase/hydrolase...  55.1    1e-08
+TR:A0A200QZW8_9MAGN  A0A200QZW8 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A1U8A0X1_NELNU  A0A1U8A0X1 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A1J3GS62_NOCCA  A0A1J3GS62 Xyloglucan endotransglucosylase/h...  53.5    1e-08
+TR:A0A2U1Q4B1_ARTAN  A0A2U1Q4B1 Xyloglucan endotransglucosylase/h...  55.1    1e-08
+TR:A0A0A9UMD7_ARUDO  A0A0A9UMD7 Xth1 OS=Arundo donax OX=35708 PE=...  52.4    1e-08
+TR:C0SQK9_9LAMI  C0SQK9 Xyloglucan endotransglycosylase/hydrolase...  53.9    1e-08
+TR:A0A200PYJ9_9MAGN  A0A200PYJ9 Glycoside hydrolase OS=Macleaya c...  53.9    1e-08
+TR:M0SBZ0_MUSAM  M0SBZ0 Xyloglucan endotransglucosylase/hydrolase...  54.3    1e-08
+TR:G8DRF7_ZIZJJ  G8DRF7 Xyloglucan endotransglucosylase/hydrolase...  54.3    1e-08
+TR:G8DRF8_ZIZJJ  G8DRF8 Xyloglucan endotransglucosylase/hydrolase...  54.3    1e-08
+TR:V4UKI4_9ROSI  V4UKI4 Uncharacterized protein OS=Citrus clement...  52.4    1e-08
+TR:A0A2K3MTL9_TRIPR  A0A2K3MTL9 Xyloglucan endotransglucosylase/h...  54.7    1e-08
+TR:A0A1Q3AV42_CEPFO  A0A1Q3AV42 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:Q9FZ05_SOLLC  Q9FZ05 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:A0A2J6K6R0_LACSA  A0A2J6K6R0 Uncharacterized protein OS=Lactuc...  53.5    2e-08
+TR:A0A0B0NB56_GOSAR  A0A0B0NB56 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A067DU53_CITSI  A0A067DU53 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:V7CBX1_PHAVU  V7CBX1 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:U5D1L2_AMBTC  U5D1L2 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:Q6EJD2_BETVU  Q6EJD2 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:C0SSE4_ROSHC  C0SSE4 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:J9RZ81_9ROSA  J9RZ81 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:A0A2P6QTL1_ROSCH  A0A2P6QTL1 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:B9IM16_POPTR  B9IM16 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:A0A2G2WAA0_CAPBA  A0A2G2WAA0 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A0K9QQT2_SPIOL  A0A0K9QQT2 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:U5DGE5_AMBTC  U5DGE5 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:A0A1U8HES2_CAPAN  A0A1U8HES2 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A1U7YCE3_NICSY  A0A1U7YCE3 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A067YMX8_DIOKA  A0A067YMX8 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A1S4BPZ9_TOBAC  A0A1S4BPZ9 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A2N9J6R9_FAGSY  A0A2N9J6R9 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A2P4LIZ2_QUESU  A0A2P4LIZ2 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A1E5UKQ3_9POAL  A0A1E5UKQ3 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A061GRL0_THECC  A0A061GRL0 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A200RCE7_9MAGN  A0A200RCE7 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A1U8A0W5_NELNU  A0A1U8A0W5 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A1Z1CI99_DIOKA  A0A1Z1CI99 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A2H5MUJ0_CITUN  A0A2H5MUJ0 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:V4U1H8_9ROSI  V4U1H8 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:V4UQS4_9ROSI  V4UQS4 Xyloglucan endotransglucosylase/hydrolase...  54.7    2e-08
+TR:A0A059CKG7_EUCGR  A0A059CKG7 Xyloglucan endotransglucosylase/h...  54.7    2e-08
+TR:A0A2H5NA98_CITUN  A0A2H5NA98 Uncharacterized protein OS=Citrus...  52.8    2e-08
+TR:A0A2K3LDT1_TRIPR  A0A2K3LDT1 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:M4D1E3_BRARP  M4D1E3 Xyloglucan endotransglucosylase/hydrolase...  53.9    2e-08
+TR:V4RUR1_9ROSI  V4RUR1 Xyloglucan endotransglucosylase/hydrolase...  53.9    2e-08
+TR:A0A2P5FJI1_9ROSA  A0A2P5FJI1 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1S3XH97_TOBAC  A0A1S3XH97 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:F6GXD4_VITVI  F6GXD4 Xyloglucan endotransglucosylase/hydrolase...  54.3    2e-08
+TR:A0A1U7VZR3_NICSY  A0A1U7VZR3 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A022RJC1_ERYGU  A0A022RJC1 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A2J6LU01_LACSA  A0A2J6LU01 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A2P5QNE7_GOSBA  A0A2P5QNE7 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A0D2QYD2_GOSRA  A0A0D2QYD2 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:M0TBN0_MUSAM  M0TBN0 Xyloglucan endotransglucosylase/hydrolase...  54.3    2e-08
+TR:G7JVI0_MEDTR  G7JVI0 Xyloglucan endotransglucosylase/hydrolase...  54.3    2e-08
+TR:W5WVA6_9POAL  W5WVA6 Xyloglucan endotransglucosylase/hydrolase...  54.3    2e-08
+TR:A0A087GBP3_ARAAL  A0A087GBP3 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A087GBP2_ARAAL  A0A087GBP2 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1S4DQE5_TOBAC  A0A1S4DQE5 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1Z5R8U6_SORBI  A0A1Z5R8U6 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1S2YPA9_CICAR  A0A1S2YPA9 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1S2YPB9_CICAR  A0A1S2YPB9 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1Q3AVM0_CEPFO  A0A1Q3AVM0 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A0D2MSV2_GOSRA  A0A0D2MSV2 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A1Q3DHD4_CEPFO  A0A1Q3DHD4 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:A0A2R6Q8S8_ACTCH  A0A2R6Q8S8 Xyloglucan endotransglucosylase/h...  54.3    2e-08
+TR:V7C9C4_PHAVU  V7C9C4 Xyloglucan endotransglucosylase/hydrolase...  53.9    3e-08
+TR:A0A2G2V0E1_CAPBA  A0A2G2V0E1 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A1U7Z654_NELNU  A0A1U7Z654 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A2P6PW71_ROSCH  A0A2P6PW71 Putative xyloglucan:xyloglucosyl ...  51.2    3e-08
+TR:A0A1R3HRH9_9ROSI  A0A1R3HRH9 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A0A9V523_ARUDO  A0A0A9V523 Gpm554 OS=Arundo donax OX=35708 P...  51.6    3e-08
+TR:A0A251SJB4_HELAN  A0A251SJB4 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A078JNA7_BRANA  A0A078JNA7 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A078FKD4_BRANA  A0A078FKD4 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A2U1MXP8_ARTAN  A0A2U1MXP8 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:B6TH17_MAIZE  B6TH17 Xyloglucan endotransglucosylase/hydrolase...  53.9    3e-08
+TR:A0A1D6E0F6_MAIZE  A0A1D6E0F6 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:F6GXE5_VITVI  F6GXE5 Xyloglucan endotransglucosylase/hydrolase...  53.9    3e-08
+TR:E4MVV8_EUTHA  E4MVV8 Xyloglucan endotransglucosylase/hydrolase...  53.9    3e-08
+TR:A0A2R6S032_ACTCH  A0A2R6S032 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:V4LU82_EUTSA  V4LU82 Xyloglucan endotransglucosylase/hydrolase...  53.9    3e-08
+TR:A0A0D3BM72_BRAOL  A0A0D3BM72 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+TR:A0A2H3ZV08_PHODC  A0A2H3ZV08 Xyloglucan endotransglucosylase/h...  53.9    3e-08
+
+
+>TR:C5Z8T3_SORBI C5Z8T3 Xyloglucan endotransglucosylase/hydrolase OS=Sorghum bicolor 
+OX=4558 GN=SORBI_3010G246500 PE=3 SV=1
+Length=315
+
+ Score = 128 bits (321),  Expect = 4e-36
+ Identities = 55/61 (90%), Positives = 56/61 (92%), Gaps = 0/61 (0%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A  G  RRRRA AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC+IPIGR
+Sbjct  255  AVAGSGRRRRAAAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECAIPIGR  314
+
+Query  63   S  63
+            S
+Sbjct  315  S  315
+
+
+>TR:K3XYI4_SETIT K3XYI4 Xyloglucan endotransglucosylase/hydrolase OS=Setaria italica 
+OX=4555 GN=LOC101772548 PE=3 SV=1
+Length=301
+
+ Score = 120 bits (302),  Expect = 2e-33
+ Identities = 52/59 (88%), Positives = 52/59 (88%), Gaps = 0/59 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            GGG RRRR  AWMAQRMDWWSWMTLSWVRMNYMVYDYC DRRRFPH  PPEC IPIGRS
+Sbjct  243  GGGRRRRRQAAWMAQRMDWWSWMTLSWVRMNYMVYDYCDDRRRFPHGSPPECVIPIGRS  301
+
+
+>TR:A0A2S3HGZ8_9POAL A0A2S3HGZ8 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G029200 PE=4 SV=1
+Length=295
+
+ Score = 117 bits (293),  Expect = 4e-32
+ Identities = 50/59 (85%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            GG  RRRR  AWMAQ+MDWWSWMTLSWVRMNYMVYDYC DRRRFPH  PPEC IPIGRS
+Sbjct  237  GGARRRRRQAAWMAQKMDWWSWMTLSWVRMNYMVYDYCDDRRRFPHGAPPECVIPIGRS  295
+
+
+>TR:A0A2T7DUQ4_9POAL A0A2T7DUQ4 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G029600 PE=4 SV=1
+Length=295
+
+ Score = 117 bits (293),  Expect = 4e-32
+ Identities = 50/59 (85%), Positives = 51/59 (86%), Gaps = 0/59 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            GG  RRRR  AWMAQ+MDWWSWMTLSWVRMNYMVYDYC DRRRFPH  PPEC IPIGRS
+Sbjct  237  GGARRRRRQAAWMAQKMDWWSWMTLSWVRMNYMVYDYCDDRRRFPHGAPPECVIPIGRS  295
+
+
+>TR:A0A0P0X0P2_ORYSJ A0A0P0X0P2 Os06g0696566 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os06g0696566 PE=4 SV=1
+Length=87
+
+ Score = 101 bits (252),  Expect = 3e-28
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3   APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+           A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  34  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  86
+
+Query  63  S  63
+           +
+Sbjct  87  T  87
+
+
+>TR:A0A0A9CP76_ARUDO A0A0A9CP76 Xyloglucan endotransglucosylase/hydrolase OS=Arundo 
+donax OX=35708 PE=3 SV=1
+Length=313
+
+ Score = 107 bits (266),  Expect = 6e-28
+ Identities = 44/57 (77%), Positives = 48/57 (84%), Gaps = 0/57 (0%)
+
+Query  7    GPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            G   RRAP+W+  +MDWWSWMTLSWVRMNYMVYDYCAD +RFPH FP EC IPIGRS
+Sbjct  257  GGSLRRAPSWLEHKMDWWSWMTLSWVRMNYMVYDYCADCKRFPHGFPAECIIPIGRS  313
+
+
+>TR:A0A287XIG0_HORVV A0A287XIG0 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=4 SV=1
+Length=146
+
+ Score = 102 bits (253),  Expect = 1e-27
+ Identities = 41/58 (71%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WM QR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  88   GGDHLPSSASSWMGQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHGFPAECIIPIGR  145
+
+
+>TR:A0A0E0LF37_ORYPU A0A0E0LF37 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+punctata OX=4537 PE=3 SV=1
+Length=291
+
+ Score = 104 bits (259),  Expect = 4e-27
+ Identities = 42/57 (74%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  7    GPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            G  R     WM+QRMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR+
+Sbjct  235  GASRCAGGGWMSQRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGRT  291
+
+
+>TR:A0A1D6BMF8_WHEAT A0A1D6BMF8 Xyloglucan endotransglucosylase/hydrolase OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=295
+
+ Score = 103 bits (258),  Expect = 7e-27
+ Identities = 42/58 (72%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WMAQR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  237  GGDHLPSSASSWMAQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHAFPTECIIPIGR  294
+
+
+>TR:F2D8P2_HORVV F2D8P2 Xyloglucan endotransglucosylase/hydrolase (Fragment) OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=2 SV=1
+Length=213
+
+ Score = 102 bits (253),  Expect = 7e-27
+ Identities = 41/58 (71%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WM QR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  155  GGDHLPSSASSWMGQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHGFPAECIIPIGR  212
+
+
+>TR:A0A1D6CNU5_WHEAT A0A1D6CNU5 Xyloglucan endotransglucosylase/hydrolase OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=304
+
+ Score = 103 bits (258),  Expect = 8e-27
+ Identities = 42/58 (72%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WMAQR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  246  GGDHLPSSASSWMAQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHAFPTECIIPIGR  303
+
+
+>TR:A0A1D6C2R8_WHEAT A0A1D6C2R8 Xyloglucan endotransglucosylase/hydrolase OS=Triticum 
+aestivum OX=4565 PE=3 SV=1
+Length=350
+
+ Score = 103 bits (258),  Expect = 2e-26
+ Identities = 42/58 (72%), Positives = 47/58 (81%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WMAQR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  292  GGDHLPSSASSWMAQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHAFPTECIIPIGR  349
+
+
+>TR:F2D337_HORVV F2D337 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum vulgare 
+subsp. vulgare OX=112509 PE=2 SV=1
+Length=294
+
+ Score = 102 bits (253),  Expect = 4e-26
+ Identities = 41/58 (71%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            GG      A +WM QR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  236  GGDHLPSSASSWMGQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHGFPAECIIPIGR  293
+
+
+>TR:A0A287XIH6_HORVV A0A287XIH6 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=4 SV=1
+Length=47
+
+ Score = 95.1 bits (235),  Expect = 5e-26
+ Identities = 37/46 (80%), Positives = 41/46 (89%), Gaps = 0/46 (0%)
+
+Query  17  MAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+           M QR+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  1   MGQRLDWWSWMTLNWVRMNYMTYDYCADRKRYPHGFPAECIIPIGR  46
+
+
+>TR:A2YGL0_ORYSI A2YGL0 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+subsp. indica OX=39946 GN=OsI_24316 PE=3 SV=1
+Length=299
+
+ Score = 101 bits (252),  Expect = 5e-26
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  246  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  298
+
+Query  63   S  63
+            +
+Sbjct  299  T  299
+
+
+>TR:I1Q4V4_ORYGL I1Q4V4 Xyloglucan endotransglucosylase/hydrolase OS=Oryza glaberrima 
+OX=4538 PE=3 SV=1
+Length=299
+
+ Score = 101 bits (252),  Expect = 5e-26
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  246  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  298
+
+Query  63   S  63
+            +
+Sbjct  299  T  299
+
+
+>TR:Q5Z6H1_ORYSJ Q5Z6H1 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+subsp. japonica OX=39947 GN=OsJ_22492 PE=3 SV=1
+Length=299
+
+ Score = 101 bits (252),  Expect = 5e-26
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  246  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  298
+
+Query  63   S  63
+            +
+Sbjct  299  T  299
+
+
+>TR:A0A0E0HI60_ORYNI A0A0E0HI60 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+nivara OX=4536 PE=3 SV=1
+Length=328
+
+ Score = 101 bits (252),  Expect = 9e-26
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  275  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  327
+
+Query  63   S  63
+            +
+Sbjct  328  T  328
+
+
+>TR:A0A0E0Q237_ORYRU A0A0E0Q237 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+rufipogon OX=4529 PE=3 SV=1
+Length=333
+
+ Score = 101 bits (252),  Expect = 9e-26
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  280  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  332
+
+Query  63   S  63
+            +
+Sbjct  333  T  333
+
+
+>TR:A0A0E0ADS6_9ORYZ A0A0E0ADS6 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+glumipatula OX=40148 PE=3 SV=1
+Length=343
+
+ Score = 101 bits (252),  Expect = 1e-25
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  283  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  335
+
+Query  63   S  63
+            +
+Sbjct  336  T  336
+
+
+>TR:A0A0D3GKB3_9ORYZ A0A0D3GKB3 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+barthii OX=65489 PE=3 SV=1
+Length=344
+
+ Score = 101 bits (252),  Expect = 1e-25
+ Identities = 43/61 (70%), Positives = 47/61 (77%), Gaps = 7/61 (11%)
+
+Query  3    APGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            A GGG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR
+Sbjct  283  AGGGG-------GWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGR  335
+
+Query  63   S  63
+            +
+Sbjct  336  T  336
+
+
+>TR:J3MH64_ORYBR J3MH64 Xyloglucan endotransglucosylase/hydrolase OS=Oryza brachyantha 
+OX=4533 GN=102701553 PE=3 SV=1
+Length=297
+
+ Score = 99.8 bits (247),  Expect = 3e-25
+ Identities = 40/59 (68%), Positives = 47/59 (80%), Gaps = 3/59 (5%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            GGG   +    WM+QRMDWWSWMTL+WVRMNYM YDYC+DR+RFP  FP EC +PIGR+
+Sbjct  242  GGG---KAGGGWMSQRMDWWSWMTLNWVRMNYMAYDYCSDRKRFPRRFPTECIVPIGRT  297
+
+
+>TR:A0A0E0E5T8_9ORYZ A0A0E0E5T8 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=4 SV=1
+Length=458
+
+ Score = 101 bits (252),  Expect = 3e-25
+ Identities = 41/58 (71%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            GG        WM +RMDWWSWMTL+WVRMNYM YDYCADR+RFPH FP EC IPIGR+
+Sbjct  401  GGGGGNGGGGWMRRRMDWWSWMTLNWVRMNYMAYDYCADRKRFPHRFPAECIIPIGRT  458
+
+
+>TR:I1GWJ9_BRADI I1GWJ9 Xyloglucan endotransglucosylase/hydrolase OS=Brachypodium 
+distachyon OX=15368 GN=LOC100845549 PE=3 SV=1
+Length=300
+
+ Score = 99.0 bits (245),  Expect = 6e-25
+ Identities = 38/48 (79%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            +WM Q++DWWSWMTL+WVRMNYM YDYCADRRR+PH FP EC IPIGR
+Sbjct  252  SWMTQKLDWWSWMTLNWVRMNYMSYDYCADRRRYPHGFPTECVIPIGR  299
+
+
+>TR:A0A0D9WTM9_9ORYZ A0A0D9WTM9 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=622
+
+ Score = 98.6 bits (244),  Expect = 6e-24
+ Identities = 37/48 (77%), Positives = 44/48 (92%), Gaps = 0/48 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            WM+Q+MDWWSWMTL+WVRMNYM YDYC+DR+RFP+ FP EC IPIGR+
+Sbjct  244  WMSQKMDWWSWMTLNWVRMNYMAYDYCSDRKRFPYRFPAECIIPIGRA  291
+
+
+ Score = 48.5 bits (114),  Expect = 3e-06
+ Identities = 21/42 (50%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            WM Q +D  +   L  V+ +YM+Y+YCAD  RF   FPPECS
+Sbjct  579  WMYQELDSSAQDRLRQVQRDYMIYNYCADTYRFSQGFPPECS  620
+
+
+>TR:M8BSJ5_AEGTA M8BSJ5 Putative xyloglucan endotransglucosylase/hydrolase protein 
+12 OS=Aegilops tauschii OX=37682 GN=F775_15477 PE=4 SV=1
+Length=200
+
+ Score = 91.7 bits (226),  Expect = 6e-23
+ Identities = 35/43 (81%), Positives = 39/43 (91%), Gaps = 0/43 (0%)
+
+Query  20   RMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGR  62
+            R+DWWSWMTL+WVRMNYM YDYCADR+R+PH FP EC IPIGR
+Sbjct  157  RLDWWSWMTLNWVRMNYMTYDYCADRKRYPHAFPTECIIPIGR  199
+
+
+>TR:A0A199UD88_ANACO A0A199UD88 Xyloglucan endotransglucosylase/hydrolase (Fragment) 
+OS=Ananas comosus OX=4615 GN=ACMD2_23393 PE=3 SV=1
+Length=284
+
+ Score = 86.7 bits (213),  Expect = 2e-20
+ Identities = 31/44 (70%), Positives = 38/44 (86%), Gaps = 0/44 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            WM Q +DWWSWMTLSWVRMNY++YDYC D +RF + FPPEC++P
+Sbjct  240  WMQQELDWWSWMTLSWVRMNYLLYDYCTDTKRFGYGFPPECALP  283
+
+
+>TR:M8A787_TRIUA M8A787 Brassinosteroid-regulated protein BRU1 OS=Triticum urartu 
+OX=4572 GN=TRIUR3_34613 PE=4 SV=1
+Length=238
+
+ Score = 77.8 bits (190),  Expect = 3e-17
+ Identities = 36/69 (52%), Positives = 43/69 (62%), Gaps = 11/69 (16%)
+
+Query  5    GGGPRRRRAPAWMAQRMDW------WS-----WMTLSWVRMNYMVYDYCADRRRFPHEFP  53
+            G G R ++   W     D+      W+     WMTL+WVRMNYM YDYCADR+R+PH FP
+Sbjct  169  GKGEREQQFVLWFDPTADFHTYSILWNPLNIIWMTLNWVRMNYMTYDYCADRKRYPHAFP  228
+
+Query  54   PECSIPIGR  62
+             EC IPIGR
+Sbjct  229  TECIIPIGR  237
+
+
+>TR:B8ATT8_ORYSI B8ATT8 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+subsp. indica OX=39946 GN=OsI_17282 PE=3 SV=1
+Length=273
+
+ Score = 65.1 bits (157),  Expect = 2e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  227  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  273
+
+
+>TR:Q7XTP8_ORYSJ Q7XTP8 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+subsp. japonica OX=39947 GN=OsJ_16058 PE=3 SV=2
+Length=273
+
+ Score = 65.1 bits (157),  Expect = 2e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  227  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  273
+
+
+>TR:Q01KK3_ORYSA Q01KK3 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+OX=4530 GN=OSIGBa0118P15.8 PE=3 SV=1
+Length=277
+
+ Score = 65.1 bits (157),  Expect = 2e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  231  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  277
+
+
+>TR:A0A0D3FZU4_9ORYZ A0A0D3FZU4 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+barthii OX=65489 PE=3 SV=1
+Length=278
+
+ Score = 65.1 bits (157),  Expect = 2e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  232  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  278
+
+
+>TR:Q0JAD6_ORYSJ Q0JAD6 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+subsp. japonica OX=39947 GN=Os04g0604300 PE=2 SV=1
+Length=280
+
+ Score = 65.1 bits (157),  Expect = 3e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  234  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  280
+
+
+>TR:A0A0E0H5L3_ORYNI A0A0E0H5L3 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+nivara OX=4536 PE=3 SV=1
+Length=281
+
+ Score = 65.1 bits (157),  Expect = 3e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  235  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  281
+
+
+>TR:I1PPG7_ORYGL I1PPG7 Xyloglucan endotransglucosylase/hydrolase OS=Oryza glaberrima 
+OX=4538 PE=3 SV=1
+Length=283
+
+ Score = 65.1 bits (157),  Expect = 3e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  237  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  283
+
+
+>TR:A0A0D9ZQ94_9ORYZ A0A0D9ZQ94 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+glumipatula OX=40148 PE=3 SV=1
+Length=283
+
+ Score = 65.1 bits (157),  Expect = 3e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  237  SPAGYDQQMDATAQQVMKWARDNYMVYDYCADSKRFPQGFPPECSMP  283
+
+
+>TR:A0A0E0PDP5_ORYRU A0A0E0PDP5 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+rufipogon OX=4529 PE=3 SV=1
+Length=284
+
+ Score = 65.1 bits (157),  Expect = 3e-12
+ Identities = 27/47 (57%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  238  SPAGYDQQMDATAQQAMKWARDNYMVYDYCADSKRFPQGFPPECSMP  284
+
+
+>TR:A0A0E0KUT6_ORYPU A0A0E0KUT6 Xyloglucan endotransglucosylase/hydrolase OS=Oryza 
+punctata OX=4537 PE=3 SV=1
+Length=274
+
+ Score = 64.3 bits (155),  Expect = 5e-12
+ Identities = 27/47 (57%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q MD  +   + W R NYMVYDYCAD +RFP  FPPECS+P
+Sbjct  228  SPAGYDQEMDATAQQAMKWARDNYMVYDYCADGKRFPQGFPPECSMP  274
+
+
+>TR:A0A2I0A769_9ASPA A0A2I0A769 Xyloglucan endotransglucosylase/hydrolase protein 
+22 OS=Apostasia shenzhenica OX=1088818 GN=XTH22 PE=4 SV=1
+Length=151
+
+ Score = 62.0 bits (149),  Expect = 7e-12
+ Identities = 24/46 (52%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            A AWM   MD  S   + WV+ N+M+Y+YC DR+RFP  FPPEC++
+Sbjct  105  AGAWMEYEMDVASQKRMRWVQRNFMIYNYCTDRKRFPQGFPPECTV  150
+
+
+>TR:A0A151UDL6_CAJCA A0A151UDL6 Xyloglucan endotransglucosylase/hydrolase protein 
+22 (Fragment) OS=Cajanus cajan OX=3821 GN=KK1_049906 PE=4 SV=1
+Length=140
+
+ Score = 61.2 bits (147),  Expect = 1e-11
+ Identities = 22/45 (49%), Positives = 32/45 (71%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            AW+++ +D  S   L+WV+ NYM+Y+YC D +RFP   PPEC+ P
+Sbjct  96   AWLSEELDSTSHQRLNWVQKNYMIYNYCTDTKRFPQGLPPECNTP  140
+
+
+>TR:C0IRG8_9ERIC C0IRG8 Xyloglucan endotransglucosylase/hydrolase OS=Actinidia 
+hemsleyana OX=165707 PE=2 SV=1
+Length=282
+
+ Score = 63.2 bits (152),  Expect = 1e-11
+ Identities = 23/43 (53%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+ + +DW S   L WV+ NYM+Y+YC D +RFP   PPECS
+Sbjct  238  AWLQEELDWTSQERLQWVQKNYMIYNYCTDLKRFPQGLPPECS  280
+
+
+>TR:A0A068U321_COFCA A0A068U321 Xyloglucan endotransglucosylase/hydrolase OS=Coffea 
+canephora OX=49390 GN=GSCOC_T00041399001 PE=3 SV=1
+Length=215
+
+ Score = 62.4 bits (150),  Expect = 1e-11
+ Identities = 24/44 (55%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q +D  S   L WV+ NYM+Y+YC D +RFP  FPPEC+I
+Sbjct  168  AWLNQELDATSQERLKWVQKNYMIYNYCTDSKRFPQSFPPECAI  211
+
+
+>TR:A0A2P2ITT2_RHIMU A0A2P2ITT2 Xyloglucan endotransglucosylase/hydrolase OS=Rhizophora 
+mucronata OX=61149 PE=3 SV=1
+Length=295
+
+ Score = 63.2 bits (152),  Expect = 1e-11
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            W+++ +D      L WV+ NYM+Y+YCAD +RFP  FPPEC +P
+Sbjct  251  WLSEELDLTKQQRLKWVQKNYMIYNYCADAKRFPQGFPPECKVP  294
+
+
+>TR:A0A2I0J7T6_PUNGR A0A2I0J7T6 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_027225 PE=4 SV=1
+Length=112
+
+ Score = 60.1 bits (144),  Expect = 2e-11
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15  AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+           +W++Q +D     +L WVR N+M+YDYCAD +RFP   PPEC +
+Sbjct  57  SWLSQELDSAGQESLRWVRKNHMIYDYCADTKRFPRGMPPECKV  100
+
+
+>TR:Q8W4U8_ORYSA Q8W4U8 Xyloglucan endotransglucosylase/hydrolase OS=Oryza sativa 
+OX=4530 PE=2 SV=1
+Length=280
+
+ Score = 62.8 bits (151),  Expect = 2e-11
+ Identities = 26/47 (55%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +PA   Q+MD  +   + W R  YMVYDYCAD +RFP  FPPECS+P
+Sbjct  234  SPAGYDQQMDATAQQAMKWARDKYMVYDYCADSKRFPQGFPPECSMP  280
+
+
+>TR:A0A059CKG4_EUCGR A0A059CKG4 Xyloglucan endotransglucosylase/hydrolase OS=Eucalyptus 
+grandis OX=71139 GN=EUGRSUZ_C00178 PE=3 SV=1
+Length=336
+
+ Score = 62.8 bits (151),  Expect = 2e-11
+ Identities = 24/44 (55%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+A+ +D  S   L WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  292  AWLAEELDSTSQERLKWVQSNYMIYNYCTDAKRFPQGFPPECSM  335
+
+
+>TR:M0TQQ9_MUSAM M0TQQ9 Xyloglucan endotransglucosylase/hydrolase OS=Musa acuminata 
+subsp. malaccensis OX=214687 PE=3 SV=1
+Length=211
+
+ Score = 61.6 bits (148),  Expect = 3e-11
+ Identities = 25/44 (57%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            W  Q +D  +   L WVR NYM+YDYC D +RFP  FPPECS P
+Sbjct  166  WWDQGLDSGALQKLKWVRDNYMIYDYCRDTKRFPQGFPPECSSP  209
+
+
+>TR:V7CBQ5_PHAVU V7CBQ5 Xyloglucan endotransglucosylase/hydrolase OS=Phaseolus 
+vulgaris OX=3885 GN=PHAVU_003G147700g PE=3 SV=1
+Length=284
+
+ Score = 62.4 bits (150),  Expect = 3e-11
+ Identities = 23/44 (52%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q MD      L WV+ NYM+Y+YC+D +RFP  FPPEC+I
+Sbjct  240  SWLSQEMDATGQQRLKWVQRNYMIYNYCSDAKRFPQGFPPECNI  283
+
+
+>TR:A0A059CJU5_EUCGR A0A059CJU5 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_C00177 PE=4 SV=1
+Length=568
+
+ Score = 62.8 bits (151),  Expect = 3e-11
+ Identities = 24/44 (55%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+A+ +D  S   L WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  524  AWLAEELDSTSQERLKWVQSNYMIYNYCTDAKRFPQGFPPECSM  567
+
+
+>TR:M0TZC7_MUSAM M0TZC7 Xyloglucan endotransglucosylase/hydrolase OS=Musa acuminata 
+subsp. malaccensis OX=214687 GN=103997615 PE=3 SV=1
+Length=281
+
+ Score = 62.0 bits (149),  Expect = 3e-11
+ Identities = 31/60 (52%), Positives = 35/60 (58%), Gaps = 1/60 (2%)
+
+Query  2    VAPGGGPRRRRAPA-WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPI  60
+            VA  G P    + A W  Q +D      L WVR NYMVYDYC D +RFP  FPPECS P+
+Sbjct  221  VAASGRPSCSASKAGWWDQGLDSGGARKLKWVRDNYMVYDYCRDAKRFPGGFPPECSQPL  280
+
+
+>TR:A0A2I0A774_9ASPA A0A2I0A774 Xyloglucan endotransglucosylase/hydrolase OS=Apostasia 
+shenzhenica OX=1088818 GN=XTH23 PE=3 SV=1
+Length=283
+
+ Score = 62.0 bits (149),  Expect = 3e-11
+ Identities = 24/46 (52%), Positives = 32/46 (70%), Gaps = 0/46 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            A AWM   MD  S   + WV+ N+M+Y+YC DR+RFP  FPPEC++
+Sbjct  237  AGAWMEYEMDVASQKRMRWVQRNFMIYNYCTDRKRFPQGFPPECTV  282
+
+
+>TR:C4N554_MUSAC C4N554 Xyloglucan endotransglycosylase/hydrolase (Fragment) OS=Musa 
+acuminata AAA Group OX=214697 GN=XTH4 PE=2 SV=1
+Length=178
+
+ Score = 60.5 bits (145),  Expect = 4e-11
+ Identities = 26/45 (58%), Positives = 29/45 (64%), Gaps = 0/45 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPI  60
+            W  Q +D      L WVR NYMVYDYC D +RFP  FPPECS P+
+Sbjct  133  WWDQGLDSGGARKLKWVRDNYMVYDYCRDAKRFPGGFPPECSQPL  177
+
+
+>TR:A0A2I0W9E5_9ASPA A0A2I0W9E5 Xyloglucan endotransglucosylase/hydrolase OS=Dendrobium 
+catenatum OX=906689 GN=XTH23 PE=3 SV=1
+Length=291
+
+ Score = 61.6 bits (148),  Expect = 5e-11
+ Identities = 28/57 (49%), Positives = 36/57 (63%), Gaps = 4/57 (7%)
+
+Query  2    VAPGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +A GGG       AWM  +MD  S   + WV+ N M+Y+YCADR+RFP   PPECS+
+Sbjct  237  MAGGGGS----GGAWMLYKMDLESRRRMRWVQRNCMIYNYCADRKRFPQGLPPECSV  289
+
+
+>TR:A0A2G5CBJ8_AQUCA A0A2G5CBJ8 Xyloglucan endotransglucosylase/hydrolase OS=Aquilegia 
+coerulea OX=218851 GN=AQUCO_06800058v1 PE=3 SV=1
+Length=293
+
+ Score = 61.6 bits (148),  Expect = 5e-11
+ Identities = 24/50 (48%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P   +  AW +Q++D  S   + WV+ NYM+Y+YCAD +RFP  FPPEC+
+Sbjct  239  PSGSKNNAWFSQQLDSTSQGRMKWVQKNYMIYNYCADTKRFPQGFPPECA  288
+
+
+>TR:E0D591_9LAMI E0D591 Xyloglucan endo-1,4-beta-D-glucanase-like protein (Fragment) 
+OS=Torenia fournieri OX=68875 GN=TfXEG2 PE=2 SV=1
+Length=51
+
+ Score = 57.0 bits (136),  Expect = 7e-11
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15  AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+           +W +Q +D      + WV+ NYM+Y+YC D++RFP  FP ECS+
+Sbjct  7   SWFSQSLDTTGQERIKWVQKNYMIYNYCTDKKRFPQGFPVECSV  50
+
+
+>TR:B9SJQ4_RICCO B9SJQ4 Xyloglucan endotransglucosylase/hydrolase OS=Ricinus communis 
+OX=3988 GN=RCOM_1629580 PE=3 SV=1
+Length=248
+
+ Score = 60.8 bits (146),  Expect = 7e-11
+ Identities = 23/42 (55%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW+ Q++D  S   L WV+ NYM+Y+YC D +RF H FPPEC
+Sbjct  203  AWLRQQLDATSLRRLKWVQKNYMIYNYCTDTKRFSHGFPPEC  244
+
+
+>TR:A0A199UB10_MANES A0A199UB10 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_S055900 PE=3 SV=1
+Length=266
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D  S   L WVR NYM+Y+YC D  RFP  FPPEC++
+Sbjct  222  SWLSEELDSTSQERLQWVRKNYMIYNYCTDANRFPQGFPPECNL  265
+
+
+>TR:A0A059CJZ9_EUCGR A0A059CJZ9 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_C00176 PE=4 SV=1
+Length=433
+
+ Score = 60.8 bits (146),  Expect = 1e-10
+ Identities = 22/44 (50%), Positives = 33/44 (75%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+++ +D  S   L WV+ NYM+Y+YC+D +RFP  FPPEC++
+Sbjct  389  AWLSEELDSTSQERLKWVQSNYMIYNYCSDAKRFPQGFPPECTM  432
+
+
+>TR:A0A2G9HSN0_9LAMI A0A2G9HSN0 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_06778 PE=3 SV=1
+Length=284
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 23/43 (53%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+ + +D  S   L WV+ NYM+Y+YC+D +RFP  FPPECSI
+Sbjct  239  WLNEELDATSQERLKWVQKNYMIYNYCSDSKRFPQGFPPECSI  281
+
+
+>TR:C5YFH5_SORBI C5YFH5 Xyloglucan endotransglucosylase/hydrolase OS=Sorghum bicolor 
+OX=4558 GN=SORBI_3006G205600 PE=3 SV=1
+Length=284
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 26/52 (50%), Positives = 32/52 (62%), Gaps = 0/52 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            P      A   Q+MD  +  ++ W R NYMVYDYCAD +RFP   PPECS+P
+Sbjct  233  PPAAATTAGYGQQMDAAAQQSMKWARDNYMVYDYCADTKRFPQGVPPECSMP  284
+
+
+>TR:A0A2G5CBH2_AQUCA A0A2G5CBH2 Xyloglucan endotransglucosylase/hydrolase OS=Aquilegia 
+coerulea OX=218851 GN=AQUCO_06800057v1 PE=3 SV=1
+Length=287
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 22/43 (51%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW +Q++D  S   + WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  240  AWFSQQLDSTSQARMKWVQKNYMIYNYCTDAKRFPQGFPPECA  282
+
+
+>TR:A0A059CJV4_EUCGR A0A059CJV4 Xyloglucan endotransglucosylase/hydrolase OS=Eucalyptus 
+grandis OX=71139 GN=EUGRSUZ_C00184 PE=3 SV=1
+Length=287
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            G G       +W+ Q +D  S   L WV+ NYM+Y+YC+D +RFP   PPEC++
+Sbjct  233  GSGAASSDGSSWLTQELDTTSQQRLKWVQQNYMIYNYCSDSKRFPQGPPPECNL  286
+
+
+>TR:A0A2J6LJP1_LACSA A0A2J6LJP1 Xyloglucan endotransglucosylase/hydrolase OS=Lactuca 
+sativa OX=4236 GN=LSAT_8X67401 PE=3 SV=1
+Length=288
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 24/54 (44%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            GG        AW+++ +D      L WV+ NYM+Y+YC+D +RFP  FPPEC I
+Sbjct  234  GGSASSGGNQAWLSEELDNTKQERLEWVQKNYMIYNYCSDSKRFPQGFPPECKI  287
+
+
+>TR:I0IK80_EUCGG I0IK80 Xyloglucan endotransglycosylase/hydrolase 4 (Fragment) 
+OS=Eucalyptus globulus subsp. globulus OX=71271 GN=XTH4 PE=4 
+SV=1
+Length=144
+
+ Score = 58.5 bits (140),  Expect = 1e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + WV+ NYM+Y+YCAD +RF   FPPECS+
+Sbjct  100  SWLSQSLDATGQQRIKWVQKNYMIYNYCADTKRFSQGFPPECSL  143
+
+
+>TR:Q4F8J1_EUCGL Q4F8J1 Putative xyloglucan endotransglycosylase/hydrolase (Fragment) 
+OS=Eucalyptus globulus OX=34317 GN=XTH4 PE=2 SV=1
+Length=144
+
+ Score = 58.5 bits (140),  Expect = 1e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + WV+ NYM+Y+YCAD +RF   FPPECS+
+Sbjct  100  SWLSQSLDATGQQRIKWVQKNYMIYNYCADTKRFSQGFPPECSL  143
+
+
+>TR:A0A2P4LIV4_QUESU A0A2P4LIV4 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_05798 PE=3 SV=1
+Length=293
+
+ Score = 60.5 bits (145),  Expect = 1e-10
+ Identities = 23/43 (53%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            WM + +D  S   L WV+ NYM+Y+YC D +RFP  FPPEC+I
+Sbjct  247  WMKEDLDTTSQARLKWVQKNYMIYNYCTDTKRFPQGFPPECAI  289
+
+
+>TR:A0A2G9H2I7_9LAMI A0A2G9H2I7 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_15676 PE=3 SV=1
+Length=272
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/46 (48%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            A +W +Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  226  ANSWFSQALDITGQQRIKWVQKNYMIYNYCTDSKRFPQGFPPECSL  271
+
+
+>TR:A0A251JDB5_MANES A0A251JDB5 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_14G145700 PE=3 SV=1
+Length=280
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D  S   L WVR NYM+Y+YC D  RFP  FPPEC++
+Sbjct  236  SWLSEELDSTSHERLQWVRNNYMIYNYCTDANRFPQGFPPECNL  279
+
+
+>TR:M4YCW2_9GENT M4YCW2 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=281
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  237  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  280
+
+
+>TR:A0A2C9UMY1_MANES A0A2C9UMY1 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_14G146000 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D  S   L WVR NYM+Y+YC D  RFP  FPPEC++
+Sbjct  241  SWLSEELDSTSQERLQWVRNNYMIYNYCTDANRFPQGFPPECNL  284
+
+
+>TR:M4YCW7_9GENT M4YCW7 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:M4YEB3_9GENT M4YEB3 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:M4YEC1_9GENT M4YEC1 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:M4YB85_9GENT M4YB85 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:M4YAQ9_9GENT M4YAQ9 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:M4YSC6_9GENT M4YSC6 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:J7HCG3_9GENT J7HCG3 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=2 SV=1
+Length=285
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:A0A2P4N534_QUESU A0A2P4N534 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_16065 PE=3 SV=1
+Length=286
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  242  SWLTQSLDTTGQQRIKWVQKNYMIYNYCTDTKRFPQGFPPECSL  285
+
+
+>TR:A0A061GQK3_THECC A0A061GQK3 Xyloglucan endotransglucosylase/hydrolase OS=Theobroma 
+cacao OX=3641 GN=TCM_038919 PE=3 SV=1
+Length=290
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWLSQELDSTSQQRLQWVQKNYMIYNYCTDAKRFPQGLPPECNM  289
+
+
+>TR:A0A061GPN2_THECC A0A061GPN2 Xyloglucan endotransglucosylase/hydrolase OS=Theobroma 
+cacao OX=3641 GN=TCM_038918 PE=3 SV=1
+Length=290
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWLSQELDSTSQQRLQWVQKNYMIYNYCTDAKRFPQGLPPECNM  289
+
+
+>TR:A0A218W0Z4_PUNGR A0A218W0Z4 Xyloglucan endotransglucosylase/hydrolase OS=Punica 
+granatum OX=22663 GN=CDL15_Pgr015217 PE=3 SV=1
+Length=297
+
+ Score = 60.1 bits (144),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D     +L WVR N+M+YDYCAD +RFP   PPEC +
+Sbjct  242  SWLSQELDSAGQESLRWVRKNHMIYDYCADTKRFPRGMPPECKV  285
+
+
+>TR:K7LWV9_SOYBN K7LWV9 Uncharacterized protein OS=Glycine max OX=3847 GN=GLYMA_13G095100 
+PE=4 SV=1
+Length=115
+
+ Score = 57.4 bits (137),  Expect = 2e-10
+ Identities = 23/42 (55%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW  Q++D  S   LSWV+ NYM+Y+YC D  RFP   PPEC
+Sbjct  71   AWFNQQLDSTSQDRLSWVQKNYMIYNYCTDTNRFPQGLPPEC  112
+
+
+>TR:A0A287K964_HORVV A0A287K964 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=176
+
+ Score = 58.5 bits (140),  Expect = 2e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  123  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  174
+
+
+>TR:A0A2I0W1S7_9ASPA A0A2I0W1S7 Xyloglucan endotransglucosylase/hydrolase OS=Dendrobium 
+catenatum OX=906689 GN=XTH23 PE=3 SV=1
+Length=281
+
+ Score = 59.7 bits (143),  Expect = 2e-10
+ Identities = 27/54 (50%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            GGG R   A  WM   MD  S   +S V+ NYM+Y+YC DR+RFP   P EC+I
+Sbjct  227  GGGSRCSGAGTWMDYEMDVTSQKRMSSVQSNYMIYNYCTDRKRFPQGLPTECTI  280
+
+
+>TR:A0A2C9ULP9_MANES A0A2C9ULP9 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_14G146100 PE=3 SV=1
+Length=285
+
+ Score = 59.7 bits (143),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D  S   L WVR NYM+Y+YC D  RFP  FPPEC++
+Sbjct  241  SWLSEELDSTSQGRLQWVRNNYMIYNYCTDANRFPQGFPPECNL  284
+
+
+>TR:M4YAR4_9GENT M4YAR4 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 59.7 bits (143),  Expect = 2e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWVQENYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:A0A2I0W1S0_9ASPA A0A2I0W1S0 Xyloglucan endotransglucosylase/hydrolase OS=Dendrobium 
+catenatum OX=906689 GN=XTH23 PE=3 SV=1
+Length=287
+
+ Score = 59.7 bits (143),  Expect = 2e-10
+ Identities = 27/54 (50%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            GGG R   A  WM   MD  S   +S V+ NYM+Y+YC DR+RFP   P EC+I
+Sbjct  233  GGGSRCSGAGTWMDYEMDVTSQKRMSSVQSNYMIYNYCTDRKRFPQGLPTECTI  286
+
+
+>TR:C6TKG4_SOYBN C6TKG4 Xyloglucan endotransglucosylase/hydrolase OS=Glycine max 
+OX=3847 PE=2 SV=1
+Length=293
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D+     L WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  226  SWLSQELDFAGHQRLKWVQKNYMIYNYCTDTKRFPQGLPPECNI  269
+
+
+>TR:A0A2P4LIT9_QUESU A0A2P4LIT9 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_05793 PE=3 SV=1
+Length=293
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 23/50 (46%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P    + AW++++MD  S   L WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  239  PSTSGSNAWLSEQMDSTSQERLQWVQKNYMIYNYCTDTKRFPQGLPPECT  288
+
+
+>TR:X5IDB4_IPONI X5IDB4 Xyloglucan endotransglucosylase/hydrolase OS=Ipomoea nil 
+OX=35883 GN=InXTH2 PE=2 SV=1
+Length=294
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 22/46 (48%), Positives = 31/46 (67%), Gaps = 0/46 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            A  W++Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  248  ANPWLSQSLDISGQQRIQWVQKNYMIYNYCTDAKRFPQGFPPECSL  293
+
+
+>TR:A0A068U3Q5_COFCA A0A068U3Q5 Xyloglucan endotransglucosylase/hydrolase OS=Coffea 
+canephora OX=49390 GN=GSCOC_T00041401001 PE=3 SV=1
+Length=294
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W +Q +D  S   L WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  247  WFSQELDATSQARLKWVQQNYMIYNYCTDAKRFPQGFPPECT  288
+
+
+>TR:A0A2G9HSN6_9LAMI A0A2G9HSN6 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_06776 PE=3 SV=1
+Length=302
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 23/43 (53%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W++Q +D  S   L WV+ NYMVY+YCAD +RFP   PPEC++
+Sbjct  248  WLSQELDSASEARLKWVQQNYMVYNYCADTKRFPRGLPPECTM  290
+
+
+>TR:F2DLJ0_HORVV F2DLJ0 Predicted protein (Fragment) OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=2 SV=1
+Length=191
+
+ Score = 58.5 bits (140),  Expect = 3e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  138  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  189
+
+
+>TR:A0A0B2QS99_GLYSO A0A0B2QS99 Putative xyloglucan endotransglucosylase/hydrolase 
+protein 23 OS=Glycine soja OX=3848 GN=glysoja_027601 PE=4 SV=1
+Length=115
+
+ Score = 57.0 bits (136),  Expect = 3e-10
+ Identities = 23/42 (55%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW  Q++D  S   LSWV+ NYM+Y+YC D  RFP   PPEC
+Sbjct  71   AWFNQQLDSTSQDRLSWVQNNYMIYNYCTDTNRFPQGLPPEC  112
+
+
+>TR:A0A287K9B9_HORVV A0A287K9B9 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=195
+
+ Score = 58.5 bits (140),  Expect = 3e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  142  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  193
+
+
+>TR:A0A2I0A760_9ASPA A0A2I0A760 Putative xyloglucan endotransglucosylase/hydrolase 
+protein 23 OS=Apostasia shenzhenica OX=1088818 GN=XTH23 PE=4 
+SV=1
+Length=428
+
+ Score = 59.7 bits (143),  Expect = 3e-10
+ Identities = 26/56 (46%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  2    VAPGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +  GG      +  WM Q +D  S   + WV+ NYMVYDYC D +RFP   PPECS
+Sbjct  219  IGGGGDSSSCGSKPWMQQALDGNSLKKMQWVQSNYMVYDYCKDVQRFPQGLPPECS  274
+
+
+>TR:A0A1R3I3M7_9ROSI A0A1R3I3M7 Xyloglucan endotransglucosylase/hydrolase OS=Corchorus 
+olitorius OX=93759 GN=COLO4_25287 PE=3 SV=1
+Length=270
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  226  SWLTQSLDTSGQARIKWVQKNYMIYNYCTDAKRFPQGFPPECSL  269
+
+
+>TR:A0A2H3ZV99_PHODC A0A2H3ZV99 Xyloglucan endotransglucosylase/hydrolase OS=Phoenix 
+dactylifera OX=42345 GN=LOC103715632 PE=3 SV=1
+Length=275
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 22/50 (44%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  9    RRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            ++  +  W  Q +D  S   + WV+ NYM+Y+YC D++RFP   PPECSI
+Sbjct  225  KKSNSAGWWNQELDSTSQQRMRWVQKNYMIYNYCTDQKRFPQGLPPECSI  274
+
+
+>TR:A0A2H3YCA5_PHODC A0A2H3YCA5 Xyloglucan endotransglucosylase/hydrolase OS=Phoenix 
+dactylifera OX=42345 GN=LOC103711946 PE=3 SV=1
+Length=280
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 24/42 (57%), Positives = 27/42 (64%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W AQ +D      L WVR  YM+YDYC D +RFP  FPPECS
+Sbjct  236  WWAQSLDSPGAQKLKWVRQKYMIYDYCKDPKRFPQGFPPECS  277
+
+
+>TR:A0A0S3R7W0_PHAAN A0A0S3R7W0 Xyloglucan endotransglucosylase/hydrolase OS=Vigna 
+angularis var. angularis OX=157739 GN=Vigan.01G475900 PE=3 
+SV=1
+Length=284
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      L WV+ NYM+Y+YC D +RFP  FPPEC+I
+Sbjct  240  SWLSQELDSAGQQRLKWVQRNYMIYNYCTDAKRFPLGFPPECNI  283
+
+
+>TR:A0A0A0LGP8_CUCSA A0A0A0LGP8 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis 
+sativus OX=3659 GN=Csa_2G049350 PE=3 SV=1
+Length=284
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q++D      L WV+ NYMVY+YC D +RF H  PPECS+
+Sbjct  241  SWLSQQLDSAGRQRLKWVQRNYMVYNYCTDSKRFSHGLPPECSV  284
+
+
+>TR:A0A0L9TF39_PHAAN A0A0L9TF39 Xyloglucan endotransglucosylase/hydrolase OS=Phaseolus 
+angularis OX=3914 GN=LR48_Vigan627s007100 PE=3 SV=1
+Length=284
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      L WV+ NYM+Y+YC D +RFP  FPPEC+I
+Sbjct  240  SWLSQELDSAGQQRLKWVQRNYMIYNYCTDAKRFPLGFPPECNI  283
+
+
+>TR:A0A1S3UUX1_VIGRR A0A1S3UUX1 Xyloglucan endotransglucosylase/hydrolase OS=Vigna 
+radiata var. radiata OX=3916 GN=LOC106768904 PE=3 SV=1
+Length=284
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      L WV+ NYM+Y+YC D +RFP  FPPEC+I
+Sbjct  240  SWLSQELDSAGQQRLKWVQRNYMIYNYCTDAKRFPLGFPPECNI  283
+
+
+>TR:M4YCV7_9GENT M4YCV7 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L WV+ NYM+Y+YC D +RFP  +PPEC +
+Sbjct  241  AWLNEELDATSQQRLQWVQKNYMIYNYCTDAKRFPQGYPPECDV  284
+
+
+>TR:A0A2I0A786_9ASPA A0A2I0A786 Xyloglucan endotransglucosylase/hydrolase OS=Apostasia 
+shenzhenica OX=1088818 GN=XTH25 PE=3 SV=1
+Length=286
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 25/52 (48%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG    R+  WM   +D  S   + W + NYMVYDYC+D +RFP   PPECS
+Sbjct  233  GGNSSCRSKPWMQGALDGESLKKMQWAQKNYMVYDYCSDVKRFPQGLPPECS  284
+
+
+>TR:A0A251UNP0_HELAN A0A251UNP0 Xyloglucan endotransglucosylase/hydrolase OS=Helianthus 
+annuus OX=4232 GN=XTR6 PE=3 SV=1
+Length=288
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+++ +D      L WV+ NYM+Y+YC+D +RFP  FPPEC++
+Sbjct  244  AWLSEELDNTKQERLRWVQKNYMIYNYCSDSKRFPQGFPPECNV  287
+
+
+>TR:A0A2J6LJI5_LACSA A0A2J6LJI5 Xyloglucan endotransglucosylase/hydrolase OS=Lactuca 
+sativa OX=4236 GN=LSAT_8X67360 PE=3 SV=1
+Length=288
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 23/54 (43%), Positives = 33/54 (61%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            GG        AW+++ +D      L WV+ NYM+Y+YC+D +RFP  FPPEC +
+Sbjct  234  GGSASSGGNQAWLSEELDNTKQERLEWVQKNYMIYNYCSDSKRFPQGFPPECKM  287
+
+
+>TR:B9SAD7_RICCO B9SAD7 Xyloglucan:xyloglucosyl transferase, putative OS=Ricinus 
+communis OX=3988 GN=RCOM_0585140 PE=4 SV=1
+Length=140
+
+ Score = 57.4 bits (137),  Expect = 3e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D  S   L WV+ NYM+Y+YC D +RFP   PPECS+
+Sbjct  76   SWVSEELDSISQEKLQWVQKNYMIYNYCTDTKRFPQGLPPECSM  119
+
+
+>TR:I1MSS9_SOYBN I1MSS9 Xyloglucan endotransglucosylase/hydrolase OS=Glycine max 
+OX=3847 GN=100801634 PE=3 SV=1
+Length=292
+
+ Score = 59.3 bits (142),  Expect = 3e-10
+ Identities = 23/42 (55%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW +Q++D  S   LSWV+ NYM+Y+YC D +RFP   PPEC
+Sbjct  248  AWFSQQLDSTSQDRLSWVQKNYMIYNYCTDTKRFPQGLPPEC  289
+
+
+>TR:A0A1U8ACC5_NELNU A0A1U8ACC5 Xyloglucan endotransglucosylase/hydrolase OS=Nelumbo 
+nucifera OX=4432 GN=LOC104599119 PE=3 SV=1
+Length=305
+
+ Score = 59.3 bits (142),  Expect = 4e-10
+ Identities = 24/43 (56%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            WM+Q MD  S   L WV+ N+MVY+YC D +RFP   PPEC+I
+Sbjct  259  WMSQEMDSTSQKRLRWVQRNFMVYNYCTDFKRFPQGLPPECTI  301
+
+
+>TR:W1PIE0_AMBTC W1PIE0 Xyloglucan endotransglucosylase/hydrolase OS=Amborella 
+trichopoda OX=13333 GN=AMTR_s00019p00243410 PE=3 SV=1
+Length=312
+
+ Score = 59.3 bits (142),  Expect = 4e-10
+ Identities = 26/48 (54%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            W  Q MD  +   L WV+ NYMVYDYC D RRFP  FP ECS+ + +S
+Sbjct  264  WFNQGMDSTAEERLKWVQKNYMVYDYCKDTRRFPQGFPSECSLFLPKS  311
+
+
+>TR:A0A2P5C4L2_PARAD A0A2P5C4L2 Xyloglucan endotransglucosylase/hydrolase (Fragment) 
+OS=Parasponia andersonii OX=3476 GN=PanWU01x14_184280 PE=4 
+SV=1
+Length=130
+
+ Score = 57.0 bits (136),  Expect = 4e-10
+ Identities = 21/42 (50%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W+ Q +D      L WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  87   WLNQDVDLTGGKNLKWVQKNYMIYNYCTDAKRFPQGFPPECN  128
+
+
+>TR:A0A1R3HLJ8_COCAP A0A1R3HLJ8 Xyloglucan endotransglucosylase/hydrolase OS=Corchorus 
+capsularis OX=210143 GN=CCACVL1_18399 PE=3 SV=1
+Length=347
+
+ Score = 59.3 bits (142),  Expect = 4e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  303  SWLTQSLDTSGQARIKWVQKNYMIYNYCTDAKRFPQGFPPECSL  346
+
+
+>TR:A0A2K3JUY4_TRIPR A0A2K3JUY4 Xyloglucan endotransglucosylase/hydrolase (Fragment) 
+OS=Trifolium pratense OX=57577 GN=L195_g050592 PE=4 SV=1
+Length=116
+
+ Score = 56.6 bits (135),  Expect = 4e-10
+ Identities = 22/43 (51%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW +Q++D  S   LSWV+ NYM+Y+YC D +RFP   P EC+
+Sbjct  72   AWYSQQLDSTSQQRLSWVQKNYMIYNYCNDTKRFPQGLPTECT  114
+
+
+>TR:A0A1R3KRL3_9ROSI A0A1R3KRL3 Xyloglucan endotransglucosylase/hydrolase OS=Corchorus 
+olitorius OX=93759 GN=COLO4_05212 PE=3 SV=1
+Length=283
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  239  AWLSQELDATSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  282
+
+
+>TR:Q84JX3_CUCSA Q84JX3 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis sativus 
+OX=3659 GN=XTH1 PE=2 SV=1
+Length=283
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/45 (49%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +W++Q MD  S   L WV+ NYM+Y+YC D +RFP   P EC++P
+Sbjct  239  SWLSQEMDSASQERLKWVQKNYMIYNYCTDTKRFPQGLPTECNLP  283
+
+
+>TR:A0A2C9V1Q6_MANES A0A2C9V1Q6 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_11G115200 PE=3 SV=1
+Length=284
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 21/43 (49%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS
+Sbjct  240  SWLTQSLDTTGQARIKWVQKNYMIYNYCTDTKRFPQGFPPECS  282
+
+
+>TR:A0A0D6QTF1_ARACU A0A0D6QTF1 Xyloglucan endotransglucosylase/hydrolase OS=Araucaria 
+cunninghamii OX=56994 PE=3 SV=1
+Length=284
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 24/43 (56%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W  Q +D      L+WVR NYM+YDYCAD  RFP  FPPEC+
+Sbjct  239  SWWNQGLDSSQREKLAWVRKNYMIYDYCADSTRFPQGFPPECA  281
+
+
+>TR:A0A067KVY4_JATCU A0A067KVY4 Xyloglucan endotransglucosylase/hydrolase OS=Jatropha 
+curcas OX=180498 GN=JCGZ_08704 PE=3 SV=1
+Length=286
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/43 (51%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPECS+
+Sbjct  243  WLSQELDATSQDRLQWVQQNYMIYNYCTDTKRFPQGIPPECSM  285
+
+
+>TR:A0A2I0W9D2_9ASPA A0A2I0W9D2 Xyloglucan endotransglucosylase/hydrolase OS=Dendrobium 
+catenatum OX=906689 GN=XTH23 PE=3 SV=1
+Length=286
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 24/43 (56%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AWM Q +D  S   + WV+ NYMVY+YC+D +RFP   PPECS
+Sbjct  242  AWMNQALDAESLKKMKWVQSNYMVYNYCSDVKRFPQGLPPECS  284
+
+
+>TR:B4FTH5_MAIZE B4FTH5 Xyloglucan endotransglucosylase/hydrolase OS=Zea mays 
+OX=4577 GN=100285134 PE=2 SV=1
+Length=286
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 27/58 (47%), Positives = 34/58 (59%), Gaps = 4/58 (7%)
+
+Query  4    PGGGPRRRRAPA----WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P G  R    PA    WM++++D   W T++W R NYM Y+YC D  RFP  FP ECS
+Sbjct  227  PDGDGRPLSCPAGTDRWMSRQLDAAEWGTVAWARQNYMHYNYCDDGWRFPQGFPAECS  284
+
+
+>TR:A0A2J6LJL5_LACSA A0A2J6LJL5 Xyloglucan endotransglucosylase/hydrolase OS=Lactuca 
+sativa OX=4236 GN=LSAT_8X67581 PE=3 SV=1
+Length=287
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  14   PAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            PAW+++ +D      L W + NYM+Y+YC+D +RFP  FPPEC
+Sbjct  242  PAWLSEELDNTKQERLRWAQKNYMIYNYCSDSKRFPQGFPPEC  284
+
+
+>TR:A0A061GXF9_THECC A0A061GXF9 Xyloglucan endotransglucosylase/hydrolase OS=Theobroma 
+cacao OX=3641 GN=TCM_038912 PE=3 SV=1
+Length=290
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQELDSSSQQRLQWVQKNYMIYNYCTDAKRFPQGLPPECNM  289
+
+
+>TR:A0A0B0N3N6_GOSAR A0A0B0N3N6 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+arboreum OX=29729 GN=F383_12649 PE=3 SV=1
+Length=292
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC +
+Sbjct  248  AWFSQEMDSAKMQRLQWVQQNYMIYNYCTDAKRFPQGLPPECKM  291
+
+
+>TR:A0A2P4GWV4_QUESU A0A2P4GWV4 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_53099 PE=3 SV=1
+Length=292
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/43 (51%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W++Q +D  S   L WV+ NYM+Y+YC+D +RFP   PPECS
+Sbjct  249  SWLSQELDSASQEKLKWVQKNYMIYNYCSDTKRFPQGLPPECS  291
+
+
+>TR:A0A2P4N9L4_QUESU A0A2P4N9L4 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_35879 PE=3 SV=1
+Length=293
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  249  AWLSQELDSTSQDRLKWVQKNYMIYNYCTDSKRFPQGLPPECTM  292
+
+
+>TR:A0A2P4LIU6_QUESU A0A2P4LIU6 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_05800 PE=3 SV=1
+Length=293
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  249  AWLSQELDSTSQDRLKWVQKNYMIYNYCTDSKRFPQGLPPECTM  292
+
+
+>TR:C4N553_MUSAC C4N553 Xyloglucan endotransglycosylase/hydrolase (Fragment) OS=Musa 
+acuminata AAA Group OX=214697 GN=XTH3 PE=2 SV=1
+Length=185
+
+ Score = 57.8 bits (138),  Expect = 5e-10
+ Identities = 23/46 (50%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            A  W +Q +D  S   + WV+ NYM+Y YC D +RFP  FPPECS+
+Sbjct  139  ARGWWSQELDTPSQDRMRWVQKNYMIYHYCTDLKRFPQGFPPECSM  184
+
+
+>TR:A0A2N9IMD9_FAGSY A0A2N9IMD9 Xyloglucan endotransglucosylase/hydrolase OS=Fagus 
+sylvatica OX=28930 GN=FSB_LOCUS53326 PE=3 SV=1
+Length=315
+
+ Score = 58.9 bits (141),  Expect = 5e-10
+ Identities = 22/43 (51%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+++ MD  S   L+WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  268  AWLSEEMDSASQERLNWVQKNYMIYNYCTDTKRFPQGLPPECT  310
+
+
+>TR:I0IK79_9MYRT I0IK79 Xyloglucan endotransglycosylase/hydrolase 4 (Fragment) 
+OS=Eucalyptus pyrocarpa OX=904381 GN=XTH4 PE=4 SV=1
+Length=144
+
+ Score = 57.0 bits (136),  Expect = 5e-10
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + W + NYM+Y+YCAD +RF   FPPECS+
+Sbjct  100  SWLSQSLDATGQQRIKWAQKNYMIYNYCADTKRFSQGFPPECSL  143
+
+
+>TR:I0IK77_9MYRT I0IK77 Xyloglucan endotransglycosylase/hydrolase 4 (Fragment) 
+OS=Eucalyptus pilularis OX=106643 GN=XTH4 PE=4 SV=1
+Length=144
+
+ Score = 57.0 bits (136),  Expect = 5e-10
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + W + NYM+Y+YCAD +RF   FPPECS+
+Sbjct  100  SWLSQSLDATGQQRIKWAQKNYMIYNYCADTKRFSQGFPPECSL  143
+
+
+>TR:A0A2P2IUI0_RHIMU A0A2P2IUI0 Uncharacterized protein MANES_14G152200 OS=Rhizophora 
+mucronata OX=61149 PE=4 SV=1
+Length=111
+
+ Score = 56.2 bits (134),  Expect = 5e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q++D  S   L WV+ NYM+Y YC D +RFP   P ECS+
+Sbjct  64   AWFSQQLDSTSQKQLKWVQKNYMIYSYCTDAKRFPQGPPAECSV  107
+
+
+>TR:A0A1S4A6G3_TOBAC A0A1S4A6G3 Xyloglucan endotransglucosylase/hydrolase OS=Nicotiana 
+tabacum OX=4097 GN=LOC107794227 PE=3 SV=1
+Length=259
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/51 (41%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P      +W+++ +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  208  PNNSTENSWLSESLDNTGQSKIKWVQNNYMIYNYCTDTKRFPQGFPPECSL  258
+
+
+>TR:U5DAH3_AMBTC U5DAH3 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00062p00017730 PE=4 SV=1
+Length=101
+
+ Score = 55.8 bits (133),  Expect = 6e-10
+ Identities = 24/48 (50%), Positives = 32/48 (67%), Gaps = 1/48 (2%)
+
+Query  12  RAPAWMAQR-MDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+           +A AW++Q  +D      L WV+ NYMVY+YC D +RF   FPPECS+
+Sbjct  52  KASAWLSQEALDTNEQEKLKWVQKNYMVYNYCTDTKRFTQGFPPECSL  99
+
+
+>TR:J3M152_ORYBR J3M152 Xyloglucan endotransglucosylase/hydrolase OS=Oryza brachyantha 
+OX=4533 GN=102713348 PE=3 SV=1
+Length=278
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 25/46 (54%), Positives = 29/46 (63%), Gaps = 0/46 (0%)
+
+Query  14   PAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            PA   Q MD  +   + W R NYMVYDYC D +RFP  FPPEC +P
+Sbjct  233  PAGYDQEMDATAQQAMKWARDNYMVYDYCQDGKRFPLGFPPECYMP  278
+
+
+>TR:A0A1U7VFJ6_NICSY A0A1U7VFJ6 Xyloglucan endotransglucosylase/hydrolase OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104212941 PE=3 SV=1
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/51 (41%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P      +W+++ +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  228  PNNSTENSWLSESLDNTGQSKIKWVQNNYMIYNYCTDTKRFPQGFPPECSL  278
+
+
+>TR:A0A1J6J3S2_NICAT A0A1J6J3S2 Xyloglucan endotransglucosylase/hydrolase OS=Nicotiana 
+attenuata OX=49451 GN=XTH23_0 PE=3 SV=1
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  235  SWLSESLDSTGQSRIKWVQSNYMIYNYCTDTKRFPQGFPPECSL  278
+
+
+>TR:A0A1S3ZHF2_TOBAC A0A1S3ZHF2 Xyloglucan endotransglucosylase/hydrolase OS=Nicotiana 
+tabacum OX=4097 GN=LOC107786882 PE=3 SV=1
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++ +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  235  SWLSESLDSTGQSRIKWVQSNYMIYNYCTDTKRFPQGFPPECSL  278
+
+
+>TR:A0A1S4A6B8_TOBAC A0A1S4A6B8 Xyloglucan endotransglucosylase/hydrolase OS=Nicotiana 
+tabacum OX=4097 GN=LOC107794227 PE=3 SV=1
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/51 (41%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P      +W+++ +D      + WV+ NYM+Y+YC D +RFP  FPPECS+
+Sbjct  228  PNNSTENSWLSESLDNTGQSKIKWVQNNYMIYNYCTDTKRFPQGFPPECSL  278
+
+
+>TR:A0A287K960_HORVV A0A287K960 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=3 SV=1
+Length=279
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  226  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  277
+
+
+>TR:A0A2P5WBV6_GOSBA A0A2P5WBV6 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_AA32118 PE=3 SV=1
+Length=280
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/45 (47%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P EC++P
+Sbjct  236  SWLSQELDITSQERLKWVQKNYMIYNYCTDTKRFPQGLPKECTVP  280
+
+
+>TR:A0A0K9RRH8_SPIOL A0A0K9RRH8 Xyloglucan endotransglucosylase/hydrolase OS=Spinacia 
+oleracea OX=3562 GN=SOVF_036560 PE=3 SV=1
+Length=280
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 25/57 (44%), Positives = 34/57 (60%), Gaps = 0/57 (0%)
+
+Query  2    VAPGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            V+  G      A +WM Q++D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  223  VSTNGRTTCNTASSWMNQQLDATSQSRLQWVQKNYMIYNYCVDIQRFPQGLPKECSV  279
+
+
+>TR:A0A2G9HYU9_9LAMI A0A2G9HYU9 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_04606 PE=3 SV=1
+Length=280
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/42 (50%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW +Q +D +    L WV+ N+M+Y+YC D +RFP  FPPEC
+Sbjct  237  AWQSQELDAYGRRRLRWVQKNFMIYNYCTDHKRFPQGFPPEC  278
+
+
+>TR:A0A151UFB5_CAJCA A0A151UFB5 Xyloglucan endotransglucosylase/hydrolase OS=Cajanus 
+cajan OX=3821 GN=KK1_049987 PE=3 SV=1
+Length=281
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 23/42 (55%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW +Q +D  S   LSWV+ NYM+Y+YC D  RFP   PPEC
+Sbjct  237  AWFSQELDSTSQERLSWVQKNYMIYNYCTDTNRFPQGLPPEC  278
+
+
+>TR:V7CCR5_PHAVU V7CCR5 Xyloglucan endotransglucosylase/hydrolase OS=Phaseolus 
+vulgaris OX=3885 GN=PHAVU_003G137600g PE=3 SV=1
+Length=283
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q MD      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  SWMKQSMDATGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:A0A0S3R847_PHAAN A0A0S3R847 Xyloglucan endotransglucosylase/hydrolase OS=Vigna 
+angularis var. angularis OX=157739 GN=Vigan.01G486200 PE=3 
+SV=1
+Length=283
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q MD      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  SWMKQSMDATGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:A0A0L9TG74_PHAAN A0A0L9TG74 Xyloglucan endotransglucosylase/hydrolase OS=Phaseolus 
+angularis OX=3914 GN=LR48_Vigan728s002600 PE=3 SV=1
+Length=283
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q MD      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  SWMKQSMDATGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:A0A1S3ULZ7_VIGRR A0A1S3ULZ7 Xyloglucan endotransglucosylase/hydrolase OS=Vigna 
+radiata var. radiata OX=3916 GN=LOC106766747 PE=3 SV=1
+Length=283
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q MD      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  SWMKQSMDATGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:M4YSC7_9GENT M4YSC7 Xyloglucan endotransglucosylase/hydrolase OS=Neolamarckia 
+cadamba OX=153762 GN=XTH1 PE=3 SV=1
+Length=285
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ + +D  S   L W + NYM+Y+YC D +RFP  +PPEC+I
+Sbjct  241  AWLNEELDATSQQRLQWAQKNYMIYNYCTDAKRFPQGYPPECAI  284
+
+
+>TR:Q06BI4_CUCME Q06BI4 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis melo 
+OX=3656 GN=XTH3 PE=2 SV=1
+Length=285
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 22/45 (49%), Positives = 30/45 (67%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            +W+++ MD  S   L WV+ NYM+Y+YC D RRFP   P EC +P
+Sbjct  241  SWLSEEMDSVSQERLKWVQKNYMIYNYCTDTRRFPQGLPTECKLP  285
+
+
+>TR:A0A0R0GKM0_SOYBN A0A0R0GKM0 Xyloglucan endotransglucosylase/hydrolase OS=Glycine 
+max OX=3847 GN=100787440 PE=3 SV=1
+Length=285
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      L WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  241  SWLSQELDATGHQRLKWVQKNYMIYNYCTDTKRFPQGLPPECNI  284
+
+
+>TR:A0A2S3IA26_9POAL A0A2S3IA26 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_7G280800 PE=4 SV=1
+Length=286
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 24/41 (59%), Positives = 28/41 (68%), Gaps = 0/41 (0%)
+
+Query  19   QRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            Q MD  +   + W R NYMVYDYCAD +RFP   PPECS+P
+Sbjct  246  QEMDAAAQQAMKWARDNYMVYDYCADGKRFPQGVPPECSMP  286
+
+
+>TR:A0A2T7CZK5_9POAL A0A2T7CZK5 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_7G273300 PE=4 SV=1
+Length=286
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 24/41 (59%), Positives = 28/41 (68%), Gaps = 0/41 (0%)
+
+Query  19   QRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            Q MD  +   + W R NYMVYDYCAD +RFP   PPECS+P
+Sbjct  246  QEMDAAAQQAMKWARDNYMVYDYCADGKRFPQGVPPECSMP  286
+
+
+>TR:A0A251UM65_HELAN A0A251UM65 Xyloglucan endotransglucosylase/hydrolase OS=Helianthus 
+annuus OX=4232 GN=XTR3 PE=3 SV=1
+Length=287
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+++ +D      L WV+ NYM+Y+YC+D +RFP  FPPEC +
+Sbjct  243  AWLSEELDITKQERLRWVQKNYMIYNYCSDSKRFPQGFPPECQM  286
+
+
+>TR:A0A0K9RRH7_SPIOL A0A0K9RRH7 Xyloglucan endotransglucosylase/hydrolase OS=Spinacia 
+oleracea OX=3562 GN=SOVF_036570 PE=3 SV=1
+Length=288
+
+ Score = 58.5 bits (140),  Expect = 6e-10
+ Identities = 26/53 (49%), Positives = 33/53 (62%), Gaps = 1/53 (2%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            G G  R  +P WM Q++D  S   L WV+ NYM+Y+YC D +RFP   P ECS
+Sbjct  234  GSGQARASSP-WMNQQLDSTSQKRLQWVQKNYMIYNYCTDIQRFPQGLPKECS  285
+
+
+>TR:A0A2K3MBZ3_TRIPR A0A2K3MBZ3 Xyloglucan endotransglucosylase/hydrolase OS=Trifolium 
+pratense OX=57577 GN=L195_g044414 PE=4 SV=1
+Length=89
+
+ Score = 55.5 bits (132),  Expect = 6e-10
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15  AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+           AW +Q++D  S   L+WV+ NYM+Y+YC D +RFP   P EC+
+Sbjct  45  AWYSQQLDSTSQQRLNWVQKNYMIYNYCNDSKRFPQGLPTECT  87
+
+
+>TR:A0A059D2T3_EUCGR A0A059D2T3 Xyloglucan endotransglucosylase/hydrolase OS=Eucalyptus 
+grandis OX=71139 GN=EUGRSUZ_B01596 PE=3 SV=1
+Length=289
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + WV+ NYM+Y+YCAD +RF   FPPECS+
+Sbjct  245  SWLSQSLDATGQQRIKWVQKNYMIYNYCADTKRFSQGFPPECSL  288
+
+
+>TR:A0A251UM62_HELAN A0A251UM62 Xyloglucan endotransglucosylase/hydrolase OS=Helianthus 
+annuus OX=4232 GN=HannXRQ_Chr05g0137211 PE=3 SV=1
+Length=289
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 21/45 (47%), Positives = 31/45 (69%), Gaps = 0/45 (0%)
+
+Query  14   PAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P W+++ +D      L W + NYM+Y+YC+D +RFP  FPPECS+
+Sbjct  244  PGWLSEDLDNTKQERLRWAQKNYMIYNYCSDSKRFPQGFPPECSM  288
+
+
+>TR:A0A1U8PLV0_GOSHI A0A1U8PLV0 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+hirsutum OX=3635 GN=LOC107960336 PE=3 SV=1
+Length=292
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 22/44 (50%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC +
+Sbjct  248  AWFSQEMDSAKQQRLQWVQQNYMIYNYCTDAKRFPQGLPPECKM  291
+
+
+>TR:A0A2P4LIX4_QUESU A0A2P4LIX4 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_05807 PE=3 SV=1
+Length=292
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 22/42 (52%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W++Q +D  S   L WV+ NYM+Y+YC+D +RFP   PPECS
+Sbjct  250  WLSQELDSASQERLKWVQKNYMIYNYCSDTKRFPQGLPPECS  291
+
+
+>TR:A0A2P5XRP1_GOSBA A0A2P5XRP1 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_AA14688 PE=3 SV=1
+Length=292
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 22/44 (50%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC +
+Sbjct  248  AWFSQEMDSAKQQRLQWVQQNYMIYNYCTDAKRFPQGLPPECKM  291
+
+
+>TR:A0A287K9B5_HORVV A0A287K9B5 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=3 SV=1
+Length=298
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  245  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  296
+
+
+>TR:A0A287K963_HORVV A0A287K963 Xyloglucan endotransglucosylase/hydrolase OS=Hordeum 
+vulgare subsp. vulgare OX=112509 PE=3 SV=1
+Length=316
+
+ Score = 58.5 bits (140),  Expect = 7e-10
+ Identities = 24/52 (46%), Positives = 30/52 (58%), Gaps = 0/52 (0%)
+
+Query  6    GGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG     +  WM +++D   W T+ W   NYM Y+YCAD  RFP  FP ECS
+Sbjct  263  GGACHAGSDGWMNRQLDGSEWGTVKWAEQNYMRYNYCADGYRFPQGFPAECS  314
+
+
+>TR:A0A287J6Z2_HORVV A0A287J6Z2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=48
+
+ Score = 54.3 bits (129),  Expect = 7e-10
+ Identities = 22/41 (54%), Positives = 27/41 (66%), Gaps = 0/41 (0%)
+
+Query  19  QRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+           Q MD  +   + W R  YMVY+YCADR RFP+  PPEC +P
+Sbjct  8   QEMDATAQQAMKWARDTYMVYNYCADRTRFPYGSPPECYMP  48
+
+
+>TR:A0A0D2NAU4_GOSRA A0A0D2NAU4 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_005G113400 PE=3 SV=1
+Length=212
+
+ Score = 57.8 bits (138),  Expect = 7e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  168  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDAKRFPQGLPPECNM  211
+
+
+>TR:A0A067DIA0_CITSI A0A067DIA0 Xyloglucan endotransglucosylase/hydrolase (Fragment) 
+OS=Citrus sinensis OX=2711 GN=CISIN_1g047166mg PE=3 SV=1
+Length=249
+
+ Score = 58.2 bits (139),  Expect = 7e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q+MD  +   L WVR N+M+Y+YC D +RFP  FP EC++
+Sbjct  205  AWLLQQMDSTNQRRLYWVRKNHMIYNYCTDTKRFPQGFPKECAV  248
+
+
+>TR:A0A2P5FJH2_9ROSA A0A2P5FJH2 Xyloglucan endotransglucosylase/hydrolase (Fragment) 
+OS=Trema orientalis OX=63057 GN=TorRG33x02_062660 PE=4 SV=1
+Length=130
+
+ Score = 56.2 bits (134),  Expect = 8e-10
+ Identities = 21/42 (50%), Positives = 28/42 (67%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W+ Q +D      L WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  87   WLNQDVDLNGGKNLKWVQKNYMIYNYCTDAKRFPQGFPPECN  128
+
+
+>TR:V4UQS0_9ROSI V4UQS0 Xyloglucan endotransglucosylase/hydrolase OS=Citrus clementina 
+OX=85681 GN=CICLE_v10010412mg PE=3 SV=1
+Length=267
+
+ Score = 58.2 bits (139),  Expect = 8e-10
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q+MD  +   L WVR N+M+Y+YC D +RFP  FP EC++
+Sbjct  223  AWLLQQMDSTNQRRLYWVRKNHMIYNYCTDTKRFPQGFPKECAV  266
+
+
+>TR:A0A0D2QR05_GOSRA A0A0D2QR05 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_004G030500 PE=3 SV=1
+Length=280
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/45 (49%), Positives = 30/45 (67%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   P EC+ P
+Sbjct  236  AWLSQELDITSQERLKWVQKNYMIYNYCTDTKRFPQGLPKECTAP  280
+
+
+>TR:A0A0D2RSL4_GOSRA A0A0D2RSL4 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_004G030600 PE=3 SV=1
+Length=281
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/45 (49%), Positives = 30/45 (67%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   P EC+ P
+Sbjct  237  AWLSQELDITSQERLKWVQKNYMIYNYCTDTKRFPQGLPKECTAP  281
+
+
+>TR:I1GWK0_BRADI I1GWK0 Xyloglucan endotransglucosylase/hydrolase OS=Brachypodium 
+distachyon OX=15368 GN=LOC100845857 PE=3 SV=1
+Length=283
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 26/54 (48%), Positives = 32/54 (59%), Gaps = 7/54 (13%)
+
+Query  4    PGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            PGG P       WM Q +D  +   L WV+ NYM+Y+YCAD  RFP   PPEC+
+Sbjct  235  PGGSP-------WMYQELDSTAQERLRWVQSNYMIYNYCADTWRFPQGVPPECT  281
+
+
+>TR:A0A151QUG5_CAJCA A0A151QUG5 Xyloglucan endotransglucosylase/hydrolase OS=Cajanus 
+cajan OX=3821 GN=KK1_045221 PE=3 SV=1
+Length=283
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q +D      + WV+ NYM+Y+YCAD +RFP   PPEC++
+Sbjct  239  AWLKQSLDATGQARIKWVQKNYMIYNYCADTKRFPQGLPPECTL  282
+
+
+>TR:A0A0Q3JZC4_BRADI A0A0Q3JZC4 Xyloglucan endotransglucosylase/hydrolase OS=Brachypodium 
+distachyon OX=15368 GN=BRADI_1g33827v3 PE=3 SV=1
+Length=284
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 26/54 (48%), Positives = 32/54 (59%), Gaps = 7/54 (13%)
+
+Query  4    PGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            PGG P       WM Q +D  +   L WV+ NYM+Y+YCAD  RFP   PPEC+
+Sbjct  236  PGGSP-------WMYQELDSTAQERLRWVQSNYMIYNYCADTWRFPQGVPPECT  282
+
+
+>TR:N0DX45_CUCSA N0DX45 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis sativus 
+OX=3659 GN=xth7 PE=3 SV=1
+Length=284
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+++++D      L WV+ NYMVY+YC D +RF H  PPECS+
+Sbjct  241  SWLSEQLDSAGRQRLKWVQRNYMVYNYCTDSKRFSHGLPPECSV  284
+
+
+>TR:A0A2G9HSV3_9LAMI A0A2G9HSV3 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_06775 PE=3 SV=1
+Length=284
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 23/41 (56%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            WM+Q +D  S   L WV+ NYM+Y+YC+D +RFP  FPPEC
+Sbjct  242  WMSQNLDPNSEEKLKWVQKNYMIYNYCSDGKRFPGGFPPEC  282
+
+
+>TR:A0A2G9FW38_9LAMI A0A2G9FW38 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_30253 PE=3 SV=1
+Length=284
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 23/41 (56%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            WM+Q +D  S   L WV+ NYM+Y+YC+D +RFP  FPPEC
+Sbjct  242  WMSQNLDPNSEEKLKWVQKNYMIYNYCSDGKRFPGGFPPEC  282
+
+
+>TR:W1PI40_AMBTC W1PI40 Xyloglucan endotransglucosylase/hydrolase OS=Amborella 
+trichopoda OX=13333 GN=AMTR_s00019p00242980 PE=3 SV=1
+Length=286
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 23/43 (53%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W  Q +D      L WV+ NYM+YDYC D +RFP  FPPECS+
+Sbjct  242  WRTQALDPSKEEKLKWVQKNYMIYDYCKDLKRFPQGFPPECSL  284
+
+
+>TR:A0A067XSJ2_DIOKA A0A067XSJ2 Xyloglucan endotransglucosylase/hydrolase OS=Diospyros 
+kaki OX=35925 GN=XTH5 PE=2 SV=1
+Length=287
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/44 (50%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L W++ NYM+Y+YCAD +RFP   PPECS+
+Sbjct  243  SWLSQELDSTSQERLRWLQKNYMIYNYCADAKRFPQGPPPECSL  286
+
+
+>TR:A0A1U8NS84_GOSHI A0A1U8NS84 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+hirsutum OX=3635 GN=LOC107950558 PE=3 SV=1
+Length=287
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 23/44 (52%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D  RFP   PPECS+
+Sbjct  243  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDANRFPQGLPPECSM  286
+
+
+>TR:A0A061ENV7_THECC A0A061ENV7 Xyloglucan endotransglucosylase/hydrolase OS=Theobroma 
+cacao OX=3641 GN=TCM_021336 PE=3 SV=1
+Length=290
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q +D  S   L WV  NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQELDSTSQQRLQWVPKNYMIYNYCTDAKRFPQGLPPECNM  289
+
+
+>TR:B9IM12_POPTR B9IM12 Xyloglucan endotransglucosylase/hydrolase OS=Populus trichocarpa 
+OX=3694 GN=POPTR_018G094800v3 PE=3 SV=2
+Length=292
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W+ ++ D  S+  L WV+ N+M+Y+YC D +RFP  FPPECS+
+Sbjct  247  SWLWKQFDATSFQRLKWVQKNFMIYNYCTDTKRFPLGFPPECSV  290
+
+
+>TR:A0A2P4GWZ8_QUESU A0A2P4GWZ8 Xyloglucan endotransglucosylase/hydrolase OS=Quercus 
+suber OX=58331 GN=CFP56_53098 PE=3 SV=1
+Length=292
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/43 (51%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W++Q +D  S   L WV+ NYM+Y+YC+D  RFP   PPECS
+Sbjct  249  SWLSQELDSASQERLKWVQKNYMIYNYCSDTNRFPQGLPPECS  291
+
+
+>TR:A0A2N9G7A5_FAGSY A0A2N9G7A5 Xyloglucan endotransglucosylase/hydrolase OS=Fagus 
+sylvatica OX=28930 GN=FSB_LOCUS23285 PE=3 SV=1
+Length=292
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+ + +D+     L WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  246  AWLKEDLDFTRQERLKWVQKNYMIYNYCTDTKRFPQGFPPECA  288
+
+
+>TR:Q9ZRV1_FAGSY Q9ZRV1 Xyloglucan endotransglucosylase/hydrolase OS=Fagus sylvatica 
+OX=28930 PE=2 SV=1
+Length=292
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+ + +D+     L WV+ NYM+Y+YC D +RFP  FPPEC+
+Sbjct  246  AWLKEDLDFTRQERLKWVQKNYMIYNYCTDTKRFPQGFPPECA  288
+
+
+>TR:I1MST0_SOYBN I1MST0 Xyloglucan endotransglucosylase/hydrolase OS=Glycine max 
+OX=3847 GN=100782365 PE=3 SV=1
+Length=293
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      L WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  226  SWLSQELDSAGHQRLKWVQKNYMIYNYCTDTKRFPQGLPPECNI  269
+
+
+>TR:A0A061GRL8_THECC A0A061GRL8 Xyloglucan endotransglucosylase/hydrolase OS=Theobroma 
+cacao OX=3641 GN=TCM_038936 PE=3 SV=1
+Length=296
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/56 (39%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  2    VAPGGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            V     P      AW+++ +D  +   L WV+ NYM+Y+YC+D +RFP   PPEC+
+Sbjct  236  VCNSNSPAANNNNAWLSEELDSTAQERLKWVQKNYMIYNYCSDTKRFPQGLPPECA  291
+
+
+>TR:F6GXE7_VITVI F6GXE7 Xyloglucan endotransglucosylase/hydrolase OS=Vitis vinifera 
+OX=29760 GN=VIT_11s0052g01200 PE=3 SV=1
+Length=297
+
+ Score = 58.2 bits (139),  Expect = 9e-10
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W +Q +D  S   + WV+ NYM+Y+YCAD +RFP   PPECS
+Sbjct  251  WYSQELDSTSQERMKWVQKNYMIYNYCADTKRFPQGLPPECS  292
+
+
+>TR:A0A1Q3B5C1_CEPFO A0A1Q3B5C1 Xyloglucan endotransglucosylase/hydrolase OS=Cephalotus 
+follicularis OX=3775 GN=CFOL_v3_06607 PE=3 SV=1
+Length=313
+
+ Score = 58.2 bits (139),  Expect = 1e-09
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D      + WV+ NYM+Y+YC D +RFP   PPECS+
+Sbjct  269  SWLSQSLDTTGQQRIQWVQKNYMIYNYCTDTKRFPQGLPPECSL  312
+
+
+>TR:A0A0D2NWM3_GOSRA A0A0D2NWM3 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_003G052400 PE=3 SV=1
+Length=313
+
+ Score = 58.2 bits (139),  Expect = 1e-09
+ Identities = 23/44 (52%), Positives = 28/44 (64%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D  RFP   PPECS+
+Sbjct  269  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDANRFPQGLPPECSM  312
+
+
+>TR:A0A0A0LU34_CUCSA A0A0A0LU34 Uncharacterized protein OS=Cucumis sativus OX=3659 
+GN=Csa_1G422440 PE=4 SV=1
+Length=94
+
+ Score = 55.1 bits (131),  Expect = 1e-09
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  16  WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+           WM+Q ++  +   L WV+ NYMVY+YC D RRFP   PPEC+
+Sbjct  47  WMSQDLNTINQKRLKWVQDNYMVYNYCTDFRRFPQGLPPECT  88
+
+
+>TR:A0A2I4HFH7_9ROSI A0A2I4HFH7 Xyloglucan endotransglucosylase/hydrolase OS=Juglans 
+regia OX=51240 GN=LOC109017060 PE=3 SV=1
+Length=218
+
+ Score = 57.4 bits (137),  Expect = 1e-09
+ Identities = 22/50 (44%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P    + AW+++ +D  S   L WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  164  PSTSASNAWLSEDLDSASQERLKWVQKNYMIYNYCTDAKRFPQGLPPECT  213
+
+
+>TR:A0A2I0A775_9ASPA A0A2I0A775 Putative xyloglucan endotransglucosylase/hydrolase 
+protein 23 OS=Apostasia shenzhenica OX=1088818 GN=XTH23 PE=4 
+SV=1
+Length=563
+
+ Score = 58.2 bits (139),  Expect = 1e-09
+ Identities = 25/53 (47%), Positives = 31/53 (58%), Gaps = 0/53 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            GG      +  WM Q +D  S   + WV+ NYMVYDYC D +R+P   PPECS
+Sbjct  234  GGDSSSCGSKPWMQQALDGNSLKKMQWVQSNYMVYDYCKDVQRYPQGLPPECS  286
+
+
+>TR:K3Y9A4_SETIT K3Y9A4 Xyloglucan endotransglucosylase/hydrolase OS=Setaria italica 
+OX=4555 GN=LOC101781153 PE=3 SV=1
+Length=278
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 23/41 (56%), Positives = 28/41 (68%), Gaps = 0/41 (0%)
+
+Query  19   QRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            Q +D  +   + W R NYMVYDYCAD +RFP   PPECS+P
+Sbjct  238  QELDAAAQQAMKWARDNYMVYDYCADSKRFPQGVPPECSMP  278
+
+
+>TR:A0A2P5X5Y8_GOSBA A0A2P5X5Y8 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_AA21924 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  279
+
+
+>TR:A0A2P5QNE3_GOSBA A0A2P5QNE3 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_DD26993 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  279
+
+
+>TR:A0A2G9I3F4_9LAMI A0A2G9I3F4 Xyloglucan endotransglucosylase/hydrolase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_02981 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/42 (50%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW +Q +D +    L WV+ N+M+Y+YC D +RFP  FPPEC
+Sbjct  237  AWQSQELDAYGRRRLRWVQKNFMIYNYCTDYKRFPQGFPPEC  278
+
+
+>TR:A0A1U8LGZ3_GOSHI A0A1U8LGZ3 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+hirsutum OX=3635 GN=LOC107926340 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  279
+
+
+>TR:A0A1U8KUR5_GOSHI A0A1U8KUR5 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+hirsutum OX=3635 GN=LOC107919852 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  279
+
+
+>TR:A0A0B0NB30_GOSAR A0A0B0NB30 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+arboreum OX=29729 GN=F383_05338 PE=3 SV=1
+Length=280
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y+YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYNYCTDTKRFPQGLPKECSV  279
+
+
+>TR:S5MMS2_9ROSA S5MMS2 Xyloglucan endotransglucosylase/hydrolase OS=Pyrus x bretschneideri 
+OX=225117 GN=XET2 PE=2 SV=1
+Length=282
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/43 (49%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS
+Sbjct  238  SWLTQSLDSTGQERMKWVQKNYMIYNYCRDTKRFPQGFPPECS  280
+
+
+>TR:Q8GTJ0_MALDO Q8GTJ0 Xyloglucan endotransglucosylase/hydrolase OS=Malus domestica 
+OX=3750 GN=XET02 PE=2 SV=1
+Length=282
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/43 (49%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP  FPPECS
+Sbjct  238  SWLTQSLDSTGQERIKWVQKNYMIYNYCRDTKRFPQGFPPECS  280
+
+
+>TR:A0A1U7YV04_NELNU A0A1U7YV04 Xyloglucan endotransglucosylase/hydrolase OS=Nelumbo 
+nucifera OX=4432 GN=LOC104586223 PE=3 SV=1
+Length=283
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 23/45 (51%), Positives = 30/45 (67%), Gaps = 0/45 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            AWM Q +D      L+WV+ NYM+Y+YC D +RFP   PPEC+ P
+Sbjct  239  AWMNQDLDAAGQKRLAWVQKNYMIYNYCTDVKRFPQGLPPECTRP  283
+
+
+>TR:A0A2U1PL26_ARTAN A0A2U1PL26 Beta-glucanase OS=Artemisia annua OX=35608 GN=CTI12_AA095350 
+PE=4 SV=1
+Length=283
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+++ +D      L W + NYM+Y+YC+D +RFP  FPPEC I
+Sbjct  239  AWLSEELDNTKQERLRWAQKNYMIYNYCSDSKRFPQGFPPECKI  282
+
+
+>TR:G7JT81_MEDTR G7JT81 Xyloglucan endotransglucosylase/hydrolase OS=Medicago 
+truncatula OX=3880 GN=11445531 PE=3 SV=1
+Length=284
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q +D      + WV+ NYM+Y+YC D +RFP   PPECS+
+Sbjct  240  SWMKQSLDSTGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECSL  283
+
+
+>TR:A0A0D2PR99_GOSRA A0A0D2PR99 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_005G113400 PE=3 SV=1
+Length=287
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  243  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDAKRFPQGLPPECNM  286
+
+
+>TR:A0A2P5FJI0_9ROSA A0A2P5FJI0 Xyloglucan endotransglucosylase/hydrolase OS=Trema 
+orientalis OX=63057 GN=TorRG33x02_062570 PE=3 SV=1
+Length=287
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 24/56 (43%), Positives = 32/56 (57%), Gaps = 1/56 (2%)
+
+Query  4    PGGGPRRRRAPA-WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P G    +  P  W+ Q +D      L WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  230  PSGSSSSKPGPGNWLTQDLDATGQERLRWVQRNYMIYNYCTDTKRFPQGLPPECAI  285
+
+
+>TR:A0A2J6LJM2_LACSA A0A2J6LJM2 Xyloglucan endotransglucosylase/hydrolase OS=Lactuca 
+sativa OX=4236 GN=LSAT_8X67301 PE=3 SV=1
+Length=288
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/54 (41%), Positives = 32/54 (59%), Gaps = 0/54 (0%)
+
+Query  5    GGGPRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            GG        AW+++ +D      L W + NYM+Y+YC+D +RFP  FPPEC +
+Sbjct  234  GGSASSGGNQAWLSEELDNTKQERLRWAQKNYMIYNYCSDSKRFPQGFPPECKL  287
+
+
+>TR:G5DAC9_DIOKA G5DAC9 Xyloglucan endotransglucosylase/hydrolase OS=Diospyros 
+kaki OX=35925 GN=XTH4 PE=2 SV=1
+Length=289
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q++D +S   L WV+ NYM+Y+YC D +RFP   PPEC +
+Sbjct  246  AWKSQQLDAYSLRRLRWVQKNYMIYNYCTDLKRFPQGPPPECRL  289
+
+
+>TR:A0A2P5QYB0_GOSBA A0A2P5QYB0 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_DD23531 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A2P5RMM2_GOSBA A0A2P5RMM2 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_DD15033 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLKWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A2P5WDM1_GOSBA A0A2P5WDM1 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+barbadense OX=3634 GN=GOBAR_AA31484 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLKWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A0D2TGX2_GOSRA A0A0D2TGX2 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_009G006400 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLKWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A0D2RCV8_GOSRA A0A0D2RCV8 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_005G113400 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLQWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A1U8MXZ6_GOSHI A0A1U8MXZ6 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+hirsutum OX=3635 GN=LOC107941404 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLKWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A0B0MGZ6_GOSAR A0A0B0MGZ6 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+arboreum OX=29729 GN=F383_02229 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW +Q MD      L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  246  AWFSQEMDSAKQQRLKWVQKNYMIYNYCNDAKRFPQGLPPECNM  289
+
+
+>TR:A0A0J8B1X1_BETVU A0A0J8B1X1 Xyloglucan endotransglucosylase/hydrolase OS=Beta 
+vulgaris subsp. vulgaris OX=3555 GN=BVRB_013510 PE=3 SV=1
+Length=290
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 23/49 (47%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPIGRS  63
+            AWM Q++D  S   L WV+ NYM+Y+YC D +RFP   P EC+  +  S
+Sbjct  239  AWMNQQLDGTSQQRLQWVQRNYMIYNYCTDIQRFPQGLPKECTATVSSS  287
+
+
+>TR:A0A059CKM1_EUCGR A0A059CKM1 Xyloglucan endotransglucosylase/hydrolase OS=Eucalyptus 
+grandis OX=71139 GN=EUGRSUZ_C00180 PE=3 SV=1
+Length=291
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 21/44 (48%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+++ +D  S   L WV+ NYM+Y+YC D +RFP   PPEC++
+Sbjct  247  AWLSEELDSTSQERLKWVQSNYMIYNYCTDAKRFPQGVPPECTM  290
+
+
+>TR:A0A2I4FHU8_9ROSI A0A2I4FHU8 Xyloglucan endotransglucosylase/hydrolase OS=Juglans 
+regia OX=51240 GN=LOC108998907 PE=3 SV=1
+Length=293
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 22/50 (44%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P      AW+++ +D  S   L WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  239  PSTSATNAWLSEELDSASQEKLKWVQKNYMIYNYCTDAKRFPQGLPPECT  288
+
+
+>TR:A0A2P5C748_PARAD A0A2P5C748 Xyloglucan endotransglucosylase/hydrolase OS=Parasponia 
+andersonii OX=3476 GN=PanWU01x14_178490 PE=3 SV=1
+Length=294
+
+ Score = 57.8 bits (138),  Expect = 1e-09
+ Identities = 24/56 (43%), Positives = 32/56 (57%), Gaps = 1/56 (2%)
+
+Query  4    PGGGPRRRRAPA-WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P G    +  P  W+ Q +D      L WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  237  PSGSSSTKPGPGNWLTQDLDATGQERLRWVQRNYMIYNYCTDTKRFPQGLPPECAI  292
+
+
+>TR:A0A2I0JVF9_PUNGR A0A2I0JVF9 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_019725 PE=4 SV=1
+Length=120
+
+ Score = 55.5 bits (132),  Expect = 1e-09
+ Identities = 19/43 (44%), Positives = 31/43 (72%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+++ +D  +   L WV+ NYM+Y+YC+D +RFP   PPEC++
+Sbjct  77   WLSEELDTSNQERLKWVQKNYMIYNYCSDLKRFPQGLPPECNM  119
+
+
+>TR:U5DDK0_AMBTC U5DDK0 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00062p00010610 PE=4 SV=1
+Length=179
+
+ Score = 56.6 bits (135),  Expect = 1e-09
+ Identities = 24/48 (50%), Positives = 32/48 (67%), Gaps = 1/48 (2%)
+
+Query  12   RAPAWMAQR-MDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +A AW++Q  +D      L WV+ NYMVY+YC D +RFP   PPECS+
+Sbjct  130  KASAWLSQEALDTNEQEKLKWVQKNYMVYNYCTDTKRFPQGLPPECSL  177
+
+
+>TR:M0TI30_MUSAM M0TI30 Xyloglucan endotransglucosylase/hydrolase OS=Musa acuminata 
+subsp. malaccensis OX=214687 PE=3 SV=1
+Length=213
+
+ Score = 57.0 bits (136),  Expect = 1e-09
+ Identities = 22/43 (51%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W  Q +D      + WV+ NYMVY+YC+D +RFP   PPECSI
+Sbjct  170  WWNQELDLTGQQRMKWVQRNYMVYNYCSDLKRFPQGLPPECSI  212
+
+
+>TR:B9T354_RICCO B9T354 Xyloglucan endotransglucosylase/hydrolase OS=Ricinus communis 
+OX=3988 GN=RCOM_0050110 PE=3 SV=1
+Length=258
+
+ Score = 57.4 bits (137),  Expect = 1e-09
+ Identities = 20/43 (47%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+ Q +D      + WV+ NYM+Y+YC D +RFP   PPECS+
+Sbjct  215  WLTQSLDTTGHARIKWVQQNYMIYNYCTDTKRFPQGLPPECSL  257
+
+
+>TR:A0A2K2A9X1_POPTR A0A2K2A9X1 Xyloglucan endotransglucosylase/hydrolase OS=Populus 
+trichocarpa OX=3694 GN=POPTR_005G007200v3 PE=3 SV=1
+Length=267
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/45 (47%), Positives = 33/45 (73%), Gaps = 0/45 (0%)
+
+Query  14   PAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P+W+++ +D  +   L WV+ N M+Y+YCAD +RFP  FPPEC++
+Sbjct  222  PSWLSEDLDSANLDKLQWVQTNNMIYNYCADAKRFPQGFPPECNM  266
+
+
+>TR:A0A0D9W929_9ORYZ A0A0D9W929 Xyloglucan endotransglucosylase/hydrolase OS=Leersia 
+perrieri OX=77586 PE=3 SV=1
+Length=270
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 25/47 (53%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  13   APAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIP  59
+            AP    Q MD  +   + W R NYMVYDYCAD +RF   FPPEC +P
+Sbjct  224  APVGYDQEMDANAQQAMRWARDNYMVYDYCADGKRFTQGFPPECYMP  270
+
+
+>TR:A0A067L322_JATCU A0A067L322 Xyloglucan endotransglucosylase/hydrolase OS=Jatropha 
+curcas OX=180498 GN=JCGZ_23798 PE=3 SV=1
+Length=274
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 20/46 (43%), Positives = 30/46 (65%), Gaps = 0/46 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSIPI  60
+            +W+ Q +D      + WV+ NYM+Y+YC D +RFP   PPECS+ +
+Sbjct  229  SWLTQSLDTTGQERIKWVQKNYMIYNYCTDTKRFPQGLPPECSLNV  274
+
+
+>TR:I3T593_LOTJA I3T593 Xyloglucan endotransglucosylase/hydrolase OS=Lotus japonicus 
+OX=34305 PE=2 SV=1
+Length=278
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM + +D      + WV+ NYM+Y+YC D + FP  FPPECSI
+Sbjct  234  SWMKESLDSTGQARIQWVQKNYMIYNYCTDTKSFPQGFPPECSI  277
+
+
+>TR:A0A2C9VZR4_MANES A0A2C9VZR4 Xyloglucan endotransglucosylase/hydrolase OS=Manihot 
+esculenta OX=3983 GN=MANES_04G049900 PE=3 SV=1
+Length=279
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+ Q ++  +  T+ WV+ NYM+Y+YCAD  RFP   PPECS+
+Sbjct  236  WLTQTLNATAQSTVKWVQENYMIYNYCADTNRFPQGLPPECSL  278
+
+
+>TR:A0A0D2MSV9_GOSRA A0A0D2MSV9 Xyloglucan endotransglucosylase/hydrolase OS=Gossypium 
+raimondii OX=29730 GN=B456_004G031100 PE=3 SV=1
+Length=280
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +W++Q +D  S   L WV+ NYM+Y YC D +RFP   P ECS+
+Sbjct  236  SWLSQELDITSQQRLKWVQKNYMIYSYCTDTKRFPQGLPKECSV  279
+
+
+>TR:A0A1E5VER4_9POAL A0A1E5VER4 Xyloglucan endotransglucosylase/hydrolase OS=Dichanthelium 
+oligosanthes OX=888268 GN=BAE44_0015436 PE=3 SV=1
+Length=282
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 26/58 (45%), Positives = 33/58 (57%), Gaps = 4/58 (7%)
+
+Query  4    PGGGPRRRRAPA----WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P G  R    PA    WM +++D   W T++W + NYM Y+YC D  RFP  FP ECS
+Sbjct  223  PNGDGRPLSCPAGTDRWMNRQLDGAEWGTVAWAKKNYMHYNYCEDGWRFPQGFPAECS  280
+
+
+>TR:C6TEP4_SOYBN C6TEP4 Xyloglucan endotransglucosylase/hydrolase OS=Glycine max 
+OX=3847 PE=2 SV=1
+Length=283
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q +D      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  AWLKQSLDSTGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:A0A0B2QME0_GLYSO A0A0B2QME0 Xyloglucan endotransglucosylase/hydrolase OS=Glycine 
+soja OX=3848 GN=glysoja_027528 PE=3 SV=1
+Length=283
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q +D      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  AWLKQSLDSTGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:A0A0R0GL47_SOYBN A0A0R0GL47 Xyloglucan endotransglucosylase/hydrolase OS=Glycine 
+max OX=3847 GN=GLYMA_13G103100 PE=3 SV=1
+Length=283
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW+ Q +D      + WV+ NYM+Y+YC D +RFP   PPEC+I
+Sbjct  239  AWLKQSLDSTGQARIQWVQKNYMIYNYCTDTKRFPQGLPPECTI  282
+
+
+>TR:Q9LLC2_ASPOF Q9LLC2 Xyloglucan endotransglucosylase/hydrolase OS=Asparagus 
+officinalis OX=4686 GN=AoXET2 PE=2 SV=1
+Length=284
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 22/51 (43%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            P    + AW+ + +D      + WV+ NYM+Y+YCAD +RFP   PPECS+
+Sbjct  233  PSASPSNAWLNEELDSTRQERMRWVQKNYMIYNYCADLKRFPQGLPPECSV  283
+
+
+>TR:W9RVF1_9ROSA W9RVF1 Xyloglucan endotransglucosylase/hydrolase OS=Morus notabilis 
+OX=981085 GN=L484_022899 PE=3 SV=1
+Length=284
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            AW++Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC
+Sbjct  239  AWLSQELDNASQERLRWVQKNYMIYNYCTDTKRFPQGLPPEC  280
+
+
+>TR:F6GXE6_VITVI F6GXE6 Xyloglucan endotransglucosylase/hydrolase OS=Vitis vinifera 
+OX=29760 GN=VIT_11s0052g01220 PE=3 SV=1
+Length=285
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 22/43 (51%), Positives = 29/43 (67%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+ Q +D  S   L WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  238  AWLYQELDSSSQEKLKWVQKNYMIYNYCTDTKRFPQGLPPECT  280
+
+
+>TR:A0A0A0LWT1_CUCSA A0A0A0LWT1 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis 
+sativus OX=3659 GN=Csa_1G422480 PE=3 SV=1
+Length=287
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 19/43 (44%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+++ +D      + WV+ NYM+Y+YC D +RFP  +PPECS+
+Sbjct  243  WLSENLDITRQQRMKWVQRNYMIYNYCTDAKRFPQGYPPECSL  285
+
+
+>TR:N0DX33_CUCSA N0DX33 Xyloglucan endotransglucosylase/hydrolase OS=Cucumis sativus 
+OX=3659 GN=xth6 PE=3 SV=1
+Length=287
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 19/43 (44%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            W+++ +D      + WV+ NYM+Y+YC D +RFP  +PPECS+
+Sbjct  243  WLSENLDITRQQRMKWVQRNYMIYNYCTDAKRFPQGYPPECSL  285
+
+
+>TR:A0A2P6QTG3_ROSCH A0A2P6QTG3 Xyloglucan endotransglucosylase/hydrolase OS=Rosa 
+chinensis OX=74649 GN=RchiOBHm_Chr4g0402961 PE=3 SV=1
+Length=288
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 22/42 (52%), Positives = 29/42 (69%), Gaps = 0/42 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            W++Q +D  S+  LSWV+ NYM+Y+YC D  RFP   P ECS
+Sbjct  245  WLSQELDTASYEKLSWVQKNYMIYNYCTDANRFPQGLPVECS  286
+
+
+>TR:A0A2I0A1Q7_9ASPA A0A2I0A1Q7 Xyloglucan endotransglucosylase/hydrolase OS=Apostasia 
+shenzhenica OX=1088818 GN=XTH23 PE=3 SV=1
+Length=290
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 23/44 (52%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AWM   MD  S   + WV+ NYM+Y+YC+DR RFP   P ECS+
+Sbjct  244  AWMNYEMDVASQEKMKWVQSNYMIYNYCSDRSRFPQGLPAECSV  287
+
+
+>TR:A0A1U7ZH77_NELNU A0A1U7ZH77 Xyloglucan endotransglucosylase/hydrolase OS=Nelumbo 
+nucifera OX=4432 GN=LOC104590122 PE=3 SV=1
+Length=291
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/41 (51%), Positives = 26/41 (63%), Gaps = 0/41 (0%)
+
+Query  16   WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPEC  56
+            W  Q +D WS   L WV+  YM+Y+YC D +RFP   PPEC
+Sbjct  245  WQTQELDGWSRRRLRWVQKYYMIYNYCTDLKRFPQGLPPEC  285
+
+
+>TR:I3T3W3_LOTJA I3T3W3 Xyloglucan endotransglucosylase/hydrolase OS=Lotus japonicus 
+OX=34305 PE=2 SV=1
+Length=291
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W+ Q +D   +  L WV+ NYMVY+YCAD++RFP   P EC+
+Sbjct  247  SWLKQELDSTGYQRLRWVQKNYMVYNYCADKKRFPQGLPTECT  289
+
+
+>TR:I3SJD4_LOTJA I3SJD4 Xyloglucan endotransglucosylase/hydrolase OS=Lotus japonicus 
+OX=34305 PE=2 SV=1
+Length=293
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            +W+ Q +D   +  L WV+ NYMVY+YCAD++RFP   P EC+
+Sbjct  249  SWLKQELDSTGYQRLRWVQKNYMVYNYCADKKRFPQGLPTECT  291
+
+
+>TR:A0A2I4DJ37_9ROSI A0A2I4DJ37 Xyloglucan endotransglucosylase/hydrolase OS=Juglans 
+regia OX=51240 GN=LOC108980623 PE=3 SV=1
+Length=293
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 22/50 (44%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  8    PRRRRAPAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P    + AW+++ +D  S   L WV+ NYM+Y+YC D +RFP   PPEC+
+Sbjct  239  PSTSASNAWLSEDLDSASQERLKWVQKNYMIYNYCTDAKRFPQGLPPECT  288
+
+
+>TR:A0A2I4FHV7_9ROSI A0A2I4FHV7 Xyloglucan endotransglucosylase/hydrolase OS=Juglans 
+regia OX=51240 GN=LOC108998913 PE=3 SV=1
+Length=295
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+++ +D  S   L+WV+ NYM+Y+YC D  RFP   PPEC+
+Sbjct  248  AWLSEELDSTSQERLNWVQKNYMIYNYCTDTNRFPQGLPPECT  290
+
+
+>TR:A0A2I4FHJ1_9ROSI A0A2I4FHJ1 Xyloglucan endotransglucosylase/hydrolase OS=Juglans 
+regia OX=51240 GN=LOC108998842 PE=3 SV=1
+Length=295
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/44 (48%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            AW++Q ++      L WV+ NYMVY+YC D +RFP   PPEC++
+Sbjct  248  AWLSQELNSTGQKRLKWVQTNYMVYNYCTDTKRFPQGLPPECNV  291
+
+
+>TR:A0A0A9DP67_ARUDO A0A0A9DP67 Gpm554 OS=Arundo donax OX=35708 PE=4 SV=1
+Length=176
+
+ Score = 56.2 bits (134),  Expect = 2e-09
+ Identities = 25/58 (43%), Positives = 32/58 (55%), Gaps = 4/58 (7%)
+
+Query  4    PGGGPRRRRAPA----WMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            P G  R    PA    WM +++    W T+ W + NYM Y+YC D  RFP  FPPEC+
+Sbjct  117  PNGEGRPLSCPAGTDRWMNRQLSGAEWGTVKWAKENYMSYNYCEDGWRFPQGFPPECA  174
+
+
+>TR:A0A2H3YIU5_PHODC A0A2H3YIU5 Xyloglucan endotransglucosylase/hydrolase OS=Phoenix 
+dactylifera OX=42345 GN=LOC103714082 PE=3 SV=1
+Length=300
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 23/44 (52%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECSI  58
+            +WM Q +D  S   L WV+ NYM+Y+YC D  RFP   PPECS+
+Sbjct  256  SWMRQALDSTSLERLRWVQKNYMIYNYCTDVHRFPQGLPPECSM  299
+
+
+>TR:A0A200QZV2_9MAGN A0A200QZV2 Xyloglucan endotransglucosylase/hydrolase OS=Macleaya 
+cordata OX=56857 GN=BVC80_1823g78 PE=3 SV=1
+Length=302
+
+ Score = 57.4 bits (137),  Expect = 2e-09
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+
+Query  15   AWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+            AW+ Q +D  +   + WV+ NYM+Y+YCAD +RFP   PPEC+
+Sbjct  255  AWLNQELDSTNQERMKWVQKNYMIYNYCADTKRFPQGMPPECA  297
+
+
+>TR:A0A2G3BX13_CAPCH A0A2G3BX13 Xyloglucan endotransglucosylase/hydrolase protein 
+22 (Fragment) OS=Capsicum chinense OX=80379 GN=BC332_17961 PE=4 
+SV=1
+Length=104
+
+ Score = 54.7 bits (130),  Expect = 2e-09
+ Identities = 22/44 (50%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  14  PAWMAQRMDWWSWMTLSWVRMNYMVYDYCADRRRFPHEFPPECS  57
+           P W +Q++D  S   L WV+ NYMVY+YC D +RFP   P EC+
+Sbjct  55  PKWFSQQLDSTSQARLQWVQKNYMVYNYCNDIKRFPQGLPLECT  98
+
+
+
+Lambda      K        H
+   0.328    0.139    0.541 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 56870144940
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

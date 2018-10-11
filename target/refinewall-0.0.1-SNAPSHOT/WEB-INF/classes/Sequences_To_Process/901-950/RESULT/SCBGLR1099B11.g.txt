@@ -1,0 +1,4571 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A1Z5RLH0_SORBI  A0A1Z5RLH0 Glycosyltransferase OS=Sorghum bi...  166     4e-48
+TR:B6TZ09_MAIZE  B6TZ09 Glycosyltransferase OS=Zea mays OX=4577 G...  161     6e-47
+TR:B6SU66_MAIZE  B6SU66 Glycosyltransferase OS=Zea mays OX=4577 P...  159     5e-46
+TR:K7URK6_MAIZE  K7URK6 Glycosyltransferase OS=Zea mays OX=4577 G...  159     5e-46
+TR:A0A1E5VD44_9POAL  A0A1E5VD44 Glycosyltransferase OS=Dichanthel...  158     1e-45
+TR:M8CWY6_AEGTA  M8CWY6 Limonoid UDP-glucosyltransferase OS=Aegil...  146     5e-43
+TR:A0A2S3GM40_9POAL  A0A2S3GM40 Uncharacterized protein OS=Panicu...  147     1e-41
+TR:A0A0E0JWK3_ORYPU  A0A0E0JWK3 Glycosyltransferase OS=Oryza punc...  147     2e-41
+TR:A0A2T7F2Y5_9POAL  A0A2T7F2Y5 Uncharacterized protein OS=Panicu...  147     2e-41
+TR:A0A1D6AYZ3_WHEAT  A0A1D6AYZ3 Glycosyltransferase OS=Triticum a...  145     6e-41
+TR:A0A1D6BFX3_WHEAT  A0A1D6BFX3 Glycosyltransferase OS=Triticum a...  145     6e-41
+TR:A0A1D6AE54_WHEAT  A0A1D6AE54 Glycosyltransferase OS=Triticum a...  145     6e-41
+TR:K3YRM3_SETIT  K3YRM3 Glycosyltransferase OS=Setaria italica OX...  145     8e-41
+TR:I1HY49_BRADI  I1HY49 Glycosyltransferase OS=Brachypodium dista...  144     2e-40
+TR:A0A287TWT2_HORVV  A0A287TWT2 Glycosyltransferase OS=Hordeum vu...  144     2e-40
+TR:F2DI89_HORVV  F2DI89 Glycosyltransferase OS=Hordeum vulgare su...  144     2e-40
+TR:A0A2K2CVK5_BRADI  A0A2K2CVK5 Glycosyltransferase OS=Brachypodi...  144     5e-40
+TR:A0A0D9YNH2_9ORYZ  A0A0D9YNH2 Glycosyltransferase OS=Oryza glum...  139     9e-39
+TR:A0A0E0G300_ORYNI  A0A0E0G300 Glycosyltransferase OS=Oryza niva...  139     1e-38
+TR:I1NY12_ORYGL  I1NY12 Glycosyltransferase OS=Oryza glaberrima O...  139     1e-38
+TR:C4MF33_9POAL  C4MF33 Glycosyltransferase OS=Avena strigosa OX=...  139     1e-38
+TR:A0A0E0CH01_9ORYZ  A0A0E0CH01 Glycosyltransferase OS=Oryza meri...  138     3e-38
+TR:Q6ZHS1_ORYSJ  Q6ZHS1 Glycosyltransferase OS=Oryza sativa subsp...  135     1e-37
+TR:K3XWN6_SETIT  K3XWN6 Glycosyltransferase OS=Setaria italica OX...  135     3e-37
+TR:A0A0E0NAY4_ORYRU  A0A0E0NAY4 Glycosyltransferase OS=Oryza rufi...  135     3e-37
+TR:K3Y254_SETIT  K3Y254 Glycosyltransferase OS=Setaria italica OX...  135     3e-37
+TR:A0A0D9VD48_9ORYZ  A0A0D9VD48 Glycosyltransferase OS=Leersia pe...  134     9e-37
+TR:A0A2S3HJ28_9POAL  A0A2S3HJ28 Uncharacterized protein OS=Panicu...  134     1e-36
+TR:A0A2T7DZ36_9POAL  A0A2T7DZ36 Uncharacterized protein OS=Panicu...  134     1e-36
+TR:A0A1D6LW97_MAIZE  A0A1D6LW97 Glycosyltransferase OS=Zea mays O...  132     5e-36
+TR:C5Z8I9_SORBI  C5Z8I9 Glycosyltransferase OS=Sorghum bicolor OX...  132     7e-36
+TR:C5XP84_SORBI  C5XP84 Glycosyltransferase OS=Sorghum bicolor OX...  130     2e-35
+TR:A0A1E5WF23_9POAL  A0A1E5WF23 Glycosyltransferase OS=Dichanthel...  129     8e-35
+TR:M8BUB0_AEGTA  M8BUB0 Limonoid UDP-glucosyltransferase OS=Aegil...  126     9e-35
+TR:A0A1E5VSF7_9POAL  A0A1E5VSF7 Glycosyltransferase OS=Dichanthel...  127     4e-34
+TR:A0A1D5WK83_WHEAT  A0A1D5WK83 Glycosyltransferase OS=Triticum a...  126     8e-34
+TR:M0V7B4_HORVV  M0V7B4 Glycosyltransferase OS=Hordeum vulgare su...  126     1e-33
+TR:F2DZ61_HORVV  F2DZ61 Glycosyltransferase OS=Hordeum vulgare su...  126     1e-33
+TR:W5CQG9_WHEAT  W5CQG9 Glycosyltransferase OS=Triticum aestivum ...  125     2e-33
+TR:A0A0D3F1R4_9ORYZ  A0A0D3F1R4 Uncharacterized protein OS=Oryza ...  115     8e-32
+TR:A0A2I0VIN8_9ASPA  A0A2I0VIN8 Glycosyltransferase OS=Dendrobium...  111     4e-28
+TR:A0A2H3Z015_PHODC  A0A2H3Z015 Glycosyltransferase OS=Phoenix da...  104     1e-25
+TR:A0A199UG59_ANACO  A0A199UG59 Glycosyltransferase OS=Ananas com...  104     1e-25
+TR:A0A2I0B704_9ASPA  A0A2I0B704 Limonoid UDP-glucosyltransferase ...  102     7e-25
+TR:A0A2I0X6I5_9ASPA  A0A2I0X6I5 Glycosyltransferase OS=Dendrobium...  99.4    8e-24
+TR:A0A2G5C704_AQUCA  A0A2G5C704 Glycosyltransferase OS=Aquilegia ...  92.8    2e-21
+TR:A0A2I0AM14_9ASPA  A0A2I0AM14 Limonoid UDP-glucosyltransferase ...  92.8    2e-21
+TR:A0A1D1XCC6_9ARAE  A0A1D1XCC6 Limonoid UDP-glucosyltransferase ...  91.7    5e-21
+TR:A0A061E010_THECC  A0A061E010 Glycosyltransferase OS=Theobroma ...  91.7    5e-21
+TR:A0A1J6J3Z5_NICAT  A0A1J6J3Z5 Glycosyltransferase OS=Nicotiana ...  90.9    9e-21
+TR:A0A2I2MNE1_NICAT  A0A2I2MNE1 Glycosyltransferase OS=Nicotiana ...  90.9    9e-21
+TR:A0A200QZP8_9MAGN  A0A200QZP8 Glycosyltransferase OS=Macleaya c...  90.5    1e-20
+TR:A0A2G2W4I0_CAPBA  A0A2G2W4I0 Glycosyltransferase OS=Capsicum b...  90.1    2e-20
+TR:A0A2G2Y495_CAPAN  A0A2G2Y495 Glycosyltransferase OS=Capsicum a...  90.1    2e-20
+TR:A5BIH9_VITVI  A5BIH9 Glycosyltransferase (Fragment) OS=Vitis v...  89.7    2e-20
+TR:A0A2P5S2P1_GOSBA  A0A2P5S2P1 Glycosyltransferase OS=Gossypium ...  89.7    2e-20
+TR:G9FKG6_VITVI  G9FKG6 Glycosyltransferase OS=Vitis vinifera OX=...  89.7    2e-20
+TR:F6H660_VITVI  F6H660 Glycosyltransferase OS=Vitis vinifera OX=...  89.7    2e-20
+TR:A0A2C9V460_MANES  A0A2C9V460 Glycosyltransferase OS=Manihot es...  89.7    2e-20
+TR:A0A1U8JMZ1_GOSHI  A0A1U8JMZ1 Glycosyltransferase OS=Gossypium ...  89.7    2e-20
+TR:A0A067LN72_JATCU  A0A067LN72 Glycosyltransferase OS=Jatropha c...  89.7    3e-20
+TR:A0A125QVX1_CAMSI  A0A125QVX1 Glycosyltransferase OS=Camellia s...  89.4    3e-20
+TR:B6RNI7_9ROSI  B6RNI7 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNH5_9ROSI  B6RNH5 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG9_9ROSI  B6RNG9 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG8_9ROSI  B6RNG8 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNI9_PONTR  B6RNI9 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNJ0_PONTR  B6RNJ0 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF3_CITME  B6RNF3 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF4_CITME  B6RNF4 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNH9_CITSI  B6RNH9 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNI6_9ROSI  B6RNI6 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG3_9ROSI  B6RNG3 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG2_CITAU  B6RNG2 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG1_CITAU  B6RNG1 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNJ2_9ROSI  B6RNJ2 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF6_9ROSI  B6RNF6 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF7_9ROSI  B6RNF7 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG7_CITLI  B6RNG7 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG6_CITLI  B6RNG6 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF8_9ROSI  B6RNF8 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNI4_CITMA  B6RNI4 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNI1_CITMA  B6RNI1 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG4_CITUN  B6RNG4 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF9_9ROSI  B6RNF9 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNG0_9ROSI  B6RNG0 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNJ1_9ROSI  B6RNJ1 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNI0_9ROSI  B6RNI0 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNF1_CITME  B6RNF1 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNH0_CITRE  B6RNH0 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:B6RNH6_CITAR  B6RNH6 Limonoid UDP glucosyltransferase (Fragmen...  87.4    4e-20
+TR:C6ZRH7_CAPAN  C6ZRH7 Glycosyltransferase OS=Capsicum annuum OX...  89.0    4e-20
+TR:A0A1U8EZZ6_CAPAN  A0A1U8EZZ6 Glycosyltransferase OS=Capsicum a...  89.0    4e-20
+TR:I2BH94_LINUS  I2BH94 Glycosyltransferase OS=Linum usitatissimu...  88.6    6e-20
+TR:A0A2G3BQN5_CAPCH  A0A2G3BQN5 Glycosyltransferase OS=Capsicum c...  88.6    6e-20
+TR:B0I1D7_LOBER  B0I1D7 Glycosyltransferase OS=Lobelia erinus OX=...  88.6    6e-20
+TR:B9RY85_RICCO  B9RY85 Glycosyltransferase OS=Ricinus communis O...  88.6    6e-20
+TR:A0A2P6PLU0_ROSCH  A0A2P6PLU0 Glycosyltransferase OS=Rosa chine...  88.6    7e-20
+TR:B6RNH8_CITAR  B6RNH8 Limonoid UDP glucosyltransferase (Fragmen...  86.7    7e-20
+TR:A0A0D2RKC6_GOSRA  A0A0D2RKC6 Uncharacterized protein OS=Gossyp...  88.6    7e-20
+TR:A1EBV0_9ROSI  A1EBV0 Putative limonoid UDP-glucosyltransferase...  88.2    9e-20
+TR:B9RY84_RICCO  B9RY84 Glycosyltransferase OS=Ricinus communis O...  88.2    9e-20
+TR:B6RNI5_CITMA  B6RNI5 Limonoid UDP glucosyltransferase (Fragmen...  86.3    1e-19
+TR:B6RNI2_CITMA  B6RNI2 Limonoid UDP glucosyltransferase (Fragmen...  86.3    1e-19
+TR:B6RNG5_CITUN  B6RNG5 Limonoid UDP glucosyltransferase (Fragmen...  86.3    1e-19
+TR:A0A2P5S2L6_GOSBA  A0A2P5S2L6 Glycosyltransferase OS=Gossypium ...  87.8    1e-19
+TR:A0A1U8JTP4_GOSHI  A0A1U8JTP4 Glycosyltransferase OS=Gossypium ...  87.8    1e-19
+TR:W1PLB6_AMBTC  W1PLB6 Glycosyltransferase OS=Amborella trichopo...  87.8    1e-19
+TR:A9YWH8_CITMA  A9YWH8 Glycosyltransferase OS=Citrus maxima OX=3...  87.8    1e-19
+TR:W9T3A3_9ROSA  W9T3A3 Glycosyltransferase OS=Morus notabilis OX...  87.4    2e-19
+TR:V4S6X8_9ROSI  V4S6X8 Glycosyltransferase OS=Citrus clementina ...  87.4    2e-19
+TR:B2YGY1_CITSI  B2YGY1 Glycosyltransferase OS=Citrus sinensis OX...  87.4    2e-19
+TR:A0A2H5QPQ4_CITUN  A0A2H5QPQ4 Glycosyltransferase OS=Citrus uns...  87.4    2e-19
+TR:B2YGX8_CITPA  B2YGX8 Glycosyltransferase OS=Citrus paradisi OX...  87.4    2e-19
+TR:W9R9H4_9ROSA  W9R9H4 Glycosyltransferase OS=Morus notabilis OX...  87.4    2e-19
+TR:B6RNI8_9ROSI  B6RNI8 Limonoid UDP glucosyltransferase (Fragmen...  85.5    2e-19
+TR:B6RNF0_9ROSI  B6RNF0 Limonoid UDP glucosyltransferase (Fragmen...  85.5    2e-19
+TR:B6RNH4_9ROSI  B6RNH4 Limonoid UDP glucosyltransferase (Fragmen...  85.5    2e-19
+TR:B6RNH3_9ROSI  B6RNH3 Limonoid UDP glucosyltransferase (Fragmen...  85.5    2e-19
+TR:A0A2C9VLP3_MANES  A0A2C9VLP3 Glycosyltransferase OS=Manihot es...  87.0    2e-19
+TR:A0A2G9GL36_9LAMI  A0A2G9GL36 Uncharacterized protein OS=Handro...  85.1    3e-19
+TR:A5B349_VITVI  A5B349 Glycosyltransferase OS=Vitis vinifera OX=...  86.7    3e-19
+TR:A0A2I4FBA9_9ROSI  A0A2I4FBA9 Glycosyltransferase OS=Juglans re...  86.7    3e-19
+TR:B6RNI3_CITMA  B6RNI3 Limonoid UDP glucosyltransferase (Fragmen...  84.7    4e-19
+TR:A0A200PT82_9MAGN  A0A200PT82 Glycosyltransferase OS=Macleaya c...  86.3    4e-19
+TR:A0A2G5C6Z1_AQUCA  A0A2G5C6Z1 Uncharacterized protein OS=Aquile...  86.3    4e-19
+TR:B0I1E0_LOBER  B0I1E0 Glycosyltransferase (Fragment) OS=Lobelia...  86.3    4e-19
+TR:B0I1D9_LOBER  B0I1D9 Glycosyltransferase OS=Lobelia erinus OX=...  86.3    4e-19
+TR:K4B2X2_SOLLC  K4B2X2 Glycosyltransferase OS=Solanum lycopersic...  86.3    4e-19
+TR:A0A059AN12_EUCGR  A0A059AN12 Glycosyltransferase OS=Eucalyptus...  86.3    4e-19
+SP:LGT_CITUN  Q9MB73 Limonoid UDP-glucosyltransferase OS=Citrus u...  86.3    4e-19
+TR:B2YGX9_CITSI  B2YGX9 Glycosyltransferase OS=Citrus sinensis OX...  86.3    4e-19
+TR:B2YGY0_CITAR  B2YGY0 Glycosyltransferase OS=Citrus aurantium O...  86.3    4e-19
+TR:B2YGX7_9ROSI  B2YGX7 Glycosyltransferase OS=Citrus limettioide...  86.3    4e-19
+TR:A0A072V065_MEDTR  A0A072V065 Glycosyltransferase OS=Medicago t...  86.3    4e-19
+TR:A0A1S3BZU4_CUCME  A0A1S3BZU4 Glycosyltransferase OS=Cucumis me...  85.9    6e-19
+TR:A0A1R3HUP7_COCAP  A0A1R3HUP7 Glycosyltransferase OS=Corchorus ...  85.9    6e-19
+TR:A0A2I4F7P4_9ROSI  A0A2I4F7P4 Glycosyltransferase OS=Juglans re...  85.9    6e-19
+TR:B6RNE9_9ROSI  B6RNE9 Limonoid UDP glucosyltransferase (Fragmen...  84.0    7e-19
+TR:S8CRW9_9LAMI  S8CRW9 Glycosyltransferase (Fragment) OS=Genlise...  85.5    7e-19
+TR:B6EWX7_LYCBA  B6EWX7 Glycosyltransferase OS=Lycium barbarum OX...  85.5    8e-19
+TR:A0A2G9GSJ6_9LAMI  A0A2G9GSJ6 UDP-glucuronosyl and UDP-glucosyl...  85.1    8e-19
+TR:A0A0A0K315_CUCSA  A0A0A0K315 Glycosyltransferase OS=Cucumis sa...  85.5    8e-19
+TR:A0A193AUF6_PUNGR  A0A193AUF6 Glycosyltransferase OS=Punica gra...  85.5    8e-19
+TR:A0A1R3GYR0_9ROSI  A0A1R3GYR0 Glycosyltransferase OS=Corchorus ...  85.5    8e-19
+TR:A0A218VWG2_PUNGR  A0A218VWG2 Glycosyltransferase OS=Punica gra...  85.5    8e-19
+TR:A0A193AU77_PUNGR  A0A193AU77 Glycosyltransferase OS=Punica gra...  85.5    8e-19
+SP:CGT_FRAAN  Q66PF4 Cinnamate beta-D-glucosyltransferase OS=Frag...  85.5    8e-19
+TR:A0A1U8M877_GOSHI  A0A1U8M877 Glycosyltransferase OS=Gossypium ...  85.1    1e-18
+TR:G9FKG7_VITVI  G9FKG7 Glycosyltransferase OS=Vitis vinifera OX=...  85.1    1e-18
+TR:A0A140KXU6_9ROSI  A0A140KXU6 Glycosyltransferase OS=Vitis amur...  85.1    1e-18
+TR:A5ATH4_VITVI  A5ATH4 Glycosyltransferase OS=Vitis vinifera OX=...  85.1    1e-18
+TR:A0A2C9VJC4_MANES  A0A2C9VJC4 Glycosyltransferase OS=Manihot es...  85.1    1e-18
+TR:A0A2P5VX68_GOSBA  A0A2P5VX68 Glycosyltransferase OS=Gossypium ...  85.1    1e-18
+TR:I2BH93_LINUS  I2BH93 UDP-glycosyltransferase 1 OS=Linum usitat...  84.7    1e-18
+TR:I2BH95_LINUS  I2BH95 Glycosyltransferase OS=Linum usitatissimu...  84.7    1e-18
+TR:M5VIZ3_PRUPE  M5VIZ3 Glycosyltransferase OS=Prunus persica OX=...  84.7    1e-18
+TR:A0A2P5CAJ8_9ROSA  A0A2P5CAJ8 Glycosyltransferase OS=Trema orie...  84.7    1e-18
+TR:A0A068TLP5_COFCA  A0A068TLP5 Glycosyltransferase OS=Coffea can...  84.7    1e-18
+TR:A0A2P2NGL4_RHIMU  A0A2P2NGL4 Glycosyltransferase OS=Rhizophora...  84.7    1e-18
+TR:A0A1J3E6Z7_NOCCA  A0A1J3E6Z7 Glycosyltransferase OS=Noccaea ca...  84.7    1e-18
+TR:A0A1Q3B072_CEPFO  A0A1Q3B072 Glycosyltransferase OS=Cephalotus...  84.7    2e-18
+TR:A0A087HBG8_ARAAL  A0A087HBG8 Glycosyltransferase OS=Arabis alp...  84.3    2e-18
+TR:B9RY86_RICCO  B9RY86 Glycosyltransferase OS=Ricinus communis O...  84.3    2e-18
+TR:A0A2J6KIQ9_LACSA  A0A2J6KIQ9 Glycosyltransferase OS=Lactuca sa...  84.3    2e-18
+TR:A0A1U7Z5F6_NELNU  A0A1U7Z5F6 limonoid UDP-glucosyltransferase ...  84.3    2e-18
+TR:A0A103XQI9_CYNCS  A0A103XQI9 UDP-glucuronosyl/UDP-glucosyltran...  84.0    3e-18
+TR:A0A2U1QJM4_ARTAN  A0A2U1QJM4 Uncharacterized protein OS=Artemi...  84.0    3e-18
+TR:A0A067LBX9_JATCU  A0A067LBX9 Glycosyltransferase OS=Jatropha c...  84.0    3e-18
+TR:A0A103XM70_CYNCS  A0A103XM70 Glycosyltransferase OS=Cynara car...  83.6    4e-18
+TR:A0A0L9TQC5_PHAAN  A0A0L9TQC5 Glycosyltransferase OS=Phaseolus ...  83.6    4e-18
+TR:A0A1S3UKM9_VIGRR  A0A1S3UKM9 Glycosyltransferase OS=Vigna radi...  83.6    4e-18
+TR:A0A1U8HM69_CAPAN  A0A1U8HM69 Glycosyltransferase OS=Capsicum a...  83.6    4e-18
+TR:A0A2G9GRT0_9LAMI  A0A2G9GRT0 Glycosyltransferase OS=Handroanth...  83.6    4e-18
+TR:A0A2K1Z5F7_POPTR  A0A2K1Z5F7 Glycosyltransferase OS=Populus tr...  83.6    4e-18
+TR:A0A2U1PBA4_ARTAN  A0A2U1PBA4 Limonoid UDP-glucosyltransferase ...  83.6    4e-18
+SP:F6CGT_GENTR  A0A0B6VIJ5 UDP-glycosyltransferase UF6CGT1 OS=Gen...  83.2    5e-18
+TR:M1CFQ5_SOLTU  M1CFQ5 Glycosyltransferase OS=Solanum tuberosum ...  83.2    5e-18
+TR:A0A1S3C127_CUCME  A0A1S3C127 Glycosyltransferase OS=Cucumis me...  83.2    5e-18
+TR:A0A2K1Z5F2_POPTR  A0A2K1Z5F2 Glycosyltransferase OS=Populus tr...  83.2    5e-18
+TR:A0A076GGW6_9ROSI  A0A076GGW6 Glycosyltransferase OS=Populus fr...  83.2    5e-18
+TR:A0A022RC56_ERYGU  A0A022RC56 Glycosyltransferase OS=Erythranth...  82.8    7e-18
+TR:Q0PI14_VITLA  Q0PI14 Glycosyltransferase OS=Vitis labrusca OX=...  82.8    7e-18
+TR:A0A251TKH3_HELAN  A0A251TKH3 Glycosyltransferase OS=Helianthus...  82.8    7e-18
+TR:A0A1J3G0Z1_NOCCA  A0A1J3G0Z1 Glycosyltransferase OS=Noccaea ca...  82.8    7e-18
+TR:A0A1J3J8U7_NOCCA  A0A1J3J8U7 Glycosyltransferase OS=Noccaea ca...  82.8    7e-18
+TR:A0A2P4GRD9_QUESU  A0A2P4GRD9 Glycosyltransferase OS=Quercus su...  82.8    7e-18
+TR:A0A1J3GYD8_NOCCA  A0A1J3GYD8 Glycosyltransferase (Fragment) OS...  82.8    7e-18
+TR:A0A1D1Z7D9_9ARAE  A0A1D1Z7D9 Limonoid UDP-glucosyltransferase ...  82.0    8e-18
+TR:A0A0V0IC65_SOLCH  A0A0V0IC65 Glycosyltransferase OS=Solanum ch...  82.4    9e-18
+TR:A0A2P5CAJ4_9ROSA  A0A2P5CAJ4 Glycosyltransferase OS=Trema orie...  82.0    1e-17
+TR:A0A0B2R4C7_GLYSO  A0A0B2R4C7 Glycosyltransferase OS=Glycine so...  82.0    1e-17
+TR:A0A2P5DN34_PARAD  A0A2P5DN34 Glycosyltransferase OS=Parasponia...  82.0    1e-17
+TR:A0A2P6PLS9_ROSCH  A0A2P6PLS9 Glycosyltransferase OS=Rosa chine...  82.0    1e-17
+TR:K7MM15_SOYBN  K7MM15 Glycosyltransferase OS=Glycine max OX=384...  82.0    1e-17
+TR:X5IXP9_DELGR  X5IXP9 UDP-glucose dependent p-hydroxybenzoic ac...  82.0    1e-17
+TR:A0A2I6B3Q5_RHORB  A0A2I6B3Q5 Glycosyltransferase OS=Rhodiola r...  82.0    1e-17
+TR:A0A059BDD2_EUCGR  A0A059BDD2 Glycosyltransferase OS=Eucalyptus...  82.0    1e-17
+TR:A0A2P5DN54_PARAD  A0A2P5DN54 Glycosyltransferase OS=Parasponia...  81.6    2e-17
+TR:A0A2P2JTY1_RHIMU  A0A2P2JTY1 Glycosyltransferase OS=Rhizophora...  81.6    2e-17
+TR:A0A2K3PKZ9_TRIPR  A0A2K3PKZ9 Glycosyltransferase OS=Trifolium ...  81.3    2e-17
+TR:U5D817_AMBTC  U5D817 Uncharacterized protein OS=Amborella tric...  81.3    2e-17
+TR:R0G4J5_9BRAS  R0G4J5 Glycosyltransferase OS=Capsella rubella O...  81.3    2e-17
+TR:D7L0U2_ARALL  D7L0U2 Glycosyltransferase OS=Arabidopsis lyrata...  81.3    2e-17
+TR:S8BT90_9LAMI  S8BT90 Glycosyltransferase (Fragment) OS=Genlise...  80.9    3e-17
+TR:M5VVR9_PRUPE  M5VVR9 Glycosyltransferase OS=Prunus persica OX=...  80.9    3e-17
+TR:A0A2G5C716_AQUCA  A0A2G5C716 Glycosyltransferase OS=Aquilegia ...  80.9    3e-17
+TR:V7CG39_PHAVU  V7CG39 Glycosyltransferase OS=Phaseolus vulgaris...  80.9    3e-17
+TR:A0A118JVV7_CYNCS  A0A118JVV7 Glycosyltransferase OS=Cynara car...  80.9    3e-17
+TR:A0A1S4CD49_TOBAC  A0A1S4CD49 Glycosyltransferase OS=Nicotiana ...  80.9    3e-17
+TR:A0A1U7ULL2_NICSY  A0A1U7ULL2 Glycosyltransferase OS=Nicotiana ...  80.9    3e-17
+TR:A0A1S3YKZ8_TOBAC  A0A1S3YKZ8 Glycosyltransferase OS=Nicotiana ...  80.9    3e-17
+TR:R0F4C9_9BRAS  R0F4C9 Glycosyltransferase OS=Capsella rubella O...  80.5    5e-17
+TR:A0A0A0K2I5_CUCSA  A0A0A0K2I5 Glycosyltransferase OS=Cucumis sa...  80.5    5e-17
+TR:A0A2N9FYZ7_FAGSY  A0A2N9FYZ7 Glycosyltransferase OS=Fagus sylv...  80.5    5e-17
+TR:A0A103XMN4_CYNCS  A0A103XMN4 Glycosyltransferase OS=Cynara car...  80.1    6e-17
+TR:B9SG12_RICCO  B9SG12 Glycosyltransferase OS=Ricinus communis O...  80.1    6e-17
+TR:A0A175YDU5_DAUCA  A0A175YDU5 Uncharacterized protein OS=Daucus...  80.1    6e-17
+TR:A0A1S4DLD1_TOBAC  A0A1S4DLD1 Glycosyltransferase OS=Nicotiana ...  80.1    6e-17
+SP:U84A2_ARATH  Q9LVF0 UDP-glycosyltransferase 84A2 OS=Arabidopsi...  80.1    6e-17
+TR:A0A178VL16_ARATH  A0A178VL16 Glycosyltransferase OS=Arabidopsi...  80.1    6e-17
+TR:W8QNN5_ARATH  W8QNN5 Glycosyltransferase (Fragment) OS=Arabido...  80.1    6e-17
+TR:A0A1U7XH22_NICSY  A0A1U7XH22 Glycosyltransferase OS=Nicotiana ...  80.1    6e-17
+TR:A0A1S4B561_TOBAC  A0A1S4B561 Glycosyltransferase OS=Nicotiana ...  80.1    6e-17
+SP:GGT_QUERO  V5LLZ9 Gallate 1-beta-glucosyltransferase OS=Quercu...  80.1    6e-17
+TR:I1LEK0_SOYBN  I1LEK0 Glycosyltransferase OS=Glycine max OX=384...  80.1    6e-17
+TR:A0A2T7DRF0_9POAL  A0A2T7DRF0 Uncharacterized protein OS=Panicu...  79.7    8e-17
+TR:A0A2P4GRA5_QUESU  A0A2P4GRA5 Glycosyltransferase OS=Quercus su...  79.7    8e-17
+TR:R0F9E9_9BRAS  R0F9E9 Glycosyltransferase OS=Capsella rubella O...  79.7    9e-17
+TR:V4P8K0_EUTSA  V4P8K0 Glycosyltransferase OS=Eutrema salsugineu...  79.7    9e-17
+TR:A0A103XUF3_CYNCS  A0A103XUF3 UDP-glucuronosyl/UDP-glucosyltran...  79.7    9e-17
+TR:A0A0A0K6G1_CUCSA  A0A0A0K6G1 Glycosyltransferase OS=Cucumis sa...  79.3    1e-16
+SP:U84A3_ARATH  O23401 UDP-glycosyltransferase 84A3 OS=Arabidopsi...  79.3    1e-16
+TR:W8QNG3_ARATH  W8QNG3 Glycosyltransferase (Fragment) OS=Arabido...  79.3    1e-16
+TR:A0A178V6D8_ARATH  A0A178V6D8 Glycosyltransferase OS=Arabidopsi...  79.3    1e-16
+TR:A0A1J3CBR0_NOCCA  A0A1J3CBR0 Glycosyltransferase OS=Noccaea ca...  79.3    1e-16
+TR:A0A1J3FH96_NOCCA  A0A1J3FH96 Glycosyltransferase OS=Noccaea ca...  79.3    1e-16
+TR:A0A1J3J853_NOCCA  A0A1J3J853 Glycosyltransferase OS=Noccaea ca...  79.3    1e-16
+TR:A0A1J3H0U3_NOCCA  A0A1J3H0U3 Glycosyltransferase OS=Noccaea ca...  79.3    1e-16
+TR:Q2A659_BRANA  Q2A659 Glycosyltransferase OS=Brassica napus OX=...  79.0    2e-16
+TR:M1B628_SOLTU  M1B628 Glycosyltransferase OS=Solanum tuberosum ...  79.0    2e-16
+TR:A0A103XMB5_CYNCS  A0A103XMB5 Glycosyltransferase OS=Cynara car...  79.0    2e-16
+TR:D7MAH4_ARALL  D7MAH4 Glycosyltransferase OS=Arabidopsis lyrata...  79.0    2e-16
+TR:A0A1B4XK95_IPOBA  A0A1B4XK95 Glycosyltransferase OS=Ipomoea ba...  78.6    2e-16
+TR:A0A0A0K4K6_CUCSA  A0A0A0K4K6 Glycosyltransferase OS=Cucumis sa...  78.6    2e-16
+TR:A0A2K1Z5H6_POPTR  A0A2K1Z5H6 Glycosyltransferase OS=Populus tr...  78.6    2e-16
+TR:A0A2U1LE54_ARTAN  A0A2U1LE54 Uncharacterized protein OS=Artemi...  78.6    2e-16
+TR:A0A1U8F2R1_CAPAN  A0A1U8F2R1 limonoid UDP-glucosyltransferase-...  78.2    3e-16
+TR:M4FEM5_BRARP  M4FEM5 Glycosyltransferase OS=Brassica rapa subs...  78.2    3e-16
+TR:A0A125QVX2_CAMSI  A0A125QVX2 Glycosyltransferase OS=Camellia s...  78.2    3e-16
+TR:W1NFN9_AMBTC  W1NFN9 Glycosyltransferase OS=Amborella trichopo...  78.2    3e-16
+TR:A0A175YE35_DAUCA  A0A175YE35 Glycosyltransferase OS=Daucus car...  77.8    4e-16
+TR:U5D2S8_AMBTC  U5D2S8 Glycosyltransferase OS=Amborella trichopo...  77.8    4e-16
+TR:A0A078G924_BRANA  A0A078G924 Glycosyltransferase OS=Brassica n...  77.8    4e-16
+TR:M4FEM3_BRARP  M4FEM3 Glycosyltransferase OS=Brassica rapa subs...  77.8    4e-16
+TR:A0A2G5CNW0_AQUCA  A0A2G5CNW0 Glycosyltransferase OS=Aquilegia ...  77.4    5e-16
+TR:A0A2J6MDN9_LACSA  A0A2J6MDN9 Glycosyltransferase OS=Lactuca sa...  77.4    5e-16
+TR:A0A151RRC3_CAJCA  A0A151RRC3 Glycosyltransferase OS=Cajanus ca...  77.4    6e-16
+TR:A0A2N9FY61_FAGSY  A0A2N9FY61 Glycosyltransferase OS=Fagus sylv...  77.4    6e-16
+TR:W1NFL7_AMBTC  W1NFL7 Glycosyltransferase OS=Amborella trichopo...  77.4    6e-16
+TR:A0A078HIV9_BRANA  A0A078HIV9 Glycosyltransferase OS=Brassica n...  77.4    6e-16
+TR:A7M6H9_DIACA  A7M6H9 Glycosyltransferase OS=Dianthus caryophyl...  77.4    6e-16
+TR:A0A072V050_MEDTR  A0A072V050 Glycosyltransferase OS=Medicago t...  77.4    6e-16
+TR:A0A175YF76_DAUCA  A0A175YF76 Uncharacterized protein OS=Daucus...  77.0    8e-16
+TR:A0A2J6KQ50_LACSA  A0A2J6KQ50 Glycosyltransferase OS=Lactuca sa...  77.0    8e-16
+TR:V7BF02_PHAVU  V7BF02 Glycosyltransferase OS=Phaseolus vulgaris...  77.0    8e-16
+TR:V7BB40_PHAVU  V7BB40 Glycosyltransferase OS=Phaseolus vulgaris...  77.0    8e-16
+SP:UGT_FRAAN  Q2V6K1 Putative UDP-glucose glucosyltransferase OS=...  77.0    8e-16
+TR:V7BBT3_PHAVU  V7BBT3 Glycosyltransferase (Fragment) OS=Phaseol...  77.0    8e-16
+TR:D7MAH2_ARALL  D7MAH2 Glycosyltransferase OS=Arabidopsis lyrata...  77.0    8e-16
+TR:A0A2N9H2Q9_FAGSY  A0A2N9H2Q9 Glycosyltransferase OS=Fagus sylv...  77.0    8e-16
+TR:A0A0M5IKK1_BRANI  A0A0M5IKK1 UDP-glucose:sinapate glucosyltran...  76.6    8e-16
+TR:A0A078G1V0_BRANA  A0A078G1V0 Glycosyltransferase OS=Brassica n...  77.0    8e-16
+TR:A0A0D3ABS4_BRAOL  A0A0D3ABS4 Glycosyltransferase OS=Brassica o...  77.0    8e-16
+TR:C1L323_BRAOL  C1L323 Glycosyltransferase OS=Brassica oleracea ...  77.0    8e-16
+TR:A0A059BCC9_EUCGR  A0A059BCC9 Glycosyltransferase OS=Eucalyptus...  77.0    8e-16
+TR:C1L320_BRANA  C1L320 Glycosyltransferase OS=Brassica napus var...  77.0    8e-16
+TR:A0A251TIZ7_HELAN  A0A251TIZ7 Glycosyltransferase OS=Helianthus...  77.0    8e-16
+TR:A0A087HBG4_ARAAL  A0A087HBG4 Glycosyltransferase OS=Arabis alp...  76.6    1e-15
+TR:A0A1J7H091_LUPAN  A0A1J7H091 Uncharacterized protein OS=Lupinu...  76.3    1e-15
+TR:A0A175YCX7_DAUCA  A0A175YCX7 Glycosyltransferase OS=Daucus car...  76.6    1e-15
+TR:A0A2G5CZP3_AQUCA  A0A2G5CZP3 Glycosyltransferase OS=Aquilegia ...  76.6    1e-15
+TR:A0A0Y0UN46_DAUCA  A0A0Y0UN46 Glycosyltransferase OS=Daucus car...  76.6    1e-15
+TR:A0A087HBG3_ARAAL  A0A087HBG3 Glycosyltransferase OS=Arabis alp...  76.6    1e-15
+TR:A0A0M4BKJ2_BRACM  A0A0M4BKJ2 UDP-glucose:sinapate glucosyltran...  76.3    1e-15
+TR:D7MAH3_ARALL  D7MAH3 Uncharacterized protein OS=Arabidopsis ly...  76.3    1e-15
+TR:A0A0D9WJG8_9ORYZ  A0A0D9WJG8 Glycosyltransferase OS=Leersia pe...  76.3    1e-15
+TR:A0A2R6R1Z5_ACTCH  A0A2R6R1Z5 Glycosyltransferase OS=Actinidia ...  76.3    1e-15
+TR:A0A2G5C719_AQUCA  A0A2G5C719 Uncharacterized protein OS=Aquile...  76.3    1e-15
+TR:A0A1E5W030_9POAL  A0A1E5W030 Glycosyltransferase OS=Dichanthel...  76.3    1e-15
+TR:K4CJ38_SOLLC  K4CJ38 Glycosyltransferase OS=Solanum lycopersic...  76.3    1e-15
+TR:C1L325_BRARO  C1L325 Glycosyltransferase OS=Brassica rapa subs...  76.3    1e-15
+TR:M4E518_BRARP  M4E518 Glycosyltransferase OS=Brassica rapa subs...  76.3    1e-15
+TR:C1L321_BRANA  C1L321 Glycosyltransferase OS=Brassica napus var...  76.3    1e-15
+TR:K3Y138_SETIT  K3Y138 Glycosyltransferase OS=Setaria italica OX...  76.3    1e-15
+TR:A0A1J6KLE4_NICAT  A0A1J6KLE4 Glycosyltransferase (Fragment) OS...  75.9    2e-15
+TR:A0A2G5EXK1_AQUCA  A0A2G5EXK1 Uncharacterized protein OS=Aquile...  75.5    2e-15
+TR:A0A0D9V490_9ORYZ  A0A0D9V490 Glycosyltransferase OS=Leersia pe...  75.9    2e-15
+TR:A0A1J7GUL0_LUPAN  A0A1J7GUL0 Glycosyltransferase OS=Lupinus an...  75.9    2e-15
+TR:A0A0S3SM42_PHAAN  A0A0S3SM42 Uncharacterized protein OS=Vigna ...  75.9    2e-15
+TR:A0A0L9TFV7_PHAAN  A0A0L9TFV7 Uncharacterized protein OS=Phaseo...  75.9    2e-15
+TR:B8LKR3_PICSI  B8LKR3 Glycosyltransferase OS=Picea sitchensis O...  75.9    2e-15
+TR:A0A087HBH4_ARAAL  A0A087HBH4 Glycosyltransferase OS=Arabis alp...  75.9    2e-15
+TR:A0A175YDD8_DAUCA  A0A175YDD8 Uncharacterized protein OS=Daucus...  75.9    2e-15
+TR:F6I5X7_VITVI  F6I5X7 Glycosyltransferase OS=Vitis vinifera OX=...  75.9    2e-15
+TR:A0A1U8F4W2_CAPAN  A0A1U8F4W2 limonoid UDP-glucosyltransferase-...  75.9    2e-15
+TR:A0A0K9R8Z5_SPIOL  A0A0K9R8Z5 Glycosyltransferase OS=Spinacia o...  75.9    2e-15
+TR:A0A1J6L7K6_NICAT  A0A1J6L7K6 Glycosyltransferase OS=Nicotiana ...  75.9    2e-15
+TR:A0A218VWN4_PUNGR  A0A218VWN4 Glycosyltransferase OS=Punica gra...  75.9    2e-15
+TR:A0A1S3V1B3_VIGRR  A0A1S3V1B3 UDP-glycosyltransferase 84B2-like...  75.5    3e-15
+TR:K3ZE71_SETIT  K3ZE71 Glycosyltransferase OS=Setaria italica OX...  75.5    3e-15
+TR:U5CXN6_AMBTC  U5CXN6 Glycosyltransferase OS=Amborella trichopo...  75.5    3e-15
+TR:M4ER67_BRARP  M4ER67 Glycosyltransferase OS=Brassica rapa subs...  75.5    3e-15
+TR:C6TCM6_SOYBN  C6TCM6 Uncharacterized protein OS=Glycine max OX...  73.6    3e-15
+TR:A0A067XU29_CICAR  A0A067XU29 Glycosyltransferase OS=Cicer arie...  75.1    4e-15
+TR:A0A1U7Z1N7_NELNU  A0A1U7Z1N7 Glycosyltransferase OS=Nelumbo nu...  75.1    4e-15
+TR:A0A251TKZ4_HELAN  A0A251TKZ4 Glycosyltransferase OS=Helianthus...  75.1    4e-15
+TR:A0A2J6MDJ9_LACSA  A0A2J6MDJ9 Glycosyltransferase OS=Lactuca sa...  75.1    4e-15
+TR:A0A1S2YSH0_CICAR  A0A1S2YSH0 Glycosyltransferase OS=Cicer arie...  75.1    4e-15
+TR:A0A2J6MDF2_LACSA  A0A2J6MDF2 Glycosyltransferase OS=Lactuca sa...  75.1    4e-15
+TR:A0A199UC40_MANES  A0A199UC40 Glycosyltransferase OS=Manihot es...  75.1    4e-15
+TR:A0A072W1D1_MEDTR  A0A072W1D1 Glycosyltransferase OS=Medicago t...  75.1    4e-15
+SP:U84A1_ARATH  Q5XF20 UDP-glycosyltransferase 84A1 OS=Arabidopsi...  75.1    4e-15
+TR:W8Q6K4_ARATH  W8Q6K4 Glycosyltransferase (Fragment) OS=Arabido...  75.1    4e-15
+TR:A0A178UZA1_ARATH  A0A178UZA1 Glycosyltransferase OS=Arabidopsi...  75.1    4e-15
+TR:A0A2U1M9J5_ARTAN  A0A2U1M9J5 UDP-glucuronosyl/UDP-glucosyltran...  75.1    4e-15
+TR:A0A2S3H9V0_9POAL  A0A2S3H9V0 Uncharacterized protein OS=Panicu...  74.7    5e-15
+TR:A0A2T7EAM0_9POAL  A0A2T7EAM0 Uncharacterized protein OS=Panicu...  74.7    5e-15
+TR:A0A067KJJ1_JATCU  A0A067KJJ1 Glycosyltransferase OS=Jatropha c...  74.7    5e-15
+TR:A0A078HMP4_BRANA  A0A078HMP4 Glycosyltransferase OS=Brassica n...  74.7    5e-15
+TR:C1L324_BRARO  C1L324 Glycosyltransferase OS=Brassica rapa subs...  74.7    5e-15
+TR:C1L322_BRAOL  C1L322 Glycosyltransferase OS=Brassica oleracea ...  74.7    5e-15
+TR:C1L318_BRANA  C1L318 Glycosyltransferase OS=Brassica napus var...  74.7    5e-15
+TR:C1L319_BRANA  C1L319 Glycosyltransferase OS=Brassica napus var...  74.7    5e-15
+TR:Q9FYU7_BRANA  Q9FYU7 Glycosyltransferase OS=Brassica napus OX=...  74.7    5e-15
+TR:A0A0D9V491_9ORYZ  A0A0D9V491 Glycosyltransferase OS=Leersia pe...  74.3    7e-15
+TR:X5II88_DELGR  X5II88 Glycosyltransferase OS=Delphinium grandif...  74.3    7e-15
+TR:A0A067LEF5_JATCU  A0A067LEF5 Glycosyltransferase OS=Jatropha c...  74.3    7e-15
+TR:A0A2H5QPT5_CITUN  A0A2H5QPT5 Glycosyltransferase OS=Citrus uns...  74.3    7e-15
+TR:A0A0D3CHI6_BRAOL  A0A0D3CHI6 Glycosyltransferase OS=Brassica o...  74.3    7e-15
+TR:A0A118JV97_CYNCS  A0A118JV97 Glycosyltransferase OS=Cynara car...  74.3    7e-15
+TR:A0A2H5QPQ2_CITUN  A0A2H5QPQ2 Uncharacterized protein OS=Citrus...  74.3    7e-15
+TR:A0A2U1M7F6_ARTAN  A0A2U1M7F6 UDP-glucuronosyl/UDP-glucosyltran...  72.0    8e-15
+TR:A0A2G5CC66_AQUCA  A0A2G5CC66 Glycosyltransferase OS=Aquilegia ...  73.9    9e-15
+TR:A0A2P4GM91_QUESU  A0A2P4GM91 Glycosyltransferase OS=Quercus su...  73.9    9e-15
+TR:A0A2U1M9I4_ARTAN  A0A2U1M9I4 UDP-glucuronosyl/UDP-glucosyltran...  73.9    9e-15
+TR:A0A1S3C0K7_CUCME  A0A1S3C0K7 Glycosyltransferase OS=Cucumis me...  73.9    9e-15
+TR:M4D8H4_BRARP  M4D8H4 Glycosyltransferase OS=Brassica rapa subs...  73.9    9e-15
+TR:A0A251TIZ1_HELAN  A0A251TIZ1 Glycosyltransferase OS=Helianthus...  73.9    1e-14
+TR:A0A0V0GSX5_SOLCH  A0A0V0GSX5 Putative ovule protein (Fragment)...  70.9    1e-14
+TR:A0A078F3J1_BRANA  A0A078F3J1 Glycosyltransferase OS=Brassica n...  73.6    1e-14
+TR:A0A0D3DLZ4_BRAOL  A0A0D3DLZ4 Glycosyltransferase OS=Brassica o...  73.6    1e-14
+TR:B0I192_CLITE  B0I192 Glycosyltransferase OS=Clitoria ternatea ...  73.6    1e-14
+TR:I1NFW9_SOYBN  I1NFW9 Glycosyltransferase OS=Glycine max OX=384...  73.6    1e-14
+TR:A0A078IEK2_BRANA  A0A078IEK2 Glycosyltransferase OS=Brassica n...  73.6    1e-14
+TR:A0A0D3A7Y0_BRAOL  A0A0D3A7Y0 Glycosyltransferase OS=Brassica o...  73.6    1e-14
+TR:R0GEJ1_9BRAS  R0GEJ1 Glycosyltransferase OS=Capsella rubella O...  73.6    1e-14
+TR:A0A078FCI5_BRANA  A0A078FCI5 Glycosyltransferase OS=Brassica n...  73.6    1e-14
+TR:A0A0D3DE81_BRAOL  A0A0D3DE81 Glycosyltransferase OS=Brassica o...  73.6    1e-14
+TR:M1CV75_SOLTU  M1CV75 Uncharacterized protein OS=Solanum tubero...  73.6    1e-14
+TR:A0A2I4F7W6_9ROSI  A0A2I4F7W6 Glycosyltransferase OS=Juglans re...  73.6    1e-14
+TR:A0A0E0JMK3_ORYPU  A0A0E0JMK3 Uncharacterized protein OS=Oryza ...  73.6    1e-14
+TR:A0A2P5CAQ2_9ROSA  A0A2P5CAQ2 Glycosyltransferase OS=Trema orie...  73.2    2e-14
+TR:A0A292GEP7_NEMME  A0A292GEP7 Glycosyltransferase OS=Nemophila ...  73.2    2e-14
+TR:A0A1U7ZH86_NELNU  A0A1U7ZH86 Glycosyltransferase OS=Nelumbo nu...  73.2    2e-14
+TR:A0A2P4GM96_QUESU  A0A2P4GM96 Udp-glycosyltransferase 75d1 OS=Q...  68.9    2e-14
+TR:A0A2I7M6E4_9APIA  A0A2I7M6E4 Glycosyltransferase OS=Centella a...  72.8    2e-14
+TR:A0A2P5DN36_PARAD  A0A2P5DN36 Glycosyltransferase OS=Parasponia...  72.8    2e-14
+TR:A0A0S3SM66_PHAAN  A0A0S3SM66 Uncharacterized protein OS=Vigna ...  72.8    2e-14
+TR:A0A1J3G2R3_NOCCA  A0A1J3G2R3 Glycosyltransferase OS=Noccaea ca...  72.8    2e-14
+TR:A0A1J3H5D9_NOCCA  A0A1J3H5D9 Glycosyltransferase OS=Noccaea ca...  72.8    2e-14
+TR:A0A1J3EB43_NOCCA  A0A1J3EB43 Glycosyltransferase OS=Noccaea ca...  72.8    2e-14
+TR:R0HTM7_9BRAS  R0HTM7 Glycosyltransferase OS=Capsella rubella O...  72.8    2e-14
+TR:A0A087HBY0_ARAAL  A0A087HBY0 Glycosyltransferase OS=Arabis alp...  72.8    2e-14
+TR:A0A0L9TFU4_PHAAN  A0A0L9TFU4 Uncharacterized protein OS=Phaseo...  72.8    2e-14
+TR:A0A0M4BXN1_BRACM  A0A0M4BXN1 UDP-glucose:sinapate glucosyltran...  72.4    3e-14
+TR:A0A1J7G026_LUPAN  A0A1J7G026 Glycosyltransferase OS=Lupinus an...  72.4    3e-14
+TR:A0A1J3IVQ7_NOCCA  A0A1J3IVQ7 Glycosyltransferase OS=Noccaea ca...  72.4    3e-14
+TR:A0A067LBQ0_JATCU  A0A067LBQ0 Glycosyltransferase OS=Jatropha c...  72.4    3e-14
+TR:V4P8J8_EUTSA  V4P8J8 Glycosyltransferase OS=Eutrema salsugineu...  72.4    3e-14
+TR:A0A2U1L4R8_ARTAN  A0A2U1L4R8 Crocetin glucosyltransferase prot...  72.4    3e-14
+TR:M1CV76_SOLTU  M1CV76 Uncharacterized protein OS=Solanum tubero...  72.4    3e-14
+TR:V4LV47_EUTSA  V4LV47 Glycosyltransferase OS=Eutrema salsugineu...  72.4    3e-14
+TR:A0A0M4BQV5_BRAJU  A0A0M4BQV5 UDP-glucose:sinapate glucosyltran...  72.0    4e-14
+TR:A0A1E5UVS0_9POAL  A0A1E5UVS0 Glycosyltransferase OS=Dichanthel...  72.0    4e-14
+TR:K4DHG0_SOLLC  K4DHG0 Uncharacterized protein OS=Solanum lycope...  72.0    4e-14
+TR:A0A061DGT4_THECC  A0A061DGT4 UDP-glucosyl transferase 84B2, pu...  72.0    5e-14
+TR:W1NMJ4_AMBTC  W1NMJ4 Uncharacterized protein OS=Amborella tric...  70.5    5e-14
+TR:A0A2P4IMF4_QUESU  A0A2P4IMF4 Glycosyltransferase OS=Quercus su...  71.6    6e-14
+TR:J3MFG4_ORYBR  J3MFG4 Uncharacterized protein OS=Oryza brachyan...  71.2    6e-14
+TR:A0A200PT41_9MAGN  A0A200PT41 UDP-glucuronosyl/UDP-glucosyltran...  71.6    6e-14
+TR:D7MAH1_ARALL  D7MAH1 Glycosyltransferase OS=Arabidopsis lyrata...  71.6    6e-14
+TR:A0A1S3UYN0_VIGRR  A0A1S3UYN0 Glycosyltransferase OS=Vigna radi...  71.6    6e-14
+TR:A0A286Q1T3_LOTJA  A0A286Q1T3 Glycosyltransferase (Fragment) OS...  71.6    6e-14
+TR:A0A2P2P7X7_RHIMU  A0A2P2P7X7 Glycosyltransferase OS=Rhizophora...  71.6    6e-14
+TR:A0A2T8IKM5_9POAL  A0A2T8IKM5 Uncharacterized protein OS=Panicu...  71.6    6e-14
+TR:A0A0E0C6B3_9ORYZ  A0A0E0C6B3 Uncharacterized protein OS=Oryza ...  71.6    6e-14
+TR:A0A0D3A7X7_BRAOL  A0A0D3A7X7 Glycosyltransferase OS=Brassica o...  71.2    8e-14
+TR:A0A151U7S6_CAJCA  A0A151U7S6 Glycosyltransferase OS=Cajanus ca...  71.2    8e-14
+TR:A0A151U7U7_CAJCA  A0A151U7U7 Glycosyltransferase OS=Cajanus ca...  71.2    8e-14
+TR:A0A067F9F9_CITSI  A0A067F9F9 Glycosyltransferase (Fragment) OS...  71.2    8e-14
+TR:A0A2N9EWS8_FAGSY  A0A2N9EWS8 Glycosyltransferase OS=Fagus sylv...  71.2    8e-14
+TR:A0A200QRA6_9MAGN  A0A200QRA6 Glycosyltransferase OS=Macleaya c...  71.2    8e-14
+TR:A0A1U7ZG67_NELNU  A0A1U7ZG67 Glycosyltransferase OS=Nelumbo nu...  71.2    8e-14
+TR:A0A1S3V302_VIGRR  A0A1S3V302 Glycosyltransferase OS=Vigna radi...  71.2    8e-14
+TR:A0A2I0HJL9_PUNGR  A0A2I0HJL9 Glycosyltransferase OS=Punica gra...  71.2    8e-14
+TR:A0A0L9TH54_PHAAN  A0A0L9TH54 Glycosyltransferase OS=Phaseolus ...  71.2    8e-14
+TR:A0A0E0L5G1_ORYPU  A0A0E0L5G1 Glycosyltransferase OS=Oryza punc...  71.2    8e-14
+TR:A0A0D6QS53_ARACU  A0A0D6QS53 Glycosyltransferase OS=Araucaria ...  71.2    8e-14
+TR:A0A0D6QTA1_ARACU  A0A0D6QTA1 Glycosyltransferase OS=Araucaria ...  71.2    8e-14
+TR:V7BDP2_PHAVU  V7BDP2 Glycosyltransferase OS=Phaseolus vulgaris...  71.2    8e-14
+TR:A7M6I6_DIACA  A7M6I6 Glycosyltransferase OS=Dianthus caryophyl...  71.2    8e-14
+TR:C6KI42_CITSI  C6KI42 Glycosyltransferase OS=Citrus sinensis OX...  71.2    8e-14
+TR:V4RP81_9ROSI  V4RP81 Glycosyltransferase OS=Citrus clementina ...  71.2    8e-14
+TR:A0A0D9YDB8_9ORYZ  A0A0D9YDB8 Uncharacterized protein OS=Oryza ...  70.9    1e-13
+TR:B8A7N2_ORYSI  B8A7N2 Uncharacterized protein OS=Oryza sativa s...  70.9    1e-13
+TR:Q5N7M4_ORYSJ  Q5N7M4 Glycosyltransferase OS=Oryza sativa subsp...  70.9    1e-13
+TR:A0A0D3ESL9_9ORYZ  A0A0D3ESL9 Glycosyltransferase OS=Oryza bart...  70.9    1e-13
+TR:I1NQR5_ORYGL  I1NQR5 Glycosyltransferase OS=Oryza glaberrima O...  70.9    1e-13
+TR:A2WTW2_ORYSI  A2WTW2 Glycosyltransferase OS=Oryza sativa subsp...  70.9    1e-13
+TR:A0A2P4GMB8_QUESU  A0A2P4GMB8 Glycosyltransferase OS=Quercus su...  70.9    1e-13
+TR:R0FB02_9BRAS  R0FB02 Glycosyltransferase OS=Capsella rubella O...  70.9    1e-13
+TR:A0A1U8EZ65_CAPAN  A0A1U8EZ65 Glycosyltransferase OS=Capsicum a...  70.9    1e-13
+TR:A0A2P5SJK9_GOSBA  A0A2P5SJK9 Glycosyltransferase OS=Gossypium ...  70.9    1e-13
+TR:A0A0D2QXF2_GOSRA  A0A0D2QXF2 Glycosyltransferase OS=Gossypium ...  70.9    1e-13
+TR:A0A178UZN6_ARATH  A0A178UZN6 Glycosyltransferase OS=Arabidopsi...  70.9    1e-13
+TR:B9RY87_RICCO  B9RY87 Glycosyltransferase OS=Ricinus communis O...  70.9    1e-13
+TR:B9SG13_RICCO  B9SG13 Glycosyltransferase OS=Ricinus communis O...  70.9    1e-13
+TR:I1NQR6_ORYGL  I1NQR6 Uncharacterized protein OS=Oryza glaberri...  70.9    1e-13
+TR:A0A2K3N515_TRIPR  A0A2K3N515 Glycosyltransferase OS=Trifolium ...  70.9    1e-13
+TR:A0A0E0FRE2_ORYNI  A0A0E0FRE2 Uncharacterized protein OS=Oryza ...  70.9    1e-13
+TR:A0A0E0N0X7_ORYRU  A0A0E0N0X7 Uncharacterized protein OS=Oryza ...  70.9    1e-13
+TR:A0A0M4BF76_BRAJU  A0A0M4BF76 UDP-glucose:sinapate glucosyltran...  70.5    1e-13
+TR:A0A1R3GZ48_9ROSI  A0A1R3GZ48 UDP-glucuronosyl/UDP-glucosyltran...  70.5    1e-13
+TR:A0A2G2W4L5_CAPBA  A0A2G2W4L5 Cinnamate beta-D-glucosyltransfer...  68.9    1e-13
+TR:A0A2P4IMI9_QUESU  A0A2P4IMI9 Glycosyltransferase OS=Quercus su...  70.5    2e-13
+TR:B9FHV5_ORYSJ  B9FHV5 Glycosyltransferase OS=Oryza sativa subsp...  70.5    2e-13
+TR:A0A0A9FQ33_ARUDO  A0A0A9FQ33 Glycosyltransferase OS=Arundo don...  70.5    2e-13
+TR:I1HGQ2_BRADI  I1HGQ2 Glycosyltransferase OS=Brachypodium dista...  70.5    2e-13
+TR:A0A2U1KZB8_ARTAN  A0A2U1KZB8 UDP-glucuronosyl/UDP-glucosyltran...  70.5    2e-13
+TR:Q2A660_BRANA  Q2A660 Glycosyltransferase OS=Brassica napus OX=...  70.5    2e-13
+TR:A0A0Q3ML40_BRADI  A0A0Q3ML40 Glycosyltransferase OS=Brachypodi...  70.5    2e-13
+TR:A0A0E0PQW9_ORYRU  A0A0E0PQW9 Glycosyltransferase OS=Oryza rufi...  70.5    2e-13
+TR:Q6AUC5_ORYSJ  Q6AUC5 Glycosyltransferase OS=Oryza sativa subsp...  70.5    2e-13
+TR:A0A2J6LTY6_LACSA  A0A2J6LTY6 Glycosyltransferase OS=Lactuca sa...  70.5    2e-13
+TR:Q0DG51_ORYSJ  Q0DG51 Glycosyltransferase (Fragment) OS=Oryza s...  70.5    2e-13
+TR:A0A067DER4_CITSI  A0A067DER4 Glycosyltransferase OS=Citrus sin...  70.1    2e-13
+TR:A0A078J045_BRANA  A0A078J045 Glycosyltransferase OS=Brassica n...  70.1    2e-13
+TR:A0A2H5PDV0_CITUN  A0A2H5PDV0 Glycosyltransferase OS=Citrus uns...  70.1    2e-13
+TR:A0A2K1Z5F8_POPTR  A0A2K1Z5F8 Uncharacterized protein OS=Populu...  70.1    2e-13
+TR:A0A251TK69_HELAN  A0A251TK69 Glycosyltransferase OS=Helianthus...  70.1    2e-13
+TR:A0A2U1M1X9_ARTAN  A0A2U1M1X9 UDP-glucuronosyl/UDP-glucosyltran...  70.1    2e-13
+TR:W1PE57_AMBTC  W1PE57 Glycosyltransferase OS=Amborella trichopo...  70.1    2e-13
+TR:A0A2P5Y348_GOSBA  A0A2P5Y348 Glycosyltransferase OS=Gossypium ...  70.1    2e-13
+TR:A0A1U8JCQ3_GOSHI  A0A1U8JCQ3 Glycosyltransferase OS=Gossypium ...  70.1    2e-13
+SP:U84A4_ARATH  O23402 UDP-glycosyltransferase 84A4 OS=Arabidopsi...  70.1    2e-13
+TR:W8PUL7_ARATH  W8PUL7 Glycosyltransferase (Fragment) OS=Arabido...  70.1    2e-13
+TR:A0A2D1PE29_9CARY  A0A2D1PE29 Glycosyltransferase OS=Fallopia m...  70.1    2e-13
+TR:V7BAY2_PHAVU  V7BAY2 Glycosyltransferase OS=Phaseolus vulgaris...  70.1    2e-13
+TR:M8C1V5_AEGTA  M8C1V5 Glycosyltransferase OS=Aegilops tauschii ...  69.7    3e-13
+TR:M0ZZW0_SOLTU  M0ZZW0 Glycosyltransferase OS=Solanum tuberosum ...  69.7    3e-13
+TR:A0A1U7YYG5_NELNU  A0A1U7YYG5 Glycosyltransferase OS=Nelumbo nu...  69.7    3e-13
+TR:A0A1U7ZG62_NELNU  A0A1U7ZG62 Glycosyltransferase OS=Nelumbo nu...  69.7    3e-13
+TR:B9HS63_POPTR  B9HS63 Glycosyltransferase OS=Populus trichocarp...  69.7    3e-13
+TR:A0A2U1QIY7_ARTAN  A0A2U1QIY7 Crocetin glucosyltransferase prot...  69.7    3e-13
+TR:A0A2U1KCX0_ARTAN  A0A2U1KCX0 Crocetin glucosyltransferase prot...  69.7    3e-13
+TR:A0A1D5WJE1_WHEAT  A0A1D5WJE1 Glycosyltransferase OS=Triticum a...  69.7    3e-13
+TR:A0A0D3GAJ2_9ORYZ  A0A0D3GAJ2 Glycosyltransferase OS=Oryza bart...  69.7    3e-13
+TR:A2Y787_ORYSI  A2Y787 Glycosyltransferase OS=Oryza sativa subsp...  69.7    3e-13
+TR:A0A0E0HHV7_ORYNI  A0A0E0HHV7 Glycosyltransferase OS=Oryza niva...  69.7    3e-13
+TR:I1PXR0_ORYGL  I1PXR0 Glycosyltransferase OS=Oryza glaberrima O...  69.7    3e-13
+TR:A0A0E0A2I0_9ORYZ  A0A0E0A2I0 Glycosyltransferase OS=Oryza glum...  69.7    3e-13
+TR:A0A0E0DUJ6_9ORYZ  A0A0E0DUJ6 Glycosyltransferase OS=Oryza meri...  69.7    3e-13
+TR:V4UIS5_9ROSI  V4UIS5 Glycosyltransferase OS=Citrus clementina ...  69.7    3e-13
+TR:B1B5E8_GOMGL  B1B5E8 Glycosyltransferase OS=Gomphrena globosa ...  69.7    3e-13
+TR:U5DFQ6_AMBTC  U5DFQ6 Glycosyltransferase OS=Amborella trichopo...  69.3    4e-13
+TR:A0A0E0LD49_ORYPU  A0A0E0LD49 Glycosyltransferase OS=Oryza punc...  69.3    4e-13
+TR:R0GIA8_9BRAS  R0GIA8 Glycosyltransferase OS=Capsella rubella O...  69.3    4e-13
+TR:R0FAM9_9BRAS  R0FAM9 Glycosyltransferase OS=Capsella rubella O...  69.3    4e-13
+TR:V4MHB3_EUTSA  V4MHB3 Glycosyltransferase OS=Eutrema salsugineu...  69.3    4e-13
+TR:V4LZ32_EUTSA  V4LZ32 Glycosyltransferase OS=Eutrema salsugineu...  69.3    4e-13
+TR:A0A2G3AVB4_CAPCH  A0A2G3AVB4 Crocetin glucosyltransferase, chl...  69.3    4e-13
+TR:W8PV14_ARATH  W8PV14 Glycosyltransferase (Fragment) OS=Arabido...  68.9    5e-13
+TR:V4L7B1_EUTSA  V4L7B1 Glycosyltransferase OS=Eutrema salsugineu...  68.9    5e-13
+TR:A0A0E0E3D7_9ORYZ  A0A0E0E3D7 Glycosyltransferase OS=Oryza meri...  68.9    5e-13
+TR:A0A2C9UR69_MANES  A0A2C9UR69 Glycosyltransferase OS=Manihot es...  68.9    5e-13
+TR:A0A2H3XA81_PHODC  A0A2H3XA81 crocetin glucosyltransferase, chl...  67.4    6e-13
+TR:V4LCX5_EUTSA  V4LCX5 Uncharacterized protein OS=Eutrema salsug...  67.8    6e-13
+TR:M0RYI3_MUSAM  M0RYI3 Uncharacterized protein OS=Musa acuminata...  68.6    7e-13
+TR:A0A0D3ESM0_9ORYZ  A0A0D3ESM0 Glycosyltransferase OS=Oryza bart...  68.6    7e-13
+TR:K4CJF0_SOLLC  K4CJF0 Uncharacterized protein OS=Solanum lycope...  66.6    7e-13
+TR:A0A2P4MC12_QUESU  A0A2P4MC12 Glycosyltransferase OS=Quercus su...  68.6    7e-13
+TR:A0A1R3GER3_COCAP  A0A1R3GER3 Glycosyltransferase OS=Corchorus ...  68.6    7e-13
+TR:F2DZ19_HORVV  F2DZ19 Glycosyltransferase OS=Hordeum vulgare su...  68.6    7e-13
+TR:A0A2H3Y171_PHODC  A0A2H3Y171 Glycosyltransferase OS=Phoenix da...  68.6    7e-13
+TR:A0A2H3ZS35_PHODC  A0A2H3ZS35 Glycosyltransferase OS=Phoenix da...  68.6    7e-13
+TR:A0A0C9S7N9_9SPER  A0A0C9S7N9 Glycosyltransferase OS=Wollemia n...  68.6    7e-13
+TR:Q0JKA9_ORYSJ  Q0JKA9 Glycosyltransferase OS=Oryza sativa subsp...  68.6    7e-13
+TR:A0A1D1YZU7_9ARAE  A0A1D1YZU7 Glycosyltransferase (Fragment) OS...  68.6    7e-13
+TR:Q1PF14_ARATH  Q1PF14 UDP-Glycosyltransferase superfamily prote...  67.8    8e-13
+
+
+>TR:A0A1Z5RLH0_SORBI A0A1Z5RLH0 Glycosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3004G071200 
+PE=3 SV=1
+Length=560
+
+ Score = 166 bits (419),  Expect = 4e-48
+ Identities = 80/91 (88%), Positives = 84/91 (92%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPWAADVAADA IPSAVLWVQS AVFSLYYHHVHGLVEFPREDD DARFTLPGLPEMS
+Sbjct  199  PFMPWAADVAADAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPREDDPDARFTLPGLPEMS  258
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+VDAII Q R IGR+
+Sbjct  259  VADVPSFLLPSNPYKLLVDAIIAQFRAIGRA  289
+
+
+>TR:B6TZ09_MAIZE B6TZ09 Glycosyltransferase OS=Zea mays OX=4577 GN=100284943 PE=2 
+SV=1
+Length=491
+
+ Score = 161 bits (408),  Expect = 6e-47
+ Identities = 78/91 (86%), Positives = 82/91 (90%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPWA DVAADA IPSAVLWVQS AVFSLYYHHVHGLVEFP EDDLDARFTLPGLPEMS
+Sbjct  131  PFMPWAVDVAADAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARFTLPGLPEMS  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+VDAII Q  TI R+
+Sbjct  191  VADVPSFLLPSNPYKLLVDAIIAQFHTIDRA  221
+
+
+>TR:B6SU66_MAIZE B6SU66 Glycosyltransferase OS=Zea mays OX=4577 PE=2 SV=1
+Length=500
+
+ Score = 159 bits (402),  Expect = 5e-46
+ Identities = 77/91 (85%), Positives = 81/91 (89%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPWA DVAADA IPSAVLWVQS AVFSLYYHHVHGLVEFP EDDLDARFTLPGLPEMS
+Sbjct  133  PFMPWAVDVAADAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARFTLPGLPEMS  192
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+VDAII Q   I R+
+Sbjct  193  VADVPSFLLPSNPYKLLVDAIIAQFHNIHRA  223
+
+
+>TR:K7URK6_MAIZE K7URK6 Glycosyltransferase OS=Zea mays OX=4577 GN=ZEAMMB73_Zm00001d053715 
+PE=3 SV=1
+Length=500
+
+ Score = 159 bits (402),  Expect = 5e-46
+ Identities = 77/91 (85%), Positives = 81/91 (89%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPWA DVAADA IPSAVLWVQS AVFSLYYHHVHGLVEFP EDDLDARFTLPGLPEMS
+Sbjct  133  PFMPWAVDVAADAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARFTLPGLPEMS  192
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+VDAII Q   I R+
+Sbjct  193  VADVPSFLLPSNPYKLLVDAIIAQFHNIHRA  223
+
+
+>TR:A0A1E5VD44_9POAL A0A1E5VD44 Glycosyltransferase OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0015922 PE=3 SV=1
+Length=503
+
+ Score = 158 bits (400),  Expect = 1e-45
+ Identities = 76/91 (84%), Positives = 82/91 (90%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPWA+DVAADA IPSAVLWVQS AVFSLYYHHVHGLVEFP EDD +A+FTLPGLPEMS
+Sbjct  133  PFMPWASDVAADAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDPEAKFTLPGLPEMS  192
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP KL+ DAII Q RTIGR+
+Sbjct  193  VADVPSFLLPSNPFKLLADAIIAQFRTIGRA  223
+
+
+>TR:M8CWY6_AEGTA M8CWY6 Limonoid UDP-glucosyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_17188 PE=4 SV=1
+Length=272
+
+ Score = 146 bits (368),  Expect = 5e-43
+ Identities = 69/91 (76%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  121  PFLPWAIDVARDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVNLPGLPALS  180
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  181  VADVPSFLLPSNPYKLLTDAILKQFRTIHKA  211
+
+
+>TR:A0A2S3GM40_9POAL A0A2S3GM40 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G066500 PE=4 SV=1
+Length=501
+
+ Score = 147 bits (372),  Expect = 1e-41
+ Identities = 71/91 (78%), Positives = 77/91 (85%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVAA   IP+AVLWVQS AVFSLYYHHVHGLVEFP EDD  ARF LPGLPEMS
+Sbjct  133  PFLPWASDVAASEGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDPAARFRLPGLPEMS  192
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             ADVPS L+PSNP KL+ DAII Q RTIGR+
+Sbjct  193  AADVPSFLLPSNPFKLLADAIITQFRTIGRA  223
+
+
+>TR:A0A0E0JWK3_ORYPU A0A0E0JWK3 Glycosyltransferase OS=Oryza punctata OX=4537 PE=3 
+SV=1
+Length=476
+
+ Score = 147 bits (370),  Expect = 2e-41
+ Identities = 70/91 (77%), Positives = 79/91 (87%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAADA IPSAVLWVQS AVFSLYYH +HGLVEFP EDDLDARFTLPGLP MS
+Sbjct  130  PFIPWAVDVAADAGIPSAVLWVQSCAVFSLYYHRMHGLVEFPPEDDLDARFTLPGLPAMS  189
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP K + +AI+ Q+RTI ++
+Sbjct  190  VADVPSFLLPSNPFKSLTEAILQQIRTIDKA  220
+
+
+>TR:A0A2T7F2Y5_9POAL A0A2T7F2Y5 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G064600 PE=4 SV=1
+Length=501
+
+ Score = 147 bits (371),  Expect = 2e-41
+ Identities = 71/91 (78%), Positives = 77/91 (85%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVAA   IP+AVLWVQS AVFSLYYHHVHGLVEFP EDD  ARF LPGLPEMS
+Sbjct  133  PFLPWASDVAAGEGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDPAARFRLPGLPEMS  192
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             ADVPS L+PSNP KL+ DAII Q RTIGR+
+Sbjct  193  AADVPSFLLPSNPFKLLADAIITQFRTIGRA  223
+
+
+>TR:A0A1D6AYZ3_WHEAT A0A1D6AYZ3 Glycosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=493
+
+ Score = 145 bits (367),  Expect = 6e-41
+ Identities = 69/91 (76%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  131  PFLPWAIDVAHDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVNLPGLPALS  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  191  VADVPSFLLPSNPYKLLTDAILKQFRTIHKA  221
+
+
+>TR:A0A1D6BFX3_WHEAT A0A1D6BFX3 Glycosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=496
+
+ Score = 145 bits (367),  Expect = 6e-41
+ Identities = 69/91 (76%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  130  PFLPWAIDVAHDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVNLPGLPALS  189
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  190  VADVPSFLLPSNPYKLLTDAILKQFRTIHKA  220
+
+
+>TR:A0A1D6AE54_WHEAT A0A1D6AE54 Glycosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=501
+
+ Score = 145 bits (367),  Expect = 6e-41
+ Identities = 69/91 (76%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  131  PFLPWAIDVAHDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVNLPGLPPLS  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  191  VADVPSFLLPSNPYKLLTDAILKQFRTIHKA  221
+
+
+>TR:K3YRM3_SETIT K3YRM3 Glycosyltransferase OS=Setaria italica OX=4555 GN=SETIT_016917mg 
+PE=3 SV=1
+Length=519
+
+ Score = 145 bits (367),  Expect = 8e-41
+ Identities = 69/91 (76%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PFMPW   VAA A IPSAVLWVQS AVFSLYYHHVHGLVEFP EDD +ARF+LPGLPEM+
+Sbjct  131  PFMPWTIGVAAGAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDAEARFSLPGLPEMT  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+  AI+ Q RTIG++
+Sbjct  191  VADVPSFLLPSNPYKLLAGAIVEQFRTIGQA  221
+
+
+>TR:I1HY49_BRADI I1HY49 Glycosyltransferase OS=Brachypodium distachyon OX=15368 
+GN=LOC100841338 PE=3 SV=1
+Length=485
+
+ Score = 144 bits (363),  Expect = 2e-40
+ Identities = 68/91 (75%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDD++AR  LPGLP MS
+Sbjct  129  PFLPWALDVAHDAGIPAAVLWVQSCAVFSLYYHHVHGLVEFPAEDDMEARVELPGLPAMS  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  189  VADVPSFLLPSNPYKLLTDAILNQFRTIHKA  219
+
+
+>TR:A0A287TWT2_HORVV A0A287TWT2 Glycosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=489
+
+ Score = 144 bits (363),  Expect = 2e-40
+ Identities = 68/91 (75%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  132  PFLPWAVDVAHDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVKLPGLPALS  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ +AI+ Q RTI ++
+Sbjct  192  VADVPSFLLPSNPYKLLTEAILKQFRTIHKA  222
+
+
+>TR:F2DI89_HORVV F2DI89 Glycosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=2 SV=1
+Length=492
+
+ Score = 144 bits (363),  Expect = 2e-40
+ Identities = 68/91 (75%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDDLDAR  LPGLP +S
+Sbjct  132  PFLPWAVDVAHDAGIPTAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLDARVKLPGLPALS  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ +AI+ Q RTI ++
+Sbjct  192  VADVPSFLLPSNPYKLLTEAILKQFRTIHKA  222
+
+
+>TR:A0A2K2CVK5_BRADI A0A2K2CVK5 Glycosyltransferase OS=Brachypodium distachyon OX=15368 
+GN=BRADI_3g06487v3 PE=3 SV=1
+Length=572
+
+ Score = 144 bits (363),  Expect = 5e-40
+ Identities = 68/91 (75%), Positives = 78/91 (86%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IP+AVLWVQS AVFSLYYHHVHGLVEFP EDD++AR  LPGLP MS
+Sbjct  216  PFLPWALDVAHDAGIPAAVLWVQSCAVFSLYYHHVHGLVEFPAEDDMEARVELPGLPAMS  275
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ DAI+ Q RTI ++
+Sbjct  276  VADVPSFLLPSNPYKLLTDAILNQFRTIHKA  306
+
+
+>TR:A0A0D9YNH2_9ORYZ A0A0D9YNH2 Glycosyltransferase OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=476
+
+ Score = 139 bits (351),  Expect = 9e-39
+ Identities = 68/91 (75%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A IPSAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  134  PFIPWAVDVAAAAGIPSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  194  VADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  224
+
+
+>TR:A0A0E0G300_ORYNI A0A0E0G300 Glycosyltransferase OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=477
+
+ Score = 139 bits (351),  Expect = 1e-38
+ Identities = 68/91 (75%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A IPSAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  135  PFIPWAVDVAAAAGIPSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  194
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  195  VADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  225
+
+
+>TR:I1NY12_ORYGL I1NY12 Glycosyltransferase OS=Oryza glaberrima OX=4538 PE=3 SV=1
+Length=477
+
+ Score = 139 bits (351),  Expect = 1e-38
+ Identities = 68/91 (75%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A IPSAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  135  PFIPWAVDVAAAAGIPSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  194
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  195  VADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  225
+
+
+>TR:C4MF33_9POAL C4MF33 Glycosyltransferase OS=Avena strigosa OX=38783 PE=2 SV=1
+Length=494
+
+ Score = 139 bits (351),  Expect = 1e-38
+ Identities = 67/91 (74%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA DA IPSAVLWVQS AVFSLYYHHVHGLVEFP EDDL+A   LPGLP MS
+Sbjct  132  PFLPWAIDVAHDAGIPSAVLWVQSCAVFSLYYHHVHGLVEFPPEDDLEALVKLPGLPAMS  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+KL+ + I+ Q RTI ++
+Sbjct  192  VADVPSFLLPSNPYKLLANEILKQFRTIHKA  222
+
+
+>TR:A0A0E0CH01_9ORYZ A0A0E0CH01 Glycosyltransferase OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=473
+
+ Score = 138 bits (347),  Expect = 3e-38
+ Identities = 67/91 (74%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A IPSAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  132  PFIPWAVDVAAAAGIPSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            V DVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  192  VTDVPSFLLPSNPYMSLTEAIQQQIRTIDKA  222
+
+
+>TR:Q6ZHS1_ORYSJ Q6ZHS1 Glycosyltransferase OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os02g0188000 PE=3 SV=1
+Length=428
+
+ Score = 135 bits (341),  Expect = 1e-37
+ Identities = 67/91 (74%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A I SAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  135  PFIPWAVDVAAAAGILSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  194
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  195  VADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  225
+
+
+>TR:K3XWN6_SETIT K3XWN6 Glycosyltransferase OS=Setaria italica OX=4555 GN=LOC101765953 
+PE=3 SV=1
+Length=475
+
+ Score = 135 bits (341),  Expect = 3e-37
+ Identities = 63/91 (69%), Positives = 76/91 (84%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAADA I +AVLWVQS AVFS+YYH VHGL EFPREDDLDARF LPGLP +S
+Sbjct  121  PFLPWATDVAADAGITTAVLWVQSCAVFSIYYHFVHGLAEFPREDDLDARFALPGLPGLS  180
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            +ADVPS L+PS+P++++ D I  Q R +GR+
+Sbjct  181  LADVPSFLLPSHPYRILGDTIQDQFRNMGRA  211
+
+
+>TR:A0A0E0NAY4_ORYRU A0A0E0NAY4 Glycosyltransferase OS=Oryza rufipogon OX=4529 PE=3 
+SV=1
+Length=477
+
+ Score = 135 bits (341),  Expect = 3e-37
+ Identities = 67/91 (74%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A I SAVLWVQS AVFSLYYH VHGLVEFP EDDLDAR TLPGLP MS
+Sbjct  135  PFIPWAVDVAAAAGILSAVLWVQSCAVFSLYYHRVHGLVEFPPEDDLDARLTLPGLPAMS  194
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  195  VADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  225
+
+
+>TR:K3Y254_SETIT K3Y254 Glycosyltransferase OS=Setaria italica OX=4555 GN=LOC101778531 
+PE=3 SV=1
+Length=470
+
+ Score = 135 bits (340),  Expect = 3e-37
+ Identities = 63/91 (69%), Positives = 74/91 (81%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAA+A IPSAVLWVQS AVFS+YYH VHGL EFPREDD DARF LPGLP++S
+Sbjct  120  PFLPWVTDVAAEAGIPSAVLWVQSCAVFSIYYHFVHGLAEFPREDDYDARFALPGLPDLS  179
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PS+P+K+  D I  Q R + R+
+Sbjct  180  VADVPSFLLPSHPYKIFGDIIQDQFRNMARA  210
+
+
+>TR:A0A0D9VD48_9ORYZ A0A0D9VD48 Glycosyltransferase OS=Leersia perrieri OX=77586 PE=3 
+SV=1
+Length=496
+
+ Score = 134 bits (338),  Expect = 9e-37
+ Identities = 66/91 (73%), Positives = 74/91 (81%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA A IP+AVLWVQS AVFSLYYH VHGLV FP EDDL A F LPGLP MS
+Sbjct  134  PFIPWAVDVAAAAGIPAAVLWVQSCAVFSLYYHAVHGLVVFPPEDDLAATFKLPGLPAMS  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+PSNP K + DAI+ Q+R IG++
+Sbjct  194  VADVPSFLLPSNPFKSLTDAIVRQIREIGKA  224
+
+
+>TR:A0A2S3HJ28_9POAL A0A2S3HJ28 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_4G185700 PE=4 SV=1
+Length=474
+
+ Score = 134 bits (336),  Expect = 1e-36
+ Identities = 63/91 (69%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA+A IPSAVLWVQS AVFS+YYH VHGL EFPREDD DARF LPGLP +S
+Sbjct  121  PFLPWATDVAAEAGIPSAVLWVQSCAVFSIYYHFVHGLAEFPREDDPDARFALPGLPALS  180
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+ S+P+K++ D I  Q R +G++
+Sbjct  181  VADVPSFLLASHPYKVLGDTIQDQFRNMGKA  211
+
+
+>TR:A0A2T7DZ36_9POAL A0A2T7DZ36 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_4G198900 PE=4 SV=1
+Length=480
+
+ Score = 134 bits (336),  Expect = 1e-36
+ Identities = 63/91 (69%), Positives = 75/91 (82%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA+A IPSAVLWVQS AVFS+YYH VHGL EFPREDD DARF LPGLP +S
+Sbjct  121  PFLPWATDVAAEAGIPSAVLWVQSCAVFSIYYHFVHGLAEFPREDDPDARFALPGLPALS  180
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+ S+P+K++ D I  Q R +G++
+Sbjct  181  VADVPSFLLASHPYKVLGDTIQDQFRNMGKA  211
+
+
+>TR:A0A1D6LW97_MAIZE A0A1D6LW97 Glycosyltransferase OS=Zea mays OX=4577 GN=103629963 
+PE=3 SV=1
+Length=469
+
+ Score = 132 bits (332),  Expect = 5e-36
+ Identities = 63/91 (69%), Positives = 74/91 (81%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAADA IPSAVLWVQS AVFS+YYH VHGL EFPREDDL+ARF LPGLP +S
+Sbjct  124  PFLPWVTDVAADAGIPSAVLWVQSCAVFSVYYHFVHGLAEFPREDDLEARFMLPGLPTLS  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L  S+P+K++ D I  Q R +G++
+Sbjct  184  VADVPSFLHASHPYKVLGDTIQDQFRNMGKA  214
+
+
+>TR:C5Z8I9_SORBI C5Z8I9 Glycosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3010G115000 
+PE=3 SV=1
+Length=472
+
+ Score = 132 bits (331),  Expect = 7e-36
+ Identities = 61/91 (67%), Positives = 73/91 (80%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAADA IPSAVLWVQS AVFS+YYH  HGL EFP EDDL+ARFTLPGLP +S
+Sbjct  123  PFLPWVTDVAADAGIPSAVLWVQSCAVFSIYYHFAHGLAEFPHEDDLEARFTLPGLPTLS  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            V DVPS L+ S+P+K++ D I  Q R +G++
+Sbjct  183  VVDVPSFLLASHPYKVLGDTIQDQFRNMGKA  213
+
+
+>TR:C5XP84_SORBI C5XP84 Glycosyltransferase OS=Sorghum bicolor OX=4558 GN=SORBI_3003G062600 
+PE=3 SV=1
+Length=482
+
+ Score = 130 bits (328),  Expect = 2e-35
+ Identities = 61/92 (66%), Positives = 75/92 (82%), Gaps = 1/92 (1%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDL-DARFTLPGLPEM  60
+            PF+PWA DVAA+A +P+AVLWVQS AVFSLYYH+  GLVEFP EDD  DAR  LPGLP +
+Sbjct  129  PFLPWAVDVAAEAGVPAAVLWVQSCAVFSLYYHYARGLVEFPPEDDTDDARVALPGLPPL  188
+
+Query  61   SVADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            SVADVPS L+PSNP+K++ DAI+ Q R + ++
+Sbjct  189  SVADVPSFLLPSNPYKMIADAILGQFRNVDKA  220
+
+
+>TR:A0A1E5WF23_9POAL A0A1E5WF23 Glycosyltransferase OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0002994 PE=3 SV=1
+Length=482
+
+ Score = 129 bits (324),  Expect = 8e-35
+ Identities = 61/91 (67%), Positives = 71/91 (78%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAADA +PSAVLWVQS AVFSLYYH+  GLVE P EDD  AR  LPGLP +S
+Sbjct  131  PFLPWAVDVAADAGVPSAVLWVQSCAVFSLYYHYASGLVELPPEDDPGARVALPGLPPLS  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             A+VPS L+PSNP KL  +A++ Q R IGR+
+Sbjct  191  AAEVPSFLLPSNPFKLFTEAVLGQFRNIGRA  221
+
+
+>TR:M8BUB0_AEGTA M8BUB0 Limonoid UDP-glucosyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_28083 PE=4 SV=1
+Length=336
+
+ Score = 126 bits (317),  Expect = 9e-35
+ Identities = 63/92 (68%), Positives = 71/92 (77%), Gaps = 2/92 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA  A IP AVLWVQS AVFSLYYHHVHGL++ P EDDLDAR  LPGLP +S
+Sbjct  135  PFIPWAMDVAQAAGIPYAVLWVQSCAVFSLYYHHVHGLLDLPAEDDLDARVKLPGLPALS  194
+
+Query  62   VADVPSVLIPSNPH--KLVVDAIIVQLRTIGR  91
+            V DVPS L+PSNP+  KL  +AI+ Q R I R
+Sbjct  195  VTDVPSFLLPSNPYCFKLFTEAILRQFRAIHR  226
+
+
+>TR:A0A1E5VSF7_9POAL A0A1E5VSF7 Glycosyltransferase OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0010978 PE=3 SV=1
+Length=472
+
+ Score = 127 bits (319),  Expect = 4e-34
+ Identities = 60/91 (66%), Positives = 71/91 (78%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAADA IPSAVLWVQS AVFS+YYH  HGL E P EDDLDARF LPGLP +S
+Sbjct  121  PFLPWVTDVAADAGIPSAVLWVQSCAVFSIYYHFAHGLAELPCEDDLDARFALPGLPALS  180
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            VADVPS L+ S+P+K++ D I  Q R + ++
+Sbjct  181  VADVPSFLLASHPYKVLGDTIQDQFRNMAKT  211
+
+
+>TR:A0A1D5WK83_WHEAT A0A1D5WK83 Glycosyltransferase OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=477
+
+ Score = 126 bits (317),  Expect = 8e-34
+ Identities = 63/92 (68%), Positives = 71/92 (77%), Gaps = 2/92 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA  A IP AVLWVQS AVFSLYYHHVHGL++ P EDDLDAR  LPGLP +S
+Sbjct  135  PFIPWAMDVAQAAGIPYAVLWVQSCAVFSLYYHHVHGLLDLPAEDDLDARVKLPGLPALS  194
+
+Query  62   VADVPSVLIPSNPH--KLVVDAIIVQLRTIGR  91
+            V DVPS L+PSNP+  KL  +AI+ Q R I R
+Sbjct  195  VTDVPSFLLPSNPYCFKLFTEAILRQFRAIHR  226
+
+
+>TR:M0V7B4_HORVV M0V7B4 Glycosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=474
+
+ Score = 126 bits (316),  Expect = 1e-33
+ Identities = 63/90 (70%), Positives = 70/90 (78%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA  A IP AVLWVQS AVFSLYYHHVHGL+E P EDDLDAR  LPGLP +S
+Sbjct  134  PFIPWAFDVAHGAGIPYAVLWVQSCAVFSLYYHHVHGLLELPAEDDLDARVKLPGLPALS  193
+
+Query  62   VADVPSVLIPSNP--HKLVVDAIIVQLRTI  89
+            V DVPS L+PSNP  +KL  +AI+ Q R I
+Sbjct  194  VTDVPSFLLPSNPYCYKLFTEAILRQFRAI  223
+
+
+>TR:F2DZ61_HORVV F2DZ61 Glycosyltransferase OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=2 SV=1
+Length=474
+
+ Score = 126 bits (316),  Expect = 1e-33
+ Identities = 63/90 (70%), Positives = 70/90 (78%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA  A IP AVLWVQS AVFSLYYHHVHGL+E P EDDLDAR  LPGLP +S
+Sbjct  134  PFIPWAFDVAHGAGIPYAVLWVQSCAVFSLYYHHVHGLLELPAEDDLDARVKLPGLPALS  193
+
+Query  62   VADVPSVLIPSNP--HKLVVDAIIVQLRTI  89
+            V DVPS L+PSNP  +KL  +AI+ Q R I
+Sbjct  194  VTDVPSFLLPSNPYCYKLFTEAILRQFRAI  223
+
+
+>TR:W5CQG9_WHEAT W5CQG9 Glycosyltransferase OS=Triticum aestivum OX=4565 GN=TRAES_3BF169000120CFD_c1 
+PE=3 SV=1
+Length=478
+
+ Score = 125 bits (314),  Expect = 2e-33
+ Identities = 62/90 (69%), Positives = 70/90 (78%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA  A IP AVLWVQS AVFSLYYHHVHGL++ P EDDLDAR  LPGLP +S
+Sbjct  135  PFIPWAMDVAEAAGIPYAVLWVQSCAVFSLYYHHVHGLLDLPAEDDLDARVKLPGLPALS  194
+
+Query  62   VADVPSVLIPSNP--HKLVVDAIIVQLRTI  89
+            V DVPS L+PSNP  +KL  +AI+ Q R I
+Sbjct  195  VTDVPSFLLPSNPYCYKLFTEAILRQFRAI  224
+
+
+>TR:A0A0D3F1R4_9ORYZ A0A0D3F1R4 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=194
+
+ Score = 115 bits (288),  Expect = 8e-32
+ Identities = 62/92 (67%), Positives = 70/92 (76%), Gaps = 5/92 (5%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSL-YYHHVHGLVEFPREDDLDARFTLPGLPEM  60
+            PF+PWA DVAA A IPSAVL    RA  S  YYH VHGLVEFP EDDLDAR TLPGLP M
+Sbjct  97   PFIPWAVDVAAAAGIPSAVL----RAPCSRSYYHRVHGLVEFPPEDDLDARLTLPGLPAM  152
+
+Query  61   SVADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+            SVADVPS L+PSNP+  + +AI  Q+RTI ++
+Sbjct  153  SVADVPSFLLPSNPYMSLTEAIQQQIRTIDKA  184
+
+
+>TR:A0A2I0VIN8_9ASPA A0A2I0VIN8 Glycosyltransferase OS=Dendrobium catenatum OX=906689 
+GN=MA16_Dca014751 PE=3 SV=1
+Length=484
+
+ Score = 111 bits (277),  Expect = 4e-28
+ Identities = 48/91 (53%), Positives = 67/91 (74%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV AD  IPSAVLW+QS AVFS+YYH  H LV+FP ED+L+    LPG+P M+
+Sbjct  132  PFIPWALDVGADLSIPSAVLWIQSCAVFSIYYHFHHRLVDFPTEDNLETHVQLPGIPPMA  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++P+ ++PSNP+K + +AI+ Q   I ++
+Sbjct  192  PDELPTFILPSNPYKSLTEAILAQFHNISKA  222
+
+
+>TR:A0A2H3Z015_PHODC A0A2H3Z015 Glycosyltransferase OS=Phoenix dactylifera OX=42345 
+GN=LOC103718849 PE=3 SV=1
+Length=470
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 49/91 (54%), Positives = 62/91 (68%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP+AVLWVQS AVFS YYH  + L EFP E   D   TLPG+P + 
+Sbjct  132  PFIPWVLDVANDMGIPAAVLWVQSCAVFSTYYHFHYSLAEFPSEAHPDVSVTLPGIPTLR  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              D+PS L+PSNP+K + DAI+ Q + I ++
+Sbjct  192  PEDLPSFLLPSNPYKSLTDAILQQFQKISKA  222
+
+
+>TR:A0A199UG59_ANACO A0A199UG59 Glycosyltransferase OS=Ananas comosus OX=4615 GN=ACMD2_23885 
+PE=3 SV=1
+Length=487
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 51/91 (56%), Positives = 62/91 (68%), Gaps = 1/91 (1%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA    IP+AVLWVQS AVFS YYH+ H L  FP  D  D   +LPGLP +S
+Sbjct  126  PFLPWALDVADGLGIPAAVLWVQSCAVFSAYYHYHHRLAAFPLSDS-DPPVSLPGLPPLS  184
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             ADVPS L PSNP+KL+ D I+     +G++
+Sbjct  185  AADVPSFLHPSNPYKLLADTILASFGNLGKA  215
+
+
+>TR:A0A2I0B704_9ASPA A0A2I0B704 Limonoid UDP-glucosyltransferase OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash005464 PE=4 SV=1
+Length=491
+
+ Score = 102 bits (254),  Expect = 7e-25
+ Identities = 47/91 (52%), Positives = 63/91 (69%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA D  +PSAVLWVQS AVFS YYH  H L +FP +D  D    LPG+P ++
+Sbjct  129  PFLPWALDVAVDLCLPSAVLWVQSCAVFSTYYHFHHRLADFPSDDAPDVIVHLPGIPPLA  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             AD+P+ L+PSNP+K + + I+ Q   I ++
+Sbjct  189  PADLPTFLLPSNPYKPLKNVILAQFHNIQKA  219
+
+
+>TR:A0A2I0X6I5_9ASPA A0A2I0X6I5 Glycosyltransferase OS=Dendrobium catenatum OX=906689 
+GN=MA16_Dca008211 PE=3 SV=1
+Length=479
+
+ Score = 99.4 bits (246),  Expect = 8e-24
+ Identities = 46/82 (56%), Positives = 58/82 (71%), Gaps = 0/82 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA +VA D  IPSAVLWVQS AVFS YYH  H L +FP E++ D    LPGLP M 
+Sbjct  126  PFLPWALNVAEDLGIPSAVLWVQSCAVFSTYYHFHHKLADFPTEENPDRTVNLPGLPPMR  185
+
+Query  62   VADVPSVLIPSNPHKLVVDAII  83
+              D+P+ L+PSNP+K + + I+
+Sbjct  186  PEDLPTFLLPSNPYKPLTNVIL  207
+
+
+>TR:A0A2G5C704_AQUCA A0A2G5C704 Glycosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_08300033v1 PE=3 SV=1
+Length=479
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 42/91 (46%), Positives = 59/91 (65%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA D  IP AVLWVQS AV+S YYH+ H L  FP  +  D    +PGLP + 
+Sbjct  127  PFVPWVSDVATDMEIPCAVLWVQSCAVYSAYYHYFHKLASFPTPEQPDRPLEIPGLPTLE  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              +VPS L P +P++ ++ AI+ Q + + +S
+Sbjct  187  SDEVPSFLHPLDPYESLMLAILEQFKNLSKS  217
+
+
+>TR:A0A2I0AM14_9ASPA A0A2I0AM14 Limonoid UDP-glucosyltransferase OS=Apostasia shenzhenica 
+OX=1088818 GN=AXF42_Ash012730 PE=4 SV=1
+Length=502
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 40/91 (44%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP AVLWVQS AVFS Y+H+ H L  FP ++  D   +LPG+P ++
+Sbjct  136  PFVPWFLDVAGDLGIPGAVLWVQSAAVFSTYFHYHHRLAVFPTDEIPDVTVSLPGIPPLA  195
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              D+P+ L+P NP+  +   I+ Q   + ++
+Sbjct  196  PGDLPTFLLPRNPYVTLTKVILAQFHNLSKA  226
+
+
+>TR:A0A1D1XCC6_9ARAE A0A1D1XCC6 Limonoid UDP-glucosyltransferase OS=Anthurium amnicola 
+OX=1678845 GN=LGT_1 PE=4 SV=1
+Length=486
+
+ Score = 91.7 bits (226),  Expect = 5e-21
+ Identities = 40/91 (44%), Positives = 59/91 (65%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAA   IP  +LWVQS AVFS+YYH+ H L +FP E   +    LPG+P + 
+Sbjct  131  PFIPWVLDVAAGMGIPCGMLWVQSCAVFSVYYHYYHSLADFPDEARPEQIVPLPGVPPLQ  190
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L+P+NP+  + D+I+ Q   + ++
+Sbjct  191  PHELPSFLLPTNPYLFLTDSILAQFENLHKA  221
+
+
+>TR:A0A061E010_THECC A0A061E010 Glycosyltransferase OS=Theobroma cacao OX=3641 GN=TCM_007147 
+PE=3 SV=1
+Length=506
+
+ Score = 91.7 bits (226),  Expect = 5e-21
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV FP E D +    LP +P + 
+Sbjct  123  PFIPWASDVAESLGIPSAMLWVQSCACFAAYYHYHHGLVPFPSESDPEIDVQLPAMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q + + +
+Sbjct  183  YDEVPSFLHPSTPYPFLRRAILGQFKNLNK  212
+
+
+>TR:A0A1J6J3Z5_NICAT A0A1J6J3Z5 Glycosyltransferase OS=Nicotiana attenuata OX=49451 
+GN=GT2_0 PE=3 SV=1
+Length=485
+
+ Score = 90.9 bits (224),  Expect = 9e-21
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LW+QS A FS YYH+ HGLV FP E  LD    LP +P + 
+Sbjct  128  PFIPWVCDVAESLGIPSAMLWIQSAASFSAYYHYYHGLVPFPTESQLDIDVRLPYMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  188  YDEIPSFLHPSTPYCFLRRAILGQYKNLSK  217
+
+
+>TR:A0A2I2MNE1_NICAT A0A2I2MNE1 Glycosyltransferase OS=Nicotiana attenuata OX=49451 
+GN=NaUGT_g12088 PE=3 SV=1
+Length=493
+
+ Score = 90.9 bits (224),  Expect = 9e-21
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LW+QS A FS YYH+ HGLV FP E  LD    LP +P + 
+Sbjct  128  PFIPWVCDVAESLGIPSAMLWIQSAASFSAYYHYYHGLVPFPTESQLDIDVRLPYMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  188  YDEIPSFLHPSTPYCFLRRAILGQYKNLSK  217
+
+
+>TR:A0A200QZP8_9MAGN A0A200QZP8 Glycosyltransferase OS=Macleaya cordata OX=56857 GN=BVC80_1821g84 
+PE=3 SV=1
+Length=472
+
+ Score = 90.5 bits (223),  Expect = 1e-20
+ Identities = 43/91 (47%), Positives = 56/91 (62%), Gaps = 1/91 (1%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IPSAVLWVQS AV+S+YYH+ H LV FP  D  D    LPGLP + 
+Sbjct  125  PFVPWVTDVATELGIPSAVLWVQSCAVYSIYYHYHHQLVSFPNPDQQDLTLDLPGLPTLD  184
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              D+PS L   NP   +   I+ Q + + ++
+Sbjct  185  FQDIPSFL-TLNPFDSLKQVILAQFKNLEKA  214
+
+
+>TR:A0A2G2W4I0_CAPBA A0A2G2W4I0 Glycosyltransferase OS=Capsicum baccatum OX=33114 
+GN=CQW23_18953 PE=3 SV=1
+Length=475
+
+ Score = 90.1 bits (222),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A FS YYHH H LV FP E   +    LP +P + 
+Sbjct  127  PFIPWVCDVAESLGIPSAMLWVQSAASFSAYYHHSHSLVPFPSESQPEIDVQLPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS+P+  +  AI+ Q + I +
+Sbjct  187  YDEVPSFLHPSSPYTFLKTAILGQFKNISK  216
+
+
+>TR:A0A2G2Y495_CAPAN A0A2G2Y495 Glycosyltransferase OS=Capsicum annuum OX=4072 GN=T459_31616 
+PE=3 SV=1
+Length=475
+
+ Score = 90.1 bits (222),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A FS YYHH H LV FP E   +    LP +P + 
+Sbjct  127  PFIPWVCDVAESLGIPSAMLWVQSAASFSAYYHHSHSLVPFPSESQPEIDVQLPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS+P+  +  AI+ Q + I +
+Sbjct  187  YDEVPSFLHPSSPYAFLKTAILGQFKNISK  216
+
+
+>TR:A5BIH9_VITVI A5BIH9 Glycosyltransferase (Fragment) OS=Vitis vinifera OX=29760 
+GN=VITISV_029146 PE=3 SV=1
+Length=463
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  IPSA+LWVQS A FS YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGIPSAMLWVQSCACFSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +V S L P+ P+  +  AI+ Q R + +
+Sbjct  183  YDEVASFLYPTTPYPFLRRAILGQYRNLDK  212
+
+
+>TR:A0A2P5S2P1_GOSBA A0A2P5S2P1 Glycosyltransferase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD09764 PE=3 SV=1
+Length=476
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV+FP E D +    LP +P + 
+Sbjct  123  PFIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVKFPTETDPEIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  183  HDEVPSFLHPSTPFAFLRTAILGQFKKLDK  212
+
+
+>TR:G9FKG6_VITVI G9FKG6 Glycosyltransferase OS=Vitis vinifera OX=29760 GN=GT1 
+PE=2 SV=1
+Length=478
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  IPSA+LWVQS A FS YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGIPSAMLWVQSCACFSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +V S L P+ P+  +  AI+ Q R + +
+Sbjct  183  YDEVASFLYPTTPYPFLRRAILGQYRNLDK  212
+
+
+>TR:F6H660_VITVI F6H660 Glycosyltransferase OS=Vitis vinifera OX=29760 GN=VIT_03s0091g00040 
+PE=3 SV=1
+Length=478
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  IPSA+LWVQS A FS YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGIPSAMLWVQSCACFSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +V S L P+ P+  +  AI+ Q R + +
+Sbjct  183  YDEVASFLYPTTPYPFLRRAILGQYRNLDK  212
+
+
+>TR:A0A2C9V460_MANES A0A2C9V460 Glycosyltransferase OS=Manihot esculenta OX=3983 GN=MANES_10G070000 
+PE=3 SV=1
+Length=481
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 42/90 (47%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAA   IPSA+LW+QS A FS YYH+ H LV FP E++ +    LP +P + 
+Sbjct  122  PFIPWVSDVAASLGIPSAMLWIQSCACFSAYYHYFHRLVPFPCEENAEIDVQLPSMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q + I +
+Sbjct  182  YDEVPSFLHPSTPYPFLGRAILGQFKNIDK  211
+
+
+>TR:A0A1U8JMZ1_GOSHI A0A1U8JMZ1 Glycosyltransferase OS=Gossypium hirsutum OX=3635 
+GN=LOC107908872 PE=3 SV=1
+Length=493
+
+ Score = 89.7 bits (221),  Expect = 2e-20
+ Identities = 43/90 (48%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV+FP E D +    LP +P + 
+Sbjct  123  PFIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVKFPTETDPEIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  183  HDEVPSFLHPSTPFAFLRTAILGQFKKLDK  212
+
+
+>TR:A0A067LN72_JATCU A0A067LN72 Glycosyltransferase OS=Jatropha curcas OX=180498 GN=JCGZ_15469 
+PE=3 SV=1
+Length=558
+
+ Score = 89.7 bits (221),  Expect = 3e-20
+ Identities = 41/90 (46%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ HGLV FP E+D +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFSSYYHYYHGLVPFPSEEDPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q +++ +
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQYKSLDK  211
+
+
+>TR:A0A125QVX1_CAMSI A0A125QVX1 Glycosyltransferase OS=Camellia sinensis OX=4442 GN=UGT84A22 
+PE=2 SV=1
+Length=487
+
+ Score = 89.4 bits (220),  Expect = 3e-20
+ Identities = 39/90 (43%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+A    +PSA+LWVQS A FS YYH+ HG+V FP ED+++    LP +P + 
+Sbjct  122  PFIPWVSDLAETLGLPSAMLWVQSCACFSAYYHYYHGIVPFPSEDNMEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSFLYPNTPYPFLRRAILGQYKNLSK  211
+
+
+>TR:B6RNI7_9ROSI B6RNI7 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+hanaju OX=481547 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNH5_9ROSI B6RNH5 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+reshni OX=171252 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG9_9ROSI B6RNG9 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+amblycarpa OX=481546 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG8_9ROSI B6RNG8 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+amblycarpa OX=481546 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESIGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI9_PONTR B6RNI9 Limonoid UDP glucosyltransferase (Fragment) OS=Poncirus 
+trifoliata OX=37690 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVRLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNJ0_PONTR B6RNJ0 Limonoid UDP glucosyltransferase (Fragment) OS=Poncirus 
+trifoliata OX=37690 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVXLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF3_CITME B6RNF3 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+medica OX=171251 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF4_CITME B6RNF4 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+medica OX=171251 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNH9_CITSI B6RNH9 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+sinensis OX=2711 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI6_9ROSI B6RNI6 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+cavaleriei OX=2709 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG3_9ROSI B6RNG3 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+limettioides OX=200542 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG2_CITAU B6RNG2 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+aurantiifolia OX=159033 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESIGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG1_CITAU B6RNG1 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+aurantiifolia OX=159033 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNJ2_9ROSI B6RNJ2 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+australasica OX=416196 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF6_9ROSI B6RNF6 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+halimii OX=416192 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF7_9ROSI B6RNF7 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+halimii OX=416192 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG7_CITLI B6RNG7 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+limon OX=2708 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG6_CITLI B6RNG6 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+limon OX=2708 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF8_9ROSI B6RNF8 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+webberi OX=481550 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESIGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI4_CITMA B6RNI4 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+maxima OX=37334 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI1_CITMA B6RNI1 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+maxima OX=37334 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG4_CITUN B6RNG4 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+unshiu OX=55188 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF9_9ROSI B6RNF9 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+longispina OX=481548 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG0_9ROSI B6RNG0 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+longispina OX=481548 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNJ1_9ROSI B6RNJ1 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+japonica var. margarita OX=85437 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI0_9ROSI B6RNI0 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+nobilis OX=481549 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF1_CITME B6RNF1 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+medica OX=171251 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNH0_CITRE B6RNH0 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+reticulata OX=85571 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNH6_CITAR B6RNH6 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+aurantium OX=43166 PE=4 SV=1
+Length=281
+
+ Score = 87.4 bits (215),  Expect = 4e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:C6ZRH7_CAPAN C6ZRH7 Glycosyltransferase OS=Capsicum annuum OX=4072 GN=UGT1 
+PE=2 SV=1
+Length=475
+
+ Score = 89.0 bits (219),  Expect = 4e-20
+ Identities = 42/90 (47%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A FS YYHH H LV FP E   +    +P +P + 
+Sbjct  127  PFIPWVCDVAESLGIPSAMLWVQSAASFSAYYHHSHSLVPFPSESQPEIDVQVPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS+P+  +  AI+ Q + I +
+Sbjct  187  YDEVPSFLHPSSPYTFLKTAILGQFKNISK  216
+
+
+>TR:A0A1U8EZZ6_CAPAN A0A1U8EZZ6 Glycosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107848707 
+PE=3 SV=1
+Length=475
+
+ Score = 89.0 bits (219),  Expect = 4e-20
+ Identities = 42/90 (47%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A FS YYHH H LV FP E   +    +P +P + 
+Sbjct  127  PFIPWVCDVAESLGIPSAMLWVQSAASFSAYYHHSHSLVPFPSESQPEIDVQVPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS+P+  +  AI+ Q + I +
+Sbjct  187  YDEVPSFLHPSSPYTFLKTAILGQFKNISK  216
+
+
+>TR:I2BH94_LINUS I2BH94 Glycosyltransferase OS=Linum usitatissimum OX=4006 GN=UGT84G2 
+PE=3 SV=1
+Length=462
+
+ Score = 88.6 bits (218),  Expect = 6e-20
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSA+LW+QS A FS YYH+ + L  FP E++ +    LP +P + 
+Sbjct  116  PFLPWVSDVAVSLDIPSAILWMQSCACFSSYYHYHNKLARFPTENEPECDVVLPSMPVLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS PH  +  AI+ Q+  +G+
+Sbjct  176  HDEVPSFLHPSTPHPFLATAILGQIAFLGK  205
+
+
+>TR:A0A2G3BQN5_CAPCH A0A2G3BQN5 Glycosyltransferase OS=Capsicum chinense OX=80379 
+GN=BC332_20661 PE=3 SV=1
+Length=475
+
+ Score = 88.6 bits (218),  Expect = 6e-20
+ Identities = 42/90 (47%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  +VA    IPSA+LWVQS A FS YYHH H LV FP E   +    LP +P + 
+Sbjct  127  PFIPWVCEVAESLGIPSAMLWVQSAASFSAYYHHSHSLVPFPSESQPEIDVQLPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS+P+  +  AI+ Q + I +
+Sbjct  187  YDEVPSFLHPSSPYTFLKTAILGQFKNISK  216
+
+
+>TR:B0I1D7_LOBER B0I1D7 Glycosyltransferase OS=Lobelia erinus OX=16430 GN=LeHCA1GT 
+PE=2 SV=1
+Length=486
+
+ Score = 88.6 bits (218),  Expect = 6e-20
+ Identities = 39/90 (43%), Positives = 60/90 (67%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +++A +  IPSAVLWVQS A FS YYH+ HGLV FP E++ +    LP +P + 
+Sbjct  134  PFIPWISELAEEFNIPSAVLWVQSCASFSAYYHYHHGLVPFPTENEPERDVQLPNMPLLK  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++P  L+PS+P+  +  AI+ Q + + +
+Sbjct  194  YDEIPGFLLPSSPYGFLRRAILGQFKLLSK  223
+
+
+>TR:B9RY85_RICCO B9RY85 Glycosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_0811190 
+PE=3 SV=1
+Length=498
+
+ Score = 88.6 bits (218),  Expect = 6e-20
+ Identities = 40/90 (44%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ HGLV FP E++ +    LP +P + 
+Sbjct  117  PFIPWVSDVAESLGLPSAMLWVQSCACFSAYYHYYHGLVPFPNEENPEIDVQLPCMPLLK  176
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P++P+  +  AI+ Q + + +
+Sbjct  177  YDEVPSFLYPTSPYPFLRRAILGQYKNLDK  206
+
+
+>TR:A0A2P6PLU0_ROSCH A0A2P6PLU0 Glycosyltransferase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr6g0254951 
+PE=3 SV=1
+Length=553
+
+ Score = 88.6 bits (218),  Expect = 7e-20
+ Identities = 40/90 (44%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A  + YYH+ HGLV FP E D+     +P +P + 
+Sbjct  122  PFIPWVCDVAESLGIPSAMLWVQSAACLAAYYHYYHGLVPFPSESDMFCDVQIPSIPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q R + +
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQYRNLDK  211
+
+
+>TR:B6RNH8_CITAR B6RNH8 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+aurantium OX=43166 PE=4 SV=1
+Length=281
+
+ Score = 86.7 bits (213),  Expect = 7e-20
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDIQLPYMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:A0A0D2RKC6_GOSRA A0A0D2RKC6 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_005G234600 PE=3 SV=1
+Length=949
+
+ Score = 88.6 bits (218),  Expect = 7e-20
+ Identities = 43/90 (48%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV FP E D +    LP +P + 
+Sbjct  110  PFIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVTFPTETDPEIDVQLPSMPLLK  169
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  170  HDEVPSFLHPSTPFAYLRTAILGQFKKLDK  199
+
+
+ Score = 87.8 bits (216),  Expect = 1e-19
+ Identities = 42/90 (47%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P++PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV FP E D +    LP +P + 
+Sbjct  599  PYIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVPFPTETDPEIDVQLPSMPLLK  658
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  659  HDEVPSYLRPSTPFAFLRTAILGQFKKLDK  688
+
+
+>TR:A1EBV0_9ROSI A1EBV0 Putative limonoid UDP-glucosyltransferase OS=Citrus hybrid 
+cultivar OX=171250 PE=2 SV=1
+Length=502
+
+ Score = 88.2 bits (217),  Expect = 9e-20
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAILWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B9RY84_RICCO B9RY84 Glycosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_0811180 
+PE=3 SV=1
+Length=544
+
+ Score = 88.2 bits (217),  Expect = 9e-20
+ Identities = 40/90 (44%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ HGLV FP E++ +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFSSYYHYYHGLVPFPNEENPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P++P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSFLYPTSPYPFLRRAILGQYKNLDK  211
+
+
+>TR:B6RNI5_CITMA B6RNI5 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+maxima OX=37334 PE=4 SV=1
+Length=281
+
+ Score = 86.3 bits (212),  Expect = 1e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNI2_CITMA B6RNI2 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+maxima OX=37334 PE=4 SV=1
+Length=281
+
+ Score = 86.3 bits (212),  Expect = 1e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNG5_CITUN B6RNG5 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+unshiu OX=55188 PE=4 SV=1
+Length=281
+
+ Score = 86.3 bits (212),  Expect = 1e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:A0A2P5S2L6_GOSBA A0A2P5S2L6 Glycosyltransferase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD09763 PE=3 SV=1
+Length=473
+
+ Score = 87.8 bits (216),  Expect = 1e-19
+ Identities = 42/90 (47%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P++PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV FP E D +    LP +P + 
+Sbjct  123  PYIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVPFPTETDPEIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  183  HDEVPSYLRPSTPFAFLRTAILGQFKKLDK  212
+
+
+>TR:A0A1U8JTP4_GOSHI A0A1U8JTP4 Glycosyltransferase OS=Gossypium hirsutum OX=3635 
+GN=LOC107908870 PE=3 SV=1
+Length=473
+
+ Score = 87.8 bits (216),  Expect = 1e-19
+ Identities = 42/90 (47%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P++PWA+DVA    IPSA+LWVQS A F+ YYH+ HGLV FP E D +    LP +P + 
+Sbjct  123  PYIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHGLVPFPTETDPEIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  183  HDEVPSYLRPSTPFAFLRTAILGQFKKLDK  212
+
+
+>TR:W1PLB6_AMBTC W1PLB6 Glycosyltransferase OS=Amborella trichopoda OX=13333 GN=AMTR_s00015p00021860 
+PE=3 SV=1
+Length=487
+
+ Score = 87.8 bits (216),  Expect = 1e-19
+ Identities = 39/88 (44%), Positives = 57/88 (65%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IP A+LWVQS A+++LYY  V+ L EFP  +  D   +LPGLP + 
+Sbjct  120  PFVPWVVDVAEGFSIPCALLWVQSCAIYALYYRSVYRLSEFPTPEKPDIDISLPGLPVLQ  179
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             +++PS L+PS  H+ + D I+  ++ I
+Sbjct  180  ASELPSFLLPSAAHRCLADVILSHIKKI  207
+
+
+>TR:A9YWH8_CITMA A9YWH8 Glycosyltransferase OS=Citrus maxima OX=37334 PE=2 SV=1
+Length=511
+
+ Score = 87.8 bits (216),  Expect = 1e-19
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYHH HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHHFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q    G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENHGK  211
+
+
+>TR:W9T3A3_9ROSA W9T3A3 Glycosyltransferase OS=Morus notabilis OX=981085 GN=L484_000188 
+PE=3 SV=1
+Length=468
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 40/91 (44%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA D +IP A LWVQS AVF++YYH  H  V FP E + D    L  +P + 
+Sbjct  123  PFIPWACDVAEDLKIPWATLWVQSSAVFAVYYHFFHQTVPFPSEAEPDIDVQLTSMPALK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS LI  NP+++    I+ Q + + +S
+Sbjct  183  RDEIPSFLIAGNPYEVFGKTILEQFKNLSKS  213
+
+
+>TR:V4S6X8_9ROSI V4S6X8 Glycosyltransferase OS=Citrus clementina OX=85681 GN=CICLE_v10028247mg 
+PE=3 SV=1
+Length=502
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B2YGY1_CITSI B2YGY1 Glycosyltransferase OS=Citrus sinensis OX=2711 GN=SLLGT 
+PE=3 SV=1
+Length=509
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:A0A2H5QPQ4_CITUN A0A2H5QPQ4 Glycosyltransferase OS=Citrus unshiu OX=55188 GN=CUMW_250080 
+PE=3 SV=1
+Length=511
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B2YGX8_CITPA B2YGX8 Glycosyltransferase OS=Citrus paradisi OX=37656 GN=SLLGT 
+PE=2 SV=1
+Length=511
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:W9R9H4_9ROSA W9R9H4 Glycosyltransferase OS=Morus notabilis OX=981085 GN=L484_027032 
+PE=3 SV=1
+Length=588
+
+ Score = 87.4 bits (215),  Expect = 2e-19
+ Identities = 40/91 (44%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVA D +IP A LWVQS AVF++YYH  H  V FP E + D    L  +P + 
+Sbjct  152  PFIPWACDVAEDLKIPWATLWVQSSAVFAVYYHFFHQTVPFPSEAEPDIDVQLTSMPALK  211
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS LI  NP+++    I+ Q + + +S
+Sbjct  212  RDEIPSFLIAGNPYEVFGKTILEQFKNLSKS  242
+
+
+>TR:B6RNI8_9ROSI B6RNI8 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+hanaju OX=481547 PE=4 SV=1
+Length=281
+
+ Score = 85.5 bits (210),  Expect = 2e-19
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D A    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDFAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNF0_9ROSI B6RNF0 Limonoid UDP glucosyltransferase (Fragment) OS=Swinglea 
+glutinosa OX=159066 PE=4 SV=1
+Length=281
+
+ Score = 85.5 bits (210),  Expect = 2e-19
+ Identities = 40/90 (44%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVAFPCEKEPEIDLQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+      I+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFFRSVILGQYENLGK  205
+
+
+>TR:B6RNH4_9ROSI B6RNH4 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+nippokoreana OX=237570 PE=4 SV=1
+Length=281
+
+ Score = 85.5 bits (210),  Expect = 2e-19
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D A    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDFAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:B6RNH3_9ROSI B6RNH3 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+nippokoreana OX=237570 PE=4 SV=1
+Length=281
+
+ Score = 85.5 bits (210),  Expect = 2e-19
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D A    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDFAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:A0A2C9VLP3_MANES A0A2C9VLP3 Glycosyltransferase OS=Manihot esculenta OX=3983 GN=MANES_07G070800 
+PE=3 SV=1
+Length=505
+
+ Score = 87.0 bits (214),  Expect = 2e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ HGLV FP E + +    LP LP + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFSAYYHYYHGLVPFPSEKNPEIDVQLPCLPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQYKKLDK  211
+
+
+>TR:A0A2G9GL36_9LAMI A0A2G9GL36 Uncharacterized protein OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_21538 PE=4 SV=1
+Length=280
+
+ Score = 85.1 bits (209),  Expect = 3e-19
+ Identities = 38/90 (42%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IP+A+LWVQS + FS YYH+ H LV FP E + +    LP +P + 
+Sbjct  153  PFIPWVSDVAESLGIPNAMLWVQSCSSFSCYYHYYHNLVPFPSEKEPEIDVQLPHMPLLK  212
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  213  YDEIPSFLHPSTPYTFLQRAILAQYKNLSK  242
+
+
+>TR:A5B349_VITVI A5B349 Glycosyltransferase OS=Vitis vinifera OX=29760 GN=GT3 
+PE=2 SV=1
+Length=479
+
+ Score = 86.7 bits (213),  Expect = 3e-19
+ Identities = 41/90 (46%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  +PSA+LWVQS A FS YYH+ HGLV FP E + +    LP  P + 
+Sbjct  123  PFIPWVSDVAADLGLPSAMLWVQSCACFSTYYHYYHGLVPFPSEAEPEIDVQLPCTPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +V S L P+ P+  +  AI+ Q + + +
+Sbjct  183  YDEVASFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A0A2I4FBA9_9ROSI A0A2I4FBA9 Glycosyltransferase OS=Juglans regia OX=51240 GN=LOC108997218 
+PE=3 SV=1
+Length=510
+
+ Score = 86.7 bits (213),  Expect = 3e-19
+ Identities = 41/90 (46%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ HGLV FP E +      LP +P + 
+Sbjct  122  PFIPWVSDVADSLGLPSAMLWVQSCACFSAYYHYCHGLVPFPSEAEPFIDVQLPSMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q R + +
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQYRNLDK  211
+
+
+>TR:B6RNI3_CITMA B6RNI3 Limonoid UDP glucosyltransferase (Fragment) OS=Citrus 
+maxima OX=37334 PE=4 SV=1
+Length=281
+
+ Score = 84.7 bits (208),  Expect = 4e-19
+ Identities = 40/90 (44%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA     PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  116  PFIPWVSDVAESLGXPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              + PS L PS P+  +  AI+ Q   +G+
+Sbjct  176  HDEXPSFLXPSTPYPFLRRAILGQYXNLGK  205
+
+
+>TR:A0A200PT82_9MAGN A0A200PT82 Glycosyltransferase OS=Macleaya cordata OX=56857 GN=BVC80_7477g5 
+PE=3 SV=1
+Length=451
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 40/92 (43%), Positives = 58/92 (63%), Gaps = 1/92 (1%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLV-EFPREDDLDARFTLPGLPEM  60
+            PF+PW  D+A +  IP AV+WVQS AV+S+YYH+ H L+  FP  D  D    LPGLP +
+Sbjct  123  PFVPWVTDIATELGIPCAVIWVQSCAVYSIYYHYHHQLIASFPDADQPDLSLNLPGLPIL  182
+
+Query  61   SVADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+               D+PS L  S+P+  +  AI+ Q + + ++
+Sbjct  183  DSEDIPSFLHKSSPYASLTHAILGQFKNLEKA  214
+
+
+>TR:A0A2G5C6Z1_AQUCA A0A2G5C6Z1 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_08300034v1 PE=4 SV=1
+Length=477
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 44/93 (47%), Positives = 56/93 (60%), Gaps = 2/93 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA D  IP AV WVQS AVFS YYH+ H L  FP  +  D    LPGLP + 
+Sbjct  125  PFVPWASDVATDMGIPCAVQWVQSCAVFSAYYHYFHNLASFPTLEQPDISVDLPGLPTLE  184
+
+Query  62   VADVPSVLIP--SNPHKLVVDAIIVQLRTIGRS  92
+              +VPS L P  S  H+ +   I+ Q + + +S
+Sbjct  185  SYEVPSFLHPLDSPRHRFLKKIILGQFKNLEKS  217
+
+
+>TR:B0I1E0_LOBER B0I1E0 Glycosyltransferase (Fragment) OS=Lobelia erinus OX=16430 
+GN=LeHCA1GT-3 PE=2 SV=1
+Length=484
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 38/90 (42%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +++A +  IPSAVLWVQS A FS YYH+ H LV FP E++ +    LP +P + 
+Sbjct  132  PFIPWISELAEEFNIPSAVLWVQSCASFSAYYHYHHNLVPFPTENEPERDVQLPNMPLLK  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++P  L+PS+P+  +  AI+ Q + + +
+Sbjct  192  YDEIPGFLLPSSPYGFLRRAILGQFKLLSK  221
+
+
+>TR:B0I1D9_LOBER B0I1D9 Glycosyltransferase OS=Lobelia erinus OX=16430 GN=LeHCA1GT-2 
+PE=2 SV=1
+Length=486
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 38/90 (42%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +++A +  IPSAVLWVQS A FS YYH+ H LV FP E++ +    LP +P + 
+Sbjct  134  PFIPWISELAEEFNIPSAVLWVQSCASFSAYYHYHHNLVPFPTENEPERDVQLPSMPLLK  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++P  L+PS+P+  +  AI+ Q + + +
+Sbjct  194  YDEIPGFLLPSSPYGFLRRAILGQFKLLSK  223
+
+
+>TR:K4B2X2_SOLLC K4B2X2 Glycosyltransferase OS=Solanum lycopersicum OX=4081 GN=101250058 
+PE=3 SV=1
+Length=487
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 39/87 (45%), Positives = 56/87 (64%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW +D+A    IPSAVLWVQS A FS YYH++H L  FP E +   +  LPG+P +  
+Sbjct  127  FIPWVSDIAETLGIPSAVLWVQSAASFSCYYHYMHQLATFPTESNPQLQLQLPGMPLLKH  186
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             ++PS L PS+P+ ++  AI+ Q   +
+Sbjct  187  DEIPSFLHPSSPYTMLKKAILGQFEKL  213
+
+
+>TR:A0A059AN12_EUCGR A0A059AN12 Glycosyltransferase OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_I01103 PE=3 SV=1
+Length=505
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 39/90 (43%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E  ++    LP +P + 
+Sbjct  124  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYYHGLVPFPSESAMEIDVRLPCMPLLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P++P+  +  AI+ Q + + +
+Sbjct  184  HDEVPSFLYPTSPYPFLRRAILGQYKNLDK  213
+
+
+>SP:LGT_CITUN Q9MB73 Limonoid UDP-glucosyltransferase OS=Citrus unshiu OX=55188 
+PE=2 SV=1
+Length=511
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B2YGX9_CITSI B2YGX9 Glycosyltransferase OS=Citrus sinensis OX=2711 GN=SLLGT 
+PE=3 SV=1
+Length=511
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B2YGY0_CITAR B2YGY0 Glycosyltransferase OS=Citrus aurantium OX=43166 GN=SLLGT 
+PE=3 SV=1
+Length=511
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:B2YGX7_9ROSI B2YGX7 Glycosyltransferase OS=Citrus limettioides OX=200542 GN=SLLGT 
+PE=3 SV=1
+Length=511
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 40/90 (44%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E + +    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYFHGLVPFPSEKEPEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q   +G+
+Sbjct  182  HDEMPSFLHPSTPYPFLRRAILGQYENLGK  211
+
+
+>TR:A0A072V065_MEDTR A0A072V065 Glycosyltransferase OS=Medicago truncatula OX=3880 
+GN=25493506 PE=3 SV=1
+Length=545
+
+ Score = 86.3 bits (212),  Expect = 4e-19
+ Identities = 38/90 (42%), Positives = 62/90 (69%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV A+  IP A+LW+Q+ A++S+YYH+ +    FP  +DL+ +  LPGLP + 
+Sbjct  118  PFVPWAIDVVAEHEIPCALLWIQASALYSIYYHYFNVTDSFPSLEDLNEKVQLPGLPILE  177
+
+Query  62   VADVPSVLIPSNP--HKLVVDAIIVQLRTI  89
+            V D+PS+++PS+P   K ++D +  +L  +
+Sbjct  178  VRDLPSMILPSSPLHFKEMMDDLYKRLNNV  207
+
+
+>TR:A0A1S3BZU4_CUCME A0A1S3BZU4 Glycosyltransferase OS=Cucumis melo OX=3656 GN=LOC103495272 
+PE=3 SV=1
+Length=490
+
+ Score = 85.9 bits (211),  Expect = 6e-19
+ Identities = 39/90 (43%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  I SAV WVQS AVFS+YYHH +G + FP E   +    +P LP + 
+Sbjct  129  PFVPWVCDVADDLGIASAVFWVQSCAVFSIYYHHFNGSIPFPSETQPNVEVKIPSLPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L+P++P  ++  AI+ Q   + +
+Sbjct  189  HDEIPSFLLPNSPLHVIGKAILGQFWNLSK  218
+
+
+>TR:A0A1R3HUP7_COCAP A0A1R3HUP7 Glycosyltransferase OS=Corchorus capsularis OX=210143 
+GN=CCACVL1_17034 PE=3 SV=1
+Length=510
+
+ Score = 85.9 bits (211),  Expect = 6e-19
+ Identities = 40/90 (44%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ +G V FP E D +    LP +P + 
+Sbjct  124  PFIPWASDVAESLNIPSAMLWVQSCASFAAYYHYNNGSVPFPTETDPEIDVQLPAMPLLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+ ++  AI+ Q + + +
+Sbjct  184  HDEIPSFLHPSTPYGVLGKAILGQFKNLNK  213
+
+
+>TR:A0A2I4F7P4_9ROSI A0A2I4F7P4 Glycosyltransferase OS=Juglans regia OX=51240 GN=LOC108996303 
+PE=3 SV=1
+Length=510
+
+ Score = 85.9 bits (211),  Expect = 6e-19
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E +      LP +P + 
+Sbjct  122  PFIPWVSDVAESVGLPSAMLWVQSCACFAAYYHYYHGLVPFPSETEPFIDIQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q R + +
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQYRNLDK  211
+
+
+>TR:B6RNE9_9ROSI B6RNE9 Limonoid UDP glucosyltransferase (Fragment) OS=Atalantia 
+ceylanica OX=76951 PE=4 SV=1
+Length=281
+
+ Score = 84.0 bits (206),  Expect = 7e-19
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ H LV FP E + +    LP +P + 
+Sbjct  116  PFIPWLSDVAESLGLPSAMLWVQSCACFAAYYHYFHRLVPFPSEKEPEIDVQLPCMPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   +G+
+Sbjct  176  RDEVPSFLHPSTPYPFLRRAILGQYENLGK  205
+
+
+>TR:S8CRW9_9LAMI S8CRW9 Glycosyltransferase (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_05215 PE=3 SV=1
+Length=466
+
+ Score = 85.5 bits (210),  Expect = 7e-19
+ Identities = 39/88 (44%), Positives = 57/88 (65%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IPSA+LWVQS A F+ Y+H+ +G+V+FP EDD +    +P LP + 
+Sbjct  116  PFIPWVVDVAEELGIPSALLWVQSCACFAAYFHYYNGIVKFPGEDDPEIDVQIPHLPLLK  175
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P  P+  +  AI+ Q + I
+Sbjct  176  HDEIPSFLHPETPYPFLRRAILGQFKNI  203
+
+
+>TR:B6EWX7_LYCBA B6EWX7 Glycosyltransferase OS=Lycium barbarum OX=112863 GN=UGT84A12 
+PE=2 SV=1
+Length=473
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 40/84 (48%), Positives = 55/84 (65%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH++H LV FP E +      LP +P + 
+Sbjct  113  PFIPWVSDVAEILGIPSAVLWVQSAASFSCYYHYMHKLVPFPTESEPKLEVQLPAMPLLK  172
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              ++PS L P++P+ ++  AI+ Q
+Sbjct  173  HDEIPSFLHPASPYTMLKKAILGQ  196
+
+
+>TR:A0A2G9GSJ6_9LAMI A0A2G9GSJ6 UDP-glucuronosyl and UDP-glucosyl transferase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_19438 PE=3 SV=1
+Length=391
+
+ Score = 85.1 bits (209),  Expect = 8e-19
+ Identities = 38/90 (42%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IP+A+LWVQS + FS YYH+ H LV FP E + +    LP +P + 
+Sbjct  37   PFIPWVSDVAESLGIPNAMLWVQSCSSFSCYYHYYHNLVPFPSEKEPEIDVQLPHMPLLK  96
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  97   YDEIPSFLHPSTPYTFLQRAILAQYKNLSK  126
+
+
+>TR:A0A0A0K315_CUCSA A0A0A0K315 Glycosyltransferase OS=Cucumis sativus OX=3659 GN=Csa_7G072750 
+PE=3 SV=1
+Length=481
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 39/90 (43%), Positives = 54/90 (60%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  I SAV WVQS AVFS+YYHH +G + FP E   D    +P LP + 
+Sbjct  125  PFVPWVCDVADELGIASAVFWVQSCAVFSIYYHHFNGSIPFPSETQPDVEVKIPSLPLLK  184
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L+P  P  ++  AI+ Q   + +
+Sbjct  185  HDEIPSFLLPDKPLHVIGKAILGQFWNLSK  214
+
+
+>TR:A0A193AUF6_PUNGR A0A193AUF6 Glycosyltransferase OS=Punica granatum OX=22663 GN=UGT84A23 
+PE=2 SV=1
+Length=506
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 39/88 (44%), Positives = 56/88 (64%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F  YYH+ HGLV FP E+ ++    LP +P + 
+Sbjct  123  PFIPWVSDVAETLGLPSAMLWVQSCACFLAYYHYYHGLVPFPSENAMEIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              +VPS L P+ P+  +  AI+ Q + +
+Sbjct  183  HDEVPSFLYPTTPYPFLRRAILGQYKNL  210
+
+
+>TR:A0A1R3GYR0_9ROSI A0A1R3GYR0 Glycosyltransferase OS=Corchorus olitorius OX=93759 
+GN=COLO4_32586 PE=3 SV=1
+Length=516
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 40/90 (44%), Positives = 58/90 (64%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ +G V FP E D +    LP +P + 
+Sbjct  124  PFIPWASDVAESLNIPSAMLWVQSCASFAAYYHYNNGSVPFPSETDPEIDVQLPAMPLLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+ ++  AI+ Q + + +
+Sbjct  184  HDEIPSFLHPSTPYGVLGRAILGQFKNLNK  213
+
+
+>TR:A0A218VWG2_PUNGR A0A218VWG2 Glycosyltransferase OS=Punica granatum OX=22663 GN=CDL15_Pgr028532 
+PE=3 SV=1
+Length=517
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E  ++    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYYHGLVPFPSESAMEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  HDEVPSFLYPTTPYPFLRRAIMGQYKNLDK  211
+
+
+>TR:A0A193AU77_PUNGR A0A193AU77 Glycosyltransferase OS=Punica granatum OX=22663 GN=UGT84A24 
+PE=2 SV=1
+Length=517
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YYH+ HGLV FP E  ++    LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFAAYYHYYHGLVPFPSESAMEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  HDEVPSFLYPTTPYPFLRRAIMGQYKNLDK  211
+
+
+>SP:CGT_FRAAN Q66PF4 Cinnamate beta-D-glucosyltransferase OS=Fragaria ananassa 
+OX=3747 GN=GT2 PE=1 SV=1
+Length=555
+
+ Score = 85.5 bits (210),  Expect = 8e-19
+ Identities = 38/84 (45%), Positives = 53/84 (63%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    +PSA+LWVQS A  + YYH+ HGLV FP E D+     +P +P + 
+Sbjct  122  PFIPWVCDVAESLGLPSAMLWVQSAACLAAYYHYYHGLVPFPSESDMFCDVQIPSMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              +VPS L P++P+  +  AI+ Q
+Sbjct  182  YDEVPSFLYPTSPYPFLRRAILGQ  205
+
+
+>TR:A0A1U8M877_GOSHI A0A1U8M877 Glycosyltransferase OS=Gossypium hirsutum OX=3635 
+GN=LOC107935003 PE=3 SV=1
+Length=473
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P++PWA+DVA    IPSA+LWVQS A F+ YYH+  GLV FP E D D    LP +P + 
+Sbjct  123  PYIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNLGLVPFPTETDPDIDVQLPSMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  183  HDEVPSYLRPSTPFAFLRTAILGQFKKLDK  212
+
+
+>TR:G9FKG7_VITVI G9FKG7 Glycosyltransferase OS=Vitis vinifera OX=29760 GN=GT2 
+PE=2 SV=1
+Length=479
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  +PSA+LWVQS A  S YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGLPSAMLWVQSCACLSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++ S L P+ P+  +  AI+ Q + + +
+Sbjct  183  YDEIASFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A0A140KXU6_9ROSI A0A140KXU6 Glycosyltransferase OS=Vitis amurensis OX=103351 GN=VaGlu1 
+PE=2 SV=1
+Length=479
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  +PSA+LWVQS A  S YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGLPSAMLWVQSCACLSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++ S L P+ P+  +  AI+ Q + + +
+Sbjct  183  YDEIASFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A5ATH4_VITVI A5ATH4 Glycosyltransferase OS=Vitis vinifera OX=29760 GN=VIT_03s0180g00200 
+PE=3 SV=1
+Length=479
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAAD  +PSA+LWVQS A  S YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVAADLGLPSAMLWVQSCACLSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++ S L P+ P+  +  AI+ Q + + +
+Sbjct  183  YDEIASFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A0A2C9VJC4_MANES A0A2C9VJC4 Glycosyltransferase OS=Manihot esculenta OX=3983 GN=MANES_07G070400 
+PE=3 SV=1
+Length=500
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAA   +PSA+LWVQS A FS YYH+   LV FP ED+ +    LP +P + 
+Sbjct  135  PFIPWVSDVAASLGLPSAMLWVQSCACFSAYYHYSRHLVPFPTEDNPEIDVQLPCVPLLK  194
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q   I +
+Sbjct  195  YDEVPSFLHPSTPYPFLGRAILGQFENIDK  224
+
+
+>TR:A0A2P5VX68_GOSBA A0A2P5VX68 Glycosyltransferase OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA37277 PE=3 SV=1
+Length=504
+
+ Score = 85.1 bits (209),  Expect = 1e-18
+ Identities = 42/90 (47%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA+DVA    IPSA+LWVQS A F+ YYH+ H LV FP E D +    LP +P + 
+Sbjct  126  PFIPWASDVAESLGIPSAMLWVQSCACFAAYYHYNHWLVTFPTETDPEFDVQLPSMPLLK  185
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P   +  AI+ Q + + +
+Sbjct  186  HDEVPSFLHPSTPFAYLRTAILGQFKKLDK  215
+
+
+>TR:I2BH93_LINUS I2BH93 UDP-glycosyltransferase 1 OS=Linum usitatissimum OX=4006 
+GN=UGT84G1 PE=4 SV=1
+Length=457
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 37/84 (44%), Positives = 53/84 (63%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAA   IPSA+ W+Q+ A FS YYH+   L  FP EDD ++   LP +P + 
+Sbjct  115  PFLPWVSDVAASLDIPSAIFWMQACASFSCYYHYYKKLARFPTEDDPESDVVLPFMPVLK  174
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              D+P+ L+PS P+  +  A+  Q
+Sbjct  175  HDDIPTFLLPSTPYPYLATAVFDQ  198
+
+
+>TR:I2BH95_LINUS I2BH95 Glycosyltransferase OS=Linum usitatissimum OX=4006 GN=UGT84G3 
+PE=3 SV=1
+Length=468
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 39/84 (46%), Positives = 52/84 (62%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LW+QS A FS YYH+ + L  FP E+D +    LP +P + 
+Sbjct  122  PFLPWVCDVAVSLDIPSAILWMQSCACFSSYYHYHNKLARFPTENDAECDVVLPSMPVLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              +VPS L PS P+  +  AI+ Q
+Sbjct  182  HDEVPSFLHPSTPYPFLATAILGQ  205
+
+
+>TR:M5VIZ3_PRUPE M5VIZ3 Glycosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_8G135800 
+PE=3 SV=1
+Length=473
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 39/91 (43%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A LW+QS AVFS YYH+ +  V FP E + +    LPG+P + 
+Sbjct  124  PFIPWVCDVAVELGIPQATLWIQSCAVFSAYYHYNNKTVSFPTEAEPNMDVQLPGMPVLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS+P +++  AI+ Q + + +S
+Sbjct  184  HDEIPSFLHPSDPFQVLGRAILGQFKKLSKS  214
+
+
+>TR:A0A2P5CAJ8_9ROSA A0A2P5CAJ8 Glycosyltransferase OS=Trema orientalis OX=63057 GN=TorRG33x02_292140 
+PE=3 SV=1
+Length=476
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 37/91 (41%), Positives = 57/91 (63%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A LW+QS A+F+ +YH+ H  V FP E + D    LPG+P + 
+Sbjct  123  PFIPWVCDVAEELGIPCATLWIQSCALFASFYHYSHRTVPFPSEAEPDIDVRLPGMPVLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ S L PS P+K + +A++ Q + + +S
+Sbjct  183  HDEISSFLHPSTPYKALANALLGQFKNLSKS  213
+
+
+>TR:A0A068TLP5_COFCA A0A068TLP5 Glycosyltransferase OS=Coffea canephora OX=49390 GN=GSCOC_T00014494001 
+PE=3 SV=1
+Length=483
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 37/91 (41%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSA+LWVQS A FS YYH+ H L  +P + + +    LP +P + 
+Sbjct  126  PFIPWVSDVAESLHIPSAILWVQSCACFSAYYHYCHALAPYPTDAEPEIDVQLPSMPLLK  185
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L P+ P+  + +AI+ Q   + +S
+Sbjct  186  HDEIPSFLHPTTPYPFLREAILGQFTNLSKS  216
+
+
+>TR:A0A2P2NGL4_RHIMU A0A2P2NGL4 Glycosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=491
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 37/90 (41%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAA   +PSA+LWVQS A F+ YYH+ HGLV FP E++ +    LP +P + 
+Sbjct  125  PFIPWVSDVAASLGLPSAMLWVQSCACFAAYYHYYHGLVPFPTEENPEIDVQLPCMPLLK  184
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L P  P+  +   ++ Q + + +
+Sbjct  185  YDEIPSFLHPITPYPFLRGTVLGQCKNLDK  214
+
+
+>TR:A0A1J3E6Z7_NOCCA A0A1J3E6Z7 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=GA_TR10047_c0_g1_i1_g.33286 PE=3 SV=1
+Length=509
+
+ Score = 84.7 bits (208),  Expect = 1e-18
+ Identities = 38/88 (43%), Positives = 59/88 (67%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVAAD +IPSAVLWVQS A  + YY++ H LV+FP + D +    +PG+P + 
+Sbjct  128  PFVSWVCDVAADLQIPSAVLWVQSCACLASYYYYHHKLVDFPTKTDPEIDVQIPGMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS + PS+P+  + + II Q++ +
+Sbjct  188  HDEIPSFIHPSSPYSALREVIIDQIKRL  215
+
+
+>TR:A0A1Q3B072_CEPFO A0A1Q3B072 Glycosyltransferase OS=Cephalotus follicularis OX=3775 
+GN=CFOL_v3_04710 PE=3 SV=1
+Length=518
+
+ Score = 84.7 bits (208),  Expect = 2e-18
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F  YY++ HGLV FP E D +    LP LP + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFEAYYYYYHGLVPFPSETDPEIDVQLPYLPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSFLHPTTPYPFLRRAILGQYKNLDK  211
+
+
+>TR:A0A087HBG8_ARAAL A0A087HBG8 Glycosyltransferase OS=Arabis alpina OX=50452 GN=AALP_AA3G248400 
+PE=3 SV=1
+Length=471
+
+ Score = 84.3 bits (207),  Expect = 2e-18
+ Identities = 40/85 (47%), Positives = 57/85 (67%), Gaps = 0/85 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA +  IPSAVLWVQS A F+LYY++ H LV+FP E + D    +P LP +  
+Sbjct  124  FVPWVCDVAEELHIPSAVLWVQSCACFALYYYYHHLLVQFPTETEPDINVAIPCLPLLKH  183
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLR  87
+             ++PS L PS+P  ++ + I+ QL+
+Sbjct  184  DEIPSFLHPSSPFAVLGEIILDQLK  208
+
+
+>TR:B9RY86_RICCO B9RY86 Glycosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_0811300 
+PE=3 SV=1
+Length=472
+
+ Score = 84.3 bits (207),  Expect = 2e-18
+ Identities = 39/88 (44%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA D  +PSA+LWVQS   FS YYH+ H L  FP E++ +    LP +P + 
+Sbjct  124  PFIPWVSDVAEDLGLPSAMLWVQSCGCFSAYYHYYHDLAPFPSEENPETDVELPFMPVLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              +VPS L PS P   +  AI+ Q + +
+Sbjct  184  YDEVPSFLHPSTPFPFLRRAILGQFKNL  211
+
+
+>TR:A0A2J6KIQ9_LACSA A0A2J6KIQ9 Glycosyltransferase OS=Lactuca sativa OX=4236 GN=LSAT_5X116201 
+PE=3 SV=1
+Length=478
+
+ Score = 84.3 bits (207),  Expect = 2e-18
+ Identities = 38/91 (42%), Positives = 57/91 (63%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A +  IPSA+LWVQS A FS YYH+ + LV FP ++  D    LP +P + 
+Sbjct  128  PFVPWVTDLAEELNIPSAMLWVQSCACFSSYYHYENSLVPFPSDEHPDIDVQLPNMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS P+  +  AI+ Q + + ++
+Sbjct  188  SDEIPSFLHPSTPYPFLRRAILGQFKNLSKT  218
+
+
+>TR:A0A1U7Z5F6_NELNU A0A1U7Z5F6 limonoid UDP-glucosyltransferase OS=Nelumbo nucifera 
+OX=4432 GN=LOC104590529 PE=4 SV=1
+Length=484
+
+ Score = 84.3 bits (207),  Expect = 2e-18
+ Identities = 42/90 (47%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PWA DVA D  IP AVLWVQS AVFS YY++ H L  FP  D+      LPGLP ++ 
+Sbjct  123  FVPWALDVATDFGIPCAVLWVQSCAVFSTYYYYFHRLARFPSVDEPHLSVHLPGLPILNS  182
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+             +VPS L PS  + ++ + I+ Q + + +S
+Sbjct  183  HEVPSFLHPSTIYHMLGNLILGQFQNLSKS  212
+
+
+>TR:A0A103XQI9_CYNCS A0A103XQI9 UDP-glucuronosyl/UDP-glucosyltransferase OS=Cynara 
+cardunculus var. scolymus OX=59895 GN=Ccrd_002908 PE=4 SV=1
+Length=461
+
+ Score = 84.0 bits (206),  Expect = 3e-18
+ Identities = 37/91 (41%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+  +  IPSA+LWVQS A FS YYH+ + LV FP E   D    LP +P + 
+Sbjct  128  PFLPWVSDLGEELNIPSAMLWVQSCACFSSYYHYENSLVPFPSEKQPDIDVQLPSMPVLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS P+  +  A++ Q + + ++
+Sbjct  188  SDEIPSFLHPSTPYPFLRRAVLGQFKNLSKT  218
+
+
+>TR:A0A2U1QJM4_ARTAN A0A2U1QJM4 Uncharacterized protein OS=Artemisia annua OX=35608 
+GN=CTI12_AA021420 PE=4 SV=1
+Length=465
+
+ Score = 84.0 bits (206),  Expect = 3e-18
+ Identities = 40/90 (44%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A +  IP A+LWVQS A FS YYH+ + LV FP E+  D    LP +P + 
+Sbjct  128  PFVPWVVDLAEELNIPCAMLWVQSCACFSSYYHYENSLVPFPSEEQPDIDVQLPHMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  AI+ Q + I +
+Sbjct  188  SDEVPSFLHPSTPYPFLRRAILGQFKNISK  217
+
+
+>TR:A0A067LBX9_JATCU A0A067LBX9 Glycosyltransferase OS=Jatropha curcas OX=180498 GN=JCGZ_15467 
+PE=3 SV=1
+Length=492
+
+ Score = 84.0 bits (206),  Expect = 3e-18
+ Identities = 38/90 (42%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+ H LV FP + + +    LP +P + 
+Sbjct  123  PFIPWVSDVAESLGLPSAMLWVQSCACFSAYYHYHHNLVPFPDKQNPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS+P+  +  AI+ Q + + +
+Sbjct  183  YDEIPSFLHPSSPYPFLARAILGQFKNLDK  212
+
+
+>TR:A0A103XM70_CYNCS A0A103XM70 Glycosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_004634 PE=3 SV=1
+Length=476
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 37/91 (41%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+  +  IPSA+LWVQS A FS YYH+ + L+ FP E   D    LP +P + 
+Sbjct  128  PFIPWVSDLGEELNIPSAMLWVQSCACFSTYYHYTNSLIPFPSEKQPDIDVHLPNMPMLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L P+ P+  +  AI+ Q R + ++
+Sbjct  188  SDEIPSFLHPATPYPSLKAAILKQFRNLPKT  218
+
+
+>TR:A0A0L9TQC5_PHAAN A0A0L9TQC5 Glycosyltransferase OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan01g192500 PE=3 SV=1
+Length=479
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 35/74 (47%), Positives = 49/74 (66%), Gaps = 0/74 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV  +  IP A+LW+Q+ A +S+YY ++  +  FP  DDLD +  LPGLP   
+Sbjct  129  PFVPWAIDVVVEHGIPCALLWIQACAAYSIYYRYLKNIDPFPNMDDLDEKVHLPGLPPFE  188
+
+Query  62   VADVPSVLIPSNPH  75
+            V D PS ++PS P+
+Sbjct  189  VRDSPSFILPSTPY  202
+
+
+>TR:A0A1S3UKM9_VIGRR A0A1S3UKM9 Glycosyltransferase OS=Vigna radiata var. radiata 
+OX=3916 GN=LOC106766262 PE=3 SV=1
+Length=479
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 35/74 (47%), Positives = 49/74 (66%), Gaps = 0/74 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV  +  IP A+LW+Q+ A +S+YY ++  +  FP  DDLD +  LPGLP   
+Sbjct  129  PFVPWAIDVVVEHGIPCALLWIQACAAYSIYYRYLKNINPFPNMDDLDEKVHLPGLPPFE  188
+
+Query  62   VADVPSVLIPSNPH  75
+            V D PS ++PS P+
+Sbjct  189  VRDSPSFILPSTPY  202
+
+
+>TR:A0A1U8HM69_CAPAN A0A1U8HM69 Glycosyltransferase OS=Capsicum annuum OX=4072 GN=LOC107879955 
+PE=3 SV=1
+Length=489
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 38/88 (43%), Positives = 58/88 (66%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH+++ L  FP   + + +  LPG+P + 
+Sbjct  126  PFIPWVSDVAETLGIPSAVLWVQSAASFSCYYHYLNKLAPFPTGTNPELQVQLPGMPLLK  185
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P++P+ ++ +AI+ Q   +
+Sbjct  186  HDEIPSFLHPASPYTMLKNAILGQFEKL  213
+
+
+>TR:A0A2G9GRT0_9LAMI A0A2G9GRT0 Glycosyltransferase OS=Handroanthus impetiginosus 
+OX=429701 GN=CDL12_19439 PE=3 SV=1
+Length=494
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 39/90 (43%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSA+LWVQS A FS YYH+ + LV FP E + +    LP +P + 
+Sbjct  130  PFIPWVSDVAESLGIPSAMLWVQSCASFSCYYHYYNNLVPFPSEKEPEIDVQLPHMPLLK  189
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  190  YDEIPSFLHPSTPYPFLGRAILGQFKNLSK  219
+
+
+>TR:A0A2K1Z5F7_POPTR A0A2K1Z5F7 Glycosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G095100v3 PE=3 SV=1
+Length=502
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 38/90 (42%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    +PSA+LWVQS A F+ YYH+ HG V FP E+  +    LP +P + 
+Sbjct  122  PFIPWVTDVATSLGLPSAMLWVQSCACFASYYHYYHGTVPFPDEEHPEIDVQLPWMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSYLYPTTPYPFLRRAILGQYKNLDK  211
+
+
+>TR:A0A2U1PBA4_ARTAN A0A2U1PBA4 Limonoid UDP-glucosyltransferase OS=Artemisia annua 
+OX=35608 GN=CTI12_AA169580 PE=4 SV=1
+Length=606
+
+ Score = 83.6 bits (205),  Expect = 4e-18
+ Identities = 39/90 (43%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A +  IP A+LWVQS A FS YYH+ + LV FP E+  D    LP +P + 
+Sbjct  128  PFVPWVVDLAEELNIPCAMLWVQSCACFSSYYHYENSLVPFPTEEQPDIDVQLPHMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS P+  +  A++ Q + I +
+Sbjct  188  SDEVPSFLHPSTPYPFLRRAVLGQFKNISK  217
+
+
+>SP:F6CGT_GENTR A0A0B6VIJ5 UDP-glycosyltransferase UF6CGT1 OS=Gentiana triflora 
+OX=55190 GN=UF6CGT1 PE=2 SV=1
+Length=477
+
+ Score = 83.2 bits (204),  Expect = 5e-18
+ Identities = 39/91 (43%), Positives = 53/91 (58%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P +PW ADVA   +IP A LWVQS A FS YYH+ HGLV FP E + +    LPG+P + 
+Sbjct  127  PLVPWVADVADSLQIPCATLWVQSCASFSAYYHYHHGLVPFPTESEPEIDVQLPGMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              +VP  L P  P+      I+ Q + + ++
+Sbjct  187  YDEVPDYLHPRTPYPFFGTNILGQFKNLSKN  217
+
+
+>TR:M1CFQ5_SOLTU M1CFQ5 Glycosyltransferase OS=Solanum tuberosum OX=4113 GN=102601808 
+PE=3 SV=1
+Length=487
+
+ Score = 83.2 bits (204),  Expect = 5e-18
+ Identities = 38/88 (43%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+A    IPSAVLWVQS A FS YYH+ H L  FP E +      LPG+P + 
+Sbjct  126  PFIPWVSDIAETLGIPSAVLWVQSAASFSCYYHYTHQLAPFPTESNPKLELQLPGMPLLK  185
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P++ + ++  AI+ Q   +
+Sbjct  186  HDEIPSFLHPASCYSMLKKAILGQFEKL  213
+
+
+>TR:A0A1S3C127_CUCME A0A1S3C127 Glycosyltransferase OS=Cucumis melo OX=3656 GN=LOC103495274 
+PE=3 SV=1
+Length=496
+
+ Score = 83.2 bits (204),  Expect = 5e-18
+ Identities = 39/88 (44%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP +VLWVQS +VFS+YYH+    V+FP E D      LP LP + 
+Sbjct  124  PFVPWVCDVANDIGIPCSVLWVQSCSVFSIYYHYSRKSVDFPSESDPYCDVQLPSLPLLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P   +K++  +I+ Q R +
+Sbjct  184  YDEIPSFLHPHGQYKVIGRSILQQFRNV  211
+
+
+>TR:A0A2K1Z5F2_POPTR A0A2K1Z5F2 Glycosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G095300v3 PE=3 SV=1
+Length=499
+
+ Score = 83.2 bits (204),  Expect = 5e-18
+ Identities = 38/90 (42%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    +PSA+LWVQS A F+ YYH+ HG V FP E+  +    LP +P + 
+Sbjct  122  PFIPWVTDVATGLGLPSAMLWVQSCACFASYYHYYHGAVPFPDEEHPEIDVQLPWMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  HDEVPSFLYPTTPYPFLRRAILCQYKNLDK  211
+
+
+>TR:A0A076GGW6_9ROSI A0A076GGW6 Glycosyltransferase OS=Populus fremontii x Populus 
+angustifolia OX=352374 GN=GT1-316 PE=2 SV=1
+Length=502
+
+ Score = 83.2 bits (204),  Expect = 5e-18
+ Identities = 38/90 (42%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    +PSA+LWVQS A F+ YYH+ HG V FP E+  +    LP +P + 
+Sbjct  122  PFIPWVTDVATTLGLPSAMLWVQSCACFASYYHYYHGTVPFPDEEHPEIDVQLPWMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  YDEVPSYLYPTTPYPFLRRAILGQYKNLDK  211
+
+
+>TR:A0A022RC56_ERYGU A0A022RC56 Glycosyltransferase OS=Erythranthe guttata OX=4155 
+GN=MIMGU_mgv1a023901mg PE=3 SV=1
+Length=468
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 40/91 (44%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LWVQS A FS YYH+ H LV FP E++ +    LP LP + 
+Sbjct  111  PFIPWVTDVAESLGIPSAMLWVQSCASFSAYYHYCHNLVPFPSEEEPEIDVQLPFLPLLK  170
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              +VPS L PS  +  +   I+ Q + + ++
+Sbjct  171  HDEVPSFLHPSTDYPFLGRVILGQFKNLSKT  201
+
+
+>TR:Q0PI14_VITLA Q0PI14 Glycosyltransferase OS=Vitis labrusca OX=103355 PE=2 SV=1
+Length=479
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 38/90 (42%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA D  +PSA+LWVQS A  S YYH+ HGLV FP E + +    LP +P + 
+Sbjct  123  PFIPWVSDVADDLGLPSAMLWVQSCACLSTYYHYYHGLVPFPSEAEPEIDVQLPCMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++ S L P+ P+  +  AI+ Q + + +
+Sbjct  183  YDEIASFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A0A251TKH3_HELAN A0A251TKH3 Glycosyltransferase OS=Helianthus annuus OX=4232 GN=LGT 
+PE=3 SV=1
+Length=479
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 38/91 (42%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+A +  IP A+LWVQS A FS YYH+   LV FP E+  D    LP +P + 
+Sbjct  128  PFIPWVSDLAQELNIPCAMLWVQSCACFSSYYHYQKSLVPFPSEEKPDIDVQLPNMPVLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS P+  +  AI+ Q + +  +
+Sbjct  188  SDEIPSFLHPSTPYPFLRRAILGQFKNLSNN  218
+
+
+>TR:A0A1J3G0Z1_NOCCA A0A1J3G0Z1 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=LC_TR15928_c0_g1_i1_g.54727 PE=3 SV=1
+Length=509
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 37/88 (42%), Positives = 58/88 (66%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IPSAVLWVQS A  + YY++ H LV+FP + D +    +PG+P + 
+Sbjct  128  PFVSWVCDVAEDLQIPSAVLWVQSCACLASYYYYHHKLVDFPTKTDPEIDVQIPGMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS + PS+P+  + + II Q++ +
+Sbjct  188  HDEIPSFIHPSSPYSALREVIIDQIKRL  215
+
+
+>TR:A0A1J3J8U7_NOCCA A0A1J3J8U7 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=MP_TR1294_c0_g1_i1_g.3325 PE=3 SV=1
+Length=509
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 37/88 (42%), Positives = 58/88 (66%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IPSAVLWVQS A  + YY++ H LV+FP + D +    +PG+P + 
+Sbjct  128  PFVSWVCDVAEDLQIPSAVLWVQSCACLASYYYYHHKLVDFPTKTDPEIDVQIPGMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS + PS+P+  + + II Q++ +
+Sbjct  188  HDEIPSFIHPSSPYSALREVIIDQIKRL  215
+
+
+>TR:A0A2P4GRD9_QUESU A0A2P4GRD9 Glycosyltransferase OS=Quercus suber OX=58331 GN=CFP56_62667 
+PE=3 SV=1
+Length=510
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 39/90 (43%), Positives = 54/90 (60%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F  YYH+ HGLV FP E +      LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFCAYYHYYHGLVPFPSEAEPFIDIQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              + PS L P+ P+  +  AI+ Q R + +
+Sbjct  182  YDETPSFLYPTTPYPFLRRAILGQYRNLDK  211
+
+
+>TR:A0A1J3GYD8_NOCCA A0A1J3GYD8 Glycosyltransferase (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=LE_TR7298_c1_g1_i1_g.25759 PE=3 SV=1
+Length=538
+
+ Score = 82.8 bits (203),  Expect = 7e-18
+ Identities = 37/88 (42%), Positives = 58/88 (66%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IPSAVLWVQS A  + YY++ H LV+FP + D +    +PG+P + 
+Sbjct  174  PFVSWVCDVAEDLQIPSAVLWVQSCACLASYYYYHHKLVDFPTKTDPEIDVQIPGMPLLK  233
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS + PS+P+  + + II Q++ +
+Sbjct  234  HDEIPSFIHPSSPYSALREVIIDQIKRL  261
+
+
+>TR:A0A1D1Z7D9_9ARAE A0A1D1Z7D9 Limonoid UDP-glucosyltransferase (Fragment) OS=Anthurium 
+amnicola OX=1678845 GN=LGT_0 PE=4 SV=1
+Length=357
+
+ Score = 82.0 bits (201),  Expect = 8e-18
+ Identities = 38/89 (43%), Positives = 54/89 (61%), Gaps = 0/89 (0%)
+
+Query  4   MPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSVA  63
+           +PW  DVAA   IP  +LWVQS AVFS YYH+ H L +FP     +   TLPG+P +   
+Sbjct  1   IPWVLDVAAGMGIPCGMLWVQSCAVFSAYYHYYHALADFPDAARPELTVTLPGVPALRPY  60
+
+Query  64  DVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+           +VPS L+P NP+  +  +I+ Q   + ++
+Sbjct  61  EVPSFLLPGNPYPSLTVSILGQFENLHKA  89
+
+
+>TR:A0A0V0IC65_SOLCH A0A0V0IC65 Glycosyltransferase OS=Solanum chacoense OX=4108 PE=3 
+SV=1
+Length=436
+
+ Score = 82.4 bits (202),  Expect = 9e-18
+ Identities = 37/88 (42%), Positives = 54/88 (61%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+A    IPSA+LWVQS A FS YYH+ H L  FP E +      LPG+P + 
+Sbjct  75   PFIPWVSDIAETLGIPSAILWVQSAASFSCYYHYTHQLAPFPTESNPKLELQLPGMPLLK  134
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P++ + ++  AI+ Q   +
+Sbjct  135  HDEIPSFLHPASCYTMLKKAILGQFEKL  162
+
+
+>TR:A0A2P5CAJ4_9ROSA A0A2P5CAJ4 Glycosyltransferase OS=Trema orientalis OX=63057 GN=TorRG33x02_292150 
+PE=3 SV=1
+Length=470
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 37/91 (41%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP A LWVQS A+F+ YYH++H  V FP E + +    LPG+P + 
+Sbjct  123  PFIPWVCDVAEDLGIPCATLWVQSCALFACYYHYLHQTVPFPSEAEPEIDVRLPGMPVLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ S L P+  +K++   I+ Q + + +S
+Sbjct  183  HDEIASFLHPNGQYKILGRVILGQFKNLSKS  213
+
+
+>TR:A0A0B2R4C7_GLYSO A0A0B2R4C7 Glycosyltransferase OS=Glycine soja OX=3848 GN=glysoja_028343 
+PE=3 SV=1
+Length=474
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 33/74 (45%), Positives = 51/74 (69%), Gaps = 0/74 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA+  IP A+LW+Q+ A +S+YY ++  +  +P  +D + +  LPGLP   
+Sbjct  120  PFVPWAIDVAAEHGIPCAMLWIQASATYSIYYRYLKNINSYPNLEDPNEKVHLPGLPPFE  179
+
+Query  62   VADVPSVLIPSNPH  75
+            V D+PS ++PS P+
+Sbjct  180  VKDIPSFILPSTPY  193
+
+
+>TR:A0A2P5DN34_PARAD A0A2P5DN34 Glycosyltransferase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_047640 PE=3 SV=1
+Length=476
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 35/91 (38%), Positives = 57/91 (63%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A LW+QS A+F+ +YH+ H  V FP + + +    LPG+P + 
+Sbjct  123  PFIPWVCDVAEELGIPCATLWIQSCALFASFYHYSHRTVAFPSQAEPEIDVRLPGMPVLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ S L PS P+K + +A++ Q + + +S
+Sbjct  183  HDEISSFLHPSTPYKALANALLGQFKNLSKS  213
+
+
+>TR:A0A2P6PLS9_ROSCH A0A2P6PLS9 Glycosyltransferase OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr6g0254941 
+PE=3 SV=1
+Length=476
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 39/91 (43%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A LW+QS AVFS YYH+  G V FP E + D    LP +P + 
+Sbjct  128  PFIPWVCDVATELGIPCATLWIQSCAVFSAYYHYNAGAVAFPTEAEPDLDVQLPSMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L P  P +++  AI+ Q + + +S
+Sbjct  188  HDEIPSFLHPFAPFRILGMAILGQFKKLSKS  218
+
+
+>TR:K7MM15_SOYBN K7MM15 Glycosyltransferase OS=Glycine max OX=3847 GN=102660440 
+PE=3 SV=1
+Length=484
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 33/74 (45%), Positives = 51/74 (69%), Gaps = 0/74 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DVAA+  IP A+LW+Q+ A +S+YY ++  +  +P  +D + +  LPGLP   
+Sbjct  130  PFVPWAIDVAAEHGIPCAMLWIQASATYSIYYRYLKNINSYPNLEDPNEKVHLPGLPPFE  189
+
+Query  62   VADVPSVLIPSNPH  75
+            V D+PS ++PS P+
+Sbjct  190  VKDIPSFILPSTPY  203
+
+
+>TR:X5IXP9_DELGR X5IXP9 UDP-glucose dependent p-hydroxybenzoic acid glucosyltransferase 
+OS=Delphinium grandiflorum OX=85439 PE=2 SV=1
+Length=486
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 39/93 (42%), Positives = 58/93 (62%), Gaps = 2/93 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVAA+  IP A+LWVQS  V+S+YYH+ H L  FP  D  +    LPGLP + 
+Sbjct  125  PFIPWVSDVAAELGIPCALLWVQSCFVYSVYYHYFHNLASFPTVDQPNKSVELPGLPTLE  184
+
+Query  62   VADVPSVLIP--SNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L P  S   +++ D I+ Q + + ++
+Sbjct  185  SDEIPSFLHPVYSPDKRVLKDVILGQFKNLEKT  217
+
+
+>TR:A0A2I6B3Q5_RHORB A0A2I6B3Q5 Glycosyltransferase OS=Rhodiola rosea OX=203015 PE=2 
+SV=1
+Length=493
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 39/88 (44%), Positives = 53/88 (60%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A FS YYH+   LV FP E D +    LP +P + 
+Sbjct  123  PFIPWVSDVAESLGLPSAMLWVQSAACFSAYYHYSKNLVPFPSETDPEIDVQLPNMPLLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              +VPS L P+ P+  +  AI+ Q   +
+Sbjct  183  YDEVPSFLHPTTPYPFLRRAIMGQYNNL  210
+
+
+>TR:A0A059BDD2_EUCGR A0A059BDD2 Glycosyltransferase OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_G01342 PE=3 SV=1
+Length=499
+
+ Score = 82.0 bits (201),  Expect = 1e-17
+ Identities = 38/90 (42%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F+ YY++ HGLV FP E  ++    LP +P + 
+Sbjct  122  PFIPWVSDVADSLGLPSAMLWVQSCACFTSYYYYYHGLVPFPSETAMEIDVQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  HDEVPSFLYPTTPYPFLRRAIMGQYKNLDK  211
+
+
+>TR:A0A2P5DN54_PARAD A0A2P5DN54 Glycosyltransferase OS=Parasponia andersonii OX=3476 
+GN=PanWU01x14_047650 PE=3 SV=1
+Length=470
+
+ Score = 81.6 bits (200),  Expect = 2e-17
+ Identities = 37/91 (41%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP A LWVQS A+F+ YYH++H  V FP E + +    LPG+P + 
+Sbjct  123  PFIPWVCDVAEDLGIPCATLWVQSCALFASYYHYLHQTVPFPSEAEPEIDVRLPGMPVLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ S L P+  +K++   I+ Q + + +S
+Sbjct  183  HDEIASFLHPNGQYKILGRVILGQFKNLSKS  213
+
+
+>TR:A0A2P2JTY1_RHIMU A0A2P2JTY1 Glycosyltransferase OS=Rhizophora mucronata OX=61149 
+PE=3 SV=1
+Length=471
+
+ Score = 81.6 bits (200),  Expect = 2e-17
+ Identities = 37/90 (41%), Positives = 57/90 (63%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF PW +DVA    IPSAVLW+QS A F+ +YH+ HGLV FP +++      LP +P + 
+Sbjct  123  PFDPWVSDVAESLGIPSAVLWLQSCACFAAHYHYYHGLVPFPTKENPKMDVQLPCMPVLK  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++P+VL P NP+    +A++ Q + + +
+Sbjct  183  HDEIPAVLHPFNPYTFARNALLGQYKNLDK  212
+
+
+>TR:A0A2K3PKZ9_TRIPR A0A2K3PKZ9 Glycosyltransferase OS=Trifolium pratense OX=57577 
+GN=L195_g012670 PE=3 SV=1
+Length=458
+
+ Score = 81.3 bits (199),  Expect = 2e-17
+ Identities = 34/73 (47%), Positives = 50/73 (68%), Gaps = 0/73 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV A+  IP A+LW+Q+ A +S+YY +   +  FP+ DD + +  LPGLP + 
+Sbjct  103  PFVPWAIDVIAEHEIPCALLWIQASACYSIYYRYYKNIDSFPKFDDPNEKVELPGLPLLE  162
+
+Query  62   VADVPSVLIPSNP  74
+            V D+PS ++PS P
+Sbjct  163  VRDLPSFILPSYP  175
+
+
+>TR:U5D817_AMBTC U5D817 Uncharacterized protein OS=Amborella trichopoda OX=13333 
+GN=AMTR_s00031p00082410 PE=4 SV=1
+Length=481
+
+ Score = 81.3 bits (199),  Expect = 2e-17
+ Identities = 37/88 (42%), Positives = 57/88 (65%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IP A+LWVQS AV+++YY  ++ L EFP  +  +   +LPGLP + 
+Sbjct  118  PFVPWVVDVAEGFGIPCAMLWVQSCAVYAIYYQSLYRLGEFPTPERPNIDVSLPGLPVLK  177
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L+P  P++ + DAI+  ++ I
+Sbjct  178  TNELPSFLVPFAPYQCLADAILGHIKKI  205
+
+
+>TR:R0G4J5_9BRAS R0G4J5 Glycosyltransferase OS=Capsella rubella OX=81985 GN=CARUB_v10013531mg 
+PE=3 SV=1
+Length=496
+
+ Score = 81.3 bits (199),  Expect = 2e-17
+ Identities = 35/91 (38%), Positives = 59/91 (65%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IP A+LWVQS A  + YY++ H LV+FP E D +    +PG+P + 
+Sbjct  129  PFVSWVCDVAEDLQIPCALLWVQSCACLAAYYYYHHKLVDFPTETDPEIDVQIPGMPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS + PS+P+  + + I+ Q++ + ++
+Sbjct  189  HDEIPSFIHPSSPYSALGEVILDQIKRLHKT  219
+
+
+>TR:D7L0U2_ARALL D7L0U2 Glycosyltransferase OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_479675 PE=3 SV=1
+Length=499
+
+ Score = 81.3 bits (199),  Expect = 2e-17
+ Identities = 35/91 (38%), Positives = 59/91 (65%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IP AVLWVQS A  + YY++ H LV+FP + + +    +PG+P + 
+Sbjct  132  PFVSWVCDVAEDLQIPCAVLWVQSCACLAAYYYYHHNLVDFPTKTEPEIDVQIPGMPLLK  191
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS + PS+P+  + + II Q++ + ++
+Sbjct  192  PDEIPSFIHPSSPYSALREVIIDQIKRLHKT  222
+
+
+>TR:S8BT90_9LAMI S8BT90 Glycosyltransferase (Fragment) OS=Genlisea aurea OX=192259 
+GN=M569_17203 PE=3 SV=1
+Length=466
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 39/90 (43%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVAA+  IPSA+LWVQS A FS YYH+ +GLV FP  ++ +    +P LP + 
+Sbjct  117  PFIPWVVDVAAELGIPSALLWVQSCACFSAYYHYYNGLVRFPTAEEPEMDVKIPTLPLLK  176
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L P      +  AI+ Q + I +
+Sbjct  177  HDEIPSFLSPDTRLPFLRRAILGQFKNIDK  206
+
+
+>TR:M5VVR9_PRUPE M5VVR9 Glycosyltransferase OS=Prunus persica OX=3760 GN=PRUPE_8G135700 
+PE=3 SV=1
+Length=473
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 38/91 (42%), Positives = 56/91 (62%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A LW+QS AVFS YYH+    V FP E + +    LP +P + 
+Sbjct  124  PFIPWVCDVAVELGIPQATLWIQSCAVFSAYYHYNKKTVPFPTEAEPNIDVQLPCMPVLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS+P +++  AI+ Q + + +S
+Sbjct  184  HDEIPSFLYPSDPFEVLGRAILGQFKKLSKS  214
+
+
+>TR:A0A2G5C716_AQUCA A0A2G5C716 Glycosyltransferase OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_08300040v1 PE=3 SV=1
+Length=475
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 33/90 (37%), Positives = 56/90 (62%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP A+LW+Q  A++++YYH  + L  FP  +  D    LPG+P +S
+Sbjct  123  PFVPWVVDVAVEHNIPCALLWIQPSALYAIYYHFYNDLSSFPTLEKPDIPIELPGVPCLS  182
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+            + D+PS + PSNP+    + ++  ++ + +
+Sbjct  183  MDDMPSFIHPSNPYPSYKELLLTMIKNLDK  212
+
+
+>TR:V7CG39_PHAVU V7CG39 Glycosyltransferase OS=Phaseolus vulgaris OX=3885 GN=PHAVU_003G239700g 
+PE=3 SV=1
+Length=477
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 34/73 (47%), Positives = 48/73 (66%), Gaps = 0/73 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWA DV  +  IP A+LW+Q+ A +S+YY ++  +  FP  DDL+ +  LPGLP   
+Sbjct  127  PFVPWAIDVVVEHGIPCALLWIQACAAYSIYYRYLKNINPFPNMDDLNEKVHLPGLPPFE  186
+
+Query  62   VADVPSVLIPSNP  74
+            V D PS ++PS P
+Sbjct  187  VRDSPSFILPSTP  199
+
+
+>TR:A0A118JVV7_CYNCS A0A118JVV7 Glycosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_004632 PE=3 SV=1
+Length=490
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 36/91 (40%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            P++PW  D+A D  IPSA+LWVQS A FS YYH+ + LV FP E+  D    LP +P + 
+Sbjct  129  PYVPWVCDLAEDLNIPSAMLWVQSCACFSSYYHYENRLVPFPSEEQPDIDVQLPNMPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L P   +  +  A++ Q + + ++
+Sbjct  189  SDEIPSFLHPFTQYSFLRRALLAQFKNLSKT  219
+
+
+>TR:A0A1S4CD49_TOBAC A0A1S4CD49 Glycosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107817714 
+PE=3 SV=1
+Length=492
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 37/90 (41%), Positives = 54/90 (60%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IPSA+LW+QS A FS YYH+ + LV FP +   +    LP +P + 
+Sbjct  128  PFIPWVCDVAESLGIPSAMLWIQSAASFSAYYHYYNSLVPFPSKSQPEIDVQLPYMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  188  YDEIPSFLHPSTPYAFLRRAILGQYKNLSK  217
+
+
+>TR:A0A1U7ULL2_NICSY A0A1U7ULL2 Glycosyltransferase OS=Nicotiana sylvestris OX=4096 
+GN=LOC104210007 PE=3 SV=1
+Length=493
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 37/90 (41%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSA+LW+QS A FS YYH+ + LV FP +   +    LP +P + 
+Sbjct  128  PFIPWVSDVAESLGIPSAMLWIQSAASFSAYYHYYNNLVPFPSKSQPEIDVQLPYMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  188  YDEIPSFLHPSTPYGFLRRAILGQYKNLSK  217
+
+
+>TR:A0A1S3YKZ8_TOBAC A0A1S3YKZ8 Glycosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107777244 
+PE=3 SV=1
+Length=493
+
+ Score = 80.9 bits (198),  Expect = 3e-17
+ Identities = 37/90 (41%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSA+LW+QS A FS YYH+ + LV FP +   +    LP +P + 
+Sbjct  128  PFIPWVSDVAESLGIPSAMLWIQSAASFSAYYHYYNNLVPFPSKSQPEIDVQLPYMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L PS P+  +  AI+ Q + + +
+Sbjct  188  YDEIPSFLHPSTPYGFLRRAILGQYKNLSK  217
+
+
+>TR:R0F4C9_9BRAS R0F4C9 Glycosyltransferase OS=Capsella rubella OX=81985 GN=CARUB_v10004716mg 
+PE=3 SV=1
+Length=479
+
+ Score = 80.5 bits (197),  Expect = 5e-17
+ Identities = 38/87 (44%), Positives = 56/87 (64%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            ++PW  DVA + +IPSAVLWVQS A  + YY++ H LV+FP E + D    +P LP +  
+Sbjct  123  YVPWVCDVAEELQIPSAVLWVQSCACLAAYYYYHHRLVKFPTETEPDLNVEIPCLPLLKH  182
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             + PS L PS+P+K   + I+ QL+ +
+Sbjct  183  DEFPSFLHPSSPYKAYGEVILDQLKRL  209
+
+
+>TR:A0A0A0K2I5_CUCSA A0A0A0K2I5 Glycosyltransferase OS=Cucumis sativus OX=3659 GN=Csa_7G072720 
+PE=3 SV=1
+Length=496
+
+ Score = 80.5 bits (197),  Expect = 5e-17
+ Identities = 39/88 (44%), Positives = 51/88 (58%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP +VLWVQS +VFS+YYH     VEFP E D      LP LP + 
+Sbjct  124  PFVPWVCDVANDIGIPCSVLWVQSCSVFSIYYHFSRKSVEFPSESDPYCDVQLPSLPSLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P   +K +  +I+ Q   +
+Sbjct  184  HDEIPSFLHPHGMYKAIGRSILQQFHNV  211
+
+
+>TR:A0A2N9FYZ7_FAGSY A0A2N9FYZ7 Glycosyltransferase OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS19926 
+PE=3 SV=1
+Length=499
+
+ Score = 80.5 bits (197),  Expect = 5e-17
+ Identities = 39/84 (46%), Positives = 51/84 (61%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F  YYH+ HGLV FP E +      LP  P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFCAYYHYYHGLVPFPSEAEPFIDIQLPCTPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              +VPS L P+ P+  +  AI+ Q
+Sbjct  182  YDEVPSFLYPTTPYPFLRRAILGQ  205
+
+
+>TR:A0A103XMN4_CYNCS A0A103XMN4 Glycosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_004636 PE=3 SV=1
+Length=463
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 32/72 (44%), Positives = 50/72 (69%), Gaps = 0/72 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW ADVAA+  +PSA+LW+Q   ++ +YYH+ + L EFP + + +    LPGLP + 
+Sbjct  115  PFVPWVADVAAEVGVPSAMLWIQPCTLYQIYYHYYNRLEEFPTQSNPNMSVKLPGLPVLE  174
+
+Query  62   VADVPSVLIPSN  73
+              ++PS ++PSN
+Sbjct  175  AEELPSFVLPSN  186
+
+
+>TR:B9SG12_RICCO B9SG12 Glycosyltransferase OS=Ricinus communis OX=3988 GN=RCOM_1154190 
+PE=3 SV=1
+Length=480
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 34/73 (47%), Positives = 49/73 (67%), Gaps = 0/73 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF PW AD+AA+  IP A LW+Q+ +++S+YYH +     FP  DD D    LPGLP + 
+Sbjct  128  PFFPWVADIAAENGIPCATLWIQACSIYSVYYHFLKHPNLFPSLDDPDKSVELPGLPALQ  187
+
+Query  62   VADVPSVLIPSNP  74
+            V D+PS ++P++P
+Sbjct  188  VKDLPSFILPTSP  200
+
+
+>TR:A0A175YDU5_DAUCA A0A175YDU5 Uncharacterized protein OS=Daucus carota subsp. sativus 
+OX=79200 GN=DCAR_029083 PE=4 SV=1
+Length=489
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 37/91 (41%), Positives = 57/91 (63%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A D +IP+AVLWVQS A  S YYH+ + L  FP E + +    LP +P + 
+Sbjct  127  PFIPWVTDIAHDLKIPNAVLWVQSCACLSAYYHYYNKLAIFPDETNPEIDVQLPSMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              +VPS L P +P+ ++  AI+ Q + + ++
+Sbjct  187  HDEVPSFLHPHSPYTVLGRAILGQFKNLSKT  217
+
+
+>TR:A0A1S4DLD1_TOBAC A0A1S4DLD1 Glycosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107831012 
+PE=3 SV=1
+Length=491
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 39/90 (43%), Positives = 57/90 (63%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH++H L EFP E + +    LP +P + 
+Sbjct  126  PFIPWVSDVAESLGIPSAVLWVQSAASFSCYYHYLHKLAEFPTESNPELEVQLPAMPLLK  185
+
+Query  62   VADVPSVLIP--SNPHKLVVDAIIVQLRTI  89
+              ++P+ L P  S+ + ++  AI+ Q + +
+Sbjct  186  HDEIPNFLHPFSSSRYIMLKKAILGQFKKL  215
+
+
+>SP:U84A2_ARATH Q9LVF0 UDP-glycosyltransferase 84A2 OS=Arabidopsis thaliana OX=3702 
+GN=UGT84A2 PE=1 SV=1
+Length=496
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 35/91 (38%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IP AVLWVQS A  + YY++ H LV+FP + + +    + G+P + 
+Sbjct  129  PFVSWVCDVAEDLQIPCAVLWVQSCACLAAYYYYHHNLVDFPTKTEPEIDVQISGMPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS + PS+PH  + + II Q++ + ++
+Sbjct  189  HDEIPSFIHPSSPHSALREVIIDQIKRLHKT  219
+
+
+>TR:A0A178VL16_ARATH A0A178VL16 Glycosyltransferase OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At3g23120 PE=3 SV=1
+Length=496
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 35/91 (38%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IP AVLWVQS A  + YY++ H LV+FP + + +    + G+P + 
+Sbjct  129  PFVSWVCDVAEDLQIPCAVLWVQSCACLAAYYYYHHNLVDFPTKTEPEIDVQISGMPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS + PS+PH  + + II Q++ + ++
+Sbjct  189  HDEIPSFIHPSSPHSALREVIIDQIKRLHKT  219
+
+
+>TR:W8QNN5_ARATH W8QNN5 Glycosyltransferase (Fragment) OS=Arabidopsis thaliana 
+OX=3702 GN=AT3G21560 PE=2 SV=1
+Length=496
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 35/91 (38%), Positives = 58/91 (64%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+ W  DVA D +IP AVLWVQS A  + YY++ H LV+FP + + +    + G+P + 
+Sbjct  129  PFVSWVCDVAEDLQIPCAVLWVQSCACLAAYYYYHHNLVDFPTKTEPEIDVQISGMPLLK  188
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS + PS+PH  + + II Q++ + ++
+Sbjct  189  HDEIPSFIHPSSPHSALREVIIDQIKRLHKT  219
+
+
+>TR:A0A1U7XH22_NICSY A0A1U7XH22 Glycosyltransferase OS=Nicotiana sylvestris OX=4096 
+GN=LOC104237678 PE=3 SV=1
+Length=505
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 39/90 (43%), Positives = 58/90 (64%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH++H LV FP E + +    LP +P + 
+Sbjct  127  PFIPWVSDVAETLGIPSAVLWVQSAASFSCYYHYLHKLVPFPTESNPELEVQLPAMPLLK  186
+
+Query  62   VADVPSVLIP--SNPHKLVVDAIIVQLRTI  89
+              ++P+ L P  S+ + ++ +AI+ Q + +
+Sbjct  187  HDEIPNFLHPFSSSRYIMLKEAILGQFKKL  216
+
+
+>TR:A0A1S4B561_TOBAC A0A1S4B561 Glycosyltransferase OS=Nicotiana tabacum OX=4097 GN=LOC107804587 
+PE=3 SV=1
+Length=505
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 39/90 (43%), Positives = 58/90 (64%), Gaps = 2/90 (2%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH++H LV FP E + +    LP +P + 
+Sbjct  127  PFIPWVSDVAETLGIPSAVLWVQSAASFSCYYHYLHKLVPFPTESNPELEVQLPAMPLLK  186
+
+Query  62   VADVPSVLIP--SNPHKLVVDAIIVQLRTI  89
+              ++P+ L P  S+ + ++ +AI+ Q + +
+Sbjct  187  HDEIPNFLHPFSSSRYIMLKEAILGQFKKL  216
+
+
+>SP:GGT_QUERO V5LLZ9 Gallate 1-beta-glucosyltransferase OS=Quercus robur OX=38942 
+GN=UGT84A13 PE=1 SV=1
+Length=510
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 38/84 (45%), Positives = 51/84 (61%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    +PSA+LWVQS A F  YYH+ HGLV FP E +      LP +P + 
+Sbjct  122  PFIPWVSDVAESLGLPSAMLWVQSCACFCAYYHYYHGLVPFPSEAEPFIDIQLPCMPLLK  181
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              + PS L P+ P+  +  AI+ Q
+Sbjct  182  YDETPSFLYPTTPYPFLRRAILGQ  205
+
+
+>TR:I1LEK0_SOYBN I1LEK0 Glycosyltransferase OS=Glycine max OX=3847 GN=100778995 
+PE=3 SV=2
+Length=527
+
+ Score = 80.1 bits (196),  Expect = 6e-17
+ Identities = 35/74 (47%), Positives = 48/74 (65%), Gaps = 0/74 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW ADVAA+  IP A LW+Q  A++++YY   + L  FP  +D      LPGLP + 
+Sbjct  181  PFVPWVADVAANFNIPCACLWIQPCALYAIYYRFYNNLNTFPTLEDPSMNVELPGLPLLQ  240
+
+Query  62   VADVPSVLIPSNPH  75
+              D+PS ++PSNPH
+Sbjct  241  PQDLPSFVLPSNPH  254
+
+
+>TR:A0A2T7DRF0_9POAL A0A2T7DRF0 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G486100 PE=4 SV=1
+Length=457
+
+ Score = 79.7 bits (195),  Expect = 8e-17
+ Identities = 43/92 (47%), Positives = 54/92 (59%), Gaps = 19/92 (21%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF PW+                   AVFS+YYH+  GLVE P EDD +AR  LPG P +S
+Sbjct  133  PFRPWSC------------------AVFSIYYHYARGLVELPPEDDPEARVALPGFPPLS  174
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIV-QLRTIGRS  92
+             A+VPS L+PSNP KL+  A I+ Q R+I R+
+Sbjct  175  TAEVPSFLLPSNPLKLLAGAAILGQFRSIDRA  206
+
+
+>TR:A0A2P4GRA5_QUESU A0A2P4GRA5 Glycosyltransferase OS=Quercus suber OX=58331 GN=CFP56_62665 
+PE=3 SV=1
+Length=475
+
+ Score = 79.7 bits (195),  Expect = 8e-17
+ Identities = 33/73 (45%), Positives = 51/73 (70%), Gaps = 0/73 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW ADVA + +IP A+LW+Q  A++++Y+H  + L++FP   + D    LPGLP + 
+Sbjct  123  PFVPWVADVAEEHKIPCAMLWIQPCALYAIYHHFHNNLLQFPTPTNPDMSVQLPGLPLLH  182
+
+Query  62   VADVPSVLIPSNP  74
+              D+PS ++PSNP
+Sbjct  183  THDLPSFVLPSNP  195
+
+
+>TR:R0F9E9_9BRAS R0F9E9 Glycosyltransferase OS=Capsella rubella OX=81985 GN=CARUB_v10006803mg 
+PE=3 SV=1
+Length=485
+
+ Score = 79.7 bits (195),  Expect = 9e-17
+ Identities = 39/91 (43%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW   VA +  IP AVLWVQS A FS YYH+  G V FP E + +    LPG+P ++
+Sbjct  134  PFIPWVCHVAEEFNIPCAVLWVQSCACFSAYYHYQDGSVSFPTETEPELDVKLPGVPVLN  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS+    +  AI+ Q + + +S
+Sbjct  194  HEEIPSFLHPSSEFIGLRQAILGQFKNLSKS  224
+
+
+>TR:V4P8K0_EUTSA V4P8K0 Glycosyltransferase OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10024946mg 
+PE=3 SV=1
+Length=513
+
+ Score = 79.7 bits (195),  Expect = 9e-17
+ Identities = 38/90 (42%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW   VA +  IPSAVLWVQS A FS YYH+ +G V FP E + +    LP +P + 
+Sbjct  157  PFIPWVCHVAEEFNIPSAVLWVQSCACFSAYYHYQNGSVSFPTETEPELEVKLPCVPLLK  216
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++PS L+PS+      +AI+ Q + + +
+Sbjct  217  YDEIPSFLLPSSRFAGFREAILGQFKNMSK  246
+
+
+>TR:A0A103XUF3_CYNCS A0A103XUF3 UDP-glucuronosyl/UDP-glucosyltransferase OS=Cynara 
+cardunculus var. scolymus OX=59895 GN=Ccrd_000776 PE=4 SV=1
+Length=552
+
+ Score = 79.7 bits (195),  Expect = 9e-17
+ Identities = 34/91 (37%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +++  +  IPSA+LWVQS A FS YYH+ + LV FP E   D    LP +P + 
+Sbjct  128  PFVPWVSELGEELXIPSAMLWVQSCACFSSYYHYENSLVPFPNEKQPDIDVQLPSMPVLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++P +L PS P+  +   ++ Q + + ++
+Sbjct  188  SDEIPXLLHPSTPYAFLRRXVLXQFKNLSKT  218
+
+
+>TR:A0A0A0K6G1_CUCSA A0A0A0K6G1 Glycosyltransferase OS=Cucumis sativus OX=3659 GN=Csa_7G072740 
+PE=3 SV=1
+Length=472
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 39/84 (46%), Positives = 51/84 (61%), Gaps = 0/84 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF PW  DVA + +IP AVLWVQS AVFS+YYH+ H  V FP E D      LP LP + 
+Sbjct  125  PFFPWTYDVAEELQIPYAVLWVQSCAVFSIYYHYFHKSVPFPTEIDPTVDVQLPILPRLK  184
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQ  85
+              ++PS L P   + ++  A++ Q
+Sbjct  185  NDEIPSFLHPKKTYGILGKAMLSQ  208
+
+
+>SP:U84A3_ARATH O23401 UDP-glycosyltransferase 84A3 OS=Arabidopsis thaliana OX=3702 
+GN=UGT84A3 PE=1 SV=1
+Length=479
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 38/85 (45%), Positives = 54/85 (64%), Gaps = 0/85 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA +  IPSAVLWVQS A  + YY++ H LV+FP + + D    +P LP +  
+Sbjct  123  FVPWVCDVAEELHIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPDISVEIPCLPLLKH  182
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLR  87
+             ++PS L PS+P+    D I+ QL+
+Sbjct  183  DEIPSFLHPSSPYTAFGDIILDQLK  207
+
+
+>TR:W8QNG3_ARATH W8QNG3 Glycosyltransferase (Fragment) OS=Arabidopsis thaliana 
+OX=3702 GN=AT4G15490 PE=2 SV=1
+Length=479
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 38/85 (45%), Positives = 54/85 (64%), Gaps = 0/85 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA +  IPSAVLWVQS A  + YY++ H LV+FP + + D    +P LP +  
+Sbjct  123  FVPWVCDVAEELHIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPDISVEIPCLPLLKH  182
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLR  87
+             ++PS L PS+P+    D I+ QL+
+Sbjct  183  DEIPSFLHPSSPYTAFGDIILDQLK  207
+
+
+>TR:A0A178V6D8_ARATH A0A178V6D8 Glycosyltransferase OS=Arabidopsis thaliana OX=3702 
+GN=AXX17_At4g18100 PE=3 SV=1
+Length=479
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 38/85 (45%), Positives = 54/85 (64%), Gaps = 0/85 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA +  IPSAVLWVQS A  + YY++ H LV+FP + + D    +P LP +  
+Sbjct  123  FVPWVCDVAEELHIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPDISVEIPCLPLLKH  182
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLR  87
+             ++PS L PS+P+    D I+ QL+
+Sbjct  183  DEIPSFLHPSSPYTAFGDIILDQLK  207
+
+
+>TR:A0A1J3CBR0_NOCCA A0A1J3CBR0 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=GA_TR13229_c0_g1_i1_g.42020 PE=3 SV=1
+Length=480
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 36/87 (41%), Positives = 55/87 (63%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA + RIPSAVLWVQS A  + YY++ H LV+FP + + +    +P LP +  
+Sbjct  124  FVPWVCDVADELRIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPEISVEIPSLPLLKH  183
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             ++PS L P++P+    D I+ Q + +
+Sbjct  184  DEIPSFLYPTSPYAAYGDVILDQFKRL  210
+
+
+>TR:A0A1J3FH96_NOCCA A0A1J3FH96 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=LC_TR9223_c0_g1_i1_g.33055 PE=3 SV=1
+Length=480
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 36/87 (41%), Positives = 55/87 (63%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA + RIPSAVLWVQS A  + YY++ H LV+FP + + +    +P LP +  
+Sbjct  124  FVPWVCDVADELRIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPEISVEIPSLPLLKH  183
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             ++PS L P++P+    D I+ Q + +
+Sbjct  184  DEIPSFLYPTSPYAAYGDVILDQFKRL  210
+
+
+>TR:A0A1J3J853_NOCCA A0A1J3J853 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=MP_TR5186_c1_g1_i1_g.14245 PE=3 SV=1
+Length=480
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 36/87 (41%), Positives = 55/87 (63%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA + RIPSAVLWVQS A  + YY++ H LV+FP + + +    +P LP +  
+Sbjct  124  FVPWVCDVADELRIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPEISVEIPSLPLLKH  183
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             ++PS L P++P+    D I+ Q + +
+Sbjct  184  DEIPSFLYPTSPYAAYGDVILDQFKRL  210
+
+
+>TR:A0A1J3H0U3_NOCCA A0A1J3H0U3 Glycosyltransferase OS=Noccaea caerulescens OX=107243 
+GN=LE_TR7466_c0_g1_i1_g.26200 PE=3 SV=1
+Length=480
+
+ Score = 79.3 bits (194),  Expect = 1e-16
+ Identities = 36/87 (41%), Positives = 55/87 (63%), Gaps = 0/87 (0%)
+
+Query  3    FMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMSV  62
+            F+PW  DVA + RIPSAVLWVQS A  + YY++ H LV+FP + + +    +P LP +  
+Sbjct  124  FVPWVCDVADELRIPSAVLWVQSCACLTAYYYYHHRLVKFPTKTEPEISVEIPSLPLLKH  183
+
+Query  63   ADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+             ++PS L P++P+    D I+ Q + +
+Sbjct  184  DEIPSFLYPTSPYAAYGDVILDQFKRL  210
+
+
+>TR:Q2A659_BRANA Q2A659 Glycosyltransferase OS=Brassica napus OX=3708 GN=UGT84A11 
+PE=3 SV=1
+Length=476
+
+ Score = 79.0 bits (193),  Expect = 2e-16
+ Identities = 38/91 (42%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP AVLW+QS A FS YYH+ +G V FP E   +    LP +P + 
+Sbjct  127  PFVPWVGDVAEELNIPCAVLWIQSCACFSAYYHYQNGSVPFPTESAPELDVKLPCVPVLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ + L PS+P   + DAI+ Q + + +S
+Sbjct  187  HDEIHTFLHPSSPFTGMRDAILGQFKNLSKS  217
+
+
+>TR:M1B628_SOLTU M1B628 Glycosyltransferase OS=Solanum tuberosum OX=4113 GN=102603881 
+PE=3 SV=1
+Length=488
+
+ Score = 79.0 bits (193),  Expect = 2e-16
+ Identities = 36/81 (44%), Positives = 49/81 (60%), Gaps = 0/81 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA    IP AVLWVQS A FS YYH+   L  FP E + +    LP +P + 
+Sbjct  128  PFLPWVCDVAKSLDIPCAVLWVQSCASFSAYYHYHFNLANFPNESNPNIDVHLPNMPILK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAI  82
+              ++PS L+PSNP  ++ + +
+Sbjct  188  WDELPSFLLPSNPFPVLANVV  208
+
+
+>TR:A0A103XMB5_CYNCS A0A103XMB5 Glycosyltransferase OS=Cynara cardunculus var. scolymus 
+OX=59895 GN=Ccrd_004635 PE=3 SV=1
+Length=489
+
+ Score = 79.0 bits (193),  Expect = 2e-16
+ Identities = 36/91 (40%), Positives = 55/91 (60%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +D+  +  IPSA+LWVQS A FS +YH+ + L  FP E   D    LP +P + 
+Sbjct  128  PFVPWVSDLGEELNIPSAMLWVQSCACFSSFYHYENLLEPFPSEKQPDIEVQLPNMPVLK  187
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              +VP+ L PS P+  +  AI+ Q + + ++
+Sbjct  188  SDEVPTFLHPSTPYPFLKRAILGQFKNLSKT  218
+
+
+>TR:D7MAH4_ARALL D7MAH4 Glycosyltransferase OS=Arabidopsis lyrata subsp. lyrata 
+OX=81972 GN=ARALYDRAFT_493342 PE=3 SV=1
+Length=490
+
+ Score = 79.0 bits (193),  Expect = 2e-16
+ Identities = 39/91 (43%), Positives = 53/91 (58%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW   VA +  IP AVLWVQS A FS YYH+  G V FP E + D     P +P + 
+Sbjct  134  PFIPWVCHVAEEFNIPCAVLWVQSCACFSAYYHYQDGSVSFPTETEPDLDVKRPCVPVLK  193
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++PS L PS P   + +AI+ Q + + +S
+Sbjct  194  HDEIPSFLHPSTPFAGLREAILGQFKNLSKS  224
+
+
+>TR:A0A1B4XK95_IPOBA A0A1B4XK95 Glycosyltransferase OS=Ipomoea batatas OX=4120 GN=IbGT1 
+PE=2 SV=1
+Length=478
+
+ Score = 78.6 bits (192),  Expect = 2e-16
+ Identities = 40/90 (44%), Positives = 54/90 (60%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW +DVA    IPSAVLWVQS A FS YYH+ + LV FP E +      LP +P + 
+Sbjct  127  PFIPWVSDVAEKHGIPSAVLWVQSCASFSAYYHYQNKLVPFPTETEPFLDVQLPCMPLLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              + PS L PS+ +K +  AI+ Q   + +
+Sbjct  187  YDEFPSFLHPSSQYKFLARAILHQFANLSK  216
+
+
+>TR:A0A0A0K4K6_CUCSA A0A0A0K4K6 Glycosyltransferase OS=Cucumis sativus OX=3659 GN=Csa_7G072220 
+PE=3 SV=1
+Length=497
+
+ Score = 78.6 bits (192),  Expect = 2e-16
+ Identities = 38/88 (43%), Positives = 50/88 (57%), Gaps = 0/88 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA D  IP +VLWVQS +VFS+YYH     V+FP E D      LP LP + 
+Sbjct  124  PFVPWVCDVANDIGIPCSVLWVQSCSVFSIYYHFSRKSVDFPSESDPYCDVQLPSLPSLK  183
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTI  89
+              ++PS L P   +K +  +I  Q   +
+Sbjct  184  YDEIPSFLHPHGVYKAIGRSISQQFHNV  211
+
+
+>TR:A0A2K1Z5H6_POPTR A0A2K1Z5H6 Glycosyltransferase OS=Populus trichocarpa OX=3694 
+GN=POPTR_009G095400v3 PE=3 SV=1
+Length=510
+
+ Score = 78.6 bits (192),  Expect = 2e-16
+ Identities = 37/91 (41%), Positives = 55/91 (60%), Gaps = 1/91 (1%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLP-GLPEM  60
+            PF+PW  DVA    +PSA+LW+QS A F+ YYH+ HG V FP E+  +    LP  +P +
+Sbjct  122  PFIPWVTDVATSLGLPSAMLWIQSCACFASYYHYYHGTVPFPDEEHPEIDVQLPCNMPLL  181
+
+Query  61   SVADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+               +VPS L P+ P+  +  AI+ Q + + +
+Sbjct  182  KHDEVPSFLYPTTPYPFLRRAILGQYKNLDK  212
+
+
+>TR:A0A2U1LE54_ARTAN A0A2U1LE54 Uncharacterized protein OS=Artemisia annua OX=35608 
+GN=CTI12_AA502620 PE=4 SV=1
+Length=684
+
+ Score = 78.6 bits (192),  Expect = 2e-16
+ Identities = 38/90 (42%), Positives = 54/90 (60%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A +  IP A+LWVQS A FS +YH+ + LV FP E+  D    LP +P + 
+Sbjct  336  PFVPWVVDLAEELNIPCAMLWVQSCACFSSFYHYENSLVPFPSEEKPDIDVQLPHMPLLK  395
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              +VPS L PS  +  +  AI+ Q + I +
+Sbjct  396  SDEVPSFLHPSTRYPFLRRAILGQFKNISK  425
+
+
+ Score = 75.9 bits (185),  Expect = 2e-15
+ Identities = 35/78 (45%), Positives = 49/78 (63%), Gaps = 0/78 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  D+A +  IP A+LWVQS A FS +YH+ + LV FP E+  D    LP +P + 
+Sbjct  128  PFVPWVVDLAEELTIPCAMLWVQSCACFSSFYHYENSLVPFPSEEKPDIDVQLPHMPLLK  187
+
+Query  62   VADVPSVLIPSNPHKLVV  79
+              +VPS L PS   +L++
+Sbjct  188  SDEVPSFLHPSTREQLII  205
+
+
+>TR:A0A1U8F2R1_CAPAN A0A1U8F2R1 limonoid UDP-glucosyltransferase-like OS=Capsicum 
+annuum OX=4072 GN=LOC107853161 PE=4 SV=1
+Length=413
+
+ Score = 78.2 bits (191),  Expect = 3e-16
+ Identities = 34/90 (38%), Positives = 55/90 (61%), Gaps = 0/90 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF PW +++A    IP+A+LW+QS A FSLYYH+   LV FP E + +    LP +P + 
+Sbjct  52   PFTPWVSEIAESLGIPNALLWIQSCASFSLYYHYHFNLVPFPSESEPEKDIVLPRMPVLK  111
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGR  91
+              ++P+ L PS+P + +  A++ Q   + +
+Sbjct  112  YDELPTFLHPSSPFQFLKWAMLAQFHNLSK  141
+
+
+>TR:M4FEM5_BRARP M4FEM5 Glycosyltransferase OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=3 SV=1
+Length=476
+
+ Score = 78.2 bits (191),  Expect = 3e-16
+ Identities = 38/91 (42%), Positives = 54/91 (59%), Gaps = 0/91 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PW  DVA +  IP AVLW+QS A FS YYH+ +G V FP E   +    LP  P + 
+Sbjct  127  PFIPWVGDVAEELNIPCAVLWIQSCACFSAYYHYQNGSVPFPTESAPELDVKLPCAPVLK  186
+
+Query  62   VADVPSVLIPSNPHKLVVDAIIVQLRTIGRS  92
+              ++ + L PS+P   + DAI+ Q + + +S
+Sbjct  187  HDEIHTFLHPSSPFTGMRDAILGQFKNLSKS  217
+
+
+>TR:A0A125QVX2_CAMSI A0A125QVX2 Glycosyltransferase OS=Camellia sinensis OX=4442 GN=UGT84J2 
+PE=2 SV=1
+Length=477
+
+ Score = 78.2 bits (191),  Expect = 3e-16
+ Identities = 34/73 (47%), Positives = 51/73 (70%), Gaps = 0/73 (0%)
+
+Query  2    PFMPWAADVAADARIPSAVLWVQSRAVFSLYYHHVHGLVEFPREDDLDARFTLPGLPEMS  61
+            PF+PWAADVAA+  IP A+LW+Q  +++S+YY   + L +FP   + +    LPGLP ++
+Sbjct  127  PFIPWAADVAAEHGIPCALLWIQPCSLYSIYYRFYNHLNQFPSSANPNMSVELPGLPLLN  186
+
+Query  62   VADVPSVLIPSNP  74
+              D+PS ++PSNP
+Sbjct  187  TEDLPSFVLPSNP  199
+
+
+
+Lambda      K        H
+   0.324    0.139    0.433 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55757333700
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

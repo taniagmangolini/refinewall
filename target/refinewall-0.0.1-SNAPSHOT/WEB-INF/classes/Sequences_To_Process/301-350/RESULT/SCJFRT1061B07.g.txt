@@ -1,0 +1,4569 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+SP:COMT1_SACOF  O82054 Caffeic acid 3-O-methyltransferase OS=Sacc...  137     4e-36
+TR:A0A0X8TVH5_9POAL  A0A0X8TVH5 Caffeic acid 3-O-methyltransferas...  137     4e-36
+TR:Q6UNM7_9POAL  Q6UNM7 Caffeic acid 3-O-methyltransferase OS=Sac...  137     4e-36
+TR:A0A0F6UJI1_MISSI  A0A0F6UJI1 Caffeic acid 3-O-methyltransferas...  135     2e-35
+TR:A0A0F6RWL0_9POAL  A0A0F6RWL0 Caffeic acid 3-O-methyltransferas...  135     2e-35
+TR:A0A0F6UK34_9POAL  A0A0F6UK34 Caffeic acid 3-O-methyltransferas...  135     2e-35
+TR:A0A0F6RWZ9_9POAL  A0A0F6RWZ9 Caffeic acid 3-O-methyltransferas...  135     2e-35
+TR:C5YH12_SORBI  C5YH12 Caffeic acid O-methyltransferase OS=Sorgh...  135     2e-35
+TR:S4SJN4_SORBI  S4SJN4 Caffeic acid O-methyltransferase OS=Sorgh...  134     6e-35
+TR:X2FSH3_9POAL  X2FSH3 Caffeic acid O-methyltransferase OS=Sorgh...  134     6e-35
+TR:Q84X55_SORBI  Q84X55 Caffeic acid O-methyltransferase OS=Sorgh...  134     6e-35
+TR:Q8W215_SORBI  Q8W215 O-methyltransferase OS=Sorghum bicolor OX...  134     8e-35
+TR:A0A0F6UJG1_9POAL  A0A0F6UJG1 Caffeic acid 3-O-methyltransferas...  133     2e-34
+TR:D7RH56_MISSI  D7RH56 Caffeic acid 3-O-methyltransferase OS=Mis...  132     5e-34
+TR:A0A0S1MNE3_PENAM  A0A0S1MNE3 Caffeic acid O-methyltransferase ...  126     5e-32
+TR:K3YKY0_SETIT  K3YKY0 Uncharacterized protein OS=Setaria italic...  127     5e-32
+TR:A0A1E5WIU8_9POAL  A0A1E5WIU8 Caffeic acid 3-O-methyltransferas...  125     9e-32
+TR:Q6VWF1_MAIZE  Q6VWF1 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWF2_MAIZE  Q6VWF2 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWF6_MAIZE  Q6VWF6 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWE9_MAIZE  Q6VWE9 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWE5_MAIZE  Q6VWE5 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWG2_MAIZE  Q6VWG2 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWE8_MAIZE  Q6VWE8 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+TR:Q6VWF3_MAIZE  Q6VWF3 O-methyltransferase (Fragment) OS=Zea may...  125     1e-31
+SP:COMT1_MAIZE  Q06509 Caffeic acid 3-O-methyltransferase OS=Zea ...  125     1e-31
+TR:M1KKR2_9POAL  M1KKR2 Caffeic acid 3-O-methyltransferase OS=Zea...  125     1e-31
+TR:Q6VWG5_MAIZE  Q6VWG5 O-methyltransferase OS=Zea mays OX=4577 G...  125     1e-31
+TR:B6TKG5_MAIZE  B6TKG5 Quercetin 3-O-methyltransferase 1 OS=Zea ...  125     1e-31
+TR:Q6VWG3_MAIZE  Q6VWG3 Flavone 3'-O-methyltransferase 1 OS=Zea m...  125     1e-31
+TR:Q5GLJ6_MAIZE  Q5GLJ6 O-methyltransferase OS=Zea mays OX=4577 G...  125     1e-31
+TR:Q6VWF7_MAIZE  Q6VWF7 O-methyltransferase OS=Zea mays OX=4577 G...  125     1e-31
+TR:Q6VWE6_MAIZE  Q6VWE6 O-methyltransferase OS=Zea mays OX=4577 G...  125     1e-31
+TR:A0A1L3HJ98_PANVG  A0A1L3HJ98 Putative caffeic acid O-methyltra...  117     6e-29
+TR:F2XQG6_PANVG  F2XQG6 Caffeic acid 3-O-methyltransferase OS=Pan...  117     1e-28
+TR:A0A1L3HJJ1_PANVG  A0A1L3HJJ1 Putative caffeic acid O-methyltra...  115     2e-28
+TR:A0A2S3I0H0_9POAL  A0A2S3I0H0 Uncharacterized protein OS=Panicu...  117     2e-28
+TR:A0A2T7D3S1_9POAL  A0A2T7D3S1 Uncharacterized protein OS=Panicu...  117     2e-28
+TR:A0A2T8KSF8_9POAL  A0A2T8KSF8 Uncharacterized protein OS=Panicu...  111     4e-28
+TR:A0A0E0LRF1_ORYPU  A0A0E0LRF1 Uncharacterized protein OS=Oryza ...  115     7e-28
+TR:A0A1L3HJ73_PANVG  A0A1L3HJ73 Putative caffeic acid O-methyltra...  114     9e-28
+TR:A0A0P0XC87_ORYSJ  A0A0P0XC87 Os08g0157500 protein (Fragment) O...  113     3e-27
+TR:A0A2T7EXZ9_9POAL  A0A2T7EXZ9 Uncharacterized protein OS=Panicu...  108     4e-27
+TR:A2YRE2_ORYSI  A2YRE2 Uncharacterized protein OS=Oryza sativa s...  113     5e-27
+SP:OMT1_ORYSJ  Q6ZD89 Flavone 3'-O-methyltransferase 1 OS=Oryza s...  113     6e-27
+TR:A0A0D3GWI2_9ORYZ  A0A0D3GWI2 Uncharacterized protein OS=Oryza ...  113     6e-27
+TR:A0A0E0QEJ7_ORYRU  A0A0E0QEJ7 Uncharacterized protein OS=Oryza ...  113     6e-27
+TR:I1QFT4_ORYGL  I1QFT4 Uncharacterized protein OS=Oryza glaberri...  113     6e-27
+TR:A0A0E0EI38_9ORYZ  A0A0E0EI38 Uncharacterized protein OS=Oryza ...  113     6e-27
+TR:A0A0D9X4L4_9ORYZ  A0A0D9X4L4 Uncharacterized protein OS=Leersi...  112     8e-27
+TR:A0A0E0AR10_9ORYZ  A0A0E0AR10 Uncharacterized protein OS=Oryza ...  112     2e-26
+TR:A0A1E5UKT9_9POAL  A0A1E5UKT9 Caffeic acid 3-O-methyltransferas...  108     2e-25
+TR:A0A1D6SDY5_WHEAT  A0A1D6SDY5 Flavone O-methyltransferase 1 OS=...  107     3e-25
+TR:W5I1K0_WHEAT  W5I1K0 Uncharacterized protein OS=Triticum aesti...  108     4e-25
+TR:M8BUF4_AEGTA  M8BUF4 Caffeic acid 3-O-methyltransferase OS=Aeg...  108     4e-25
+TR:F2D692_HORVV  F2D692 Predicted protein OS=Hordeum vulgare subs...  108     4e-25
+SP:FOMT1_WHEAT  Q84N28 Flavone O-methyltransferase 1 OS=Triticum ...  107     5e-25
+TR:A0A1D6RSH5_WHEAT  A0A1D6RSH5 Uncharacterized protein OS=Tritic...  104     2e-24
+TR:I1I1F5_BRADI  I1I1F5 Uncharacterized protein OS=Brachypodium d...  106     2e-24
+SP:FOMT2_WHEAT  Q38J50 Tricetin 3',4',5'-O-trimethyltransferase O...  105     2e-24
+TR:J3MQI9_ORYBR  J3MQI9 Uncharacterized protein OS=Oryza brachyan...  105     3e-24
+TR:A0A1D6RSH4_WHEAT  A0A1D6RSH4 Uncharacterized protein OS=Tritic...  104     6e-24
+TR:A0A1D5VNQ9_WHEAT  A0A1D5VNQ9 Uncharacterized protein OS=Tritic...  104     7e-24
+TR:A0A1D6RSH3_WHEAT  A0A1D6RSH3 Uncharacterized protein OS=Tritic...  104     9e-24
+TR:W5D5N4_WHEAT  W5D5N4 Uncharacterized protein OS=Triticum aesti...  104     9e-24
+TR:N1R1U7_AEGTA  N1R1U7 Caffeic acid 3-O-methyltransferase OS=Aeg...  104     9e-24
+TR:M7ZTK1_TRIUA  M7ZTK1 Tricetin 3',4',5'-O-trimethyltransferase ...  104     9e-24
+TR:B4X8Y5_BAMOL  B4X8Y5 Caffeic acid-3-O-methyltransferase OS=Bam...  104     1e-23
+TR:L0BWA5_TRIMO  L0BWA5 Caffeic acid O-methyltransferase 1 (Fragm...  97.4    1e-23
+TR:Q70CS6_FESAR  Q70CS6 Putative caffeate o-methyltransferase (Fr...  102     2e-23
+TR:Q70CS7_LOLMU  Q70CS7 Putative caffeate o-methyltransferase (Fr...  102     2e-23
+TR:A5YTR4_HORVV  A5YTR4 Flavonoid O-methyltransferase OS=Hordeum ...  103     2e-23
+TR:A0A287T3M0_HORVV  A0A287T3M0 Uncharacterized protein OS=Hordeu...  98.6    3e-23
+TR:B6E624_PHLPR  B6E624 Caffeic acid ortho-methyltransferase (Fra...  102     3e-23
+TR:A0A287MU28_HORVV  A0A287MU28 Uncharacterized protein OS=Hordeu...  103     3e-23
+TR:Q94GA8_FESAR  Q94GA8 Caffeic acid O-methyltransferase OS=Festu...  102     5e-23
+TR:Q94GA7_FESAR  Q94GA7 Caffeic acid O-methyltransferase OS=Festu...  102     5e-23
+TR:Q9ZTU0_LOLPR  Q9ZTU0 Caffeic acid O-methyltransferase OS=Loliu...  102     5e-23
+TR:A0A0C5B8M3_LOLPR  A0A0C5B8M3 COMT2 protein OS=Lolium perenne O...  102     5e-23
+TR:Q94GA9_FESAR  Q94GA9 Caffeic acid O-methyltransferase OS=Festu...  102     7e-23
+TR:A0A0C5AW42_LOLPR  A0A0C5AW42 COMT1 protein OS=Lolium perenne O...  102     7e-23
+TR:U3KTQ9_BAMEM  U3KTQ9 Caffeic acid-O-methyltransferase OS=Bambu...  102     7e-23
+TR:A0A1D5VAK1_WHEAT  A0A1D5VAK1 Uncharacterized protein OS=Tritic...  101     1e-22
+TR:W5GGG4_WHEAT  W5GGG4 Uncharacterized protein OS=Triticum aesti...  100     2e-22
+TR:A5HB56_WHEAT  A5HB56 O-methytransferase 4 OS=Triticum aestivum...  100     2e-22
+TR:A0A1D6AZE6_WHEAT  A0A1D6AZE6 Uncharacterized protein OS=Tritic...  100     2e-22
+TR:A5HB55_WHEAT  A5HB55 O-methyltransferase 5 OS=Triticum aestivu...  100     2e-22
+TR:A0A0E0I7E4_ORYNI  A0A0E0I7E4 Uncharacterized protein OS=Oryza ...  100     2e-22
+TR:B8BAW2_ORYSI  B8BAW2 Uncharacterized protein OS=Oryza sativa s...  102     2e-22
+TR:Q94GB0_FESAR  Q94GB0 Caffeic acid O-methyltransferase OS=Festu...  100     2e-22
+TR:O22381_LOLPR  O22381 Bispecific caffeic acid/5-hydroxyferulic ...  100     2e-22
+TR:Q9ZTU2_LOLPR  Q9ZTU2 Caffeic acid O-methyltransferase OS=Loliu...  100     2e-22
+TR:A0A2H3XTZ0_PHODC  A0A2H3XTZ0 tricetin 3',4',5'-O-trimethyltran...  100     4e-22
+TR:A0A199W2N8_ANACO  A0A199W2N8 Tricetin 3',4',5'-O-trimethyltran...  99.0    9e-22
+TR:M0SIB3_MUSAM  M0SIB3 Uncharacterized protein OS=Musa acuminata...  94.0    6e-20
+TR:A0A2H3WZ21_PHODC  A0A2H3WZ21 tricetin 3',4',5'-O-trimethyltran...  93.6    9e-20
+TR:N1QY02_AEGTA  N1QY02 Caffeic acid 3-O-methyltransferase OS=Aeg...  92.8    1e-19
+TR:A0A0C5ATR6_LOLPR  A0A0C5ATR6 COMT3 protein OS=Lolium perenne O...  93.2    1e-19
+TR:W5HXI5_WHEAT  W5HXI5 Uncharacterized protein OS=Triticum aesti...  92.8    1e-19
+TR:M8AZU1_AEGTA  M8AZU1 Caffeic acid 3-O-methyltransferase OS=Aeg...  91.3    2e-19
+TR:R7W4N4_AEGTA  R7W4N4 Caffeic acid 3-O-methyltransferase OS=Aeg...  92.4    2e-19
+TR:A0A2K8DU99_9LILI  A0A2K8DU99 Caffeic acid 3-O-methyltransferas...  92.0    3e-19
+TR:A5HB57_WHEAT  A5HB57 O-methyltransferase 3 OS=Triticum aestivu...  90.9    8e-19
+TR:M8C808_AEGTA  M8C808 Caffeic acid 3-O-methyltransferase OS=Aeg...  90.9    8e-19
+TR:A0A287GN52_HORVV  A0A287GN52 Uncharacterized protein OS=Hordeu...  90.9    9e-19
+TR:A0A287MWN3_HORVV  A0A287MWN3 Uncharacterized protein OS=Hordeu...  90.5    1e-18
+SP:COMT1_CATRO  Q8W013 Caffeic acid 3-O-methyltransferase OS=Cath...  90.5    1e-18
+TR:M0UCB1_MUSAM  M0UCB1 Uncharacterized protein OS=Musa acuminata...  90.1    1e-18
+TR:A0A2T7A9R2_9POAL  A0A2T7A9R2 Uncharacterized protein OS=Panicu...  89.7    1e-18
+TR:A0A2S3IFQ5_9POAL  A0A2S3IFQ5 Uncharacterized protein OS=Panicu...  89.7    2e-18
+TR:A0A2G9G2M3_9LAMI  A0A2G9G2M3 Hydroxyindole-O-methyltransferase...  89.7    2e-18
+TR:I1HBR8_BRADI  I1HBR8 Uncharacterized protein OS=Brachypodium d...  89.4    3e-18
+TR:A0A0C5AYV8_LOLPR  A0A0C5AYV8 COMT5 protein OS=Lolium perenne O...  89.0    3e-18
+TR:Q9ZTU1_LOLPR  Q9ZTU1 Caffeic acid O-methyltransferase OS=Loliu...  89.0    3e-18
+TR:A0A0C5AWL8_LOLPR  A0A0C5AWL8 COMT4 protein OS=Lolium perenne O...  89.0    4e-18
+TR:Q5KSL8_IRIHO  Q5KSL8 Caffeic acid O-methyltransferase OS=Iris ...  88.6    5e-18
+TR:A0A287ENA5_HORVV  A0A287ENA5 Uncharacterized protein OS=Hordeu...  83.6    6e-18
+TR:D3Y4F2_9ROSI  D3Y4F2 Caffeic acid O-methyltransferase (Fragmen...  85.5    6e-18
+TR:A0A2K1Y6X5_POPTR  A0A2K1Y6X5 Uncharacterized protein OS=Populu...  86.7    7e-18
+TR:I1HBR9_BRADI  I1HBR9 Uncharacterized protein OS=Brachypodium d...  88.2    7e-18
+TR:M0RXJ5_MUSAM  M0RXJ5 Uncharacterized protein OS=Musa acuminata...  88.2    7e-18
+TR:Q9SWR0_LIQST  Q9SWR0 Caffeate O-methyltransferase OS=Liquidamb...  88.2    7e-18
+TR:M0ZIL6_SOLTU  M0ZIL6 Uncharacterized protein OS=Solanum tubero...  83.6    8e-18
+TR:D3Y4F1_9ROSI  D3Y4F1 Caffeic acid O-methyltransferase (Fragmen...  85.1    9e-18
+SP:COMT1_CLABR  O23760 Caffeic acid 3-O-methyltransferase OS=Clar...  87.8    1e-17
+TR:J9RMM5_POPNI  J9RMM5 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RGE9_POPNI  J9RGE9 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RBX8_POPAL  J9RBX8 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RBZ4_POPNI  J9RBZ4 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RBX2_POPTR  J9RBX2 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RGC1_POPAL  J9RGC1 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9QXJ3_POPAL  J9QXJ3 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RJR9_9ROSI  J9RJR9 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RME7_POPTR  J9RME7 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:J9RBW7_POPTR  J9RBW7 Caffeate O-methyltransferase (Fragment) O...  82.4    1e-17
+TR:I1GQC9_BRADI  I1GQC9 Uncharacterized protein OS=Brachypodium d...  87.4    1e-17
+TR:A0A2I0WPG6_9ASPA  A0A2I0WPG6 Tricetin 3',4',5'-O-trimethyltran...  87.4    1e-17
+TR:A0A0Q3JQG9_BRADI  A0A0Q3JQG9 Uncharacterized protein OS=Brachy...  87.4    1e-17
+TR:S8E4G5_9LAMI  S8E4G5 Uncharacterized protein OS=Genlisea aurea...  87.4    1e-17
+TR:A0A024FRQ7_9APIA  A0A024FRQ7 5-hydroxyconiferylaldehyde O-meth...  87.4    1e-17
+TR:A0A2P2NZ83_RHIMU  A0A2P2NZ83 Putative caffeic acid O-methyltra...  87.4    1e-17
+TR:M7ZE74_TRIUA  M7ZE74 Flavone O-methyltransferase 1 OS=Triticum...  83.6    2e-17
+TR:A0A1D5RZN4_WHEAT  A0A1D5RZN4 Uncharacterized protein OS=Tritic...  87.4    2e-17
+TR:A0A287EHH0_HORVV  A0A287EHH0 Uncharacterized protein OS=Hordeu...  84.7    2e-17
+TR:A0A2T7CR51_9POAL  A0A2T7CR51 Uncharacterized protein OS=Panicu...  86.7    2e-17
+TR:Q9M569_POPTO  Q9M569 Caffeic acid O-3-methyltransferase (Fragm...  86.7    2e-17
+TR:A0A1D1YQD3_9ARAE  A0A1D1YQD3 Caffeic acid 3-O-methyltransferas...  85.9    2e-17
+TR:A0A1P8W1R3_POPTO  A0A1P8W1R3 Caffeic acid/5-hydroxyferulic aci...  86.7    2e-17
+TR:A0A1P8W1Q7_POPTO  A0A1P8W1Q7 Caffeic acid/5-hydroxyferulic aci...  86.7    3e-17
+TR:Q9LWB8_9ROSI  Q9LWB8 O-methyltransferase OS=Populus trichocarp...  86.7    3e-17
+TR:A7ULI1_POPDE  A7ULI1 Caffeic acid O-3-methyltransferase OS=Pop...  86.7    3e-17
+TR:A9P830_POPTR  A9P830 Caffeic acid 3-O-methyltransferase 1 OS=P...  86.7    3e-17
+TR:A0A0F6V0E6_POPTO  A0A0F6V0E6 Caffeic Acid5-Hydroxyferulic Acid...  86.7    3e-17
+SP:COMT1_POPTM  Q00763 Caffeic acid 3-O-methyltransferase 1 OS=Po...  86.7    3e-17
+SP:COMT1_POPKI  Q43046 Caffeic acid 3-O-methyltransferase 1 OS=Po...  86.7    3e-17
+TR:L0AUQ7_POPTO  L0AUQ7 Caffeic acid O-methyltransferase OS=Popul...  86.7    3e-17
+TR:A0A1D5W916_WHEAT  A0A1D5W916 Uncharacterized protein OS=Tritic...  86.3    3e-17
+TR:A0A1D5ZJV6_WHEAT  A0A1D5ZJV6 Uncharacterized protein OS=Tritic...  86.3    3e-17
+TR:A0A1I9RGJ6_RAUSE  A0A1I9RGJ6 Caffeic acid OMT OS=Rauvolfia ser...  86.3    3e-17
+TR:A0A2R6RSD4_ACTCH  A0A2R6RSD4 Caffeic acid 3-O-methyltransferas...  82.4    4e-17
+TR:A0A2I0VE91_9ASPA  A0A2I0VE91 Tricetin 3',4',5'-O-trimethyltran...  85.9    4e-17
+TR:A0A0D2RMU5_GOSRA  A0A0D2RMU5 Uncharacterized protein OS=Gossyp...  84.7    5e-17
+TR:A0A0K1YW34_9APIA  A0A0K1YW34 Caffeic acid 3-O-methyltransferas...  85.9    5e-17
+TR:D3JX97_EUCCA  D3JX97 Caffeic O-methyltransferase1 OS=Eucalyptu...  85.9    5e-17
+TR:D1LZD7_EUCCA  D1LZD7 Caffeic O-methyltransferase 1 OS=Eucalypt...  85.9    5e-17
+TR:A0A1L1WAR1_EUCUR  A0A1L1WAR1 Caffeic acid O-methyltransferase ...  85.9    5e-17
+TR:A0A1N7T5U3_EUCUR  A0A1N7T5U3 Caffeic acid O-methyltransferase ...  85.9    5e-17
+TR:A0A287EN87_HORVV  A0A287EN87 Uncharacterized protein OS=Hordeu...  83.6    5e-17
+TR:M8C7H1_AEGTA  M8C7H1 Caffeic acid 3-O-methyltransferase OS=Aeg...  85.5    5e-17
+TR:W5HZD5_WHEAT  W5HZD5 Uncharacterized protein OS=Triticum aesti...  85.5    6e-17
+TR:A0A1D6DAL1_WHEAT  A0A1D6DAL1 Uncharacterized protein OS=Tritic...  85.5    6e-17
+TR:A0A200RB22_9MAGN  A0A200RB22 O-methyltransferase OS=Macleaya c...  85.5    7e-17
+TR:A0A059DE98_EUCGR  A0A059DE98 Uncharacterized protein OS=Eucaly...  85.9    7e-17
+TR:I6M4T0_ZEALU  I6M4T0 Putative transposase OS=Zea luxurians OX=...  86.3    8e-17
+SP:COMT1_OCIBA  Q9XGW0 Caffeic acid 3-O-methyltransferase 1 OS=Oc...  85.1    9e-17
+TR:A0A024FS56_9APIA  A0A024FS56 Hypothetical plant O-methyltransf...  85.1    9e-17
+TR:A0A061G2D1_THECC  A0A061G2D1 Caffeic acid 3-O-methyltransferas...  85.1    9e-17
+TR:A0A224XFB0_9ROSI  A0A224XFB0 Caffeic acid O-methyltransferase ...  85.1    9e-17
+TR:S5QCI4_9ROSI  S5QCI4 Caffeic acid O-methyltransferase OS=Hibis...  84.3    9e-17
+TR:I0IJZ5_9MYRT  I0IJZ5 Caffeic acid O-methyltransferase 2 (Fragm...  84.3    1e-16
+TR:M0Z1R8_HORVV  M0Z1R8 Uncharacterized protein OS=Hordeum vulgar...  84.7    1e-16
+TR:A0A1X9RU77_9ROSI  A0A1X9RU77 COMT1 (Fragment) OS=Hibiscus sabd...  84.3    1e-16
+TR:A0A2G5D966_AQUCA  A0A2G5D966 Uncharacterized protein OS=Aquile...  80.5    1e-16
+TR:A0A1D1Z358_9ARAE  A0A1D1Z358 Caffeic acid 3-O-methyltransferas...  80.9    1e-16
+TR:A0A287EHL3_HORVV  A0A287EHL3 Uncharacterized protein OS=Hordeu...  84.7    1e-16
+TR:A0A1X9RU89_9ROSI  A0A1X9RU89 COMT3 (Fragment) OS=Hibiscus sabd...  84.7    1e-16
+TR:A0A1J0CLH2_FRAAN  A0A1J0CLH2 O-methyltransferase OS=Fragaria a...  84.7    1e-16
+TR:Q9M602_FRAAN  Q9M602 O-methyltransferase OS=Fragaria ananassa ...  84.7    1e-16
+TR:A0A2P5RC59_GOSBA  A0A2P5RC59 Uncharacterized protein OS=Gossyp...  84.7    1e-16
+TR:A0A0D5CCX3_9APIA  A0A0D5CCX3 Caffeic acid O-methyltransferase ...  84.7    1e-16
+TR:A7U0E5_LEULE  A7U0E5 Caffeic acid o-methyl transferase OS=Leuc...  84.7    1e-16
+TR:A0A193DSD7_MANES  A0A193DSD7 HIOMT1 OS=Manihot esculenta OX=39...  84.7    1e-16
+TR:A0A068FLE8_PUNGR  A0A068FLE8 Caffeic O-methyltransferase OS=Pu...  84.7    1e-16
+TR:A0A1X9RU81_9ROSI  A0A1X9RU81 COMT2 (Fragment) OS=Hibiscus sabd...  84.7    1e-16
+TR:I0IJZ6_EUCGG  I0IJZ6 Caffeic acid O-methyltransferase 2 (Fragm...  84.0    1e-16
+TR:A0A2K1XFU0_POPTR  A0A2K1XFU0 Uncharacterized protein OS=Populu...  82.4    1e-16
+TR:A0A0D2Q2B5_GOSRA  A0A0D2Q2B5 Uncharacterized protein OS=Gossyp...  84.7    1e-16
+TR:F2DTS9_HORVV  F2DTS9 Predicted protein (Fragment) OS=Hordeum v...  84.3    2e-16
+TR:F2DLG6_HORVV  F2DLG6 Predicted protein OS=Hordeum vulgare subs...  84.3    2e-16
+TR:A0A287XZQ2_HORVV  A0A287XZQ2 Uncharacterized protein OS=Hordeu...  84.3    2e-16
+TR:Q6WUC0_PAPSO  Q6WUC0 Catechol O-methyltransferase OS=Papaver s...  84.3    2e-16
+TR:V4T2S2_9ROSI  V4T2S2 Uncharacterized protein (Fragment) OS=Cit...  82.4    2e-16
+SP:COMT1_AMMMJ  Q6T1F5 Caffeic acid 3-O-methyltransferase OS=Ammi...  84.3    2e-16
+TR:V9I5V1_9FABA  V9I5V1 Caffeic acid O-methyltransferase OS=Carag...  84.3    2e-16
+TR:I3SJD0_LOTJA  I3SJD0 Uncharacterized protein OS=Lotus japonicu...  84.3    2e-16
+TR:A0A218X4V9_PUNGR  A0A218X4V9 Uncharacterized protein OS=Punica...  84.3    2e-16
+SP:COMT1_EUCGU  P46484 Caffeic acid 3-O-methyltransferase OS=Euca...  84.0    2e-16
+TR:Q9SWC1_EUCGL  Q9SWC1 Caffeic acid O-methyltransferase (Fragmen...  83.2    3e-16
+TR:F6H775_VITVI  F6H775 Uncharacterized protein OS=Vitis vinifera...  84.7    3e-16
+TR:M0Z2U6_HORVV  M0Z2U6 Uncharacterized protein OS=Hordeum vulgar...  83.6    3e-16
+TR:N1QVH1_AEGTA  N1QVH1 Quercetin 3-O-methyltransferase 1 OS=Aegi...  82.4    3e-16
+TR:A0A2G5D963_AQUCA  A0A2G5D963 Uncharacterized protein OS=Aquile...  83.6    3e-16
+TR:A0A1J6IEI9_NICAT  A0A1J6IEI9 Caffeic acid 3-o-methyltransferas...  83.6    3e-16
+TR:M0ZIL7_SOLTU  M0ZIL7 Uncharacterized protein OS=Solanum tubero...  83.6    3e-16
+TR:A0A0K9RAX5_SPIOL  A0A0K9RAX5 Uncharacterized protein OS=Spinac...  83.6    3e-16
+TR:A0A2K1XFU8_POPTR  A0A2K1XFU8 Uncharacterized protein OS=Populu...  82.4    3e-16
+TR:Q9SYR8_9MAGN  Q9SYR8 Catechol O-methyltransferase OS=Thalictru...  83.6    3e-16
+TR:Q9XE91_9MAGN  Q9XE91 Catechol O-methyltransferase OS=Thalictru...  83.6    3e-16
+TR:A0A1U7Z1M5_NELNU  A0A1U7Z1M5 caffeic acid 3-O-methyltransferas...  83.6    3e-16
+TR:A0A0H4J0H6_PAPSO  A0A0H4J0H6 S-adenosyl-L-methionine:O-methylt...  83.6    3e-16
+TR:A0A0V0I539_SOLCH  A0A0V0I539 Putative caffeic acid 3-O-methylt...  83.6    3e-16
+TR:A0A0D2R3E7_GOSRA  A0A0D2R3E7 Uncharacterized protein OS=Gossyp...  81.6    4e-16
+TR:A0A2G5EZR5_AQUCA  A0A2G5EZR5 Uncharacterized protein OS=Aquile...  83.2    4e-16
+TR:A0A1U8JU86_GOSHI  A0A1U8JU86 caffeic acid 3-O-methyltransferas...  83.2    4e-16
+TR:B9SIJ9_RICCO  B9SIJ9 O-methyltransferase, putative OS=Ricinus ...  83.2    4e-16
+TR:I0IJZ4_9MYRT  I0IJZ4 Caffeic acid O-methyltransferase 2 (Fragm...  82.4    5e-16
+TR:W0SK39_SESIN  W0SK39 O-methyltransferase OS=Sesamum indicum OX...  82.8    5e-16
+TR:A0A1D6BJY6_WHEAT  A0A1D6BJY6 Uncharacterized protein OS=Tritic...  82.8    5e-16
+TR:A0A0D2RY01_GOSRA  A0A0D2RY01 Uncharacterized protein OS=Gossyp...  81.6    5e-16
+TR:T1NXG7_9LAMI  T1NXG7 Caffeic acid O-methyltransferase OS=Ocimu...  82.8    6e-16
+TR:J9RJ50_POPAL  J9RJ50 Caffeate O-methyltransferase (Fragment) O...  78.6    6e-16
+TR:A0A287JNC7_HORVV  A0A287JNC7 Uncharacterized protein OS=Hordeu...  82.8    6e-16
+TR:Q1JUZ8_IPONI  Q1JUZ8 Caffeic acid 3-O-methyltransferase OS=Ipo...  82.8    6e-16
+TR:Q1JUZ5_IPONI  Q1JUZ5 Caffeic acid 3-O-methyltransferase OS=Ipo...  82.8    6e-16
+TR:A0A2P5R8P6_GOSBA  A0A2P5R8P6 Uncharacterized protein OS=Gossyp...  82.8    6e-16
+TR:V7ARZ0_PHAVU  V7ARZ0 Uncharacterized protein OS=Phaseolus vulg...  82.8    6e-16
+TR:A0A0S3RE56_PHAAN  A0A0S3RE56 Uncharacterized protein OS=Vigna ...  82.8    6e-16
+TR:A0A1U8NM01_GOSHI  A0A1U8NM01 caffeic acid 3-O-methyltransferas...  82.8    6e-16
+TR:E4W5X9_GOSHI  E4W5X9 Caffeic acid O-methyltransferase 2 OS=Gos...  82.8    6e-16
+TR:A0A0L9UE34_PHAAN  A0A0L9UE34 Uncharacterized protein OS=Phaseo...  82.8    6e-16
+TR:A0A1R3JSC4_9ROSI  A0A1R3JSC4 O-methyltransferase, family 2 OS=...  82.8    6e-16
+TR:A0A0B0NNF3_GOSAR  A0A0B0NNF3 Caffeic acid 3-O-methyltransferas...  82.8    6e-16
+TR:A0A2I4GFT7_9ROSI  A0A2I4GFT7 caffeic acid 3-O-methyltransferas...  82.8    6e-16
+TR:A0A0D2MX95_GOSRA  A0A0D2MX95 Uncharacterized protein OS=Gossyp...  81.6    7e-16
+TR:M8BT76_AEGTA  M8BT76 Caffeic acid 3-O-methyltransferase OS=Aeg...  82.4    7e-16
+TR:W0SLZ3_9LAMI  W0SLZ3 O-methyltransferase OS=Sesamum radiatum O...  82.4    7e-16
+TR:K4BHZ4_SOLLC  K4BHZ4 Uncharacterized protein OS=Solanum lycope...  82.4    8e-16
+SP:COMT1_CAPAN  Q9FQY8 Caffeic acid 3-O-methyltransferase OS=Caps...  82.4    8e-16
+TR:A0A2G2X7R3_CAPBA  A0A2G2X7R3 Caffeic acid 3-O-methyltransferas...  82.4    8e-16
+TR:A0A2G3A053_CAPAN  A0A2G3A053 caffeic acid 3-O-methyltransferas...  82.4    8e-16
+TR:A0A1U8G682_CAPAN  A0A1U8G682 Caffeic acid 3-O-methyltransferas...  82.4    8e-16
+TR:A0A0G4DCV8_CAPCH  A0A0G4DCV8 Caffeic acid 3-O-methyltransferas...  82.4    8e-16
+TR:J9RER7_POPNI  J9RER7 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J9QX96_POPNI  J9QX96 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J9RJ87_POPNI  J9RJ87 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J9REP1_9ROSI  J9REP1 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J9RJ59_9ROSI  J9RJ59 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J9QX57_POPTR  J9QX57 Caffeate O-methyltransferase (Fragment) O...  78.2    8e-16
+TR:J3JRA2_MEDSF  J3JRA2 Caffeic acid-O-methyltransferase (Fragmen...  78.2    8e-16
+SP:COMT3_POPKI  Q43047 Caffeic acid 3-O-methyltransferase 3 OS=Po...  82.4    8e-16
+TR:A0A1I9W0G2_POPTO  A0A1I9W0G2 O-methyltransferase 1 OS=Populus ...  82.4    8e-16
+TR:C6FFB6_POPTR  C6FFB6 Caffeic acid 3-O-methyltransferase 2 OS=P...  82.4    8e-16
+TR:B2Z6Q7_POPTR  B2Z6Q7 Caffeic acid 3-O-methyltransferase OS=Pop...  82.4    8e-16
+TR:A0A0S3REG3_PHAAN  A0A0S3REG3 Uncharacterized protein OS=Vigna ...  82.4    8e-16
+TR:A0A0L9UEJ0_PHAAN  A0A0L9UEJ0 Uncharacterized protein OS=Phaseo...  82.4    8e-16
+TR:A0A1J7HRN1_LUPAN  A0A1J7HRN1 Uncharacterized protein OS=Lupinu...  82.4    8e-16
+TR:A0A2P4IKG4_QUESU  A0A2P4IKG4 Caffeic acid 3-o-methyltransferas...  82.4    8e-16
+TR:A0A067DTN3_CITSI  A0A067DTN3 Uncharacterized protein OS=Citrus...  82.4    8e-16
+TR:E0ADY2_CITAR  E0ADY2 Putative caffeic acid O-methyltransferase...  82.4    8e-16
+TR:A0A2H5PL61_CITUN  A0A2H5PL61 Uncharacterized protein OS=Citrus...  82.4    8e-16
+TR:A0A1U7Z9D1_NELNU  A0A1U7Z9D1 caffeic acid 3-O-methyltransferas...  78.6    1e-15
+TR:A0A0D2PAT0_GOSRA  A0A0D2PAT0 Uncharacterized protein OS=Gossyp...  81.6    1e-15
+SP:COMT2_OCIBA  Q9XGV9 Caffeic acid 3-O-methyltransferase 2 OS=Oc...  82.0    1e-15
+TR:T1NXH0_OCIBA  T1NXH0 Caffeic acid O-methyltransferase OS=Ocimu...  82.0    1e-15
+TR:M0U9P2_MUSAM  M0U9P2 Uncharacterized protein OS=Musa acuminata...  82.0    1e-15
+TR:A0A1U7UN20_NICSY  A0A1U7UN20 caffeic acid 3-O-methyltransferas...  82.0    1e-15
+TR:A0A1S3ZKU8_TOBAC  A0A1S3ZKU8 caffeic acid 3-O-methyltransferas...  82.0    1e-15
+SP:COMT2_POPTM  Q41086 Caffeic acid 3-O-methyltransferase 2 OS=Po...  82.0    1e-15
+TR:Q42958_TOBAC  Q42958 Catechol O-methyltransferase OS=Nicotiana...  82.0    1e-15
+TR:D0VDZ3_MEDSA  D0VDZ3 S-adenosyl-L-methionine: caffeic acid 3-0...  82.0    1e-15
+TR:A0A224AM00_ESCCA  A0A224AM00 Putative O-methyltransferase OS=E...  82.0    1e-15
+TR:A0A2P5X5H3_GOSBA  A0A2P5X5H3 Uncharacterized protein OS=Gossyp...  82.0    1e-15
+TR:I6NK25_MEDSV  I6NK25 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NIZ5_MEDSA  I6NIZ5 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NIY1_MEDSF  I6NIY1 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:J3JRA3_MEDSF  J3JRA3 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NJQ1_MEDSA  I6NJQ1 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NJQ4_MEDSA  I6NJQ4 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NK24_MEDSA  I6NK24 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NID9_MEDSV  I6NID9 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NK21_MEDSV  I6NK21 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NK19_MEDSV  I6NK19 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:I6NIE9_MEDSF  I6NIE9 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:J3JRA7_MEDSF  J3JRA7 Caffeic acid-O-methyltransferase (Fragmen...  77.8    1e-15
+TR:S4V8K9_LINUS  S4V8K9 Caffeic acid O-methyltransferase OS=Linum...  82.0    1e-15
+TR:A0A2G2X7R0_CAPBA  A0A2G2X7R0 Uncharacterized protein OS=Capsic...  80.1    1e-15
+TR:A0A0G4DC02_CAPCH  A0A0G4DC02 Caffeic acid 3-O-methyltransferas...  80.9    1e-15
+TR:A0A0B0NPP3_GOSAR  A0A0B0NPP3 Caffeic acid 3-O-methyltransferas...  82.0    1e-15
+SP:COMT1_COFCA  Q8LL87 Caffeic acid 3-O-methyltransferase OS=Coff...  81.6    1e-15
+TR:A0A068U9K4_COFCA  A0A068U9K4 Uncharacterized protein OS=Coffea...  81.6    1e-15
+TR:A0A1D5ZI67_WHEAT  A0A1D5ZI67 Uncharacterized protein OS=Tritic...  81.6    1e-15
+TR:W5BFM8_WHEAT  W5BFM8 Uncharacterized protein OS=Triticum aesti...  81.6    1e-15
+TR:W1NLC7_AMBTC  W1NLC7 Uncharacterized protein OS=Amborella tric...  81.6    1e-15
+TR:Q04065_TOBAC  Q04065 Catechol O-methyltransferase OS=Nicotiana...  81.6    1e-15
+TR:A0A2G5D950_AQUCA  A0A2G5D950 Uncharacterized protein OS=Aquile...  81.6    1e-15
+TR:A0A2C9WHT9_MANES  A0A2C9WHT9 Uncharacterized protein OS=Maniho...  81.6    2e-15
+TR:A0A0D2QWG5_GOSRA  A0A0D2QWG5 Uncharacterized protein OS=Gossyp...  81.6    2e-15
+TR:A0A161XYJ3_DAUCA  A0A161XYJ3 Methyltransferase OS=Daucus carot...  81.6    2e-15
+TR:E4W5X8_GOSHI  E4W5X8 Caffeic acid O-methyltransferase 1 OS=Gos...  81.6    2e-15
+TR:I6NIY5_MEDSA  I6NIY5 Caffeic acid-O-methyltransferase (Fragmen...  77.4    2e-15
+TR:J3JRA9_MEDSF  J3JRA9 Caffeic acid-O-methyltransferase (Fragmen...  77.4    2e-15
+TR:Q9XE92_9MAGN  Q9XE92 O-methyltransferase OS=Thalictrum tuberos...  81.3    2e-15
+TR:M0S527_MUSAM  M0S527 Uncharacterized protein OS=Musa acuminata...  81.3    2e-15
+TR:B3VKY8_POPTO  B3VKY8 Caffeic acid 3-O-methytransferase OS=Popu...  81.3    2e-15
+TR:L0ATP3_POPTO  L0ATP3 Caffeic acid O-methyltransferase OS=Popul...  81.3    2e-15
+TR:G3FDY0_SALMI  G3FDY0 Caffeic acid O-methyltransferase OS=Salvi...  81.3    2e-15
+TR:G3FDY1_SALMI  G3FDY1 Caffeic acid O-methyltransferase OS=Salvi...  81.3    2e-15
+TR:A0A1D8GYV2_9ROSI  A0A1D8GYV2 Caffeic acid 3-O-methyltransferas...  81.3    2e-15
+TR:C6TGR0_SOYBN  C6TGR0 Uncharacterized protein OS=Glycine max OX...  81.3    2e-15
+TR:A0A058ZWE6_EUCGR  A0A058ZWE6 Uncharacterized protein OS=Eucaly...  81.3    2e-15
+TR:A0A058ZXZ7_EUCGR  A0A058ZXZ7 Uncharacterized protein OS=Eucaly...  81.3    2e-15
+TR:Q3SCM5_9FABA  Q3SCM5 Caffeic acid O-methyltransferase OS=Acaci...  81.3    2e-15
+TR:A0A0R4J3I5_SOYBN  A0A0R4J3I5 Uncharacterized protein OS=Glycin...  81.3    2e-15
+TR:A0A0A6Z5Z9_9ROSI  A0A0A6Z5Z9 Caffeate O-methyltransferase (Fra...  80.5    2e-15
+TR:J9RLF8_POPAL  J9RLF8 Caffeate O-methyltransferase (Fragment) O...  77.0    2e-15
+TR:M0U2V6_MUSAM  M0U2V6 Uncharacterized protein OS=Musa acuminata...  79.0    2e-15
+TR:F2EC26_HORVV  F2EC26 Predicted protein OS=Hordeum vulgare subs...  81.3    2e-15
+SP:COMT1_CAPCH  O81646 Caffeic acid 3-O-methyltransferase OS=Caps...  80.9    3e-15
+TR:A0A0A0L0G6_CUCSA  A0A0A0L0G6 Uncharacterized protein OS=Cucumi...  80.9    3e-15
+TR:A0A1S3CIH3_CUCME  A0A1S3CIH3 caffeic acid 3-O-methyltransferas...  80.9    3e-15
+TR:A0A2J6MED0_LACSA  A0A2J6MED0 Uncharacterized protein OS=Lactuc...  80.9    3e-15
+TR:A0A0G4DCJ8_CAPCH  A0A0G4DCJ8 Caffeic acid O-methyltransferase ...  80.9    3e-15
+TR:E2FYC3_CAMSI  E2FYC3 Caffeic acid O-methyltransferase OS=Camel...  80.9    3e-15
+SP:COMT1_ROSCH  Q8GU25 Caffeic acid 3-O-methyltransferase OS=Rosa...  80.9    3e-15
+TR:A0A2P6SPI3_ROSCH  A0A2P6SPI3 Caffeic acid 3-O-methyltransferas...  80.9    3e-15
+TR:Q7X9J0_ROSCH  Q7X9J0 Caffeic acid O-methyltransferase OS=Rosa ...  80.9    3e-15
+TR:A0A0J8CS99_BETVU  A0A0J8CS99 Uncharacterized protein OS=Beta v...  80.9    3e-15
+TR:A0A2P5XYN5_GOSBA  A0A2P5XYN5 Uncharacterized protein OS=Gossyp...  80.5    3e-15
+TR:W9RKB7_9ROSA  W9RKB7 Caffeic acid 3-O-methyltransferase OS=Mor...  79.3    4e-15
+TR:A0A103XCV5_CYNCS  A0A103XCV5 Caffeate O-methyltransferase (COM...  80.5    4e-15
+TR:A0A251V0A7_HELAN  A0A251V0A7 Putative caffeic acid 3-O-methylt...  80.5    4e-15
+TR:A0A1U8FYF8_CAPAN  A0A1U8FYF8 caffeic acid 3-O-methyltransferas...  79.7    4e-15
+SP:COMT1_MEDSA  P28002 Caffeic acid 3-O-methyltransferase OS=Medi...  80.5    4e-15
+TR:C0L8A9_BETPN  C0L8A9 Putative caffeic acid O-methyltransferase...  80.5    4e-15
+TR:A0A088B191_9ROSI  A0A088B191 Putative caffeic acid O-methyltra...  80.5    4e-15
+TR:M4NKK4_BETPL  M4NKK4 Caffeic acid 3-O-methyltransferase OS=Bet...  80.5    4e-15
+TR:I3SG43_MEDTR  I3SG43 Uncharacterized protein OS=Medicago trunc...  80.5    4e-15
+TR:G7J914_MEDTR  G7J914 Caffeic acid O-methyltransferase OS=Medic...  80.5    4e-15
+TR:A0A223FPR2_RAPSA  A0A223FPR2 Flavonone 3'-O-methyltransferase ...  76.3    4e-15
+TR:O65362_MESCR  O65362 Caffeic acid 3-O-methyltransferase (Fragm...  80.1    5e-15
+TR:A0A2G3A074_CAPAN  A0A2G3A074 caffeic acid 3-O-methyltransferas...  79.7    5e-15
+TR:A0A1U8FYJ9_CAPAN  A0A1U8FYJ9 Caffeic acid 3-O-methyltransferas...  79.7    5e-15
+TR:A0A2K3K1U3_TRIPR  A0A2K3K1U3 Caffeic acid 3-O-methyltransferas...  75.9    6e-15
+TR:A0A2G3A058_CAPAN  A0A2G3A058 Caffeic acid 3-O-methyltransferas...  79.7    6e-15
+TR:A0A1D5RQU2_WHEAT  A0A1D5RQU2 Uncharacterized protein OS=Tritic...  73.6    7e-15
+TR:Q9SYR9_9MAGN  Q9SYR9 Catechol O-methyltransferase OS=Thalictru...  79.7    7e-15
+TR:Q9XE90_9MAGN  Q9XE90 Catechol O-methyltransferase OS=Thalictru...  79.7    7e-15
+TR:A0A2G5D930_AQUCA  A0A2G5D930 Uncharacterized protein OS=Aquile...  79.7    7e-15
+TR:A0A067KUA9_JATCU  A0A067KUA9 Uncharacterized protein OS=Jatrop...  79.7    7e-15
+TR:A0A1U8AK58_NELNU  A0A1U8AK58 caffeic acid 3-O-methyltransferas...  79.7    7e-15
+TR:A0A1Q3BZ14_CEPFO  A0A1Q3BZ14 Methyltransf_2 domain-containing ...  79.7    7e-15
+TR:A0A2G5D935_AQUCA  A0A2G5D935 Uncharacterized protein OS=Aquile...  78.2    8e-15
+TR:A0A2G5D934_AQUCA  A0A2G5D934 Uncharacterized protein OS=Aquile...  78.2    8e-15
+TR:A0A1J3CEI9_NOCCA  A0A1J3CEI9 Flavone 3'-O-methyltransferase 1 ...  76.3    9e-15
+TR:A0A1D8X7Z4_9FABA  A0A1D8X7Z4 Caffeic acid 3-O-methyltransferas...  79.3    1e-14
+TR:A0A0K8WMJ8_9FABA  A0A0K8WMJ8 Caffeic acid 3-O-methyltransferas...  79.3    1e-14
+TR:A0A2R6Q9C9_ACTCH  A0A2R6Q9C9 Caffeic acid 3-O-methyltransferas...  79.3    1e-14
+TR:A0A2I4FAC2_9ROSI  A0A2I4FAC2 caffeic acid 3-O-methyltransferas...  79.3    1e-14
+TR:A0A2G5D921_AQUCA  A0A2G5D921 Uncharacterized protein OS=Aquile...  78.2    1e-14
+TR:M0S573_MUSAM  M0S573 Uncharacterized protein OS=Musa acuminata...  79.0    1e-14
+TR:A0A076NBT0_VACCO  A0A076NBT0 O-methyltransferase OS=Vaccinium ...  79.3    1e-14
+TR:Q9M560_VITVI  Q9M560 Caffeic acid O-methyltransferase OS=Vitis...  79.3    1e-14
+TR:A0A2G5D956_AQUCA  A0A2G5D956 Uncharacterized protein OS=Aquile...  78.2    1e-14
+TR:A0A2G5D929_AQUCA  A0A2G5D929 Uncharacterized protein OS=Aquile...  78.2    1e-14
+SP:OMT2_CHRAE  Q42653 Quercetin 3-O-methyltransferase 2 OS=Chryso...  79.0    1e-14
+SP:OMT1_CHRAE  P59049 Quercetin 3-O-methyltransferase 1 OS=Chryso...  79.0    1e-14
+TR:Q8H0D1_HORVU  Q8H0D1 O-methyltransferase OS=Hordeum vulgare OX...  79.0    1e-14
+TR:A0A2P5DFB7_PARAD  A0A2P5DFB7 O-methyltransferase COMT-type OS=...  75.1    1e-14
+TR:A0A2P5EDS2_9ROSA  A0A2P5EDS2 O-methyltransferase COMT-type OS=...  75.1    1e-14
+TR:B2CBW3_PINTA  B2CBW3 Caffeic acid O-3-methyltransferase-like p...  74.3    1e-14
+TR:W5B491_WHEAT  W5B491 Uncharacterized protein OS=Triticum aesti...  79.0    1e-14
+TR:A0A2G3CXZ1_CAPCH  A0A2G3CXZ1 Caffeic acid 3-O-methyltransferas...  79.0    1e-14
+TR:A0A1S2YDF4_CICAR  A0A1S2YDF4 caffeic acid 3-O-methyltransferas...  79.0    1e-14
+TR:A0A067KZJ4_JATCU  A0A067KZJ4 Uncharacterized protein OS=Jatrop...  79.0    1e-14
+TR:A0A0R4J3J0_SOYBN  A0A0R4J3J0 Uncharacterized protein OS=Glycin...  79.0    1e-14
+TR:A0A224XGU2_9ROSI  A0A224XGU2 Caffeic acid O-methyltransferase ...  77.0    1e-14
+TR:A0A1D1YDU6_9ARAE  A0A1D1YDU6 Caffeic acid 3-O-methyltransferas...  77.4    2e-14
+TR:M0S530_MUSAM  M0S530 Uncharacterized protein OS=Musa acuminata...  78.6    2e-14
+TR:M0S538_MUSAM  M0S538 Uncharacterized protein OS=Musa acuminata...  78.6    2e-14
+TR:A0A251U6N1_HELAN  A0A251U6N1 Putative caffeic acid 3-O-methylt...  78.6    2e-14
+TR:B2CBV9_PINTA  B2CBV9 Caffeic acid O-3-methyltransferase-like p...  74.3    2e-14
+TR:A0A2G2X7T9_CAPBA  A0A2G2X7T9 Uncharacterized protein OS=Capsic...  78.2    2e-14
+TR:A0A2G2X7U5_CAPBA  A0A2G2X7U5 Uncharacterized protein OS=Capsic...  78.2    2e-14
+TR:A0A2R6RQK7_ACTCH  A0A2R6RQK7 Caffeic acid 3-O-methyltransferas...  78.2    2e-14
+TR:A0A2G5D928_AQUCA  A0A2G5D928 Uncharacterized protein OS=Aquile...  78.2    2e-14
+TR:A0A2G5D9Z0_AQUCA  A0A2G5D9Z0 Uncharacterized protein OS=Aquile...  78.2    2e-14
+TR:A0A2G5D927_AQUCA  A0A2G5D927 Uncharacterized protein OS=Aquile...  78.2    2e-14
+TR:A0A2G5D945_AQUCA  A0A2G5D945 Uncharacterized protein OS=Aquile...  78.2    2e-14
+TR:A0A023JQ27_SORAU  A0A023JQ27 Noraucuparin O-methyltransferase ...  78.2    2e-14
+TR:A0A022RXU0_ERYGU  A0A022RXU0 Uncharacterized protein OS=Erythr...  77.8    3e-14
+TR:B2CBW0_PINTA  B2CBW0 Caffeic acid O-3-methyltransferase-like p...  74.3    3e-14
+TR:B2CBW2_PINTA  B2CBW2 Caffeic acid O-3-methyltransferase-like p...  74.3    3e-14
+TR:A0A1D5UY12_WHEAT  A0A1D5UY12 Uncharacterized protein OS=Tritic...  77.8    3e-14
+TR:M8A140_TRIUA  M8A140 Tricetin 3',4',5'-O-trimethyltransferase ...  77.4    3e-14
+TR:R0GAF8_9BRAS  R0GAF8 Uncharacterized protein OS=Capsella rubel...  77.8    3e-14
+SP:COMT1_PRUDU  Q43609 Caffeic acid 3-O-methyltransferase OS=Prun...  77.8    3e-14
+TR:C7F6Z3_JATCU  C7F6Z3 Caffeic acid O-methyltransferase OS=Jatro...  77.8    3e-14
+TR:A0A067KDX9_JATCU  A0A067KDX9 Uncharacterized protein OS=Jatrop...  77.8    3e-14
+TR:A0A0B2QE35_GLYSO  A0A0B2QE35 Caffeic acid 3-O-methyltransferas...  77.8    3e-14
+TR:Q14VV8_BOENI  Q14VV8 Caffeic acid O-methyltransferase OS=Boehm...  77.8    3e-14
+TR:A0A251U7E8_HELAN  A0A251U7E8 Putative O-methyltransferase COMT...  77.8    3e-14
+TR:C6TIJ7_SOYBN  C6TIJ7 Uncharacterized protein OS=Glycine max OX...  77.8    3e-14
+TR:I1KB23_SOYBN  I1KB23 Uncharacterized protein OS=Glycine max OX...  77.8    3e-14
+TR:A0A059DFQ7_EUCGR  A0A059DFQ7 Uncharacterized protein OS=Eucaly...  76.6    4e-14
+TR:B2CBX3_PINTA  B2CBX3 Caffeic acid O-3-methyltransferase-like p...  73.9    4e-14
+TR:B2CBW1_PINTA  B2CBW1 Caffeic acid O-3-methyltransferase-like p...  73.9    4e-14
+TR:I0IJZ2_9MYRT  I0IJZ2 Caffeic acid O-methyltransferase 1 (Fragm...  77.0    4e-14
+SP:OMT1_ARATH  Q9FK25 Flavone 3'-O-methyltransferase 1 OS=Arabido...  77.4    5e-14
+TR:D7MTQ7_ARALL  D7MTQ7 O-methyltransferase 1 OS=Arabidopsis lyra...  77.4    5e-14
+TR:A0A178URF5_ARATH  A0A178URF5 OMT1 OS=Arabidopsis thaliana OX=3...  77.4    5e-14
+TR:A0A151RKZ1_CAJCA  A0A151RKZ1 Caffeic acid 3-O-methyltransferas...  77.4    5e-14
+TR:A0A224X486_HYPAN  A0A224X486 Caffeic acid O-methyltransferase ...  77.4    5e-14
+TR:M5XK04_PRUPE  M5XK04 Uncharacterized protein OS=Prunus persica...  77.4    5e-14
+TR:M5X1K4_PRUPE  M5X1K4 Uncharacterized protein OS=Prunus persica...  77.4    5e-14
+TR:A0A224XG01_HYPPE  A0A224XG01 Caffeic acid O-methyltransferase ...  74.3    5e-14
+TR:M8B1G3_TRIUA  M8B1G3 Flavone O-methyltransferase 1 OS=Triticum...  77.8    6e-14
+TR:A0A118K2L6_CYNCS  A0A118K2L6 Caffeate O-methyltransferase (COM...  77.0    6e-14
+TR:A0A2K3L1J5_TRIPR  A0A2K3L1J5 Caffeic acid 3-O-methyltransferas...  75.9    6e-14
+TR:F7IX54_CHRMO  F7IX54 Caffeic acid O-methylltransferase OS=Chry...  77.0    6e-14
+TR:A0A2U1NAL5_ARTAN  A0A2U1NAL5 Caffeic acid O-methylltransferase...  77.0    6e-14
+TR:J9RBC4_9ROSI  J9RBC4 Caffeate O-methyltransferase (Fragment) O...  73.2    6e-14
+TR:A0A1J3CN92_NOCCA  A0A1J3CN92 Flavone 3'-O-methyltransferase 1 ...  77.0    6e-14
+TR:Q5IDC8_PINTA  Q5IDC8 Caffeate O-methyltransferase (Fragment) O...  74.3    6e-14
+TR:Q5IDI8_PINTA  Q5IDI8 Caffeate O-methyltransferase (Fragment) O...  74.3    6e-14
+TR:A0A1D5UBZ5_WHEAT  A0A1D5UBZ5 Uncharacterized protein OS=Tritic...  75.5    6e-14
+TR:A0A023W736_PINPA  A0A023W736 Caffeate O-methyltransferase (Fra...  74.3    7e-14
+TR:A0A1D5UBZ4_WHEAT  A0A1D5UBZ4 Uncharacterized protein OS=Tritic...  75.5    7e-14
+TR:B6F0V0_CARTI  B6F0V0 5-hydroxyconiferaldehyde O-methyltransfer...  76.6    8e-14
+TR:M4CFM5_BRARP  M4CFM5 Uncharacterized protein OS=Brassica rapa ...  76.6    8e-14
+TR:A0A078FPR3_BRANA  A0A078FPR3 BnaA10g07270D protein OS=Brassica...  76.6    8e-14
+TR:M0U8K9_MUSAM  M0U8K9 Uncharacterized protein OS=Musa acuminata...  72.8    8e-14
+TR:M0UBP7_MUSAM  M0UBP7 Uncharacterized protein OS=Musa acuminata...  72.8    8e-14
+TR:F8SMC0_SOYBN  F8SMC0 S-adenosyl-L-methionine: caffeic acid 3-0...  76.6    8e-14
+TR:A0A067KLV9_JATCU  A0A067KLV9 Uncharacterized protein OS=Jatrop...  76.6    8e-14
+TR:A0A059DF27_EUCGR  A0A059DF27 Uncharacterized protein OS=Eucaly...  76.6    9e-14
+TR:A0A2H5PI23_CITUN  A0A2H5PI23 Uncharacterized protein OS=Citrus...  73.6    9e-14
+TR:Q5IDE0_PINTA  Q5IDE0 Caffeate O-methyltransferase (Fragment) O...  73.9    9e-14
+TR:Q5IDI4_PINTA  Q5IDI4 Caffeate O-methyltransferase (Fragment) O...  73.9    9e-14
+TR:V4T7X9_9ROSI  V4T7X9 Uncharacterized protein OS=Citrus clement...  73.6    9e-14
+TR:I0IJZ3_9MYRT  I0IJZ3 Caffeic acid O-methyltransferase 1 (Fragm...  75.9    1e-13
+TR:A0A059DK85_EUCGR  A0A059DK85 Uncharacterized protein OS=Eucaly...  76.3    1e-13
+TR:A0A0D3EAX6_BRAOL  A0A0D3EAX6 Uncharacterized protein OS=Brassi...  76.3    1e-13
+TR:A0A1S6WNF0_PINSY  A0A1S6WNF0 Pinosylvin O-methyltransferase 1 ...  76.3    1e-13
+TR:M4EJS5_BRARP  M4EJS5 Uncharacterized protein OS=Brassica rapa ...  76.3    1e-13
+TR:A0A1J3FWY0_NOCCA  A0A1J3FWY0 Flavone 3'-O-methyltransferase 1 ...  76.3    1e-13
+TR:A0A078I2L0_BRANA  A0A078I2L0 BnaC03g14720D protein OS=Brassica...  76.3    1e-13
+TR:A0A078HYU3_BRANA  A0A078HYU3 BnaA03g11990D protein OS=Brassica...  76.3    1e-13
+TR:A0A078FZ28_BRANA  A0A078FZ28 BnaC09g30560D protein OS=Brassica...  76.3    1e-13
+TR:Q5IDE8_PINTA  Q5IDE8 Caffeate O-methyltransferase (Fragment) O...  73.6    1e-13
+TR:A0A2G9H820_9LAMI  A0A2G9H820 Caffeate O-methyltransferase OS=H...  74.7    1e-13
+TR:A0A2G2X7Y9_CAPBA  A0A2G2X7Y9 Uncharacterized protein OS=Capsic...  73.2    1e-13
+TR:A0A2H5N4S5_CITUN  A0A2H5N4S5 Uncharacterized protein OS=Citrus...  74.3    1e-13
+TR:A0A1D5UBF5_WHEAT  A0A1D5UBF5 Uncharacterized protein OS=Tritic...  75.9    2e-13
+TR:M0UCJ1_MUSAM  M0UCJ1 Uncharacterized protein OS=Musa acuminata...  75.9    2e-13
+TR:E4MY37_EUTHA  E4MY37 mRNA, clone: RTFL01-26-B24 OS=Eutrema hal...  75.9    2e-13
+TR:V4NB21_EUTSA  V4NB21 Uncharacterized protein OS=Eutrema salsug...  75.9    2e-13
+TR:Q6Q796_VANPL  Q6Q796 Caffeic acid O-methyltransferase OS=Vanil...  75.9    2e-13
+TR:A0A087GAX6_ARAAL  A0A087GAX6 Uncharacterized protein OS=Arabis...  75.9    2e-13
+TR:A0A2N9FKJ4_FAGSY  A0A2N9FKJ4 Uncharacterized protein OS=Fagus ...  75.9    2e-13
+TR:A0A251U5T1_HELAN  A0A251U5T1 Putative O-methyltransferase COMT...  75.9    2e-13
+TR:A0A087GHE8_ARAAL  A0A087GHE8 Uncharacterized protein OS=Arabis...  75.9    2e-13
+TR:A0A2H5Q064_CITUN  A0A2H5Q064 Uncharacterized protein OS=Citrus...  72.4    2e-13
+TR:A0A2H3YTW2_PHODC  A0A2H3YTW2 caffeic acid 3-O-methyltransferas...  75.5    2e-13
+TR:V4U0B7_9ROSI  V4U0B7 Uncharacterized protein OS=Citrus clement...  75.5    2e-13
+TR:A0A2I0AF71_9ASPA  A0A2I0AF71 Tricetin 3',4',5'-O-trimethyltran...  75.1    2e-13
+TR:G3C8Z7_PINPS  G3C8Z7 Caffeic acid O-3-methyltransferase OS=Pin...  75.5    2e-13
+TR:S5TPC3_9ROSA  S5TPC3 Caffeic acid-O-methyltransferase OS=Pyrus...  75.5    2e-13
+TR:A0A224X403_HYPPE  A0A224X403 Caffeic acid O-methyltransferase ...  74.3    2e-13
+TR:V4UA37_9ROSI  V4UA37 Uncharacterized protein (Fragment) OS=Cit...  72.8    2e-13
+TR:A0A1U8NE00_GOSHI  A0A1U8NE00 caffeic acid 3-O-methyltransferas...  74.7    3e-13
+TR:M0S532_MUSAM  M0S532 Uncharacterized protein OS=Musa acuminata...  75.1    3e-13
+TR:Q5NDD5_PICAB  Q5NDD5 Caffeate O-methyltransferase OS=Picea abi...  75.1    3e-13
+TR:A9NSX7_PICSI  A9NSX7 Uncharacterized protein OS=Picea sitchens...  75.1    3e-13
+TR:A0A0D3B3J8_BRAOL  A0A0D3B3J8 Uncharacterized protein OS=Brassi...  75.1    3e-13
+TR:Q09K02_MALDO  Q09K02 Caffeic acid O-methyltransferase OS=Malus...  75.1    3e-13
+TR:A0A067DB18_CITSI  A0A067DB18 Uncharacterized protein (Fragment...  73.6    3e-13
+TR:R7W8J5_AEGTA  R7W8J5 Caffeic acid 3-O-methyltransferase OS=Aeg...  74.7    3e-13
+TR:A0A2G9HUI9_9LAMI  A0A2G9HUI9 Hydroxyindole-O-methyltransferase...  75.1    3e-13
+TR:A0A2G9IB41_9LAMI  A0A2G9IB41 Caffeate O-methyltransferase OS=H...  73.6    4e-13
+TR:I0IJZ1_EUCGG  I0IJZ1 Caffeic acid O-methyltransferase 1 (Fragm...  74.3    4e-13
+TR:V4LT75_EUTSA  V4LT75 Uncharacterized protein OS=Eutrema salsug...  74.7    4e-13
+TR:A9NPC9_PICSI  A9NPC9 Uncharacterized protein OS=Picea sitchens...  74.7    4e-13
+TR:B8LRV0_PICSI  B8LRV0 Uncharacterized protein OS=Picea sitchens...  74.7    4e-13
+TR:V4NB26_EUTSA  V4NB26 Uncharacterized protein OS=Eutrema salsug...  74.7    4e-13
+TR:V4LV41_EUTSA  V4LV41 Uncharacterized protein OS=Eutrema salsug...  74.7    4e-13
+TR:M0U9Y6_MUSAM  M0U9Y6 Uncharacterized protein OS=Musa acuminata...  73.6    4e-13
+TR:Q0D552_ORYSJ  Q0D552 Os07g0582100 protein OS=Oryza sativa subs...  75.1    4e-13
+TR:A0A1D5V0F5_WHEAT  A0A1D5V0F5 Uncharacterized protein OS=Tritic...  74.3    5e-13
+TR:A0A078HT94_BRANA  A0A078HT94 BnaC02g13760D protein OS=Brassica...  73.2    5e-13
+TR:A0A0D3AM74_BRAOL  A0A0D3AM74 Uncharacterized protein OS=Brassi...  73.2    5e-13
+
+
+>SP:COMT1_SACOF O82054 Caffeic acid 3-O-methyltransferase OS=Saccharum officinarum 
+OX=4547 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 137 bits (345),  Expect = 4e-36
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0X8TVH5_9POAL A0A0X8TVH5 Caffeic acid 3-O-methyltransferase protein OS=Saccharum 
+hybrid cultivar GT11 OX=1465384 PE=2 SV=1
+Length=362
+
+ Score = 137 bits (345),  Expect = 4e-36
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:Q6UNM7_9POAL Q6UNM7 Caffeic acid 3-O-methyltransferase OS=Saccharum hybrid 
+cultivar OX=128810 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 137 bits (345),  Expect = 4e-36
+ Identities = 66/66 (100%), Positives = 66/66 (100%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0F6UJI1_MISSI A0A0F6UJI1 Caffeic acid 3-O-methyltransferase OS=Miscanthus sinensis 
+OX=62337 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 135 bits (340),  Expect = 2e-35
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0F6RWL0_9POAL A0A0F6RWL0 Caffeic acid 3-O-methyltransferase OS=Miscanthus floridulus 
+OX=154761 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 135 bits (340),  Expect = 2e-35
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0F6UK34_9POAL A0A0F6UK34 Caffeic acid 3-O-methyltransferase OS=Miscanthus x 
+giganteus OX=183674 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 135 bits (340),  Expect = 2e-35
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0F6RWZ9_9POAL A0A0F6RWZ9 Caffeic acid 3-O-methyltransferase OS=Miscanthus sacchariflorus 
+OX=183675 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 135 bits (340),  Expect = 2e-35
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:C5YH12_SORBI C5YH12 Caffeic acid O-methyltransferase OS=Sorghum bicolor OX=4558 
+GN=SORBI_3007G047300 PE=1 SV=1
+Length=362
+
+ Score = 135 bits (340),  Expect = 2e-35
+ Identities = 65/66 (98%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:S4SJN4_SORBI S4SJN4 Caffeic acid O-methyltransferase OS=Sorghum bicolor OX=4558 
+GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 134 bits (337),  Expect = 6e-35
+ Identities = 64/66 (97%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVV+CQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRMLRLLASYDVVRCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:X2FSH3_9POAL X2FSH3 Caffeic acid O-methyltransferase OS=Sorghum sudanense 
+OX=1428164 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 134 bits (337),  Expect = 6e-35
+ Identities = 64/66 (97%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVV+CQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRMLRLLASYDVVRCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q84X55_SORBI Q84X55 Caffeic acid O-methyltransferase OS=Sorghum bicolor OX=4558 
+GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 134 bits (337),  Expect = 6e-35
+ Identities = 64/66 (97%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVV+CQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRMLRLLASYDVVRCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q8W215_SORBI Q8W215 O-methyltransferase OS=Sorghum bicolor OX=4558 PE=2 SV=1
+Length=362
+
+ Score = 134 bits (336),  Expect = 8e-35
+ Identities = 64/66 (97%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDR+LRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRILRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:A0A0F6UJG1_9POAL A0A0F6UJG1 Caffeic acid 3-O-methyltransferase OS=Miscanthus lutarioriparius 
+OX=422564 GN=COMT PE=2 SV=1
+Length=362
+
+ Score = 133 bits (334),  Expect = 2e-34
+ Identities = 63/66 (95%), Positives = 65/66 (98%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVVKCQ+EDKDG+YERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVDRMLRLLASYDVVKCQLEDKDGRYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:D7RH56_MISSI D7RH56 Caffeic acid 3-O-methyltransferase OS=Miscanthus sinensis 
+OX=62337 PE=2 SV=1
+Length=362
+
+ Score = 132 bits (331),  Expect = 5e-34
+ Identities = 64/66 (97%), Positives = 64/66 (97%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMV RMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAAL LMNQDK
+Sbjct  74   ADMVYRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALALMNQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A0S1MNE3_PENAM A0A0S1MNE3 Caffeic acid O-methyltransferase OS=Pennisetum americanum 
+OX=4543 PE=2 SV=1
+Length=360
+
+ Score = 126 bits (317),  Expect = 5e-32
+ Identities = 59/64 (92%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            MVDRMLRLLASYDVV+CQMEDKDGKY RRY+AAPVGKWLTPNEDG+SMAAL LMNQDKVL
+Sbjct  74   MVDRMLRLLASYDVVRCQMEDKDGKYTRRYAAAPVGKWLTPNEDGISMAALALMNQDKVL  133
+
+Query  64   MESW  67
+            MESW
+Sbjct  134  MESW  137
+
+
+>TR:K3YKY0_SETIT K3YKY0 Uncharacterized protein OS=Setaria italica OX=4555 GN=LOC101765311 
+PE=3 SV=1
+Length=401
+
+ Score = 127 bits (319),  Expect = 5e-32
+ Identities = 60/64 (94%), Positives = 62/64 (97%), Gaps = 0/64 (0%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            MVDRMLRLLASYDVV+CQMEDKDGKY RRY+AAPVGKWLTPNEDGVSMAAL LMNQDKVL
+Sbjct  115  MVDRMLRLLASYDVVRCQMEDKDGKYSRRYAAAPVGKWLTPNEDGVSMAALALMNQDKVL  174
+
+Query  64   MESW  67
+            MESW
+Sbjct  175  MESW  178
+
+
+>TR:A0A1E5WIU8_9POAL A0A1E5WIU8 Caffeic acid 3-O-methyltransferase OS=Dichanthelium 
+oligosanthes OX=888268 GN=BAE44_0001921 PE=3 SV=1
+Length=360
+
+ Score = 125 bits (315),  Expect = 9e-32
+ Identities = 60/66 (91%), Positives = 62/66 (94%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            ADMVDRMLRLLASYDVV+CQMEDKDGKY RRY+AAPV KWL PNEDGVSMAAL LMNQDK
+Sbjct  72   ADMVDRMLRLLASYDVVRCQMEDKDGKYSRRYAAAPVCKWLAPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q6VWF1_MAIZE Q6VWF1 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=358
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWF2_MAIZE Q6VWF2 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=358
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWF6_MAIZE Q6VWF6 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=358
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWE9_MAIZE Q6VWE9 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=358
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWE5_MAIZE Q6VWE5 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=359
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWG2_MAIZE Q6VWG2 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=359
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWE8_MAIZE Q6VWE8 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=359
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWF3_MAIZE Q6VWF3 O-methyltransferase (Fragment) OS=Zea mays OX=4577 GN=comt 
+PE=3 SV=1
+Length=359
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>SP:COMT1_MAIZE Q06509 Caffeic acid 3-O-methyltransferase OS=Zea mays OX=4577 
+PE=3 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:M1KKR2_9POAL M1KKR2 Caffeic acid 3-O-methyltransferase OS=Zea nicaraguensis 
+OX=1293079 PE=2 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWG5_MAIZE Q6VWG5 O-methyltransferase OS=Zea mays OX=4577 GN=comt PE=3 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:B6TKG5_MAIZE B6TKG5 Quercetin 3-O-methyltransferase 1 OS=Zea mays OX=4577 
+PE=2 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWG3_MAIZE Q6VWG3 Flavone 3'-O-methyltransferase 1 OS=Zea mays OX=4577 GN=comt 
+PE=2 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q5GLJ6_MAIZE Q5GLJ6 O-methyltransferase OS=Zea mays OX=4577 GN=comt PE=3 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWF7_MAIZE Q6VWF7 O-methyltransferase OS=Zea mays OX=4577 GN=comt PE=3 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:Q6VWE6_MAIZE Q6VWE6 O-methyltransferase OS=Zea mays OX=4577 GN=comt PE=3 SV=1
+Length=364
+
+ Score = 125 bits (314),  Expect = 1e-31
+ Identities = 60/66 (91%), Positives = 63/66 (95%), Gaps = 0/66 (0%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            A MVDRMLRLLASYDVV+CQMED+DG+YERRYSAAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  76   AAMVDRMLRLLASYDVVRCQMEDRDGRYERRYSAAPVCKWLTPNEDGVSMAALALMNQDK  135
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  136  VLMESW  141
+
+
+>TR:A0A1L3HJ98_PANVG A0A1L3HJ98 Putative caffeic acid O-methyltransferase 2 (Fragment) 
+OS=Panicum virgatum OX=38727 PE=3 SV=1
+Length=299
+
+ Score = 117 bits (292),  Expect = 6e-29
+ Identities = 58/67 (87%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+C+ME+ KDG+Y RRYSAAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  37   AAMVDRMLRLLASYDVVRCRMEEGKDGRYSRRYSAAPVCKWLTPNEDGVSMAALALMNQD  96
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  97   KVLMESW  103
+
+
+>TR:F2XQG6_PANVG F2XQG6 Caffeic acid 3-O-methyltransferase OS=Panicum virgatum 
+OX=38727 GN=COMT PE=2 SV=1
+Length=361
+
+ Score = 117 bits (293),  Expect = 1e-28
+ Identities = 58/67 (87%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+CQME+ KDG+Y RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  72   AAMVDRMLRLLASYDVVRCQMEEGKDGRYSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  131
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  132  KVLMESW  138
+
+
+>TR:A0A1L3HJJ1_PANVG A0A1L3HJJ1 Putative caffeic acid O-methyltransferase 2 (Fragment) 
+OS=Panicum virgatum OX=38727 PE=3 SV=1
+Length=299
+
+ Score = 115 bits (289),  Expect = 2e-28
+ Identities = 57/67 (85%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+C+ME+ KDG+Y RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  37   AAMVDRMLRLLASYDVVRCRMEEGKDGRYSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  96
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  97   KVLMESW  103
+
+
+>TR:A0A2S3I0H0_9POAL A0A2S3I0H0 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_6G039500 PE=4 SV=1
+Length=361
+
+ Score = 117 bits (292),  Expect = 2e-28
+ Identities = 58/67 (87%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+C+ME+ KDGKY RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  72   AAMVDRMLRLLASYDVVRCRMEEGKDGKYSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  131
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  132  KVLMESW  138
+
+
+>TR:A0A2T7D3S1_9POAL A0A2T7D3S1 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_6G039900 PE=4 SV=1
+Length=361
+
+ Score = 117 bits (292),  Expect = 2e-28
+ Identities = 58/67 (87%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+C+ME+ KDGKY RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  72   AAMVDRMLRLLASYDVVRCRMEEGKDGKYSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  131
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  132  KVLMESW  138
+
+
+>TR:A0A2T8KSF8_9POAL A0A2T8KSF8 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_2G429900 PE=4 SV=1
+Length=175
+
+ Score = 111 bits (278),  Expect = 4e-28
+ Identities = 57/77 (74%), Positives = 62/77 (81%), Gaps = 1/77 (1%)
+
+Query  4   MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+           MVDRMLRLLASYDVV+CQ+E+ +DGK  RRY AAPV KWLTPNEDGVSMAAL LMNQDKV
+Sbjct  1   MVDRMLRLLASYDVVRCQVEEGEDGKLSRRYGAAPVCKWLTPNEDGVSMAALALMNQDKV  60
+
+Query  63  LMESWSAPDAESTSSGI  79
+           LMESW   +      GI
+Sbjct  61  LMESWYCLEDAVLEGGI  77
+
+
+>TR:A0A0E0LRF1_ORYPU A0A0E0LRF1 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=3 SV=1
+Length=363
+
+ Score = 115 bits (288),  Expect = 7e-28
+ Identities = 57/67 (85%), Positives = 62/67 (93%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+ KDGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVRCEMEEGKDGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>TR:A0A1L3HJ73_PANVG A0A1L3HJ73 Putative caffeic acid O-methyltransferase 2 (Fragment) 
+OS=Panicum virgatum OX=38727 PE=3 SV=1
+Length=299
+
+ Score = 114 bits (284),  Expect = 9e-28
+ Identities = 57/67 (85%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLASYDVV+C+ME+ KDG+Y R YSAAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  37   AAMVDRMLRLLASYDVVRCRMEEGKDGRYSRWYSAAPVCKWLTPNEDGVSMAALALMNQD  96
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  97   KVLMESW  103
+
+
+>TR:A0A0P0XC87_ORYSJ A0A0P0XC87 Os08g0157500 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os08g0157500 PE=3 SV=1
+Length=328
+
+ Score = 113 bits (282),  Expect = 3e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  38   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  97
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  98   KVLMESW  104
+
+
+>TR:A0A2T7EXZ9_9POAL A0A2T7EXZ9 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_2G416300 PE=4 SV=1
+Length=175
+
+ Score = 108 bits (271),  Expect = 4e-27
+ Identities = 56/77 (73%), Positives = 61/77 (79%), Gaps = 1/77 (1%)
+
+Query  4   MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+           MVDRMLRLLASYDVV+CQ+E+ +DGK  RRY AAPV KWLTPNEDGVSMAAL LMN DKV
+Sbjct  1   MVDRMLRLLASYDVVRCQVEEGEDGKLSRRYGAAPVCKWLTPNEDGVSMAALALMNLDKV  60
+
+Query  63  LMESWSAPDAESTSSGI  79
+           LMESW   +      GI
+Sbjct  61  LMESWYCLEDAVLEGGI  77
+
+
+>TR:A2YRE2_ORYSI A2YRE2 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_27880 PE=3 SV=1
+Length=361
+
+ Score = 113 bits (282),  Expect = 5e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>SP:OMT1_ORYSJ Q6ZD89 Flavone 3'-O-methyltransferase 1 OS=Oryza sativa subsp. 
+japonica OX=39947 GN=COMT PE=1 SV=1
+Length=368
+
+ Score = 113 bits (282),  Expect = 6e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  78   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  137
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  138  KVLMESW  144
+
+
+>TR:A0A0D3GWI2_9ORYZ A0A0D3GWI2 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=3 SV=1
+Length=368
+
+ Score = 113 bits (282),  Expect = 6e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  78   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  137
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  138  KVLMESW  144
+
+
+>TR:A0A0E0QEJ7_ORYRU A0A0E0QEJ7 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=3 SV=1
+Length=368
+
+ Score = 113 bits (282),  Expect = 6e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  78   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  137
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  138  KVLMESW  144
+
+
+>TR:I1QFT4_ORYGL I1QFT4 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=3 
+SV=1
+Length=368
+
+ Score = 113 bits (282),  Expect = 6e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  78   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  137
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  138  KVLMESW  144
+
+
+>TR:A0A0E0EI38_9ORYZ A0A0E0EI38 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=3 SV=1
+Length=370
+
+ Score = 113 bits (282),  Expect = 6e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  80   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  139
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  140  KVLMESW  146
+
+
+>TR:A0A0D9X4L4_9ORYZ A0A0D9X4L4 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=3 SV=1
+Length=365
+
+ Score = 112 bits (281),  Expect = 8e-27
+ Identities = 56/67 (84%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLL+SYDVV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  73   ADMVDRMLRLLSSYDVVRCEMEEGDDGKLLRRYAAAPVCKWLTPNEDGVSMAALALMNQD  132
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  133  KVLMESW  139
+
+
+>TR:A0A0E0AR10_9ORYZ A0A0E0AR10 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=3 SV=1
+Length=371
+
+ Score = 112 bits (279),  Expect = 2e-26
+ Identities = 55/67 (82%), Positives = 61/67 (91%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DG+  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  81   ADMVDRMLRLLASYNVVRCEMEEGADGRLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  140
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  141  KVLMESW  147
+
+
+>TR:A0A1E5UKT9_9POAL A0A1E5UKT9 Caffeic acid 3-O-methyltransferase (Fragment) OS=Dichanthelium 
+oligosanthes OX=888268 GN=BAE44_0025499 PE=3 SV=1
+Length=331
+
+ Score = 108 bits (269),  Expect = 2e-25
+ Identities = 54/65 (83%), Positives = 58/65 (89%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDG-KYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLASYDVVKCQ+E+ +G K  RRY AAPV KWLTPNEDGVSMAAL LMNQDKV
+Sbjct  44   MVDRMLRLLASYDVVKCQVEEGEGGKLSRRYGAAPVCKWLTPNEDGVSMAALALMNQDKV  103
+
+Query  63   LMESW  67
+            L+ESW
+Sbjct  104  LVESW  108
+
+
+>TR:A0A1D6SDY5_WHEAT A0A1D6SDY5 Flavone O-methyltransferase 1 OS=Triticum aestivum 
+OX=4565 PE=3 SV=1
+Length=329
+
+ Score = 107 bits (268),  Expect = 3e-25
+ Identities = 55/67 (82%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C ME+ KDG+  RRY AAPV K+LTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVSCTMEEGKDGRLSRRYRAAPVCKFLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>TR:W5I1K0_WHEAT W5I1K0 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=360
+
+ Score = 108 bits (269),  Expect = 4e-25
+ Identities = 55/67 (82%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C ME+ KDG+  RRY AAPV K+LTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVSCTMEEGKDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>TR:M8BUF4_AEGTA M8BUF4 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_31276 PE=3 SV=1
+Length=360
+
+ Score = 108 bits (269),  Expect = 4e-25
+ Identities = 55/67 (82%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C ME+ KDG+  RRY AAPV K+LTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVSCTMEEGKDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>TR:F2D692_HORVV F2D692 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=360
+
+ Score = 108 bits (269),  Expect = 4e-25
+ Identities = 55/67 (82%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C ME+ KDG+  RRY AAPV K+LTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVSCTMEEGKDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>SP:FOMT1_WHEAT Q84N28 Flavone O-methyltransferase 1 OS=Triticum aestivum OX=4565 
+GN=OMT1 PE=1 SV=1
+Length=360
+
+ Score = 107 bits (268),  Expect = 5e-25
+ Identities = 55/67 (82%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C ME+ KDG+  RRY AAPV K+LTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVSCTMEEGKDGRLSRRYRAAPVCKFLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  131  KVLMESW  137
+
+
+>TR:A0A1D6RSH5_WHEAT A0A1D6RSH5 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=260
+
+ Score = 104 bits (259),  Expect = 2e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:I1I1F5_BRADI I1I1F5 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100838607 PE=3 SV=1
+Length=360
+
+ Score = 106 bits (264),  Expect = 2e-24
+ Identities = 53/66 (80%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E+ ++GK  RRY+AAPV KWLTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRMLRLLASYGVVSCAVEEGENGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>SP:FOMT2_WHEAT Q38J50 Tricetin 3',4',5'-O-trimethyltransferase OS=Triticum aestivum 
+OX=4565 GN=OMT2 PE=1 SV=1
+Length=356
+
+ Score = 105 bits (263),  Expect = 2e-24
+ Identities = 53/66 (80%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ ED KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEDGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:J3MQI9_ORYBR J3MQI9 Uncharacterized protein OS=Oryza brachyantha OX=4533 GN=102717362 
+PE=3 SV=1
+Length=361
+
+ Score = 105 bits (263),  Expect = 3e-24
+ Identities = 50/67 (75%), Positives = 59/67 (88%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDR+LRLL+SY VV+C+M++  DGK  RRY++ PV KWLTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRILRLLSSYSVVRCEMQEGDDGKLSRRYASTPVCKWLTPNEDGVSMAALALMNQD  130
+
+Query  61   KVLMESW  67
+            K+LMESW
+Sbjct  131  KILMESW  137
+
+
+>TR:A0A1D6RSH4_WHEAT A0A1D6RSH4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=324
+
+ Score = 104 bits (259),  Expect = 6e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:A0A1D5VNQ9_WHEAT A0A1D5VNQ9 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=335
+
+ Score = 104 bits (259),  Expect = 7e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:A0A1D6RSH3_WHEAT A0A1D6RSH3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=356
+
+ Score = 104 bits (259),  Expect = 9e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:W5D5N4_WHEAT W5D5N4 Uncharacterized protein OS=Triticum aestivum OX=4565 GN=TRAES_3BF065400030CFD_c1 
+PE=3 SV=1
+Length=356
+
+ Score = 104 bits (259),  Expect = 9e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:N1R1U7_AEGTA N1R1U7 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_32449 PE=3 SV=1
+Length=356
+
+ Score = 104 bits (259),  Expect = 9e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCRTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:M7ZTK1_TRIUA M7ZTK1 Tricetin 3',4',5'-O-trimethyltransferase OS=Triticum urartu 
+OX=4572 GN=TRIUR3_02449 PE=3 SV=1
+Length=356
+
+ Score = 104 bits (259),  Expect = 9e-24
+ Identities = 52/66 (79%), Positives = 58/66 (88%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCKTEEGKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:B4X8Y5_BAMOL B4X8Y5 Caffeic acid-3-O-methyltransferase OS=Bambusa oldhamii 
+OX=58923 GN=COMT1 PE=2 SV=1
+Length=360
+
+ Score = 104 bits (259),  Expect = 1e-23
+ Identities = 52/65 (80%), Positives = 56/65 (86%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLASY+VV C +E+ KDG+  RRY  APV KWLTPNEDGVSMAAL LMNQDKV
+Sbjct  73   MVDRMLRLLASYNVVSCVVEEGKDGRLSRRYGPAPVCKWLTPNEDGVSMAALALMNQDKV  132
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  133  LMESW  137
+
+
+>TR:L0BWA5_TRIMO L0BWA5 Caffeic acid O-methyltransferase 1 (Fragment) OS=Triticum 
+monococcum OX=4568 GN=COMT1 PE=4 SV=1
+Length=102
+
+ Score = 97.4 bits (241),  Expect = 1e-23
+ Identities = 49/64 (77%), Positives = 56/64 (88%), Gaps = 1/64 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ +DG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  39   DMVDRMLRLLASYNVVSCKTEEGRDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  98
+
+Query  62   VLME  65
+            VLME
+Sbjct  99   VLME  102
+
+
+>TR:Q70CS6_FESAR Q70CS6 Putative caffeate o-methyltransferase (Fragment) OS=Festuca 
+arundinacea OX=4606 GN=comt PE=2 SV=1
+Length=292
+
+ Score = 102 bits (254),  Expect = 2e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDR+LRLLASYDVV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  36   DMVDRILRLLASYDVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  95
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  96   VLMESW  101
+
+
+>TR:Q70CS7_LOLMU Q70CS7 Putative caffeate o-methyltransferase (Fragment) OS=Lolium 
+multiflorum OX=4521 GN=comt PE=2 SV=1
+Length=292
+
+ Score = 102 bits (254),  Expect = 2e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  36   DMVDRMLRLLASYNVVSCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  95
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  96   VLMESW  101
+
+
+>TR:A5YTR4_HORVV A5YTR4 Flavonoid O-methyltransferase OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=2 SV=1
+Length=356
+
+ Score = 103 bits (257),  Expect = 2e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYKVVSCRTEESKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:A0A287T3M0_HORVV A0A287T3M0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=162
+
+ Score = 98.6 bits (244),  Expect = 3e-23
+ Identities = 50/66 (76%), Positives = 55/66 (83%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMEDKD-GKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C ME+ + G+  RRY A PV K+LTPNEDGVSMA L LMNQDK
+Sbjct  84   DMVDRMLRLLASYNVVSCTMEEGEHGRLSRRYGAKPVCKFLTPNEDGVSMAPLALMNQDK  143
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  144  VLMESW  149
+
+
+>TR:B6E624_PHLPR B6E624 Caffeic acid ortho-methyltransferase (Fragment) OS=Phleum 
+pratense OX=15957 GN=comt PE=3 SV=1
+Length=322
+
+ Score = 102 bits (254),  Expect = 3e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3   DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+           DMVDRMLRLLASY+VV C +E+  DG+  RRY AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  34  DMVDRMLRLLASYNVVSCLVEEGTDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQDK  93
+
+Query  62  VLMESW  67
+           VLMESW
+Sbjct  94  VLMESW  99
+
+
+>TR:A0A287MU28_HORVV A0A287MU28 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=403
+
+ Score = 103 bits (257),  Expect = 3e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C+ E+ KDG+  RRY AAPV K+LTPNEDGVSM+AL LMNQDK
+Sbjct  115  DMVDRMLRLLASYKVVSCRTEESKDGRLSRRYGAAPVCKYLTPNEDGVSMSALALMNQDK  174
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  175  VLMESW  180
+
+
+>TR:Q94GA8_FESAR Q94GA8 Caffeic acid O-methyltransferase OS=Festuca arundinacea 
+OX=4606 PE=2 SV=1
+Length=360
+
+ Score = 102 bits (254),  Expect = 5e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRMLRLLASYNVVSCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q94GA7_FESAR Q94GA7 Caffeic acid O-methyltransferase OS=Festuca arundinacea 
+OX=4606 PE=2 SV=1
+Length=360
+
+ Score = 102 bits (254),  Expect = 5e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+  DG+  RRY AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRMLRLLASYNVVSCLVEEGTDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q9ZTU0_LOLPR Q9ZTU0 Caffeic acid O-methyltransferase OS=Lolium perenne OX=4522 
+GN=OMT3 PE=2 SV=1
+Length=361
+
+ Score = 102 bits (254),  Expect = 5e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+  DG+  RRY AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  73   DMVDRMLRLLASYNVVSCLVEEGTDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQDK  132
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  133  VLMESW  138
+
+
+>TR:A0A0C5B8M3_LOLPR A0A0C5B8M3 COMT2 protein OS=Lolium perenne OX=4522 GN=COMT2 PE=3 
+SV=1
+Length=361
+
+ Score = 102 bits (254),  Expect = 5e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+  DG+  RRY AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  73   DMVDRMLRLLASYNVVSCLVEEGTDGRLSRRYGAAPVCKFLTPNEDGVSMAALALMNQDK  132
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  133  VLMESW  138
+
+
+>TR:Q94GA9_FESAR Q94GA9 Caffeic acid O-methyltransferase OS=Festuca arundinacea 
+OX=4606 PE=2 SV=1
+Length=360
+
+ Score = 102 bits (253),  Expect = 7e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRMLRLLASYNVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:A0A0C5AW42_LOLPR A0A0C5AW42 COMT1 protein OS=Lolium perenne OX=4522 GN=COMT1 PE=3 
+SV=1
+Length=360
+
+ Score = 102 bits (253),  Expect = 7e-23
+ Identities = 52/66 (79%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRMLRLLASYNVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:U3KTQ9_BAMEM U3KTQ9 Caffeic acid-O-methyltransferase OS=Bambusa emeiensis 
+OX=280850 GN=COMT PE=2 SV=1
+Length=360
+
+ Score = 102 bits (253),  Expect = 7e-23
+ Identities = 51/65 (78%), Positives = 55/65 (85%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLASY+VV C +E+ KDG+  RRY  APV KWL PNEDGVSMAAL LMNQDKV
+Sbjct  73   MVDRMLRLLASYNVVSCVVEEGKDGRLARRYGPAPVCKWLAPNEDGVSMAALALMNQDKV  132
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  133  LMESW  137
+
+
+>TR:A0A1D5VAK1_WHEAT A0A1D5VAK1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=356
+
+ Score = 101 bits (251),  Expect = 1e-22
+ Identities = 51/66 (77%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY+VV C+ E+ KDG+  RRY AAPV K+LT NEDGVSM+AL LMNQDK
+Sbjct  68   DMVDRMLRLLASYNVVSCKTEEGKDGRLSRRYGAAPVCKYLTANEDGVSMSALALMNQDK  127
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  128  VLMESW  133
+
+
+>TR:W5GGG4_WHEAT W5GGG4 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=353
+
+ Score = 100 bits (250),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 56/66 (85%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E+ KDG+  RRY AAPV K+LTPNE+GVSMA L LMNQDK
+Sbjct  65   DMVDRMLRLLASYKVVSCTVEEGKDGRLSRRYGAAPVCKFLTPNEEGVSMAPLALMNQDK  124
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  125  VLMESW  130
+
+
+>TR:A5HB56_WHEAT A5HB56 O-methytransferase 4 OS=Triticum aestivum OX=4565 GN=OMT4 
+PE=2 SV=1
+Length=353
+
+ Score = 100 bits (250),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E DKDG+  RRY A PV K+LTPNE+GVSMA L LMNQDK
+Sbjct  65   DMVDRMLRLLASYKVVSCTLEEDKDGRLSRRYGAEPVCKFLTPNEEGVSMAPLALMNQDK  124
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  125  VLMESW  130
+
+
+>TR:A0A1D6AZE6_WHEAT A0A1D6AZE6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=360
+
+ Score = 100 bits (250),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E DKDG+  RRY A PV K+LTPNE+GVSMA L LMNQDK
+Sbjct  72   DMVDRMLRLLASYKVVSCTLEEDKDGRLSRRYGAEPVCKFLTPNEEGVSMAPLALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:A5HB55_WHEAT A5HB55 O-methyltransferase 5 OS=Triticum aestivum OX=4565 GN=OMT5 
+PE=2 SV=1
+Length=360
+
+ Score = 100 bits (250),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 55/66 (83%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E DKDG+  RRY A PV K+LTPNE+GVSMA L LMNQDK
+Sbjct  72   DMVDRMLRLLASYKVVSCTLEEDKDGRLSRRYGAEPVCKFLTPNEEGVSMAPLALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:A0A0E0I7E4_ORYNI A0A0E0I7E4 Uncharacterized protein OS=Oryza nivara OX=4536 PE=3 
+SV=1
+Length=346
+
+ Score = 100 bits (249),  Expect = 2e-22
+ Identities = 50/61 (82%), Positives = 55/61 (90%), Gaps = 1/61 (2%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  78   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  137
+
+Query  61   K  61
+            K
+Sbjct  138  K  138
+
+
+>TR:B8BAW2_ORYSI B8BAW2 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_27876 PE=4 SV=1
+Length=503
+
+ Score = 102 bits (253),  Expect = 2e-22
+ Identities = 51/62 (82%), Positives = 56/62 (90%), Gaps = 1/62 (2%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV+C+ME+  DGK  RRY+AAPV KWLTPNEDGVSMAAL LMNQD
+Sbjct  71   ADMVDRMLRLLASYNVVRCEMEEGADGKLSRRYAAAPVCKWLTPNEDGVSMAALALMNQD  130
+
+Query  61   KV  62
+            KV
+Sbjct  131  KV  132
+
+
+>TR:Q94GB0_FESAR Q94GB0 Caffeic acid O-methyltransferase OS=Festuca arundinacea 
+OX=4606 PE=2 SV=1
+Length=360
+
+ Score = 100 bits (249),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDR+LRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRILRLLASYNVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:O22381_LOLPR O22381 Bispecific caffeic acid/5-hydroxyferulic acid O-methyltransferase 
+OS=Lolium perenne OX=4522 PE=2 SV=1
+Length=360
+
+ Score = 100 bits (249),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDR+LRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRILRLLASYNVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:Q9ZTU2_LOLPR Q9ZTU2 Caffeic acid O-methyltransferase OS=Lolium perenne OX=4522 
+GN=OMT1 PE=1 SV=1
+Length=360
+
+ Score = 100 bits (249),  Expect = 2e-22
+ Identities = 51/66 (77%), Positives = 57/66 (86%), Gaps = 1/66 (2%)
+
+Query  3    DMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDR+LRLLASY+VV C +E+ KDG+  R Y AAPV K+LTPNEDGVSMAAL LMNQDK
+Sbjct  72   DMVDRILRLLASYNVVTCLVEEGKDGRLSRSYGAAPVCKFLTPNEDGVSMAALALMNQDK  131
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  132  VLMESW  137
+
+
+>TR:A0A2H3XTZ0_PHODC A0A2H3XTZ0 tricetin 3',4',5'-O-trimethyltransferase OS=Phoenix 
+dactylifera OX=42345 GN=LOC103706414 PE=3 SV=1
+Length=367
+
+ Score = 100 bits (248),  Expect = 4e-22
+ Identities = 51/67 (76%), Positives = 56/67 (84%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLRLLASY+V+ C +E D DGK  RRY  APV KWLT NEDGVSMAALTLMNQD
+Sbjct  78   AAMLDRMLRLLASYNVLTCSVEVDADGKPLRRYGPAPVCKWLTKNEDGVSMAALTLMNQD  137
+
+Query  61   KVLMESW  67
+            K+LMESW
+Sbjct  138  KILMESW  144
+
+
+>TR:A0A199W2N8_ANACO A0A199W2N8 Tricetin 3',4',5'-O-trimethyltransferase OS=Ananas 
+comosus OX=4615 GN=ACMD2_19952 PE=3 SV=1
+Length=364
+
+ Score = 99.0 bits (245),  Expect = 9e-22
+ Identities = 49/67 (73%), Positives = 54/67 (81%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVDRMLRLLASY+VV C +    DG+ +RRY   PV KWLTPN+DGVSMA L LMNQD
+Sbjct  75   ADMVDRMLRLLASYNVVACAVRPGPDGRLDRRYGPGPVCKWLTPNDDGVSMAPLALMNQD  134
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  135  KVLMESW  141
+
+
+>TR:M0SIB3_MUSAM M0SIB3 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103978658 PE=3 SV=1
+Length=362
+
+ Score = 94.0 bits (232),  Expect = 6e-20
+ Identities = 49/67 (73%), Positives = 55/67 (82%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLRLLA+Y+VV C +E D +G+  R Y AAPV K+LT NEDGVSMAAL LMNQD
+Sbjct  73   AVMVDRMLRLLAAYNVVSCTVEADAEGRPSRTYGAAPVCKYLTKNEDGVSMAALALMNQD  132
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  133  KVLMESW  139
+
+
+>TR:A0A2H3WZ21_PHODC A0A2H3WZ21 tricetin 3',4',5'-O-trimethyltransferase-like OS=Phoenix 
+dactylifera OX=42345 GN=LOC103696092 PE=3 SV=1
+Length=367
+
+ Score = 93.6 bits (231),  Expect = 9e-20
+ Identities = 46/67 (69%), Positives = 55/67 (82%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLRLLASY+++ C +E D DGK  RRY AAPV KWLT N++G SM+ALTLMNQD
+Sbjct  78   ATMLDRMLRLLASYNILTCSVEIDADGKPFRRYGAAPVCKWLTKNKEGASMSALTLMNQD  137
+
+Query  61   KVLMESW  67
+            K+LM SW
+Sbjct  138  KILMGSW  144
+
+
+>TR:N1QY02_AEGTA N1QY02 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_20925 PE=3 SV=1
+Length=331
+
+ Score = 92.8 bits (229),  Expect = 1e-19
+ Identities = 46/65 (71%), Positives = 54/65 (83%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLASY+VV C++++ +DG + RRY  APV KWLTPNEDGVS+AAL LM QDKV
+Sbjct  44   MVDRMLRLLASYNVVLCEVDEGEDGLFARRYGPAPVCKWLTPNEDGVSIAALVLMIQDKV  103
+
+Query  63   LMESW  67
+             ME W
+Sbjct  104  NMEGW  108
+
+
+>TR:A0A0C5ATR6_LOLPR A0A0C5ATR6 COMT3 protein OS=Lolium perenne OX=4522 GN=COMT3 PE=3 
+SV=1
+Length=367
+
+ Score = 93.2 bits (230),  Expect = 1e-19
+ Identities = 47/65 (72%), Positives = 53/65 (82%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLAS++VV C++E+ KDG   RRY  APV KWLTPNEDGVSMAAL LM  DKV
+Sbjct  78   MVDRMLRLLASFNVVSCEVEEGKDGLLARRYGPAPVCKWLTPNEDGVSMAALLLMCHDKV  137
+
+Query  63   LMESW  67
+             M+SW
+Sbjct  138  TMKSW  142
+
+
+>TR:W5HXI5_WHEAT W5HXI5 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=352
+
+ Score = 92.8 bits (229),  Expect = 1e-19
+ Identities = 45/67 (67%), Positives = 52/67 (78%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLR+LAS+D+V C +E+ KDG   RRYS APV KWLTPNEDGVSMA   ++ QD
+Sbjct  61   ASMVDRMLRVLASHDIVSCMVEEGKDGNLSRRYSPAPVCKWLTPNEDGVSMAPYVVVAQD  120
+
+Query  61   KVLMESW  67
+            KV ME W
+Sbjct  121  KVFMEPW  127
+
+
+>TR:M8AZU1_AEGTA M8AZU1 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_07800 PE=4 SV=1
+Length=290
+
+ Score = 91.3 bits (225),  Expect = 2e-19
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4   MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+           MVDRMLR+LAS+D+V C +E+ KDG   RRYS APV KWLTPNEDGVSMA   ++ QDKV
+Sbjct  1   MVDRMLRVLASHDIVSCMVEEGKDGNLSRRYSPAPVCKWLTPNEDGVSMAPYVVVAQDKV  60
+
+Query  63  LMESW  67
+            ME W
+Sbjct  61  FMEPW  65
+
+
+>TR:R7W4N4_AEGTA R7W4N4 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_10047 PE=3 SV=1
+Length=375
+
+ Score = 92.4 bits (228),  Expect = 2e-19
+ Identities = 51/88 (58%), Positives = 55/88 (63%), Gaps = 23/88 (26%)
+
+Query  3    DMVDRMLRLLASYDVVKCQME-----------------------DKDGKYERRYSAAPVG  39
+            DMVDRMLRLLASY VV C +E                       DKDG+  RRY A PV 
+Sbjct  65   DMVDRMLRLLASYKVVSCTLEEDKDGRLSRRYGAEPVVSCTLEEDKDGRLSRRYGAEPVC  124
+
+Query  40   KWLTPNEDGVSMAALTLMNQDKVLMESW  67
+            K+LTPNE+GVSMA L LMNQDKVLMESW
+Sbjct  125  KFLTPNEEGVSMAPLALMNQDKVLMESW  152
+
+
+>TR:A0A2K8DU99_9LILI A0A2K8DU99 Caffeic acid 3-O-methyltransferase-like isoform X1 
+OS=Daemonorops jenkinsiana OX=1510057 GN=COMT2 PE=2 SV=1
+Length=368
+
+ Score = 92.0 bits (227),  Expect = 3e-19
+ Identities = 45/67 (67%), Positives = 55/67 (82%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DR+LRLLASY+++ C +ED  DGK  RRY  APV KWLT N DGVSMAA++LMNQD
+Sbjct  79   AVMLDRILRLLASYNILTCSVEDDADGKPLRRYGPAPVCKWLTKNADGVSMAAISLMNQD  138
+
+Query  61   KVLMESW  67
+            ++LMESW
+Sbjct  139  RILMESW  145
+
+
+>TR:A5HB57_WHEAT A5HB57 O-methyltransferase 3 OS=Triticum aestivum OX=4565 GN=OMT3 
+PE=2 SV=1
+Length=362
+
+ Score = 90.9 bits (224),  Expect = 8e-19
+ Identities = 46/65 (71%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLAS +VV C++E+ KDG   RRY  APV KWLTPNEDG SMA L LM  DKV
+Sbjct  75   MVDRMLRLLASNNVVSCEVEEGKDGLLARRYGPAPVCKWLTPNEDGASMAGLLLMTHDKV  134
+
+Query  63   LMESW  67
+             MESW
+Sbjct  135  TMESW  139
+
+
+>TR:M8C808_AEGTA M8C808 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_26153 PE=3 SV=1
+Length=362
+
+ Score = 90.9 bits (224),  Expect = 8e-19
+ Identities = 46/65 (71%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLAS +VV C++E+ KDG   RRY  APV KWLTPNEDG SMA L LM  DKV
+Sbjct  75   MVDRMLRLLASNNVVSCEVEEGKDGLLARRYGPAPVCKWLTPNEDGASMAGLLLMTHDKV  134
+
+Query  63   LMESW  67
+             MESW
+Sbjct  135  TMESW  139
+
+
+>TR:A0A287GN52_HORVV A0A287GN52 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=375
+
+ Score = 90.9 bits (224),  Expect = 9e-19
+ Identities = 47/65 (72%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLAS+ VV C ME  +DG   RRYS APV KWLTPNEDGVSMA + LM QDKV
+Sbjct  88   MVDRMLRLLASHKVVTCHMEKGEDGLLTRRYSPAPVCKWLTPNEDGVSMAPMLLMVQDKV  147
+
+Query  63   LMESW  67
+            LM+ W
+Sbjct  148  LMDCW  152
+
+
+>TR:A0A287MWN3_HORVV A0A287MWN3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=358
+
+ Score = 90.5 bits (223),  Expect = 1e-18
+ Identities = 45/65 (69%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLR+LAS++VV C +ED KDG   RRY AAPV KWLTPNEDGVSMA   L  QD+V
+Sbjct  65   MVDRMLRVLASHNVVSCVVEDGKDGSLSRRYGAAPVCKWLTPNEDGVSMAPWALSAQDRV  124
+
+Query  63   LMESW  67
+             ME+W
+Sbjct  125  FMETW  129
+
+
+>SP:COMT1_CATRO Q8W013 Caffeic acid 3-O-methyltransferase OS=Catharanthus roseus 
+OX=4058 GN=COMT1 PE=2 SV=1
+Length=363
+
+ Score = 90.5 bits (223),  Expect = 1e-18
+ Identities = 47/65 (72%), Positives = 53/65 (82%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+ C ++D  DG  ER YS APV K+LT NEDGVSMAAL LMNQDKV
+Sbjct  76   MLDRILRLLASYSVLNCTLKDLPDGGIERLYSLAPVCKFLTKNEDGVSMAALLLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:M0UCB1_MUSAM M0UCB1 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103975177 PE=3 SV=1
+Length=363
+
+ Score = 90.1 bits (222),  Expect = 1e-18
+ Identities = 44/67 (66%), Positives = 55/67 (82%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A+MVDR+LRLLA+Y +V C +E  +DG+  RRY  APV ++LT NEDGVS+AA +LMNQD
+Sbjct  73   AEMVDRILRLLAAYSIVSCSVETGEDGRPSRRYGPAPVCRYLTKNEDGVSLAAASLMNQD  132
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  133  KVLMESW  139
+
+
+>TR:A0A2T7A9R2_9POAL A0A2T7A9R2 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_J048900 PE=4 SV=1
+Length=333
+
+ Score = 89.7 bits (221),  Expect = 1e-18
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 1/68 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LRLLASY+VV C +E+ +DG   RRYSAAPV KWLTPN+DGVSMA   L+  D
+Sbjct  41   ASMVDRLLRLLASYNVVSCVVEEGEDGSLSRRYSAAPVCKWLTPNKDGVSMAPFHLLAND  100
+
+Query  61   KVLMESWS  68
+            K+ M +WS
+Sbjct  101  KLFMHAWS  108
+
+
+>TR:A0A2S3IFQ5_9POAL A0A2S3IFQ5 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_8G260100 PE=4 SV=1
+Length=358
+
+ Score = 89.7 bits (221),  Expect = 2e-18
+ Identities = 44/68 (65%), Positives = 53/68 (78%), Gaps = 1/68 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LRLLASY+VV C +E+ +DG   RRYSAAPV KWLTPN+DGVSMA   L+  D
+Sbjct  66   ASMVDRLLRLLASYNVVSCVVEEGEDGSLSRRYSAAPVCKWLTPNKDGVSMAPFHLLAND  125
+
+Query  61   KVLMESWS  68
+            K+ M +WS
+Sbjct  126  KLFMHAWS  133
+
+
+>TR:A0A2G9G2M3_9LAMI A0A2G9G2M3 Hydroxyindole-O-methyltransferase OS=Handroanthus 
+impetiginosus OX=429701 GN=CDL12_27946 PE=3 SV=1
+Length=364
+
+ Score = 89.7 bits (221),  Expect = 2e-18
+ Identities = 46/65 (71%), Positives = 53/65 (82%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASYDV+ C++E   DG  ERRY  APV K+LT N+DGVSMA L LMNQDKV
+Sbjct  77   MLDRILRLLASYDVLACRLERLPDGGVERRYGLAPVCKFLTKNDDGVSMAPLLLMNQDKV  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:I1HBR8_BRADI I1HBR8 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100833782 PE=3 SV=1
+Length=354
+
+ Score = 89.4 bits (220),  Expect = 3e-18
+ Identities = 45/67 (67%), Positives = 51/67 (76%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLR+LAS++VV C +E+ KDG   RRY  APV KWLTPNEDGVSMAA  L  QD
+Sbjct  62   ASMVDRMLRVLASFNVVSCVVEEAKDGSLSRRYGPAPVCKWLTPNEDGVSMAAFALAAQD  121
+
+Query  61   KVLMESW  67
+            KV M +W
+Sbjct  122  KVHMATW  128
+
+
+>TR:A0A0C5AYV8_LOLPR A0A0C5AYV8 COMT5 protein OS=Lolium perenne OX=4522 GN=COMT5 PE=3 
+SV=1
+Length=351
+
+ Score = 89.0 bits (219),  Expect = 3e-18
+ Identities = 41/67 (61%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLR+LASY VV C++E+ KDG   RRY A PV +WL PNEDG SMA   L+ QD
+Sbjct  62   ASMIDRMLRVLASYKVVTCEVEEGKDGSLSRRYGATPVCRWLAPNEDGASMAPFALLTQD  121
+
+Query  61   KVLMESW  67
+            +V ME+W
+Sbjct  122  RVFMEAW  128
+
+
+>TR:Q9ZTU1_LOLPR Q9ZTU1 Caffeic acid O-methyltransferase OS=Lolium perenne OX=4522 
+GN=OMT2 PE=2 SV=1
+Length=351
+
+ Score = 89.0 bits (219),  Expect = 3e-18
+ Identities = 41/67 (61%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLR+LASY VV C++E+ KDG   RRY A PV +WL PNEDG SMA   L+ QD
+Sbjct  62   ASMIDRMLRVLASYKVVTCEVEEGKDGSLSRRYGATPVCRWLAPNEDGASMAPFALLTQD  121
+
+Query  61   KVLMESW  67
+            +V ME+W
+Sbjct  122  RVFMEAW  128
+
+
+>TR:A0A0C5AWL8_LOLPR A0A0C5AWL8 COMT4 protein OS=Lolium perenne OX=4522 GN=COMT4 PE=3 
+SV=1
+Length=360
+
+ Score = 89.0 bits (219),  Expect = 4e-18
+ Identities = 45/65 (69%), Positives = 53/65 (82%), Gaps = 2/65 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLASY+VV C+++  KDG   RRY AAPV KWLTPN+DGVS+  L +MN DKV
+Sbjct  73   MVDRMLRLLASYNVVSCEVQQGKDGVLARRYGAAPVCKWLTPNKDGVSLGPLVVMN-DKV  131
+
+Query  63   LMESW  67
+            LME+W
+Sbjct  132  LMETW  136
+
+
+>TR:Q5KSL8_IRIHO Q5KSL8 Caffeic acid O-methyltransferase OS=Iris hollandica OX=35876 
+GN=IhCOMT PE=2 SV=1
+Length=365
+
+ Score = 88.6 bits (218),  Expect = 5e-18
+ Identities = 46/66 (70%), Positives = 51/66 (77%), Gaps = 2/66 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQME--DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            M+DRMLRLLA Y VV C+++    DGK  RRY A  V K+LT NEDGVSMAALTLMNQDK
+Sbjct  77   MIDRMLRLLACYSVVSCRVDAAGDDGKPRRRYGAERVVKYLTKNEDGVSMAALTLMNQDK  136
+
+Query  62   VLMESW  67
+            V MESW
+Sbjct  137  VFMESW  142
+
+
+>TR:A0A287ENA5_HORVV A0A287ENA5 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=129
+
+ Score = 83.6 bits (205),  Expect = 6e-18
+ Identities = 40/67 (60%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LA+Y VV C +++  DG   RRY A PV KWLTPNEDGVSMA   L+ Q+
+Sbjct  63   ASMVDRLLRVLATYKVVSCLVDECADGSLSRRYGAEPVCKWLTPNEDGVSMAPFCLLAQN  122
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  123  KLFMEAW  129
+
+
+>TR:D3Y4F2_9ROSI D3Y4F2 Caffeic acid O-methyltransferase (Fragment) OS=Salix miyabeana 
+OX=706668 PE=2 SV=1
+Length=203
+
+ Score = 85.5 bits (210),  Expect = 6e-18
+ Identities = 42/64 (66%), Positives = 52/64 (81%), Gaps = 1/64 (2%)
+
+Query  5   VDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+           +DR+LRLLASY ++ C ++D  DGK ER Y+ APV K+LT NEDGVS++ L LMNQDKVL
+Sbjct  1   LDRILRLLASYSILTCSLKDLPDGKVERLYAVAPVCKFLTKNEDGVSVSPLCLMNQDKVL  60
+
+Query  64  MESW  67
+           MESW
+Sbjct  61  MESW  64
+
+
+>TR:A0A2K1Y6X5_POPTR A0A2K1Y6X5 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_012G006400v3 PE=3 SV=1
+Length=256
+
+ Score = 86.7 bits (213),  Expect = 7e-18
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:I1HBR9_BRADI I1HBR9 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100838174 PE=3 SV=1
+Length=355
+
+ Score = 88.2 bits (217),  Expect = 7e-18
+ Identities = 43/67 (64%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LASY VV C +E+ KDG   RRY  APV KWLTPNEDGVSMA   L+ QD
+Sbjct  63   ASMVDRLLRVLASYSVVSCVVEEAKDGSLSRRYGPAPVCKWLTPNEDGVSMAPFCLLAQD  122
+
+Query  61   KVLMESW  67
+            +V  E+W
+Sbjct  123  RVFTETW  129
+
+
+>TR:M0RXJ5_MUSAM M0RXJ5 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 PE=3 SV=1
+Length=365
+
+ Score = 88.2 bits (217),  Expect = 7e-18
+ Identities = 46/67 (69%), Positives = 54/67 (81%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LRLLA+Y +V C +E  +DG+  R Y AAPV K+LT NEDGVS AAL+LMNQD
+Sbjct  76   AAMVDRILRLLAAYGIVSCAVEAGRDGRPCRMYGAAPVCKYLTRNEDGVSFAALSLMNQD  135
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  136  KVLMESW  142
+
+
+>TR:Q9SWR0_LIQST Q9SWR0 Caffeate O-methyltransferase OS=Liquidambar styraciflua 
+OX=4400 GN=COMT PE=2 SV=1
+Length=367
+
+ Score = 88.2 bits (217),  Expect = 7e-18
+ Identities = 46/67 (69%), Positives = 53/67 (79%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLRLLASY V+ C +    DGK ER Y  APV K+LT N+DGVS+AAL+LMNQD
+Sbjct  76   AVMLDRMLRLLASYSVLTCSLRTLPDGKIERLYGLAPVCKFLTRNDDGVSIAALSLMNQD  135
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  136  KVLMESW  142
+
+
+>TR:M0ZIL6_SOLTU M0ZIL6 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102590869 
+PE=4 SV=1
+Length=140
+
+ Score = 83.6 bits (205),  Expect = 8e-18
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K+LT N DGVS+A L LMNQDKV
+Sbjct  76   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKFLTKNADGVSVAPLLLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:D3Y4F1_9ROSI D3Y4F1 Caffeic acid O-methyltransferase (Fragment) OS=Salix sachalinensis 
+OX=75718 PE=2 SV=1
+Length=203
+
+ Score = 85.1 bits (209),  Expect = 9e-18
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  5   VDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+           +DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKVL
+Sbjct  1   LDRILRLLASYSILTCSLKDLPDGKVERLYGVAPVCKFLTKNEDGVSVSPLCLMNQDKVL  60
+
+Query  64  MESW  67
+           MESW
+Sbjct  61  MESW  64
+
+
+>SP:COMT1_CLABR O23760 Caffeic acid 3-O-methyltransferase OS=Clarkia breweri 
+OX=36903 GN=COMT PE=1 SV=1
+Length=370
+
+ Score = 87.8 bits (216),  Expect = 1e-17
+ Identities = 45/65 (69%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY VV C + +  DGK ER Y  APV K+LT NEDGVS+A L LMNQDKV
+Sbjct  81   MLDRVLRLLASYSVVTCSLRELPDGKVERLYGLAPVCKFLTKNEDGVSLAPLCLMNQDKV  140
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  141  LMESW  145
+
+
+>TR:J9RMM5_POPNI J9RMM5 Caffeate O-methyltransferase (Fragment) OS=Populus nigra 
+OX=3691 GN=COMT2 PE=4 SV=1
+Length=116
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  53   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  112
+
+Query  63   LMES  66
+            LMES
+Sbjct  113  LMES  116
+
+
+>TR:J9RGE9_POPNI J9RGE9 Caffeate O-methyltransferase (Fragment) OS=Populus nigra 
+OX=3691 GN=COMT2 PE=4 SV=1
+Length=117
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  54   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  113
+
+Query  63   LMES  66
+            LMES
+Sbjct  114  LMES  117
+
+
+>TR:J9RBX8_POPAL J9RBX8 Caffeate O-methyltransferase (Fragment) OS=Populus alba 
+OX=43335 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RBZ4_POPNI J9RBZ4 Caffeate O-methyltransferase (Fragment) OS=Populus nigra 
+OX=3691 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RBX2_POPTR J9RBX2 Caffeate O-methyltransferase (Fragment) OS=Populus trichocarpa 
+OX=3694 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RGC1_POPAL J9RGC1 Caffeate O-methyltransferase (Fragment) OS=Populus alba 
+OX=43335 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9QXJ3_POPAL J9QXJ3 Caffeate O-methyltransferase (Fragment) OS=Populus alba 
+OX=43335 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RJR9_9ROSI J9RJR9 Caffeate O-methyltransferase (Fragment) OS=Populus fremontii 
+OX=295326 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RME7_POPTR J9RME7 Caffeate O-methyltransferase (Fragment) OS=Populus trichocarpa 
+OX=3694 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:J9RBW7_POPTR J9RBW7 Caffeate O-methyltransferase (Fragment) OS=Populus trichocarpa 
+OX=3694 GN=COMT2 PE=4 SV=1
+Length=118
+
+ Score = 82.4 bits (202),  Expect = 1e-17
+ Identities = 42/64 (66%), Positives = 51/64 (80%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  55   MLDRILRLLASYSILTCSLKDXPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  114
+
+Query  63   LMES  66
+            LMES
+Sbjct  115  LMES  118
+
+
+>TR:I1GQC9_BRADI I1GQC9 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=LOC100842290 PE=3 SV=1
+Length=357
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY+VV C++E+ ++G   RRY  APV KWLTPN+DGVSM  L L+ QDKV
+Sbjct  70   MLDRMLRLLASYNVVSCEVEEGQEGLLARRYGPAPVCKWLTPNDDGVSMDPLALLIQDKV  129
+
+Query  63   LMESW  67
+             MESW
+Sbjct  130  SMESW  134
+
+
+>TR:A0A2I0WPG6_9ASPA A0A2I0WPG6 Tricetin 3',4',5'-O-trimethyltransferase OS=Dendrobium 
+catenatum OX=906689 GN=OMT2 PE=3 SV=1
+Length=358
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 44/64 (69%), Positives = 51/64 (80%), Gaps = 3/64 (5%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            M+DR+LRLLASY ++ C +       ERRY AAPV K+LTPN DGVSMAAL+LMNQDKVL
+Sbjct  75   MLDRILRLLASYSILTCSLSPSG---ERRYGAAPVCKFLTPNADGVSMAALSLMNQDKVL  131
+
+Query  64   MESW  67
+            MESW
+Sbjct  132  MESW  135
+
+
+>TR:A0A0Q3JQG9_BRADI A0A0Q3JQG9 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_1g14870v3 PE=3 SV=1
+Length=364
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY+VV C++E+ ++G   RRY  APV KWLTPN+DGVSM  L L+ QDKV
+Sbjct  77   MLDRMLRLLASYNVVSCEVEEGQEGLLARRYGPAPVCKWLTPNDDGVSMDPLALLIQDKV  136
+
+Query  63   LMESW  67
+             MESW
+Sbjct  137  SMESW  141
+
+
+>TR:S8E4G5_9LAMI S8E4G5 Uncharacterized protein OS=Genlisea aurea OX=192259 GN=M569_07558 
+PE=3 SV=1
+Length=364
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLA YDV+ C++E   DG  ERRY   PV K+LT NEDGVSMA L LMNQDKV
+Sbjct  77   VIDRILRLLACYDVLSCRVETLADGGIERRYGLGPVCKFLTKNEDGVSMAPLVLMNQDKV  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:A0A024FRQ7_9APIA A0A024FRQ7 5-hydroxyconiferylaldehyde O-methyltransferase OS=Anthriscus 
+sylvestris OX=48027 GN=CAldOMT PE=3 SV=1
+Length=365
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+KCQ+ D   G+ ER Y  APV K+LT N DGVSMA L LMNQDK+
+Sbjct  78   MLDRILRLLASYSVLKCQLRDLPHGRVERLYGLAPVCKFLTKNSDGVSMAPLLLMNQDKI  137
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  138  LMESW  142
+
+
+>TR:A0A2P2NZ83_RHIMU A0A2P2NZ83 Putative caffeic acid O-methyltransferase OS=Rhizophora 
+mucronata OX=61149 PE=3 SV=1
+Length=365
+
+ Score = 87.4 bits (215),  Expect = 1e-17
+ Identities = 44/67 (66%), Positives = 54/67 (81%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A ++DR+LRLLASY ++ C ++   DGK ER Y  APV K+LT NEDGVS+AAL+LMNQD
+Sbjct  74   AVLLDRILRLLASYSILTCSLKTHPDGKVERLYGLAPVCKFLTKNEDGVSLAALSLMNQD  133
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  134  KVLMESW  140
+
+
+>TR:M7ZE74_TRIUA M7ZE74 Flavone O-methyltransferase 1 OS=Triticum urartu OX=4572 
+GN=TRIUR3_22149 PE=4 SV=1
+Length=170
+
+ Score = 83.6 bits (205),  Expect = 2e-17
+ Identities = 44/67 (66%), Positives = 51/67 (76%), Gaps = 1/67 (1%)
+
+Query  3    DMVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            DMVDRMLRLLASY VV C +E DKDG+  RRY A PV K+LT NE+GVSM  LTLMNQD 
+Sbjct  65   DMVDRMLRLLASYKVVSCTVEEDKDGRLSRRYGAVPVYKFLTLNEEGVSMMPLTLMNQDM  124
+
+Query  62   VLMESWS  68
+            + + + S
+Sbjct  125  ISLGTLS  131
+
+
+>TR:A0A1D5RZN4_WHEAT A0A1D5RZN4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=392
+
+ Score = 87.4 bits (215),  Expect = 2e-17
+ Identities = 45/65 (69%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLRLLA++ VV C+ME  +DG   RRYS APV KWLT NEDGVSMA + LM QDKV
+Sbjct  105  MVDRMLRLLATHKVVSCEMEKGEDGLLVRRYSPAPVCKWLTANEDGVSMAPMLLMVQDKV  164
+
+Query  63   LMESW  67
+            LM+ W
+Sbjct  165  LMDCW  169
+
+
+>TR:A0A287EHH0_HORVV A0A287EHH0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=230
+
+ Score = 84.7 bits (208),  Expect = 2e-17
+ Identities = 41/67 (61%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  2   ADMVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+           A MVDR+LR+LA+Y VV C + E  DG   RRY A PV KWLTPNE+GVSMA   L+ QD
+Sbjct  17  ASMVDRLLRVLAAYKVVSCVVAESSDGSLSRRYGAEPVCKWLTPNEEGVSMAPFCLLAQD  76
+
+Query  61  KVLMESW  67
+           K+ ME+W
+Sbjct  77  KLFMEAW  83
+
+
+>TR:A0A2T7CR51_9POAL A0A2T7CR51 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_8G255200 PE=4 SV=1
+Length=358
+
+ Score = 86.7 bits (213),  Expect = 2e-17
+ Identities = 42/68 (62%), Positives = 52/68 (76%), Gaps = 1/68 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LRLLASY+VV C +E+ +DG   R+Y AAPV KWLTPN+DGVSMA   L+  D
+Sbjct  66   ASMVDRLLRLLASYNVVSCVVEEGEDGSLSRQYGAAPVCKWLTPNKDGVSMAPFHLLAND  125
+
+Query  61   KVLMESWS  68
+            K+ M +WS
+Sbjct  126  KLFMHAWS  133
+
+
+>TR:Q9M569_POPTO Q9M569 Caffeic acid O-3-methyltransferase (Fragment) OS=Populus 
+tomentosa OX=118781 GN=COMT PE=2 SV=1
+Length=360
+
+ Score = 86.7 bits (213),  Expect = 2e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A1D1YQD3_9ARAE A0A1D1YQD3 Caffeic acid 3-O-methyltransferase (Fragment) OS=Anthurium 
+amnicola OX=1678845 GN=COMT1_9 PE=3 SV=1
+Length=301
+
+ Score = 85.9 bits (211),  Expect = 2e-17
+ Identities = 44/66 (67%), Positives = 51/66 (77%), Gaps = 2/66 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED--KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            M+DR+LRLLASY ++ C + D  + GK  RRY  APV K+LT N DGVSMAAL LMNQDK
+Sbjct  78   MLDRILRLLASYSILTCSLVDVVEGGKVGRRYGLAPVCKFLTKNADGVSMAALALMNQDK  137
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  138  VLMESW  143
+
+
+>TR:A0A1P8W1R3_POPTO A0A1P8W1R3 Caffeic acid/5-hydroxyferulic acid O-methyltransferase 
+2 OS=Populus tomentosa OX=118781 GN=COMT2 PE=2 SV=1
+Length=362
+
+ Score = 86.7 bits (213),  Expect = 2e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A1P8W1Q7_POPTO A0A1P8W1Q7 Caffeic acid/5-hydroxyferulic acid O-methyltransferase 
+1 OS=Populus tomentosa OX=118781 GN=COMT1 PE=2 SV=1
+Length=364
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  75   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:Q9LWB8_9ROSI Q9LWB8 O-methyltransferase OS=Populus trichocarpa x Populus deltoides 
+OX=3695 PE=2 SV=1
+Length=364
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A7ULI1_POPDE A7ULI1 Caffeic acid O-3-methyltransferase OS=Populus deltoides 
+OX=3696 PE=2 SV=1
+Length=364
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDHPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A9P830_POPTR A9P830 Caffeic acid 3-O-methyltransferase 1 OS=Populus trichocarpa 
+OX=3694 GN=COMT1 PE=2 SV=1
+Length=364
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0F6V0E6_POPTO A0A0F6V0E6 Caffeic Acid5-Hydroxyferulic Acid 35-O-Methyltransferase 
+OS=Populus tomentosa OX=118781 GN=Potri.012G006400 PE=2 
+SV=1
+Length=364
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>SP:COMT1_POPTM Q00763 Caffeic acid 3-O-methyltransferase 1 OS=Populus tremuloides 
+OX=3693 GN=OMT1 PE=1 SV=1
+Length=365
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>SP:COMT1_POPKI Q43046 Caffeic acid 3-O-methyltransferase 1 OS=Populus kitakamiensis 
+OX=34292 GN=HOMT1 PE=3 SV=1
+Length=365
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:L0AUQ7_POPTO L0AUQ7 Caffeic acid O-methyltransferase OS=Populus tomentosa 
+OX=118781 PE=3 SV=1
+Length=365
+
+ Score = 86.7 bits (213),  Expect = 3e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C ++D  DGK ER Y  APV K+LT NEDGVS++ L LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLKDLPDGKVERLYGLAPVCKFLTKNEDGVSVSPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A1D5W916_WHEAT A0A1D5W916 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=349
+
+ Score = 86.3 bits (212),  Expect = 3e-17
+ Identities = 43/67 (64%), Positives = 51/67 (76%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LRLLASY+VV C +E+ +DG   RRY AAPV KWLT NEDG S+A   L+  D
+Sbjct  60   ASMVDRILRLLASYNVVSCVVEEGEDGSLSRRYGAAPVCKWLTINEDGASLAPFALLATD  119
+
+Query  61   KVLMESW  67
+            K+LMESW
+Sbjct  120  KMLMESW  126
+
+
+>TR:A0A1D5ZJV6_WHEAT A0A1D5ZJV6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=361
+
+ Score = 86.3 bits (212),  Expect = 3e-17
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDR+LRLLASY VV C+++  +DG + RRY  APV KWLTPNE GVS+AAL LM QDKV
+Sbjct  74   MVDRILRLLASYKVVLCEVDQGEDGLFARRYGPAPVCKWLTPNEVGVSIAALVLMIQDKV  133
+
+Query  63   LMESW  67
+             ME W
+Sbjct  134  NMEGW  138
+
+
+>TR:A0A1I9RGJ6_RAUSE A0A1I9RGJ6 Caffeic acid OMT OS=Rauvolfia serpentina OX=4060 GN=OMT3 
+PE=2 SV=1
+Length=362
+
+ Score = 86.3 bits (212),  Expect = 3e-17
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+ C + +  DG  ER Y  APV K+LT NEDGVSMAAL LMNQDK+
+Sbjct  75   MLDRILRLLASYSVLNCTLRNLPDGGVERLYGLAPVCKFLTKNEDGVSMAALLLMNQDKI  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A2R6RSD4_ACTCH A0A2R6RSD4 Caffeic acid 3-O-methyltransferase (Fragment) OS=Actinidia 
+chinensis var. chinensis OX=1590841 GN=CEY00_Acc03238 
+PE=4 SV=1
+Length=161
+
+ Score = 82.4 bits (202),  Expect = 4e-17
+ Identities = 42/65 (65%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLL SY V+KC + D  +G  ER Y   PV K+LT N DGVSMA L LMNQDKV
+Sbjct  76   MIDRILRLLTSYSVLKCDLRDLPEGGVERLYGLEPVCKFLTRNADGVSMAPLALMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A2I0VE91_9ASPA A0A2I0VE91 Tricetin 3',4',5'-O-trimethyltransferase OS=Dendrobium 
+catenatum OX=906689 GN=OMT2 PE=3 SV=1
+Length=336
+
+ Score = 85.9 bits (211),  Expect = 4e-17
+ Identities = 43/64 (67%), Positives = 50/64 (78%), Gaps = 3/64 (5%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            M+DR+LRLLASY ++ C +       ERRY AAPV K+LTPN DGVSMAAL LMNQDK+L
+Sbjct  54   MLDRILRLLASYSILTCSLSPSG---ERRYGAAPVCKFLTPNADGVSMAALALMNQDKML  110
+
+Query  64   MESW  67
+            MESW
+Sbjct  111  MESW  114
+
+
+>TR:A0A0D2RMU5_GOSRA A0A0D2RMU5 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_008G264900 PE=3 SV=1
+Length=275
+
+ Score = 84.7 bits (208),  Expect = 5e-17
+ Identities = 42/65 (65%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+V+ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  98   MLDRILRLLASYNVLTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  157
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  158  LMESW  162
+
+
+>TR:A0A0K1YW34_9APIA A0A0K1YW34 Caffeic acid 3-O-methyltransferase OS=Ligusticum sinense 
+OX=49555 PE=2 SV=1
+Length=362
+
+ Score = 85.9 bits (211),  Expect = 5e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+ CQ+ D   G+ ER Y  APV K+LT N DGVSMA L LMNQDK+
+Sbjct  75   MLDRILRLLASYSVLNCQLRDLPQGRVERLYGLAPVCKFLTKNSDGVSMAPLLLMNQDKI  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:D3JX97_EUCCA D3JX97 Caffeic O-methyltransferase1 OS=Eucalyptus camaldulensis 
+OX=34316 GN=COMT1 PE=3 SV=1
+Length=366
+
+ Score = 85.9 bits (211),  Expect = 5e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + D  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  77   MLDRIFRLLASYSVLTCTLRDLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:D1LZD7_EUCCA D1LZD7 Caffeic O-methyltransferase 1 OS=Eucalyptus camaldulensis 
+OX=34316 PE=2 SV=1
+Length=366
+
+ Score = 85.9 bits (211),  Expect = 5e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + D  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  77   MLDRIFRLLASYSVLTCTLRDLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:A0A1L1WAR1_EUCUR A0A1L1WAR1 Caffeic acid O-methyltransferase OS=Eucalyptus urophylla 
+OX=99020 PE=3 SV=1
+Length=366
+
+ Score = 85.9 bits (211),  Expect = 5e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + D  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  77   MLDRIFRLLASYSVLTCTLRDLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:A0A1N7T5U3_EUCUR A0A1N7T5U3 Caffeic acid O-methyltransferase OS=Eucalyptus urophylla 
+OX=99020 PE=2 SV=1
+Length=366
+
+ Score = 85.9 bits (211),  Expect = 5e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + D  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  77   MLDRIFRLLASYSVLTCTLRDLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:A0A287EN87_HORVV A0A287EN87 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=224
+
+ Score = 83.6 bits (205),  Expect = 5e-17
+ Identities = 40/67 (60%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LA+Y VV C +++  DG   RRY A PV KWLTPNEDGVSMA   L+ Q+
+Sbjct  63   ASMVDRLLRVLATYKVVSCLVDECADGSLSRRYGAEPVCKWLTPNEDGVSMAPFCLLAQN  122
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  123  KLFMEAW  129
+
+
+>TR:M8C7H1_AEGTA M8C7H1 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_26154 PE=3 SV=1
+Length=339
+
+ Score = 85.5 bits (210),  Expect = 5e-17
+ Identities = 41/65 (63%), Positives = 55/65 (85%), Gaps = 2/65 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            +VDRMLRLLAS++VV C++E+ KDG+  RRY  APV KWL+P+EDGVS+A + L+N DKV
+Sbjct  53   IVDRMLRLLASHNVVSCEVEEGKDGRLARRYGTAPVCKWLSPDEDGVSLAPMVLLN-DKV  111
+
+Query  63   LMESW  67
+            ++ESW
+Sbjct  112  MLESW  116
+
+
+>TR:W5HZD5_WHEAT W5HZD5 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=3 
+SV=1
+Length=352
+
+ Score = 85.5 bits (210),  Expect = 6e-17
+ Identities = 42/67 (63%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLR+LAS+ +V C + E KDG   RRYS APV KWL+PNEDGVSMA   ++ QD
+Sbjct  61   ASMVDRMLRVLASHKIVSCMVKEGKDGSISRRYSPAPVCKWLSPNEDGVSMAPYVVLAQD  120
+
+Query  61   KVLMESW  67
+            KV M  W
+Sbjct  121  KVFMAPW  127
+
+
+>TR:A0A1D6DAL1_WHEAT A0A1D6DAL1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=353
+
+ Score = 85.5 bits (210),  Expect = 6e-17
+ Identities = 41/65 (63%), Positives = 55/65 (85%), Gaps = 2/65 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            +VDRMLRLLAS++VV C++E+ KDG+  RRY  APV KWL+P+EDGVS+A + L+N DKV
+Sbjct  67   IVDRMLRLLASHNVVSCEVEEGKDGRLARRYGTAPVCKWLSPDEDGVSLAPMVLLN-DKV  125
+
+Query  63   LMESW  67
+            ++ESW
+Sbjct  126  MLESW  130
+
+
+>TR:A0A200RB22_9MAGN A0A200RB22 O-methyltransferase OS=Macleaya cordata OX=56857 GN=BVC80_237g12 
+PE=3 SV=1
+Length=365
+
+ Score = 85.5 bits (210),  Expect = 7e-17
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY ++ C ++D +DGK ER Y  APV K+LT NE G SMA L LMNQDKV
+Sbjct  78   MLDRMLRLLASYKILTCSLKDLEDGKVERVYGLAPVCKFLTKNEVGCSMAPLLLMNQDKV  137
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  138  LMESW  142
+
+
+>TR:A0A059DE98_EUCGR A0A059DE98 Uncharacterized protein OS=Eucalyptus grandis OX=71139 
+GN=EUGRSUZ_A01397 PE=3 SV=1
+Length=429
+
+ Score = 85.9 bits (211),  Expect = 7e-17
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + D  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  140  MLDRIFRLLASYSVLTCTLRDLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  199
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  200  LMESW  204
+
+
+>TR:I6M4T0_ZEALU I6M4T0 Putative transposase OS=Zea luxurians OX=15945 PE=4 SV=1
+Length=722
+
+ Score = 86.3 bits (212),  Expect = 8e-17
+ Identities = 40/65 (62%), Positives = 52/65 (80%), Gaps = 0/65 (0%)
+
+Query  173  STSTATHGTSTGGRILEDRRRRLLPENVEMLTCIKDWELGATREQHATEDTELEEAFEKL  232
+            ST ++    S   RI+E+RRRRLLPENVEMLTC+KDWELG  REQHA ++ ELE++F+ L
+Sbjct  653  STVSSESCFSLTERIIEERRRRLLPENVEMLTCLKDWELGEKREQHAVDNPELEDSFQNL  712
+
+Query  233  YLDEE  237
+            +LDE+
+Sbjct  713  FLDED  717
+
+
+ Score = 43.1 bits (100),  Expect = 0.019
+ Identities = 27/63 (43%), Positives = 38/63 (60%), Gaps = 8/63 (13%)
+
+Query  129  EDDDDLRQDAAALFGVDAGDGPLPPIDVDALDGDGGGGTATHT----GSTST-ATHGTST  183
+            +D+DD++ DAAAL G+D       P+D+ +   + GGG AT T    GSTST    GTS+
+Sbjct  24   DDEDDIQADAAALLGIDLTSA---PVDLSSNPTNAGGGPATATDTPVGSTSTDGGTGTSS  80
+
+Query  184  GGR  186
+             G+
+Sbjct  81   VGK  83
+
+
+>SP:COMT1_OCIBA Q9XGW0 Caffeic acid 3-O-methyltransferase 1 OS=Ocimum basilicum 
+OX=39350 GN=COMT1 PE=2 SV=1
+Length=361
+
+ Score = 85.1 bits (209),  Expect = 9e-17
+ Identities = 43/65 (66%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLL SY +++C+++   DG  ER Y  APV K+LT NEDGVSMA LTLMNQDKV
+Sbjct  74   MLDRILRLLTSYAILECRLKTLPDGGVERLYGLAPVCKFLTKNEDGVSMAPLTLMNQDKV  133
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  134  LMESW  138
+
+
+>TR:A0A024FS56_9APIA A0A024FS56 Hypothetical plant O-methyltransferase OS=Anthriscus 
+sylvestris OX=48027 PE=3 SV=1
+Length=365
+
+ Score = 85.1 bits (209),  Expect = 9e-17
+ Identities = 43/65 (66%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+KC++ D   G  ER Y+ APV K+LT N DGVSMA L LMNQDK+
+Sbjct  78   MLDRILRLLASYSVLKCKLRDLPQGGVERLYALAPVCKFLTKNSDGVSMAPLLLMNQDKI  137
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  138  LMESW  142
+
+
+>TR:A0A061G2D1_THECC A0A061G2D1 Caffeic acid 3-O-methyltransferase 1 OS=Theobroma 
+cacao OX=3641 GN=TCM_015522 PE=3 SV=1
+Length=365
+
+ Score = 85.1 bits (209),  Expect = 9e-17
+ Identities = 42/65 (65%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+ C +    DGK ER YS  PV K+LT NEDGV++++L+LMNQDKV
+Sbjct  76   MLDRILRLLASYSVLNCSLRTLPDGKVERLYSLGPVCKFLTKNEDGVTLSSLSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A224XFB0_9ROSI A0A224XFB0 Caffeic acid O-methyltransferase OS=Hypericum kalmianum 
+OX=473045 PE=3 SV=1
+Length=365
+
+ Score = 85.1 bits (209),  Expect = 9e-17
+ Identities = 43/65 (66%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLASY +V C +    DGK  R Y  APV K+LT NEDGVS+AAL+LMNQDKV
+Sbjct  76   ILDRILRLLASYSIVTCSLGSSPDGKTGRLYGLAPVCKYLTKNEDGVSLAALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:S5QCI4_9ROSI S5QCI4 Caffeic acid O-methyltransferase OS=Hibiscus cannabinus 
+OX=229543 GN=COMT PE=2 SV=1
+Length=306
+
+ Score = 84.3 bits (207),  Expect = 9e-17
+ Identities = 41/65 (63%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLRSLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:I0IJZ5_9MYRT I0IJZ5 Caffeic acid O-methyltransferase 2 (Fragment) OS=Eucalyptus 
+pyrocarpa OX=904381 GN=COMT2 PE=3 SV=1
+Length=312
+
+ Score = 84.3 bits (207),  Expect = 1e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + +  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  58   MLDRIFRLLASYSVLTCSLRNLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  117
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  118  LMESW  122
+
+
+>TR:M0Z1R8_HORVV M0Z1R8 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=352
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 41/67 (61%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LA+Y VV C + E  DG   RRY A PV KWLTPNE+GVSMA   L+ QD
+Sbjct  63   ASMVDRLLRVLAAYKVVSCVVAESSDGSLSRRYGAEPVCKWLTPNEEGVSMAPFCLLAQD  122
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  123  KLFMEAW  129
+
+
+>TR:A0A1X9RU77_9ROSI A0A1X9RU77 COMT1 (Fragment) OS=Hibiscus sabdariffa OX=183260 
+PE=2 SV=1
+Length=320
+
+ Score = 84.3 bits (207),  Expect = 1e-16
+ Identities = 41/65 (63%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLRSLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A2G5D966_AQUCA A0A2G5D966 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_02500032v1 PE=4 SV=1
+Length=139
+
+ Score = 80.5 bits (197),  Expect = 1e-16
+ Identities = 41/65 (63%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLASY ++ C M + +DG+ ER Y  A V K+L  NEDGVSMA L LMNQDKV
+Sbjct  75   ILDRILRLLASYKILTCNMPNLEDGEVERLYGLASVCKFLVKNEDGVSMAPLVLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A1D1Z358_9ARAE A0A1D1Z358 Caffeic acid 3-O-methyltransferase (Fragment) OS=Anthurium 
+amnicola OX=1678845 GN=COMT1_3 PE=4 SV=1
+Length=153
+
+ Score = 80.9 bits (198),  Expect = 1e-16
+ Identities = 43/66 (65%), Positives = 49/66 (74%), Gaps = 2/66 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQM--EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            MVDR+LR+LASYD+V C +    + GK  RRY  APV K+LT N DGVSMA L LM QDK
+Sbjct  74   MVDRILRVLASYDIVTCSLVVAVEGGKVGRRYGLAPVCKFLTKNGDGVSMAPLVLMAQDK  133
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  134  VLMESW  139
+
+
+>TR:A0A287EHL3_HORVV A0A287EHL3 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=354
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 41/67 (61%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LA+Y VV C + E  DG   RRY A PV KWLTPNE+GVSMA   L+ QD
+Sbjct  65   ASMVDRLLRVLAAYKVVSCVVAESSDGSLSRRYGAEPVCKWLTPNEEGVSMAPFCLLAQD  124
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  125  KLFMEAW  131
+
+
+>TR:A0A1X9RU89_9ROSI A0A1X9RU89 COMT3 (Fragment) OS=Hibiscus sabdariffa OX=183260 
+PE=2 SV=1
+Length=364
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 41/65 (63%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + +  DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  68   MLDRILRLLASYSILTCSLRNLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  127
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  128  LMESW  132
+
+
+>TR:A0A1J0CLH2_FRAAN A0A1J0CLH2 O-methyltransferase OS=Fragaria ananassa OX=3747 GN=OMT 
+PE=2 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY ++ C +    DGK ER Y   PV K+LT NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRMLRLLASYSILTCSLRTLPDGKVERLYCLGPVCKFLTKNEDGVSIAALCLMNQDKV  135
+
+Query  63   LMESW  67
+            L+ESW
+Sbjct  136  LVESW  140
+
+
+>TR:Q9M602_FRAAN Q9M602 O-methyltransferase OS=Fragaria ananassa OX=3747 GN=omt1 
+PE=2 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY ++ C +    DGK ER Y   PV K+LT NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRMLRLLASYSILTCSLRTLPDGKVERLYCLGPVCKFLTKNEDGVSIAALCLMNQDKV  135
+
+Query  63   LMESW  67
+            L+ESW
+Sbjct  136  LVESW  140
+
+
+>TR:A0A2P5RC59_GOSBA A0A2P5RC59 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD18692 PE=3 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 42/65 (65%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+V+ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLASYNVLTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0D5CCX3_9APIA A0A0D5CCX3 Caffeic acid O-methyltransferase OS=Angelica sinensis 
+OX=165353 GN=COMT PE=2 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 44/66 (67%), Positives = 54/66 (82%), Gaps = 3/66 (5%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED--KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            M+DR+LRLLASY V+KC+++D  +DG  ER Y+ APV K+LT N DGVSMA L LMNQDK
+Sbjct  78   MLDRILRLLASYSVLKCKLQDLPQDG-VERLYALAPVCKFLTKNSDGVSMAPLLLMNQDK  136
+
+Query  62   VLMESW  67
+            +LMESW
+Sbjct  137  ILMESW  142
+
+
+>TR:A7U0E5_LEULE A7U0E5 Caffeic acid o-methyl transferase OS=Leucaena leucocephala 
+OX=3866 PE=2 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 43/67 (64%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRM+RLLA Y+V+ C +    DGK ER Y  APV K+L  NEDGVS+A L LMNQD
+Sbjct  74   AVMLDRMMRLLACYNVLSCSVRTLPDGKIERLYGLAPVAKYLVKNEDGVSIAPLNLMNQD  133
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  134  KVLMESW  140
+
+
+>TR:A0A193DSD7_MANES A0A193DSD7 HIOMT1 OS=Manihot esculenta OX=3983 GN=MANES_01G043700 
+PE=2 SV=1
+Length=365
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++K  +    DGK ER Y  APV K+LT NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRILRLLASYSILKFSLRTLPDGKVERLYGLAPVCKFLTKNEDGVSIAALCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A068FLE8_PUNGR A0A068FLE8 Caffeic O-methyltransferase OS=Punica granatum OX=22663 
+GN=COMT PE=2 SV=1
+Length=370
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 43/64 (67%), Positives = 50/64 (78%), Gaps = 1/64 (2%)
+
+Query  5    VDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            +DR+LRLLASY V+ C++ D  DGK ER Y   PV K+LT NEDGVS+A L LMNQDKVL
+Sbjct  82   LDRVLRLLASYSVLTCKLRDLPDGKVERLYGLGPVCKFLTKNEDGVSIAPLCLMNQDKVL  141
+
+Query  64   MESW  67
+            MESW
+Sbjct  142  MESW  145
+
+
+>TR:A0A1X9RU81_9ROSI A0A1X9RU81 COMT2 (Fragment) OS=Hibiscus sabdariffa OX=183260 
+PE=2 SV=1
+Length=374
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 41/65 (63%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + +  DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  68   MLDRILRLLASYSILTCSLRNFPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  127
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  128  LMESW  132
+
+
+>TR:I0IJZ6_EUCGG I0IJZ6 Caffeic acid O-methyltransferase 2 (Fragment) OS=Eucalyptus 
+globulus subsp. globulus OX=71271 GN=COMT2 PE=3 SV=1
+Length=312
+
+ Score = 84.0 bits (206),  Expect = 1e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + +  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  58   MLDRIFRLLASYSVLTCTLRNLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  117
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  118  LMESW  122
+
+
+>TR:A0A2K1XFU0_POPTR A0A2K1XFU0 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_015G003100v3 PE=3 SV=1
+Length=226
+
+ Score = 82.4 bits (202),  Expect = 1e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + D  DGK ER Y  A V K+LT NEDGVS++ L LMNQDKV
+Sbjct  75   MLDRILRLLASYSILICSLRDLPDGKVERLYGLASVCKFLTKNEDGVSVSPLCLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A0D2Q2B5_GOSRA A0A0D2Q2B5 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_008G264900 PE=3 SV=1
+Length=387
+
+ Score = 84.7 bits (208),  Expect = 1e-16
+ Identities = 42/65 (65%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+V+ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  98   MLDRILRLLASYNVLTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  157
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  158  LMESW  162
+
+
+>TR:F2DTS9_HORVV F2DTS9 Predicted protein (Fragment) OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=2 SV=1
+Length=354
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 41/65 (63%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLR+LASY VV C +E+ KDG   RRY+A PV +WL PNEDGVSMA   L+ QD V
+Sbjct  65   MVDRMLRVLASYKVVSCAVEEGKDGSLSRRYAAEPVCRWLAPNEDGVSMAPFALLAQDHV  124
+
+Query  63   LMESW  67
+             +E W
+Sbjct  125  YLEPW  129
+
+
+>TR:F2DLG6_HORVV F2DLG6 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=355
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 41/65 (63%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLR+LASY VV C +E+ KDG   RRY+A PV +WL PNEDGVSMA   L+ QD V
+Sbjct  66   MVDRMLRVLASYKVVSCAVEEGKDGSLSRRYAAEPVCRWLAPNEDGVSMAPFALLAQDHV  125
+
+Query  63   LMESW  67
+             +E W
+Sbjct  126  YLEPW  130
+
+
+>TR:A0A287XZQ2_HORVV A0A287XZQ2 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=357
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 41/65 (63%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLR+LASY VV C +E+ KDG   RRY+A PV +WL PNEDGVSMA   L+ QD V
+Sbjct  66   MVDRMLRVLASYKVVSCAVEEGKDGSLSRRYAAEPVCRWLAPNEDGVSMAPFALLAQDHV  125
+
+Query  63   LMESW  67
+             +E W
+Sbjct  126  YLEPW  130
+
+
+>TR:Q6WUC0_PAPSO Q6WUC0 Catechol O-methyltransferase OS=Papaver somniferum OX=3469 
+PE=2 SV=1
+Length=360
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 43/66 (65%), Positives = 51/66 (77%), Gaps = 2/66 (3%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED--KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDK  61
+            M+DRMLRLLASY+++ C ++D   D K ER Y  APV K+LT NE G SM+AL LMNQDK
+Sbjct  71   MLDRMLRLLASYNILTCSLKDGGNDDKVERLYGLAPVCKFLTKNEAGCSMSALLLMNQDK  130
+
+Query  62   VLMESW  67
+            VLMESW
+Sbjct  131  VLMESW  136
+
+
+>TR:V4T2S2_9ROSI V4T2S2 Uncharacterized protein (Fragment) OS=Citrus clementina 
+OX=85681 GN=CICLE_v100208142mg PE=3 SV=1
+Length=235
+
+ Score = 82.4 bits (202),  Expect = 2e-16
+ Identities = 41/65 (63%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLASY V+ C + +  DGK ER Y  APV K+LT NEDGV+++ L LMNQDKV
+Sbjct  77   VLDRILRLLASYSVLNCSLRNLPDGKVERLYGLAPVCKFLTKNEDGVTLSDLCLMNQDKV  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>SP:COMT1_AMMMJ Q6T1F5 Caffeic acid 3-O-methyltransferase OS=Ammi majus OX=48026 
+GN=COMT PE=1 SV=1
+Length=365
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+ C++ D  D + ER Y  APV K+LT N DGVSMA L LMNQDK+
+Sbjct  78   MLDRILRLLASYSVLNCKLRDLPDARVERLYGLAPVCKFLTKNSDGVSMAPLLLMNQDKI  137
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  138  LMESW  142
+
+
+>TR:V9I5V1_9FABA V9I5V1 Caffeic acid O-methyltransferase OS=Caragana korshinskii 
+OX=220689 GN=COMT PE=2 SV=1
+Length=365
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 41/65 (63%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA Y++  C +   +DGK +R Y  APV K+L  NEDGVS++AL LMNQDKV
+Sbjct  76   MLDRMLRLLACYNIFTCSLRTLQDGKVQRLYGLAPVAKYLIKNEDGVSLSALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:I3SJD0_LOTJA I3SJD0 Uncharacterized protein OS=Lotus japonicus OX=34305 PE=2 
+SV=1
+Length=365
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 40/65 (62%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQME-DKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DRMLRLLA Y+++ C +  ++DGK +R Y  APV K+L  NEDGVS++AL LMNQDKV
+Sbjct  76   VLDRMLRLLACYNILTCSVRTEQDGKVQRLYGLAPVAKYLVKNEDGVSISALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A218X4V9_PUNGR A0A218X4V9 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CDL15_Pgr023102 PE=3 SV=1
+Length=370
+
+ Score = 84.3 bits (207),  Expect = 2e-16
+ Identities = 42/64 (66%), Positives = 50/64 (78%), Gaps = 1/64 (2%)
+
+Query  5    VDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKVL  63
+            +DR+LRLLASY V+ C++ D  DGK ER Y   PV K+LT NEDGVS+A L LMNQDK+L
+Sbjct  82   LDRVLRLLASYSVLTCKLRDLPDGKVERLYGLGPVCKFLTKNEDGVSIAPLCLMNQDKIL  141
+
+Query  64   MESW  67
+            MESW
+Sbjct  142  MESW  145
+
+
+>SP:COMT1_EUCGU P46484 Caffeic acid 3-O-methyltransferase OS=Eucalyptus gunnii 
+OX=3933 GN=OMT PE=2 SV=1
+Length=366
+
+ Score = 84.0 bits (206),  Expect = 2e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + +  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  77   MLDRIFRLLASYSVLTCTLRNLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:Q9SWC1_EUCGL Q9SWC1 Caffeic acid O-methyltransferase (Fragment) OS=Eucalyptus 
+globulus OX=34317 GN=COMT2 PE=3 SV=1
+Length=312
+
+ Score = 83.2 bits (204),  Expect = 3e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + +  DGK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  58   MLDRISRLLASYSVLTCTLRNLPDGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  117
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  118  LMESW  122
+
+
+>TR:F6H775_VITVI F6H775 Uncharacterized protein OS=Vitis vinifera OX=29760 GN=VIT_16s0098g00850 
+PE=3 SV=1
+Length=740
+
+ Score = 84.7 bits (208),  Expect = 3e-16
+ Identities = 44/65 (68%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y VVKC + +  DG  ER Y  APV K+LT NEDGVS+A L LMNQDKV
+Sbjct  75   MLDRILRLLATYAVVKCSLRNLPDGGVERLYGLAPVCKYLTRNEDGVSVAPLLLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+ Score = 83.6 bits (205),  Expect = 7e-16
+ Identities = 42/65 (65%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+YDVVKC + D  DG  ER Y   PV K+ T NEDGVS+A L LMNQDKV
+Sbjct  451  MLDRILRLLATYDVVKCSLRDSPDGGVERLYGLGPVCKYFTTNEDGVSVAPLLLMNQDKV  510
+
+Query  63   LMESW  67
+             M+SW
+Sbjct  511  PMQSW  515
+
+
+>TR:M0Z2U6_HORVV M0Z2U6 Uncharacterized protein OS=Hordeum vulgare subsp. vulgare 
+OX=112509 PE=3 SV=1
+Length=352
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 40/67 (60%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDR+LR+LA+Y VV C +++  DG   RRY A PV KWLTPNEDGVSMA   L+ Q+
+Sbjct  63   ASMVDRLLRVLATYKVVSCLVDECADGSLSRRYGAEPVCKWLTPNEDGVSMAPFCLLAQN  122
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  123  KLFMEAW  129
+
+
+>TR:N1QVH1_AEGTA N1QVH1 Quercetin 3-O-methyltransferase 1 OS=Aegilops tauschii 
+OX=37682 GN=F775_23893 PE=4 SV=1
+Length=272
+
+ Score = 82.4 bits (202),  Expect = 3e-16
+ Identities = 42/60 (70%), Positives = 49/60 (82%), Gaps = 1/60 (2%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            ADMVD MLRLLASYDVV C +E+ KDG+  RRY AAPV K+LTPNEDG SM+AL LM+ +
+Sbjct  202  ADMVDCMLRLLASYDVVSCTVEEGKDGRLSRRYDAAPVYKFLTPNEDGFSMSALALMSHE  261
+
+
+>TR:A0A2G5D963_AQUCA A0A2G5D963 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_02500033v1 PE=3 SV=1
+Length=362
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 42/65 (65%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLASY ++ C M + +DG+ ER Y  APV K+L  NEDGVSMA L LMNQDKV
+Sbjct  75   ILDRILRLLASYKILTCNMPNLEDGEVERLYGLAPVCKFLVKNEDGVSMAPLVLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A1J6IEI9_NICAT A0A1J6IEI9 Caffeic acid 3-o-methyltransferase OS=Nicotiana attenuata 
+OX=49451 GN=COMT_0 PE=3 SV=1
+Length=363
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG  ER YS APV K+LT N DGVS+A L LMNQDKV
+Sbjct  76   MLDRMLRLLATYSVLNCTLRTLSDGSVERLYSLAPVCKYLTKNADGVSVAPLLLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:M0ZIL7_SOLTU M0ZIL7 Uncharacterized protein OS=Solanum tuberosum OX=4113 GN=102590869 
+PE=3 SV=1
+Length=363
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K+LT N DGVS+A L LMNQDKV
+Sbjct  76   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKFLTKNADGVSVAPLLLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0K9RAX5_SPIOL A0A0K9RAX5 Uncharacterized protein OS=Spinacia oleracea OX=3562 
+GN=SOVF_093740 PE=3 SV=1
+Length=363
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 40/67 (60%), Positives = 54/67 (81%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMEDK-DGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A+M+DRMLRLLASY ++   ++ + DG+ ER Y  APV ++LT NEDGV++ AL+LMNQD
+Sbjct  71   ANMLDRMLRLLASYSILSYSLQTRADGRVERLYGLAPVCQFLTKNEDGVTLGALSLMNQD  130
+
+Query  61   KVLMESW  67
+            K+LMESW
+Sbjct  131  KILMESW  137
+
+
+>TR:A0A2K1XFU8_POPTR A0A2K1XFU8 Uncharacterized protein OS=Populus trichocarpa OX=3694 
+GN=POPTR_015G003100v3 PE=3 SV=1
+Length=275
+
+ Score = 82.4 bits (202),  Expect = 3e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + D  DGK ER Y  A V K+LT NEDGVS++ L LMNQDKV
+Sbjct  75   MLDRILRLLASYSILICSLRDLPDGKVERLYGLASVCKFLTKNEDGVSVSPLCLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:Q9SYR8_9MAGN Q9SYR8 Catechol O-methyltransferase OS=Thalictrum tuberosum OX=79802 
+GN=Omt II;Thatu;1 PE=2 SV=1
+Length=364
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DRMLRLLASY V+ C + + +DG  ER Y  APV K+L  NEDGVSMA L LMNQDKV
+Sbjct  77   VLDRMLRLLASYKVLTCNLRNLEDGGVERLYGLAPVCKFLVKNEDGVSMAPLVLMNQDKV  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:Q9XE91_9MAGN Q9XE91 Catechol O-methyltransferase OS=Thalictrum tuberosum OX=79802 
+GN=Omt II;Thatu;4 PE=2 SV=1
+Length=364
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DRMLRLLASY V+ C + + +DG  ER Y  APV K+L  NEDGVSMA L LMNQDKV
+Sbjct  77   VLDRMLRLLASYKVLTCNLRNLEDGGVERLYGLAPVCKFLVKNEDGVSMAPLVLMNQDKV  136
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  137  LMESW  141
+
+
+>TR:A0A1U7Z1M5_NELNU A0A1U7Z1M5 caffeic acid 3-O-methyltransferase 1 OS=Nelumbo nucifera 
+OX=4432 GN=LOC104585771 PE=3 SV=1
+Length=364
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 42/65 (65%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKD-GKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLAS+ ++ C +   D G+ ER Y  APV K+L  NEDGVSMA L LMNQDKV
+Sbjct  75   MLDRMLRLLASFSILTCSLRTHDDGRVERLYGLAPVCKFLVKNEDGVSMAPLVLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A0H4J0H6_PAPSO A0A0H4J0H6 S-adenosyl-L-methionine:O-methyltransferase OS=Papaver 
+somniferum OX=3469 GN=OMT5 PE=2 SV=1
+Length=365
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMEDKDG-KYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLASY ++ C ++D +G K ER Y  APV K+LT NE G SMA+L LMNQDKV
+Sbjct  78   MLDRMLRLLASYKILTCSLKDLEGGKVERVYGLAPVCKFLTKNEVGCSMASLLLMNQDKV  137
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  138  LMESW  142
+
+
+>TR:A0A0V0I539_SOLCH A0A0V0I539 Putative caffeic acid 3-O-methyltransferase-like OS=Solanum 
+chacoense OX=4108 PE=3 SV=1
+Length=379
+
+ Score = 83.6 bits (205),  Expect = 3e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K+LT N DGVS+A L LMNQDKV
+Sbjct  76   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKFLTKNADGVSVAPLLLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0D2R3E7_GOSRA A0A0D2R3E7 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G125600 PE=3 SV=1
+Length=251
+
+ Score = 81.6 bits (200),  Expect = 4e-16
+ Identities = 39/65 (60%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K++T NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFVTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A2G5EZR5_AQUCA A0A2G5EZR5 Uncharacterized protein OS=Aquilegia coerulea OX=218851 
+GN=AQUCO_00300641v1 PE=3 SV=1
+Length=362
+
+ Score = 83.2 bits (204),  Expect = 4e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            ++DR+LRLLASY V+ C + + +DG  ER Y  APV K+L  NEDGVSMA L LMNQDKV
+Sbjct  75   ILDRILRLLASYKVLSCNLRNLEDGSVERLYGLAPVCKFLVKNEDGVSMAPLVLMNQDKV  134
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  135  LMESW  139
+
+
+>TR:A0A1U8JU86_GOSHI A0A1U8JU86 caffeic acid 3-O-methyltransferase OS=Gossypium hirsutum 
+OX=3635 GN=LOC107909353 PE=3 SV=1
+Length=365
+
+ Score = 83.2 bits (204),  Expect = 4e-16
+ Identities = 40/65 (62%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRSLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:B9SIJ9_RICCO B9SIJ9 O-methyltransferase, putative OS=Ricinus communis OX=3988 
+GN=RCOM_0596300 PE=3 SV=1
+Length=365
+
+ Score = 83.2 bits (204),  Expect = 4e-16
+ Identities = 43/65 (66%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+V+ C +    DGK ER Y  APV K+L  NEDGVS+A L LMNQDKV
+Sbjct  76   MLDRILRLLASYNVLTCSLRTLPDGKVERLYGLAPVCKFLIKNEDGVSIAPLCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:I0IJZ4_9MYRT I0IJZ4 Caffeic acid O-methyltransferase 2 (Fragment) OS=Eucalyptus 
+pilularis OX=106643 GN=COMT2 PE=3 SV=1
+Length=312
+
+ Score = 82.4 bits (202),  Expect = 5e-16
+ Identities = 41/65 (63%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+ RLLASY V+ C + +  +GK ER Y  APV K+L  NEDGVS+AAL LMNQDK+
+Sbjct  58   MLDRIFRLLASYSVLTCTLRNLPEGKVERLYGLAPVCKFLVKNEDGVSIAALNLMNQDKI  117
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  118  LMESW  122
+
+
+>TR:W0SK39_SESIN W0SK39 O-methyltransferase OS=Sesamum indicum OX=4182 GN=Si_OMT1 
+PE=2 SV=1
+Length=353
+
+ Score = 82.8 bits (203),  Expect = 5e-16
+ Identities = 43/67 (64%), Positives = 51/67 (76%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLRLLA+Y VV+C ++   DG  ER YS APV K+LT NEDGVS+A + LM QD
+Sbjct  65   ATMIDRMLRLLAAYSVVRCSLKPLPDGGVERLYSLAPVCKFLTRNEDGVSVAPVALMLQD  124
+
+Query  61   KVLMESW  67
+            KV MESW
+Sbjct  125  KVFMESW  131
+
+
+>TR:A0A1D6BJY6_WHEAT A0A1D6BJY6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=3 SV=1
+Length=355
+
+ Score = 82.8 bits (203),  Expect = 5e-16
+ Identities = 40/65 (62%), Positives = 48/65 (74%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            MVDRMLR+LASY VV C +E+ +DG   RRY+A PV +WL PNEDGVSMA   L+ QD V
+Sbjct  64   MVDRMLRVLASYKVVSCAVEEGEDGSLSRRYAAEPVCRWLAPNEDGVSMAPFALLAQDHV  123
+
+Query  63   LMESW  67
+             +E W
+Sbjct  124  YLEPW  128
+
+
+>TR:A0A0D2RY01_GOSRA A0A0D2RY01 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G125600 PE=3 SV=1
+Length=269
+
+ Score = 81.6 bits (200),  Expect = 5e-16
+ Identities = 39/65 (60%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K++T NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFVTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:T1NXG7_9LAMI T1NXG7 Caffeic acid O-methyltransferase OS=Ocimum tenuiflorum 
+OX=204149 PE=2 SV=1
+Length=361
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 42/65 (65%), Positives = 52/65 (80%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLL SY +++C+++   +G  ER Y  APV K+LT NEDGVSMA LTLMNQDKV
+Sbjct  74   MLDRILRLLTSYAILECRLKTLPNGGVERLYGLAPVCKFLTRNEDGVSMAPLTLMNQDKV  133
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  134  LMESW  138
+
+
+>TR:J9RJ50_POPAL J9RJ50 Caffeate O-methyltransferase (Fragment) OS=Populus alba 
+OX=43335 GN=COMT1 PE=4 SV=1
+Length=138
+
+ Score = 78.6 bits (192),  Expect = 6e-16
+ Identities = 41/64 (64%), Positives = 49/64 (77%), Gaps = 1/64 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + D  DGK ER Y  A V K+LT NEDGVS++ L LMNQDKV
+Sbjct  75   MLDRILRLLASYSILVCSLRDLPDGKVERLYGLASVCKFLTKNEDGVSVSPLCLMNQDKV  134
+
+Query  63   LMES  66
+            LMES
+Sbjct  135  LMES  138
+
+
+>TR:A0A287JNC7_HORVV A0A287JNC7 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=3 SV=1
+Length=362
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 41/67 (61%), Positives = 49/67 (73%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLR+LA+Y VV C +++  DG   RRY A PV KWLT NEDGVSMA   L+ QD
+Sbjct  72   AAMVDRMLRVLAAYKVVSCVVDECDDGSLSRRYGAEPVCKWLTANEDGVSMAPFCLLAQD  131
+
+Query  61   KVLMESW  67
+            K+ ME+W
+Sbjct  132  KLFMEAW  138
+
+
+>TR:Q1JUZ8_IPONI Q1JUZ8 Caffeic acid 3-O-methyltransferase OS=Ipomoea nil OX=35883 
+PE=3 SV=1
+Length=364
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 43/67 (64%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DR+LRLL +Y V+ C +    DG+ ER YS APV K+LT N DGVSMA L LMNQD
+Sbjct  75   AVMLDRILRLLCTYSVLNCSLRTLPDGRVERLYSLAPVCKYLTKNGDGVSMAPLLLMNQD  134
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  135  KVLMESW  141
+
+
+>TR:Q1JUZ5_IPONI Q1JUZ5 Caffeic acid 3-O-methyltransferase OS=Ipomoea nil OX=35883 
+PE=3 SV=1
+Length=364
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 43/67 (64%), Positives = 50/67 (75%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DR+LRLL +Y V+ C +    DG+ ER YS APV K+LT N DGVSMA L LMNQD
+Sbjct  75   AVMLDRILRLLCTYSVLNCSLRTLPDGRVERLYSLAPVCKYLTKNGDGVSMAPLLLMNQD  134
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  135  KVLMESW  141
+
+
+>TR:A0A2P5R8P6_GOSBA A0A2P5R8P6 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD19961 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 40/65 (62%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:V7ARZ0_PHAVU V7ARZ0 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_009G044400g PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+++   +    DGK ER Y  APV K+L  NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRILRLLASYNILSFTLRTLPDGKVERLYGLAPVAKYLVKNEDGVSIAALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0S3RE56_PHAAN A0A0S3RE56 Uncharacterized protein OS=Vigna angularis var. angularis 
+OX=157739 GN=Vigan.02G169100 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+++   +    DGK ER Y  APV K+L  NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRILRLLASYNILTFTLHTLPDGKVERLYGLAPVAKYLVKNEDGVSLAALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A1U8NM01_GOSHI A0A1U8NM01 caffeic acid 3-O-methyltransferase-like OS=Gossypium 
+hirsutum OX=3635 GN=LOC107948794 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 40/65 (62%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:E4W5X9_GOSHI E4W5X9 Caffeic acid O-methyltransferase 2 OS=Gossypium hirsutum 
+OX=3635 GN=COMT2 PE=2 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 40/65 (62%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0L9UE34_PHAAN A0A0L9UE34 Uncharacterized protein OS=Phaseolus angularis OX=3914 
+GN=LR48_Vigan04g114400 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY+++   +    DGK ER Y  APV K+L  NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRILRLLASYNILTFTLHTLPDGKVERLYGLAPVAKYLVKNEDGVSLAALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A1R3JSC4_9ROSI A0A1R3JSC4 O-methyltransferase, family 2 OS=Corchorus olitorius 
+OX=93759 GN=COLO4_14378 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 40/65 (62%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY ++ C + +  DGK ER Y   PV K+L  NEDGV+++AL LMNQDKV
+Sbjct  76   MLDRILRLLASYSILTCSLRNLPDGKVERLYGLGPVCKYLVKNEDGVALSALNLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0B0NNF3_GOSAR A0A0B0NNF3 Caffeic acid 3-O-methyltransferase OS=Gossypium arboreum 
+OX=29729 GN=F383_19236 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 40/65 (62%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K+LT NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFLTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A2I4GFT7_9ROSI A0A2I4GFT7 caffeic acid 3-O-methyltransferase OS=Juglans regia 
+OX=51240 GN=LOC109007527 PE=3 SV=1
+Length=365
+
+ Score = 82.8 bits (203),  Expect = 6e-16
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLASY V+   +    DGK ER Y   PV K+LT NEDGVS+AAL LMNQDKV
+Sbjct  76   MLDRILRLLASYSVLTYSLRTLPDGKVERLYGVGPVSKFLTKNEDGVSIAALCLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:A0A0D2MX95_GOSRA A0A0D2MX95 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_004G125600 PE=3 SV=1
+Length=290
+
+ Score = 81.6 bits (200),  Expect = 7e-16
+ Identities = 39/65 (60%), Positives = 51/65 (78%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DR+LRLLA+Y ++ C +    DGK ER Y   PV K++T NEDGV+++AL+LMNQDKV
+Sbjct  76   MLDRILRLLATYSILTCSLRTLPDGKVERLYGLGPVCKFVTKNEDGVTLSALSLMNQDKV  135
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  136  LMESW  140
+
+
+>TR:M8BT76_AEGTA M8BT76 Caffeic acid 3-O-methyltransferase OS=Aegilops tauschii 
+OX=37682 GN=F775_07801 PE=3 SV=1
+Length=352
+
+ Score = 82.4 bits (202),  Expect = 7e-16
+ Identities = 41/67 (61%), Positives = 48/67 (72%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQM-EDKDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A MVDRMLR+LAS+ +V C + E KDG   R YS APV KWL+PNEDGVSMA   ++ QD
+Sbjct  61   ASMVDRMLRVLASHKIVSCMVKEGKDGSISRCYSPAPVCKWLSPNEDGVSMAPYVVLAQD  120
+
+Query  61   KVLMESW  67
+            KV M  W
+Sbjct  121  KVFMAPW  127
+
+
+>TR:W0SLZ3_9LAMI W0SLZ3 O-methyltransferase OS=Sesamum radiatum OX=300843 GN=Sr_OMT1 
+PE=2 SV=1
+Length=354
+
+ Score = 82.4 bits (202),  Expect = 7e-16
+ Identities = 42/67 (63%), Positives = 52/67 (78%), Gaps = 1/67 (1%)
+
+Query  2    ADMVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQD  60
+            A M+DRMLR LA++ V++C ++   DG  ERRYS APV K+LT NEDGVS+A + LM QD
+Sbjct  65   ATMIDRMLRFLAAHSVLRCTLKPLPDGGVERRYSLAPVCKFLTRNEDGVSLAPVALMLQD  124
+
+Query  61   KVLMESW  67
+            KVLMESW
+Sbjct  125  KVLMESW  131
+
+
+>TR:K4BHZ4_SOLLC K4BHZ4 Uncharacterized protein OS=Solanum lycopersicum OX=4081 
+GN=101251452 PE=3 SV=1
+Length=357
+
+ Score = 82.4 bits (202),  Expect = 8e-16
+ Identities = 42/65 (65%), Positives = 50/65 (77%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K+LT N DGVS+A L LMNQDKV
+Sbjct  70   MLDRMLRLLAAYSVLNCTLRTLPDGRVERLYSLAPVCKFLTKNADGVSVAPLLLMNQDKV  129
+
+Query  63   LMESW  67
+            LM+SW
+Sbjct  130  LMQSW  134
+
+
+>SP:COMT1_CAPAN Q9FQY8 Caffeic acid 3-O-methyltransferase OS=Capsicum annuum 
+OX=4072 GN=COMT PE=2 SV=2
+Length=359
+
+ Score = 82.4 bits (202),  Expect = 8e-16
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K LT N DGVS+A L LMNQDKV
+Sbjct  72   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKLLTKNADGVSVAPLLLMNQDKV  131
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  132  LMESW  136
+
+
+>TR:A0A2G2X7R3_CAPBA A0A2G2X7R3 Caffeic acid 3-O-methyltransferase OS=Capsicum baccatum 
+OX=33114 GN=CQW23_08016 PE=3 SV=1
+Length=359
+
+ Score = 82.4 bits (202),  Expect = 8e-16
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K LT N DGVS+A L LMNQDKV
+Sbjct  72   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKLLTKNADGVSVAPLLLMNQDKV  131
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  132  LMESW  136
+
+
+>TR:A0A2G3A053_CAPAN A0A2G3A053 caffeic acid 3-O-methyltransferase OS=Capsicum annuum 
+OX=4072 GN=LOC107862991 PE=3 SV=1
+Length=359
+
+ Score = 82.4 bits (202),  Expect = 8e-16
+ Identities = 43/65 (66%), Positives = 49/65 (75%), Gaps = 1/65 (2%)
+
+Query  4    MVDRMLRLLASYDVVKCQMED-KDGKYERRYSAAPVGKWLTPNEDGVSMAALTLMNQDKV  62
+            M+DRMLRLLA+Y V+ C +    DG+ ER YS APV K LT N DGVS+A L LMNQDKV
+Sbjct  72   MLDRMLRLLATYSVLNCTLRTLPDGRVERLYSLAPVCKLLTKNADGVSVAPLLLMNQDKV  131
+
+Query  63   LMESW  67
+            LMESW
+Sbjct  132  LMESW  136
+
+
+
+Lambda      K        H
+   0.310    0.131    0.384 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 187142668020
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

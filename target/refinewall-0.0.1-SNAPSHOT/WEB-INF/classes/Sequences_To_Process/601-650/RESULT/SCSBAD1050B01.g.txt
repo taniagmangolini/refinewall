@@ -1,0 +1,144 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=57
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A199W8Y0_ANACO  A0A199W8Y0 Uncharacterized protein OS=Ananas...  32.0    1.3  
+TR:A0A199W997_ANACO  A0A199W997 Uncharacterized protein (Fragment...  32.0    1.6  
+TR:A0A2K1L417_PHYPA  A0A2K1L417 Uncharacterized protein OS=Physco...  31.2    1.8  
+TR:A0A2K1L408_PHYPA  A0A2K1L408 Uncharacterized protein OS=Physco...  31.2    2.9  
+TR:A9TSA9_PHYPA  A9TSA9 Predicted protein OS=Physcomitrella paten...  30.8    3.4  
+TR:A0A1U7VJ70_NICSY  A0A1U7VJ70 germin-like protein subfamily 2 m...  30.4    5.6  
+TR:A0A2I0WNJ5_9ASPA  A0A2I0WNJ5 Pentatricopeptide repeat-containi...  30.4    5.7  
+
+
+>TR:A0A199W8Y0_ANACO A0A199W8Y0 Uncharacterized protein OS=Ananas comosus OX=4615 
+GN=ACMD2_14747 PE=4 SV=1
+Length=145
+
+ Score = 32.0 bits (71),  Expect = 1.3
+ Identities = 15/37 (41%), Positives = 22/37 (59%), Gaps = 0/37 (0%)
+
+Query  13  LISLTIISLVITSTCLEATVPHYQTLRHLFLSAGDQH  49
+           +IS ++++L I ST L  +VP    L   F+  GDQH
+Sbjct  3   MISASVVALAIASTLLSMSVPLAARLNKEFVVGGDQH  39
+
+
+>TR:A0A199W997_ANACO A0A199W997 Uncharacterized protein (Fragment) OS=Ananas comosus 
+OX=4615 GN=ACMD2_18707 PE=4 SV=1
+Length=283
+
+ Score = 32.0 bits (71),  Expect = 1.6
+ Identities = 15/37 (41%), Positives = 22/37 (59%), Gaps = 0/37 (0%)
+
+Query  13  LISLTIISLVITSTCLEATVPHYQTLRHLFLSAGDQH  49
+           +IS ++++L I ST L  +VP    L   F+  GDQH
+Sbjct  3   MISASVVALAIASTLLSMSVPLAARLNKEFVVGGDQH  39
+
+
+>TR:A0A2K1L417_PHYPA A0A2K1L417 Uncharacterized protein OS=Physcomitrella patens subsp. 
+patens OX=3218 GN=PHYPA_003554 PE=4 SV=1
+Length=99
+
+ Score = 31.2 bits (69),  Expect = 1.8
+ Identities = 13/39 (33%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  14  ISLTIISLVITSTCLEATVPHYQTLRHLFLSAGDQHNVS  52
+           + L ++ L++ S C    +P Y+ L H FL AG   + S
+Sbjct  6   LPLAVVLLLLVSACSSQALPGYRVLPHRFLEAGSDSDNS  44
+
+
+>TR:A0A2K1L408_PHYPA A0A2K1L408 Uncharacterized protein OS=Physcomitrella patens subsp. 
+patens OX=3218 GN=PHYPA_003559 PE=4 SV=1
+Length=192
+
+ Score = 31.2 bits (69),  Expect = 2.9
+ Identities = 13/39 (33%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  14  ISLTIISLVITSTCLEATVPHYQTLRHLFLSAGDQHNVS  52
+           + L ++ L++ S C    +P Y+ L H FL AG   + S
+Sbjct  6   LPLAVVLLLLVSACSSQALPGYRVLPHRFLEAGSDSDNS  44
+
+
+>TR:A9TSA9_PHYPA A9TSA9 Predicted protein OS=Physcomitrella patens subsp. patens 
+OX=3218 GN=PHYPADRAFT_96489 PE=4 SV=1
+Length=137
+
+ Score = 30.8 bits (68),  Expect = 3.4
+ Identities = 12/33 (36%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  14  ISLTIISLVITSTCLEATVPHYQTLRHLFLSAG  46
+           + L ++ L++ S C    +P Y+ L H FL AG
+Sbjct  6   LPLAVVLLLLVSACSSQALPGYRVLPHRFLEAG  38
+
+
+>TR:A0A1U7VJ70_NICSY A0A1U7VJ70 germin-like protein subfamily 2 member 1 OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104216577 PE=3 SV=1
+Length=303
+
+ Score = 30.4 bits (67),  Expect = 5.6
+ Identities = 15/29 (52%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  5   LRSSTKNNLISLTIISLVITSTCLEATVP  33
+           + SSTKNN+I L I  L IT  C  A  P
+Sbjct  1   MASSTKNNMILLVITILTITFNCASAADP  29
+
+
+>TR:A0A2I0WNJ5_9ASPA A0A2I0WNJ5 Pentatricopeptide repeat-containing protein OS=Dendrobium 
+catenatum OX=906689 GN=MA16_Dca019649 PE=4 SV=1
+Length=492
+
+ Score = 30.4 bits (67),  Expect = 5.7
+ Identities = 16/35 (46%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  22   VITSTCLEATVPHYQTLRHLFLSAGDQHNVSITFN  56
+            ++ S  L A V  Y TL H F SAG  H VS+ F+
+Sbjct  407  LLDSEGLVANVVTYATLIHYFYSAGKVHEVSLLFS  441
+
+
+
+Lambda      K        H
+   0.323    0.132    0.370 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 55701562410
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

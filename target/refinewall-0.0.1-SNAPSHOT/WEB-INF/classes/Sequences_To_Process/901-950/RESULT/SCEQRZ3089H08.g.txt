@@ -1,0 +1,4511 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:C5YEK0_SORBI  C5YEK0 Expansin OS=Sorghum bicolor OX=4558 GN=SO...  148     7e-43
+TR:A0A2H4YIQ2_9POAL  A0A2H4YIQ2 Expansin OS=Saccharum hybrid cult...  148     7e-43
+TR:A0A2H4YIQ5_9POAL  A0A2H4YIQ5 Expansin OS=Saccharum hybrid cult...  148     7e-43
+TR:B4FEH6_MAIZE  B4FEH6 Expansin OS=Zea mays OX=4577 GN=100193290...  144     2e-41
+TR:K3Y8U0_SETIT  K3Y8U0 Expansin OS=Setaria italica OX=4555 GN=LO...  146     2e-41
+TR:A0A2S3I9U2_9POAL  A0A2S3I9U2 Uncharacterized protein OS=Panicu...  144     4e-41
+TR:A0A2T7CZD5_9POAL  A0A2T7CZD5 Uncharacterized protein OS=Panicu...  144     4e-41
+TR:A0A1D6JBP1_MAIZE  A0A1D6JBP1 Expansin OS=Zea mays OX=4577 GN=1...  142     5e-41
+TR:B4F8B6_MAIZE  B4F8B6 Expansin OS=Zea mays OX=4577 GN=100191303...  142     1e-40
+TR:A0A1E5V6E3_9POAL  A0A1E5V6E3 Expansin OS=Dichanthelium oligosa...  140     7e-40
+TR:M8BA51_AEGTA  M8BA51 Expansin OS=Aegilops tauschii OX=37682 GN...  129     1e-36
+TR:A0A287IZG2_HORVV  A0A287IZG2 Expansin OS=Hordeum vulgare subsp...  127     1e-36
+SP:EXP10_ORYSJ  Q7XUD0 Expansin-A10 OS=Oryza sativa subsp. japoni...  132     1e-36
+TR:A0A0D3FZE3_9ORYZ  A0A0D3FZE3 Expansin OS=Oryza barthii OX=6548...  132     1e-36
+TR:A2XWT7_ORYSI  A2XWT7 Expansin OS=Oryza sativa subsp. indica OX...  132     1e-36
+TR:A0A0E0H549_ORYNI  A0A0E0H549 Expansin OS=Oryza nivara OX=4536 ...  132     1e-36
+TR:A0A0E0DHM8_9ORYZ  A0A0E0DHM8 Expansin OS=Oryza meridionalis OX...  132     1e-36
+TR:A0A0E0PD76_ORYRU  A0A0E0PD76 Expansin OS=Oryza rufipogon OX=45...  132     1e-36
+TR:A0A0D9ZPR6_9ORYZ  A0A0D9ZPR6 Expansin OS=Oryza glumipatula OX=...  132     1e-36
+TR:A0A0E0KUD1_ORYPU  A0A0E0KUD1 Expansin OS=Oryza punctata OX=453...  132     2e-36
+TR:A0A0D9W8M0_9ORYZ  A0A0D9W8M0 Expansin OS=Leersia perrieri OX=7...  131     3e-36
+TR:J3M0Q8_ORYBR  J3M0Q8 Expansin OS=Oryza brachyantha OX=4533 GN=...  131     3e-36
+TR:L0P3Q5_9POAL  L0P3Q5 Expansin OS=Phyllostachys edulis OX=38705...  131     2e-35
+TR:W5BV05_WHEAT  W5BV05 Expansin OS=Triticum aestivum OX=4565 PE=...  129     3e-35
+TR:W5B8F4_WHEAT  W5B8F4 Expansin OS=Triticum aestivum OX=4565 PE=...  129     3e-35
+TR:Q6QFA6_WHEAT  Q6QFA6 Expansin OS=Triticum aestivum OX=4565 PE=...  129     3e-35
+TR:A0A286RYR7_9POAL  A0A286RYR7 Expansin OS=Beckmannia syzigachne...  128     4e-35
+TR:A0A287IZJ1_HORVV  A0A287IZJ1 Expansin OS=Hordeum vulgare subsp...  127     9e-35
+TR:M8A3W9_TRIUA  M8A3W9 Expansin OS=Triticum urartu OX=4572 GN=TR...  129     9e-35
+TR:I1J0Y0_BRADI  I1J0Y0 Expansin OS=Brachypodium distachyon OX=15...  122     1e-32
+TR:B6SGJ2_MAIZE  B6SGJ2 Expansin OS=Zea mays OX=4577 PE=2 SV=1        112     2e-31
+TR:A0A251ST44_HELAN  A0A251ST44 Expansin OS=Helianthus annuus OX=...  107     2e-28
+TR:A0A2K3L795_TRIPR  A0A2K3L795 Expansin OS=Trifolium pratense OX...  107     2e-28
+TR:A0A0A0KT71_CUCSA  A0A0A0KT71 Expansin OS=Cucumis sativus OX=36...  107     2e-28
+TR:A0A2I0WRL5_9ASPA  A0A2I0WRL5 Expansin OS=Dendrobium catenatum ...  110     4e-28
+TR:A0A1R3JNX8_COCAP  A0A1R3JNX8 Uncharacterized protein OS=Corcho...  108     7e-28
+TR:A0A067KHR0_JATCU  A0A067KHR0 Expansin OS=Jatropha curcas OX=18...  110     1e-27
+TR:A0A061EE82_THECC  A0A061EE82 Expansin OS=Theobroma cacao OX=36...  109     1e-27
+TR:A0A2R4FZR6_9LAMI  A0A2R4FZR6 Expansin OS=Osmanthus fragrans OX...  109     1e-27
+TR:A0A2L2DDF7_BOENI  A0A2L2DDF7 Expansin OS=Boehmeria nivea OX=83...  109     1e-27
+TR:A0A2G9GV86_9LAMI  A0A2G9GV86 Expansin OS=Handroanthus impetigi...  109     1e-27
+TR:A0A200RAC7_9MAGN  A0A200RAC7 Expansin OS=Macleaya cordata OX=5...  109     2e-27
+TR:A0A067F286_CITSI  A0A067F286 Expansin (Fragment) OS=Citrus sin...  104     2e-27
+TR:A0A199UMU6_ANACO  A0A199UMU6 Expansin OS=Ananas comosus OX=461...  108     2e-27
+TR:A0A0S3RL53_PHAAN  A0A0S3RL53 Expansin OS=Vigna angularis var. ...  108     2e-27
+TR:A0A0L9UX26_PHAAN  A0A0L9UX26 Expansin OS=Phaseolus angularis O...  108     2e-27
+TR:A0A1S3U9K3_VIGRR  A0A1S3U9K3 Expansin OS=Vigna radiata var. ra...  108     2e-27
+TR:A0A2P6RFU8_ROSCH  A0A2P6RFU8 Expansin OS=Rosa chinensis OX=746...  108     2e-27
+TR:M0U7D1_MUSAM  M0U7D1 Expansin OS=Musa acuminata subsp. malacce...  108     2e-27
+TR:A0A2G2XFR4_CAPBA  A0A2G2XFR4 Expansin OS=Capsicum baccatum OX=...  108     3e-27
+TR:A0A2I0AWZ0_9ASPA  A0A2I0AWZ0 Expansin OS=Apostasia shenzhenica...  108     3e-27
+TR:B9SKR9_RICCO  B9SKR9 Expansin OS=Ricinus communis OX=3988 GN=R...  108     3e-27
+TR:A0A2P2QQ38_RHIMU  A0A2P2QQ38 Expansin OS=Rhizophora mucronata ...  103     3e-27
+TR:A0A1U7W191_NICSY  A0A1U7W191 Expansin OS=Nicotiana sylvestris ...  108     3e-27
+TR:A0A1J6INX4_NICAT  A0A1J6INX4 Expansin OS=Nicotiana attenuata O...  108     3e-27
+TR:A0A1S4BQ33_TOBAC  A0A1S4BQ33 Expansin OS=Nicotiana tabacum OX=...  108     3e-27
+TR:A0A1S4BE06_TOBAC  A0A1S4BE06 Expansin OS=Nicotiana tabacum OX=...  108     4e-27
+TR:A0A1R3J3J4_9ROSI  A0A1R3J3J4 Expansin OS=Corchorus olitorius O...  108     4e-27
+TR:A0A2P5Q312_GOSBA  A0A2P5Q312 Expansin OS=Gossypium barbadense ...  107     6e-27
+TR:A0A2P5VW33_GOSBA  A0A2P5VW33 Expansin OS=Gossypium barbadense ...  107     6e-27
+TR:A0A059BU64_EUCGR  A0A059BU64 Expansin OS=Eucalyptus grandis OX...  107     6e-27
+TR:A0A2J6KT62_LACSA  A0A2J6KT62 Expansin OS=Lactuca sativa OX=423...  107     8e-27
+TR:A0A2G5F7D2_AQUCA  A0A2G5F7D2 Expansin OS=Aquilegia coerulea OX...  107     8e-27
+TR:A0A1S3Z6T3_TOBAC  A0A1S3Z6T3 Expansin OS=Nicotiana tabacum OX=...  107     1e-26
+TR:A0A2G3A9B0_CAPAN  A0A2G3A9B0 Expansin OS=Capsicum annuum OX=40...  107     1e-26
+TR:A0A022QJ68_ERYGU  A0A022QJ68 Expansin OS=Erythranthe guttata O...  107     1e-26
+TR:A0A1U8FN84_CAPAN  A0A1U8FN84 Expansin OS=Capsicum annuum OX=40...  107     1e-26
+TR:A0A2G3D6Z6_CAPCH  A0A2G3D6Z6 Expansin OS=Capsicum chinense OX=...  107     1e-26
+TR:G7KFU6_MEDTR  G7KFU6 Expansin OS=Medicago truncatula OX=3880 G...  107     1e-26
+TR:A0A1J6KCR9_NICAT  A0A1J6KCR9 Expansin OS=Nicotiana attenuata O...  107     1e-26
+TR:A0A0D2PNT7_GOSRA  A0A0D2PNT7 Expansin OS=Gossypium raimondii O...  107     1e-26
+TR:A0A2K3NHI9_TRIPR  A0A2K3NHI9 Expansin OS=Trifolium pratense OX...  107     1e-26
+TR:D3YE74_SOLTU  D3YE74 Expansin (Fragment) OS=Solanum tuberosum ...  105     1e-26
+TR:A0A1V0D7G9_ACTAR  A0A1V0D7G9 Expansin OS=Actinidia arguta OX=6...  107     1e-26
+TR:A0A251SHE1_HELAN  A0A251SHE1 Expansin OS=Helianthus annuus OX=...  106     1e-26
+TR:A0A1U8P0Z3_GOSHI  A0A1U8P0Z3 Expansin OS=Gossypium hirsutum OX...  107     1e-26
+TR:A0A2I4EBL6_9ROSI  A0A2I4EBL6 Expansin OS=Juglans regia OX=5124...  106     2e-26
+TR:A0A2I0JDX5_PUNGR  A0A2I0JDX5 Expansin OS=Punica granatum OX=22...  104     2e-26
+TR:M0SS09_MUSAM  M0SS09 Expansin OS=Musa acuminata subsp. malacce...  106     2e-26
+TR:A0A068U294_COFCA  A0A068U294 Expansin OS=Coffea canephora OX=4...  106     2e-26
+TR:A0A1U8IR05_GOSHI  A0A1U8IR05 Expansin OS=Gossypium hirsutum OX...  107     3e-26
+TR:A0A0B0NDP6_GOSAR  A0A0B0NDP6 Expansin OS=Gossypium arboreum OX...  107     3e-26
+TR:A0A118K582_CYNCS  A0A118K582 Expansin OS=Cynara cardunculus va...  105     3e-26
+TR:I1MBR5_SOYBN  I1MBR5 Expansin OS=Glycine max OX=3847 GN=100809...  105     3e-26
+TR:A0A1S3CIL6_CUCME  A0A1S3CIL6 Expansin OS=Cucumis melo OX=3656 ...  105     3e-26
+TR:I1JHS2_SOYBN  I1JHS2 Expansin OS=Glycine max OX=3847 GN=100784...  105     3e-26
+TR:A0A151U9L7_CAJCA  A0A151U9L7 Expansin OS=Cajanus cajan OX=3821...  101     4e-26
+TR:K4B9Z1_SOLLC  K4B9Z1 Expansin OS=Solanum lycopersicum OX=4081 ...  105     4e-26
+TR:A0A2C9VJI6_MANES  A0A2C9VJI6 Expansin OS=Manihot esculenta OX=...  105     4e-26
+TR:A0A1U7V137_NICSY  A0A1U7V137 Expansin OS=Nicotiana sylvestris ...  105     4e-26
+TR:A0A1S3Y9G0_TOBAC  A0A1S3Y9G0 Expansin OS=Nicotiana tabacum OX=...  105     4e-26
+TR:M1BE25_SOLTU  M1BE25 Expansin OS=Solanum tuberosum OX=4113 GN=...  105     4e-26
+TR:A0A2R6S2W8_ACTCH  A0A2R6S2W8 Expansin OS=Actinidia chinensis v...  105     5e-26
+TR:A0A1J7HJU4_LUPAN  A0A1J7HJU4 Expansin OS=Lupinus angustifolius...  105     5e-26
+TR:A0A2H3WX34_PHODC  A0A2H3WX34 Expansin OS=Phoenix dactylifera O...  105     7e-26
+TR:A0A218VWA4_PUNGR  A0A218VWA4 Expansin OS=Punica granatum OX=22...  104     7e-26
+TR:A0A2P5A5V2_PARAD  A0A2P5A5V2 Expansin OS=Parasponia andersonii...  104     8e-26
+TR:F6HFW4_VITVI  F6HFW4 Expansin OS=Vitis vinifera OX=29760 GN=VI...  104     9e-26
+TR:A0A2U1N754_ARTAN  A0A2U1N754 Expansin A13 OS=Artemisia annua O...  104     1e-25
+TR:A0A2P5FJ51_9ROSA  A0A2P5FJ51 Expansin OS=Trema orientalis OX=6...  104     1e-25
+TR:A0A2H5N0P4_CITUN  A0A2H5N0P4 Expansin OS=Citrus unshiu OX=5518...  104     1e-25
+TR:V4S857_9ROSI  V4S857 Expansin OS=Citrus clementina OX=85681 GN...  104     1e-25
+TR:A0A2J6L647_LACSA  A0A2J6L647 Expansin OS=Lactuca sativa OX=423...  103     1e-25
+TR:A0A1S2XKQ9_CICAR  A0A1S2XKQ9 Expansin OS=Cicer arietinum OX=38...  104     1e-25
+TR:A0A151S0L8_CAJCA  A0A151S0L8 Expansin (Fragment) OS=Cajanus ca...  104     1e-25
+TR:A0A2N9GNX2_FAGSY  A0A2N9GNX2 Expansin OS=Fagus sylvatica OX=28...  103     1e-25
+TR:I1MZI2_SOYBN  I1MZI2 Expansin OS=Glycine max OX=3847 GN=100790...  104     2e-25
+TR:M5WUX0_PRUPE  M5WUX0 Expansin OS=Prunus persica OX=3760 GN=PRU...  103     2e-25
+TR:A0A0R0EW23_SOYBN  A0A0R0EW23 Expansin (Fragment) OS=Glycine ma...  104     2e-25
+TR:A0A2U1N170_ARTAN  A0A2U1N170 Expansin A13 OS=Artemisia annua O...  104     2e-25
+SP:EXP13_ARATH  Q9M9P0 Expansin-A13 OS=Arabidopsis thaliana OX=37...  103     2e-25
+TR:A0A1Q3B184_CEPFO  A0A1Q3B184 Expansin OS=Cephalotus follicular...  103     2e-25
+TR:W9REN4_9ROSA  W9REN4 Expansin OS=Morus notabilis OX=981085 GN=...  103     3e-25
+TR:A0A2P4JZ19_QUESU  A0A2P4JZ19 Expansin OS=Quercus suber OX=5833...  103     3e-25
+TR:S8D433_9LAMI  S8D433 Expansin (Fragment) OS=Genlisea aurea OX=...  102     3e-25
+TR:A0A2K3L7U1_TRIPR  A0A2K3L7U1 Expansin (Fragment) OS=Trifolium ...  103     4e-25
+TR:D7L0E6_ARALL  D7L0E6 Expansin OS=Arabidopsis lyrata subsp. lyr...  102     5e-25
+TR:A0A178V662_ARATH  A0A178V662 Expansin OS=Arabidopsis thaliana ...  102     5e-25
+TR:G7J7Z0_MEDTR  G7J7Z0 Expansin OS=Medicago truncatula OX=3880 G...  103     5e-25
+TR:R0HW36_9BRAS  R0HW36 Expansin OS=Capsella rubella OX=81985 GN=...  102     7e-25
+TR:A0A0K9NS70_ZOSMR  A0A0K9NS70 Expansin OS=Zostera marina OX=296...  102     8e-25
+TR:A0A251JZG6_MANES  A0A251JZG6 Expansin OS=Manihot esculenta OX=...  102     8e-25
+TR:A0A078GUI4_BRANA  A0A078GUI4 Expansin OS=Brassica napus OX=370...  101     1e-24
+TR:A0A078HZZ3_BRANA  A0A078HZZ3 Expansin OS=Brassica napus OX=370...  101     1e-24
+TR:A0A0D3CN36_BRAOL  A0A0D3CN36 Expansin OS=Brassica oleracea var...  101     1e-24
+TR:M4ET76_BRARP  M4ET76 Expansin OS=Brassica rapa subsp. pekinens...  101     1e-24
+TR:Q8LAT2_ARATH  Q8LAT2 Expansin OS=Arabidopsis thaliana OX=3702 ...  101     2e-24
+TR:V7BAR5_PHAVU  V7BAR5 Expansin OS=Phaseolus vulgaris OX=3885 GN...  101     2e-24
+TR:A0A1S2YEI8_CICAR  A0A1S2YEI8 Expansin OS=Cicer arietinum OX=38...  101     2e-24
+TR:U5D9L4_AMBTC  U5D9L4 Expansin OS=Amborella trichopoda OX=13333...  100     4e-24
+TR:A0A1B5Z7B3_TRISU  A0A1B5Z7B3 Expansin OS=Trifolium subterraneu...  95.5    4e-24
+TR:A0A2N9HWF5_FAGSY  A0A2N9HWF5 Expansin OS=Fagus sylvatica OX=28...  101     5e-24
+TR:A0A1U7Z326_NELNU  A0A1U7Z326 Expansin OS=Nelumbo nucifera OX=4...  100     5e-24
+TR:A0A078ILK0_BRANA  A0A078ILK0 Expansin OS=Brassica napus OX=370...  100     5e-24
+TR:A0A0D3AFV6_BRAOL  A0A0D3AFV6 Expansin OS=Brassica oleracea var...  100     5e-24
+TR:M4DXW9_BRARP  M4DXW9 Expansin OS=Brassica rapa subsp. pekinens...  100     5e-24
+TR:Q9ZP33_SOLLC  Q9ZP33 Expansin OS=Solanum lycopersicum OX=4081 ...  99.8    7e-24
+TR:V4NSV7_EUTSA  V4NSV7 Expansin OS=Eutrema salsugineum OX=72664 ...  99.8    7e-24
+TR:A0A1U7YZT1_NELNU  A0A1U7YZT1 Expansin OS=Nelumbo nucifera OX=4...  99.8    7e-24
+TR:A0A087H6L3_ARAAL  A0A087H6L3 Expansin OS=Arabis alpina OX=5045...  99.4    1e-23
+TR:A0A078G406_BRANA  A0A078G406 Expansin OS=Brassica napus OX=370...  99.4    1e-23
+TR:A0A2G2WWW7_CAPBA  A0A2G2WWW7 Expansin OS=Capsicum baccatum OX=...  99.0    1e-23
+TR:A0A1U8GQN2_CAPAN  A0A1U8GQN2 Expansin OS=Capsicum annuum OX=40...  99.0    1e-23
+TR:A0A2G3CKD2_CAPCH  A0A2G3CKD2 Expansin OS=Capsicum chinense OX=...  99.0    1e-23
+TR:A0A1U8AT51_NELNU  A0A1U8AT51 Expansin OS=Nelumbo nucifera OX=4...  98.6    1e-23
+TR:A0A1J3FGP4_NOCCA  A0A1J3FGP4 Expansin OS=Noccaea caerulescens ...  99.0    1e-23
+TR:A0A1J3E7H0_NOCCA  A0A1J3E7H0 Expansin OS=Noccaea caerulescens ...  99.0    1e-23
+TR:A0A0S3S5M7_PHAAN  A0A0S3S5M7 Expansin OS=Vigna angularis var. ...  99.4    2e-23
+TR:A0A0L9VCL5_PHAAN  A0A0L9VCL5 Expansin OS=Phaseolus angularis O...  99.4    2e-23
+TR:A0A1S3VH07_VIGRR  A0A1S3VH07 Expansin OS=Vigna radiata var. ra...  99.4    2e-23
+TR:A0A1S3VHH4_VIGRR  A0A1S3VHH4 Expansin OS=Vigna radiata var. ra...  99.4    2e-23
+TR:A0A161XXF2_DAUCA  A0A161XXF2 Expansin OS=Daucus carota subsp. ...  98.6    2e-23
+TR:M1C848_SOLTU  M1C848 Expansin OS=Solanum tuberosum OX=4113 PE=...  98.6    2e-23
+TR:V7BLW7_PHAVU  V7BLW7 Expansin OS=Phaseolus vulgaris OX=3885 GN...  98.6    2e-23
+TR:A0A199UVA3_ANACO  A0A199UVA3 Expansin OS=Ananas comosus OX=461...  97.8    3e-23
+TR:A0A2N9FBL6_FAGSY  A0A2N9FBL6 Uncharacterized protein OS=Fagus ...  101     3e-23
+TR:R4TYA7_BRACM  R4TYA7 Expansin (Fragment) OS=Brassica campestri...  97.8    3e-23
+TR:A0A2G2ZLS2_CAPAN  A0A2G2ZLS2 Expansin OS=Capsicum annuum OX=40...  99.0    4e-23
+TR:A0A2G5C319_AQUCA  A0A2G5C319 Expansin OS=Aquilegia coerulea OX...  97.1    5e-23
+TR:A0A2G5C158_AQUCA  A0A2G5C158 Expansin OS=Aquilegia coerulea OX...  96.7    8e-23
+TR:B9H3G6_POPTR  B9H3G6 Expansin OS=Populus trichocarpa OX=3694 G...  97.1    8e-23
+TR:A0A0V0HNN3_SOLCH  A0A0V0HNN3 Expansin OS=Solanum chacoense OX=...  96.7    1e-22
+TR:A0A199ULI2_ANACO  A0A199ULI2 Expansin-A16 OS=Ananas comosus OX...  93.6    1e-22
+TR:A0A2I0WLF8_9ASPA  A0A2I0WLF8 Expansin OS=Dendrobium catenatum ...  96.3    1e-22
+TR:A0A287XDK1_HORVV  A0A287XDK1 Expansin OS=Hordeum vulgare subsp...  92.4    1e-22
+TR:M0V164_HORVV  M0V164 Expansin OS=Hordeum vulgare subsp. vulgar...  92.4    2e-22
+TR:A0A1B5Z7X6_TRISU  A0A1B5Z7X6 Expansin (Fragment) OS=Trifolium ...  95.1    2e-22
+TR:A0A2P5QEB0_GOSBA  A0A2P5QEB0 Expansin OS=Gossypium barbadense ...  95.5    2e-22
+TR:A0A0D2V7L0_GOSRA  A0A0D2V7L0 Expansin OS=Gossypium raimondii O...  95.5    2e-22
+TR:A0A1Q3DHX5_CEPFO  A0A1Q3DHX5 Expansin OS=Cephalotus follicular...  95.1    3e-22
+TR:A0A2I0LEX6_PUNGR  A0A2I0LEX6 Expansin OS=Punica granatum OX=22...  94.7    3e-22
+TR:A0A200PR73_9MAGN  A0A200PR73 Expansin OS=Macleaya cordata OX=5...  94.7    4e-22
+TR:A0A2P5DPK0_PARAD  A0A2P5DPK0 Expansin OS=Parasponia andersonii...  94.7    4e-22
+TR:A0A2P5BHS8_9ROSA  A0A2P5BHS8 Expansin OS=Trema orientalis OX=6...  94.7    4e-22
+TR:A0A1S2Z3M6_CICAR  A0A1S2Z3M6 Expansin OS=Cicer arietinum OX=38...  94.7    5e-22
+TR:Q9FNT0_CICAR  Q9FNT0 Expansin OS=Cicer arietinum OX=3827 GN=ex...  94.7    5e-22
+TR:A0A1J3JL91_NOCCA  A0A1J3JL91 Expansin (Fragment) OS=Noccaea ca...  92.8    5e-22
+TR:A0A0A9VLP3_ARUDO  A0A0A9VLP3 Expansin OS=Arundo donax OX=35708...  90.1    6e-22
+TR:B9RKY6_RICCO  B9RKY6 Expansin OS=Ricinus communis OX=3988 GN=R...  94.4    6e-22
+TR:A0A2I4FCC9_9ROSI  A0A2I4FCC9 Expansin OS=Juglans regia OX=5124...  94.4    6e-22
+TR:A4GWU5_LITCN  A4GWU5 Expansin OS=Litchi chinensis OX=151069 GN...  94.4    6e-22
+TR:A0A218W4L4_PUNGR  A0A218W4L4 Expansin OS=Punica granatum OX=22...  94.7    6e-22
+TR:C6TLJ2_SOYBN  C6TLJ2 Expansin OS=Glycine max OX=3847 PE=2 SV=1     94.4    6e-22
+TR:A0A0B2RJG2_GLYSO  A0A0B2RJG2 Expansin OS=Glycine soja OX=3848 ...  94.4    6e-22
+TR:I1LS07_SOYBN  I1LS07 Expansin OS=Glycine max OX=3847 GN=100804...  94.4    6e-22
+TR:A0A1J7GZI9_LUPAN  A0A1J7GZI9 Expansin OS=Lupinus angustifolius...  94.4    7e-22
+TR:A0A067GW88_CITSI  A0A067GW88 Expansin (Fragment) OS=Citrus sin...  90.1    7e-22
+TR:A0A059B824_EUCGR  A0A059B824 Expansin OS=Eucalyptus grandis OX...  94.7    8e-22
+TR:A6YR52_GOSTO  A6YR52 Expansin (Fragment) OS=Gossypium tomentos...  90.9    8e-22
+TR:A0A072VBW9_MEDTR  A0A072VBW9 Expansin OS=Medicago truncatula O...  94.0    9e-22
+TR:A0A2P5YHB0_GOSBA  A0A2P5YHB0 Expansin OS=Gossypium barbadense ...  94.0    9e-22
+TR:A0A1U8PI29_GOSHI  A0A1U8PI29 Expansin OS=Gossypium hirsutum OX...  94.0    9e-22
+TR:A0A0B0NQ02_GOSAR  A0A0B0NQ02 Expansin OS=Gossypium arboreum OX...  94.0    9e-22
+TR:I1KF31_SOYBN  I1KF31 Expansin OS=Glycine max OX=3847 GN=100809...  94.0    9e-22
+TR:I3SE17_MEDTR  I3SE17 Expansin OS=Medicago truncatula OX=3880 G...  94.0    9e-22
+TR:A0A199UHE4_ANACO  A0A199UHE4 Expansin (Fragment) OS=Ananas com...  92.8    1e-21
+TR:H9M9R8_PINLA  H9M9R8 Expansin (Fragment) OS=Pinus lambertiana ...  89.4    1e-21
+TR:A6YR45_GOSAR  A6YR45 Expansin (Fragment) OS=Gossypium arboreum...  90.5    1e-21
+TR:A6YR46_GOSMU  A6YR46 Expansin (Fragment) OS=Gossypium mustelin...  90.5    1e-21
+TR:A6YR43_GOSHI  A6YR43 Expansin (Fragment) OS=Gossypium hirsutum...  90.5    1e-21
+TR:A0A2P5VYE4_GOSBA  A0A2P5VYE4 Expansin OS=Gossypium barbadense ...  89.7    1e-21
+TR:L0ASK7_POPTO  L0ASK7 Expansin OS=Populus tomentosa OX=118781 P...  93.6    1e-21
+TR:W9QLG0_9ROSA  W9QLG0 Expansin OS=Morus notabilis OX=981085 GN=...  93.6    1e-21
+TR:A0A1L6K5Z2_POPTO  A0A1L6K5Z2 Expansin OS=Populus tomentosa OX=...  94.0    1e-21
+TR:U5FK15_POPTR  U5FK15 Expansin OS=Populus trichocarpa OX=3694 G...  94.0    2e-21
+TR:A0A067FY40_CITSI  A0A067FY40 Expansin OS=Citrus sinensis OX=27...  93.2    2e-21
+TR:A0A2H5P237_CITUN  A0A2H5P237 Expansin OS=Citrus unshiu OX=5518...  93.2    2e-21
+TR:V4SA06_9ROSI  V4SA06 Expansin OS=Citrus clementina OX=85681 GN...  93.2    2e-21
+TR:A0A2P6PTG5_ROSCH  A0A2P6PTG5 Expansin OS=Rosa chinensis OX=746...  93.2    2e-21
+TR:A0A2K3NU53_TRIPR  A0A2K3NU53 Expansin OS=Trifolium pratense OX...  93.2    2e-21
+TR:A0A067LHZ9_JATCU  A0A067LHZ9 Expansin OS=Jatropha curcas OX=18...  93.2    2e-21
+TR:A0A1U8MRD2_GOSHI  A0A1U8MRD2 Expansin OS=Gossypium hirsutum OX...  93.2    2e-21
+TR:B1Q2L4_ROSHC  B1Q2L4 Expansin (Fragment) OS=Rosa hybrid cultiv...  91.3    2e-21
+TR:B1Q2L2_ROSHC  B1Q2L2 Expansin (Fragment) OS=Rosa hybrid cultiv...  91.3    2e-21
+TR:A0A124SFL3_CYNCS  A0A124SFL3 Expansin OS=Cynara cardunculus va...  93.2    2e-21
+TR:B7U8J1_ZIZJJ  B7U8J1 Expansin (Fragment) OS=Ziziphus jujuba OX...  93.2    2e-21
+TR:M0S1D1_MUSAM  M0S1D1 Expansin OS=Musa acuminata subsp. malacce...  93.2    2e-21
+TR:A0A1Q3B3C2_CEPFO  A0A1Q3B3C2 Expansin OS=Cephalotus follicular...  92.8    2e-21
+TR:Q4F8J9_EUCGL  Q4F8J9 Expansin (Fragment) OS=Eucalyptus globulu...  89.7    2e-21
+TR:D7U4Q2_VITVI  D7U4Q2 Expansin OS=Vitis vinifera OX=29760 GN=VI...  92.8    2e-21
+TR:A0A2P4MVT0_QUESU  A0A2P4MVT0 Expansin OS=Quercus suber OX=5833...  92.8    2e-21
+TR:A0A067JQ64_JATCU  A0A067JQ64 Expansin OS=Jatropha curcas OX=18...  92.8    2e-21
+TR:A0A287XDJ6_HORVV  A0A287XDJ6 Expansin OS=Hordeum vulgare subsp...  92.4    2e-21
+TR:B1A2I5_9ROSI  B1A2I5 Expansin OS=Dimocarpus longan OX=128017 G...  92.8    2e-21
+TR:O23952_GOSHI  O23952 Expansin (Fragment) OS=Gossypium hirsutum...  90.5    2e-21
+TR:B1Q2L3_ROSHC  B1Q2L3 Expansin (Fragment) OS=Rosa hybrid cultiv...  90.9    3e-21
+TR:M5VKX2_PRUPE  M5VKX2 Expansin OS=Prunus persica OX=3760 GN=PRU...  92.8    3e-21
+TR:A0A1D6BLE0_WHEAT  A0A1D6BLE0 Expansin OS=Triticum aestivum OX=...  92.8    3e-21
+TR:A0A1D6C3F8_WHEAT  A0A1D6C3F8 Expansin OS=Triticum aestivum OX=...  92.8    3e-21
+TR:A0A2K1WQB1_POPTR  A0A2K1WQB1 Expansin OS=Populus trichocarpa O...  91.7    3e-21
+TR:A0A0A9P7G3_ARUDO  A0A0A9P7G3 Expansin OS=Arundo donax OX=35708...  89.7    3e-21
+TR:W5HX72_WHEAT  W5HX72 Expansin OS=Triticum aestivum OX=4565 PE=...  92.4    4e-21
+TR:M8AU25_AEGTA  M8AU25 Expansin OS=Aegilops tauschii OX=37682 GN...  92.4    4e-21
+TR:A0A1J3DRN6_NOCCA  A0A1J3DRN6 Expansin (Fragment) OS=Noccaea ca...  92.8    4e-21
+TR:Q9LLB2_ZINVI  Q9LLB2 Expansin OS=Zinnia violacea OX=34245 PE=2...  92.0    4e-21
+TR:M0V162_HORVV  M0V162 Expansin OS=Hordeum vulgare subsp. vulgar...  92.4    4e-21
+TR:A0A1J3GFY3_NOCCA  A0A1J3GFY3 Expansin (Fragment) OS=Noccaea ca...  92.8    4e-21
+TR:D8L306_RUBID  D8L306 Expansin OS=Rubus idaeus OX=32247 GN=EXPA...  92.0    5e-21
+TR:G4XZW5_9GENT  G4XZW5 Expansin OS=Breonia chinensis OX=170042 G...  92.0    5e-21
+TR:A0A0S3SBI7_PHAAN  A0A0S3SBI7 Expansin OS=Vigna angularis var. ...  92.0    5e-21
+TR:A0A0L9V5J6_PHAAN  A0A0L9V5J6 Expansin OS=Phaseolus angularis O...  92.0    5e-21
+TR:A0A2R6R729_ACTCH  A0A2R6R729 Expansin OS=Actinidia chinensis v...  92.0    5e-21
+TR:D8TFZ0_SELML  D8TFZ0 Expansin OS=Selaginella moellendorffii OX...  92.0    5e-21
+TR:S1S480_THECC  S1S480 Expansin OS=Theobroma cacao OX=3641 GN=TC...  92.0    5e-21
+TR:A0A2I4HU68_9ROSI  A0A2I4HU68 Expansin OS=Juglans regia OX=5124...  92.0    5e-21
+TR:A0A1J3F1M1_NOCCA  A0A1J3F1M1 Expansin (Fragment) OS=Noccaea ca...  92.8    6e-21
+TR:A0A2K3LJV1_TRIPR  A0A2K3LJV1 Expansin (Fragment) OS=Trifolium ...  87.8    6e-21
+TR:D8RCJ6_SELML  D8RCJ6 Expansin OS=Selaginella moellendorffii OX...  92.0    6e-21
+TR:A6YR47_GOSRA  A6YR47 Expansin (Fragment) OS=Gossypium raimondi...  88.6    6e-21
+TR:A6YR48_GOSHI  A6YR48 Expansin (Fragment) OS=Gossypium hirsutum...  88.6    6e-21
+TR:A0A2K1WQB4_POPTR  A0A2K1WQB4 Expansin OS=Populus trichocarpa O...  91.7    6e-21
+TR:A0A2P5QBX4_GOSBA  A0A2P5QBX4 Expansin OS=Gossypium barbadense ...  91.7    6e-21
+TR:Q2Q500_GOSHI  Q2Q500 Expansin OS=Gossypium hirsutum OX=3635 PE...  91.7    6e-21
+TR:A0A1U8J932_GOSHI  A0A1U8J932 Expansin OS=Gossypium hirsutum OX...  91.7    6e-21
+TR:G4XZW3_9GENT  G4XZW3 Expansin OS=Breonia chinensis OX=170042 G...  91.7    6e-21
+TR:A0A1S3TLG8_VIGRR  A0A1S3TLG8 Expansin OS=Vigna radiata var. ra...  91.7    7e-21
+TR:H9VT85_PINTA  H9VT85 Expansin (Fragment) OS=Pinus taeda OX=335...  87.4    7e-21
+TR:A0A2U1NCQ1_ARTAN  A0A2U1NCQ1 Alpha-expansin OS=Artemisia annua...  89.4    8e-21
+TR:K7NQ26_PINTA  K7NQ26 Expansin (Fragment) OS=Pinus taeda OX=335...  87.0    8e-21
+TR:A0A0D9WS75_9ORYZ  A0A0D9WS75 Expansin OS=Leersia perrieri OX=7...  91.7    8e-21
+TR:A0A1S4A1X9_TOBAC  A0A1S4A1X9 Expansin OS=Nicotiana tabacum OX=...  91.7    8e-21
+TR:A0A2K3M0M0_TRIPR  A0A2K3M0M0 Expansin OS=Trifolium pratense OX...  90.9    9e-21
+TR:A0A2K1WQE4_POPTR  A0A2K1WQE4 Expansin OS=Populus trichocarpa O...  91.7    9e-21
+TR:A0A2P4MGR0_QUESU  A0A2P4MGR0 Expansin OS=Quercus suber OX=5833...  91.3    9e-21
+TR:A0A2P4MGQ1_QUESU  A0A2P4MGQ1 Expansin OS=Quercus suber OX=5833...  91.3    9e-21
+TR:B9S4E4_RICCO  B9S4E4 Expansin OS=Ricinus communis OX=3988 GN=R...  91.3    9e-21
+TR:A0A2N9G108_FAGSY  A0A2N9G108 Expansin OS=Fagus sylvatica OX=28...  91.3    9e-21
+TR:C0SQK0_ROSHC  C0SQK0 Expansin OS=Rosa hybrid cultivar OX=12873...  91.3    9e-21
+TR:A0A2P6QKR1_ROSCH  A0A2P6QKR1 Expansin OS=Rosa chinensis OX=746...  91.3    9e-21
+TR:A0A068UZQ6_COFCA  A0A068UZQ6 Expansin OS=Coffea canephora OX=4...  90.9    9e-21
+TR:A0A0D2TV25_GOSRA  A0A0D2TV25 Expansin OS=Gossypium raimondii O...  91.3    1e-20
+TR:V4LK24_EUTSA  V4LK24 Expansin OS=Eutrema salsugineum OX=72664 ...  91.3    1e-20
+TR:A0A251SLL8_HELAN  A0A251SLL8 Expansin OS=Helianthus annuus OX=...  90.9    1e-20
+TR:A0A1U8KHU8_GOSHI  A0A1U8KHU8 Expansin OS=Gossypium hirsutum OX...  90.1    1e-20
+TR:A0A2H3YXQ8_PHODC  A0A2H3YXQ8 Expansin OS=Phoenix dactylifera O...  91.3    1e-20
+TR:B8XXI0_ANNCH  B8XXI0 Expansin OS=Annona cherimola OX=49314 GN=...  90.9    1e-20
+TR:Q39625_CUCSA  Q39625 Expansin OS=Cucumis sativus OX=3659 GN=Cs...  90.9    1e-20
+TR:A0A2K3LE04_TRIPR  A0A2K3LE04 Expansin OS=Trifolium pratense OX...  90.1    1e-20
+TR:A0A0D2QQA1_GOSRA  A0A0D2QQA1 Expansin OS=Gossypium raimondii O...  90.9    1e-20
+TR:A0A2I4GCD8_9ROSI  A0A2I4GCD8 Expansin OS=Juglans regia OX=5124...  90.9    1e-20
+TR:Q2MK82_9ROSA  Q2MK82 Expansin OS=Rosa x borboniana OX=358216 G...  90.9    1e-20
+TR:A0A0S3RE99_PHAAN  A0A0S3RE99 Expansin OS=Vigna angularis var. ...  90.9    1e-20
+TR:A0A1U8JCB7_GOSHI  A0A1U8JCB7 Expansin OS=Gossypium hirsutum OX...  90.9    1e-20
+TR:A0A0L9UCL1_PHAAN  A0A0L9UCL1 Expansin OS=Phaseolus angularis O...  90.9    1e-20
+TR:B5TYV0_9ASPA  B5TYV0 Expansin OS=Gladiolus grandiflorus OX=378...  90.9    1e-20
+TR:A0A2G5EVA5_AQUCA  A0A2G5EVA5 Expansin OS=Aquilegia coerulea OX...  90.9    1e-20
+TR:A0A1S3U7K2_VIGRR  A0A1S3U7K2 Expansin OS=Vigna radiata var. ra...  90.9    1e-20
+TR:Q93XP2_9ROSA  Q93XP2 Expansin OS=Prunus cerasus OX=140311 GN=E...  90.9    1e-20
+TR:I3SCS6_MEDTR  I3SCS6 Expansin OS=Medicago truncatula OX=3880 P...  90.9    1e-20
+TR:A0A072VBI6_MEDTR  A0A072VBI6 Expansin OS=Medicago truncatula O...  90.9    1e-20
+TR:A0A072V1I2_MEDTR  A0A072V1I2 Expansin OS=Medicago truncatula O...  90.9    1e-20
+TR:A0A151RWL0_CAJCA  A0A151RWL0 Expansin OS=Cajanus cajan OX=3821...  90.9    1e-20
+TR:A0A061GXZ7_THECC  A0A061GXZ7 Expansin OS=Theobroma cacao OX=36...  90.9    1e-20
+TR:A0A287XDA9_HORVV  A0A287XDA9 Expansin OS=Hordeum vulgare subsp...  92.4    1e-20
+TR:D7MLP7_ARALL  D7MLP7 Expansin OS=Arabidopsis lyrata subsp. lyr...  90.9    1e-20
+TR:R0GB82_9BRAS  R0GB82 Expansin OS=Capsella rubella OX=81985 GN=...  90.9    1e-20
+TR:A0A059DCM7_EUCGR  A0A059DCM7 Expansin OS=Eucalyptus grandis OX...  90.9    1e-20
+TR:F1DT08_MALDO  F1DT08 Expansin (Fragment) OS=Malus domestica OX...  89.7    1e-20
+TR:D3J164_COFAR  D3J164 Expansin OS=Coffea arabica OX=13443 GN=EX...  90.9    1e-20
+TR:I1T477_9ROSI  I1T477 Expansin OS=Gossypium lobatum OX=34289 PE...  90.9    1e-20
+TR:I1T475_GOSAI  I1T475 Expansin OS=Gossypium aridum OX=34290 PE=...  90.9    1e-20
+TR:I1T473_GOSDV  I1T473 Expansin OS=Gossypium davidsonii OX=34287...  90.9    1e-20
+TR:I1T457_GOSSC  I1T457 Expansin OS=Gossypium schwendimanii OX=34...  90.9    1e-20
+TR:I1T478_9ROSI  I1T478 Expansin OS=Gossypium trilobum OX=34281 P...  90.9    1e-20
+TR:I1T476_GOSGO  I1T476 Expansin OS=Gossypium gossypioides OX=342...  90.9    1e-20
+TR:I1T455_GOSTH  I1T455 Expansin OS=Gossypium thurberi OX=34273 P...  90.9    1e-20
+TR:I1T456_9ROSI  I1T456 Expansin OS=Gossypium laxum OX=34288 PE=3...  90.9    1e-20
+TR:I1T474_9ROSI  I1T474 Expansin OS=Gossypium klotzschianum OX=34...  90.9    1e-20
+TR:I1T463_GOSTO  I1T463 Expansin OS=Gossypium tomentosum OX=34277...  90.9    1e-20
+TR:A0A251UDG5_HELAN  A0A251UDG5 Expansin OS=Helianthus annuus OX=...  90.5    2e-20
+TR:A0A2P5WHN3_GOSBA  A0A2P5WHN3 Expansin OS=Gossypium barbadense ...  90.1    2e-20
+TR:A0A078G2J5_BRANA  A0A078G2J5 Expansin OS=Brassica napus OX=370...  90.5    2e-20
+TR:H9VLE7_PINTA  H9VLE7 Expansin (Fragment) OS=Pinus taeda OX=335...  86.3    2e-20
+TR:H9VLF7_PINTA  H9VLF7 Expansin (Fragment) OS=Pinus taeda OX=335...  86.3    2e-20
+TR:A0A2N9EV29_FAGSY  A0A2N9EV29 Expansin OS=Fagus sylvatica OX=28...  90.5    2e-20
+TR:A6YR51_GOSBA  A6YR51 Expansin (Fragment) OS=Gossypium barbaden...  87.4    2e-20
+TR:A6YR50_GOSMU  A6YR50 Expansin (Fragment) OS=Gossypium mustelin...  87.4    2e-20
+TR:Q8L5S6_9CARY  Q8L5S6 Expansin OS=Rumex palustris OX=50298 GN=E...  90.5    2e-20
+TR:A0A078HYL4_BRANA  A0A078HYL4 Expansin OS=Brassica napus OX=370...  90.5    2e-20
+TR:A0A0D2SYE5_GOSRA  A0A0D2SYE5 Expansin OS=Gossypium raimondii O...  90.5    2e-20
+TR:A0A0D3ALS0_BRAOL  A0A0D3ALS0 Expansin OS=Brassica oleracea var...  90.5    2e-20
+TR:M4F3G4_BRARP  M4F3G4 Expansin OS=Brassica rapa subsp. pekinens...  90.5    2e-20
+TR:R4TH31_BRACM  R4TH31 Expansin OS=Brassica campestris OX=3711 G...  90.5    2e-20
+TR:A0A1U7ZJ34_NELNU  A0A1U7ZJ34 Expansin OS=Nelumbo nucifera OX=4...  90.5    2e-20
+TR:C6TMC2_SOYBN  C6TMC2 Expansin OS=Glycine max OX=3847 PE=2 SV=1     90.5    2e-20
+TR:A0A0B2P9A8_GLYSO  A0A0B2P9A8 Expansin OS=Glycine soja OX=3848 ...  90.5    2e-20
+TR:A0A0B2SVX4_GLYSO  A0A0B2SVX4 Expansin OS=Glycine soja OX=3848 ...  90.5    2e-20
+TR:A0A0R0HU37_SOYBN  A0A0R0HU37 Expansin OS=Glycine max OX=3847 G...  90.5    2e-20
+TR:K7MQ40_SOYBN  K7MQ40 Expansin OS=Glycine max OX=3847 GN=GLYMA_...  90.5    2e-20
+TR:A0A2P5YC97_GOSBA  A0A2P5YC97 Expansin OS=Gossypium barbadense ...  87.4    2e-20
+TR:A0A0B0MP01_GOSAR  A0A0B0MP01 Expansin OS=Gossypium arboreum OX...  90.5    2e-20
+TR:M5WJH6_PRUPE  M5WJH6 Expansin OS=Prunus persica OX=3760 GN=PRU...  90.5    2e-20
+TR:I1T471_9ROSI  I1T471 Expansin OS=Gossypium armourianum OX=3428...  90.5    2e-20
+TR:O49194_GOSHI  O49194 Expansin OS=Gossypium hirsutum OX=3635 GN...  90.5    2e-20
+TR:I1T458_GOSTU  I1T458 Expansin OS=Gossypium turneri OX=34284 PE...  90.5    2e-20
+TR:F1BX15_GOSHE  F1BX15 Expansin OS=Gossypium herbaceum subsp. af...  90.5    2e-20
+TR:I1T469_GOSHI  I1T469 Expansin OS=Gossypium hirsutum subsp. lat...  90.5    2e-20
+TR:I1T472_9ROSI  I1T472 Expansin OS=Gossypium harknessii OX=34285...  90.5    2e-20
+TR:F5ATG8_9SOLA  F5ATG8 Expansin (Fragment) OS=Petunia hybrid cul...  90.5    2e-20
+TR:I1T459_GOSMU  I1T459 Expansin OS=Gossypium mustelinum OX=34275...  90.5    2e-20
+TR:Q283Q7_GOSHI  Q283Q7 Expansin OS=Gossypium hirsutum OX=3635 GN...  90.5    2e-20
+TR:M1BDU7_SOLTU  M1BDU7 Expansin OS=Solanum tuberosum OX=4113 GN=...  86.3    2e-20
+TR:H9M8J5_PINRA  H9M8J5 Expansin (Fragment) OS=Pinus radiata OX=3...  86.3    2e-20
+TR:H9VT86_PINTA  H9VT86 Expansin (Fragment) OS=Pinus taeda OX=335...  86.3    2e-20
+TR:H9M9R9_PINRA  H9M9R9 Expansin (Fragment) OS=Pinus radiata OX=3...  85.9    2e-20
+TR:H9VLF8_PINTA  H9VLF8 Expansin (Fragment) OS=Pinus taeda OX=335...  85.9    2e-20
+TR:A0A0K9R5T5_SPIOL  A0A0K9R5T5 Expansin OS=Spinacia oleracea OX=...  90.1    2e-20
+TR:A0A2H5NA34_CITUN  A0A2H5NA34 Expansin OS=Citrus unshiu OX=5518...  90.1    2e-20
+TR:V4TK00_9ROSI  V4TK00 Expansin OS=Citrus clementina OX=85681 GN...  90.1    2e-20
+TR:A0A2U1MEV9_ARTAN  A0A2U1MEV9 Barwin-like endoglucanase OS=Arte...  89.0    2e-20
+TR:A0A0K9S3E1_SPIOL  A0A0K9S3E1 Expansin OS=Spinacia oleracea OX=...  90.5    2e-20
+TR:A0A2R6R601_ACTCH  A0A2R6R601 Expansin OS=Actinidia chinensis v...  90.5    2e-20
+TR:A4GV02_CALPC  A4GV02 Expansin OS=Calotropis procera OX=141467 ...  90.1    2e-20
+TR:Q0Z862_CITSI  Q0Z862 Expansin OS=Citrus sinensis OX=2711 GN=EX...  90.1    2e-20
+TR:E3WHD4_9ROSI  E3WHD4 Expansin OS=Vitis hybrid cultivar OX=2410...  90.1    2e-20
+TR:Q84US9_9ROSI  Q84US9 Expansin OS=Vitis labrusca x Vitis vinife...  90.1    2e-20
+TR:Q84US7_9ROSI  Q84US7 Expansin OS=Vitis labrusca x Vitis vinife...  90.1    2e-20
+TR:Q84US8_9ROSI  Q84US8 Expansin OS=Vitis labrusca x Vitis vinife...  90.1    2e-20
+TR:A0A2L2DDQ2_BOENI  A0A2L2DDQ2 Expansin OS=Boehmeria nivea OX=83...  90.1    2e-20
+TR:A0A2L2DDH4_BOENI  A0A2L2DDH4 Expansin OS=Boehmeria nivea OX=83...  90.1    2e-20
+TR:A5BMT9_VITVI  A5BMT9 Expansin OS=Vitis vinifera OX=29760 GN=VI...  90.1    2e-20
+TR:A0A2P5SPP5_GOSBA  A0A2P5SPP5 Expansin OS=Gossypium barbadense ...  90.1    3e-20
+TR:A0A2P5WHX9_GOSBA  A0A2P5WHX9 Expansin OS=Gossypium barbadense ...  90.1    3e-20
+TR:A0A0D2UW38_GOSRA  A0A0D2UW38 Expansin OS=Gossypium raimondii O...  90.1    3e-20
+TR:A0A1U8KJS6_GOSHI  A0A1U8KJS6 Expansin OS=Gossypium hirsutum OX...  90.1    3e-20
+TR:A0A1U8PUI3_GOSHI  A0A1U8PUI3 Expansin OS=Gossypium hirsutum OX...  90.1    3e-20
+TR:A0A067LMT8_JATCU  A0A067LMT8 Expansin OS=Jatropha curcas OX=18...  90.1    3e-20
+TR:A0A0B0PVZ6_GOSAR  A0A0B0PVZ6 Expansin OS=Gossypium arboreum OX...  90.1    3e-20
+TR:A0A0B0Q216_GOSAR  A0A0B0Q216 Expansin OS=Gossypium arboreum OX...  90.1    3e-20
+TR:I3RJH7_ZIZJJ  I3RJH7 Expansin OS=Ziziphus jujuba OX=326968 GN=...  90.1    3e-20
+TR:B7FKM9_MEDTR  B7FKM9 Expansin OS=Medicago truncatula OX=3880 P...  90.1    3e-20
+TR:I3SHB6_MEDTR  I3SHB6 Expansin OS=Medicago truncatula OX=3880 G...  90.1    3e-20
+TR:C0LU46_CITSI  C0LU46 Expansin OS=Citrus sinensis OX=2711 GN=EX...  90.1    3e-20
+TR:A6YR62_GOSAR  A6YR62 Expansin (Fragment) OS=Gossypium arboreum...  87.4    3e-20
+TR:A6YR65_GOSMU  A6YR65 Expansin (Fragment) OS=Gossypium mustelin...  87.4    3e-20
+TR:A6YR63_GOSHI  A6YR63 Expansin (Fragment) OS=Gossypium hirsutum...  87.4    3e-20
+TR:A0A0D2SSX2_GOSRA  A0A0D2SSX2 Expansin OS=Gossypium raimondii O...  90.5    3e-20
+TR:B7FIR8_MEDTR  B7FIR8 Expansin OS=Medicago truncatula OX=3880 P...  90.1    3e-20
+TR:A0A072UZB8_MEDTR  A0A072UZB8 Expansin OS=Medicago truncatula O...  90.1    3e-20
+TR:W0IW92_DURZI  W0IW92 Expansin (Fragment) OS=Durio zibethinus O...  87.4    3e-20
+TR:C5Z656_SORBI  C5Z656 Expansin OS=Sorghum bicolor OX=4558 GN=SO...  90.1    3e-20
+TR:A0A2G5EX39_AQUCA  A0A2G5EX39 Expansin OS=Aquilegia coerulea OX...  90.1    3e-20
+TR:M1BDU5_SOLTU  M1BDU5 Expansin OS=Solanum tuberosum OX=4113 GN=...  86.3    3e-20
+TR:K3Y190_SETIT  K3Y190 Expansin OS=Setaria italica OX=4555 GN=LO...  90.1    3e-20
+TR:A0A2J6KAD2_LACSA  A0A2J6KAD2 Expansin OS=Lactuca sativa OX=423...  89.7    3e-20
+TR:A0A2D3C339_CHRMO  A0A2D3C339 Expansin OS=Chrysanthemum morifol...  89.7    3e-20
+TR:H9VLF2_PINTA  H9VLF2 Expansin (Fragment) OS=Pinus taeda OX=335...  85.5    3e-20
+TR:A0A2P5Q830_GOSBA  A0A2P5Q830 Expansin OS=Gossypium barbadense ...  89.7    3e-20
+TR:A0A0D2SKZ7_GOSRA  A0A0D2SKZ7 Expansin OS=Gossypium raimondii O...  89.7    3e-20
+TR:A0A1U8MBG2_GOSHI  A0A1U8MBG2 Expansin OS=Gossypium hirsutum OX...  89.7    3e-20
+TR:A0A059AAG4_EUCGR  A0A059AAG4 Expansin OS=Eucalyptus grandis OX...  89.7    3e-20
+TR:A0A0B2R1N9_GLYSO  A0A0B2R1N9 Expansin OS=Glycine soja OX=3848 ...  89.7    3e-20
+TR:C6TDU0_SOYBN  C6TDU0 Expansin OS=Glycine max OX=3847 GN=547673...  89.7    3e-20
+TR:I1JYB5_SOYBN  I1JYB5 Expansin OS=Glycine max OX=3847 GN=100807...  89.7    3e-20
+TR:A0A1J7HBX7_LUPAN  A0A1J7HBX7 Expansin OS=Lupinus angustifolius...  89.7    3e-20
+TR:A0A2P5VNQ4_GOSBA  A0A2P5VNQ4 Expansin OS=Gossypium barbadense ...  89.7    4e-20
+TR:A0A1U8LTU9_GOSHI  A0A1U8LTU9 Expansin OS=Gossypium hirsutum OX...  89.7    4e-20
+TR:M0YUS1_HORVV  M0YUS1 Expansin OS=Hordeum vulgare subsp. vulgar...  85.5    4e-20
+TR:V7AIN1_PHAVU  V7AIN1 Expansin OS=Phaseolus vulgaris OX=3885 GN...  89.7    4e-20
+TR:A0A2N9FWD1_FAGSY  A0A2N9FWD1 Expansin OS=Fagus sylvatica OX=28...  89.7    4e-20
+TR:Q06B71_ACTDE  Q06B71 Expansin (Fragment) OS=Actinidia delicios...  88.6    4e-20
+TR:A0A0A9JPW5_ARUDO  A0A0A9JPW5 Expansin OS=Arundo donax OX=35708...  86.3    4e-20
+TR:A0A1J6K8I0_NICAT  A0A1J6K8I0 Expansin OS=Nicotiana attenuata O...  89.7    4e-20
+TR:A0A1E5V730_9POAL  A0A1E5V730 Expansin OS=Dichanthelium oligosa...  90.1    4e-20
+TR:B5G506_GOSBA  B5G506 Expansin (Fragment) OS=Gossypium barbaden...  87.4    4e-20
+TR:A0A2U1N568_ARTAN  A0A2U1N568 Barwin-like endoglucanase OS=Arte...  89.4    4e-20
+TR:A0A2K1Y639_POPTR  A0A2K1Y639 Expansin OS=Populus trichocarpa O...  88.6    4e-20
+TR:Q58L80_CUCSA  Q58L80 Expansin (Fragment) OS=Cucumis sativus OX...  86.3    4e-20
+TR:E5GB70_CUCME  E5GB70 Expansin OS=Cucumis melo subsp. melo OX=4...  87.4    5e-20
+TR:A0A0D2VLM3_GOSRA  A0A0D2VLM3 Expansin OS=Gossypium raimondii O...  88.6    5e-20
+TR:Q6T5H6_POPPZ  Q6T5H6 Expansin OS=Populus tremula x Populus tre...  89.4    5e-20
+TR:L0ATR4_POPTO  L0ATR4 Expansin OS=Populus tomentosa OX=118781 P...  89.4    5e-20
+TR:A0A2I4FA89_9ROSI  A0A2I4FA89 Expansin OS=Juglans regia OX=5124...  89.4    5e-20
+TR:A0A2P5CYN8_9ROSA  A0A2P5CYN8 Expansin OS=Trema orientalis OX=6...  89.4    5e-20
+TR:C0KLG9_PYRPY  C0KLG9 Expansin OS=Pyrus pyrifolia OX=3767 PE=2 ...  89.4    5e-20
+TR:A0A061E1K6_THECC  A0A061E1K6 Expansin OS=Theobroma cacao OX=36...  89.4    5e-20
+TR:A0A2C9VLG6_MANES  A0A2C9VLG6 Expansin OS=Manihot esculenta OX=...  89.4    5e-20
+TR:A0A0A0K2Y6_CUCSA  A0A0A0K2Y6 Expansin OS=Cucumis sativus OX=36...  89.4    5e-20
+TR:A0A1S3BRN9_CUCME  A0A1S3BRN9 Expansin OS=Cucumis melo OX=3656 ...  89.4    5e-20
+TR:A0A2G9G7Q6_9LAMI  A0A2G9G7Q6 Expansin OS=Handroanthus impetigi...  89.4    5e-20
+TR:A0A1Q3CAS0_CEPFO  A0A1Q3CAS0 Expansin OS=Cephalotus follicular...  89.4    5e-20
+TR:Q8RVK6_MALDO  Q8RVK6 Expansin OS=Malus domestica OX=3750 GN=EX...  89.4    5e-20
+TR:S5M3I5_9ROSA  S5M3I5 Expansin OS=Pyrus x bretschneideri OX=225...  89.4    5e-20
+TR:D7URZ2_DIACA  D7URZ2 Expansin OS=Dianthus caryophyllus OX=3570...  89.4    5e-20
+TR:Q84L79_PYRCO  Q84L79 Expansin OS=Pyrus communis OX=23211 GN=Pc...  89.4    5e-20
+TR:A0A2H5PNM2_CITUN  A0A2H5PNM2 Expansin OS=Citrus unshiu OX=5518...  89.4    5e-20
+TR:W9SP00_9ROSA  W9SP00 Expansin OS=Morus notabilis OX=981085 GN=...  89.4    5e-20
+TR:V4SN25_9ROSI  V4SN25 Expansin OS=Citrus clementina OX=85681 GN...  89.4    5e-20
+TR:M5W0T3_PRUPE  M5W0T3 Expansin OS=Prunus persica OX=3760 GN=PRU...  89.4    5e-20
+TR:Q68UW2_PYRCO  Q68UW2 Expansin OS=Pyrus communis OX=23211 GN=ex...  89.4    5e-20
+TR:A0A1R3JGW0_9ROSI  A0A1R3JGW0 Expansin OS=Corchorus olitorius O...  89.4    6e-20
+TR:A0A2G9GSJ8_9LAMI  A0A2G9GSJ8 Expansin OS=Handroanthus impetigi...  89.4    6e-20
+TR:A0A1R3K5G3_9ROSI  A0A1R3K5G3 Expansin OS=Corchorus olitorius O...  89.0    6e-20
+TR:A0A151U166_CAJCA  A0A151U166 Expansin OS=Cajanus cajan OX=3821...  89.4    6e-20
+TR:A0A0A7KLF1_9ASPA  A0A0A7KLF1 Expansin (Fragment) OS=Dendrobium...  86.7    6e-20
+TR:A0A103YDF3_CYNCS  A0A103YDF3 Expansin OS=Cynara cardunculus va...  89.0    6e-20
+TR:A0A2P4MRU4_QUESU  A0A2P4MRU4 Expansin OS=Quercus suber OX=5833...  88.6    6e-20
+TR:S5MHI2_9ROSA  S5MHI2 Expansin (Fragment) OS=Pyrus x bretschnei...  86.7    6e-20
+TR:A0A0D2T716_GOSRA  A0A0D2T716 Expansin OS=Gossypium raimondii O...  88.6    6e-20
+TR:A0A1S3T7C9_VIGRR  A0A1S3T7C9 Expansin OS=Vigna radiata var. ra...  89.0    6e-20
+TR:Q9ZP35_TOBAC  Q9ZP35 Expansin (Fragment) OS=Nicotiana tabacum ...  89.0    6e-20
+TR:A0A2R4FZS2_9LAMI  A0A2R4FZS2 Expansin OS=Osmanthus fragrans OX...  89.0    6e-20
+TR:A0A0D2UT36_GOSRA  A0A0D2UT36 Expansin OS=Gossypium raimondii O...  88.6    7e-20
+TR:A0A251TZ26_HELAN  A0A251TZ26 Expansin OS=Helianthus annuus OX=...  88.6    7e-20
+TR:A0A1S2YCI6_CICAR  A0A1S2YCI6 Expansin OS=Cicer arietinum OX=38...  89.0    7e-20
+TR:A0A2C9VH27_MANES  A0A2C9VH27 Expansin OS=Manihot esculenta OX=...  89.0    7e-20
+TR:A0A1U7X1V2_NICSY  A0A1U7X1V2 Expansin OS=Nicotiana sylvestris ...  89.0    7e-20
+TR:A0A1J6JJT2_NICAT  A0A1J6JJT2 Expansin OS=Nicotiana attenuata O...  89.0    7e-20
+TR:A0A1S3YS27_TOBAC  A0A1S3YS27 Expansin OS=Nicotiana tabacum OX=...  89.0    7e-20
+TR:A0A1S4C5F6_TOBAC  A0A1S4C5F6 Expansin OS=Nicotiana tabacum OX=...  89.0    7e-20
+TR:F6GUB7_VITVI  F6GUB7 Expansin OS=Vitis vinifera OX=29760 GN=VI...  89.0    7e-20
+TR:F5CI37_SOYBN  F5CI37 Expansin OS=Glycine max OX=3847 PE=2 SV=1     89.0    7e-20
+TR:A0A0B2P2I3_GLYSO  A0A0B2P2I3 Expansin OS=Glycine soja OX=3848 ...  89.0    7e-20
+TR:A0A0R4J5B0_SOYBN  A0A0R4J5B0 Expansin OS=Glycine max OX=3847 G...  89.0    7e-20
+TR:A0A067E774_CITSI  A0A067E774 Expansin OS=Citrus sinensis OX=27...  89.0    7e-20
+TR:B9RX15_RICCO  B9RX15 Expansin OS=Ricinus communis OX=3988 GN=R...  89.0    7e-20
+TR:V4UT73_9ROSI  V4UT73 Expansin OS=Citrus clementina OX=85681 GN...  89.0    7e-20
+TR:Q9SDZ4_MARQU  Q9SDZ4 Expansin OS=Marsilea quadrifolia OX=13816...  89.0    7e-20
+TR:A0A1P8ST24_9ROSA  A0A1P8ST24 Expansin OS=Prunus serrulata OX=9...  89.4    8e-20
+TR:A0A2P5PXC8_GOSBA  A0A2P5PXC8 Expansin OS=Gossypium barbadense ...  88.2    8e-20
+TR:A0A0K9QB98_SPIOL  A0A0K9QB98 Expansin OS=Spinacia oleracea OX=...  89.0    8e-20
+TR:A0A287LWZ9_HORVV  A0A287LWZ9 Expansin OS=Hordeum vulgare subsp...  85.5    8e-20
+TR:K7P397_PINCE  K7P397 Expansin (Fragment) OS=Pinus cembra OX=58...  84.3    8e-20
+TR:Q8RVK5_MALDO  Q8RVK5 Expansin (Fragment) OS=Malus domestica OX...  87.4    8e-20
+TR:A3BDN2_ORYSJ  A3BDN2 Expansin OS=Oryza sativa subsp. japonica ...  88.2    8e-20
+TR:A9NXU9_PICSI  A9NXU9 Expansin OS=Picea sitchensis OX=3332 PE=2...  88.6    9e-20
+TR:A0A1U8PBZ7_GOSHI  A0A1U8PBZ7 Expansin OS=Gossypium hirsutum OX...  88.6    9e-20
+TR:B9I6V6_POPTR  B9I6V6 Expansin OS=Populus trichocarpa OX=3694 G...  88.6    9e-20
+TR:A0A199UAY0_MANES  A0A199UAY0 Expansin OS=Manihot esculenta OX=...  88.6    9e-20
+TR:Q6RX67_PETHY  Q6RX67 Expansin OS=Petunia hybrida OX=4102 GN=EX...  88.6    9e-20
+TR:A0A2I4FVP5_9ROSI  A0A2I4FVP5 Expansin OS=Juglans regia OX=5124...  88.6    9e-20
+TR:Q6KEZ2_SOLLC  Q6KEZ2 Expansin (Fragment) OS=Solanum lycopersic...  88.2    9e-20
+TR:Q9SWD4_9CARY  Q9SWD4 Expansin OS=Rumex palustris OX=50298 GN=E...  88.6    1e-19
+TR:A0A2P5REN0_GOSBA  A0A2P5REN0 Expansin OS=Gossypium barbadense ...  88.6    1e-19
+TR:A0A151R9W3_CAJCA  A0A151R9W3 Expansin OS=Cajanus cajan OX=3821...  88.6    1e-19
+TR:A0A0D2V0B8_GOSRA  A0A0D2V0B8 Expansin OS=Gossypium raimondii O...  88.6    1e-19
+TR:A0A1U8LWV3_GOSHI  A0A1U8LWV3 Expansin OS=Gossypium hirsutum OX...  88.6    1e-19
+TR:A0A0B0NQQ7_GOSAR  A0A0B0NQQ7 Expansin OS=Gossypium arboreum OX...  88.6    1e-19
+TR:A0A2P6SLQ5_ROSCH  A0A2P6SLQ5 Expansin OS=Rosa chinensis OX=746...  88.6    1e-19
+TR:A0A061FZA2_THECC  A0A061FZA2 Expansin OS=Theobroma cacao OX=36...  88.6    1e-19
+TR:S5M055_9ROSA  S5M055 Expansin OS=Pyrus x bretschneideri OX=225...  88.6    1e-19
+TR:Q84L81_PYRCO  Q84L81 Expansin OS=Pyrus communis OX=23211 GN=Pc...  88.6    1e-19
+TR:O82093_PRUAR  O82093 Expansin OS=Prunus armeniaca OX=36596 GN=...  88.6    1e-19
+TR:A0A0D2RLB3_GOSRA  A0A0D2RLB3 Expansin OS=Gossypium raimondii O...  88.6    1e-19
+TR:I1J5S6_SOYBN  I1J5S6 Expansin OS=Glycine max OX=3847 GN=100796...  87.8    1e-19
+TR:Q8LKK2_GOSHI  Q8LKK2 Expansin OS=Gossypium hirsutum OX=3635 GN...  88.6    1e-19
+TR:I1T470_GOSHI  I1T470 Expansin OS=Gossypium hirsutum subsp. lat...  88.6    1e-19
+TR:F1BX16_GOSRA  F1BX16 Expansin OS=Gossypium raimondii OX=29730 ...  88.6    1e-19
+TR:B2Z3V3_GOSHI  B2Z3V3 Expansin OS=Gossypium hirsutum OX=3635 GN...  88.6    1e-19
+TR:H9XA37_PINTA  H9XA37 Expansin (Fragment) OS=Pinus taeda OX=335...  83.6    1e-19
+TR:A0A0D2UT39_GOSRA  A0A0D2UT39 Expansin OS=Gossypium raimondii O...  88.6    1e-19
+TR:A0A0E0JQE4_ORYPU  A0A0E0JQE4 Expansin OS=Oryza punctata OX=453...  85.9    1e-19
+TR:A0A251TYC8_HELAN  A0A251TYC8 Expansin OS=Helianthus annuus OX=...  88.2    1e-19
+TR:A0A2P5QEB4_GOSBA  A0A2P5QEB4 Expansin OS=Gossypium barbadense ...  88.2    1e-19
+TR:A0A2I0HHW7_PUNGR  A0A2I0HHW7 Expansin OS=Punica granatum OX=22...  85.1    1e-19
+TR:A0A0K9Q9V9_SPIOL  A0A0K9Q9V9 Expansin OS=Spinacia oleracea OX=...  88.6    1e-19
+TR:A0A0D2QRV4_GOSRA  A0A0D2QRV4 Expansin OS=Gossypium raimondii O...  88.2    1e-19
+TR:A0A1U8PDJ7_GOSHI  A0A1U8PDJ7 Expansin OS=Gossypium hirsutum OX...  88.2    1e-19
+TR:A6YRF3_GOSBA  A6YRF3 Expansin (Fragment) OS=Gossypium barbaden...  84.0    1e-19
+TR:A6YRF4_GOSMU  A6YRF4 Expansin (Fragment) OS=Gossypium mustelin...  84.0    1e-19
+
+
+>TR:C5YEK0_SORBI C5YEK0 Expansin OS=Sorghum bicolor OX=4558 GN=SORBI_3006G191700 
+PE=3 SV=1
+Length=257
+
+ Score = 148 bits (374),  Expect = 7e-43
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE
+Sbjct  186  GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  245
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  246  YGKTYTGK  253
+
+
+>TR:A0A2H4YIQ2_9POAL A0A2H4YIQ2 Expansin OS=Saccharum hybrid cultivar OX=128810 GN=EXP32 
+PE=2 SV=1
+Length=258
+
+ Score = 148 bits (374),  Expect = 7e-43
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE
+Sbjct  187  GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  247  YGKTYTGK  254
+
+
+>TR:A0A2H4YIQ5_9POAL A0A2H4YIQ5 Expansin OS=Saccharum hybrid cultivar OX=128810 GN=EXP18 
+PE=2 SV=1
+Length=259
+
+ Score = 148 bits (374),  Expect = 7e-43
+ Identities = 67/68 (99%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE
+Sbjct  188  GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  247
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  248  YGKTYTGK  255
+
+
+>TR:B4FEH6_MAIZE B4FEH6 Expansin OS=Zea mays OX=4577 GN=100193290 PE=2 SV=1
+Length=258
+
+ Score = 144 bits (364),  Expect = 2e-41
+ Identities = 65/68 (96%), Positives = 66/68 (97%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWL MGRNWGQVWHINCDMRGQPLSFELSSSDGK LTSFNVVPKDWE
+Sbjct  187  GDVRSVKIKGTELGWLPMGRNWGQVWHINCDMRGQPLSFELSSSDGKALTSFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  247  YGKTYTGK  254
+
+
+>TR:K3Y8U0_SETIT K3Y8U0 Expansin OS=Setaria italica OX=4555 GN=LOC101768740 PE=3 
+SV=1
+Length=316
+
+ Score = 146 bits (368),  Expect = 2e-41
+ Identities = 66/68 (97%), Positives = 67/68 (99%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE
+Sbjct  245  GDVRSVKIKGTESGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  304
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  305  YGKTYTGK  312
+
+
+>TR:A0A2S3I9U2_9POAL A0A2S3I9U2 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_7G266300 PE=4 SV=1
+Length=257
+
+ Score = 144 bits (362),  Expect = 4e-41
+ Identities = 65/68 (96%), Positives = 66/68 (97%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGK LTSFNVVPKDWE
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKRLTSFNVVPKDWE  245
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  246  YGKTYTGK  253
+
+
+>TR:A0A2T7CZD5_9POAL A0A2T7CZD5 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_7G258300 PE=4 SV=1
+Length=257
+
+ Score = 144 bits (362),  Expect = 4e-41
+ Identities = 65/68 (96%), Positives = 66/68 (97%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGK LTSFNVVPKDWE
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKRLTSFNVVPKDWE  245
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  246  YGKTYTGK  253
+
+
+>TR:A0A1D6JBP1_MAIZE A0A1D6JBP1 Expansin OS=Zea mays OX=4577 GN=100191303 PE=3 SV=1
+Length=221
+
+ Score = 142 bits (359),  Expect = 5e-41
+ Identities = 64/68 (94%), Positives = 66/68 (97%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWL MGRNWGQVWHINCDMRGQPLSFELSSSD KTLTSFNVVPKDWE
+Sbjct  150  GDVRSVKIKGTELGWLPMGRNWGQVWHINCDMRGQPLSFELSSSDSKTLTSFNVVPKDWE  209
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  210  FGKTYTGK  217
+
+
+>TR:B4F8B6_MAIZE B4F8B6 Expansin OS=Zea mays OX=4577 GN=100191303 PE=2 SV=1
+Length=260
+
+ Score = 142 bits (359),  Expect = 1e-40
+ Identities = 64/68 (94%), Positives = 66/68 (97%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTELGWL MGRNWGQVWHINCDMRGQPLSFELSSSD KTLTSFNVVPKDWE
+Sbjct  189  GDVRSVKIKGTELGWLPMGRNWGQVWHINCDMRGQPLSFELSSSDSKTLTSFNVVPKDWE  248
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  249  FGKTYTGK  256
+
+
+>TR:A0A1E5V6E3_9POAL A0A1E5V6E3 Expansin OS=Dichanthelium oligosanthes OX=888268 GN=BAE44_0018261 
+PE=3 SV=1
+Length=257
+
+ Score = 140 bits (354),  Expect = 7e-40
+ Identities = 63/68 (93%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV+ VKIKG E GWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE
+Sbjct  186  GDVKLVKIKGIETGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  245
+
+Query  61   YGKTYTGE  68
+            YGKTYTG+
+Sbjct  246  YGKTYTGK  253
+
+
+>TR:M8BA51_AEGTA M8BA51 Expansin OS=Aegilops tauschii OX=37682 GN=F775_43497 PE=3 
+SV=1
+Length=135
+
+ Score = 129 bits (323),  Expect = 1e-36
+ Identities = 55/68 (81%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  64   GDVRSVKIKGTESGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  123
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  124  FGKTYTGK  131
+
+
+>TR:A0A287IZG2_HORVV A0A287IZG2 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=105
+
+ Score = 127 bits (320),  Expect = 1e-36
+ Identities = 54/68 (79%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGT+ GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  34   GDVRSVKIKGTDSGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  93
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  94   FGKTYTGK  101
+
+
+>SP:EXP10_ORYSJ Q7XUD0 Expansin-A10 OS=Oryza sativa subsp. japonica OX=39947 
+GN=EXPA10 PE=2 SV=2
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0D3FZE3_9ORYZ A0A0D3FZE3 Expansin OS=Oryza barthii OX=65489 PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A2XWT7_ORYSI A2XWT7 Expansin OS=Oryza sativa subsp. indica OX=39946 GN=OsI_17122 
+PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0E0H549_ORYNI A0A0E0H549 Expansin OS=Oryza nivara OX=4536 PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0E0DHM8_9ORYZ A0A0E0DHM8 Expansin OS=Oryza meridionalis OX=40149 PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0E0PD76_ORYRU A0A0E0PD76 Expansin OS=Oryza rufipogon OX=4529 PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0D9ZPR6_9ORYZ A0A0D9ZPR6 Expansin OS=Oryza glumipatula OX=40148 PE=3 SV=1
+Length=257
+
+ Score = 132 bits (332),  Expect = 1e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  186  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:A0A0E0KUD1_ORYPU A0A0E0KUD1 Expansin OS=Oryza punctata OX=4537 PE=3 SV=1
+Length=270
+
+ Score = 132 bits (332),  Expect = 2e-36
+ Identities = 57/68 (84%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDGKTLT++NVVPK+W+
+Sbjct  199  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGKTLTNYNVVPKEWD  258
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  259  FGKTYTGK  266
+
+
+>TR:A0A0D9W8M0_9ORYZ A0A0D9W8M0 Expansin OS=Leersia perrieri OX=77586 PE=3 SV=1
+Length=258
+
+ Score = 131 bits (330),  Expect = 3e-36
+ Identities = 56/68 (82%), Positives = 65/68 (96%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQP+SFEL+SSDGKTLT++NVVPK+W+
+Sbjct  187  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPISFELTSSDGKTLTNYNVVPKEWD  246
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  247  FGKTYTGK  254
+
+
+>TR:J3M0Q8_ORYBR J3M0Q8 Expansin OS=Oryza brachyantha OX=4533 GN=102714553 PE=3 
+SV=1
+Length=266
+
+ Score = 131 bits (330),  Expect = 3e-36
+ Identities = 57/68 (84%), Positives = 64/68 (94%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D RGQPLSFEL+SSDG TLTS+NVVPK+W+
+Sbjct  195  GDVRSVKIKGTESGWLSMGRNWGQIWHINSDFRGQPLSFELTSSDGNTLTSYNVVPKEWD  254
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  255  FGKTYTGK  262
+
+
+>TR:L0P3Q5_9POAL L0P3Q5 Expansin OS=Phyllostachys edulis OX=38705 GN=PH01B001I13.19 
+PE=3 SV=1
+Length=320
+
+ Score = 131 bits (329),  Expect = 2e-35
+ Identities = 57/68 (84%), Positives = 64/68 (94%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWLSMGRNWGQ+WHIN D +GQPLSFEL+SSDG TLT+FNVVPK+WE
+Sbjct  249  GDVRSVKIKGTESGWLSMGRNWGQIWHINADFKGQPLSFELTSSDGTTLTNFNVVPKEWE  308
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  309  WGKTYTGK  316
+
+
+>TR:W5BV05_WHEAT W5BV05 Expansin OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=258
+
+ Score = 129 bits (323),  Expect = 3e-35
+ Identities = 55/68 (81%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  187  GDVRSVKIKGTESGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  247  FGKTYTGK  254
+
+
+>TR:W5B8F4_WHEAT W5B8F4 Expansin OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=258
+
+ Score = 129 bits (323),  Expect = 3e-35
+ Identities = 55/68 (81%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  187  GDVRSVKIKGTESGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  247  FGKTYTGK  254
+
+
+>TR:Q6QFA6_WHEAT Q6QFA6 Expansin OS=Triticum aestivum OX=4565 PE=2 SV=1
+Length=258
+
+ Score = 129 bits (323),  Expect = 3e-35
+ Identities = 55/68 (81%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  187  GDVRSVKIKGTESGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  247  FGKTYTGK  254
+
+
+>TR:A0A286RYR7_9POAL A0A286RYR7 Expansin OS=Beckmannia syzigachne OX=368345 GN=EXPA10 
+PE=2 SV=1
+Length=258
+
+ Score = 128 bits (322),  Expect = 4e-35
+ Identities = 54/68 (79%), Positives = 64/68 (94%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGT+ GWLSMGRNWGQ+WHIN D++GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  187  GDVRSVKIKGTDSGWLSMGRNWGQIWHINLDLKGQPVSFELTSSDGTTMTNFNVVPKDWE  246
+
+Query  61   YGKTYTGE  68
+            +GKTY G+
+Sbjct  247  FGKTYNGK  254
+
+
+>TR:A0A287IZJ1_HORVV A0A287IZJ1 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=259
+
+ Score = 127 bits (320),  Expect = 9e-35
+ Identities = 54/68 (79%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGT+ GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  188  GDVRSVKIKGTDSGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  247
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  248  FGKTYTGK  255
+
+
+>TR:M8A3W9_TRIUA M8A3W9 Expansin OS=Triticum urartu OX=4572 GN=TRIUR3_22314 PE=3 
+SV=1
+Length=304
+
+ Score = 129 bits (323),  Expect = 9e-35
+ Identities = 55/68 (81%), Positives = 63/68 (93%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVRSVKIKGTE GWL MGRNWGQ+WHIN D+ GQP+SFEL+SSDG T+T+FNVVPKDWE
+Sbjct  233  GDVRSVKIKGTESGWLDMGRNWGQIWHINLDLTGQPVSFELTSSDGTTMTNFNVVPKDWE  292
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  293  FGKTYTGK  300
+
+
+>TR:I1J0Y0_BRADI I1J0Y0 Expansin OS=Brachypodium distachyon OX=15368 GN=LOC100840788 
+PE=3 SV=1
+Length=257
+
+ Score = 122 bits (305),  Expect = 1e-32
+ Identities = 52/68 (76%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SVKIKGT+ GWLSMGRNWGQ+WHIN D+RGQP+SFEL+SSDG  LT F  VPK+WE
+Sbjct  186  GDVSSVKIKGTDSGWLSMGRNWGQIWHINLDLRGQPVSFELTSSDGTALTDFTAVPKNWE  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:B6SGJ2_MAIZE B6SGJ2 Expansin OS=Zea mays OX=4577 PE=2 SV=1
+Length=55
+
+ Score = 112 bits (281),  Expect = 2e-31
+ Identities = 49/51 (96%), Positives = 50/51 (98%), Gaps = 0/51 (0%)
+
+Query  18  MGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWEYGKTYTGE  68
+           MGRNWGQVWHINCDMRGQPLSFELSSSDGK LTSFNVVPKDWEYGKTYTG+
+Sbjct  1   MGRNWGQVWHINCDMRGQPLSFELSSSDGKALTSFNVVPKDWEYGKTYTGK  51
+
+
+>TR:A0A251ST44_HELAN A0A251ST44 Expansin OS=Helianthus annuus OX=4232 GN=HannXRQ_Chr13g0394081 
+PE=3 SV=1
+Length=112
+
+ Score = 107 bits (267),  Expect = 2e-28
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL M RNWGQ WHIN D++ QPLSFE++SSDG T+TS+NV PKDW 
+Sbjct  41   GDISAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPLSFEVTSSDGLTVTSYNVAPKDWN  100
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  101  FGQTFEGKQFQS  112
+
+
+>TR:A0A2K3L795_TRIPR A0A2K3L795 Expansin OS=Trifolium pratense OX=57577 GN=L195_g030333 
+PE=3 SV=1
+Length=106
+
+ Score = 107 bits (266),  Expect = 2e-28
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWLSMGRNWGQ WHIN  ++ QPLSFE++SSDGKT+T++NV PKDW 
+Sbjct  35   GDIVAVKVKGSRTGWLSMGRNWGQNWHINALLQNQPLSFEVTSSDGKTVTAYNVAPKDWS  94
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  95   FGQTFEGK  102
+
+
+>TR:A0A0A0KT71_CUCSA A0A0A0KT71 Expansin OS=Cucumis sativus OX=3659 GN=Csa_5G332530 
+PE=3 SV=1
+Length=123
+
+ Score = 107 bits (267),  Expect = 2e-28
+ Identities = 46/72 (64%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKGT  GWL MGRNWGQ WHIN D+  Q LSFE++SSDG T+TS+NV PKDW 
+Sbjct  52   GDVSAVKIKGTRTGWLPMGRNWGQNWHINADLNHQALSFEVTSSDGVTITSYNVAPKDWN  111
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  112  FGQTFEGKQFES  123
+
+
+>TR:A0A2I0WRL5_9ASPA A0A2I0WRL5 Expansin OS=Dendrobium catenatum OX=906689 GN=EXPA10 
+PE=3 SV=1
+Length=272
+
+ Score = 110 bits (276),  Expect = 4e-28
+ Identities = 47/68 (69%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VK+KGT  GWL MGRNWGQ WHI  D+RGQPLSFELS+SDG TLTS+NV P  W 
+Sbjct  201  GDVTAVKVKGTATGWLQMGRNWGQNWHIGADLRGQPLSFELSTSDGVTLTSYNVAPHGWS  260
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  261  FGQTYVGK  268
+
+
+>TR:A0A1R3JNX8_COCAP A0A1R3JNX8 Uncharacterized protein OS=Corchorus capsularis OX=210143 
+GN=CCACVL1_04930 PE=3 SV=1
+Length=191
+
+ Score = 108 bits (269),  Expect = 7e-28
+ Identities = 45/72 (63%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG++ GWL MGRNWGQ WHIN D+  QPLSFE++SSDG T+TS+NV PKDW+
+Sbjct  120  GDIAAVKIKGSKTGWLPMGRNWGQNWHINSDLTKQPLSFEVTSSDGLTVTSYNVAPKDWK  179
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  180  FGQTFEGKQFES  191
+
+
+>TR:A0A067KHR0_JATCU A0A067KHR0 Expansin OS=Jatropha curcas OX=180498 GN=JCGZ_10508 
+PE=3 SV=1
+Length=281
+
+ Score = 110 bits (274),  Expect = 1e-27
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG T+TS+NV PKDW 
+Sbjct  210  GDVTAVKIKGSRTGWLQMGRNWGQNWHINADLKNQPLSFEVTSSDGLTITSYNVAPKDWN  269
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  270  FGQTFEGK  277
+
+
+>TR:A0A061EE82_THECC A0A061EE82 Expansin OS=Theobroma cacao OX=3641 GN=TCM_017901 
+PE=3 SV=1
+Length=265
+
+ Score = 109 bits (273),  Expect = 1e-27
+ Identities = 46/72 (64%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG++ GWL MGRNWGQ WHIN D++ QPLSFE+++SDG TLTS+NV PKDW 
+Sbjct  194  GDVVAVKIKGSKTGWLQMGRNWGQNWHINSDLKNQPLSFEVTTSDGLTLTSYNVAPKDWN  253
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  254  FGQTFEGKQFQS  265
+
+
+>TR:A0A2R4FZR6_9LAMI A0A2R4FZR6 Expansin OS=Osmanthus fragrans OX=93977 PE=2 SV=1
+Length=274
+
+ Score = 109 bits (273),  Expect = 1e-27
+ Identities = 46/72 (64%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN DM+ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  203  GDVTAVKIKGSRTGWLPMGRNWGQNWHINADMKNQPLSFEVTSSDGLTITSYNVAPKNWS  262
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  263  FGQTFEGKQFES  274
+
+
+>TR:A0A2L2DDF7_BOENI A0A2L2DDF7 Expansin OS=Boehmeria nivea OX=83906 PE=3 SV=1
+Length=264
+
+ Score = 109 bits (272),  Expect = 1e-27
+ Identities = 46/72 (64%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SVKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  193  GDVASVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTSSDGVTVTSYNVAPKNWN  252
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  253  FGQTFEGKQFDS  264
+
+
+>TR:A0A2G9GV86_9LAMI A0A2G9GV86 Expansin OS=Handroanthus impetiginosus OX=429701 GN=CDL12_18301 
+PE=3 SV=1
+Length=265
+
+ Score = 109 bits (272),  Expect = 1e-27
+ Identities = 46/72 (64%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+WE
+Sbjct  194  GDVTAVKIKGSRTGWLPMGRNWGQNWHINADLKKQPLSFEITSSDGVTLTSYNVAPKNWE  253
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  254  FGQSFEGKQFDS  265
+
+
+>TR:A0A200RAC7_9MAGN A0A200RAC7 Expansin OS=Macleaya cordata OX=56857 GN=BVC80_8587g1 
+PE=3 SV=1
+Length=269
+
+ Score = 109 bits (272),  Expect = 2e-27
+ Identities = 46/72 (64%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHI+ D++ QPLSFE+S+SDG TLTS+NV PKDW+
+Sbjct  198  GDVVAVKIKGSRTGWLPMGRNWGQNWHISADLKNQPLSFEVSTSDGVTLTSYNVAPKDWK  257
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  258  FGQTFVGKQFES  269
+
+
+>TR:A0A067F286_CITSI A0A067F286 Expansin (Fragment) OS=Citrus sinensis OX=2711 GN=CISIN_1g0244572mg 
+PE=3 SV=1
+Length=94
+
+ Score = 104 bits (259),  Expect = 2e-27
+ Identities = 43/72 (60%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           GDV +VKIKG+  GWL MGRNWGQ WHIN +++ QPLSFE+++SDG T+TS+NV PK+W 
+Sbjct  23  GDVVAVKIKGSRTGWLPMGRNWGQNWHINANLKNQPLSFEVTTSDGLTVTSYNVAPKNWN  82
+
+Query  61  YGKTYTGEAVSS  72
+           +G+T+ G+   S
+Sbjct  83  FGQTFEGKQFES  94
+
+
+>TR:A0A199UMU6_ANACO A0A199UMU6 Expansin OS=Ananas comosus OX=4615 GN=ACMD2_16332 
+PE=3 SV=1
+Length=269
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 47/71 (66%), Positives = 58/71 (82%), Gaps = 0/71 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+ +GWLSMGR WGQ WHI+ D++GQ LSFEL++SD  TLTSFNV PKDW 
+Sbjct  198  GDVTAVKIKGSNIGWLSMGRIWGQNWHISADLKGQALSFELTTSDSVTLTSFNVAPKDWS  257
+
+Query  61   YGKTYTGEAVS  71
+            +G+TY G+  S
+Sbjct  258  FGQTYAGKQFS  268
+
+
+>TR:A0A0S3RL53_PHAAN A0A0S3RL53 Expansin OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.03G099100 PE=3 SV=1
+Length=270
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ+WH+N  ++ QPLSFE++SSDGKTLTS+NV PKDW 
+Sbjct  199  GDIVAVKVKGSRTGWLPMGRNWGQIWHVNALLQNQPLSFEVTSSDGKTLTSYNVAPKDWT  258
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  259  FGQTFEGK  266
+
+
+>TR:A0A0L9UX26_PHAAN A0A0L9UX26 Expansin OS=Phaseolus angularis OX=3914 GN=LR48_Vigan07g079300 
+PE=3 SV=1
+Length=270
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ+WH+N  ++ QPLSFE++SSDGKTLTS+NV PKDW 
+Sbjct  199  GDIVAVKVKGSRTGWLPMGRNWGQIWHVNALLQNQPLSFEVTSSDGKTLTSYNVAPKDWT  258
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  259  FGQTFEGK  266
+
+
+>TR:A0A1S3U9K3_VIGRR A0A1S3U9K3 Expansin OS=Vigna radiata var. radiata OX=3916 GN=LOC106763049 
+PE=3 SV=1
+Length=270
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ+WH+N  ++ QPLSFE++SSDGKTLTS+NV PKDW 
+Sbjct  199  GDIVAVKVKGSRTGWLPMGRNWGQIWHVNALLQNQPLSFEVTSSDGKTLTSYNVAPKDWT  258
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  259  FGQTFEGK  266
+
+
+>TR:A0A2P6RFU8_ROSCH A0A2P6RFU8 Expansin OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr3g0488771 
+PE=3 SV=1
+Length=271
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 44/72 (61%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG+T+TS+NV PK+W 
+Sbjct  200  GDITAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTSSDGQTVTSYNVAPKNWN  259
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  260  FGQTFDGKQFES  271
+
+
+>TR:M0U7D1_MUSAM M0U7D1 Expansin OS=Musa acuminata subsp. malaccensis OX=214687 
+GN=103973442 PE=3 SV=1
+Length=275
+
+ Score = 108 bits (271),  Expect = 2e-27
+ Identities = 46/68 (68%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGR WGQ WHI+ D++GQ LSFE++SSDG TLTS+NV PKDW+
+Sbjct  204  GDVTAVKIKGSVTGWLPMGRTWGQNWHISADLKGQALSFEVTSSDGVTLTSYNVAPKDWD  263
+
+Query  61   YGKTYTGE  68
+            +GKTY G+
+Sbjct  264  FGKTYVGK  271
+
+
+>TR:A0A2G2XFR4_CAPBA A0A2G2XFR4 Expansin OS=Capsicum baccatum OX=33114 GN=CQW23_04821 
+PE=3 SV=1
+Length=266
+
+ Score = 108 bits (270),  Expect = 3e-27
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KGT  GWL MGRNWGQ WH+N D++ QPLSFEL+S DG TLTS+NVVPK+W 
+Sbjct  195  GDIVAAKVKGTRTGWLPMGRNWGQNWHVNADLKNQPLSFELTSGDGGTLTSYNVVPKNWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:A0A2I0AWZ0_9ASPA A0A2I0AWZ0 Expansin OS=Apostasia shenzhenica OX=1088818 GN=EXPA10 
+PE=3 SV=1
+Length=269
+
+ Score = 108 bits (270),  Expect = 3e-27
+ Identities = 45/68 (66%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VK+KGT  GWL MGR WGQ WHI+ D+RGQPLSFEL++ DG  LTS+NV P DW 
+Sbjct  198  GDVTAVKVKGTATGWLPMGRTWGQNWHISADLRGQPLSFELTAGDGHVLTSYNVAPHDWS  257
+
+Query  61   YGKTYTGE  68
+            +GKTY G+
+Sbjct  258  FGKTYVGK  265
+
+
+>TR:B9SKR9_RICCO B9SKR9 Expansin OS=Ricinus communis OX=3988 GN=RCOM_1604370 PE=3 
+SV=1
+Length=269
+
+ Score = 108 bits (270),  Expect = 3e-27
+ Identities = 45/68 (66%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG T+TS+NV PKDW 
+Sbjct  198  GDVVAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTSSDGLTVTSYNVAPKDWN  257
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  258  FGQTFEGK  265
+
+
+>TR:A0A2P2QQ38_RHIMU A0A2P2QQ38 Expansin OS=Rhizophora mucronata OX=61149 PE=3 SV=1
+Length=109
+
+ Score = 103 bits (258),  Expect = 3e-27
+ Identities = 43/68 (63%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE++S DG T TS+ V PKDW 
+Sbjct  38   GDIVAVKIKGSRTGWLPMGRNWGQNWHINADLRHQPLSFEITSGDGLTRTSYTVAPKDWN  97
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  98   FGQTFEGK  105
+
+
+>TR:A0A1U7W191_NICSY A0A1U7W191 Expansin OS=Nicotiana sylvestris OX=4096 GN=LOC104221596 
+PE=3 SV=1
+Length=259
+
+ Score = 108 bits (269),  Expect = 3e-27
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWLSMGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  188  GDIVAAKIKGSRTGWLSMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  247
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  248  FGQTFQGK  255
+
+
+>TR:A0A1J6INX4_NICAT A0A1J6INX4 Expansin OS=Nicotiana attenuata OX=49451 GN=EXPA13_0 
+PE=3 SV=1
+Length=259
+
+ Score = 108 bits (269),  Expect = 3e-27
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWLSMGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  188  GDIVAAKIKGSRTGWLSMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  247
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  248  FGQTFQGK  255
+
+
+>TR:A0A1S4BQ33_TOBAC A0A1S4BQ33 Expansin OS=Nicotiana tabacum OX=4097 GN=LOC107810643 
+PE=3 SV=1
+Length=259
+
+ Score = 108 bits (269),  Expect = 3e-27
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWLSMGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  188  GDIVAAKIKGSRTGWLSMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  247
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  248  FGQTFQGK  255
+
+
+>TR:A0A1S4BE06_TOBAC A0A1S4BE06 Expansin OS=Nicotiana tabacum OX=4097 GN=LOC107807232 
+PE=3 SV=1
+Length=266
+
+ Score = 108 bits (269),  Expect = 4e-27
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  195  GDIEAAKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:A0A1R3J3J4_9ROSI A0A1R3J3J4 Expansin OS=Corchorus olitorius OX=93759 GN=COLO4_19767 
+PE=3 SV=1
+Length=271
+
+ Score = 108 bits (269),  Expect = 4e-27
+ Identities = 45/72 (63%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG++ GWL MGRNWGQ WHIN D+  QPLSFE++SSDG T+TS+NV PKDW+
+Sbjct  200  GDIAAVKIKGSKTGWLPMGRNWGQNWHINSDLTKQPLSFEVTSSDGLTVTSYNVAPKDWK  259
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  260  FGQTFEGKQFES  271
+
+
+>TR:A0A2P5Q312_GOSBA A0A2P5Q312 Expansin OS=Gossypium barbadense OX=3634 GN=GOBAR_DD34175 
+PE=3 SV=1
+Length=267
+
+ Score = 107 bits (268),  Expect = 6e-27
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  196  GDIAAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  255
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  256  FGQTFEGK  263
+
+
+>TR:A0A2P5VW33_GOSBA A0A2P5VW33 Expansin OS=Gossypium barbadense OX=3634 GN=GOBAR_AA37662 
+PE=3 SV=1
+Length=236
+
+ Score = 107 bits (266),  Expect = 6e-27
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  165  GDIVAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  224
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  225  FGQTFEGK  232
+
+
+>TR:A0A059BU64_EUCGR A0A059BU64 Expansin OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_F02908 
+PE=3 SV=1
+Length=268
+
+ Score = 107 bits (268),  Expect = 6e-27
+ Identities = 44/72 (61%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ ++KIKG++ GWL MGRNWGQ WHIN D+R QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  197  GDIAAIKIKGSKTGWLPMGRNWGQNWHINADLRNQPLSFEVTSSDGVTVTSYNVAPKNWI  256
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  257  FGQTFEGKQFES  268
+
+
+>TR:A0A2J6KT62_LACSA A0A2J6KT62 Expansin OS=Lactuca sativa OX=4236 GN=LSAT_3X67081 
+PE=3 SV=1
+Length=266
+
+ Score = 107 bits (267),  Expect = 8e-27
+ Identities = 43/72 (60%), Positives = 59/72 (82%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWLSM RNWGQ WH+N D++ QPLSFE+++SDG TLTS+NV PKDW+
+Sbjct  195  GDLMAVKIKGSRTGWLSMNRNWGQNWHLNADLKNQPLSFEITTSDGLTLTSYNVAPKDWD  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  255  FGQSFEGKQFES  266
+
+
+>TR:A0A2G5F7D2_AQUCA A0A2G5F7D2 Expansin OS=Aquilegia coerulea OX=218851 GN=AQUCO_00201326v1 
+PE=3 SV=1
+Length=268
+
+ Score = 107 bits (267),  Expect = 8e-27
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQVWH+N D++ QPLSFE+++SDG T+TS++V PK WE
+Sbjct  197  GDVVAVKIKGSRTGWLPMGRNWGQVWHVNADLKNQPLSFEVTTSDGVTITSYSVAPKTWE  256
+
+Query  61   YGKTYTGE  68
+            YG+++ G+
+Sbjct  257  YGQSFEGK  264
+
+
+>TR:A0A1S3Z6T3_TOBAC A0A1S3Z6T3 Expansin OS=Nicotiana tabacum OX=4097 GN=LOC107783684 
+PE=3 SV=1
+Length=259
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWLSMGRNWG  WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  188  GDIVAAKIKGSRTGWLSMGRNWGHNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  247
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  248  FGQTFQGKQFES  259
+
+
+>TR:A0A2G3A9B0_CAPAN A0A2G3A9B0 Expansin OS=Capsicum annuum OX=4072 GN=T459_05948 
+PE=3 SV=1
+Length=261
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WH+N D++ QPLSFEL+S DG TLTS+NVVPK+W 
+Sbjct  190  GDIVAAKVKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFELTSGDGGTLTSYNVVPKNWN  249
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  250  FGQTFEGKQFGS  261
+
+
+>TR:A0A022QJ68_ERYGU A0A022QJ68 Expansin OS=Erythranthe guttata OX=4155 GN=MIMGU_mgv1a011992mg 
+PE=3 SV=1
+Length=264
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 44/68 (65%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W+
+Sbjct  194  GDVAAVKIKGSVTGWLPMGRNWGQNWHINADLKNQPLSFEITSSDGITLTSYNVAPKNWD  253
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  254  FGQSFEGK  261
+
+
+>TR:A0A1U8FN84_CAPAN A0A1U8FN84 Expansin OS=Capsicum annuum OX=4072 GN=LOC107859638 
+PE=3 SV=1
+Length=266
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WH+N D++ QPLSFEL+S DG TLTS+NVVPK+W 
+Sbjct  195  GDIVAAKVKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFELTSGDGGTLTSYNVVPKNWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:A0A2G3D6Z6_CAPCH A0A2G3D6Z6 Expansin OS=Capsicum chinense OX=80379 GN=BC332_05078 
+PE=3 SV=1
+Length=266
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WH+N D++ QPLSFEL+S DG TLTS+NVVPK+W 
+Sbjct  195  GDIVAAKVKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFELTSGDGGTLTSYNVVPKNWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:G7KFU6_MEDTR G7KFU6 Expansin OS=Medicago truncatula OX=3880 GN=11433146 PE=3 
+SV=1
+Length=266
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWLSMGRNWGQ WHIN  ++ QPLSFE++SSDGKT+T++NV PKDW 
+Sbjct  195  GDIVAVKVKGSRTGWLSMGRNWGQNWHINALLQNQPLSFEVTSSDGKTVTAYNVAPKDWS  254
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  255  FGQTFEGK  262
+
+
+>TR:A0A1J6KCR9_NICAT A0A1J6KCR9 Expansin OS=Nicotiana attenuata OX=49451 GN=EXPA13_1 
+PE=3 SV=1
+Length=267
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 44/72 (61%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK+W 
+Sbjct  196  GDIVAAKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKNWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  256  FGQTFEGKQFGS  267
+
+
+>TR:A0A0D2PNT7_GOSRA A0A0D2PNT7 Expansin OS=Gossypium raimondii OX=29730 GN=B456_001G083300 
+PE=3 SV=1
+Length=267
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  196  GDIVAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  255
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  256  FGQTFEGK  263
+
+
+>TR:A0A2K3NHI9_TRIPR A0A2K3NHI9 Expansin OS=Trifolium pratense OX=57577 GN=L195_g025154 
+PE=3 SV=1
+Length=270
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 43/68 (63%), Positives = 58/68 (85%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWLSMGRNWGQ WHIN  ++ QPLSFE++SSDGKT+T++NV PKDW 
+Sbjct  199  GDIVAVKVKGSRTGWLSMGRNWGQNWHINALLQNQPLSFEVTSSDGKTVTAYNVAPKDWS  258
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  259  FGQTFEGK  266
+
+
+>TR:D3YE74_SOLTU D3YE74 Expansin (Fragment) OS=Solanum tuberosum OX=4113 GN=EXPA6 
+PE=2 SV=1
+Length=209
+
+ Score = 105 bits (262),  Expect = 1e-26
+ Identities = 42/72 (58%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WHIN D++ QPLSFE++S DG TLTS+NV PK+W 
+Sbjct  138  GDIVAAKVKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEMTSGDGATLTSYNVAPKNWN  197
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  198  FGQTFEGKQFGS  209
+
+
+>TR:A0A1V0D7G9_ACTAR A0A1V0D7G9 Expansin OS=Actinidia arguta OX=64478 GN=EXP8 PE=2 
+SV=1
+Length=271
+
+ Score = 107 bits (266),  Expect = 1e-26
+ Identities = 45/72 (63%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV  VKIKG+  GWL MGRNWGQ WHIN D++ QPL+FEL+ SDG TLTS+NV P++W 
+Sbjct  200  GDVAEVKIKGSRTGWLPMGRNWGQNWHINTDLKNQPLAFELTGSDGVTLTSYNVAPQNWN  259
+
+Query  61   YGKTYTGEAVSS  72
+            YG+T+ G+   S
+Sbjct  260  YGQTFEGKQFES  271
+
+
+>TR:A0A251SHE1_HELAN A0A251SHE1 Expansin OS=Helianthus annuus OX=4232 GN=ATEXPA13 
+PE=3 SV=1
+Length=259
+
+ Score = 106 bits (265),  Expect = 1e-26
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL M RNWGQ WHIN D++ QP+SFE++SSDG T+TS+NV PKDW 
+Sbjct  188  GDISAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPISFEVTSSDGLTVTSYNVAPKDWN  247
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  248  FGQTFEGKQFQS  259
+
+
+>TR:A0A1U8P0Z3_GOSHI A0A1U8P0Z3 Expansin OS=Gossypium hirsutum OX=3635 GN=LOC107953946 
+PE=3 SV=1
+Length=314
+
+ Score = 107 bits (268),  Expect = 1e-26
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  243  GDIAAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  302
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  303  FGQTFEGK  310
+
+
+>TR:A0A2I4EBL6_9ROSI A0A2I4EBL6 Expansin OS=Juglans regia OX=51240 GN=LOC108988118 
+PE=3 SV=1
+Length=264
+
+ Score = 106 bits (265),  Expect = 2e-26
+ Identities = 43/68 (63%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE+++SDG T+TS+NV PKDW 
+Sbjct  194  GDVAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTNSDGVTVTSYNVAPKDWN  253
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  254  FGQSFEGK  261
+
+
+>TR:A0A2I0JDX5_PUNGR A0A2I0JDX5 Expansin OS=Punica granatum OX=22663 GN=CRG98_025221 
+PE=3 SV=1
+Length=193
+
+ Score = 104 bits (259),  Expect = 2e-26
+ Identities = 41/72 (57%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ QPLSFE+++++G T+TS+NV PKDW 
+Sbjct  122  GDIVAVKVKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTATNGLTVTSYNVAPKDWN  181
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  182  FGQTFEGKQFES  193
+
+
+>TR:M0SS09_MUSAM M0SS09 Expansin OS=Musa acuminata subsp. malaccensis OX=214687 
+GN=103982726 PE=3 SV=1
+Length=287
+
+ Score = 106 bits (265),  Expect = 2e-26
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHI+ D++GQ LSFE+++SDG TLTS+NV PKDW 
+Sbjct  216  GDITAVKIKGSTTGWLPMGRNWGQNWHISADLKGQALSFEVTASDGVTLTSYNVAPKDWT  275
+
+Query  61   YGKTYTGE  68
+            +GK Y G+
+Sbjct  276  FGKIYVGK  283
+
+
+>TR:A0A068U294_COFCA A0A068U294 Expansin OS=Coffea canephora OX=49390 GN=GSCOC_T00036829001 
+PE=3 SV=1
+Length=271
+
+ Score = 106 bits (264),  Expect = 2e-26
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFEL++ DG TL S++V PKDW 
+Sbjct  200  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFELTNGDGVTLASYSVAPKDWN  259
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  260  YGQTFEGK  267
+
+
+>TR:A0A1U8IR05_GOSHI A0A1U8IR05 Expansin OS=Gossypium hirsutum OX=3635 GN=LOC107899371 
+PE=3 SV=1
+Length=314
+
+ Score = 107 bits (266),  Expect = 3e-26
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  243  GDIVAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  302
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  303  FGQTFEGK  310
+
+
+>TR:A0A0B0NDP6_GOSAR A0A0B0NDP6 Expansin OS=Gossypium arboreum OX=29729 GN=F383_07143 
+PE=3 SV=1
+Length=314
+
+ Score = 107 bits (266),  Expect = 3e-26
+ Identities = 44/68 (65%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R QPLSFE+++SDG TLTS+NV PK+W 
+Sbjct  243  GDIVAVKIKGSRTGWLPMGRNWGQNWHINSDLRNQPLSFEVTNSDGLTLTSYNVAPKNWN  302
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  303  FGQTFEGK  310
+
+
+>TR:A0A118K582_CYNCS A0A118K582 Expansin OS=Cynara cardunculus var. scolymus OX=59895 
+GN=Ccrd_012952 PE=3 SV=1
+Length=261
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL M RNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PKDW 
+Sbjct  190  GDIAAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPLSFEVTSSDGLTLTSYNVAPKDWN  249
+
+Query  61   YGKTYTGE  68
+            +G+ + G+
+Sbjct  250  FGQNFEGK  257
+
+
+>TR:I1MBR5_SOYBN I1MBR5 Expansin OS=Glycine max OX=3847 GN=100809568 PE=3 SV=2
+Length=266
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 43/68 (63%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV  VK+KG+  GWLSMGRNWGQ WH+N  ++ QPLSFE+ +SDGKT+TS+NV PKDW 
+Sbjct  195  GDVVEVKVKGSRTGWLSMGRNWGQNWHVNALLQNQPLSFEVKASDGKTVTSYNVAPKDWT  254
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  255  FGQTFEGK  262
+
+
+>TR:A0A1S3CIL6_CUCME A0A1S3CIL6 Expansin OS=Cucumis melo OX=3656 GN=LOC103501369 PE=3 
+SV=1
+Length=268
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 45/72 (63%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKGT  GWL MGRNWGQ WHIN D+  Q LSFE++SSDG T++S+NV PKDW 
+Sbjct  197  GDVSAVKIKGTRTGWLPMGRNWGQNWHINADLNHQALSFEVTSSDGVTISSYNVAPKDWN  256
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  257  FGQTFEGKQFES  268
+
+
+>TR:I1JHS2_SOYBN I1JHS2 Expansin OS=Glycine max OX=3847 GN=100784516 PE=3 SV=1
+Length=270
+
+ Score = 105 bits (263),  Expect = 3e-26
+ Identities = 42/68 (62%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GWLSMGRNWGQ WH+N  ++ QPLSFE+ +SDGKT+TS+NV PKDW 
+Sbjct  199  GDIGEVKVKGSRTGWLSMGRNWGQNWHVNALLQNQPLSFEVKASDGKTVTSYNVAPKDWT  258
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  259  FGQTFEGK  266
+
+
+>TR:A0A151U9L7_CAJCA A0A151U9L7 Expansin OS=Cajanus cajan OX=3821 GN=KK1_020233 PE=3 
+SV=1
+Length=109
+
+ Score = 101 bits (251),  Expect = 4e-26
+ Identities = 41/72 (57%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GWL MGRNWGQ WH+N  ++ QPLSFE+++SDG TLTS+NV PKDW 
+Sbjct  38   GDIVGVKVKGSRTGWLPMGRNWGQNWHVNALLQNQPLSFEVTASDGITLTSYNVAPKDWT  97
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  98   FGQSFQGKQFES  109
+
+
+>TR:K4B9Z1_SOLLC K4B9Z1 Expansin OS=Solanum lycopersicum OX=4081 GN=101268246 
+PE=3 SV=1
+Length=264
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 42/72 (58%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WHIN D++ QPLSFE++S DG TLTS+NV PK+W 
+Sbjct  193  GDIVAAKVKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEMTSGDGATLTSYNVAPKNWN  252
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  253  FGQTFEGKQFGS  264
+
+
+>TR:A0A2C9VJI6_MANES A0A2C9VJI6 Expansin OS=Manihot esculenta OX=3983 GN=MANES_07G081300 
+PE=3 SV=1
+Length=282
+
+ Score = 105 bits (263),  Expect = 4e-26
+ Identities = 42/68 (62%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE+++SDG T+TS+NV PK+W 
+Sbjct  211  GDITAVKIKGSRTGWLQMGRNWGQNWHINADLKNQPLSFEVTTSDGITVTSYNVAPKNWS  270
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  271  FGQTFEGK  278
+
+
+>TR:A0A1U7V137_NICSY A0A1U7V137 Expansin OS=Nicotiana sylvestris OX=4096 GN=LOC104212517 
+PE=3 SV=1
+Length=266
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 44/72 (61%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK W 
+Sbjct  195  GDIVAAKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKIWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:A0A1S3Y9G0_TOBAC A0A1S3Y9G0 Expansin OS=Nicotiana tabacum OX=4097 GN=LOC107773912 
+PE=3 SV=1
+Length=266
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 44/72 (61%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG TLTS+NV PK W 
+Sbjct  195  GDIVAAKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEITSSDGVTLTSYNVAPKIWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  255  FGQTFEGKQFGS  266
+
+
+>TR:M1BE25_SOLTU M1BE25 Expansin OS=Solanum tuberosum OX=4113 GN=102577708 PE=3 
+SV=1
+Length=267
+
+ Score = 105 bits (262),  Expect = 4e-26
+ Identities = 42/72 (58%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGRNWGQ WHIN D++ QPLSFE++S DG TLTS+NV PK+W 
+Sbjct  196  GDIVAAKVKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEMTSGDGATLTSYNVAPKNWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  256  FGQTFEGKQFGS  267
+
+
+>TR:A0A2R6S2W8_ACTCH A0A2R6S2W8 Expansin OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc01142 PE=3 SV=1
+Length=271
+
+ Score = 105 bits (262),  Expect = 5e-26
+ Identities = 44/72 (61%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV  VKIKG+  GWL MGRNWGQ WHIN D++ QPL+FE+++SDG TLTS+NV P +W 
+Sbjct  200  GDVAEVKIKGSRTGWLPMGRNWGQNWHINTDLKNQPLAFEVTNSDGVTLTSYNVAPTNWN  259
+
+Query  61   YGKTYTGEAVSS  72
+            YG+T+ G+   S
+Sbjct  260  YGQTFEGKQFES  271
+
+
+>TR:A0A1J7HJU4_LUPAN A0A1J7HJU4 Expansin OS=Lupinus angustifolius OX=3871 GN=TanjilG_24084 
+PE=3 SV=1
+Length=276
+
+ Score = 105 bits (262),  Expect = 5e-26
+ Identities = 42/68 (62%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WH+N  ++ QPLSFE++SSDGKT+TS+NV PKDW 
+Sbjct  205  GDLIAVKVKGSRTGWLPMGRNWGQNWHVNALLQNQPLSFEITSSDGKTVTSYNVAPKDWS  264
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  265  FGQTFEGK  272
+
+
+>TR:A0A2H3WX34_PHODC A0A2H3WX34 Expansin OS=Phoenix dactylifera OX=42345 GN=LOC103695448 
+PE=3 SV=1
+Length=272
+
+ Score = 105 bits (261),  Expect = 7e-26
+ Identities = 44/68 (65%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VK+KGT +GWL M RNWGQ WHI+ D++GQ LSFEL++SD  TLTS+NV PKDW 
+Sbjct  201  GDVTAVKVKGTMIGWLPMFRNWGQNWHISADLKGQALSFELTTSDSVTLTSYNVAPKDWA  260
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  261  FGQTYVGK  268
+
+
+>TR:A0A218VWA4_PUNGR A0A218VWA4 Expansin OS=Punica granatum OX=22663 GN=CDL15_Pgr020326 
+PE=3 SV=1
+Length=242
+
+ Score = 104 bits (259),  Expect = 7e-26
+ Identities = 41/72 (57%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ QPLSFE+++++G T+TS+NV PKDW 
+Sbjct  171  GDIVAVKVKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTATNGLTVTSYNVAPKDWN  230
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  231  FGQTFEGKQFES  242
+
+
+>TR:A0A2P5A5V2_PARAD A0A2P5A5V2 Expansin OS=Parasponia andersonii OX=3476 GN=PanWU01x14_365800 
+PE=3 SV=1
+Length=265
+
+ Score = 104 bits (260),  Expect = 8e-26
+ Identities = 42/72 (58%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WH+N D++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  194  GDIAAVKIKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFEVTSSDGFTVTSYNVAPKNWN  253
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+  +   S
+Sbjct  254  FGQTFEAKQFES  265
+
+
+>TR:F6HFW4_VITVI F6HFW4 Expansin OS=Vitis vinifera OX=29760 GN=VIT_04s0079g00420 
+PE=3 SV=1
+Length=271
+
+ Score = 104 bits (260),  Expect = 9e-26
+ Identities = 42/72 (58%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GWL MGRNWGQ WH+N D++ QPLSFE+++SDG TLTS+NV PK W 
+Sbjct  200  GDIVGVKVKGSRTGWLPMGRNWGQNWHLNADLKNQPLSFEITASDGITLTSYNVAPKGWN  259
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  260  FGQTFEGKQFES  271
+
+
+>TR:A0A2U1N754_ARTAN A0A2U1N754 Expansin A13 OS=Artemisia annua OX=35608 GN=CTI12_AA133010 
+PE=4 SV=1
+Length=262
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL M RNWGQ WHIN D++ QPLSFE++SS+G T+TS+NV PKDW 
+Sbjct  191  GDVLAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPLSFEVTSSEGLTVTSYNVAPKDWN  250
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  251  FGQSFEGKQFQS  262
+
+
+>TR:A0A2P5FJ51_9ROSA A0A2P5FJ51 Expansin OS=Trema orientalis OX=63057 GN=TorRG33x02_064020 
+PE=3 SV=1
+Length=266
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 42/72 (58%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ ++KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  195  GDIAAMKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTSSDGVTVTSYNVAPKNWN  254
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+  +   S
+Sbjct  255  FGQTFEAKQFES  266
+
+
+>TR:A0A2H5N0P4_CITUN A0A2H5N0P4 Expansin OS=Citrus unshiu OX=55188 GN=CUMW_006950 
+PE=3 SV=1
+Length=267
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 43/72 (60%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN +++ QPLSFE+++SDG T+TS+NV PK+W 
+Sbjct  196  GDVVAVKIKGSRTGWLPMGRNWGQNWHINANLKNQPLSFEVTTSDGLTVTSYNVAPKNWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  256  FGQTFEGKQFES  267
+
+
+>TR:V4S857_9ROSI V4S857 Expansin OS=Citrus clementina OX=85681 GN=CICLE_v10012472mg 
+PE=3 SV=1
+Length=267
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 43/72 (60%), Positives = 58/72 (81%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN +++ QPLSFE+++SDG T+TS+NV PK+W 
+Sbjct  196  GDVVAVKIKGSRTGWLPMGRNWGQNWHINANLKNQPLSFEVTTSDGLTVTSYNVAPKNWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  256  FGQTFEGKQFES  267
+
+
+>TR:A0A2J6L647_LACSA A0A2J6L647 Expansin OS=Lactuca sativa OX=4236 GN=LSAT_2X71700 
+PE=3 SV=1
+Length=251
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 42/68 (62%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL M RNWGQ WHIN DM+ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  182  GDLAAVKIKGSRTGWLPMNRNWGQNWHINADMKNQPLSFEVTSSDGLTVTSYNVAPKEWN  241
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  242  FGQSFEGK  249
+
+
+>TR:A0A1S2XKQ9_CICAR A0A1S2XKQ9 Expansin OS=Cicer arietinum OX=3827 GN=LOC101488377 
+PE=3 SV=1
+Length=272
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 42/68 (62%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHI+  ++ QPLSFE++SSDGKT+TS+NV PKDW 
+Sbjct  201  GDIIAVKVKGSRTGWLPMGRNWGQNWHISALLQNQPLSFEVTSSDGKTVTSYNVAPKDWS  260
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  261  FGQTFEGK  268
+
+
+>TR:A0A151S0L8_CAJCA A0A151S0L8 Expansin (Fragment) OS=Cajanus cajan OX=3821 GN=KK1_029963 
+PE=3 SV=1
+Length=276
+
+ Score = 104 bits (259),  Expect = 1e-25
+ Identities = 41/68 (60%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WH+N  ++ QPLSFE+++SDGKT+TS+NV PKDW 
+Sbjct  205  GDIVAVKVKGSRTGWLPMGRNWGQNWHVNALLQNQPLSFEVTASDGKTVTSYNVAPKDWT  264
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  265  FGQTFEGK  272
+
+
+>TR:A0A2N9GNX2_FAGSY A0A2N9GNX2 Expansin OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS29127 
+PE=3 SV=1
+Length=260
+
+ Score = 103 bits (258),  Expect = 1e-25
+ Identities = 42/68 (62%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++ SDG TL S+NV PK+W 
+Sbjct  189  GDIVAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTGSDGVTLASYNVAPKNWN  248
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  249  FGQTFEGK  256
+
+
+>TR:I1MZI2_SOYBN I1MZI2 Expansin OS=Glycine max OX=3847 GN=100790211 PE=3 SV=1
+Length=281
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN  ++ QPLSFE++SSDG TLTS+NV PKDW 
+Sbjct  210  GDIAAVKVKGSRTGWLPMGRNWGQNWHINALLQNQPLSFEVTSSDGITLTSYNVAPKDWS  269
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  270  FGQSFEGKQFES  281
+
+
+>TR:M5WUX0_PRUPE M5WUX0 Expansin OS=Prunus persica OX=3760 GN=PRUPE_3G014800 PE=3 
+SV=1
+Length=265
+
+ Score = 103 bits (258),  Expect = 2e-25
+ Identities = 42/68 (62%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SVKIKG+  GWL MGRNWGQ WH++ D++ QPLSFE++SSDG T+TS+NV PK W 
+Sbjct  195  GDIVSVKIKGSRTGWLPMGRNWGQNWHVSADLKNQPLSFEVTSSDGLTVTSYNVAPKAWN  254
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  255  FGQTFEGK  262
+
+
+>TR:A0A0R0EW23_SOYBN A0A0R0EW23 Expansin (Fragment) OS=Glycine max OX=3847 GN=100790211 
+PE=3 SV=1
+Length=288
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN  ++ QPLSFE++SSDG TLTS+NV PKDW 
+Sbjct  217  GDIAAVKVKGSRTGWLPMGRNWGQNWHINALLQNQPLSFEVTSSDGITLTSYNVAPKDWS  276
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  277  FGQSFEGKQFES  288
+
+
+>TR:A0A2U1N170_ARTAN A0A2U1N170 Expansin A13 OS=Artemisia annua OX=35608 GN=CTI12_AA318780 
+PE=4 SV=1
+Length=290
+
+ Score = 104 bits (259),  Expect = 2e-25
+ Identities = 43/72 (60%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL M RNWGQ WHIN D++ QPLSFE++SS+G T+TS+NV PKDW 
+Sbjct  219  GDVLAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPLSFEVTSSEGLTVTSYNVAPKDWN  278
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  279  FGQSFEGKQFQS  290
+
+
+>SP:EXP13_ARATH Q9M9P0 Expansin-A13 OS=Arabidopsis thaliana OX=3702 GN=EXPA13 
+PE=2 SV=2
+Length=266
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R Q LSFE++SSD  T+TS+NV PK+W 
+Sbjct  194  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLRNQALSFEVTSSDRSTVTSYNVSPKNWN  253
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  254  YGQTFEGK  261
+
+
+>TR:A0A1Q3B184_CEPFO A0A1Q3B184 Expansin OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_05287 
+PE=3 SV=1
+Length=267
+
+ Score = 103 bits (257),  Expect = 2e-25
+ Identities = 43/72 (60%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WH+N D++ QPLSFE++SSD  T+T +NV PK+W 
+Sbjct  196  GDVVAVKIKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFEVTSSDDLTVTVYNVAPKNWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            YG+T+ G+   S
+Sbjct  256  YGQTFEGKQFES  267
+
+
+>TR:W9REN4_9ROSA W9REN4 Expansin OS=Morus notabilis OX=981085 GN=L484_007788 PE=3 
+SV=1
+Length=270
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 42/72 (58%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VK+KG+  GWL MGRNWGQ WH+N D++ QPLSFE++SSD  T+TSFNV PK+W 
+Sbjct  199  GDVTAVKVKGSRTGWLPMGRNWGQNWHVNADLKHQPLSFEVTSSDDVTVTSFNVAPKNWN  258
+
+Query  61   YGKTYTGEAVSS  72
+            +G+++ G+   S
+Sbjct  259  FGQSFEGKQFDS  270
+
+
+>TR:A0A2P4JZ19_QUESU A0A2P4JZ19 Expansin OS=Quercus suber OX=58331 GN=CFP56_02388 
+PE=3 SV=1
+Length=274
+
+ Score = 103 bits (257),  Expect = 3e-25
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WH+N D++ QPLSFE++ SDG T+TS+NV PK+W 
+Sbjct  204  GDIVAVKVKGSRTGWLPMGRNWGQNWHLNADLKNQPLSFEVTGSDGVTVTSYNVAPKNWN  263
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  264  FGQTFEGK  271
+
+
+>TR:S8D433_9LAMI S8D433 Expansin (Fragment) OS=Genlisea aurea OX=192259 GN=M569_17415 
+PE=3 SV=1
+Length=246
+
+ Score = 102 bits (255),  Expect = 3e-25
+ Identities = 41/62 (66%), Positives = 52/62 (84%), Gaps = 0/62 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WH+N D++ QPLSFE+++ DG T+TS+NV PKDWE
+Sbjct  185  GDVTAVKIKGSRTGWLPMGRNWGQNWHVNADLKNQPLSFEVTAGDGATVTSYNVAPKDWE  244
+
+Query  61   YG  62
+            +G
+Sbjct  245  FG  246
+
+
+>TR:A0A2K3L7U1_TRIPR A0A2K3L7U1 Expansin (Fragment) OS=Trifolium pratense OX=57577 
+GN=L195_g030521 PE=3 SV=1
+Length=279
+
+ Score = 103 bits (256),  Expect = 4e-25
+ Identities = 41/72 (57%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GW+SMGRNWGQ WH+N  ++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  208  GDIVGVKVKGSRTGWISMGRNWGQNWHVNALLQNQPLSFEVTSSDGVTITSYNVAPKNWS  267
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  268  FGQTFEGKQFES  279
+
+
+>TR:D7L0E6_ARALL D7L0E6 Expansin OS=Arabidopsis lyrata subsp. lyrata OX=81972 
+GN=ARALYDRAFT_477568 PE=3 SV=1
+Length=266
+
+ Score = 102 bits (255),  Expect = 5e-25
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+TS+NV PK+W 
+Sbjct  194  GDVAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDRSTVTSYNVSPKNWN  253
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  254  YGQTFEGK  261
+
+
+>TR:A0A178V662_ARATH A0A178V662 Expansin OS=Arabidopsis thaliana OX=3702 GN=AXX17_At3g02550 
+PE=3 SV=1
+Length=266
+
+ Score = 102 bits (255),  Expect = 5e-25
+ Identities = 43/68 (63%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+R Q LSFE++SSD  T+TS+NV PK+W 
+Sbjct  194  GDIVAVKIKGSRTGWLPMGRNWGQNWHINADLRNQALSFEVTSSDRSTVTSYNVSPKNWN  253
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  254  YGQTFEGK  261
+
+
+>TR:G7J7Z0_MEDTR G7J7Z0 Expansin OS=Medicago truncatula OX=3880 GN=11406100 PE=3 
+SV=1
+Length=286
+
+ Score = 103 bits (256),  Expect = 5e-25
+ Identities = 40/72 (56%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GW+ MGRNWGQ+WH+N  ++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  215  GDIVGVKVKGSRTGWIPMGRNWGQIWHVNALLQNQPLSFEVTSSDGVTITSYNVAPKNWT  274
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  275  FGQTFEGKQFKS  286
+
+
+>TR:R0HW36_9BRAS R0HW36 Expansin OS=Capsella rubella OX=81985 GN=CARUB_v10014403mg 
+PE=3 SV=1
+Length=266
+
+ Score = 102 bits (254),  Expect = 7e-25
+ Identities = 42/68 (62%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+TS+NV PK+W 
+Sbjct  194  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDRSTVTSYNVSPKNWN  253
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  254  YGQTFEGK  261
+
+
+>TR:A0A0K9NS70_ZOSMR A0A0K9NS70 Expansin OS=Zostera marina OX=29655 GN=ZOSMA_68G00430 
+PE=3 SV=1
+Length=256
+
+ Score = 102 bits (253),  Expect = 8e-25
+ Identities = 42/66 (64%), Positives = 53/66 (80%), Gaps = 0/66 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WH+N D+  QPLSFE+++SD  TLTS+NV PK+W 
+Sbjct  183  GDVNAVKIKGSNTGWLPMGRNWGQNWHVNADLVNQPLSFEVTTSDSVTLTSYNVAPKEWR  242
+
+Query  61   YGKTYT  66
+            +G +YT
+Sbjct  243  FGVSYT  248
+
+
+>TR:A0A251JZG6_MANES A0A251JZG6 Expansin OS=Manihot esculenta OX=3983 GN=MANES_10G063600 
+PE=3 SV=1
+Length=292
+
+ Score = 102 bits (255),  Expect = 8e-25
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ ++KIKG+  GWL MGRNWGQ WHIN D++ QPLSFE+++SDG T+TS+NV PK W 
+Sbjct  221  GDITAMKIKGSRTGWLQMGRNWGQNWHINADLKNQPLSFEVTNSDGITITSYNVAPKGWS  280
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  281  FGQSFEGK  288
+
+
+>TR:A0A078GUI4_BRANA A0A078GUI4 Expansin OS=Brassica napus OX=3708 GN=BnaCnng06330D 
+PE=3 SV=1
+Length=262
+
+ Score = 101 bits (252),  Expect = 1e-24
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+T++NV P++W+
+Sbjct  190  GDISAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDKSTVTAYNVAPRNWD  249
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  250  YGQTFEGK  257
+
+
+>TR:A0A078HZZ3_BRANA A0A078HZZ3 Expansin OS=Brassica napus OX=3708 GN=BnaA05g32450D 
+PE=3 SV=1
+Length=262
+
+ Score = 101 bits (252),  Expect = 1e-24
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+T++NV P++W+
+Sbjct  190  GDISAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDKSTVTAYNVAPRNWD  249
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  250  YGQTFEGK  257
+
+
+>TR:A0A0D3CN36_BRAOL A0A0D3CN36 Expansin OS=Brassica oleracea var. oleracea OX=109376 
+GN=106296005 PE=3 SV=1
+Length=262
+
+ Score = 101 bits (252),  Expect = 1e-24
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+T++NV P++W+
+Sbjct  190  GDISAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDKSTVTAYNVAPRNWD  249
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  250  YGQTFEGK  257
+
+
+>TR:M4ET76_BRARP M4ET76 Expansin OS=Brassica rapa subsp. pekinensis OX=51351 PE=3 
+SV=1
+Length=262
+
+ Score = 101 bits (252),  Expect = 1e-24
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE++SSD  T+T++NV P++W+
+Sbjct  190  GDISAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTSSDKSTVTAYNVAPRNWD  249
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  250  YGQTFEGK  257
+
+
+>TR:Q8LAT2_ARATH Q8LAT2 Expansin OS=Arabidopsis thaliana OX=3702 PE=2 SV=1
+Length=266
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 42/68 (62%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D+  Q LSFE++SSD  T+TS+NV PK+W 
+Sbjct  194  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLSNQALSFEVTSSDRSTVTSYNVSPKNWN  253
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  254  YGQTFEGK  261
+
+
+>TR:V7BAR5_PHAVU V7BAR5 Expansin OS=Phaseolus vulgaris OX=3885 GN=PHAVU_008G240800g 
+PE=3 SV=1
+Length=269
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 40/68 (59%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWLSMGRNWGQ WH+N  ++ QPL+FE++SSD K +TS+NV PKDW 
+Sbjct  198  GDILAVKVKGSRTGWLSMGRNWGQNWHVNALLQNQPLAFEVTSSDEKIVTSYNVAPKDWT  257
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  258  FGQTFEGK  265
+
+
+>TR:A0A1S2YEI8_CICAR A0A1S2YEI8 Expansin OS=Cicer arietinum OX=3827 GN=LOC101490405 
+PE=3 SV=1
+Length=283
+
+ Score = 101 bits (251),  Expect = 2e-24
+ Identities = 40/72 (56%), Positives = 56/72 (78%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+  VK+KG+  GW+ MGRNWGQ WH+N  ++ QPLSFE++SSDG T+TS+NV PK+W 
+Sbjct  212  GDIVGVKVKGSRTGWIPMGRNWGQNWHVNALLQNQPLSFEVTSSDGVTITSYNVAPKNWT  271
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  272  FGQTFAGKQFES  283
+
+
+>TR:U5D9L4_AMBTC U5D9L4 Expansin OS=Amborella trichopoda OX=13333 GN=AMTR_s00044p00061510 
+PE=3 SV=1
+Length=253
+
+ Score = 100 bits (248),  Expect = 4e-24
+ Identities = 39/72 (54%), Positives = 57/72 (79%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GWL MGRNWG +WHI+ D + QPLSFE++ SDG T+TS+NV P++W+
+Sbjct  182  GEVSAVKMKGSRTGWLPMGRNWGSIWHISADFKNQPLSFEVTGSDGITVTSYNVAPQNWQ  241
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  242  FGQTFEGKQFPS  253
+
+
+>TR:A0A1B5Z7B3_TRISU A0A1B5Z7B3 Expansin OS=Trifolium subterraneum OX=3900 GN=TSUD_271550 
+PE=3 SV=1
+Length=88
+
+ Score = 95.5 bits (236),  Expect = 4e-24
+ Identities = 37/68 (54%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           G+V +VK+KG+  GW+ M RNWG  WH N +++ QPLSFE++SS+GKTLTS+NV P++W+
+Sbjct  19  GEVFAVKVKGSRTGWIPMARNWGMNWHCNVNLQHQPLSFEVTSSNGKTLTSYNVAPQNWQ  78
+
+Query  61  YGKTYTGE  68
+           +G+T+ G+
+Sbjct  79  FGQTFQGK  86
+
+
+>TR:A0A2N9HWF5_FAGSY A0A2N9HWF5 Expansin OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS44297 
+PE=3 SV=1
+Length=343
+
+ Score = 101 bits (252),  Expect = 5e-24
+ Identities = 41/65 (63%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++ SDG TL S+NV PK+W 
+Sbjct  189  GDIVAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTGSDGVTLASYNVAPKNWN  248
+
+Query  61   YGKTY  65
+            +G+T+
+Sbjct  249  FGQTF  253
+
+
+>TR:A0A1U7Z326_NELNU A0A1U7Z326 Expansin OS=Nelumbo nucifera OX=4432 GN=LOC104590522 
+PE=3 SV=1
+Length=267
+
+ Score = 100 bits (248),  Expect = 5e-24
+ Identities = 40/68 (59%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WH+  D++ QPLSFE+++SD  T+ S+NV PKDW 
+Sbjct  197  GDVVAVKIKGSRTGWLPMGRNWGQNWHVTADLKNQPLSFEVTTSDRVTVVSYNVAPKDWS  256
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  257  FGQTFVGK  264
+
+
+>TR:A0A078ILK0_BRANA A0A078ILK0 Expansin OS=Brassica napus OX=3708 GN=BnaCnng18430D 
+PE=3 SV=1
+Length=268
+
+ Score = 100 bits (248),  Expect = 5e-24
+ Identities = 38/68 (56%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W+
+Sbjct  196  GDISAVKVKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDRSTVTAYNVAPRNWD  255
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  256  YGQTFEGK  263
+
+
+>TR:A0A0D3AFV6_BRAOL A0A0D3AFV6 Expansin OS=Brassica oleracea var. oleracea OX=109376 
+GN=106326606 PE=3 SV=1
+Length=268
+
+ Score = 100 bits (248),  Expect = 5e-24
+ Identities = 38/68 (56%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W+
+Sbjct  196  GDISAVKVKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDRSTVTAYNVAPRNWD  255
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  256  YGQTFEGK  263
+
+
+>TR:M4DXW9_BRARP M4DXW9 Expansin OS=Brassica rapa subsp. pekinensis OX=51351 PE=3 
+SV=1
+Length=269
+
+ Score = 100 bits (248),  Expect = 5e-24
+ Identities = 38/68 (56%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W+
+Sbjct  197  GDISAVKVKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDKSTVTAYNVAPRNWD  256
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  257  YGQTFEGK  264
+
+
+>TR:Q9ZP33_SOLLC Q9ZP33 Expansin OS=Solanum lycopersicum OX=4081 GN=EXPA3 PE=2 
+SV=1
+Length=267
+
+ Score = 99.8 bits (247),  Expect = 7e-24
+ Identities = 41/72 (57%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QPLSFE++SSDG TLTS+NV PK W 
+Sbjct  196  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPLSFEITSSDGVTLTSYNVAPKIWN  255
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  256  FGQTFQGKQFES  267
+
+
+>TR:V4NSV7_EUTSA V4NSV7 Expansin OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10021327mg 
+PE=3 SV=1
+Length=268
+
+ Score = 99.8 bits (247),  Expect = 7e-24
+ Identities = 39/68 (57%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W 
+Sbjct  196  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDRSTVTAYNVAPRNWN  255
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  256  YGQTFEGK  263
+
+
+>TR:A0A1U7YZT1_NELNU A0A1U7YZT1 Expansin OS=Nelumbo nucifera OX=4432 GN=LOC104589546 
+PE=3 SV=1
+Length=269
+
+ Score = 99.8 bits (247),  Expect = 7e-24
+ Identities = 41/72 (57%), Positives = 54/72 (75%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIK +  GWL MGRNWGQ WH+  D++ QPLSFE+++SDG T+ S+NV PKDW 
+Sbjct  198  GDVVAVKIKASRTGWLPMGRNWGQNWHVTADLKNQPLSFEVTTSDGVTVVSYNVAPKDWS  257
+
+Query  61   YGKTYTGEAVSS  72
+             G+T+ G+   S
+Sbjct  258  LGQTFEGKQFES  269
+
+
+>TR:A0A087H6L3_ARAAL A0A087H6L3 Expansin OS=Arabis alpina OX=50452 GN=AALP_AA3G026800 
+PE=3 SV=1
+Length=269
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 39/68 (57%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+TS+NV P++W 
+Sbjct  197  GDIAAVKIKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDRSTVTSYNVAPRNWN  256
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  257  FGQTFEGK  264
+
+
+>TR:A0A078G406_BRANA A0A078G406 Expansin OS=Brassica napus OX=3708 GN=BnaA01g34460D 
+PE=3 SV=1
+Length=269
+
+ Score = 99.4 bits (246),  Expect = 1e-23
+ Identities = 38/68 (56%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W+
+Sbjct  197  GDIFAVKVKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDKSTVTAYNVAPRNWD  256
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  257  YGQTFEGK  264
+
+
+>TR:A0A2G2WWW7_CAPBA A0A2G2WWW7 Expansin OS=Capsicum baccatum OX=33114 GN=CQW23_09481 
+PE=3 SV=1
+Length=256
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 40/72 (56%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QP+SFE++SS G TLTS+NV PK+W 
+Sbjct  185  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPISFEITSSAGVTLTSYNVAPKNWN  244
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TY G+   S
+Sbjct  245  FGQTYQGKQFDS  256
+
+
+>TR:A0A1U8GQN2_CAPAN A0A1U8GQN2 Expansin OS=Capsicum annuum OX=4072 GN=LOC107868283 
+PE=3 SV=1
+Length=256
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 40/72 (56%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QP+SFE++SS G TLTS+NV PK+W 
+Sbjct  185  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPISFEITSSAGVTLTSYNVAPKNWN  244
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TY G+   S
+Sbjct  245  FGQTYQGKQFDS  256
+
+
+>TR:A0A2G3CKD2_CAPCH A0A2G3CKD2 Expansin OS=Capsicum chinense OX=80379 GN=BC332_10335 
+PE=3 SV=1
+Length=256
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 40/72 (56%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QP+SFE++SS G TLTS+NV PK+W 
+Sbjct  185  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPISFEITSSAGVTLTSYNVAPKNWN  244
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TY G+   S
+Sbjct  245  FGQTYQGKQFDS  256
+
+
+>TR:A0A1U8AT51_NELNU A0A1U8AT51 Expansin OS=Nelumbo nucifera OX=4432 GN=LOC104603819 
+PE=3 SV=1
+Length=250
+
+ Score = 98.6 bits (244),  Expect = 1e-23
+ Identities = 37/68 (54%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ MGRNWGQ+W  N +++GQPLSFE++SS GKT+ S+NV P +W+
+Sbjct  181  GEVVAVKVKGSKTGWIPMGRNWGQIWQCNINLKGQPLSFEVTSSSGKTVASYNVAPPNWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  241  FGQTFEGK  248
+
+
+>TR:A0A1J3FGP4_NOCCA A0A1J3FGP4 Expansin OS=Noccaea caerulescens OX=107243 GN=LC_TR3126_c0_g1_i1_g.12276 
+PE=3 SV=1
+Length=270
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 40/68 (59%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T+++V PK W 
+Sbjct  198  GDVAAVKIKGSRTGWLQMGRNWGQNWHINADLKNQALSFEVTASDRSTVTAYSVAPKTWN  257
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  258  YGQTFEGK  265
+
+
+>TR:A0A1J3E7H0_NOCCA A0A1J3E7H0 Expansin OS=Noccaea caerulescens OX=107243 GN=GA_TR14336_c0_g1_i1_g.44766 
+PE=3 SV=1
+Length=270
+
+ Score = 99.0 bits (245),  Expect = 1e-23
+ Identities = 40/68 (59%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T+++V PK W 
+Sbjct  198  GDVAAVKIKGSRTGWLQMGRNWGQNWHINADLKNQALSFEVTASDRSTVTAYSVAPKTWN  257
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  258  YGQTFEGK  265
+
+
+>TR:A0A0S3S5M7_PHAAN A0A0S3S5M7 Expansin OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.05G157800 PE=3 SV=1
+Length=298
+
+ Score = 99.4 bits (246),  Expect = 2e-23
+ Identities = 39/68 (57%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++  VK+KG++ GWLSMGRNWGQ WH+N  ++ QPLSFE++ SDG T+TS+NV PKDW 
+Sbjct  225  GNIVGVKVKGSKTGWLSMGRNWGQNWHVNALLQNQPLSFEVTGSDGITVTSYNVAPKDWT  284
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  285  FGQSFEGK  292
+
+
+>TR:A0A0L9VCL5_PHAAN A0A0L9VCL5 Expansin OS=Phaseolus angularis OX=3914 GN=LR48_Vigan09g146500 
+PE=3 SV=1
+Length=298
+
+ Score = 99.4 bits (246),  Expect = 2e-23
+ Identities = 39/68 (57%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++  VK+KG++ GWLSMGRNWGQ WH+N  ++ QPLSFE++ SDG T+TS+NV PKDW 
+Sbjct  225  GNIVGVKVKGSKTGWLSMGRNWGQNWHVNALLQNQPLSFEVTGSDGITVTSYNVAPKDWT  284
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  285  FGQSFEGK  292
+
+
+>TR:A0A1S3VH07_VIGRR A0A1S3VH07 Expansin OS=Vigna radiata var. radiata OX=3916 GN=LOC106775046 
+PE=3 SV=1
+Length=299
+
+ Score = 99.4 bits (246),  Expect = 2e-23
+ Identities = 39/68 (57%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++  VK+KG++ GWLSMGRNWGQ WH+N  ++ QPLSFE++ SDG T+TS+NV PKDW 
+Sbjct  226  GNIVGVKVKGSKTGWLSMGRNWGQNWHVNALLQNQPLSFEVTGSDGITVTSYNVAPKDWT  285
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  286  FGQSFQGK  293
+
+
+>TR:A0A1S3VHH4_VIGRR A0A1S3VHH4 Expansin OS=Vigna radiata var. radiata OX=3916 GN=LOC106775046 
+PE=3 SV=1
+Length=300
+
+ Score = 99.4 bits (246),  Expect = 2e-23
+ Identities = 39/68 (57%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++  VK+KG++ GWLSMGRNWGQ WH+N  ++ QPLSFE++ SDG T+TS+NV PKDW 
+Sbjct  227  GNIVGVKVKGSKTGWLSMGRNWGQNWHVNALLQNQPLSFEVTGSDGITVTSYNVAPKDWT  286
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  287  FGQSFQGK  294
+
+
+>TR:A0A161XXF2_DAUCA A0A161XXF2 Expansin OS=Daucus carota subsp. sativus OX=79200 
+GN=DCAR_010061 PE=3 SV=1
+Length=264
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 40/68 (59%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VKIKG+  GWL M RNWGQ WHIN D++ QPLSFEL+SSDG TL S+ V P++W+
+Sbjct  193  GDIVAVKIKGSRTGWLPMNRNWGQNWHINADLKNQPLSFELTSSDGVTLISYYVAPQNWD  252
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  253  FGQSFEGK  260
+
+
+>TR:M1C848_SOLTU M1C848 Expansin OS=Solanum tuberosum OX=4113 PE=3 SV=1
+Length=274
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 40/72 (56%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QPL+FE++SSDG TLTS+NV PK W 
+Sbjct  203  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPLAFEITSSDGVTLTSYNVAPKIWN  262
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  263  FGQTFQGKQFES  274
+
+
+>TR:V7BLW7_PHAVU V7BLW7 Expansin OS=Phaseolus vulgaris OX=3885 GN=PHAVU_006G086800g 
+PE=3 SV=1
+Length=278
+
+ Score = 98.6 bits (244),  Expect = 2e-23
+ Identities = 38/68 (56%), Positives = 57/68 (84%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++  VK+KG++ GWLSMGRNWGQ WH+N  ++ QPLSFEL++SDG+T+ S++V PKDW 
+Sbjct  204  GNIVGVKVKGSKTGWLSMGRNWGQNWHVNALLQNQPLSFELTASDGRTVKSYSVAPKDWT  263
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  264  FGQSFQGK  271
+
+
+>TR:A0A199UVA3_ANACO A0A199UVA3 Expansin OS=Ananas comosus OX=4615 GN=ACMD2_03549 
+PE=3 SV=1
+Length=246
+
+ Score = 97.8 bits (242),  Expect = 3e-23
+ Identities = 39/68 (57%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G V +VK+KG+  GW+ M RNWGQ W  + D+RGQPLSFE++ S+G+TLTS+NV P DW 
+Sbjct  176  GFVTAVKVKGSRTGWIPMARNWGQNWQCDTDLRGQPLSFEVTDSEGRTLTSYNVAPSDWR  235
+
+Query  61   YGKTYTGE  68
+            YG+T+ G+
+Sbjct  236  YGQTFEGK  243
+
+
+>TR:A0A2N9FBL6_FAGSY A0A2N9FBL6 Uncharacterized protein OS=Fagus sylvatica OX=28930 
+GN=FSB_LOCUS12282 PE=4 SV=1
+Length=1402
+
+ Score = 101 bits (252),  Expect = 3e-23
+ Identities = 41/65 (63%), Positives = 53/65 (82%), Gaps = 0/65 (0%)
+
+Query  1     GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+             GD+ +VKIKG+  GWL MGRNWGQ WHIN D++ QPLSFE++ SDG TL S+NV PK+W 
+Sbjct  1244  GDIVAVKIKGSRTGWLPMGRNWGQNWHINADLKNQPLSFEVTGSDGVTLASYNVAPKNWN  1303
+
+Query  61    YGKTY  65
+             +G+T+
+Sbjct  1304  FGQTF  1308
+
+
+>TR:R4TYA7_BRACM R4TYA7 Expansin (Fragment) OS=Brassica campestris OX=3711 GN=EXPA13 
+PE=2 SV=1
+Length=261
+
+ Score = 97.8 bits (242),  Expect = 3e-23
+ Identities = 37/65 (57%), Positives = 54/65 (83%), Gaps = 0/65 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ +VK+KG+  GWL MGRNWGQ WHIN D++ Q LSFE+++SD  T+T++NV P++W+
+Sbjct  197  GDISAVKVKGSRTGWLPMGRNWGQNWHINADLKNQALSFEVTASDKSTVTAYNVAPRNWD  256
+
+Query  61   YGKTY  65
+            YG+T+
+Sbjct  257  YGQTF  261
+
+
+>TR:A0A2G2ZLS2_CAPAN A0A2G2ZLS2 Expansin OS=Capsicum annuum OX=4072 GN=T459_11382 
+PE=3 SV=1
+Length=335
+
+ Score = 99.0 bits (245),  Expect = 4e-23
+ Identities = 40/72 (56%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ D++ QP+SFE++SS G TLTS+NV PK+W 
+Sbjct  264  GDIVAAKVKGSRTGWLPMGRIWGQNWHISADLKNQPISFEITSSAGVTLTSYNVAPKNWN  323
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TY G+   S
+Sbjct  324  FGQTYQGKQFDS  335
+
+
+>TR:A0A2G5C319_AQUCA A0A2G5C319 Expansin OS=Aquilegia coerulea OX=218851 GN=AQUCO_10900021v1 
+PE=3 SV=1
+Length=247
+
+ Score = 97.1 bits (240),  Expect = 5e-23
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G V +VK+KG+  GWL MGRNWGQ+W  N +++GQPLSFE+++S G+ +TS+NV PK W+
+Sbjct  178  GVVAAVKVKGSRTGWLPMGRNWGQIWQCNTNLQGQPLSFEVTTSSGRAITSYNVAPKHWQ  237
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  238  FGQTFEGK  245
+
+
+>TR:A0A2G5C158_AQUCA A0A2G5C158 Expansin OS=Aquilegia coerulea OX=218851 GN=AQUCO_13300008v1 
+PE=3 SV=1
+Length=254
+
+ Score = 96.7 bits (239),  Expect = 8e-23
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G V +VK+KG+  GWL MGRNWGQ+W  N +++GQPLSFE+++S G+ +TS+NV PK W+
+Sbjct  185  GVVAAVKVKGSRTGWLPMGRNWGQIWQCNTNLQGQPLSFEVTTSSGRAITSYNVAPKRWQ  244
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  245  FGQTFEGK  252
+
+
+>TR:B9H3G6_POPTR B9H3G6 Expansin OS=Populus trichocarpa OX=3694 GN=POPTR_004G080200v3 
+PE=3 SV=2
+Length=273
+
+ Score = 97.1 bits (240),  Expect = 8e-23
+ Identities = 39/68 (57%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +VKIKG+  GWL MGRNWGQ WH+N +++ Q LSFE++SSD  T+ S+NV PKDW 
+Sbjct  202  GDVTAVKIKGSRTGWLDMGRNWGQNWHVNANLQNQALSFEVTSSDRMTVISYNVAPKDWR  261
+
+Query  61   YGKTYTGE  68
+            +G+ + G+
+Sbjct  262  FGQAFEGK  269
+
+
+>TR:A0A0V0HNN3_SOLCH A0A0V0HNN3 Expansin OS=Solanum chacoense OX=4108 PE=3 SV=1
+Length=265
+
+ Score = 96.7 bits (239),  Expect = 1e-22
+ Identities = 39/72 (54%), Positives = 55/72 (76%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ + K+KG+  GWL MGR WGQ WHI+ +++ QPL+FE++SSDG TLTS+NV PK W 
+Sbjct  194  GDIVAAKVKGSRTGWLPMGRIWGQNWHISANLKNQPLAFEITSSDGVTLTSYNVAPKIWN  253
+
+Query  61   YGKTYTGEAVSS  72
+            +G+T+ G+   S
+Sbjct  254  FGQTFQGKQFES  265
+
+
+>TR:A0A199ULI2_ANACO A0A199ULI2 Expansin-A16 OS=Ananas comosus OX=4615 GN=ACMD2_25396 
+PE=3 SV=1
+Length=150
+
+ Score = 93.6 bits (231),  Expect = 1e-22
+ Identities = 37/68 (54%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G + +VK+KG+  GW++MGRNWGQ W  N D+RGQPLSFE++SS   T+TS+NV P +W 
+Sbjct  79   GAITAVKVKGSRTGWIAMGRNWGQNWQCNADLRGQPLSFEVTSSGRSTITSYNVAPLNWW  138
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  139  FGQTFEGK  146
+
+
+>TR:A0A2I0WLF8_9ASPA A0A2I0WLF8 Expansin OS=Dendrobium catenatum OX=906689 GN=EXPA16 
+PE=3 SV=1
+Length=258
+
+ Score = 96.3 bits (238),  Expect = 1e-22
+ Identities = 36/68 (53%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V  VK+KG   GW+ MGRNWGQ WH N D+ GQPLSFE++ S G+ +TS+N+ P +W 
+Sbjct  187  GEVAEVKVKGKSTGWIPMGRNWGQNWHCNADLNGQPLSFEVTGSSGRRVTSYNIAPSNWR  246
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  247  FGQTFEGK  254
+
+
+>TR:A0A287XDK1_HORVV A0A287XDK1 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=114
+
+ Score = 92.4 bits (228),  Expect = 1e-22
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  43   GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  102
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  103  FAQTFAGK  110
+
+
+>TR:M0V164_HORVV M0V164 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 PE=3 
+SV=1
+Length=125
+
+ Score = 92.4 bits (228),  Expect = 2e-22
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  54   GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  113
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  114  FAQTFAGK  121
+
+
+>TR:A0A1B5Z7X6_TRISU A0A1B5Z7X6 Expansin (Fragment) OS=Trifolium subterraneum OX=3900 
+GN=TSUD_423910 PE=3 SV=1
+Length=227
+
+ Score = 95.1 bits (235),  Expect = 2e-22
+ Identities = 39/67 (58%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQPLSF++++SDG+T+TS+NV P +W+
+Sbjct  158  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQPLSFQVTTSDGRTVTSYNVAPGNWQ  217
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  218  FGQTYQG  224
+
+
+>TR:A0A2P5QEB0_GOSBA A0A2P5QEB0 Expansin OS=Gossypium barbadense OX=3634 GN=GOBAR_DD30222 
+PE=3 SV=1
+Length=246
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 40/67 (60%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKTLTS+NVVP +W+
+Sbjct  177  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTLTSYNVVPANWQ  236
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  237  FGQTYEG  243
+
+
+>TR:A0A0D2V7L0_GOSRA A0A0D2V7L0 Expansin OS=Gossypium raimondii OX=29730 GN=B456_013G007000 
+PE=3 SV=1
+Length=254
+
+ Score = 95.5 bits (236),  Expect = 2e-22
+ Identities = 40/67 (60%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKTLTS+NVVP +W+
+Sbjct  185  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTLTSYNVVPANWQ  244
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  245  FGQTYEG  251
+
+
+>TR:A0A1Q3DHX5_CEPFO A0A1Q3DHX5 Expansin OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_35393 
+PE=3 SV=1
+Length=250
+
+ Score = 95.1 bits (235),  Expect = 3e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ W  N ++ GQPLSFE+++S+G+TLTS+NV P +W+
+Sbjct  181  GEVVAVKVKGSRTGWIPMARNWGQNWQCNVNLTGQPLSFEVTTSNGRTLTSYNVAPANWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:A0A2I0LEX6_PUNGR A0A2I0LEX6 Expansin OS=Punica granatum OX=22663 GN=CRG98_000349 
+PE=3 SV=1
+Length=233
+
+ Score = 94.7 bits (234),  Expect = 3e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N D++GQPLSFE+++SD +TLTS+NV P +W+
+Sbjct  164  GEVLAVKVKGSKTGWIPMARNWGQNWQCNVDLKGQPLSFEVTTSDKRTLTSYNVAPANWQ  223
+
+Query  61   YGKTYTGE  68
+             G+T+ G+
+Sbjct  224  VGQTFEGK  231
+
+
+>TR:A0A200PR73_9MAGN A0A200PR73 Expansin OS=Macleaya cordata OX=56857 GN=BVC80_9085g94 
+PE=3 SV=1
+Length=244
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 38/68 (56%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+SMGRNWGQ W  N  + GQPLSFE++SS G+T+TS+NV P  W 
+Sbjct  175  GEVVAVKVKGSKTGWISMGRNWGQNWQCNVALLGQPLSFEVTSSSGRTVTSYNVAPPTWR  234
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  235  FGQTFEGK  242
+
+
+>TR:A0A2P5DPK0_PARAD A0A2P5DPK0 Expansin OS=Parasponia andersonii OX=3476 GN=PanWU01x14_045610 
+PE=3 SV=1
+Length=250
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N +++GQPLSFE+++S G+TLTS+NV P  W+
+Sbjct  181  GEVVAVKVKGSKTGWIPMARNWGQNWQSNINLKGQPLSFEVTTSGGRTLTSYNVAPAGWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:A0A2P5BHS8_9ROSA A0A2P5BHS8 Expansin OS=Trema orientalis OX=63057 GN=TorRG33x02_320680 
+PE=3 SV=1
+Length=250
+
+ Score = 94.7 bits (234),  Expect = 4e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N +++GQPLSFE+++S G+TLTS+NV P  W+
+Sbjct  181  GEVVAVKVKGSKTGWIPMARNWGQNWQSNINLKGQPLSFEVTASGGRTLTSYNVAPAGWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:A0A1S2Z3M6_CICAR A0A1S2Z3M6 Expansin OS=Cicer arietinum OX=3827 GN=LOC101508118 
+PE=3 SV=1
+Length=257
+
+ Score = 94.7 bits (234),  Expect = 5e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWG  WH N +++ QPLSFE++SS GKTLTS+NV P++W+
+Sbjct  188  GEVFAVKVKGSRTGWIPMARNWGMNWHCNVNLQHQPLSFEVTSSTGKTLTSYNVAPQNWQ  247
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  248  FGQTFEGK  255
+
+
+>TR:Q9FNT0_CICAR Q9FNT0 Expansin OS=Cicer arietinum OX=3827 GN=expa2 PE=2 SV=1
+Length=260
+
+ Score = 94.7 bits (234),  Expect = 5e-22
+ Identities = 38/67 (57%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQPLSF++++SDG+T+TS+NV P +W+
+Sbjct  191  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQPLSFQVTTSDGRTMTSYNVAPSNWQ  250
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  251  FGQTFQG  257
+
+
+>TR:A0A1J3JL91_NOCCA A0A1J3JL91 Expansin (Fragment) OS=Noccaea caerulescens OX=107243 
+GN=MP_TR24822_c0_g1_i1_g.71827 PE=3 SV=1
+Length=183
+
+ Score = 92.8 bits (229),  Expect = 5e-22
+ Identities = 40/72 (56%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKGT  GW SM RNWGQ W  N ++ GQ LSF++++SDG+T+ S NV P++W 
+Sbjct  110  GDVLSVSIKGTRTGWQSMSRNWGQNWQSNANLDGQALSFKVATSDGRTVVSNNVTPRNWS  169
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TYTG    S
+Sbjct  170  FGQTYTGRQFRS  181
+
+
+>TR:A0A0A9VLP3_ARUDO A0A0A9VLP3 Expansin OS=Arundo donax OX=35708 PE=3 SV=1
+Length=94
+
+ Score = 90.1 bits (222),  Expect = 6e-22
+ Identities = 34/68 (50%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T+++V P DW 
+Sbjct  23  GEVAAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGRGRTVTAYSVAPADWM  82
+
+Query  61  YGKTYTGE  68
+           + +T+ G+
+Sbjct  83  FAQTFEGK  90
+
+
+>TR:B9RKY6_RICCO B9RKY6 Expansin OS=Ricinus communis OX=3988 GN=RCOM_1565850 PE=3 
+SV=1
+Length=251
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 36/68 (53%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ+W  N D+ GQPLSFE+++S G+TLTS+NV P +W+
+Sbjct  182  GEVVAVKVKGSRTGWIPMARNWGQIWQTNVDLIGQPLSFEVTTSSGRTLTSYNVAPVNWK  241
+
+Query  61   YGKTYTGE  68
+            +G+++ G+
+Sbjct  242  FGQSFEGK  249
+
+
+>TR:A0A2I4FCC9_9ROSI A0A2I4FCC9 Expansin OS=Juglans regia OX=51240 GN=LOC108997459 
+PE=3 SV=1
+Length=251
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 35/68 (51%), Positives = 56/68 (82%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ MGRNWGQ W  N +++GQP+SFE+++S G+TL S+NV P +W+
+Sbjct  182  GEVVAVKVKGSKTGWIPMGRNWGQNWQCNVNLKGQPISFEVTASSGRTLASYNVAPPNWQ  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:A4GWU5_LITCN A4GWU5 Expansin OS=Litchi chinensis OX=151069 GN=Exp1 PE=2 SV=1
+Length=253
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 39/67 (58%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW  M RNWGQ W  N  + GQ LSF++++SDGKT+TS+NVVP +W+
+Sbjct  184  GDVHSVSIKGSKTGWQPMSRNWGQNWQSNSYLNGQSLSFQVTTSDGKTVTSYNVVPDNWQ  243
+
+Query  61   YGKTYTG  67
+            +G+T+TG
+Sbjct  244  FGQTFTG  250
+
+
+>TR:A0A218W4L4_PUNGR A0A218W4L4 Expansin OS=Punica granatum OX=22663 GN=CDL15_Pgr028439 
+PE=3 SV=1
+Length=272
+
+ Score = 94.7 bits (234),  Expect = 6e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N D++GQPLSFE+++SD +TLTS+NV P +W+
+Sbjct  203  GEVLAVKVKGSKTGWIPMARNWGQNWQCNVDLKGQPLSFEVTTSDKRTLTSYNVAPANWQ  262
+
+Query  61   YGKTYTGE  68
+             G+T+ G+
+Sbjct  263  VGQTFEGK  270
+
+
+>TR:C6TLJ2_SOYBN C6TLJ2 Expansin OS=Glycine max OX=3847 PE=2 SV=1
+Length=254
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 38/68 (56%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++SS GKTLTS+NV P +W 
+Sbjct  182  GEVFAVKVKGSRTGWIPMARNWGQNWHCNFNFQNQPLSFEVTSSSGKTLTSYNVAPTNWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:A0A0B2RJG2_GLYSO A0A0B2RJG2 Expansin OS=Glycine soja OX=3848 GN=glysoja_025801 
+PE=3 SV=1
+Length=254
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 38/68 (56%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++SS GKTLTS+NV P +W 
+Sbjct  182  GEVFAVKVKGSRTGWIPMARNWGQNWHCNFNFQNQPLSFEVTSSSGKTLTSYNVAPTNWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:I1LS07_SOYBN I1LS07 Expansin OS=Glycine max OX=3847 GN=100804002 PE=3 SV=1
+Length=254
+
+ Score = 94.4 bits (233),  Expect = 6e-22
+ Identities = 38/68 (56%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++SS GKTLTS+NV P +W 
+Sbjct  182  GEVFAVKVKGSRTGWIPMARNWGQNWHCNFNFQNQPLSFEVTSSSGKTLTSYNVAPTNWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:A0A1J7GZI9_LUPAN A0A1J7GZI9 Expansin OS=Lupinus angustifolius OX=3871 GN=TanjilG_11711 
+PE=3 SV=1
+Length=256
+
+ Score = 94.4 bits (233),  Expect = 7e-22
+ Identities = 36/68 (53%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N +++ QPLSFE++S+ G+TLTS+NV P +W+
+Sbjct  187  GEVAAVKVKGSRTGWVPMARNWGQNWHCNVNLQHQPLSFEVTSNSGRTLTSYNVAPPNWQ  246
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  247  FGQTFEGK  254
+
+
+>TR:A0A067GW88_CITSI A0A067GW88 Expansin (Fragment) OS=Citrus sinensis OX=2711 GN=CISIN_1g0257402mg 
+PE=3 SV=1
+Length=101
+
+ Score = 90.1 bits (222),  Expect = 7e-22
+ Identities = 37/67 (55%), Positives = 49/67 (73%), Gaps = 0/67 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           GDV +V IKG+  GW  M RNWGQ W  N  + GQ LSFE+++SDG+T+TS+NV P  W 
+Sbjct  31  GDVHAVSIKGSRTGWQPMSRNWGQNWQSNTYLNGQSLSFEVTTSDGRTVTSYNVAPAGWS  90
+
+Query  61  YGKTYTG  67
+           +G+TY+G
+Sbjct  91  FGRTYSG  97
+
+
+>TR:A0A059B824_EUCGR A0A059B824 Expansin OS=Eucalyptus grandis OX=71139 GN=EUGRSUZ_H05003 
+PE=3 SV=1
+Length=283
+
+ Score = 94.7 bits (234),  Expect = 8e-22
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V ++K+KG++ GW+ M RNWGQ W  N D+RGQPLSFE+++SD +TLTS+NV P  W+
+Sbjct  214  GEVIAMKMKGSKTGWIPMARNWGQSWQSNVDLRGQPLSFEVTTSDRRTLTSYNVAPPSWQ  273
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  274  FGQTFEGK  281
+
+
+>TR:A6YR52_GOSTO A6YR52 Expansin (Fragment) OS=Gossypium tomentosum OX=34277 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 90.9 bits (224),  Expect = 8e-22
+ Identities = 36/67 (54%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG++ GWL M RNWGQ W  N  + GQ LSF++++SDG+T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSKTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDGRTITNYNVVPAGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+>TR:A0A072VBW9_MEDTR A0A072VBW9 Expansin OS=Medicago truncatula OX=3880 GN=25487637 
+PE=3 SV=1
+Length=252
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 36/68 (53%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KGT+ GW+ M RNWGQ WH N +++ QPLSFE++ + GKT+TS+NV P +W+
+Sbjct  183  GEVVAVKVKGTKTGWIPMARNWGQNWHCNVNLQKQPLSFEVTITSGKTITSYNVAPANWQ  242
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  243  FGQTFEGK  250
+
+
+>TR:A0A2P5YHB0_GOSBA A0A2P5YHB0 Expansin OS=Gossypium barbadense OX=3634 GN=GOBAR_AA05583 
+PE=3 SV=1
+Length=254
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 39/67 (58%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKTLTS+NVVP +W+
+Sbjct  185  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTLTSYNVVPANWQ  244
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  245  FGQTFEG  251
+
+
+>TR:A0A1U8PI29_GOSHI A0A1U8PI29 Expansin OS=Gossypium hirsutum OX=3635 GN=LOC107959337 
+PE=3 SV=1
+Length=254
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 39/67 (58%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKTLTS+NVVP +W+
+Sbjct  185  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTLTSYNVVPANWQ  244
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  245  FGQTFEG  251
+
+
+>TR:A0A0B0NQ02_GOSAR A0A0B0NQ02 Expansin OS=Gossypium arboreum OX=29729 GN=F383_18918 
+PE=3 SV=1
+Length=254
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 39/67 (58%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKTLTS+NVVP +W+
+Sbjct  185  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTLTSYNVVPANWQ  244
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  245  FGQTFEG  251
+
+
+>TR:I1KF31_SOYBN I1KF31 Expansin OS=Glycine max OX=3847 GN=100809013 PE=3 SV=1
+Length=254
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 38/68 (56%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++SS GKTLTS+NV P +W 
+Sbjct  182  GEVFAVKVKGSRSGWIPMARNWGQNWHCNFNFQNQPLSFEVTSSSGKTLTSYNVAPANWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:I3SE17_MEDTR I3SE17 Expansin OS=Medicago truncatula OX=3880 GN=25479908 PE=2 
+SV=1
+Length=256
+
+ Score = 94.0 bits (232),  Expect = 9e-22
+ Identities = 37/68 (54%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWG  WH N +++ QPLSFE++SS GKTLTS+NV P +W+
+Sbjct  187  GEVFAVKVKGSRTGWIPMARNWGMNWHCNVNLQHQPLSFEVTSSTGKTLTSYNVAPPNWQ  246
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  247  FGQTFQGK  254
+
+
+>TR:A0A199UHE4_ANACO A0A199UHE4 Expansin (Fragment) OS=Ananas comosus OX=4615 GN=ACMD2_14285 
+PE=3 SV=1
+Length=208
+
+ Score = 92.8 bits (229),  Expect = 1e-21
+ Identities = 37/68 (54%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G + +VK+KG+  GW+ MGRNWGQ W  N D+RGQPLSFE++SS   T+TS+NV P +W 
+Sbjct  137  GAITAVKVKGSRTGWIPMGRNWGQNWQCNADLRGQPLSFEVTSSGRSTITSYNVAPLNWW  196
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  197  FGQTFEGK  204
+
+
+>TR:H9M9R8_PINLA H9M9R8 Expansin (Fragment) OS=Pinus lambertiana OX=3343 GN=0_13323_01 
+PE=3 SV=1
+Length=89
+
+ Score = 89.4 bits (220),  Expect = 1e-21
+ Identities = 36/67 (54%), Positives = 50/67 (75%), Gaps = 0/67 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           GDV +V IKG+  GW  M RNWGQ W  N  + GQ LSF++S+SDG+T+TS+NV P +W+
+Sbjct  20  GDVEAVSIKGSNTGWQPMSRNWGQNWQSNSYLNGQTLSFQVSTSDGRTITSYNVAPANWQ  79
+
+Query  61  YGKTYTG  67
+           +G+T+ G
+Sbjct  80  FGQTFEG  86
+
+
+>TR:A6YR45_GOSAR A6YR45 Expansin (Fragment) OS=Gossypium arboreum OX=29729 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 36/67 (54%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG+  GWL M RNWGQ W  N  + GQ LSF++++SDG+T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSRTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDGRTITAYNVVPAGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+>TR:A6YR46_GOSMU A6YR46 Expansin (Fragment) OS=Gossypium mustelinum OX=34275 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 36/67 (54%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG+  GWL M RNWGQ W  N  + GQ LSF++++SDG+T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSRTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDGRTITAYNVVPAGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+>TR:A6YR43_GOSHI A6YR43 Expansin (Fragment) OS=Gossypium hirsutum OX=3635 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 90.5 bits (223),  Expect = 1e-21
+ Identities = 36/67 (54%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG+  GWL M RNWGQ W  N  + GQ LSF++++SDG+T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSRTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDGRTITAYNVVPAGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+>TR:A0A2P5VYE4_GOSBA A0A2P5VYE4 Expansin OS=Gossypium barbadense OX=3634 GN=GOBAR_AA36862 
+PE=3 SV=1
+Length=105
+
+ Score = 89.7 bits (221),  Expect = 1e-21
+ Identities = 36/67 (54%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV +V IKG+++ W SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NVVP +W+
+Sbjct  36   GDVNAVSIKGSKMRWQSMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTVTSYNVVPANWQ  95
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  96   FGQTFEG  102
+
+
+>TR:L0ASK7_POPTO L0ASK7 Expansin OS=Populus tomentosa OX=118781 PE=3 SV=1
+Length=250
+
+ Score = 93.6 bits (231),  Expect = 1e-21
+ Identities = 37/67 (55%), Positives = 55/67 (82%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV+SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKT+TS+N VP++W+
+Sbjct  181  GDVQSVSIKGSKTGWQAMSRNWGQNWQSNSYLNGQSLSFQVTTSDGKTVTSYNAVPENWQ  240
+
+Query  61   YGKTYTG  67
+            +G+T++G
+Sbjct  241  FGRTFSG  247
+
+
+>TR:W9QLG0_9ROSA W9QLG0 Expansin OS=Morus notabilis OX=981085 GN=L484_013742 PE=3 
+SV=1
+Length=250
+
+ Score = 93.6 bits (231),  Expect = 1e-21
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N +++ QPLSFE++SS G+TLTS+NV P DW+
+Sbjct  181  GEVVAVKVKGSKTGWIPMARNWGQNWQSNLNLKRQPLSFEVTSSGGRTLTSYNVAPVDWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  241  FGQTFEGK  248
+
+
+>TR:A0A1L6K5Z2_POPTO A0A1L6K5Z2 Expansin OS=Populus tomentosa OX=118781 PE=2 SV=1
+Length=269
+
+ Score = 94.0 bits (232),  Expect = 1e-21
+ Identities = 37/67 (55%), Positives = 55/67 (82%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV+SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDG+T+TS+N VP+DW+
+Sbjct  200  GDVQSVSIKGSKTGWQAMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTVTSYNAVPEDWQ  259
+
+Query  61   YGKTYTG  67
+            +G+T++G
+Sbjct  260  FGQTFSG  266
+
+
+>TR:U5FK15_POPTR U5FK15 Expansin OS=Populus trichocarpa OX=3694 GN=POPTR_017G140000v3 
+PE=3 SV=1
+Length=284
+
+ Score = 94.0 bits (232),  Expect = 2e-21
+ Identities = 38/68 (56%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV+IKG+  GWL MGRNWGQ WH+N +++ Q LSFE++SS   T+ S+ V PKDW 
+Sbjct  213  GDVTSVRIKGSRTGWLDMGRNWGQNWHVNANLQNQALSFEVTSSHKMTVLSYTVAPKDWR  272
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  273  FGQTFEGK  280
+
+
+>TR:A0A067FY40_CITSI A0A067FY40 Expansin OS=Citrus sinensis OX=2711 GN=CISIN_1g025617mg 
+PE=3 SV=1
+Length=250
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N ++ GQPLSFE+++S+ KTLTS+NV P +W+
+Sbjct  181  GEVIAVKVKGSKTGWIPMARNWGQNWQSNVNLTGQPLSFEVTTSNRKTLTSYNVAPANWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:A0A2H5P237_CITUN A0A2H5P237 Expansin OS=Citrus unshiu OX=55188 GN=CUMW_094820 
+PE=3 SV=1
+Length=250
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N ++ GQPLSFE+++S+ KTLTS+NV P +W+
+Sbjct  181  GEVIAVKVKGSKTGWIPMARNWGQNWQSNVNLTGQPLSFEVTTSNRKTLTSYNVAPANWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:V4SA06_9ROSI V4SA06 Expansin OS=Citrus clementina OX=85681 GN=CICLE_v10029135mg 
+PE=3 SV=1
+Length=250
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 37/68 (54%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N ++ GQPLSFE+++S+ KTLTS+NV P +W+
+Sbjct  181  GEVIAVKVKGSKTGWIPMARNWGQNWQSNVNLTGQPLSFEVTTSNRKTLTSYNVAPANWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  241  FGQTYEGK  248
+
+
+>TR:A0A2P6PTG5_ROSCH A0A2P6PTG5 Expansin OS=Rosa chinensis OX=74649 GN=RchiOBHm_Chr6g0281211 
+PE=3 SV=1
+Length=252
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 37/68 (54%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ W  N +++GQPLSFE++ S GKTLTS+NV P  W+
+Sbjct  183  GEVLAVKVKGSRTGWIPMARNWGQNWQSNVNLQGQPLSFEVTVSSGKTLTSYNVAPPKWQ  242
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  243  FGQTFEGK  250
+
+
+>TR:A0A2K3NU53_TRIPR A0A2K3NU53 Expansin OS=Trifolium pratense OX=57577 GN=L195_g003042 
+PE=3 SV=1
+Length=252
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 36/68 (53%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWG  WH N +++ QPLSFE++S  GKTLTS+NV P++W+
+Sbjct  183  GEVFAVKVKGSRTGWIPMARNWGMNWHCNVNLQHQPLSFEVTSGTGKTLTSYNVAPQNWQ  242
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  243  FGQTFQGK  250
+
+
+>TR:A0A067LHZ9_JATCU A0A067LHZ9 Expansin OS=Jatropha curcas OX=180498 GN=JCGZ_10755 
+PE=3 SV=1
+Length=253
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 36/68 (53%), Positives = 55/68 (81%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ M RNWGQ W  N ++ GQPLSFE+++S G+TLTS+NV P +W+
+Sbjct  184  GEVVAVKVKGSKTGWIPMARNWGQNWQSNVNLSGQPLSFEVTTSSGRTLTSYNVAPANWQ  243
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  244  FGQTFEGK  251
+
+
+>TR:A0A1U8MRD2_GOSHI A0A1U8MRD2 Expansin OS=Gossypium hirsutum OX=3635 GN=LOC107940483 
+PE=3 SV=1
+Length=254
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 39/67 (58%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKT TS+NVVP +W+
+Sbjct  185  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNTYLNGQTLSFQVTTSDGKTRTSYNVVPANWQ  244
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  245  FGQTYEG  251
+
+
+>TR:B1Q2L4_ROSHC B1Q2L4 Expansin (Fragment) OS=Rosa hybrid cultivar OX=128735 
+GN=RhEXPA-3 PE=2 SV=1
+Length=176
+
+ Score = 91.3 bits (225),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NV P +W+
+Sbjct  107  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQLLSFQVTTSDGRTVTSYNVAPGNWQ  166
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  167  FGQTYQG  173
+
+
+>TR:B1Q2L2_ROSHC B1Q2L2 Expansin (Fragment) OS=Rosa hybrid cultivar OX=128735 
+GN=RhEXPA-1 PE=2 SV=1
+Length=176
+
+ Score = 91.3 bits (225),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NV P +W+
+Sbjct  107  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQLLSFQVTTSDGRTVTSYNVAPGNWQ  166
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  167  FGQTYQG  173
+
+
+>TR:A0A124SFL3_CYNCS A0A124SFL3 Expansin OS=Cynara cardunculus var. scolymus OX=59895 
+GN=Ccrd_018074 PE=3 SV=1
+Length=257
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 38/68 (56%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD++ V IKGT+  W+SM RNWGQ W  N  + GQPLSF ++SSD +T TS+N+ P +W+
+Sbjct  186  GDIQKVWIKGTKTNWMSMSRNWGQNWQSNAVLTGQPLSFRVTSSDRRTSTSWNIAPANWQ  245
+
+Query  61   YGKTYTGE  68
+            +GKTYTG+
+Sbjct  246  FGKTYTGK  253
+
+
+>TR:B7U8J1_ZIZJJ B7U8J1 Expansin (Fragment) OS=Ziziphus jujuba OX=326968 PE=2 
+SV=1
+Length=259
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDG+TLTS+NVVP +W+
+Sbjct  190  GDVHSVSIKGSKTGWQTMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTLTSYNVVPANWQ  249
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  250  FGQTFAG  256
+
+
+>TR:M0S1D1_MUSAM M0S1D1 Expansin OS=Musa acuminata subsp. malaccensis OX=214687 
+GN=103993313 PE=3 SV=1
+Length=265
+
+ Score = 93.2 bits (230),  Expect = 2e-21
+ Identities = 36/68 (53%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++S  G+  TS+NV P +W+
+Sbjct  194  GEVAAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTSGRGRATTSYNVAPWNWQ  253
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  254  FGQTFEGK  261
+
+
+>TR:A0A1Q3B3C2_CEPFO A0A1Q3B3C2 Expansin OS=Cephalotus follicularis OX=3775 GN=CFOL_v3_06020 
+PE=3 SV=1
+Length=249
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NVVP +W+
+Sbjct  180  GDVHSVSIKGSKTGWQSMSRNWGQNWQSNSYLNGQALSFQVTTSDGRTVTSYNVVPANWQ  239
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  240  FGQTFEG  246
+
+
+>TR:Q4F8J9_EUCGL Q4F8J9 Expansin (Fragment) OS=Eucalyptus globulus OX=34317 GN=EXPA5 
+PE=2 SV=1
+Length=130
+
+ Score = 89.7 bits (221),  Expect = 2e-21
+ Identities = 36/67 (54%), Positives = 50/67 (75%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW +M RNWGQ W  N  M GQ LSF++++SDG+T+TS+N  P +W+
+Sbjct  61   GDVHSVSIKGSRTGWQAMSRNWGQNWQSNAYMNGQALSFQVTTSDGRTVTSYNAAPANWQ  120
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  121  FGQTFEG  127
+
+
+>TR:D7U4Q2_VITVI D7U4Q2 Expansin OS=Vitis vinifera OX=29760 GN=VIT_03s0038g04060 
+PE=3 SV=1
+Length=250
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 36/68 (53%), Positives = 53/68 (78%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ+W  N ++ GQPLSFE+++S GKTLTS+NV   +W 
+Sbjct  181  GEVVAVKVKGSRTGWIPMARNWGQIWQCNINLEGQPLSFEVTTSSGKTLTSYNVASGNWR  240
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  241  FGQTFEGK  248
+
+
+>TR:A0A2P4MVT0_QUESU A0A2P4MVT0 Expansin OS=Quercus suber OX=58331 GN=CFP56_26330 
+PE=3 SV=1
+Length=250
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 35/68 (51%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW  M RNWGQ+WH N D++GQP+SFE+++S  +TL S+NV P +W+
+Sbjct  181  GEVIAVKVKGSRTGWNPMARNWGQLWHCNIDIKGQPISFEVTTSSRRTLASYNVAPANWQ  240
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  241  FGQTFEGK  248
+
+
+>TR:A0A067JQ64_JATCU A0A067JQ64 Expansin OS=Jatropha curcas OX=180498 GN=JCGZ_03325 
+PE=3 SV=1
+Length=252
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDGKT+TS+NVVP +W+
+Sbjct  183  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNGYLNGQSLSFQVTTSDGKTVTSYNVVPSNWQ  242
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  243  FGQTFAG  249
+
+
+>TR:A0A287XDJ6_HORVV A0A287XDJ6 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=3 SV=1
+Length=235
+
+ Score = 92.4 bits (228),  Expect = 2e-21
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  164  GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  223
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  224  FAQTFAGK  231
+
+
+>TR:B1A2I5_9ROSI B1A2I5 Expansin OS=Dimocarpus longan OX=128017 GN=Exp3 PE=2 SV=1
+Length=253
+
+ Score = 92.8 bits (229),  Expect = 2e-21
+ Identities = 38/67 (57%), Positives = 53/67 (79%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW  M RNWGQ W  N  + GQ LSF++++SDGKT+TS+NVVP +W+
+Sbjct  184  GDVHSVSIKGSKTGWQPMSRNWGQNWQSNSYLNGQSLSFQVTTSDGKTVTSYNVVPANWQ  243
+
+Query  61   YGKTYTG  67
+            +G+T++G
+Sbjct  244  FGQTFSG  250
+
+
+>TR:O23952_GOSHI O23952 Expansin (Fragment) OS=Gossypium hirsutum OX=3635 PE=2 
+SV=1
+Length=160
+
+ Score = 90.5 bits (223),  Expect = 2e-21
+ Identities = 36/67 (54%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG+  GWL M RNWGQ W  N  + GQ LSF++++SDG+T+T++NVVP  W+
+Sbjct  91   GDITSVSIKGSRTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDGRTITAYNVVPAGWQ  150
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  151  FGQTFEG  157
+
+
+>TR:B1Q2L3_ROSHC B1Q2L3 Expansin (Fragment) OS=Rosa hybrid cultivar OX=128735 
+GN=RhEXPA-2 PE=2 SV=1
+Length=176
+
+ Score = 90.9 bits (224),  Expect = 3e-21
+ Identities = 38/67 (57%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NV P +W+
+Sbjct  107  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQLLSFQVTTSDGRTVTSYNVAPCNWQ  166
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  167  FGQTYQG  173
+
+
+>TR:M5VKX2_PRUPE M5VKX2 Expansin OS=Prunus persica OX=3760 GN=PRUPE_8G182000 PE=3 
+SV=1
+Length=259
+
+ Score = 92.8 bits (229),  Expect = 3e-21
+ Identities = 35/68 (51%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G++ +VK+KG+  GW+ M RNWGQ W  N +++GQPLSFE++ S G+TLTS+NV P +W+
+Sbjct  190  GEILAVKVKGSRTGWIPMARNWGQNWQSNVNLKGQPLSFEVTISSGRTLTSYNVAPANWQ  249
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  250  FGQTFEGK  257
+
+
+>TR:A0A1D6BLE0_WHEAT A0A1D6BLE0 Expansin OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=260
+
+ Score = 92.8 bits (229),  Expect = 3e-21
+ Identities = 35/68 (51%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  189  GEVDAVKVKGSKTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  248
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  249  FAQTFAGK  256
+
+
+>TR:A0A1D6C3F8_WHEAT A0A1D6C3F8 Expansin OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=262
+
+ Score = 92.8 bits (229),  Expect = 3e-21
+ Identities = 35/68 (51%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  191  GEVDAVKVKGSKTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  250
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  251  FAQTFAGK  258
+
+
+>TR:A0A2K1WQB1_POPTR A0A2K1WQB1 Expansin OS=Populus trichocarpa OX=3694 GN=POPTR_019G057500v3 
+PE=3 SV=1
+Length=214
+
+ Score = 91.7 bits (226),  Expect = 3e-21
+ Identities = 36/67 (54%), Positives = 54/67 (81%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW +M RNWGQ W  N  + GQ LSF++++SDG+T+TS+N VP++W+
+Sbjct  145  GDVHSVSIKGSKTGWQAMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTVTSYNAVPENWQ  204
+
+Query  61   YGKTYTG  67
+            +G+T++G
+Sbjct  205  FGQTFSG  211
+
+
+>TR:A0A0A9P7G3_ARUDO A0A0A9P7G3 Expansin OS=Arundo donax OX=35708 PE=3 SV=1
+Length=144
+
+ Score = 89.7 bits (221),  Expect = 3e-21
+ Identities = 34/68 (50%), Positives = 52/68 (76%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T+++V P DW 
+Sbjct  73   GEVAAVKVKGSRTGWIPMGRNWGQNWQCDVDLRGQPLSFEVTGGRGRTVTAYSVAPADWM  132
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  133  FAQTFEGK  140
+
+
+>TR:W5HX72_WHEAT W5HX72 Expansin OS=Triticum aestivum OX=4565 PE=3 SV=1
+Length=261
+
+ Score = 92.4 bits (228),  Expect = 4e-21
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  190  GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  249
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  250  FAQTFAGK  257
+
+
+>TR:M8AU25_AEGTA M8AU25 Expansin OS=Aegilops tauschii OX=37682 GN=F775_09515 PE=3 
+SV=1
+Length=261
+
+ Score = 92.4 bits (228),  Expect = 4e-21
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  190  GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  249
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  250  FAQTFAGK  257
+
+
+>TR:A0A1J3DRN6_NOCCA A0A1J3DRN6 Expansin (Fragment) OS=Noccaea caerulescens OX=107243 
+GN=GA_TR2992_c0_g1_i1_g.9460 PE=3 SV=1
+Length=283
+
+ Score = 92.8 bits (229),  Expect = 4e-21
+ Identities = 40/72 (56%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKGT  GW SM RNWGQ W  N ++ GQ LSF++++SDG+T+ S NV P++W 
+Sbjct  210  GDVLSVSIKGTRTGWQSMSRNWGQNWQSNANLDGQALSFKVATSDGRTVVSNNVTPRNWS  269
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TYTG    S
+Sbjct  270  FGQTYTGRQFRS  281
+
+
+>TR:Q9LLB2_ZINVI Q9LLB2 Expansin OS=Zinnia violacea OX=34245 PE=2 SV=1
+Length=245
+
+ Score = 92.0 bits (227),  Expect = 4e-21
+ Identities = 37/67 (55%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG++ GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NV P +W+
+Sbjct  176  GDVHSVSIKGSKTGWQSMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTITSYNVAPSNWQ  235
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  236  FGQTFQG  242
+
+
+>TR:M0V162_HORVV M0V162 Expansin OS=Hordeum vulgare subsp. vulgare OX=112509 PE=3 
+SV=1
+Length=265
+
+ Score = 92.4 bits (228),  Expect = 4e-21
+ Identities = 35/68 (51%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ MGRNWGQ W  + D+RGQPLSFE++   G+T+T +NV P DW 
+Sbjct  194  GEVDAVKVKGSRTGWIPMGRNWGQNWQCDADLRGQPLSFEVTGGKGRTITMYNVAPSDWM  253
+
+Query  61   YGKTYTGE  68
+            + +T+ G+
+Sbjct  254  FAQTFAGK  261
+
+
+>TR:A0A1J3GFY3_NOCCA A0A1J3GFY3 Expansin (Fragment) OS=Noccaea caerulescens OX=107243 
+GN=LE_TR15556_c0_g1_i1_g.49890 PE=3 SV=1
+Length=290
+
+ Score = 92.8 bits (229),  Expect = 4e-21
+ Identities = 40/72 (56%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKGT  GW SM RNWGQ W  N ++ GQ LSF++++SDG+T+ S NV P++W 
+Sbjct  217  GDVLSVSIKGTRTGWQSMSRNWGQNWQSNANLDGQALSFKVATSDGRTVVSNNVTPRNWS  276
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TYTG    S
+Sbjct  277  FGQTYTGRQFRS  288
+
+
+>TR:D8L306_RUBID D8L306 Expansin OS=Rubus idaeus OX=32247 GN=EXPA1 PE=3 SV=1
+Length=253
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 38/67 (57%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG+  GW SM RNWGQ W  N  + GQ LSF++++SDG+T+TS+NV P +W+
+Sbjct  184  GDVHSVSIKGSRTGWQSMSRNWGQNWQSNSYLNGQSLSFQVTTSDGRTVTSYNVAPGNWQ  243
+
+Query  61   YGKTYTG  67
+            +G+TY G
+Sbjct  244  FGQTYQG  250
+
+
+>TR:G4XZW5_9GENT G4XZW5 Expansin OS=Breonia chinensis OX=170042 GN=EXPA6 PE=2 
+SV=1
+Length=253
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 38/67 (57%), Positives = 50/67 (75%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKG   GW SM RNWGQ W  N  + GQ LSF++++SDG+TLTS+NV P +W+
+Sbjct  184  GDVHSVSIKGARTGWQSMSRNWGQNWQSNSYLNGQSLSFQITTSDGRTLTSYNVAPANWQ  243
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  244  FGQTFEG  250
+
+
+>TR:A0A0S3SBI7_PHAAN A0A0S3SBI7 Expansin OS=Vigna angularis var. angularis OX=157739 
+GN=Vigan.06G134100 PE=3 SV=1
+Length=254
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 37/68 (54%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++ S GKTLTS+NV P  W 
+Sbjct  182  GEVIAVKVKGSRTGWIPMARNWGQNWHCNANFQNQPLSFEVTISSGKTLTSYNVAPAKWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:A0A0L9V5J6_PHAAN A0A0L9V5J6 Expansin OS=Phaseolus angularis OX=3914 GN=LR48_Vigan08g108000 
+PE=3 SV=1
+Length=254
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 37/68 (54%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG+  GW+ M RNWGQ WH N + + QPLSFE++ S GKTLTS+NV P  W 
+Sbjct  182  GEVIAVKVKGSRTGWIPMARNWGQNWHCNANFQNQPLSFEVTISSGKTLTSYNVAPAKWM  241
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  242  FGQTFEGK  249
+
+
+>TR:A0A2R6R729_ACTCH A0A2R6R729 Expansin OS=Actinidia chinensis var. chinensis OX=1590841 
+GN=CEY00_Acc10880 PE=3 SV=1
+Length=255
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 36/68 (53%), Positives = 54/68 (79%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            G+V +VK+KG++ GW+ MGRNWGQ W  N ++ GQPLSFE+++S GKT+TS+NV   +W 
+Sbjct  186  GEVVAVKVKGSKTGWIPMGRNWGQNWQCNVNLAGQPLSFEVTTSSGKTVTSYNVASANWR  245
+
+Query  61   YGKTYTGE  68
+            +G+T+ G+
+Sbjct  246  FGQTFLGK  253
+
+
+>TR:D8TFZ0_SELML D8TFZ0 Expansin OS=Selaginella moellendorffii OX=88036 GN=SELMODRAFT_236978 
+PE=3 SV=1
+Length=255
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 38/71 (54%), Positives = 51/71 (72%), Gaps = 0/71 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV  V IKG+  GW SM RNWGQ W    ++ GQ LSF +++SDG+T+T++NV P DW+
+Sbjct  182  GDVVGVSIKGSSSGWRSMSRNWGQNWEEGSNLNGQALSFRVTTSDGRTVTAYNVAPGDWQ  241
+
+Query  61   YGKTYTGEAVS  71
+            +G+TYTG   S
+Sbjct  242  FGRTYTGNTAS  252
+
+
+>TR:S1S480_THECC S1S480 Expansin OS=Theobroma cacao OX=3641 GN=TCM_046360 PE=3 
+SV=1
+Length=257
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 37/68 (54%), Positives = 51/68 (75%), Gaps = 0/68 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ S  IKG++ GWL M RNWGQ W  N  + GQ LSF+L++SDG+T+T +NVVP  W+
+Sbjct  188  GDITSASIKGSKTGWLPMSRNWGQNWQNNAYLNGQSLSFKLTASDGRTITKYNVVPAGWQ  247
+
+Query  61   YGKTYTGE  68
+            +G+TY G+
+Sbjct  248  FGQTYEGD  255
+
+
+>TR:A0A2I4HU68_9ROSI A0A2I4HU68 Expansin OS=Juglans regia OX=51240 GN=LOC109021491 
+PE=3 SV=1
+Length=258
+
+ Score = 92.0 bits (227),  Expect = 5e-21
+ Identities = 38/70 (54%), Positives = 53/70 (76%), Gaps = 0/70 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDVR+V IKG++ GW +M RNWGQ W  N  + GQ LSFE+++SDG+T+TS++V P  WE
+Sbjct  185  GDVRTVSIKGSKTGWKTMSRNWGQNWQSNSYLNGQSLSFEVTTSDGRTVTSYDVAPSGWE  244
+
+Query  61   YGKTYTGEAV  70
+            +G+T+ G  V
+Sbjct  245  FGQTFEGNQV  254
+
+
+>TR:A0A1J3F1M1_NOCCA A0A1J3F1M1 Expansin (Fragment) OS=Noccaea caerulescens OX=107243 
+GN=LC_TR3609_c0_g1_i1_g.13585 PE=3 SV=1
+Length=307
+
+ Score = 92.8 bits (229),  Expect = 6e-21
+ Identities = 40/72 (56%), Positives = 52/72 (72%), Gaps = 0/72 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV SV IKGT  GW SM RNWGQ W  N ++ GQ LSF++++SDG+T+ S NV P++W 
+Sbjct  234  GDVLSVSIKGTRTGWQSMSRNWGQNWQSNANLDGQALSFKVATSDGRTVVSNNVTPRNWS  293
+
+Query  61   YGKTYTGEAVSS  72
+            +G+TYTG    S
+Sbjct  294  FGQTYTGRQFRS  305
+
+
+>TR:A0A2K3LJV1_TRIPR A0A2K3LJV1 Expansin (Fragment) OS=Trifolium pratense OX=57577 
+GN=L195_g034749 PE=3 SV=1
+Length=102
+
+ Score = 87.8 bits (216),  Expect = 6e-21
+ Identities = 38/67 (57%), Positives = 48/67 (72%), Gaps = 0/67 (0%)
+
+Query  1   GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+           GDV SV IKG+  GW+ M RNWGQ W  N  + GQ LSF++++SDGKT+ S NV P  W 
+Sbjct  32  GDVHSVAIKGSRTGWMPMSRNWGQNWQSNNYLNGQTLSFKVTTSDGKTVISNNVAPAGWS  91
+
+Query  61  YGKTYTG  67
+           +G+TYTG
+Sbjct  92  FGQTYTG  98
+
+
+>TR:D8RCJ6_SELML D8RCJ6 Expansin OS=Selaginella moellendorffii OX=88036 GN=SELMODRAFT_132053 
+PE=3 SV=1
+Length=267
+
+ Score = 92.0 bits (227),  Expect = 6e-21
+ Identities = 38/71 (54%), Positives = 51/71 (72%), Gaps = 0/71 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GDV  V IKG+  GW SM RNWGQ W    ++ GQ LSF +++SDG+T+T++NV P DW+
+Sbjct  194  GDVVGVSIKGSSSGWRSMSRNWGQNWEEGSNLNGQALSFRVTTSDGRTVTAYNVAPGDWQ  253
+
+Query  61   YGKTYTGEAVS  71
+            +G+TYTG   S
+Sbjct  254  FGRTYTGNTAS  264
+
+
+>TR:A6YR47_GOSRA A6YR47 Expansin (Fragment) OS=Gossypium raimondii OX=29730 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 88.6 bits (218),  Expect = 6e-21
+ Identities = 35/67 (52%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG++ GWL M RNWGQ W  N  + GQ LSF++++SD +T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSKTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDSRTMTNYNVVPPGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+>TR:A6YR48_GOSHI A6YR48 Expansin (Fragment) OS=Gossypium hirsutum OX=3635 GN=EXPA1 
+PE=3 SV=1
+Length=129
+
+ Score = 88.6 bits (218),  Expect = 6e-21
+ Identities = 35/67 (52%), Positives = 51/67 (76%), Gaps = 0/67 (0%)
+
+Query  1    GDVRSVKIKGTELGWLSMGRNWGQVWHINCDMRGQPLSFELSSSDGKTLTSFNVVPKDWE  60
+            GD+ SV IKG++ GWL M RNWGQ W  N  + GQ LSF++++SD +T+T++NVVP  W+
+Sbjct  60   GDITSVSIKGSKTGWLPMSRNWGQNWQSNAYLNGQSLSFKVTASDSRTITNYNVVPAGWQ  119
+
+Query  61   YGKTYTG  67
+            +G+T+ G
+Sbjct  120  FGQTFEG  126
+
+
+
+Lambda      K        H
+   0.325    0.140    0.452 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 60223188045
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1924 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,388,845 sequences; 2,254,686,180 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A194YSL1_SORBI  A0A194YSL1 Uncharacterized protein OS=Sorghu...  216     8e-66
+TR:A0A2T7FCG8_9POAL  A0A2T7FCG8 Uncharacterized protein OS=Panicu...  187     7e-55
+TR:B4G118_MAIZE  B4G118 Uncharacterized protein OS=Zea mays OX=45...  186     3e-54
+TR:A0A1D6HL70_MAIZE  A0A1D6HL70 Galactoside 2-alpha-L-fucosyltran...  186     3e-54
+TR:A0A2S3GTR8_9POAL  A0A2S3GTR8 Uncharacterized protein OS=Panicu...  182     5e-54
+TR:A0A2S3GTI4_9POAL  A0A2S3GTI4 Uncharacterized protein OS=Panicu...  182     5e-53
+TR:K3YZ33_SETIT  K3YZ33 Uncharacterized protein OS=Setaria italic...  158     1e-48
+TR:A0A0D9YYK1_9ORYZ  A0A0D9YYK1 Uncharacterized protein OS=Oryza ...  102     1e-23
+TR:A0A0E0GDC5_ORYNI  A0A0E0GDC5 Uncharacterized protein OS=Oryza ...  102     1e-23
+TR:A0A0E0GDC3_ORYNI  A0A0E0GDC3 Uncharacterized protein OS=Oryza ...  102     1e-23
+TR:A0A0E0CRV8_9ORYZ  A0A0E0CRV8 Uncharacterized protein OS=Oryza ...  98.6    3e-22
+TR:A0A1D6ABC2_WHEAT  A0A1D6ABC2 Uncharacterized protein OS=Tritic...  96.3    2e-21
+TR:A0A1D6ANQ6_WHEAT  A0A1D6ANQ6 Uncharacterized protein OS=Tritic...  92.0    5e-20
+TR:A0A2K2D5K7_BRADI  A0A2K2D5K7 Uncharacterized protein OS=Brachy...  86.7    4e-18
+TR:A0A2K2D5L6_BRADI  A0A2K2D5L6 Uncharacterized protein OS=Brachy...  86.7    4e-18
+TR:A0A1D6B6E8_WHEAT  A0A1D6B6E8 Uncharacterized protein OS=Tritic...  85.5    1e-17
+TR:F2DFY5_HORVV  F2DFY5 Predicted protein OS=Hordeum vulgare subs...  84.3    3e-17
+TR:M7ZFT4_TRIUA  M7ZFT4 Uncharacterized protein OS=Triticum urart...  71.6    6e-14
+TR:A0A2K2D5L5_BRADI  A0A2K2D5L5 Uncharacterized protein OS=Brachy...  73.9    1e-13
+TR:A0A0Q3JTL5_BRADI  A0A0Q3JTL5 Uncharacterized protein OS=Brachy...  73.9    1e-13
+TR:A0A0D9VLE9_9ORYZ  A0A0D9VLE9 Uncharacterized protein OS=Leersi...  70.1    3e-12
+TR:A0A0D9VLE7_9ORYZ  A0A0D9VLE7 Uncharacterized protein OS=Leersi...  69.7    4e-12
+TR:A0A1D6B6D1_WHEAT  A0A1D6B6D1 Uncharacterized protein OS=Tritic...  65.1    1e-10
+TR:A0A0E0NLB9_ORYRU  A0A0E0NLB9 Uncharacterized protein OS=Oryza ...  62.4    1e-09
+TR:A0A1D6ABC3_WHEAT  A0A1D6ABC3 Uncharacterized protein OS=Tritic...  61.2    3e-09
+TR:J3LHD9_ORYBR  J3LHD9 Uncharacterized protein OS=Oryza brachyan...  61.2    3e-09
+TR:A0A0E0NLC0_ORYRU  A0A0E0NLC0 Uncharacterized protein OS=Oryza ...  60.1    8e-09
+TR:A0A0D3FAV5_9ORYZ  A0A0D3FAV5 Uncharacterized protein OS=Oryza ...  60.1    8e-09
+TR:A0A0D9YYK2_9ORYZ  A0A0D9YYK2 Uncharacterized protein OS=Oryza ...  60.1    8e-09
+TR:A0A0E0GDC4_ORYNI  A0A0E0GDC4 Uncharacterized protein OS=Oryza ...  60.1    8e-09
+TR:A0A1D6AT01_WHEAT  A0A1D6AT01 Uncharacterized protein OS=Tritic...  57.8    4e-08
+TR:K3YWQ7_SETIT  K3YWQ7 Uncharacterized protein OS=Setaria italic...  53.9    1e-07
+TR:A0A0E0K5J8_ORYPU  A0A0E0K5J8 Uncharacterized protein OS=Oryza ...  56.2    2e-07
+TR:A0A2T7FCG2_9POAL  A0A2T7FCG2 Uncharacterized protein OS=Panicu...  54.7    5e-07
+TR:A0A0E0CRV9_9ORYZ  A0A0E0CRV9 Uncharacterized protein OS=Oryza ...  53.9    1e-06
+TR:A0A0E0NLB8_ORYRU  A0A0E0NLB8 Uncharacterized protein OS=Oryza ...  45.4    8e-04
+TR:A0A0D3FAV4_9ORYZ  A0A0D3FAV4 Uncharacterized protein OS=Oryza ...  44.7    0.002
+TR:F2DM60_HORVV  F2DM60 Predicted protein OS=Hordeum vulgare subs...  38.9    0.12 
+TR:A0A2I0L2L5_PUNGR  A0A2I0L2L5 Uncharacterized protein OS=Punica...  37.0    0.48 
+TR:A0A2P5AHA4_PARAD  A0A2P5AHA4 LysM receptor kinase OS=Parasponi...  37.0    0.59 
+TR:A0A221I0U7_PARRI  A0A221I0U7 Lysm-containing receptor kinase 1...  37.0    0.59 
+TR:Q10QR8_ORYSJ  Q10QR8 Expressed protein OS=Oryza sativa subsp. ...  37.0    0.63 
+TR:A0A221I0Y2_9ROSA  A0A221I0Y2 LysM receptor kinase OS=Trema ori...  36.6    0.79 
+TR:M7Z6W9_TRIUA  M7Z6W9 Galactoside 2-alpha-L-fucosyltransferase ...  36.2    1.0  
+TR:A0A0D3FER5_9ORYZ  A0A0D3FER5 Uncharacterized protein OS=Oryza ...  36.2    1.1  
+TR:I1P8B4_ORYGL  I1P8B4 Uncharacterized protein OS=Oryza glaberri...  36.2    1.1  
+TR:A0A221I0W0_9ROSA  A0A221I0W0 Lysm-containing receptor kinase 1...  35.8    1.4  
+TR:A0A0P0VTX5_ORYSJ  A0A0P0VTX5 Os03g0186500 protein (Fragment) O...  35.8    1.5  
+TR:B9F5K5_ORYSJ  B9F5K5 Uncharacterized protein OS=Oryza sativa s...  35.8    1.5  
+TR:B8APQ3_ORYSI  B8APQ3 Uncharacterized protein OS=Oryza sativa s...  35.8    1.5  
+TR:A0A0E0G2B5_ORYNI  A0A0E0G2B5 Uncharacterized protein OS=Oryza ...  35.8    1.5  
+TR:M0SAB7_MUSAM  M0SAB7 Uncharacterized protein OS=Musa acuminata...  35.4    1.7  
+TR:A0A078GFW4_BRANA  A0A078GFW4 BnaC03g16790D protein OS=Brassica...  35.4    1.8  
+TR:A0A0D3B469_BRAOL  A0A0D3B469 Uncharacterized protein OS=Brassi...  35.4    1.9  
+TR:B8AIV7_ORYSI  B8AIV7 Uncharacterized protein OS=Oryza sativa s...  35.4    1.9  
+TR:I1P4K0_ORYGL  I1P4K0 Uncharacterized protein OS=Oryza glaberri...  35.4    1.9  
+TR:Q6Z6F4_ORYSJ  Q6Z6F4 Os02g0763900 protein OS=Oryza sativa subs...  35.4    1.9  
+TR:A0A1Z5RQW5_SORBI  A0A1Z5RQW5 Uncharacterized protein OS=Sorghu...  35.4    1.9  
+TR:B9F347_ORYSJ  B9F347 Uncharacterized protein OS=Oryza sativa s...  35.4    1.9  
+TR:A0A0R4J4V8_SOYBN  A0A0R4J4V8 Uncharacterized protein OS=Glycin...  34.7    2.2  
+TR:A0A1J6I4G2_NICAT  A0A1J6I4G2 Uncharacterized protein OS=Nicoti...  34.3    2.2  
+TR:M1DHD1_SOLTU  M1DHD1 Uncharacterized protein OS=Solanum tubero...  34.7    2.5  
+TR:M4E1Y8_BRARP  M4E1Y8 Uncharacterized protein OS=Brassica rapa ...  35.0    2.5  
+TR:A0A194YKU7_SORBI  A0A194YKU7 Uncharacterized protein OS=Sorghu...  33.5    2.9  
+TR:V4M3G5_EUTSA  V4M3G5 Uncharacterized protein OS=Eutrema salsug...  34.7    3.2  
+TR:K4AJ93_SETIT  K4AJ93 Uncharacterized protein OS=Setaria italic...  34.7    3.4  
+TR:A0A176VD39_MARPO  A0A176VD39 Uncharacterized protein OS=Marcha...  34.3    4.1  
+TR:A0A150GZV0_GONPE  A0A150GZV0 Uncharacterized protein OS=Gonium...  34.3    4.1  
+TR:C7J390_ORYSJ  C7J390 Os06g0135300 protein OS=Oryza sativa subs...  32.7    4.2  
+TR:A0A1R3H3L3_9ROSI  A0A1R3H3L3 Protein NDR1-like protein OS=Corc...  34.3    4.5  
+TR:A0A287LNN0_HORVV  A0A287LNN0 Uncharacterized protein OS=Hordeu...  33.9    4.5  
+TR:A0A0E0J5T5_ORYNI  A0A0E0J5T5 Uncharacterized protein OS=Oryza ...  33.9    5.1  
+TR:A0A1D5S6F4_WHEAT  A0A1D5S6F4 Uncharacterized protein OS=Tritic...  33.9    5.2  
+TR:I1IMF6_BRADI  I1IMF6 Uncharacterized protein OS=Brachypodium d...  33.5    5.2  
+TR:A0A1S4DGW5_TOBAC  A0A1S4DGW5 nucleosome assembly protein 14-li...  33.9    5.6  
+SP:NAP1D_TOBAC  Q70Z16 Nucleosome assembly protein 1;4 OS=Nicotia...  33.9    5.6  
+TR:A0A1U7XBL9_NICSY  A0A1U7XBL9 nucleosome assembly protein 14 is...  33.9    5.6  
+TR:A0A1S4BBS1_TOBAC  A0A1S4BBS1 nucleosome assembly protein 14 is...  33.9    5.6  
+TR:A0A1S4DGJ6_TOBAC  A0A1S4DGJ6 nucleosome assembly protein 14-li...  33.9    5.7  
+TR:A0A1U7XKL6_NICSY  A0A1U7XKL6 nucleosome assembly protein 14 is...  33.9    5.7  
+TR:A0A1S4BBW7_TOBAC  A0A1S4BBW7 nucleosome assembly protein 14 is...  33.9    5.7  
+TR:A0A1S4DGY5_TOBAC  A0A1S4DGY5 nucleosome assembly protein 14-li...  33.9    5.7  
+TR:A0A1U7XJB9_NICSY  A0A1U7XJB9 nucleosome assembly protein 14 is...  33.9    5.7  
+TR:A0A1S4BBV9_TOBAC  A0A1S4BBV9 nucleosome assembly protein 14 is...  33.9    5.7  
+TR:A0A0E0RCN1_ORYRU  A0A0E0RCN1 Uncharacterized protein OS=Oryza ...  33.9    5.7  
+TR:A0A1E5UKK9_9POAL  A0A1E5UKK9 Uncharacterized protein OS=Dichan...  33.9    5.8  
+TR:A0A1J6L0C2_NICAT  A0A1J6L0C2 Nucleosome assembly protein 14 (F...  33.9    5.8  
+TR:B9GBE7_ORYSJ  B9GBE7 Uncharacterized protein OS=Oryza sativa s...  33.9    5.9  
+TR:A0A0E3Z420_ROSCH  A0A0E3Z420 Putative RAP2-1 protein OS=Rosa c...  33.9    5.9  
+TR:A0A1J3II33_NOCCA  A0A1J3II33 Uncharacterized protein (Fragment...  33.9    5.9  
+TR:A0A1J3CIM9_NOCCA  A0A1J3CIM9 Uncharacterized protein (Fragment...  33.9    5.9  
+TR:B8BNT0_ORYSI  B8BNT0 Uncharacterized protein OS=Oryza sativa s...  33.9    6.1  
+TR:Q2QYV1_ORYSJ  Q2QYV1 Os12g0105700 protein OS=Oryza sativa subs...  33.9    6.1  
+TR:A0A1J3EUC8_NOCCA  A0A1J3EUC8 Uncharacterized protein OS=Noccae...  33.9    6.2  
+TR:A0A1J3I279_NOCCA  A0A1J3I279 Uncharacterized protein OS=Noccae...  33.9    6.2  
+TR:M4E4J9_BRARP  M4E4J9 Uncharacterized protein OS=Brassica rapa ...  33.9    6.3  
+TR:A0A2T7ES46_9POAL  A0A2T7ES46 Uncharacterized protein OS=Panicu...  33.5    6.4  
+TR:W5B155_WHEAT  W5B155 Uncharacterized protein OS=Triticum aesti...  33.5    6.5  
+TR:A0A2T7DGJ0_9POAL  A0A2T7DGJ0 Uncharacterized protein OS=Panicu...  33.9    6.5  
+TR:A0A0E0RCM6_ORYRU  A0A0E0RCM6 Uncharacterized protein OS=Oryza ...  33.9    6.6  
+TR:C1MQQ1_MICPC  C1MQQ1 Predicted protein OS=Micromonas pusilla (...  33.9    6.6  
+TR:A0A0E0NQQ8_ORYRU  A0A0E0NQQ8 Uncharacterized protein OS=Oryza ...  33.9    6.8  
+TR:C1E9S4_MICCC  C1E9S4 Response regulator receiver/WD40 domain f...  33.9    6.8  
+TR:A0A0E0PLP5_ORYRU  A0A0E0PLP5 Uncharacterized protein OS=Oryza ...  33.1    7.3  
+TR:I1QY68_ORYGL  I1QY68 Uncharacterized protein OS=Oryza glaberri...  33.1    7.3  
+TR:Q53PR1_ORYSJ  Q53PR1 Uncharacterized protein OS=Oryza sativa s...  33.1    7.3  
+TR:B7EKD0_ORYSJ  B7EKD0 Os11g0106200 protein OS=Oryza sativa subs...  33.5    8.2  
+TR:B8BNT7_ORYSI  B8BNT7 Uncharacterized protein OS=Oryza sativa s...  33.5    8.2  
+TR:A0A0E0IWZ0_ORYNI  A0A0E0IWZ0 Uncharacterized protein OS=Oryza ...  33.5    8.2  
+TR:B7ECH1_ORYSJ  B7ECH1 Os11g0106200 protein OS=Oryza sativa subs...  33.5    8.2  
+TR:A0A0E0IWY9_ORYNI  A0A0E0IWY9 Uncharacterized protein OS=Oryza ...  33.5    8.3  
+TR:Q0IV82_ORYSJ  Q0IV82 Os11g0106200 protein (Fragment) OS=Oryza ...  33.5    8.3  
+TR:Q2RBM6_ORYSJ  Q2RBM6 Outer membrane protein, OMP85 family prot...  33.5    8.4  
+TR:B9G8Z3_ORYSJ  B9G8Z3 Uncharacterized protein OS=Oryza sativa s...  33.5    8.4  
+TR:A0A1E5V5R8_9POAL  A0A1E5V5R8 Uncharacterized protein OS=Dichan...  32.0    9.0  
+TR:A0A2K3DIR3_CHLRE  A0A2K3DIR3 Uncharacterized protein OS=Chlamy...  33.5    9.3  
+TR:A0A2K3DIQ5_CHLRE  A0A2K3DIQ5 Uncharacterized protein OS=Chlamy...  33.5    9.4  
+TR:A0A2K3DIR1_CHLRE  A0A2K3DIR1 Uncharacterized protein OS=Chlamy...  33.5    9.4  
+TR:A0A0E0LDJ3_ORYPU  A0A0E0LDJ3 Uncharacterized protein OS=Oryza ...  32.0    9.7  
+
+
+>TR:A0A194YSL1_SORBI A0A194YSL1 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3004G308400 PE=4 SV=1
+Length=606
+
+ Score = 216 bits (551),  Expect = 8e-66
+ Identities = 106/116 (91%), Positives = 110/116 (95%), Gaps = 2/116 (2%)
+
+Query  3    SNSHGSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGL  62
+            SNS+GSGGDEERLPLRGVLETQQR PGTPPP  VHHAAEQLKEARRGGSRLWRASVRAGL
+Sbjct  7    SNSYGSGGDEERLPLRGVLETQQRAPGTPPP--VHHAAEQLKEARRGGSRLWRASVRAGL  64
+
+Query  63   LLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            +LCLLTVPAVLLLLRWQAD+SPQWVFDFEAPEEDDDQDIQDD+ DDLSP PQI YD
+Sbjct  65   VLCLLTVPAVLLLLRWQADASPQWVFDFEAPEEDDDQDIQDDMSDDLSPSPQIAYD  120
+
+
+>TR:A0A2T7FCG8_9POAL A0A2T7FCG8 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G400400 PE=4 SV=1
+Length=602
+
+ Score = 187 bits (476),  Expect = 7e-55
+ Identities = 94/118 (80%), Positives = 100/118 (85%), Gaps = 8/118 (7%)
+
+Query  2    PSNSHGSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGS-RLWRASVRA  60
+            PS SHG GGDEERLPLRG LET++        PP HHAAEQL EARRGG  RLWRASVRA
+Sbjct  6    PSQSHGGGGDEERLPLRGGLETERA-------PPPHHAAEQLTEARRGGGGRLWRASVRA  58
+
+Query  61   GLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            GL+LCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDD+ DD+SP P I+YD
+Sbjct  59   GLVLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDMSDDISPSPYIEYD  116
+
+
+>TR:B4G118_MAIZE B4G118 Uncharacterized protein OS=Zea mays OX=4577 PE=2 SV=1
+Length=604
+
+ Score = 186 bits (472),  Expect = 3e-54
+ Identities = 96/119 (81%), Positives = 98/119 (82%), Gaps = 12/119 (10%)
+
+Query  2    PSNSHGSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLK--EARRGGSRLWRASVR  59
+            PSNSHG GGDEERLPLRGVLET           P HHAA Q K  EARRGGSRLWRASVR
+Sbjct  4    PSNSHGGGGDEERLPLRGVLETS----------PSHHAAVQAKDKEARRGGSRLWRASVR  53
+
+Query  60   AGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            AGLLLCLLTVPAVLLLL WQADSSPQWVFDFE PEEDDDQDIQDD+ DDLSP PQI+YD
+Sbjct  54   AGLLLCLLTVPAVLLLLWWQADSSPQWVFDFEPPEEDDDQDIQDDMSDDLSPSPQIEYD  112
+
+
+>TR:A0A1D6HL70_MAIZE A0A1D6HL70 Galactoside 2-alpha-L-fucosyltransferase OS=Zea mays 
+OX=4577 GN=ZEAMMB73_Zm00001d018155 PE=4 SV=1
+Length=606
+
+ Score = 186 bits (472),  Expect = 3e-54
+ Identities = 96/119 (81%), Positives = 98/119 (82%), Gaps = 12/119 (10%)
+
+Query  2    PSNSHGSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLK--EARRGGSRLWRASVR  59
+            PSNSHG GGDEERLPLRGVLET           P HHAA Q K  EARRGGSRLWRASVR
+Sbjct  6    PSNSHGGGGDEERLPLRGVLETS----------PSHHAAVQAKDKEARRGGSRLWRASVR  55
+
+Query  60   AGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            AGLLLCLLTVPAVLLLL WQADSSPQWVFDFE PEEDDDQDIQDD+ DDLSP PQI+YD
+Sbjct  56   AGLLLCLLTVPAVLLLLWWQADSSPQWVFDFEPPEEDDDQDIQDDMSDDLSPSPQIEYD  114
+
+
+>TR:A0A2S3GTR8_9POAL A0A2S3GTR8 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G409000 PE=4 SV=1
+Length=465
+
+ Score = 182 bits (463),  Expect = 5e-54
+ Identities = 94/120 (78%), Positives = 100/120 (83%), Gaps = 10/120 (8%)
+
+Query  2    PSNSHGSGG--DEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGS-RLWRASV  58
+            PS SHG GG  DEERLPLRG LET++        PP HHAAEQL EARRGG  RLWRASV
+Sbjct  6    PSQSHGGGGGGDEERLPLRGGLETERA-------PPPHHAAEQLTEARRGGGGRLWRASV  58
+
+Query  59   RAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            RAGL+LCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDD+ DD+SP P I+YD
+Sbjct  59   RAGLVLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDMSDDISPSPYIEYD  118
+
+
+>TR:A0A2S3GTI4_9POAL A0A2S3GTI4 Uncharacterized protein OS=Panicum hallii OX=206008 
+GN=PAHAL_1G409000 PE=4 SV=1
+Length=595
+
+ Score = 182 bits (463),  Expect = 5e-53
+ Identities = 94/120 (78%), Positives = 100/120 (83%), Gaps = 10/120 (8%)
+
+Query  2    PSNSHGSGG--DEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGS-RLWRASV  58
+            PS SHG GG  DEERLPLRG LET++        PP HHAAEQL EARRGG  RLWRASV
+Sbjct  6    PSQSHGGGGGGDEERLPLRGGLETERA-------PPPHHAAEQLTEARRGGGGRLWRASV  58
+
+Query  59   RAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            RAGL+LCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDD+ DD+SP P I+YD
+Sbjct  59   RAGLVLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDMSDDISPSPYIEYD  118
+
+
+>TR:K3YZ33_SETIT K3YZ33 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_019541mg 
+PE=4 SV=1
+Length=100
+
+ Score = 158 bits (399),  Expect = 1e-48
+ Identities = 81/98 (83%), Positives = 86/98 (88%), Gaps = 6/98 (6%)
+
+Query  2   PSNSHGS-GGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRA  60
+           PS+SHGS GGDEERLPLRG LET++     PPP   H AAEQLKEARRGGSR WRASVRA
+Sbjct  6   PSHSHGSSGGDEERLPLRGGLETER-----PPPGGHHAAAEQLKEARRGGSRFWRASVRA  60
+
+Query  61  GLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDD  98
+           GL+LCLL+VPAVLLLLRWQADSSPQWVFDFEAPEEDDD
+Sbjct  61  GLVLCLLSVPAVLLLLRWQADSSPQWVFDFEAPEEDDD  98
+
+
+>TR:A0A0D9YYK1_9ORYZ A0A0D9YYK1 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=1445
+
+ Score = 102 bits (255),  Expect = 1e-23
+ Identities = 60/123 (49%), Positives = 72/123 (59%), Gaps = 20/123 (16%)
+
+Query  3    SNSHGSGGDEERLPLRGVLETQQREP-----GTPPPPPVHHAAEQLKEARRGGSRLWRAS  57
+            S   G+ GDEERLPL    ET++  P       PPPPP            RG  R  RAS
+Sbjct  679  SGGGGADGDEERLPLHHGFETERAAPWAAAESKPPPPP------------RG--RFGRAS  724
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDY  117
+            VRA L +C L +PAVLLL RWQA SSP+W+F+ E P  D D+D+QDD+ DDL+    I Y
+Sbjct  725  VRAALAVCFLAIPAVLLLQRWQAGSSPEWLFEIE-PPADGDRDMQDDLPDDLTASQYIGY  783
+
+Query  118  DDF  120
+            D F
+Sbjct  784  DKF  786
+
+
+ Score = 41.2 bits (95),  Expect = 0.023
+ Identities = 31/58 (53%), Positives = 36/58 (62%), Gaps = 5/58 (9%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFD  89
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+
+Sbjct  604  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFE  658
+
+
+>TR:A0A0E0GDC5_ORYNI A0A0E0GDC5 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=1504
+
+ Score = 102 bits (255),  Expect = 1e-23
+ Identities = 60/123 (49%), Positives = 72/123 (59%), Gaps = 20/123 (16%)
+
+Query  3    SNSHGSGGDEERLPLRGVLETQQREP-----GTPPPPPVHHAAEQLKEARRGGSRLWRAS  57
+            S   G+ GDEERLPL    ET++  P       PPPPP            RG  R  RAS
+Sbjct  680  SGGGGADGDEERLPLHHGFETERAAPWAAAESKPPPPP------------RG--RFGRAS  725
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDY  117
+            VRA L +C L +PAVLLL RWQA SSP+W+F+ E P  D D+D+QDD+ DDL+    I Y
+Sbjct  726  VRAALAVCFLAIPAVLLLQRWQAGSSPEWLFEIE-PPADGDRDMQDDLPDDLTASQYIGY  784
+
+Query  118  DDF  120
+            D F
+Sbjct  785  DKF  787
+
+
+ Score = 41.2 bits (95),  Expect = 0.023
+ Identities = 31/58 (53%), Positives = 36/58 (62%), Gaps = 5/58 (9%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFD  89
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+
+Sbjct  605  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFE  659
+
+
+>TR:A0A0E0GDC3_ORYNI A0A0E0GDC3 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=1657
+
+ Score = 102 bits (255),  Expect = 1e-23
+ Identities = 60/123 (49%), Positives = 72/123 (59%), Gaps = 20/123 (16%)
+
+Query  3    SNSHGSGGDEERLPLRGVLETQQREP-----GTPPPPPVHHAAEQLKEARRGGSRLWRAS  57
+            S   G+ GDEERLPL    ET++  P       PPPPP            RG  R  RAS
+Sbjct  833  SGGGGADGDEERLPLHHGFETERAAPWAAAESKPPPPP------------RG--RFGRAS  878
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDY  117
+            VRA L +C L +PAVLLL RWQA SSP+W+F+ E P  D D+D+QDD+ DDL+    I Y
+Sbjct  879  VRAALAVCFLAIPAVLLLQRWQAGSSPEWLFEIE-PPADGDRDMQDDLPDDLTASQYIGY  937
+
+Query  118  DDF  120
+            D F
+Sbjct  938  DKF  940
+
+
+ Score = 41.2 bits (95),  Expect = 0.023
+ Identities = 31/58 (53%), Positives = 36/58 (62%), Gaps = 5/58 (9%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFD  89
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+
+Sbjct  758  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFE  812
+
+
+>TR:A0A0E0CRV8_9ORYZ A0A0E0CRV8 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=4 SV=1
+Length=1610
+
+ Score = 98.6 bits (244),  Expect = 3e-22
+ Identities = 57/114 (50%), Positives = 70/114 (61%), Gaps = 12/114 (11%)
+
+Query  7    GSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCL  66
+            G+ GDEERLPL    ET++  P          AA + K   RG  R  RASVRA L +C 
+Sbjct  714  GADGDEERLPLHHGFETERATPW---------AAAESKPPPRG--RFGRASVRAALAVCF  762
+
+Query  67   LTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            L +PAVLLL RWQA SSP+W+F+ E P  D D+D+QDD+ DDL+    I YD F
+Sbjct  763  LAIPAVLLLQRWQAGSSPEWLFEIE-PPADGDRDMQDDLPDDLTASQYIGYDKF  815
+
+
+ Score = 42.0 bits (97),  Expect = 0.013
+ Identities = 35/79 (44%), Positives = 42/79 (53%), Gaps = 12/79 (15%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSSPQW------  86
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS  W      
+Sbjct  552  PPAGPAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSS--WSDRVLE  606
+
+Query  87   VFDFEAPEEDDDQDIQDDV  105
+                    E DD+++Q DV
+Sbjct  607  AKHIAGAGEQDDKELQRDV  625
+
+
+>TR:A0A1D6ABC2_WHEAT A0A1D6ABC2 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=594
+
+ Score = 96.3 bits (238),  Expect = 2e-21
+ Identities = 68/124 (55%), Positives = 80/124 (65%), Gaps = 18/124 (15%)
+
+Query  2    PSNSHGS-GGDEERLPLRGV--LETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASV  58
+            PS   GS GG EE LPLRG   LET+ R P         HAA+Q +EA RG  R  R   
+Sbjct  5    PSGWRGSNGGHEESLPLRGGGGLETEARAPHP-------HAADQ-QEAGRGRHR--RNCA  54
+
+Query  59   RAGLLLCLLTVPAVLLLLRW--QADSSPQWVFDFEAPEEDDD--QDIQDDVFDDLSPLPQ  114
+            RA LLLCLLT+PA +L L W  +ADSS Q +FD + P++DDD  QDI+DD+ DDLSP  Q
+Sbjct  55   RAALLLCLLTLPACILAL-WNLRADSSSQMLFDVDLPKDDDDDGQDIRDDMPDDLSPSAQ  113
+
+Query  115  IDYD  118
+            IDYD
+Sbjct  114  IDYD  117
+
+
+>TR:A0A1D6ANQ6_WHEAT A0A1D6ANQ6 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=604
+
+ Score = 92.0 bits (227),  Expect = 5e-20
+ Identities = 64/123 (52%), Positives = 81/123 (66%), Gaps = 14/123 (11%)
+
+Query  2    PSNSHGS-GGDEERLPLRGV--LETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASV  58
+            PS+  GS GG E+RLPLRG   LET+ R P         HAA+Q +EA RG  R  R  V
+Sbjct  5    PSSWQGSNGGHEKRLPLRGGGRLETEARAPHAHA-----HAADQ-QEAGRGRHR--RNCV  56
+
+Query  59   RAGLLLCLLTVPAVLLLL-RWQADSSPQWVFDFE--APEEDDDQDIQDDVFDDLSPLPQI  115
+            RA L+LCLLT+PA +L++   QA+SS + +FD +     +DDDQDI+DD+ DDLSP  QI
+Sbjct  57   RAALVLCLLTLPACVLIVGNLQAESSSEMLFDVDDLPKYDDDDQDIRDDMPDDLSPSAQI  116
+
+Query  116  DYD  118
+            DYD
+Sbjct  117  DYD  119
+
+
+>TR:A0A2K2D5K7_BRADI A0A2K2D5K7 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g58040v3 PE=4 SV=1
+Length=540
+
+ Score = 86.7 bits (213),  Expect = 4e-18
+ Identities = 50/111 (45%), Positives = 61/111 (55%), Gaps = 20/111 (18%)
+
+Query  8    SGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLL  67
+            +GG E R+PLR  LE                     K+ RRGG     AS RA L +C L
+Sbjct  4    NGGGEGRVPLRQQLEAAP------------------KQTRRGGGGFVLASARASLGVCFL  45
+
+Query  68   TVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+             VPA+LLL RWQA   P W+FD   P E D +D++DD+ DDLSP  QI+YD
+Sbjct  46   LVPALLLLQRWQAGPVPVWIFD--TPPEGDGRDMKDDIADDLSPSAQIEYD  94
+
+
+>TR:A0A2K2D5L6_BRADI A0A2K2D5L6 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g58040v3 PE=4 SV=1
+Length=574
+
+ Score = 86.7 bits (213),  Expect = 4e-18
+ Identities = 50/111 (45%), Positives = 61/111 (55%), Gaps = 20/111 (18%)
+
+Query  8    SGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLL  67
+            +GG E R+PLR  LE                     K+ RRGG     AS RA L +C L
+Sbjct  4    NGGGEGRVPLRQQLEAAP------------------KQTRRGGGGFVLASARASLGVCFL  45
+
+Query  68   TVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+             VPA+LLL RWQA   P W+FD   P E D +D++DD+ DDLSP  QI+YD
+Sbjct  46   LVPALLLLQRWQAGPVPVWIFD--TPPEGDGRDMKDDIADDLSPSAQIEYD  94
+
+
+>TR:A0A1D6B6E8_WHEAT A0A1D6B6E8 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=611
+
+ Score = 85.5 bits (210),  Expect = 1e-17
+ Identities = 60/120 (50%), Positives = 77/120 (64%), Gaps = 14/120 (12%)
+
+Query  8    SGGDEERLPLRGV----LETQQREPGTPPPPPVH-HAAEQLKEARRGGSRLWRASVRAGL  62
+            +GG +ERLPLRG     LET+ R   T P    H HAA+Q +EA RG  R  R  VRA L
+Sbjct  12   NGGHKERLPLRGGGVGGLETEAR--ATHPHAHAHAHAADQ-QEAGRGRHR--RNCVRAAL  66
+
+Query  63   LLCLLTVPAVLLLL-RWQADSSPQWVFDFE---APEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            +LCLLT+PA +L++   + + S Q +FD +      +DDDQDI+DD+ DDLSP  QIDYD
+Sbjct  67   VLCLLTLPACVLVVGNLRTECSSQMLFDVDDDLPKYDDDDQDIRDDMPDDLSPSAQIDYD  126
+
+
+>TR:F2DFY5_HORVV F2DFY5 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=592
+
+ Score = 84.3 bits (207),  Expect = 3e-17
+ Identities = 62/126 (49%), Positives = 78/126 (62%), Gaps = 19/126 (15%)
+
+Query  2    PSNSHGSG-GDEERLPLR----GVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRA  56
+            P +  GS  G EERLPLR    G LET+ R P          AA+Q +EA RG  R  R 
+Sbjct  5    PGSWRGSNAGHEERLPLRSGGAGGLETETRAPHAD-------AADQQQEAGRGRHR--RN  55
+
+Query  57   SVRAGLLLCLLTVPAVLLLLRW--QADSSPQWVFDF-EAPEED-DDQDIQDDVFDDLSPL  112
+             VRA L+LCLLT+PA +L++ W  +A SS + +FD    P+ D DDQDI+DD+ D+LSP 
+Sbjct  56   CVRAALVLCLLTLPACMLVV-WNLRAGSSSRMLFDVGNLPKHDGDDQDIRDDMADELSPS  114
+
+Query  113  PQIDYD  118
+             QIDYD
+Sbjct  115  AQIDYD  120
+
+
+>TR:M7ZFT4_TRIUA M7ZFT4 Uncharacterized protein OS=Triticum urartu OX=4572 GN=TRIUR3_14603 
+PE=4 SV=1
+Length=171
+
+ Score = 71.6 bits (174),  Expect = 6e-14
+ Identities = 53/102 (52%), Positives = 63/102 (62%), Gaps = 16/102 (16%)
+
+Query  2   PSNSHGS-GGDEERLPLRGV--LETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASV  58
+           PS   GS GG EE LPLRG   LET+ R P         HAA+Q +EA RG  R  R   
+Sbjct  5   PSGWRGSNGGHEESLPLRGGGGLETEARAPHP-------HAADQ-QEAGRGRHR--RNCA  54
+
+Query  59  RAGLLLCLLTVPAVLLLLRW--QADSSPQWVFDFEAPEEDDD  98
+           RA LLLCLLT+PA +L L W  +ADSS Q +FD + P++DDD
+Sbjct  55  RAALLLCLLTLPACILAL-WNLRADSSSQMLFDVDLPKDDDD  95
+
+
+>TR:A0A2K2D5L5_BRADI A0A2K2D5L5 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g58040v3 PE=4 SV=1
+Length=572
+
+ Score = 73.9 bits (180),  Expect = 1e-13
+ Identities = 42/82 (51%), Positives = 56/82 (68%), Gaps = 3/82 (4%)
+
+Query  39   AAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDD-  97
+            AA   +EAR  G    R SVRA L+LCLLT+PA +LLL+W   ++   +FD + P+ DD 
+Sbjct  46   AAVGQQEARPPGM-FRRKSVRAALVLCLLTLPAGVLLLQWWRAANSPLLFDVDLPKMDDD  104
+
+Query  98   -DQDIQDDVFDDLSPLPQIDYD  118
+             DQD++DD+ DDLSP  QI+YD
+Sbjct  105  YDQDMKDDIADDLSPSAQIEYD  126
+
+
+>TR:A0A0Q3JTL5_BRADI A0A0Q3JTL5 Uncharacterized protein OS=Brachypodium distachyon 
+OX=15368 GN=BRADI_3g58040v3 PE=4 SV=1
+Length=606
+
+ Score = 73.9 bits (180),  Expect = 1e-13
+ Identities = 42/82 (51%), Positives = 56/82 (68%), Gaps = 3/82 (4%)
+
+Query  39   AAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDD-  97
+            AA   +EAR  G    R SVRA L+LCLLT+PA +LLL+W   ++   +FD + P+ DD 
+Sbjct  46   AAVGQQEARPPGM-FRRKSVRAALVLCLLTLPAGVLLLQWWRAANSPLLFDVDLPKMDDD  104
+
+Query  98   -DQDIQDDVFDDLSPLPQIDYD  118
+             DQD++DD+ DDLSP  QI+YD
+Sbjct  105  YDQDMKDDIADDLSPSAQIEYD  126
+
+
+>TR:A0A0D9VLE9_9ORYZ A0A0D9VLE9 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=1724
+
+ Score = 70.1 bits (170),  Expect = 3e-12
+ Identities = 39/73 (53%), Positives = 48/73 (66%), Gaps = 2/73 (3%)
+
+Query  50    GSRLWRASVRAGLLLCLLTV-PAVLLLLRWQADSS-PQWVFDFEAPEEDDDQDIQDDVFD  107
+             G ++ RASVRA L+LC LT+   VLLL RWQ  SS   W+F+ E   E  +QDIQDD+ D
+Sbjct  1175  GVKVRRASVRAALVLCFLTLFSTVLLLQRWQPTSSWTDWLFEAEHQAEAGEQDIQDDLLD  1234
+
+Query  108   DLSPLPQIDYDDF  120
+             DL+P   I YD F
+Sbjct  1235  DLTPSQYIGYDKF  1247
+
+
+>TR:A0A0D9VLE7_9ORYZ A0A0D9VLE7 Uncharacterized protein OS=Leersia perrieri OX=77586 
+PE=4 SV=1
+Length=1751
+
+ Score = 69.7 bits (169),  Expect = 4e-12
+ Identities = 43/101 (43%), Positives = 52/101 (51%), Gaps = 31/101 (31%)
+
+Query  50    GSRLWRASVRAGLLLCLLTV------------------------------PAVLLLLRWQ  79
+             G ++ RASVRA L+LC LT+                                VLLL RWQ
+Sbjct  1175  GVKVRRASVRAALVLCFLTLFSTVLLLQRWQPTSSWTDWLFEAEHQAEAGEQVLLLQRWQ  1234
+
+Query  80    ADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+             A SS +W+F+ E PE  DDQDIQDD+ DDL+P   I YD F
+Sbjct  1235  AGSSLEWLFEIEPPE-GDDQDIQDDLLDDLTPSQYIGYDKF  1274
+
+
+>TR:A0A1D6B6D1_WHEAT A0A1D6B6D1 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=568
+
+ Score = 65.1 bits (157),  Expect = 1e-10
+ Identities = 37/90 (41%), Positives = 50/90 (56%), Gaps = 5/90 (6%)
+
+Query  29   GTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVF  88
+            G  PP      A    +  RGG     A+ R  + +C L + AVLLL RWQA  +P+W+F
+Sbjct  7    GAAPPRRQRAGAGAKGKLPRGG-----AAQRFAMSVCFLLISAVLLLQRWQAGPAPEWLF  61
+
+Query  89   DFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+              +    +  +DI+DD+ DDLSP  QIDYD
+Sbjct  62   RGDLFLPEVSRDIRDDMPDDLSPSAQIDYD  91
+
+
+>TR:A0A0E0NLB9_ORYRU A0A0E0NLB9 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=1158
+
+ Score = 62.4 bits (150),  Expect = 1e-09
+ Identities = 48/116 (41%), Positives = 59/116 (51%), Gaps = 33/116 (28%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLR------W--------  78
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R      W        
+Sbjct  513  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  569
+
+Query  79   --------------QADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                           A SSP+W+F+ E P  D D+D+QDD+ DDL+    I YD F
+Sbjct  570  HIAGAGEQACIYPHYAGSSPEWLFEIE-PPADGDRDMQDDLPDDLTASQYIGYDKF  624
+
+
+>TR:A0A1D6ABC3_WHEAT A0A1D6ABC3 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=570
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 34/71 (48%), Positives = 45/71 (63%), Gaps = 5/71 (7%)
+
+Query  48   RGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFD  107
+            RGG     A+ R  L +C L +PAVLLL R QA  +P+W+F  +    +  +DI+DD+ D
+Sbjct  28   RGG-----AAQRFALSVCFLLIPAVLLLQRRQAGPAPEWLFRGDLFLPEVSRDIRDDMPD  82
+
+Query  108  DLSPLPQIDYD  118
+            DLSP  QIDYD
+Sbjct  83   DLSPSAQIDYD  93
+
+
+>TR:J3LHD9_ORYBR J3LHD9 Uncharacterized protein OS=Oryza brachyantha OX=4533 PE=4 
+SV=1
+Length=926
+
+ Score = 61.2 bits (147),  Expect = 3e-09
+ Identities = 42/90 (47%), Positives = 54/90 (60%), Gaps = 12/90 (13%)
+
+Query  32   PPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSSPQWVFDF  90
+            P  P   AAE   EARRG  RL RA+V A L LC LT +P+VLLL R ++ S P W+ + 
+Sbjct  371  PSSPAGRAAEH--EARRG--RLRRAAVLAALALCSLTLIPSVLLLHRRRSSSWPDWLLEH  426
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +       QDIQD++ +DL+P   I YD F
+Sbjct  427  K-------QDIQDNLPNDLTPSQYIGYDKF  449
+
+
+>TR:A0A0E0NLC0_ORYRU A0A0E0NLC0 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=1132
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 43/89 (48%), Positives = 53/89 (60%), Gaps = 5/89 (6%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+ +
+Sbjct  513  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  569
+
+Query  92   APEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                  +QD+QDD+ DDL+    I YD F
+Sbjct  570  HIAGAGEQDMQDDLPDDLTASQYIGYDKF  598
+
+
+>TR:A0A0D3FAV5_9ORYZ A0A0D3FAV5 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=1259
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 43/89 (48%), Positives = 53/89 (60%), Gaps = 5/89 (6%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+ +
+Sbjct  508  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  564
+
+Query  92   APEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                  +QD+QDD+ DDL+    I YD F
+Sbjct  565  HIAGAGEQDMQDDLPDDLTASQYIGYDKF  593
+
+
+>TR:A0A0D9YYK2_9ORYZ A0A0D9YYK2 Uncharacterized protein OS=Oryza glumipatula OX=40148 
+PE=4 SV=1
+Length=1348
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 43/89 (48%), Positives = 53/89 (60%), Gaps = 5/89 (6%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+ +
+Sbjct  604  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  660
+
+Query  92   APEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                  +QD+QDD+ DDL+    I YD F
+Sbjct  661  HIAGAGEQDMQDDLPDDLTASQYIGYDKF  689
+
+
+>TR:A0A0E0GDC4_ORYNI A0A0E0GDC4 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=1560
+
+ Score = 60.1 bits (144),  Expect = 8e-09
+ Identities = 43/89 (48%), Positives = 53/89 (60%), Gaps = 5/89 (6%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+ +
+Sbjct  758  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  814
+
+Query  92   APEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                  +QD+QDD+ DDL+    I YD F
+Sbjct  815  HIAGAGEQDMQDDLPDDLTASQYIGYDKF  843
+
+
+>TR:A0A1D6AT01_WHEAT A0A1D6AT01 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=565
+
+ Score = 57.8 bits (138),  Expect = 4e-08
+ Identities = 34/71 (48%), Positives = 44/71 (62%), Gaps = 5/71 (7%)
+
+Query  48   RGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFD  107
+            RGG     A+ R GL +  L +PAVLLL R QA  +P W+F  +    + + DI+DD+ D
+Sbjct  23   RGG-----AAQRFGLSVFFLLIPAVLLLQRRQAGPAPGWLFRADLFLPEVNPDIRDDMPD  77
+
+Query  108  DLSPLPQIDYD  118
+            DLSP  QIDYD
+Sbjct  78   DLSPSAQIDYD  88
+
+
+>TR:K3YWQ7_SETIT K3YWQ7 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_018703mg 
+PE=4 SV=1
+Length=126
+
+ Score = 53.9 bits (128),  Expect = 1e-07
+ Identities = 35/91 (38%), Positives = 49/91 (54%), Gaps = 17/91 (19%)
+
+Query  7   GSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCL  66
+           G GG +     RG LET+    G+        +A + K+ RR    +W A+    L+ C 
+Sbjct  6   GHGGRQPLEKQRG-LETKTAAAGS--------SAAEAKKPRR----VWPAA----LMACF  48
+
+Query  67  LTVPAVLLLLRWQADSSPQWVFDFEAPEEDD  97
+           L V AVLLL RW+ D+SP+W++  E P EDD
+Sbjct  49  LAVTAVLLLQRWRTDASPEWLYQVERPAEDD  79
+
+
+>TR:A0A0E0K5J8_ORYPU A0A0E0K5J8 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=1676
+
+ Score = 56.2 bits (134),  Expect = 2e-07
+ Identities = 42/90 (47%), Positives = 50/90 (56%), Gaps = 6/90 (7%)
+
+Query  34    PPVHHAAEQLKEARRGGSRLWRASVRAG--LLLCLLT-VPAVLLLLRWQADSSPQWVFDF  90
+             P    AAE   EA R G RL  ASVR G  L+LC LT +P V+LL R    S P WVF+ 
+Sbjct  1061  PQAGRAAEH--EASRWG-RLRGASVRGGGALVLCSLTMIPVVVLLHRCAVSSWPDWVFEA  1117
+
+Query  91    EAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+             +       QD+QDD+ DDL+    I YD F
+Sbjct  1118  KHIVGAGTQDMQDDLPDDLTASQYIGYDKF  1147
+
+
+>TR:A0A2T7FCG2_9POAL A0A2T7FCG2 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_1G400400 PE=4 SV=1
+Length=579
+
+ Score = 54.7 bits (130),  Expect = 5e-07
+ Identities = 35/82 (43%), Positives = 43/82 (52%), Gaps = 10/82 (12%)
+
+Query  47   RRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQ----WVFDFEAPE------ED  96
+            R     LW A+ RA L +C L V AV+LL RWQA +SP+          AP         
+Sbjct  12   RAAAEGLWPAAPRAALTVCFLGVLAVMLLQRWQAGASPEDGRGASLSPCAPALLIPVFVG  71
+
+Query  97   DDQDIQDDVFDDLSPLPQIDYD  118
+               DIQDD+ DD+SP P I+YD
+Sbjct  72   AHDDIQDDMSDDISPSPYIEYD  93
+
+
+>TR:A0A0E0CRV9_9ORYZ A0A0E0CRV9 Uncharacterized protein OS=Oryza meridionalis OX=40149 
+PE=4 SV=1
+Length=1432
+
+ Score = 53.9 bits (128),  Expect = 1e-06
+ Identities = 41/89 (46%), Positives = 51/89 (57%), Gaps = 5/89 (6%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS    V + +
+Sbjct  552  PPAGPAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWSDRVLEAK  608
+
+Query  92   APEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+                  +QD+QDD+ DDL+    I YD F
+Sbjct  609  HIAGAGEQDMQDDLPDDLTASQYIGYDKF  637
+
+
+>TR:A0A0E0NLB8_ORYRU A0A0E0NLB8 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=1205
+
+ Score = 45.4 bits (106),  Expect = 8e-04
+ Identities = 21/42 (50%), Positives = 29/42 (69%), Gaps = 1/42 (2%)
+
+Query  79   QADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +A SSP+W+F+ E P  D D+D+QDD+ DDL+    I YD F
+Sbjct  631  EAGSSPEWLFEIEPPA-DGDRDMQDDLPDDLTASQYIGYDKF  671
+
+
+ Score = 41.2 bits (95),  Expect = 0.023
+ Identities = 31/58 (53%), Positives = 36/58 (62%), Gaps = 5/58 (9%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFD  89
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+
+Sbjct  513  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFE  567
+
+
+>TR:A0A0D3FAV4_9ORYZ A0A0D3FAV4 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=1288
+
+ Score = 44.7 bits (104),  Expect = 0.002
+ Identities = 43/118 (36%), Positives = 53/118 (45%), Gaps = 34/118 (29%)
+
+Query  34   PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLT-VPAVLLLLRWQADSS-PQWVFDFE  91
+            PP   AAE   EARR G RL RAS RA L+LC LT +P V++L R    SS P  VF+ +
+Sbjct  508  PPAGRAAEN--EARRWG-RLRRASARAALVLCSLTMIPVVVVLHRCAVSSSWPDRVFEAK  564
+
+Query  92   APEEDDDQ-----------------------------DIQDDVFDDLSPLPQIDYDDF  120
+                  +Q                             D+QDD+ DDL+    I YD F
+Sbjct  565  HIAGAGEQVSVVQRTVTLSVKLFGVMFYCNDIPLSSSDMQDDLPDDLTASQYIGYDKF  622
+
+
+>TR:F2DM60_HORVV F2DM60 Predicted protein OS=Hordeum vulgare subsp. vulgare OX=112509 
+PE=2 SV=1
+Length=507
+
+ Score = 38.9 bits (89),  Expect = 0.12
+ Identities = 18/27 (67%), Positives = 22/27 (81%), Gaps = 1/27 (4%)
+
+Query  93   PEED-DDQDIQDDVFDDLSPLPQIDYD  118
+            P+ D DDQDI+DD+ D+LSP  QIDYD
+Sbjct  9    PKHDGDDQDIRDDMADELSPSAQIDYD  35
+
+
+>TR:A0A2I0L2L5_PUNGR A0A2I0L2L5 Uncharacterized protein OS=Punica granatum OX=22663 
+GN=CRG98_004726 PE=4 SV=1
+Length=291
+
+ Score = 37.0 bits (84),  Expect = 0.48
+ Identities = 25/70 (36%), Positives = 32/70 (46%), Gaps = 5/70 (7%)
+
+Query  28   PGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWV  87
+            P  PPPPP   AA     +R   +R+    V AG  L L   P +L+ L W+  S P   
+Sbjct  164  PSPPPPPP---AATSSPPSRINKTRIIAGGVAAGAAL-LFAAPTLLICL-WRRSSPPVHF  218
+
+Query  88   FDFEAPEEDD  97
+            FD    EE +
+Sbjct  219  FDIPGEEEPE  228
+
+
+>TR:A0A2P5AHA4_PARAD A0A2P5AHA4 LysM receptor kinase OS=Parasponia andersonii OX=3476 
+GN=PanLYK10 PE=4 SV=1
+Length=678
+
+ Score = 37.0 bits (84),  Expect = 0.59
+ Identities = 28/91 (31%), Positives = 40/91 (44%), Gaps = 7/91 (8%)
+
+Query  24   QQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSS  83
+            Q  EP +PPPPP   +        +  S  W     A LL+ LL   +  LL R      
+Sbjct  249  QPEEPPSPPPPPTPQSIP--ANNSKSSSNKWVLVGAAALLVLLLLALSAFLLRRRCRKPK  306
+
+Query  84   PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQ  114
+            PQ +     PE+++     + V +D SPLP+
+Sbjct  307  PQPLSTSSPPEKNN-----NIVSNDHSPLPE  332
+
+
+>TR:A0A221I0U7_PARRI A0A221I0U7 Lysm-containing receptor kinase 10 OS=Parasponia rigida 
+OX=3477 GN=LYK10 PE=4 SV=1
+Length=680
+
+ Score = 37.0 bits (84),  Expect = 0.59
+ Identities = 28/91 (31%), Positives = 40/91 (44%), Gaps = 7/91 (8%)
+
+Query  24   QQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSS  83
+            Q  EP +PPPPP   +        +  S  W     A LL+ LL   +  LL R      
+Sbjct  251  QPEEPPSPPPPPTPQSIP--ANNSKSSSNKWVLVGAAALLVLLLLALSAFLLRRRCRKPK  308
+
+Query  84   PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQ  114
+            PQ +     PE+++     + V +D SPLP+
+Sbjct  309  PQPLSTSSPPEKNN-----NIVSNDHSPLPE  334
+
+
+>TR:Q10QR8_ORYSJ Q10QR8 Expressed protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os03g0186500 PE=4 SV=1
+Length=1308
+
+ Score = 37.0 bits (84),  Expect = 0.63
+ Identities = 25/71 (35%), Positives = 32/71 (45%), Gaps = 10/71 (14%)
+
+Query  15  LPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLL  64
+           LP   +  T +  P  PPPPP  HA   +   RRG S    A+ +A           L+L
+Sbjct  8   LPWIPMATTVKSRPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVL  67
+
+Query  65  CLLTVPAVLLL  75
+           C L V AVL +
+Sbjct  68  CSLLVVAVLFV  78
+
+
+>TR:A0A221I0Y2_9ROSA A0A221I0Y2 LysM receptor kinase OS=Trema orientalis OX=63057 
+GN=LYK10 PE=4 SV=1
+Length=678
+
+ Score = 36.6 bits (83),  Expect = 0.79
+ Identities = 29/92 (32%), Positives = 41/92 (45%), Gaps = 8/92 (9%)
+
+Query  24   QQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQA-DS  82
+            Q  EP +PPPPP   +        +  S  W     A LL+ LL +     LLR +    
+Sbjct  247  QPEEPPSPPPPPAPQSVP--ANNSKSSSNKWVLVGAAALLVLLLLLALSAFLLRRRCRKP  304
+
+Query  83   SPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQ  114
+             PQ +     PE+++     + V DD SPLP+
+Sbjct  305  KPQPLSTSSPPEKNN-----NIVSDDHSPLPE  331
+
+
+>TR:M7Z6W9_TRIUA M7Z6W9 Galactoside 2-alpha-L-fucosyltransferase OS=Triticum urartu 
+OX=4572 GN=TRIUR3_14604 PE=4 SV=1
+Length=606
+
+ Score = 36.2 bits (82),  Expect = 1.0
+ Identities = 16/24 (67%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  95   EDDDQDIQDDVFDDLSPLPQIDYD  118
+            ED+  DI+DD+ DDLSP  QIDYD
+Sbjct  106  EDEKLDIRDDMPDDLSPSAQIDYD  129
+
+
+>TR:A0A0D3FER5_9ORYZ A0A0D3FER5 Uncharacterized protein OS=Oryza barthii OX=65489 
+PE=4 SV=1
+Length=1300
+
+ Score = 36.2 bits (82),  Expect = 1.1
+ Identities = 23/60 (38%), Positives = 28/60 (47%), Gaps = 10/60 (17%)
+
+Query  26  REPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAVLLL  75
+           R P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AVL +
+Sbjct  8   RPPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAVLFV  67
+
+
+>TR:I1P8B4_ORYGL I1P8B4 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=1312
+
+ Score = 36.2 bits (82),  Expect = 1.1
+ Identities = 23/60 (38%), Positives = 28/60 (47%), Gaps = 10/60 (17%)
+
+Query  26  REPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAVLLL  75
+           R P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AVL +
+Sbjct  20  RPPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAVLFV  79
+
+
+>TR:A0A221I0W0_9ROSA A0A221I0W0 Lysm-containing receptor kinase 10 OS=Parasponia rugosa 
+OX=1603294 GN=LYK10 PE=4 SV=1
+Length=680
+
+ Score = 35.8 bits (81),  Expect = 1.4
+ Identities = 28/91 (31%), Positives = 40/91 (44%), Gaps = 7/91 (8%)
+
+Query  24   QQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSS  83
+            Q  EP +PPPPP   +        +  S  W     A LL+ LL   +  LL R      
+Sbjct  251  QPEEPPSPPPPPTPQSIP--ANNSKSSSNKWVLVGAAALLVLLLLALSAFLLRRRCRKPK  308
+
+Query  84   PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQ  114
+            PQ +     PE+++     + V +D SPLP+
+Sbjct  309  PQPLSTSFPPEKNN-----NIVSNDHSPLPE  334
+
+
+>TR:A0A0P0VTX5_ORYSJ A0A0P0VTX5 Os03g0186500 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os03g0186500 PE=4 SV=1
+Length=1032
+
+ Score = 35.8 bits (81),  Expect = 1.5
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 10/63 (16%)
+
+Query  23  TQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAV  72
+           T +  P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AV
+Sbjct  4   TVKSRPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAV  63
+
+Query  73  LLL  75
+           L +
+Sbjct  64  LFV  66
+
+
+>TR:B9F5K5_ORYSJ B9F5K5 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_09697 PE=4 SV=1
+Length=1296
+
+ Score = 35.8 bits (81),  Expect = 1.5
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 10/63 (16%)
+
+Query  23  TQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAV  72
+           T +  P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AV
+Sbjct  4   TVKSRPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAV  63
+
+Query  73  LLL  75
+           L +
+Sbjct  64  LFV  66
+
+
+>TR:B8APQ3_ORYSI B8APQ3 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_10299 PE=4 SV=1
+Length=1297
+
+ Score = 35.8 bits (81),  Expect = 1.5
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 10/63 (16%)
+
+Query  23  TQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAV  72
+           T +  P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AV
+Sbjct  4   TVKSRPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAV  63
+
+Query  73  LLL  75
+           L +
+Sbjct  64  LFV  66
+
+
+>TR:A0A0E0G2B5_ORYNI A0A0E0G2B5 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=1297
+
+ Score = 35.8 bits (81),  Expect = 1.5
+ Identities = 23/63 (37%), Positives = 29/63 (46%), Gaps = 10/63 (16%)
+
+Query  23  TQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLLCLLTVPAV  72
+           T +  P  PPPPP  HA   +   RRG S    A+ +A           L+LC L V AV
+Sbjct  4   TVKSRPPPPPPPPPPHALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVLCSLLVVAV  63
+
+Query  73  LLL  75
+           L +
+Sbjct  64  LFV  66
+
+
+>TR:M0SAB7_MUSAM M0SAB7 Uncharacterized protein OS=Musa acuminata subsp. malaccensis 
+OX=214687 GN=103976655 PE=4 SV=1
+Length=351
+
+ Score = 35.4 bits (80),  Expect = 1.7
+ Identities = 28/92 (30%), Positives = 36/92 (39%), Gaps = 21/92 (23%)
+
+Query  31   PPPPPVHHAAEQLKEAR-----RGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQ  85
+            PPPPP    A  +KEA      RG   L R                 L   + Q +  P 
+Sbjct  93   PPPPPPKQVANPMKEANTKIEGRGKQGLLRG----------------LKAFKHQHNKLPS  136
+
+Query  86   WVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDY  117
+               D E  ++DDD DI DD  +D   L  +D+
+Sbjct  137  SSSDEEDYDDDDDDDIDDDEDEDDDDLQILDH  168
+
+
+>TR:A0A078GFW4_BRANA A0A078GFW4 BnaC03g16790D protein OS=Brassica napus OX=3708 GN=BnaC03g16790D 
+PE=4 SV=1
+Length=496
+
+ Score = 35.4 bits (80),  Expect = 1.8
+ Identities = 22/75 (29%), Positives = 40/75 (53%), Gaps = 5/75 (7%)
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQ----ADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLP  113
+            V  G++L LL   A+   +R +       S Q V+DFEAP E+D+++ +++ FDD   + 
+Sbjct  218  VLVGIVLFLLAPLAIPFGVRLEEVMTCRRSQQKVYDFEAPFEEDEKE-EEEEFDDEKAII  276
+
+Query  114  QIDYDDFWVAFWLRV  128
+             +  +  W   W ++
+Sbjct  277  GVKEEVEWTKLWKKL  291
+
+
+>TR:A0A0D3B469_BRAOL A0A0D3B469 Uncharacterized protein OS=Brassica oleracea var. 
+oleracea OX=109376 GN=106332777 PE=4 SV=1
+Length=514
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 22/75 (29%), Positives = 40/75 (53%), Gaps = 5/75 (7%)
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQ----ADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLP  113
+            V  G++L LL   A+   +R +       S Q V+DFEAP E+D+++ +++ FDD   + 
+Sbjct  236  VLVGIVLFLLAPLAIPFGVRLEEVMTCRRSQQKVYDFEAPFEEDEKE-EEEEFDDEKAII  294
+
+Query  114  QIDYDDFWVAFWLRV  128
+             +  +  W   W ++
+Sbjct  295  GVKEEVEWTKLWKKL  309
+
+
+>TR:B8AIV7_ORYSI B8AIV7 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_09046 PE=4 SV=1
+Length=533
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 21/53 (40%), Positives = 30/53 (57%), Gaps = 1/53 (2%)
+
+Query  69   VPAVLLLLRWQADSS-PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +P V++L R    SS P  VF+ +      +QD+QDD+ DDL+    I YD F
+Sbjct  2    IPVVVVLHRCAVSSSWPDRVFEAKHIAGAGEQDMQDDLPDDLTASQYIGYDKF  54
+
+
+>TR:I1P4K0_ORYGL I1P4K0 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=533
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 21/53 (40%), Positives = 30/53 (57%), Gaps = 1/53 (2%)
+
+Query  69   VPAVLLLLRWQADSS-PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +P V++L R    SS P  VF+ +      +QD+QDD+ DDL+    I YD F
+Sbjct  2    IPVVVVLHRCAVSSSWPDRVFEAKHIAGAGEQDMQDDLPDDLTASQYIGYDKF  54
+
+
+>TR:Q6Z6F4_ORYSJ Q6Z6F4 Os02g0763900 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os02g0763900 PE=4 SV=1
+Length=533
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 21/53 (40%), Positives = 30/53 (57%), Gaps = 1/53 (2%)
+
+Query  69   VPAVLLLLRWQADSS-PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +P V++L R    SS P  VF+ +      +QD+QDD+ DDL+    I YD F
+Sbjct  2    IPVVVVLHRCAVSSSWPDRVFEAKHIAGAGEQDMQDDLPDDLTASQYIGYDKF  54
+
+
+>TR:A0A1Z5RQW5_SORBI A0A1Z5RQW5 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3004G308400 PE=4 SV=1
+Length=558
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 26/71 (37%), Positives = 33/71 (46%), Gaps = 7/71 (10%)
+
+Query  52   RLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFEAPEED----DDQDIQDDVFD  107
+            R W   V   L+LCLL         R+ + S  + +   +    D       DIQDD+ D
+Sbjct  5    RWWLVRV---LVLCLLCGACAAAKQRYLSVSMDEELLRSKQAHLDCPPWKKSDIQDDMSD  61
+
+Query  108  DLSPLPQIDYD  118
+            DLSP PQI YD
+Sbjct  62   DLSPSPQIAYD  72
+
+
+>TR:B9F347_ORYSJ B9F347 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_08490 PE=4 SV=1
+Length=709
+
+ Score = 35.4 bits (80),  Expect = 1.9
+ Identities = 21/53 (40%), Positives = 30/53 (57%), Gaps = 1/53 (2%)
+
+Query  69   VPAVLLLLRWQADSS-PQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            +P V++L R    SS P  VF+ +      +QD+QDD+ DDL+    I YD F
+Sbjct  2    IPVVVVLHRCAVSSSWPDRVFEAKHIAGAGEQDMQDDLPDDLTASQYIGYDKF  54
+
+
+>TR:A0A0R4J4V8_SOYBN A0A0R4J4V8 Uncharacterized protein OS=Glycine max OX=3847 GN=100790091 
+PE=4 SV=1
+Length=180
+
+ Score = 34.7 bits (78),  Expect = 2.2
+ Identities = 21/82 (26%), Positives = 38/82 (46%), Gaps = 6/82 (7%)
+
+Query  23   TQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADS  82
+            T Q + G P P     +   LK+A R  +  WR  +    L   + +P    +L+     
+Sbjct  51   TDQSKKGLPSPG----SRSVLKKASRNNNNGWRGRITPASLP--VNIPDWSKILKEDYKE  104
+
+Query  83   SPQWVFDFEAPEEDDDQDIQDD  104
+             P+W  + E  EE++D +++D+
+Sbjct  105  HPKWESEEEEEEEEEDNNVRDE  126
+
+
+>TR:A0A1J6I4G2_NICAT A0A1J6I4G2 Uncharacterized protein OS=Nicotiana attenuata OX=49451 
+GN=A4A49_04058 PE=4 SV=1
+Length=139
+
+ Score = 34.3 bits (77),  Expect = 2.2
+ Identities = 18/43 (42%), Positives = 23/43 (53%), Gaps = 2/43 (5%)
+
+Query  31  PPPPPVHHAAEQLKEARRGGSRLWRASV--RAGLLLCLLTVPA  71
+           PPPPP+H    +L  + RG   +WRA +    GL   L T PA
+Sbjct  3   PPPPPLHTQTTELPTSWRGAKFIWRAVLIFNLGLGAYLFTRPA  45
+
+
+>TR:M1DHD1_SOLTU M1DHD1 Uncharacterized protein OS=Solanum tuberosum OX=4113 PE=4 
+SV=1
+Length=211
+
+ Score = 34.7 bits (78),  Expect = 2.5
+ Identities = 19/54 (35%), Positives = 28/54 (52%), Gaps = 2/54 (4%)
+
+Query  74   LLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDFWVAFWLR  127
+            L LR    SS Q  FDF   E D+D    DDVFD+ + + +++  +    FW +
+Sbjct  94   LELRNNVGSSNQ--FDFHQDESDEDNFFSDDVFDEYTNIKEMNNKEQKKCFWFK  145
+
+
+>TR:M4E1Y8_BRARP M4E1Y8 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=4 SV=1
+Length=514
+
+ Score = 35.0 bits (79),  Expect = 2.5
+ Identities = 21/75 (28%), Positives = 40/75 (53%), Gaps = 5/75 (7%)
+
+Query  58   VRAGLLLCLLTVPAVLLLLRWQ----ADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLP  113
+            V  G++L LL   A+   +R +       S Q V+DFE+P E+D++  +++ FDD   + 
+Sbjct  236  VLVGIVLFLLAPLAIPFGVRLEEVMTCRRSQQKVYDFESPFEEDEKK-EEEEFDDEKAIV  294
+
+Query  114  QIDYDDFWVAFWLRV  128
+             +  +  W   W+++
+Sbjct  295  GVKEEVEWTKLWMKL  309
+
+
+>TR:A0A194YKU7_SORBI A0A194YKU7 Uncharacterized protein OS=Sorghum bicolor OX=4558 
+GN=SORBI_3010G225500 PE=4 SV=1
+Length=110
+
+ Score = 33.5 bits (75),  Expect = 2.9
+ Identities = 24/72 (33%), Positives = 33/72 (46%), Gaps = 7/72 (10%)
+
+Query  24  QQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGL-LLCLLTVPAVLLLLRWQA--  80
+           +++ P  PPPPP     E     RRG  R  R  VR  L  L +LT+ A   L+  +A  
+Sbjct  20  EEKAPAPPPPPPPPILGELNGGHRRGQRRPLRRRVRVSLRALAILTMAAAACLVVAEALL  79
+
+Query  81  ----DSSPQWVF  88
+                S+  W+F
+Sbjct  80  AVPPPSAAPWIF  91
+
+
+>TR:V4M3G5_EUTSA V4M3G5 Uncharacterized protein OS=Eutrema salsugineum OX=72664 
+GN=EUTSA_v10020810mg PE=4 SV=1
+Length=419
+
+ Score = 34.7 bits (78),  Expect = 3.2
+ Identities = 15/26 (58%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  88   FDFEAPEEDDDQDIQDDVFDDLSPLP  113
+            FD E  E DDD + +DD FDDL P P
+Sbjct  183  FDDEFSEYDDDDEFEDDEFDDLPPPP  208
+
+
+>TR:K4AJ93_SETIT K4AJ93 Uncharacterized protein OS=Setaria italica OX=4555 GN=SETIT_038958mg 
+PE=4 SV=1
+Length=526
+
+ Score = 34.7 bits (78),  Expect = 3.4
+ Identities = 18/72 (25%), Positives = 36/72 (50%), Gaps = 3/72 (4%)
+
+Query  65   CLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDDFWVAF  124
+            CL+ V  V++L   Q +   +   +++   +DDD+D  DD  + L+ LP +    +   +
+Sbjct  351  CLIQVVKVIILKLIQEEEDDEDDLNYDPAHDDDDEDDDDDYMNGLAQLPPLPPGTY---Y  407
+
+Query  125  WLRVLMRNHVQA  136
+            W  + M + + A
+Sbjct  408  WNGITMVDRIGA  419
+
+
+>TR:A0A176VD39_MARPO A0A176VD39 Uncharacterized protein OS=Marchantia polymorpha subsp. 
+ruderalis OX=1480154 GN=AXG93_2396s1360 PE=4 SV=1
+Length=328
+
+ Score = 34.3 bits (77),  Expect = 4.1
+ Identities = 39/142 (27%), Positives = 53/142 (37%), Gaps = 35/142 (25%)
+
+Query  5    SHGSGGDEERLPLRGVLETQQREPG--------TPPPPPVHH-------AAEQLKEAR-R  48
+            S GS   +ER    G  +T   EP         +PPPPP HH         + L   R  
+Sbjct  23   SRGSLNIKERAD--GTAKTSAFEPSIKLTSSSTSPPPPPPHHPRFYRSDPPDWLVRVRVP  80
+
+Query  49   GGSRLWRASVRAGLLLCLLTVPAVLLLLRWQADSSPQWVFDFE-----------------  91
+            G  R+      + LLL LL   +VL+     A+     + DF+                 
+Sbjct  81   GEGRICAMKAVSKLLLLLLAATSVLVATTVLAEGIEYGLEDFDDGVDVEESGRSSSRSLL  140
+
+Query  92   APEEDDDQDIQDDVFDDLSPLP  113
+            + ++DDD D  DD     SP P
+Sbjct  141  SDDDDDDDDDDDDRSPSRSPPP  162
+
+
+>TR:A0A150GZV0_GONPE A0A150GZV0 Uncharacterized protein OS=Gonium pectorale OX=33097 
+GN=GPECTOR_3g476 PE=4 SV=1
+Length=349
+
+ Score = 34.3 bits (77),  Expect = 4.1
+ Identities = 14/30 (47%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  24   QQREPGTPPPPPVHHAAEQLKEARRGGSRL  53
+            QQ++P TPPP P H  A Q  +AR    R+
+Sbjct  129  QQQQPQTPPPQPAHQPAHQPAQARGSARRM  158
+
+
+>TR:C7J390_ORYSJ C7J390 Os06g0135300 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os06g0135300 PE=4 SV=1
+Length=91
+
+ Score = 32.7 bits (73),  Expect = 4.2
+ Identities = 14/33 (42%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  18  RGVLETQQREPGTPPPPPVHHAAEQLKEARRGG  50
+           RG     +R  G P  PP HH A +L++ R GG
+Sbjct  35  RGACAAGRRWCGAPRTPPCHHGAARLEQRRHGG  67
+
+
+>TR:A0A1R3H3L3_9ROSI A0A1R3H3L3 Protein NDR1-like protein OS=Corchorus olitorius OX=93759 
+GN=COLO4_31720 PE=4 SV=1
+Length=473
+
+ Score = 34.3 bits (77),  Expect = 4.5
+ Identities = 21/75 (28%), Positives = 30/75 (40%), Gaps = 7/75 (9%)
+
+Query  11  DEERLPLRGVLETQQ--REPGTPPPPPV-----HHAAEQLKEARRGGSRLWRASVRAGLL  63
+           + +RLP+R   +  Q   +PG PPPPP      HH A       R         +   + 
+Sbjct  3   NNDRLPIRYTQQEHQPQTQPGPPPPPPQQPLKRHHTARYYAHRVRESFTTRVTKILCAVF  62
+
+Query  64  LCLLTVPAVLLLLRW  78
+           L LL V  +   + W
+Sbjct  63  LSLLLVVGIAFFILW  77
+
+
+>TR:A0A287LNN0_HORVV A0A287LNN0 Uncharacterized protein OS=Hordeum vulgare subsp. 
+vulgare OX=112509 PE=4 SV=1
+Length=213
+
+ Score = 33.9 bits (76),  Expect = 4.5
+ Identities = 20/49 (41%), Positives = 23/49 (47%), Gaps = 3/49 (6%)
+
+Query  16   PLRGVLETQQREPGTPPPPPVHHAAEQLKE---ARRGGSRLWRASVRAG  61
+            P R  L      P  P PPP HH  EQ+++   ARRG  R   A  R G
+Sbjct  162  PARQALGLPPHLPRHPAPPPAHHRLEQVRQRQAARRGRRRRLYAPRRRG  210
+
+
+>TR:A0A0E0J5T5_ORYNI A0A0E0J5T5 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=269
+
+ Score = 33.9 bits (76),  Expect = 5.1
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  41
+
+
+>TR:A0A1D5S6F4_WHEAT A0A1D5S6F4 Uncharacterized protein OS=Triticum aestivum OX=4565 
+PE=4 SV=1
+Length=286
+
+ Score = 33.9 bits (76),  Expect = 5.2
+ Identities = 31/108 (29%), Positives = 48/108 (44%), Gaps = 12/108 (11%)
+
+Query  64   LCLLTVPAVLLLLRWQADSSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDY--DDFW  121
+            +C +  P    L +    SSP+ + D     E DD D  DDV  +L+P+P++D   D   
+Sbjct  49   MCFVNNPQSQFLGQPSTCSSPE-IIDLS---EMDDMDETDDVPMELAPIPELDVLTDMDQ  104
+
+Query  122  VAFWLRVLMRNHVQAGISLHAITIHQAYLFH------PHREGKETRSI  163
+            +     +L R +V   + L    IH A   H      P R G+E  ++
+Sbjct  105  IVDVPILLPRKNVTLALDLDGTLIHSARCKHGADFSFPMRRGEEEYTV  152
+
+
+>TR:I1IMF6_BRADI I1IMF6 Uncharacterized protein OS=Brachypodium distachyon OX=15368 
+GN=BRADI_4g21900v3 PE=4 SV=1
+Length=174
+
+ Score = 33.5 bits (75),  Expect = 5.2
+ Identities = 32/99 (32%), Positives = 44/99 (44%), Gaps = 13/99 (13%)
+
+Query  23   TQQREPGTPPPP-----PVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLR  77
+            T++R  G PPPP      +   A     A   GSR+ RA  R G+     TV     +  
+Sbjct  69   TRRRGQGIPPPPRRGRQDLTDQAVASGSAVASGSRISRAGAR-GVAASGTTVEDEEEV--  125
+
+Query  78   WQADSSPQWVFDFEAPEE----DDDQDIQDDVFDDLSPL  112
+               DS  +   ++E  EE    D+D+D+ DDV  D  PL
+Sbjct  126  -PEDSMDEQNKEYEPAEENISMDEDEDLSDDVMSDDDPL  163
+
+
+>TR:A0A1S4DGW5_TOBAC A0A1S4DGW5 nucleosome assembly protein 14-like isoform X3 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107829668 PE=3 SV=1
+Length=355
+
+ Score = 33.9 bits (76),  Expect = 5.6
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>SP:NAP1D_TOBAC Q70Z16 Nucleosome assembly protein 1;4 OS=Nicotiana tabacum OX=4097 
+GN=NAP1;4 PE=1 SV=1
+Length=356
+
+ Score = 33.9 bits (76),  Expect = 5.6
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1U7XBL9_NICSY A0A1U7XBL9 nucleosome assembly protein 14 isoform X3 OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104235059 PE=3 SV=1
+Length=356
+
+ Score = 33.9 bits (76),  Expect = 5.6
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1S4BBS1_TOBAC A0A1S4BBS1 nucleosome assembly protein 14 isoform X3 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107806625 PE=3 SV=1
+Length=356
+
+ Score = 33.9 bits (76),  Expect = 5.6
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1S4DGJ6_TOBAC A0A1S4DGJ6 nucleosome assembly protein 14-like isoform X2 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107829668 PE=3 SV=1
+Length=370
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1U7XKL6_NICSY A0A1U7XKL6 nucleosome assembly protein 14 isoform X2 OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104235059 PE=3 SV=1
+Length=371
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1S4BBW7_TOBAC A0A1S4BBW7 nucleosome assembly protein 14 isoform X2 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107806625 PE=3 SV=1
+Length=371
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1S4DGY5_TOBAC A0A1S4DGY5 nucleosome assembly protein 14-like isoform X1 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107829668 PE=3 SV=1
+Length=375
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1U7XJB9_NICSY A0A1U7XJB9 nucleosome assembly protein 14 isoform X1 OS=Nicotiana 
+sylvestris OX=4096 GN=LOC104235059 PE=3 SV=1
+Length=376
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A1S4BBV9_TOBAC A0A1S4BBV9 nucleosome assembly protein 14 isoform X1 OS=Nicotiana 
+tabacum OX=4097 GN=LOC107806625 PE=3 SV=1
+Length=376
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  260  QVPEDDDDDDIDEDAAEELQNLMEQDYD  287
+
+
+>TR:A0A0E0RCN1_ORYRU A0A0E0RCN1 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=388
+
+ Score = 33.9 bits (76),  Expect = 5.7
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  41
+
+
+>TR:A0A1E5UKK9_9POAL A0A1E5UKK9 Uncharacterized protein OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0025583 PE=4 SV=1
+Length=394
+
+ Score = 33.9 bits (76),  Expect = 5.8
+ Identities = 28/80 (35%), Positives = 37/80 (46%), Gaps = 7/80 (9%)
+
+Query  28   PGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVL----LLLRWQADSS  83
+            PG PPP P +H A     A  GG+    A++ A L   LL+ PA      L  R QA  S
+Sbjct  26   PGPPPPTPSNHHAGPSSAAAAGGT---DAALSAFLHRLLLSSPAPQLRSPLAARSQASPS  82
+
+Query  84   PQWVFDFEAPEEDDDQDIQD  103
+               +   EAP++   +D  D
+Sbjct  83   LPPLVSLEAPDQGALRDAAD  102
+
+
+>TR:A0A1J6L0C2_NICAT A0A1J6L0C2 Nucleosome assembly protein 14 (Fragment) OS=Nicotiana 
+attenuata OX=49451 GN=NAP1;4_1 PE=3 SV=1
+Length=405
+
+ Score = 33.9 bits (76),  Expect = 5.8
+ Identities = 13/28 (46%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  91   EAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            + PE+DDD DI +D  ++L  L + DYD
+Sbjct  297  QVPEDDDDDDIDEDAAEELQNLMEQDYD  324
+
+
+>TR:B9GBE7_ORYSJ B9GBE7 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_34928 PE=4 SV=1
+Length=437
+
+ Score = 33.9 bits (76),  Expect = 5.9
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  41
+
+
+>TR:A0A0E3Z420_ROSCH A0A0E3Z420 Putative RAP2-1 protein OS=Rosa chinensis OX=74649 
+PE=2 SV=1
+Length=445
+
+ Score = 33.9 bits (76),  Expect = 5.9
+ Identities = 16/35 (46%), Positives = 22/35 (63%), Gaps = 3/35 (9%)
+
+Query  15   LPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRG  49
+            + L G  E QQ++P  PPPPP      Q+K++RRG
+Sbjct  81   IELGGPAEVQQKQPQPPPPPP---QQPQVKKSRRG  112
+
+
+>TR:A0A1J3II33_NOCCA A0A1J3II33 Uncharacterized protein (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=MP_TR21332_c0_g1_i1_g.60293 PE=4 SV=1
+Length=448
+
+ Score = 33.9 bits (76),  Expect = 5.9
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  90   FEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            F+ P++DDD+D  DD FDD     + D D+F
+Sbjct  79   FDVPDDDDDEDFSDDEFDD-----EFDDDEF  104
+
+
+>TR:A0A1J3CIM9_NOCCA A0A1J3CIM9 Uncharacterized protein (Fragment) OS=Noccaea caerulescens 
+OX=107243 GN=GA_TR20210_c0_g1_i1_g.67500 PE=4 SV=1
+Length=453
+
+ Score = 33.9 bits (76),  Expect = 5.9
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  90   FEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            F+ P++DDD+D  DD FDD     + D D+F
+Sbjct  84   FDVPDDDDDEDFSDDEFDD-----EFDDDEF  109
+
+
+>TR:B8BNT0_ORYSI B8BNT0 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_37146 PE=4 SV=1
+Length=521
+
+ Score = 33.9 bits (76),  Expect = 6.1
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  41
+
+
+>TR:Q2QYV1_ORYSJ Q2QYV1 Os12g0105700 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os12g0105700 PE=2 SV=1
+Length=521
+
+ Score = 33.9 bits (76),  Expect = 6.1
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  41
+
+
+>TR:A0A1J3EUC8_NOCCA A0A1J3EUC8 Uncharacterized protein OS=Noccaea caerulescens OX=107243 
+GN=LC_TR8108_c0_g1_i1_g.28430 PE=4 SV=1
+Length=570
+
+ Score = 33.9 bits (76),  Expect = 6.2
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  90   FEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            F+ P++DDD+D  DD FDD     + D D+F
+Sbjct  201  FDVPDDDDDEDFSDDEFDD-----EFDDDEF  226
+
+
+>TR:A0A1J3I279_NOCCA A0A1J3I279 Uncharacterized protein OS=Noccaea caerulescens OX=107243 
+GN=LE_TR17227_c11_g1_i1_g.55545 PE=4 SV=1
+Length=574
+
+ Score = 33.9 bits (76),  Expect = 6.2
+ Identities = 14/31 (45%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  90   FEAPEEDDDQDIQDDVFDDLSPLPQIDYDDF  120
+            F+ P++DDD+D  DD FDD     + D D+F
+Sbjct  205  FDVPDDDDDEDFSDDEFDD-----EFDDDEF  230
+
+
+>TR:M4E4J9_BRARP M4E4J9 Uncharacterized protein OS=Brassica rapa subsp. pekinensis 
+OX=51351 PE=4 SV=1
+Length=601
+
+ Score = 33.9 bits (76),  Expect = 6.3
+ Identities = 15/30 (50%), Positives = 18/30 (60%), Gaps = 4/30 (13%)
+
+Query  90   FEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            F+ PE+DDD D  DD FDD     + D DD
+Sbjct  232  FDVPEDDDDDDFSDDEFDD----DEFDEDD  257
+
+
+>TR:A0A2T7ES46_9POAL A0A2T7ES46 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_2G250500 PE=4 SV=1
+Length=230
+
+ Score = 33.5 bits (75),  Expect = 6.4
+ Identities = 18/47 (38%), Positives = 22/47 (47%), Gaps = 6/47 (13%)
+
+Query  18   RGVLETQQREPGTPPPPPVHHAAEQLKEARR------GGSRLWRASV  58
+            RG+   QQR    PPP PV H   + +  +R      GG   W ASV
+Sbjct  71   RGLRARQQRAAPVPPPEPVRHGRRRRRGVKRQKMYGGGGGCCWYASV  117
+
+
+>TR:W5B155_WHEAT W5B155 Uncharacterized protein OS=Triticum aestivum OX=4565 PE=4 
+SV=1
+Length=237
+
+ Score = 33.5 bits (75),  Expect = 6.5
+ Identities = 20/56 (36%), Positives = 31/56 (55%), Gaps = 3/56 (5%)
+
+Query  21  LETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLL  76
+           ++ QQ+EP TP PPP       L+  RR    +W A++ AG    +L + A L++L
+Sbjct  24  MKQQQQEPATPDPPPPSKII--LQPRRRTTPAMWCAAI-AGFAFSVLLILAGLVIL  76
+
+
+>TR:A0A2T7DGJ0_9POAL A0A2T7DGJ0 Uncharacterized protein OS=Panicum hallii var. hallii 
+OX=1504633 GN=GQ55_5G152400 PE=4 SV=1
+Length=823
+
+ Score = 33.9 bits (76),  Expect = 6.5
+ Identities = 26/68 (38%), Positives = 31/68 (46%), Gaps = 6/68 (9%)
+
+Query  18   RGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLR  77
+            R  L  +   PG  PPPP H A   L +  R G  L  A  RAG LL L   P+     R
+Sbjct  48   RAALNLRAAAPGAAPPPPCHSA---LVKWSRAGGWLGLARGRAGALLLL---PSAAARQR  101
+
+Query  78   WQADSSPQ  85
+             +A S+ Q
+Sbjct  102  RRAASAAQ  109
+
+
+>TR:A0A0E0RCM6_ORYRU A0A0E0RCM6 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=882
+
+ Score = 33.9 bits (76),  Expect = 6.6
+ Identities = 18/37 (49%), Positives = 21/37 (57%), Gaps = 0/37 (0%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYD  118
+            SSP  V D+   +EDDD D QDD  DDL    + D D
+Sbjct  499  SSPASVQDYPDLQEDDDDDFQDDDDDDLDDEDEEDDD  535
+
+
+>TR:C1MQQ1_MICPC C1MQQ1 Predicted protein OS=Micromonas pusilla (strain CCMP1545) 
+OX=564608 GN=MICPUCDRAFT_57370 PE=4 SV=1
+Length=952
+
+ Score = 33.9 bits (76),  Expect = 6.6
+ Identities = 25/87 (29%), Positives = 35/87 (40%), Gaps = 27/87 (31%)
+
+Query  28   PGTPPP------PPVHHAAEQLKEARRGGSRLWRASVRAGLLLCLLTVPAVLLLLRWQAD  81
+            P  PPP      PPV  + E ++E   GG R W A+  + L                   
+Sbjct  377  PPPPPPTQRPGAPPVETSKEAMEEL--GGKRAWAAACASAL-------------------  415
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDD  108
+             + +W+ + EA  +DDD D  D   DD
+Sbjct  416  KAERWIPEKEASVDDDDDDGDDGEGDD  442
+
+
+>TR:A0A0E0NQQ8_ORYRU A0A0E0NQQ8 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=1313
+
+ Score = 33.9 bits (76),  Expect = 6.8
+ Identities = 24/71 (34%), Positives = 31/71 (44%), Gaps = 10/71 (14%)
+
+Query  15  LPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAG----------LLL  64
+           LP   +  T +  P  PPPPP   A   +   RRG S    A+ +A           L+L
+Sbjct  8   LPWIPMATTVKSRPPPPPPPPPPQALPAVTTRRRGSSSSSPAAAKASVFLSAPRELLLVL  67
+
+Query  65  CLLTVPAVLLL  75
+           C L V AVL +
+Sbjct  68  CSLLVVAVLFV  78
+
+
+>TR:C1E9S4_MICCC C1E9S4 Response regulator receiver/WD40 domain fusion protein 
+OS=Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) OX=296587 
+GN=MICPUN_59822 PE=4 SV=1
+Length=1414
+
+ Score = 33.9 bits (76),  Expect = 6.8
+ Identities = 19/47 (40%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+
+Query  5     SHGSGGDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGS  51
+             S G G      P RGV E+ + E G P PP    A   L E RR G+
+Sbjct  963   SSGEGSPNAGSPERGVPESGEPEEGEPAPPSEKDAQRALVEKRRQGA  1009
+
+
+>TR:A0A0E0PLP5_ORYRU A0A0E0PLP5 Uncharacterized protein OS=Oryza rufipogon OX=4529 
+PE=4 SV=1
+Length=180
+
+ Score = 33.1 bits (74),  Expect = 7.3
+ Identities = 15/38 (39%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  25  QREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGL  62
+           +REP TPPPPP    ++Q +E   GG     A  R+ +
+Sbjct  10  RREPKTPPPPPAAAESDQRREEDGGGGGAGGAGKRSSM  47
+
+
+>TR:I1QY68_ORYGL I1QY68 Uncharacterized protein OS=Oryza glaberrima OX=4538 PE=4 
+SV=1
+Length=180
+
+ Score = 33.1 bits (74),  Expect = 7.3
+ Identities = 15/38 (39%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  25  QREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGL  62
+           +REP TPPPPP    ++Q +E   GG     A  R+ +
+Sbjct  10  RREPKTPPPPPAAAESDQRREEDGGGGGAGGAGKRSSM  47
+
+
+>TR:Q53PR1_ORYSJ Q53PR1 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=LOC_Os11g07590 PE=4 SV=1
+Length=180
+
+ Score = 33.1 bits (74),  Expect = 7.3
+ Identities = 15/38 (39%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  25  QREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRAGL  62
+           +REP TPPPPP    ++Q +E   GG     A  R+ +
+Sbjct  10  RREPKTPPPPPAAAESDQRREEDGGGGGAGGAGKRSSM  47
+
+
+>TR:B7EKD0_ORYSJ B7EKD0 Os11g0106200 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os11g0106200 PE=2 SV=1
+Length=497
+
+ Score = 33.5 bits (75),  Expect = 8.2
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:B8BNT7_ORYSI B8BNT7 Uncharacterized protein OS=Oryza sativa subsp. indica 
+OX=39946 GN=OsI_37164 PE=4 SV=1
+Length=520
+
+ Score = 33.5 bits (75),  Expect = 8.2
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:A0A0E0IWZ0_ORYNI A0A0E0IWZ0 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=520
+
+ Score = 33.5 bits (75),  Expect = 8.2
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:B7ECH1_ORYSJ B7ECH1 Os11g0106200 protein OS=Oryza sativa subsp. japonica OX=39947 
+GN=Os11g0106200 PE=2 SV=1
+Length=520
+
+ Score = 33.5 bits (75),  Expect = 8.2
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:A0A0E0IWY9_ORYNI A0A0E0IWY9 Uncharacterized protein OS=Oryza nivara OX=4536 PE=4 
+SV=1
+Length=532
+
+ Score = 33.5 bits (75),  Expect = 8.3
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:Q0IV82_ORYSJ Q0IV82 Os11g0106200 protein (Fragment) OS=Oryza sativa subsp. 
+japonica OX=39947 GN=Os11g0106200 PE=4 SV=1
+Length=537
+
+ Score = 33.5 bits (75),  Expect = 8.3
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  22   SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  57
+
+
+>TR:Q2RBM6_ORYSJ Q2RBM6 Outer membrane protein, OMP85 family protein OS=Oryza 
+sativa subsp. japonica OX=39947 GN=LOC_Os11g01490 PE=4 SV=1
+Length=571
+
+ Score = 33.5 bits (75),  Expect = 8.4
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:B9G8Z3_ORYSJ B9G8Z3 Uncharacterized protein OS=Oryza sativa subsp. japonica 
+OX=39947 GN=OsJ_32655 PE=4 SV=1
+Length=572
+
+ Score = 33.5 bits (75),  Expect = 8.4
+ Identities = 19/38 (50%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  82   SSPQWVFDFEAPEEDDDQDIQDDVFDDLSPLPQIDYDD  119
+            SSP  V D+   +EDDD D QDD  DDL    + D DD
+Sbjct  5    SSPASVQDYPDLQEDDDDDFQDD--DDLDDEDEEDDDD  40
+
+
+>TR:A0A1E5V5R8_9POAL A0A1E5V5R8 Uncharacterized protein OS=Dichanthelium oligosanthes 
+OX=888268 GN=BAE44_0018532 PE=4 SV=1
+Length=100
+
+ Score = 32.0 bits (71),  Expect = 9.0
+ Identities = 25/84 (30%), Positives = 34/84 (40%), Gaps = 3/84 (4%)
+
+Query  10  GDEERLPLRGVLETQQREPGTPPPPPVHHAAEQLKEARRGGSRLWRASVRA-GLLLCLLT  68
+           G ++ +P       + + PG PPPPP    A      RR   R  RA VR   L   ++ 
+Sbjct  3   GQDDAIPRPAAARGKGKAPGPPPPPPRRDEANGGHRHRRRRRR--RARVRGEELAFSIMM  60
+
+Query  69  VPAVLLLLRWQADSSPQWVFDFEA  92
+           V A   L      + PQ  + F A
+Sbjct  61  VAATYFLGEALTGALPQAAWSFAA  84
+
+
+>TR:A0A2K3DIR3_CHLRE A0A2K3DIR3 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_07g316992v5 PE=4 SV=1
+Length=2279
+
+ Score = 33.5 bits (75),  Expect = 9.3
+ Identities = 14/33 (42%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  3     SNSHGSGGDEERLPLRGVLETQQREPGTPPPPP  35
+             S + GS GD   +P     + QQ++P  PPPPP
+Sbjct  1256  SQADGSPGDHVGIPAGAPRQPQQQDPPPPPPPP  1288
+
+
+>TR:A0A2K3DIQ5_CHLRE A0A2K3DIQ5 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_07g316992v5 PE=4 SV=1
+Length=2452
+
+ Score = 33.5 bits (75),  Expect = 9.4
+ Identities = 14/33 (42%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  3     SNSHGSGGDEERLPLRGVLETQQREPGTPPPPP  35
+             S + GS GD   +P     + QQ++P  PPPPP
+Sbjct  1256  SQADGSPGDHVGIPAGAPRQPQQQDPPPPPPPP  1288
+
+
+>TR:A0A2K3DIR1_CHLRE A0A2K3DIR1 Uncharacterized protein OS=Chlamydomonas reinhardtii 
+OX=3055 GN=CHLRE_07g316992v5 PE=4 SV=1
+Length=2475
+
+ Score = 33.5 bits (75),  Expect = 9.4
+ Identities = 14/33 (42%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  3     SNSHGSGGDEERLPLRGVLETQQREPGTPPPPP  35
+             S + GS GD   +P     + QQ++P  PPPPP
+Sbjct  1256  SQADGSPGDHVGIPAGAPRQPQQQDPPPPPPPP  1288
+
+
+>TR:A0A0E0LDJ3_ORYPU A0A0E0LDJ3 Uncharacterized protein OS=Oryza punctata OX=4537 
+PE=4 SV=1
+Length=105
+
+ Score = 32.0 bits (71),  Expect = 9.7
+ Identities = 19/49 (39%), Positives = 24/49 (49%), Gaps = 11/49 (22%)
+
+Query  7   GSGGDEERLPLRGVL-ETQQREPGTPPPPPVHHAAEQLKEARRGGSRLW  54
+           GSGG  +R  L  +  E +QR PG P PP +          +R G RLW
+Sbjct  45  GSGGQAQRPRLHRIQREGRQRRPGVPSPPQI----------QREGMRLW  83
+
+
+
+Lambda      K        H
+   0.320    0.138    0.441 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 60223188045
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Jul 13, 2018  9:17 AM
+  Number of letters in database: 2,254,686,180
+  Number of sequences in database:  6,388,845
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

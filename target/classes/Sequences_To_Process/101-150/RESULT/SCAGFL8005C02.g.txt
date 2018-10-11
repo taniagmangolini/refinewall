@@ -1,0 +1,70 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,413,124 sequences; 2,265,929,236 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=223
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A2J8ABF8_9CHLO  A0A2J8ABF8 Uncharacterized protein (Fragment...  34.7    7.0  
+
+
+>TR:A0A2J8ABF8_9CHLO A0A2J8ABF8 Uncharacterized protein (Fragment) OS=Tetrabaena socialis 
+OX=47790 GN=TSOC_003545 PE=4 SV=1
+Length=529
+
+ Score = 34.7 bits (78),  Expect = 7.0
+ Identities = 19/63 (30%), Positives = 26/63 (41%), Gaps = 8/63 (13%)
+
+Query  116  QPPKKLRSYMHRSRLCRHRQNIGAGLRLYSIVTRIDESAFWNGPPTRAPIATFGFGSGEW  175
+            +P   L  Y+    L R  Q++  G+     + R D        P  A +    FG GEW
+Sbjct  254  RPAAPLHDYLLTPALTRLEQDVNGGVANRDALRRHD--------PRLAALLAAAFGDGEW  305
+
+Query  176  RYW  178
+            RYW
+Sbjct  306  RYW  308
+
+
+
+Lambda      K        H
+   0.322    0.132    0.427 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 135231806560
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Aug 10, 2018  11:08 PM
+  Number of letters in database: 2,265,929,236
+  Number of sequences in database:  6,413,124
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
