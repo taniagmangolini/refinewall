@@ -43,9 +43,9 @@ public class RefineService implements IRefineService {
 		Sucest sucest = sucestRepository.findByGene(id);
 		
 		if(sucest != null) {
-			System.out.println("sucest found! ");
+			System.out.println("###sucest found! ");
 		} else {
-			System.out.println("sucest not found! ");
+			System.out.println("###sucest not found! ");
 		}
 		
 		if(sucest != null) {
@@ -58,7 +58,7 @@ public class RefineService implements IRefineService {
 			
 			
 			 blastResult = blastRepository.findByUniqueIdentifier(id);
-			 
+ 
 			 if(blastResult == null || blastResult.isEmpty()) {
 				 
 				 blastResult = blastRepository.findByGeneName(id);
@@ -74,6 +74,7 @@ public class RefineService implements IRefineService {
 				 blastResult = blastRepository.findByProteinName(id);
 			 }
 			 
+			 System.out.println("####blastResult " + blastResult);
 			 
 			 if (blastResult != null && !blastResult.isEmpty()) {
 					
