@@ -43,6 +43,12 @@ public class RefineService implements IRefineService {
 		Sucest sucest = sucestRepository.findByGene(id);
 		
 		if(sucest != null) {
+			System.out.println("sucest found! ");
+		} else {
+			System.out.println("sucest not found! ");
+		}
+		
+		if(sucest != null) {
 			
 			refineResult.getSucests().add(sucest);
 
