@@ -24,7 +24,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 @Entity
-@Table(name = "sucest_sequence")
+@Table(name = "sucest_sequence", schema="refinedb")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
 public class SucestSequence implements Serializable{
