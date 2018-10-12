@@ -25,7 +25,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
-@Table(name = "sucest", schema="refinedb")
+@Table(name = "sucest", schema="public")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt", "idBlastJob", "resultBlastContents"})
 public class Sucest implements Serializable{

@@ -25,7 +25,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import br.com.usp.lafieco.enums.DomainEnum;
 
 @Entity
-@Table(name = "sucest_domain", schema="refinedb")
+@Table(name = "sucest_domain", schema="public")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = {"createdAt"})
 public class SucestDomain implements Serializable{
