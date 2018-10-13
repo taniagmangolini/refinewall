@@ -72,6 +72,10 @@ public class Sucest implements Serializable{
 	@JsonIgnore
 	@Transient
 	private List<String> resultBlastContents;
+	
+	/*The datasource used is limited to 10000 lines. So it is not the best solution, but it is a way to save some lines*/
+	@Column(name = "domains", length =  5000)
+	private String domainsString;
 
 	public Long getId() {
 		return id;
@@ -151,6 +155,14 @@ public class Sucest implements Serializable{
 
 	public void setDomains(List<SucestDomain> domains) {
 		this.domains = domains;
+	}
+	
+	public String getDomainsString() {
+		return domainsString;
+	}
+
+	public void setDomainsString(String domainsString) {
+		this.domainsString = domainsString;
 	}
 
 	@Override
