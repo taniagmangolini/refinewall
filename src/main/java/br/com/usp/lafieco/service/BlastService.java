@@ -1,8 +1,8 @@
 package br.com.usp.lafieco.service;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -30,7 +30,6 @@ import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.repository.BlastResultRepository;
-import br.com.usp.lafieco.repository.SucestRepository;
 import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
@@ -200,16 +199,17 @@ public class BlastService implements IBlastService {
 
 				for (Map.Entry<String, BlastResult> entry : blastResult.entrySet()) {
 
-					String identifier = entry.getValue().getUniqueIdentifier() ;
-					
-					if(entry.getValue().getSucestBusca() != null && !entry.getValue().getSucestBusca().equalsIgnoreCase("") ){
-						identifier += entry.getValue().getSucestBusca() ;
+					String identifier = entry.getValue().getUniqueIdentifier();
+
+					if (entry.getValue().getSucestBusca() != null
+							&& !entry.getValue().getSucestBusca().equalsIgnoreCase("")) {
+						identifier += entry.getValue().getSucestBusca();
 					}
-					
+
 					List<BlastResult> result = blastRepository
 							.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
-					
-					if (mapAlreadyIncluded.get(identifier) == null ) {
+
+					if (mapAlreadyIncluded.get(identifier) == null) {
 						// get all blast results that have some sucests related in the database
 						if (result != null && !result.isEmpty()) {
 
@@ -220,8 +220,8 @@ public class BlastService implements IBlastService {
 							// object will be null
 							blastResultFiltered.add(entry.getValue());
 						}
-						mapAlreadyIncluded.put(identifier,entry.getValue());
-					} 
+						mapAlreadyIncluded.put(identifier, entry.getValue());
+					}
 				}
 
 			}
@@ -327,7 +327,7 @@ public class BlastService implements IBlastService {
 				blastFilesAvailable = true;
 			}
 
-			if (errors != null && !errors.isEmpty()) {
+			if (errors != null && !errors.isEmpty() ) {
 
 				fileService.exportErrors(errors, folderName);
 
@@ -361,9 +361,23 @@ public class BlastService implements IBlastService {
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
 						blastResult.getSucestBusca()) == null) {
 
-			blastResult.setSucest(sucest);
+			// if the blast result e-value is inferior or equal to 0.05 it will be stored in the database
+			try {
 
-			blastRepository.save(blastResult);
+				BigDecimal evalue = new BigDecimal(blastResult.getEvalue().trim());
+
+				if (evalue.doubleValue() <= 0.05) {
+
+					blastResult.setSucest(sucest);
+
+					blastRepository.save(blastResult);
+				}
+				
+			} catch (RuntimeException e) {
+				
+				System.out.println("Erro to check evalue significance: " + blastResult.getEntryName() + " - sucest : " + blastResult.getSucestBusca());
+			}
+
 		}
 	}
 }

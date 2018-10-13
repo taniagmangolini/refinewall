@@ -19,5 +19,5 @@ public interface BlastResultRepository extends CrudRepository<BlastResult, Long>
 	  List<BlastResult> findByProteinName(String proteinName);  
 
 	  List<BlastResult> findByGeneName(String geneName);  
-
+	  
 }

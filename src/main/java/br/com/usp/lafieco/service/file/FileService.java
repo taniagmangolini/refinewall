@@ -35,11 +35,13 @@ public class FileService implements IFileService {
 
 	@Autowired
 	private MessageSource messageSource;
-	
+
 	@Autowired
 	private SucestRepository sucestRepository;
 
 	private static String SEQUENCE_SEPARATOR = "\\$";
+
+	private final Integer LIMIT_RESULTS = 6;
 
 	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
@@ -254,11 +256,11 @@ public class FileService implements IFileService {
 	}
 
 	public Map<String, BlastResult> processBlastResultFile(List<String> lines) {
-		return processBlastResultFile(null, null, lines);
+		return processBlastResultFile(null, null, lines, true);
 	}
 
 	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName) {
-		return processBlastResultFile(gene, folderName, null);
+		return processBlastResultFile(gene, folderName, null, false);
 	}
 
 	/**
@@ -273,10 +275,12 @@ public class FileService implements IFileService {
 	 * @param errors
 	 * @param folderName
 	 */
-	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines) {
+	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines, Boolean isCompleteSearch) {
 
 		Map<String, BlastResult> mapResult = new HashMap<String, BlastResult>();
 
+		Integer countResults = 0;
+		
 		try {
 
 			if (lines == null) {
@@ -319,8 +323,20 @@ public class FileService implements IFileService {
 						if (elements != null && elements[0] != null) {
 
 							identifier = elements[0];
+							
+							//if exceded limit to store in the database, remove it from map. If it is online search of sequence not stored so proceed.
+							if(!isCompleteSearch && countResults <= LIMIT_RESULTS ) {
+								
+								countResults = countResults + 1;
 
-							mapResult.put(identifier, new BlastResult());
+								mapResult.put(identifier, new BlastResult());
+																						
+							} else if (isCompleteSearch) {
+								
+								mapResult.put(identifier, new BlastResult());
+
+							}
+
 						}
 
 					} else if (identifier != null && !line.trim().equalsIgnoreCase("")) {
@@ -630,10 +646,6 @@ public class FileService implements IFileService {
 			for (Map.Entry<String, Sucest> entry : sucests.entrySet()) {
 
 				Sucest sucest = entry.getValue();
-				
-				if(sucest.getGene().equalsIgnoreCase("SCRLFL4103A08.g")) {
-					System.out.println("Here");
-				}
 
 				if (sucest != null) {
 
@@ -642,9 +654,9 @@ public class FileService implements IFileService {
 
 					if (mapResultGene != null && !mapResultGene.isEmpty()) {
 						mapResult.putAll(mapResultGene);
-						
+
 					} else {
-						//if does not exists blast matches just save the sucest without any blasts
+						// if does not exists blast matches just save the sucest without any blasts
 						sucestRepository.save(sucest);
 					}
 				}
