@@ -27,6 +27,7 @@ import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.model.Sucest;
 import br.com.usp.lafieco.model.SucestSequence;
+import br.com.usp.lafieco.repository.BlastResultRepository;
 import br.com.usp.lafieco.repository.SucestRepository;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
@@ -38,10 +39,13 @@ public class FileService implements IFileService {
 
 	@Autowired
 	private SucestRepository sucestRepository;
+	
+	@Autowired
+	private BlastResultRepository blastRepository;
 
 	private static String SEQUENCE_SEPARATOR = "\\$";
 
-	private final Integer LIMIT_RESULTS = 6;
+	private final Integer LIMIT_RESULTS = 5;
 
 	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
@@ -465,9 +469,10 @@ public class FileService implements IFileService {
 							if (scoreBeginPosition != -1 && expectBeginPosition != -1) {
 								String[] scoreParts = fullText.substring(scoreBeginPosition, expectBeginPosition).trim()
 										.split("=");
-								String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") + 1,
-										scoreParts[1].indexOf(")"));
-								blastResult.setScore(Integer.parseInt(scoreValuePart));
+								/*String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") + 1,
+										scoreParts[1].indexOf(")"));*/
+								String scoreValuePart = scoreParts[1].substring(0, scoreParts[1].indexOf("bits"));
+								blastResult.setScore(Double.parseDouble(scoreValuePart));
 							}
 
 							// Expect
@@ -653,15 +658,42 @@ public class FileService implements IFileService {
 					Map<String, BlastResult> mapResultGene = this.processBlastResultFile(sucest.getGene(), folderName);
 
 					if (mapResultGene != null && !mapResultGene.isEmpty()) {
+						
 						mapResult.putAll(mapResultGene);
+						
+						for (Map.Entry<String, BlastResult> entryResult : mapResult.entrySet()) {
+							
+							this.saveBlastResultForSucest(entryResult.getValue(), sucests.get(entryResult.getValue().getSucestBusca()));
+						}
 
 					} else {
 						// if does not exists blast matches just save the sucest without any blasts
 						sucestRepository.save(sucest);
-					}
+					}					
 				}
 			}
 		}
 		return mapResult;
+	}
+	
+	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
+
+		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
+				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
+						blastResult.getSucestBusca()) == null) {
+
+			try {
+
+				blastResult.setSucest(sucest);
+
+				blastRepository.save(blastResult);
+
+			} catch (RuntimeException e) {
+
+				System.out.println("Erro to save: " + blastResult.getEntryName() + " - sucest : "
+						+ blastResult.getSucestBusca());
+			}
+
+		}
 	}
 }

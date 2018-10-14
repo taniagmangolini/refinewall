@@ -1,6 +1,5 @@
 package br.com.usp.lafieco.service;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -327,7 +326,7 @@ public class BlastService implements IBlastService {
 				blastFilesAvailable = true;
 			}
 
-			if (errors != null && !errors.isEmpty() ) {
+			if (errors != null && !errors.isEmpty()) {
 
 				fileService.exportErrors(errors, folderName);
 
@@ -342,15 +341,15 @@ public class BlastService implements IBlastService {
 							messageSource.getMessage("messages.errorProcessFile", new Object[] {}, Locale.US));
 				}
 
-				if (mapResult != null && !mapResult.isEmpty()) {
+				/*if (mapResult != null && !mapResult.isEmpty()) {
 
 					Iterator it = mapResult.entrySet().iterator();
 
 					for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
-
+						
 						this.saveBlastResultForSucest(entry.getValue(), sucests.get(entry.getValue().getSucestBusca()));
 					}
-				}
+				}*/
 			}
 		}
 	}
@@ -361,21 +360,16 @@ public class BlastService implements IBlastService {
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
 						blastResult.getSucestBusca()) == null) {
 
-			// if the blast result e-value is inferior or equal to 0.05 it will be stored in the database
 			try {
 
-				BigDecimal evalue = new BigDecimal(blastResult.getEvalue().trim());
+				blastResult.setSucest(sucest);
 
-				if (evalue.doubleValue() <= 0.05) {
+				blastRepository.save(blastResult);
 
-					blastResult.setSucest(sucest);
-
-					blastRepository.save(blastResult);
-				}
-				
 			} catch (RuntimeException e) {
-				
-				System.out.println("Erro to check evalue significance: " + blastResult.getEntryName() + " - sucest : " + blastResult.getSucestBusca());
+
+				System.out.println("Erro to save: " + blastResult.getEntryName() + " - sucest : "
+						+ blastResult.getSucestBusca());
 			}
 
 		}
