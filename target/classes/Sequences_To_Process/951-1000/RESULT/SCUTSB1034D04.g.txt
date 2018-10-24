@@ -1,0 +1,159 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_viridiplantae
+           6,644,995 sequences; 2,351,628,609 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=62
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+TR:A0A0A9E7B2_ARUDO  A0A0A9E7B2 Uncharacterized protein OS=Arundo...  40.0    2e-04
+TR:I3SFY6_LOTJA  I3SFY6 Uncharacterized protein OS=Lotus japonicu...  36.6    0.008
+TR:V7AVA6_PHAVU  V7AVA6 Uncharacterized protein OS=Phaseolus vulg...  31.2    3.9  
+TR:A0A2P5QRW4_GOSBA  A0A2P5QRW4 Uncharacterized protein OS=Gossyp...  30.4    7.3  
+TR:A0A2P5YCT6_GOSBA  A0A2P5YCT6 Uncharacterized protein OS=Gossyp...  30.4    7.3  
+TR:A0A0D2TL78_GOSRA  A0A0D2TL78 Uncharacterized protein OS=Gossyp...  30.4    7.3  
+TR:A0A1U8MVF1_GOSHI  A0A1U8MVF1 pentatricopeptide repeat-containi...  30.4    7.3  
+TR:A0A1U8KH27_GOSHI  A0A1U8KH27 pentatricopeptide repeat-containi...  30.4    7.3  
+
+
+>TR:A0A0A9E7B2_ARUDO A0A0A9E7B2 Uncharacterized protein OS=Arundo donax OX=35708 PE=4 
+SV=1
+Length=32
+
+ Score = 40.0 bits (92),  Expect = 2e-04
+ Identities = 18/29 (62%), Positives = 21/29 (72%), Gaps = 0/29 (0%)
+
+Query  14  MCSDKEISNPLQCIEGRVQLLCRAHLITV  42
+           MC DKEI NPL+ I+ R+QL C  HLI V
+Sbjct  1   MCIDKEICNPLERIKRRIQLFCCTHLIPV  29
+
+
+>TR:I3SFY6_LOTJA I3SFY6 Uncharacterized protein OS=Lotus japonicus OX=34305 PE=2 
+SV=1
+Length=51
+
+ Score = 36.6 bits (83),  Expect = 0.008
+ Identities = 18/38 (47%), Positives = 27/38 (71%), Gaps = 0/38 (0%)
+
+Query  5   LNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITV  42
+           LNI++I R + +DK+IS+P Q I  R+QL    HLI++
+Sbjct  9   LNIKNIFRRVSADKKISDPFQRILCRIQLANSVHLISI  46
+
+
+>TR:V7AVA6_PHAVU V7AVA6 Uncharacterized protein OS=Phaseolus vulgaris OX=3885 
+GN=PHAVU_009G021500g PE=4 SV=1
+Length=452
+
+ Score = 31.2 bits (69),  Expect = 3.9
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  1    RPLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            +P+T  +  ++RG+C  +EIS   + +E      C   LIT ++  H
+Sbjct  108  KPVTFTVNILMRGLCRAREISEAFKLLEELRSFGCFPDLITYNTLIH  154
+
+
+>TR:A0A2P5QRW4_GOSBA A0A2P5QRW4 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_DD25779 PE=4 SV=1
+Length=486
+
+ Score = 30.4 bits (67),  Expect = 7.3
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  2    PLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            P       ++ G+C D   S  ++ +E  V   C+ ++IT SS  H
+Sbjct  259  PNVFTYSSLMDGLCKDSRSSKAMELLETMVSKRCKPNMITYSSLIH  304
+
+
+>TR:A0A2P5YCT6_GOSBA A0A2P5YCT6 Uncharacterized protein OS=Gossypium barbadense OX=3634 
+GN=GOBAR_AA07142 PE=4 SV=1
+Length=486
+
+ Score = 30.4 bits (67),  Expect = 7.3
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  2    PLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            P       ++ G+C D   S  ++ +E  V   C+ ++IT SS  H
+Sbjct  259  PNVFTYSSLMDGLCKDSRSSKAMELLETMVSKRCKPNMITYSSLIH  304
+
+
+>TR:A0A0D2TL78_GOSRA A0A0D2TL78 Uncharacterized protein OS=Gossypium raimondii OX=29730 
+GN=B456_009G166600 PE=4 SV=1
+Length=486
+
+ Score = 30.4 bits (67),  Expect = 7.3
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  2    PLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            P       ++ G+C D   S  ++ +E  V   C+ ++IT SS  H
+Sbjct  259  PNVFTYSSLMDGLCKDSRSSKAMELLETMVSKRCKPNMITYSSLIH  304
+
+
+>TR:A0A1U8MVF1_GOSHI A0A1U8MVF1 pentatricopeptide repeat-containing protein At5g46100-like 
+OS=Gossypium hirsutum OX=3635 GN=LOC107941719 PE=4 
+SV=1
+Length=486
+
+ Score = 30.4 bits (67),  Expect = 7.3
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  2    PLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            P       ++ G+C D   S  ++ +E  V   C+ ++IT SS  H
+Sbjct  259  PNVFTYSSLMDGLCKDSRSSKAMELLETMVSKRCKPNMITYSSLIH  304
+
+
+>TR:A0A1U8KH27_GOSHI A0A1U8KH27 pentatricopeptide repeat-containing protein At5g46100-like 
+OS=Gossypium hirsutum OX=3635 GN=LOC107916904 PE=4 
+SV=1
+Length=486
+
+ Score = 30.4 bits (67),  Expect = 7.3
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  2    PLTLNIQHIVRGMCSDKEISNPLQCIEGRVQLLCRAHLITVSSTDH  47
+            P       ++ G+C D   S  ++ +E  V   C+ ++IT SS  H
+Sbjct  259  PNVFTYSSLMDGLCKDSRSSKAMELLETMVSKRCKPNMITYSSLIH  304
+
+
+
+Lambda      K        H
+   0.324    0.135    0.399 
+
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+
+Effective search space used: 59519565812
+
+
+  Database: uniprotkb_viridiplantae
+    Posted date:  Oct 5, 2018  11:05 PM
+  Number of letters in database: 2,351,628,609
+  Number of sequences in database:  6,644,995
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

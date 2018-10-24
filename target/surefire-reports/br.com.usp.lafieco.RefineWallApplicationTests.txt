@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.usp.lafieco.RefineWallApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.77 s <<< FAILURE! - in br.com.usp.lafieco.RefineWallApplicationTests
-contextLoads(br.com.usp.lafieco.RefineWallApplicationTests)  Time elapsed: 0.053 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
-Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
-Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
-Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "189.18.46.189", user "ryeooxizlezeep", database "d977lvt5gkivpp", SSL off
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.954 s - in br.com.usp.lafieco.RefineWallApplicationTests
