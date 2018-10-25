@@ -46,7 +46,7 @@ public class FileService implements IFileService {
 
 	private static String SEQUENCE_SEPARATOR = "\\$";
 
-	private final Integer LIMIT_RESULTS = 5;
+	private final Double LIMIT_RESULTS =  0.05;
 
 	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
@@ -679,7 +679,7 @@ public class FileService implements IFileService {
 
 							}
 
-							if (evalue != null && evalue.longValue() < 0) {
+							if (evalue != null && evalue.longValue() <= LIMIT_RESULTS) {
 								this.saveBlastResultForSucest(entryResult.getValue(),
 										sucests.get(entryResult.getValue().getSucestBusca()));
 							}
