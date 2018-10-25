@@ -696,6 +696,9 @@ public class FileService implements IFileService {
 	}
 
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
+		
+		BlastResult blastR = blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
+				blastResult.getSucestBusca());
 
 		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
