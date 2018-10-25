@@ -91,7 +91,7 @@ public class BlastResult implements Serializable{
 	@Column(name = "gaps")
 	private Integer gaps;
 	
-	@Column(name = "fulltext", length = 10000)
+	@Column(name = "fulltextblast", length = 10000)
 	private String fullText;
 	
 	@Column(name = "created_at", nullable = false, updatable = false)
