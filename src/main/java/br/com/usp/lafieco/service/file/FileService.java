@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -39,7 +40,7 @@ public class FileService implements IFileService {
 
 	@Autowired
 	private SucestRepository sucestRepository;
-	
+
 	@Autowired
 	private BlastResultRepository blastRepository;
 
@@ -279,12 +280,13 @@ public class FileService implements IFileService {
 	 * @param errors
 	 * @param folderName
 	 */
-	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines, Boolean isCompleteSearch) {
+	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines,
+			Boolean isCompleteSearch) {
 
 		Map<String, BlastResult> mapResult = new HashMap<String, BlastResult>();
 
 		Integer countResults = 0;
-		
+
 		try {
 
 			if (lines == null) {
@@ -327,16 +329,18 @@ public class FileService implements IFileService {
 						if (elements != null && elements[0] != null) {
 
 							identifier = elements[0];
-							
-							//if exceded limit to store in the database, remove it from map. If it is online search of sequence not stored so proceed.
-							if(!isCompleteSearch && countResults <= LIMIT_RESULTS ) {
-								
+
+							// if exceded limit to store in the database, remove it from map. If it is
+							// online search of sequence not stored so proceed.
+							// if(!isCompleteSearch && countResults <= LIMIT_RESULTS ) {
+							if (!isCompleteSearch) {
+
 								countResults = countResults + 1;
 
 								mapResult.put(identifier, new BlastResult());
-																						
+
 							} else if (isCompleteSearch) {
-								
+
 								mapResult.put(identifier, new BlastResult());
 
 							}
@@ -469,8 +473,10 @@ public class FileService implements IFileService {
 							if (scoreBeginPosition != -1 && expectBeginPosition != -1) {
 								String[] scoreParts = fullText.substring(scoreBeginPosition, expectBeginPosition).trim()
 										.split("=");
-								/*String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") + 1,
-										scoreParts[1].indexOf(")"));*/
+								/*
+								 * String scoreValuePart = scoreParts[1].substring(scoreParts[1].indexOf("(") +
+								 * 1, scoreParts[1].indexOf(")"));
+								 */
 								String scoreValuePart = scoreParts[1].substring(0, scoreParts[1].indexOf("bits"));
 								blastResult.setScore(Double.parseDouble(scoreValuePart));
 							}
@@ -658,24 +664,37 @@ public class FileService implements IFileService {
 					Map<String, BlastResult> mapResultGene = this.processBlastResultFile(sucest.getGene(), folderName);
 
 					if (mapResultGene != null && !mapResultGene.isEmpty()) {
-						
+
 						mapResult.putAll(mapResultGene);
-						
+
 						for (Map.Entry<String, BlastResult> entryResult : mapResult.entrySet()) {
-							
-							this.saveBlastResultForSucest(entryResult.getValue(), sucests.get(entryResult.getValue().getSucestBusca()));
+
+							BigDecimal evalue = null;
+
+							try {
+
+								evalue = new BigDecimal(entryResult.getValue().getEvalue());
+
+							} catch (RuntimeException e) {
+
+							}
+
+							if (evalue != null && evalue.longValue() < 0) {
+								this.saveBlastResultForSucest(entryResult.getValue(),
+										sucests.get(entryResult.getValue().getSucestBusca()));
+							}
 						}
 
 					} else {
 						// if does not exists blast matches just save the sucest without any blasts
 						sucestRepository.save(sucest);
-					}					
+					}
 				}
 			}
 		}
 		return mapResult;
 	}
-	
+
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
 
 		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
@@ -690,8 +709,8 @@ public class FileService implements IFileService {
 
 			} catch (RuntimeException e) {
 
-				System.out.println("Erro to save: " + blastResult.getEntryName() + " - sucest : "
-						+ blastResult.getSucestBusca());
+				System.out.println(
+						"Erro to save: " + blastResult.getEntryName() + " - sucest : " + blastResult.getSucestBusca());
 			}
 
 		}
