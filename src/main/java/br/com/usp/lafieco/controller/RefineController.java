@@ -41,6 +41,7 @@ public class RefineController {
 			@RequestParam("email") String email) {
 		
 		System.out.println("refineById " + id);
+		
 		RefineResultVO refineResult = refineService.refineById(id, email);
 		
 		return refineResult;
