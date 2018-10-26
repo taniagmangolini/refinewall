@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -283,7 +284,7 @@ public class FileService implements IFileService {
 	public Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines,
 			Boolean isCompleteSearch) {
 
-		Map<String, BlastResult> mapResult = new HashMap<String, BlastResult>();
+		Map<String, BlastResult> mapResult = new LinkedHashMap<String, BlastResult>();
 
 		Integer countResults = 0;
 
