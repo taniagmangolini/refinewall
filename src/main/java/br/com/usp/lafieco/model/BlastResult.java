@@ -49,7 +49,7 @@ public class BlastResult implements Serializable{
 	@Column(name = "db")
 	private String db;
 	
-	@Column(name = "unique_identifier", length = 1024)
+	@Column(name = "unique_identifier", length = 500)
 	private String uniqueIdentifier;
 	
 	@Column(name = "entry_name" , length = 1024)
