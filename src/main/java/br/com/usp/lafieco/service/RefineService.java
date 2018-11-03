@@ -124,9 +124,11 @@ public class RefineService implements IRefineService {
 				for (BlastResult result : blastResults) {
 					
 					//get all blast results stored on the database by the unique id
-					List<BlastResult> listBlastExistentOnDatabase = blastRepository
-							.findByUniqueIdentifier(result.getUniqueIdentifier());
-
+				//	List<BlastResult> listBlastExistentOnDatabase = blastRepository
+				//			.findByUniqueIdentifier(result.getUniqueIdentifier());
+					
+					List<BlastResult> listBlastExistentOnDatabase = null;
+					
 					//if exist some register on the refine database so the system will use this register
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
 
@@ -174,7 +176,7 @@ public class RefineService implements IRefineService {
 				}
 			}
 
-			if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
+		/*	if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
 				
 				for (Map.Entry<String, List<BlastResult>> sucestAndBlastRelated : blastResultsOnDatabase.entrySet()) {
 					
@@ -188,7 +190,7 @@ public class RefineService implements IRefineService {
 					
 					refineResult.getSucests().add(sucest);
 				}
-			}
+			}*/
 		}
 
 		return refineResult;
