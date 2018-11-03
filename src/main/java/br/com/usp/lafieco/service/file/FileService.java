@@ -286,8 +286,6 @@ public class FileService implements IFileService {
 
 		Map<String, BlastResult> mapResult = new LinkedHashMap<String, BlastResult>();
 
-		Integer countResults = 0;
-
 		try {
 
 			if (lines == null) {
@@ -330,21 +328,8 @@ public class FileService implements IFileService {
 						if (elements != null && elements[0] != null) {
 
 							identifier = elements[0];
-
-							// if exceded limit to store in the database, remove it from map. If it is
-							// online search of sequence not stored so proceed.
-							// if(!isCompleteSearch && countResults <= LIMIT_RESULTS ) {
-							if (!isCompleteSearch) {
-
-								countResults = countResults + 1;
-
-								mapResult.put(identifier, new BlastResult());
-
-							} else if (isCompleteSearch) {
-
-								mapResult.put(identifier, new BlastResult());
-
-							}
+							
+							mapResult.put(identifier, new BlastResult());
 
 						}
 
@@ -680,7 +665,7 @@ public class FileService implements IFileService {
 
 							}
 
-							if (evalue != null && evalue.longValue() <= LIMIT_RESULTS) {
+							if (evalue != null && evalue.doubleValue() <= LIMIT_RESULTS.doubleValue()) {
 								this.saveBlastResultForSucest(entryResult.getValue(),
 										sucests.get(entryResult.getValue().getSucestBusca()));
 							}
@@ -698,9 +683,6 @@ public class FileService implements IFileService {
 
 	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
 		
-		BlastResult blastR = blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
-				blastResult.getSucestBusca());
-
 		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
 						blastResult.getSucestBusca()) == null) {
