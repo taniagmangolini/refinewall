@@ -30,33 +30,34 @@ public class UniprotService implements IUniprotService {
 	public UniprotVO getUniprot(String idProtein) {
 
 		System.out.println("GENE PRODUCTS FOR =>>>> " + idProtein);
-
-		Uniprot uniprot = null;
-
 		UniprotVO uniprotVO = null;
+		
+		if (idProtein != null) {
+			
+			Uniprot uniprot = null;
 
-		RestTemplate restTemplate = new RestTemplate();
+			RestTemplate restTemplate = new RestTemplate();
 
-		String base_url = BASE_URL;
+			String base_url = BASE_URL;
 
-		URI targetUrl = UriComponentsBuilder.fromUriString(base_url) // Build the url
-				.queryParam("query", idProtein) // search param
-				.queryParam("format", FormatEnum.XML.getFormat()) // columns
-				.build().encode().toUri();
+			URI targetUrl = UriComponentsBuilder.fromUriString(base_url) // Build the url
+					.queryParam("query", idProtein) // search param
+					.queryParam("format", FormatEnum.XML.getFormat()) // columns
+					.build().encode().toUri();
 
-		try {
+			try {
 
-			uniprot = restTemplate.getForObject(targetUrl, Uniprot.class);
+				uniprot = restTemplate.getForObject(targetUrl, Uniprot.class);
 
-			if (uniprot != null) {
-				uniprotVO = this.getUniprotVO(uniprot);
+				if (uniprot != null) {
+					uniprotVO = this.getUniprotVO(uniprot);
+				}
+
+			} catch (RuntimeException e) {
+
+				e.printStackTrace();
 			}
-
-		} catch (RuntimeException e) {
-
-			e.printStackTrace();
 		}
-
 		return uniprotVO;
 	}
 
@@ -91,8 +92,9 @@ public class UniprotService implements IUniprotService {
 					sbProteinNames.append("; ");
 				}
 
-				if(!sbProteinNames.toString().equalsIgnoreCase("")) {
-					uniprotVO.getProtein().setProteinName(sbProteinNames.toString().substring(0, sbProteinNames.toString().length() -2 ));
+				if (!sbProteinNames.toString().equalsIgnoreCase("")) {
+					uniprotVO.getProtein().setProteinName(
+							sbProteinNames.toString().substring(0, sbProteinNames.toString().length() - 2));
 				}
 			}
 
@@ -109,9 +111,9 @@ public class UniprotService implements IUniprotService {
 				}
 				// all submitted ec numbers
 			} else if (uniprot.getEntry().get(0).getProtein().getSubmittedName() != null) {
-				
+
 				StringBuilder sbECNumbers = new StringBuilder();
-				
+
 				for (SubmittedName sbname : uniprot.getEntry().get(0).getProtein().getSubmittedName()) {
 					if (!sbname.getEcNumber().isEmpty()) {
 						for (EvidencedStringType ec : sbname.getEcNumber()) {
@@ -120,9 +122,10 @@ public class UniprotService implements IUniprotService {
 						}
 					}
 				}
-				
-				if(!sbECNumbers.toString().equalsIgnoreCase("")) {
-					uniprotVO.getProtein().getEcNumber().add(sbECNumbers.toString().substring(0, sbECNumbers.toString().length() -2 ));
+
+				if (!sbECNumbers.toString().equalsIgnoreCase("")) {
+					uniprotVO.getProtein().getEcNumber()
+							.add(sbECNumbers.toString().substring(0, sbECNumbers.toString().length() - 2));
 				}
 			}
 		}

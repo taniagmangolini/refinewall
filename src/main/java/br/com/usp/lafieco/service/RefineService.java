@@ -161,7 +161,10 @@ public class RefineService implements IRefineService {
 
 						if (genericSucest == null) {
 							genericSucest = new Sucest();
+							genericSucest.setId((long) 0);
 							genericSucest.setGene("NOT_FOUND");
+							genericSucest.setDomainsString("NA");
+							genericSucest.setDescription("-");
 							genericSucest.setBlastResults(new ArrayList<BlastResult>());
 						}
 
@@ -171,6 +174,7 @@ public class RefineService implements IRefineService {
 					}
 				}
 
+				System.out.println("######## TESTE => AQUI!");
 				if (genericSucest != null) {
 					refineResult.getSucests().add(genericSucest);
 				}
