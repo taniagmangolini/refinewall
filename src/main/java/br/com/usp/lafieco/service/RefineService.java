@@ -170,11 +170,11 @@ public class RefineService implements IRefineService {
 
 						// include results without any sucest related. The field sucestBusca is going to
 						// be null
-						genericSucest.getBlastResults().add(result);
+						//genericSucest.getBlastResults().add(result);
 					}
 				}
 
-				System.out.println("######## TESTE => AQUI!");
+				System.out.println("######## TESTE => AQUI!" + refineResult.getSucests().size());
 				if (genericSucest != null) {
 					refineResult.getSucests().add(genericSucest);
 				}
