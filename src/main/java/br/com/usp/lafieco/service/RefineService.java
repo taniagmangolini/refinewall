@@ -174,10 +174,11 @@ public class RefineService implements IRefineService {
 					}
 				}
 
-				System.out.println("######## TESTE => AQUI!" + refineResult.getSucests().size());
 				if (genericSucest != null) {
 					refineResult.getSucests().add(genericSucest);
 				}
+				System.out.println("######## TESTE => AQUI!" + refineResult.getSucests().size());
+
 			}
 
 		/*	if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
