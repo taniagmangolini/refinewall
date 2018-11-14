@@ -48,17 +48,17 @@ public class RefineService implements IRefineService {
 			List<BlastResult> sucestBlasts = blastRepository.findBySucestBusca(sucest.getGene());
 
 			if (sucestBlasts != null && !sucestBlasts.isEmpty()) {
-				
+
 				sucest.setBlastResults(sucestBlasts);
-				
-				refineResult.getSucests().add(sucest);
 
 			}
+
+			refineResult.getSucests().add(sucest);
 
 		} else {
 
 			List<BlastResult> blastResult = blastRepository.findByUniqueIdentifier(id);
-			
+
 			if (blastResult != null && !blastResult.isEmpty()) {
 
 				for (BlastResult result : blastResult) {
@@ -68,9 +68,9 @@ public class RefineService implements IRefineService {
 					sucest = sucestRepository.findByGene(result.getSucestBusca());
 
 					if (sucest != null) {
-						
+
 						sucest.setBlastResults(new ArrayList<BlastResult>());
-						
+
 						sucest.getBlastResults().add(result);
 
 						refineResult.getSucests().add(sucest);
@@ -95,6 +95,13 @@ public class RefineService implements IRefineService {
 
 			Sucest sucest = sucestRepository.findByGene(sucestSequence.getSucest().getGene());
 
+			List<BlastResult> sucestBlasts = blastRepository.findBySucestBusca(sucest.getGene());
+
+			if (sucestBlasts != null && !sucestBlasts.isEmpty()) {
+
+				sucest.setBlastResults(sucestBlasts);
+			}
+
 			refineResult.getSucests().add(sucest);
 
 		} else {
@@ -102,49 +109,35 @@ public class RefineService implements IRefineService {
 			// perform a blast
 			List<BlastResult> blastResults = blastService.runBlastSequence(sequence, email);
 
-			Map<String, List<BlastResult>> blastResultsOnDatabase = new HashMap<String, List<BlastResult>>();
+			Map<String, List<BlastResult>> blastResultsOnDatabase = null;
 
 			if (blastResults != null && !blastResults.isEmpty()) {
 
+				blastResultsOnDatabase = new HashMap<String, List<BlastResult>>();
+				 
 				Sucest genericSucest = null;
 
 				for (BlastResult result : blastResults) {
 
-					// get all blast results stored on the database by the unique id
-					// List<BlastResult> listBlastExistentOnDatabase = blastRepository
-					// .findByUniqueIdentifier(result.getUniqueIdentifier());
-
 					List<BlastResult> listBlastExistentOnDatabase = null;
 
-					// if exists some register on the refine database so the system will use this
-					// register
+					if (result.getUniqueIdentifier() != null && !result.getUniqueIdentifier().equalsIgnoreCase("")) {
+
+						listBlastExistentOnDatabase = blastRepository
+								.findByUniqueIdentifier(result.getUniqueIdentifier());
+					}
+
+					// iterate over the blast registers on the the refine database
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
 
-						// iterate over register list to get the each sucest related to the blast result
-						// from ncbi
-						for (BlastResult blastOnDatabase : listBlastExistentOnDatabase) {
+						for (BlastResult register : listBlastExistentOnDatabase) {
 
-							// insert the sucest gene in the map and create a list to put the blast results
-							// related to it
-							if (blastResultsOnDatabase.get(blastOnDatabase.getSucestBusca()) == null) {
+							if (blastResultsOnDatabase.get(register.getSucestBusca()) == null) {
 
-								blastResultsOnDatabase.put(blastOnDatabase.getSucestBusca(),
-										new ArrayList<BlastResult>());
+								blastResultsOnDatabase.put(register.getSucestBusca(), new ArrayList<BlastResult>());
 							}
 
-							// update the values according to the search on ncbi
-							blastOnDatabase.setEvalue(result.getEvalue());
-							blastOnDatabase.setGaps(result.getGaps());
-							blastOnDatabase.setIdentities(result.getIdentities());
-							blastOnDatabase.setPositives(result.getSequenceVersion());
-							blastOnDatabase.setGeneName(result.getGeneName());
-							blastOnDatabase.setOrganismIdentifier(result.getOrganismIdentifier());
-							blastOnDatabase.setOrganismName(result.getOrganismName());
-							blastOnDatabase.setScore(result.getScore());
-							blastOnDatabase.setProteinName(result.getProteinName());
-							blastOnDatabase.setProteinExistence(result.getProteinExistence());
-
-							blastResultsOnDatabase.get(blastOnDatabase.getSucestBusca()).add(blastOnDatabase);
+							blastResultsOnDatabase.get(register.getSucestBusca()).add(register);
 						}
 
 					} else {
@@ -158,33 +151,34 @@ public class RefineService implements IRefineService {
 							genericSucest.setBlastResults(new ArrayList<BlastResult>());
 						}
 
-						// include results without any sucest related. The field sucestBusca is going to
-						// be null
+						// Also include results without any sucest related.
 						genericSucest.getBlastResults().add(result);
 					}
 				}
 
 				if (genericSucest != null) {
+
 					refineResult.getSucests().add(genericSucest);
 				}
 
 			}
 
-			/*
-			 * if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
-			 * 
-			 * for (Map.Entry<String, List<BlastResult>> sucestAndBlastRelated :
-			 * blastResultsOnDatabase.entrySet()) {
-			 * 
-			 * Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());
-			 * 
-			 * sucest.setBlastResults(new ArrayList<BlastResult>());
-			 * 
-			 * for(BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
-			 * sucest.getBlastResults().add(sucestBlast); }
-			 * 
-			 * refineResult.getSucests().add(sucest); } }
-			 */
+			if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
+
+				for (Map.Entry<String, List<BlastResult>> sucestAndBlastRelated : blastResultsOnDatabase.entrySet()) {
+
+					Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());
+
+					sucest.setBlastResults(new ArrayList<BlastResult>());
+
+					for (BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
+						sucest.getBlastResults().add(sucestBlast);
+					}
+
+					refineResult.getSucests().add(sucest);
+				}
+			}
+
 		}
 
 		return refineResult;
