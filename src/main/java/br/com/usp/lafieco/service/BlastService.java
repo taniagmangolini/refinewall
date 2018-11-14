@@ -194,11 +194,12 @@ public class BlastService implements IBlastService {
 			if (blastResult != null && !blastResult.isEmpty()) {
 
 				blastResultFiltered = new ArrayList<BlastResult>();
-				Map<String, BlastResult> mapAlreadyIncluded = new HashMap<String, BlastResult>();
 
 				for (Map.Entry<String, BlastResult> entry : blastResult.entrySet()) {
+					
+					blastResultFiltered.add(entry.getValue());
 
-					String identifier = entry.getValue().getUniqueIdentifier();
+					/*String identifier = entry.getValue().getUniqueIdentifier();
 
 					if (entry.getValue().getSucestBusca() != null
 							&& !entry.getValue().getSucestBusca().equalsIgnoreCase("")) {
@@ -221,6 +222,7 @@ public class BlastService implements IBlastService {
 						}
 						mapAlreadyIncluded.put(identifier, entry.getValue());
 					}
+					*/
 				}
 
 			}

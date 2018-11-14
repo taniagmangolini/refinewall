@@ -129,7 +129,7 @@ public class RefineService implements IRefineService {
 					
 					List<BlastResult> listBlastExistentOnDatabase = null;
 					
-					//if exist some register on the refine database so the system will use this register
+					//if exists some register on the refine database so the system will use this register
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
 
 						//iterate over register list to get the each  sucest related to the blast result from ncbi
@@ -170,14 +170,13 @@ public class RefineService implements IRefineService {
 
 						// include results without any sucest related. The field sucestBusca is going to
 						// be null
-						//genericSucest.getBlastResults().add(result);
+						genericSucest.getBlastResults().add(result);
 					}
 				}
 
 				if (genericSucest != null) {
 					refineResult.getSucests().add(genericSucest);
 				}
-				System.out.println("######## TESTE => AQUI!" + refineResult.getSucests().size());
 
 			}
 

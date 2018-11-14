@@ -8,6 +8,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -39,7 +40,7 @@ public class BlastResult implements Serializable{
 	private Long id;
 	
 	@JsonBackReference
-	@ManyToOne(cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+	@ManyToOne(fetch=FetchType.LAZY, cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	@JoinColumn
 	private Sucest sucest;
 	
@@ -52,16 +53,16 @@ public class BlastResult implements Serializable{
 	@Column(name = "unique_identifier", length = 500)
 	private String uniqueIdentifier;
 	
-	@Column(name = "entry_name" , length = 1024)
+	@Column(name = "entry_name" , length = 500)
 	private String entryName;
 	
-	@Column(name = "proteinName", length = 1024)
+	@Column(name = "proteinName", length = 500)
 	private String proteinName;
 	
-	@Column(name = "organism_name", length = 1024)
+	@Column(name = "organism_name", length = 500)
 	private String organismName;
 	
-	@Column(name = "organism_identifier", length = 1024)
+	@Column(name = "organism_identifier", length = 500)
 	private String organismIdentifier;
 	
 	@Column(name = "gene_name", length = 1024)
