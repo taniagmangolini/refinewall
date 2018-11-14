@@ -20,4 +20,6 @@ public interface BlastResultRepository extends CrudRepository<BlastResult, Long>
 
 	  List<BlastResult> findByGeneName(String geneName);  
 	  
+	  List<BlastResult> findBySucestBusca(String sucestSearch);  
+	  
 }

@@ -8,6 +8,7 @@ import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -27,7 +28,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Entity
 @Table(name = "sucest")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt", "idBlastJob", "resultBlastContents"})
+@JsonIgnoreProperties(value = {"createdAt", "idBlastJob", "resultBlastContents", "hibernateLazyInitializer", "handler"})
 public class Sucest implements Serializable{
 
 	/**
@@ -54,7 +55,7 @@ public class Sucest implements Serializable{
 	private String path;
 	
 	@JsonManagedReference
-	@OneToMany(mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+	@OneToMany(fetch=FetchType.LAZY, mappedBy = "sucest", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	private List<BlastResult> blastResults;
 	
 	@JsonManagedReference

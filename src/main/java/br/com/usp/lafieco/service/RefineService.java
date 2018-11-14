@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
 import br.com.usp.lafieco.model.BlastResult;
@@ -40,55 +39,43 @@ public class RefineService implements IRefineService {
 
 		refineResult.setSucests(new ArrayList<Sucest>());
 
+		refineResult.setBlastResults(new ArrayList<BlastResult>());
+
 		Sucest sucest = sucestRepository.findByGene(id);
 
 		if (sucest != null) {
-			System.out.println("###sucest found! ");
+
+			List<BlastResult> sucestBlasts = blastRepository.findBySucestBusca(sucest.getGene());
+
+			if (sucestBlasts != null && !sucestBlasts.isEmpty()) {
+				
+				sucest.setBlastResults(sucestBlasts);
+				
+				refineResult.getSucests().add(sucest);
+
+			}
+
 		} else {
-			System.out.println("###sucest not found! ");
-		}
 
-		if (sucest != null) {
-
-			refineResult.getSucests().add(sucest);
-
-		} else {
-
-			List<BlastResult> blastResult = null;
-
-			blastResult = blastRepository.findByUniqueIdentifier(id);
-
-			if (blastResult == null || blastResult.isEmpty()) {
-
-				blastResult = blastRepository.findByGeneName(id);
-			}
-
-			if (blastResult == null || blastResult.isEmpty()) {
-
-				blastResult = blastRepository.findByEntryName(id);
-			}
-
-			if (blastResult == null || blastResult.isEmpty()) {
-
-				blastResult = blastRepository.findByProteinName(id);
-			}
-
-			System.out.println("####blastResult " + blastResult);
-
+			List<BlastResult> blastResult = blastRepository.findByUniqueIdentifier(id);
+			
 			if (blastResult != null && !blastResult.isEmpty()) {
-
-				Map<String, BlastResult> blastResultsWithoutRepeats = new HashMap<String, BlastResult>();
 
 				for (BlastResult result : blastResult) {
 
-					if (blastResultsWithoutRepeats.get(result.getSucestBusca()) == null) {
+					refineResult.getBlastResults().add(result);
 
-						blastResultsWithoutRepeats.put(result.getSucestBusca(), result);
+					sucest = sucestRepository.findByGene(result.getSucestBusca());
 
-						sucest = sucestRepository.findByGene(result.getSucestBusca());
+					if (sucest != null) {
+						
+						sucest.setBlastResults(new ArrayList<BlastResult>());
+						
+						sucest.getBlastResults().add(result);
 
 						refineResult.getSucests().add(sucest);
 					}
+
 				}
 			}
 		}
@@ -122,27 +109,30 @@ public class RefineService implements IRefineService {
 				Sucest genericSucest = null;
 
 				for (BlastResult result : blastResults) {
-					
-					//get all blast results stored on the database by the unique id
-				//	List<BlastResult> listBlastExistentOnDatabase = blastRepository
-				//			.findByUniqueIdentifier(result.getUniqueIdentifier());
-					
+
+					// get all blast results stored on the database by the unique id
+					// List<BlastResult> listBlastExistentOnDatabase = blastRepository
+					// .findByUniqueIdentifier(result.getUniqueIdentifier());
+
 					List<BlastResult> listBlastExistentOnDatabase = null;
-					
-					//if exists some register on the refine database so the system will use this register
+
+					// if exists some register on the refine database so the system will use this
+					// register
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
 
-						//iterate over register list to get the each  sucest related to the blast result from ncbi
+						// iterate over register list to get the each sucest related to the blast result
+						// from ncbi
 						for (BlastResult blastOnDatabase : listBlastExistentOnDatabase) {
-							
-							//insert the sucest gene in the map and create a list to put the blast results related to it
+
+							// insert the sucest gene in the map and create a list to put the blast results
+							// related to it
 							if (blastResultsOnDatabase.get(blastOnDatabase.getSucestBusca()) == null) {
 
 								blastResultsOnDatabase.put(blastOnDatabase.getSucestBusca(),
 										new ArrayList<BlastResult>());
 							}
-							
-							//update the values according to the search on ncbi
+
+							// update the values according to the search on ncbi
 							blastOnDatabase.setEvalue(result.getEvalue());
 							blastOnDatabase.setGaps(result.getGaps());
 							blastOnDatabase.setIdentities(result.getIdentities());
@@ -180,21 +170,21 @@ public class RefineService implements IRefineService {
 
 			}
 
-		/*	if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
-				
-				for (Map.Entry<String, List<BlastResult>> sucestAndBlastRelated : blastResultsOnDatabase.entrySet()) {
-					
-					Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());	
-					
-					sucest.setBlastResults(new ArrayList<BlastResult>());
-					
-					for(BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
-						sucest.getBlastResults().add(sucestBlast);
-					}
-					
-					refineResult.getSucests().add(sucest);
-				}
-			}*/
+			/*
+			 * if (blastResultsOnDatabase != null && !blastResultsOnDatabase.isEmpty()) {
+			 * 
+			 * for (Map.Entry<String, List<BlastResult>> sucestAndBlastRelated :
+			 * blastResultsOnDatabase.entrySet()) {
+			 * 
+			 * Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());
+			 * 
+			 * sucest.setBlastResults(new ArrayList<BlastResult>());
+			 * 
+			 * for(BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
+			 * sucest.getBlastResults().add(sucestBlast); }
+			 * 
+			 * refineResult.getSucests().add(sucest); } }
+			 */
 		}
 
 		return refineResult;
