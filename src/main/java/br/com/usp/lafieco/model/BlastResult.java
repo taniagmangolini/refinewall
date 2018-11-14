@@ -27,7 +27,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name = "blast_result")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt"})
+@JsonIgnoreProperties(value = {"createdAt", "sucest"})
 public class BlastResult implements Serializable{
 
 	/**
