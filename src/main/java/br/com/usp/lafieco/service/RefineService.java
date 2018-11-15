@@ -124,7 +124,7 @@ public class RefineService implements IRefineService {
 				
 				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(16,BigDecimal.ROUND_DOWN);
 				
-				Integer limitSize = 10;
+				Integer limitSize = 20;
 				
 				for (BlastResult result : blastResults) {
 
@@ -158,7 +158,7 @@ public class RefineService implements IRefineService {
 								blastResultsOnDatabase.put(register.getSucestBusca(), new ArrayList<BlastResult>());
 							}
 
-							blastResultsOnDatabase.get(register.getSucestBusca()).add(register);
+							blastResultsOnDatabase.get(register.getSucestBusca()).add(result);
 						}
 
 					} else {
@@ -190,13 +190,22 @@ public class RefineService implements IRefineService {
 
 					Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());
 
-					sucest.setBlastResults(new ArrayList<BlastResult>());
+					sucest.setBlastResults(new ArrayList<BlastResult>());		
 
 					for (BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
-						sucest.getBlastResults().add(sucestBlast);
+						
+						BlastResult blastCopy = new BlastResult();
+						blastCopy.setEntryName(sucestBlast.getEntryName());
+						blastCopy.setEvalue(sucestBlast.getEvalue());
+						blastCopy.setScore(sucestBlast.getScore());
+						blastCopy.setProteinName(sucestBlast.getProteinName());
+						blastCopy.setSucestBusca(sucest.getGene());
+						
+						sucest.getBlastResults().add(blastCopy);
 					}
-
+					
 					refineResult.getSucests().add(sucest);
+
 				}
 			}
 
