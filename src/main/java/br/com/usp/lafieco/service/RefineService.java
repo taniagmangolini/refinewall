@@ -1,5 +1,6 @@
 package br.com.usp.lafieco.service;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,6 +33,8 @@ public class RefineService implements IRefineService {
 
 	@Autowired
 	private IBlastService blastService;
+	
+
 
 	public RefineResultVO refineById(String id, String email) {
 
@@ -116,19 +119,37 @@ public class RefineService implements IRefineService {
 				blastResultsOnDatabase = new HashMap<String, List<BlastResult>>();
 				 
 				Sucest genericSucest = null;
-
+				
+				Integer count = 0;
+				
+				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(16,BigDecimal.ROUND_DOWN);
+				
+				Integer limitSize = 10;
+				
 				for (BlastResult result : blastResults) {
 
 					List<BlastResult> listBlastExistentOnDatabase = null;
+					
+					BigDecimal evalue = null;
+					
+					try {
+						 evalue = new BigDecimal(result.getEvalue()).setScale(16,BigDecimal.ROUND_DOWN);
+					} catch (RuntimeException e) {
+						
+					}
 
-					if (result.getUniqueIdentifier() != null && !result.getUniqueIdentifier().equalsIgnoreCase("")) {
+					if (evalue != null && evalue.compareTo(limitEvalue) < 1 && count <= limitSize && 
+							result.getUniqueIdentifier() != null && !result.getUniqueIdentifier().equalsIgnoreCase("")) {
 
 						listBlastExistentOnDatabase = blastRepository
 								.findByUniqueIdentifier(result.getUniqueIdentifier());
+						
 					}
 
 					// iterate over the blast registers on the the refine database
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
+						
+						count = count + 1;
 
 						for (BlastResult register : listBlastExistentOnDatabase) {
 
