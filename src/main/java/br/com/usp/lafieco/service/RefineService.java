@@ -33,8 +33,6 @@ public class RefineService implements IRefineService {
 
 	@Autowired
 	private IBlastService blastService;
-	
-
 
 	public RefineResultVO refineById(String id, String email) {
 
@@ -117,38 +115,39 @@ public class RefineService implements IRefineService {
 			if (blastResults != null && !blastResults.isEmpty()) {
 
 				blastResultsOnDatabase = new HashMap<String, List<BlastResult>>();
-				 
+
 				Sucest genericSucest = null;
-				
+
 				Integer count = 0;
-				
-				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(16,BigDecimal.ROUND_DOWN);
-				
+
+				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(16, BigDecimal.ROUND_DOWN);
+
 				Integer limitSize = 20;
-				
+
 				for (BlastResult result : blastResults) {
 
 					List<BlastResult> listBlastExistentOnDatabase = null;
-					
+
 					BigDecimal evalue = null;
-					
+
 					try {
-						 evalue = new BigDecimal(result.getEvalue()).setScale(16,BigDecimal.ROUND_DOWN);
+						evalue = new BigDecimal(result.getEvalue()).setScale(16, BigDecimal.ROUND_DOWN);
 					} catch (RuntimeException e) {
-						
+
 					}
 
-					if (evalue != null && evalue.compareTo(limitEvalue) < 1 && count <= limitSize && 
-							result.getUniqueIdentifier() != null && !result.getUniqueIdentifier().equalsIgnoreCase("")) {
+					if (evalue != null && evalue.compareTo(limitEvalue) < 1 && count <= limitSize
+							&& result.getUniqueIdentifier() != null
+							&& !result.getUniqueIdentifier().equalsIgnoreCase("")) {
 
 						listBlastExistentOnDatabase = blastRepository
 								.findByUniqueIdentifier(result.getUniqueIdentifier());
-						
+
 					}
 
 					// iterate over the blast registers on the the refine database
 					if (listBlastExistentOnDatabase != null && !listBlastExistentOnDatabase.isEmpty()) {
-						
+
 						count = count + 1;
 
 						for (BlastResult register : listBlastExistentOnDatabase) {
@@ -190,20 +189,33 @@ public class RefineService implements IRefineService {
 
 					Sucest sucest = sucestRepository.findByGene(sucestAndBlastRelated.getKey());
 
-					sucest.setBlastResults(new ArrayList<BlastResult>());		
+					sucest.setBlastResults(new ArrayList<BlastResult>());
 
 					for (BlastResult sucestBlast : sucestAndBlastRelated.getValue()) {
+
+						Boolean exists = false;
+						for (BlastResult blastR : sucest.getBlastResults()) {
+							if (blastR.getUniqueIdentifier().equalsIgnoreCase(sucestBlast.getUniqueIdentifier())) {
+								exists = true;
+								break;
+							}
+						}
 						
-						BlastResult blastCopy = new BlastResult();
-						blastCopy.setEntryName(sucestBlast.getEntryName());
-						blastCopy.setEvalue(sucestBlast.getEvalue());
-						blastCopy.setScore(sucestBlast.getScore());
-						blastCopy.setProteinName(sucestBlast.getProteinName());
-						blastCopy.setSucestBusca(sucest.getGene());
-						
-						sucest.getBlastResults().add(blastCopy);
+						if (!exists) {
+							
+							BlastResult blastCopy = new BlastResult();
+							blastCopy.setEntryName(sucestBlast.getEntryName());
+							blastCopy.setEvalue(sucestBlast.getEvalue());
+							blastCopy.setScore(sucestBlast.getScore());
+							blastCopy.setProteinName(sucestBlast.getProteinName());
+							blastCopy.setSucestBusca(sucest.getGene());
+							blastCopy.setUniqueIdentifier(sucestBlast.getUniqueIdentifier());
+							
+							sucest.getBlastResults().add(blastCopy);
+
+						}
 					}
-					
+
 					refineResult.getSucests().add(sucest);
 
 				}
