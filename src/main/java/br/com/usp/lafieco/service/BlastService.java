@@ -319,15 +319,6 @@ public class BlastService implements IBlastService {
 							messageSource.getMessage("messages.errorProcessFile", new Object[] {}, Locale.US));
 				}
 
-				/*if (mapResult != null && !mapResult.isEmpty()) {
-
-					Iterator it = mapResult.entrySet().iterator();
-
-					for (Map.Entry<String, BlastResult> entry : mapResult.entrySet()) {
-						
-						this.saveBlastResultForSucest(entry.getValue(), sucests.get(entry.getValue().getSucestBusca()));
-					}
-				}*/
 			}
 		}
 	}

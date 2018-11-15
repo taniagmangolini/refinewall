@@ -79,7 +79,7 @@ public class FileService implements IFileService {
 					EXPORT_FOLDER + System.getProperty("file.separator") + folder + System.getProperty("file.separator")
 							+ BLAST_RESULT_FOLDER + System.getProperty("file.separator") + fileName);
 
-			System.out.println("fileToRead " + fileToRead);
+			//System.out.println("fileToRead " + fileToRead);
 
 			lines = Files.readAllLines(Paths.get(fileToRead.getPath()));
 

@@ -122,7 +122,7 @@ public class RefineService implements IRefineService {
 
 				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(20, BigDecimal.ROUND_HALF_EVEN);
 
-				Integer limitSize = 30;
+				Integer limitSize = 50;
 
 				for (BlastResult result : blastResults) {
 
@@ -178,7 +178,8 @@ public class RefineService implements IRefineService {
 					}
 				}
 
-				if (genericSucest != null) {
+				
+				if (genericSucest != null && (blastResultsOnDatabase == null || blastResultsOnDatabase.isEmpty() ) ) {
 
 					refineResult.getSucests().add(genericSucest);
 				}
