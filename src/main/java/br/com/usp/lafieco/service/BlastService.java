@@ -145,7 +145,7 @@ public class BlastService implements IBlastService {
 
 			blastResult = restTemplate.getForObject(url, String.class);
 
-			System.out.println("blast result: " + blastResult);
+			//System.out.println("blast result: " + blastResult);
 
 		} catch (RuntimeException e) {
 
@@ -199,30 +199,6 @@ public class BlastService implements IBlastService {
 					
 					blastResultFiltered.add(entry.getValue());
 
-					/*String identifier = entry.getValue().getUniqueIdentifier();
-
-					if (entry.getValue().getSucestBusca() != null
-							&& !entry.getValue().getSucestBusca().equalsIgnoreCase("")) {
-						identifier += entry.getValue().getSucestBusca();
-					}
-
-					List<BlastResult> result = blastRepository
-							.findByUniqueIdentifier(entry.getValue().getUniqueIdentifier());
-
-					if (mapAlreadyIncluded.get(identifier) == null) {
-						// get all blast results that have some sucests related in the database
-						if (result != null && !result.isEmpty()) {
-
-							blastResultFiltered.addAll(result);
-
-						} else {
-							// if there isn not sucest related, add to the list the same way, but sucest
-							// object will be null
-							blastResultFiltered.add(entry.getValue());
-						}
-						mapAlreadyIncluded.put(identifier, entry.getValue());
-					}
-					*/
 				}
 
 			}

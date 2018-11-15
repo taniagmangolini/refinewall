@@ -120,9 +120,9 @@ public class RefineService implements IRefineService {
 
 				Integer count = 0;
 
-				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(16, BigDecimal.ROUND_DOWN);
+				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(20, BigDecimal.ROUND_HALF_EVEN);
 
-				Integer limitSize = 20;
+				Integer limitSize = 30;
 
 				for (BlastResult result : blastResults) {
 
@@ -131,7 +131,7 @@ public class RefineService implements IRefineService {
 					BigDecimal evalue = null;
 
 					try {
-						evalue = new BigDecimal(result.getEvalue()).setScale(16, BigDecimal.ROUND_DOWN);
+						evalue = new BigDecimal(result.getEvalue()).setScale(20, BigDecimal.ROUND_HALF_EVEN);
 					} catch (RuntimeException e) {
 
 					}
@@ -172,7 +172,9 @@ public class RefineService implements IRefineService {
 						}
 
 						// Also include results without any sucest related.
-						genericSucest.getBlastResults().add(result);
+						if(result.getUniqueIdentifier() != null) {
+							genericSucest.getBlastResults().add(result);
+						}
 					}
 				}
 
@@ -222,6 +224,8 @@ public class RefineService implements IRefineService {
 			}
 
 		}
+		
+		System.out.println("refine by seq completed");
 
 		return refineResult;
 	}
