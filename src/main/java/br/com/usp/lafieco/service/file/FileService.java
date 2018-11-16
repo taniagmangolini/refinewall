@@ -309,7 +309,7 @@ public class FileService implements IFileService {
 
 		try {
 
-			File file = ResourceUtils.getFile("classpath:blast_files/" + sucestGene + TXT);
+			File file = ResourceUtils.getFile("classpath:blast_files"  + System.getProperty("file.separator") + sucestGene + TXT);
 
 			//Read File Content
 			content = new String(Files.readAllBytes(file.toPath()));
