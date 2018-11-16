@@ -1,10 +1,6 @@
 package br.com.usp.lafieco.controller;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
@@ -16,10 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.usp.lafieco.exception.CustomException;
-import br.com.usp.lafieco.model.BlastResult;
-import br.com.usp.lafieco.model.Sucest;
-import br.com.usp.lafieco.model.SucestSequence;
-import br.com.usp.lafieco.service.interfaces.IBlastService;
 import br.com.usp.lafieco.service.interfaces.IFileService;
 
 @RestController
@@ -30,8 +22,8 @@ public class FileController {
 	@Autowired
 	private IFileService fileService;
 	
-	@Autowired
-	private IBlastService blastService;
+	//@Autowired
+	//private IBlastService blastService;
 
 	@Autowired
 	private MessageSource messageSource;
