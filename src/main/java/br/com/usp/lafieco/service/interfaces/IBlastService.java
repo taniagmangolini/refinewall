@@ -15,9 +15,9 @@ public interface IBlastService {
 
 	String getBlastResult(String jobId);
 
-	void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable);
+	//void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable);
 
-	void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest);
+	//void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest);
 	
 	List<BlastResult> runBlastSequence(String sequence, String email);
 

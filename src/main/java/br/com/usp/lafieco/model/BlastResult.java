@@ -27,7 +27,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Table(name = "blast_result")
 @EntityListeners(AuditingEntityListener.class)
-@JsonIgnoreProperties(value = {"createdAt", "sucest", "hibernateLazyInitializer", "handler"})
+@JsonIgnoreProperties(value = {"createdAt", "newVersionAvailable", "sucest", "gaps", "db","positives", "length", "organismName","organismIdentifier", "geneName", "proteinExistence", "identities" ,"organismIdentifier", "hibernateLazyInitializer", "handler"})
 public class BlastResult implements Serializable{
 
 	/**
@@ -43,9 +43,6 @@ public class BlastResult implements Serializable{
 	@ManyToOne(fetch=FetchType.LAZY, cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 	@JoinColumn
 	private Sucest sucest;
-	
-	@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
-	private SearchHistory searchHistory;
 	
 	@Column(name = "db")
 	private String db;
@@ -282,13 +279,6 @@ public class BlastResult implements Serializable{
 		this.sucestBusca = sucestBusca;
 	}
 
-	public SearchHistory getSearchHistory() {
-		return searchHistory;
-	}
-
-	public void setSearchHistory(SearchHistory searchHistory) {
-		this.searchHistory = searchHistory;
-	}
 
 	public Boolean getNewVersionAvailable() {
 		return newVersionAvailable;

@@ -26,10 +26,15 @@ public class UniprotService implements IUniprotService {
 
 	private final String BASE_URL = "https://www.uniprot.org/uniprot/?query=";
 
+    /**
+     * Search for a specific uniprot entryName 
+     *
+     * @param idProtein  id to be searched
+     * @return UniprotVO object that contains the uniprot data.
+     */
 	@Override
 	public UniprotVO getUniprot(String idProtein) {
 
-		System.out.println("GENE PRODUCTS FOR =>>>> " + idProtein);
 		UniprotVO uniprotVO = null;
 		
 		if (idProtein != null) {
@@ -61,6 +66,12 @@ public class UniprotService implements IUniprotService {
 		return uniprotVO;
 	}
 
+    /**
+     * Mount a uniprot object with the relevant data of an specific uniprot 
+     *
+     * @param Uniprot  uniprot
+     * @return UniprotVO object that contains the relevant uniprot data.
+     */
 	private UniprotVO getUniprotVO(Uniprot uniprot) {
 
 		UniprotVO uniprotVO = new UniprotVO();

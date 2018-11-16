@@ -34,6 +34,14 @@ public class RefineService implements IRefineService {
 	@Autowired
 	private IBlastService blastService;
 
+
+    /**
+     * Search sucest gene or unique identifier on refine database
+     *
+     * @param id  id to be searched
+     * @param email user's email
+     * @return refineResult object that contains a sucest list with the blast results associated.
+     */
 	public RefineResultVO refineById(String id, String email) {
 
 		RefineResultVO refineResult = new RefineResultVO();
@@ -84,9 +92,23 @@ public class RefineService implements IRefineService {
 		return refineResult;
 	}
 
+
+    /**
+     * Search a specific sucest gene protein sequence  on refine database.
+     * If the sucest is not stored on the refine database the system will perform a blast
+     * to return the proteins associated to the sequence, and after that it will
+     * find sucest genes related to the top 25 first blast results. The other results will appear
+     * without any sucest gene associated and the user will have to search individually each unique identifier 
+     * that he or she wants to see the sucests related.
+     * @param sequence  sequence to be searched
+     * @param email user's email. A valid email is necessary to perform a blast on ncbi.
+     * @return refineResult 
+     */
 	public RefineResultVO refineSequence(String sequence, String email) {
 
 		RefineResultVO refineResult = new RefineResultVO();
+		
+		Sucest genericSucest = null;
 
 		refineResult.setSucests(new ArrayList<Sucest>());
 
@@ -116,13 +138,11 @@ public class RefineService implements IRefineService {
 
 				blastResultsOnDatabase = new HashMap<String, List<BlastResult>>();
 
-				Sucest genericSucest = null;
-
 				Integer count = 0;
 
 				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(20, BigDecimal.ROUND_HALF_EVEN);
 
-				Integer limitSize = 50;
+				Integer limitSize = 10;
 
 				for (BlastResult result : blastResults) {
 
@@ -176,13 +196,7 @@ public class RefineService implements IRefineService {
 							genericSucest.getBlastResults().add(result);
 						}
 					}
-				}
-
-				
-				if (genericSucest != null && (blastResultsOnDatabase == null || blastResultsOnDatabase.isEmpty() ) ) {
-
-					refineResult.getSucests().add(genericSucest);
-				}
+				}	
 
 			}
 
@@ -222,6 +236,11 @@ public class RefineService implements IRefineService {
 					refineResult.getSucests().add(sucest);
 
 				}
+			}
+			
+			if (genericSucest != null ) {
+
+				refineResult.getSucests().add(genericSucest);
 			}
 
 		}

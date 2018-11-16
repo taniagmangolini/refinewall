@@ -76,7 +76,8 @@ public class BlastController {
 
 		return result;
 	}
-
+	
+	/*
 	@CrossOrigin
 	@PostMapping("/multiple")
 	@ResponseBody
@@ -84,6 +85,6 @@ public class BlastController {
 			@RequestParam("email") String email, @RequestParam("blastFilesAvailable") Boolean blastFilesAvailable) {
 		
 		blastService.runBlastMultipleSequences(file, email, blastFilesAvailable);
-	}
+	}*/
 
 }

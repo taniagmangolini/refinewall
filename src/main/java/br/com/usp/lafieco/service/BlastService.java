@@ -56,6 +56,12 @@ public class BlastService implements IBlastService {
 	@Autowired
 	private BlastResultRepository blastRepository;
 
+    /**
+     * Perform a blast 
+     *
+     * @param sequence  sequence to process
+     * @return data blast result
+     */
 	public String runBlast(String sequence, String email) {
 
 		String data = "";
@@ -99,6 +105,12 @@ public class BlastService implements IBlastService {
 		return data;
 	}
 
+    /**
+     * Check the status of a blast process
+     *
+     * @param jobId  job's id
+     * @return status job's status
+     */
 	public String checkBlastStatus(String jobId) {
 
 		String url = BASE_URL + STATUS_BLAST_JOB + jobId;
@@ -127,6 +139,12 @@ public class BlastService implements IBlastService {
 		return status;
 	}
 
+    /**
+     * Get the blast job result
+     *
+     * @param jobId  job's id
+     * @return blastResult blast result
+     */
 	public String getBlastResult(String jobId) {
 
 		String url = BASE_URL + RESULT_BLAST_JOB + jobId + OUTPUT_TEXT_FORMAT;
@@ -155,7 +173,14 @@ public class BlastService implements IBlastService {
 
 		return blastResult;
 	}
-
+	
+    /**
+     * Perfom a blast search, get the blast result and process it.
+     *
+     * @param sequence  sequence to be searched
+     * @param email  email to use to use to process the blast
+     * @return List<BlastResult> a list of the processed blast results.
+     */
 	public List<BlastResult> runBlastSequence(String sequence, String email) {
 
 		Integer attempts = 0;
@@ -208,6 +233,7 @@ public class BlastService implements IBlastService {
 		return blastResultFiltered;
 	}
 
+	/*
 	public void runBlastMultipleSequences(MultipartFile file, String email, Boolean blastFilesAvailable) {
 
 		Map<String, Sucest> sucests = fileService.processMultipleSequenceFile(file);
@@ -342,5 +368,5 @@ public class BlastService implements IBlastService {
 			}
 
 		}
-	}
+	}*/
 }

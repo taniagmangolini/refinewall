@@ -1,34 +1,16 @@
 package br.com.usp.lafieco.service.file;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.math.BigDecimal;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
-import org.springframework.web.multipart.MultipartFile;
 
-import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
-import br.com.usp.lafieco.model.Sucest;
-import br.com.usp.lafieco.model.SucestSequence;
 import br.com.usp.lafieco.repository.BlastResultRepository;
 import br.com.usp.lafieco.repository.SucestRepository;
 import br.com.usp.lafieco.service.interfaces.IFileService;
@@ -49,17 +31,8 @@ public class FileService implements IFileService {
 
 	private final Double LIMIT_RESULTS =  0.05;
 
-	// LINUX
 	private static String EXPORT_FOLDER = System.getProperty("file.separator") + "tmp"
 			+ System.getProperty("file.separator") + "refine_export";
-
-	// WINDOWS
-	/*
-	 * private static String EXPORT_FOLDER = "C:"+
-	 * System.getProperty("file.separator") + "tmp" +
-	 * System.getProperty("file.separator") + "refine_export";
-	 * 
-	 */
 
 	private static String BLAST_JOBS_PREFIX = "BLAST_JOBS_";
 
@@ -69,197 +42,6 @@ public class FileService implements IFileService {
 
 	private static String TXT = ".txt";
 
-	public List<String> readFile(String fileName, String folder) {
-
-		List<String> lines = null;
-
-		try {
-
-			File fileToRead = new File(
-					EXPORT_FOLDER + System.getProperty("file.separator") + folder + System.getProperty("file.separator")
-							+ BLAST_RESULT_FOLDER + System.getProperty("file.separator") + fileName);
-
-			//System.out.println("fileToRead " + fileToRead);
-
-			lines = Files.readAllLines(Paths.get(fileToRead.getPath()));
-
-		} catch (IOException e) {
-			e.printStackTrace();
-			throw new CustomException(
-					messageSource.getMessage("messages.errorReadFile", new Object[] { fileName, folder }, Locale.US));
-		}
-
-		return lines;
-	}
-
-	public Map<String, Sucest> processMultipleSequenceFile(MultipartFile file) {
-
-		List<String> sequences = new ArrayList<String>();
-
-		Map<String, Sucest> sequencesMap = new HashMap<String, Sucest>();
-
-		InputStream inputFS;
-
-		try {
-
-			inputFS = file.getInputStream();
-
-			sequences = processCSVFile(inputFS);
-
-			for (int i = 0; i < sequences.size(); i++) {
-
-				String[] idAndSequence = null;
-
-				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
-
-					idAndSequence = sequences.get(i).split("#");
-
-					Sucest sucest = new Sucest();
-
-					sucest.setGene(idAndSequence[0].trim());
-
-					sucest.setDescription(idAndSequence[1].trim());
-
-					List<SucestSequence> sucestSequences = new ArrayList<SucestSequence>();
-					SucestSequence sucestSequence = new SucestSequence();
-					sucestSequence.setSequence(idAndSequence[2].trim());
-					sucestSequence.setSucest(sucest);
-					sucestSequences.add(sucestSequence);
-					sucest.setSequences(sucestSequences);
-
-					sequencesMap.put(sucest.getGene(), sucest);
-				}
-			}
-
-		} catch (IOException e) {
-
-			e.printStackTrace();
-			throw new CustomException(messageSource.getMessage("messages.errorInputFile", new Object[] {}, Locale.US));
-		}
-
-		return sequencesMap;
-	}
-
-	public List<String> processCSVFile(InputStream inputFS) {
-
-		List<String> sequences = new ArrayList<String>();
-
-		try {
-
-			BufferedReader reader = new BufferedReader(new InputStreamReader(inputFS));
-
-			String line;
-
-			StringBuilder fileContent = new StringBuilder();
-
-			while ((line = reader.readLine()) != null) {
-
-				fileContent.append(line);
-			}
-
-			String[] sequencesArray = fileContent.toString().split(SEQUENCE_SEPARATOR);
-
-			sequences.addAll(Arrays.asList(sequencesArray));
-
-			reader.close();
-
-		} catch (IOException e) {
-			throw new CustomException(messageSource.getMessage("messages.errorCSVFile",
-					new Object[] { e.getMessage(), e.getCause() }, Locale.US));
-		}
-
-		return sequences;
-	}
-
-	public Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds,
-			Map<String, Sucest> sucestJobs, String folderName) {
-
-		Map<String, String> errors = null;
-
-		if (jobResult != null && !jobResult.isEmpty()) {
-
-			for (String jobId : jobIds) {
-
-				Sucest sucest = sucestJobs.get(jobId);
-
-				if (jobResult.get(jobId) != null && sucest != null && sucest.getGene() != null) {
-
-					// export the file
-					this.exportBlastResultToFile(jobId, sucest.getGene(), jobResult.get(jobId), errors, folderName);
-
-				} else {
-
-					if (errors == null) {
-						errors = new HashMap<String, String>();
-					}
-					errors.put(jobId, messageSource.getMessage("messages.errorToExportJobWithoutResult",
-							new Object[] {}, Locale.US));
-				}
-			}
-		}
-		return errors;
-	}
-
-	public String exportBlastJobsToFile(List<String> jobIds, String folderName) {
-
-		String fileName = null;
-
-		if (jobIds != null && !jobIds.isEmpty()) {
-
-			fileName = BLAST_JOBS_PREFIX + folderName + "_" + Calendar.getInstance().getTimeInMillis() + TXT;
-
-			try {
-
-				FileWriter writer = new FileWriter(EXPORT_FOLDER + System.getProperty("file.separator") + folderName
-						+ System.getProperty("file.separator") + fileName);
-
-				String collect = jobIds.stream().collect(Collectors.joining(","));
-
-				System.out.println(collect);
-
-				writer.write(collect);
-
-				writer.close();
-			} catch (IOException e) {
-				fileName = null;
-				throw new CustomException(messageSource.getMessage("messages.exportJobIds",
-						new Object[] { e.getMessage() + " - " + e.getCause() }, Locale.US));
-			}
-		}
-
-		return fileName;
-	}
-
-	public void exportBlastResultToFile(String jobId, String gene, String export, Map<String, String> errors,
-			String folderName) {
-
-		if (export != null && !export.trim().equalsIgnoreCase("")) {
-
-			String fileName = gene + TXT;
-
-			try {
-
-				String resultFolder = this.getFolderForSequenceFile(EXPORT_FOLDER + System.getProperty("file.separator")
-						+ folderName + System.getProperty("file.separator") + BLAST_RESULT_FOLDER, true);
-
-				if (resultFolder != null) {
-
-					Files.write(Paths.get(resultFolder + System.getProperty("file.separator") + fileName),
-							export.getBytes());
-				}
-
-			} catch (IOException e) {
-				System.out.println("ERRORS = > " + jobId + " - " + e.getMessage() + " - " + e.getCause());
-				errors.put(jobId + "-" + gene, messageSource.getMessage("messages.errorToExport",
-						new Object[] { e.getMessage() + " - " + e.getCause() }, Locale.US));
-			}
-
-		} else {
-
-			errors.put(jobId + "-" + gene,
-					messageSource.getMessage("messages.errorExportEmpty", new Object[] { jobId }, Locale.US));
-		}
-	}
 
 	public Map<String, BlastResult> processBlastResultFile(List<String> lines) {
 		return processBlastResultFile(null, null, lines, true);
@@ -270,11 +52,8 @@ public class FileService implements IFileService {
 	}
 
 	/**
-	 * Sample Item to process: >TR:C5Z0W2_SORBI C5Z0W2 Uncharacterized protein
-	 * OS=Sorghum bicolor OX=4558 GN=SORBI_3009G194900 PE=4 SV=1 Length=229
-	 * 
-	 * Score = 319 bits (818), Expect = 1e-110 Identities = 153/163 (94%), Positives
-	 * = 157/163 (96%), Gaps = 1/163 (1%)
+	 * Sample Item to process: 
+	 * TR:A0A0A9J909_ARUDO  A0A0A9J909 Uncharacterized protein OS=Arundo...  94.4    1e-23
 	 * 
 	 * @param jobId
 	 * @param gene
@@ -288,10 +67,10 @@ public class FileService implements IFileService {
 
 		try {
 
-			if (lines == null) {
+			/*if (lines == null) {
 
 				lines = this.readFile(gene + TXT, folderName);
-			}
+			}*/
 
 			if (lines != null && !lines.isEmpty()) {
 
@@ -515,6 +294,8 @@ public class FileService implements IFileService {
 		return mapResult;
 	}
 
+
+	/*
 	public void exportErrors(Map<String, String> errors, String folderName) {
 
 		if (errors != null && !errors.isEmpty()) {
@@ -537,7 +318,8 @@ public class FileService implements IFileService {
 			}
 		}
 	}
-
+	
+	
 	public void deleteTxtFile(String fileName, String folderName) {
 		try {
 
@@ -555,6 +337,7 @@ public class FileService implements IFileService {
 			e.printStackTrace();
 		}
 	}
+	
 
 	public File checkIfExistsBlastJobFile(String sequencesFolder) {
 
@@ -563,7 +346,8 @@ public class FileService implements IFileService {
 		return checkIfExistsTxtFile(EXPORT_FOLDER + System.getProperty("file.separator") + sequencesFolder
 				+ System.getProperty("file.separator") + fileName);
 	}
-
+	
+	
 	public File checkIfExistsTxtFile(String fileToCheck) {
 
 		File file = null;
@@ -620,16 +404,12 @@ public class FileService implements IFileService {
 					System.out.println("Failed to create directory!");
 				}
 			}
-
-			// if (file.exists() && fullName) {
-			// sequencesFileFolder = file.getAbsolutePath();
-			// }
-
 		}
 
 		return sequencesFileFolder;
 	}
-
+	*/
+/*
 	public Map<String, BlastResult> processSucestBlastResultFiles(String folderName, Map<String, Sucest> sucests) {
 
 		Map<String, BlastResult> mapResult = null;
@@ -680,8 +460,8 @@ public class FileService implements IFileService {
 		}
 		return mapResult;
 	}
-
-	public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
+*/
+	/*public void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest) {
 		
 		if (blastResult != null && blastResult.getUniqueIdentifier() != null && blastResult.getSucestBusca() != null
 				&& blastRepository.findByUniqueIdentifierAndSucestBusca(blastResult.getUniqueIdentifier(),
@@ -700,5 +480,197 @@ public class FileService implements IFileService {
 			}
 
 		}
+	}*/
+	
+	/*
+	public List<String> readFile(String fileName, String folder) {
+
+		List<String> lines = null;
+
+		try {
+
+			File fileToRead = new File(
+					EXPORT_FOLDER + System.getProperty("file.separator") + folder + System.getProperty("file.separator")
+							+ BLAST_RESULT_FOLDER + System.getProperty("file.separator") + fileName);
+
+			lines = Files.readAllLines(Paths.get(fileToRead.getPath()));
+
+		} catch (IOException e) {
+			e.printStackTrace();
+			throw new CustomException(
+					messageSource.getMessage("messages.errorReadFile", new Object[] { fileName, folder }, Locale.US));
+		}
+
+		return lines;
 	}
+
+	public Map<String, Sucest> processMultipleSequenceFile(MultipartFile file) {
+
+		List<String> sequences = new ArrayList<String>();
+
+		Map<String, Sucest> sequencesMap = new HashMap<String, Sucest>();
+
+		InputStream inputFS;
+
+		try {
+
+			inputFS = file.getInputStream();
+
+			sequences = processCSVFile(inputFS);
+
+			for (int i = 0; i < sequences.size(); i++) {
+
+				String[] idAndSequence = null;
+
+				if (sequences != null && !sequences.get(i).trim().equalsIgnoreCase("")) {
+
+					idAndSequence = sequences.get(i).split("#");
+
+					Sucest sucest = new Sucest();
+
+					sucest.setGene(idAndSequence[0].trim());
+
+					sucest.setDescription(idAndSequence[1].trim());
+
+					List<SucestSequence> sucestSequences = new ArrayList<SucestSequence>();
+					SucestSequence sucestSequence = new SucestSequence();
+					sucestSequence.setSequence(idAndSequence[2].trim());
+					sucestSequence.setSucest(sucest);
+					sucestSequences.add(sucestSequence);
+					sucest.setSequences(sucestSequences);
+
+					sequencesMap.put(sucest.getGene(), sucest);
+				}
+			}
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+			throw new CustomException(messageSource.getMessage("messages.errorInputFile", new Object[] {}, Locale.US));
+		}
+
+		return sequencesMap;
+	}
+
+	public List<String> processCSVFile(InputStream inputFS) {
+
+		List<String> sequences = new ArrayList<String>();
+
+		try {
+
+			BufferedReader reader = new BufferedReader(new InputStreamReader(inputFS));
+
+			String line;
+
+			StringBuilder fileContent = new StringBuilder();
+
+			while ((line = reader.readLine()) != null) {
+
+				fileContent.append(line);
+			}
+
+			String[] sequencesArray = fileContent.toString().split(SEQUENCE_SEPARATOR);
+
+			sequences.addAll(Arrays.asList(sequencesArray));
+
+			reader.close();
+
+		} catch (IOException e) {
+			throw new CustomException(messageSource.getMessage("messages.errorCSVFile",
+					new Object[] { e.getMessage(), e.getCause() }, Locale.US));
+		}
+
+		return sequences;
+	}
+
+	public Map<String, String> exportBlastResultMapToFile(Map<String, String> jobResult, List<String> jobIds,
+			Map<String, Sucest> sucestJobs, String folderName) {
+
+		Map<String, String> errors = null;
+
+		if (jobResult != null && !jobResult.isEmpty()) {
+
+			for (String jobId : jobIds) {
+
+				Sucest sucest = sucestJobs.get(jobId);
+
+				if (jobResult.get(jobId) != null && sucest != null && sucest.getGene() != null) {
+
+					// export the file
+					this.exportBlastResultToFile(jobId, sucest.getGene(), jobResult.get(jobId), errors, folderName);
+
+				} else {
+
+					if (errors == null) {
+						errors = new HashMap<String, String>();
+					}
+					errors.put(jobId, messageSource.getMessage("messages.errorToExportJobWithoutResult",
+							new Object[] {}, Locale.US));
+				}
+			}
+		}
+		return errors;
+	}
+
+	public String exportBlastJobsToFile(List<String> jobIds, String folderName) {
+
+		String fileName = null;
+
+		if (jobIds != null && !jobIds.isEmpty()) {
+
+			fileName = BLAST_JOBS_PREFIX + folderName + "_" + Calendar.getInstance().getTimeInMillis() + TXT;
+
+			try {
+
+				FileWriter writer = new FileWriter(EXPORT_FOLDER + System.getProperty("file.separator") + folderName
+						+ System.getProperty("file.separator") + fileName);
+
+				String collect = jobIds.stream().collect(Collectors.joining(","));
+
+				System.out.println(collect);
+
+				writer.write(collect);
+
+				writer.close();
+			} catch (IOException e) {
+				fileName = null;
+				throw new CustomException(messageSource.getMessage("messages.exportJobIds",
+						new Object[] { e.getMessage() + " - " + e.getCause() }, Locale.US));
+			}
+		}
+
+		return fileName;
+	}
+
+	public void exportBlastResultToFile(String jobId, String gene, String export, Map<String, String> errors,
+			String folderName) {
+
+		if (export != null && !export.trim().equalsIgnoreCase("")) {
+
+			String fileName = gene + TXT;
+
+			try {
+
+				String resultFolder = this.getFolderForSequenceFile(EXPORT_FOLDER + System.getProperty("file.separator")
+						+ folderName + System.getProperty("file.separator") + BLAST_RESULT_FOLDER, true);
+
+				if (resultFolder != null) {
+
+					Files.write(Paths.get(resultFolder + System.getProperty("file.separator") + fileName),
+							export.getBytes());
+				}
+
+			} catch (IOException e) {
+				System.out.println("ERRORS = > " + jobId + " - " + e.getMessage() + " - " + e.getCause());
+				errors.put(jobId + "-" + gene, messageSource.getMessage("messages.errorToExport",
+						new Object[] { e.getMessage() + " - " + e.getCause() }, Locale.US));
+			}
+
+		} else {
+
+			errors.put(jobId + "-" + gene,
+					messageSource.getMessage("messages.errorExportEmpty", new Object[] { jobId }, Locale.US));
+		}
+	}*/
+
 }

@@ -36,7 +36,7 @@ public class FileController {
 	@Autowired
 	private MessageSource messageSource;
 
-	@CrossOrigin
+/*	@CrossOrigin
 	@GetMapping("/read")
 	@ResponseBody
 	public List<String> readFile(@RequestParam("fileName") String fileName, @RequestParam("folder") String folder) {
@@ -93,5 +93,5 @@ public class FileController {
 			}
 		}
 		return mapResult;
-	}
+	} */
 }
