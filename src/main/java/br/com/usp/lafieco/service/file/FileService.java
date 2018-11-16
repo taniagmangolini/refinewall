@@ -1,5 +1,8 @@
 package br.com.usp.lafieco.service.file;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -9,7 +12,9 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
+import org.springframework.util.ResourceUtils;
 
+import br.com.usp.lafieco.exception.CustomException;
 import br.com.usp.lafieco.model.BlastResult;
 import br.com.usp.lafieco.repository.BlastResultRepository;
 import br.com.usp.lafieco.repository.SucestRepository;
@@ -294,6 +299,29 @@ public class FileService implements IFileService {
 		return mapResult;
 	}
 
+	/** Returns the blast processing result file for a sucest gene
+	 * @param sucestGene 
+	 * @return String blast result
+	 */
+	public String readSucestBlastFile(String sucestGene) {
+
+		String content = "";
+
+		try {
+
+			File file = ResourceUtils.getFile("classpath:blast_files/" + sucestGene + TXT);
+
+			//Read File Content
+			content = new String(Files.readAllBytes(file.toPath()));
+
+		} catch (IOException e) {
+			e.printStackTrace();
+			throw new CustomException(
+					messageSource.getMessage("messages.errorReadFile", new Object[] { sucestGene, "blast_files" }, Locale.US));
+		}
+
+		return content;
+	}
 
 	/*
 	public void exportErrors(Map<String, String> errors, String folderName) {

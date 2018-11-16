@@ -35,6 +35,22 @@ public class FileController {
 
 	@Autowired
 	private MessageSource messageSource;
+	
+	
+	@CrossOrigin
+	@GetMapping("/blast")
+	@ResponseBody
+	public String readSucestBlastFile(@RequestParam("sucestGene") String sucestGene) {
+
+		String content = fileService.readSucestBlastFile(sucestGene);
+
+		if (content == null || content.equalsIgnoreCase("")) {
+			throw new CustomException(messageSource.getMessage("messages.errorReadFile", new Object[] {sucestGene, ""}, Locale.US));
+		}
+
+		return content;
+	}
+	
 
 /*	@CrossOrigin
 	@GetMapping("/read")

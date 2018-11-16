@@ -1,14 +1,9 @@
 package br.com.usp.lafieco.service.interfaces;
 
-import java.io.File;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.web.multipart.MultipartFile;
-
 import br.com.usp.lafieco.model.BlastResult;
-import br.com.usp.lafieco.model.Sucest;
 
 public interface IFileService {
 
@@ -18,6 +13,8 @@ public interface IFileService {
 	
 	Map<String, BlastResult> processBlastResultFile(String gene, String folderName, List<String> lines, Boolean isCompleteSearch) ;
 
+	String readSucestBlastFile(String sucestGene) ;
+	
 	//Map<String, BlastResult> processSucestBlastResultFiles( String folderName, Map<String, Sucest> sucests);
 
 	//Map<String, Sucest> processMultipleSequenceFile(MultipartFile file);
