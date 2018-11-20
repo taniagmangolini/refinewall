@@ -91,8 +91,7 @@ public class RefineService implements IRefineService {
 
 		return refineResult;
 	}
-
-
+	
     /**
      * Search a specific sucest gene protein sequence  on refine database.
      * If the sucest is not stored on the refine database the system will perform a blast
@@ -105,6 +104,23 @@ public class RefineService implements IRefineService {
      * @return refineResult 
      */
 	public RefineResultVO refineSequence(String sequence, String email) {
+		return refineSequence( sequence,  email,  null) ;
+	}
+
+
+    /**
+     * Search a specific sucest gene protein sequence  on refine database.
+     * If the sucest is not stored on the refine database and a jobId is not provided the system will perform a blast
+     * to return the proteins associated to the sequence. After that it will
+     * find sucest genes related to the top 20 first blast results. The other results will appear
+     * without any sucest gene associated and the user will have to search individually each unique identifier 
+     * that he or she wants to see the sucests related.
+     * @param sequence  sequence to be searched
+     * @param jobId  jobId of the blast
+     * @param email user's email. A valid email is necessary to perform a blast on ncbi.
+     * @return refineResult 
+     */
+	public RefineResultVO refineSequence(String sequence, String email, String jobId) {
 
 		RefineResultVO refineResult = new RefineResultVO();
 		
@@ -130,7 +146,7 @@ public class RefineService implements IRefineService {
 		} else {
 
 			// perform a blast
-			List<BlastResult> blastResults = blastService.runBlastSequence(sequence, email);
+			List<BlastResult> blastResults = blastService.runBlastSequence(sequence, email, jobId);
 
 			Map<String, List<BlastResult>> blastResultsOnDatabase = null;
 
@@ -142,7 +158,7 @@ public class RefineService implements IRefineService {
 
 				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(20, BigDecimal.ROUND_HALF_EVEN);
 
-				Integer limitSize = 10;
+				Integer limitSize = 20;
 
 				for (BlastResult result : blastResults) {
 

@@ -24,6 +24,18 @@ public class RefineController {
 	private MessageSource messageSource;
 
 	@CrossOrigin
+	@GetMapping("/sequence-job")
+	@ResponseBody
+	public RefineResultVO refineBySequenceAndJob(@RequestParam("sequence") String sequence,
+			@RequestParam("email") String email, @RequestParam("job") String job) {
+		
+		RefineResultVO refineResult = refineService.refineSequence(sequence, email, job);
+		
+		return refineResult;
+	}
+	
+	
+	@CrossOrigin
 	@GetMapping("/sequence")
 	@ResponseBody
 	public RefineResultVO refineBySequence(@RequestParam("sequence") String sequence,

@@ -20,5 +20,7 @@ public interface IBlastService {
 	//void saveBlastResultForSucest(BlastResult blastResult, Sucest sucest);
 	
 	List<BlastResult> runBlastSequence(String sequence, String email);
+	
+	List<BlastResult> runBlastSequence(String sequence, String email, String jobId) ;
 
 }

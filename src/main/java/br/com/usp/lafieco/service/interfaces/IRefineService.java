@@ -7,4 +7,6 @@ public interface IRefineService {
 	RefineResultVO refineSequence(String sequence, String email) ;
 	
 	RefineResultVO refineById(String id, String email) ;
+	
+	RefineResultVO refineSequence(String sequence, String email, String jobId) ;
 }

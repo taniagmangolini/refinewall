@@ -182,10 +182,24 @@ public class BlastService implements IBlastService {
      * @return List<BlastResult> a list of the processed blast results.
      */
 	public List<BlastResult> runBlastSequence(String sequence, String email) {
+		return runBlastSequence( sequence,  email, null); 	
+	}
+	
+    /**
+     * Perfom a blast search, get the blast result and process it.
+     *
+     * @param sequence  sequence to be searched
+     * @param email  email to use to use to process the blast
+     * @param jobId  jobId of the blast service
+     * @return List<BlastResult> a list of the processed blast results.
+     */
+	public List<BlastResult> runBlastSequence(String sequence, String email, String jobId) {
 
 		Integer attempts = 0;
 
-		String jobId = this.runBlast(sequence, email);
+		if(jobId == null || jobId.equalsIgnoreCase("")) {
+			jobId = this.runBlast(sequence, email);
+		}
 
 		Map<String, BlastResult> blastResult = null;
 
