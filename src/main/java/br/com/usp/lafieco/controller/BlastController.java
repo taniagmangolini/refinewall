@@ -28,7 +28,7 @@ public class BlastController {
 	private MessageSource messageSource;
 
 	@CrossOrigin
-	@PostMapping
+	@GetMapping
 	@ResponseBody
 	public String runBlast(@RequestParam("sequence") String sequence, @RequestParam("email") String email) {
 
