@@ -4,6 +4,8 @@ import br.com.usp.lafieco.vo.RefineResultVO;
 
 public interface IRefineService {
 
+	String refineIsOn() ;
+	
 	RefineResultVO refineSequence(String sequence, String email) ;
 	
 	RefineResultVO refineById(String id, String email) ;

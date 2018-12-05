@@ -1,6 +1,5 @@
 package br.com.usp.lafieco.service;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,7 +33,13 @@ public class RefineService implements IRefineService {
 	@Autowired
 	private IBlastService blastService;
 
-
+    /**
+     * Check if the server is on
+     */
+	public String refineIsOn() {
+		return "Refine is ON";
+	}
+	
     /**
      * Search sucest gene or unique identifier on refine database
      *
@@ -156,23 +161,13 @@ public class RefineService implements IRefineService {
 
 				Integer count = 0;
 
-				BigDecimal limitEvalue = new BigDecimal("1e-15").setScale(20, BigDecimal.ROUND_HALF_EVEN);
-
 				Integer limitSize = 20;
 
 				for (BlastResult result : blastResults) {
 
 					List<BlastResult> listBlastExistentOnDatabase = null;
 
-					BigDecimal evalue = null;
-
-					try {
-						evalue = new BigDecimal(result.getEvalue()).setScale(20, BigDecimal.ROUND_HALF_EVEN);
-					} catch (RuntimeException e) {
-
-					}
-
-					if (evalue != null && evalue.compareTo(limitEvalue) < 1 && count <= limitSize
+					if (count <= limitSize
 							&& result.getUniqueIdentifier() != null
 							&& !result.getUniqueIdentifier().equalsIgnoreCase("")) {
 
